@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist_Mono, Hedvig_Letters_Serif, Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import { AgentationToolbar } from "@/components/dev/agentation-toolbar";
@@ -6,17 +6,20 @@ import { AgentationToolbar } from "@/components/dev/agentation-toolbar";
 const instrumentSans = Instrument_Sans({
   variable: "--font-instrument-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const hedvigLettersSerif = Hedvig_Letters_Serif({
   variable: "--font-hedvig-letters-serif",
   subsets: ["latin"],
   weight: "400",
+  display: "swap",
 });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://exuma.example.com";
@@ -43,6 +46,16 @@ export const metadata: Metadata = {
     description: "Exuma — official website.",
   },
   robots: { index: true, follow: true },
+  formatDetection: { telephone: false },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#fcf8f3" },
+    { media: "(prefers-color-scheme: dark)", color: "#252525" },
+  ],
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -52,7 +65,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="fr"
       className={`${instrumentSans.variable} ${geistMono.variable} ${hedvigLettersSerif.variable} h-full antialiased`}
       suppressHydrationWarning
     >

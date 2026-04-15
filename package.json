@@ -30,6 +30,7 @@
     "agentation": "^3.0.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.3",
+    "lighthouse": "^12.8.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
