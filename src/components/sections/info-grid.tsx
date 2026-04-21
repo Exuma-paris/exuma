@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { TextBlock } from "@/components/blocks/text-block";
 import { buttonVariants } from "@/components/ui/button";
@@ -28,7 +30,7 @@ export function InfoGridSection({
 }: InfoGridSectionProps) {
   return (
     <div className={cn("w-full", background)}>
-      <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-10 py-16">
+      <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-10 py-30">
         <div className="flex flex-col items-start gap-6 md:flex-row md:items-end md:justify-between">
           <TextBlock
             align="left"

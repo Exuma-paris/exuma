@@ -65,25 +65,29 @@ export function BentoSection({
 
   return (
     <div className={cn("w-full", background)}>
-      <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px py-16">
-      <div className="grid gap-6 md:grid-cols-2 md:items-end">
+      <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px py-30">
+      <div className="flex flex-col items-center gap-6 text-center">
         <TextBlock
-          align="left"
+          align="center"
           eyebrow={eyebrow}
           heading={heading}
           headingLevel="h2"
+          paragraph={description}
         />
-        <p className="max-w-120 text-secondary-foreground md:justify-self-end">
-          {description}
-        </p>
       </div>
 
-      <div className="grid gap-2 md:grid-cols-3">
-        {first ? <Card card={first} className="md:col-span-2" /> : null}
-        {second ? <Card card={second} /> : null}
-        {rest.map((card) => (
-          <Card key={card.title} card={card} />
-        ))}
+      <div className="flex flex-col gap-2">
+        <div className="grid gap-2 md:grid-cols-2">
+          {first ? <Card card={first} /> : null}
+          {second ? <Card card={second} /> : null}
+        </div>
+        {rest.length > 0 ? (
+          <div className="grid gap-2 md:grid-cols-3">
+            {rest.map((card) => (
+              <Card key={card.title} card={card} />
+            ))}
+          </div>
+        ) : null}
       </div>
 
       {cta ? (

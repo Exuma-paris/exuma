@@ -30,7 +30,7 @@ export function VideoSection({
 
   return (
     <div className={cn("w-full", background)}>
-      <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px py-16">
+      <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px py-30">
         <TextBlock
           align="center"
           eyebrow={eyebrow}

@@ -19,7 +19,7 @@ export function FeatureCard({
   className,
 }: FeatureCardProps) {
   return (
-    <article className={cn("flex flex-col gap-4", className)}>
+    <article className={cn("flex flex-col gap-4 pb-4", className)}>
       <div className="relative aspect-square w-full overflow-hidden bg-muted">
         <Image
           src={image.src}

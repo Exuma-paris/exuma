@@ -30,7 +30,7 @@ export function FeatureShowcase({
 
   return (
     <div className="w-full">
-      <section className="mx-auto grid w-full max-w-layout gap-10 section-px py-16 md:grid-cols-2 md:gap-16 md:items-start">
+      <section className="mx-auto grid w-full max-w-layout gap-10 section-px py-30 md:grid-cols-2 md:gap-16 md:items-start">
         <div className="flex flex-col gap-10">
           <TextBlock
             align="left"

@@ -77,7 +77,7 @@ export function TestimonialsSection({
 
   return (
     <div className={cn("w-full overflow-hidden", background)}>
-      <div className="mx-auto flex w-full max-w-layout flex-col items-start gap-6 section-px pt-16 md:flex-row md:items-end md:justify-between">
+      <div className="mx-auto flex w-full max-w-layout flex-col items-start gap-6 section-px pt-30 md:flex-row md:items-end md:justify-between">
         <div className="flex flex-col gap-3">
           {eyebrow ? (
             <p className="text-eyebrow text-primary">{eyebrow}</p>
@@ -119,7 +119,7 @@ export function TestimonialsSection({
       )}
 
       {hasCarousel ? (
-        <div className="mx-auto flex w-full max-w-layout justify-end gap-2 section-px pt-10 pb-16">
+        <div className="mx-auto flex w-full max-w-layout justify-end gap-2 section-px pt-10 pb-30">
           <Button
             variant="outline"
             className="aspect-square border-0 px-0 shadow-deep"
@@ -138,7 +138,7 @@ export function TestimonialsSection({
           </Button>
         </div>
       ) : (
-        <div className="pb-16" />
+        <div className="pb-30" />
       )}
     </div>
   );
