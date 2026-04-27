@@ -1,381 +1,227 @@
-# REFERENCE — section prop shapes
+# REFERENCE — Section data shapes
 
-Cheat sheet consumed by `SKILL.md`. Every section in the order it appears on the Polynésie reference page.
+The authoritative `Section` discriminated union lives at `src/lib/destination/types.ts`. This file is a generation cheat sheet: one block per `type`, each showing the data-literal skeleton and the image filename convention.
 
-All sections accept an optional `background?: string` (Tailwind class). Omit unless the Polynésie page passes one.
+A `Destination` looks like:
+
+```tsx
+import type { Destination } from "@/lib/destination/types";
+
+export const destination: Destination = {
+  slug: "<slug>",
+  name: "<Destination name>",
+  sections: [
+    /* the 13 entries below, in order */
+  ],
+};
+```
+
+Every section accepts an optional `background?: string` (Tailwind class). Pass it only when the canonical sequence does (noted per section).
 
 ---
 
-## 1. HeroImageGallery
+## 1. hero
 
-- Import: `import { HeroImageGallery } from "@/components/sections/hero/image-gallery";`
-- Props:
-  ```ts
-  {
-    eyebrow?: string;
-    heading: string;          // h1
-    description?: string;
-    cta?: React.ReactNode;    // rarely used
-    images: { src: string; alt: string }[];   // 3 images, square aspect
-    autoScrollInterval?: number;               // default 4000
-  }
-  ```
-- Images: `hero-1.png`, `hero-2.png`, `hero-3.png`
-
-Skeleton:
 ```tsx
-<HeroImageGallery
-  eyebrow="Voyage de luxe en <Destination>"
-  heading="…"
-  description="…"
-  images={[
+{
+  type: "hero",
+  eyebrow: "Voyage de luxe en <Destination>",
+  heading: "…",                      // h1, ≤70 chars
+  description: "…",                  // optional
+  images: [
     { src: "/destination/<slug>/hero-1.png", alt: "…" },
     { src: "/destination/<slug>/hero-2.png", alt: "…" },
     { src: "/destination/<slug>/hero-3.png", alt: "…" },
-  ]}
-/>
+  ],
+}
+```
+
+Images: `hero-1.png`, `hero-2.png`, `hero-3.png` (square aspect, 3 images).
+
+---
+
+## 2. textColumns (intro)
+
+```tsx
+{
+  type: "textColumns",
+  background: "bg-white",
+  eyebrow: "Découverte de <Destination>",
+  heading: "…",
+  cta: { label: "Créer votre voyage", href: "/reserver" },
+  columns: ["…", "…", "…"],          // 3 paragraphs; \n\n supported inside a string
+}
 ```
 
 ---
 
-## 2. TextColumnsSection (intro)
+## 3. fullImage
 
-- Import: `import { TextColumnsSection } from "@/components/sections/text-columns";`
-- Props:
-  ```ts
-  {
-    eyebrow?: string;
-    heading: string;
-    cta?: { label: string; href: string };
-    columns: string[];        // 3 paragraphs; \n\n supported inside a string
-    background?: string;
-  }
-  ```
-
-Skeleton:
 ```tsx
-<TextColumnsSection
-  background="bg-white"
-  eyebrow="Découverte de <Destination>"
-  heading="…"
-  cta={{ label: "Créer votre voyage", href: "/reserver" }}
-  columns={["…", "…", "…"]}
-/>
+{
+  type: "fullImage",
+  image: { src: "/destination/<slug>/full-image.png", alt: "…" },
+  height: 600,
+}
 ```
 
 ---
 
-## 3. FullImageSection
+## 4. textImagesSplit
 
-- Import: `import { FullImageSection } from "@/components/sections/full-image";`
-- Props:
-  ```ts
-  {
-    image: { src: string; alt: string };
-    height?: number;   // default 600
-  }
-  ```
-- Image: `full-image.png` (wide aerial or landscape)
-
-Skeleton:
 ```tsx
-<FullImageSection
-  image={{ src: "/destination/<slug>/full-image.png", alt: "…" }}
-  height={600}
-/>
+{
+  type: "textImagesSplit",
+  eyebrow: "<Destination> — Le luxe et l'exclusif",
+  heading: "…",
+  theme: "light",
+  paragraphs: ["…", "…"],            // 2 paragraphs
+  images: [                          // tuple of exactly 2
+    { src: "/destination/<slug>/split-1.png", alt: "…" },  // portrait 3/4
+    { src: "/destination/<slug>/split-2.png", alt: "…" },  // square
+  ],
+}
 ```
 
 ---
 
-## 4. TextImagesSplitSection
+## 5. featureCards (experiences)
 
-- Import: `import { TextImagesSplitSection } from "@/components/sections/text-images-split";`
-- Props:
-  ```ts
-  {
-    eyebrow?: string;
-    heading: string;
-    paragraphs: string[];                                 // 2 paragraphs
-    images: [{ src; alt }, { src; alt }];                 // exactly 2
-    theme?: "light" | "dark";                             // default "light"
-    background?: string;
-  }
-  ```
-- Images: `split-1.png` (portrait 3/4), `split-2.png` (square)
-
-Skeleton:
 ```tsx
-<TextImagesSplitSection
-  eyebrow="<Destination> — Le luxe et l'exclusif"
-  heading="…"
-  theme="light"
-  paragraphs={["…", "…"]}
-  images={[
-    { src: "/destination/<slug>/split-1.png", alt: "…" },
-    { src: "/destination/<slug>/split-2.png", alt: "…" },
-  ]}
-/>
-```
-
----
-
-## 5. FeatureCardsSection — Experiences
-
-- Import: `import { FeatureCardsSection } from "@/components/sections/feature-cards";`
-- Props:
-  ```ts
-  {
-    eyebrow?: string;
-    heading: string;
-    description?: string;
-    cta?: { label: string; href: string };
-    cards: FeatureCardProps[];
-    background?: string;
-  }
-  ```
-- `FeatureCardProps`:
-  ```ts
-  {
-    title: string;
-    description: string;
-    image: { src: string; alt: string };   // square
-    link?: { label: string; href: string };
-  }
-  ```
-- 3 cards. Images: `xp-<activity>.png`
-
-Skeleton:
-```tsx
-<FeatureCardsSection
-  background="bg-white"
-  eyebrow="Expériences & activités en <Destination>"
-  heading="Nos coups de cœur en <Destination>"
-  description="…"
-  cta={{ label: "Voir tous les coups de cœur", href: "/experiences" }}
-  cards={[
+{
+  type: "featureCards",
+  background: "bg-white",
+  eyebrow: "Expériences & activités en <Destination>",
+  heading: "Nos coups de cœur en <Destination>",
+  description: "…",
+  cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
+  cards: [
     {
       title: "…",
       description: "…",
       image: { src: "/destination/<slug>/xp-<slug-of-activity>.png", alt: "…" },
       link: { label: "Découvrir", href: "/experiences/<slug-of-activity>" },
     },
-    // …2 more
-  ]}
-/>
+    // …2 more (3 total)
+  ],
+}
 ```
 
 ---
 
-## 6. Cultural duo: ImageDuoSection + TextColumnsSection (wrapped)
+## 6. imageDuoWithText (cultural duo)
 
-The Polynésie page wraps these two sections in a `<div>` with Tailwind classes to collapse vertical spacing between them. Replicate the wrapper verbatim.
-
-### 6a. ImageDuoSection
-
-- Import: `import { ImageDuoSection } from "@/components/sections/image-duo";`
-- Props:
-  ```ts
-  {
-    left: { src: string; alt: string };    // aspect 3/2
-    right: { src: string; alt: string };   // aspect 3/4
-    background?: string;
-  }
-  ```
-- Images: `ceremony.png`, `image-homme.png` (or destination-adapted subjects — e.g. for Corse: `chants-polyphonie.png`, `berger-mouflon.png`)
-
-### 6b. TextColumnsSection — cultural coup de cœur
-
-Same component as section 2, but without a CTA typically. 2 paragraphs.
-
-Skeleton for the whole block:
 ```tsx
-<div className="[&>div:first-child_section]:pb-0 [&>div:last-child_section]:pt-10">
-  <ImageDuoSection
-    left={{ src: "/destination/<slug>/ceremony.png", alt: "…" }}
-    right={{ src: "/destination/<slug>/image-homme.png", alt: "…" }}
-  />
-  <TextColumnsSection
-    eyebrow="Notre coup de cœur"
-    heading="…"
-    columns={["…", "…"]}
-  />
-</div>
+{
+  type: "imageDuoWithText",
+  duo: {
+    left: { src: "/destination/<slug>/ceremony.png", alt: "…" },
+    right: { src: "/destination/<slug>/image-homme.png", alt: "…" },
+  },
+  text: {
+    eyebrow: "Notre coup de cœur",
+    heading: "…",                    // evocative, e.g. "L'éveil au cœur du Mana sacré"
+    columns: ["…", "…"],             // 2 paragraphs, no CTA
+  },
+}
 ```
+
+The renderer wraps the two pieces in a div with collapsed vertical spacing — do not try to model that wrapper in data.
+
+For destination-specific subjects, you may rename the images (e.g. `polyphonie.png` + `berger.png` for Corse).
 
 ---
 
-## 7. FeatureCardsSection — Hotels
+## 7. featureCards (hotels)
 
-Same component as section 5 but `bg-background-soft` background. 3 hotel cards. Images: `hotel-<name>.png`.
+Same shape as section 5 with these differences:
 
 ```tsx
-<FeatureCardsSection
-  background="bg-background-soft"
-  eyebrow="Hébergements"
-  heading="Nos hébergements"
-  description="…"
-  cta={{ label: "Voir tous les hébergements", href: "/hebergements" }}
-  cards={[
+{
+  type: "featureCards",
+  background: "bg-background-soft",
+  eyebrow: "Hébergements",
+  heading: "Nos hébergements",
+  description: "…",
+  cta: { label: "Voir tous les hébergements", href: "/hebergements" },
+  cards: [
     {
       title: "<Hotel name>", // TODO: verify
       description: "…",
       image: { src: "/destination/<slug>/hotel-<hotel-slug>.png", alt: "…" },
       link: { label: "Découvrir", href: "/hebergements/<hotel-slug>" },
     },
-    // …2 more
-  ]}
-/>
-```
-
----
-
-## 8. InfoGridSection (via local wrapper)
-
-Create `src/app/destination/<slug>/info-grid.tsx` exporting `<PascalName>InfoGrid`.
-
-- Import in the wrapper: `import { InfoGridSection } from "@/components/sections/info-grid";`
-- Lucide icons: `Plane, Clock, Euro, FileText, Syringe, CalendarDays, Languages`
-- Props:
-  ```ts
-  {
-    eyebrow?: string;
-    heading: string;
-    description?: string;
-    cta?: { label: string; href: string };
-    items: { icon: React.ReactNode; title: string; description: string }[];
-    background?: string;
-  }
-  ```
-- 7 items (flight time, time zone, currency, visa, vaccine, best season, languages). All `description` strings are placeholder facts — prefix with `TODO:` inside the string where fabricated.
-
-Skeleton:
-```tsx
-"use client";
-
-import { Plane, Clock, Euro, FileText, Syringe, CalendarDays, Languages } from "lucide-react";
-import { InfoGridSection } from "@/components/sections/info-grid";
-
-export function <PascalName>InfoGrid() {
-  return (
-    <InfoGridSection
-      background="bg-white"
-      eyebrow="Ce qu'il faut savoir"
-      heading="Préparer votre voyage en <Destination>"
-      description="…"
-      cta={{ label: "Créer votre voyage", href: "/reserver" }}
-      items={[
-        { icon: <Plane />, title: "Temps de vol", description: "TODO: Xh depuis Paris" },
-        { icon: <Clock />, title: "Décalage horaire", description: "TODO: … avec la France" },
-        { icon: <Euro />, title: "Monnaie et conversion", description: "TODO: monnaie locale" },
-        { icon: <FileText />, title: "Visa et passeport", description: "TODO: formalités" },
-        { icon: <Syringe />, title: "Vaccin", description: "TODO: vaccins" },
-        { icon: <CalendarDays />, title: "Meilleure période", description: "TODO: mois" },
-        { icon: <Languages />, title: "Langues parlées", description: "TODO: langues" },
-      ]}
-    />
-  );
+    // …2 more (3 total)
+  ],
 }
 ```
 
-Then in `page.tsx`: `import { <PascalName>InfoGrid } from "./info-grid";` and `<<PascalName>InfoGrid />`.
+---
+
+## 8. infoGrid
+
+```tsx
+{
+  type: "infoGrid",
+  background: "bg-white",
+  eyebrow: "Ce qu'il faut savoir",
+  heading: "Préparer votre voyage en <Destination>",
+  description: "…",
+  cta: { label: "Créer votre voyage", href: "/reserver" },
+  items: [
+    { iconName: "plane",        title: "Temps de vol",          description: "TODO: …" },
+    { iconName: "clock",        title: "Décalage horaire",      description: "TODO: …" },
+    { iconName: "euro",         title: "Monnaie et conversion", description: "TODO: …" },
+    { iconName: "fileText",     title: "Visa et passeport",     description: "TODO: …" },
+    { iconName: "syringe",      title: "Vaccin",                description: "TODO: …" },
+    { iconName: "calendarDays", title: "Meilleure période",     description: "TODO: …" },
+    { iconName: "languages",    title: "Langues parlées",       description: "TODO: …" },
+  ],
+}
+```
+
+`IconName` values: `"plane" | "clock" | "euro" | "fileText" | "syringe" | "calendarDays" | "languages"`. The renderer translates these to Lucide icons via `src/components/destination/icons.tsx`. To add a new icon, extend `IconName` in `types.ts` and the switch in `icons.tsx`.
 
 ---
 
-## 9. BentoSection
+## 9. bento
 
-- Import: `import { BentoSection } from "@/components/sections/bento";`
-- Props:
-  ```ts
-  {
-    eyebrow?: string;
-    heading: string;
-    description: string;    // REQUIRED (unlike most sections)
-    cta?: { label: string; href: string };
-    cards: {
-      title: string;
-      description: string;
-      image: { src: string; alt: string };
-      tone?: "image" | "dark";    // default "image"; first card typically "dark"
-    }[];
-    background?: string;
-  }
-  ```
-- 5 cards. Images: `bento-<topic>.png`. First card `tone: "dark"`.
-
-Skeleton:
 ```tsx
-<BentoSection
-  eyebrow="Exuma"
-  heading="Voyage sur mesure en <Destination>"
-  description="…"
-  cta={{ label: "Créer votre voyage", href: "/reserver" }}
-  cards={[
+{
+  type: "bento",
+  eyebrow: "Exuma",
+  heading: "Voyage sur mesure en <Destination>",
+  description: "…",                  // REQUIRED (unlike most sections)
+  cta: { label: "Créer votre voyage", href: "/reserver" },
+  cards: [
     {
       title: "Création d'itinéraires",
       description: "…",
       image: { src: "/destination/<slug>/bento-map.png", alt: "…" },
-      tone: "dark",
+      tone: "dark",                  // first card typically dark
     },
-    {
-      title: "Adresses confidentielles",
-      description: "…",
-      image: { src: "/destination/<slug>/bento-adresses.png", alt: "…" },
-    },
-    {
-      title: "Hébergements de luxe",
-      description: "…",
-      image: { src: "/destination/<slug>/bento-aerien.png", alt: "…" },
-    },
-    {
-      title: "Conciergerie 24/7",
-      description: "…",
-      image: { src: "/destination/<slug>/bento-conciergerie.png", alt: "…" },
-    },
-    {
-      title: "Expériences immersives",
-      description: "…",
-      image: { src: "/destination/<slug>/bento-experience.png", alt: "…" },
-    },
-  ]}
-/>
+    { title: "Adresses confidentielles", description: "…", image: { src: "/destination/<slug>/bento-adresses.png", alt: "…" } },
+    { title: "Hébergements de luxe",     description: "…", image: { src: "/destination/<slug>/bento-aerien.png",   alt: "…" } },
+    { title: "Conciergerie 24/7",        description: "…", image: { src: "/destination/<slug>/bento-conciergerie.png", alt: "…" } },
+    { title: "Expériences immersives",   description: "…", image: { src: "/destination/<slug>/bento-experience.png", alt: "…" } },
+  ],
+}
 ```
 
 ---
 
-## 10. PlacesMapSection
+## 10. placesMap
 
-- Import: `import { PlacesMapSection } from "@/components/sections/places-map";`
-- Props:
-  ```ts
-  {
-    eyebrow?: string;
-    heading: string;
-    description?: string;
-    cta?: { label: string; href: string };
-    places: {
-      title: string;
-      description: string;
-      image: { src: string; alt: string };   // 80px square preview
-      coordinates: { lat: number; lng: number };
-    }[];
-    mapStyle?: string;        // default openfreemap
-    initialZoom?: number;     // default 5
-    background?: string;
-  }
-  ```
-- 6 places. Coordinates are fabricated → add `// TODO: verify coords` above each `coordinates` line.
-- Images: `map-<place-slug>.png`
-
-Skeleton:
 ```tsx
-<PlacesMapSection
-  background="bg-background-soft"
-  eyebrow="Les incontournables en <Destination>"
-  heading="…"
-  description="…"
-  cta={{ label: "Créer votre voyage", href: "/reserver" }}
-  initialZoom={6}
-  places={[
+{
+  type: "placesMap",
+  background: "bg-background-soft",
+  eyebrow: "Les incontournables en <Destination>",
+  heading: "…",
+  description: "…",
+  cta: { label: "Créer votre voyage", href: "/reserver" },
+  initialZoom: 6,
+  places: [
     {
       title: "<Place>",
       description: "…",
@@ -383,194 +229,129 @@ Skeleton:
       // TODO: verify coords
       coordinates: { lat: 0, lng: 0 },
     },
-    // …5 more
-  ]}
-/>
-```
-
----
-
-## 11. TipsSection (via local wrapper)
-
-Create `src/app/destination/<slug>/tips.tsx` exporting `<PascalName>Tips`.
-
-- Import: `import { TipsSection } from "@/components/sections/tips";`
-- Props:
-  ```ts
-  {
-    eyebrow?: string;
-    heading: string;
-    description?: string;
-    cta?: { label: string; href: string };
-    items: {
-      title: string;
-      cardEyebrow?: string;
-      modalEyebrow?: string;
-      shortDescription?: string;
-      content: React.ReactNode;     // rich JSX shown in modal
-    }[];
-    background?: string;
-  }
-  ```
-- 4 items with canonical titles: *Dans ma valise*, *Santé*, *Meilleure période*, *Budget & Vie locale*. Each has a minimal `content` JSX block with 2 `<p>` + 1 `<h4>` stub.
-
-Skeleton:
-```tsx
-"use client";
-
-import { TipsSection } from "@/components/sections/tips";
-
-export function <PascalName>Tips() {
-  return (
-    <TipsSection
-      background="bg-background-soft"
-      eyebrow="Guide pratique"
-      heading="Les conseils de nos experts pour votre voyage en <Destination>"
-      description="…"
-      cta={{ label: "Créer votre voyage", href: "/reserver" }}
-      items={[
-        {
-          title: "Dans ma valise",
-          cardEyebrow: "Tips",
-          modalEyebrow: "Guide pratique",
-          shortDescription: "…",
-          content: (
-            <div className="flex flex-col gap-4">
-              <p>TODO: formalités passeport / visa pour <Destination>.</p>
-              <h4 className="font-medium">Conseil :</h4>
-              <p>TODO: checklist bagages adaptée à la destination.</p>
-            </div>
-          ),
-        },
-        // …3 more (Santé / Meilleure période / Budget & Vie locale)
-      ]}
-    />
-  );
+    // …5 more (6 total)
+  ],
 }
 ```
 
 ---
 
-## 12. TestimonialsSection
+## 11. tips
 
-- Import: `import { TestimonialsSection } from "@/components/sections/testimonials";`
-- Props:
-  ```ts
-  {
-    eyebrow?: string;
-    heading: string;
-    cta?: { label: string; href: string };
-    testimonials: {
-      quote: string;
-      image: { src: string; alt: string };   // portrait aspect 3/4
-      name: string;
-      role?: string;
-    }[];
-    background?: string;
-  }
-  ```
-- 3 testimonials. Use `hero-1.png` / `hero-2.png` / `hero-3.png` as portraits (matches Polynésie's reuse pattern) — no new image files.
-- **Always** mark quotes as fictional: `// TODO: replace with real testimonial` next to each `quote:`.
-
-Skeleton:
 ```tsx
-<TestimonialsSection
-  eyebrow="Témoignages"
-  heading="Ils ont vécu l'expérience Exuma"
-  cta={{ label: "Créer mon voyage", href: "/reserver" }}
-  testimonials={[
+{
+  type: "tips",
+  background: "bg-background-soft",
+  eyebrow: "Guide pratique",
+  heading: "Les conseils de nos experts pour votre voyage en <Destination>",
+  description: "…",
+  cta: { label: "Créer votre voyage", href: "/reserver" },
+  items: [
     {
-      // TODO: replace with real testimonial
-      quote: "…",
-      image: { src: "/destination/<slug>/hero-1.png", alt: "Portrait" },
-      name: "TODO",
-      role: "TODO: contexte (Voyage de noces, octobre 2025)",
+      title: "Dans ma valise",
+      cardEyebrow: "Tips",
+      modalEyebrow: "Guide pratique",
+      shortDescription: "…",
+      content: (
+        <div className="flex flex-col gap-4">
+          <p>TODO: formalités passeport / visa pour <Destination>.</p>
+          <h4 className="font-medium">Conseil :</h4>
+          <p>TODO: checklist bagages adaptée à la destination.</p>
+        </div>
+      ),
     },
-    // …2 more
-  ]}
-/>
+    // …3 more: "Santé", "Meilleure période", "Budget & Vie locale"
+  ],
+}
 ```
+
+The `content` is `React.ReactNode` — `data.tsx` MUST be `.tsx` for this to compile.
 
 ---
 
-## 13. FaqSection
+## 12. testimonials
 
-- Import: `import { FaqSection } from "@/components/sections/faq";`
-- Props:
-  ```ts
-  {
-    eyebrow?: string;
-    heading: string;
-    contact?: { prefix: string; label: string; href: string; suffix: string };
-    items: { question: string; answer: React.ReactNode }[];
-    background?: string;
-  }
-  ```
-- 6 FAQ items. Canonical questions to cover: best season, flight duration from Paris, visa requirements, number of places to visit in 2 weeks, family-friendly, budget.
-
-Skeleton:
 ```tsx
-<FaqSection
-  background="bg-white"
-  eyebrow="FAQ"
-  heading="Questions fréquentes"
-  contact={{
+{
+  type: "testimonials",
+  eyebrow: "Témoignages",
+  heading: "Ils ont vécu l'expérience Exuma",
+  cta: { label: "Créer mon voyage", href: "/reserver" },
+  testimonials: [
+    {
+      // TODO: replace with real testimonial
+      quote: "…",
+      image: { src: "/destination/<slug>/hero-1.png", alt: "Portrait" },  // reuse hero
+      name: "TODO",
+      role: "TODO: contexte (Voyage de noces, octobre 2025)",
+    },
+    // …2 more, reusing hero-2.png and hero-3.png
+  ],
+}
+```
+
+Reusing hero images for portraits matches both reference pages — no new image files needed.
+
+---
+
+## 13. faq
+
+```tsx
+{
+  type: "faq",
+  background: "bg-white",
+  eyebrow: "FAQ",
+  heading: "Questions fréquentes",
+  contact: {
     prefix: "Besoin d'un renseignement ? ",
     label: "Contactez votre travel designer",
     href: "/contact",
     suffix: " pour une réponse personnalisée.",
-  }}
-  items={[
-    { question: "Quelle est la meilleure période pour partir ?", answer: "TODO: …" },
-    { question: "Combien de temps dure le vol depuis Paris ?", answer: "TODO: …" },
-    { question: "Faut-il un visa pour <Destination> ?", answer: "TODO: …" },
-    { question: "Combien d'étapes peut-on faire en deux semaines ?", answer: "TODO: …" },
-    { question: "Le voyage est-il adapté aux familles ?", answer: "TODO: …" },
-    { question: "Quel budget prévoir ?", answer: "TODO: …" },
-  ]}
-/>
+  },
+  items: [
+    { question: "Quelle est la meilleure période pour partir ?",          answer: "TODO: …" },
+    { question: "Combien de temps dure le vol depuis Paris ?",            answer: "TODO: …" },
+    { question: "Faut-il un visa pour <Destination> ?",                   answer: "TODO: …" },
+    { question: "Combien d'étapes peut-on faire en deux semaines ?",      answer: "TODO: …" },
+    { question: "Le voyage est-il adapté aux familles ?",                 answer: "TODO: …" },
+    { question: "Quel budget prévoir ?",                                  answer: "TODO: …" },
+  ],
+}
 ```
+
+`answer` is `React.ReactNode` — typically just a string, but a JSX `<p>` block works too.
 
 ---
 
-## Page skeleton
+## Adding an extra section to one destination
+
+If the user mentions a per-destination block (e.g. "Corse should also have a section about boat excursions"), insert another entry into that destination's `sections` array at a sensible position. Most one-offs are best modeled as another `featureCards` block:
 
 ```tsx
-import { Header } from "@/components/sections/header";
-import { HeroImageGallery } from "@/components/sections/hero/image-gallery";
-import { TextColumnsSection } from "@/components/sections/text-columns";
-import { FullImageSection } from "@/components/sections/full-image";
-import { TextImagesSplitSection } from "@/components/sections/text-images-split";
-import { FeatureCardsSection } from "@/components/sections/feature-cards";
-import { ImageDuoSection } from "@/components/sections/image-duo";
-import { BentoSection } from "@/components/sections/bento";
-import { PlacesMapSection } from "@/components/sections/places-map";
-import { TestimonialsSection } from "@/components/sections/testimonials";
-import { FaqSection } from "@/components/sections/faq";
-import { <PascalName>InfoGrid } from "./info-grid";
-import { <PascalName>Tips } from "./tips";
+{
+  type: "featureCards",
+  eyebrow: "Excursions en mer",
+  heading: "Sorties en bateau privé",
+  description: "…",
+  cards: [ /* 3 cards */ ],
+}
+```
 
-export default function <PascalName>DestinationPage() {
-  return (
-    <main className="flex-1">
-      <div className="relative">
-        <Header />
-        {/* 1. Hero */}
-      </div>
-      {/* 2. Intro TextColumns */}
-      {/* 3. FullImage */}
-      {/* 4. TextImagesSplit */}
-      {/* 5. Experiences FeatureCards */}
-      {/* 6. Cultural duo (ImageDuo + TextColumns wrapped) */}
-      {/* 7. Hotels FeatureCards */}
-      {/* 8. <PascalName>InfoGrid */}
-      {/* 9. Bento */}
-      {/* 10. PlacesMap */}
-      {/* 11. <PascalName>Tips */}
-      {/* 12. Testimonials */}
-      {/* 13. Faq */}
-    </main>
-  );
+If the layout is genuinely new (not expressible as any existing `Section` variant), the pattern is:
+1. Add a new variant to the `Section` union in `src/lib/destination/types.ts`
+2. Add a `case` for it in `src/components/destination/render-section.tsx`
+3. Use it in the destination's `data.tsx`
+
+---
+
+## page.tsx (always identical)
+
+```tsx
+import { DestinationPage } from "@/components/destination/destination-page";
+import { destination } from "./data";
+
+export default function Page() {
+  return <DestinationPage destination={destination} />;
 }
 ```
 
@@ -578,7 +359,7 @@ export default function <PascalName>DestinationPage() {
 
 ## Search-index entry
 
-File: `src/components/blocks/site-search.tsx`. Locate `SEARCH_GROUPS` → `Destinations` → `items`. Append:
+In `src/components/blocks/site-search.tsx`, locate `SEARCH_GROUPS` → `Destinations` → `items`. Append:
 
 ```ts
 {
@@ -590,4 +371,4 @@ File: `src/components/blocks/site-search.tsx`. Locate `SEARCH_GROUPS` → `Desti
 }
 ```
 
-`MapPin` is already imported in the file — do not re-import.
+`MapPin` is already imported.
