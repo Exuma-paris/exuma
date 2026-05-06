@@ -5,6 +5,8 @@ import Link from "next/link";
 import { Menu, Search } from "lucide-react";
 import { Logo } from "@/components/ui/logo";
 import { Button, buttonVariants } from "@/components/ui/button";
+import { SiteSearch } from "@/components/blocks/site-search";
+import { MenuPanel } from "@/components/blocks/menu-panel";
 import { cn } from "@/lib/utils";
 
 export function Header({
@@ -16,6 +18,8 @@ export function Header({
 }) {
   const [hidden, setHidden] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const lastY = useRef(0);
 
   useEffect(() => {
@@ -66,6 +70,7 @@ export function Header({
             variant="ghost"
             aria-label="Ouvrir le menu"
             className="-ml-3 size-11 before:inset-0 md:hidden"
+            onClick={() => setMenuOpen(true)}
           >
             <Menu className="size-5" />
           </Button>
@@ -73,11 +78,19 @@ export function Header({
             aria-label="Primary"
             className="hidden items-center gap-6 md:flex"
           >
-            <Button variant="ghost" className="gap-2">
+            <Button
+              variant="ghost"
+              className="gap-2"
+              onClick={() => setMenuOpen(true)}
+            >
               <Menu className="size-4" />
               Menu
             </Button>
-            <Button variant="ghost" className="gap-2">
+            <Button
+              variant="ghost"
+              className="gap-2"
+              onClick={() => setSearchOpen(true)}
+            >
               <Search className="size-4" />
               Rechercher
             </Button>
@@ -95,6 +108,7 @@ export function Header({
             variant="ghost"
             aria-label="Rechercher"
             className="-mr-3 size-11 before:inset-0 md:hidden"
+            onClick={() => setSearchOpen(true)}
           >
             <Search className="size-5" />
           </Button>
@@ -118,6 +132,8 @@ export function Header({
           </Link>
         </div>
       </div>
+      <SiteSearch open={searchOpen} onOpenChange={setSearchOpen} />
+      <MenuPanel open={menuOpen} onOpenChange={setMenuOpen} />
     </header>
   );
 }

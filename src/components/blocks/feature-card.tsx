@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 export type FeatureCardProps = {
   title: string;
-  description: string;
+  description: React.ReactNode;
   image: { src: string; alt: string };
   link?: { label: string; href: string };
   className?: string;

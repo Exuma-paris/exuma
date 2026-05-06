@@ -1,0 +1,37 @@
+import type { ServiceCategory } from "@/lib/content/types";
+
+export const serviceCategory: ServiceCategory = {
+  slug: "securite",
+  name: "Sécurité & sérénité",
+  blurb:
+    "Sécurité rapprochée, gestion des imprévus, assistance 24/7 et veille sanitaire.",
+  keywords: [
+    "securite",
+    "protection",
+    "imprevus",
+    "assistance",
+    "sante",
+    "vaccins",
+  ],
+  serviceSlugs: [
+    "securite-rapprochee",
+    "gestion-imprevus",
+    "assistance-247",
+    "veille-sanitaire",
+  ],
+  sections: [
+    {
+      type: "hero",
+      eyebrow: "Service",
+      heading: "Sécurité & sérénité",
+      description:
+        "Protection sur-mesure, réactivité face aux imprévus, disponibilité continue et anticipation des contraintes locales.",
+      images: [
+        {
+          src: "/destination/corse/hero-1.png",
+          alt: "Sécurité",
+        },
+      ],
+    },
+  ],
+};

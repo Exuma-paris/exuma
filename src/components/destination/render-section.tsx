@@ -1,0 +1,287 @@
+import type { ReactNode } from "react";
+import { HeroImageGallery } from "@/components/sections/hero/image-gallery";
+import { TextColumnsSection } from "@/components/sections/text-columns";
+import { FullImageSection } from "@/components/sections/full-image";
+import { TextImagesSplitSection } from "@/components/sections/text-images-split";
+import { FeatureCardsSection } from "@/components/sections/feature-cards";
+import { ImageDuoSection } from "@/components/sections/image-duo";
+import { BentoSection } from "@/components/sections/bento";
+import { PlacesMapSection } from "@/components/sections/places-map";
+import { InfoGridSection } from "@/components/sections/info-grid";
+import { TipsSection } from "@/components/sections/tips";
+import { TestimonialsSection } from "@/components/sections/testimonials";
+import { SpotsListSection } from "@/components/sections/spots-list";
+import { IslandLinksSection } from "@/components/sections/island-links";
+import { ImageTrioSection } from "@/components/sections/image-trio";
+import { FinalCtaSection } from "@/components/sections/final-cta";
+import { SpecialistSpotlight } from "@/components/sections/specialist-spotlight";
+import { FaqSection } from "@/components/sections/faq";
+import type { Section } from "@/lib/destination/types";
+import { accommodations, experiences } from "@/lib/content/registry";
+import { entityRoute } from "@/lib/content/types";
+import { renderIcon } from "./icons";
+
+const ENTITY_PLACEHOLDER_IMAGE = {
+  src: "/destination/polynesie/hero-1.png", // TODO: replace with proper neutral placeholder
+  alt: "",
+};
+
+export function renderSection(section: Section, key: string): ReactNode {
+  switch (section.type) {
+    case "hero":
+      return (
+        <HeroImageGallery
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          images={section.images}
+          autoScrollInterval={section.autoScrollInterval}
+        />
+      );
+
+    case "textColumns":
+      return (
+        <TextColumnsSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          columns={section.columns}
+          cta={section.cta}
+          background={section.background}
+        />
+      );
+
+    case "fullImage":
+      return (
+        <FullImageSection
+          key={key}
+          image={section.image}
+          height={section.height}
+        />
+      );
+
+    case "textImagesSplit":
+      return (
+        <TextImagesSplitSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          paragraphs={section.paragraphs}
+          images={section.images}
+          theme={section.theme}
+          background={section.background}
+        />
+      );
+
+    case "featureCards":
+      return (
+        <FeatureCardsSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          cards={section.cards}
+          background={section.background}
+        />
+      );
+
+    case "imageDuoWithText":
+      return (
+        <div
+          key={key}
+          className="[&>div:first-child_section]:pb-0 [&>div:last-child_section]:pt-10"
+        >
+          <ImageDuoSection
+            left={section.duo.left}
+            right={section.duo.right}
+          />
+          <TextColumnsSection
+            eyebrow={section.text.eyebrow}
+            heading={section.text.heading}
+            columns={section.text.columns}
+            cta={section.text.cta}
+          />
+        </div>
+      );
+
+    case "bento":
+      return (
+        <BentoSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          cards={section.cards}
+          background={section.background}
+        />
+      );
+
+    case "placesMap":
+      return (
+        <PlacesMapSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          places={section.places}
+          initialZoom={section.initialZoom}
+          background={section.background}
+        />
+      );
+
+    case "infoGrid":
+      return (
+        <InfoGridSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          items={section.items.map((item) => ({
+            icon: renderIcon(item.iconName),
+            title: item.title,
+            description: item.description,
+          }))}
+          background={section.background}
+        />
+      );
+
+    case "tips":
+      return (
+        <TipsSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          items={section.items}
+          background={section.background}
+        />
+      );
+
+    case "testimonials":
+      return (
+        <TestimonialsSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          cta={section.cta}
+          testimonials={section.testimonials}
+          background={section.background}
+        />
+      );
+
+    case "spotsList":
+      return (
+        <SpotsListSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          spots={section.spots}
+          background={section.background}
+        />
+      );
+
+    case "islandLinks":
+      return (
+        <IslandLinksSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          links={section.links}
+          background={section.background}
+        />
+      );
+
+    case "imageTrio":
+      return (
+        <ImageTrioSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          images={section.images}
+          background={section.background}
+        />
+      );
+
+    case "finalCta":
+      return (
+        <FinalCtaSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          primaryCta={section.primaryCta}
+          secondaryCta={section.secondaryCta}
+          background={section.background}
+        />
+      );
+
+    case "specialistSpotlight":
+      return (
+        <SpecialistSpotlight
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          partners={section.partners}
+          specialist={section.specialist}
+          features={section.features?.map((f) => ({
+            icon: renderIcon(f.iconName),
+            title: f.title,
+            description: f.description,
+          }))}
+          background={section.background}
+        />
+      );
+
+    case "faq":
+      return (
+        <FaqSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          contact={section.contact}
+          items={section.items}
+          background={section.background}
+        />
+      );
+
+    case "entityList": {
+      const lookup =
+        section.kind === "experience" ? experiences : accommodations;
+      const cards = section.slugs
+        .map((slug) => lookup[slug])
+        .filter((entity) => entity !== undefined)
+        .map((entity) => ({
+          title: entity.name,
+          description: entity.blurb ?? "",
+          image: entity.heroImage ?? ENTITY_PLACEHOLDER_IMAGE,
+          link:
+            entity.sections.length > 0
+              ? {
+                  label: "Découvrir",
+                  href: entityRoute[section.kind](entity.slug),
+                }
+              : undefined,
+        }));
+
+      return (
+        <FeatureCardsSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          cards={cards}
+          background={section.background}
+        />
+      );
+    }
+  }
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useId, useRef, useState } from "react";
 import { MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -16,6 +16,8 @@ export function DestinationSearch({
   className?: string;
 }) {
   const [value, setValue] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
+  const inputId = useId();
 
   return (
     <form
@@ -28,15 +30,23 @@ export function DestinationSearch({
         className ?? "",
       ].join(" ")}
     >
-      <MapPin className="size-4 shrink-0 text-secondary-foreground" />
-      <input
-        type="text"
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-        placeholder={placeholder}
-        aria-label="Destination"
-        className="min-w-0 flex-1 bg-transparent text-[13px] text-foreground placeholder:text-secondary-foreground focus:outline-none"
-      />
+      <label
+        htmlFor={inputId}
+        onClick={() => inputRef.current?.focus()}
+        className="flex flex-1 cursor-text items-center gap-2"
+      >
+        <MapPin className="size-4 shrink-0 text-secondary-foreground" />
+        <input
+          id={inputId}
+          ref={inputRef}
+          type="text"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          placeholder={placeholder}
+          aria-label="Destination"
+          className="min-w-0 flex-1 bg-transparent text-[13px] text-foreground placeholder:text-secondary-foreground focus:outline-none"
+        />
+      </label>
       <Button type="submit">{cta}</Button>
     </form>
   );

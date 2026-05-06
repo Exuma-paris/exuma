@@ -3,6 +3,7 @@ import { Geist_Mono, Hedvig_Letters_Serif, Instrument_Sans } from "next/font/goo
 import Script from "next/script";
 import "./globals.css";
 import { AgentationToolbar } from "@/components/dev/agentation-toolbar";
+import { Footer } from "@/components/sections/footer";
 
 const instrumentSans = Instrument_Sans({
   variable: "--font-instrument-sans",
@@ -81,6 +82,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col">
         {children}
+        <Footer />
         <AgentationToolbar />
       </body>
     </html>
