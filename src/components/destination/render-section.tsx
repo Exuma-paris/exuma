@@ -10,9 +10,21 @@ import { PlacesMapSection } from "@/components/sections/places-map";
 import { InfoGridSection } from "@/components/sections/info-grid";
 import { TipsSection } from "@/components/sections/tips";
 import { TestimonialsSection } from "@/components/sections/testimonials";
+import { SpotsListSection } from "@/components/sections/spots-list";
+import { IslandLinksSection } from "@/components/sections/island-links";
+import { ImageTrioSection } from "@/components/sections/image-trio";
+import { FinalCtaSection } from "@/components/sections/final-cta";
+import { SpecialistSpotlight } from "@/components/sections/specialist-spotlight";
 import { FaqSection } from "@/components/sections/faq";
 import type { Section } from "@/lib/destination/types";
+import { accommodations, experiences } from "@/lib/content/registry";
+import { entityRoute } from "@/lib/content/types";
 import { renderIcon } from "./icons";
+
+const ENTITY_PLACEHOLDER_IMAGE = {
+  src: "/destination/polynesie/hero-1.png", // TODO: replace with proper neutral placeholder
+  alt: "",
+};
 
 export function renderSection(section: Section, key: string): ReactNode {
   switch (section.type) {
@@ -163,6 +175,71 @@ export function renderSection(section: Section, key: string): ReactNode {
         />
       );
 
+    case "spotsList":
+      return (
+        <SpotsListSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          spots={section.spots}
+          background={section.background}
+        />
+      );
+
+    case "islandLinks":
+      return (
+        <IslandLinksSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          links={section.links}
+          background={section.background}
+        />
+      );
+
+    case "imageTrio":
+      return (
+        <ImageTrioSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          images={section.images}
+          background={section.background}
+        />
+      );
+
+    case "finalCta":
+      return (
+        <FinalCtaSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          primaryCta={section.primaryCta}
+          secondaryCta={section.secondaryCta}
+          background={section.background}
+        />
+      );
+
+    case "specialistSpotlight":
+      return (
+        <SpecialistSpotlight
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          partners={section.partners}
+          specialist={section.specialist}
+          features={section.features?.map((f) => ({
+            icon: renderIcon(f.iconName),
+            title: f.title,
+            description: f.description,
+          }))}
+          background={section.background}
+        />
+      );
+
     case "faq":
       return (
         <FaqSection
@@ -174,5 +251,37 @@ export function renderSection(section: Section, key: string): ReactNode {
           background={section.background}
         />
       );
+
+    case "entityList": {
+      const lookup =
+        section.kind === "experience" ? experiences : accommodations;
+      const cards = section.slugs
+        .map((slug) => lookup[slug])
+        .filter((entity) => entity !== undefined)
+        .map((entity) => ({
+          title: entity.name,
+          description: entity.blurb ?? "",
+          image: entity.heroImage ?? ENTITY_PLACEHOLDER_IMAGE,
+          link:
+            entity.sections.length > 0
+              ? {
+                  label: "Découvrir",
+                  href: entityRoute[section.kind](entity.slug),
+                }
+              : undefined,
+        }));
+
+      return (
+        <FeatureCardsSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          cards={cards}
+          background={section.background}
+        />
+      );
+    }
   }
 }

@@ -1,8 +1,23 @@
-import type { Destination } from "@/lib/destination/types";
+import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
   slug: "corse",
   name: "Corse",
+  country: "France",
+  continentSlug: "europe",
+  blurb: "Bonifacio, Calvi, Sartenais, Cap Corse, Lavezzi",
+  keywords: [
+    "corse",
+    "bonifacio",
+    "calvi",
+    "corte",
+    "bastia",
+    "porto-vecchio",
+    "cap corse",
+    "lavezzi",
+    "mediterranee",
+    "ile de beaute",
+  ],
   sections: [
     {
       type: "hero",
@@ -70,45 +85,15 @@ export const destination: Destination = {
     },
 
     {
-      type: "featureCards",
+      type: "entityList",
+      kind: "experience",
       background: "bg-white",
       eyebrow: "Expériences & activités en Corse",
       heading: "Nos coups de cœur en Corse",
       description:
         "Une île qui se révèle à qui prend le temps. Du sentier muletier aux calanques rouges, du bateau privé aux caves de granit, chaque expérience est pensée pour vous immerger dans une Corse intime et préservée.",
       cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
-      cards: [
-        {
-          title: "Randonnée d'une étape sur le GR20",
-          description:
-            "Une journée d'altitude avec un guide local sur l'un des plus beaux tronçons du sentier mythique.",
-          image: {
-            src: "/destination/corse/xp-randonnee-gr20.png",
-            alt: "Randonneurs sur une crête granitique du GR20",
-          },
-          link: { label: "Découvrir", href: "/experiences/gr20" },
-        },
-        {
-          title: "Sortie privée en bateau aux îles Lavezzi",
-          description:
-            "Cap depuis Bonifacio vers les Lavezzi, mouillage confidentiel et déjeuner à bord en petit comité.",
-          image: {
-            src: "/destination/corse/xp-bateau-bonifacio.png",
-            alt: "Bateau privé naviguant vers les îles Lavezzi",
-          },
-          link: { label: "Découvrir", href: "/experiences/lavezzi" },
-        },
-        {
-          title: "Dégustation chez un vigneron du Sartenais",
-          description:
-            "Rencontre avec un maître de chai, dégustation de vermentinos et niellucciu sur les terrasses de granit.",
-          image: {
-            src: "/destination/corse/xp-degustation-vin.png",
-            alt: "Verres de vin corse sur une terrasse en pierre face au maquis",
-          },
-          link: { label: "Découvrir", href: "/experiences/vin-corse" },
-        },
-      ],
+      slugs: ["gr20", "lavezzi", "vin-corse"],
     },
 
     {
@@ -134,45 +119,15 @@ export const destination: Destination = {
     },
 
     {
-      type: "featureCards",
+      type: "entityList",
+      kind: "accommodation",
       background: "bg-background-soft",
       eyebrow: "Hébergements",
       heading: "Nos hébergements",
       description:
         "Nous avons soigneusement choisi les plus belles adresses de Corse — bergeries restaurées, villas en pierre, palaces discrets — pour vous offrir une expérience inoubliable.",
       cta: { label: "Voir tous les hébergements", href: "/hebergements" },
-      cards: [
-        {
-          title: "Domaine de Murtoli", // TODO: verify
-          description:
-            "Un domaine privé de 2 500 hectares dans le Sartenais, entre maquis et plages confidentielles.",
-          image: {
-            src: "/destination/corse/hotel-murtoli.png",
-            alt: "Bergerie en pierre du Domaine de Murtoli au coucher du soleil",
-          },
-          link: { label: "Découvrir", href: "/hebergements/murtoli" },
-        },
-        {
-          title: "Casadelmar", // TODO: verify
-          description:
-            "Un palace contemporain face au golfe de Porto-Vecchio, terrasses suspendues et table étoilée.",
-          image: {
-            src: "/destination/corse/hotel-casadelmar.png",
-            alt: "Architecture contemporaine du Casadelmar face au golfe",
-          },
-          link: { label: "Découvrir", href: "/hebergements/casadelmar" },
-        },
-        {
-          title: "Grand Hôtel de Cala Rossa", // TODO: verify
-          description:
-            "Une villa familiale les pieds dans l'eau, jardin de pins parasols et plage privée.",
-          image: {
-            src: "/destination/corse/hotel-cala-rossa.png",
-            alt: "Plage privée et pins parasols du Grand Hôtel de Cala Rossa",
-          },
-          link: { label: "Découvrir", href: "/hebergements/cala-rossa" },
-        },
-      ],
+      slugs: ["murtoli", "casadelmar", "cala-rossa"],
     },
 
     {
@@ -379,14 +334,14 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Carte d'identité ou passeport. Permis de conduire si vous
-                louez un véhicule (vivement recommandé).
+                TODO: Carte d&apos;identité ou passeport. Permis de conduire si
+                vous louez un véhicule (vivement recommandé).
               </p>
               <p>
                 &laquo; Nous vérifions systématiquement les formalités de chacun
                 de nos clients avant le départ. &raquo;
               </p>
-              <h4 className="font-medium">L'essentiel :</h4>
+              <h4 className="font-medium">L&apos;essentiel :</h4>
               <p>
                 TODO: Tenue légère pour le littoral, chaussures de marche pour
                 les sentiers du maquis, lainage pour les soirées en altitude.
@@ -411,8 +366,8 @@ export const destination: Destination = {
             <div className="flex flex-col gap-4">
               <p>
                 TODO: Aucun vaccin obligatoire. Vaccinations universelles à
-                jour. Numéros d'urgence européens (112) actifs partout sur
-                l'île.
+                jour. Numéros d&apos;urgence européens (112) actifs partout sur
+                l&apos;île.
               </p>
               <p>
                 Soleil intense en été, vigilance déshydratation en randonnée.
@@ -441,14 +396,14 @@ export const destination: Destination = {
               </p>
               <p>
                 Juillet-août : haute saison, chaleur forte, plages animées —
-                parfait pour les amateurs d'effervescence, à anticiper côté
+                parfait pour les amateurs d&apos;effervescence, à anticiper côté
                 hébergements.
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
-                TODO: Festivals d'été (Calvi on the Rocks, Festivoce de Pigna),
-                fêtes de village d'août — à intégrer à l'itinéraire pour ceux
-                qui aiment la culture vivante.
+                TODO: Festivals d&apos;été (Calvi on the Rocks, Festivoce de
+                Pigna), fêtes de village d&apos;août — à intégrer à
+                l&apos;itinéraire pour ceux qui aiment la culture vivante.
               </p>
             </div>
           ),
@@ -467,7 +422,7 @@ export const destination: Destination = {
               </p>
               <p>
                 Marchés de producteurs dans la plupart des villages le matin :
-                charcuterie, fromage, miel, huile d'olive, vin.
+                charcuterie, fromage, miel, huile d&apos;olive, vin.
               </p>
               <h4 className="font-medium">Moyens de transport sur place :</h4>
               <p>

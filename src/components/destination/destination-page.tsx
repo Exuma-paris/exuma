@@ -1,5 +1,5 @@
 import { Header } from "@/components/sections/header";
-import type { Destination } from "@/lib/destination/types";
+import type { Destination } from "@/lib/content/types";
 import { renderSection } from "./render-section";
 
 export function DestinationPage({ destination }: { destination: Destination }) {

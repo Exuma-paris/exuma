@@ -1,20 +1,29 @@
 # REFERENCE — Section data shapes
 
-The authoritative `Section` discriminated union lives at `src/lib/destination/types.ts`. This file is a generation cheat sheet: one block per `type`, each showing the data-literal skeleton and the image filename convention.
+The authoritative `Destination` type lives at `src/lib/content/types.ts`; the `Section` discriminated union lives at `src/lib/destination/types.ts` and is re-exported from `src/lib/content/types.ts`. Always import both from `@/lib/content/types`. This file is a generation cheat sheet: one block per `type`, each showing the data-literal skeleton and the image filename convention.
 
 A `Destination` looks like:
 
 ```tsx
-import type { Destination } from "@/lib/destination/types";
+import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
   slug: "<slug>",
   name: "<Destination name>",
+  country: "<French country name>",
+  continentSlug: "<one of: europe, afrique, asie, ameriques, proche-orient, iles-oceanie>",
+  blurb: "<one-line teaser, 4–8 words>",
+  keywords: [
+    "<slug>",
+    /* 3–8 lowercase, no-accent strings: notable places, regions, activities */
+  ],
   sections: [
     /* the 13 entries below, in order */
   ],
 };
 ```
+
+The four new top-level fields (`country`, `continentSlug`, `blurb`, `keywords`) are what wire the destination into the menu's continent → country grouping, the footer's continent listing, and the site-search results. They are technically optional in the type but should always be filled in — leaving them out means the destination won't appear in those surfaces.
 
 Every section accepts an optional `background?: string` (Tailwind class). Pass it only when the canonical sequence does (noted per section).
 
@@ -85,27 +94,24 @@ Images: `hero-1.png`, `hero-2.png`, `hero-3.png` (square aspect, 3 images).
 
 ---
 
-## 5. featureCards (experiences)
+## 5. entityList (experiences)
+
+This block references 3 experience slugs. The cards' display data (title, blurb, image) comes from each `Experience` entity file under `src/content/experiences/`. See "Experience entity stub" below for the entity shape.
 
 ```tsx
 {
-  type: "featureCards",
+  type: "entityList",
+  kind: "experience",
   background: "bg-white",
   eyebrow: "Expériences & activités en <Destination>",
   heading: "Nos coups de cœur en <Destination>",
   description: "…",
   cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
-  cards: [
-    {
-      title: "…",
-      description: "…",
-      image: { src: "/destination/<slug>/xp-<slug-of-activity>.png", alt: "…" },
-      link: { label: "Découvrir", href: "/experiences/<slug-of-activity>" },
-    },
-    // …2 more (3 total)
-  ],
+  slugs: ["<exp-slug-1>", "<exp-slug-2>", "<exp-slug-3>"],
 }
 ```
+
+Cards on the page render unlinked while the referenced entities have `sections: []` (the default state when the skill creates a fresh stub). Once an entity grows a non-empty `sections[]`, its card on this destination is automatically linked to `/experiences/<exp-slug>`. No edit to this block is required when an entity is promoted.
 
 ---
 
@@ -132,29 +138,24 @@ For destination-specific subjects, you may rename the images (e.g. `polyphonie.p
 
 ---
 
-## 7. featureCards (hotels)
+## 7. entityList (hotels)
 
-Same shape as section 5 with these differences:
+This block references 3 accommodation slugs. The cards' display data comes from each `Accommodation` entity file under `src/content/accommodations/`. See "Accommodation entity stub" below for the entity shape.
 
 ```tsx
 {
-  type: "featureCards",
+  type: "entityList",
+  kind: "accommodation",
   background: "bg-background-soft",
   eyebrow: "Hébergements",
   heading: "Nos hébergements",
   description: "…",
   cta: { label: "Voir tous les hébergements", href: "/hebergements" },
-  cards: [
-    {
-      title: "<Hotel name>", // TODO: verify
-      description: "…",
-      image: { src: "/destination/<slug>/hotel-<hotel-slug>.png", alt: "…" },
-      link: { label: "Découvrir", href: "/hebergements/<hotel-slug>" },
-    },
-    // …2 more (3 total)
-  ],
+  slugs: ["<hotel-slug-1>", "<hotel-slug-2>", "<hotel-slug-3>"],
 }
 ```
+
+Same linkability rule as section 5: cards are unlinked while the referenced entities have empty `sections[]`, automatically linked once sections are added.
 
 ---
 
@@ -340,35 +341,101 @@ If the user mentions a per-destination block (e.g. "Corse should also have a sec
 If the layout is genuinely new (not expressible as any existing `Section` variant), the pattern is:
 1. Add a new variant to the `Section` union in `src/lib/destination/types.ts`
 2. Add a `case` for it in `src/components/destination/render-section.tsx`
-3. Use it in the destination's `data.tsx`
+3. Use it in the destination's `<slug>.tsx`
 
 ---
 
-## page.tsx (always identical)
+## No per-slug page.tsx
+
+The dynamic routes at `src/app/destinations/[slug]/page.tsx`, `src/app/experiences/[slug]/page.tsx` and `src/app/hebergements/[slug]/page.tsx` read from the registry and render every entity. Do NOT create a per-slug `page.tsx`.
+
+When an experience or accommodation has empty `sections[]`, the dynamic route renders a stub page (`<EntityStubPage>`: eyebrow "Bientôt", entity name + blurb, two CTAs). The card on the destination page rendering this entity is unlinked while sections are empty, and becomes linked automatically once at least one section is added.
+
+---
+
+## Experience entity stub
+
+Each card in a destination's `entityList kind: "experience"` section comes from a file at `src/content/experiences/<exp-slug>.tsx`:
 
 ```tsx
-import { DestinationPage } from "@/components/destination/destination-page";
-import { destination } from "./data";
+import type { Experience } from "@/lib/content/types";
 
-export default function Page() {
-  return <DestinationPage destination={destination} />;
-}
+export const experience: Experience = {
+  slug: "<exp-slug>",
+  name: "<Experience name — French>",
+  blurb:
+    "<2–3 sentence editorial blurb following STYLE.md per-section rules. Same copy that used to live as the inline card description on the destination page.>",
+  keywords: ["<destination-slug>", /* 3–5 lowercase no-accent strings */],
+  heroImage: {
+    src: "/destination/<destination-slug>/xp-<activity>.png",
+    alt: "<French alt text>",
+  },
+  destinationSlugs: ["<destination-slug>"],
+  // optional: themeSlugs?: string[], subthemeSlugs?: string[]
+  sections: [],
+};
 ```
+
+`destinationSlugs` is **plural and optional**. An experience can belong to multiple destinations (e.g. the same Polynesian fishing experience referenced from `polynesie` AND `polynesie-2`). When you discover this is the case during step 4 (reading existing experience files), edit the existing file's `destinationSlugs` array — don't create a duplicate.
 
 ---
 
-## Search-index entry
+## Accommodation entity stub
 
-In `src/components/blocks/site-search.tsx`, locate `SEARCH_GROUPS` → `Destinations` → `items`. Append:
+Each card in a destination's `entityList kind: "accommodation"` section comes from a file at `src/content/accommodations/<hotel-slug>.tsx`:
 
-```ts
-{
-  label: "<Destination name>",
-  description: "<one-line teaser>",
-  href: "/destination/<slug>",
-  icon: MapPin,
-  keywords: ["<slug>", /* 3-5 notable places or region names in lowercase, no accents */],
-}
+```tsx
+import type { Accommodation } from "@/lib/content/types";
+
+export const accommodation: Accommodation = {
+  slug: "<hotel-slug>",
+  name: "<Hotel name>", // // TODO: verify if invented
+  blurb:
+    "<2–3 sentence editorial blurb following STYLE.md per-section rules.>",
+  keywords: ["<destination-slug>", /* 3–5 strings */],
+  heroImage: {
+    src: "/destination/<destination-slug>/hotel-<name>.png",
+    alt: "<French alt text>",
+  },
+  destinationSlug: "<destination-slug>",
+  sections: [],
+};
 ```
 
-`MapPin` is already imported.
+`destinationSlug` is **singular and required** — a hotel sits at one destination.
+
+---
+
+## Registry entry
+
+In `src/lib/content/registry.ts`, up to three groups of edits depending on whether you created new entity stubs:
+
+### Destination (always)
+
+1. Add an import alongside the other destination imports near the top of the file:
+
+   ```ts
+   import { destination as <camelSlug> } from "@/content/destinations/<slug>";
+   ```
+
+   `<camelSlug>` is the slug with hyphens removed and the next letter uppercased (`saint-barth` → `saintBarth`).
+
+2. Add the identifier inside the `toMap([...])` call assigned to `destinations`, alphabetically.
+
+### Experience stubs (one per new file in step 5b)
+
+For each new experience file, add an import next to the other experience imports and add the identifier to the `experiences: Record<string, Experience> = toMap([...])` array, alphabetically:
+
+```ts
+import { experience as <camelExpSlug> } from "@/content/experiences/<exp-slug>";
+```
+
+### Accommodation stubs (one per new file in step 5b)
+
+Same pattern next to the other accommodation imports:
+
+```ts
+import { accommodation as <camelHotelSlug> } from "@/content/accommodations/<hotel-slug>";
+```
+
+The registry is the only place that decides whether the dynamic `/destinations/[slug]`, `/experiences/[slug]` and `/hebergements/[slug]` routes pick up the new files. The site search, header menu, footer, and sitemap are all driven from this registry. There is no additional registration step.

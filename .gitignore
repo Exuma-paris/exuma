@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# image-generation references — keep SOURCES.md tracked, ignore the binaries
+references/**/*.jpg
+references/**/*.jpeg
+references/**/*.png
+references/**/*.webp

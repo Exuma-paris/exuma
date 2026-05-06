@@ -1,8 +1,10 @@
-import type { Destination } from "@/lib/destination/types";
+import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
-  slug: "polynesie",
-  name: "Polynésie française",
+  slug: "polynesie-old",
+  name: "Polynésie française (ancienne version)",
+  country: "Polynésie française",
+  continentSlug: "iles-oceanie",
   sections: [
     {
       type: "hero",

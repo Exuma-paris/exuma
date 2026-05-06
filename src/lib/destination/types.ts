@@ -11,7 +11,10 @@ export type IconName =
   | "fileText"
   | "syringe"
   | "calendarDays"
-  | "languages";
+  | "languages"
+  | "badgeCheck"
+  | "sparkles"
+  | "star";
 
 export type Section =
   | {
@@ -139,6 +142,64 @@ export type Section =
       background?: string;
     }
   | {
+      type: "spotsList";
+      eyebrow?: string;
+      heading: string;
+      description?: string;
+      cta?: Cta;
+      spots: { title: string; description: string }[];
+      background?: string;
+    }
+  | {
+      type: "islandLinks";
+      eyebrow?: string;
+      heading: string;
+      links: { label: string; href: string }[];
+      background?: string;
+    }
+  | {
+      type: "imageTrio";
+      eyebrow?: string;
+      heading?: string;
+      description?: string;
+      images: [ImageRef, ImageRef, ImageRef];
+      background?: string;
+    }
+  | {
+      type: "finalCta";
+      eyebrow?: string;
+      heading: string;
+      primaryCta: Cta;
+      secondaryCta?: Cta;
+      background?: string;
+    }
+  | {
+      type: "specialistSpotlight";
+      eyebrow?: string;
+      heading: string;
+      partners?: {
+        title?: string;
+        logos?: {
+          src: string;
+          alt: string;
+          width: number;
+          height: number;
+        }[];
+      };
+      specialist: {
+        quote: string;
+        image: ImageRef;
+        name: string;
+        role?: string;
+      };
+      features?: {
+        iconName: IconName;
+        title: string;
+        description: string;
+      }[];
+      background?: string;
+    }
+  | {
       type: "faq";
       eyebrow?: string;
       heading: string;
@@ -149,6 +210,16 @@ export type Section =
         suffix: string;
       };
       items: { question: string; answer: ReactNode }[];
+      background?: string;
+    }
+  | {
+      type: "entityList";
+      kind: "experience" | "accommodation";
+      eyebrow?: string;
+      heading: string;
+      description?: string;
+      cta?: Cta;
+      slugs: string[];
       background?: string;
     };
 

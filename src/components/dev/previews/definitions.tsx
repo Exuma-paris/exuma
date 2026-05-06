@@ -17,6 +17,9 @@ import {
   Syringe,
   CalendarDays,
   Languages,
+  BadgeCheck,
+  Sparkles,
+  Star,
 } from "lucide-react";
 import { Recommended } from "@/components/blocks/recommended";
 import { BentoSection } from "@/components/sections/bento";
@@ -24,7 +27,10 @@ import { FeatureCardsSection } from "@/components/sections/feature-cards";
 import { VideoSection } from "@/components/sections/video";
 import { FeatureShowcase } from "@/components/sections/feature-showcase";
 import { TestimonialsSection } from "@/components/sections/testimonials";
+import { SpecialistSpotlight } from "@/components/sections/specialist-spotlight";
+import { FeatureTrio } from "@/components/blocks/feature-trio";
 import { FaqSection } from "@/components/sections/faq";
+import { Footer } from "@/components/sections/footer";
 import { Button } from "@/components/ui/button";
 import type {
   ControlValue,
@@ -842,6 +848,109 @@ export const definitions: PreviewDefinition[] = [
     ),
   },
   {
+    id: "specialist-spotlight",
+    label: "Specialist spotlight",
+    controls: [
+      {
+        key: "theme",
+        type: "select",
+        label: "Theme",
+        options: [
+          { label: "Light", value: "light" },
+          { label: "Dark", value: "dark" },
+        ],
+      },
+    ],
+    defaultValues: { theme: "light" },
+    render: (v) => (
+      <SpecialistSpotlight
+        theme={str(v.theme) === "dark" ? "dark" : "light"}
+        eyebrow="Pourquoi partir en Polynésie française ?"
+        heading="Stéphane, spécialiste de la Polynésie, vous partage son expérience"
+        partners={{ logos }}
+        specialist={{
+          quote:
+            "Voyager en Polynésie, c'est découvrir des paysages époustouflants, des plages de sable fin et une culture riche. Une aventure unique qui éveille les sens et nourrit l'âme.",
+          image: {
+            src: "/testimonials/stephane.jpg",
+            alt: "Portrait de Stéphane, travel designer",
+          },
+          name: "Stéphane",
+          role: "Travel Designer Exuma spécialiste de la Polynésie",
+        }}
+        features={[
+          {
+            icon: <BadgeCheck />,
+            title: "Conciergerie 24/7",
+            description:
+              "Assistance discrète, fast-track, chauffeurs privés et réservations exclusives.",
+          },
+          {
+            icon: <Sparkles />,
+            title: "Sur mesure",
+            description:
+              "Un travel designer dédié, expert de la Polynésie, façonne votre voyage selon vos envies.",
+          },
+          {
+            icon: <Star />,
+            title: "Exclusif",
+            description:
+              "Accédez à des expériences rares, villas isolées et cérémonies polynésiennes authentiques.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    id: "feature-trio",
+    label: "Feature trio",
+    controls: [
+      {
+        key: "theme",
+        type: "select",
+        label: "Theme",
+        options: [
+          { label: "Light", value: "light" },
+          { label: "Dark", value: "dark" },
+        ],
+      },
+      {
+        key: "background",
+        type: "swatch",
+        label: "Background",
+        options: backgroundSwatches,
+      },
+    ],
+    defaultValues: { theme: "light", background: "" },
+    render: (v) => (
+      <div className={`section-px mx-auto w-full max-w-layout py-16 ${str(v.background)}`}>
+        <FeatureTrio
+          theme={str(v.theme) === "dark" ? "dark" : "light"}
+          items={[
+            {
+              icon: <BadgeCheck />,
+              title: "Conciergerie 24/7",
+              description:
+                "Assistance discrète, fast-track, chauffeurs privés et réservations exclusives.",
+            },
+            {
+              icon: <Sparkles />,
+              title: "Sur mesure",
+              description:
+                "Un travel designer dédié, expert de la Polynésie, façonne votre voyage selon vos envies.",
+            },
+            {
+              icon: <Star />,
+              title: "Exclusif",
+              description:
+                "Accédez à des expériences rares, villas isolées et cérémonies polynésiennes authentiques.",
+            },
+          ]}
+        />
+      </div>
+    ),
+  },
+  {
     id: "faq",
     label: "FAQ",
     controls: [
@@ -873,5 +982,12 @@ export const definitions: PreviewDefinition[] = [
         items={faqItems.slice(0, num(v.itemCount, 3))}
       />
     ),
+  },
+  {
+    id: "footer",
+    label: "Footer",
+    controls: [],
+    defaultValues: {},
+    render: () => <Footer />,
   },
 ];

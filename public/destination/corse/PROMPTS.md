@@ -3,7 +3,7 @@
 Workflow per image: (1) search Google Images with the query below, save a reference;
 (2) feed the reference + the generation prompt to an image generator.
 
-25 unique images referenced by `src/app/destination/corse/page.tsx`.
+25 unique images referenced by `src/app/destination/corse/data.tsx`. Testimonials reuse `hero-1/2/3.png` so they have no separate entry.
 
 ---
 

@@ -40,8 +40,8 @@ export function Recommended({
 }) {
   return (
     <div className={cn("flex flex-col items-center gap-4", className)}>
-      <p className="text-secondary-foreground">{title}</p>
-      <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-8">
+      {title ? <p className="text-secondary-foreground">{title}</p> : null}
+      <ul className="flex flex-nowrap items-center gap-x-6">
         {logos.map((logo) => (
           <li key={logo.src}>
             <Image
