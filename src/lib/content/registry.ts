@@ -20,6 +20,7 @@ import { destination as polynesie2 } from "@/content/destinations/polynesie-2";
 import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as paris } from "@/content/destinations/paris";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
+import { destination as japon } from "@/content/destinations/japon";
 import { destination as rome } from "@/content/destinations/rome";
 
 import { continent as europe } from "@/content/continents/europe";
@@ -60,7 +61,11 @@ import { experience as nonnaCuisineTrastevere } from "@/content/experiences/nonn
 import { experience as viaAppiaVespa } from "@/content/experiences/via-appia-vespa";
 import { experience as atelierSambaMangueira } from "@/content/experiences/atelier-samba-mangueira";
 import { experience as corcovadoAubePaineiras } from "@/content/experiences/corcovado-aube-paineiras";
+import { experience as atelierLaqueWajima } from "@/content/experiences/atelier-laque-wajima";
 import { experience as ilesCagarrasPecheur } from "@/content/experiences/iles-cagarras-pecheur";
+import { experience as nuitKoyasan } from "@/content/experiences/nuit-koyasan";
+import { experience as randonneeKumanoKodo } from "@/content/experiences/randonnee-kumano-kodo";
+import { experience as ukaiGifu } from "@/content/experiences/ukai-gifu";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -79,6 +84,9 @@ import { accommodation as jKPlaceRoma } from "@/content/accommodations/j-k-place
 import { accommodation as hasslerRoma } from "@/content/accommodations/hassler-roma";
 import { accommodation as belmondCopacabanaPalace } from "@/content/accommodations/belmond-copacabana-palace";
 import { accommodation as fasanoRio } from "@/content/accommodations/fasano-rio";
+import { accommodation as amanKyoto } from "@/content/accommodations/aman-kyoto";
+import { accommodation as asabaRyokan } from "@/content/accommodations/asaba-ryokan";
+import { accommodation as beniyaMukayu } from "@/content/accommodations/beniya-mukayu";
 import { accommodation as hotelSantaTeresa } from "@/content/accommodations/hotel-santa-teresa";
 
 import { collaborateur as antoine } from "@/content/collaborateurs/antoine";
@@ -90,6 +98,7 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
 
 export const destinations: Record<string, Destination> = toMap([
   corse,
+  japon,
   marrakech,
   paris,
   polynesie,
@@ -121,6 +130,7 @@ export const themes: Record<string, Theme> = toMap([
 export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
+  atelierLaqueWajima,
   atelierLesage,
   atelierSambaMangueira,
   corcovadoAubePaineiras,
@@ -134,9 +144,12 @@ export const experiences: Record<string, Experience> = toMap([
   louvrePriveNocturne,
   nickTetautiare,
   nonnaCuisineTrastevere,
+  nuitKoyasan,
   pecheMoorea,
+  randonneeKumanoKodo,
   rungisChef,
   survolAtlasBiplan,
+  ukaiGifu,
   viaAppiaVespa,
   vinCorse,
 ]);
@@ -153,6 +166,9 @@ export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
   amanjena,
+  amanKyoto,
+  asabaRyokan,
+  beniyaMukayu,
   belmondCopacabanaPalace,
   calaRossa,
   casadelmar,

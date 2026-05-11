@@ -128,8 +128,15 @@ export function SpecialistSpotlight({
         resolvedBg,
       )}
     >
-      <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-12 py-30">
-        <div className="flex flex-col items-start gap-8 md:flex-row md:items-end md:justify-between">
+      <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-12 pb-30 pt-12 md:py-30">
+        <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+          {partners ? (
+            <Recommended
+              title={partners.title}
+              logos={partners.logos}
+              className="order-first md:order-last md:items-end"
+            />
+          ) : null}
           <div className="flex flex-col gap-3">
             {eyebrow ? (
               <p className="text-eyebrow text-primary">{eyebrow}</p>
@@ -144,13 +151,6 @@ export function SpecialistSpotlight({
               {heading}
             </h2>
           </div>
-          {partners ? (
-            <Recommended
-              title={partners.title}
-              logos={partners.logos}
-              className="md:items-end"
-            />
-          ) : null}
         </div>
 
         <TestimonialCard
