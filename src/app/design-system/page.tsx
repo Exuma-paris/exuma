@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ArrowRight, Sparkles } from "lucide-react";
 import { Button, buttonVariants } from "@/components/ui/button";
+import { IconPillButton } from "@/components/ui/icon-pill-button";
+import { SelectTileDemo } from "@/components/dev/select-tile-demo";
+import { StepProgress } from "@/components/ui/step-progress";
+import { SimpleHeader } from "@/components/sections/simple-header";
 import { cn } from "@/lib/utils";
 import { TextBlock } from "@/components/blocks/text-block";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
@@ -252,6 +257,76 @@ export default function DesignSystemPage() {
           <Button size="lg">Large</Button>
           <Button disabled>Disabled</Button>
         </div>
+      </Section>
+
+      <Section
+        title="Icon pill button"
+        description="Pill CTA with a circular icon container on the right. Renders as <Link> when href is provided, otherwise as <button>. Default icon is Lucide Plus; pass any icon via the icon prop."
+      >
+        <div className="rounded-md bg-background-soft p-8">
+          <div className="flex flex-wrap items-center gap-4">
+            <IconPillButton href="/destinations/polynesie">
+              Découvrir la Polynésie
+            </IconPillButton>
+            <IconPillButton href="/destinations/marrakech" icon={<ArrowRight />}>
+              Voir Marrakech
+            </IconPillButton>
+            <IconPillButton href="/reserver" icon={<Sparkles />}>
+              Construire ce voyage
+            </IconPillButton>
+          </div>
+        </div>
+        <p className="font-mono text-xs text-muted-foreground">
+          py-1.5 pl-4 pr-1.5 · gap-3 · bubble size-7 · icon size-4 stroke-1.5 · shadow-deep · rounded-full · cursor-pointer
+        </p>
+      </Section>
+
+      <Section
+        title="Simple header"
+        description="Reduced header used on landing pages. Logo on the left, single 'Contactez-nous' pill on the right with optional travel-designer avatar and online-status dot. No menu or search; the landing page funnels everything through the floating CTA and contact pill."
+      >
+        <div className="overflow-hidden rounded-md border border-border">
+          <SimpleHeader
+            contactCta={{
+              label: "Contactez-nous",
+              href: "/contact",
+              avatar: {
+                src: "/destination/polynesie/hero-1.png",
+                alt: "Stéphane, votre travel designer",
+              },
+              statusOnline: true,
+            }}
+          />
+        </div>
+        <p className="font-mono text-xs text-muted-foreground">
+          py-4 px-10 · bg-background-subtle · border-b border-border · pill: h-10 · pl-1 pr-3 · avatar size-8 · status dot size-2 bg-[#33b06f]
+        </p>
+      </Section>
+
+      <Section
+        title="Step progress"
+        description="Segmented horizontal progress indicator. Used at the top of multi-step flows (questionnaire, booking funnel). The active segment is 32px wide, the inactive segments are 16px wide; pass step (1-based) and total."
+      >
+        <div className="flex flex-col gap-6 rounded-md bg-background-soft p-8">
+          <StepProgress step={1} total={9} />
+          <StepProgress step={3} total={9} />
+          <StepProgress step={9} total={9} />
+        </div>
+        <p className="font-mono text-xs text-muted-foreground">
+          h-0.5 · gap-1 · active w-8 bg-foreground · inactive w-4 bg-border · transition-all
+        </p>
+      </Section>
+
+      <Section
+        title="Select tile"
+        description="Tile-shaped multi-select toggle. Renders as a button with a label and a checkbox indicator. Selected state: bold dark border + soft warm shadow + filled checkmark. Click any tile to toggle (interactive demo)."
+      >
+        <div className="rounded-md bg-background-soft p-8">
+          <SelectTileDemo />
+        </div>
+        <p className="font-mono text-xs text-muted-foreground">
+          p-4 · rounded-xl · checkbox size-5 · outline-based frame (no layout shift) · unselected: 1px var(--border) · selected: 2px var(--foreground) + warm shadow
+        </p>
       </Section>
 
       <Section

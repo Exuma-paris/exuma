@@ -1,9 +1,22 @@
 import Image from "next/image";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type FullImageSectionProps = {
   image: { src: string; alt: string };
   height?: number;
 };
+
+export const fullImageMeta = {
+  type: "fullImage",
+  intent: "Full-bleed atmospheric image used as a visual breath between content blocks.",
+  slots: {
+    image: {
+      role: "Full-bleed image.",
+      required: true,
+      image: { role: "atmospheric breath", ratio: "16:9" },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function FullImageSection({
   image,

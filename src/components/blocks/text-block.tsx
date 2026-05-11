@@ -12,6 +12,7 @@ export function TextBlock({
   eyebrowTone = "primary",
   heading,
   headingLevel = "h2",
+  headingSize,
   paragraph,
   cta,
   align = "left",
@@ -21,12 +22,14 @@ export function TextBlock({
   eyebrowTone?: keyof typeof eyebrowTones;
   heading: string;
   headingLevel?: HeadingLevel;
+  headingSize?: HeadingLevel;
   paragraph?: string;
   cta?: React.ReactNode;
   align?: "left" | "center";
   className?: string;
 }) {
   const Heading = headingLevel;
+  const sizeToken = headingSize ?? headingLevel;
   return (
     <div
       className={cn(
@@ -46,7 +49,7 @@ export function TextBlock({
             {eyebrow}
           </p>
         ) : null}
-        <Heading className={`text-${headingLevel} max-w-180`}>
+        <Heading className={`text-${sizeToken} max-w-180`}>
           {heading}
         </Heading>
         {paragraph ? (

@@ -4,7 +4,7 @@ export const serviceCategory: ServiceCategory = {
   slug: "conciergerie",
   name: "Conciergerie privée & VIP",
   blurb:
-    "Moments d'exception, personnel dédié, réservations de dernière minute — l'art d'obtenir l'impossible.",
+    "Moments d'exception, personnel dédié, réservations de dernière minute, l'art d'obtenir l'impossible.",
   keywords: [
     "conciergerie",
     "vip",

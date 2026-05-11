@@ -1,6 +1,24 @@
 # REFERENCE — Section data shapes
 
-The authoritative `Destination` type lives at `src/lib/content/types.ts`; the `Section` discriminated union lives at `src/lib/destination/types.ts` and is re-exported from `src/lib/content/types.ts`. Always import both from `@/lib/content/types`. This file is a generation cheat sheet: one block per `type`, each showing the data-literal skeleton and the image filename convention.
+## Architecture
+
+Section structure rules — **per-slot character limits, item counts, image ratios** — live alongside each section component as a `*Meta` export, not in this file. Examples:
+
+- [src/components/sections/text-columns.tsx](../../../src/components/sections/text-columns.tsx) → `textColumnsMeta`
+- [src/components/sections/hero/image-gallery.tsx](../../../src/components/sections/hero/image-gallery.tsx) → `heroMeta`
+- [src/lib/sections/composite-meta.ts](../../../src/lib/sections/composite-meta.ts) → `imageDuoWithTextMeta`, `entityListMeta`
+- [src/lib/sections/index.ts](../../../src/lib/sections/index.ts) → `sectionMetas` (the central registry — every section by `type`)
+
+When generating data, the chain of authority is:
+
+1. **Type** ([src/lib/destination/types.ts](../../../src/lib/destination/types.ts)) — what shapes are valid.
+2. **Section meta** (`<componentDir>/*Meta`) — char/item/ratio rules for each slot.
+3. **STYLE.md** (this folder) — voice, vocabulary, anti-clichés.
+4. **REFERENCE.md** (this file) — destination-specific *use* of each section: canonical eyebrows, image filenames, and slot conventions that apply only to destination pages.
+
+This file is a cheat sheet: one block per `type`, showing the data-literal skeleton and the destination-specific copy patterns. Length numbers are illustrative — the source of truth is the component meta. If they disagree, the meta wins.
+
+The authoritative `Destination` type lives at `src/lib/content/types.ts`; the `Section` discriminated union lives at `src/lib/destination/types.ts` and is re-exported from `src/lib/content/types.ts`. Always import both from `@/lib/content/types`.
 
 A `Destination` looks like:
 
@@ -17,13 +35,24 @@ export const destination: Destination = {
     "<slug>",
     /* 3–8 lowercase, no-accent strings: notable places, regions, activities */
   ],
+  metaTitle: "<Destination> — Voyage sur mesure",     // optional; falls back to this default
+  metaDescription:
+    "<150–160 chars, one factual sentence, primary keyword + geographic anchor, no CTA — see STYLE.md § SEO discipline>",
   sections: [
-    /* the 13 entries below, in order */
+    /* the 14 entries below, in order */
   ],
 };
 ```
 
-The four new top-level fields (`country`, `continentSlug`, `blurb`, `keywords`) are what wire the destination into the menu's continent → country grouping, the footer's continent listing, and the site-search results. They are technically optional in the type but should always be filled in — leaving them out means the destination won't appear in those surfaces.
+The top-level fields wire the destination into multiple surfaces:
+
+- `country`, `continentSlug`, `blurb`, `keywords` → menu's continent → country grouping, footer's continent listing, site-search.
+- `metaTitle`, `metaDescription` → `<title>`, `<meta description>`, Open Graph and Twitter card text. Read by `generateMetadata` in the dynamic route.
+- `name`, `country`, `continentSlug` → `TouristDestination` and `BreadcrumbList` JSON-LD emitted by `<DestinationPage>` (via `src/lib/destination/seo.ts`).
+- `sections[type === "faq"].items[]` with **string** answers → `FAQPage` JSON-LD (JSX answers are skipped).
+- `sections[type === "hero"].images[0]` → Open Graph / Twitter image.
+
+All these top-level fields are technically optional in the type but should always be filled in — leaving them out means the destination won't appear in those surfaces or will inherit weak global defaults.
 
 Every section accepts an optional `background?: string` (Tailwind class). Pass it only when the canonical sequence does (noted per section).
 
@@ -49,7 +78,39 @@ Images: `hero-1.png`, `hero-2.png`, `hero-3.png` (square aspect, 3 images).
 
 ---
 
-## 2. textColumns (intro)
+## 2. specialistSpotlight
+
+References a `Collaborateur` entity by slug (`src/content/collaborateurs/<slug>.tsx`). The collaborateur owns the portrait and role label; this section owns the quote and the three "why this destination, why us" bullets.
+
+```tsx
+{
+  type: "specialistSpotlight",
+  eyebrow: "Pourquoi partir en <Destination> ?",
+  heading: "<Prénom>, spécialiste de <Destination>, vous partage son expérience",
+  partners: { title: "" },
+  specialist: {
+    collaborateurSlug: "<existing-slug>",   // antoine | elise | stephane | …
+    // TODO: verify quote attribution
+    quote: "…",                             // first-person, 2–4 sentences, signed verbatim
+    role: "Travel Designer · <Destination>", // optional override; usually omit and inherit from the Collaborateur file
+  },
+  features: [
+    { iconName: "badgeCheck", title: "…", description: "…" },
+    { iconName: "sparkles",   title: "…", description: "…" },
+    { iconName: "star",       title: "…", description: "…" },
+  ],
+}
+```
+
+No new images. The portrait comes from `Collaborateur.image` (path `/collaborateurs/<slug>.jpg`); the section reuses it. Do NOT add an entry to `PROMPTS.md` for the spotlight.
+
+The collaborateur slug must already exist — the skill never creates a new collaborateur stub. If none of the existing collaborateurs fit, flag the slug with `// TODO: verify collaborateurSlug` and pick the closest match. See SKILL.md step 1d for the selection workflow.
+
+`features` always has exactly 3 entries. The icon trio `badgeCheck / sparkles / star` is canonical (matches Polynésie, Corse, Paris). Each `description` is one sentence, written in the destination's voice — concrete, named (a place, a route, an artisan), no abstract guarantees ("Conciergerie 24/7" + "Sur mesure" + "Exclusif" is the lazy default; prefer the Polynésie-2 register: "Hébergements hors réseaux", "Accès négociés localement", etc.).
+
+---
+
+## 3. textColumns (intro)
 
 ```tsx
 {
@@ -64,7 +125,7 @@ Images: `hero-1.png`, `hero-2.png`, `hero-3.png` (square aspect, 3 images).
 
 ---
 
-## 3. fullImage
+## 4. fullImage
 
 ```tsx
 {
@@ -76,7 +137,7 @@ Images: `hero-1.png`, `hero-2.png`, `hero-3.png` (square aspect, 3 images).
 
 ---
 
-## 4. textImagesSplit
+## 5. textImagesSplit
 
 ```tsx
 {
@@ -94,7 +155,7 @@ Images: `hero-1.png`, `hero-2.png`, `hero-3.png` (square aspect, 3 images).
 
 ---
 
-## 5. entityList (experiences)
+## 6. entityList (experiences)
 
 This block references 3 experience slugs. The cards' display data (title, blurb, image) comes from each `Experience` entity file under `src/content/experiences/`. See "Experience entity stub" below for the entity shape.
 
@@ -115,7 +176,7 @@ Cards on the page render unlinked while the referenced entities have `sections: 
 
 ---
 
-## 6. imageDuoWithText (cultural duo)
+## 7. imageDuoWithText (cultural duo)
 
 ```tsx
 {
@@ -138,7 +199,7 @@ For destination-specific subjects, you may rename the images (e.g. `polyphonie.p
 
 ---
 
-## 7. entityList (hotels)
+## 8. entityList (hotels)
 
 This block references 3 accommodation slugs. The cards' display data comes from each `Accommodation` entity file under `src/content/accommodations/`. See "Accommodation entity stub" below for the entity shape.
 
@@ -155,11 +216,11 @@ This block references 3 accommodation slugs. The cards' display data comes from 
 }
 ```
 
-Same linkability rule as section 5: cards are unlinked while the referenced entities have empty `sections[]`, automatically linked once sections are added.
+Same linkability rule as section 6: cards are unlinked while the referenced entities have empty `sections[]`, automatically linked once sections are added.
 
 ---
 
-## 8. infoGrid
+## 9. infoGrid
 
 ```tsx
 {
@@ -185,7 +246,7 @@ Same linkability rule as section 5: cards are unlinked while the referenced enti
 
 ---
 
-## 9. bento
+## 10. bento
 
 ```tsx
 {
@@ -211,7 +272,7 @@ Same linkability rule as section 5: cards are unlinked while the referenced enti
 
 ---
 
-## 10. placesMap
+## 11. placesMap
 
 ```tsx
 {
@@ -237,7 +298,7 @@ Same linkability rule as section 5: cards are unlinked while the referenced enti
 
 ---
 
-## 11. tips
+## 12. tips
 
 ```tsx
 {
@@ -270,7 +331,7 @@ The `content` is `React.ReactNode` — `data.tsx` MUST be `.tsx` for this to com
 
 ---
 
-## 12. testimonials
+## 13. testimonials
 
 ```tsx
 {
@@ -295,7 +356,7 @@ Reusing hero images for portraits matches both reference pages — no new image 
 
 ---
 
-## 13. faq
+## 14. faq
 
 ```tsx
 {
@@ -321,6 +382,27 @@ Reusing hero images for portraits matches both reference pages — no new image 
 ```
 
 `answer` is `React.ReactNode` — typically just a string, but a JSX `<p>` block works too.
+
+---
+
+## 15. entityList — related destinations (optional)
+
+This section is optional (see step 1e in the skill workflow). It references up to 3 existing destination slugs. Cards display each destination's name, blurb, and first hero image, with an automatic link to `/destinations/<slug>`.
+
+```tsx
+{
+  type: "entityList",
+  kind: "destination",
+  background: "bg-background-soft",
+  eyebrow: "Inspirations",
+  heading: "Destinations similaires",
+  description: "…",
+  cta: { label: "Voir toutes les destinations", href: "/destinations" },
+  slugs: ["<dest-slug-1>", "<dest-slug-2>", "<dest-slug-3>"],
+}
+```
+
+Only reference destinations that already exist in the registry. This section does NOT create new entity stubs — it links to existing destination pages.
 
 ---
 

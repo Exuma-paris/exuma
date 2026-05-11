@@ -46,14 +46,9 @@ export const destination: Destination = {
         "Stéphane, spécialiste de la Polynésie, vous partage son expérience",
       partners: { title: "" },
       specialist: {
+        collaborateurSlug: "stephane",
         quote:
           "Voyager en Polynésie, c'est découvrir des paysages époustouflants, des plages de sable fin et une culture riche. Une aventure unique qui éveille les sens et nourrit l'âme.",
-        image: {
-          src: "/testimonials/stephane.jpg",
-          alt: "Portrait de Stéphane, travel designer",
-        },
-        name: "Stéphane",
-        role: "Travel Designer Exuma spécialiste de la Polynésie",
       },
       features: [
         {
@@ -101,7 +96,7 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Les étoiles du Pacifique — Bora Bora",
+      eyebrow: "Les étoiles du Pacifique, Bora Bora",
       heading: "Le soir où le ciel change de sens",
       theme: "light",
       paragraphs: [
@@ -284,7 +279,7 @@ export const destination: Destination = {
         {
           title: "Bora Bora",
           description:
-            "Il serait malhonnête de l'esquiver. Le lagon est réel, cette couleur bleu-vert exactement ce que les photographies montrent. La densité des grands resorts l'est aussi. Bora Bora se mérite par la bonne organisation : un accès depuis les hauteurs, des matins en bateau avant les catamarans de journée.",
+            "Le lagon est réel, exactement la couleur des photographies. La densité des resorts l'est aussi. À aborder par les hauteurs.",
           image: {
             src: "/destination/polynesie/map-huahine.png",
             alt: "Vue aérienne de Bora Bora",
@@ -294,7 +289,7 @@ export const destination: Destination = {
         {
           title: "Huahine",
           description:
-            "Une île restée à l'écart. Vie locale intacte, marae enfouis dans la végétation, baies profondes. Pour qui cherche la Polynésie d'avant le tourisme.",
+            "Une île restée à l'écart. Vie locale intacte, marae enfouis dans la végétation, baies profondes.",
           image: {
             src: "/destination/polynesie/map-huahine.png",
             alt: "Plage tropicale de Huahine",
@@ -304,7 +299,7 @@ export const destination: Destination = {
         {
           title: "Raiatea",
           description:
-            "L'île sacrée. Les Polynésiens la considèrent comme le berceau de leur civilisation. Le marae de Taputapuatea, au bord du lagon, est classé au patrimoine mondial de l'UNESCO depuis 2017. On ne va pas à Raiatea pour son lagon. On y va pour comprendre quelque chose que les autres îles ne disent pas.",
+            "L'île sacrée, berceau de la civilisation polynésienne. Le marae de Taputapuatea est classé au patrimoine mondial UNESCO.",
           image: {
             src: "/destination/polynesie/map-raiatea.png",
             alt: "Côte verdoyante de Raiatea",
@@ -324,7 +319,7 @@ export const destination: Destination = {
         {
           title: "Tetiaroa",
           description:
-            "L'atoll n'a pas de route. Pas de voiture. L'avion qui le relie à Papeete dépose ses passagers sur une bande de sable entre deux lagons. Le silence qui suit l'extinction du moteur est un silence vrai. The Brando occupe l'atoll depuis 2014. On n'arrive pas ici par hasard.",
+            "L'atoll n'a pas de route. L'avion dépose les passagers sur une bande de sable entre deux lagons. The Brando occupe le lieu.",
           image: {
             src: "/destination/polynesie/map-tetiaroa.png",
             alt: "Atoll de Tetiaroa vu du ciel",
@@ -334,7 +329,7 @@ export const destination: Destination = {
         {
           title: "Tuamotu",
           description:
-            "Le plus grand archipel de Polynésie, paradis des plongeurs. À Fakarava, la passe de Garuae se plonge tôt le matin, quand les requins gris convergent par centaines.",
+            "Plus grand archipel de Polynésie, paradis des plongeurs. À Fakarava, la passe de Garuae se plonge tôt le matin.",
           image: {
             src: "/destination/polynesie/map-tuamotu.png",
             alt: "Eaux cristallines des Tuamotu",

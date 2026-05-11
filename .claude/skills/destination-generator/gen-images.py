@@ -2,15 +2,22 @@
 """Generate destination images by restyling references with the Exuma look.
 
 Usage:
+    pip install -r .claude/skills/destination-generator/requirements.txt
     GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py <slug> [--force]
 
 For each reference at references/destination/<slug>/<name>-ref.<ext>, sends the
 reference + the shared "preserve + grade" prompt to Gemini 2.5 Flash Image, and
-saves the result to public/destination/<slug>/<name>.png.
+saves the result (re-cropped to a strict 16:9 master) to
+public/destination/<slug>/<name>.png.
+
+The 16:9 master is the source-of-truth aspect for the project. The companion
+script `crop-images.py` derives 3:4 / 1:1 / 9:16 variants from the master,
+anchored on the dominant subject as detected by Gemini Vision.
 
 Skips outputs that already exist unless --force is passed.
 """
 import base64
+import io
 import json
 import os
 import sys
@@ -18,8 +25,11 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+from PIL import Image
+
 REPO = Path(__file__).resolve().parents[3]
 MODEL = "gemini-2.5-flash-image"
+TARGET_RATIO = 16 / 9
 
 PROMPT = """Apply the visual style described below to this reference photograph as a color grade and post-processing treatment ONLY.
 
@@ -32,7 +42,7 @@ Apply this Exuma photographic style:
 - Color palette pulled toward sand, beige, ochre tones, olive green, very desaturated blue, warm skin tones
 - Editorial photography finishing, refined framing
 
-Output: the same photograph with this look applied."""
+Output: the same photograph with this look applied, framed as 16:9."""
 
 MIME_BY_EXT = {
     ".jpg": "image/jpeg",
@@ -55,6 +65,7 @@ def generate(api_key: str, ref_path: Path) -> bytes:
             ]
         }],
         "generationConfig": {"responseModalities": ["IMAGE"]},
+        "imageConfig": {"aspectRatio": "16:9"},
     }
     endpoint = (
         "https://generativelanguage.googleapis.com/v1beta/models/"
@@ -72,6 +83,34 @@ def generate(api_key: str, ref_path: Path) -> bytes:
         if "inlineData" in part:
             return base64.b64decode(part["inlineData"]["data"])
     raise RuntimeError(f"No image in response: {json.dumps(body)[:500]}")
+
+
+def enforce_16x9(image_bytes: bytes) -> bytes:
+    """Center-crop the image to a strict 16:9 aspect ratio.
+
+    Gemini may return a slightly different ratio when given image-to-image
+    input. This guarantees the master output is exactly 16:9.
+    """
+    img = Image.open(io.BytesIO(image_bytes))
+    if img.mode not in ("RGB", "RGBA"):
+        img = img.convert("RGB")
+    w, h = img.size
+    current = w / h
+    if abs(current - TARGET_RATIO) < 0.005:
+        out = io.BytesIO()
+        img.save(out, format="PNG")
+        return out.getvalue()
+    if current > TARGET_RATIO:
+        new_w = round(h * TARGET_RATIO)
+        left = (w - new_w) // 2
+        img = img.crop((left, 0, left + new_w, h))
+    else:
+        new_h = round(w / TARGET_RATIO)
+        top = (h - new_h) // 2
+        img = img.crop((0, top, w, top + new_h))
+    out = io.BytesIO()
+    img.save(out, format="PNG")
+    return out.getvalue()
 
 
 def main() -> int:
@@ -112,6 +151,7 @@ def main() -> int:
         print(f"→ {out_name} (ref: {ref.name}) …", flush=True)
         try:
             data = generate(api_key, ref)
+            data = enforce_16x9(data)
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", errors="replace")[:600]
             print(f"  HTTPError {e.code}: {body}")

@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import { AgentationToolbar } from "@/components/dev/agentation-toolbar";
 import { Footer } from "@/components/sections/footer";
+import { ConditionalFooter } from "@/components/sections/conditional-footer";
 
 const instrumentSans = Instrument_Sans({
   variable: "--font-instrument-sans",
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     default: "Exuma",
     template: "%s | Exuma",
   },
-  description: "Exuma — official website.",
+  description: "Exuma. Official website.",
   applicationName: "Exuma",
   alternates: { canonical: "/" },
   openGraph: {
@@ -40,12 +41,12 @@ export const metadata: Metadata = {
     siteName: "Exuma",
     url: "/",
     title: "Exuma",
-    description: "Exuma — official website.",
+    description: "Exuma. Official website.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Exuma",
-    description: "Exuma — official website.",
+    description: "Exuma. Official website.",
   },
   robots: { index: true, follow: true },
   formatDetection: { telephone: false },
@@ -82,7 +83,9 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col">
         {children}
-        <Footer />
+        <ConditionalFooter>
+          <Footer />
+        </ConditionalFooter>
         <AgentationToolbar />
       </body>
     </html>

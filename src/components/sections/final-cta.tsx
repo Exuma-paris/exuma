@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type FinalCtaProps = {
   eyebrow?: string;
@@ -8,6 +9,23 @@ export type FinalCtaProps = {
   secondaryCta?: { label: string; href: string };
   background?: string;
 };
+
+export const finalCtaMeta = {
+  type: "finalCta",
+  intent: "Closing call-to-action — short italic editorial line above a primary CTA and optional secondary CTA. Usually the last section of a page.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 30 } },
+    },
+    heading: {
+      role: "Italic closing line — terse, evocative.",
+      required: true,
+      length: { chars: { target: 80, max: 140 } },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function FinalCtaSection({
   eyebrow,

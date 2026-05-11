@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type IslandLinksProps = {
   eyebrow?: string;
@@ -8,6 +9,39 @@ export type IslandLinksProps = {
   links: { label: string; href: string }[];
   background?: string;
 };
+
+export const islandLinksMeta = {
+  type: "islandLinks",
+  intent: "Inline pill links — used to surface a list of related sub-destinations or themes from a parent page.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 70 } },
+    },
+    links: {
+      role: "Pill-shaped links.",
+      required: true,
+      itemCount: { min: 3, max: 16 },
+      perItem: {
+        role: "One link.",
+        required: true,
+        slots: {
+          label: {
+            role: "Link label (place or theme name).",
+            required: true,
+            length: { chars: { max: 30 } },
+          },
+        },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function IslandLinksSection({
   eyebrow,

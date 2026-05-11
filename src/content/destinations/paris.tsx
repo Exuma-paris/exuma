@@ -41,6 +41,40 @@ export const destination: Destination = {
     },
 
     {
+      type: "specialistSpotlight",
+      eyebrow: "Pourquoi partir à Paris ?",
+      heading:
+        "Élise, spécialiste de Paris, vous partage son expérience",
+      partners: { title: "" },
+      specialist: {
+        collaborateurSlug: "elise",
+        // TODO: replace with a real verbatim from Élise
+        quote:
+          "Paris se traverse trois fois avant de commencer à comprendre. Mon rôle, c'est d'écrire la première traversée, les bonnes heures, les bons quartiers, les portes qui ne s'ouvrent pas pour tout le monde. Et de laisser la deuxième et la troisième pour les fois suivantes.",
+      },
+      features: [
+        {
+          iconName: "badgeCheck",
+          title: "Conciergerie 24/7",
+          description:
+            "Réservations de dernière minute, transferts privés, accès rapide à l'Opéra et aux ventes Drouot.",
+        },
+        {
+          iconName: "sparkles",
+          title: "Sur mesure",
+          description:
+            "Un travel designer dédié, expert de Paris, façonne le séjour selon vos envies.",
+        },
+        {
+          iconName: "star",
+          title: "Exclusif",
+          description:
+            "Ateliers d'artisans, librairies confidentielles, tables qui ne prennent pas de réservation.",
+        },
+      ],
+    },
+
+    {
       type: "textColumns",
       background: "bg-white",
       eyebrow: "Ouverture",
@@ -64,12 +98,12 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Les passages — IIe arrondissement",
+      eyebrow: "Les passages, IIe arrondissement",
       heading: "Sous la verrière, la ville s'arrête",
       theme: "light",
       paragraphs: [
         "Entre la Bourse et le Palais-Royal, des galeries couvertes ont été ouvertes au début du XIXe siècle pour permettre aux Parisiens de marcher à l'abri de la pluie et de la boue. La plupart ont disparu. Une vingtaine subsistent. Le passage des Panoramas, le plus ancien (1799), a gardé ses devantures, ses imprimeurs, ses cartophiles, son odeur de papier vieilli.",
-        "Le passage Choiseul s'étire sur cent quatre-vingt-dix mètres, parallèle à la rue de la Banque. Lucarne ouvrante, parquet en bois, librairies anciennes. Vers dix-sept heures, quand le soleil descend, la verrière prend une couleur qu'on ne soupçonne pas. À pied, sans haste, comptez une heure entre les Panoramas et le Vivienne — et un café au Bistrot Vivienne, qu'aucun guide ne mentionne, et où il y a toujours une table en fin d'après-midi.",
+        "Le passage Choiseul s'étire sur cent quatre-vingt-dix mètres, parallèle à la rue de la Banque. Lucarne ouvrante, parquet en bois, librairies anciennes. Vers dix-sept heures, quand le soleil descend, la verrière prend une couleur qu'on ne soupçonne pas. À pied, sans haste, comptez une heure entre les Panoramas et le Vivienne, et un café au Bistrot Vivienne, qu'aucun guide ne mentionne, et où il y a toujours une table en fin d'après-midi.",
         "C'est la même ville, à dix mètres des grands boulevards. Personne ne crie. Aucune sirène.",
       ],
       images: [
@@ -91,7 +125,7 @@ export const destination: Destination = {
       eyebrow: "Trois expériences",
       heading: "Sur place, concrètement",
       description:
-        "Des moments ancrés dans des personnes et des lieux précis. Ni démonstrations, ni programme — des accès qui ne se trouvent pas en cherchant.",
+        "Des moments ancrés dans des personnes et des lieux précis. Ni démonstrations, ni programme, des accès qui ne se trouvent pas en cherchant.",
       cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
       slugs: ["louvre-prive-nocturne", "rungis-chef", "atelier-lesage"],
     },
@@ -136,7 +170,7 @@ export const destination: Destination = {
       eyebrow: "Avant le départ",
       heading: "Ce qu'il faut savoir avant de partir à Paris",
       description:
-        "L'essentiel à anticiper avant l'arrivée — formalités, transports, et la fenêtre que nous recommandons.",
+        "L'essentiel à anticiper avant l'arrivée, formalités, transports, et la fenêtre que nous recommandons.",
       cta: { label: "Construire ce voyage", href: "/reserver" },
       items: [
         {
@@ -171,7 +205,7 @@ export const destination: Destination = {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: Mai à juin et septembre à mi-octobre — lumière douce, terrasses ouvertes, fréquentation modérée. Juillet-août animés mais certains commerces ferment.",
+            "TODO: Mai à juin et septembre à mi-octobre, lumière douce, terrasses ouvertes, fréquentation modérée. Juillet-août animés mais certains commerces ferment.",
         },
         {
           iconName: "languages",
@@ -252,7 +286,7 @@ export const destination: Destination = {
         {
           title: "Le Marais",
           description:
-            "Médiéval et juif, gay et BCBG, hôtels particuliers et galeries. Le quartier où Paris a accepté tous ses mille-feuilles. Sortez par la rue des Rosiers à dix heures, avant que la file ne se forme chez Sacha Finkelsztajn.",
+            "Médiéval et juif, gay et BCBG, hôtels particuliers et galeries. Le quartier où Paris a accepté tous ses mille-feuilles.",
           image: {
             src: "/destination/paris/map-marais.png",
             alt: "Façades du Marais place des Vosges",
@@ -262,7 +296,7 @@ export const destination: Destination = {
         {
           title: "Saint-Germain-des-Prés",
           description:
-            "L'élégance des libraires et des galeristes. Hôtels feutrés, brasseries mythiques (Lipp, le Flore), maisons d'édition rue Jacob. Une rive intellectuelle qui a gardé sa lenteur.",
+            "Libraires, galeristes, hôtels feutrés. Lipp, le Flore. Une rive intellectuelle qui a gardé sa lenteur.",
           image: {
             src: "/destination/paris/map-saint-germain.png",
             alt: "Devanture du Café de Flore boulevard Saint-Germain",
@@ -272,7 +306,7 @@ export const destination: Destination = {
         {
           title: "Île Saint-Louis",
           description:
-            "Petite île historique entre les deux bras de la Seine. Hôtels particuliers du XVIIe, glaces Berthillon, vue directe sur les arrière-arches de Notre-Dame. Promenade quasi obligatoire à la fin de l'après-midi.",
+            "Petite île entre les deux bras de la Seine. Hôtels particuliers du XVIIe, glaces Berthillon, vue arrière sur Notre-Dame.",
           image: {
             src: "/destination/paris/map-ile-saint-louis.png",
             alt: "Quai de Bourbon sur l'Île Saint-Louis",
@@ -282,7 +316,7 @@ export const destination: Destination = {
         {
           title: "Les Batignolles",
           description:
-            "Le 17e arrondissement gentrifié, encore peu touristique. Marché bio le samedi, Square des Batignolles, restaurants neufs et vie de quartier intacte.",
+            "Le 17e gentrifié, encore peu touristique. Marché bio le samedi, Square des Batignolles, vie de quartier intacte.",
           image: {
             src: "/destination/paris/map-batignolles.png",
             alt: "Marché des Batignolles le samedi matin",
@@ -292,7 +326,7 @@ export const destination: Destination = {
         {
           title: "Le Faubourg Saint-Honoré",
           description:
-            "L'axe des palaces et de la haute couture. Élysée, ambassades, Le Bristol. À traverser au début ou à la fin du séjour, pour comprendre l'autorité tranquille du quartier.",
+            "L'axe des palaces et de la haute couture. Élysée, ambassades, Le Bristol. L'autorité tranquille du quartier.",
           image: {
             src: "/destination/paris/map-faubourg-saint-honore.png",
             alt: "Façade de l'Élysée rue du Faubourg Saint-Honoré",
@@ -302,7 +336,7 @@ export const destination: Destination = {
         {
           title: "Belleville / Ménilmontant",
           description:
-            "L'envers du Paris carte postale. Cours communautaires, ateliers d'artistes, vue depuis le Parc de Belleville. Restaurants asiatiques de la rue de Belleville, café Aux Folies, les bains-douches anciens.",
+            "L'envers du Paris carte postale. Cours communautaires, ateliers, vue depuis le Parc de Belleville. Café Aux Folies.",
           image: {
             src: "/destination/paris/map-belleville.png",
             alt: "Vue depuis le Parc de Belleville sur les toits de Paris",
@@ -332,7 +366,7 @@ export const destination: Destination = {
               <p>
                 Paris se traverse à pied : prévoyez des chaussures qui tiennent
                 sur les pavés. Les écarts de température entre matin et soir
-                peuvent dépasser dix degrés au printemps et à l&apos;automne —
+                peuvent dépasser dix degrés au printemps et à l&apos;automne,
                 un pull léger est utile presque toujours.
               </p>
               <p>
@@ -363,7 +397,7 @@ export const destination: Destination = {
               <p>
                 Les pharmacies de garde sont signalées sur la porte des
                 pharmacies fermées. Hôpital américain à Neuilly-sur-Seine,
-                Hôpital franco-britannique à Levallois — anglophones et
+                Hôpital franco-britannique à Levallois, anglophones et
                 réactifs.
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
@@ -413,7 +447,7 @@ export const destination: Destination = {
               <p>
                 Carte bancaire acceptée presque partout, sans-contact
                 généralisé. Pourboire non obligatoire (le service est inclus)
-                mais apprécié quand le service a été personnel — 5 à 10 % en
+                mais apprécié quand le service a été personnel, 5 à 10 % en
                 restaurant.
               </p>
               <p>
@@ -443,7 +477,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Quatre jours à Paris organisés par Exuma. La visite du Louvre après fermeture, l'atelier Lesage à Aubervilliers, le déjeuner au Bristol — chaque moment était à sa juste place. On n'a pas eu une seule décision logistique à prendre.",
+            "Quatre jours à Paris organisés par Exuma. La visite du Louvre après fermeture, l'atelier Lesage à Aubervilliers, le déjeuner au Bristol, chaque moment était à sa juste place. On n'a pas eu une seule décision logistique à prendre.",
           image: {
             src: "/destination/paris/hero-1.png",
             alt: "Portrait de Sophie et Marc", // TODO: verify
@@ -465,7 +499,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Ce qui m'a marquée, c'est la qualité du choix. Trois adresses très différentes — un palace, un hôtel quai du Louvre, un boutique rive gauche — et chacune a fait sens à son moment du séjour. Tout fluide, du premier appel jusqu'au retour.",
+            "Ce qui m'a marquée, c'est la qualité du choix. Trois adresses très différentes, un palace, un hôtel quai du Louvre, un boutique rive gauche, et chacune a fait sens à son moment du séjour. Tout fluide, du premier appel jusqu'au retour.",
           image: {
             src: "/destination/paris/hero-3.png",
             alt: "Portrait de Claire", // TODO: verify
@@ -491,7 +525,7 @@ export const destination: Destination = {
         {
           question: "Quelle est la meilleure période pour partir à Paris ?",
           answer:
-            "Mai à juin et septembre à mi-octobre offrent le meilleur compromis : lumière douce, terrasses ouvertes, fréquentation modérée. Juillet-août restent animés, mais beaucoup d'adresses ferment trois semaines en août — à anticiper côté restaurants et artisans.",
+            "Mai à juin et septembre à mi-octobre offrent le meilleur compromis : lumière douce, terrasses ouvertes, fréquentation modérée. Juillet-août restent animés, mais beaucoup d'adresses ferment trois semaines en août, à anticiper côté restaurants et artisans.",
         },
         {
           question: "Combien de jours faut-il pour visiter Paris correctement ?",
@@ -501,13 +535,13 @@ export const destination: Destination = {
         {
           question: "Faut-il un visa pour venir à Paris ?",
           answer:
-            "Aucun visa n'est requis pour les ressortissants de l'Union européenne et de la plupart des pays européens. Pour les autres nationalités, un visa Schengen est généralement nécessaire — votre travel designer vérifiera les formalités selon votre passeport avant le départ.",
+            "Aucun visa n'est requis pour les ressortissants de l'Union européenne et de la plupart des pays européens. Pour les autres nationalités, un visa Schengen est généralement nécessaire, votre travel designer vérifiera les formalités selon votre passeport avant le départ.",
         },
         {
           question:
             "Comment se déplacer dans Paris ?",
           answer:
-            "Le métro reste le plus rapide pour les trajets courts. Les taxis G7, Uber et Bolt sont actifs partout. Pour vos clients, nous organisons systématiquement les transferts privés (arrivée, départ, dîners) — chauffeur dédié quand le séjour le justifie.",
+            "Le métro reste le plus rapide pour les trajets courts. Les taxis G7, Uber et Bolt sont actifs partout. Pour vos clients, nous organisons systématiquement les transferts privés (arrivée, départ, dîners), chauffeur dédié quand le séjour le justifie.",
         },
         {
           question: "Quel budget prévoir ?",

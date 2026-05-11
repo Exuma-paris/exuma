@@ -10,6 +10,7 @@ import {
 } from "@/components/blocks/feature-card";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type FeatureCardsSectionProps = {
   eyebrow?: string;
@@ -19,6 +20,54 @@ export type FeatureCardsSectionProps = {
   cards: FeatureCardProps[];
   background?: string;
 };
+
+export const featureCardsMeta = {
+  type: "featureCards",
+  intent: "A row of square-image feature cards with an editorial heading and optional CTA.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 70 } },
+    },
+    description: {
+      role: "Optional sub-paragraph under the heading.",
+      required: false,
+      length: { chars: { target: 220, max: 320 } },
+    },
+    cards: {
+      role: "Feature cards (3 visible, scrollable carousel beyond 3).",
+      required: true,
+      itemCount: { exact: 3, max: 6 },
+      perItem: {
+        role: "One feature card.",
+        required: true,
+        slots: {
+          title: {
+            role: "Card heading.",
+            required: true,
+            length: { chars: { max: 50 } },
+          },
+          description: {
+            role: "Card body — opens on a moment, closes on a detail.",
+            required: true,
+            length: { chars: { target: 180, max: 320, min: 90 } },
+          },
+          image: {
+            role: "Card image.",
+            required: true,
+            image: { role: "card", ratio: "1:1" },
+          },
+        },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function FeatureCardsSection({
   eyebrow,

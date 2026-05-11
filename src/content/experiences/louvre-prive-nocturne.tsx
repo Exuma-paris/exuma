@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "louvre-prive-nocturne",
   name: "Visite privée du Louvre après fermeture",
   blurb:
-    "Dix-neuf heures, la dernière vague de visiteurs sort. Les galeries se vident. Avec un conservateur de département, vous retrouvez la Joconde sans la foule, la Victoire de Samothrace dans le silence, les antiquités égyptiennes en présence d'un spécialiste. La lecture remplace le tour audio.",
+    "Dix-neuf heures, les galeries se vident. Avec un conservateur de département, la Joconde sans la foule, la Samothrace dans le silence.",
   keywords: ["paris", "louvre", "musee", "conservateur", "visite privee", "nocturne"],
   heroImage: {
     src: "/destination/paris/xp-louvre.png",

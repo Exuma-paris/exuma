@@ -31,6 +31,8 @@ export type Destination = EntityBase & {
   continentSlug?: string;
   themeSlugs?: string[];
   accommodationSlugs?: string[];
+  metaTitle?: string;
+  metaDescription?: string;
 };
 
 export type Theme = EntityBase & {
@@ -48,6 +50,9 @@ export type Experience = EntityBase & {
   destinationSlugs?: string[];
   themeSlugs?: string[];
   subthemeSlugs?: string[];
+  collaborateurSlug?: string;
+  metaTitle?: string;
+  metaDescription?: string;
 };
 
 export type ServiceCategory = EntityBase & {
@@ -61,6 +66,13 @@ export type Service = EntityBase & {
 export type Accommodation = EntityBase & {
   heroImage?: ImageRef;
   destinationSlug: string;
+};
+
+export type Collaborateur = EntityBase & {
+  role?: string;
+  image: ImageRef;
+  destinationSlugs?: string[];
+  themeSlugs?: string[];
 };
 
 export type EntityByKind = {

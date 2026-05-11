@@ -42,6 +42,40 @@ export const destination: Destination = {
     },
 
     {
+      type: "specialistSpotlight",
+      eyebrow: "Pourquoi partir en Corse ?",
+      heading:
+        "Antoine, spécialiste de la Corse, vous partage son expérience",
+      partners: { title: "" },
+      specialist: {
+        collaborateurSlug: "antoine",
+        // TODO: replace with a real verbatim from Antoine
+        quote:
+          "La Corse ne se visite pas en quatre jours. Elle se traverse, du Cap Corse au Sartenais, dans le rythme des bergeries et des passes. Mon travail, c'est d'inscrire les bonnes heures dans cet itinéraire, celle où la lumière tombe sur Bonifacio, celle où le vigneron sort sa cuvée d'avant.",
+      },
+      features: [
+        {
+          iconName: "badgeCheck",
+          title: "Conciergerie 24/7",
+          description:
+            "Assistance discrète, transferts privés, bateau et hélicoptère sur appel.",
+        },
+        {
+          iconName: "sparkles",
+          title: "Sur mesure",
+          description:
+            "Un travel designer dédié, expert de la Corse, façonne votre voyage selon vos envies.",
+        },
+        {
+          iconName: "star",
+          title: "Exclusif",
+          description:
+            "Accédez à des bergeries, vignerons et tables qui ne sont pas dans les guides.",
+        },
+      ],
+    },
+
+    {
       type: "textColumns",
       background: "bg-white",
       eyebrow: "Découverte de la Corse",
@@ -65,7 +99,7 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Corse — Le luxe et l'exclusif",
+      eyebrow: "Corse, Le luxe et l'exclusif",
       heading: "L'essence secrète de l'île de beauté",
       theme: "light",
       paragraphs: [
@@ -112,7 +146,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "L'éveil au cœur de l'âme insulaire",
         columns: [
-          "En Corse, le voyage prend une autre épaisseur lorsqu'on entre vraiment dans la maison. À travers une rencontre directe avec celles et ceux qui font vivre l'île — bergers, vignerons, chantres, sculpteurs sur bois — vous découvrirez une mémoire transmise de génération en génération. Des chants polyphoniques aux fêtes de village, ces gestes encore vivants vous plongent dans le quotidien des habitants.",
+          "En Corse, le voyage prend une autre épaisseur lorsqu'on entre vraiment dans la maison. À travers une rencontre directe avec celles et ceux qui font vivre l'île, bergers, vignerons, chantres, sculpteurs sur bois, vous découvrirez une mémoire transmise de génération en génération. Des chants polyphoniques aux fêtes de village, ces gestes encore vivants vous plongent dans le quotidien des habitants.",
           "L'art ancien des paghjelle raconte la pierre, la terre et les saints. La fleur d'immortelle vous accueille dès vos premiers pas dans le maquis. Visitez les chapelles romanes oubliées, écoutez le silence des anciens villages perchés. La Corse, terre d'histoires retenues, sait toujours et encore vous saisir profondément.",
         ],
       },
@@ -125,7 +159,7 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Nos hébergements",
       description:
-        "Nous avons soigneusement choisi les plus belles adresses de Corse — bergeries restaurées, villas en pierre, palaces discrets — pour vous offrir une expérience inoubliable.",
+        "Nous avons soigneusement choisi les plus belles adresses de Corse, bergeries restaurées, villas en pierre, palaces discrets, pour vous offrir une expérience inoubliable.",
       cta: { label: "Voir tous les hébergements", href: "/hebergements" },
       slugs: ["murtoli", "casadelmar", "cala-rossa"],
     },
@@ -395,14 +429,14 @@ export const destination: Destination = {
                 fréquentation modérée.
               </p>
               <p>
-                Juillet-août : haute saison, chaleur forte, plages animées —
+                Juillet-août : haute saison, chaleur forte, plages animées,
                 parfait pour les amateurs d&apos;effervescence, à anticiper côté
                 hébergements.
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
                 TODO: Festivals d&apos;été (Calvi on the Rocks, Festivoce de
-                Pigna), fêtes de village d&apos;août — à intégrer à
+                Pigna), fêtes de village d&apos;août, à intégrer à
                 l&apos;itinéraire pour ceux qui aiment la culture vivante.
               </p>
             </div>
@@ -451,7 +485,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Notre semaine en Corse avec Exuma a été d'une douceur rare. La bergerie restaurée dans le Sartenais, le bateau privé jusqu'aux Lavezzi, le dîner sous les pins de Palombaggia — chaque détail parlait.",
+            "Notre semaine en Corse avec Exuma a été d'une douceur rare. La bergerie restaurée dans le Sartenais, le bateau privé jusqu'aux Lavezzi, le dîner sous les pins de Palombaggia, chaque détail parlait.",
           image: {
             src: "/destination/corse/hero-1.png",
             alt: "Portrait de Hélène et Pierre", // TODO: verify
@@ -462,7 +496,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Notre travel designer nous a ouvert une Corse qu'on ne pensait pas exister. La rencontre avec un berger du Niolu, une dégustation chez un vigneron du Sartenais — des moments d'une justesse rare.",
+            "Notre travel designer nous a ouvert une Corse qu'on ne pensait pas exister. La rencontre avec un berger du Niolu, une dégustation chez un vigneron du Sartenais, des moments d'une justesse rare.",
           image: {
             src: "/destination/corse/hero-2.png",
             alt: "Portrait de Julien", // TODO: verify
@@ -514,7 +548,7 @@ export const destination: Destination = {
         {
           question: "Combien de régions peut-on visiter en deux semaines ?",
           answer:
-            "TODO: Nous recommandons 2 à 3 bases pour un séjour de 14 jours — par exemple Sartenais, Cap Corse et Balagne — afin de profiter pleinement de chaque étape sans passer trop de temps en route.",
+            "TODO: Nous recommandons 2 à 3 bases pour un séjour de 14 jours, par exemple Sartenais, Cap Corse et Balagne, afin de profiter pleinement de chaque étape sans passer trop de temps en route.",
         },
         {
           question: "Le voyage est-il adapté aux familles ?",

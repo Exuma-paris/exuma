@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type ImageTrioProps = {
   eyebrow?: string;
@@ -12,6 +13,38 @@ export type ImageTrioProps = {
   ];
   background?: string;
 };
+
+export const imageTrioMeta = {
+  type: "imageTrio",
+  intent: "Visual breath — three portrait-ratio images in a 3-column row, with optional editorial intro above.",
+  slots: {
+    eyebrow: {
+      role: "Optional lead-in label.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Optional <h2>.",
+      required: false,
+      length: { chars: { max: 70 } },
+    },
+    description: {
+      role: "Optional sub-paragraph.",
+      required: false,
+      length: { chars: { target: 220, max: 320 } },
+    },
+    images: {
+      role: "Three portrait images shown side by side.",
+      required: true,
+      itemCount: { exact: 3 },
+      perItem: {
+        role: "One portrait image.",
+        required: true,
+        image: { role: "atmospheric portrait", ratio: "3:4" },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function ImageTrioSection({
   eyebrow,

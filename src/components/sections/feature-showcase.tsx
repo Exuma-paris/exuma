@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Minus, Plus } from "lucide-react";
 import { TextBlock } from "@/components/blocks/text-block";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type FeatureShowcaseItem = {
   title: string;
@@ -18,6 +19,50 @@ export type FeatureShowcaseProps = {
   description?: string;
   items: FeatureShowcaseItem[];
 };
+
+export const featureShowcaseMeta = {
+  type: "featureShowcase",
+  intent:
+    "Multi-item accordion on the left, image that swaps on the right. Used on experience pages to surface the role facets of the designated collaborateur.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 70 } },
+    },
+    description: {
+      role: "Optional sub-paragraph under the heading.",
+      required: false,
+      length: { chars: { target: 220, max: 320 } },
+    },
+    items: {
+      role: "Accordion items — typically 3 facets of a single role. Image is shared across all items on experience pages.",
+      required: true,
+      itemCount: { exact: 3, min: 2, max: 5 },
+      perItem: {
+        role: "One accordion item — title that toggles + rich detail block.",
+        required: true,
+        slots: {
+          title: {
+            role: "Accordion trigger label.",
+            required: true,
+            length: { chars: { max: 50 } },
+          },
+          image: {
+            role: "Image displayed when this item is active. On experience pages, all 3 items reuse the collaborateur's portrait.",
+            required: true,
+            image: { role: "portrait or in-situ", ratio: "1:1" },
+          },
+        },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function FeatureShowcase({
   eyebrow,
@@ -79,7 +124,7 @@ export function FeatureShowcase({
         <div className="relative aspect-square w-full overflow-hidden bg-muted">
           {items.map((item, i) => (
             <Image
-              key={item.image.src}
+              key={i}
               src={item.image.src}
               alt={item.image.alt}
               fill

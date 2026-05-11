@@ -3,6 +3,7 @@ import Link from "next/link";
 import { TextBlock } from "@/components/blocks/text-block";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 type BentoCard = {
   title: string;
@@ -19,6 +20,87 @@ export type BentoSectionProps = {
   cards: BentoCard[];
   background?: string;
 };
+
+export const defaultBento = {
+  eyebrow: "Comment nous travaillons",
+  heading: "Notre rôle dans ce voyage",
+  cards: [
+    {
+      title: "Création d'itinéraires",
+      description:
+        "Une logique de marche, de cuisine et de visites coordonnées. Nous écrivons l'itinéraire qui rend chaque journée juste.",
+      tone: "dark" as const,
+    },
+    {
+      title: "Adresses confidentielles",
+      description:
+        "Maisons, restaurants, ateliers d'artisans, palais privés. Des adresses qui ne se trouvent pas dans les moteurs de réservation.",
+    },
+    {
+      title: "Hébergements hors réseaux",
+      description:
+        "Maisons d'hôtes, palais transformés, hôtels de famille. Le niveau se lit dans le choix des matériaux, des cuisiniers, des matins.",
+    },
+    {
+      title: "Conciergerie 24/7",
+      description:
+        "Réponse sous 24h. Les ajustements de dernière minute, gérés. Les transferts, privés. Ce que nous mettons en place, vous n'avez pas à le vérifier.",
+    },
+    {
+      title: "Expériences immersives",
+      description:
+        "Visites privées, ateliers de famille, tables de chefs. Trois moments inscrits qui justifient le voyage.",
+    },
+  ],
+};
+
+export const bentoMeta = {
+  type: "bento",
+  intent: "Asymmetric bento grid — 2 large tiles on top, 3 smaller tiles below — used to summarise capabilities or signature moments.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 30 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 60 } },
+    },
+    description: {
+      role: "Sub-paragraph under the heading. Required for bento.",
+      required: true,
+      length: { chars: { target: 130, max: 220 } },
+    },
+    cards: {
+      role: "Bento tiles. First two render large; remaining render in a 3-up row.",
+      required: true,
+      itemCount: { exact: 5 },
+      perItem: {
+        role: "One bento tile.",
+        required: true,
+        slots: {
+          title: {
+            role: "Tile heading.",
+            required: true,
+            length: { chars: { max: 40 } },
+          },
+          description: {
+            role: "Tile body — concrete, almost a tagline.",
+            required: true,
+            length: { chars: { target: 80, max: 140 } },
+          },
+          image: {
+            role: "Tile image.",
+            required: true,
+            image: { role: "atmospheric or iconographic", ratio: "16:10" },
+          },
+        },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 function Card({ card, className }: { card: BentoCard; className?: string }) {
   const isDark = card.tone === "dark";

@@ -3,7 +3,7 @@ import type { Continent } from "@/lib/content/types";
 export const continent: Continent = {
   slug: "europe",
   name: "Europe",
-  blurb: "Méditerranée, Atlantique, Alpes — un continent d'art de vivre.",
+  blurb: "Méditerranée, Atlantique, Alpes, un continent d'art de vivre.",
   keywords: ["europe", "italie", "espagne", "portugal", "grece"],
   sections: [
     {

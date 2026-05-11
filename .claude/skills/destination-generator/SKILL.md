@@ -29,11 +29,9 @@ If the user volunteers extra details about the destination itself (places, vibe,
 
 ### 1b. Confirm the experience and hotel selection
 
-The destination page references **3 experiences and 3 accommodations**. Confirm the selection with the user before generating any file.
+The destination page references **3 experiences and 3 accommodations**. **Always ask** the user — never bundle this into a single proactive proposal, never skip on the assumption that the user "implicitly" volunteered a list. Test invocations ("smoke test", "scaffold a Roma page") and naked destination names do NOT count as volunteering. Only skip the ask when the user named at least one specific experience or hotel in their initial prompt (e.g. "make a Bora Bora page including The Brando, the Four Seasons, and a yacht charter").
 
-**Skip this question if the user already volunteered a list in their initial prompt** (e.g. "make a Bora Bora page including The Brando, the Four Seasons, and a yacht charter"). Their volunteered items become the selection.
-
-Otherwise, ask: *"Avez-vous une liste d'expériences et d'hébergements à intégrer, ou je propose une sélection ?"*
+Ask: *"Avez-vous une liste d'expériences et d'hébergements à intégrer, ou je propose une sélection ?"*
 
 #### Branch A — the user provides a list
 
@@ -78,6 +76,81 @@ Carry these into step 5 — they drive the destination's `entityList` `slugs` ar
 
 For factual placeholders that may sneak in (a hotel name you can't verify, a coordinate, a flight time): flag with `// TODO: verify` on the same line.
 
+### 1c. Choose the "Notre coup de cœur" experience
+
+The `imageDuoWithText` section (section #7 — "Notre coup de cœur") spotlights a single experience from the destination. Ask the user which experience from the locked selection should be featured:
+
+*"Quelle expérience met-on en avant dans « Notre coup de cœur » ?"*
+
+Present the 3 locked experience slugs as numbered options so the user can pick quickly. **Skip this question if the user already indicated a preferred experience earlier in the conversation** (e.g. "focus on the helicopter ride").
+
+Once the user picks one, use that experience's data to fill the `imageDuoWithText` section in step 5a:
+
+- **Images (`duo.left` / `duo.right`)**: generate two image filenames that illustrate the chosen experience (e.g. `xp-vol-helico-lagon.png` + `xp-vol-helico-cockpit.png`). Add them to `PROMPTS.md` with reference-search queries derived from the experience name and destination.
+- **Copy (`text.eyebrow`, `text.heading`, `text.columns`)**: write the eyebrow as `"Notre coup de cœur"`, the heading and the two column paragraphs based on what makes the experience special — draw from the experience's name, blurb, keywords, and general knowledge about the activity. Follow STYLE.md voice rules as usual.
+
+### 1d. Pick the spotlight collaborateur
+
+The `specialistSpotlight` section (slot 2 — right after the hero) features a named travel designer from `src/content/collaborateurs/`. The destination references that collaborateur by slug; the section's body data (`specialist.collaborateurSlug`, `specialist.quote`, the 3 `features`) describes what *this* destination owes to *this* designer.
+
+Run `ls src/content/collaborateurs/` to list existing collaborateurs (each file exports a `Collaborateur` with `name`, `role`, and `destinationSlugs`). Pick the one whose `destinationSlugs` already includes a neighbour of the new destination, or whose `role` mentions the right region.
+
+**Always ask** — never bundle the collaborateur into a proactive proposal. Test invocations and naked destination names do NOT count as volunteering. Only skip when the user explicitly named a collaborateur in their initial prompt (e.g. "Antoine should be the specialist for this Provence page").
+
+Ask: *"Quel collaborateur incarne ce voyage ? (ex. antoine pour la Corse, élise pour Paris, stéphane pour la Polynésie)"*
+
+If no existing collaborateur fits, use `// TODO: verify collaborateurSlug` next to the slug and pick the closest match — do NOT create a new collaborateur stub from this skill.
+
+Carry the chosen slug into step 5a — it fills `specialist.collaborateurSlug` in the slot-2 section. The quote and three features are written in step 5a per STYLE.md voice; flag the quote with `// TODO: verify quote attribution` since collaborateur quotes are real-person verbatims.
+
+### 1e. Offer a "related destinations" section (optional)
+
+After locking the experience/accommodation selection, ask the user whether they want a "related destinations" section at the bottom of the page (after FAQ). This section displays up to 3 other destination pages as feature cards (using each destination's first hero image, name, and blurb).
+
+Ask: *"Souhaitez-vous ajouter une section « destinations similaires » en bas de page ? Si oui, avez-vous des destinations à relier, ou je choisis les 3 plus pertinentes ?"*
+
+**Skip this question if the user already volunteered related destinations in their initial prompt.**
+
+#### Branch A — the user provides a list
+
+Check that each destination slug exists in `src/content/destinations/`. Only existing destinations can be referenced — this section does NOT create new stubs. If a slug doesn't exist, tell the user and ask for a replacement.
+
+#### Branch B — the user asks you to choose
+
+Run `ls src/content/destinations/` to see what's available. Pick up to 3 destinations that share the same continent or thematic affinity. Present the proposal:
+
+```
+Destinations similaires proposées :
+1. <slug> · <Nom>
+2. <slug> · <Nom>
+3. <slug> · <Nom>
+
+Ça vous convient ?
+```
+
+Wait for confirmation.
+
+#### Branch C — the user declines
+
+No section is added. Proceed to step 2.
+
+#### Either way
+
+If the user wants the section, you have 1–3 destination slugs (all must already exist). Carry these into step 5a — they drive the optional `entityList kind: "destination"` section placed after `faq` in the `sections[]` array (canonical slot 15):
+
+```tsx
+{
+  type: "entityList",
+  kind: "destination",
+  background: "bg-background-soft",
+  eyebrow: "Inspirations",
+  heading: "Destinations similaires",
+  description: "...",
+  cta: { label: "Voir toutes les destinations", href: "/destinations" },
+  slugs: ["<slug-1>", "<slug-2>", "<slug-3>"],
+}
+```
+
 ### 2. Derive the slug
 
 ```js
@@ -114,13 +187,15 @@ Before writing anything, read:
 - `src/content/destinations/corse.tsx` — Corse reference (alternate voice, useful for section structure)
 - **`ls src/content/experiences/`** — list the existing experience slugs. You'll reuse them where applicable in step 5b instead of creating duplicates.
 - **`ls src/content/accommodations/`** — same for accommodations.
+- **`ls src/content/collaborateurs/`** — list the existing travel-designer slugs (referenced by the slot-2 `specialistSpotlight`). The skill never creates new collaborateurs; it only references existing ones.
+- **[src/lib/sections/index.ts](../../../src/lib/sections/index.ts)** — the central `sectionMetas` registry. Each `Section` type has a co-located `*Meta` export (e.g. `heroMeta`, `bentoMeta`) that owns the per-slot character limits, item counts, and image ratios. When you write data for a slot, the meta is the source of truth for length and structure; STYLE.md owns voice; REFERENCE.md owns destination-specific copy patterns.
 - One existing experience stub (e.g. `src/content/experiences/peche-moorea.tsx`) and one accommodation stub (e.g. `src/content/accommodations/the-brando.tsx`) — to copy the exact stub shape.
 - `src/lib/content/types.ts` — authoritative `Destination`, `Experience`, `Accommodation`, and re-exported `Section` types
 - `src/lib/content/registry.ts` — to know exactly where to register the new files
 
 ### 5. Create files
 
-The selection is already locked from step 1b — you have 3 experience slugs and 3 accommodation slugs, each marked as either *existing* (reuse) or *new* (will be stubbed in 5b). Don't reopen the question here. If the locked selection includes a slug you can't tell whether it exists, run `ls` once and proceed.
+The selection is already locked from steps 1b and 1c — you have 3 experience slugs, 3 accommodation slugs (each marked as *existing* or *new*), and optionally up to 3 related destination slugs (all existing). Don't reopen the question here. If the locked selection includes a slug you can't tell whether it exists, run `ls` once and proceed.
 
 #### 5a. Create `src/content/destinations/<slug>.tsx`
 
@@ -137,11 +212,17 @@ export const destination: Destination = {
     "<slug>",
     /* 3–8 lowercase, no-accent strings: notable places, regions, activities */
   ],
+  metaTitle: "<Destination> — Voyage sur mesure",   // optional; this is the default
+  metaDescription:
+    "<150–160 chars, primary keyword (\"voyage en <Destination>\") + geographic anchor, no CTA — see STYLE.md § SEO discipline>",
   sections: [
     { type: "hero", … },
+    { type: "specialistSpotlight", … },
     { type: "textColumns", … },
-    // … the 13 canonical sections, in order
-    // slot 5 is `entityList kind: "experience"`, slot 7 is `entityList kind: "accommodation"` —
+    // … the 14 canonical sections, in order
+    // slot 2 is `specialistSpotlight`, slot 6 is `entityList kind: "experience"`,
+    // slot 8 is `entityList kind: "accommodation"`
+    // optional slot 15 is `entityList kind: "destination"` (related destinations, after faq) —
     // see REFERENCE.md for the skeleton.
   ],
 };
@@ -210,7 +291,7 @@ Note the asymmetry:
 - `Experience.destinationSlugs` is plural and optional (an experience can belong to multiple destinations).
 - `Accommodation.destinationSlug` is singular and required (a hotel sits at one destination).
 
-The `blurb` field is what the destination's card displays — it must follow the same editorial standard the old card descriptions did (see STYLE.md per-section rule for `featureCards.cards[].description`: 2–3 sentences, opens on a moment, closes on a detail, ≤ 60 words).
+The `blurb` field is what the destination's card displays — it must follow the same editorial standard the old card descriptions did (see STYLE.md per-section rules for `Experience.blurb` / `Accommodation.blurb`: 2–3 sentences, ~25 words target, ≤ 60 words hard cap, opens on a moment, closes on a detail). Length is editorial only — the FeatureCard does not truncate; over-long blurbs just create uneven card heights.
 
 #### 5c. Create `public/destination/<slug>/PROMPTS.md`
 
@@ -268,28 +349,84 @@ Then report:
   2. Add an entry for each reference in `references/destination/<slug>/SOURCES.md` (output filename + URL + license).
   3. Run `GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py <slug>` — it iterates the references folder and writes restyled outputs to `public/destination/<slug>/`.
 - Remind: the page will render with broken images until step 3 has run, the URL is `/destinations/<slug>` (plural), and every newly-stubbed experience/accommodation has unlinked cards on the destination page until a `sections[]` is added to its file.
+- SEO surfaces auto-emitted by [src/lib/destination/seo.ts](../../../src/lib/destination/seo.ts): per-destination `<title>` + `<meta description>` + Open Graph + canonical (via `generateMetadata`), and three JSON-LD blocks (`TouristDestination`, `BreadcrumbList`, `FAQPage`). Confirm `metaTitle` + `metaDescription` are filled on the new destination — empty fields fall back to generic templates.
 
 ---
 
 ## Canonical section order
 
-The 13 entries in `sections[]`, in this exact order:
+The 14 mandatory entries in `sections[]`, in this exact order, plus one optional entry:
 
 1. `hero`
-2. `textColumns` (intro — bg-white)
-3. `fullImage`
-4. `textImagesSplit`
-5. **`entityList`** (`kind: "experience"` — bg-white) — references 3 experience slugs
-6. `imageDuoWithText` (cultural duo — composite type)
-7. **`entityList`** (`kind: "accommodation"` — bg-background-soft) — references 3 accommodation slugs
-8. `infoGrid`
-9. `bento`
-10. `placesMap` (bg-background-soft)
-11. `tips` (bg-background-soft)
-12. `testimonials`
-13. `faq` (bg-white)
+2. **`specialistSpotlight`** — references one collaborateur slug from `src/content/collaborateurs/` (see step 1d)
+3. `textColumns` (intro — bg-white)
+4. `fullImage`
+5. `textImagesSplit`
+6. **`entityList`** (`kind: "experience"` — bg-white) — references 3 experience slugs
+7. `imageDuoWithText` (cultural duo — composite type)
+8. **`entityList`** (`kind: "accommodation"` — bg-background-soft) — references 3 accommodation slugs
+9. `infoGrid`
+10. `bento`
+11. `placesMap` (bg-background-soft)
+12. `tips` (bg-background-soft)
+13. `testimonials`
+14. `faq` (bg-white)
+15. *(optional)* **`entityList`** (`kind: "destination"` — bg-background-soft) — references up to 3 related destination slugs. Rendered as feature cards using each destination's first hero image. See step 1e.
 
 A user-volunteered "extra section" (e.g. boat excursions for Corse) should be inserted as an additional entry at a sensible position — typically as another `entityList kind: "experience"` block, placed before or after the canonical experiences block.
+
+---
+
+## Canonical defaults — locked content per section
+
+Several slots are **locked to canonical defaults** across every destination. Do NOT generate new copy for them — import or copy the defaults verbatim. The destination only customises images and a few destination-specific surfaces.
+
+### `specialistSpotlight.features` — locked
+
+Always use the 3 canonical features exported as `defaultSpotlightFeatures` from [src/components/sections/specialist-spotlight.tsx](../../../src/components/sections/specialist-spotlight.tsx). Do not customise titles or descriptions per destination. Import and use:
+
+```tsx
+import { defaultSpotlightFeatures } from "@/components/sections/specialist-spotlight";
+
+// in the section:
+features: defaultSpotlightFeatures,
+```
+
+The canonical trio is `Conciergerie 24/7` / `Sur mesure` / `Exclusif` with destination-agnostic descriptions.
+
+### `entityList kind: "experience"` eyebrow — locked
+
+Always exactly: `"Expériences et activités en <Nom de la destination>"`. No variations like "Trois expériences" or "Nos coups de cœur".
+
+### `bento` — eyebrow, heading, and cards locked
+
+Use `defaultBento` exported from [src/components/sections/bento.tsx](../../../src/components/sections/bento.tsx) — provides the canonical `eyebrow`, `heading`, and 5 `cards` (each with `title` + `description` + `tone` for card 0). Only the section's `description` (the subtitle under the heading) and each card's `image` are destination-specific.
+
+```tsx
+import { defaultBento } from "@/components/sections/bento";
+
+// in the section:
+{
+  type: "bento",
+  eyebrow: defaultBento.eyebrow,
+  heading: defaultBento.heading,
+  description: "Plusieurs expertises se mobilisent sur chaque dossier <Destination>. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
+  cta: { label: "Construire ce voyage", href: "/reserver" },
+  cards: defaultBento.cards.map((card, i) => ({
+    ...card,
+    image: {
+      src: `/destination/<slug>/bento-${["map","adresses","hebergements","conciergerie","experiences"][i]}.png`,
+      alt: "<French alt>",
+    },
+  })),
+}
+```
+
+Canonical card filenames: `bento-map.png`, `bento-adresses.png`, `bento-hebergements.png`, `bento-conciergerie.png`, `bento-experiences.png`.
+
+### `tips` — minimum 8 items
+
+Every destination ships with **at least 8 tips** (`tipsMeta.itemCount.min` is 8). Aim for 8–12. The 4-tip pattern from older Polynésie/Corse pages is deprecated.
 
 ---
 
@@ -300,6 +437,8 @@ A user-volunteered "extra section" (e.g. boat excursions for Corse) should be in
 Quick summary (full rules in STYLE.md): French, present tense, third person or impersonal `on`, never `vous` outside CTAs/FAQ. Open paragraphs on a concrete observation — never on "Découvrez/Imaginez/Plongez". Show register by detail, not by adjective. The words "luxe", "paradis", "exceptionnel", "authentique", "incontournable" are forbidden in body copy. Use real names and specific numbers. End paragraphs on an observation, not a CTA. Two canonical CTAs project-wide: *"Construire ce voyage"* (preferred) or *"Créer votre voyage"* → `/reserver`, *"Contactez-nous"* → `/contact`.
 
 **Entity blurbs follow the same voice.** Each `Experience.blurb` and `Accommodation.blurb` is the editorial copy that used to live as the inline card description on the destination page. Same rules — same anti-cliché list — same cadence.
+
+**SEO discipline is a STYLE.md block, not a separate concern.** See [STYLE.md § SEO discipline](STYLE.md). Headlines: each destination has one primary keyword (`voyage en <Destination>`); it must appear in the eyebrow, the first sentence of the intro, the metaDescription, ≥ 1 H2, and the hero+fullImage alts. The H1 stays evocative — the eyebrow above it carries the keyword. Named-entity density (places, hotels, dishes, regions) beats keyword density. FAQ questions mirror Google "People Also Ask" — verbatim, as a user would type. Meta description is 150–160 chars, factual, no CTA.
 
 ---
 

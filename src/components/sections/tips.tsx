@@ -14,6 +14,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type TipsItem = {
   title: string;
@@ -31,6 +32,59 @@ export type TipsSectionProps = {
   items: TipsItem[];
   background?: string;
 };
+
+export const tipsMeta = {
+  type: "tips",
+  intent: "Practical tips carousel — small cards that open a modal with rich content. Used for travel-prep advice (packing, health, season, budget).",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 70 } },
+    },
+    description: {
+      role: "Optional sub-paragraph under the heading.",
+      required: false,
+      length: { chars: { target: 220, max: 320 } },
+    },
+    items: {
+      role: "Tip cards (carousel beyond what fits on screen).",
+      required: true,
+      itemCount: { min: 8, max: 12 },
+      perItem: {
+        role: "One tip card with a modal for long-form content.",
+        required: true,
+        slots: {
+          title: {
+            role: "Tip card heading.",
+            required: true,
+            length: { chars: { max: 40 } },
+          },
+          shortDescription: {
+            role: "One-line teaser shown on the closed card. No period required.",
+            required: false,
+            length: { chars: { target: 90, max: 140 } },
+          },
+          cardEyebrow: {
+            role: "Eyebrow on the closed card (e.g. 'Tips').",
+            required: false,
+            length: { chars: { max: 20 } },
+          },
+          modalEyebrow: {
+            role: "Eyebrow inside the modal (e.g. 'Guide pratique').",
+            required: false,
+            length: { chars: { max: 30 } },
+          },
+        },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 function TipCard({ item }: { item: TipsItem }) {
   return (
