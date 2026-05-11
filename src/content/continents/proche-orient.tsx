@@ -3,7 +3,7 @@ import type { Continent } from "@/lib/content/types";
 export const continent: Continent = {
   slug: "proche-orient",
   name: "Proche & Moyen-Orient",
-  blurb: "Déserts, médinas, palais — l'art d'une hospitalité ancienne.",
+  blurb: "Déserts, médinas, palais, l'art d'une hospitalité ancienne.",
   keywords: [
     "proche orient",
     "moyen orient",

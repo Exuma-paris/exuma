@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { TextBlock } from "@/components/blocks/text-block";
 import { ProgressBar } from "@/components/ui/progress-bar";
+import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type HeroImageGalleryProps = {
   eyebrow?: string;
@@ -13,6 +15,38 @@ export type HeroImageGalleryProps = {
   images: { src: string; alt: string }[];
   autoScrollInterval?: number;
 };
+
+export const heroMeta = {
+  type: "hero",
+  intent: "Page opener — h1, optional subhead, and a square-ratio image gallery.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the h1.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Page <h1>.",
+      required: true,
+      length: { chars: { target: 70, max: 120 } },
+    },
+    description: {
+      role: "Optional subhead under the h1.",
+      required: false,
+      length: { chars: { target: 220, max: 280 } },
+    },
+    images: {
+      role: "Hero gallery (auto-scrolls when length > 1).",
+      required: true,
+      itemCount: { exact: 3 },
+      perItem: {
+        role: "One hero image.",
+        required: true,
+        image: { role: "atmospheric", ratio: "1:1" },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 function ImageTile({ image }: { image: { src: string; alt: string } }) {
   return (
@@ -139,7 +173,12 @@ export function HeroImageGallery({
       )}
 
       {hasCarousel ? (
-        <div className="section-px mx-auto flex w-full max-w-layout justify-center">
+        <div
+          className={cn(
+            "section-px mx-auto flex w-full max-w-layout justify-center",
+            images.length === 3 && "lg:hidden",
+          )}
+        >
           <ProgressBar
             active={active}
             total={images.length}

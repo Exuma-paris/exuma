@@ -254,7 +254,7 @@ function ContinentView({
 
           {isEmpty ? (
             <p className="mt-6 text-secondary-foreground">
-              Bientôt disponible — contactez-nous pour explorer ce continent
+              Bientôt disponible, contactez-nous pour explorer ce continent
               dès aujourd'hui.
             </p>
           ) : (

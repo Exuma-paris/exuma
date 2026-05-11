@@ -5,12 +5,9 @@ export const accommodation: Accommodation = {
   name: "Le Bristol Paris",
   blurb: (
     <>
-      Rue du Faubourg Saint-Honoré, palace de 1925. Un jardin intérieur de
-      1 200 m², <strong>hors normes pour un hôtel parisien</strong>, où
-      s&apos;organisent les petits-déjeuners au printemps. Les deux chats
-      angoras Fa-Raon et Kléopâtre traversent les couloirs sans qu&apos;on
-      s&apos;en étonne. La table d&apos;Eric Frechon a trois étoiles depuis
-      2009.
+      Faubourg Saint-Honoré, 1925. Un jardin intérieur de 1 200 m²,{" "}
+      <strong>hors normes pour un hôtel parisien</strong>. Trois étoiles chez
+      Eric Frechon.
     </>
   ),
   keywords: ["paris", "bristol", "palace", "faubourg saint honore", "frechon", "epicure"],

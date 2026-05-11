@@ -9,6 +9,7 @@ import {
 } from "@/components/blocks/testimonial-card";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type TestimonialsSectionProps = {
   eyebrow?: string;
@@ -17,6 +18,54 @@ export type TestimonialsSectionProps = {
   testimonials: TestimonialCardProps[];
   background?: string;
 };
+
+export const testimonialsMeta = {
+  type: "testimonials",
+  intent: "Customer testimonials carousel — first-person voice with a portrait, name, and trip context.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 30 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 60 } },
+    },
+    testimonials: {
+      role: "Customer testimonials.",
+      required: true,
+      itemCount: { exact: 3, min: 1, max: 6 },
+      perItem: {
+        role: "One testimonial — real customer voice.",
+        required: true,
+        slots: {
+          quote: {
+            role: "First-person quote with small details and slightly imperfect rhythm.",
+            required: true,
+            length: { chars: { target: 280, max: 480, min: 140 } },
+          },
+          name: {
+            role: "Customer first name (or first name + initial).",
+            required: true,
+            length: { chars: { max: 30 } },
+          },
+          role: {
+            role: "Trip context (e.g. 'Voyage de noces, octobre 2025').",
+            required: false,
+            length: { chars: { max: 60 } },
+          },
+          image: {
+            role: "Customer portrait. May reuse a hero image when no real portrait exists.",
+            required: true,
+            image: { role: "portrait", ratio: "1:1" },
+          },
+        },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function TestimonialsSection({
   eyebrow,

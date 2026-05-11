@@ -47,14 +47,10 @@ export const destination: Destination = {
       heading: "Un seul interlocuteur, du premier échange jusqu'au retour",
       partners: { title: "" },
       specialist: {
-        // TODO: verify quote attribution and travel designer name
+        collaborateurSlug: "stephane",
+        // TODO: verify quote attribution
         quote:
           "Il y a des voyages qu'on construit en quelques échanges parce que tout s'aligne vite. Et d'autres où il faut une heure de conversation pour comprendre ce que la personne cherche vraiment, pas ce qu'elle demande. La Polynésie, c'est souvent le deuxième cas. Et c'est là que le voyage devient intéressant.",
-        image: {
-          src: "/testimonials/stephane.jpg", // TODO: verify portrait
-          alt: "Portrait de Stéphane, travel designer Polynésie",
-        },
-        name: "Stéphane", // TODO: verify
         role: "Travel Designer · Polynésie française",
       },
       features: [
@@ -103,7 +99,7 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Les étoiles du Pacifique — Bora Bora",
+      eyebrow: "Les étoiles du Pacifique, Bora Bora",
       heading: "Le soir où le ciel change de sens",
       theme: "light",
       paragraphs: [
@@ -285,9 +281,9 @@ export const destination: Destination = {
       initialZoom: 6,
       places: [
         {
-          title: "Tetiaroa — l'atoll privé",
+          title: "Tetiaroa, l'atoll privé",
           description:
-            "L'atoll n'a pas de route. Pas de voiture. L'avion qui le relie à Papeete dépose ses passagers sur une bande de sable entre deux lagons. The Brando occupe l'atoll depuis 2014, sur les terres que Marlon Brando avait achetées après le tournage des Révoltés du Bounty. On n'arrive pas ici par hasard.",
+            "L'atoll n'a pas de route. The Brando occupe les terres que Marlon Brando avait achetées après les Révoltés du Bounty.",
           image: {
             src: "/destination/polynesie/map-tetiaroa.png",
             alt: "Atoll de Tetiaroa vu du ciel",
@@ -295,9 +291,9 @@ export const destination: Destination = {
           coordinates: { lat: -17.0133, lng: -149.5597 },
         },
         {
-          title: "Moorea — la montagne dans le lagon",
+          title: "Moorea, la montagne dans le lagon",
           description:
-            "Depuis le pont du ferry de nuit, on voit la montagne avant l'île. Les pics déchiquetés à 880 mètres, le vert dense qui descend jusqu'à l'eau. Les baies de Cook et d'Opunohu, vues depuis le belvédère, forment une géométrie d'eau et de forêt qui n'existe nulle part ailleurs.",
+            "Depuis le ferry de nuit, on voit la montagne avant l'île. Les pics à 880 mètres, le vert qui descend jusqu'à l'eau.",
           image: {
             src: "/destination/polynesie/map-huahine.png",
             alt: "Pics déchiquetés de Moorea émergeant du lagon",
@@ -305,9 +301,9 @@ export const destination: Destination = {
           coordinates: { lat: -17.5388, lng: -149.8295 },
         },
         {
-          title: "Bora Bora — le lagon, vraiment",
+          title: "Bora Bora, le lagon, vraiment",
           description:
-            "Il serait malhonnête de l'esquiver. Le lagon est réel, cette couleur bleu-vert qui change selon la profondeur exactement ce que les photographies montrent. Bora Bora se mérite par la bonne organisation : un accès depuis les hauteurs, des matins en bateau avant que les catamarans de journée n'arrivent.",
+            "Le lagon est réel, exactement la couleur des photographies. La densité des resorts l'est aussi. À aborder par les hauteurs.",
           image: {
             src: "/destination/polynesie/map-huahine.png",
             alt: "Vue aérienne du lagon de Bora Bora et du mont Otemanu",
@@ -315,9 +311,9 @@ export const destination: Destination = {
           coordinates: { lat: -16.5004, lng: -151.7415 },
         },
         {
-          title: "Raiatea — le berceau de la Polynésie",
+          title: "Raiatea, le berceau de la Polynésie",
           description:
-            "L'île sacrée. Les Polynésiens la considèrent comme le berceau de leur civilisation : c'est de là que les premiers navigateurs sont partis coloniser le Pacifique, guidés par les étoiles. Le marae de Taputapuatea, classé au patrimoine mondial de l'UNESCO depuis 2017. La rivière de Faaroa est la seule voie navigable de Polynésie.",
+            "L'île sacrée, point de départ des premiers navigateurs polynésiens. Marae de Taputapuatea classé UNESCO.",
           image: {
             src: "/destination/polynesie/map-raiatea.png",
             alt: "Marae de Taputapuatea sur l'île de Raiatea",
@@ -325,9 +321,9 @@ export const destination: Destination = {
           coordinates: { lat: -16.8333, lng: -151.4333 },
         },
         {
-          title: "Maupiti — le lagon sans les hôtels",
+          title: "Maupiti, le lagon sans les hôtels",
           description:
-            "À trente minutes de vol de Bora Bora, Maupiti possède le même lagon sans un seul grand hôtel. La piste d'atterrissage n'accepte pas les avions de ligne. Les hébergements sont des maisons de famille. La table est celle de la maison.",
+            "À 30 minutes de vol de Bora Bora, le même lagon, sans un seul grand hôtel. Les hébergements sont des maisons de famille.",
           image: {
             src: "/destination/polynesie/map-tahaa.png",
             alt: "Lagon de Maupiti vu du ciel",
@@ -335,9 +331,9 @@ export const destination: Destination = {
           coordinates: { lat: -16.4333, lng: -152.2667 }, // TODO: verify coords
         },
         {
-          title: "Fakarava — la passe de Garuae",
+          title: "Fakarava, la passe de Garuae",
           description:
-            "À Fakarava, la passe se plonge tôt le matin, avant que le courant ne change de sens. Les requins gris convergent dans la passe par centaines, dans un spectacle que les scientifiques de la réserve de biosphère UNESCO documentent depuis vingt ans. La plupart des hébergements ne s'organisent pas autour de cette fenêtre. Nous, si.",
+            "La passe se plonge tôt le matin. Les requins gris convergent par centaines, dans la réserve de biosphère UNESCO.",
           image: {
             src: "/destination/polynesie/map-tuamotu.png",
             alt: "Passe de Garuae à Fakarava, archipel des Tuamotu",
@@ -357,7 +353,7 @@ export const destination: Destination = {
       cta: { label: "Construire ce voyage", href: "/reserver" },
       items: [
         {
-          title: "Maupiti — le lagon sans les hôtels",
+          title: "Maupiti, le lagon sans les hôtels",
           cardEyebrow: "Île",
           modalEyebrow: "Ce que les guides ne disent pas",
           shortDescription:
@@ -386,7 +382,7 @@ export const destination: Destination = {
           ),
         },
         {
-          title: "La passe de Garuae — Fakarava",
+          title: "La passe de Garuae, Fakarava",
           cardEyebrow: "Plongée",
           modalEyebrow: "Ce que les guides ne disent pas",
           shortDescription:
@@ -413,7 +409,7 @@ export const destination: Destination = {
           ),
         },
         {
-          title: "L'intérieur de Tahiti — une île dans l'île",
+          title: "L'intérieur de Tahiti, une île dans l'île",
           cardEyebrow: "Tahiti",
           modalEyebrow: "Ce que les guides ne disent pas",
           shortDescription:
@@ -435,7 +431,7 @@ export const destination: Destination = {
           ),
         },
         {
-          title: "Le vignoble de Rangiroa — du vin sur du corail",
+          title: "Le vignoble de Rangiroa, du vin sur du corail",
           cardEyebrow: "Tuamotu",
           modalEyebrow: "Ce que les guides ne disent pas",
           shortDescription:

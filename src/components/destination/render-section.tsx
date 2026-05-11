@@ -1,5 +1,9 @@
 import type { ReactNode } from "react";
 import { HeroImageGallery } from "@/components/sections/hero/image-gallery";
+import { HeroImageBackground } from "@/components/sections/hero/image-background";
+import { HeroLanding } from "@/components/sections/hero/landing";
+import { GallerySection } from "@/components/sections/gallery";
+import { FeatureShowcase } from "@/components/sections/feature-showcase";
 import { TextColumnsSection } from "@/components/sections/text-columns";
 import { FullImageSection } from "@/components/sections/full-image";
 import { TextImagesSplitSection } from "@/components/sections/text-images-split";
@@ -17,7 +21,12 @@ import { FinalCtaSection } from "@/components/sections/final-cta";
 import { SpecialistSpotlight } from "@/components/sections/specialist-spotlight";
 import { FaqSection } from "@/components/sections/faq";
 import type { Section } from "@/lib/destination/types";
-import { accommodations, experiences } from "@/lib/content/registry";
+import {
+  accommodations,
+  collaborateurs,
+  destinations,
+  experiences,
+} from "@/lib/content/registry";
 import { entityRoute } from "@/lib/content/types";
 import { renderIcon } from "./icons";
 
@@ -37,6 +46,64 @@ export function renderSection(section: Section, key: string): ReactNode {
           description={section.description}
           images={section.images}
           autoScrollInterval={section.autoScrollInterval}
+        />
+      );
+
+    case "heroImageBackground":
+      return (
+        <HeroImageBackground
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          images={section.images}
+          interval={section.interval}
+        />
+      );
+
+    case "heroLanding":
+      return (
+        <HeroLanding
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          rating={section.rating}
+          partners={section.partners}
+          features={section.features?.map((f) => ({
+            icon: renderIcon(f.iconName),
+            title: f.title,
+            description: f.description,
+          }))}
+          slides={section.slides}
+          contactCta={section.contactCta}
+          floatingCta={section.floatingCta}
+          discover={section.discover}
+          background={section.background}
+        />
+      );
+
+    case "gallery":
+      return (
+        <GallerySection
+          key={key}
+          heading={section.heading}
+          description={section.description}
+          images={section.images}
+          autoScrollInterval={section.autoScrollInterval}
+          background={section.background}
+        />
+      );
+
+    case "featureShowcase":
+      return (
+        <FeatureShowcase
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          items={section.items}
         />
       );
 
@@ -223,14 +290,21 @@ export function renderSection(section: Section, key: string): ReactNode {
         />
       );
 
-    case "specialistSpotlight":
+    case "specialistSpotlight": {
+      const c = collaborateurs[section.specialist.collaborateurSlug];
+      if (!c) return null;
       return (
         <SpecialistSpotlight
           key={key}
           eyebrow={section.eyebrow}
           heading={section.heading}
           partners={section.partners}
-          specialist={section.specialist}
+          specialist={{
+            quote: section.specialist.quote,
+            image: c.image,
+            name: c.name,
+            role: section.specialist.role ?? c.role,
+          }}
           features={section.features?.map((f) => ({
             icon: renderIcon(f.iconName),
             title: f.title,
@@ -239,6 +313,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           background={section.background}
         />
       );
+    }
 
     case "faq":
       return (
@@ -254,22 +329,33 @@ export function renderSection(section: Section, key: string): ReactNode {
 
     case "entityList": {
       const lookup =
-        section.kind === "experience" ? experiences : accommodations;
+        section.kind === "experience"
+          ? experiences
+          : section.kind === "destination"
+            ? destinations
+            : accommodations;
       const cards = section.slugs
         .map((slug) => lookup[slug])
         .filter((entity) => entity !== undefined)
-        .map((entity) => ({
-          title: entity.name,
-          description: entity.blurb ?? "",
-          image: entity.heroImage ?? ENTITY_PLACEHOLDER_IMAGE,
-          link:
-            entity.sections.length > 0
-              ? {
-                  label: "Découvrir",
-                  href: entityRoute[section.kind](entity.slug),
-                }
-              : undefined,
-        }));
+        .map((entity) => {
+          const heroImage =
+            "heroImage" in entity && entity.heroImage
+              ? entity.heroImage
+              : entity.sections.find((s) => s.type === "hero")?.images?.[0] ??
+                ENTITY_PLACEHOLDER_IMAGE;
+          return {
+            title: entity.name,
+            description: entity.blurb ?? "",
+            image: heroImage,
+            link:
+              entity.sections.length > 0
+                ? {
+                    label: "Découvrir",
+                    href: entityRoute[section.kind](entity.slug),
+                  }
+                : undefined,
+          };
+        });
 
       return (
         <FeatureCardsSection

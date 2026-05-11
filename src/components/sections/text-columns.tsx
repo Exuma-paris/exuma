@@ -2,6 +2,7 @@ import Link from "next/link";
 import { TextBlock } from "@/components/blocks/text-block";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type TextColumnsSectionProps = {
   eyebrow?: string;
@@ -10,6 +11,34 @@ export type TextColumnsSectionProps = {
   columns: string[];
   background?: string;
 };
+
+export const textColumnsMeta = {
+  type: "textColumns",
+  intent:
+    "Editorial bridge or page intro — a heading and three short paragraphs that introduce a thesis.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 70 } },
+    },
+    columns: {
+      role: "Editorial paragraphs (3-column grid on desktop).",
+      required: true,
+      itemCount: { exact: 3 },
+      perItem: {
+        role: "One editorial paragraph.",
+        required: true,
+        length: { chars: { target: 300, max: 480, min: 180 } },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function TextColumnsSection({
   eyebrow,

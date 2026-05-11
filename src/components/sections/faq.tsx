@@ -6,6 +6,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type FaqItem = {
   question: string;
@@ -19,6 +20,44 @@ export type FaqSectionProps = {
   items: FaqItem[];
   background?: string;
 };
+
+export const faqMeta = {
+  type: "faq",
+  intent: "FAQ accordion — also feeds the FAQPage JSON-LD that triggers Google 'People Also Ask' rich results.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label (defaults to 'FAQ').",
+      required: false,
+      length: { chars: { max: 20 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 50 } },
+    },
+    items: {
+      role: "Question/answer pairs.",
+      required: true,
+      itemCount: { exact: 6, min: 4, max: 8 },
+      perItem: {
+        role: "One Q&A. Question must be a real Google query as a user would type it.",
+        required: true,
+        slots: {
+          question: {
+            role: "User-typed question (mirrors Google 'People Also Ask').",
+            required: true,
+            length: { chars: { target: 60, max: 100 } },
+          },
+          answer: {
+            role: "Direct factual answer. Plain string preferred — JSX answers are skipped from the FAQPage JSON-LD.",
+            required: true,
+            length: { chars: { target: 280, max: 480, min: 120 } },
+          },
+        },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function FaqSection({
   eyebrow = "FAQ",

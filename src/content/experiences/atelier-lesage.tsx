@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "atelier-lesage",
   name: "Atelier privé chez un brodeur de la Maison Lesage",
   blurb:
-    "Aubervilliers, banlieue nord. Le 19M réunit douze ateliers d'art Chanel — Lesage, Lemarié, Massaro, Goossens. Chez Lesage, des brodeuses travaillent au point de soie, à la main, des broderies pour la haute couture. Les gestes ne se filment pas. La pièce qui sort de l'atelier monte ensuite sur un défilé.",
+    "Au 19M d'Aubervilliers, les brodeuses Lesage travaillent au point de soie, à la main, les broderies que la haute couture monte sur un défilé.",
   keywords: ["paris", "lesage", "broderie", "haute couture", "metiers d'art", "le 19m"],
   heroImage: {
     src: "/destination/paris/xp-atelier-lesage.png",

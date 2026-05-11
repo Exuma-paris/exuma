@@ -4,7 +4,7 @@ export const accommodation: Accommodation = {
   slug: "st-regis-bora-bora",
   name: "The St. Regis Bora Bora Resort",
   blurb:
-    "Le St. Regis occupe la pointe nord-est du lagon, face au mont Otemanu. Les villas sur pilotis s'avancent sur un lagon encore peu fréquenté à cet endroit. Le butler service est réel : les demandes sont anticipées, pas seulement honorées.",
+    "Pointe nord-est du lagon, face au mont Otemanu. Villas sur pilotis sur un lagon peu fréquenté à cet endroit. Le butler service est réel.",
   keywords: ["st regis", "bora bora", "polynesie", "otemanu", "pilotis"],
   heroImage: {
     src: "/destination/polynesie/hotel-intercontinental.png",

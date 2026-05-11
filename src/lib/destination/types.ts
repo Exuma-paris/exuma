@@ -187,9 +187,8 @@ export type Section =
         }[];
       };
       specialist: {
+        collaborateurSlug: string;
         quote: string;
-        image: ImageRef;
-        name: string;
         role?: string;
       };
       features?: {
@@ -214,12 +213,87 @@ export type Section =
     }
   | {
       type: "entityList";
-      kind: "experience" | "accommodation";
+      kind: "experience" | "accommodation" | "destination";
       eyebrow?: string;
       heading: string;
       description?: string;
       cta?: Cta;
       slugs: string[];
+      background?: string;
+    }
+  | {
+      type: "heroImageBackground";
+      eyebrow?: string;
+      heading: string;
+      description?: string;
+      images: ImageRef[];
+      interval?: number;
+      background?: string;
+    }
+  | {
+      type: "gallery";
+      heading: string;
+      description?: string;
+      images: ImageRef[];
+      autoScrollInterval?: number;
+      background?: string;
+    }
+  | {
+      type: "featureShowcase";
+      eyebrow?: string;
+      heading: string;
+      description?: string;
+      items: {
+        title: string;
+        detail: ReactNode;
+        image: ImageRef;
+      }[];
+      background?: string;
+    }
+  | {
+      type: "heroLanding";
+      eyebrow?: string;
+      heading: string;
+      description?: string;
+      cta: Cta;
+      rating?: { score: number; label: string };
+      partners?: {
+        title?: string;
+        logos?: {
+          src: string;
+          alt: string;
+          width: number;
+          height: number;
+        }[];
+      };
+      features?: {
+        iconName: IconName;
+        title: string;
+        description: string;
+      }[];
+      slides: { image: ImageRef }[];
+      contactCta?: {
+        label: string;
+        href: string;
+        avatar?: ImageRef;
+        statusOnline?: boolean;
+      };
+      floatingCta?: Cta;
+      discover?: {
+        title: string;
+        bottomCta?: Cta;
+        items: {
+          id: string;
+          category: "ile" | "hotel" | "experience" | "spot";
+          eyebrow: string;
+          title: string;
+          description: string;
+          image: ImageRef;
+          imageRatio?: "1x1" | "3x4" | "16x9";
+          lightboxImage?: ImageRef;
+          cta?: Cta;
+        }[];
+      };
       background?: string;
     };
 

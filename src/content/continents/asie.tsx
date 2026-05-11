@@ -11,7 +11,7 @@ export const continent: Continent = {
       eyebrow: "Continent",
       heading: "Asie",
       description:
-        "Une mosaïque de civilisations vivantes — temples confidentiels, ryokans isolés, traversées en jonque privée. L'Asie d'Exuma se découvre par la rencontre.",
+        "Une mosaïque de civilisations vivantes, temples confidentiels, ryokans isolés, traversées en jonque privée. L'Asie d'Exuma se découvre par la rencontre.",
       images: [
         {
           src: "/destination/polynesie/hero-1.png",

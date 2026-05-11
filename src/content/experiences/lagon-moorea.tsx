@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "lagon-moorea",
   name: "Le lagon de Moorea, tôt le matin",
   blurb:
-    "Le guide coupe le moteur et dit : regardez le fond. À deux mètres sous la coque, on voit le sable, les poissons, et entre eux une raie qui se déplace sans effort. Les requins à pointe noire arrivent ensuite, dans les hauts-fonds à hauteur de genoux.",
+    "Le guide coupe le moteur. À deux mètres sous la coque, le sable, les poissons, et entre eux une raie qui se déplace sans effort apparent.",
   keywords: ["moorea", "lagon", "snorkeling", "raies", "requins"],
   heroImage: {
     src: "/destination/polynesie/xp-plongee.png",

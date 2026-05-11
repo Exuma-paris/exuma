@@ -97,7 +97,7 @@ export function Footer({ className }: { className?: string }) {
       <div className="section-px mx-auto w-full max-w-layout py-20">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="flex flex-col gap-6 lg:col-span-4">
-            <Link href="/" aria-label="Exuma — accueil" className="inline-flex">
+            <Link href="/" aria-label="Exuma, accueil" className="inline-flex">
               <Logo className="h-8 w-auto text-background" />
             </Link>
             <p className="max-w-80 text-background/70">{tagline}</p>
@@ -232,7 +232,7 @@ export function Footer({ className }: { className?: string }) {
       <div className="border-t border-background/10">
         <div className="section-px mx-auto flex w-full max-w-layout flex-col gap-4 py-6 text-xs text-background/60 md:flex-row md:items-center md:justify-between">
           <p>
-            © {new Date().getFullYear()} Exuma — Agence de voyage de luxe.
+            © {new Date().getFullYear()} Exuma, Agence de voyage de luxe.
             Tous droits réservés.
           </p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">

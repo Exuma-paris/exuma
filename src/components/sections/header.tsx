@@ -98,7 +98,7 @@ export function Header({
         </div>
 
         <div className="flex justify-center">
-          <Link href="/" aria-label="Exuma — accueil" className="flex">
+          <Link href="/" aria-label="Exuma, accueil" className="flex">
             <Logo className="h-6 w-auto md:h-7 lg:h-8" />
           </Link>
         </div>

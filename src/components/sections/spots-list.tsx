@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type SpotsListItem = {
   title: string;
@@ -15,6 +16,49 @@ export type SpotsListSectionProps = {
   spots: SpotsListItem[];
   background?: string;
 };
+
+export const spotsListMeta = {
+  type: "spotsList",
+  intent: "Editorial list of named spots — title-on-left + description-on-right rows. No images. Used for short, dense itineraries or recommendation lists.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 70 } },
+    },
+    description: {
+      role: "Optional sub-paragraph under the heading.",
+      required: false,
+      length: { chars: { target: 220, max: 320 } },
+    },
+    spots: {
+      role: "List rows.",
+      required: true,
+      itemCount: { min: 4, max: 12 },
+      perItem: {
+        role: "One spot — short title + one-paragraph description.",
+        required: true,
+        slots: {
+          title: {
+            role: "Spot name.",
+            required: true,
+            length: { chars: { max: 50 } },
+          },
+          description: {
+            role: "What this spot is and why it matters.",
+            required: true,
+            length: { chars: { target: 180, max: 320, min: 80 } },
+          },
+        },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function SpotsListSection({
   eyebrow,

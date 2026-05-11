@@ -52,7 +52,7 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Polynésie Française — Le luxe et l'exclusif",
+      eyebrow: "Polynésie Française, Le luxe et l'exclusif",
       heading: "L'essence secrète de la Polynésie française",
       theme: "light",
       paragraphs: [

@@ -27,7 +27,7 @@ export const serviceCategory: ServiceCategory = {
       eyebrow: "Service",
       heading: "Expériences & lifestyle",
       description:
-        "Places privilégiées, tables introuvables, guides experts et navigation privée — l'accès aux expériences hors circuit.",
+        "Places privilégiées, tables introuvables, guides experts et navigation privée, l'accès aux expériences hors circuit.",
       images: [
         {
           src: "/destination/polynesie/hero-1.png",

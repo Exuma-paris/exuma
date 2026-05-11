@@ -9,6 +9,8 @@ import { TextBlock } from "@/components/blocks/text-block";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+import type { SectionMeta } from "@/lib/sections/meta-types";
+
 export type Place = {
   title: string;
   description: string;
@@ -26,6 +28,54 @@ export type PlacesMapSectionProps = {
   initialZoom?: number;
   background?: string;
 };
+
+export const placesMapMeta = {
+  type: "placesMap",
+  intent: "Editorial gazetteer — interactive map paired with a scrollable list of named places.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 70 } },
+    },
+    description: {
+      role: "Optional sub-paragraph under the heading.",
+      required: false,
+      length: { chars: { target: 220, max: 320 } },
+    },
+    places: {
+      role: "List of pinned places shown alongside the map.",
+      required: true,
+      itemCount: { exact: 6, min: 4, max: 8 },
+      perItem: {
+        role: "One place — surfaces in both the side list and as a map pin.",
+        required: true,
+        slots: {
+          title: {
+            role: "Place name (city, region, or specific landmark).",
+            required: true,
+            length: { chars: { max: 40 } },
+          },
+          description: {
+            role: "Why this place matters — open on a fact, close on what makes it different.",
+            required: true,
+            length: { chars: { target: 140, max: 220 } },
+          },
+          image: {
+            role: "Place thumbnail.",
+            required: true,
+            image: { role: "place portrait", ratio: "1:1" },
+          },
+        },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 const DEFAULT_MAP_STYLE = "https://tiles.openfreemap.org/styles/liberty";
 
@@ -185,7 +235,7 @@ export function PlacesMapSection({
           ) : null}
         </div>
 
-        <div className="grid gap-3 md:grid-cols-2 md:aspect-2/1">
+        <div className="grid gap-3 md:grid-cols-2 md:h-125">
           <ul className="flex aspect-square min-h-0 flex-col gap-3 overflow-y-auto bg-background p-4 [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-border md:aspect-auto md:h-full">
             {places.map((place, i) => {
               const isActive = activeIndex === i;

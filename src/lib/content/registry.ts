@@ -1,6 +1,7 @@
 import type {
   Accommodation,
   AnyTagged,
+  Collaborateur,
   Continent,
   Destination,
   EntityByKind,
@@ -16,7 +17,10 @@ import { destination as corse } from "@/content/destinations/corse";
 import { destination as polynesie } from "@/content/destinations/polynesie";
 import { destination as polynesieOld } from "@/content/destinations/polynesie-old";
 import { destination as polynesie2 } from "@/content/destinations/polynesie-2";
+import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as paris } from "@/content/destinations/paris";
+import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
+import { destination as rome } from "@/content/destinations/rome";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -41,33 +45,58 @@ import { serviceCategory as ingenierie } from "@/content/service-categories/inge
 
 import { experience as pecheMoorea } from "@/content/experiences/peche-moorea";
 import { experience as nickTetautiare } from "@/content/experiences/nick-tetautiare";
+import { experience as hammamDarElBacha } from "@/content/experiences/hammam-dar-el-bacha";
 import { experience as lagonMoorea } from "@/content/experiences/lagon-moorea";
+import { experience as cuisinePalaisBahia } from "@/content/experiences/cuisine-palais-bahia";
 import { experience as gr20 } from "@/content/experiences/gr20";
 import { experience as lavezzi } from "@/content/experiences/lavezzi";
 import { experience as vinCorse } from "@/content/experiences/vin-corse";
 import { experience as rungisChef } from "@/content/experiences/rungis-chef";
+import { experience as survolAtlasBiplan } from "@/content/experiences/survol-atlas-biplan";
 import { experience as atelierLesage } from "@/content/experiences/atelier-lesage";
 import { experience as louvrePriveNocturne } from "@/content/experiences/louvre-prive-nocturne";
+import { experience as galerieBorghesePrive } from "@/content/experiences/galerie-borghese-prive";
+import { experience as nonnaCuisineTrastevere } from "@/content/experiences/nonna-cuisine-trastevere";
+import { experience as viaAppiaVespa } from "@/content/experiences/via-appia-vespa";
+import { experience as atelierSambaMangueira } from "@/content/experiences/atelier-samba-mangueira";
+import { experience as corcovadoAubePaineiras } from "@/content/experiences/corcovado-aube-paineiras";
+import { experience as ilesCagarrasPecheur } from "@/content/experiences/iles-cagarras-pecheur";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
 import { accommodation as stRegisBoraBora } from "@/content/accommodations/st-regis-bora-bora";
 import { accommodation as murtoli } from "@/content/accommodations/murtoli";
+import { accommodation as royalMansour } from "@/content/accommodations/royal-mansour";
 import { accommodation as casadelmar } from "@/content/accommodations/casadelmar";
+import { accommodation as darAhlam } from "@/content/accommodations/dar-ahlam";
+import { accommodation as amanjena } from "@/content/accommodations/amanjena";
 import { accommodation as calaRossa } from "@/content/accommodations/cala-rossa";
 import { accommodation as leBristol } from "@/content/accommodations/le-bristol";
 import { accommodation as chevalBlancParis } from "@/content/accommodations/cheval-blanc-paris";
 import { accommodation as lhotelParis } from "@/content/accommodations/lhotel-paris";
+import { accommodation as hotelDeRussie } from "@/content/accommodations/hotel-de-russie";
+import { accommodation as jKPlaceRoma } from "@/content/accommodations/j-k-place-roma";
+import { accommodation as hasslerRoma } from "@/content/accommodations/hassler-roma";
+import { accommodation as belmondCopacabanaPalace } from "@/content/accommodations/belmond-copacabana-palace";
+import { accommodation as fasanoRio } from "@/content/accommodations/fasano-rio";
+import { accommodation as hotelSantaTeresa } from "@/content/accommodations/hotel-santa-teresa";
+
+import { collaborateur as antoine } from "@/content/collaborateurs/antoine";
+import { collaborateur as elise } from "@/content/collaborateurs/elise";
+import { collaborateur as stephane } from "@/content/collaborateurs/stephane";
 
 const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
   Object.fromEntries(items.map((i) => [i.slug, i]));
 
 export const destinations: Record<string, Destination> = toMap([
   corse,
+  marrakech,
   paris,
   polynesie,
   polynesie2,
   polynesieOld,
+  rioDeJaneiro,
+  rome,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -93,13 +122,22 @@ export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
   atelierLesage,
+  atelierSambaMangueira,
+  corcovadoAubePaineiras,
+  cuisinePalaisBahia,
+  galerieBorghesePrive,
   gr20,
+  hammamDarElBacha,
+  ilesCagarrasPecheur,
   lagonMoorea,
   lavezzi,
   louvrePriveNocturne,
   nickTetautiare,
+  nonnaCuisineTrastevere,
   pecheMoorea,
   rungisChef,
+  survolAtlasBiplan,
+  viaAppiaVespa,
   vinCorse,
 ]);
 
@@ -114,15 +152,30 @@ export const serviceCategories: Record<string, ServiceCategory> = toMap([
 export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
+  amanjena,
+  belmondCopacabanaPalace,
   calaRossa,
   casadelmar,
   chevalBlancParis,
+  darAhlam,
+  fasanoRio,
+  hasslerRoma,
+  hotelDeRussie,
+  hotelSantaTeresa,
+  jKPlaceRoma,
   leBristol,
   leTahaa,
   lhotelParis,
   murtoli,
+  royalMansour,
   stRegisBoraBora,
   theBrando,
+]);
+
+export const collaborateurs: Record<string, Collaborateur> = toMap([
+  antoine,
+  elise,
+  stephane,
 ]);
 
 const buckets: { [K in EntityKind]: Record<string, EntityByKind[K]> } = {

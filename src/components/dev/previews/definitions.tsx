@@ -2,6 +2,7 @@ import { Header } from "@/components/sections/header";
 import { HeroImageBottom } from "@/components/sections/hero/image-bottom";
 import { HeroImageBackground } from "@/components/sections/hero/image-background";
 import { HeroImageGallery } from "@/components/sections/hero/image-gallery";
+import { HeroLanding } from "@/components/sections/hero/landing";
 import { FullImageSection } from "@/components/sections/full-image";
 import { TextColumnsSection } from "@/components/sections/text-columns";
 import { TextImagesSplitSection } from "@/components/sections/text-images-split";
@@ -317,6 +318,97 @@ export const definitions: PreviewDefinition[] = [
           description="Un archipel confidentiel et préservé. Survolez des atolls vierges en hydravion privé avant de partager le sable fin ensablé d'un maître tatoueur. Chaque instant pensé pour vous devient un privilège absolu."
           cta={<Button>Créer votre voyage</Button>}
           images={heroImages.slice(0, num(v.imageCount, 3))}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "hero-landing",
+    label: "Hero — landing",
+    controls: [
+      {
+        key: "showRating",
+        type: "select",
+        label: "Rating block",
+        options: [
+          { label: "Visible", value: "yes" },
+          { label: "Hidden", value: "no" },
+        ],
+      },
+      {
+        key: "showFeatures",
+        type: "select",
+        label: "Feature trio",
+        options: [
+          { label: "Visible", value: "yes" },
+          { label: "Hidden", value: "no" },
+        ],
+      },
+    ],
+    defaultValues: { showRating: "yes", showFeatures: "yes" },
+    render: (v) => (
+      <div className="relative">
+        <Header hideOnScroll={false} />
+        <HeroLanding
+          eyebrow="Voyage de luxe en Polynésie"
+          heading="Vivez l'inaccessible"
+          description="Créateur de voyages d'exception façonnés selon vos aspirations, entre atolls préservés et adresses confidentielles de Polynésie."
+          cta={{ label: "Créez votre voyage", href: "/reserver" }}
+          rating={
+            str(v.showRating) === "yes"
+              ? { score: 4.9, label: "247 voyages créés en 2025" }
+              : undefined
+          }
+          features={
+            str(v.showFeatures) === "yes"
+              ? [
+                  {
+                    icon: <BadgeCheck />,
+                    title: "Conciergerie 24/7",
+                    description:
+                      "Assistance discrète, transferts privés, accès rapide aux adresses fermées au public.",
+                  },
+                  {
+                    icon: <Sparkles />,
+                    title: "Sur mesure",
+                    description:
+                      "Un travel designer dédié façonne votre voyage selon vos envies.",
+                  },
+                  {
+                    icon: <Star />,
+                    title: "Exclusif",
+                    description:
+                      "Tables, ateliers, maisons : accès à des adresses qui ne sont pas dans les moteurs de réservation.",
+                  },
+                ]
+              : undefined
+          }
+          slides={[
+            {
+              image: {
+                src: "/destination/polynesie/hero-1.png",
+                alt: "Plage de sable blanc bordée de cocotiers en Polynésie française",
+              },
+            },
+            {
+              image: {
+                src: "/destination/corse/hero-1.png",
+                alt: "Falaises de Bonifacio au lever du jour, Corse",
+              },
+            },
+            {
+              image: {
+                src: "/destination/polynesie/hero-2.png",
+                alt: "Bungalows sur pilotis face au mont Otemanu à Bora Bora",
+              },
+            },
+            {
+              image: {
+                src: "/destination/corse/hero-2.png",
+                alt: "Plage de Palombaggia, Corse-du-Sud",
+              },
+            },
+          ]}
         />
       </div>
     ),

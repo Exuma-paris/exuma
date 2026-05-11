@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { TextBlock } from "@/components/blocks/text-block";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type HeroImageBackgroundProps = {
   eyebrow?: string;
@@ -13,6 +14,39 @@ export type HeroImageBackgroundProps = {
   images: { src: string; alt: string }[];
   interval?: number;
 };
+
+export const heroImageBackgroundMeta = {
+  type: "heroImageBackground",
+  intent:
+    "Full-screen hero with a single (or cycling) background image and centred text overlay. Used as the page opener on experience pages.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the h1.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Page <h1>.",
+      required: true,
+      length: { chars: { target: 70, max: 120 } },
+    },
+    description: {
+      role: "Optional subhead under the h1.",
+      required: false,
+      length: { chars: { target: 220, max: 280 } },
+    },
+    images: {
+      role: "Full-bleed background image (1) or cross-fade pair/trio.",
+      required: true,
+      itemCount: { exact: 1, min: 1, max: 3 },
+      perItem: {
+        role: "One full-bleed background image.",
+        required: true,
+        image: { role: "atmospheric full-bleed", ratio: "16:9" },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function HeroImageBackground({
   eyebrow,

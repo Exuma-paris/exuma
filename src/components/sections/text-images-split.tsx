@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { TextBlock } from "@/components/blocks/text-block";
 import { cn } from "@/lib/utils";
+import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type TextImagesSplitSectionProps = {
   eyebrow?: string;
@@ -13,6 +14,43 @@ export type TextImagesSplitSectionProps = {
   theme?: "light" | "dark";
   background?: string;
 };
+
+export const textImagesSplitMeta = {
+  type: "textImagesSplit",
+  intent: "Editorial spread — paired portrait + square image collage on one side, heading + 2 paragraphs on the other.",
+  slots: {
+    eyebrow: {
+      role: "Lead-in label above the heading.",
+      required: false,
+      length: { chars: { max: 60 } },
+    },
+    heading: {
+      role: "Section <h2>.",
+      required: true,
+      length: { chars: { max: 70 } },
+    },
+    paragraphs: {
+      role: "Editorial paragraphs.",
+      required: true,
+      itemCount: { exact: 2 },
+      perItem: {
+        role: "One editorial paragraph.",
+        required: true,
+        length: { chars: { target: 280, max: 480, min: 180 } },
+      },
+    },
+    images: {
+      role: "Image pair (portrait foreground + square background).",
+      required: true,
+      itemCount: { exact: 2 },
+      perItem: {
+        role: "One image of the pair.",
+        required: true,
+        image: { role: "editorial pair (1: portrait 3:4, 2: square 1:1)" },
+      },
+    },
+  },
+} as const satisfies SectionMeta;
 
 export function TextImagesSplitSection({
   eyebrow,
