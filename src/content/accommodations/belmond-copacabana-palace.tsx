@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/rio-de-janeiro/hotel-belmond-copacabana.png",
     alt: "Façade Art déco du Belmond Copacabana Palace, Rio",
   },
-  destinationSlug: "rio-de-janeiro",
+  destinationSlugs: ["rio-de-janeiro"],
   sections: [],
 };

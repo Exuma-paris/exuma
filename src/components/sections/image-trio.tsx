@@ -56,7 +56,7 @@ export function ImageTrioSection({
   return (
     <div className={cn("w-full", background)}>
       {(eyebrow || heading || description) && (
-        <div className="section-px mx-auto w-full max-w-layout pb-8 pt-30">
+        <div className="section-px mx-auto w-full max-w-layout pb-8 section-pt">
           <div className="flex flex-col gap-3">
             {eyebrow ? (
               <p className="text-eyebrow text-primary">{eyebrow}</p>
@@ -68,7 +68,7 @@ export function ImageTrioSection({
           </div>
         </div>
       )}
-      <div className="grid grid-cols-3 gap-px pb-30">
+      <div className="grid grid-cols-3 gap-px section-pb">
         {images.map((img, i) => (
           <div key={i} className="relative aspect-3/4 overflow-hidden bg-muted">
             <Image

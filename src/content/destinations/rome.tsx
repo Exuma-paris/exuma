@@ -6,6 +6,7 @@ export const destination: Destination = {
   slug: "rome",
   name: "Rome",
   country: "Italie",
+  genitive: "de Rome",
   continentSlug: "europe",
   blurb: "Vatican, Trastevere, Via Appia, Galerie Borghèse",
   keywords: [
@@ -49,7 +50,7 @@ export const destination: Destination = {
       heading: "Un seul interlocuteur, du brief jusqu'au retour",
       partners: { title: "" },
       specialist: {
-        collaborateurSlug: "elise", // TODO: verify collaborateurSlug — pas de spécialiste Italie dédié, élise reprend par proximité européenne
+        collaborateurSlug: "taina", // TODO: replace with a real verbatim from Tainà (was Élise placeholder)
         // TODO: verify quote attribution
         quote:
           "Rome se trompe d'effet. La première fois, tout le monde court : Sixtine, Colisée, Trevi, Trevi encore. Ce qui marque vraiment, c'est ce qu'on voit la deuxième fois, en marchant sans rien chercher. C'est cette deuxième Rome qu'on essaie d'inscrire au premier voyage.",
@@ -590,7 +591,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "La logique de quartier proposée par Élise a tout changé. On a marché sans courir, on a vu plus, on a profité de chaque dîner. Chambre au J.K. Place : parfaite.",
+            "La logique de quartier proposée par Tainà a tout changé. On a marché sans courir, on a vu plus, on a profité de chaque dîner. Chambre au J.K. Place : parfaite.",
           image: {
             src: "/destination/rome/hero-2.png",
             alt: "Portrait de voyageur (TODO)", // TODO: verify

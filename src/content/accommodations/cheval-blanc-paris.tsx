@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/paris/hotel-cheval-blanc.png",
     alt: "Vue depuis une suite Cheval Blanc sur la Seine et le Pont-Neuf",
   },
-  destinationSlug: "paris",
+  destinationSlugs: ["paris"],
   sections: [],
 };

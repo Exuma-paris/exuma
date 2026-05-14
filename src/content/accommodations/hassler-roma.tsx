@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/rome/hotel-hassler.png",
     alt: "Vue depuis la terrasse de l'Hotel Hassler, Rome",
   },
-  destinationSlug: "rome",
+  destinationSlugs: ["rome"],
   sections: [],
 };

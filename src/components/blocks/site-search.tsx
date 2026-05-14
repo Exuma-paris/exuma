@@ -5,13 +5,13 @@ import { useRouter } from "next/navigation";
 import {
   ChevronLeft,
   ChevronRight,
-  Globe,
-  Hotel,
-  MapPin,
-  Sparkles,
-  Star,
-  Wrench,
-} from "lucide-react";
+  Globe01 as Globe,
+  Building07 as Hotel,
+  MarkerPin01 as MapPin,
+  Stars01 as Sparkles,
+  Star01 as Star,
+  Tool02 as Wrench,
+} from "@untitledui/icons";
 
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import {

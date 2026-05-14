@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Monitor, Tablet, Smartphone } from "lucide-react";
+import { Monitor01 as Monitor, Tablet01 as Tablet, Phone as Smartphone } from "@untitledui/icons";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import {

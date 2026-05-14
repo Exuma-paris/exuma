@@ -21,6 +21,15 @@ If a referenced experience or hotel **already exists** under `src/content/experi
 
 ## Workflow
 
+### 0. Pick the mode
+
+This skill handles two distinct jobs. **Always ask first** unless the user's prompt clearly names the mode (e.g. "scaffold Corse from scratch" → mode A; "add a landing flow to Polynésie" → mode B).
+
+Ask: *"Vous voulez (a) scaffolder une nouvelle destination, ou (b) ajouter un funnel `/landing/<slug>` à une destination existante ?"*
+
+- **Mode A — new destination.** Continue with step 1 below. The full canonical workflow runs (~14 sections, image manifest, entity stubs, registry edits). Optionally includes a landing flow at the end if the user opts in.
+- **Mode B — add landing to existing destination.** Skip to **§ Mode B (landing only)** at the end of this file. Much shorter — only the landing block + questions, patched into an existing destination file.
+
 ### 1. Get the destination name
 
 If the user already named a destination in their prompt, use it. Otherwise ask: *"Quelle destination ? (en français, ex. Corse, Provence, Santorin)"*.
@@ -93,11 +102,11 @@ Once the user picks one, use that experience's data to fill the `imageDuoWithTex
 
 The `specialistSpotlight` section (slot 2 — right after the hero) features a named travel designer from `src/content/collaborateurs/`. The destination references that collaborateur by slug; the section's body data (`specialist.collaborateurSlug`, `specialist.quote`, the 3 `features`) describes what *this* destination owes to *this* designer.
 
-Run `ls src/content/collaborateurs/` to list existing collaborateurs (each file exports a `Collaborateur` with `name`, `role`, and `destinationSlugs`). Pick the one whose `destinationSlugs` already includes a neighbour of the new destination, or whose `role` mentions the right region.
+Run `ls src/content/collaborateurs/` to list existing collaborateurs (each file exports a `Collaborateur` with `name`, `role`, `image`, `profileImage?`). The collaborateur → destination relationship lives on the destination side: a destination claims its specialist by setting `specialistSpotlight.specialist.collaborateurSlug`. To know which collaborateur "already serves" a region, grep existing destinations for `collaborateurSlug:` and read their slugs.
 
 **Always ask** — never bundle the collaborateur into a proactive proposal. Test invocations and naked destination names do NOT count as volunteering. Only skip when the user explicitly named a collaborateur in their initial prompt (e.g. "Antoine should be the specialist for this Provence page").
 
-Ask: *"Quel collaborateur incarne ce voyage ? (ex. antoine pour la Corse, élise pour Paris, stéphane pour la Polynésie)"*
+Ask: *"Quel collaborateur incarne ce voyage ? (ex. stephane pour la Corse, ludivine pour Paris, taina pour Rome)"*
 
 If no existing collaborateur fits, use `// TODO: verify collaborateurSlug` next to the slug and pick the closest match — do NOT create a new collaborateur stub from this skill.
 
@@ -177,6 +186,21 @@ Use general geographic knowledge to pick one. Examples: `corse` → `europe`, `m
 
 `country` is a free-form French country name. Examples: `France`, `Maroc`, `Japon`, `Argentine`, `Polynésie française`. If the destination spans multiple countries (e.g. Patagonie covers Argentine + Chili), pick the dominant one or use `Argentine et Chili` and flag with `// TODO: verify country`.
 
+### 3b. Pick the French `genitive`
+
+Templated pages render labels like `Spécialiste {destination.genitive}` (the merci page after the contact form, future per-destination tags, etc.). French grammar can't be derived from the name alone — the destination author writes the genitive form once.
+
+Format: pre-prefixed with `de`/`du`/`d'` so it slots straight into "Spécialiste …", "Voyage …", etc.
+
+| Article shape | Examples |
+|---|---|
+| `de la <X>` | feminine + consonant: `de la Polynésie`, `de la Corse`, `de la Provence` |
+| `de l'<X>` | feminine/masculine + vowel: `de l'Italie`, `de l'Inde`, `de l'Argentine` |
+| `du <X>` | masculine: `du Maroc`, `du Brésil`, `du Japon` |
+| `de <X>` | cities + most countries treated as proper nouns: `de Paris`, `de Marrakech`, `de Rome`, `de Cuba` |
+
+If genuinely uncertain (e.g. invented destination), pick the most likely article and flag with `// TODO: verify genitive` on the same line.
+
 ### 4. Read reference files
 
 Before writing anything, read:
@@ -206,6 +230,7 @@ export const destination: Destination = {
   slug: "<slug>",
   name: "<Destination name>",
   country: "<French country name>",
+  genitive: "<French genitive — see step 3b>",
   continentSlug: "<one of the 6 continent slugs>",
   blurb: "<one-line teaser, 4–8 words>",
   keywords: [
@@ -215,6 +240,13 @@ export const destination: Destination = {
   metaTitle: "<Destination> — Voyage sur mesure",   // optional; this is the default
   metaDescription:
     "<150–160 chars, primary keyword (\"voyage en <Destination>\") + geographic anchor, no CTA — see STYLE.md § SEO discipline>",
+  // landing + contactQuestions: optional pair. Only set when this destination
+  // needs the marketing funnel at `/landing/<slug>/*`. See "Landing flow"
+  // below. Both must be present (or both absent) — the dynamic route
+  // requires landing for the page to render and contactQuestions for the
+  // funnel to function.
+  // landing: { ... },
+  // contactQuestions: [ ... ],
   sections: [
     { type: "hero", … },
     { type: "specialistSpotlight", … },
@@ -238,7 +270,8 @@ The two `entityList` sections look like:
   eyebrow: "...",
   heading: "...",
   description: "...",
-  cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
+  // NO `cta` — `/experiences` and `/hebergements` have no index page (only `/[slug]` exists).
+  // See REFERENCE.md § "Linkable routes" before adding any href.
   slugs: ["<slug-1>", "<slug-2>", "<slug-3>"],
 }
 ```
@@ -282,14 +315,12 @@ export const accommodation: Accommodation = {
     src: "/destination/<destination-slug>/hotel-<name>.png",
     alt: "<French alt text>",
   },
-  destinationSlug: "<destination-slug>",  // singular, REQUIRED for accommodations
+  destinationSlugs: ["<destination-slug>"],
   sections: [],
 };
 ```
 
-Note the asymmetry:
-- `Experience.destinationSlugs` is plural and optional (an experience can belong to multiple destinations).
-- `Accommodation.destinationSlug` is singular and required (a hotel sits at one destination).
+Note the symmetry: both `Experience.destinationSlugs` and `Accommodation.destinationSlugs` are plural arrays. A hotel typically sits in one destination (length-1 array) but the schema allows more (border properties, hotel chains, multi-island lodges).
 
 The `blurb` field is what the destination's card displays — it must follow the same editorial standard the old card descriptions did (see STYLE.md per-section rules for `Experience.blurb` / `Accommodation.blurb`: 2–3 sentences, ~25 words target, ≤ 60 words hard cap, opens on a moment, closes on a detail). Length is editorial only — the FeatureCard does not truncate; over-long blurbs just create uneven card heights.
 
@@ -370,7 +401,7 @@ The 14 mandatory entries in `sections[]`, in this exact order, plus one optional
 11. `placesMap` (bg-background-soft)
 12. `tips` (bg-background-soft)
 13. `testimonials`
-14. `faq` (bg-white)
+14. `faq` (bg-white) — see "FAQ is the destination's source of truth" below
 15. *(optional)* **`entityList`** (`kind: "destination"` — bg-background-soft) — references up to 3 related destination slugs. Rendered as feature cards using each destination's first hero image. See step 1e.
 
 A user-volunteered "extra section" (e.g. boat excursions for Corse) should be inserted as an additional entry at a sensible position — typically as another `entityList kind: "experience"` block, placed before or after the canonical experiences block.
@@ -424,9 +455,104 @@ import { defaultBento } from "@/components/sections/bento";
 
 Canonical card filenames: `bento-map.png`, `bento-adresses.png`, `bento-hebergements.png`, `bento-conciergerie.png`, `bento-experiences.png`.
 
+### `infoGrid` — exactly 8 items, icons + titles locked
+
+Always ship the 8 canonical cells in this order, with these exact `iconName` + `title` pairs:
+
+| # | iconName       | title                  |
+|---|----------------|------------------------|
+| 1 | `plane`        | Temps de vol           |
+| 2 | `clock`        | Décalage horaire       |
+| 3 | `euro`         | Monnaie et conversion  |
+| 4 | `fileText`     | Visa et passeport      |
+| 5 | `syringe`      | Vaccin                 |
+| 6 | `calendarDays` | Meilleure période      |
+| 7 | `languages`    | Langues parlées        |
+| 8 | `sun`          | Climat                 |
+
+Only the `description` is destination-specific. The grid renders 4 columns × 2 rows on desktop — 7 items leaves an empty cell, so 8 is mandatory. The `Climat` cell summarises year-round weather (temperature range, dominant seasons) and complements `Meilleure période` (the recommended travel window). Flag fabricated facts with the `TODO:` prefix inside the description string, per the Placeholders policy below.
+
+### `faq` — destination-scoped, automatically reused across all destination-related pages
+
+Author the FAQ **once**, inside the destination file's `sections[]` (slot 14). Do NOT create a sibling file like `<slug>-faq.ts` and do NOT spread shared data into the section — the destination file IS the source of truth.
+
+Other pages tied to this destination (the marketing landing at `/landing/<slug>`, the post-form `/landing/<slug>/merci`, any future variants) read the FAQ back via:
+
+```ts
+import { getDestinationFaq } from "@/lib/content/queries";
+
+const faq = getDestinationFaq("<slug>");
+{faq ? <FaqSection {...faq} background="bg-background" /> : null}
+```
+
+The `getDestinationFaq` helper is typed via `Extract<Section, { type: "faq" }>` — TypeScript guarantees the shape matches `<FaqSection>`'s props. Editing the destination's FAQ items propagates everywhere instantly. There is no second copy to keep in sync.
+
+Every destination scaffolded via this skill ships with this section, so the helper always returns a value for any registered destination.
+
 ### `tips` — minimum 8 items
 
 Every destination ships with **at least 8 tips** (`tipsMeta.itemCount.min` is 8). Aim for 8–12. The 4-tip pattern from older Polynésie/Corse pages is deprecated.
+
+### Landing flow — optional, when the destination has a paid-traffic funnel
+
+Setting **both** `landing` and `contactQuestions` on the destination unlocks the dynamic routes:
+
+- `/landing/<slug>` — marketing landing with hero carousel + brand pitch + specialist contact pill
+- `/landing/<slug>/contact` — multi-step questionnaire
+- `/landing/<slug>/merci` — post-submit thank-you with inspirations grid + FAQ + footer
+
+All three pages live as one shared dynamic route under `src/app/landing/[slug]/*` — adding a new landing flow is a content task, not a code task. The shared layout pre-renders only destinations that have the funnel set; missing destinations 404.
+
+#### `landing` block
+
+```ts
+landing: {
+  metaTitle: "Voyage de luxe en <Destination>",
+  metaDescription: "<150–160 chars, primary keyword + geographic anchor>",
+  heroEyebrow: "Voyage de luxe en <Destination>",
+  heroHeading: "<3–5 word brand pitch>",   // e.g. "Vivez l'inaccessible"
+  heroDescription: "<2 sentences, ~30 words, sets the brand tone>",
+  rating: { score: 4.9, label: "<count> voyages créés en <year>" },  // optional
+  floatingCtaLabel: "Découvrir <Destination>",   // optional, default "Découvrir <name>"
+  slides: [
+    { image: { src: "/destination/<slug>/hero-1.png", alt: "..." } },
+    { image: { src: "/destination/<slug>/hero-2.png", alt: "..." } },
+    { image: { src: "/destination/<slug>/hero-3.png", alt: "..." } },
+    { image: { src: "/destination/<slug>/full-image.png", alt: "..." } },
+  ],   // 2–8 slides
+}
+```
+
+The slides reuse the destination's existing hero images (already produced by the gen-images pipeline for the canonical destination page). No additional image generation needed — the landing page just borrows them.
+
+#### `contactQuestions` array
+
+The `Question` discriminated union lives in [src/lib/contact/types.ts](../../../src/lib/contact/types.ts). Each entry needs `{ id, type, heading }` plus type-specific fields:
+
+| `type` | Required extras | Optional |
+|---|---|---|
+| `"boolean"` | — | `yesLabel`, `noLabel` (default "Oui"/"Non") |
+| `"single"` | `options: { id, label }[]` | — |
+| `"multi"` | `options: { id, label }[]` | `min` (default 1), `max` (default ∞) |
+| `"calendar"` | `months: { id, title, subtitle, weather? }[]` | `noPreferenceLabel` |
+| `"contact"` | — | `marketingConsentLabel` |
+
+All questions can also include `eyebrow?`, `description?`. The `contact` type **must be the last question** — submitting it triggers the redirect to `/landing/<slug>/merci`.
+
+**The number of questions is per-destination — there is no fixed count.** Author as few as 2 (a single qualifier + the contact step) or as many as 15+. The `StepProgress` indicator scales linearly and stays comfortable up to ~40 questions inside the 440px form column.
+
+Polynésie's funnel ([polynesie.tsx](../../../src/content/destinations/polynesie.tsx)) is the canonical reference for what each question type looks like in practice. Use it as a SHAPE reference, not a count target.
+
+#### When asked to scaffold a destination WITH a landing flow
+
+After the canonical destination data + sections are defined, ASK the user:
+1. Hero copy — heading, description, eyebrow.
+2. Rating numbers (or skip if unverified).
+3. Floating CTA label (or accept the `Découvrir <Destination>` default).
+4. Which slides to use from the destination's existing hero images (typically `hero-1`, `hero-2`, `hero-3`, `full-image` — verify they exist).
+5. Which questions to ask in the funnel and in what order. Do not propose a default count.
+
+Do NOT scaffold any files under `src/app/landing/`. The `[slug]` route is already in place.
 
 ---
 
@@ -487,15 +613,18 @@ Testimonial portraits reuse `hero-1/2/3.png` — no separate files.
 
 ### Generation script
 
-The canonical image-gen script lives in this folder: `.claude/skills/destination-generator/gen-images.py`. It is destination-agnostic — pass a slug and it processes every `*-ref.<ext>` file in `references/destination/<slug>/`.
+The canonical image-gen script lives in this folder: `.claude/skills/destination-generator/gen-images.py`. It is entity-agnostic — pass a slug (and optionally `--root`) and it processes every `*-ref.<ext>` file in the matching references folder.
 
 ```
 GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py <slug>
+GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --root experience <slug>
+GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --root accommodation <slug>
 ```
 
-- Reads `references/destination/<slug>/<name>-ref.<ext>`
+- `--root` defaults to `destination`. Allowed values: `destination`, `experience`, `accommodation`.
+- Reads `references/<root>/<slug>/<name>-ref.<ext>`
 - Sends the reference + a fixed style brief (the "preserve + grade" prompt baked into the script — do NOT re-describe the prompt elsewhere)
-- Writes `public/destination/<slug>/<name>.png`
+- Writes `public/<root>/<slug>/<name>.png`
 - Skips outputs that already exist; pass `--force` to overwrite
 
 The style brief is intentionally not duplicated outside the script — it is part of the script's contract.
@@ -558,3 +687,101 @@ Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); `SOUR
 - Do NOT download reference photos or run `gen-images.py` yourself unless the user explicitly asks. The user does the reference-picking step; you only scaffold the manifest (`PROMPTS.md`) and the empty `SOURCES.md`.
 - Do NOT duplicate or rewrite the style brief inside `PROMPTS.md` — it lives in `gen-images.py`.
 - Do NOT run the dev server. Type-check only.
+
+---
+
+## Mode B (landing only) — add a `/landing/<slug>` funnel to an existing destination
+
+Use this branch when **step 0** picked mode B. The destination already exists with a complete `sections[]`; we're only adding the `landing` block + `contactQuestions` array. No new files are scaffolded — the dynamic route at `src/app/landing/[slug]/*` handles everything.
+
+### B1. Pick the destination
+
+Run `ls src/content/destinations/` to list current destinations. Ask the user which slug to extend if not already named.
+
+Read the chosen file. Confirm it does NOT already declare `landing:` or `contactQuestions:` — if it does, surface that and ask whether to overwrite or abort.
+
+### B2. Confirm a specialist exists
+
+The merci page renders the destination's specialist (photo + name + role). The relationship lives on the destination's existing `specialistSpotlight` section — `specialist.collaborateurSlug`. Verify that field is present and points at a real Collaborateur in `src/content/collaborateurs/`. If missing, abort and tell the user to first set the spotlight collaborateur (this is a step-1d concern from mode A).
+
+### B3. Verify hero images exist on disk
+
+The landing's slides reuse the destination's existing hero images — typically:
+
+```
+public/destination/<slug>/hero-1.png
+public/destination/<slug>/hero-2.png
+public/destination/<slug>/hero-3.png
+public/destination/<slug>/full-image.png
+```
+
+Run `ls public/destination/<slug>/` to confirm. If any are missing, **flag them with `// TODO: image not on disk`** in the `slides[]` entries — do NOT generate images from this skill (that's a separate skill / pipeline).
+
+### B4. Ask the 5 landing questions
+
+Ask the user, one block at a time:
+
+1. **Hero pitch.**
+   - *"Eyebrow ? (ex. `Voyage de luxe en <Destination>`)"*
+   - *"Heading H1 ? (3–5 mots, voix marketing — ex. `Vivez l'inaccessible`)"*
+   - *"Description (≈ 30 mots, 2 phrases) ?"*
+
+2. **Rating** (optional). *"Avez-vous des chiffres pour le rating ? (ex. score 4.9, label `247 voyages créés en 2025`). Sinon, on saute."*
+
+3. **Floating CTA label.** *"Label du bouton flottant en bas de la carrousel ? (défaut : `Découvrir <Destination>`)"*
+
+4. **Slides.** Default to the 4 canonical hero filenames (verified in step B3). Confirm: *"On part sur ces 4 slides ? `hero-1`, `hero-2`, `hero-3`, `full-image` — sinon donnez-moi la liste."*
+
+5. **`contactQuestions`.** This is the multi-step questionnaire. Ask for the full list:
+   *"Quelles questions pour le funnel et dans quel ordre ? (les types disponibles : boolean / single / multi / calendar / contact — voir Polynésie pour des exemples). Le `contact` doit être la dernière. Aucun nombre par défaut."*
+
+   Walk through each question collecting `id`, `type`, `heading`, options/months/etc. The `contact` step at the end has no extras beyond optional `marketingConsentLabel`.
+
+### B5. Patch the destination file
+
+Insert two new top-level fields into the destination object — by convention, place them **between the canonical fields and `sections:`**:
+
+```tsx
+export const destination: Destination = {
+  slug: "...",
+  name: "...",
+  country: "...",
+  genitive: "...",
+  continentSlug: "...",
+  // ... blurb, keywords, metaTitle, metaDescription ...
+
+  landing: {
+    metaTitle: "...",
+    metaDescription: "...",
+    heroEyebrow: "...",
+    heroHeading: "...",
+    heroDescription: "...",
+    rating: { score: ..., label: "..." }, // optional
+    floatingCtaLabel: "...",              // optional
+    slides: [
+      { image: { src: "/destination/<slug>/hero-1.png", alt: "..." } },
+      // ... 2-8 entries
+    ],
+  },
+  contactQuestions: [
+    // ... typed Question entries, contact must be last
+  ],
+
+  sections: [ /* existing — do NOT touch */ ],
+};
+```
+
+### B6. Verify + report
+
+Run `npx tsc --noEmit`. Report:
+
+- The destination patched and the two new field blocks added.
+- That `/landing/<slug>`, `/landing/<slug>/contact`, `/landing/<slug>/merci` are now live (no other files were touched).
+- Any TODOs flagged (missing images, unverified rating, etc.).
+- That the next step is to test the URL in the browser.
+
+### Mode B — Not in scope
+
+- Do NOT touch `src/app/landing/[slug]/*` files. The dynamic route is shared across all destinations.
+- Do NOT modify the destination's existing `sections[]`. The landing is purely additive.
+- Do NOT run the dev server.

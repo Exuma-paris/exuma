@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight, Stars01 as Sparkles } from "@untitledui/icons";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { IconPillButton } from "@/components/ui/icon-pill-button";
 import { SelectTileDemo } from "@/components/dev/select-tile-demo";
 import { StepProgress } from "@/components/ui/step-progress";
+import { Indicator, type IndicatorVariant } from "@/components/ui/indicator";
+import { BlockSelectDemo } from "@/components/dev/block-select-demo";
+import { PhoneInputDemo } from "@/components/dev/phone-input-demo";
+import { EXUMA_PHONE } from "@/lib/exuma";
 import { SimpleHeader } from "@/components/sections/simple-header";
 import { cn } from "@/lib/utils";
 import { TextBlock } from "@/components/blocks/text-block";
@@ -289,7 +293,7 @@ export default function DesignSystemPage() {
           <SimpleHeader
             contactCta={{
               label: "Contactez-nous",
-              href: "/contact",
+              phone: EXUMA_PHONE,
               avatar: {
                 src: "/destination/polynesie/hero-1.png",
                 alt: "Stéphane, votre travel designer",
@@ -299,7 +303,7 @@ export default function DesignSystemPage() {
           />
         </div>
         <p className="font-mono text-xs text-muted-foreground">
-          py-4 px-10 · bg-background-subtle · border-b border-border · pill: h-10 · pl-1 pr-3 · avatar size-8 · status dot size-2 bg-[#33b06f]
+          py-4 px-10 · bg-background-subtle · border-b border-border · pill: h-10 · pl-1 pr-3 · avatar size-8 · status dot size-2 bg-[#33b06f] · contact pill is a `tel:` anchor — label crossfades to the phone number on hover (grid overlay = no layout shift)
         </p>
       </Section>
 
@@ -330,26 +334,72 @@ export default function DesignSystemPage() {
       </Section>
 
       <Section
+        title="Block select"
+        description="Vertical card-shaped option tile. Stacks a 15px title over a 12px subtitle, centred. Optional Indicator badge sits in the top-right corner. Selected state uses a 2px foreground outline + warm shadow (same outline-trick as Select tile — no layout shift between states). Designed for compact grid pickers like a month-of-travel selector. Click any tile to select (interactive demo)."
+      >
+        <div className="rounded-md bg-background-soft p-8">
+          <BlockSelectDemo />
+        </div>
+        <p className="font-mono text-xs text-muted-foreground">
+          w-30 (120px) · rounded-xl · py-4 · title 15px · subtitle 12px text-secondary-foreground · unselected: 1px var(--background-soft) · selected: 2px var(--foreground) + warm shadow · indicator: absolute top-1 right-1 (selected) / top-[5px] right-[5px] (default)
+        </p>
+      </Section>
+
+      <Section
+        title="Indicator"
+        description="Compact icon badge used inside calendar tiles (and similar dense surfaces). Six variants: four mood faces (good, happy-max, neutral, sad) and two weather glyphs (sunny, rainy). Weather variants render inside a soft beige pill; mood faces render as a bare colored icon."
+      >
+        <div className="flex flex-wrap items-center gap-6 rounded-md bg-background p-8">
+          {(
+            [
+              "happy-max",
+              "good",
+              "neutral",
+              "sad",
+              "sunny",
+              "rainy",
+            ] as IndicatorVariant[]
+          ).map((variant) => (
+            <div
+              key={variant}
+              className="flex flex-col items-center gap-2 text-xs text-muted-foreground"
+            >
+              <Indicator variant={variant} />
+              <span className="font-mono">{variant}</span>
+            </div>
+          ))}
+        </div>
+        <p className="font-mono text-xs text-muted-foreground">
+          inline-flex · rounded-full · mood: size-4 lucide outline · weather: size-3 + bg-background-soft p-1 pill · colors: #33B06F good/happy-max · text-secondary-foreground neutral · #FF5864 sad · #F59E0C sunny · #3D8FE6 rainy
+        </p>
+      </Section>
+
+      <Section
         title="Inputs"
-        description="Form controls — text input, textarea and labels."
+        description="Packed text input — 56px tall with a floating label that shrinks to the top when the field is focused or filled. Outlined style only (the Plain bg-soft variant is intentionally not implemented yet). Border-thickness changes are done with `outline` (no layout shift between states). Helper text and error message slots sit below; error renders a red dot + message."
       >
         <div className="grid gap-4 md:grid-cols-2">
-          <div className="space-y-2">
-            <Label htmlFor="ds-name">Name</Label>
-            <Input id="ds-name" placeholder="Jane Doe" />
-          </div>
-          <div className="space-y-2">
-            <Label htmlFor="ds-email">Email</Label>
-            <Input id="ds-email" type="email" placeholder="jane@exuma.com" />
-          </div>
-          <div className="space-y-2">
-            <Label htmlFor="ds-disabled">Disabled</Label>
-            <Input id="ds-disabled" placeholder="Disabled" disabled />
-          </div>
+          <Input label="Nom complet" />
+          <Input label="Email" type="email" defaultValue="jane@exuma.com" />
+          <Input label="Téléphone" type="tel" helperText="Pour vous joindre rapidement." />
+          <Input label="Champ requis" error="This field is required" />
+          <Input label="Désactivé" disabled />
+          <Input label="Avec valeur" defaultValue="Mon voyage de noces" />
           <div className="space-y-2 md:col-span-2">
             <Label htmlFor="ds-message">Message</Label>
             <Textarea id="ds-message" placeholder="Write something..." />
           </div>
+        </div>
+        <p className="font-mono text-xs text-muted-foreground">
+          h-14 · rounded-xl · label centered (15px) when empty + unfocused → animates to top-2 (12px) when focused or filled · default outline 1px #eae5de · focus 2px var(--foreground) · error 2px #ff9ba2 · helper/error text 12px below
+        </p>
+
+        <div className="mt-6 flex flex-col gap-2">
+          <p className="text-eyebrow text-muted-foreground">Leading slot · phone</p>
+          <PhoneInputDemo />
+          <p className="font-mono text-xs text-muted-foreground">
+            Input now accepts a `leading?: ReactNode` slot — sits left of the text area with a right border separator. Used here with `PhoneCountrySelect` (flag + chevron + dropdown of countries with dial codes).
+          </p>
         </div>
       </Section>
 

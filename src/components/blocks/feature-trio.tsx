@@ -33,7 +33,14 @@ export function FeatureTrio({
               isDark ? "text-background" : "text-foreground",
             )}
           >
-            <span className="[&>svg]:size-4">{item.icon}</span>
+            <span
+              className={cn(
+                "[&>svg]:size-4",
+                isDark ? "text-background/70" : "text-secondary-foreground",
+              )}
+            >
+              {item.icon}
+            </span>
             <h3 className="text-[15px]">{item.title}</h3>
           </div>
           <p

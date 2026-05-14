@@ -4,6 +4,7 @@ export const destination: Destination = {
   slug: "polynesie",
   name: "Polynésie française",
   country: "Polynésie française",
+  genitive: "de la Polynésie",
   continentSlug: "iles-oceanie",
   blurb: "Bora Bora, Tahiti, Taha'a, Moorea, les Marquises",
   keywords: [
@@ -14,6 +15,105 @@ export const destination: Destination = {
     "tahaa",
     "marquises",
     "pacifique",
+  ],
+  landing: {
+    metaTitle: "Voyage de luxe en Polynésie",
+    metaDescription:
+      "Créateur de voyages d'exception façonnés selon vos aspirations, entre atolls préservés et adresses confidentielles de Polynésie.",
+    heroEyebrow: "Voyage de luxe en Polynésie",
+    heroHeading: "Vivez l'inaccessible",
+    heroDescription:
+      "Créateur de voyages d'exception façonnés selon vos aspirations, entre atolls préservés et adresses confidentielles de Polynésie.",
+    // TODO: verify rating numbers
+    rating: { score: 4.9, label: "247 voyages créés en 2025" },
+    floatingCtaLabel: "Découvrir la Polynésie",
+    slides: [
+      {
+        image: {
+          src: "/destination/polynesie/hero-1.png",
+          alt: "Plage de sable blanc bordée de cocotiers en Polynésie française",
+        },
+      },
+      {
+        image: {
+          src: "/destination/polynesie/hero-2.png",
+          alt: "Bungalows sur pilotis face au mont Otemanu à Bora Bora",
+        },
+      },
+      {
+        image: {
+          src: "/destination/polynesie/hero-3.png",
+          alt: "Lagon de Fakarava vu du ciel, archipel des Tuamotu",
+        },
+      },
+      {
+        image: {
+          src: "/destination/polynesie/full-image.png",
+          alt: "Vue panoramique d'un atoll polynésien",
+        },
+      },
+    ],
+  },
+  contactQuestions: [
+    {
+      id: "experience",
+      type: "multi",
+      eyebrow: "Créer votre voyage",
+      heading: "Quelle expérience recherchez-vous en Polynésie ?",
+      description: "Sélectionnez tout ce qui vous correspond.",
+      options: [
+        { id: "lagon", label: "Lagon et plages iconiques" },
+        { id: "culture", label: "Immersion culturelle polynésienne" },
+        { id: "nature", label: "Nature & randonnées (îles hautes)" },
+        { id: "exclusif", label: "Séjour ultra-exclusif / île privée" },
+      ],
+      min: 1,
+    },
+    {
+      id: "budget",
+      type: "single",
+      eyebrow: "Créer votre voyage",
+      heading: "Quel est votre budget par personne ?",
+      options: [
+        { id: "tier-1", label: "Moins de 5 000 €" },
+        { id: "tier-2", label: "5 000 € – 10 000 €" },
+        { id: "tier-3", label: "10 000 € – 20 000 €" },
+        { id: "tier-4", label: "Plus de 20 000 €" },
+      ],
+    },
+    {
+      id: "with-kids",
+      type: "boolean",
+      eyebrow: "Créer votre voyage",
+      heading: "Voyagez-vous avec des enfants ?",
+    },
+    {
+      id: "dates",
+      type: "calendar",
+      eyebrow: "Créer votre voyage",
+      heading: "Quelle période envisagez-vous pour votre voyage ?",
+      months: [
+        { id: "2026-01", title: "Janvier", subtitle: "2026" },
+        { id: "2026-02", title: "Février", subtitle: "2026" },
+        { id: "2026-03", title: "Mars", subtitle: "2026" },
+        { id: "2026-04", title: "Avril", subtitle: "2026" },
+        { id: "2026-05", title: "Mai", subtitle: "2026", weather: "good" },
+        { id: "2026-06", title: "Juin", subtitle: "2026", weather: "good" },
+        { id: "2026-07", title: "Juillet", subtitle: "2026", weather: "happy-max" },
+        { id: "2026-08", title: "Août", subtitle: "2026", weather: "happy-max" },
+        { id: "2026-09", title: "Septembre", subtitle: "2026", weather: "happy-max" },
+        { id: "2026-10", title: "Octobre", subtitle: "2026", weather: "good" },
+        { id: "2026-11", title: "Novembre", subtitle: "2026" },
+        { id: "2026-12", title: "Décembre", subtitle: "2026" },
+      ],
+    },
+    {
+      id: "contact",
+      type: "contact",
+      eyebrow: "Dernière étape",
+      heading: "Comment vous joindre ?",
+      description: "Un travel designer revient vers vous sous 24 heures.",
+    },
   ],
   sections: [
     {

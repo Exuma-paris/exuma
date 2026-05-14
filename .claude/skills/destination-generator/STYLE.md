@@ -195,7 +195,9 @@ Two canonical CTAs, used everywhere:
 - "Créer votre voyage" → `/reserver`  *(historical, still in use)*
 - "Contactez-nous" → `/contact`
 
-Plus the local link CTAs: "Découvrir", "Voir tout {region}", "Voir tous les hébergements", "Voir l'ensemble de nos expériences". No exclamation marks. No "→" in the label string (the component adds it).
+Plus the local link CTAs: "Découvrir", "Voir tout {region}". No exclamation marks. No "→" in the label string (the component adds it).
+
+> ⚠️ Do **not** write a section-level `cta` whose `href` is `/experiences`, `/hebergements`, or `/destinations` — those index routes do not exist on the site (only `/[slug]` is dynamic). Labels like "Voir tous les hébergements" / "Voir l'ensemble de nos expériences" have no destination and must be omitted, not redirected. See REFERENCE.md § "Linkable routes" in either skill.
 
 ---
 

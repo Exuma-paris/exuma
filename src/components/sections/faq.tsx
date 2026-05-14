@@ -68,7 +68,7 @@ export function FaqSection({
 }: FaqSectionProps) {
   return (
     <div className={cn("w-full", background)}>
-      <section className="mx-auto grid w-full max-w-layout gap-10 section-px py-30 md:grid-cols-2 md:gap-20">
+      <section className="mx-auto grid w-full max-w-layout gap-10 section-px section-py md:grid-cols-2 md:gap-20">
         <div className="flex flex-col gap-3">
           {eyebrow ? (
             <p className="text-eyebrow text-primary">{eyebrow}</p>

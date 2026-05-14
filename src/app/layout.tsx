@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Geist_Mono, Hedvig_Letters_Serif, Instrument_Sans } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import { AgentationToolbar } from "@/components/dev/agentation-toolbar";
 import { Footer } from "@/components/sections/footer";
@@ -73,9 +72,11 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        <Script
-          id="theme-init"
-          strategy="beforeInteractive"
+        {/* Inline theme-detection — runs before first paint to avoid FOUC.
+            Must be a raw <script>, not next/script (which forces deferred
+            injection in app router). React doesn't re-execute this on
+            hydration; it runs once when the browser parses the SSR HTML. */}
+        <script
           dangerouslySetInnerHTML={{
             __html: `(function(){try{var t=localStorage.getItem('exuma-theme');var d=t?t==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark');}catch(e){}})();`,
           }}

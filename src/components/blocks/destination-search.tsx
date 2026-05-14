@@ -1,7 +1,7 @@
 "use client";
 
 import { useId, useRef, useState } from "react";
-import { MapPin } from "lucide-react";
+import { MarkerPin01 as MapPin } from "@untitledui/icons";
 import { Button } from "@/components/ui/button";
 
 export function DestinationSearch({

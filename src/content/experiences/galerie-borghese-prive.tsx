@@ -101,8 +101,8 @@ export const experience: Experience = {
             </p>
           ),
           image: {
-            src: "/collaborateurs/elise.jpg",
-            alt: "Portrait d'Élise, travel designer Exuma",
+            src: "/collaborateurs/taina-profile-v2.jpg",
+            alt: "Portrait de Tainà Dos Santos Papaleo, Luxury Travel Designer chez Exuma",
           },
         },
         {
@@ -116,8 +116,8 @@ export const experience: Experience = {
             </p>
           ),
           image: {
-            src: "/collaborateurs/elise.jpg",
-            alt: "Portrait d'Élise, travel designer Exuma",
+            src: "/collaborateurs/taina-profile-v2.jpg",
+            alt: "Portrait de Tainà Dos Santos Papaleo, Luxury Travel Designer chez Exuma",
           },
         },
         {
@@ -131,8 +131,8 @@ export const experience: Experience = {
             </p>
           ),
           image: {
-            src: "/collaborateurs/elise.jpg",
-            alt: "Portrait d'Élise, travel designer Exuma",
+            src: "/collaborateurs/taina-profile-v2.jpg",
+            alt: "Portrait de Tainà Dos Santos Papaleo, Luxury Travel Designer chez Exuma",
           },
         },
       ],

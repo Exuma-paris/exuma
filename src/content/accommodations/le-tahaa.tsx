@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/polynesie/hotel-tahaa.png",
     alt: "Bungalows sur pilotis du Taha'a Island Resort",
   },
-  destinationSlug: "polynesie",
+  destinationSlugs: ["polynesie"],
   sections: [],
 };

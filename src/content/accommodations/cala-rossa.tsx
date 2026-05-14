@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/corse/hotel-cala-rossa.png",
     alt: "Plage privée et pins parasols du Grand Hôtel de Cala Rossa",
   },
-  destinationSlug: "corse",
+  destinationSlugs: ["corse"],
   sections: [],
 };

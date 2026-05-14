@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/polynesie/hotel-intercontinental.png",
     alt: "Vue aérienne du St. Regis Bora Bora face au mont Otemanu",
   },
-  destinationSlug: "polynesie",
+  destinationSlugs: ["polynesie"],
   sections: [],
 };

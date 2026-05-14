@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "@untitledui/icons";
 import { TextBlock } from "@/components/blocks/text-block";
 import {
   FeatureCard,
@@ -145,7 +145,7 @@ export function FeatureCardsSection({
 
   return (
     <div className={cn("w-full overflow-hidden", background)}>
-      <div className="mx-auto flex w-full max-w-layout flex-col items-start gap-6 section-px pt-30 md:flex-row md:items-end md:justify-between">
+      <div className="mx-auto flex w-full max-w-layout flex-col items-start gap-6 section-px section-pt md:flex-row md:items-end md:justify-between">
         <TextBlock
           align="left"
           eyebrow={eyebrow}
@@ -185,7 +185,7 @@ export function FeatureCardsSection({
       </div>
 
       {hasControls ? (
-        <div className="mx-auto flex w-full max-w-layout justify-end gap-2 section-px pt-10 pb-30">
+        <div className="mx-auto flex w-full max-w-layout justify-end gap-2 section-px pt-10 section-pb">
           <Button
             variant="outline"
             className="aspect-square border-0 px-0 shadow-deep"
@@ -204,7 +204,7 @@ export function FeatureCardsSection({
           </Button>
         </div>
       ) : (
-        <div className="pb-30" />
+        <div className="section-pb" />
       )}
     </div>
   );

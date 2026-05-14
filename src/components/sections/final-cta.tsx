@@ -36,7 +36,7 @@ export function FinalCtaSection({
 }: FinalCtaProps) {
   return (
     <div className={cn("w-full", background)}>
-      <section className="section-px mx-auto flex w-full max-w-layout flex-col items-center gap-8 py-30 text-center">
+      <section className="section-px mx-auto flex w-full max-w-layout flex-col items-center gap-8 section-py text-center">
         {eyebrow ? (
           <p className="text-eyebrow text-primary">{eyebrow}</p>
         ) : null}

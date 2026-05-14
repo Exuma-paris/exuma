@@ -69,7 +69,7 @@ export function TextImagesSplitSection({
         background,
       )}
     >
-      <section className="section-px mx-auto grid w-full max-w-layout gap-5 py-30 md:grid-cols-2">
+      <section className="section-px mx-auto grid w-full max-w-layout gap-5 section-py md:grid-cols-2">
         <div className="relative aspect-square w-full md:aspect-4/5">
           <div className="absolute top-0 left-10 w-[55%]">
             <div className="relative aspect-3/4 w-full overflow-hidden bg-muted">

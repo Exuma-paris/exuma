@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Pencil } from "lucide-react";
+import { Pencil01 as Pencil } from "@untitledui/icons";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 

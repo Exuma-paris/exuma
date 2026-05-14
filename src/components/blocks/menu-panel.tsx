@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, XClose as X } from "@untitledui/icons";
 import { Dialog as DialogPrimitive } from "@base-ui/react/dialog";
 import { continents } from "@/lib/content/registry";
 import {

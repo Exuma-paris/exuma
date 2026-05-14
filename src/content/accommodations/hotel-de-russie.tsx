@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/rome/hotel-de-russie.png",
     alt: "Jardins en terrasses de l'Hotel de Russie, Rome",
   },
-  destinationSlug: "rome",
+  destinationSlugs: ["rome"],
   sections: [],
 };

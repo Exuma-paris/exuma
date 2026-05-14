@@ -3,7 +3,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronRight, Star } from "lucide-react";
+import { ChevronLeft, ChevronRight, Star01 as Star } from "@untitledui/icons";
 import { TextBlock } from "@/components/blocks/text-block";
 import { Recommended } from "@/components/blocks/recommended";
 import {
@@ -31,7 +31,7 @@ export type HeroLandingProps = {
   slides: { image: { src: string; alt: string } }[];
   contactCta?: {
     label: string;
-    href: string;
+    phone: string;
     avatar?: { src: string; alt: string };
     statusOnline?: boolean;
   };
@@ -184,7 +184,7 @@ function Card({
           />
           <FeatureTrio
             items={features}
-            className="w-full text-left md:grid-cols-1"
+            className="w-full gap-y-4 text-left md:grid-cols-1"
           />
         </>
       ) : null}
@@ -209,38 +209,23 @@ export function HeroLanding({
   const scrollerRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
   const [discoverOpen, setDiscoverOpen] = useState(false);
-  const hasCarousel = slides.length > 1;
+  const isSnappingRef = useRef(false);
 
-  useEffect(() => {
-    if (!hasCarousel) return;
-    const el = scrollerRef.current;
-    if (!el) return;
-
-    let frame = 0;
-    const onScroll = () => {
-      cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(() => {
-        const slidesEls = el.querySelectorAll<HTMLElement>("[data-slide]");
-        const target = el.scrollLeft;
-        let closest = 0;
-        let min = Infinity;
-        slidesEls.forEach((slide, i) => {
-          const delta = Math.abs(slide.offsetLeft - target);
-          if (delta < min) {
-            min = delta;
-            closest = i;
-          }
-        });
-        setActive(closest);
-      });
-    };
-
-    el.addEventListener("scroll", onScroll, { passive: true });
-    return () => {
-      el.removeEventListener("scroll", onScroll);
-      cancelAnimationFrame(frame);
-    };
-  }, [hasCarousel]);
+  const realCount = slides.length;
+  const hasCarousel = realCount > 1;
+  // Render the slides 5 times. The middle copy is the "home" zone the user
+  // visually inhabits; the 4 outer copies (2 on each side) are scroll runway.
+  // When the user drifts into an outer copy, the settle handler silently jumps
+  // them back to the equivalent slide in the middle copy — visually identical,
+  // but it puts buffer back on both sides for continued scrolling.
+  const COPIES = 5;
+  const MIDDLE_COPY = 2; // 0-indexed: copies 0,1 are left buffer, 2 is home, 3,4 are right buffer
+  const renderedSlides = hasCarousel
+    ? Array.from({ length: COPIES }).flatMap(() => slides)
+    : slides;
+  const renderedCount = renderedSlides.length;
+  const homeStart = realCount * MIDDLE_COPY;
+  const homeEnd = realCount * (MIDDLE_COPY + 1) - 1;
 
   const computeSlideScrollLeft = (slide: HTMLElement, scroller: HTMLElement) => {
     const snapAlign = getComputedStyle(slide).scrollSnapAlign;
@@ -258,29 +243,94 @@ export function HeroLanding({
     el.scrollTo({ left: computeSlideScrollLeft(slide, el), behavior });
   };
 
-  useLayoutEffect(() => {
-    if (slides.length < 2) return;
+  useEffect(() => {
+    if (!hasCarousel) return;
     const el = scrollerRef.current;
     if (!el) return;
-    const slide = el.querySelectorAll<HTMLElement>("[data-slide]")[1];
+
+    let frame = 0;
+    let settleTimer: ReturnType<typeof setTimeout> | undefined;
+
+    const teleportToHome = (currentIndex: number) => {
+      // Map any rendered index to its equivalent in the middle (home) copy.
+      const targetIndex = homeStart + (currentIndex % realCount);
+      if (targetIndex === currentIndex) return;
+      isSnappingRef.current = true;
+      scrollToIndex(targetIndex, "instant");
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          isSnappingRef.current = false;
+        });
+      });
+    };
+
+    const onScroll = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => {
+        const slidesEls = el.querySelectorAll<HTMLElement>("[data-slide]");
+        const target = el.scrollLeft;
+        let closest = 0;
+        let min = Infinity;
+        slidesEls.forEach((slide, i) => {
+          const delta = Math.abs(slide.offsetLeft - target);
+          if (delta < min) {
+            min = delta;
+            closest = i;
+          }
+        });
+        setActive(closest);
+
+        if (isSnappingRef.current) return;
+        clearTimeout(settleTimer);
+        settleTimer = setTimeout(() => {
+          if (closest < homeStart || closest > homeEnd) {
+            teleportToHome(closest);
+          }
+        }, 150);
+      });
+    };
+
+    el.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      el.removeEventListener("scroll", onScroll);
+      cancelAnimationFrame(frame);
+      clearTimeout(settleTimer);
+    };
+  }, [hasCarousel, realCount, homeStart, homeEnd]);
+
+  useLayoutEffect(() => {
+    if (!hasCarousel) return;
+    const el = scrollerRef.current;
+    if (!el) return;
+    // Land in the home copy, on the second slide so the first sits behind the brand card.
+    const initialIndex = homeStart + 1;
+    const slide = el.querySelectorAll<HTMLElement>("[data-slide]")[initialIndex];
     if (!slide) return;
     el.scrollTo({
       left: computeSlideScrollLeft(slide, el),
       behavior: "instant",
     });
-    setActive(1);
+    setActive(initialIndex);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const goNext = () => {
     if (!hasCarousel) return;
-    const next = (active + 1) % slides.length;
-    scrollToIndex(next);
+    if (active >= renderedCount - 1) return;
+    scrollToIndex(active + 1);
+  };
+
+  const goPrev = () => {
+    if (!hasCarousel) return;
+    if (active <= 0) return;
+    scrollToIndex(active - 1);
   };
 
   return (
-    <section className={cn("relative w-full md:h-screen", background)}>
-      {contactCta ? <SimpleHeader contactCta={contactCta} /> : null}
+    <section className={cn("relative w-full md:min-h-screen", background)}>
+      {contactCta ? (
+        <SimpleHeader contactCta={contactCta} logoHref={null} />
+      ) : null}
 
       <div className="flex flex-col items-center gap-6 px-6 pt-12 text-center md:hidden">
         <BrandContent
@@ -292,15 +342,15 @@ export function HeroLanding({
         />
       </div>
 
-      <div className="mt-10 md:mt-0 md:absolute md:inset-x-0 md:top-40 md:bottom-20">
+      <div className="mt-10 md:mt-0 md:absolute md:inset-x-0 md:top-1/2 md:h-162.5 md:-translate-y-1/2">
         <div className="relative md:h-full">
           <div
             ref={scrollerRef}
             data-hero-landing-scroller
             className="snap-x snap-mandatory overflow-x-auto scroll-smooth scroll-px-[7.5vw] [&::-webkit-scrollbar]:hidden [scrollbar-width:none] md:scroll-px-0 md:h-full"
           >
-            <div className="flex gap-3 px-[7.5vw] md:px-0 md:h-full">
-              {slides.map((slide, i) => (
+            <div className="flex gap-3 px-[7.5vw] md:px-0 md:h-full md:pr-[max(0px,calc(100vw-650px))]">
+              {renderedSlides.map((slide, i) => (
                 <div
                   key={i}
                   data-slide
@@ -312,22 +362,33 @@ export function HeroLanding({
                     fill
                     sizes="(min-width: 1024px) 50vw, 100vw"
                     className="object-cover"
-                    priority={i <= 1}
+                    priority={i <= 2}
                   />
                 </div>
               ))}
             </div>
           </div>
 
-          {slides.length > 1 ? (
+          {hasCarousel ? (
             <script
-              // Pre-hydration: snap to slide index 1 before React loads, so the
-              // server-painted state never shows slide 0 first. useLayoutEffect
-              // runs again on hydration as a belt-and-suspenders check.
+              // Pre-hydration: land in the middle (home) copy before React mounts
+              // so the painted state never starts at the leftmost rendered slide.
               dangerouslySetInnerHTML={{
-                __html: `(function(){var s=document.querySelector('[data-hero-landing-scroller]');if(!s)return;var i=s.querySelectorAll('[data-slide]')[1];if(!i)return;var a=window.getComputedStyle(i).scrollSnapAlign;var prev=s.style.scrollBehavior;s.style.scrollBehavior='auto';s.scrollLeft=a.indexOf('center')!==-1?i.offsetLeft+i.offsetWidth/2-s.clientWidth/2:i.offsetLeft;s.style.scrollBehavior=prev;})();`,
+                __html: `(function(){var s=document.querySelector('[data-hero-landing-scroller]');if(!s)return;var idx=${homeStart + 1};var i=s.querySelectorAll('[data-slide]')[idx];if(!i)return;var a=window.getComputedStyle(i).scrollSnapAlign;var prev=s.style.scrollBehavior;s.style.scrollBehavior='auto';s.scrollLeft=a.indexOf('center')!==-1?i.offsetLeft+i.offsetWidth/2-s.clientWidth/2:i.offsetLeft;s.style.scrollBehavior=prev;})();`,
               }}
             />
+          ) : null}
+
+          {hasCarousel ? (
+            <Button
+              type="button"
+              variant="outline"
+              aria-label="Voir la destination précédente"
+              onClick={goPrev}
+              className="absolute top-1/2 left-6 z-20 hidden aspect-square size-12 -translate-y-1/2 border-0 px-0 shadow-deep md:flex"
+            >
+              <ChevronLeft className="size-5" />
+            </Button>
           ) : null}
 
           {hasCarousel ? (
@@ -346,25 +407,25 @@ export function HeroLanding({
             discover ? (
               <IconPillButton
                 onClick={() => setDiscoverOpen(true)}
-                className="absolute bottom-6 left-1/2 z-20 -translate-x-1/2 md:right-6 md:left-auto md:translate-x-0"
+                className="absolute bottom-6 left-1/2 z-20 -translate-x-1/2 md:hidden"
               >
                 {floatingCta.label}
               </IconPillButton>
             ) : (
               <IconPillButton
                 href={floatingCta.href}
-                className="absolute bottom-6 left-1/2 z-20 -translate-x-1/2 md:right-6 md:left-auto md:translate-x-0"
+                className="absolute bottom-6 left-1/2 z-20 -translate-x-1/2 md:hidden"
               >
                 {floatingCta.label}
               </IconPillButton>
             )
           ) : null}
 
-          <div className="pointer-events-none absolute inset-x-0 -inset-y-10 z-10 hidden md:flex">
+          <div className="pointer-events-none absolute inset-x-0 -top-10 z-10 hidden min-h-[calc(100%+5rem)] md:flex">
             <div className="section-px mx-auto flex w-full max-w-layout">
               <div className="pointer-events-auto w-[clamp(360px,32vw,440px)]">
                 <Card
-                  className="h-full"
+                  className="min-h-full"
                   eyebrow={eyebrow}
                   heading={heading}
                   description={description}
@@ -374,6 +435,19 @@ export function HeroLanding({
                   features={features}
                 />
               </div>
+              {floatingCta ? (
+                <div className="pointer-events-auto mb-16 ml-auto self-end">
+                  {discover ? (
+                    <IconPillButton onClick={() => setDiscoverOpen(true)}>
+                      {floatingCta.label}
+                    </IconPillButton>
+                  ) : (
+                    <IconPillButton href={floatingCta.href}>
+                      {floatingCta.label}
+                    </IconPillButton>
+                  )}
+                </div>
+              ) : null}
             </div>
           </div>
         </div>

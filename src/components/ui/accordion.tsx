@@ -3,7 +3,7 @@
 import { Accordion as AccordionPrimitive } from "@base-ui/react/accordion"
 
 import { cn } from "@/lib/utils"
-import { Plus } from "lucide-react"
+import { Plus } from "@untitledui/icons"
 
 function Accordion({ className, ...props }: AccordionPrimitive.Root.Props) {
   return (

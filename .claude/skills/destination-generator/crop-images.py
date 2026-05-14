@@ -5,9 +5,17 @@ Usage:
     pip install -r .claude/skills/destination-generator/requirements.txt
     GEMINI_API_KEY=… python3 .claude/skills/destination-generator/crop-images.py <path> [--force]
 
-`<path>` is either a directory of PNGs (e.g. public/destination/polynesie) or a
-single PNG file. For each master image (any *.png that is NOT already a derivative
-named *-3x4.png / *-1x1.png / *-9x16.png), the script:
+`<path>` is either a directory of PNGs or a single PNG file. It works for any
+entity family — destinations, experiences, accommodations — because it operates
+on a filesystem path, not on an entity slug. Pass whichever folder holds your
+masters:
+
+    public/destination/<slug>      # masters from gen-images.py --root destination
+    public/experience/<slug>       # masters from gen-images.py --root experience
+    public/accommodation/<slug>    # masters from gen-images.py --root accommodation
+
+For each master image (any *.png that is NOT already a derivative named
+*-3x4.png / *-1x1.png / *-9x16.png), the script:
 
   1. Asks Gemini 2.5 Flash to identify the dominant visual subject and return a
      bounding box as JSON percentages of the image dimensions: {x, y, w, h}.

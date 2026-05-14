@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/corse/hotel-murtoli.png",
     alt: "Bergerie en pierre du Domaine de Murtoli au coucher du soleil",
   },
-  destinationSlug: "corse",
+  destinationSlugs: ["corse"],
   sections: [],
 };

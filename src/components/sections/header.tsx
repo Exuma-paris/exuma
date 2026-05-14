@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { Menu, Search } from "lucide-react";
+import { Menu01 as Menu, SearchLg as Search } from "@untitledui/icons";
 import { Logo } from "@/components/ui/logo";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { SiteSearch } from "@/components/blocks/site-search";

@@ -154,6 +154,7 @@
 
 :root {
   --section-gutter: 1rem;
+  --section-block: 3.75rem;
 }
 @media (min-width: 375px) {
   :root {
@@ -163,6 +164,7 @@
 @media (min-width: 768px) {
   :root {
     --section-gutter: 2.5rem;
+    --section-block: 7.5rem;
   }
 }
 
@@ -177,14 +179,23 @@
   html {
     @apply font-sans;
   }
-  svg.lucide {
-    stroke-width: 1.2;
-  }
 }
 
 @layer components {
   .section-px {
     padding-inline: var(--section-gutter);
+  }
+
+  .section-py {
+    padding-block: var(--section-block);
+  }
+
+  .section-pt {
+    padding-top: var(--section-block);
+  }
+
+  .section-pb {
+    padding-bottom: var(--section-block);
   }
 
   .text-h1 {

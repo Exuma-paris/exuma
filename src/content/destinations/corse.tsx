@@ -4,6 +4,7 @@ export const destination: Destination = {
   slug: "corse",
   name: "Corse",
   country: "France",
+  genitive: "de la Corse",
   continentSlug: "europe",
   blurb: "Bonifacio, Calvi, Sartenais, Cap Corse, Lavezzi",
   keywords: [
@@ -45,11 +46,11 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Corse ?",
       heading:
-        "Antoine, spécialiste de la Corse, vous partage son expérience",
+        "Stéphane, spécialiste de la Corse, vous partage son expérience",
       partners: { title: "" },
       specialist: {
-        collaborateurSlug: "antoine",
-        // TODO: replace with a real verbatim from Antoine
+        collaborateurSlug: "stephane",
+        // TODO: replace with a real verbatim from Stéphane (was Antoine placeholder)
         quote:
           "La Corse ne se visite pas en quatre jours. Elle se traverse, du Cap Corse au Sartenais, dans le rythme des bergeries et des passes. Mon travail, c'est d'inscrire les bonnes heures dans cet itinéraire, celle où la lumière tombe sur Bonifacio, celle où le vigneron sort sa cuvée d'avant.",
       },

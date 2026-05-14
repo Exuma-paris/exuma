@@ -16,6 +16,7 @@ export function TextBlock({
   paragraph,
   cta,
   align = "left",
+  mdAlign,
   className,
 }: {
   eyebrow?: string;
@@ -26,24 +27,36 @@ export function TextBlock({
   paragraph?: string;
   cta?: React.ReactNode;
   align?: "left" | "center";
+  mdAlign?: "left" | "center";
   className?: string;
 }) {
   const Heading = headingLevel;
   const sizeToken = headingSize ?? headingLevel;
+  const baseAlign =
+    align === "center" ? "items-center text-center" : "items-start text-left";
+  const mdAlignClasses =
+    mdAlign === undefined
+      ? ""
+      : mdAlign === "center"
+        ? "md:items-center md:text-center"
+        : "md:items-start md:text-left";
+  const baseInner = align === "center" ? "items-center" : "items-start";
+  const mdInner =
+    mdAlign === undefined
+      ? ""
+      : mdAlign === "center"
+        ? "md:items-center"
+        : "md:items-start";
   return (
     <div
       className={cn(
         "flex flex-col gap-6",
-        align === "center" ? "items-center text-center" : "items-start text-left",
+        baseAlign,
+        mdAlignClasses,
         className,
       )}
     >
-      <div
-        className={cn(
-          "flex flex-col gap-3",
-          align === "center" ? "items-center" : "items-start",
-        )}
-      >
+      <div className={cn("flex flex-col gap-3", baseInner, mdInner)}>
         {eyebrow ? (
           <p className={`text-eyebrow ${eyebrowTones[eyebrowTone]}`}>
             {eyebrow}

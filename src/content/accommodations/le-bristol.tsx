@@ -15,6 +15,6 @@ export const accommodation: Accommodation = {
     src: "/destination/paris/hotel-bristol.png",
     alt: "Façade du Bristol Paris rue du Faubourg Saint-Honoré",
   },
-  destinationSlug: "paris",
+  destinationSlugs: ["paris"],
   sections: [],
 };

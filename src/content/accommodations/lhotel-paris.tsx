@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/paris/hotel-lhotel.png",
     alt: "Cour intérieure de L'Hôtel rue des Beaux-Arts",
   },
-  destinationSlug: "paris",
+  destinationSlugs: ["paris"],
   sections: [],
 };

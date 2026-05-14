@@ -14,7 +14,7 @@ export function ImageDuoSection({
 }: ImageDuoSectionProps) {
   return (
     <div className={cn("w-full", background)}>
-      <section className="section-px mx-auto flex w-full max-w-layout gap-3 py-30">
+      <section className="section-px mx-auto flex w-full max-w-layout gap-3 section-py">
         <div className="relative aspect-3/2 flex-[2] overflow-hidden bg-muted">
           <Image
             src={left.src}

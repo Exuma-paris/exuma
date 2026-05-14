@@ -13,15 +13,15 @@ import { PlacesMapSection } from "@/components/sections/places-map";
 import {
   Plane,
   Clock,
-  Euro,
-  FileText,
-  Syringe,
-  CalendarDays,
-  Languages,
-  BadgeCheck,
-  Sparkles,
-  Star,
-} from "lucide-react";
+  CurrencyEuro as Euro,
+  File02 as FileText,
+  MedicalCross as Syringe,
+  Calendar as CalendarDays,
+  Translate01 as Languages,
+  CheckVerified01 as BadgeCheck,
+  Stars01 as Sparkles,
+  Star01 as Star,
+} from "@untitledui/icons";
 import { Recommended } from "@/components/blocks/recommended";
 import { BentoSection } from "@/components/sections/bento";
 import { FeatureCardsSection } from "@/components/sections/feature-cards";

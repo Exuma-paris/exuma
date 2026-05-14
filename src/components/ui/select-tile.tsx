@@ -1,6 +1,6 @@
 "use client";
 
-import { Check } from "lucide-react";
+import { Check } from "@untitledui/icons";
 import { cn } from "@/lib/utils";
 
 export type SelectTileProps = {
@@ -8,6 +8,7 @@ export type SelectTileProps = {
   selected?: boolean;
   onToggle?: () => void;
   disabled?: boolean;
+  showCheck?: boolean;
   className?: string;
 };
 
@@ -16,6 +17,7 @@ export function SelectTile({
   selected = false,
   onToggle,
   disabled = false,
+  showCheck = true,
   className,
 }: SelectTileProps) {
   return (
@@ -39,19 +41,21 @@ export function SelectTile({
       )}
     >
       <span className="flex-1">{label}</span>
-      <span
-        aria-hidden
-        className={cn(
-          "flex size-5 shrink-0 items-center justify-center rounded-[5px] transition-colors",
-          selected
-            ? "bg-foreground text-background"
-            : "border border-border bg-background",
-        )}
-      >
-        {selected ? (
-          <Check className="size-3.5" strokeWidth={2.5} />
-        ) : null}
-      </span>
+      {showCheck ? (
+        <span
+          aria-hidden
+          className={cn(
+            "flex size-5 shrink-0 items-center justify-center rounded-[5px] transition-colors",
+            selected
+              ? "bg-foreground text-background"
+              : "border border-border bg-background",
+          )}
+        >
+          {selected ? (
+            <Check className="size-3.5" strokeWidth={2.5} />
+          ) : null}
+        </span>
+      ) : null}
     </button>
   );
 }

@@ -1,35 +1,57 @@
 ---
-name: experience-generator
-description: Generate (or promote a stub of) an experience page for the Exuma travel site (Next.js, French content). Use when the user asks to create an experience page, add a new experience, or promote an existing experience stub to a full page. Produces or updates src/content/experiences/<slug>.tsx (typed Experience object with all sections), public/experience/<slug>/PROMPTS.md (image manifest with reference-search queries), references/experience/<slug>/SOURCES.md (empty traceability log), and registers the file in src/lib/content/registry.ts if newly created. Images are produced separately by gen-images.py — the skill does NOT generate them.
+name: entity-generator
+description: Generate (or promote a stub of) an experience or accommodation (hotel) page for the Exuma travel site (Next.js, French content). Use when the user asks to create an experience or hotel page, add a new experience or accommodation, or promote an existing stub to a full page. Produces or updates src/content/<kind>s/<slug>.tsx (typed Experience or Accommodation object with all sections), public/<kind>/<slug>/PROMPTS.md (image manifest with reference-search queries), references/<kind>/<slug>/SOURCES.md (empty traceability log), and registers the file in src/lib/content/registry.ts if newly created. Images are produced separately by gen-images.py — the skill does NOT generate them.
 metadata:
-  short-description: Scaffold or promote an experience page with copy, structure, and image manifest
+  short-description: Scaffold or promote an experience or hotel page with copy, structure, and image manifest
 ---
 
-# Experience Generator
+# Entity Generator
 
-Scaffold a new experience page or promote an existing stub at `src/content/experiences/<slug>.tsx`. The dynamic route at `src/app/experiences/[slug]/page.tsx` renders the entity: when `sections: []` it shows a `<EntityStubPage>`; when `sections[]` is non-empty it renders the full editorial page.
+Scaffold a new entity page or promote an existing stub. **Two kinds**, same workflow:
 
-Always read the destination skill's `STYLE.md` (at `.claude/skills/destination-generator/STYLE.md`) before writing copy. Voice rules — sentence rhythm, forbidden vocabulary, anti-clichés, SEO discipline — are identical for experiences. Same anti-cliché list, same structural rules, same primary-keyword discipline (with a different keyword pattern, see below).
+| Kind | File | Folder layout (per slug) | Route |
+|---|---|---|---|
+| `experience` | `src/content/experiences/<slug>.tsx` | `public/experience/<slug>/` + `references/experience/<slug>/` | `/experiences/<slug>` |
+| `accommodation` | `src/content/accommodations/<slug>.tsx` | `public/accommodation/<slug>/` + `references/accommodation/<slug>/` | `/hebergements/<slug>` |
 
-Always read `REFERENCE.md` in this same folder before writing data. It owns the per-section data shape for experiences and the image filename convention.
+Both entities share the same `Section` discriminated union, the same canonical section ordering, the same image pipeline, and (after the recent type alignment) the same shape for `destinationSlugs?: string[]`, `metaTitle?`, `metaDescription?`. The skill behaves identically across kinds — only paths and the type name differ.
+
+The dynamic routes (`/experiences/[slug]` and `/hebergements/[slug]`) render: `<EntityStubPage>` when `sections: []`, full editorial page when `sections[]` is non-empty.
+
+Always read the destination skill's `STYLE.md` (at `.claude/skills/destination-generator/STYLE.md`) before writing copy. Voice rules are identical across kinds.
+
+Always read `REFERENCE.md` in this same folder before writing data. It owns the per-section data shape and the image filename convention.
 
 ## Stub-or-create model (read this first)
 
-`src/content/experiences/<slug>.tsx` is a single file with two states:
+`src/content/<kind>s/<slug>.tsx` is a single file with two states:
 
-- **Stub state** — `sections: []`. Created by the destination-generator when it scaffolds a destination that references this experience. The file holds metadata only (`name`, `blurb`, `keywords`, `heroImage`, `destinationSlugs`). The `/experiences/<slug>` route renders a `<EntityStubPage>` with name + blurb + a "Bientôt" eyebrow.
-- **Full-page state** — non-empty `sections[]`. The file gains the editorial sections defined in REFERENCE.md and `/experiences/<slug>` renders a full editorial page.
+- **Stub state** — `sections: []`. Created by the destination-generator when it scaffolds a destination that references this entity. The file holds metadata only (`name`, `blurb`, `keywords`, `heroImage`, `destinationSlugs`). The route renders a `<EntityStubPage>` with name + blurb + a "Bientôt" eyebrow.
+- **Full-page state** — non-empty `sections[]`. The file gains the editorial sections defined in REFERENCE.md and the route renders a full editorial page.
 
 The skill behaves differently depending on which state it finds:
 
-- **Stub exists**: read `destinationSlugs`, `themeSlugs`, `heroImage`, `name`, `blurb`. Promote to full-page state by filling `sections[]` and (if missing) `metaTitle`/`metaDescription`/`collaborateurSlug`. Do NOT create new entries in `registry.ts` — already registered.
+- **Stub exists**: read `destinationSlugs`, `heroImage`, `name`, `blurb`. Promote to full-page state by filling `sections[]` and (if missing) `metaTitle`/`metaDescription`/(experience-only: `themeSlugs`/`collaborateurSlug`). Do NOT create new entries in `registry.ts` — already registered.
 - **Stub does not exist**: ask the user for the destination (since `destinationSlugs` is required), create the file from scratch with both metadata fields and `sections[]`, and add it to `registry.ts`.
 
 ## Workflow
 
-### 1. Get the experience name
+### 0. Pick the kind
 
-The skill is invoked with the name in the prompt: e.g. `/experience-generator cours de samba à Mangueira`. If the name is not supplied, ask: *"Quel est le nom de l'expérience ? (en français, ex. Cours de cuisine chez une nonna)"*.
+This skill handles both experiences and hotels. **Always ask first** unless the user's prompt makes the kind unambiguous (e.g. "promote The Brando" → accommodation; "scaffold the GR20 hike" → experience).
+
+Ask: *"Vous voulez créer (a) une expérience, ou (b) un hébergement ?"*
+
+Carry the chosen `kind` through the rest of the workflow. Wherever the steps below say "experience" or refer to `experiences/`, treat as parameterized:
+
+| When kind is | Use |
+|---|---|
+| `experience` | folder `experiences/`, image folder `public/experience/<slug>/`, references folder `references/experience/<slug>/`, type `Experience`, registry array `experiences`, route `/experiences/<slug>`. Has these extra optional fields: `themeSlugs?`, `subthemeSlugs?`, `collaborateurSlug?`. |
+| `accommodation` | folder `accommodations/`, image folder `public/accommodation/<slug>/`, references folder `references/accommodation/<slug>/`, type `Accommodation`, registry array `accommodations`, route `/hebergements/<slug>`. No theme/collaborateur fields. |
+
+### 1. Get the entity name
+
+The skill is invoked with the name in the prompt: e.g. `/entity-generator cours de samba à Mangueira`. If the name is not supplied, ask either *"Quel est le nom de l'expérience ?"* or *"Quel est le nom de l'hébergement ?"* depending on the kind picked at step 0.
 
 ### 2. Derive the slug
 
@@ -72,6 +94,8 @@ Always ask: *"Combien d'images dans la galerie (3 à 6) ?"* — the gallery sect
 
 ### 4c. Confirm the collaborateur (optional override)
 
+**Skip this step entirely when `kind === "accommodation"`** — hotels don't have a `collaborateurSlug` field and the featureShowcase pattern is experience-only. Hotels typically use `featureCards` for room types or signature offerings instead. See REFERENCE.md for the accommodation section list.
+
 The featureShowcase section spotlights the **destination's** collaborateur by default — i.e. the same one the destination's `specialistSpotlight` references. Only ask the user if they want to override:
 
 *"Veut-on conserver le collaborateur de la destination, ou en désigner un autre spécifiquement pour cette expérience ?"*
@@ -108,16 +132,26 @@ Before writing anything, read:
 
 ### 6. Create or update files
 
-#### 6a. `src/content/experiences/<slug>.tsx`
+The file paths below show **`experience`** for brevity. Substitute according to the kind chosen at step 0:
 
-Skeleton for a **new** experience (no prior stub):
+| Token | If `kind === "experience"` | If `kind === "accommodation"` |
+|---|---|---|
+| `<folder>` | `experiences` | `accommodations` |
+| `<image-folder>` | `experience` | `accommodation` |
+| `<TypeName>` | `Experience` | `Accommodation` |
+| `<exportName>` | `experience` | `accommodation` |
+| `<routePrefix>` | `/experiences` | `/hebergements` |
+
+#### 6a. `src/content/<folder>/<slug>.tsx`
+
+Skeleton for a **new** entity (no prior stub):
 
 ```tsx
-import type { Experience } from "@/lib/content/types";
+import type { <TypeName> } from "@/lib/content/types";
 
-export const experience: Experience = {
+export const <exportName>: <TypeName> = {
   slug: "<slug>",
-  name: "<Experience name — French>",
+  name: "<Entity name — French>",
   blurb:
     "<2–3 sentence editorial blurb following STYLE.md rules — same blurb the destination's entityList card displays>",
   keywords: [
@@ -125,42 +159,50 @@ export const experience: Experience = {
     /* 3–5 lowercase no-accent strings: place, technique, named operator */
   ],
   heroImage: {
-    src: "/experience/<slug>/card.png",
+    src: "/<image-folder>/<slug>/card.png",
     alt: "<French alt text — name of subject + place>",
   },
   destinationSlugs: ["<destination-slug>"],
-  // optional: themeSlugs?: string[]
-  // optional: collaborateurSlug?: string  (only if overriding the destination's default)
-  metaTitle: "<Experience name> à <Destination>",   // pattern locked: "<name> à <Destination>"
+  // experience-only optional fields:
+  //   themeSlugs?: string[]
+  //   subthemeSlugs?: string[]
+  //   collaborateurSlug?: string  (only if overriding the destination's default)
+  metaTitle: "<Entity name> à <Destination>",
   metaDescription:
     "<150–160 chars, primary keyword (\"<name> à <Destination>\") + factual anchor, no CTA — see STYLE.md § SEO discipline>",
   sections: [
-    /* the 5 entries below, in order */
+    /* sections per REFERENCE.md — the canonical list differs slightly per kind */
   ],
 };
 ```
 
-When **promoting an existing stub**, edit the file in place: keep the existing fields (don't overwrite `name`, `blurb`, `keywords`, `heroImage`, `destinationSlugs`), add `metaTitle` + `metaDescription`, optionally `collaborateurSlug`, and replace `sections: []` with the canonical 5 sections.
+When **promoting an existing stub**, edit the file in place: keep the existing fields (don't overwrite `name`, `blurb`, `keywords`, `heroImage`, `destinationSlugs`), add `metaTitle` + `metaDescription`, optionally `collaborateurSlug` (experience only), and replace `sections: []` with the canonical sections from REFERENCE.md.
 
 The file is `.tsx` because some sections may include rich JSX content. Do NOT make it `.ts`.
 
-#### 6b. `public/experience/<slug>/PROMPTS.md`
+#### 6b. `public/<image-folder>/<slug>/PROMPTS.md`
 
 See "Images" below.
 
-#### 6c. `references/experience/<slug>/SOURCES.md`
+#### 6c. `references/<image-folder>/<slug>/SOURCES.md`
 
 See "Images" below.
 
 ### 7. Register in `src/lib/content/registry.ts` (only if new)
 
-If the file is new, add an import alongside the other experience imports and add the identifier to the `experiences` `toMap([...])` array, alphabetically:
+If the file is new, add an import alongside the other entity imports of this kind and add the identifier to the matching `toMap([...])` array, alphabetically:
 
 ```ts
+// experience kind
 import { experience as <camelSlug> } from "@/content/experiences/<slug>";
+// → add <camelSlug> to the `experiences` array
+
+// accommodation kind
+import { accommodation as <camelSlug> } from "@/content/accommodations/<slug>";
+// → add <camelSlug> to the `accommodations` array
 ```
 
-`<camelSlug>` is the slug with hyphens removed and the next letter uppercased: `cours-de-samba-a-mangueira` → `coursDeSambaAMangueira`. Single-word slugs are unchanged.
+`<camelSlug>` is the slug with hyphens removed and the next letter uppercased: `cours-de-samba-a-mangueira` → `coursDeSambaAMangueira`, `the-brando` → `theBrando`. Single-word slugs are unchanged.
 
 If you're promoting an existing stub, the registry entry already exists. Do not duplicate.
 

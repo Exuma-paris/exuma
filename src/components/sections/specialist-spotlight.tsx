@@ -68,7 +68,7 @@ export const specialistSpotlightMeta = {
       required: true,
       slots: {
         collaborateurSlug: {
-          role: "Slug of an existing Collaborateur entity (e.g. 'antoine', 'elise', 'stephane').",
+          role: "Slug of an existing Collaborateur entity (e.g. 'stephane', 'ludivine', 'taina').",
           required: true,
           length: { chars: { max: 40 } },
         },
@@ -118,7 +118,7 @@ export function SpecialistSpotlight({
   background,
 }: SpecialistSpotlightProps) {
   const isDark = theme === "dark";
-  const resolvedBg = background ?? (isDark ? "bg-foreground" : "bg-background-soft");
+  const resolvedBg = background ?? (isDark ? "bg-foreground" : undefined);
 
   return (
     <div
@@ -128,7 +128,7 @@ export function SpecialistSpotlight({
         resolvedBg,
       )}
     >
-      <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-12 py-30">
+      <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-12 section-py">
         <div className="flex flex-col items-start gap-8 md:flex-row md:items-end md:justify-between">
           <div className="flex flex-col gap-3">
             {eyebrow ? (

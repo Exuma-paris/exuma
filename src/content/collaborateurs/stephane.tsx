@@ -2,13 +2,15 @@ import type { Collaborateur } from "@/lib/content/types";
 
 export const collaborateur: Collaborateur = {
   slug: "stephane",
-  name: "Stéphane",
-  role: "Travel Designer Exuma spécialiste de la Polynésie",
+  name: "Stéphane Lasnier",
+  role: "Luxury Travel Designer",
   image: {
-    src: "/collaborateurs/stephane.jpg",
-    alt: "Portrait de Stéphane, travel designer Exuma",
+    src: "/collaborateurs/stephane-chair-hd.jpg",
+    alt: "Portrait de Stéphane Lasnier, Luxury Travel Designer chez Exuma",
   },
-  destinationSlugs: ["polynesie", "polynesie-2"],
-  themeSlugs: [],
+  profileImage: {
+    src: "/collaborateurs/stephane-profile-v3.jpg",
+    alt: "Stéphane Lasnier",
+  },
   sections: [],
 };

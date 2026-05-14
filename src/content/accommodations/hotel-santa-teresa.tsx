@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/rio-de-janeiro/hotel-santa-teresa.png",
     alt: "Terrasse de l'Hotel Santa Teresa MGallery sur la baie de Guanabara",
   },
-  destinationSlug: "rio-de-janeiro",
+  destinationSlugs: ["rio-de-janeiro"],
   sections: [],
 };

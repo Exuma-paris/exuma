@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight } from "@untitledui/icons";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
 
@@ -51,7 +51,7 @@ export function IslandLinksSection({
 }: IslandLinksProps) {
   return (
     <div className={cn("w-full", background)}>
-      <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-8 py-30">
+      <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-8 section-py">
         <div className="flex flex-col gap-3">
           {eyebrow ? (
             <p className="text-eyebrow text-primary">{eyebrow}</p>

@@ -1,21 +1,26 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail01 as Mail, MarkerPin01 as MapPin, Phone } from "@untitledui/icons";
 import { Logo } from "@/components/ui/logo";
 import {
   continents,
   serviceCategories,
   themes,
 } from "@/lib/content/registry";
+import {
+  EXUMA_ADDRESS,
+  EXUMA_EMAIL,
+  EXUMA_PHONE,
+} from "@/lib/exuma";
 import { cn } from "@/lib/utils";
 
 const tagline =
   "Agence de voyage de luxe sur-mesure. Itinéraires confidentiels, conciergerie privée et accès privilégiés à travers le monde.";
 
 const contact = {
-  email: "contact@exuma.paris",
-  phone: "+33 1 00 00 00 00",
-  address: "Paris, France",
+  email: EXUMA_EMAIL,
+  phone: EXUMA_PHONE,
+  address: EXUMA_ADDRESS,
 };
 
 const legalLinks = [

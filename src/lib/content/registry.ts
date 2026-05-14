@@ -81,9 +81,15 @@ import { accommodation as belmondCopacabanaPalace } from "@/content/accommodatio
 import { accommodation as fasanoRio } from "@/content/accommodations/fasano-rio";
 import { accommodation as hotelSantaTeresa } from "@/content/accommodations/hotel-santa-teresa";
 
-import { collaborateur as antoine } from "@/content/collaborateurs/antoine";
-import { collaborateur as elise } from "@/content/collaborateurs/elise";
+import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
+import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
+import { collaborateur as calvin } from "@/content/collaborateurs/calvin";
+import { collaborateur as carole } from "@/content/collaborateurs/carole";
+import { collaborateur as cecile } from "@/content/collaborateurs/cecile";
+import { collaborateur as ludivine } from "@/content/collaborateurs/ludivine";
+import { collaborateur as rania } from "@/content/collaborateurs/rania";
 import { collaborateur as stephane } from "@/content/collaborateurs/stephane";
+import { collaborateur as taina } from "@/content/collaborateurs/taina";
 
 const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
   Object.fromEntries(items.map((i) => [i.slug, i]));
@@ -173,9 +179,15 @@ export const accommodations: Record<string, Accommodation> = toMap([
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
-  antoine,
-  elise,
+  aurore,
+  blanche,
+  calvin,
+  carole,
+  cecile,
+  ludivine,
+  rania,
   stephane,
+  taina,
 ]);
 
 const buckets: { [K in EntityKind]: Record<string, EntityByKind[K]> } = {

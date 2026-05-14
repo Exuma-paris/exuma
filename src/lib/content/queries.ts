@@ -1,6 +1,7 @@
 import {
   accommodations,
   allTagged,
+  collaborateurs,
   continents,
   destinations,
   experiences,
@@ -12,11 +13,52 @@ import {
 import type {
   Accommodation,
   AnyTagged,
+  Collaborateur,
   Destination,
   Experience,
+  Section,
   Service,
   Subtheme,
 } from "./types";
+
+/**
+ * The FAQ section as authored in a destination's `sections[]`.
+ * Single source of truth — pages that need an FAQ for a given destination
+ * (the destination page itself, the landing page, the contact-merci page, etc.)
+ * should ALL pull it from here so they never drift.
+ */
+export type DestinationFaqSection = Extract<Section, { type: "faq" }>;
+
+export function getDestinationFaq(
+  destinationSlug: string,
+): DestinationFaqSection | undefined {
+  const destination = destinations[destinationSlug];
+  if (!destination) return undefined;
+  return destination.sections.find(
+    (s): s is DestinationFaqSection => s.type === "faq",
+  );
+}
+
+/**
+ * The collaborateur tagged as the destination's specialist via its
+ * `specialistSpotlight` section. The relationship lives on the DESTINATION
+ * (not on the collaborateur) — a single collaborateur can be the specialist
+ * for many destinations because each destination independently picks them.
+ *
+ * Returns undefined if the destination doesn't have a spotlight section or
+ * if the referenced collaborateur slug isn't registered.
+ */
+export function getDestinationSpecialist(
+  destinationSlug: string,
+): Collaborateur | undefined {
+  const destination = destinations[destinationSlug];
+  if (!destination) return undefined;
+  const spotlight = destination.sections.find(
+    (s) => s.type === "specialistSpotlight",
+  );
+  if (!spotlight || spotlight.type !== "specialistSpotlight") return undefined;
+  return collaborateurs[spotlight.specialist.collaborateurSlug];
+}
 
 export function getDestinationsByContinent(
   continentSlug: string,
@@ -81,8 +123,8 @@ export function getSubthemesByTheme(themeSlug: string): Subtheme[] {
 export function getAccommodationsByDestination(
   destinationSlug: string,
 ): Accommodation[] {
-  return Object.values(accommodations).filter(
-    (a) => a.destinationSlug === destinationSlug,
+  return Object.values(accommodations).filter((a) =>
+    a.destinationSlugs?.includes(destinationSlug),
   );
 }
 

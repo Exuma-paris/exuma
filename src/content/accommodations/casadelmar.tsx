@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/corse/hotel-casadelmar.png",
     alt: "Architecture contemporaine du Casadelmar face au golfe",
   },
-  destinationSlug: "corse",
+  destinationSlugs: ["corse"],
   sections: [],
 };

@@ -4,6 +4,7 @@ export const destination: Destination = {
   slug: "paris",
   name: "Paris",
   country: "France",
+  genitive: "de Paris",
   continentSlug: "europe",
   blurb: "Marais, Saint-Germain, Faubourg, Batignolles, Belleville",
   keywords: [
@@ -44,11 +45,11 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à Paris ?",
       heading:
-        "Élise, spécialiste de Paris, vous partage son expérience",
+        "Ludivine, spécialiste de Paris, vous partage son expérience",
       partners: { title: "" },
       specialist: {
-        collaborateurSlug: "elise",
-        // TODO: replace with a real verbatim from Élise
+        collaborateurSlug: "ludivine",
+        // TODO: replace with a real verbatim from Ludivine (was Élise placeholder)
         quote:
           "Paris se traverse trois fois avant de commencer à comprendre. Mon rôle, c'est d'écrire la première traversée, les bonnes heures, les bons quartiers, les portes qui ne s'ouvrent pas pour tout le monde. Et de laisser la deuxième et la troisième pour les fois suivantes.",
       },

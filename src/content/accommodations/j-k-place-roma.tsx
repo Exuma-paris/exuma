@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/rome/hotel-j-k-place.png",
     alt: "Salon du J.K. Place Roma, Via di Monte d'Oro",
   },
-  destinationSlug: "rome",
+  destinationSlugs: ["rome"],
   sections: [],
 };

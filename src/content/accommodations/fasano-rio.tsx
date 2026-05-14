@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/rio-de-janeiro/hotel-fasano.png",
     alt: "Terrasse-piscine du Fasano Rio au-dessus d'Ipanema",
   },
-  destinationSlug: "rio-de-janeiro",
+  destinationSlugs: ["rio-de-janeiro"],
   sections: [],
 };

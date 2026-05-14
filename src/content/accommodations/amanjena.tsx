@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/marrakech/hotel-amanjena.png",
     alt: "Bassin central de l'Amanjena au crépuscule",
   },
-  destinationSlug: "marrakech",
+  destinationSlugs: ["marrakech"],
   sections: [],
 };

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Fingerprint } from "@/components/blocks/fingerprint";
 import { TextBlock } from "@/components/blocks/text-block";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -43,7 +44,7 @@ export const infoGridMeta = {
     items: {
       role: "Info cells, rendered in a 4-column grid on desktop.",
       required: true,
-      itemCount: { exact: 7, min: 4, max: 8 },
+      itemCount: { exact: 8, min: 8, max: 8 },
       perItem: {
         role: "One info cell — icon + label + one factual sentence.",
         required: true,
@@ -73,8 +74,8 @@ export function InfoGridSection({
   background,
 }: InfoGridSectionProps) {
   return (
-    <div className={cn("w-full", background)}>
-      <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-10 py-30">
+    <div className={cn("relative w-full", background)}>
+      <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-10 section-py">
         <div className="flex flex-col items-start gap-6 md:flex-row md:items-end md:justify-between">
           <TextBlock
             align="left"
@@ -106,6 +107,7 @@ export function InfoGridSection({
           ))}
         </div>
       </section>
+      <Fingerprint />
     </div>
   );
 }

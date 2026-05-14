@@ -6,6 +6,7 @@ export const destination: Destination = {
   slug: "rio-de-janeiro",
   name: "Rio de Janeiro",
   country: "Brésil",
+  genitive: "de Rio de Janeiro",
   continentSlug: "ameriques",
   blurb: "Copacabana, Ipanema, Santa Teresa, Corcovado, Lapa",
   keywords: [

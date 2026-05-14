@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Minus, Plus } from "lucide-react";
+import { Minus, Plus } from "@untitledui/icons";
 import { TextBlock } from "@/components/blocks/text-block";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
@@ -75,7 +75,7 @@ export function FeatureShowcase({
 
   return (
     <div className="w-full">
-      <section className="mx-auto grid w-full max-w-layout gap-10 section-px py-30 md:grid-cols-2 md:gap-16 md:items-start">
+      <section className="mx-auto grid w-full max-w-layout gap-10 section-px section-py md:grid-cols-2 md:gap-16 md:items-start">
         <div className="flex flex-col gap-10">
           <TextBlock
             align="left"

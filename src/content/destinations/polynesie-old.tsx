@@ -4,6 +4,7 @@ export const destination: Destination = {
   slug: "polynesie-old",
   name: "Polynésie française (ancienne version)",
   country: "Polynésie française",
+  genitive: "de la Polynésie",
   continentSlug: "iles-oceanie",
   sections: [
     {

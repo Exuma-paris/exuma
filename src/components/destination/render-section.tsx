@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { Fingerprint } from "@/components/blocks/fingerprint";
 import { HeroImageGallery } from "@/components/sections/hero/image-gallery";
 import { HeroImageBackground } from "@/components/sections/hero/image-background";
 import { HeroLanding } from "@/components/sections/hero/landing";
@@ -158,7 +159,7 @@ export function renderSection(section: Section, key: string): ReactNode {
       return (
         <div
           key={key}
-          className="[&>div:first-child_section]:pb-0 [&>div:last-child_section]:pt-10"
+          className="relative [&>div:nth-child(1)_section]:pb-0 [&>div:nth-child(2)_section]:pt-10"
         >
           <ImageDuoSection
             left={section.duo.left}
@@ -170,6 +171,7 @@ export function renderSection(section: Section, key: string): ReactNode {
             columns={section.text.columns}
             cta={section.text.cta}
           />
+          <Fingerprint />
         </div>
       );
 

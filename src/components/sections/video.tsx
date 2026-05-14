@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { Play } from "lucide-react";
+import { Play } from "@untitledui/icons";
 import { TextBlock } from "@/components/blocks/text-block";
 import { cn } from "@/lib/utils";
 
@@ -30,7 +30,7 @@ export function VideoSection({
 
   return (
     <div className={cn("w-full", background)}>
-      <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px py-30">
+      <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px section-py">
         <TextBlock
           align="center"
           eyebrow={eyebrow}

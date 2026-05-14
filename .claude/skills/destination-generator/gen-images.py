@@ -1,20 +1,40 @@
 #!/usr/bin/env python3
-"""Generate destination images by restyling references with the Exuma look.
+"""Generate Exuma images by restyling references with the brand look.
 
 Usage:
     pip install -r .claude/skills/destination-generator/requirements.txt
     GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py <slug> [--force]
+    GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --root experience <slug>
+    GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --root accommodation <slug>
 
-For each reference at references/destination/<slug>/<name>-ref.<ext>, sends the
-reference + the shared "preserve + grade" prompt to Gemini 2.5 Flash Image, and
-saves the result (re-cropped to a strict 16:9 master) to
-public/destination/<slug>/<name>.png.
+`--root` selects the entity family the slug belongs to. Default is `destination`.
+Supported values: `destination`, `experience`, `accommodation`. The flag drives
+both the input and output paths:
 
-The 16:9 master is the source-of-truth aspect for the project. The companion
-script `crop-images.py` derives 3:4 / 1:1 / 9:16 variants from the master,
-anchored on the dominant subject as detected by Gemini Vision.
+    --root destination   →  references/destination/<slug>/  →  public/destination/<slug>/
+    --root experience    →  references/experience/<slug>/   →  public/experience/<slug>/
+    --root accommodation →  references/accommodation/<slug>/→  public/accommodation/<slug>/
+
+For each reference at <ref-dir>/<name>-ref.<ext>, sends the reference + the
+shared "preserve + grade" prompt to Gemini 3 Pro Image (Nano Banana Pro), and
+saves the result (re-cropped to a strict 16:9 master) to <out-dir>/<name>.png.
+
+The 16:9 master is the source-of-truth aspect for the project. Output is
+requested at 2K (~2048px on the long edge) — high enough for hero / full-bleed
+web use without the post-hoc Real-ESRGAN upscale step. The companion script
+`crop-images.py` derives 3:4 / 1:1 / 9:16 variants from the master, anchored
+on the dominant subject as detected by Gemini Vision. `crop-images.py` takes a
+path, not a slug — it works on any directory regardless of `--root`.
 
 Skips outputs that already exist unless --force is passed.
+
+Model history:
+  - gemini-2.5-flash-image (Nano Banana, default until May 2026): output capped
+    at ~1024-1408px on the long edge — too soft for hero use. Required a
+    Real-ESRGAN post-pass via upscale-images.py.
+  - gemini-3-pro-image-preview (Nano Banana Pro, current): native 2K/4K output
+    + explicit composition preservation. ~3.4× more expensive ($0.134 vs
+    $0.039 per 2K image) but no upscale step needed and substantially sharper.
 """
 import base64
 import io
@@ -28,8 +48,11 @@ from pathlib import Path
 from PIL import Image
 
 REPO = Path(__file__).resolve().parents[3]
-MODEL = "gemini-2.5-flash-image"
+MODEL = "gemini-3-pro-image-preview"
 TARGET_RATIO = 16 / 9
+IMAGE_SIZE = "2K"  # "1K" | "2K" | "4K" — Pro respects this; Flash variants ignore it
+ASPECT_RATIO = "16:9"
+ALLOWED_ROOTS = ("destination", "experience", "accommodation")
 
 PROMPT = """Apply the visual style described below to this reference photograph as a color grade and post-processing treatment ONLY.
 
@@ -64,8 +87,13 @@ def generate(api_key: str, ref_path: Path) -> bytes:
                 {"text": PROMPT},
             ]
         }],
-        "generationConfig": {"responseModalities": ["IMAGE"]},
-        "imageConfig": {"aspectRatio": "16:9"},
+        "generationConfig": {
+            "responseModalities": ["IMAGE"],
+            "imageConfig": {
+                "imageSize": IMAGE_SIZE,
+                "aspectRatio": ASPECT_RATIO,
+            },
+        },
     }
     endpoint = (
         "https://generativelanguage.googleapis.com/v1beta/models/"
@@ -113,22 +141,49 @@ def enforce_16x9(image_bytes: bytes) -> bytes:
     return out.getvalue()
 
 
-def main() -> int:
-    args = [a for a in sys.argv[1:] if a]
+USAGE = (
+    "usage: gen-images.py [--root destination|experience|accommodation] <slug> [--force]"
+)
+
+
+def parse_args(argv: list[str]) -> tuple[str, str, bool]:
+    """Return (root, slug, force). Raises ValueError on bad input."""
+    args = [a for a in argv if a]
     force = "--force" in args
     args = [a for a in args if a != "--force"]
+
+    root = "destination"
+    if "--root" in args:
+        i = args.index("--root")
+        if i + 1 >= len(args):
+            raise ValueError("--root requires a value")
+        root = args[i + 1]
+        del args[i : i + 2]
+
+    if root not in ALLOWED_ROOTS:
+        raise ValueError(
+            f"--root must be one of {ALLOWED_ROOTS}, got {root!r}"
+        )
     if len(args) != 1:
-        print("usage: gen-images.py <slug> [--force]", file=sys.stderr)
+        raise ValueError("expected exactly one positional <slug>")
+    return root, args[0], force
+
+
+def main() -> int:
+    try:
+        root, slug, force = parse_args(sys.argv[1:])
+    except ValueError as e:
+        print(f"error: {e}", file=sys.stderr)
+        print(USAGE, file=sys.stderr)
         return 2
-    slug = args[0]
 
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         print("GEMINI_API_KEY not set", file=sys.stderr)
         return 2
 
-    ref_dir = REPO / "references" / "destination" / slug
-    out_dir = REPO / "public" / "destination" / slug
+    ref_dir = REPO / "references" / root / slug
+    out_dir = REPO / "public" / root / slug
     if not ref_dir.is_dir():
         print(f"No reference dir: {ref_dir}", file=sys.stderr)
         return 1

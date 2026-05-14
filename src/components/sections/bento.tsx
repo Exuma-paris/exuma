@@ -147,10 +147,11 @@ export function BentoSection({
 
   return (
     <div className={cn("w-full", background)}>
-      <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px py-30">
-      <div className="flex flex-col items-center gap-6 text-center">
+      <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px section-py">
+      <div className="flex flex-col items-start gap-6 text-left md:items-center md:text-center">
         <TextBlock
-          align="center"
+          align="left"
+          mdAlign="center"
           eyebrow={eyebrow}
           heading={heading}
           headingLevel="h2"

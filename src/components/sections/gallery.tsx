@@ -133,7 +133,7 @@ export function GallerySection({
 
   return (
     <div className={cn("w-full", background)}>
-      <section className="flex flex-col gap-10 py-30">
+      <section className="flex flex-col gap-10 section-py">
         <div className="section-px mx-auto flex w-full max-w-layout flex-col items-center">
           <TextBlock
             align="center"

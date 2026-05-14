@@ -1,15 +1,16 @@
 import {
-  BadgeCheck,
-  CalendarDays,
+  CheckVerified01 as BadgeCheck,
+  Calendar as CalendarDays,
   Clock,
-  Euro,
-  FileText,
-  Languages,
+  CurrencyEuro as Euro,
+  File02 as FileText,
+  Translate01 as Languages,
   Plane,
-  Sparkles,
-  Star,
-  Syringe,
-} from "lucide-react";
+  Stars01 as Sparkles,
+  Star01 as Star,
+  Sun,
+  MedicalCross as Syringe,
+} from "@untitledui/icons";
 import type { IconName } from "@/lib/destination/types";
 
 export function renderIcon(name: IconName) {
@@ -28,6 +29,8 @@ export function renderIcon(name: IconName) {
       return <CalendarDays />;
     case "languages":
       return <Languages />;
+    case "sun":
+      return <Sun />;
     case "badgeCheck":
       return <BadgeCheck />;
     case "sparkles":

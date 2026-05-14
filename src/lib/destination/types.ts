@@ -12,6 +12,7 @@ export type IconName =
   | "syringe"
   | "calendarDays"
   | "languages"
+  | "sun"
   | "badgeCheck"
   | "sparkles"
   | "star";
@@ -274,7 +275,7 @@ export type Section =
       slides: { image: ImageRef }[];
       contactCta?: {
         label: string;
-        href: string;
+        phone: string;
         avatar?: ImageRef;
         statusOnline?: boolean;
       };

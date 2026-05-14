@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/marrakech/hotel-royal-mansour.png",
     alt: "Cour intérieure d'un riad au Royal Mansour Marrakech",
   },
-  destinationSlug: "marrakech",
+  destinationSlugs: ["marrakech"],
   sections: [],
 };
