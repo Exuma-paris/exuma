@@ -69,9 +69,9 @@ export const destination: Destination = {
       heading: "Un pays qui change selon l'ordre dans lequel on le traverse",
       cta: { label: "Construire ce voyage", href: "/reserver" },
       columns: [
-        "Un voyage au Japon se construit autour de la question du rythme. Trop vite, et le pays devient un défilé d'images. La semaine à Kyoto pour les temples et les marchés du matin. Le détour par Kanazawa avant la péninsule de Noto. La nuit à Kōyasan pour comprendre ce que le silence signifie ici. Chaque étape a une raison, et cette raison change la qualité de ce qu'on ressent en arrivant.",
-        "Le Japon n'a pas une saison. Il en a quatre, et chacune change l'objet du voyage : les cerisiers d'avril dans la vallée de Yoshino, les feux des festivals d'été à Gifu, les érables de novembre dans les gorges d'Arashiyama, les neiges de Kanazawa sur les toits des samouraïs. Un itinéraire bien écrit ne ressemble pas à un autre selon le mois.",
-        "« Ce n'est pas un pays où l'on arrive avec une liste. C'est un pays où l'on revient avec les bonnes questions. »",
+        "Un voyage au Japon se construit autour de la question du rythme. Trop vite, et le pays devient un défilé d'images. La semaine à Kyoto pour les temples et les marchés du matin. Le détour par Kanazawa avant la péninsule de Noto. La nuit à Kōyasan pour comprendre ce que le silence signifie ici.",
+        "Le Japon n'a pas une saison. Il en a quatre, et chacune change l'objet du voyage : les cerisiers d'avril dans la vallée de Yoshino, les feux des festivals d'été à Gifu, les érables de novembre dans les gorges d'Arashiyama, les neiges de Kanazawa sur les toits des samouraïs.",
+        "Un itinéraire bien écrit ne ressemble pas à un autre selon le mois. Chaque étape a une raison, et cette raison change la qualité de ce qu'on ressent en arrivant.\n\n« Ce n'est pas un pays où l'on arrive avec une liste. C'est un pays où l'on revient avec les bonnes questions. »",
       ],
     },
 
@@ -107,7 +107,45 @@ export const destination: Destination = {
       ],
     },
 
-    // 6. entityList (experiences)
+    // 6. entityList — destinations similaires (régions du Japon)
+    // TODO: Activer quand les pages régions seront créées
+    // Régions prévues : kyoto, tohoku, hokkaido
+    {
+      type: "entityList",
+      kind: "destination",
+      background: "bg-background-soft",
+      eyebrow: "Inspirations",
+      heading: "Kyoto, Tōhoku, Hokkaidō : trois archipels dans un seul pays",
+      description:
+        "Chaque région tient un registre que les autres n'ont pas. Aucune ne ressemble à ce qu'on imagine avant d'y être.",
+      cta: { label: "Voir toutes les destinations", href: "/destinations" },
+      slugs: ["kyoto", "tohoku", "hokkaido"],
+    },
+
+    // 7. imageDuoWithText — Notre coup de cœur : artisanat samouraï à Seki
+    {
+      type: "imageDuoWithText",
+      duo: {
+        left: {
+          src: "/destination/japon/xp-seki-forgeron.png",
+          alt: "Maître forgeron à l'atelier de Seki martelant une lame sur l'enclume, préfecture de Gifu",
+        },
+        right: {
+          src: "/destination/japon/xp-seki-iaido.png",
+          alt: "Initiation à l'iaïdo avec un maître, dojo de Seki, préfecture de Gifu",
+        },
+      },
+      text: {
+        eyebrow: "Notre coup de cœur",
+        heading: "Quatre jours dans l'univers du sabre",
+        columns: [
+          "Seki forge des lames depuis le IXe siècle. La ville a équipé les samouraïs des seigneurs de guerre médiévaux, puis les soldats de la Seconde Guerre mondiale. Aujourd'hui, une vingtaine d'ateliers travaillent encore selon les méthodes traditionnelles, avec les mêmes aciers tamahagane et les mêmes cycles de chauffe et de trempe. La visite d'un atelier avec un forgeron en activité (pas une démonstration : un matin de travail) est l'une des rares expériences de ce type accessibles à un étranger.",
+          "L'itinéraire tient quatre jours : le château d'Inuyama en ouverture, une matinée dans un atelier de forge, une séance d'initiation à l'iaïdo conduite par un maître de l'école Musōshinden, et une randonnée dans les montagnes de Gifu avant de redescendre vers la plaine par la rivière. Nuit en ryokan à chaque étape. Ce n'est pas un circuit thématique. C'est une lecture de la préfecture de Gifu par l'outil qui l'a construite.",
+        ],
+      },
+    },
+
+    // 8. entityList (experiences)
     {
       type: "entityList",
       kind: "experience",
@@ -117,30 +155,7 @@ export const destination: Destination = {
       description:
         "Trois accès inscrits dans des pratiques vivantes. Pas des visites guidées : des moments où quelqu'un qui connaît ouvre une porte.",
       cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
-      slugs: ["ukai-gifu", "atelier-laque-wajima", "randonnee-kumano-kodo"],
-    },
-
-    // 7. imageDuoWithText — Notre coup de cœur : nuit à Kōyasan
-    {
-      type: "imageDuoWithText",
-      duo: {
-        left: {
-          src: "/destination/japon/koyasan-foret.png",
-          alt: "Forêt de cryptomères millénaires sur le plateau de Kōyasan à l'aube, Wakayama",
-        },
-        right: {
-          src: "/destination/japon/koyasan-moine.png",
-          alt: "Lanternes et offrandes dans le cimetière d'Okunoin à Kōyasan, nuit",
-        },
-      },
-      text: {
-        eyebrow: "Notre coup de cœur",
-        heading: "Une nuit dans la forêt sacrée",
-        columns: [
-          "Kōyasan est un plateau à 800 mètres d'altitude dans les monts Kii. Le moine Kūkai l'a fondé en 816 comme centre du bouddhisme ésotérique shingon. Aujourd'hui, 117 temples occupent le plateau. La nuit, quand les derniers visiteurs redescendent par le téléphérique, il reste le vent dans les cryptomères et les lumières des lanternes dans le cimetière d'Okunoin, le plus grand du Japon.",
-          "Les shukubō sont les chambres dans les temples. À Eko-in, le dîner est servi en chambre : shōjin ryōri, cuisine végétarienne de temple sans viande ni poisson, pratiquée sans interruption depuis douze siècles. Le lendemain, la prière du matin commence à six heures, avant que le brouillard ne lève. Ce n'est pas une démonstration pour visiteurs. C'est la pratique quotidienne du temple, et on y est présent.",
-        ],
-      },
+      slugs: ["ukai-gifu", "dashi-chef-harada", "ryotei-kaga-kaiseki"],
     },
 
     // 8. entityList (accommodations)
@@ -153,7 +168,7 @@ export const destination: Destination = {
       description:
         "Trois ryokan choisis pour ce qu'ils préservent, pas pour ce qu'ils affichent. Dans chacun, le niveau se lit dans la cuisine du soir et le silence du matin.",
       cta: { label: "Voir tous les hébergements", href: "/hebergements" },
-      slugs: ["beniya-mukayu", "asaba-ryokan", "aman-kyoto"],
+      slugs: ["beniya-mukayu", "patina-osaka", "aman-kyoto"],
     },
 
     // 9. infoGrid
@@ -489,7 +504,7 @@ export const destination: Destination = {
           cardEyebrow: "Calendrier",
           modalEyebrow: "Ce que les guides ne disent pas",
           shortDescription:
-            "Le hanami et le momiji sont les deux moments où le Japon est le plus lui-même — et le plus fréquenté.",
+            "Le hanami et le momiji sont les deux moments où le Japon est le plus lui-même, et le plus fréquenté.",
           content: (
             <div className="flex flex-col gap-4">
               <p>
@@ -575,7 +590,7 @@ export const destination: Destination = {
         {
           question: "Combien de temps dure le vol Paris–Tokyo ?",
           answer:
-            "TODO: Le vol direct Paris Charles-de-Gaulle–Tokyo Haneda (Air France) dure environ 12 heures. Des connexions via Helsinki, Doha ou Singapour permettent de rallier Tokyo Narita ou Osaka Kansai.",
+            "Le vol direct Paris Charles-de-Gaulle–Tokyo Haneda (Air France) dure environ 12 heures. Des connexions via Helsinki, Doha ou Singapour permettent de rallier Tokyo Narita ou Osaka Kansai.",
         },
         {
           question: "Faut-il un visa pour aller au Japon ?",
@@ -590,7 +605,7 @@ export const destination: Destination = {
         {
           question: "Quel budget prévoir pour un voyage au Japon ?",
           answer:
-            "TODO: Un voyage en ryokan de qualité avec des expériences sur mesure représente entre 8 000 et 15 000 € par personne pour deux semaines, transport international inclus. Un ryokan haut de gamme à Kaga Onsen ou Shuzenji représente à lui seul 500 à 1 000 € la nuit.",
+            "Un voyage en ryokan de qualité avec des expériences sur mesure représente entre 10 000 et 18 000 € par personne pour deux semaines, transport international inclus. Un ryokan haut de gamme à Kaga Onsen ou Shuzenji représente à lui seul 500 à 1 000 € la nuit.",
         },
         {
           question: "Japon, quelle saison éviter ?",
@@ -600,24 +615,5 @@ export const destination: Destination = {
       ],
     },
 
-    // 15. entityList — destinations similaires (placeholder)
-    // TODO: Activer quand les pages régions seront créées
-    // Régions prévues : kyoto, tohoku, hokkaido
-    {
-      type: "entityList",
-      kind: "destination",
-      background: "bg-background-soft",
-      eyebrow: "Inspirations",
-      heading: "Régions du Japon",
-      description:
-        "Trois régions, trois lectures différentes de l'archipel. Pages en cours de création.",
-      cta: { label: "Voir toutes les destinations", href: "/destinations" },
-      slugs: [
-        // TODO: décommenter une fois les pages régions créées
-        // "kyoto",
-        // "tohoku",
-        // "hokkaido",
-      ],
-    },
   ],
 };

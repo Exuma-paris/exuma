@@ -8,6 +8,7 @@ import { continents } from "@/lib/content/registry";
 import {
   getDestinationsByContinentGrouped,
   type DestinationCountryGroup,
+  type DestinationWithRegions,
 } from "@/lib/content/queries";
 import { getMenuGroups, type MenuGroupKey } from "@/lib/content/menu-groups";
 import { Button } from "@/components/ui/button";
@@ -226,6 +227,62 @@ function SubView({
   );
 }
 
+function DestinationRow({
+  destination,
+  onNavigate,
+}: {
+  destination: DestinationWithRegions;
+  onNavigate: () => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const hasRegions = destination.regions.length > 0;
+
+  return (
+    <li className="flex flex-col">
+      <div className="flex items-center">
+        <Link
+          href={`/destinations/${destination.slug}`}
+          onClick={onNavigate}
+          className={cn(rowClass, "flex-1")}
+        >
+          <span>{destination.name}</span>
+        </Link>
+        {hasRegions && (
+          <button
+            type="button"
+            onClick={() => setOpen((v) => !v)}
+            aria-expanded={open}
+            aria-label={open ? "Masquer les régions" : "Voir les régions"}
+            className="ml-2 flex size-8 shrink-0 items-center justify-center text-secondary-foreground transition-colors hover:text-primary"
+          >
+            <ChevronRight
+              className={cn(
+                "size-4 stroke-[1.5] transition-transform duration-200",
+                open && "rotate-90",
+              )}
+            />
+          </button>
+        )}
+      </div>
+      {hasRegions && open && (
+        <ul className="mb-2 flex flex-col pl-4">
+          {destination.regions.map((r) => (
+            <li key={r.slug}>
+              <Link
+                href={`/destinations/${r.slug}`}
+                onClick={onNavigate}
+                className="flex w-full items-center py-2 text-left text-sm text-secondary-foreground transition-colors hover:text-primary"
+              >
+                {r.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </li>
+  );
+}
+
 function ContinentView({
   continent,
   countryGroups,
@@ -258,26 +315,28 @@ function ContinentView({
               dès aujourd'hui.
             </p>
           ) : (
-            <div className="mt-6 flex flex-col gap-6">
-              {countryGroups.map((g) => (
+            <div className="mt-6 flex flex-col gap-1">
+              {countryGroups.map((g) => {
+                const showLabel = g.destinations.length > 1;
+                return (
                 <div key={g.country} className="flex flex-col">
-                  <p className="text-eyebrow text-secondary-foreground">
-                    {g.country}
-                  </p>
-                  <ul className="mt-2 flex flex-col">
+                  {showLabel && (
+                    <p className="text-eyebrow text-secondary-foreground">
+                      {g.country}
+                    </p>
+                  )}
+                  <ul className={cn("flex flex-col", showLabel && "mt-2")}>
                     {g.destinations.map((d) => (
-                      <li key={d.slug}>
-                        <MenuRow
-                          as="link"
-                          label={d.name}
-                          href={`/destinations/${d.slug}`}
-                          onClick={onNavigate}
-                        />
-                      </li>
+                      <DestinationRow
+                        key={d.slug}
+                        destination={d}
+                        onNavigate={onNavigate}
+                      />
                     ))}
                   </ul>
                 </div>
-              ))}
+                );
+              })}
             </div>
           )}
         </>

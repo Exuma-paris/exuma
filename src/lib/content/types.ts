@@ -27,12 +27,17 @@ export type Continent = EntityBase & {
 };
 
 export type Destination = EntityBase & {
+  heroImage?: ImageRef;
   country?: string;
   continentSlug?: string;
   themeSlugs?: string[];
   accommodationSlugs?: string[];
   metaTitle?: string;
   metaDescription?: string;
+  /** Slug de la destination parente (ex. "japon" pour "kyoto") — utilisé pour l'arborescence du menu */
+  parentDestinationSlug?: string;
+  /** Exclut la destination du menu de navigation principal (ex. pages régions, visibles uniquement via leur parent) */
+  hidden?: boolean;
 };
 
 export type Theme = EntityBase & {

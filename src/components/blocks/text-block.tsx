@@ -53,7 +53,7 @@ export function TextBlock({
           {heading}
         </Heading>
         {paragraph ? (
-          <p className="max-w-120 text-secondary-foreground">{paragraph}</p>
+          <p className="max-w-120 text-secondary-foreground text-balance">{paragraph}</p>
         ) : null}
       </div>
       {cta ? <div>{cta}</div> : null}

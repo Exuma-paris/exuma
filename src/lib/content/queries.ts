@@ -26,9 +26,13 @@ export function getDestinationsByContinent(
   );
 }
 
+export type DestinationWithRegions = Destination & {
+  regions: Destination[];
+};
+
 export type DestinationCountryGroup = {
   country: string;
-  destinations: Destination[];
+  destinations: DestinationWithRegions[];
 };
 
 const UNKNOWN_COUNTRY = "Autres";
@@ -38,17 +42,35 @@ export function getDestinationsByContinentGrouped(
   options: { excludeOld?: boolean } = {},
 ): DestinationCountryGroup[] {
   const excludeOld = options.excludeOld ?? true;
-  const list = Object.values(destinations).filter(
+  const all = Object.values(destinations);
+
+  // Index regions by their parent slug
+  const regionsByParent = new Map<string, Destination[]>();
+  for (const d of all) {
+    if (d.hidden && d.parentDestinationSlug) {
+      const bucket = regionsByParent.get(d.parentDestinationSlug) ?? [];
+      bucket.push(d);
+      regionsByParent.set(d.parentDestinationSlug, bucket);
+    }
+  }
+
+  const list = all.filter(
     (d) =>
       d.continentSlug === continentSlug &&
-      (!excludeOld || !d.slug.endsWith("-old")),
+      (!excludeOld || !d.slug.endsWith("-old")) &&
+      !d.hidden,
   );
 
-  const map = new Map<string, Destination[]>();
+  const map = new Map<string, DestinationWithRegions[]>();
   for (const d of list) {
     const key = d.country ?? UNKNOWN_COUNTRY;
     const bucket = map.get(key) ?? [];
-    bucket.push(d);
+    bucket.push({
+      ...d,
+      regions: (regionsByParent.get(d.slug) ?? []).sort((a, b) =>
+        a.name.localeCompare(b.name),
+      ),
+    });
     map.set(key, bucket);
   }
 
