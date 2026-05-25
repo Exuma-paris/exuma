@@ -1,6 +1,6 @@
 ---
 name: destination-generator
-description: Generate a new destination page for the Exuma travel site (Next.js, French content). Use when the user asks to create a destination page, add a new travel destination, or scaffold a destination. Produces src/content/destinations/<slug>.tsx (typed Destination object with all sections), 0–6 stub entity files in src/content/experiences/ and src/content/accommodations/ (one per referenced experience or hotel that doesn't already exist), public/destination/<slug>/PROMPTS.md (image manifest with reference-search queries), references/destination/<slug>/SOURCES.md (empty traceability log), and registers all new files in src/lib/content/registry.ts so the dynamic /destinations/[slug] route picks them up. Images are produced separately by gen-images.py — the skill does NOT generate them.
+description: Generate a new destination page for the Exuma travel site (Next.js, French content). Use when the user asks to create a destination page, add a new travel destination, or scaffold a destination. Produces src/content/destinations/<slug>.tsx (typed Destination object with all sections), 0–6 stub entity files in src/content/experiences/ and src/content/accommodations/ (one per referenced experience or hotel that doesn't already exist), references/destination/<slug>/SOURCES.md (traceability log, auto-filled once the user provides reference links), and registers all new files in src/lib/content/registry.ts so the dynamic /destinations/[slug] route picks them up. After scaffolding, Claude asks for one reference image link per expected output, downloads them, and runs gen-images.py.
 metadata:
   short-description: Scaffold a destination page with copy, structure, entity stubs, and image manifest
 ---
@@ -95,7 +95,7 @@ Present the 3 locked experience slugs as numbered options so the user can pick q
 
 Once the user picks one, use that experience's data to fill the `imageDuoWithText` section in step 5a:
 
-- **Images (`duo.left` / `duo.right`)**: generate two image filenames that illustrate the chosen experience (e.g. `xp-vol-helico-lagon.png` + `xp-vol-helico-cockpit.png`). Add them to `PROMPTS.md` with reference-search queries derived from the experience name and destination.
+- **Images (`duo.left` / `duo.right`)**: generate two image filenames that illustrate the chosen experience (e.g. `xp-vol-helico-lagon.png` + `xp-vol-helico-cockpit.png`). These filenames will appear in the expected-images list at the end of the report.
 - **Copy (`text.eyebrow`, `text.heading`, `text.columns`)**: write the eyebrow as `"Notre coup de cœur"`, the heading and the two column paragraphs based on what makes the experience special — draw from the experience's name, blurb, keywords, and general knowledge about the activity. Follow STYLE.md voice rules as usual.
 
 ### 1d. Pick the spotlight collaborateur
@@ -324,13 +324,9 @@ Note the symmetry: both `Experience.destinationSlugs` and `Accommodation.destina
 
 The `blurb` field is what the destination's card displays — it must follow the same editorial standard the old card descriptions did (see STYLE.md per-section rules for `Experience.blurb` / `Accommodation.blurb`: 2–3 sentences, ~25 words target, ≤ 60 words hard cap, opens on a moment, closes on a detail). Length is editorial only — the FeatureCard does not truncate; over-long blurbs just create uneven card heights.
 
-#### 5c. Create `public/destination/<slug>/PROMPTS.md`
+#### 5c. Create `references/destination/<slug>/SOURCES.md`
 
-See "Images" below.
-
-#### 5d. Create `references/destination/<slug>/SOURCES.md`
-
-See "Images" below. The `references/destination/<slug>/` folder is also where the user will drop reference photos (`*-ref.jpg`) for the gen-images.py script. Do not create the `*-ref` files yourself; create the folder and `SOURCES.md` only.
+Create the folder and the `SOURCES.md` scaffold (see "Images" below). Leave the Source URL column as `TODO` — it will be filled in when the user provides the reference links. Do not download any reference files at this stage.
 
 ### 6. Register everything in `src/lib/content/registry.ts`
 
@@ -374,11 +370,8 @@ Then report:
 - Files created (destination + N experience stubs + M accommodation stubs)
 - Entities **reused** vs. entities **newly stubbed** — so the user knows which ones already exist and which now need content next
 - Registry edits (destination import, experience imports, accommodation imports — list each)
-- That `PROMPTS.md` lists N images to generate, with one row per image showing its filename + reference search query
-- Next step the user takes:
-  1. For each image, find a reference photo (Google Images / Wikimedia Commons) and save it as `references/destination/<slug>/<filename>-ref.{jpg,png}` (e.g. `hero-1-ref.jpg`).
-  2. Add an entry for each reference in `references/destination/<slug>/SOURCES.md` (output filename + URL + license).
-  3. Run `GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py <slug>` — it iterates the references folder and writes restyled outputs to `public/destination/<slug>/`.
+- Expected images: list every output filename referenced across the generated files (destination + new entity stubs), one per line — this is exactly the list the user needs to provide references for.
+- Next step: provide one reference image link per filename above. Claude will download them to `references/destination/<slug>/`, fill `SOURCES.md`, and run `gen-images.py`.
 - Remind: the page will render with broken images until step 3 has run, the URL is `/destinations/<slug>` (plural), and every newly-stubbed experience/accommodation has unlinked cards on the destination page until a `sections[]` is added to its file.
 - SEO surfaces auto-emitted by [src/lib/destination/seo.ts](../../../src/lib/destination/seo.ts): per-destination `<title>` + `<meta description>` + Open Graph + canonical (via `generateMetadata`), and three JSON-LD blocks (`TouristDestination`, `BreadcrumbList`, `FAQPage`). Confirm `metaTitle` + `metaDescription` are filled on the new destination — empty fields fall back to generic templates.
 
@@ -629,36 +622,9 @@ GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --
 
 The style brief is intentionally not duplicated outside the script — it is part of the script's contract.
 
-### PROMPTS.md format
-
-`public/destination/<slug>/PROMPTS.md` is a compact image manifest, NOT a copy of the generation prompt. Format:
-
-```markdown
-# Images — <Destination name>
-
-Each output is produced by `gen-images.py` from a reference saved at `references/destination/<slug>/<name>-ref.<ext>`. Do not edit the style brief in this file — it lives in `.claude/skills/destination-generator/gen-images.py`.
-
-For each image below: (1) search Google Images / Wikimedia Commons with the suggested query, (2) save the chosen image to the references folder with the matching `-ref` filename, (3) add a row to `references/destination/<slug>/SOURCES.md`, (4) run `gen-images.py`.
-
-| Output                  | Reference search                                  | Notes                                                       |
-| ----------------------- | ------------------------------------------------- | ----------------------------------------------------------- |
-| hero-1.png              | falaises Bonifacio Corse calcaire mer aube        | citadel + cliffs, sea or aerial perspective                 |
-| hero-2.png              | plage Palombaggia Corse pins parasols sable blanc | wide bay shot framed by umbrella pines                      |
-| hero-3.png              | villa luxe Corse piscine débordement golfe       | infinity pool foreground, sea + horizon background          |
-| full-image.png          | …                                                 | …                                                           |
-| xp-randonnee-gr20.png   | randonneurs crête granitique GR20 Corse aube     | hikers on a granite ridge, dawn light                        |
-| hotel-murtoli.png       | bergerie pierre Sartenais Corse coucher soleil   | restored stone bergerie, golden-hour                         |
-| …                       | …                                                 | …                                                           |
-```
-
-Rules for each row:
-- **Output**: every unique image path the generated `<slug>.tsx` AND every entity stub file references. Count the `src: "/destination/<slug>/*.png"` strings across all generated files (destination + new entity stubs).
-- **Reference search**: French query, 5–8 words. Destination name + subject noun + one atmospheric adjective.
-- **Notes**: a one-line hint about what to look for in the reference (composition, perspective, content) — this is what the user will use to pick the right photo. Concrete and short.
-
 ### SOURCES.md format
 
-`references/destination/<slug>/SOURCES.md` is the traceability log for which reference was used for each output. Initial scaffold (the user fills in URL + license as they download references):
+`references/destination/<slug>/SOURCES.md` is the traceability log. The skill scaffolds it with one row per expected output image, Source URL as `TODO`. Once the user provides reference links, Claude fills in the URL column, downloads each reference as `<name>-ref.<ext>`, and runs `gen-images.py`.
 
 ```markdown
 # Reference images — <Destination name>
@@ -684,8 +650,7 @@ Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); `SOUR
 - Do NOT fill in `sections: []` on the entity stubs you create. They ship empty; cards on the destination page will render unlinked until sections are added later. This is intentional.
 - Do NOT create local `info-grid.tsx` or `tips.tsx` files — that data goes inside the `<slug>.tsx` `sections` array as `infoGrid` and `tips` entries.
 - Do NOT update `src/app/sitemap.ts`, the header, the menu, the footer, or `site-search.tsx`. They are all registry-driven.
-- Do NOT download reference photos or run `gen-images.py` yourself unless the user explicitly asks. The user does the reference-picking step; you only scaffold the manifest (`PROMPTS.md`) and the empty `SOURCES.md`.
-- Do NOT duplicate or rewrite the style brief inside `PROMPTS.md` — it lives in `gen-images.py`.
+- Do NOT download reference photos or run `gen-images.py` during the scaffolding step — wait for the user to provide the reference links first (they come in a follow-up message after the report).
 - Do NOT run the dev server. Type-check only.
 
 ---
