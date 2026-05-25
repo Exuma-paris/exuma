@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "autoMode": {
+    "allow": [
+      "$defaults",
+      "Edits and Writes targeting .claude/skills/** are explicitly authorized. This project treats skills as collaborative content that any contributor (including non-technical writers) can modify, not as protected agent config."
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Edit(.claude/skills/**)",
+      "Write(.claude/skills/**)",
+      "Bash(git status)",
+      "Bash(git status --porcelain)",
+      "Bash(git diff)",
+      "Bash(git diff *)",
+      "Bash(git log)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit -m *)",
+      "Bash(git switch -c content/auto-*)",
+      "Bash(git branch -f main origin/main)",
+      "Bash(git rev-parse *)",
+      "Bash(git push -u origin HEAD)",
+      "Bash(git push origin HEAD)",
+      "Bash(gh pr create *)",
+      "Bash(gh pr view *)",
+      "Bash(gh pr list *)",
+      "Bash(gh pr merge * --squash --delete-branch)",
+      "Bash(gh pr merge * --squash *)",
+      "Bash(gh pr update-branch *)",
+      "Bash(gh api repos/RemiBootnow/exuma/*)"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(git push -f *)",
+      "Bash(git push origin main)",
+      "Bash(git push origin main *)",
+      "Bash(git push * main)",
+      "Bash(git reset --hard*)",
+      "Bash(git push --delete *)",
+      "Bash(git push -d *)",
+      "Bash(gh repo delete *)",
+      "Bash(rm -rf *)"
+    ]
+  }
+}
