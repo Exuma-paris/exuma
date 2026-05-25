@@ -30,7 +30,7 @@ export const destination: Destination = {
         "Copacabana, Ipanema, Santa Teresa, Lapa : six kilomètres de plage et six siècles de mélange. L'itinéraire se construit autour du moment où la ville bascule, vers seize heures, quand la lumière change.",
       images: [
         {
-          src: "/destination/rio-de-janeiro/hero-1.png",
+          src: "/destination/rio-de-janeiro/hero-1c.png",
           alt: "Pain de Sucre et baie de Guanabara au lever du jour, Rio de Janeiro",
         },
         {
@@ -92,12 +92,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/rio-de-janeiro/split-1.png",
-          alt: "Singes capucins dans la forêt de Tijuca, sentier de Paineiras",
+          src: "/destination/rio-de-janeiro/split-1c.png",
+          alt: "Statue du Christ Rédempteur du Corcovado au lever du jour",
         },
         {
           src: "/destination/rio-de-janeiro/split-2.png",
-          alt: "Statue du Christ Rédempteur du Corcovado au lever du jour",
+          alt: "Singes capucins dans la forêt de Tijuca, sentier de Paineiras",
         },
       ],
     },
@@ -109,10 +109,10 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en Rio de Janeiro",
       heading: "Ce qu'on fait, concrètement",
       description:
-        "Trois moments ancrés dans des personnes : un percussionniste de la Mangueira, un guide-naturaliste, un pêcheur d'Ipanema. Aucune file d'attente, aucun groupe.",
+        "Trois moments qui ne s'improvisent pas : les plages sauvages de la côte ouest, l'aube sur le Corcovado, une sortie en mer avec un pêcheur d'Ipanema. Aucune file d'attente, aucun groupe.",
       cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
       slugs: [
-        "atelier-samba-mangueira",
+        "sables-secrets-rio",
         "corcovado-aube-paineiras",
         "iles-cagarras-pecheur",
       ],

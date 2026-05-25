@@ -1,6 +1,6 @@
 ---
 name: entity-generator
-description: Generate (or promote a stub of) an experience or accommodation (hotel) page for the Exuma travel site (Next.js, French content). Use when the user asks to create an experience or hotel page, add a new experience or accommodation, or promote an existing stub to a full page. Produces or updates src/content/<kind>s/<slug>.tsx (typed Experience or Accommodation object with all sections), public/<kind>/<slug>/PROMPTS.md (image manifest with reference-search queries), references/<kind>/<slug>/SOURCES.md (empty traceability log), and registers the file in src/lib/content/registry.ts if newly created. Images are produced separately by gen-images.py — the skill does NOT generate them.
+description: Generate (or promote a stub of) an experience or accommodation (hotel) page for the Exuma travel site (Next.js, French content). Use when the user asks to create an experience or hotel page, add a new experience or accommodation, or promote an existing stub to a full page. Produces or updates src/content/<kind>s/<slug>.tsx (typed Experience or Accommodation object with all sections), references/<kind>/<slug>/SOURCES.md (traceability log, auto-filled once the user provides reference links), and registers the file in src/lib/content/registry.ts if newly created. After scaffolding, Claude asks for one reference image link per expected output, downloads them, and runs gen-images.py.
 metadata:
   short-description: Scaffold or promote an experience or hotel page with copy, structure, and image manifest
 ---
@@ -180,11 +180,7 @@ When **promoting an existing stub**, edit the file in place: keep the existing f
 
 The file is `.tsx` because some sections may include rich JSX content. Do NOT make it `.ts`.
 
-#### 6b. `public/<image-folder>/<slug>/PROMPTS.md`
-
-See "Images" below.
-
-#### 6c. `references/<image-folder>/<slug>/SOURCES.md`
+#### 6b. `references/<image-folder>/<slug>/SOURCES.md`
 
 See "Images" below.
 
@@ -223,11 +219,8 @@ Then report:
 - File created or promoted: `src/content/experiences/<slug>.tsx` (state: NEW vs PROMOTED).
 - Whether the destination was already wired to this experience (yes if the destination's `entityList` `slugs` includes this slug, no otherwise).
 - Registry edit (only if new file): the import + alphabetical entry.
-- That `PROMPTS.md` lists N images, each with filename + reference-search query.
-- Next step:
-  1. For each image, find a reference photo and save it as `references/experience/<slug>/<filename>-ref.{jpg,png}`.
-  2. Add an entry for each reference in `references/experience/<slug>/SOURCES.md`.
-  3. Run `GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --root experience <slug>` (the destination-generator's gen-images.py is destination-agnostic; pass `--root experience` to point at `public/experience/<slug>/`).
+- Expected images: list every output filename referenced in the generated file, one per line — this is exactly the list the user needs to provide references for.
+- Next step: provide one reference image link per filename above. Claude will download them to `references/<image-folder>/<slug>/`, fill `SOURCES.md`, and run `gen-images.py --root <image-folder> <slug>`.
 - SEO surfaces auto-emitted: per-experience `<title>` + `<meta description>` + Open Graph + canonical (via `generateMetadata` on `/experiences/[slug]`), and two JSON-LD blocks (`TouristAttraction`, `BreadcrumbList`).
 - Voice cap: confirm `metaDescription` is 150–160 chars and includes the locked keyword pattern `<name> à <Destination>`.
 
@@ -315,34 +308,14 @@ Total for a promoted stub: 1 + 2 + N(gallery) = **6 to 9 images**, the stub's ex
 
 All 3 showcase items reuse the collaborateur's existing portrait: `/collaborateurs/<collaborateurSlug>.jpg`. No new image to add to PROMPTS.md.
 
-### PROMPTS.md format
-
-`public/experience/<slug>/PROMPTS.md` mirrors the destination version, scoped to the experience folder:
-
-```markdown
-# Images — <Experience name>
-
-Each output is produced by `gen-images.py` from a reference saved at `references/experience/<slug>/<name>-ref.<ext>`. Do not edit the style brief in this file — it lives in `.claude/skills/destination-generator/gen-images.py`.
-
-For each image below: (1) search Google Images / Wikimedia Commons with the suggested query, (2) save the chosen image to the references folder with the matching `-ref` filename, (3) add a row to `references/experience/<slug>/SOURCES.md`, (4) run `gen-images.py --root experience <slug>`.
-
-| Output                  | Reference search                                  | Notes                                                       |
-| ----------------------- | ------------------------------------------------- | ----------------------------------------------------------- |
-| hero.png                | <French query, 5–8 words>                         | full-bleed atmospheric, the experience's signature shot     |
-| split-1.png             | <…>                                               | portrait 3:4, the gesture / the technique                   |
-| split-2.png             | <…>                                               | square 1:1, the place / the operator                        |
-| gallery-1.png           | <…>                                               | square; mood, light, palette                                |
-| …                       | …                                                 | …                                                           |
-```
-
 ### SOURCES.md format
 
-`references/experience/<slug>/SOURCES.md` is the traceability log:
+`references/<image-folder>/<slug>/SOURCES.md` is the traceability log. The skill scaffolds it with one row per expected output image, Source URL as `TODO`. Once the user provides reference links, Claude fills in the URL column, downloads each reference as `<name>-ref.<ext>`, and runs `gen-images.py --root <image-folder> <slug>`.
 
 ```markdown
-# Reference images — <Experience name>
+# Reference images — <Experience/Accommodation name>
 
-Each generated image in `public/experience/<slug>/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 2.5 Flash Image alongside the corresponding reference photograph below.
+Each generated image in `public/<image-folder>/<slug>/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 2.5 Flash Image alongside the corresponding reference photograph below.
 
 | Output         | Reference file       | Source URL                    | License     |
 | -------------- | -------------------- | ----------------------------- | ----------- |
@@ -360,5 +333,5 @@ Each generated image in `public/experience/<slug>/` was produced by feeding the 
 - Do NOT add JSX to the gallery section — it's images-only.
 - Do NOT add an FAQ, testimonials, or finalCta section. The 5-section list is the entire page.
 - Do NOT update `src/app/sitemap.ts`, the header, the menu, the footer, or `site-search.tsx`. They are all registry-driven and pick up the new experience automatically once it's in `registry.ts`.
-- Do NOT download reference photos or run `gen-images.py` yourself unless the user explicitly asks.
+- Do NOT download reference photos or run `gen-images.py` during the scaffolding step — wait for the user to provide the reference links first (they come in a follow-up message after the report).
 - Do NOT run the dev server. Type-check only.

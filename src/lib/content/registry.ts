@@ -61,6 +61,8 @@ import { experience as viaAppiaVespa } from "@/content/experiences/via-appia-ves
 import { experience as atelierSambaMangueira } from "@/content/experiences/atelier-samba-mangueira";
 import { experience as corcovadoAubePaineiras } from "@/content/experiences/corcovado-aube-paineiras";
 import { experience as ilesCagarrasPecheur } from "@/content/experiences/iles-cagarras-pecheur";
+import { experience as soireeBossaNovaIpanema } from "@/content/experiences/soiree-bossa-nova-ipanema";
+import { experience as sablesSecretsRio } from "@/content/experiences/sables-secrets-rio";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -135,6 +137,8 @@ export const experiences: Record<string, Experience> = toMap([
   gr20,
   hammamDarElBacha,
   ilesCagarrasPecheur,
+  sablesSecretsRio,
+  soireeBossaNovaIpanema,
   lagonMoorea,
   lavezzi,
   louvrePriveNocturne,
