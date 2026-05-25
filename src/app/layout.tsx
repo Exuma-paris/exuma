@@ -26,26 +26,29 @@ const hedvigLettersSerif = Hedvig_Letters_Serif({
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://exuma.example.com";
 
+const siteDescription =
+  "Exuma conçoit des voyages sur-mesure d'exception dans les plus belles destinations du monde. Travel designers dédiés, hébergements de luxe et expériences exclusives.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Exuma",
+    default: "Exuma | Agence de Voyages Sur-Mesure & Travel Design",
     template: "%s | Exuma",
   },
-  description: "Exuma. Official website.",
+  description: siteDescription,
   applicationName: "Exuma",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     siteName: "Exuma",
     url: "/",
-    title: "Exuma",
-    description: "Exuma. Official website.",
+    title: "Exuma | Agence de Voyages Sur-Mesure & Travel Design",
+    description: siteDescription,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Exuma",
-    description: "Exuma. Official website.",
+    title: "Exuma | Agence de Voyages Sur-Mesure & Travel Design",
+    description: siteDescription,
   },
   robots: { index: true, follow: true },
   formatDetection: { telephone: false },
