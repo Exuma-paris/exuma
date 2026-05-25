@@ -193,13 +193,26 @@ gh pr view <PR_NUMBER> --json mergeable,mergeStateStatus
   4. Once green, reply: *"Nouvel aperçu : <url>. Vérifiez puis tapez à nouveau `/publish merge`."* **Do NOT auto-merge** — the rebase may have introduced visual differences the writer should re-check.
 - **Any other state** (`BLOCKED`, `BEHIND`, `UNKNOWN`) → reply with the state name and a French explanation, point them to the PR URL.
 
-### Step 4. Merge
+### Step 4. Merge, then delete the remote branch
+
+Two steps, in order:
 
 ```bash
-gh pr merge <PR_NUMBER> --squash --delete-branch
+gh pr merge <PR_NUMBER> --squash
+gh api -X DELETE "repos/RemiBootnow/exuma/git/refs/heads/<BRANCH_NAME>"
 ```
 
-If it returns a 405 (base moved between the mergeability check and the merge call) → loop back to step 3 (auto-rebase).
+**Do NOT pass `--delete-branch` to `gh pr merge`.** That flag triggers a local-checkout phase (gh tries to `git checkout main` to delete the local branch) which fails in worktrees where `main` is checked out elsewhere — and the failure aborts the remote-branch delete too, leaving the merged branch lingering on origin. Calling the API delete ourselves bypasses gh's local cleanup entirely.
+
+The merge call is the load-bearing one:
+- On 405 (base moved between the mergeability check and the merge call) → loop back to step 3 (auto-rebase). Do NOT attempt the API delete.
+- On success → proceed to the API delete.
+
+The API delete is best-effort cleanup:
+- On 404 (branch already gone) or 422 (some race) → log silently and proceed to step 5; the merge already succeeded, the leftover branch is cosmetic.
+- On success → proceed to step 5.
+
+`<BRANCH_NAME>` is the PR's head branch (`gh pr view <PR_NUMBER> --json headRefName --jq .headRefName`). URL-encode forward slashes if the branch contains them (`content/auto-2026-05-25-1234` → `content%2Fauto-2026-05-25-1234`).
 
 ### Step 5. Confirm
 
