@@ -19,7 +19,7 @@ export const destination: Destination = {
     "safari",
     "afrique de l'est",
   ],
-  metaTitle: "Kenya — Voyage sur mesure",
+  metaTitle: "Kenya : Voyage sur mesure",
   metaDescription:
     "Voyage au Kenya sur mesure : safari au Masaï Mara, côte de Galu Beach, Laikipia. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
   sections: [
@@ -84,7 +84,7 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Kenya — Safari en concession privée",
+      eyebrow: "Kenya : Safari en concession privée",
       heading: "Le matin où la savane change de registre",
       theme: "light",
       paragraphs: [
