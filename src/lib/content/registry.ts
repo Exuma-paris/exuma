@@ -21,6 +21,7 @@ import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as paris } from "@/content/destinations/paris";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
 import { destination as rome } from "@/content/destinations/rome";
+import { destination as kenya } from "@/content/destinations/kenya";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -63,6 +64,10 @@ import { experience as corcovadoAubePaineiras } from "@/content/experiences/corc
 import { experience as ilesCagarrasPecheur } from "@/content/experiences/iles-cagarras-pecheur";
 import { experience as soireeBossaNovaIpanema } from "@/content/experiences/soiree-bossa-nova-ipanema";
 import { experience as sablesSecretsRio } from "@/content/experiences/sables-secrets-rio";
+import { experience as safariMontgolfiereMara } from "@/content/experiences/safari-montgolfiere-mara";
+import { experience as croisiereBoutreMidaCreek } from "@/content/experiences/croisiere-boutre-mida-creek";
+import { experience as visiteSamburuOlMalo } from "@/content/experiences/visite-samburu-ol-malo";
+import { experience as museeKarenBlixenVoitures } from "@/content/experiences/musee-karen-blixen-voitures";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -82,6 +87,9 @@ import { accommodation as hasslerRoma } from "@/content/accommodations/hassler-r
 import { accommodation as belmondCopacabanaPalace } from "@/content/accommodations/belmond-copacabana-palace";
 import { accommodation as fasanoRio } from "@/content/accommodations/fasano-rio";
 import { accommodation as hotelSantaTeresa } from "@/content/accommodations/hotel-santa-teresa";
+import { accommodation as giraffeManor } from "@/content/accommodations/giraffe-manor";
+import { accommodation as kinondoKwetu } from "@/content/accommodations/kinondo-kwetu";
+import { accommodation as richardsRiverCamp } from "@/content/accommodations/richards-river-camp";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -105,6 +113,7 @@ export const destinations: Record<string, Destination> = toMap([
   polynesieOld,
   rioDeJaneiro,
   rome,
+  kenya,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -149,6 +158,10 @@ export const experiences: Record<string, Experience> = toMap([
   survolAtlasBiplan,
   viaAppiaVespa,
   vinCorse,
+  safariMontgolfiereMara,
+  croisiereBoutreMidaCreek,
+  visiteSamburuOlMalo,
+  museeKarenBlixenVoitures,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -180,6 +193,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   royalMansour,
   stRegisBoraBora,
   theBrando,
+  giraffeManor,
+  kinondoKwetu,
+  richardsRiverCamp,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
