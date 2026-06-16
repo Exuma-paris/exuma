@@ -36,7 +36,7 @@ export default function Home() {
         <FeatureCardsSection
           eyebrow="Destinations"
           heading="Là où vous voulez aller, et là où vous n'auriez pas pensé"
-          description="De la Méditerranée au Pacifique Sud, nous composons chaque voyage sur mesure — puis nous l'orchestrons de bout en bout."
+          description="De la Méditerranée au Pacifique Sud, nous composons chaque voyage sur mesure, puis nous l'orchestrons de bout en bout."
           cta={{ label: "Toutes les destinations", href: "/continents/europe" }}
           cards={[
             {
@@ -77,7 +77,7 @@ export default function Home() {
           background="bg-background"
           eyebrow="Notre métier"
           heading="Une seule préoccupation : vous servir"
-          description="Avant la destination, il y a la façon de voyager. Un interlocuteur unique, joignable, qui prend tout en charge — et reste le même du premier appel au retour."
+          description="Avant la destination, il y a la façon de voyager. Un interlocuteur unique, joignable, qui prend tout en charge, et reste le même du premier appel au retour."
           cta={{ label: "Parler à un conseiller", href: "/contact" }}
           cards={[
             {
@@ -93,7 +93,7 @@ export default function Home() {
             {
               title: "Tout est pris en charge",
               description:
-                "Itinéraire, réservations, transferts, imprévus. Vous validez, nous orchestrons — vous n'avez aucune logistique à gérer.",
+                "Itinéraire, réservations, transferts, imprévus. Vous validez, nous orchestrons : vous n'avez aucune logistique à gérer.",
               image: {
                 src: "/destination/rio-de-janeiro/bento-hebergements.png",
                 alt: "Suite d'hôtel haut de gamme",
@@ -111,7 +111,7 @@ export default function Home() {
             {
               title: "Adresses et accès confidentiels",
               description:
-                "Villas privées, tables et lieux rarement ouverts — un réseau bâti voyage après voyage, jamais un catalogue.",
+                "Villas privées, tables et lieux rarement ouverts : un réseau bâti voyage après voyage, jamais un catalogue.",
               image: {
                 src: "/destination/rio-de-janeiro/bento-adresses.png",
                 alt: "Adresse confidentielle à Rio de Janeiro",
@@ -147,7 +147,7 @@ export default function Home() {
             {
               title: "Une maison à vous",
               detail:
-                "Villa ou résidence privée avec personnel sur place — cuisine, ménage, garde d'enfants. L'intimité d'un chez-soi, le service d'un hôtel en plus.",
+                "Villa ou résidence privée avec personnel sur place : cuisine, ménage, garde d'enfants. L'intimité d'un chez-soi, le service d'un hôtel en plus.",
               image: {
                 src: "/destination/polynesie/split-1.png",
                 alt: "Villa privée en bord de lagon",
@@ -181,7 +181,7 @@ export default function Home() {
           testimonials={[
             {
               quote:
-                "Je reste votre interlocuteur du début à la fin. Vous n'avez jamais à réexpliquer votre dossier, ni à courir après une réponse — je connais votre voyage aussi bien que vous.",
+                "Je reste votre interlocuteur du début à la fin. Vous n'avez jamais à réexpliquer votre dossier, ni à courir après une réponse. Je connais votre voyage aussi bien que vous.",
               image: {
                 src: "/collaborateurs/stephane-chair-hd.jpg",
                 alt: "Portrait de Stéphane Lasnier, Travel Designer chez Exuma",
@@ -197,7 +197,7 @@ export default function Home() {
                 alt: "Portrait de Cécile Borruto, Travel Advisor VIP & Conciergerie chez Exuma",
               },
               name: "Cécile Borruto",
-              role: "Travel Advisor — VIP & Conciergerie",
+              role: "Travel Advisor, VIP & Conciergerie",
             },
             {
               quote:
@@ -243,7 +243,7 @@ export default function Home() {
             {
               question: "Comment se passe la création d'un voyage avec Exuma ?",
               answer:
-                "Tout commence par un échange pour cerner vos envies, vos rythmes et vos contraintes. Votre travel designer compose ensuite une proposition sur mesure, l'ajuste avec vous, puis orchestre l'intégralité du voyage — réservations, transferts et imprévus compris.",
+                "Tout commence par un échange pour cerner vos envies, vos rythmes et vos contraintes. Votre travel designer compose ensuite une proposition sur mesure, l'ajuste avec vous, puis orchestre l'intégralité du voyage : réservations, transferts et imprévus compris.",
             },
             {
               question: "Vers quelles destinations organisez-vous des voyages ?",
