@@ -2,7 +2,13 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { ChevronLeft, ChevronRight, XClose as X } from "@untitledui/icons";
+import { useRouter } from "next/navigation";
+import {
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  XClose as X,
+} from "@untitledui/icons";
 import { Dialog as DialogPrimitive } from "@base-ui/react/dialog";
 import { continents } from "@/lib/content/registry";
 import {
@@ -258,29 +264,113 @@ function ContinentView({
               dès aujourd'hui.
             </p>
           ) : (
-            <div className="mt-6 flex flex-col gap-6">
+            <div className="mt-2 flex flex-col">
               {countryGroups.map((g) => (
-                <div key={g.country} className="flex flex-col">
-                  <p className="text-eyebrow text-secondary-foreground">
-                    {g.country}
-                  </p>
-                  <ul className="mt-2 flex flex-col">
-                    {g.destinations.map((d) => (
-                      <li key={d.slug}>
-                        <MenuRow
-                          as="link"
-                          label={d.name}
-                          href={`/destinations/${d.slug}`}
-                          onClick={onNavigate}
-                        />
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                <CountryDisclosure
+                  key={g.country}
+                  group={g}
+                  onNavigate={onNavigate}
+                />
               ))}
             </div>
           )}
         </>
+      ) : null}
+    </div>
+  );
+}
+
+const countryRowClass =
+  "flex-1 py-4 text-left font-heading text-h4 text-foreground transition-colors hover:text-primary";
+
+function CountryDisclosure({
+  group,
+  onNavigate,
+}: {
+  group: DestinationCountryGroup;
+  onNavigate: () => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const router = useRouter();
+  const { country, countryDestination, children } = group;
+  const hasChildren = children.length > 0;
+  const href = countryDestination
+    ? `/destinations/${countryDestination.slug}`
+    : null;
+
+  // No sub-categories (villes/régions): the country is a plain link to its own
+  // page, with no disclosure chevron. If it has no page either, it's a static
+  // label (shouldn't normally happen — a group always holds a destination).
+  if (!hasChildren) {
+    return (
+      <div className="flex flex-col border-b border-border last:border-b-0">
+        {href ? (
+          <Link href={href} onClick={onNavigate} className={countryRowClass}>
+            {country}
+          </Link>
+        ) : (
+          <span className={countryRowClass}>{country}</span>
+        )}
+      </div>
+    );
+  }
+
+  // Has sub-categories: first click on the country expands the list; a second
+  // click (once expanded) navigates to the country's own page when it has one.
+  const handleCountryClick = () => {
+    if (!open) {
+      setOpen(true);
+      return;
+    }
+    if (href) {
+      onNavigate();
+      router.push(href);
+    } else {
+      setOpen(false);
+    }
+  };
+
+  return (
+    <div className="flex flex-col border-b border-border last:border-b-0">
+      <div className="flex items-center justify-between gap-2">
+        <button
+          type="button"
+          onClick={handleCountryClick}
+          aria-expanded={open}
+          className={countryRowClass}
+        >
+          {country}
+        </button>
+        <button
+          type="button"
+          aria-label={open ? `Replier ${country}` : `Déployer ${country}`}
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+          className="-mr-2 p-2"
+        >
+          <ChevronDown
+            className={cn(
+              "size-5 stroke-[1.5] text-secondary-foreground transition-transform duration-200",
+              open && "rotate-180",
+            )}
+          />
+        </button>
+      </div>
+
+      {open ? (
+        <ul className="mb-3 flex flex-col border-l border-border pl-4">
+          {children.map((d) => (
+            <li key={d.slug}>
+              <Link
+                href={`/destinations/${d.slug}`}
+                onClick={onNavigate}
+                className="block py-2.5 text-secondary-foreground transition-colors hover:text-primary"
+              >
+                {d.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
       ) : null}
     </div>
   );

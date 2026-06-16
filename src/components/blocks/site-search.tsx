@@ -25,6 +25,7 @@ import {
 import { allTagged, continents } from "@/lib/content/registry";
 import {
   getDestinationsByContinentGrouped,
+  flattenCountryGroup,
   type DestinationCountryGroup,
 } from "@/lib/content/queries";
 import {
@@ -278,7 +279,7 @@ function ContinentDestinationsList({
       ) : (
         countryGroups.map((g) => (
           <CommandGroup key={g.country} heading={g.country}>
-            {g.destinations.map((d) => (
+            {flattenCountryGroup(g).map((d) => (
               <CommandItem
                 key={d.slug}
                 value={`destination-${d.slug}`}

@@ -21,6 +21,7 @@ import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as paris } from "@/content/destinations/paris";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
 import { destination as rome } from "@/content/destinations/rome";
+import { destination as seychelles } from "@/content/destinations/seychelles";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -63,6 +64,10 @@ import { experience as corcovadoAubePaineiras } from "@/content/experiences/corc
 import { experience as ilesCagarrasPecheur } from "@/content/experiences/iles-cagarras-pecheur";
 import { experience as soireeBossaNovaIpanema } from "@/content/experiences/soiree-bossa-nova-ipanema";
 import { experience as sablesSecretsRio } from "@/content/experiences/sables-secrets-rio";
+import { experience as coucherSoleilGranit } from "@/content/experiences/coucher-soleil-granit";
+import { experience as volHelicoptereSeychelles } from "@/content/experiences/vol-helicoptere-seychelles";
+import { experience as eclosionTortuesSeychelles } from "@/content/experiences/eclosion-tortues-seychelles";
+import { experience as decouverteIlesBateauSeychelles } from "@/content/experiences/decouverte-iles-bateau-seychelles";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -82,6 +87,9 @@ import { accommodation as hasslerRoma } from "@/content/accommodations/hassler-r
 import { accommodation as belmondCopacabanaPalace } from "@/content/accommodations/belmond-copacabana-palace";
 import { accommodation as fasanoRio } from "@/content/accommodations/fasano-rio";
 import { accommodation as hotelSantaTeresa } from "@/content/accommodations/hotel-santa-teresa";
+import { accommodation as northIsland } from "@/content/accommodations/north-island";
+import { accommodation as fregateIslandPrivate } from "@/content/accommodations/fregate-island-private";
+import { accommodation as fourSeasonsMahe } from "@/content/accommodations/four-seasons-mahe";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -105,6 +113,7 @@ export const destinations: Record<string, Destination> = toMap([
   polynesieOld,
   rioDeJaneiro,
   rome,
+  seychelles,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -132,7 +141,10 @@ export const experiences: Record<string, Experience> = toMap([
   atelierLesage,
   atelierSambaMangueira,
   corcovadoAubePaineiras,
+  coucherSoleilGranit,
   cuisinePalaisBahia,
+  decouverteIlesBateauSeychelles,
+  eclosionTortuesSeychelles,
   galerieBorghesePrive,
   gr20,
   hammamDarElBacha,
@@ -149,6 +161,7 @@ export const experiences: Record<string, Experience> = toMap([
   survolAtlasBiplan,
   viaAppiaVespa,
   vinCorse,
+  volHelicoptereSeychelles,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -169,6 +182,8 @@ export const accommodations: Record<string, Accommodation> = toMap([
   chevalBlancParis,
   darAhlam,
   fasanoRio,
+  fourSeasonsMahe,
+  fregateIslandPrivate,
   hasslerRoma,
   hotelDeRussie,
   hotelSantaTeresa,
@@ -177,6 +192,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   leTahaa,
   lhotelParis,
   murtoli,
+  northIsland,
   royalMansour,
   stRegisBoraBora,
   theBrando,

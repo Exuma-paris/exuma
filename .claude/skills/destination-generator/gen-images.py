@@ -6,6 +6,14 @@ Usage:
     GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py <slug> [--force]
     GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --root experience <slug>
     GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --root accommodation <slug>
+    GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --only hero-1 <slug>
+    GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --only hero-1 \
+        --instruction "add a person in the foreground holding a camera" <slug>
+
+`--only <name>` restricts the run to one output (e.g. `hero-1`), for the
+one-image-at-a-time chain flow. `--instruction "<text>"` applies a per-image
+composition correction beyond the color grade (requires `--only`, and always
+overwrites that output). With no instruction the run is a pure preserve+grade.
 
 `--root` selects the entity family the slug belongs to. Default is `destination`.
 Supported values: `destination`, `experience`, `accommodation`. The flag drives
@@ -36,6 +44,8 @@ Model history:
     + explicit composition preservation. ~3.4× more expensive ($0.134 vs
     $0.039 per 2K image) but no upscale step needed and substantially sharper.
 """
+from __future__ import annotations
+
 import base64
 import io
 import json
@@ -54,18 +64,44 @@ IMAGE_SIZE = "2K"  # "1K" | "2K" | "4K" — Pro respects this; Flash variants ig
 ASPECT_RATIO = "16:9"
 ALLOWED_ROOTS = ("destination", "experience", "accommodation")
 
-PROMPT = """Apply the visual style described below to this reference photograph as a color grade and post-processing treatment ONLY.
-
-PRESERVE the reference exactly: composition, framing, perspective, subjects, objects, scale, time of day, weather, sky, and every element in the frame. Do not add or remove people. Do not reframe. Do not invent. The output must be a restyled version of the reference, not a new scene.
-
-Apply this Exuma photographic style:
+EXUMA_STYLE = """Apply this Exuma photographic style:
 - Quiet luxury, non-ostentatious elegance, timeless atmosphere; mood of nostalgia, silence and calm
 - Low contrast, warm whites (never pure white), soft shadows
 - Subtle film grain, 35mm analog texture, soft depth of field
 - Color palette pulled toward sand, beige, ochre tones, olive green, very desaturated blue, warm skin tones
-- Editorial photography finishing, refined framing
+- Editorial photography finishing, refined framing"""
+
+GRADE_ONLY_PROMPT = f"""Apply the visual style described below to this reference photograph as a color grade and post-processing treatment ONLY.
+
+PRESERVE the reference exactly: composition, framing, perspective, subjects, objects, scale, time of day, weather, sky, and every element in the frame. Do not add or remove people. Do not reframe. Do not invent. The output must be a restyled version of the reference, not a new scene.
+
+{EXUMA_STYLE}
 
 Output: the same photograph with this look applied, framed as 16:9."""
+
+# Used when the caller supplies a per-image correction (e.g. "add a person in
+# the foreground holding a camera"). The strict "do not add/remove people / do
+# not invent" rule is intentionally lifted so the requested change can happen,
+# but everything NOT mentioned in the correction must still be preserved — the
+# output stays an edited version of the reference, not a brand-new scene.
+EDIT_PROMPT_TEMPLATE = """Edit this reference photograph, then apply the Exuma color grade described below.
+
+First, apply these specific changes requested by the editor:
+{instruction}
+
+Then PRESERVE everything the changes do not touch: the overall composition, framing, perspective, location, the existing subjects and objects, scale, time of day, weather, and sky. Make the requested edit look natural and photographic — same lens, same light, same mood. Do not reframe or reinvent beyond what the correction asks for.
+
+{style}
+
+Output: the edited photograph with this look applied, framed as 16:9."""
+
+
+def build_prompt(instruction: str | None) -> str:
+    if instruction and instruction.strip():
+        return EDIT_PROMPT_TEMPLATE.format(
+            instruction=instruction.strip(), style=EXUMA_STYLE
+        )
+    return GRADE_ONLY_PROMPT
 
 MIME_BY_EXT = {
     ".jpg": "image/jpeg",
@@ -75,7 +111,7 @@ MIME_BY_EXT = {
 }
 
 
-def generate(api_key: str, ref_path: Path) -> bytes:
+def generate(api_key: str, ref_path: Path, instruction: str | None = None) -> bytes:
     mime = MIME_BY_EXT.get(ref_path.suffix.lower())
     if not mime:
         raise ValueError(f"Unsupported reference extension: {ref_path.suffix}")
@@ -84,7 +120,7 @@ def generate(api_key: str, ref_path: Path) -> bytes:
         "contents": [{
             "parts": [
                 {"inlineData": {"mimeType": mime, "data": ref_b64}},
-                {"text": PROMPT},
+                {"text": build_prompt(instruction)},
             ]
         }],
         "generationConfig": {
@@ -142,40 +178,60 @@ def enforce_16x9(image_bytes: bytes) -> bytes:
 
 
 USAGE = (
-    "usage: gen-images.py [--root destination|experience|accommodation] <slug> [--force]"
+    "usage: gen-images.py [--root destination|experience|accommodation] "
+    "[--only <name>] [--instruction <text>] <slug> [--force]"
 )
 
 
-def parse_args(argv: list[str]) -> tuple[str, str, bool]:
-    """Return (root, slug, force). Raises ValueError on bad input."""
+def _take_value(args: list[str], flag: str) -> str | None:
+    """Pop `--flag value` from args in place, returning value or None."""
+    if flag not in args:
+        return None
+    i = args.index(flag)
+    if i + 1 >= len(args):
+        raise ValueError(f"{flag} requires a value")
+    value = args[i + 1]
+    del args[i : i + 2]
+    return value
+
+
+def parse_args(argv: list[str]) -> tuple[str, str, bool, str | None, str | None]:
+    """Return (root, slug, force, only, instruction). Raises ValueError on bad input.
+
+    `only` restricts the run to a single output by name (e.g. "hero-1") — used
+    by the one-image-at-a-time chain flow. `instruction` carries a per-image
+    composition correction beyond the color grade.
+    """
     args = [a for a in argv if a]
     force = "--force" in args
     args = [a for a in args if a != "--force"]
 
-    root = "destination"
-    if "--root" in args:
-        i = args.index("--root")
-        if i + 1 >= len(args):
-            raise ValueError("--root requires a value")
-        root = args[i + 1]
-        del args[i : i + 2]
+    root = _take_value(args, "--root") or "destination"
+    only = _take_value(args, "--only")
+    instruction = _take_value(args, "--instruction")
 
     if root not in ALLOWED_ROOTS:
         raise ValueError(
             f"--root must be one of {ALLOWED_ROOTS}, got {root!r}"
         )
+    if instruction and not only:
+        raise ValueError("--instruction requires --only (corrections are per-image)")
     if len(args) != 1:
         raise ValueError("expected exactly one positional <slug>")
-    return root, args[0], force
+    return root, args[0], force, only, instruction
 
 
 def main() -> int:
     try:
-        root, slug, force = parse_args(sys.argv[1:])
+        root, slug, force, only, instruction = parse_args(sys.argv[1:])
     except ValueError as e:
         print(f"error: {e}", file=sys.stderr)
         print(USAGE, file=sys.stderr)
         return 2
+
+    # A correction always replaces the previous output for that image.
+    if instruction:
+        force = True
 
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -195,17 +251,22 @@ def main() -> int:
         return 1
 
     failures = 0
+    matched = False
     for ref in refs:
         if not ref.stem.endswith("-ref"):
             continue
-        out_name = ref.stem[: -len("-ref")] + ".png"
+        name = ref.stem[: -len("-ref")]
+        if only and name != only:
+            continue
+        matched = True
+        out_name = name + ".png"
         out_path = out_dir / out_name
         if out_path.exists() and not force:
             print(f"· {out_name} (exists, skip — pass --force to overwrite)")
             continue
         print(f"→ {out_name} (ref: {ref.name}) …", flush=True)
         try:
-            data = generate(api_key, ref)
+            data = generate(api_key, ref, instruction)
             data = enforce_16x9(data)
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", errors="replace")[:600]
@@ -218,6 +279,12 @@ def main() -> int:
             continue
         out_path.write_bytes(data)
         print(f"  saved {len(data) // 1024} KB → {out_path}")
+
+    if only and not matched:
+        print(
+            f"No reference {only}-ref.<ext> in {ref_dir}", file=sys.stderr
+        )
+        return 1
 
     return 1 if failures else 0
 

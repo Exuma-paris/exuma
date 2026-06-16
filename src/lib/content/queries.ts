@@ -70,10 +70,27 @@ export function getDestinationsByContinent(
 
 export type DestinationCountryGroup = {
   country: string;
-  destinations: Destination[];
+  /**
+   * The destination representing the country itself (`placeKind: "country"`),
+   * if one exists. In the menu this is the deployable Pays header and links to
+   * its own page; otherwise the header is just a label that expands its
+   * children.
+   */
+  countryDestination?: Destination;
+  /**
+   * Region/city destinations nested under this country (everything that is not
+   * the country-level page). Hidden in the menu until the Pays row is expanded.
+   */
+  children: Destination[];
 };
 
 const UNKNOWN_COUNTRY = "Autres";
+
+/** Every destination in a group, country-level page first — used by flat views
+ * (search browse) that should list the whole tree without collapsing it. */
+export function flattenCountryGroup(g: DestinationCountryGroup): Destination[] {
+  return g.countryDestination ? [g.countryDestination, ...g.children] : g.children;
+}
 
 export function getDestinationsByContinentGrouped(
   continentSlug: string,
@@ -95,10 +112,13 @@ export function getDestinationsByContinentGrouped(
   }
 
   return [...map.entries()]
-    .map(([country, items]) => ({
-      country,
-      destinations: items.sort((a, b) => a.name.localeCompare(b.name)),
-    }))
+    .map(([country, items]) => {
+      const countryDestination = items.find((d) => d.placeKind === "country");
+      const children = items
+        .filter((d) => d !== countryDestination)
+        .sort((a, b) => a.name.localeCompare(b.name));
+      return { country, countryDestination, children };
+    })
     .sort((a, b) => a.country.localeCompare(b.country));
 }
 

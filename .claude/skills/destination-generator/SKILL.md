@@ -1,13 +1,13 @@
 ---
 name: destination-generator
-description: Generate a new destination page for the Exuma travel site (Next.js, French content). Use when the user asks to create a destination page, add a new travel destination, or scaffold a destination. Produces src/content/destinations/<slug>.tsx (typed Destination object with all sections), 0–6 stub entity files in src/content/experiences/ and src/content/accommodations/ (one per referenced experience or hotel that doesn't already exist), references/destination/<slug>/SOURCES.md (traceability log, auto-filled once the user provides reference links), and registers all new files in src/lib/content/registry.ts so the dynamic /destinations/[slug] route picks them up. After scaffolding, Claude asks for one reference image link per expected output, downloads them, and runs gen-images.py.
+description: Generate a new destination page for the Exuma travel site (Next.js, French content). Use when the user asks to create a destination page, add a new travel destination, or scaffold a destination. Runs a strict seven-question interview first (one at a time, all answered before any production): name, place type (pays/région/ville — sets placeKind + tree position), primary persona(s), 3 accommodations, 4 experiences (1 coup-de-cœur focus), the spotlight collaborateur, and 3 related destinations. Then produces src/content/destinations/<slug>.tsx (typed Destination object with all sections), up to 7 stub entity files in src/content/experiences/ and src/content/accommodations/ (4 experiences + 3 hotels not already present), references/destination/<slug>/SOURCES.md, and registers everything in src/lib/content/registry.ts. After the page type-checks and the copy is corrected, runs a chained image phase: re-lists every caption in display order and, one image at a time, asks for a reference link (plus optional non-colour correction), generates it via gen-images.py, and previews it in the rendered page before the next.
 metadata:
   short-description: Scaffold a destination page with copy, structure, entity stubs, and image manifest
 ---
 
 # Destination Generator
 
-Scaffold a new destination as a typed `Destination` data object that the dynamic route at `src/app/destinations/[slug]/page.tsx` renders via `<DestinationPage>`. Mirror the canonical section list from the Polynésie reference at `src/content/destinations/polynesie.tsx`. The user provides ONLY the destination name (French). Everything else — slug, continent, country, structure, copy, factual placeholders, the image manifest, the entity stubs — is generated. The actual image binaries are produced separately by the user (download references → run `gen-images.py`).
+Scaffold a new destination as a typed `Destination` data object that the dynamic route at `src/app/destinations/[slug]/page.tsx` renders via `<DestinationPage>`. Mirror the canonical section list from the Polynésie reference at `src/content/destinations/polynesie.tsx`. A short seven-question interview (see below) gathers the name, place type, persona(s), the hotel/experience selection, the specialist, and related destinations; everything else — slug, continent, structure, copy, factual placeholders, the entity stubs — is generated from those answers. The image binaries are produced afterward in the chained image phase (reference → `gen-images.py` → preview), one at a time.
 
 Always read `STYLE.md` and `REFERENCE.md` in this same folder before writing data. STYLE.md owns the editorial voice; REFERENCE.md owns the `Section` discriminated-union shape and the entity stub shape.
 
@@ -15,7 +15,7 @@ Always read `STYLE.md` and `REFERENCE.md` in this same folder before writing dat
 
 Experiences and accommodations referenced from a destination page are **separate entities**, not inline cards. Each card displayed on the destination page comes from a file under `src/content/experiences/` or `src/content/accommodations/` that owns the title, blurb, and hero image. The destination just references them by slug via two `entityList` sections.
 
-This means: every destination page generation produces both the destination file *and* up to six small entity stub files (3 experiences + 3 accommodations). The stubs ship with `sections: []` — they're metadata-only until promoted to a full page later. The destination's card shows the stub's `name`/`blurb`/`heroImage`. Cards are unlinked while sections are empty; they become linked automatically once the entity is fleshed out.
+This means: every destination page generation produces both the destination file *and* up to seven small entity stub files (4 experiences + 3 accommodations). The stubs ship with `sections: []` — they're metadata-only until promoted to a full page later. The destination's card shows the stub's `name`/`blurb`/`heroImage`. Cards are unlinked while sections are empty; they become linked automatically once the entity is fleshed out.
 
 If a referenced experience or hotel **already exists** under `src/content/experiences/` or `src/content/accommodations/` (e.g. a new Polynésie page mentioning "The Brando"), reuse the existing slug — do NOT create a duplicate. The destination simply references the existing entity.
 
@@ -30,75 +30,110 @@ Ask: *"Vous voulez (a) scaffolder une nouvelle destination, ou (b) ajouter un fu
 - **Mode A — new destination.** Continue with step 1 below. The full canonical workflow runs (~14 sections, image manifest, entity stubs, registry edits). Optionally includes a landing flow at the end if the user opts in.
 - **Mode B — add landing to existing destination.** Skip to **§ Mode B (landing only)** at the end of this file. Much shorter — only the landing block + questions, patched into an existing destination file.
 
-### 1. Get the destination name
+### The questionnaire runs in strict sequence — ask one question at a time
+
+Before producing anything, walk the user through **seven questions, in this exact order**, one at a time. Ask a question, wait for the answer, then ask the next. Do **not** batch several into one message, do not jump ahead, and do not start producing (slug, copy, files, images) until all seven are answered. Each answer feeds the next — the place type fixes the tree position, the persona shapes the voice *and* the hotel/experience picks, so a skipped question yields a page aimed at no one.
+
+| # | Question | Drives | Detail |
+|---|----------|--------|--------|
+| Q1 | Destination name | `name`, `slug` | step 1 |
+| Q2 | Place type (pays / région / ville) | `placeKind`, `country`, tree position | step 1a |
+| Q3 | Primary persona(s) | editorial voice + Q4/Q5 picks | step 1b |
+| Q4 | Accommodations — retain **3** | `entityList kind: "accommodation"` + stubs | step 1c |
+| Q5 | Experiences — retain **4**, incl. 1 focus | `entityList kind: "experience"` + coup de cœur | step 1d |
+| Q6 | Destination expert (collaborateur) | `specialistSpotlight` | step 1e |
+| Q7 | Related destinations (pays) — **3** | inspiration carousel | step 1f |
+
+Exception: if the user's opening prompt already answers a question explicitly (e.g. "fais une page **ville** de Marrakech pour **Édouard** avec **La Mamounia**"), treat it as answered and don't re-ask. A bare destination name or a smoke-test prompt pre-answers nothing.
+
+### 1. Get the destination name (Q1)
 
 If the user already named a destination in their prompt, use it. Otherwise ask: *"Quelle destination ? (en français, ex. Corse, Provence, Santorin)"*.
 
-If the user volunteers extra details about the destination itself (places, vibe, anchors), incorporate them. For experience and hotel selection, see step 1b — that's a separate question.
+If the user volunteers extra details about the destination itself (places, vibe, anchors), incorporate them.
 
-### 1b. Confirm the experience and hotel selection
+### 1a. Place type — pays / région / ville (Q2)
 
-The destination page references **3 experiences and 3 accommodations**. **Always ask** the user — never bundle this into a single proactive proposal, never skip on the assumption that the user "implicitly" volunteered a list. Test invocations ("smoke test", "scaffold a Roma page") and naked destination names do NOT count as volunteering. Only skip the ask when the user named at least one specific experience or hotel in their initial prompt (e.g. "make a Bora Bora page including The Brando, the Four Seasons, and a yacht charter").
+Ask: *"Est-ce un pays, une région ou une ville ? (ça la positionne dans l'arborescence du menu : Continents › Pays › Villes/Régions)"*
 
-Ask: *"Avez-vous une liste d'expériences et d'hébergements à intégrer, ou je propose une sélection ?"*
+This sets two fields on the destination:
+
+- `placeKind`: `"country"`, `"region"`, or `"city"`.
+- `country`: the parent country it nests under (filled in production step 3).
+
+Why it matters: the menu nests **Continent › Pays › Villes/Régions**. The Pays is the visible, deployable node inside the continent; villes and régions are hidden underneath it until the user expands the country. A `placeKind: "country"` destination *becomes* that deployable Pays header and links to its own page; a `"region"` or `"city"` destination sits under its `country` and is hidden until expanded. Everything stays findable in the search menu regardless. Get this wrong and the page surfaces at the wrong level (a city showing as a top-level country, or a region never appearing under its country).
+
+Examples: `Marrakech` → `placeKind: "city"`, `country: "Maroc"`. `Corse` → `placeKind: "region"`, `country: "France"`. `Maroc` → `placeKind: "country"`, `country: "Maroc"`.
+
+### 1b. Primary persona(s) (Q3)
+
+Read [PERSONAS.md](PERSONAS.md) in this folder — the seven EXUMA personas and the targeting table. Based on the destination's nature (and Q2's place type), propose **1–2 primary personas** and have the user confirm. Always state, up front, who the page is being written for — this is a project-wide rule (see PERSONAS.md).
+
+Ask, e.g.: *"Cette destination colle surtout à **P4 Édouard** (accès rare) et **P1 Frédéric** (décompression). On rédige en priorité pour eux, ou vous visez d'autres personas ?"*
+
+The confirmed personas drive the editorial voice (tone, vocabulary, anti-clichés per STYLE.md) **and** the hotel/experience selection in Q4–Q5 — pick accommodations and experiences that answer those personas' motivations and avoid their turn-offs. Skip the proposal only if the user already named the target persona(s) in their opening prompt.
+
+### 1c. Accommodations — retain 3 (Q4)
+
+The destination page references **3 accommodations**. **Always ask** — never bundle this into a proactive proposal, never assume the user "implicitly" volunteered a list. Test invocations ("smoke test", "scaffold a Roma page") and naked destination names do NOT count. Only skip the ask when the user named at least one specific hotel in their opening prompt.
+
+Ask: *"Avez-vous une liste d'hébergements (on en retient 3), ou je propose une sélection ?"*
 
 #### Branch A — the user provides a list
 
-The list can be names, descriptions, or slugs. For each item:
-
-1. Derive a kebab-case slug (`The Brando` → `the-brando`, `Vol en hélicoptère sur Bora Bora` → `vol-helico-bora-bora`).
-2. Check whether the slug already exists in `src/content/experiences/` or `src/content/accommodations/`. If yes, reuse it (no new file in step 5b). If no, the destination references it and you create a stub later.
-
-If the user gives fewer than 3 of either kind, ask once: *"Vous voulez que je complète à 3 ?"* Don't pad silently.
+Names, descriptions, or slugs. For each: derive a kebab-case slug (`The Brando` → `the-brando`), then check whether it already exists in `src/content/accommodations/`. If yes, reuse it (no new file in step 5b). If no, the destination references it and you create a stub later. If fewer than 3, ask once *"Vous voulez que je complète à 3 ?"* — don't pad silently.
 
 #### Branch B — the user asks you to propose
 
-Use general knowledge to propose 3 experiences + 3 accommodations that fit Exuma's voice (STYLE.md: hors réseaux, exclusive, terrain access, named real places, no mass-market). Anchor each to specific places, named operators when possible, no generic "tour de la baie" entries.
-
-Present the proposal compactly, exactly in this format:
+Propose **3 accommodations** that fit Exuma's voice (STYLE.md: hors réseaux, exclusive, terrain access, named real places, no mass-market) **and** answer the personas confirmed in Q3. When you have no first-hand data, research accommodations that match the positioning and the primary personas — named properties anchored to specific places, never a generic "hôtel 5 étoiles". Present compactly:
 
 ```
-Sélection proposée pour <Destination> :
-
-Expériences :
+Hébergements proposés pour <Destination> (personas : <P…>) :
 1. <slug-1> · <Nom> — <une ligne de justification>
 2. <slug-2> · <Nom> — <une ligne de justification>
 3. <slug-3> · <Nom> — <une ligne de justification>
 
-Hébergements :
+On part là-dessus, ou vous remplacez / ajustez ?
+```
+
+Wait for confirmation. Accept partial edits and re-confirm if substantial. Once locked, you have 3 accommodation slugs (some may exist, some new) — they drive `entityList kind: "accommodation"` and which stubs step 5b creates. Flag any unverifiable hotel name with `// TODO: verify`.
+
+### 1d. Experiences — retain 4, including 1 focus (Q5)
+
+The destination page references **4 experiences**, one of which is the **focus** spotlighted in "Notre coup de cœur" (section #7). **Always ask** unless the user already named experiences in their opening prompt.
+
+Ask: *"Avez-vous une liste d'expériences (on en retient 4), ou je propose ? Et laquelle met-on en avant dans « Notre coup de cœur » ?"*
+
+#### Branch A — the user provides a list
+
+Same slug-derive + existence check as accommodations, against `src/content/experiences/`. If fewer than 4, ask once *"Vous voulez que je complète à 4 ?"*.
+
+#### Branch B — the user asks you to propose
+
+Propose **4 experiences** that fit Exuma's voice **and** the confirmed personas. When you have no first-hand data, research experiences that are plausible for the destination and aligned with the positioning and the primary personas' motivations. Anchor each to specific places / named operators — no generic "tour de la baie". Present compactly:
+
+```
+Expériences proposées pour <Destination> (personas : <P…>) :
 1. <slug-1> · <Nom> — <une ligne de justification>
 2. <slug-2> · <Nom> — <une ligne de justification>
 3. <slug-3> · <Nom> — <une ligne de justification>
+4. <slug-4> · <Nom> — <une ligne de justification>
 
-On part sur cette sélection, ou vous voulez remplacer / ajuster ?
+Laquelle en « coup de cœur » ? Et on garde cette sélection ?
 ```
 
-Wait for confirmation. Accept partial edits ("remplace #2 par X", "drop #3 hôtels", "ajoute Maupiti à la place de Tetiaroa") and re-confirm if substantial. Once the user says go, lock the selection and proceed to step 2.
+Wait for confirmation, including **which experience is the focus**. Skip the coup-de-cœur ask only if the user already indicated a preferred experience ("focus on the helicopter ride").
 
 #### Either way
 
-Once the selection is locked (volunteered, branch A confirmed, or branch B confirmed), you have:
-- 3 experience slugs (some may exist, some new)
-- 3 accommodation slugs (some may exist, some new)
+Once locked you have **4 experience slugs** (1 marked as the focus) and **3 accommodation slugs**, each tagged *existing* or *new*. Carry them into step 5 — they drive the two `entityList` `slugs` arrays and determine which stub files step 5b creates.
 
-Carry these into step 5 — they drive the destination's `entityList` `slugs` arrays AND determine which entity stub files step 5b creates.
+The focus experience fills the `imageDuoWithText` section in step 5a:
 
-For factual placeholders that may sneak in (a hotel name you can't verify, a coordinate, a flight time): flag with `// TODO: verify` on the same line.
+- **Images (`duo.left` / `duo.right`)**: two filenames illustrating the focus experience (e.g. `xp-vol-helico-lagon.png` + `xp-vol-helico-cockpit.png`). They appear in the expected-images list.
+- **Copy (`text.eyebrow`, `text.heading`, `text.columns`)**: eyebrow `"Notre coup de cœur"`, heading + two columns built from what makes the experience special (its name, blurb, keywords, general knowledge), per STYLE.md and aimed at the confirmed personas.
 
-### 1c. Choose the "Notre coup de cœur" experience
-
-The `imageDuoWithText` section (section #7 — "Notre coup de cœur") spotlights a single experience from the destination. Ask the user which experience from the locked selection should be featured:
-
-*"Quelle expérience met-on en avant dans « Notre coup de cœur » ?"*
-
-Present the 3 locked experience slugs as numbered options so the user can pick quickly. **Skip this question if the user already indicated a preferred experience earlier in the conversation** (e.g. "focus on the helicopter ride").
-
-Once the user picks one, use that experience's data to fill the `imageDuoWithText` section in step 5a:
-
-- **Images (`duo.left` / `duo.right`)**: generate two image filenames that illustrate the chosen experience (e.g. `xp-vol-helico-lagon.png` + `xp-vol-helico-cockpit.png`). These filenames will appear in the expected-images list at the end of the report.
-- **Copy (`text.eyebrow`, `text.heading`, `text.columns`)**: write the eyebrow as `"Notre coup de cœur"`, the heading and the two column paragraphs based on what makes the experience special — draw from the experience's name, blurb, keywords, and general knowledge about the activity. Follow STYLE.md voice rules as usual.
-
-### 1d. Pick the spotlight collaborateur
+### 1e. Pick the spotlight collaborateur (Q6)
 
 The `specialistSpotlight` section (slot 2 — right after the hero) features a named travel designer from `src/content/collaborateurs/`. The destination references that collaborateur by slug; the section's body data (`specialist.collaborateurSlug`, `specialist.quote`, the 3 `features`) describes what *this* destination owes to *this* designer.
 
@@ -112,21 +147,21 @@ If no existing collaborateur fits, use `// TODO: verify collaborateurSlug` next 
 
 Carry the chosen slug into step 5a — it fills `specialist.collaborateurSlug` in the slot-2 section. The quote and three features are written in step 5a per STYLE.md voice; flag the quote with `// TODO: verify quote attribution` since collaborateur quotes are real-person verbatims.
 
-### 1e. Offer a "related destinations" section (optional)
+### 1f. Related destinations (pays) — 3, for the inspiration carousel (Q7)
 
-After locking the experience/accommodation selection, ask the user whether they want a "related destinations" section at the bottom of the page (after FAQ). This section displays up to 3 other destination pages as feature cards (using each destination's first hero image, name, and blurb).
+The bottom of the page carries an inspiration carousel — a "destinations similaires" section (after FAQ) showing up to **3 other destinations as feature cards** (each one's first hero image, name, and blurb). Ask the user for **3 related destinations, ideally country-level (`placeKind: "country"`)**, to populate it.
 
-Ask: *"Souhaitez-vous ajouter une section « destinations similaires » en bas de page ? Si oui, avez-vous des destinations à relier, ou je choisis les 3 plus pertinentes ?"*
+Ask: *"Quelles 3 destinations (pays) relier en bas de page pour le carrousel d'inspiration ? Vous avez une liste, ou je propose les 3 plus pertinentes ?"*
 
-**Skip this question if the user already volunteered related destinations in their initial prompt.**
+**Skip this question if the user already volunteered related destinations in their opening prompt.** If the user explicitly declines the carousel, omit the section and move on.
 
 #### Branch A — the user provides a list
 
-Check that each destination slug exists in `src/content/destinations/`. Only existing destinations can be referenced — this section does NOT create new stubs. If a slug doesn't exist, tell the user and ask for a replacement.
+Check that each destination slug exists in `src/content/destinations/`. Only existing destinations can be referenced — this section does NOT create stubs. If a slug doesn't exist, tell the user and ask for a replacement.
 
 #### Branch B — the user asks you to choose
 
-Run `ls src/content/destinations/` to see what's available. Pick up to 3 destinations that share the same continent or thematic affinity. Present the proposal:
+Run `ls src/content/destinations/` to see what's available. Prefer **country-level** destinations that share the same continent or thematic affinity; fall back to any existing destination if too few countries exist yet. Present the proposal:
 
 ```
 Destinations similaires proposées :
@@ -139,13 +174,9 @@ Destinations similaires proposées :
 
 Wait for confirmation.
 
-#### Branch C — the user declines
-
-No section is added. Proceed to step 2.
-
 #### Either way
 
-If the user wants the section, you have 1–3 destination slugs (all must already exist). Carry these into step 5a — they drive the optional `entityList kind: "destination"` section placed after `faq` in the `sections[]` array (canonical slot 15):
+You have up to 3 destination slugs (all must already exist). Carry these into step 5a — they drive the `entityList kind: "destination"` section placed after `faq` in the `sections[]` array (canonical slot 15):
 
 ```tsx
 {
@@ -184,7 +215,12 @@ ameriques           proche-orient       iles-oceanie
 
 Use general geographic knowledge to pick one. Examples: `corse` → `europe`, `marrakech` → `afrique`, `kyoto` → `asie`, `patagonie` → `ameriques`, `wadi-rum` → `proche-orient`, `polynesie-francaise` → `iles-oceanie`. If genuinely ambiguous, pick the most likely and add `// TODO: verify continent` on the same line.
 
-`country` is a free-form French country name. Examples: `France`, `Maroc`, `Japon`, `Argentine`, `Polynésie française`. If the destination spans multiple countries (e.g. Patagonie covers Argentine + Chili), pick the dominant one or use `Argentine et Chili` and flag with `// TODO: verify country`.
+`country` is a free-form French country name **and the tree parent** (set together with `placeKind` from Q2):
+
+- `placeKind: "city"` or `"region"` → `country` is the **parent country** the page nests under (Marrakech → `Maroc`, Corse → `France`). The page hides under that country in the menu.
+- `placeKind: "country"` → `country` is the country's own name, identical to `name` (Maroc → `Maroc`). The page becomes the deployable Pays header.
+
+Examples: `France`, `Maroc`, `Japon`, `Argentine`, `Polynésie française`. If the destination spans multiple countries (e.g. Patagonie covers Argentine + Chili), pick the dominant one as the parent and flag with `// TODO: verify country`. Two destinations sharing a `country` string land in the same Pays group — that is how cities/régions collect under their country.
 
 ### 3b. Pick the French `genitive`
 
@@ -219,7 +255,7 @@ Before writing anything, read:
 
 ### 5. Create files
 
-The selection is already locked from steps 1b and 1c — you have 3 experience slugs, 3 accommodation slugs (each marked as *existing* or *new*), and optionally up to 3 related destination slugs (all existing). Don't reopen the question here. If the locked selection includes a slug you can't tell whether it exists, run `ls` once and proceed.
+The selection is already locked from the questionnaire (steps 1c–1f) — you have **4 experience slugs** (1 is the focus), **3 accommodation slugs** (each marked *existing* or *new*), and up to 3 related destination slugs (all existing). Don't reopen the question here. If the locked selection includes a slug you can't tell whether it exists, run `ls` once and proceed.
 
 #### 5a. Create `src/content/destinations/<slug>.tsx`
 
@@ -229,7 +265,8 @@ import type { Destination } from "@/lib/content/types";
 export const destination: Destination = {
   slug: "<slug>",
   name: "<Destination name>",
-  country: "<French country name>",
+  placeKind: "<country | region | city — from Q2>",
+  country: "<parent country (French) — see step 3>",
   genitive: "<French genitive — see step 3b>",
   continentSlug: "<one of the 6 continent slugs>",
   blurb: "<one-line teaser, 4–8 words>",
@@ -272,7 +309,8 @@ The two `entityList` sections look like:
   description: "...",
   // NO `cta` — `/experiences` and `/hebergements` have no index page (only `/[slug]` exists).
   // See REFERENCE.md § "Linkable routes" before adding any href.
-  slugs: ["<slug-1>", "<slug-2>", "<slug-3>"],
+  // experiences: 4 slugs (the focus one included); accommodations: 3 slugs.
+  slugs: ["<slug-1>", "<slug-2>", "<slug-3>", "<slug-4>"],
 }
 ```
 
@@ -367,11 +405,11 @@ npx tsc --noEmit
 ```
 
 Then report:
-- Files created (destination + N experience stubs + M accommodation stubs)
+- Files created (destination + 4 experience stubs + 3 accommodation stubs)
 - Entities **reused** vs. entities **newly stubbed** — so the user knows which ones already exist and which now need content next
 - Registry edits (destination import, experience imports, accommodation imports — list each)
-- Expected images: list every output filename referenced across the generated files (destination + new entity stubs), one per line — this is exactly the list the user needs to provide references for.
-- Next step: provide one reference image link per filename above. Claude will download them to `references/destination/<slug>/`, fill `SOURCES.md`, and run `gen-images.py`.
+- Confirm `metaTitle` + `metaDescription` are filled.
+- Next step: the chained image phase (see "## Images" below). Don't dump the full image list here — the image phase re-lists every caption in display order and walks the user through them one at a time.
 - Remind: the page will render with broken images until step 3 has run, the URL is `/destinations/<slug>` (plural), and every newly-stubbed experience/accommodation has unlinked cards on the destination page until a `sections[]` is added to its file.
 - SEO surfaces auto-emitted by [src/lib/destination/seo.ts](../../../src/lib/destination/seo.ts): per-destination `<title>` + `<meta description>` + Open Graph + canonical (via `generateMetadata`), and three JSON-LD blocks (`TouristDestination`, `BreadcrumbList`, `FAQPage`). Confirm `metaTitle` + `metaDescription` are filled on the new destination — empty fields fall back to generic templates.
 
@@ -382,11 +420,11 @@ Then report:
 The 14 mandatory entries in `sections[]`, in this exact order, plus one optional entry:
 
 1. `hero`
-2. **`specialistSpotlight`** — references one collaborateur slug from `src/content/collaborateurs/` (see step 1d)
+2. **`specialistSpotlight`** — references one collaborateur slug from `src/content/collaborateurs/` (see step 1e)
 3. `textColumns` (intro — bg-white)
 4. `fullImage`
 5. `textImagesSplit`
-6. **`entityList`** (`kind: "experience"` — bg-white) — references 3 experience slugs
+6. **`entityList`** (`kind: "experience"` — bg-white) — references 4 experience slugs (1 is the coup-de-cœur focus)
 7. `imageDuoWithText` (cultural duo — composite type)
 8. **`entityList`** (`kind: "accommodation"` — bg-background-soft) — references 3 accommodation slugs
 9. `infoGrid`
@@ -395,7 +433,7 @@ The 14 mandatory entries in `sections[]`, in this exact order, plus one optional
 12. `tips` (bg-background-soft)
 13. `testimonials`
 14. `faq` (bg-white) — see "FAQ is the destination's source of truth" below
-15. *(optional)* **`entityList`** (`kind: "destination"` — bg-background-soft) — references up to 3 related destination slugs. Rendered as feature cards using each destination's first hero image. See step 1e.
+15. *(optional)* **`entityList`** (`kind: "destination"` — bg-background-soft) — references up to 3 related destination slugs. Rendered as feature cards using each destination's first hero image. See step 1f.
 
 A user-volunteered "extra section" (e.g. boat excursions for Corse) should be inserted as an additional entry at a sensible position — typically as another `entityList kind: "experience"` block, placed before or after the canonical experiences block.
 
@@ -575,13 +613,40 @@ For new entity stubs: if the hotel name is invented, flag the `name:` line with 
 
 ---
 
-## Images
+## Images — chained, one at a time
+
+This phase runs **after** the page is scaffolded, type-checks, and the copy has been corrected. It is interactive and visual: you walk the user through every image of the page **in display order**, producing and integrating each one before moving to the next, so the user sees the page fill in progressively rather than receiving a giant batch at the end.
 
 ### Approach: restyle a reference, do not invent a scene
 
-Images are produced by a "preserve + grade" pipeline: the user finds a reference photograph that already shows the composition they want, and `gen-images.py` sends that reference + a fixed Exuma style brief to Gemini 2.5 Flash Image. The output is the SAME composition as the reference, only restyled — same framing, same subjects, same time of day. Gemini never invents the scene.
+Images are produced by a "preserve + grade" pipeline: the user supplies a reference photograph that already shows the composition they want, and `gen-images.py` sends that reference + a fixed Exuma style brief to Gemini 3 Pro Image (Nano Banana Pro). The output is the SAME composition as the reference, only restyled — same framing, same subjects, same time of day. Gemini never invents the scene.
 
-This means the **reference choice is the creative decision**: pick a reference whose composition, framing, and mood you'd be happy to ship as-is — the model will only adjust the look (low contrast, warm whites, film grain, the Exuma palette).
+The **reference choice is the creative decision**: a reference whose composition, framing, and mood is shippable as-is — the model only adjusts the look (low contrast, warm whites, film grain, the Exuma palette).
+
+The user may also request **a composition change beyond colour** — e.g. *"ajoute un être humain en premier plan avec un appareil photo"*. Those go through `--instruction` (see below), which lifts the no-add/no-remove rule for that one image and applies the requested edit, then the grade, while preserving everything untouched. With no instruction the default is grade-only (composition locked).
+
+### The chained loop
+
+1. **Re-list every caption in display order.** Walk the finished `sections[]` top to bottom (hero → spotlight → … → faq, then the experience/accommodation stubs' `heroImage`). For each image output a numbered line: the output filename, the section it belongs to, and its caption/alt text. This is the running checklist the user follows.
+
+2. **For the current image, ask the user for two things in one message:**
+   - the **reference link** (the photo to restyle), and
+   - any **correction beyond colour** (optional — leave empty for a plain grade).
+
+   Ask for one image at a time, never a batch. Show which number out of the total you're on (e.g. *"Image 3 / 18 — `split-1.png`"*).
+
+3. **Download** the reference to `references/<root>/<slug>/<name>-ref.<ext>` (ext matches the source) and record the URL in `SOURCES.md`.
+
+4. **Generate just that one image:**
+   ```
+   GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --only <name> <slug> \
+     [--instruction "<correction beyond colour>"]
+   ```
+   `--only <name>` targets the single output; `--instruction` is passed only when the user gave a non-colour correction. The file lands at `public/<root>/<slug>/<name>.png` and is **already wired** into the page via the filename convention — no code edit needed to integrate it.
+
+5. **Preview the rendered result in the page.** Make sure the dev server is running (start it if needed), then screenshot the section that now contains the new image so the user sees it in context — not the raw file. If the user wants a tweak, collect the new reference/instruction and re-run step 4 with `--force` before moving on.
+
+6. **Move to the next image** and repeat from step 2 until the checklist is exhausted.
 
 ### Filename convention
 
@@ -595,7 +660,7 @@ Canonical output filenames (mirror Polynésie/Corse):
 hero-1.png          hero-2.png          hero-3.png
 full-image.png
 split-1.png         split-2.png
-xp-<activity>.png   (one per experience card; 3 cards — the matching xp-*.png is the entity's heroImage)
+xp-<activity>.png   (one per experience card; 4 cards — the matching xp-*.png is the entity's heroImage)
 ceremony.png        image-homme.png     (cultural duo — or destination-adapted, e.g. polyphonie.png + berger.png for Corse)
 hotel-<name>.png    (one per hotel card; 3 cards — the matching hotel-*.png is the entity's heroImage)
 bento-<topic>.png   (one per bento card; 5 cards)
@@ -609,27 +674,36 @@ Testimonial portraits reuse `hero-1/2/3.png` — no separate files.
 The canonical image-gen script lives in this folder: `.claude/skills/destination-generator/gen-images.py`. It is entity-agnostic — pass a slug (and optionally `--root`) and it processes every `*-ref.<ext>` file in the matching references folder.
 
 ```
+# Whole folder (batch — every *-ref.<ext>)
 GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py <slug>
 GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --root experience <slug>
-GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --root accommodation <slug>
+
+# Single image (the chained-loop default)
+GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --only <name> <slug>
+
+# Single image with a composition change beyond colour
+GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --only <name> <slug> \
+  --instruction "ajoute un être humain en premier plan avec un appareil photo"
 ```
 
 - `--root` defaults to `destination`. Allowed values: `destination`, `experience`, `accommodation`.
+- `--only <name>` processes just that one output (matches the `<name>` of `<name>-ref.<ext>`). This is what the chained loop uses.
+- `--instruction "<text>"` lifts the grade-only rule for that image and applies the requested edit, then the grade, preserving untouched elements. **Requires `--only`** (the script errors otherwise) — a composition instruction is per-image, never folder-wide.
 - Reads `references/<root>/<slug>/<name>-ref.<ext>`
 - Sends the reference + a fixed style brief (the "preserve + grade" prompt baked into the script — do NOT re-describe the prompt elsewhere)
 - Writes `public/<root>/<slug>/<name>.png`
-- Skips outputs that already exist; pass `--force` to overwrite
+- Skips outputs that already exist; pass `--force` to overwrite. (`--instruction` implies `--force` so re-runs of the same image take effect.)
 
 The style brief is intentionally not duplicated outside the script — it is part of the script's contract.
 
 ### SOURCES.md format
 
-`references/destination/<slug>/SOURCES.md` is the traceability log. The skill scaffolds it with one row per expected output image, Source URL as `TODO`. Once the user provides reference links, Claude fills in the URL column, downloads each reference as `<name>-ref.<ext>`, and runs `gen-images.py`.
+`references/destination/<slug>/SOURCES.md` is the traceability log. The skill scaffolds it with one row per expected output image, Source URL as `TODO`. As the chained loop progresses, Claude fills in the URL column for each image it processes (and notes any `--instruction` correction applied).
 
 ```markdown
 # Reference images — <Destination name>
 
-Each generated image in `public/destination/<slug>/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 2.5 Flash Image alongside the corresponding reference photograph below.
+Each generated image in `public/destination/<slug>/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
 
 | Output         | Reference file       | Source URL                    | License     |
 | -------------- | -------------------- | ----------------------------- | ----------- |
@@ -650,8 +724,8 @@ Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); `SOUR
 - Do NOT fill in `sections: []` on the entity stubs you create. They ship empty; cards on the destination page will render unlinked until sections are added later. This is intentional.
 - Do NOT create local `info-grid.tsx` or `tips.tsx` files — that data goes inside the `<slug>.tsx` `sections` array as `infoGrid` and `tips` entries.
 - Do NOT update `src/app/sitemap.ts`, the header, the menu, the footer, or `site-search.tsx`. They are all registry-driven.
-- Do NOT download reference photos or run `gen-images.py` during the scaffolding step — wait for the user to provide the reference links first (they come in a follow-up message after the report).
-- Do NOT run the dev server. Type-check only.
+- Do NOT download reference photos or run `gen-images.py` during the scaffolding step — that happens later, in the chained image phase, one image at a time.
+- The **scaffolding** step is type-check only — do NOT run the dev server while writing files. The dev server IS started later, during the chained image phase, so each generated image can be previewed in the rendered page (see "## Images — chained, one at a time").
 
 ---
 

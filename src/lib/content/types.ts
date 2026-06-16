@@ -29,6 +29,19 @@ export type Continent = EntityBase & {
 
 export type Destination = EntityBase & {
   country?: string;
+  /**
+   * Where this destination sits in the Continent > Pays > Villes/Régions tree.
+   * Drives the navigation menu nesting (see `getDestinationsByContinentGrouped`
+   * and `menu-panel.tsx`):
+   *   - "country": the page IS the country node. Shown as the deployable Pays
+   *     header inside its continent, and the header links to this page.
+   *   - "region" | "city": nested UNDER its `country`, hidden until the Pays
+   *     row is expanded.
+   * Omitted defaults to a nested leaf (treated like "city") so the destination
+   * never appears at the same level as a country. Site search stays flat — every
+   * destination is findable regardless of this field.
+   */
+  placeKind?: "country" | "region" | "city";
   continentSlug?: string;
   themeSlugs?: string[];
   accommodationSlugs?: string[];
