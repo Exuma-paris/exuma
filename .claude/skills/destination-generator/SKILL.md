@@ -15,7 +15,7 @@ Always read `STYLE.md` and `REFERENCE.md` in this same folder before writing dat
 
 Experiences and accommodations referenced from a destination page are **separate entities**, not inline cards. Each card displayed on the destination page comes from a file under `src/content/experiences/` or `src/content/accommodations/` that owns the title, blurb, and hero image. The destination just references them by slug via two `entityList` sections.
 
-This means: every destination page generation produces both the destination file *and* up to seven small entity stub files (4 experiences + 3 accommodations). The stubs ship with `sections: []` — they're metadata-only until promoted to a full page later. The destination's card shows the stub's `name`/`blurb`/`heroImage`. Cards are unlinked while sections are empty; they become linked automatically once the entity is fleshed out.
+This means: every destination page generation produces both the destination file *and* up to six small entity stub files (3 experiences + 3 accommodations) — the « coup de cœur » experience is a 4th experience that is inlined into the `imageDuoWithText` section and gets **no stub**. The stubs ship with `sections: []` — they're metadata-only until promoted to a full page later. The destination's card shows the stub's `name`/`blurb`/`heroImage`. Cards are unlinked while sections are empty; they become linked automatically once the entity is fleshed out.
 
 If a referenced experience or hotel **already exists** under `src/content/experiences/` or `src/content/accommodations/` (e.g. a new Polynésie page mentioning "The Brando"), reuse the existing slug — do NOT create a duplicate. The destination simply references the existing entity.
 
@@ -40,7 +40,7 @@ Before producing anything, walk the user through **seven questions, in this exac
 | Q2 | Place type (pays / région / ville) | `placeKind`, `country`, tree position | step 1a |
 | Q3 | Primary persona(s) | editorial voice + Q4/Q5 picks | step 1b |
 | Q4 | Accommodations — retain **3** | `entityList kind: "accommodation"` + stubs | step 1c |
-| Q5 | Experiences — retain **4**, incl. 1 focus | `entityList kind: "experience"` + coup de cœur | step 1d |
+| Q5 | Experiences — retain **4**, incl. 1 focus | `imageDuoWithText` + `entityList kind: "experience"` | step 1d |
 | Q6 | Destination expert (collaborateur) | `specialistSpotlight` | step 1e |
 | Q7 | Related destinations (pays) — **3** | inspiration carousel | step 1f |
 
@@ -100,7 +100,7 @@ Wait for confirmation. Accept partial edits and re-confirm if substantial. Once 
 
 ### 1d. Experiences — retain 4, including 1 focus (Q5)
 
-The destination page references **4 experiences**, one of which is the **focus** spotlighted in "Notre coup de cœur" (section #7). **Always ask** unless the user already named experiences in their opening prompt.
+The destination page uses **4 experiences**: 1 is the **focus** spotlighted in "Notre coup de cœur" (`imageDuoWithText`, slot 6), and 3 fill the `entityList kind: "experience"` block (slot 7, directly below the focus). The focus experience is **not** repeated in the `entityList` and gets **no stub file**. **Always ask** unless the user already named experiences in their opening prompt.
 
 Ask: *"Avez-vous une liste d'expériences (on en retient 4), ou je propose ? Et laquelle met-on en avant dans « Notre coup de cœur » ?"*
 
@@ -126,7 +126,7 @@ Wait for confirmation, including **which experience is the focus**. Skip the cou
 
 #### Either way
 
-Once locked you have **4 experience slugs** (1 marked as the focus) and **3 accommodation slugs**, each tagged *existing* or *new*. Carry them into step 5 — they drive the two `entityList` `slugs` arrays and determine which stub files step 5b creates.
+Once locked you have **4 experience slugs** (1 marked as the focus) and **3 accommodation slugs**, each tagged *existing* or *new*. Carry them into step 5: the focus drives `imageDuoWithText` only, the other 3 drive `entityList kind: "experience"`, and the accommodations drive `entityList kind: "accommodation"`. Only the 3 non-focus experiences and the 3 accommodations create stub files in step 5b.
 
 The focus experience fills the `imageDuoWithText` section in step 5a:
 
@@ -255,7 +255,7 @@ Before writing anything, read:
 
 ### 5. Create files
 
-The selection is already locked from the questionnaire (steps 1c–1f) — you have **4 experience slugs** (1 is the focus), **3 accommodation slugs** (each marked *existing* or *new*), and up to 3 related destination slugs (all existing). Don't reopen the question here. If the locked selection includes a slug you can't tell whether it exists, run `ls` once and proceed.
+The selection is already locked from the questionnaire (steps 1c–1f) — you have **1 « coup de cœur » experience slug** (drives `imageDuoWithText`, no stub), **3 experience slugs** for `entityList kind: "experience"`, **3 accommodation slugs** (each marked *existing* or *new*), and up to 3 related destination slugs (all existing). Don't reopen the question here. If the locked selection includes a slug you can't tell whether it exists, run `ls` once and proceed.
 
 #### 5a. Create `src/content/destinations/<slug>.tsx`
 
@@ -424,8 +424,8 @@ The 14 mandatory entries in `sections[]`, in this exact order, plus one optional
 3. `textColumns` (intro — bg-white)
 4. `fullImage`
 5. `textImagesSplit`
-6. **`entityList`** (`kind: "experience"` — bg-white) — references 4 experience slugs (1 is the coup-de-cœur focus)
-7. `imageDuoWithText` (cultural duo — composite type)
+6. `imageDuoWithText` (**« Notre coup de cœur »** — spotlights the 1 focus experience; composite type)
+7. **`entityList`** (`kind: "experience"` — bg-white) — references the 3 non-focus experience slugs; placed directly under the focus section
 8. **`entityList`** (`kind: "accommodation"` — bg-background-soft) — references 3 accommodation slugs
 9. `infoGrid`
 10. `bento`
@@ -660,8 +660,8 @@ Canonical output filenames (mirror Polynésie/Corse):
 hero-1.png          hero-2.png          hero-3.png
 full-image.png
 split-1.png         split-2.png
-xp-<activity>.png   (one per experience card; 4 cards — the matching xp-*.png is the entity's heroImage)
-ceremony.png        image-homme.png     (cultural duo — or destination-adapted, e.g. polyphonie.png + berger.png for Corse)
+xp-<activity>.png   (one per experience card; 3 cards — the matching xp-*.png is the entity's heroImage)
+xp-<focus>-1.png    xp-<focus>-2.png    (the « coup de cœur » experience — duo.left / duo.right of the imageDuoWithText section)
 hotel-<name>.png    (one per hotel card; 3 cards — the matching hotel-*.png is the entity's heroImage)
 bento-<topic>.png   (one per bento card; 5 cards)
 map-<place>.png     (one per map place; 6 places)

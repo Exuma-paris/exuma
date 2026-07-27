@@ -121,18 +121,6 @@ export const destination: Destination = {
     },
 
     {
-      type: "entityList",
-      kind: "experience",
-      background: "bg-white",
-      eyebrow: "Trois expériences",
-      heading: "Ce qu'on fait, concrètement",
-      description:
-        "Des moments vécus, ancrés dans des personnes. Ni démonstrations, ni programme : des accès qui ne se trouvent pas en cherchant.",
-      cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
-      slugs: ["peche-moorea", "nick-tetautiare", "lagon-moorea"],
-    },
-
-    {
       type: "imageDuoWithText",
       duo: {
         left: {
@@ -152,6 +140,18 @@ export const destination: Destination = {
           "Sur chaque dossier Polynésie, plusieurs expertises se mobilisent : la connaissance des archipels, les hébergements hors réseaux de distribution, la logistique de connexion entre les îles, les accès négociés localement avec des personnes qui connaissent les îles pour y vivre. Un seul interlocuteur coordonne l'ensemble et reste le vôtre du premier échange jusqu'au retour. Les transferts sont privés. Ce que nous mettons en place, vous n'avez pas à le vérifier.",
         ],
       },
+    },
+
+    {
+      type: "entityList",
+      kind: "experience",
+      background: "bg-white",
+      eyebrow: "Trois expériences",
+      heading: "Ce qu'on fait, concrètement",
+      description:
+        "Des moments vécus, ancrés dans des personnes. Ni démonstrations, ni programme : des accès qui ne se trouvent pas en cherchant.",
+      cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
+      slugs: ["peche-moorea", "nick-tetautiare", "lagon-moorea"],
     },
 
     {

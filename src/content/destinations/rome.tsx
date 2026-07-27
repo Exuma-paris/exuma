@@ -103,22 +103,6 @@ export const destination: Destination = {
     },
 
     {
-      type: "entityList",
-      kind: "experience",
-      background: "bg-white",
-      eyebrow: "Expériences et activités en Rome",
-      heading: "Ce qu'on fait, concrètement",
-      description:
-        "Trois moments ancrés dans des personnes : un historien d'art, une nonna, un guide en Vespa. Aucune file d'attente, aucun groupe.",
-      cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
-      slugs: [
-        "galerie-borghese-prive",
-        "nonna-cuisine-trastevere",
-        "via-appia-vespa",
-      ],
-    },
-
-    {
       type: "imageDuoWithText",
       duo: {
         left: {
@@ -138,6 +122,22 @@ export const destination: Destination = {
           "Notre historien d'art italien guide en français, par tranches de quinze minutes par salle. Il revient deux fois sur Apollon et Daphné. C'est ce moment-là qu'on signe, parce que c'est rare, et parce qu'on ne le voit pas autrement.",
         ],
       },
+    },
+
+    {
+      type: "entityList",
+      kind: "experience",
+      background: "bg-white",
+      eyebrow: "Expériences et activités en Rome",
+      heading: "Ce qu'on fait, concrètement",
+      description:
+        "Trois moments ancrés dans des personnes : un historien d'art, une nonna, un guide en Vespa. Aucune file d'attente, aucun groupe.",
+      cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
+      slugs: [
+        "galerie-borghese-prive",
+        "nonna-cuisine-trastevere",
+        "via-appia-vespa",
+      ],
     },
 
     {

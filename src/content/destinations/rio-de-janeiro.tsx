@@ -103,22 +103,6 @@ export const destination: Destination = {
     },
 
     {
-      type: "entityList",
-      kind: "experience",
-      background: "bg-white",
-      eyebrow: "Expériences et activités en Rio de Janeiro",
-      heading: "Ce qu'on fait, concrètement",
-      description:
-        "Trois moments qui ne s'improvisent pas : les plages sauvages de la côte ouest, l'aube sur le Corcovado, une sortie en mer avec un pêcheur d'Ipanema. Aucune file d'attente, aucun groupe.",
-      cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
-      slugs: [
-        "sables-secrets-rio",
-        "corcovado-aube-paineiras",
-        "iles-cagarras-pecheur",
-      ],
-    },
-
-    {
       type: "imageDuoWithText",
       duo: {
         left: {
@@ -138,6 +122,22 @@ export const destination: Destination = {
           "Notre percussionniste y est résident depuis vingt ans. Il enseigne le surdo, le tamborim, le pandeiro — un par participant. La séance dure deux heures. Le rythme s'apprend par le corps, pas par la partition. À la fin, on joue ensemble une samba simple. C'est ce moment-là qu'on signe, parce qu'on ne le voit pas autrement.",
         ],
       },
+    },
+
+    {
+      type: "entityList",
+      kind: "experience",
+      background: "bg-white",
+      eyebrow: "Expériences et activités en Rio de Janeiro",
+      heading: "Ce qu'on fait, concrètement",
+      description:
+        "Trois moments qui ne s'improvisent pas : les plages sauvages de la côte ouest, l'aube sur le Corcovado, une sortie en mer avec un pêcheur d'Ipanema. Aucune file d'attente, aucun groupe.",
+      cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
+      slugs: [
+        "sables-secrets-rio",
+        "corcovado-aube-paineiras",
+        "iles-cagarras-pecheur",
+      ],
     },
 
     {

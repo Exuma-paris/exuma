@@ -120,18 +120,6 @@ export const destination: Destination = {
     },
 
     {
-      type: "entityList",
-      kind: "experience",
-      background: "bg-white",
-      eyebrow: "Trois expériences",
-      heading: "Sur place, concrètement",
-      description:
-        "Des moments ancrés dans des personnes et des lieux précis. Ni démonstrations, ni programme, des accès qui ne se trouvent pas en cherchant.",
-      cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
-      slugs: ["louvre-prive-nocturne", "rungis-chef", "atelier-lesage"],
-    },
-
-    {
       type: "imageDuoWithText",
       duo: {
         left: {
@@ -151,6 +139,18 @@ export const destination: Destination = {
           "Notre travail, c'est l'introduction. Le bouquiniste qui sortira pour vous une première édition de Bonjour tristesse. L'ébéniste qui acceptera la conversation un mardi à dix heures. Le restaurateur de tableaux, quai Voltaire, qui vous montrera ce qu'il restaure pour le Louvre. Un seul interlocuteur coordonne tout cela. Les rendez-vous sont pris. Vous arrivez.",
         ],
       },
+    },
+
+    {
+      type: "entityList",
+      kind: "experience",
+      background: "bg-white",
+      eyebrow: "Trois expériences",
+      heading: "Sur place, concrètement",
+      description:
+        "Des moments ancrés dans des personnes et des lieux précis. Ni démonstrations, ni programme, des accès qui ne se trouvent pas en cherchant.",
+      cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
+      slugs: ["louvre-prive-nocturne", "rungis-chef", "atelier-lesage"],
     },
 
     {

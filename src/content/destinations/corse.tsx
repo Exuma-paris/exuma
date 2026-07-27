@@ -120,18 +120,6 @@ export const destination: Destination = {
     },
 
     {
-      type: "entityList",
-      kind: "experience",
-      background: "bg-white",
-      eyebrow: "Expériences & activités en Corse",
-      heading: "Nos coups de cœur en Corse",
-      description:
-        "Une île qui se révèle à qui prend le temps. Du sentier muletier aux calanques rouges, du bateau privé aux caves de granit, chaque expérience est pensée pour vous immerger dans une Corse intime et préservée.",
-      cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
-      slugs: ["gr20", "lavezzi", "vin-corse"],
-    },
-
-    {
       type: "imageDuoWithText",
       duo: {
         left: {
@@ -151,6 +139,18 @@ export const destination: Destination = {
           "L'art ancien des paghjelle raconte la pierre, la terre et les saints. La fleur d'immortelle vous accueille dès vos premiers pas dans le maquis. Visitez les chapelles romanes oubliées, écoutez le silence des anciens villages perchés. La Corse, terre d'histoires retenues, sait toujours et encore vous saisir profondément.",
         ],
       },
+    },
+
+    {
+      type: "entityList",
+      kind: "experience",
+      background: "bg-white",
+      eyebrow: "Expériences & activités en Corse",
+      heading: "Nos coups de cœur en Corse",
+      description:
+        "Une île qui se révèle à qui prend le temps. Du sentier muletier aux calanques rouges, du bateau privé aux caves de granit, chaque expérience est pensée pour vous immerger dans une Corse intime et préservée.",
+      cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
+      slugs: ["gr20", "lavezzi", "vin-corse"],
     },
 
     {

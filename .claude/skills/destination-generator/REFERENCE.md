@@ -155,9 +155,34 @@ The collaborateur slug must already exist — the skill never creates a new coll
 
 ---
 
-## 6. entityList (experiences)
+## 6. imageDuoWithText (« Notre coup de cœur » — experience spotlight)
 
-This block references 3 experience slugs. The cards' display data (title, blurb, image) comes from each `Experience` entity file under `src/content/experiences/`. See "Experience entity stub" below for the entity shape.
+Slot 6 spotlights the single « coup de cœur » experience chosen in step 1b (the 4th experience, pulled out of the `entityList` so it never appears twice). The two images are that experience's images; the text describes what makes it special. The section references no slug — the experience is inlined here and gets **no stub file**.
+
+```tsx
+{
+  type: "imageDuoWithText",
+  duo: {
+    left: { src: "/destination/<slug>/xp-<coupdecoeur>-1.png", alt: "…" },
+    right: { src: "/destination/<slug>/xp-<coupdecoeur>-2.png", alt: "…" },
+  },
+  text: {
+    eyebrow: "Notre coup de cœur",
+    heading: "…",                    // evocative, tied to the featured experience
+    columns: ["…", "…"],             // 2 paragraphs about the experience, no CTA
+  },
+}
+```
+
+The renderer wraps the two pieces in a div with collapsed vertical spacing — do not try to model that wrapper in data.
+
+Name both images after the featured experience (e.g. `xp-vol-helico-1.png` + `xp-vol-helico-2.png`) and add both to `PROMPTS.md`.
+
+---
+
+## 7. entityList (experiences)
+
+This block sits **directly under the « coup de cœur » section (slot 6)** and references 3 experience slugs (the « coup de cœur » experience is excluded — see step 1b). The cards' display data (title, blurb, image) comes from each `Experience` entity file under `src/content/experiences/`. See "Experience entity stub" below for the entity shape.
 
 ```tsx
 {
@@ -173,29 +198,6 @@ This block references 3 experience slugs. The cards' display data (title, blurb,
 ```
 
 Cards on the page render unlinked while the referenced entities have `sections: []` (the default state when the skill creates a fresh stub). Once an entity grows a non-empty `sections[]`, its card on this destination is automatically linked to `/experiences/<exp-slug>`. No edit to this block is required when an entity is promoted.
-
----
-
-## 7. imageDuoWithText (cultural duo)
-
-```tsx
-{
-  type: "imageDuoWithText",
-  duo: {
-    left: { src: "/destination/<slug>/ceremony.png", alt: "…" },
-    right: { src: "/destination/<slug>/image-homme.png", alt: "…" },
-  },
-  text: {
-    eyebrow: "Notre coup de cœur",
-    heading: "…",                    // evocative, e.g. "L'éveil au cœur du Mana sacré"
-    columns: ["…", "…"],             // 2 paragraphs, no CTA
-  },
-}
-```
-
-The renderer wraps the two pieces in a div with collapsed vertical spacing — do not try to model that wrapper in data.
-
-For destination-specific subjects, you may rename the images (e.g. `polyphonie.png` + `berger.png` for Corse).
 
 ---
 
@@ -216,7 +218,7 @@ This block references 3 accommodation slugs. The cards' display data comes from 
 }
 ```
 
-Same linkability rule as section 6: cards are unlinked while the referenced entities have empty `sections[]`, automatically linked once sections are added.
+Same linkability rule as section 7: cards are unlinked while the referenced entities have empty `sections[]`, automatically linked once sections are added.
 
 ---
 
