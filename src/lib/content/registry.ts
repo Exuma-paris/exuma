@@ -14,9 +14,8 @@ import type {
 } from "./types";
 
 import { destination as corse } from "@/content/destinations/corse";
+import { destination as grece } from "@/content/destinations/grece";
 import { destination as polynesie } from "@/content/destinations/polynesie";
-import { destination as polynesieOld } from "@/content/destinations/polynesie-old";
-import { destination as polynesie2 } from "@/content/destinations/polynesie-2";
 import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as paris } from "@/content/destinations/paris";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
@@ -73,6 +72,10 @@ import { experience as safariMontgolfiereMara } from "@/content/experiences/safa
 import { experience as croisiereBoutreMidaCreek } from "@/content/experiences/croisiere-boutre-mida-creek";
 import { experience as visiteSamburuOlMalo } from "@/content/experiences/visite-samburu-ol-malo";
 import { experience as museeKarenBlixenVoitures } from "@/content/experiences/musee-karen-blixen-voitures";
+import { experience as croisierePriveeCyclades } from "@/content/experiences/croisiere-privee-cyclades";
+import { experience as acropoleHorsHeures } from "@/content/experiences/acropole-hors-heures";
+import { experience as delphesGuideArcheologue } from "@/content/experiences/delphes-guide-archeologue";
+import { experience as tableSantorinVigneron } from "@/content/experiences/table-santorin-vigneron";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -98,6 +101,9 @@ import { accommodation as fourSeasonsMahe } from "@/content/accommodations/four-
 import { accommodation as giraffeManor } from "@/content/accommodations/giraffe-manor";
 import { accommodation as kinondoKwetu } from "@/content/accommodations/kinondo-kwetu";
 import { accommodation as richardsRiverCamp } from "@/content/accommodations/richards-river-camp";
+import { accommodation as amanzoe } from "@/content/accommodations/amanzoe";
+import { accommodation as canavesOia } from "@/content/accommodations/canaves-oia";
+import { accommodation as kalesmaMykonos } from "@/content/accommodations/kalesma-mykonos";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -114,11 +120,10 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
 
 export const destinations: Record<string, Destination> = toMap([
   corse,
+  grece,
   marrakech,
   paris,
   polynesie,
-  polynesie2,
-  polynesieOld,
   rioDeJaneiro,
   rome,
   seychelles,
@@ -147,12 +152,15 @@ export const themes: Record<string, Theme> = toMap([
 export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
+  acropoleHorsHeures,
   atelierLesage,
   atelierSambaMangueira,
   corcovadoAubePaineiras,
   coucherSoleilGranit,
+  croisierePriveeCyclades,
   cuisinePalaisBahia,
   decouverteIlesBateauSeychelles,
+  delphesGuideArcheologue,
   eclosionTortuesSeychelles,
   galerieBorghesePrive,
   gr20,
@@ -168,6 +176,7 @@ export const experiences: Record<string, Experience> = toMap([
   pecheMoorea,
   rungisChef,
   survolAtlasBiplan,
+  tableSantorinVigneron,
   viaAppiaVespa,
   vinCorse,
   volHelicoptereSeychelles,
@@ -189,8 +198,10 @@ export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
   amanjena,
+  amanzoe,
   belmondCopacabanaPalace,
   calaRossa,
+  canavesOia,
   casadelmar,
   chevalBlancParis,
   darAhlam,
@@ -201,6 +212,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   hotelDeRussie,
   hotelSantaTeresa,
   jKPlaceRoma,
+  kalesmaMykonos,
   leBristol,
   leTahaa,
   lhotelParis,

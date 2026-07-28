@@ -10,6 +10,6 @@ export const experience: Experience = {
     src: "/destination/polynesie/xp-plongee.png",
     alt: "Raie glissant dans les eaux peu profondes du lagon de Moorea",
   },
-  destinationSlugs: ["polynesie", "polynesie-2"],
+  destinationSlugs: ["polynesie"],
   sections: [],
 };
