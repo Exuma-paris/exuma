@@ -6,128 +6,30 @@ export const destination: Destination = {
   country: "Polynésie française",
   genitive: "de la Polynésie",
   continentSlug: "iles-oceanie",
-  placeKind: "country",
-  blurb: "Bora Bora, Tahiti, Taha'a, Moorea, les Marquises",
+  blurb: "Tetiaroa, Bora Bora, Moorea, Raiatea, Fakarava",
   keywords: [
     "polynesie",
     "tahiti",
     "bora bora",
     "moorea",
-    "tahaa",
-    "marquises",
+    "tetiaroa",
+    "raiatea",
+    "fakarava",
+    "tuamotu",
     "pacifique",
-  ],
-  landing: {
-    metaTitle: "Voyage de luxe en Polynésie",
-    metaDescription:
-      "Créateur de voyages d'exception façonnés selon vos aspirations, entre atolls préservés et adresses confidentielles de Polynésie.",
-    heroEyebrow: "Voyage de luxe en Polynésie",
-    heroHeading: "Vivez l'inaccessible",
-    heroDescription:
-      "Créateur de voyages d'exception façonnés selon vos aspirations, entre atolls préservés et adresses confidentielles de Polynésie.",
-    // TODO: verify rating numbers
-    rating: { score: 4.9, label: "247 voyages créés en 2025" },
-    floatingCtaLabel: "Découvrir la Polynésie",
-    slides: [
-      {
-        image: {
-          src: "/destination/polynesie/hero-1.png",
-          alt: "Plage de sable blanc bordée de cocotiers en Polynésie française",
-        },
-      },
-      {
-        image: {
-          src: "/destination/polynesie/hero-2.png",
-          alt: "Bungalows sur pilotis face au mont Otemanu à Bora Bora",
-        },
-      },
-      {
-        image: {
-          src: "/destination/polynesie/hero-3.png",
-          alt: "Lagon de Fakarava vu du ciel, archipel des Tuamotu",
-        },
-      },
-      {
-        image: {
-          src: "/destination/polynesie/full-image.png",
-          alt: "Vue panoramique d'un atoll polynésien",
-        },
-      },
-    ],
-  },
-  contactQuestions: [
-    {
-      id: "experience",
-      type: "multi",
-      eyebrow: "Créer votre voyage",
-      heading: "Quelle expérience recherchez-vous en Polynésie ?",
-      description: "Sélectionnez tout ce qui vous correspond.",
-      options: [
-        { id: "lagon", label: "Lagon et plages iconiques" },
-        { id: "culture", label: "Immersion culturelle polynésienne" },
-        { id: "nature", label: "Nature & randonnées (îles hautes)" },
-        { id: "exclusif", label: "Séjour ultra-exclusif / île privée" },
-      ],
-      min: 1,
-    },
-    {
-      id: "budget",
-      type: "single",
-      eyebrow: "Créer votre voyage",
-      heading: "Quel est votre budget par personne ?",
-      options: [
-        { id: "tier-1", label: "Moins de 5 000 €" },
-        { id: "tier-2", label: "5 000 € – 10 000 €" },
-        { id: "tier-3", label: "10 000 € – 20 000 €" },
-        { id: "tier-4", label: "Plus de 20 000 €" },
-      ],
-    },
-    {
-      id: "with-kids",
-      type: "boolean",
-      eyebrow: "Créer votre voyage",
-      heading: "Voyagez-vous avec des enfants ?",
-    },
-    {
-      id: "dates",
-      type: "calendar",
-      eyebrow: "Créer votre voyage",
-      heading: "Quelle période envisagez-vous pour votre voyage ?",
-      months: [
-        { id: "2026-01", title: "Janvier", subtitle: "2026" },
-        { id: "2026-02", title: "Février", subtitle: "2026" },
-        { id: "2026-03", title: "Mars", subtitle: "2026" },
-        { id: "2026-04", title: "Avril", subtitle: "2026" },
-        { id: "2026-05", title: "Mai", subtitle: "2026", weather: "good" },
-        { id: "2026-06", title: "Juin", subtitle: "2026", weather: "good" },
-        { id: "2026-07", title: "Juillet", subtitle: "2026", weather: "happy-max" },
-        { id: "2026-08", title: "Août", subtitle: "2026", weather: "happy-max" },
-        { id: "2026-09", title: "Septembre", subtitle: "2026", weather: "happy-max" },
-        { id: "2026-10", title: "Octobre", subtitle: "2026", weather: "good" },
-        { id: "2026-11", title: "Novembre", subtitle: "2026" },
-        { id: "2026-12", title: "Décembre", subtitle: "2026" },
-      ],
-    },
-    {
-      id: "contact",
-      type: "contact",
-      eyebrow: "Dernière étape",
-      heading: "Comment vous joindre ?",
-      description: "Un travel designer revient vers vous sous 24 heures.",
-    },
   ],
   sections: [
     {
       type: "hero",
-      eyebrow: "Polynésie française",
+      eyebrow: "Voyages sur mesure · Exuma",
       heading:
-        "Il y a en Polynésie une lumière qui change quatre fois avant midi. On ne sait pas pourquoi on le remarque. On ne l'oublie pas.",
+        "Polynésie française. Il y a une lumière ici qui ne ressemble à aucune autre.",
       description:
-        "Cinq archipels, cent dix-huit îles. Ce que nous construisons ici, c'est la logique qui relie les îles entre elles. Pas un programme à suivre. Un itinéraire qui a du sens.",
+        "Cinq archipels, cent dix-huit îles. Tetiaroa, Bora Bora, Moorea, Raiatea, Fakarava : chaque île a sa raison d'être dans un séjour, et cette raison change tout à ce qu'on ressent en arrivant. Nous construisons cette logique depuis plus de dix ans.",
       images: [
         {
           src: "/destination/polynesie/hero-1.png",
-          alt: "Plage de sable blanc bordée de cocotiers en Polynésie",
+          alt: "Plage de sable blanc bordée de cocotiers en Polynésie française",
         },
         {
           src: "/destination/polynesie/hero-2.png",
@@ -135,40 +37,41 @@ export const destination: Destination = {
         },
         {
           src: "/destination/polynesie/hero-3.png",
-          alt: "Piscine à débordement d'une villa de luxe en Polynésie",
+          alt: "Lagon de Fakarava vu du ciel, archipel des Tuamotu",
         },
       ],
     },
 
     {
       type: "specialistSpotlight",
-      eyebrow: "Pourquoi partir en Polynésie française ?",
-      heading:
-        "Stéphane, spécialiste de la Polynésie, vous partage son expérience",
+      eyebrow: "Notre rôle dans ce voyage",
+      heading: "Un seul interlocuteur, du premier échange jusqu'au retour",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",
+        // TODO: verify quote attribution
         quote:
-          "Voyager en Polynésie, c'est découvrir des paysages époustouflants, des plages de sable fin et une culture riche. Une aventure unique qui éveille les sens et nourrit l'âme.",
+          "Il y a des voyages qu'on construit en quelques échanges parce que tout s'aligne vite. Et d'autres où il faut une heure de conversation pour comprendre ce que la personne cherche vraiment, pas ce qu'elle demande. La Polynésie, c'est souvent le deuxième cas. Et c'est là que le voyage devient intéressant.",
+        role: "Travel Designer · Polynésie française",
       },
       features: [
         {
           iconName: "badgeCheck",
-          title: "Conciergerie 24/7",
+          title: "Hébergements hors réseaux",
           description:
-            "Assistance discrète, fast-track, chauffeurs privés et réservations exclusives.",
+            "Maisons, motu privés, lodges familiaux : des adresses qui ne se trouvent pas dans les moteurs de réservation.",
         },
         {
           iconName: "sparkles",
-          title: "Sur mesure",
+          title: "Logique inter-îles",
           description:
-            "Un travel designer dédié, expert de la Polynésie, façonne votre voyage selon vos envies.",
+            "Connaissance des archipels et des connexions. Chaque déplacement a une raison, vérifiée depuis plus de dix ans.",
         },
         {
           iconName: "star",
-          title: "Exclusif",
+          title: "Accès négociés localement",
           description:
-            "Accédez à des expériences rares, villas isolées et cérémonies polynésiennes authentiques.",
+            "Pêcheurs, navigateurs, guides, familles. Des personnes qui connaissent les îles pour y vivre.",
         },
       ],
     },
@@ -180,8 +83,8 @@ export const destination: Destination = {
       heading: "Un archipel, pas une destination",
       cta: { label: "Construire ce voyage", href: "/reserver" },
       columns: [
-        "À Fakarava, le fond du lagon est visible à quarante mètres de profondeur. On voit son ombre sur le sable avant même d'avoir sauté du bateau. Cette clarté n'est pas un détail de brochure. C'est la mesure de ce que la Polynésie a encore préservé, et de ce que le reste du monde a, depuis longtemps, perdu de vue.",
-        "Ce que nous construisons pour chaque voyage, c'est la logique qui relie les îles entre elles. Pas un programme à suivre, mais un itinéraire qui a du sens. La semaine à Moorea avant les Tuamotu. Le passage par Raiatea pour le marae de Taputapuatea, classé au patrimoine mondial de l'UNESCO. Les deux nuits sur Tetiaroa en ouverture ou en clôture, quand on a besoin que rien ne presse. Chaque déplacement a une raison. Cette raison change la qualité de ce qu'on ressent en arrivant.",
+        "À Fakarava, le fond du lagon est visible à quarante mètres de profondeur. On voit son ombre sur le sable avant même d'avoir sauté du bateau. Cette clarté n'est pas un détail de brochure. C'est la mesure de ce que la Polynésie française a encore préservé, et de ce que le reste du monde a, depuis longtemps, perdu de vue.",
+        "Un voyage en Polynésie française se construit autour d'une logique de déplacement entre les îles. La semaine à Moorea avant les Tuamotu. Le passage par Raiatea pour le marae de Taputapuatea, classé au patrimoine mondial de l'UNESCO. Les deux nuits sur Tetiaroa en ouverture ou en clôture, quand on a besoin que rien ne presse. Nous construisons cette cohérence depuis plus de dix ans. Chaque déplacement a une raison. Cette raison change la qualité de ce qu'on ressent en arrivant.",
         "« Il n'y a pas une Polynésie. Il y a celle qu'on voit depuis un bungalow sur pilotis, et celle qu'on découvre avec les bonnes personnes. Entre les deux, il y a tout le voyage. »",
       ],
     },
@@ -201,8 +104,9 @@ export const destination: Destination = {
       heading: "Le soir où le ciel change de sens",
       theme: "light",
       paragraphs: [
-        "Le bateau quitte Bora Bora au moment précis où le ciel commence à changer de couleur. Pas au coucher du soleil officiel. Avant. Quand le bleu se teinte d'orange sur le bord et que le lagon prend la couleur qu'il ne montrera jamais en plein jour. Le guide parle peu pendant la traversée. Il montre. La main tendue vers les étoiles qui apparaissent une à une, il explique comment les navigateurs polynésiens lisaient le ciel avant que les cartes n'existent.",
-        "Tupaia, le navigateur qui accompagna Cook en 1769, connaissait de mémoire la position de soixante-quatorze îles dans l'ensemble du Pacifique. Il les cartographiait par les étoiles. On accoste sur le motu à la nuit tombée. Il n'y a aucune lumière artificielle visible depuis la plage. Le ciel en Polynésie, loin des côtes, n'est pas le même ciel qu'ailleurs. Les enfants s'allongent dans le sable. Les adultes aussi.",
+        "Le bateau quitte Bora Bora au moment précis où le ciel commence à changer de couleur. Pas au coucher du soleil officiel. Avant. Quand le bleu se teinte d'orange sur le bord et que le lagon prend la couleur qu'il ne montrera jamais en plein jour.",
+        "Le guide parle peu pendant la traversée. Il montre. La main tendue vers les étoiles qui apparaissent une à une, il explique comment les navigateurs polynésiens lisaient le ciel avant que les cartes n'existent. Tupaia, le navigateur qui accompagna Cook en 1769, connaissait de mémoire la position de soixante-quatorze îles dans l'ensemble du Pacifique. Il les cartographiait par les étoiles. Le guide tend la main vers Arcturus. C'est celle-là qu'on suivait pour revenir de Tahiti.",
+        "On accoste sur le motu à la nuit tombée. Il n'y a aucune lumière artificielle visible depuis la plage. Le ciel en Polynésie, loin des côtes, n'est pas le même ciel qu'ailleurs. Les enfants s'allongent dans le sable. Les adultes aussi.",
       ],
       images: [
         {
@@ -211,7 +115,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/polynesie/split-2.png",
-          alt: "Bungalows sur pilotis face au mont Otemanu à Bora Bora",
+          alt: "Ciel étoilé au-dessus d'un motu polynésien",
         },
       ],
     },
@@ -221,10 +125,10 @@ export const destination: Destination = {
       kind: "experience",
       background: "bg-white",
       eyebrow: "Trois expériences",
-      heading: "Sur place, concrètement",
+      heading: "Ce qu'on fait, concrètement",
       description:
         "Des moments vécus, ancrés dans des personnes. Ni démonstrations, ni programme : des accès qui ne se trouvent pas en cherchant.",
-      cta: { label: "Voir tous les coups de coeurs", href: "/experiences" },
+      cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
       slugs: ["peche-moorea", "nick-tetautiare", "lagon-moorea"],
     },
 
@@ -241,11 +145,11 @@ export const destination: Destination = {
         },
       },
       text: {
-        eyebrow: "Notre approche",
-        heading: "Une façon particulière d'y aller",
+        eyebrow: "La logique des archipels",
+        heading: "Une façon particulière d'organiser ce voyage",
         columns: [
-          "La Polynésie ne se visite pas dans l'ordre. On n'y avance pas d'est en ouest ni du nord au sud. On y gravite, d'un archipel à l'autre, selon ce que l'on cherche à ce moment-là du voyage. Ce que nous construisons, c'est cette logique de déplacement. Pas un programme. Une cohérence.",
-          "Sur chaque dossier Polynésie, plusieurs expertises se mobilisent : la connaissance des archipels, les hébergements hors réseaux de distribution, la logistique de connexion entre les îles, les accès négociés localement avec des personnes qui connaissent les îles pour y vivre. Un seul interlocuteur coordonne l'ensemble et reste le vôtre du premier échange jusqu'au retour.",
+          "« La Polynésie ne se visite pas dans l'ordre. On n'y avance pas d'est en ouest ni du nord au sud. On y gravite, d'un archipel à l'autre, selon ce que l'on cherche à ce moment-là du voyage. Ce que nous construisons, c'est cette logique de déplacement. Pas un programme. Une cohérence. »",
+          "Sur chaque dossier Polynésie, plusieurs expertises se mobilisent : la connaissance des archipels, les hébergements hors réseaux de distribution, la logistique de connexion entre les îles, les accès négociés localement avec des personnes qui connaissent les îles pour y vivre. Un seul interlocuteur coordonne l'ensemble et reste le vôtre du premier échange jusqu'au retour. Les transferts sont privés. Ce que nous mettons en place, vous n'avez pas à le vérifier.",
         ],
       },
     },
@@ -254,7 +158,7 @@ export const destination: Destination = {
       type: "entityList",
       kind: "accommodation",
       background: "bg-background-soft",
-      eyebrow: "Hébergements",
+      eyebrow: "Hébergements en Polynésie française",
       heading: "Où séjourner",
       description:
         "Quatre adresses choisies pour ce qu'elles sont, pas pour ce qu'elles disent. Le niveau se lit dans le texte, pas dans les étoiles.",
@@ -266,7 +170,7 @@ export const destination: Destination = {
       type: "infoGrid",
       background: "bg-white",
       eyebrow: "Avant le départ",
-      heading: "Ce qu'il faut savoir avant de partir",
+      heading: "Ce qu'il faut savoir avant de partir en Polynésie",
       description:
         "Monnaie, formalités, escale, temps de vol, décalage et meilleure saison : l'essentiel pour préparer le voyage sereinement.",
       cta: { label: "Construire ce voyage", href: "/reserver" },
@@ -275,37 +179,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie",
           description:
-            "La Polynésie a sa propre monnaie, le franc CFP, fixé à l'euro depuis 1945. 1 € ≈ 119 francs CFP, sans risque de variation.",
+            "Franc CFP (XPF), fixé à l'euro depuis 1945 et sans fluctuation. 1 € ≈ 119 francs CFP. Retrait sur place, sans risque de change.",
         },
         {
           iconName: "fileText",
           title: "Formalités",
           description:
-            "Un passeport valide est recommandé pour tous. La carte d'identité française ne suffit pas pour transiter aux États-Unis lors de l'escale.",
+            "Passeport valide recommandé pour tous, quelle que soit la nationalité. La carte d'identité française ne suffit pas pour l'escale aux États-Unis.",
         },
         {
           iconName: "plane",
           title: "Escale",
           description:
-            "La plupart des vols depuis Paris font escale à Los Angeles. Une autorisation ESTA est obligatoire (≈ 21 $, en ligne, quelques heures). Nous l'anticipons pour chaque client.",
+            "La plupart des vols depuis Paris transitent par Los Angeles. Une autorisation ESTA (≈ 21 $, en ligne) est obligatoire. Nous l'anticipons pour chaque client.",
         },
         {
           iconName: "clock",
           title: "Temps de vol",
           description:
-            "Comptez entre 21 et 23 heures depuis Paris, escale comprise. Air Tahiti Nui propose un vol direct saisonnier depuis Charles-de-Gaulle.",
+            "21 à 23 heures depuis Paris, escale comprise. Vol direct saisonnier Air Tahiti Nui depuis CDG. Air France via Los Angeles ou Tokyo.",
         },
         {
           iconName: "clock",
-          title: "Décalage",
+          title: "Décalage horaire",
           description:
-            "12 heures d'avance sur la France en hiver, 11 en été. Le premier jour sur place se récupère naturellement.",
+            "12 heures d'avance sur la France en hiver, 11 heures en été. Le décalage joue en faveur des lève-tôt.",
         },
         {
           iconName: "calendarDays",
           title: "Quand partir",
           description:
-            "De mai à octobre, climat le plus agréable. Novembre et avril restent très bien, avec moins de visiteurs. Baleines à bosse d'août à octobre.",
+            "De mai à octobre : moins d'humidité, vents réguliers. Novembre et avril restent très bien, avec moins de visiteurs. Baleines à bosse d'août à octobre.",
         },
       ],
     },
@@ -321,17 +225,17 @@ export const destination: Destination = {
         {
           title: "Connaissance des archipels",
           description:
-            "Cinq archipels, cent dix-huit îles. Nous savons lesquels assembler, dans quel ordre, et pourquoi.",
+            "Cinq archipels, cent dix-huit îles. Nous savons lesquels assembler, dans quel ordre, et pourquoi. Une cohérence vérifiée depuis plus de dix ans.",
           image: {
             src: "/destination/polynesie/bento-map.png",
-            alt: "Carte d'itinéraire personnalisé en Polynésie",
+            alt: "Carte d'itinéraire personnalisé en Polynésie française",
           },
           tone: "dark",
         },
         {
           title: "Hébergements hors réseaux",
           description:
-            "Des adresses qui ne se trouvent pas dans les moteurs de réservation. Maisons, motu privés, lodges familiaux.",
+            "Maisons de famille, motu privés, lodges. Des adresses qui ne se trouvent pas dans les moteurs de réservation.",
           image: {
             src: "/destination/polynesie/bento-huahine.png",
             alt: "Végétation luxuriante de Huahine",
@@ -349,7 +253,7 @@ export const destination: Destination = {
         {
           title: "Accès négociés localement",
           description:
-            "Avec des personnes qui connaissent les îles pour y vivre. Pêcheurs, navigateurs, guides, familles.",
+            "Avec des personnes qui connaissent les îles pour y vivre. Pêcheurs, navigateurs, guides, familles : la différence se sent à table.",
           image: {
             src: "/destination/polynesie/bento-homme.png",
             alt: "Habitant polynésien dans son environnement",
@@ -358,7 +262,7 @@ export const destination: Destination = {
         {
           title: "Un seul interlocuteur",
           description:
-            "Du premier échange jusqu'au retour. Les transferts sont privés. Les ajustements de dernière minute, gérés.",
+            "Du premier échange jusqu'au retour. Réponse sous 24h. Les ajustements de dernière minute, gérés. Les transferts, privés.",
           image: {
             src: "/destination/polynesie/bento-plongee.png",
             alt: "Plongeur nageant avec des raies mantas",
@@ -370,57 +274,17 @@ export const destination: Destination = {
     {
       type: "placesMap",
       background: "bg-background-soft",
-      eyebrow: "Les îles",
-      heading: "Les îles à connaître",
+      eyebrow: "Que voir en Polynésie française",
+      heading: "Quatre lieux, et ce qu'il y a derrière",
       description:
-        "Une fois la carte des archipels posée, chaque île tient une promesse distincte. Voici celles autour desquelles s'organisent la plupart de nos itinéraires.",
+        "Tetiaroa, Moorea, Bora Bora, Raiatea : chaque île tient une promesse distincte. Voici celles autour desquelles s'organisent la plupart de nos itinéraires, plus deux îles que peu de voyageurs traversent.",
       cta: { label: "Construire ce voyage", href: "/reserver" },
       initialZoom: 6,
       places: [
         {
-          title: "Bora Bora",
+          title: "Tetiaroa, l'atoll privé",
           description:
-            "Le lagon est réel, exactement la couleur des photographies. La densité des resorts l'est aussi. À aborder par les hauteurs.",
-          image: {
-            src: "/destination/polynesie/map-huahine.png",
-            alt: "Vue aérienne de Bora Bora",
-          },
-          coordinates: { lat: -16.5004, lng: -151.7415 },
-        },
-        {
-          title: "Huahine",
-          description:
-            "Une île restée à l'écart. Vie locale intacte, marae enfouis dans la végétation, baies profondes.",
-          image: {
-            src: "/destination/polynesie/map-huahine.png",
-            alt: "Plage tropicale de Huahine",
-          },
-          coordinates: { lat: -16.7333, lng: -150.9833 },
-        },
-        {
-          title: "Raiatea",
-          description:
-            "L'île sacrée, berceau de la civilisation polynésienne. Le marae de Taputapuatea est classé au patrimoine mondial UNESCO.",
-          image: {
-            src: "/destination/polynesie/map-raiatea.png",
-            alt: "Côte verdoyante de Raiatea",
-          },
-          coordinates: { lat: -16.8333, lng: -151.4333 },
-        },
-        {
-          title: "Taha'a",
-          description:
-            "L'île vanille. 80 % de la vanille polynésienne pousse ici. L'air en porte le parfum dès qu'on pose les bagages.",
-          image: {
-            src: "/destination/polynesie/map-tahaa.png",
-            alt: "Lagon de Taha'a",
-          },
-          coordinates: { lat: -16.6167, lng: -151.497 },
-        },
-        {
-          title: "Tetiaroa",
-          description:
-            "L'atoll n'a pas de route. L'avion dépose les passagers sur une bande de sable entre deux lagons. The Brando occupe le lieu.",
+            "L'atoll n'a pas de route. The Brando occupe les terres que Marlon Brando avait achetées après les Révoltés du Bounty.",
           image: {
             src: "/destination/polynesie/map-tetiaroa.png",
             alt: "Atoll de Tetiaroa vu du ciel",
@@ -428,14 +292,54 @@ export const destination: Destination = {
           coordinates: { lat: -17.0133, lng: -149.5597 },
         },
         {
-          title: "Tuamotu",
+          title: "Moorea, la montagne dans le lagon",
           description:
-            "Plus grand archipel de Polynésie, paradis des plongeurs. À Fakarava, la passe de Garuae se plonge tôt le matin.",
+            "Depuis le ferry de nuit, on voit la montagne avant l'île. Les pics à 880 mètres, le vert qui descend jusqu'à l'eau.",
+          image: {
+            src: "/destination/polynesie/map-huahine.png",
+            alt: "Pics déchiquetés de Moorea émergeant du lagon",
+          },
+          coordinates: { lat: -17.5388, lng: -149.8295 },
+        },
+        {
+          title: "Bora Bora, le lagon, vraiment",
+          description:
+            "Le lagon est réel, exactement la couleur des photographies. La densité des resorts l'est aussi. À aborder par les hauteurs.",
+          image: {
+            src: "/destination/polynesie/map-huahine.png",
+            alt: "Vue aérienne du lagon de Bora Bora et du mont Otemanu",
+          },
+          coordinates: { lat: -16.5004, lng: -151.7415 },
+        },
+        {
+          title: "Raiatea, le berceau de la Polynésie",
+          description:
+            "L'île sacrée, point de départ des premiers navigateurs polynésiens. Marae de Taputapuatea classé UNESCO.",
+          image: {
+            src: "/destination/polynesie/map-raiatea.png",
+            alt: "Marae de Taputapuatea sur l'île de Raiatea",
+          },
+          coordinates: { lat: -16.8333, lng: -151.4333 },
+        },
+        {
+          title: "Maupiti, le lagon sans les hôtels",
+          description:
+            "À 30 minutes de vol de Bora Bora, le même lagon, sans un seul grand hôtel. Les hébergements sont des maisons de famille.",
+          image: {
+            src: "/destination/polynesie/map-tahaa.png",
+            alt: "Lagon de Maupiti vu du ciel",
+          },
+          coordinates: { lat: -16.4333, lng: -152.2667 }, // TODO: verify coords
+        },
+        {
+          title: "Fakarava, la passe de Garuae",
+          description:
+            "La passe se plonge tôt le matin. Les requins gris convergent par centaines, dans la réserve de biosphère UNESCO.",
           image: {
             src: "/destination/polynesie/map-tuamotu.png",
-            alt: "Eaux cristallines des Tuamotu",
+            alt: "Passe de Garuae à Fakarava, archipel des Tuamotu",
           },
-          coordinates: { lat: -15.9167, lng: -145.5167 },
+          coordinates: { lat: -16.0833, lng: -145.6167 }, // TODO: verify coords
         },
       ],
     },
@@ -443,126 +347,113 @@ export const destination: Destination = {
     {
       type: "tips",
       background: "bg-background-soft",
-      eyebrow: "Guide pratique",
-      heading:
-        "Les conseils de nos experts pour votre voyage en Polynésie française",
+      eyebrow: "Ce que les guides ne disent pas",
+      heading: "L'envers des îles",
       description:
-        "Quelques repères concrets pour préparer le séjour : ce qu'on emporte, ce qu'on anticipe côté santé, la fenêtre idéale, et comment fonctionne la vie sur place.",
+        "Quatre observations de terrain qui ne se trouvent pas dans un guide. Pour décider d'une étape, ou comprendre pourquoi nous l'inscrivons à un itinéraire.",
       cta: { label: "Construire ce voyage", href: "/reserver" },
       items: [
         {
-          title: "Dans ma valise",
-          cardEyebrow: "Tips",
-          modalEyebrow: "Guide pratique",
+          title: "Maupiti, le lagon sans les hôtels",
+          cardEyebrow: "Île",
+          modalEyebrow: "Ce que les guides ne disent pas",
           shortDescription:
-            "Vêtements légers, crème solaire reef-safe, anti-moustiques : l'essentiel pour voyager serein.",
+            "Le lagon de Bora Bora, sans un seul grand hôtel. Maisons de famille, table de la maison.",
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                Passeport valide recommandé pour tous les voyageurs, quelle que
-                soit la nationalité. La carte d'identité française est en
-                théorie acceptée pour entrer en Polynésie, mais elle ne suffit
-                pas pour transiter aux États-Unis lors de l'escale.
+                À trente minutes de vol de Bora Bora, Maupiti possède le même
+                lagon sans un seul grand hôtel dessus. La piste d'atterrissage
+                n'accepte pas les avions de ligne. On y arrive sur un vol
+                régional, et pendant la descente le lagon apparaît en dessous
+                avec une clarté identique à celle de Bora Bora, dans un silence
+                qu'elle n'a plus.
               </p>
               <p>
-                « Nous vérifions systématiquement les formalités de chacun de
-                nos clients avant le départ. »
-              </p>
-              <h4 className="font-medium">Sur place :</h4>
-              <p>
-                Tenue légère, maillot, chaussures de bateau, masque et tuba si
-                vous y tenez. Crème solaire reef-safe obligatoire dans
-                plusieurs lagons protégés. Anti-moustiques utile en intérieur
-                d'île.
-              </p>
-              <h4 className="font-medium">Conseil :</h4>
-              <p>
-                « Nos clients reçoivent une checklist personnalisée selon les
-                activités prévues, environ 3 semaines avant le départ. »
-              </p>
-            </div>
-          ),
-        },
-        {
-          title: "Santé",
-          cardEyebrow: "Tips",
-          modalEyebrow: "Guide pratique",
-          shortDescription:
-            "Aucun vaccin obligatoire, mais quelques précautions à connaître avant de partir.",
-          content: (
-            <div className="flex flex-col gap-4">
-              <p>
-                Pas de vaccin obligatoire. Mise à jour des vaccins universels
-                recommandée. Pas de paludisme. Présence ponctuelle de dengue,
-                chikungunya et zika : l'anti-moustique reste la meilleure
-                protection.
-              </p>
-              <p>
-                Numéros d'urgence locaux remis à l'arrivée. Infrastructures
-                médicales correctes à Papeete, plus limitées sur les îles
-                isolées.
-              </p>
-              <h4 className="font-medium">Conseil expert :</h4>
-              <p>
-                Trousse de pharmacie de voyage adaptée fournie par notre
-                équipe avant le départ.
-              </p>
-            </div>
-          ),
-        },
-        {
-          title: "Meilleure période",
-          cardEyebrow: "Tips",
-          modalEyebrow: "Guide pratique",
-          shortDescription:
-            "De mai à octobre pour un climat sec et doux, idéal pour explorer les îles.",
-          content: (
-            <div className="flex flex-col gap-4">
-              <p>
-                La saison la plus agréable s'étend de mai à octobre, avec
-                moins d'humidité et des vents réguliers. Novembre et avril
-                restent très bien, avec sensiblement moins de visiteurs.
-              </p>
-              <p>
-                Les baleines à bosse sont présentes d'août à octobre,
-                principalement autour de Tahiti, Moorea et Rurutu.
-              </p>
-              <h4 className="font-medium">Conseil expert :</h4>
-              <p>
-                « La fenêtre que nous recommandons en priorité va de mi-mai à
-                fin septembre. Climat stable, lumière exceptionnelle, peu de
-                pluie. »
-              </p>
-            </div>
-          ),
-        },
-        {
-          title: "Budget & vie locale",
-          cardEyebrow: "Tips",
-          modalEyebrow: "Guide pratique",
-          shortDescription:
-            "Franc CFP fixé à l'euro, transferts privés, et les bons réflexes pour la vie sur place.",
-          content: (
-            <div className="flex flex-col gap-4">
-              <p>
-                Monnaie locale : franc CFP, fixé à l'euro depuis 1945
-                (1 € ≈ 119 CFP). Pas de fluctuation de change. Carte bancaire
-                acceptée presque partout, espèces utiles sur les petites îles.
-              </p>
-              <p>
-                Le pourboire n'est pas une obligation culturelle. Il est
-                apprécié quand le service a été personnel.
-              </p>
-              <h4 className="font-medium">Transports sur place :</h4>
-              <p>
-                Vols domestiques (Air Tahiti), transferts privés, taxi-boat,
-                hydravion selon les îles. Les inter-îles se planifient en
-                amont.
+                Les hébergements sont des maisons de famille. La table est
+                celle de la maison.
               </p>
               <h4 className="font-medium">Avec Exuma :</h4>
               <p>
-                « Nous organisons systématiquement tous les transferts de nos
-                clients : chauffeur privé, taxi-boat, hydravion. »
+                Nous coordonnons les vols régionaux et la mise en relation avec
+                les familles qui accueillent. Une étape de deux à trois nuits,
+                inscrite avant ou après Bora Bora.
+              </p>
+            </div>
+          ),
+        },
+        {
+          title: "La passe de Garuae, Fakarava",
+          cardEyebrow: "Plongée",
+          modalEyebrow: "Ce que les guides ne disent pas",
+          shortDescription:
+            "Tôt le matin, avant que le courant ne change. Les requins gris convergent par centaines.",
+          content: (
+            <div className="flex flex-col gap-4">
+              <p>
+                À Fakarava, la passe se plonge tôt le matin, avant que le
+                courant ne change de sens. C'est à cette heure-là que les
+                requins gris convergent dans la passe, des centaines à la fois,
+                dans un spectacle que les scientifiques de la réserve de
+                biosphère UNESCO documentent depuis vingt ans.
+              </p>
+              <p>
+                La plupart des hébergements ne s'organisent pas autour de cette
+                fenêtre. Nous, si.
+              </p>
+              <h4 className="font-medium">Conseil expert :</h4>
+              <p>
+                Inscrire la plongée le premier matin, avant la fatigue du
+                voyage. La fenêtre est étroite et ne se rattrape pas.
+              </p>
+            </div>
+          ),
+        },
+        {
+          title: "L'intérieur de Tahiti, une île dans l'île",
+          cardEyebrow: "Tahiti",
+          modalEyebrow: "Ce que les guides ne disent pas",
+          shortDescription:
+            "La côte ouest est construite. L'intérieur ne l'est presque pas. Une journée, un 4x4, un guide.",
+          content: (
+            <div className="flex flex-col gap-4">
+              <p>
+                La côte ouest de Tahiti est construite. L'intérieur de l'île ne
+                l'est presque pas. La vallée de Fautaua, les cols vers
+                Papeno'o, les chutes de Vaipahi composent une autre île, dense
+                et verte, que la plupart des voyageurs qui transitent par
+                Papeete ne soupçonnent pas.
+              </p>
+              <p>
+                Une journée, un 4x4, le bon guide suffisent à changer le
+                registre du séjour entier.
+              </p>
+            </div>
+          ),
+        },
+        {
+          title: "Le vignoble de Rangiroa, du vin sur du corail",
+          cardEyebrow: "Tuamotu",
+          modalEyebrow: "Ce que les guides ne disent pas",
+          shortDescription:
+            "Des vignes poussent sur du corail. Un blanc minéral et iodé qui ne ressemble à aucun autre.",
+          content: (
+            <div className="flex flex-col gap-4">
+              <p>
+                À Rangiroa, des vignes poussent sur du corail. Le sol de
+                l'atoll n'a pas de terre au sens habituel du terme, seulement
+                des débris calcaires. Dominique Auroy a planté les premières
+                souches en 1999.
+              </p>
+              <p>
+                La cave produit aujourd'hui un blanc minéral et iodé qui ne
+                ressemble à aucun autre vin au monde. C'est une information
+                géographique avant d'être une curiosité touristique.
+              </p>
+              <h4 className="font-medium">Avec Exuma :</h4>
+              <p>
+                Visite de la cave et dégustation, organisées en marge d'une
+                étape Tuamotu. Une demi-journée.
               </p>
             </div>
           ),
@@ -577,34 +468,37 @@ export const destination: Destination = {
       cta: { label: "Construire ce voyage", href: "/reserver" },
       testimonials: [
         {
+          // TODO: replace with real testimonial
           quote:
             "Notre voyage en Polynésie avec Exuma a été un rêve éveillé. Chaque détail était pensé, chaque île une découverte. Le bungalow sur pilotis à Bora Bora restera gravé dans nos mémoires.",
           image: {
             src: "/destination/polynesie/hero-1.png",
-            alt: "Portrait de Sophie et Marc",
+            alt: "Portrait de Sophie et Marc", // TODO: verify
           },
-          name: "Sophie & Marc",
-          role: "Voyage de noces, octobre 2025",
+          name: "Sophie & Marc", // TODO: verify
+          role: "Voyage de noces, octobre 2025", // TODO: verify
         },
         {
+          // TODO: replace with real testimonial
           quote:
             "Grâce à notre travel designer, nous avons découvert des endroits que nous n'aurions jamais trouvés seuls. La plongée à Fakarava, le dîner sur le motu… des moments magiques.",
           image: {
             src: "/destination/polynesie/hero-2.png",
-            alt: "Portrait de Laurent",
+            alt: "Portrait de Laurent", // TODO: verify
           },
-          name: "Laurent",
-          role: "Séjour en famille, août 2025",
+          name: "Laurent", // TODO: verify
+          role: "Séjour en famille, août 2025", // TODO: verify
         },
         {
+          // TODO: replace with real testimonial
           quote:
             "Ce qui m'a le plus marquée, c'est la qualité de l'accompagnement. Tout était fluide, du premier appel jusqu'au retour. On se sent véritablement pris en charge.",
           image: {
             src: "/destination/polynesie/hero-3.png",
-            alt: "Portrait de Claire",
+            alt: "Portrait de Claire", // TODO: verify
           },
-          name: "Claire",
-          role: "Escapade solo, mai 2025",
+          name: "Claire", // TODO: verify
+          role: "Escapade solo, mai 2025", // TODO: verify
         },
       ],
     },
@@ -622,34 +516,30 @@ export const destination: Destination = {
       },
       items: [
         {
-          question: "Quelle est la meilleure période pour partir ?",
+          question:
+            "Quel est le meilleur moment pour partir en Polynésie française ?",
           answer:
             "La saison la plus agréable s'étend de mai à octobre, avec moins d'humidité et des vents réguliers. Novembre et avril restent très bien, avec sensiblement moins de visiteurs. Les baleines à bosse sont présentes d'août à octobre.",
         },
         {
-          question: "Combien de temps dure le vol depuis Paris ?",
+          question: "Faut-il un visa pour aller en Polynésie française ?",
           answer:
-            "Comptez entre 21 et 23 heures de voyage depuis Paris, escale comprise. Air Tahiti Nui propose un vol direct saisonnier depuis Charles-de-Gaulle. Air France dessert Papeete via Los Angeles ou Tokyo.",
+            "Les ressortissants français et européens n'ont pas besoin de visa pour entrer en Polynésie française. En revanche, un passeport valide est recommandé pour tous les voyageurs : la carte d'identité française ne suffit pas pour l'escale aux États-Unis (Los Angeles), obligatoire sur la plupart des vols depuis Paris. Une autorisation ESTA est requise pour cette escale.",
         },
         {
-          question: "Faut-il un visa pour la Polynésie française ?",
+          question: "Combien de temps dure le vol Paris–Papeete ?",
           answer:
-            "Pas de visa pour les ressortissants de l'Union européenne. Un passeport valide est recommandé pour tous : la carte d'identité française ne suffit pas pour transiter aux États-Unis lors de l'escale. Une autorisation ESTA (≈ 21 $) est obligatoire pour cette escale, et nous l'anticipons pour chaque client.",
+            "Le temps de voyage depuis Paris est de 21 à 23 heures, escale comprise. Air Tahiti Nui propose un vol direct saisonnier depuis Charles-de-Gaulle. Air France dessert Papeete via Los Angeles ou Tokyo.",
         },
         {
-          question: "Combien d'îles peut-on visiter en deux semaines ?",
+          question: "Quelle est la monnaie en Polynésie française ?",
           answer:
-            "Nous recommandons 3 à 4 îles pour un séjour de 14 jours, afin de profiter pleinement de chaque escale sans passer trop de temps en transit. Chaque déplacement a une raison ; cette raison change la qualité de ce qu'on ressent en arrivant.",
+            "La Polynésie française utilise le franc CFP (XPF), dont le taux de change est fixé à l'euro depuis 1945. Un euro vaut environ 119 francs CFP. Il faut retirer des francs CFP sur place, mais sans risque de variation de cours.",
         },
         {
-          question: "Quelle monnaie utilise-t-on sur place ?",
+          question: "Quelles îles visiter en Polynésie française ?",
           answer:
-            "Le franc CFP, monnaie propre à la Polynésie française, fixé à l'euro depuis 1945 (1 € ≈ 119 CFP). Pas de risque de variation de cours. Retrait de francs CFP sur place, carte bancaire acceptée presque partout.",
-        },
-        {
-          question: "Quel est le décalage horaire avec la France ?",
-          answer:
-            "12 heures d'avance sur la France en hiver, 11 heures en été. Le premier jour sur place se récupère naturellement. Le décalage joue en faveur des lève-tôt.",
+            "Les îles les plus emblématiques sont Bora Bora pour son lagon, Moorea pour sa géographie montagne-lagon, Tetiaroa pour l'isolement absolu, Raiatea pour sa dimension culturelle et spirituelle, et Fakarava pour la plongée dans une réserve de biosphère UNESCO.",
         },
       ],
     },

@@ -16,8 +16,6 @@ import type {
 import { destination as corse } from "@/content/destinations/corse";
 import { destination as grece } from "@/content/destinations/grece";
 import { destination as polynesie } from "@/content/destinations/polynesie";
-import { destination as polynesieOld } from "@/content/destinations/polynesie-old";
-import { destination as polynesie2 } from "@/content/destinations/polynesie-2";
 import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as paris } from "@/content/destinations/paris";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
@@ -126,8 +124,6 @@ export const destinations: Record<string, Destination> = toMap([
   marrakech,
   paris,
   polynesie,
-  polynesie2,
-  polynesieOld,
   rioDeJaneiro,
   rome,
   seychelles,

@@ -10,6 +10,6 @@ export const experience: Experience = {
     src: "/destination/polynesie/xp-randonnee.png",
     alt: "Pêcheur lançant son filet depuis une pirogue à Moorea",
   },
-  destinationSlugs: ["polynesie", "polynesie-2"],
+  destinationSlugs: ["polynesie"],
   sections: [],
 };
