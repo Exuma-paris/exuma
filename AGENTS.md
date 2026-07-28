@@ -28,7 +28,48 @@ URLs are flat slugs except continents (which sit at `/continents/<slug>`). Route
 - Types: `src/lib/content/types.ts` — every entity extends `{ slug, name, sections, blurb?, keywords? }`. References between entities are **slug strings** (`continentSlug`, `themeSlugs`, etc.), never object pointers — this maps 1:1 to Sanity references.
 - Registry: `src/lib/content/registry.ts` — explicitly imports each content file and exposes typed `Record<string, T>` maps plus `allTagged` for cross-entity work.
 - Queries: `src/lib/content/queries.ts` — `getDestinationsByContinent`, `getExperiencesByTheme`, `getServicesByCategory`, `getAccommodationsByDestination`, `getRelatedDestinations`, `searchContent`. Add new helpers here, not inside pages.
-- The `Section` discriminated union (`src/lib/destination/types.ts`, re-exported from `src/lib/content/types.ts`) is the source of truth for page sections. Add a new section type by extending the union, then adding a case in `src/components/destination/render-section.tsx`.
+- The `Section` discriminated union (`src/lib/destination/types.ts`, re-exported from `src/lib/content/types.ts`) is the source of truth for page sections. See **Page sections — reuse before creating** below before adding any new section type.
+
+## Page sections — reuse before creating
+
+**Rule: do NOT invent a new section type for a page. Reuse — or compose — an existing one.** Pages are built by picking from the catalog below. A new `Section` variant is a design-system change, not a page change, and is rarely the right answer.
+
+Before you (human or LLM) add a new variant to the `Section` union or a new file under `src/components/sections/`, you MUST:
+
+1. Re-read the catalog below and the union in `src/lib/destination/types.ts`. Most layout needs are already covered — pick the closest match and adjust its data.
+2. If nothing fits exactly, propose to the user the closest existing section(s) and how to use them, and explain *why* they fall short. Reusing a slightly-imperfect existing section beats a new one-off.
+3. Only if the user **explicitly approves** may you create a new variant — and then follow the full path: extend the union in `src/lib/destination/types.ts`, add a case in `src/components/destination/render-section.tsx`, add the component under `src/components/sections/`, and add an entry to the catalog below.
+
+When asked to build or edit a page, lead with the existing sections — surface this catalog so contributors who don't know these exist are guided to them.
+
+### Catalog of existing sections (source of truth: the `Section` union)
+
+| `type` | Use it for |
+|---|---|
+| `hero` | Full-bleed page hero: heading + rotating image carousel |
+| `heroLanding` | Landing-page hero: CTA, optional rating + partner logos |
+| `heroImageBackground` | Hero with rotating background images and overlaid text |
+| `textColumns` | Heading + multi-column prose, optional CTA |
+| `fullImage` | Single full-width image band |
+| `textImagesSplit` | Prose paragraphs beside a two-image stack (light/dark) |
+| `featureCards` | Grid of image cards (title/description), optional per-card link |
+| `imageDuoWithText` | Two side-by-side images paired with a text column |
+| `bento` | Bento grid of image/dark tone cards |
+| `placesMap` | Interactive map with pinned places (image + coordinates) |
+| `infoGrid` | Icon + title + description grid (practical info) |
+| `tips` | Clickable tip cards that open a modal with rich content |
+| `testimonials` | Quote cards with author photo/role |
+| `spotsList` | Simple titled list of spots/highlights |
+| `islandLinks` | Labelled link list for cross-navigation |
+| `imageTrio` | Three-image band with optional heading/description |
+| `finalCta` | Closing CTA band (primary + optional secondary) |
+| `specialistSpotlight` | Featured collaborateur quote + partner logos + feature list |
+| `faq` | Accordion Q&A with optional contact line |
+| `entityList` | Auto-rendered list of experiences/accommodations/destinations by slug |
+| `gallery` | Auto-scrolling image gallery |
+| `featureShowcase` | Alternating feature items (image + rich detail) |
+
+Keep this table in sync with the `Section` union — they must always match.
 
 ## Adding new content
 

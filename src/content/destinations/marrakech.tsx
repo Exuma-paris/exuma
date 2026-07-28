@@ -85,18 +85,6 @@ export const destination: Destination = {
     },
 
     {
-      type: "entityList",
-      kind: "experience",
-      background: "bg-white",
-      eyebrow: "Trois expériences",
-      heading: "Ce qu'on fait, concrètement",
-      description:
-        "Des accès négociés, des personnes nommées. Ni circuit organisé, ni improvisation : une logique construite sur place depuis des années.",
-      cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
-      slugs: ["hammam-dar-el-bacha", "cuisine-palais-bahia", "survol-atlas-biplan"],
-    },
-
-    {
       type: "imageDuoWithText",
       duo: {
         left: {
@@ -116,6 +104,18 @@ export const destination: Destination = {
           "Ce type d'accès ne s'achète pas en ligne. Il repose sur une relation construite avec les conservateurs du patrimoine de la médina. Une poignée de main, un thé, une promesse de discrétion. Le résultat : un moment qui n'appartient qu'à ceux qui savent qu'il existe.",
         ],
       },
+    },
+
+    {
+      type: "entityList",
+      kind: "experience",
+      background: "bg-white",
+      eyebrow: "Trois expériences",
+      heading: "Ce qu'on fait, concrètement",
+      description:
+        "Des accès négociés, des personnes nommées. Ni circuit organisé, ni improvisation : une logique construite sur place depuis des années.",
+      cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
+      slugs: ["hammam-dar-el-bacha", "cuisine-palais-bahia", "survol-atlas-biplan"],
     },
 
     {
