@@ -2,7 +2,7 @@ import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
   slug: "polynesie-2",
-  name: "Polynésie française (v2)",
+  name: "Polynésie française",
   country: "Polynésie française",
   genitive: "de la Polynésie",
   continentSlug: "iles-oceanie",
