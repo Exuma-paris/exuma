@@ -52,10 +52,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fcf8f3" },
-    { media: "(prefers-color-scheme: dark)", color: "#252525" },
-  ],
+  themeColor: "#fcf8f3",
   width: "device-width",
   initialScale: 1,
 };
@@ -71,17 +68,6 @@ export default function RootLayout({
       className={`${instrumentSans.variable} ${geistMono.variable} ${hedvigLettersSerif.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <head>
-        {/* Inline theme-detection — runs before first paint to avoid FOUC.
-            Must be a raw <script>, not next/script (which forces deferred
-            injection in app router). React doesn't re-execute this on
-            hydration; it runs once when the browser parses the SSR HTML. */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem('exuma-theme');var d=t?t==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark');}catch(e){}})();`,
-          }}
-        />
-      </head>
       <body className="min-h-full flex flex-col">
         {children}
         <ConditionalFooter>

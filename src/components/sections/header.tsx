@@ -56,7 +56,7 @@ export function Header({
   return (
     <header
       className={cn(
-        "absolute inset-x-0 top-0 z-50 w-full border-b border-border transition-[translate,background-color] duration-500 ease-in-out",
+        "fixed inset-x-0 top-0 z-50 w-full border-b border-border transition-[translate,background-color] duration-500 ease-in-out",
         theme === "dark" && "dark text-foreground",
         hidden ? "-translate-y-full" : "translate-y-0",
         scrolled && !hidden
