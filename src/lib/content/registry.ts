@@ -15,6 +15,7 @@ import type {
 
 import { destination as corse } from "@/content/destinations/corse";
 import { destination as grece } from "@/content/destinations/grece";
+import { destination as japon } from "@/content/destinations/japon";
 import { destination as polynesie } from "@/content/destinations/polynesie";
 import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as paris } from "@/content/destinations/paris";
@@ -22,6 +23,7 @@ import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janei
 import { destination as rome } from "@/content/destinations/rome";
 import { destination as seychelles } from "@/content/destinations/seychelles";
 import { destination as kenya } from "@/content/destinations/kenya";
+import { destination as vietnam } from "@/content/destinations/vietnam";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -47,6 +49,9 @@ import { serviceCategory as ingenierie } from "@/content/service-categories/inge
 import { experience as pecheMoorea } from "@/content/experiences/peche-moorea";
 import { experience as nickTetautiare } from "@/content/experiences/nick-tetautiare";
 import { experience as hammamDarElBacha } from "@/content/experiences/hammam-dar-el-bacha";
+import { experience as keikoSumoTokyo } from "@/content/experiences/keiko-sumo-tokyo";
+import { experience as ceremonieTheNanzenji } from "@/content/experiences/ceremonie-the-nanzenji";
+import { experience as kaisekiGeishaGion } from "@/content/experiences/kaiseki-geisha-gion";
 import { experience as lagonMoorea } from "@/content/experiences/lagon-moorea";
 import { experience as cuisinePalaisBahia } from "@/content/experiences/cuisine-palais-bahia";
 import { experience as gr20 } from "@/content/experiences/gr20";
@@ -76,9 +81,15 @@ import { experience as croisierePriveeCyclades } from "@/content/experiences/cro
 import { experience as acropoleHorsHeures } from "@/content/experiences/acropole-hors-heures";
 import { experience as delphesGuideArcheologue } from "@/content/experiences/delphes-guide-archeologue";
 import { experience as tableSantorinVigneron } from "@/content/experiences/table-santorin-vigneron";
+import { experience as citeImperialeHueHistorien } from "@/content/experiences/cite-imperiale-hue-historien";
+import { experience as trekkingRizieresSapa } from "@/content/experiences/trekking-rizieres-sapa";
+import { experience as dinerChefHanoi } from "@/content/experiences/diner-chef-hanoi";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
+import { accommodation as amanTokyo } from "@/content/accommodations/aman-tokyo";
+import { accommodation as hoshinoyaKyoto } from "@/content/accommodations/hoshinoya-kyoto";
+import { accommodation as hoshinoyaFuji } from "@/content/accommodations/hoshinoya-fuji";
 import { accommodation as stRegisBoraBora } from "@/content/accommodations/st-regis-bora-bora";
 import { accommodation as murtoli } from "@/content/accommodations/murtoli";
 import { accommodation as royalMansour } from "@/content/accommodations/royal-mansour";
@@ -104,6 +115,9 @@ import { accommodation as richardsRiverCamp } from "@/content/accommodations/ric
 import { accommodation as amanzoe } from "@/content/accommodations/amanzoe";
 import { accommodation as canavesOia } from "@/content/accommodations/canaves-oia";
 import { accommodation as kalesmaMykonos } from "@/content/accommodations/kalesma-mykonos";
+import { accommodation as amanoi } from "@/content/accommodations/amanoi";
+import { accommodation as laResidenceHue } from "@/content/accommodations/la-residence-hue";
+import { accommodation as sixSensesNinhVanBay } from "@/content/accommodations/six-senses-ninh-van-bay";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -121,6 +135,7 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
 export const destinations: Record<string, Destination> = toMap([
   corse,
   grece,
+  japon,
   marrakech,
   paris,
   polynesie,
@@ -128,6 +143,7 @@ export const destinations: Record<string, Destination> = toMap([
   rome,
   seychelles,
   kenya,
+  vietnam,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -155,17 +171,22 @@ export const experiences: Record<string, Experience> = toMap([
   acropoleHorsHeures,
   atelierLesage,
   atelierSambaMangueira,
+  ceremonieTheNanzenji,
+  citeImperialeHueHistorien,
   corcovadoAubePaineiras,
   coucherSoleilGranit,
   croisierePriveeCyclades,
   cuisinePalaisBahia,
   decouverteIlesBateauSeychelles,
   delphesGuideArcheologue,
+  dinerChefHanoi,
   eclosionTortuesSeychelles,
   galerieBorghesePrive,
   gr20,
   hammamDarElBacha,
   ilesCagarrasPecheur,
+  kaisekiGeishaGion,
+  keikoSumoTokyo,
   sablesSecretsRio,
   soireeBossaNovaIpanema,
   lagonMoorea,
@@ -184,6 +205,7 @@ export const experiences: Record<string, Experience> = toMap([
   croisiereBoutreMidaCreek,
   visiteSamburuOlMalo,
   museeKarenBlixenVoitures,
+  trekkingRizieresSapa,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -197,6 +219,8 @@ export const serviceCategories: Record<string, ServiceCategory> = toMap([
 export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
+  amanoi,
+  amanTokyo,
   amanjena,
   amanzoe,
   belmondCopacabanaPalace,
@@ -211,14 +235,18 @@ export const accommodations: Record<string, Accommodation> = toMap([
   hasslerRoma,
   hotelDeRussie,
   hotelSantaTeresa,
+  hoshinoyaFuji,
+  hoshinoyaKyoto,
   jKPlaceRoma,
   kalesmaMykonos,
+  laResidenceHue,
   leBristol,
   leTahaa,
   lhotelParis,
   murtoli,
   northIsland,
   royalMansour,
+  sixSensesNinhVanBay,
   stRegisBoraBora,
   theBrando,
   giraffeManor,
