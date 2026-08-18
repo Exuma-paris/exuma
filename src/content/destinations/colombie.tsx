@@ -20,7 +20,7 @@ export const destination: Destination = {
     "tayrona",
     "pacifique choco",
   ],
-  metaTitle: "Colombie — Voyage sur mesure",
+  metaTitle: "Colombie : Voyage sur mesure",
   metaDescription:
     "Voyage sur mesure en Colombie : Carthagène, Sierra Nevada, Zone Café, Amazonie. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
   sections: [

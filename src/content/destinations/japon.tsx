@@ -20,7 +20,7 @@ export const destination: Destination = {
     "shinkansen",
     "asie",
   ],
-  metaTitle: "Japon — Voyage sur mesure",
+  metaTitle: "Japon : Voyage sur mesure",
   metaDescription:
     "Voyage sur mesure au Japon : Tokyo, Kyoto, Mont Fuji, ryokans et artisans. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
   sections: [

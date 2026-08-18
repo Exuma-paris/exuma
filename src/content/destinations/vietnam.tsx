@@ -19,7 +19,7 @@ export const destination: Destination = {
     "delta du mekong",
     "hoi an",
   ],
-  metaTitle: "Vietnam — Voyage sur mesure",
+  metaTitle: "Vietnam : Voyage sur mesure",
   metaDescription:
     "Voyage sur mesure au Vietnam : Hanoï, Hué, baie de Lan Ha, rizières de Sa Pa. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
   sections: [

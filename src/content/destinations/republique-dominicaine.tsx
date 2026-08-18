@@ -19,7 +19,7 @@ export const destination: Destination = {
     "caraibes",
     "hispaniola",
   ],
-  metaTitle: "République dominicaine — Voyage sur mesure",
+  metaTitle: "République dominicaine : Voyage sur mesure",
   metaDescription:
     "Voyage sur mesure en République dominicaine : Samaná, Punta Cana, Casa de Campo. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
   sections: [
