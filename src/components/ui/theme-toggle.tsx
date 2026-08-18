@@ -14,11 +14,12 @@ export function ThemeToggle() {
   const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
-    const stored = (localStorage.getItem(STORAGE_KEY) as Theme | null) ?? null;
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)",
-    ).matches;
-    const initial: Theme = stored ?? (prefersDark ? "dark" : "light");
+    // Must match the inline detection script in src/app/layout.tsx: light is the
+    // default and the OS preference is not followed, so dark applies only when
+    // the visitor has explicitly chosen it. Diverging here would let hydration
+    // re-apply dark on any page where this toggle is mounted.
+    const stored = localStorage.getItem(STORAGE_KEY) as Theme | null;
+    const initial: Theme = stored === "dark" ? "dark" : "light";
     setTheme(initial);
     applyTheme(initial);
   }, []);

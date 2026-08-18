@@ -18,11 +18,24 @@ import { destination as polynesie } from "@/content/destinations/polynesie";
 import { destination as polynesieOld } from "@/content/destinations/polynesie-old";
 import { destination as polynesie2 } from "@/content/destinations/polynesie-2";
 import { destination as marrakech } from "@/content/destinations/marrakech";
+import { destination as oman } from "@/content/destinations/oman";
 import { destination as paris } from "@/content/destinations/paris";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
 import { destination as rome } from "@/content/destinations/rome";
 import { destination as seychelles } from "@/content/destinations/seychelles";
 import { destination as kenya } from "@/content/destinations/kenya";
+import { destination as maurice } from "@/content/destinations/maurice";
+import { destination as tanzanie } from "@/content/destinations/tanzanie";
+import { destination as botswana } from "@/content/destinations/botswana";
+import { destination as namibie } from "@/content/destinations/namibie";
+import { destination as egypte } from "@/content/destinations/egypte";
+import { destination as indonesie } from "@/content/destinations/indonesie";
+import { destination as costaRica } from "@/content/destinations/costa-rica";
+import { destination as afriqueDuSud } from "@/content/destinations/afrique-du-sud";
+import { destination as thailande } from "@/content/destinations/thailande";
+import { destination as jordanie } from "@/content/destinations/jordanie";
+import { destination as norvege } from "@/content/destinations/norvege";
+import { destination as islande } from "@/content/destinations/islande";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -73,6 +86,45 @@ import { experience as safariMontgolfiereMara } from "@/content/experiences/safa
 import { experience as croisiereBoutreMidaCreek } from "@/content/experiences/croisiere-boutre-mida-creek";
 import { experience as visiteSamburuOlMalo } from "@/content/experiences/visite-samburu-ol-malo";
 import { experience as museeKarenBlixenVoitures } from "@/content/experiences/musee-karen-blixen-voitures";
+import { experience as croisiereIlotBenitiers } from "@/content/experiences/croisiere-ilot-benitiers";
+import { experience as golfParadisMorne } from "@/content/experiences/golf-paradis-morne";
+import { experience as dinerLadyLisbeth } from "@/content/experiences/diner-lady-lisbeth";
+import { experience as olduvaiPaleoanthropologue } from "@/content/experiences/olduvai-paleoanthropologue";
+import { experience as aubeHadzabeLacEyasi } from "@/content/experiences/aube-hadzabe-lac-eyasi";
+import { experience as flyCampKopjesGrumeti } from "@/content/experiences/fly-camp-kopjes-grumeti";
+import { experience as navigationCanauxOkavango } from "@/content/experiences/navigation-canaux-okavango";
+import { experience as marcheBushmenSan } from "@/content/experiences/marche-bushmen-san";
+import { experience as safariNocturneProjecteur } from "@/content/experiences/safari-nocturne-projecteur";
+import { experience as echappeeSkeletonCoast } from "@/content/experiences/echappee-skeleton-coast";
+import { experience as parcNamibNaukluft } from "@/content/experiences/parc-namib-naukluft";
+import { experience as sossusvleiDeadvlei } from "@/content/experiences/sossusvlei-deadvlei";
+import { experience as valleeRoisTombesFermees } from "@/content/experiences/vallee-rois-tombes-fermees";
+import { experience as montgolfiereNecropoleThebaine } from "@/content/experiences/montgolfiere-necropole-thebaine";
+import { experience as siwaCampementDesert } from "@/content/experiences/siwa-campement-desert";
+import { experience as ascensionMontBromo } from "@/content/experiences/ascension-mont-bromo";
+import { experience as tirtaEmpulForetSinges } from "@/content/experiences/tirta-empul-foret-singes";
+import { experience as lagonWeekuriSumba } from "@/content/experiences/lagon-weekuri-sumba";
+import { experience as ponteTortuesVertes } from "@/content/experiences/ponte-tortues-vertes";
+import { experience as reserveNectandra } from "@/content/experiences/reserve-nectandra";
+import { experience as refugeCuru } from "@/content/experiences/refuge-curu";
+import { experience as colonieManchotsBoulders } from "@/content/experiences/colonie-manchots-boulders";
+import { experience as marchePistageThornybush } from "@/content/experiences/marche-pistage-thornybush";
+import { experience as volHelicoptereMpumalanga } from "@/content/experiences/vol-helicoptere-mpumalanga";
+import { experience as watPhoChantsMoines } from "@/content/experiences/wat-pho-chants-moines";
+import { experience as coursCuisineBlueElephant } from "@/content/experiences/cours-cuisine-blue-elephant";
+import { experience as khaoYaiHeowSuwat } from "@/content/experiences/khao-yai-heow-suwat";
+import { experience as ilesDaymaniyatSnorkeling } from "@/content/experiences/iles-daymaniyat-snorkeling";
+import { experience as nizwaBahlaJabreen } from "@/content/experiences/nizwa-bahla-jabreen";
+import { experience as wadiBaniKhalid } from "@/content/experiences/wadi-bani-khalid";
+import { experience as wadiRum4x4Campement } from "@/content/experiences/wadi-rum-4x4-campement";
+import { experience as observationEtoilesWadiRum } from "@/content/experiences/observation-etoiles-wadi-rum";
+import { experience as plongeeMerRougeAqaba } from "@/content/experiences/plongee-mer-rouge-aqaba";
+import { experience as pecheSkreiLofoten } from "@/content/experiences/peche-skrei-lofoten";
+import { experience as reinefjordMoskenstraumen } from "@/content/experiences/reinefjord-moskenstraumen";
+import { experience as skiVoileSunnmore } from "@/content/experiences/ski-voile-sunnmore";
+import { experience as ilesWestmanEldfell } from "@/content/experiences/iles-westman-eldfell";
+import { experience as kayakPaddleThorsmork } from "@/content/experiences/kayak-paddle-thorsmork";
+import { experience as observationBaleinesIslande } from "@/content/experiences/observation-baleines-islande";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -98,6 +150,46 @@ import { accommodation as fourSeasonsMahe } from "@/content/accommodations/four-
 import { accommodation as giraffeManor } from "@/content/accommodations/giraffe-manor";
 import { accommodation as kinondoKwetu } from "@/content/accommodations/kinondo-kwetu";
 import { accommodation as richardsRiverCamp } from "@/content/accommodations/richards-river-camp";
+import { accommodation as royalPalmBeachcomber } from "@/content/accommodations/royal-palm-beachcomber";
+import { accommodation as vingtDegresSud } from "@/content/accommodations/20-degres-sud";
+import { accommodation as luxLeMorne } from "@/content/accommodations/lux-le-morne";
+import { accommodation as grumetiSerengetiRiverLodge } from "@/content/accommodations/grumeti-serengeti-river-lodge";
+import { accommodation as singitaSasakwaLodge } from "@/content/accommodations/singita-sasakwa-lodge";
+import { accommodation as labaMamaSimba } from "@/content/accommodations/laba-mama-simba";
+import { accommodation as eagleIslandLodge } from "@/content/accommodations/eagle-island-lodge";
+import { accommodation as tawana } from "@/content/accommodations/tawana";
+import { accommodation as jacksCamp } from "@/content/accommodations/jacks-camp";
+import { accommodation as sossusvleiDesertLodge } from "@/content/accommodations/sossusvlei-desert-lodge";
+import { accommodation as zannierSonop } from "@/content/accommodations/zannier-sonop";
+import { accommodation as hoanibSkeletonCoastCamp } from "@/content/accommodations/hoanib-skeleton-coast-camp";
+import { accommodation as oldCataractAssouan } from "@/content/accommodations/old-cataract-assouan";
+import { accommodation as alMoudiraLouxor } from "@/content/accommodations/al-moudira-louxor";
+import { accommodation as dahabiehPrivatiseeNil } from "@/content/accommodations/dahabieh-privatisee-nil";
+import { accommodation as amankila } from "@/content/accommodations/amankila";
+import { accommodation as nihiSumba } from "@/content/accommodations/nihi-sumba";
+import { accommodation as fourSeasonsJakarta } from "@/content/accommodations/four-seasons-jakarta";
+import { accommodation as nantipa } from "@/content/accommodations/nantipa";
+import { accommodation as pashaSantaTeresa } from "@/content/accommodations/pasha-santa-teresa";
+import { accommodation as fourSeasonsPapagayo } from "@/content/accommodations/four-seasons-papagayo";
+import { accommodation as ellermanHouse } from "@/content/accommodations/ellerman-house";
+import { accommodation as bushmansKloof } from "@/content/accommodations/bushmans-kloof";
+import { accommodation as sasekaTentedCamp } from "@/content/accommodations/saseka-tented-camp";
+import { accommodation as amanpuri } from "@/content/accommodations/amanpuri";
+import { accommodation as sixSensesYaoNoi } from "@/content/accommodations/six-senses-yao-noi";
+import { accommodation as dusitThaniBangkok } from "@/content/accommodations/dusit-thani-bangkok";
+import { accommodation as anantaraAlJabalAlAkhdar } from "@/content/accommodations/anantara-al-jabal-al-akhdar";
+import { accommodation as theChediMuscat } from "@/content/accommodations/the-chedi-muscat";
+import { accommodation as magicCampsWahibaSands } from "@/content/accommodations/magic-camps-wahiba-sands";
+import { accommodation as kempinskiIshtarDeadSea } from "@/content/accommodations/kempinski-ishtar-dead-sea";
+import { accommodation as movenpickResortPetra } from "@/content/accommodations/movenpick-resort-petra";
+import { accommodation as fourSeasonsAmman } from "@/content/accommodations/four-seasons-amman";
+import { accommodation as holmenLofoten } from "@/content/accommodations/holmen-lofoten";
+import { accommodation as juvetLandskapshotell } from "@/content/accommodations/juvet-landskapshotell";
+import { accommodation as umiHotel } from "@/content/accommodations/umi-hotel";
+import { accommodation as skalakot } from "@/content/accommodations/skalakot";
+import { accommodation as hotelJokulsarlon } from "@/content/accommodations/hotel-jokulsarlon";
+// Svart (src/content/accommodations/svart.tsx) reste volontairement hors
+// registre tant que la date d'ouverture n'est pas connue.
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -113,8 +205,19 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
   Object.fromEntries(items.map((i) => [i.slug, i]));
 
 export const destinations: Record<string, Destination> = toMap([
+  afriqueDuSud,
+  botswana,
   corse,
+  costaRica,
+  egypte,
+  indonesie,
+  islande,
+  jordanie,
   marrakech,
+  maurice,
+  namibie,
+  norvege,
+  oman,
   paris,
   polynesie,
   polynesie2,
@@ -123,6 +226,8 @@ export const destinations: Record<string, Destination> = toMap([
   rome,
   seychelles,
   kenya,
+  tanzanie,
+  thailande,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -147,30 +252,69 @@ export const themes: Record<string, Theme> = toMap([
 export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
+  ascensionMontBromo,
   atelierLesage,
   atelierSambaMangueira,
+  aubeHadzabeLacEyasi,
   corcovadoAubePaineiras,
+  colonieManchotsBoulders,
   coucherSoleilGranit,
+  coursCuisineBlueElephant,
+  croisiereIlotBenitiers,
   cuisinePalaisBahia,
   decouverteIlesBateauSeychelles,
+  dinerLadyLisbeth,
+  echappeeSkeletonCoast,
   eclosionTortuesSeychelles,
+  flyCampKopjesGrumeti,
+  golfParadisMorne,
   galerieBorghesePrive,
   gr20,
   hammamDarElBacha,
   ilesCagarrasPecheur,
+  ilesDaymaniyatSnorkeling,
+  ilesWestmanEldfell,
+  kayakPaddleThorsmork,
+  khaoYaiHeowSuwat,
+  lagonWeekuriSumba,
   sablesSecretsRio,
   soireeBossaNovaIpanema,
   lagonMoorea,
   lavezzi,
   louvrePriveNocturne,
+  marcheBushmenSan,
+  marchePistageThornybush,
+  montgolfiereNecropoleThebaine,
+  navigationCanauxOkavango,
   nickTetautiare,
+  nizwaBahlaJabreen,
   nonnaCuisineTrastevere,
+  observationBaleinesIslande,
+  observationEtoilesWadiRum,
+  olduvaiPaleoanthropologue,
+  parcNamibNaukluft,
   pecheMoorea,
+  pecheSkreiLofoten,
+  plongeeMerRougeAqaba,
+  ponteTortuesVertes,
+  refugeCuru,
+  reinefjordMoskenstraumen,
+  reserveNectandra,
   rungisChef,
+  safariNocturneProjecteur,
+  skiVoileSunnmore,
+  siwaCampementDesert,
+  sossusvleiDeadvlei,
   survolAtlasBiplan,
+  tirtaEmpulForetSinges,
+  valleeRoisTombesFermees,
   viaAppiaVespa,
   vinCorse,
+  wadiBaniKhalid,
+  wadiRum4x4Campement,
+  volHelicoptereMpumalanga,
   volHelicoptereSeychelles,
+  watPhoChantsMoines,
   safariMontgolfiereMara,
   croisiereBoutreMidaCreek,
   visiteSamburuOlMalo,
@@ -188,27 +332,65 @@ export const serviceCategories: Record<string, ServiceCategory> = toMap([
 export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
+  alMoudiraLouxor,
   amanjena,
+  amankila,
+  amanpuri,
+  anantaraAlJabalAlAkhdar,
   belmondCopacabanaPalace,
+  bushmansKloof,
   calaRossa,
   casadelmar,
   chevalBlancParis,
+  dahabiehPrivatiseeNil,
   darAhlam,
+  dusitThaniBangkok,
+  eagleIslandLodge,
+  ellermanHouse,
   fasanoRio,
+  fourSeasonsAmman,
+  fourSeasonsJakarta,
   fourSeasonsMahe,
+  fourSeasonsPapagayo,
   fregateIslandPrivate,
+  grumetiSerengetiRiverLodge,
   hasslerRoma,
+  hoanibSkeletonCoastCamp,
+  holmenLofoten,
   hotelDeRussie,
+  hotelJokulsarlon,
   hotelSantaTeresa,
+  jacksCamp,
   jKPlaceRoma,
+  juvetLandskapshotell,
+  kempinskiIshtarDeadSea,
+  labaMamaSimba,
   leBristol,
   leTahaa,
   lhotelParis,
+  luxLeMorne,
+  magicCampsWahibaSands,
+  movenpickResortPetra,
   murtoli,
+  nantipa,
+  nihiSumba,
   northIsland,
+  oldCataractAssouan,
+  pashaSantaTeresa,
   royalMansour,
+  royalPalmBeachcomber,
+  sasekaTentedCamp,
+  singitaSasakwaLodge,
+  sixSensesYaoNoi,
+  skalakot,
+  sossusvleiDesertLodge,
+  tawana,
+  umiHotel,
+  vingtDegresSud,
+  zannierSonop,
   stRegisBoraBora,
   theBrando,
+  theChediMuscat,
   giraffeManor,
   kinondoKwetu,
   richardsRiverCamp,

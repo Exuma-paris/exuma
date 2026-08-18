@@ -75,10 +75,17 @@ export default function RootLayout({
         {/* Inline theme-detection — runs before first paint to avoid FOUC.
             Must be a raw <script>, not next/script (which forces deferred
             injection in app router). React doesn't re-execute this on
-            hydration; it runs once when the browser parses the SSR HTML. */}
+            hydration; it runs once when the browser parses the SSR HTML.
+
+            Light is the default, and the OS `prefers-color-scheme` is
+            deliberately NOT followed. The site's photography is graded for the
+            warm light palette, and <ThemeToggle> is not mounted on the public
+            pages — so a visitor whose machine is in dark mode used to land on
+            the dark theme with no way back. Dark now applies only when the
+            visitor has explicitly chosen it. */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem('exuma-theme');var d=t?t==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark');}catch(e){}})();`,
+            __html: `(function(){try{if(localStorage.getItem('exuma-theme')==='dark')document.documentElement.classList.add('dark');}catch(e){}})();`,
           }}
         />
       </head>
