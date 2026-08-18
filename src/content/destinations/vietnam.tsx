@@ -29,7 +29,7 @@ export const destination: Destination = {
       heading:
         "Vietnam. Le karst plonge dans la mer, la rizière grimpe vers le ciel.",
       description:
-        "Mille six cents kilomètres du nord au sud. La baie de Lan Ha et ses pitons karstiques, la Cité impériale de Hué, les rizières en terrasses de Sa Pa, le delta du Mékong : chaque région a son climat, sa langue, sa cuisine. Nous construisons cette logique depuis plus de dix ans.",
+        "Du nord au sud, le Vietnam change de visage à chaque étape. Les pitons karstiques de la baie de Lan Ha, les ruelles de Hué, les rizières en terrasses de Sa Pa, les eaux du delta du Mékong : autant de paysages, de cuisines et de rythmes qui racontent un même pays autrement.",
       images: [
         {
           src: "/destination/vietnam/hero-1.png",
@@ -63,7 +63,7 @@ export const destination: Destination = {
           iconName: "badgeCheck",
           title: "Adresses hors des grands groupes",
           description:
-            "Villas isolées dans un parc national, résidence coloniale à Hué, baie accessible par bateau : des adresses qui ne figurent pas dans les moteurs de réservation.",
+            "Villas isolées dans un parc national, résidence coloniale à Hué, baie accessible par bateau : des adresses choisies pour leur situation, leur histoire et leur caractère.",
         },
         {
           iconName: "sparkles",
@@ -75,7 +75,7 @@ export const destination: Destination = {
           iconName: "star",
           title: "Accès négociés localement",
           description:
-            "Historiens de la cour impériale, guides Hmong, capitaines de jonque : des relations construites sur place, pas des réservations en ligne.",
+            "Historiens de la cour impériale, guides Hmong, capitaines de jonque : des rencontres choisies pour leur connaissance intime du pays et construites au fil du temps.",
         },
       ],
     },
@@ -84,12 +84,12 @@ export const destination: Destination = {
       type: "textColumns",
       background: "bg-white",
       eyebrow: "Ouverture",
-      heading: "Un pays qui change de climat en une nuit de train",
+      heading: "Un pays qui change de visage à chaque étape",
       cta: { label: "Construire ce voyage", href: "/reserver" },
       columns: [
-        "Un voyage au Vietnam commence souvent par une surprise de géographie. Le pays s'étire sur plus de mille six cents kilomètres du nord au sud, du delta du fleuve Rouge aux mangroves du Mékong. À Hanoï, en janvier, on porte une veste. À Hô-Chi-Minh-Ville, le même jour, il fait trente degrés. Cette variation n'est pas un détail météo. C'est la clé de tout itinéraire bien construit.",
-        "La baie de Lan Ha, voisine plus discrète d'Halong, garde ses criques désertes et ses jonques qui mouillent loin des circuits organisés. Plus au centre, la Cité impériale de Hué conserve les palais et les tombeaux des empereurs Nguyễn, sur les rives de la rivière des Parfums. Dans les hauts plateaux du nord-ouest, les rizières en terrasses de Sa Pa changent de couleur avec la saison du riz, vert tendre en juin, or en septembre. Nous construisons ces enchaînements depuis plusieurs années. Chaque déplacement a une raison.",
-        "« Il y a le Vietnam que l'on traverse en dix jours entre Hanoï et Hô-Chi-Minh-Ville, et celui qu'on découvre en s'arrêtant. Entre les deux, il y a tout le voyage. »",
+        "Du nord au sud, le Vietnam compose un voyage de contrastes. Sur plus de 1 600 kilomètres, le pays s’étire du delta du fleuve Rouge aux mangroves du Mékong. À Hanoï, en janvier, on porte une veste. Le même jour, à Hô-Chi-Minh-Ville, le thermomètre approche les 30 °C. Cette diversité climatique donne son rythme au voyage.",
+        "La baie de Lan Ha, plus discrète que sa voisine d’Halong, dévoile ses criques et ses îlots depuis l’eau. Plus au centre, Hué conserve les palais et les tombeaux des empereurs Nguyễn, le long de la rivière des Parfums. Dans les montagnes du nord-ouest, les rizières en terrasses de Sa Pa changent de teinte au fil des saisons, du vert tendre aux nuances dorées. C’est cette succession de paysages et de rythmes qui guide nos itinéraires : chaque déplacement a sa raison, chaque étape apporte quelque chose à la suivante.",
+        "« Il y a le Vietnam que l’on traverse en dix jours entre Hanoï et Hô-Chi-Minh-Ville, et celui que l’on découvre en prenant le temps de s’arrêter. Entre les deux, il y a tout le voyage. »",
       ],
     },
 
@@ -137,10 +137,10 @@ export const destination: Destination = {
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "La baie que la plupart des bateaux ne rejoignent pas",
+        heading: "Un paysage que l’on découvre autrement",
         columns: [
-          "La baie d'Halong voit passer plus de cinq cents bateaux par jour en haute saison. À une heure de navigation, la baie de Lan Ha touche les mêmes pitons karstiques, la même eau couleur jade, avec une fraction du trafic. La jonque privée quitte le port de Got dans la matinée, avant les bateaux de croisière classiques. Le capitaine choisit ses mouillages selon la marée, pas selon un itinéraire fixé à l'avance.",
-          "Le déjeuner se prend à l'ancre, dans une crique où aucun autre bateau n'est visible. L'après-midi, un kayak permet de se glisser sous une arche de calcaire vers une grotte que la marée haute referme. Le soir, sur le pont, le silence qui suit l'arrêt du moteur n'a rien d'un silence de brochure : pas un bateau, pas un moteur, seulement l'eau contre la coque.",
+          "La baie d’Halong est devenue l’un des paysages les plus connus du Vietnam. À une heure de navigation, la baie de Lan Ha dévoile les mêmes reliefs karstiques et les mêmes eaux couleur jade, dans une atmosphère plus préservée. À bord d’une jonque privée, le départ se fait depuis le port de Got, loin du rythme des croisières classiques. Le capitaine adapte la navigation aux marées et aux conditions du jour, choisissant les mouillages au fil de l’eau.",
+          "Le déjeuner se prend à l’ancre, dans une crique entourée de falaises. L’après-midi, un kayak permet de se glisser sous les arches de calcaire et d’explorer des grottes accessibles uniquement lorsque la mer le permet. Puis vient le soir, lorsque le moteur s’arrête et que la baie retrouve son calme : le bruit de l’eau contre la coque devient le seul mouvement perceptible.",
         ],
       },
     },
@@ -184,49 +184,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "TODO: Environ 12h à 13h de vol depuis Paris vers Hanoï ou Hô-Chi-Minh-Ville, avec ou sans escale selon la compagnie (Vietnam Airlines, Air France).",
+            "Environ 12 à 14 heures depuis Paris vers Hanoï ou Hô-Chi-Minh-Ville, avec ou sans escale selon la compagnie.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "6 heures d'avance sur la France en hiver, 5 heures en été. Le Vietnam ne change jamais d'heure.",
+            "6 heures d'avance sur la France en hiver, 5 heures en été. Le Vietnam conserve la même heure toute l'année.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "TODO: Dong vietnamien (VND). 1 € ≈ 27 000 dongs, à titre indicatif. Les cartes bancaires sont acceptées dans les hôtels et restaurants haut de gamme ; prévoir du liquide pour les marchés.",
+            "Dong vietnamien (VND). 1 € ≈ 27 000 dongs (à titre indicatif). Les cartes bancaires sont acceptées dans les hôtels et restaurants haut de gamme ; prévoir des espèces pour les marchés et petites adresses.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "TODO: Passeport valide au moins 6 mois requis. Les ressortissants français bénéficient d'une exemption de visa pour un séjour touristique de 45 jours.",
+            "Passeport valide requis. Les ressortissants français peuvent séjourner au Vietnam sans visa jusqu'à 45 jours pour un séjour touristique.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "TODO: Aucun vaccin obligatoire pour un voyage touristique. Vaccinations universelles à jour recommandées ; une protection antipaludique peut être conseillée selon les zones visitées.",
+            "Aucun vaccin n'est obligatoire pour un voyage touristique. Les vaccinations universelles doivent être à jour ; un traitement préventif peut être recommandé selon les régions visitées.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: Février à avril et septembre à décembre pour le Nord et le Centre, hors saison des pluies. Le Sud reste agréable de décembre à avril.",
+            "Février à avril et octobre à décembre offrent de belles conditions pour découvrir le pays. Le Sud est particulièrement agréable de décembre à avril.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le vietnamien est la langue officielle. L'anglais est présent dans les grandes villes et les adresses touristiques, plus limité en zone rurale et dans les hauts plateaux.",
+            "Le vietnamien est la langue officielle. L'anglais est présent dans les grandes villes et les hôtels, mais reste plus discret dans les régions rurales.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "TODO: Un climat qui varie fortement du nord au sud. Hivers frais et brumeux à Hanoï, chaleur constante à Hô-Chi-Minh-Ville, saison des typhons sur le littoral centre d'août à novembre.",
+            "Le Vietnam connaît de forts contrastes climatiques du nord au sud. Hanoï offre des hivers plus frais, le Sud reste chaud toute l'année, tandis que le littoral central connaît une saison des pluies plus marquée à l'automne.",
         },
       ],
     },
@@ -424,7 +424,7 @@ export const destination: Destination = {
           cardEyebrow: "Tips",
           modalEyebrow: "Guide pratique",
           shortDescription:
-            "Dong vietnamien, économie mixte cash et carte. Marchés et gargotes rythment le quotidien.",
+            "Dong vietnamien. Carte bancaire dans les hôtels et restaurants, espèces privilégiées dans les marchés et petites adresses locales.",
           content: (
             <div className="flex flex-col gap-4">
               <p>
@@ -505,7 +505,7 @@ export const destination: Destination = {
           cardEyebrow: "Tips",
           modalEyebrow: "Guide pratique",
           shortDescription:
-            "Les jonques privées et certains historiens de la cour de Hué se réservent plusieurs semaines à l'avance.",
+            "Les jonques privées et certaines visites confidentielles à Hué doivent être réservées plusieurs semaines à l’avance.",
           content: (
             <div className="flex flex-col gap-4">
               <p>
