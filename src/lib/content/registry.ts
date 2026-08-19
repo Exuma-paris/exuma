@@ -37,6 +37,7 @@ import { destination as turquie } from "@/content/destinations/turquie";
 import { destination as canada } from "@/content/destinations/canada";
 import { destination as autriche } from "@/content/destinations/autriche";
 import { destination as argentine } from "@/content/destinations/argentine";
+import { destination as sriLanka } from "@/content/destinations/sri-lanka";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -139,6 +140,9 @@ import { experience as icebergsBaleinesTerreNeuve } from "@/content/experiences/
 import { experience as milongaPriveeSanTelmo } from "@/content/experiences/milonga-privee-san-telmo";
 import { experience as universFrancisMallmann } from "@/content/experiences/univers-francis-mallmann";
 import { experience as glacierUpsalaNavigation } from "@/content/experiences/glacier-upsala-navigation";
+import { experience as trainKandyEllaWagonPrive } from "@/content/experiences/train-kandy-ella-wagon-prive";
+import { experience as pistageLeopardsYala } from "@/content/experiences/pistage-leopards-yala";
+import { experience as templeDeLaDentCeremonie } from "@/content/experiences/temple-de-la-dent-ceremonie";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -212,6 +216,9 @@ import { accommodation as sixSensesKaplankaya } from "@/content/accommodations/s
 import { accommodation as fairmontChateauLakeLouise } from "@/content/accommodations/fairmont-chateau-lake-louise";
 import { accommodation as clayoquotWildernessLodge } from "@/content/accommodations/clayoquot-wilderness-lodge";
 import { accommodation as fogoIslandInn } from "@/content/accommodations/fogo-island-inn";
+import { accommodation as ceylonTeaTrails } from "@/content/accommodations/ceylon-tea-trails";
+import { accommodation as wildCoastTentedLodge } from "@/content/accommodations/wild-coast-tented-lodge";
+import { accommodation as amangalla } from "@/content/accommodations/amangalla";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -248,6 +255,7 @@ export const destinations: Record<string, Destination> = toMap([
   rioDeJaneiro,
   rome,
   seychelles,
+  sriLanka,
   suisse,
   turquie,
   kenya,
@@ -355,6 +363,9 @@ export const experiences: Record<string, Experience> = toMap([
   croisiereBoutreMidaCreek,
   visiteSamburuOlMalo,
   museeKarenBlixenVoitures,
+  trainKandyEllaWagonPrive,
+  pistageLeopardsYala,
+  templeDeLaDentCeremonie,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -440,6 +451,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   giraffeManor,
   kinondoKwetu,
   richardsRiverCamp,
+  ceylonTeaTrails,
+  wildCoastTentedLodge,
+  amangalla,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
