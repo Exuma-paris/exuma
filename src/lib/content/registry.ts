@@ -38,6 +38,8 @@ import { destination as canada } from "@/content/destinations/canada";
 import { destination as autriche } from "@/content/destinations/autriche";
 import { destination as argentine } from "@/content/destinations/argentine";
 import { destination as sriLanka } from "@/content/destinations/sri-lanka";
+import { destination as uruguay } from "@/content/destinations/uruguay";
+import { destination as hawai } from "@/content/destinations/hawai";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -143,6 +145,12 @@ import { experience as glacierUpsalaNavigation } from "@/content/experiences/gla
 import { experience as trainKandyEllaWagonPrive } from "@/content/experiences/train-kandy-ella-wagon-prive";
 import { experience as pistageLeopardsYala } from "@/content/experiences/pistage-leopards-yala";
 import { experience as templeDeLaDentCeremonie } from "@/content/experiences/temple-de-la-dent-ceremonie";
+import { experience as candombeMontevideo } from "@/content/experiences/candombe-montevideo";
+import { experience as gauchosTacuarembo } from "@/content/experiences/gauchos-tacuarembo";
+import { experience as caboPolonioDunes } from "@/content/experiences/cabo-polonio-dunes";
+import { experience as sommetMaunaKeaAstronome } from "@/content/experiences/sommet-mauna-kea-astronome";
+import { experience as napaliHelicoptereKauai } from "@/content/experiences/napali-helicoptere-kauai";
+import { experience as paniolosParkerRanch } from "@/content/experiences/paniolos-parker-ranch";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -219,6 +227,12 @@ import { accommodation as fogoIslandInn } from "@/content/accommodations/fogo-is
 import { accommodation as ceylonTeaTrails } from "@/content/accommodations/ceylon-tea-trails";
 import { accommodation as wildCoastTentedLodge } from "@/content/accommodations/wild-coast-tented-lodge";
 import { accommodation as amangalla } from "@/content/accommodations/amangalla";
+import { accommodation as estanciaVikJoseIgnacio } from "@/content/accommodations/estancia-vik-jose-ignacio";
+import { accommodation as sacromonteLandscapeHotel } from "@/content/accommodations/sacromonte-landscape-hotel";
+import { accommodation as playaVikJoseIgnacio } from "@/content/accommodations/playa-vik-jose-ignacio";
+import { accommodation as fourSeasonsLanai } from "@/content/accommodations/four-seasons-lanai";
+import { accommodation as konaVillageRosewood } from "@/content/accommodations/kona-village-rosewood";
+import { accommodation as montageKapaluaBay } from "@/content/accommodations/montage-kapalua-bay";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -244,6 +258,7 @@ export const destinations: Record<string, Destination> = toMap([
   etatsUnis,
   france,
   grece,
+  hawai,
   italie,
   madere,
   maldives,
@@ -258,6 +273,7 @@ export const destinations: Record<string, Destination> = toMap([
   sriLanka,
   suisse,
   turquie,
+  uruguay,
   kenya,
 ]);
 
@@ -366,6 +382,12 @@ export const experiences: Record<string, Experience> = toMap([
   trainKandyEllaWagonPrive,
   pistageLeopardsYala,
   templeDeLaDentCeremonie,
+  candombeMontevideo,
+  gauchosTacuarembo,
+  caboPolonioDunes,
+  sommetMaunaKeaAstronome,
+  napaliHelicoptereKauai,
+  paniolosParkerRanch,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -454,6 +476,12 @@ export const accommodations: Record<string, Accommodation> = toMap([
   ceylonTeaTrails,
   wildCoastTentedLodge,
   amangalla,
+  estanciaVikJoseIgnacio,
+  sacromonteLandscapeHotel,
+  playaVikJoseIgnacio,
+  fourSeasonsLanai,
+  konaVillageRosewood,
+  montageKapaluaBay,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
