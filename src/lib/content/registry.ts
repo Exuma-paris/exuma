@@ -20,6 +20,7 @@ import { destination as polynesie2 } from "@/content/destinations/polynesie-2";
 import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as oman } from "@/content/destinations/oman";
 import { destination as paris } from "@/content/destinations/paris";
+import { destination as paysBas } from "@/content/destinations/pays-bas";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
 import { destination as rome } from "@/content/destinations/rome";
 import { destination as seychelles } from "@/content/destinations/seychelles";
@@ -100,6 +101,9 @@ import { experience as parcNamibNaukluft } from "@/content/experiences/parc-nami
 import { experience as sossusvleiDeadvlei } from "@/content/experiences/sossusvlei-deadvlei";
 import { experience as valleeRoisTombesFermees } from "@/content/experiences/vallee-rois-tombes-fermees";
 import { experience as montgolfiereNecropoleThebaine } from "@/content/experiences/montgolfiere-necropole-thebaine";
+import { experience as rijksmuseumAvantOuverture } from "@/content/experiences/rijksmuseum-avant-ouverture";
+import { experience as mauritshuisVermeerDelft } from "@/content/experiences/mauritshuis-vermeer-delft";
+import { experience as crieeAalsmeerAube } from "@/content/experiences/criee-aalsmeer-aube";
 import { experience as siwaCampementDesert } from "@/content/experiences/siwa-campement-desert";
 import { experience as ascensionMontBromo } from "@/content/experiences/ascension-mont-bromo";
 import { experience as tirtaEmpulForetSinges } from "@/content/experiences/tirta-empul-foret-singes";
@@ -163,6 +167,9 @@ import { accommodation as sossusvleiDesertLodge } from "@/content/accommodations
 import { accommodation as zannierSonop } from "@/content/accommodations/zannier-sonop";
 import { accommodation as hoanibSkeletonCoastCamp } from "@/content/accommodations/hoanib-skeleton-coast-camp";
 import { accommodation as oldCataractAssouan } from "@/content/accommodations/old-cataract-assouan";
+import { accommodation as deLEuropeAmsterdam } from "@/content/accommodations/de-l-europe-amsterdam";
+import { accommodation as roodeKoperVeluwe } from "@/content/accommodations/roode-koper-veluwe";
+import { accommodation as chateauStGerlach } from "@/content/accommodations/chateau-st-gerlach";
 import { accommodation as alMoudiraLouxor } from "@/content/accommodations/al-moudira-louxor";
 import { accommodation as dahabiehPrivatiseeNil } from "@/content/accommodations/dahabieh-privatisee-nil";
 import { accommodation as amankila } from "@/content/accommodations/amankila";
@@ -219,6 +226,7 @@ export const destinations: Record<string, Destination> = toMap([
   norvege,
   oman,
   paris,
+  paysBas,
   polynesie,
   polynesie2,
   polynesieOld,
@@ -260,6 +268,7 @@ export const experiences: Record<string, Experience> = toMap([
   colonieManchotsBoulders,
   coucherSoleilGranit,
   coursCuisineBlueElephant,
+  crieeAalsmeerAube,
   croisiereIlotBenitiers,
   cuisinePalaisBahia,
   decouverteIlesBateauSeychelles,
@@ -284,6 +293,7 @@ export const experiences: Record<string, Experience> = toMap([
   louvrePriveNocturne,
   marcheBushmenSan,
   marchePistageThornybush,
+  mauritshuisVermeerDelft,
   montgolfiereNecropoleThebaine,
   navigationCanauxOkavango,
   nickTetautiare,
@@ -300,6 +310,7 @@ export const experiences: Record<string, Experience> = toMap([
   refugeCuru,
   reinefjordMoskenstraumen,
   reserveNectandra,
+  rijksmuseumAvantOuverture,
   rungisChef,
   safariNocturneProjecteur,
   skiVoileSunnmore,
@@ -341,9 +352,11 @@ export const accommodations: Record<string, Accommodation> = toMap([
   bushmansKloof,
   calaRossa,
   casadelmar,
+  chateauStGerlach,
   chevalBlancParis,
   dahabiehPrivatiseeNil,
   darAhlam,
+  deLEuropeAmsterdam,
   dusitThaniBangkok,
   eagleIslandLodge,
   ellermanHouse,
@@ -377,6 +390,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   northIsland,
   oldCataractAssouan,
   pashaSantaTeresa,
+  roodeKoperVeluwe,
   royalMansour,
   royalPalmBeachcomber,
   sasekaTentedCamp,
