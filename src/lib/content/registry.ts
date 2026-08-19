@@ -40,6 +40,7 @@ import { destination as argentine } from "@/content/destinations/argentine";
 import { destination as sriLanka } from "@/content/destinations/sri-lanka";
 import { destination as uruguay } from "@/content/destinations/uruguay";
 import { destination as hawai } from "@/content/destinations/hawai";
+import { destination as royaumeUni } from "@/content/destinations/royaume-uni";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -151,6 +152,9 @@ import { experience as caboPolonioDunes } from "@/content/experiences/cabo-polon
 import { experience as sommetMaunaKeaAstronome } from "@/content/experiences/sommet-mauna-kea-astronome";
 import { experience as napaliHelicoptereKauai } from "@/content/experiences/napali-helicoptere-kauai";
 import { experience as paniolosParkerRanch } from "@/content/experiences/paniolos-parker-ranch";
+import { experience as islayChaisMasterBlender } from "@/content/experiences/islay-chais-master-blender";
+import { experience as savileRowAtelier } from "@/content/experiences/savile-row-atelier";
+import { experience as domainePriveHighlands } from "@/content/experiences/domaine-prive-highlands";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -233,6 +237,9 @@ import { accommodation as playaVikJoseIgnacio } from "@/content/accommodations/p
 import { accommodation as fourSeasonsLanai } from "@/content/accommodations/four-seasons-lanai";
 import { accommodation as konaVillageRosewood } from "@/content/accommodations/kona-village-rosewood";
 import { accommodation as montageKapaluaBay } from "@/content/accommodations/montage-kapalua-bay";
+import { accommodation as theConnaught } from "@/content/accommodations/the-connaught";
+import { accommodation as heckfieldPlace } from "@/content/accommodations/heckfield-place";
+import { accommodation as theFifeArms } from "@/content/accommodations/the-fife-arms";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -275,6 +282,7 @@ export const destinations: Record<string, Destination> = toMap([
   turquie,
   uruguay,
   kenya,
+  royaumeUni,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -388,6 +396,9 @@ export const experiences: Record<string, Experience> = toMap([
   sommetMaunaKeaAstronome,
   napaliHelicoptereKauai,
   paniolosParkerRanch,
+  islayChaisMasterBlender,
+  savileRowAtelier,
+  domainePriveHighlands,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -482,6 +493,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   fourSeasonsLanai,
   konaVillageRosewood,
   montageKapaluaBay,
+  theConnaught,
+  heckfieldPlace,
+  theFifeArms,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
