@@ -40,6 +40,7 @@ import { destination as islande } from "@/content/destinations/islande";
 import { destination as irlande } from "@/content/destinations/irlande";
 import { destination as ecosse } from "@/content/destinations/ecosse";
 import { destination as madagascar } from "@/content/destinations/madagascar";
+import { destination as arabieSaoudite } from "@/content/destinations/arabie-saoudite";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -141,6 +142,9 @@ import { experience as linksEastLothian } from "@/content/experiences/links-east
 import { experience as tsingyRouges } from "@/content/experiences/tsingy-rouges";
 import { experience as alleeBaobabsAube } from "@/content/experiences/allee-baobabs-aube";
 import { experience as baleinesSainteMarie } from "@/content/experiences/baleines-sainte-marie";
+import { experience as montgolfiereHegra } from "@/content/experiences/montgolfiere-hegra";
+import { experience as landRoverVintageDadan } from "@/content/experiences/land-rover-vintage-dadan";
+import { experience as elephantRockHeureDoree } from "@/content/experiences/elephant-rock-heure-doree";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -216,6 +220,9 @@ import { accommodation as princesStreet100 } from "@/content/accommodations/100-
 import { accommodation as timeTideMiavana } from "@/content/accommodations/time-tide-miavana";
 import { accommodation as constanceTsarabanjina } from "@/content/accommodations/constance-tsarabanjina";
 import { accommodation as anjajavyLeLodge } from "@/content/accommodations/anjajavy-le-lodge";
+import { accommodation as darTantora } from "@/content/accommodations/dar-tantora";
+import { accommodation as ourHabitasAlula } from "@/content/accommodations/our-habitas-alula";
+import { accommodation as redSeaEdition } from "@/content/accommodations/red-sea-edition";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
 
@@ -234,6 +241,7 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
 
 export const destinations: Record<string, Destination> = toMap([
   afriqueDuSud,
+  arabieSaoudite,
   botswana,
   corse,
   costaRica,
@@ -302,6 +310,7 @@ export const experiences: Record<string, Experience> = toMap([
   dinerLadyLisbeth,
   echappeeSkeletonCoast,
   eclosionTortuesSeychelles,
+  elephantRockHeureDoree,
   flyCampKopjesGrumeti,
   golfParadisMorne,
   galerieBorghesePrive,
@@ -318,6 +327,7 @@ export const experiences: Record<string, Experience> = toMap([
   soireeBossaNovaIpanema,
   lagonMoorea,
   lavezzi,
+  landRoverVintageDadan,
   linksEastLothian,
   louvrePriveNocturne,
   marcheBushmenSan,
@@ -325,6 +335,7 @@ export const experiences: Record<string, Experience> = toMap([
   marchePistageThornybush,
   mauritshuisVermeerDelft,
   montgolfiereNecropoleThebaine,
+  montgolfiereHegra,
   navigationCanauxOkavango,
   nickTetautiare,
   nizwaBahlaJabreen,
@@ -394,6 +405,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   cliffHouseArdmore,
   dahabiehPrivatiseeNil,
   darAhlam,
+  darTantora,
   deLEuropeAmsterdam,
   dusitThaniBangkok,
   eagleIslandLodge,
@@ -427,12 +439,14 @@ export const accommodations: Record<string, Accommodation> = toMap([
   nihiSumba,
   northIsland,
   oldCataractAssouan,
+  ourHabitasAlula,
   pashaSantaTeresa,
   princesStreet100,
   roodeKoperVeluwe,
   royalMansour,
   royalPalmBeachcomber,
   royalScotsman,
+  redSeaEdition,
   sasekaTentedCamp,
   schlossRoxburghe,
   singitaSasakwaLodge,
