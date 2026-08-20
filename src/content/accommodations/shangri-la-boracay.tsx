@@ -1,6 +1,5 @@
 import type { Accommodation } from "@/lib/content/types";
 
-// TODO: verify — établissement possiblement fermé définitivement, à confirmer avant publication
 export const accommodation: Accommodation = {
   slug: "shangri-la-boracay",
   name: "Shangri-La Boracay",
