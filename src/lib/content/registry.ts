@@ -44,6 +44,7 @@ import { destination as hawai } from "@/content/destinations/hawai";
 import { destination as royaumeUni } from "@/content/destinations/royaume-uni";
 import { destination as cambodge } from "@/content/destinations/cambodge";
 import { destination as bahamas } from "@/content/destinations/bahamas";
+import { destination as bhoutan } from "@/content/destinations/bhoutan";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -167,6 +168,9 @@ import { experience as tonleSapPecheurAube } from "@/content/experiences/tonle-s
 import { experience as pecheBonefishFlats } from "@/content/experiences/peche-bonefish-flats";
 import { experience as catamaranPriveGreenCay } from "@/content/experiences/catamaran-prive-green-cay";
 import { experience as soireeJunkanooPlage } from "@/content/experiences/soiree-junkanoo-plage";
+import { experience as punakhaBenedictionLama } from "@/content/experiences/punakha-benediction-lama";
+import { experience as gruesPhobjikhaOrnithologue } from "@/content/experiences/grues-phobjikha-ornithologue";
+import { experience as helicoHimalayaJomolhari } from "@/content/experiences/helico-himalaya-jomolhari";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -261,6 +265,9 @@ import { accommodation as songSaaPrivateIsland } from "@/content/accommodations/
 import { accommodation as mushaCay } from "@/content/accommodations/musha-cay";
 import { accommodation as kamalameCay } from "@/content/accommodations/kamalame-cay";
 import { accommodation as thePotlatchClub } from "@/content/accommodations/the-potlatch-club";
+import { accommodation as amankora } from "@/content/accommodations/amankora";
+import { accommodation as sixSensesBhutan } from "@/content/accommodations/six-senses-bhutan";
+import { accommodation as gangteyLodge } from "@/content/accommodations/gangtey-lodge";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -279,6 +286,7 @@ export const destinations: Record<string, Destination> = toMap([
   argentine,
   autriche,
   bahamas,
+  bhoutan,
   bresil,
   cambodge,
   canada,
@@ -367,7 +375,9 @@ export const experiences: Record<string, Experience> = toMap([
   goelettePriveeCoteLycienne,
   gr20,
   grottesPontaDaPiedade,
+  gruesPhobjikhaOrnithologue,
   hammamDarElBacha,
+  helicoHimalayaJomolhari,
   hammamKilicAliPasaPrive,
   icebergsBaleinesTerreNeuve,
   iguacuChutesAube,
@@ -382,6 +392,7 @@ export const experiences: Record<string, Experience> = toMap([
   palawanHydravionPrive,
   pecheDhoniCoucherSoleil,
   perlesSuwaidiRasAlKhaimah,
+  punakhaBenedictionLama,
   pistageCondorsBigSur,
   pistageJaguarsPantanal,
   plageSeixal,
@@ -452,6 +463,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   alvearPalace,
   amangiri,
   amanjena,
+  amankora,
   amanpulo,
   amansara,
   amanVenice,
@@ -479,6 +491,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   fincaCortesin,
   fourSeasonsMahe,
   fregateIslandPrivate,
+  gangteyLodge,
   grandHotelDuCapFerrat,
   hasslerRoma,
   hotel7132Vals,
@@ -508,6 +521,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   savoyPalace,
   shangriLaBoracay,
   shintaManiWild,
+  sixSensesBhutan,
   sixSensesDouroValley,
   sixSensesKaplankaya,
   sixSensesLaamu,
