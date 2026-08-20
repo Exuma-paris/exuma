@@ -39,6 +39,7 @@ import { destination as norvege } from "@/content/destinations/norvege";
 import { destination as islande } from "@/content/destinations/islande";
 import { destination as irlande } from "@/content/destinations/irlande";
 import { destination as ecosse } from "@/content/destinations/ecosse";
+import { destination as madagascar } from "@/content/destinations/madagascar";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -137,6 +138,9 @@ import { experience as oldHeadKinsale } from "@/content/experiences/old-head-kin
 import { experience as chateauFloors } from "@/content/experiences/chateau-floors";
 import { experience as pecheMoucheSkye } from "@/content/experiences/peche-mouche-skye";
 import { experience as linksEastLothian } from "@/content/experiences/links-east-lothian";
+import { experience as tsingyRouges } from "@/content/experiences/tsingy-rouges";
+import { experience as alleeBaobabsAube } from "@/content/experiences/allee-baobabs-aube";
+import { experience as baleinesSainteMarie } from "@/content/experiences/baleines-sainte-marie";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -209,6 +213,9 @@ import { accommodation as cliffHouseArdmore } from "@/content/accommodations/cli
 import { accommodation as royalScotsman } from "@/content/accommodations/royal-scotsman";
 import { accommodation as schlossRoxburghe } from "@/content/accommodations/schloss-roxburghe";
 import { accommodation as princesStreet100 } from "@/content/accommodations/100-princes-street";
+import { accommodation as timeTideMiavana } from "@/content/accommodations/time-tide-miavana";
+import { accommodation as constanceTsarabanjina } from "@/content/accommodations/constance-tsarabanjina";
+import { accommodation as anjajavyLeLodge } from "@/content/accommodations/anjajavy-le-lodge";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
 
@@ -236,6 +243,7 @@ export const destinations: Record<string, Destination> = toMap([
   irlande,
   islande,
   jordanie,
+  madagascar,
   marrakech,
   maurice,
   namibie,
@@ -276,10 +284,12 @@ export const themes: Record<string, Theme> = toMap([
 export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
+  alleeBaobabsAube,
   ascensionMontBromo,
   atelierLesage,
   atelierSambaMangueira,
   aubeHadzabeLacEyasi,
+  baleinesSainteMarie,
   chateauFloors,
   corcovadoAubePaineiras,
   colonieManchotsBoulders,
@@ -340,6 +350,7 @@ export const experiences: Record<string, Experience> = toMap([
   sossusvleiDeadvlei,
   survolAtlasBiplan,
   tirtaEmpulForetSinges,
+  tsingyRouges,
   valleeRoisTombesFermees,
   viaAppiaVespa,
   vinCorse,
@@ -371,6 +382,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   amankila,
   amanpuri,
   anantaraAlJabalAlAkhdar,
+  anjajavyLeLodge,
   ashfordCastle,
   belmondCopacabanaPalace,
   bushmansKloof,
@@ -378,6 +390,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   casadelmar,
   chateauStGerlach,
   chevalBlancParis,
+  constanceTsarabanjina,
   cliffHouseArdmore,
   dahabiehPrivatiseeNil,
   darAhlam,
@@ -427,6 +440,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   skalakot,
   sossusvleiDesertLodge,
   tawana,
+  timeTideMiavana,
   umiHotel,
   vingtDegresSud,
   zannierSonop,
