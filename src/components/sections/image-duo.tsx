@@ -20,7 +20,9 @@ export function ImageDuoSection({
             src={left.src}
             alt={left.alt}
             fill
-            sizes="(min-width: 768px) 50vw, 66vw"
+            // flex-[2] of a full-width container: ≈60vw, not 50vw. Under-declaring
+            // makes the browser upscale a too-small variant.
+            sizes="(min-width: 768px) 60vw, 66vw"
             className="object-cover"
           />
         </div>
@@ -29,7 +31,8 @@ export function ImageDuoSection({
             src={right.src}
             alt={right.alt}
             fill
-            sizes="(min-width: 768px) 25vw, 33vw"
+            // flex-1 of the same container: ≈30vw, not 25vw.
+            sizes="(min-width: 768px) 30vw, 33vw"
             className="object-cover"
           />
         </div>

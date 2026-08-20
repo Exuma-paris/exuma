@@ -88,7 +88,9 @@ export function TextImagesSplitSection({
                 src={images[1].src}
                 alt={images[1].alt}
                 fill
-                sizes="(min-width: 768px) 25vw, 60vw"
+                // 60% of a half-width grid column ≈ 27vw, so 25vw fell just short
+                // and this tile upscaled slightly. Sibling above is 55% ≈ 25vw.
+                sizes="(min-width: 768px) 28vw, 60vw"
                 className="object-cover"
               />
             </div>
