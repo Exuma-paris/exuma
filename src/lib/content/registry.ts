@@ -45,6 +45,7 @@ import { destination as royaumeUni } from "@/content/destinations/royaume-uni";
 import { destination as cambodge } from "@/content/destinations/cambodge";
 import { destination as bahamas } from "@/content/destinations/bahamas";
 import { destination as bhoutan } from "@/content/destinations/bhoutan";
+import { destination as chili } from "@/content/destinations/chili";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -171,6 +172,9 @@ import { experience as soireeJunkanooPlage } from "@/content/experiences/soiree-
 import { experience as punakhaBenedictionLama } from "@/content/experiences/punakha-benediction-lama";
 import { experience as gruesPhobjikhaOrnithologue } from "@/content/experiences/grues-phobjikha-ornithologue";
 import { experience as helicoHimalayaJomolhari } from "@/content/experiences/helico-himalaya-jomolhari";
+import { experience as torresPaineBaqueanos } from "@/content/experiences/torres-paine-baqueanos";
+import { experience as atacamaAstrophysicien } from "@/content/experiences/atacama-astrophysicien";
+import { experience as fjordsKawesqarGoelette } from "@/content/experiences/fjords-kawesqar-goelette";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -268,6 +272,9 @@ import { accommodation as thePotlatchClub } from "@/content/accommodations/the-p
 import { accommodation as amankora } from "@/content/accommodations/amankora";
 import { accommodation as sixSensesBhutan } from "@/content/accommodations/six-senses-bhutan";
 import { accommodation as gangteyLodge } from "@/content/accommodations/gangtey-lodge";
+import { accommodation as awasiPatagonia } from "@/content/accommodations/awasi-patagonia";
+import { accommodation as exploraAtacama } from "@/content/accommodations/explora-atacama";
+import { accommodation as vikChile } from "@/content/accommodations/vik-chile";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -290,6 +297,7 @@ export const destinations: Record<string, Destination> = toMap([
   bresil,
   cambodge,
   canada,
+  chili,
   corse,
   emiratsArabesUnis,
   espagne,
@@ -342,6 +350,7 @@ export const experiences: Record<string, Experience> = toMap([
   acropoleHorsHeures,
   apoReefPlongeePrivee,
   arlbergPeauDePhoque,
+  atacamaAstrophysicien,
   atelierCorailBiologiste,
   atelierHorlogerValleeDeJoux,
   atelierLesage,
@@ -369,6 +378,7 @@ export const experiences: Record<string, Experience> = toMap([
   eclosionTortuesSeychelles,
   epheseArcheologueHorsHeures,
   fadoChapelleAlfama,
+  fjordsKawesqarGoelette,
   foretFanal,
   galerieBorghesePrive,
   glacierUpsalaNavigation,
@@ -427,6 +437,7 @@ export const experiences: Record<string, Experience> = toMap([
   croisiereBoutreMidaCreek,
   visiteSamburuOlMalo,
   museeKarenBlixenVoitures,
+  torresPaineBaqueanos,
   trainKandyEllaWagonPrive,
   pistageLeopardsYala,
   templeDeLaDentCeremonie,
@@ -470,6 +481,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   amanzoe,
   aurelioLech,
   awasiMendoza,
+  awasiPatagonia,
   belmondCopacabanaPalace,
   belmondDasCataratas,
   belmondReidsPalace,
@@ -480,6 +492,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   casadelmar,
   chableYucatan,
   clayoquotWildernessLodge,
+  exploraAtacama,
   fairmontChateauLakeLouise,
   fogoIslandInn,
   chevalBlancParis,
@@ -533,6 +546,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   theAlpinaGstaad,
   theBrando,
   theMarkHotel,
+  vikChile,
   vilaGuara,
   giraffeManor,
   kinondoKwetu,
