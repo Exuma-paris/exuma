@@ -10,6 +10,6 @@ export const experience: Experience = {
     src: "/destination/polynesie/xp-bateau.png",
     alt: "Préparation du Monoï dans une maison de la côte ouest de Tahiti",
   },
-  destinationSlugs: ["polynesie", "polynesie-2"],
+  destinationSlugs: ["polynesie"],
   sections: [],
 };

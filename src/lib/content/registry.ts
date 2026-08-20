@@ -14,9 +14,8 @@ import type {
 } from "./types";
 
 import { destination as corse } from "@/content/destinations/corse";
+import { destination as grece } from "@/content/destinations/grece";
 import { destination as polynesie } from "@/content/destinations/polynesie";
-import { destination as polynesieOld } from "@/content/destinations/polynesie-old";
-import { destination as polynesie2 } from "@/content/destinations/polynesie-2";
 import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as oman } from "@/content/destinations/oman";
 import { destination as paris } from "@/content/destinations/paris";
@@ -129,6 +128,10 @@ import { experience as skiVoileSunnmore } from "@/content/experiences/ski-voile-
 import { experience as ilesWestmanEldfell } from "@/content/experiences/iles-westman-eldfell";
 import { experience as kayakPaddleThorsmork } from "@/content/experiences/kayak-paddle-thorsmork";
 import { experience as observationBaleinesIslande } from "@/content/experiences/observation-baleines-islande";
+import { experience as croisierePriveeCyclades } from "@/content/experiences/croisiere-privee-cyclades";
+import { experience as acropoleHorsHeures } from "@/content/experiences/acropole-hors-heures";
+import { experience as delphesGuideArcheologue } from "@/content/experiences/delphes-guide-archeologue";
+import { experience as tableSantorinVigneron } from "@/content/experiences/table-santorin-vigneron";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -195,6 +198,9 @@ import { accommodation as juvetLandskapshotell } from "@/content/accommodations/
 import { accommodation as umiHotel } from "@/content/accommodations/umi-hotel";
 import { accommodation as skalakot } from "@/content/accommodations/skalakot";
 import { accommodation as hotelJokulsarlon } from "@/content/accommodations/hotel-jokulsarlon";
+import { accommodation as amanzoe } from "@/content/accommodations/amanzoe";
+import { accommodation as canavesOia } from "@/content/accommodations/canaves-oia";
+import { accommodation as kalesmaMykonos } from "@/content/accommodations/kalesma-mykonos";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
 
@@ -217,9 +223,11 @@ export const destinations: Record<string, Destination> = toMap([
   corse,
   costaRica,
   egypte,
+  grece,
   indonesie,
   islande,
   jordanie,
+  kenya,
   marrakech,
   maurice,
   namibie,
@@ -228,12 +236,9 @@ export const destinations: Record<string, Destination> = toMap([
   paris,
   paysBas,
   polynesie,
-  polynesie2,
-  polynesieOld,
   rioDeJaneiro,
   rome,
   seychelles,
-  kenya,
   tanzanie,
   thailande,
 ]);
@@ -260,24 +265,28 @@ export const themes: Record<string, Theme> = toMap([
 export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
+  acropoleHorsHeures,
   ascensionMontBromo,
   atelierLesage,
   atelierSambaMangueira,
   aubeHadzabeLacEyasi,
-  corcovadoAubePaineiras,
   colonieManchotsBoulders,
+  corcovadoAubePaineiras,
   coucherSoleilGranit,
   coursCuisineBlueElephant,
   crieeAalsmeerAube,
+  croisiereBoutreMidaCreek,
   croisiereIlotBenitiers,
+  croisierePriveeCyclades,
   cuisinePalaisBahia,
   decouverteIlesBateauSeychelles,
+  delphesGuideArcheologue,
   dinerLadyLisbeth,
   echappeeSkeletonCoast,
   eclosionTortuesSeychelles,
   flyCampKopjesGrumeti,
-  golfParadisMorne,
   galerieBorghesePrive,
+  golfParadisMorne,
   gr20,
   hammamDarElBacha,
   ilesCagarrasPecheur,
@@ -285,16 +294,15 @@ export const experiences: Record<string, Experience> = toMap([
   ilesWestmanEldfell,
   kayakPaddleThorsmork,
   khaoYaiHeowSuwat,
-  lagonWeekuriSumba,
-  sablesSecretsRio,
-  soireeBossaNovaIpanema,
   lagonMoorea,
+  lagonWeekuriSumba,
   lavezzi,
   louvrePriveNocturne,
   marcheBushmenSan,
   marchePistageThornybush,
   mauritshuisVermeerDelft,
   montgolfiereNecropoleThebaine,
+  museeKarenBlixenVoitures,
   navigationCanauxOkavango,
   nickTetautiare,
   nizwaBahlaJabreen,
@@ -312,24 +320,25 @@ export const experiences: Record<string, Experience> = toMap([
   reserveNectandra,
   rijksmuseumAvantOuverture,
   rungisChef,
+  sablesSecretsRio,
+  safariMontgolfiereMara,
   safariNocturneProjecteur,
-  skiVoileSunnmore,
   siwaCampementDesert,
+  skiVoileSunnmore,
+  soireeBossaNovaIpanema,
   sossusvleiDeadvlei,
   survolAtlasBiplan,
+  tableSantorinVigneron,
   tirtaEmpulForetSinges,
   valleeRoisTombesFermees,
   viaAppiaVespa,
   vinCorse,
-  wadiBaniKhalid,
-  wadiRum4x4Campement,
+  visiteSamburuOlMalo,
   volHelicoptereMpumalanga,
   volHelicoptereSeychelles,
+  wadiBaniKhalid,
+  wadiRum4x4Campement,
   watPhoChantsMoines,
-  safariMontgolfiereMara,
-  croisiereBoutreMidaCreek,
-  visiteSamburuOlMalo,
-  museeKarenBlixenVoitures,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -347,10 +356,12 @@ export const accommodations: Record<string, Accommodation> = toMap([
   amanjena,
   amankila,
   amanpuri,
+  amanzoe,
   anantaraAlJabalAlAkhdar,
   belmondCopacabanaPalace,
   bushmansKloof,
   calaRossa,
+  canavesOia,
   casadelmar,
   chateauStGerlach,
   chevalBlancParis,
@@ -366,6 +377,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   fourSeasonsMahe,
   fourSeasonsPapagayo,
   fregateIslandPrivate,
+  giraffeManor,
   grumetiSerengetiRiverLodge,
   hasslerRoma,
   hoanibSkeletonCoastCamp,
@@ -376,7 +388,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   jacksCamp,
   jKPlaceRoma,
   juvetLandskapshotell,
+  kalesmaMykonos,
   kempinskiIshtarDeadSea,
+  kinondoKwetu,
   labaMamaSimba,
   leBristol,
   leTahaa,
@@ -390,6 +404,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   northIsland,
   oldCataractAssouan,
   pashaSantaTeresa,
+  richardsRiverCamp,
   roodeKoperVeluwe,
   royalMansour,
   royalPalmBeachcomber,
@@ -398,16 +413,13 @@ export const accommodations: Record<string, Accommodation> = toMap([
   sixSensesYaoNoi,
   skalakot,
   sossusvleiDesertLodge,
+  stRegisBoraBora,
   tawana,
+  theBrando,
+  theChediMuscat,
   umiHotel,
   vingtDegresSud,
   zannierSonop,
-  stRegisBoraBora,
-  theBrando,
-  theChediMuscat,
-  giraffeManor,
-  kinondoKwetu,
-  richardsRiverCamp,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
