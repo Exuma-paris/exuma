@@ -65,6 +65,9 @@ import { destination as jordanie } from "@/content/destinations/jordanie";
 import { destination as norvege } from "@/content/destinations/norvege";
 import { destination as islande } from "@/content/destinations/islande";
 import { destination as losCabos } from "@/content/destinations/los-cabos";
+import { destination as caraibes } from "@/content/destinations/caraibes";
+import { destination as saintBarthelemy } from "@/content/destinations/saint-barthelemy";
+import { destination as maroc } from "@/content/destinations/maroc";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -72,6 +75,7 @@ import { continent as asie } from "@/content/continents/asie";
 import { continent as ameriques } from "@/content/continents/ameriques";
 import { continent as procheOrient } from "@/content/continents/proche-orient";
 import { continent as ilesOceanie } from "@/content/continents/iles-oceanie";
+import { continent as caraibesContinent } from "@/content/continents/caraibes";
 
 import { theme as bienEtre } from "@/content/themes/bien-etre";
 import { theme as skiMontagne } from "@/content/themes/ski-montagne";
@@ -252,6 +256,14 @@ import { experience as escapadeTodosSantos } from "@/content/experiences/escapad
 import { experience as plongeeCaboPulmo } from "@/content/experiences/plongee-cabo-pulmo";
 import { experience as snorkelingLionsMerEspirituSanto } from "@/content/experiences/snorkeling-lions-mer-espiritu-santo";
 import { experience as wineOclockValleGuadalupe } from "@/content/experiences/wine-oclock-valle-guadalupe";
+import { experience as piqueNiqueAnseColombier } from "@/content/experiences/pique-nique-anse-colombier";
+import { experience as cacaoBelmontGrenade } from "@/content/experiences/cacao-belmont-grenade";
+import { experience as grosPitonAubeSoufriere } from "@/content/experiences/gros-piton-aube-soufriere";
+import { experience as corossolVannieresLantana } from "@/content/experiences/corossol-vannieres-lantana";
+import { experience as voilesDeSaintBarthRegate } from "@/content/experiences/voiles-de-saint-barth-regate";
+import { experience as sagesseSoufieFes } from "@/content/experiences/sagesse-soufie-fes";
+import { experience as valleeDesRosesRoseDamas } from "@/content/experiences/vallee-des-roses-rose-damas";
+import { experience as detroitGibraltarNavigation } from "@/content/experiences/detroit-gibraltar-navigation";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -408,6 +420,13 @@ import { accommodation as vikChile } from "@/content/accommodations/vik-chile";
 import { accommodation as chilenoBayAuberge } from "@/content/accommodations/chileno-bay-auberge";
 import { accommodation as fourSeasonsLosCabos } from "@/content/accommodations/four-seasons-los-cabos";
 import { accommodation as oneAndOnlyPalmilla } from "@/content/accommodations/one-and-only-palmilla";
+import { accommodation as chevalBlancStBarth } from "@/content/accommodations/cheval-blanc-st-barth";
+import { accommodation as belmondCapJuluca } from "@/content/accommodations/belmond-cap-juluca";
+import { accommodation as cottonHouseMustique } from "@/content/accommodations/cotton-house-mustique";
+import { accommodation as rosewoodLeGuanahani } from "@/content/accommodations/rosewood-le-guanahani";
+import { accommodation as edenRockStBarths } from "@/content/accommodations/eden-rock-st-barths";
+import { accommodation as karawanRiad } from "@/content/accommodations/karawan-riad";
+import { accommodation as kasbahTamadot } from "@/content/accommodations/kasbah-tamadot";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
 
@@ -477,6 +496,9 @@ export const destinations: Record<string, Destination> = toMap([
   tanzanie,
   thailande,
   losCabos,
+  caraibes,
+  saintBarthelemy,
+  maroc,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -486,6 +508,7 @@ export const continents: Record<string, Continent> = toMap([
   ameriques,
   procheOrient,
   ilesOceanie,
+  caraibesContinent,
 ]);
 
 export const themes: Record<string, Theme> = toMap([
@@ -666,6 +689,14 @@ export const experiences: Record<string, Experience> = toMap([
   plongeeCaboPulmo,
   snorkelingLionsMerEspirituSanto,
   wineOclockValleGuadalupe,
+  piqueNiqueAnseColombier,
+  cacaoBelmontGrenade,
+  grosPitonAubeSoufriere,
+  corossolVannieresLantana,
+  voilesDeSaintBarthRegate,
+  sagesseSoufieFes,
+  valleeDesRosesRoseDamas,
+  detroitGibraltarNavigation,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -834,6 +865,13 @@ export const accommodations: Record<string, Accommodation> = toMap([
   chilenoBayAuberge,
   fourSeasonsLosCabos,
   oneAndOnlyPalmilla,
+  chevalBlancStBarth,
+  belmondCapJuluca,
+  cottonHouseMustique,
+  rosewoodLeGuanahani,
+  edenRockStBarths,
+  karawanRiad,
+  kasbahTamadot,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
