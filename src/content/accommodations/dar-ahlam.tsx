@@ -10,6 +10,6 @@ export const accommodation: Accommodation = {
     src: "/destination/marrakech/hotel-dar-ahlam.png",
     alt: "Kasbah Dar Ahlam dans la palmeraie de Skoura au coucher du soleil",
   },
-  destinationSlugs: ["marrakech"],
+  destinationSlugs: ["marrakech", "maroc"],
   sections: [],
 };
