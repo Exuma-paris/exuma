@@ -19,6 +19,13 @@ export default function Home() {
           <Header />
           <HeroImageBottom
             eyebrow="Conciergerie de voyage · depuis 1991"
+            // Copie volontaire de l'image de Madère plutôt qu'un lien vers
+            // /destination/madere/ : ré-illustrer la page destination ne doit
+            // pas changer la première image du site.
+            image={{
+              src: "/home-hero.png",
+              alt: "Une famille sur un promontoire de Madère, au-dessus d'une mer de nuages",
+            }}
             heading="Vous nous dites où. Nous nous occupons du reste."
             paragraph="Un interlocuteur unique conçoit votre voyage, réserve et coordonne. Il reste joignable jusqu'à votre retour."
             ctas={{
