@@ -3,7 +3,10 @@ import { HeroImageBottom } from "@/components/sections/hero/image-bottom";
 import { Recommended } from "@/components/blocks/recommended";
 import { BentoSection } from "@/components/sections/bento";
 import { FeatureCardsSection } from "@/components/sections/feature-cards";
-import { getThemeCards } from "@/lib/content/queries";
+import {
+  getServiceCategoryCards,
+  getThemeCards,
+} from "@/lib/content/queries";
 import { VideoSection } from "@/components/sections/video";
 import { FaqSection } from "@/components/sections/faq";
 import { TestimonialsSection } from "@/components/sections/testimonials";
@@ -32,58 +35,15 @@ export default function Home() {
         </section>
         <BentoSection
           background="bg-background"
-          eyebrow="Exuma"
-          heading="Découvrez le voyage sur-mesure avec Exuma"
-          description="Un travel designer, expert de la Polynésie, façonne un voyage d'exception selon vos envies."
-          cta={{ label: "Créer votre voyage", href: "/votre-projet" }}
-          cards={[
-            {
-              title: "Création d'itinéraires",
-              description:
-                "Chaque voyage naît d'un échange personnel pour comprendre vos rythmes, vos envies et vos habitudes.",
-              image: {
-                src: "/bento/itineraires.png",
-                alt: "Illustration carte d'itinéraires",
-              },
-              tone: "dark",
-            },
-            {
-              title: "Adresses confidentielles",
-              description:
-                "Accès privilégié à une sélection d'îles privées, villas et criques rarement dévoilées.",
-              image: {
-                src: "/bento/adresses.jpg",
-                alt: "Plage confidentielle",
-              },
-            },
-            {
-              title: "Hébergements de luxe",
-              description:
-                "Des villas suites à fleur de lagon, auxrefuges enfouis dans la végétation dense de Moorea.",
-              image: {
-                src: "/bento/hebergements.jpg",
-                alt: "Hébergement de luxe",
-              },
-            },
-            {
-              title: "Conciergerie 24/7",
-              description:
-                "Assistance voyage, taxi-boat, chauffeurs privés et réservations exclusives.",
-              image: {
-                src: "/bento/conciergerie.jpg",
-                alt: "Conciergerie",
-              },
-            },
-            {
-              title: "Expérientiel",
-              description:
-                "Accédez à des expériences rares et confidentielles polynésiennes authentiques.",
-              image: {
-                src: "/bento/experientiel.jpg",
-                alt: "Expérientiel",
-              },
-            },
-          ]}
+          eyebrow="Conciergerie"
+          heading="Ce dont vous n'avez plus à vous occuper"
+          description="Nos pôles de services couvrent le voyage de bout en bout, du visa à obtenir au chauffeur qui attend à l'arrivée."
+          cta={{ label: "Découvrir nos services", href: "/services" }}
+          cards={getServiceCategoryCards().map((card, i) => ({
+            ...card,
+            // The bento leads on a dark tile; the rest carry their image.
+            tone: i === 0 ? ("dark" as const) : undefined,
+          }))}
         />
         <FeatureCardsSection
           eyebrow="Thématiques"

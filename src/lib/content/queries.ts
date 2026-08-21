@@ -193,6 +193,26 @@ export function getThemeCards(): {
   });
 }
 
+/**
+ * The five service poles shaped for a `bento` grid, with each service page's
+ * hero image as the card visual. Registry-driven so the home always states the
+ * offer exactly as the service pages do.
+ */
+export function getServiceCategoryCards(): {
+  title: string;
+  description: string;
+  image: { src: string; alt: string };
+}[] {
+  return Object.values(serviceCategories).flatMap((category) => {
+    const hero = category.sections.find((s) => s.type === "hero");
+    const image = hero?.images?.[0];
+    // Blurbs are authored as plain strings; anything richer has no place on a
+    // bento card, so skip rather than render an empty tile.
+    if (!image || typeof category.blurb !== "string") return [];
+    return [{ title: category.name, description: category.blurb, image }];
+  });
+}
+
 function matches(haystack: unknown, needle: string): boolean {
   if (typeof haystack !== "string" || !haystack) return false;
   return haystack.toLowerCase().includes(needle);
