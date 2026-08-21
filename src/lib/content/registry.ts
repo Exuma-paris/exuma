@@ -13,19 +13,23 @@ import type {
   Theme,
 } from "./types";
 
+import { destination as colombie } from "@/content/destinations/colombie";
 import { destination as bresil } from "@/content/destinations/bresil";
 import { destination as corse } from "@/content/destinations/corse";
 import { destination as espagne } from "@/content/destinations/espagne";
 import { destination as grece } from "@/content/destinations/grece";
+import { destination as japon } from "@/content/destinations/japon";
 import { destination as polynesie } from "@/content/destinations/polynesie";
 import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as oman } from "@/content/destinations/oman";
 import { destination as paris } from "@/content/destinations/paris";
+import { destination as republiqueDominicaine } from "@/content/destinations/republique-dominicaine";
 import { destination as paysBas } from "@/content/destinations/pays-bas";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
 import { destination as rome } from "@/content/destinations/rome";
 import { destination as seychelles } from "@/content/destinations/seychelles";
 import { destination as kenya } from "@/content/destinations/kenya";
+import { destination as vietnam } from "@/content/destinations/vietnam";
 import { destination as madere } from "@/content/destinations/madere";
 import { destination as france } from "@/content/destinations/france";
 import { destination as italie } from "@/content/destinations/italie";
@@ -88,6 +92,9 @@ import { experience as palawanHydravionPrive } from "@/content/experiences/palaw
 import { experience as pecheMoorea } from "@/content/experiences/peche-moorea";
 import { experience as nickTetautiare } from "@/content/experiences/nick-tetautiare";
 import { experience as hammamDarElBacha } from "@/content/experiences/hammam-dar-el-bacha";
+import { experience as keikoSumoTokyo } from "@/content/experiences/keiko-sumo-tokyo";
+import { experience as ceremonieTheNanzenji } from "@/content/experiences/ceremonie-the-nanzenji";
+import { experience as kaisekiGeishaGion } from "@/content/experiences/kaiseki-geisha-gion";
 import { experience as lagonMoorea } from "@/content/experiences/lagon-moorea";
 import { experience as cuisinePalaisBahia } from "@/content/experiences/cuisine-palais-bahia";
 import { experience as gr20 } from "@/content/experiences/gr20";
@@ -159,6 +166,15 @@ import { experience as croisierePriveeCyclades } from "@/content/experiences/cro
 import { experience as acropoleHorsHeures } from "@/content/experiences/acropole-hors-heures";
 import { experience as delphesGuideArcheologue } from "@/content/experiences/delphes-guide-archeologue";
 import { experience as tableSantorinVigneron } from "@/content/experiences/table-santorin-vigneron";
+import { experience as citeImperialeHueHistorien } from "@/content/experiences/cite-imperiale-hue-historien";
+import { experience as trekkingRizieresSapa } from "@/content/experiences/trekking-rizieres-sapa";
+import { experience as baleinesSamana } from "@/content/experiences/baleines-samana";
+import { experience as losHaitisesBateau } from "@/content/experiences/los-haitises-bateau";
+import { experience as cacaoHaciendaElvesia } from "@/content/experiences/cacao-hacienda-elvesia";
+import { experience as dinerChefHanoi } from "@/content/experiences/diner-chef-hanoi";
+import { experience as baleinesPacifiqueChoco } from "@/content/experiences/baleines-pacifique-choco";
+import { experience as fincaCafeQuindio } from "@/content/experiences/finca-cafe-quindio";
+import { experience as tayronaBateauPrive } from "@/content/experiences/tayrona-bateau-prive";
 import { experience as foretFanal } from "@/content/experiences/foret-fanal";
 import { experience as plageSeixal } from "@/content/experiences/plage-seixal";
 import { experience as mercadoFunchal } from "@/content/experiences/mercado-funchal";
@@ -234,6 +250,9 @@ import { experience as fjordsKawesqarGoelette } from "@/content/experiences/fjor
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
+import { accommodation as amanTokyo } from "@/content/accommodations/aman-tokyo";
+import { accommodation as hoshinoyaKyoto } from "@/content/accommodations/hoshinoya-kyoto";
+import { accommodation as hoshinoyaFuji } from "@/content/accommodations/hoshinoya-fuji";
 import { accommodation as stRegisBoraBora } from "@/content/accommodations/st-regis-bora-bora";
 import { accommodation as murtoli } from "@/content/accommodations/murtoli";
 import { accommodation as royalMansour } from "@/content/accommodations/royal-mansour";
@@ -303,6 +322,15 @@ import { accommodation as hotelJokulsarlon } from "@/content/accommodations/hote
 import { accommodation as amanzoe } from "@/content/accommodations/amanzoe";
 import { accommodation as canavesOia } from "@/content/accommodations/canaves-oia";
 import { accommodation as kalesmaMykonos } from "@/content/accommodations/kalesma-mykonos";
+import { accommodation as amanoi } from "@/content/accommodations/amanoi";
+import { accommodation as laResidenceHue } from "@/content/accommodations/la-residence-hue";
+import { accommodation as sixSensesNinhVanBay } from "@/content/accommodations/six-senses-ninh-van-bay";
+import { accommodation as amanera } from "@/content/accommodations/amanera";
+import { accommodation as tortugaBay } from "@/content/accommodations/tortuga-bay";
+import { accommodation as casaDeCampo } from "@/content/accommodations/casa-de-campo";
+import { accommodation as casaSanAgustin } from "@/content/accommodations/casa-san-agustin";
+import { accommodation as haciendaSanJose } from "@/content/accommodations/hacienda-san-jose";
+import { accommodation as reservaNaturalPalmari } from "@/content/accommodations/reserva-natural-palmari";
 import { accommodation as belmondReidsPalace } from "@/content/accommodations/belmond-reids-palace";
 import { accommodation as casaVelhaDoPalheiro } from "@/content/accommodations/casa-velha-do-palheiro";
 import { accommodation as savoyPalace } from "@/content/accommodations/savoy-palace";
@@ -389,6 +417,7 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
   Object.fromEntries(items.map((i) => [i.slug, i]));
 
 export const destinations: Record<string, Destination> = toMap([
+  colombie,
   argentine,
   autriche,
   bahamas,
@@ -403,6 +432,7 @@ export const destinations: Record<string, Destination> = toMap([
   etatsUnis,
   france,
   grece,
+  japon,
   hawai,
   italie,
   madere,
@@ -425,10 +455,12 @@ export const destinations: Record<string, Destination> = toMap([
   oman,
   paysBas,
   polynesie,
-  portugal,
+  republiqueDominicaine,
   rioDeJaneiro,
   rome,
   seychelles,
+  vietnam,
+  portugal,
   sriLanka,
   suisse,
   turquie,
@@ -468,6 +500,9 @@ export const experiences: Record<string, Experience> = toMap([
   atelierHorlogerValleeDeJoux,
   atelierLesage,
   atelierSambaMangueira,
+  baleinesPacifiqueChoco,
+  ceremonieTheNanzenji,
+  citeImperialeHueHistorien,
   aubeBarqueOeschinensee,
   baieMontSaintMichel,
   baleinesBanderas,
@@ -494,8 +529,10 @@ export const experiences: Record<string, Experience> = toMap([
   decouverteIlesBateauSeychelles,
   degustationBlandys,
   delphesGuideArcheologue,
-  dinerBancDeSableNoonu,
+  dinerChefHanoi,
   eclosionTortuesSeychelles,
+  fincaCafeQuindio,
+  dinerBancDeSableNoonu,
   epheseArcheologueHorsHeures,
   fadoChapelleAlfama,
   fjordsKawesqarGoelette,
@@ -516,6 +553,8 @@ export const experiences: Record<string, Experience> = toMap([
   icebergsBaleinesTerreNeuve,
   iguacuChutesAube,
   ilesCagarrasPecheur,
+  kaisekiGeishaGion,
+  keikoSumoTokyo,
   lagunesLencoisAube,
   lipizzansHofreitschule,
   mercadoFunchal,
@@ -580,12 +619,17 @@ export const experiences: Record<string, Experience> = toMap([
   survolAtlasBiplan,
   tableOaxacaCocinera,
   tableSantorinVigneron,
+  tayronaBateauPrive,
   valleeBlancheMontBlanc,
   viaAppiaVespa,
   vinCorse,
   vinsClairsChampagne,
   volHelicoptereSeychelles,
   visiteSamburuOlMalo,
+  trekkingRizieresSapa,
+  baleinesSamana,
+  losHaitisesBateau,
+  cacaoHaciendaElvesia,
   torresPaineBaqueanos,
   trainKandyEllaWagonPrive,
   pistageLeopardsYala,
@@ -622,6 +666,8 @@ export const serviceCategories: Record<string, ServiceCategory> = toMap([
 export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
+  amanoi,
+  amanTokyo,
   ajiaHotel,
   akelarre,
   alBaitSharjah,
@@ -685,10 +731,13 @@ export const accommodations: Record<string, Accommodation> = toMap([
   holmenLofoten,
   hotelJokulsarlon,
   hotelSantaTeresa,
+  hoshinoyaFuji,
+  hoshinoyaKyoto,
   jacksCamp,
   jKPlaceRoma,
   juvetLandskapshotell,
   kalesmaMykonos,
+  laResidenceHue,
   laBastideDeGordes,
   kempinskiIshtarDeadSea,
   kinondoKwetu,
@@ -710,6 +759,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   rosewoodCastiglionDelBosco,
   rosewoodSchlossFuschl,
   royalMansour,
+  sixSensesNinhVanBay,
   savoyPalace,
   shangriLaBoracay,
   shintaManiWild,
@@ -728,6 +778,12 @@ export const accommodations: Record<string, Accommodation> = toMap([
   vikChile,
   vilaGuara,
   richardsRiverCamp,
+  amanera,
+  tortugaBay,
+  casaDeCampo,
+  casaSanAgustin,
+  haciendaSanJose,
+  reservaNaturalPalmari,
   ceylonTeaTrails,
   wildCoastTentedLodge,
   amangalla,
