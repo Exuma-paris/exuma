@@ -124,7 +124,7 @@ export function Footer({ className }: { className?: string }) {
 
             <div className="flex flex-col gap-4 border-t border-background/10 pt-6">
               <p className="text-eyebrow text-background/60">
-                Agence recommandée par
+                Membre et accrédité
               </p>
               <ul className="flex flex-wrap items-center gap-x-6 gap-y-4">
                 {certifications.map((c) => (
