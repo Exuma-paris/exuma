@@ -17,7 +17,7 @@ export default function Home() {
           <HeroImageBottom
             eyebrow="Conciergerie de voyage · depuis 1991"
             heading="Vous nous dites où. Nous nous occupons du reste."
-            paragraph="Un interlocuteur unique conçoit votre voyage, réserve, coordonne, et reste joignable pendant que vous y êtes."
+            paragraph="Un interlocuteur unique conçoit votre voyage, réserve et coordonne. Il reste joignable jusqu'à votre retour."
             ctas={{
               primary: { label: "Créer votre voyage", href: "/votre-projet" },
               secondary: {
