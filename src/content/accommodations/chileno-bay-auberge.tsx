@@ -17,6 +17,6 @@ export const accommodation: Accommodation = {
     src: "/destination/los-cabos/hotel-chileno-bay.png",
     alt: "Chileno Bay Resort sur la baie de Chileno, corridor de Los Cabos",
   },
-  destinationSlug: "los-cabos",
+  destinationSlugs: ["los-cabos"],
   sections: [],
 };

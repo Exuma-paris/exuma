@@ -7,10 +7,6 @@ export const destination: Destination = {
   genitive: "de Los Cabos",
   continentSlug: "ameriques",
   placeKind: "city",
-  heroImage: {
-    src: "/destination/los-cabos/hero-1.png",
-    alt: "L'Arco de Cabo San Lucas au lever du soleil, Mexique",
-  },
   blurb:
     "La pointe de la péninsule, là où le Pacifique rencontre la mer de Cortez.",
   keywords: [

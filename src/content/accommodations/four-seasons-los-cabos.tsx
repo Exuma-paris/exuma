@@ -16,6 +16,6 @@ export const accommodation: Accommodation = {
     src: "/destination/los-cabos/hotel-four-seasons.png",
     alt: "Four Seasons Los Cabos at Costa Palmas, mer de Cortez, Mexique",
   },
-  destinationSlug: "los-cabos",
+  destinationSlugs: ["los-cabos"],
   sections: [],
 };
