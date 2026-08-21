@@ -8,9 +8,12 @@ import { cn } from "@/lib/utils";
 type Cta = { label: string; href: string };
 
 export function HeroImageBottom({
-  eyebrow = "Agence voyage de luxe sur mesure",
-  heading = "Créateur d'itinéraires et d'expérience inoubliables depuis 1991",
-  paragraph = "Vivez l'inaccessible avec un voyage sur mesure, conçu par un travel designer. Suggestions sur mesure selon la saison, nos goûts et vos envies.",
+  // Fallbacks only. The home passes its own copy in src/app/page.tsx, which is
+  // where the headline is edited; these keep the design-system preview on
+  // message instead of showing the wording the positioning rules out.
+  eyebrow = "Conciergerie de voyage · depuis 1991",
+  heading = "Vous nous dites où. Nous nous occupons du reste.",
+  paragraph = "Un interlocuteur unique conçoit votre voyage, réserve, coordonne, et reste joignable pendant que vous y êtes.",
   image = {
     src: "/hero.jpg",
     alt: "Paysage de Bora Bora avec lagon turquoise et bungalows sur pilotis",
