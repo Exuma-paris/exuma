@@ -43,12 +43,61 @@ export type ContactQuestion = QuestionBase & {
   marketingConsentLabel?: string;
 };
 
+/**
+ * Free-text destination. The visitor writes wherever they have in mind and the
+ * field quietly recognises it against the registry — we never make them pick
+ * from a list they did not ask for.
+ */
+export type DestinationIndexEntry = {
+  kind: "destination" | "continent";
+  slug: string;
+  name: string;
+  /** Extra spellings worth matching (keywords from the registry entry). */
+  aliases?: string[];
+};
+
+export type DestinationQuestion = QuestionBase & {
+  type: "destination";
+  label?: string;
+  /** Shown under the field when nothing is recognised. Never blocking. */
+  hint?: string;
+  /**
+   * Name/slug index built on the server. Deliberately not the registry itself:
+   * this component is client-side, and shipping every destination, experience
+   * and hotel body to the browser to match a few names would be absurd.
+   */
+  index: DestinationIndexEntry[];
+};
+
+/** Head count, split adults / children. */
+export type TravelersQuestion = QuestionBase & {
+  type: "travelers";
+  adultsLabel?: string;
+  childrenLabel?: string;
+  maxPerGroup?: number;
+};
+
+/**
+ * Either the dates are settled, or the period is still open — in which case
+ * the visitor describes it in their own words.
+ */
+export type PeriodQuestion = QuestionBase & {
+  type: "period";
+  fixedLabel?: string;
+  flexibleLabel?: string;
+  fixedFieldLabel?: string;
+  flexibleFieldLabel?: string;
+};
+
 export type Question =
   | BooleanQuestion
   | SingleChoiceQuestion
   | MultiChoiceQuestion
   | CalendarQuestion
-  | ContactQuestion;
+  | ContactQuestion
+  | DestinationQuestion
+  | TravelersQuestion
+  | PeriodQuestion;
 
 export type ContactAnswer = {
   name: string;
@@ -56,6 +105,24 @@ export type ContactAnswer = {
   phoneCountry: string;
   phone: string;
   marketingConsent: boolean;
+};
+
+export type DestinationAnswer = {
+  /** Exactly what the visitor typed. */
+  text: string;
+  /** Registry slugs recognised in that text, best match first. */
+  matches: { kind: "destination" | "continent"; slug: string; name: string }[];
+};
+
+export type TravelersAnswer = {
+  adults: number;
+  children: number;
+};
+
+export type PeriodAnswer = {
+  mode: "fixed" | "flexible" | null;
+  /** The dates, or the period described in the visitor's own words. */
+  detail: string;
 };
 
 export type CalendarAnswer = {
@@ -68,7 +135,10 @@ export type Answer =
   | { type: "single"; value: string | null }
   | { type: "multi"; value: string[] }
   | { type: "calendar"; value: CalendarAnswer }
-  | { type: "contact"; value: ContactAnswer };
+  | { type: "contact"; value: ContactAnswer }
+  | { type: "destination"; value: DestinationAnswer }
+  | { type: "travelers"; value: TravelersAnswer }
+  | { type: "period"; value: PeriodAnswer };
 
 export type AnswersMap = Record<string, Answer>;
 
@@ -93,6 +163,12 @@ export function emptyAnswer(question: Question): Answer {
           marketingConsent: false,
         },
       };
+    case "destination":
+      return { type: "destination", value: { text: "", matches: [] } };
+    case "travelers":
+      return { type: "travelers", value: { adults: 2, children: 0 } };
+    case "period":
+      return { type: "period", value: { mode: null, detail: "" } };
   }
 }
 
@@ -114,6 +190,20 @@ export function isAnswered(question: Question, answer: Answer | undefined): bool
     case "calendar": {
       if (answer.type !== "calendar") return false;
       return answer.value.noPreference || answer.value.months.length > 0;
+    }
+    case "destination":
+      // Recognition is a convenience, never a gate: any text moves on.
+      return answer.type === "destination" && answer.value.text.trim().length > 0;
+    case "travelers":
+      return (
+        answer.type === "travelers" &&
+        answer.value.adults + answer.value.children > 0
+      );
+    case "period": {
+      if (answer.type !== "period") return false;
+      return (
+        answer.value.mode !== null && answer.value.detail.trim().length > 0
+      );
     }
     case "contact": {
       if (answer.type !== "contact") return false;

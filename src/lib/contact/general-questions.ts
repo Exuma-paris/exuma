@@ -1,76 +1,106 @@
-import { continents } from "@/lib/content/registry";
-import type { Question } from "@/lib/contact/types";
+import { continents, destinations } from "@/lib/content/registry";
+import type { DestinationIndexEntry, Question } from "@/lib/contact/types";
 
 const EYEBROW = "Votre projet";
+
+/**
+ * Names and slugs only — enough for the free-text field to recognise a place,
+ * without shipping any page content to the browser. See DestinationQuestion.
+ *
+ * Keywords make good aliases when they are place names ("polynesie" on the
+ * Polynésie entry) and terrible ones when they are themes: "safari" sits on a
+ * dozen destinations, so using it would answer "un safari en Afrique du Sud"
+ * with Botswana and Tanzanie — visibly not reading what was just written.
+ * Keeping only keywords unique to one entry separates the two cases without
+ * anyone having to curate a list.
+ */
+function buildDestinationIndex(): DestinationIndexEntry[] {
+  const entries = [
+    ...Object.values(destinations).map((d) => ({
+      kind: "destination" as const,
+      slug: d.slug,
+      name: d.name,
+      keywords: d.keywords ?? [],
+    })),
+    ...Object.values(continents).map((c) => ({
+      kind: "continent" as const,
+      slug: c.slug,
+      name: c.name,
+      keywords: c.keywords ?? [],
+    })),
+  ];
+
+  const uses = new Map<string, number>();
+  for (const e of entries) {
+    for (const k of new Set(e.keywords.map((k) => k.toLowerCase()))) {
+      uses.set(k, (uses.get(k) ?? 0) + 1);
+    }
+  }
+
+  return entries.map(({ kind, slug, name, keywords }) => ({
+    kind,
+    slug,
+    name,
+    aliases: keywords.filter((k) => uses.get(k.toLowerCase()) === 1),
+  }));
+}
 
 /**
  * The site-wide brief funnel behind `/votre-projet`, i.e. the destination
  * every "Créer votre voyage" button points to.
  *
- * Deliberately different from a per-destination funnel: the visitor arriving
- * here has not chosen where to go, so the first question opens the map rather
- * than narrowing it. Regions come from the registry so adding a continent
- * never leaves this list behind.
+ * Tone note: these are questions a travel designer would ask across a desk,
+ * not form fields. Nothing here should read as an interrogation.
  */
 export function getGeneralContactQuestions(): Question[] {
   return [
     {
-      id: "regions",
-      type: "multi",
+      id: "destination",
+      type: "destination",
       eyebrow: EYEBROW,
       heading: "Où souhaitez-vous partir ?",
       description:
-        "Plusieurs réponses possibles. Rien d'arrêté ? Dites-le nous, c'est souvent le meilleur point de départ.",
-      options: [
-        ...Object.values(continents).map((c) => ({
-          id: c.slug,
-          label: c.name,
-        })),
-        { id: "a-definir", label: "Je n'ai pas encore d'idée précise" },
-      ],
-      min: 1,
+        "Un pays, une région, une envie encore vague : écrivez-le comme vous le diriez.",
+      label: "Votre destination",
+      hint: "Rien d'arrêté ? Décrivez plutôt l'atmosphère que vous cherchez.",
+      index: buildDestinationIndex(),
     },
     {
       id: "travelers",
-      type: "single",
+      type: "travelers",
       eyebrow: EYEBROW,
-      heading: "Qui voyage ?",
-      options: [
-        { id: "couple", label: "En couple" },
-        { id: "famille", label: "En famille" },
-        { id: "amis", label: "Entre amis" },
-        { id: "solo", label: "Seul ou seule" },
-        { id: "groupe", label: "Groupe privé ou événement" },
-      ],
+      heading: "Qui sera du voyage ?",
+      description:
+        "Nous adaptons les hébergements et le rythme à la composition du groupe.",
+      adultsLabel: "Adultes",
+      childrenLabel: "Enfants",
     },
     {
-      id: "horizon",
-      type: "single",
+      id: "period",
+      type: "period",
       eyebrow: EYEBROW,
-      heading: "Pour quand ?",
+      heading: "Avez-vous une période en tête ?",
       description:
-        "Une estimation suffit à ce stade, les dates se précisent ensemble.",
-      options: [
-        { id: "3-mois", label: "Dans les trois prochains mois" },
-        { id: "6-mois", label: "Dans trois à six mois" },
-        { id: "12-mois", label: "Dans six à douze mois" },
-        { id: "plus-tard", label: "Plus tard, ou pas encore décidé" },
-        { id: "dates-fixees", label: "Mes dates sont déjà fixées" },
-      ],
+        "Des dates arrêtées ou une simple intention, les deux nous vont.",
+      fixedLabel: "Nos dates sont arrêtées",
+      flexibleLabel: "La période reste à définir",
+      fixedFieldLabel: "Vos dates",
+      flexibleFieldLabel: "La période que vous avez en tête",
     },
     {
       id: "budget",
       type: "single",
       eyebrow: EYEBROW,
-      heading: "Quel budget par personne envisagez-vous ?",
+      heading: "Quel budget envisagez-vous pour ce voyage ?",
       description:
-        "Cette fourchette nous évite de vous proposer ce qui ne vous conviendrait pas.",
+        "Pour l'ensemble du séjour. Cette fourchette nous évite de vous proposer ce qui ne vous conviendrait pas.",
       options: [
-        { id: "tier-1", label: "Moins de 5 000 €" },
-        { id: "tier-2", label: "5 000 € – 10 000 €" },
-        { id: "tier-3", label: "10 000 € – 20 000 €" },
-        { id: "tier-4", label: "Plus de 20 000 €" },
-        { id: "tier-open", label: "Je préfère en parler de vive voix" },
+        { id: "10-15", label: "10 000 € – 15 000 €" },
+        { id: "15-20", label: "15 000 € – 20 000 €" },
+        { id: "20-25", label: "20 000 € – 25 000 €" },
+        { id: "25-30", label: "25 000 € – 30 000 €" },
+        { id: "30-plus", label: "Plus de 30 000 €" },
+        { id: "open", label: "Je préfère en parler de vive voix" },
       ],
     },
     {
