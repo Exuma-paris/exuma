@@ -33,7 +33,7 @@ export function HeroImageBottom({
   ctas?: { primary: Cta; secondary?: Cta };
 }) {
   return (
-    <section className="flex flex-col items-center gap-10 pt-32 pb-16 md:pt-40">
+    <section className="flex flex-col items-center gap-8 pt-28 pb-8 md:pt-32">
       <div className="section-px mx-auto flex w-full max-w-layout flex-col items-center gap-8">
         <TextBlock
           align="center"

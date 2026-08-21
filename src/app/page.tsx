@@ -37,7 +37,7 @@ export default function Home() {
             }}
           />
         </div>
-        <section className="section-px mx-auto w-full max-w-layout py-16">
+        <section className="section-px mx-auto w-full max-w-layout py-10">
           <Recommended />
         </section>
         <BentoSection
