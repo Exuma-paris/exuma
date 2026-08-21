@@ -65,6 +65,7 @@ import { destination as jordanie } from "@/content/destinations/jordanie";
 import { destination as norvege } from "@/content/destinations/norvege";
 import { destination as islande } from "@/content/destinations/islande";
 import { destination as losCabos } from "@/content/destinations/los-cabos";
+import { destination as panama } from "@/content/destinations/panama";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -252,6 +253,9 @@ import { experience as escapadeTodosSantos } from "@/content/experiences/escapad
 import { experience as plongeeCaboPulmo } from "@/content/experiences/plongee-cabo-pulmo";
 import { experience as snorkelingLionsMerEspirituSanto } from "@/content/experiences/snorkeling-lions-mer-espiritu-santo";
 import { experience as wineOclockValleGuadalupe } from "@/content/experiences/wine-oclock-valle-guadalupe";
+import { experience as parcMarinCoiba } from "@/content/experiences/parc-marin-coiba";
+import { experience as excursionBioluminescente } from "@/content/experiences/excursion-bioluminescente";
+import { experience as excursionBateauPrive } from "@/content/experiences/excursion-bateau-prive";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -408,6 +412,9 @@ import { accommodation as vikChile } from "@/content/accommodations/vik-chile";
 import { accommodation as chilenoBayAuberge } from "@/content/accommodations/chileno-bay-auberge";
 import { accommodation as fourSeasonsLosCabos } from "@/content/accommodations/four-seasons-los-cabos";
 import { accommodation as oneAndOnlyPalmilla } from "@/content/accommodations/one-and-only-palmilla";
+import { accommodation as sofitelLegendCascoViejo } from "@/content/accommodations/sofitel-legend-casco-viejo";
+import { accommodation as santaMariaLuxuryCollection } from "@/content/accommodations/santa-maria-luxury-collection";
+import { accommodation as islasSecas } from "@/content/accommodations/islas-secas";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
 
@@ -477,6 +484,7 @@ export const destinations: Record<string, Destination> = toMap([
   tanzanie,
   thailande,
   losCabos,
+  panama,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -666,6 +674,9 @@ export const experiences: Record<string, Experience> = toMap([
   plongeeCaboPulmo,
   snorkelingLionsMerEspirituSanto,
   wineOclockValleGuadalupe,
+  parcMarinCoiba,
+  excursionBioluminescente,
+  excursionBateauPrive,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -834,6 +845,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   chilenoBayAuberge,
   fourSeasonsLosCabos,
   oneAndOnlyPalmilla,
+  sofitelLegendCascoViejo,
+  santaMariaLuxuryCollection,
+  islasSecas,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
