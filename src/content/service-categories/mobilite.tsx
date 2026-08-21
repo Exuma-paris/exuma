@@ -21,8 +21,8 @@ export const serviceCategory: ServiceCategory = {
         "Affrètement de jets privés, chauffeurs dédiés, accueil VIP en aéroport et transport sécurisé d'objets précieux.",
       images: [
         {
-          src: "/destination/corse/hero-1.png",
-          alt: "Service de mobilité",
+          src: "/service/mobilite/hero-1.png",
+          alt: "Passerelle d'un jet privé déployée sur le tarmac",
         },
       ],
     },

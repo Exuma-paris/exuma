@@ -39,11 +39,10 @@ export default function Home() {
           heading="Ce dont vous n'avez plus à vous occuper"
           description="Nos pôles de services couvrent le voyage de bout en bout, du visa à obtenir au chauffeur qui attend à l'arrivée."
           cta={{ label: "Découvrir nos services", href: "/services" }}
-          cards={getServiceCategoryCards().map((card, i) => ({
-            ...card,
-            // The bento leads on a dark tile; the rest carry their image.
-            tone: i === 0 ? ("dark" as const) : undefined,
-          }))}
+          // Every tile is a photograph, so none is set to the dark tone: that
+          // variant drops the gradient the titles rely on, and white text over
+          // a bright image is unreadable.
+          cards={getServiceCategoryCards()}
         />
         <FeatureCardsSection
           eyebrow="Thématiques"
