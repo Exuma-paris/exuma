@@ -242,3 +242,15 @@
     text-transform: uppercase;
   }
 }
+/* Collapses the vertical gap between the two halves of an `imageDuoWithText`
+   section: the image duo loses its bottom padding, the text column gains a
+   smaller top padding. Written as plain CSS rather than the Tailwind arbitrary
+   variants `[&>div:nth-child(1)_section]:pb-0 [&>div:nth-child(2)_section]:pt-10`,
+   which Tailwind 4.2.2 mis-escapes — it emits control characters in place of
+   `_section` and the generated stylesheet fails to parse, 500-ing every page. */
+.image-duo-with-text > div:nth-child(1) section {
+  padding-bottom: 0;
+}
+.image-duo-with-text > div:nth-child(2) section {
+  padding-top: calc(var(--spacing) * 10);
+}
