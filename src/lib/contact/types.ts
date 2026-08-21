@@ -52,6 +52,13 @@ export type DestinationIndexEntry = {
   kind: "destination" | "continent";
   slug: string;
   name: string;
+  /**
+   * The name with its French definite article, lowercase: "le Japon",
+   * "l'Italie", "les Seychelles", "Rome". Lowercase so it can be dropped into
+   * the middle of a sentence; the first letter is capitalised in CSS when it
+   * lands at the start of one.
+   */
+  subject: string;
   /** Extra spellings worth matching (keywords from the registry entry). */
   aliases?: string[];
 };
@@ -59,8 +66,6 @@ export type DestinationIndexEntry = {
 export type DestinationQuestion = QuestionBase & {
   type: "destination";
   label?: string;
-  /** Lead-in shown before the recognised place names. */
-  recognisedLabel?: string;
   /**
    * Name/slug index built on the server. Deliberately not the registry itself:
    * this component is client-side, and shipping every destination, experience
@@ -111,7 +116,12 @@ export type DestinationAnswer = {
   /** Exactly what the visitor typed. */
   text: string;
   /** Registry slugs recognised in that text, best match first. */
-  matches: { kind: "destination" | "continent"; slug: string; name: string }[];
+  matches: {
+    kind: "destination" | "continent";
+    slug: string;
+    name: string;
+    subject: string;
+  }[];
 };
 
 export type TravelersAnswer = {

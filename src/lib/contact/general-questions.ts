@@ -14,18 +14,47 @@ const EYEBROW = "Votre projet";
  * Keeping only keywords unique to one entry separates the two cases without
  * anyone having to curate a list.
  */
+/**
+ * Turns the pre-written French genitive into a nominative with its article:
+ * "du Japon" gives "le Japon", "de l'Italie" gives "l'Italie", "de Rome"
+ * gives "Rome". French articles cannot be guessed from a name, which is why
+ * the genitive is authored by hand on every destination — deriving from it
+ * keeps that single source of truth instead of asking for a second field.
+ */
+function subjectFromGenitive(genitive: string, fallback: string): string {
+  const g = genitive.trim();
+  if (g.startsWith("de l'")) return `l'${g.slice(5)}`;
+  if (g.startsWith("de la ")) return `la ${g.slice(6)}`;
+  if (g.startsWith("des ")) return `les ${g.slice(4)}`;
+  if (g.startsWith("du ")) return `le ${g.slice(3)}`;
+  if (g.startsWith("de ")) return g.slice(3);
+  return fallback;
+}
+
+/** The six continents, written once: they carry no genitive of their own. */
+const CONTINENT_SUBJECTS: Record<string, string> = {
+  europe: "l'Europe",
+  afrique: "l'Afrique",
+  asie: "l'Asie",
+  ameriques: "les Amériques",
+  "proche-orient": "le Proche et Moyen-Orient",
+  "iles-oceanie": "les îles et l'Océanie",
+};
+
 function buildDestinationIndex(): DestinationIndexEntry[] {
   const entries = [
     ...Object.values(destinations).map((d) => ({
       kind: "destination" as const,
       slug: d.slug,
       name: d.name,
+      subject: subjectFromGenitive(d.genitive, d.name),
       keywords: d.keywords ?? [],
     })),
     ...Object.values(continents).map((c) => ({
       kind: "continent" as const,
       slug: c.slug,
       name: c.name,
+      subject: CONTINENT_SUBJECTS[c.slug] ?? c.name,
       keywords: c.keywords ?? [],
     })),
   ];
@@ -37,10 +66,11 @@ function buildDestinationIndex(): DestinationIndexEntry[] {
     }
   }
 
-  return entries.map(({ kind, slug, name, keywords }) => ({
+  return entries.map(({ kind, slug, name, subject, keywords }) => ({
     kind,
     slug,
     name,
+    subject,
     aliases: keywords.filter((k) => uses.get(k.toLowerCase()) === 1),
   }));
 }
@@ -62,7 +92,6 @@ export function getGeneralContactQuestions(): Question[] {
       description:
         "Un pays, une région, ou juste une envie encore floue. Écrivez-le comme vous nous le diriez.",
       label: "Votre destination",
-      recognisedLabel: "Nous y allons régulièrement",
       index: buildDestinationIndex(),
     },
     {

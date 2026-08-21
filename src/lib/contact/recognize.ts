@@ -44,7 +44,13 @@ export function recognizeDestinations(
         haystack,
       ),
     );
-    if (hit) found.push({ kind: entry.kind, slug: entry.slug, name: entry.name });
+    if (hit)
+      found.push({
+        kind: entry.kind,
+        slug: entry.slug,
+        name: entry.name,
+        subject: entry.subject,
+      });
   }
 
   // Longest name first: "Afrique du Sud" should outrank "Afrique".
