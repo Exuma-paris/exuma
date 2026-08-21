@@ -20,7 +20,7 @@ export const destination: Destination = {
     "lima",
     "andes",
   ],
-  metaTitle: "Pérou — Voyage sur mesure",
+  metaTitle: "Pérou : Voyage sur mesure",
   metaDescription:
     "Voyage au Pérou sur mesure : Machu Picchu, Vallée Sacrée, Amazonie et lac Titicaca. Itinéraire conçu par votre travel designer Exuma, conciergerie privée 24/7.",
   sections: [
