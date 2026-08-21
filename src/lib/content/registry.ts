@@ -23,6 +23,7 @@ import { destination as polynesie } from "@/content/destinations/polynesie";
 import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as oman } from "@/content/destinations/oman";
 import { destination as paris } from "@/content/destinations/paris";
+import { destination as perou } from "@/content/destinations/perou";
 import { destination as republiqueDominicaine } from "@/content/destinations/republique-dominicaine";
 import { destination as paysBas } from "@/content/destinations/pays-bas";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
@@ -252,6 +253,9 @@ import { experience as escapadeTodosSantos } from "@/content/experiences/escapad
 import { experience as plongeeCaboPulmo } from "@/content/experiences/plongee-cabo-pulmo";
 import { experience as snorkelingLionsMerEspirituSanto } from "@/content/experiences/snorkeling-lions-mer-espiritu-santo";
 import { experience as wineOclockValleGuadalupe } from "@/content/experiences/wine-oclock-valle-guadalupe";
+import { experience as tableChefCentralLima } from "@/content/experiences/table-chef-central-lima";
+import { experience as valleeSacreeArcheologuePrive } from "@/content/experiences/vallee-sacree-archeologue-prive";
+import { experience as immersionAmazonieNaturaliste } from "@/content/experiences/immersion-amazonie-naturaliste";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -410,6 +414,9 @@ import { accommodation as fourSeasonsLosCabos } from "@/content/accommodations/f
 import { accommodation as oneAndOnlyPalmilla } from "@/content/accommodations/one-and-only-palmilla";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
+import { accommodation as belmondSanctuaryLodge } from "@/content/accommodations/belmond-sanctuary-lodge";
+import { accommodation as belmondPalacioNazarenas } from "@/content/accommodations/belmond-palacio-nazarenas";
+import { accommodation as inkaterraReservaAmazonica } from "@/content/accommodations/inkaterra-reserva-amazonica";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -462,6 +469,7 @@ export const destinations: Record<string, Destination> = toMap([
   philippines,
   kenya,
   paysBas,
+  perou,
   polynesie,
   republiqueDominicaine,
   rioDeJaneiro,
@@ -666,6 +674,9 @@ export const experiences: Record<string, Experience> = toMap([
   plongeeCaboPulmo,
   snorkelingLionsMerEspirituSanto,
   wineOclockValleGuadalupe,
+  tableChefCentralLima,
+  valleeSacreeArcheologuePrive,
+  immersionAmazonieNaturaliste,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -834,6 +845,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   chilenoBayAuberge,
   fourSeasonsLosCabos,
   oneAndOnlyPalmilla,
+  belmondSanctuaryLodge,
+  belmondPalacioNazarenas,
+  inkaterraReservaAmazonica,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
