@@ -41,6 +41,10 @@ import { destination as irlande } from "@/content/destinations/irlande";
 import { destination as ecosse } from "@/content/destinations/ecosse";
 import { destination as madagascar } from "@/content/destinations/madagascar";
 import { destination as arabieSaoudite } from "@/content/destinations/arabie-saoudite";
+import { destination as newYork } from "@/content/destinations/new-york";
+import { destination as etatsUnis } from "@/content/destinations/etats-unis";
+import { destination as canada } from "@/content/destinations/canada";
+import { destination as hawai } from "@/content/destinations/hawai";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -145,6 +149,18 @@ import { experience as baleinesSainteMarie } from "@/content/experiences/baleine
 import { experience as montgolfiereHegra } from "@/content/experiences/montgolfiere-hegra";
 import { experience as landRoverVintageDadan } from "@/content/experiences/land-rover-vintage-dadan";
 import { experience as elephantRockHeureDoree } from "@/content/experiences/elephant-rock-heure-doree";
+import { experience as patinageVipRockefeller } from "@/content/experiences/patinage-vip-rockefeller";
+import { experience as croisierePriveeVoilierManhattan } from "@/content/experiences/croisiere-privee-voilier-manhattan";
+import { experience as soireeJazzCafeCarlyle } from "@/content/experiences/soiree-jazz-cafe-carlyle";
+import { experience as cabernetCulteNapa } from "@/content/experiences/cabernet-culte-napa";
+import { experience as metAvantOuverture } from "@/content/experiences/met-avant-ouverture";
+import { experience as pistageCondorsBigSur } from "@/content/experiences/pistage-condors-big-sur";
+import { experience as canoeAubeLacMoraine } from "@/content/experiences/canoe-aube-lac-moraine";
+import { experience as chevauxSkokiBanff } from "@/content/experiences/chevaux-skoki-banff";
+import { experience as icebergsBaleinesTerreNeuve } from "@/content/experiences/icebergs-baleines-terre-neuve";
+import { experience as napaliHelicoptereKauai } from "@/content/experiences/napali-helicoptere-kauai";
+import { experience as paniolosParkerRanch } from "@/content/experiences/paniolos-parker-ranch";
+import { experience as sommetMaunaKeaAstronome } from "@/content/experiences/sommet-mauna-kea-astronome";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -223,6 +239,18 @@ import { accommodation as anjajavyLeLodge } from "@/content/accommodations/anjaj
 import { accommodation as darTantora } from "@/content/accommodations/dar-tantora";
 import { accommodation as ourHabitasAlula } from "@/content/accommodations/our-habitas-alula";
 import { accommodation as redSeaEdition } from "@/content/accommodations/red-sea-edition";
+import { accommodation as amanNewYork } from "@/content/accommodations/aman-new-york";
+import { accommodation as baccaratNewYork } from "@/content/accommodations/baccarat-new-york";
+import { accommodation as casaCiprianiNewYork } from "@/content/accommodations/casa-cipriani-new-york";
+import { accommodation as amangiri } from "@/content/accommodations/amangiri";
+import { accommodation as postRanchInn } from "@/content/accommodations/post-ranch-inn";
+import { accommodation as theMarkHotel } from "@/content/accommodations/the-mark-hotel";
+import { accommodation as clayoquotWildernessLodge } from "@/content/accommodations/clayoquot-wilderness-lodge";
+import { accommodation as fairmontChateauLakeLouise } from "@/content/accommodations/fairmont-chateau-lake-louise";
+import { accommodation as fogoIslandInn } from "@/content/accommodations/fogo-island-inn";
+import { accommodation as fourSeasonsLanai } from "@/content/accommodations/four-seasons-lanai";
+import { accommodation as konaVillageRosewood } from "@/content/accommodations/kona-village-rosewood";
+import { accommodation as montageKapaluaBay } from "@/content/accommodations/montage-kapalua-bay";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
 
@@ -243,10 +271,13 @@ export const destinations: Record<string, Destination> = toMap([
   afriqueDuSud,
   arabieSaoudite,
   botswana,
+  canada,
   corse,
   costaRica,
   ecosse,
   egypte,
+  etatsUnis,
+  hawai,
   indonesie,
   irlande,
   islande,
@@ -255,6 +286,7 @@ export const destinations: Record<string, Destination> = toMap([
   marrakech,
   maurice,
   namibie,
+  newYork,
   norvege,
   oman,
   paris,
@@ -298,13 +330,17 @@ export const experiences: Record<string, Experience> = toMap([
   atelierSambaMangueira,
   aubeHadzabeLacEyasi,
   baleinesSainteMarie,
+  cabernetCulteNapa,
+  canoeAubeLacMoraine,
   chateauFloors,
+  chevauxSkokiBanff,
   corcovadoAubePaineiras,
   colonieManchotsBoulders,
   coucherSoleilGranit,
   coursCuisineBlueElephant,
   crieeAalsmeerAube,
   croisiereIlotBenitiers,
+  croisierePriveeVoilierManhattan,
   cuisinePalaisBahia,
   decouverteIlesBateauSeychelles,
   dinerLadyLisbeth,
@@ -316,6 +352,7 @@ export const experiences: Record<string, Experience> = toMap([
   galerieBorghesePrive,
   gr20,
   hammamDarElBacha,
+  icebergsBaleinesTerreNeuve,
   ilesCagarrasPecheur,
   ilesDaymaniyatSnorkeling,
   fauconnerieAshford,
@@ -323,6 +360,11 @@ export const experiences: Record<string, Experience> = toMap([
   kayakPaddleThorsmork,
   khaoYaiHeowSuwat,
   lagonWeekuriSumba,
+  metAvantOuverture,
+  napaliHelicoptereKauai,
+  paniolosParkerRanch,
+  patinageVipRockefeller,
+  pistageCondorsBigSur,
   sablesSecretsRio,
   soireeBossaNovaIpanema,
   lagonMoorea,
@@ -358,6 +400,8 @@ export const experiences: Record<string, Experience> = toMap([
   safariNocturneProjecteur,
   skiVoileSunnmore,
   siwaCampementDesert,
+  soireeJazzCafeCarlyle,
+  sommetMaunaKeaAstronome,
   sossusvleiDeadvlei,
   survolAtlasBiplan,
   tirtaEmpulForetSinges,
@@ -388,19 +432,24 @@ export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
   alMoudiraLouxor,
+  amangiri,
   amanjena,
   adareManor,
   amankila,
+  amanNewYork,
   amanpuri,
   anantaraAlJabalAlAkhdar,
   anjajavyLeLodge,
   ashfordCastle,
+  baccaratNewYork,
   belmondCopacabanaPalace,
   bushmansKloof,
   calaRossa,
+  casaCiprianiNewYork,
   casadelmar,
   chateauStGerlach,
   chevalBlancParis,
+  clayoquotWildernessLodge,
   constanceTsarabanjina,
   cliffHouseArdmore,
   dahabiehPrivatiseeNil,
@@ -410,9 +459,12 @@ export const accommodations: Record<string, Accommodation> = toMap([
   dusitThaniBangkok,
   eagleIslandLodge,
   ellermanHouse,
+  fairmontChateauLakeLouise,
   fasanoRio,
+  fogoIslandInn,
   fourSeasonsAmman,
   fourSeasonsJakarta,
+  fourSeasonsLanai,
   fourSeasonsMahe,
   fourSeasonsPapagayo,
   fregateIslandPrivate,
@@ -427,12 +479,14 @@ export const accommodations: Record<string, Accommodation> = toMap([
   jKPlaceRoma,
   juvetLandskapshotell,
   kempinskiIshtarDeadSea,
+  konaVillageRosewood,
   labaMamaSimba,
   leBristol,
   leTahaa,
   lhotelParis,
   luxLeMorne,
   magicCampsWahibaSands,
+  montageKapaluaBay,
   movenpickResortPetra,
   murtoli,
   nantipa,
@@ -441,6 +495,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   oldCataractAssouan,
   ourHabitasAlula,
   pashaSantaTeresa,
+  postRanchInn,
   princesStreet100,
   roodeKoperVeluwe,
   royalMansour,
@@ -454,6 +509,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   skalakot,
   sossusvleiDesertLodge,
   tawana,
+  theMarkHotel,
   timeTideMiavana,
   umiHotel,
   vingtDegresSud,
