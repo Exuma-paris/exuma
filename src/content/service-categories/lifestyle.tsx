@@ -31,7 +31,7 @@ export const serviceCategory: ServiceCategory = {
       images: [
         {
           src: "/service/lifestyle/hero-1.png",
-          alt: "Table dressée à la bougie sur une terrasse creusée dans la falaise, à la tombée du jour",
+          alt: "Table de chef dressée face aux cuisines d'un restaurant gastronomique",
         },
       ],
     },
