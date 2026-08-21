@@ -26,26 +26,29 @@ const hedvigLettersSerif = Hedvig_Letters_Serif({
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://exuma.example.com";
 
+const siteDescription =
+  "Exuma est une conciergerie de voyage. Un travel designer dédié conçoit, organise et veille sur chaque séjour, partout dans le monde.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Exuma",
+    default: "Exuma | Conciergerie de Voyage Sur-Mesure",
     template: "%s | Exuma",
   },
-  description: "Exuma. Official website.",
+  description: siteDescription,
   applicationName: "Exuma",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     siteName: "Exuma",
     url: "/",
-    title: "Exuma",
-    description: "Exuma. Official website.",
+    title: "Exuma | Conciergerie de Voyage Sur-Mesure",
+    description: siteDescription,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Exuma",
-    description: "Exuma. Official website.",
+    title: "Exuma | Conciergerie de Voyage Sur-Mesure",
+    description: siteDescription,
   },
   robots: { index: true, follow: true },
   formatDetection: { telephone: false },
@@ -68,6 +71,24 @@ export default function RootLayout({
       className={`${instrumentSans.variable} ${geistMono.variable} ${hedvigLettersSerif.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        {/* Inline theme-detection — runs before first paint to avoid FOUC.
+            Must be a raw <script>, not next/script (which forces deferred
+            injection in app router). React doesn't re-execute this on
+            hydration; it runs once when the browser parses the SSR HTML.
+
+            Light is the default, and the OS `prefers-color-scheme` is
+            deliberately NOT followed. The site's photography is graded for the
+            warm light palette, and <ThemeToggle> is not mounted on the public
+            pages — so a visitor whose machine is in dark mode used to land on
+            the dark theme with no way back. Dark now applies only when the
+            visitor has explicitly chosen it. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{if(localStorage.getItem('exuma-theme')==='dark')document.documentElement.classList.add('dark');}catch(e){}})();`,
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         {children}
         <ConditionalFooter>

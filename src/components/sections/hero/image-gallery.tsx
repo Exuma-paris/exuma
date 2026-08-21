@@ -55,7 +55,12 @@ function ImageTile({ image }: { image: { src: string; alt: string } }) {
         src={image.src}
         alt={image.alt}
         fill
-        sizes="(min-width: 768px) 33vw, 100vw"
+        // Must mirror the slide widths set below on the carousel item, or the
+        // browser downloads a variant sized for the wrong breakpoint and upscales
+        // it. The md range is the trap: the slide is `100vw - 20rem` there (≈65vw
+        // at 900px), so the old "33vw from 768px up" under-requested by ~2x and
+        // the tiles rendered visibly pixelated.
+        sizes="(min-width: 1024px) calc((100vw - 3rem) / 3), (min-width: 768px) calc(100vw - 20rem), calc(100vw - 5rem)"
         className="object-cover"
       />
     </div>
