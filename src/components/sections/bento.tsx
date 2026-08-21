@@ -116,7 +116,10 @@ function Card({ card, className }: { card: BentoCard; className?: string }) {
         src={card.image.src}
         alt={card.image.alt}
         fill
-        sizes="(min-width: 1024px) 33vw, 100vw"
+        // The grid is uneven: the two wide cards reach ~40vw while the three
+        // narrow ones sit near 26vw. Declaring 33vw under-served the wide pair by
+        // ~1.2x. Sized for the widest card so nothing upscales.
+        sizes="(min-width: 1024px) 40vw, 100vw"
         className={cn(
           isDark ? "object-contain object-right" : "object-cover",
         )}

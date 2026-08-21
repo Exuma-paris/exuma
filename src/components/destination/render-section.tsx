@@ -159,7 +159,7 @@ export function renderSection(section: Section, key: string): ReactNode {
       return (
         <div
           key={key}
-          className="relative [&>div:nth-child(1)_section]:pb-0 [&>div:nth-child(2)_section]:pt-10"
+          className="image-duo-with-text relative"
         >
           <ImageDuoSection
             left={section.duo.left}
