@@ -9,6 +9,7 @@ import { StepProgress } from "@/components/ui/step-progress";
 import { Button } from "@/components/ui/button";
 import { RenderQuestion } from "@/components/contact/render-question";
 import {
+  emptyAnswer,
   isAnswered,
   type Answer,
   type AnswersMap,
@@ -49,7 +50,11 @@ export function ContactFlow({
   const total = questions.length;
   const question = questions[step - 1];
   const answer = answers[question.id];
-  const canContinue = isAnswered(question, answer);
+  // Validate against the default rather than `undefined`, so a step that ships
+  // a meaningful default (two adults) counts as answered without forcing the
+  // visitor to nudge a control just to unlock the button. Steps whose default
+  // is genuinely empty still block, exactly as before.
+  const canContinue = isAnswered(question, answer ?? emptyAnswer(question));
   const isLastStep = step === total;
   const continueLabel = isLastStep ? "Envoyer ma demande" : "Continuer";
 
@@ -63,6 +68,11 @@ export function ContactFlow({
   };
 
   const goNext = () => {
+    // Persist an untouched default (see `canContinue`) so it is part of the
+    // payload once submission is wired, not silently dropped.
+    if (!answer) {
+      setAnswers((prev) => ({ ...prev, [question.id]: emptyAnswer(question) }));
+    }
     if (isLastStep) {
       // TODO: POST `answers` to a real submission endpoint when one exists.
       setSubmitting(true);

@@ -58,20 +58,20 @@ export function getGeneralContactQuestions(): Question[] {
       id: "destination",
       type: "destination",
       eyebrow: EYEBROW,
-      heading: "Où souhaitez-vous partir ?",
+      heading: "Où avez-vous envie d'aller ?",
       description:
-        "Un pays, une région, une envie encore vague : écrivez-le comme vous le diriez.",
+        "Un pays, une région, ou juste une envie encore floue. Écrivez-le comme vous nous le diriez.",
       label: "Votre destination",
-      hint: "Rien d'arrêté ? Décrivez plutôt l'atmosphère que vous cherchez.",
+      recognisedLabel: "Nous y allons régulièrement",
       index: buildDestinationIndex(),
     },
     {
       id: "travelers",
       type: "travelers",
       eyebrow: EYEBROW,
-      heading: "Qui sera du voyage ?",
+      heading: "Qui part avec vous ?",
       description:
-        "Nous adaptons les hébergements et le rythme à la composition du groupe.",
+        "Le nombre et les âges changent beaucoup de choses : les hébergements, le rythme, ce qu'on vous proposera sur place.",
       adultsLabel: "Adultes",
       childrenLabel: "Enfants",
     },
@@ -84,16 +84,16 @@ export function getGeneralContactQuestions(): Question[] {
         "Des dates arrêtées ou une simple intention, les deux nous vont.",
       fixedLabel: "Nos dates sont arrêtées",
       flexibleLabel: "La période reste à définir",
-      fixedFieldLabel: "Vos dates",
-      flexibleFieldLabel: "La période que vous avez en tête",
+      flexiblePlaceholder:
+        "Par exemple : plutôt au printemps, deux semaines, hors vacances scolaires.",
     },
     {
       id: "budget",
       type: "single",
       eyebrow: EYEBROW,
-      heading: "Quel budget envisagez-vous pour ce voyage ?",
+      heading: "Quel budget avez-vous en tête ?",
       description:
-        "Pour l'ensemble du séjour. Cette fourchette nous évite de vous proposer ce qui ne vous conviendrait pas.",
+        "Pour l'ensemble du séjour. Le savoir tôt nous évite de vous proposer ce qui ne vous conviendrait pas.",
       options: [
         { id: "10-15", label: "10 000 € – 15 000 €" },
         { id: "15-20", label: "15 000 € – 20 000 €" },
@@ -106,13 +106,14 @@ export function getGeneralContactQuestions(): Question[] {
     {
       // Asked at first contact on purpose: it is the only way to find out
       // whether word of mouth is a real acquisition channel, and who to thank.
+      // No "a professional recommended us" option here — that is a B2B path
+      // and it belongs on /professionnels, not in front of a private client.
       id: "source",
       type: "single",
       eyebrow: EYEBROW,
-      heading: "Comment avez-vous entendu parler de nous ?",
+      heading: "Comment nous avez-vous connus ?",
       options: [
         { id: "proche", label: "La recommandation d'un proche" },
-        { id: "professionnel", label: "Un professionnel nous a recommandés" },
         { id: "client", label: "Je suis déjà client" },
         { id: "recherche", label: "Une recherche en ligne" },
         { id: "presse", label: "La presse" },

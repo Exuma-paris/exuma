@@ -36,7 +36,6 @@ export function DestinationQuestionView({
           const text = e.target.value;
           onChange({ text, matches: recognizeDestinations(text, question.index) });
         }}
-        helperText={matches.length === 0 ? question.hint : undefined}
       />
 
       {matches.length > 0 ? (
@@ -49,7 +48,7 @@ export function DestinationQuestionView({
             aria-hidden
           />
           <span className="text-[14px] leading-[1.6] text-secondary-foreground">
-            Nous connaissons bien
+            {question.recognisedLabel ?? "Nous y allons régulièrement"}
           </span>
           {matches.map((m) => (
             <span

@@ -59,8 +59,8 @@ export type DestinationIndexEntry = {
 export type DestinationQuestion = QuestionBase & {
   type: "destination";
   label?: string;
-  /** Shown under the field when nothing is recognised. Never blocking. */
-  hint?: string;
+  /** Lead-in shown before the recognised place names. */
+  recognisedLabel?: string;
   /**
    * Name/slug index built on the server. Deliberately not the registry itself:
    * this component is client-side, and shipping every destination, experience
@@ -85,8 +85,8 @@ export type PeriodQuestion = QuestionBase & {
   type: "period";
   fixedLabel?: string;
   flexibleLabel?: string;
-  fixedFieldLabel?: string;
-  flexibleFieldLabel?: string;
+  /** Placeholder for the free-text field shown on the flexible branch. */
+  flexiblePlaceholder?: string;
 };
 
 export type Question =
@@ -121,7 +121,10 @@ export type TravelersAnswer = {
 
 export type PeriodAnswer = {
   mode: "fixed" | "flexible" | null;
-  /** The dates, or the period described in the visitor's own words. */
+  /** ISO day keys, set when `mode` is "fixed". */
+  start?: string;
+  end?: string;
+  /** The period in the visitor's own words, set when `mode` is "flexible". */
   detail: string;
 };
 
@@ -201,9 +204,10 @@ export function isAnswered(question: Question, answer: Answer | undefined): bool
       );
     case "period": {
       if (answer.type !== "period") return false;
-      return (
-        answer.value.mode !== null && answer.value.detail.trim().length > 0
-      );
+      const v = answer.value;
+      if (v.mode === "fixed") return Boolean(v.start && v.end);
+      if (v.mode === "flexible") return v.detail.trim().length > 0;
+      return false;
     }
     case "contact": {
       if (answer.type !== "contact") return false;
