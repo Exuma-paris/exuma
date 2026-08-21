@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import {
   accommodations,
   allTagged,
@@ -164,6 +165,32 @@ export function getRelatedDestinations(
         d.slug !== destinationSlug && d.continentSlug === target.continentSlug,
     )
     .slice(0, limit);
+}
+
+/**
+ * Themes shaped for a `featureCards` grid, with the hero image of each theme
+ * page as the card visual. Used by the home page so the thematic grid always
+ * mirrors the registry instead of hardcoding a list that drifts.
+ */
+export function getThemeCards(): {
+  title: string;
+  description: ReactNode;
+  image: { src: string; alt: string };
+  link: { label: string; href: string };
+}[] {
+  return Object.values(themes).flatMap((theme) => {
+    const hero = theme.sections.find((s) => s.type === "hero");
+    const image = hero?.images?.[0];
+    if (!image) return [];
+    return [
+      {
+        title: theme.name,
+        description: theme.blurb,
+        image,
+        link: { label: "Découvrir", href: `/themes/${theme.slug}` },
+      },
+    ];
+  });
 }
 
 function matches(haystack: unknown, needle: string): boolean {

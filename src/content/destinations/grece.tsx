@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Un pays d'îles, pas une carte postale",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Grèce ne commence pas à la plage. Il commence à Delphes, devant le fronton du temple d'Apollon, où deux mots gravés tenaient lieu de programme : connais-toi toi-même. Le sanctuaire s'étage à flanc du mont Parnasse, face à une mer d'oliviers. Les Grecs plaçaient ici le nombril du monde. On comprend pourquoi en montant.",
         "Le reste se construit autour d'une logique de déplacement. Deux nuits à Athènes pour l'Acropole et le musée qui la prolonge. Le Péloponnèse pour Épidaure, Mycènes et Nauplie, la première capitale du pays. Puis les Cyclades, choisies à deux ou trois, jamais toutes. On ne traverse pas la Grèce d'un bout à l'autre : on grave un itinéraire selon ce que l'on cherche, l'histoire ou l'eau, et le plus souvent les deux. Nous vérifions cette cohérence depuis plus de dix ans. Chaque étape a une raison.",
@@ -162,7 +162,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Grèce",
       description:
         "Temps de vol, décalage, monnaie, formalités et meilleure saison : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -221,7 +221,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Grèce. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Six lieux, et ce qu'il y a derrière",
       description:
         "Athènes, Delphes, Nauplie, Santorin, Hydra, Milos : chaque étape tient une promesse distincte. Voici celles autour desquelles s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -319,7 +319,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Grèce",
       description:
         "Huit observations de terrain qui ne se trouvent pas dans un guide. Pour décider d'une étape, ou comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Athènes, une journée qui compte",
@@ -515,7 +515,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

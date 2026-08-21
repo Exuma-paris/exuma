@@ -3,9 +3,9 @@ import { HeroImageBottom } from "@/components/sections/hero/image-bottom";
 import { Recommended } from "@/components/blocks/recommended";
 import { BentoSection } from "@/components/sections/bento";
 import { FeatureCardsSection } from "@/components/sections/feature-cards";
+import { getThemeCards } from "@/lib/content/queries";
 import { VideoSection } from "@/components/sections/video";
 import { FaqSection } from "@/components/sections/faq";
-import { FeatureShowcase } from "@/components/sections/feature-showcase";
 import { TestimonialsSection } from "@/components/sections/testimonials";
 
 export default function Home() {
@@ -14,7 +14,15 @@ export default function Home() {
       <main className="flex-1">
         <div className="relative">
           <Header />
-          <HeroImageBottom />
+          <HeroImageBottom
+            ctas={{
+              primary: { label: "Créer votre voyage", href: "/votre-projet" },
+              secondary: {
+                label: "Parler à un travel designer",
+                href: "/contact",
+              },
+            }}
+          />
         </div>
         <section className="section-px mx-auto w-full max-w-layout py-16">
           <Recommended />
@@ -24,7 +32,7 @@ export default function Home() {
           eyebrow="Exuma"
           heading="Découvrez le voyage sur-mesure avec Exuma"
           description="Un travel designer, expert de la Polynésie, façonne un voyage d'exception selon vos envies."
-          cta={{ label: "Créer votre voyage", href: "/reserver" }}
+          cta={{ label: "Créer votre voyage", href: "/votre-projet" }}
           cards={[
             {
               title: "Création d'itinéraires",
@@ -75,131 +83,10 @@ export default function Home() {
           ]}
         />
         <FeatureCardsSection
-          eyebrow="Hébergements"
-          heading="Nos hôtels d'exceptions"
-          cta={{ label: "Créer votre voyage", href: "/reserver" }}
-          cards={[
-            {
-              title: "Safari",
-              description:
-                "Partez en randonnée à travers des paysages enchanteurs des îles.",
-              image: {
-                src: "/hotels/safari.jpg",
-                alt: "Plage de sable blanc bordée de cocotiers",
-              },
-              link: { label: "Découvrir", href: "/hotels/safari" },
-            },
-            {
-              title: "Croisière",
-              description:
-                "Partez en randonnée à travers des paysages enchanteurs des îles.",
-              image: {
-                src: "/hotels/croisiere.jpg",
-                alt: "Lagon turquoise vu d'en haut",
-              },
-              link: { label: "Découvrir", href: "/hotels/croisiere" },
-            },
-            {
-              title: "Balnéaire",
-              description:
-                "Partez en randonnée à travers des paysages enchanteurs des îles.",
-              image: {
-                src: "/hotels/balneaire.jpg",
-                alt: "Bungalows sur pilotis au coucher du soleil",
-              },
-              link: { label: "Découvrir", href: "/hotels/balneaire" },
-            },
-            {
-              title: "Immersion",
-              description:
-                "Rencontrez les habitants et vivez au rythme des villages polynésiens.",
-              image: {
-                src: "/hotels/immersion.jpg",
-                alt: "Village polynésien authentique",
-              },
-              link: { label: "Découvrir", href: "/hotels/immersion" },
-            },
-            {
-              title: "Plongée",
-              description:
-                "Explorez les récifs coralliens et nagez parmi les raies mantas.",
-              image: {
-                src: "/hotels/plongee.jpg",
-                alt: "Plongeur parmi les coraux",
-              },
-              link: { label: "Découvrir", href: "/hotels/plongee" },
-            },
-            {
-              title: "Gastronomie",
-              description:
-                "Tables d'exception et cuisines traditionnelles revisitées.",
-              image: {
-                src: "/hotels/gastronomie.jpg",
-                alt: "Dressage culinaire",
-              },
-              link: { label: "Découvrir", href: "/hotels/gastronomie" },
-            },
-            {
-              title: "Aventure",
-              description:
-                "Trek, kayak et excursions au cœur des paysages volcaniques.",
-              image: {
-                src: "/hotels/aventure.jpg",
-                alt: "Randonneur face au volcan",
-              },
-              link: { label: "Découvrir", href: "/hotels/aventure" },
-            },
-          ]}
-        />
-        <FeatureShowcase
-          eyebrow="MÉD"
-          heading="Ajouter un titre"
-          description="Décrire les différents points"
-          items={[
-            {
-              title: "Vivez l'inaccessible",
-              detail: "Bullet point",
-              image: {
-                src: "/showcase/inaccessible.jpg",
-                alt: "Lagon turquoise et bungalows sur pilotis",
-              },
-            },
-            {
-              title: "Conciergerie & Co",
-              detail:
-                "Assistance 24/7, taxi-boat, chauffeurs privés et réservations exclusives.",
-              image: {
-                src: "/showcase/conciergerie.jpg",
-                alt: "Service de conciergerie",
-              },
-            },
-            {
-              title: "Un voyage, des expériences rencontres",
-              detail:
-                "Une immersion auprès des locaux, entre artisans, chefs et explorateurs.",
-              image: {
-                src: "/showcase/experiences.jpg",
-                alt: "Rencontres polynésiennes",
-              },
-            },
-            {
-              title: "A chaque confidentialité",
-              detail: "Adresses confidentielles et accès privilégiés.",
-              image: {
-                src: "/showcase/confidentiel.jpg",
-                alt: "Lieu confidentiel",
-              },
-            },
-            {
-              title: "Hébergements de luxe",
-              detail:
-                "Des villas suites à fleur de lagon aux refuges enfouis dans la végétation.",
-              image: {
-                src: "/showcase/hebergements.jpg",
-                alt: "Hébergement de luxe",
-              },
-            },
-          ]}
+          eyebrow="Thématiques"
+          heading="Par envie plutôt que par destination"
+          cta={{ label: "Créer votre voyage", href: "/votre-projet" }}
+          cards={getThemeCards()}
         />
         <VideoSection
           eyebrow="Partenaires"
@@ -213,7 +100,7 @@ export default function Home() {
         <TestimonialsSection
           eyebrow="Travel Designer"
           heading="Rencontrez nos travels designers"
-          cta={{ label: "Créer mon voyage", href: "/reserver" }}
+          cta={{ label: "Créer mon voyage", href: "/votre-projet" }}
           testimonials={[
             {
               quote:

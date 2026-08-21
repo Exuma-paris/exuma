@@ -35,7 +35,7 @@ const companyLinks = [
   { label: "Notre approche", href: "/approche" },
   { label: "Contactez-nous", href: "/contact" },
   { label: "FAQ", href: "/#faq" },
-  { label: "Créer votre voyage", href: "/reserver" },
+  { label: "Créer votre voyage", href: "/votre-projet" },
 ];
 
 const certifications = [

@@ -191,8 +191,8 @@ Each `<h2>` must be unique on the page. The canonical section list already produ
 ## CTAs (project-wide)
 
 Two canonical CTAs, used everywhere:
-- "Construire ce voyage" → `/reserver`  *(preferred for Polynésie/v8-style pages)*
-- "Créer votre voyage" → `/reserver`  *(historical, still in use)*
+- "Construire ce voyage" → `/votre-projet`  *(preferred for Polynésie/v8-style pages)*
+- "Créer votre voyage" → `/votre-projet`  *(historical, still in use)*
 - "Contactez-nous" → `/contact`
 
 Plus the local link CTAs: "Découvrir", "Voir tout {region}". No exclamation marks. No "→" in the label string (the component adds it).

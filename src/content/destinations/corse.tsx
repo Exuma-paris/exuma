@@ -81,7 +81,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Corse",
       heading: "La Corse, une île où le temps prend une autre épaisseur",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Il existe des îles que l'on regarde, et d'autres que l'on écoute. La Corse appartient à la seconde famille.\n\nDes crêtes du GR20 aux calanques rouges de Piana, du désert blanc des Agriates aux ruelles silencieuses de Sartène, chaque vallée garde une langue, un parfum, une lumière qui n'appartiennent qu'à elle.",
         "Le maquis sent le ciste et l'immortelle dès l'aube, le granit garde la chaleur du jour bien après le coucher du soleil, et la mer change de couleur d'heure en heure. À Bonifacio, les falaises calcaires tombent à pic dans une eau d'un bleu qui n'a pas de nom, tandis que plus haut, dans les villages perchés du Cap Corse, on partage un verre de muscat avec quelqu'un qui ne vous connaissait pas la veille.",
@@ -172,7 +172,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Corse",
       description:
         "Prêt à explorer la beauté préservée de l'île ? Voici l'essentiel à savoir avant de partir.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -221,7 +221,7 @@ export const destination: Destination = {
       heading: "Voyage sur mesure en Corse",
       description:
         "Un travel designer, expert de la Corse, façonne un voyage d'exception selon vos envies.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Création d'itinéraires",
@@ -279,7 +279,7 @@ export const destination: Destination = {
       heading: "La Corse, entre montagnes, golfes et villages perchés",
       description:
         "Que vous soyez amateur de randonnée, de plongée ou simplement en quête de silence, la diversité des paysages corses saura vous émerveiller.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -358,7 +358,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Corse",
       description:
         "Une île de contrastes : montagne, mer, maquis, villages perchés. Quelques repères pour préparer un séjour à la hauteur de ce que la Corse a à offrir.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -481,7 +481,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer mon voyage", href: "/reserver" },
+      cta: { label: "Créer mon voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
