@@ -10,6 +10,8 @@ type BentoCard = {
   description: string;
   image: { src: string; alt: string };
   tone?: "image" | "dark";
+  /** When set, the whole tile becomes the link to that page. */
+  href?: string;
 };
 
 export type BentoSectionProps = {
@@ -104,14 +106,9 @@ export const bentoMeta = {
 
 function Card({ card, className }: { card: BentoCard; className?: string }) {
   const isDark = card.tone === "dark";
-  return (
-    <article
-      className={cn(
-        "relative flex h-80 overflow-hidden",
-        isDark ? "bg-foreground text-background" : "bg-muted text-background",
-        className,
-      )}
-    >
+
+  const body = (
+    <>
       <Image
         src={card.image.src}
         alt={card.image.alt}
@@ -121,21 +118,50 @@ function Card({ card, className }: { card: BentoCard; className?: string }) {
         // ~1.2x. Sized for the widest card so nothing upscales.
         sizes="(min-width: 1024px) 40vw, 100vw"
         className={cn(
+          "transition-transform duration-500 ease-out",
           isDark ? "object-contain object-right" : "object-cover",
+          card.href && "group-hover/bento:scale-[1.03]",
         )}
       />
       {!isDark ? (
         <div
           aria-hidden
-          className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent"
+          className={cn(
+            "absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent transition-colors duration-300",
+            card.href && "group-hover/bento:from-black/75",
+          )}
         />
       ) : null}
       <div className="relative mt-auto flex max-w-xs flex-col gap-2 p-6">
         <h3 className="text-h4">{card.title}</h3>
         <p className="text-[13px] opacity-80">{card.description}</p>
       </div>
-    </article>
+    </>
   );
+
+  const shell = cn(
+    "group/bento relative flex h-80 overflow-hidden",
+    isDark ? "bg-foreground text-background" : "bg-muted text-background",
+    className,
+  );
+
+  // The whole tile is the target rather than a "Découvrir" link in the corner:
+  // it is a far bigger hit area, and the title already names the destination.
+  if (card.href) {
+    return (
+      <Link
+        href={card.href}
+        className={cn(
+          shell,
+          "outline-offset-2 focus-visible:outline-2 focus-visible:outline-foreground",
+        )}
+      >
+        {body}
+      </Link>
+    );
+  }
+
+  return <article className={shell}>{body}</article>;
 }
 
 export function BentoSection({

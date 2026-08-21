@@ -202,6 +202,7 @@ export function getServiceCategoryCards(): {
   title: string;
   description: string;
   image: { src: string; alt: string };
+  href: string;
 }[] {
   return Object.values(serviceCategories).flatMap((category) => {
     const hero = category.sections.find((s) => s.type === "hero");
@@ -209,7 +210,14 @@ export function getServiceCategoryCards(): {
     // Blurbs are authored as plain strings; anything richer has no place on a
     // bento card, so skip rather than render an empty tile.
     if (!image || typeof category.blurb !== "string") return [];
-    return [{ title: category.name, description: category.blurb, image }];
+    return [
+      {
+        title: category.name,
+        description: category.blurb,
+        image,
+        href: `/services/${category.slug}`,
+      },
+    ];
   });
 }
 
