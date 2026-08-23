@@ -27,7 +27,7 @@ export default function Home() {
               alt: "Une famille sur un promontoire de Madère, au-dessus d'une mer de nuages",
             }}
             heading="Vous nous dites où. Nous nous occupons du reste."
-            paragraph="Un interlocuteur unique conçoit votre voyage, réserve et coordonne. Il reste joignable jusqu'à votre retour."
+            paragraph="Un interlocuteur unique conçoit, affine, réserve, et coordonne vos voyages. Il reste joignable, avant, pendant et après votre retour."
             ctas={{
               primary: { label: "Créer votre voyage", href: "/votre-projet" },
               secondary: {

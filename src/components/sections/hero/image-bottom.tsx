@@ -13,7 +13,7 @@ export function HeroImageBottom({
   // message instead of showing the wording the positioning rules out.
   eyebrow = "Conciergerie de voyage · depuis 1991",
   heading = "Vous nous dites où. Nous nous occupons du reste.",
-  paragraph = "Un interlocuteur unique conçoit votre voyage, réserve et coordonne. Il reste joignable jusqu'à votre retour.",
+  paragraph = "Un interlocuteur unique conçoit, affine, réserve, et coordonne vos voyages. Il reste joignable, avant, pendant et après votre retour.",
   image = {
     src: "/hero.jpg",
     alt: "Paysage de Bora Bora avec lagon turquoise et bungalows sur pilotis",
