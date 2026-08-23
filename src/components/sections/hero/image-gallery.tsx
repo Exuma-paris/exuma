@@ -52,6 +52,10 @@ export const heroMeta = {
  * Largeurs réelles des tuiles, à garder alignées sur les classes `w-[…]` des
  * slides plus bas. Une valeur sous-estimée fait télécharger au navigateur une
  * image trop petite, qu'il agrandit ensuite : l'image paraît pixelisée.
+ *
+ * Le piège est la plage md : la tuile y occupe `100vw - 20rem`, soit environ
+ * 65vw à 900px de large. L'ancienne déclaration « 33vw à partir de 768px »
+ * demandait donc une image deux fois trop petite.
  */
 const CAROUSEL_SIZES =
   "(min-width: 1024px) calc((100vw - 3rem) / 3), (min-width: 768px) calc(100vw - 20rem), calc(100vw - 5rem)";

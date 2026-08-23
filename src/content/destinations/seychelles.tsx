@@ -575,8 +575,9 @@ export const destination: Destination = {
         "D'autres archipels où l'eau et l'isolement composent le voyage. À relier ou à comparer selon la saison.",
       cta: { label: "Voir toutes les destinations", href: "/destinations" },
       slugs: [
+        "maurice",
         "polynesie",
-        // TODO: ajouter "maurice" et "maldives" une fois ces destinations créées
+        // TODO: ajouter "maldives" une fois cette destination créée
       ],
     },
   ],

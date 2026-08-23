@@ -41,7 +41,9 @@ export function TestimonialCard({
           src={image.src}
           alt={image.alt}
           fill
-          sizes="(min-width: 768px) 25vw, 100vw"
+          // The portrait is md:w-[36%] of a card that spans the layout width, so
+          // 25vw under-requested it by ~1.2x and the portraits upscaled.
+          sizes="(min-width: 768px) 36vw, 100vw"
           className="object-cover"
         />
       </div>
