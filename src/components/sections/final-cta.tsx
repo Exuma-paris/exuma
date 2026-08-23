@@ -46,14 +46,14 @@ export function FinalCtaSection({
         <div className="flex flex-col items-center gap-3">
           <Link
             href={primaryCta.href}
-            className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-[11px] tracking-widest uppercase text-background transition-opacity hover:opacity-75"
+            className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-[13px] tracking-wide text-background transition-opacity hover:opacity-75"
           >
             {primaryCta.label}
           </Link>
           {secondaryCta ? (
             <Link
               href={secondaryCta.href}
-              className="text-[11px] tracking-wide text-secondary-foreground transition-colors hover:text-foreground"
+              className="text-[13px] tracking-wide text-secondary-foreground transition-colors hover:text-foreground"
             >
               {secondaryCta.label}
             </Link>

@@ -15,7 +15,11 @@ import {
   getDestinationsByContinentGrouped,
   type DestinationCountryGroup,
 } from "@/lib/content/queries";
-import { getMenuGroups, type MenuGroupKey } from "@/lib/content/menu-groups";
+import {
+  getMenuGroups,
+  proLink,
+  type MenuGroupKey,
+} from "@/lib/content/menu-groups";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -145,6 +149,7 @@ export function MenuPanel({
               <RootView
                 groups={groups}
                 onSelect={(key) => setActiveKey(key)}
+                onNavigate={close}
               />
               <SubView
                 group={activeGroup}
@@ -167,9 +172,11 @@ export function MenuPanel({
 function RootView({
   groups,
   onSelect,
+  onNavigate,
 }: {
   groups: Group[];
   onSelect: (key: SubKey) => void;
+  onNavigate: () => void;
 }) {
   return (
     <nav
@@ -183,6 +190,17 @@ function RootView({
           </li>
         ))}
       </ul>
+
+      <div className="mt-6 border-t border-border pt-6">
+        <Link
+          href={proLink.href}
+          onClick={onNavigate}
+          className="flex items-center gap-2 text-secondary-foreground transition-colors hover:text-foreground"
+        >
+          <span>{proLink.label}</span>
+          <ChevronRight className="size-4 stroke-[1.5]" />
+        </Link>
+      </div>
     </nav>
   );
 }
