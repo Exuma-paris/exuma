@@ -479,14 +479,15 @@ export const continents: Record<string, Continent> = toMap([
   ilesOceanie,
 ]);
 
+// Ordre d'affichage partagé par la home, le menu et le pied de page.
 export const themes: Record<string, Theme> = toMap([
   bienEtre,
-  skiMontagne,
-  plongee,
-  gastronomie,
-  safarisAventure,
-  cultureVisites,
   croisiere,
+  cultureVisites,
+  gastronomie,
+  plongee,
+  safarisAventure,
+  skiMontagne,
 ]);
 
 export const subthemes: Record<string, Subtheme> = toMap([]);
