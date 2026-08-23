@@ -10,7 +10,7 @@ export const theme: Theme = {
   keywords: ["bien-etre", "reconnexion", "ressourcement", "deconnexion", "retraite"],
   cardImage: {
     src: "/theme/bien-etre/hero-1-1x1.png",
-    alt: "Une personne seule, de dos, un café à la main, face au lac au petit matin",
+    alt: "Une personne seule attablée devant un café, de dos, face au lac au petit matin",
   },
   sections: [
     {
@@ -22,7 +22,7 @@ export const theme: Theme = {
       images: [
         {
           src: "/theme/bien-etre/hero-1.png",
-          alt: "Une personne seule, de dos, un café à la main, face au lac au petit matin",
+          alt: "Une personne seule attablée devant un café, de dos, face au lac au petit matin",
         },
       ],
     },
