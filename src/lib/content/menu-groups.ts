@@ -26,6 +26,14 @@ const companyLinks: MenuItem[] = [
   { label: "Créer votre voyage", href: "/reserver" },
 ];
 
+/** Discreet B2B entry, pinned under a rule at the root of the menu. It is a
+ * distinct audience, not a category of the B2C catalogue, so it never sits as
+ * a peer of Destinations / Thématiques. */
+export const proLink: MenuItem = {
+  label: "Professionnels & family offices",
+  href: "/professionnels",
+};
+
 export function getMenuGroups(): MenuGroup[] {
   return [
     {
