@@ -104,6 +104,15 @@ export const bentoMeta = {
   },
 } as const satisfies SectionMeta;
 
+/**
+ * Eased scrim behind the tile text. A plain two-stop gradient leaves the title
+ * sitting on a near-transparent band, which is exactly where it needs cover;
+ * these intermediate stops approximate an ease curve so the darkening reaches
+ * the title without a visible edge across the image.
+ */
+const SCRIM =
+  "linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.85) 16%, rgba(0,0,0,0.66) 34%, rgba(0,0,0,0.38) 52%, rgba(0,0,0,0.14) 70%, rgba(0,0,0,0) 88%)";
+
 function Card({ card, className }: { card: BentoCard; className?: string }) {
   const isDark = card.tone === "dark";
 
@@ -124,17 +133,28 @@ function Card({ card, className }: { card: BentoCard; className?: string }) {
         )}
       />
       {!isDark ? (
-        <div
-          aria-hidden
-          className={cn(
-            "absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent transition-colors duration-300",
-            card.href && "group-hover/bento:from-black/75",
-          )}
-        />
+        <>
+          <div aria-hidden className="absolute inset-0" style={{ background: SCRIM }} />
+          {/* Hover darkens the whole tile rather than steepening the scrim, so
+              the gradient keeps its shape and nothing shifts under the text. */}
+          <div
+            aria-hidden
+            className={cn(
+              "absolute inset-0 bg-black/0 transition-colors duration-300",
+              card.href && "group-hover/bento:bg-black/15",
+            )}
+          />
+        </>
       ) : null}
       <div className="relative mt-auto flex max-w-xs flex-col gap-2 p-6">
-        <h3 className="text-h4">{card.title}</h3>
-        <p className="text-[13px] opacity-80">{card.description}</p>
+        {/* Last-resort legibility on a blown-out highlight the scrim cannot
+            fully tame. Kept subtle so it never reads as a drop shadow. */}
+        <h3 className="text-h4 [text-shadow:0_1px_3px_rgba(0,0,0,0.35)]">
+          {card.title}
+        </h3>
+        <p className="text-[13px] opacity-90 [text-shadow:0_1px_2px_rgba(0,0,0,0.3)]">
+          {card.description}
+        </p>
       </div>
     </>
   );
