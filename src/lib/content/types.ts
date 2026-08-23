@@ -100,6 +100,14 @@ export type DestinationLanding = {
 export type Theme = EntityBase & {
   intent?: string;
   subthemeSlugs?: string[];
+  /**
+   * Square derivative of the hero image, for the thematic cards on the home
+   * page. The theme page itself uses the 16:9 master from `sections`; the card
+   * crops to 1:1, so it needs the variant `crop-images.py` anchors on the
+   * subject rather than a blind centre crop. Falls back to the master when
+   * absent.
+   */
+  cardImage?: ImageRef;
 };
 
 export type Subtheme = EntityBase & {

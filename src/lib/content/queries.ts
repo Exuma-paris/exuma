@@ -180,7 +180,8 @@ export function getThemeCards(): {
 }[] {
   return Object.values(themes).flatMap((theme) => {
     const hero = theme.sections.find((s) => s.type === "hero");
-    const image = hero?.images?.[0];
+    // The card is square; prefer the 1:1 derivative when the theme has one.
+    const image = theme.cardImage ?? hero?.images?.[0];
     if (!image) return [];
     return [
       {
