@@ -47,7 +47,9 @@ export default function Home() {
         <section className="section-px mx-auto w-full max-w-layout py-10">
           <Recommended />
         </section>
-        <div className="w-full bg-background-subtle">
+        {/* Cream plus soutenu que le fond de page : sans lui, ce bloc et le
+            bandeau d'accréditations se confondaient en une seule zone. */}
+        <div className="w-full bg-background-soft">
           <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px section-py">
             <div className="flex flex-col items-start gap-6 text-left md:items-center md:text-center">
               <TextBlock
