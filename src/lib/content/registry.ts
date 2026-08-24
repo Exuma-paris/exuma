@@ -68,6 +68,7 @@ import { destination as islande } from "@/content/destinations/islande";
 import { destination as losCabos } from "@/content/destinations/los-cabos";
 import { destination as montenegro } from "@/content/destinations/montenegro";
 import { destination as antigua } from "@/content/destinations/antigua";
+import { destination as barbade } from "@/content/destinations/barbade";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -264,6 +265,9 @@ import { experience as vinCrmnicaLacSkadar } from "@/content/experiences/vin-crm
 import { experience as catamaranPriveCadesReef } from "@/content/experiences/catamaran-prive-cades-reef";
 import { experience as randonneeEquestrePlage } from "@/content/experiences/randonnee-equestre-plage";
 import { experience as visiteNelsonsDockyard } from "@/content/experiences/visite-nelsons-dockyard";
+import { experience as degustationMountGay } from "@/content/experiences/degustation-mount-gay";
+import { experience as dinerTheCliff } from "@/content/experiences/diner-the-cliff";
+import { experience as harrisonsCave } from "@/content/experiences/harrisons-cave";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -431,6 +435,9 @@ import { accommodation as regentPortoMontenegro } from "@/content/accommodations
 import { accommodation as jumbyBayIsland } from "@/content/accommodations/jumby-bay-island";
 import { accommodation as hermitageBay } from "@/content/accommodations/hermitage-bay";
 import { accommodation as carlisleBay } from "@/content/accommodations/carlisle-bay";
+import { accommodation as sandyLane } from "@/content/accommodations/sandy-lane";
+import { accommodation as cobblersCove } from "@/content/accommodations/cobblers-cove";
+import { accommodation as coralReefClub } from "@/content/accommodations/coral-reef-club";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -448,6 +455,7 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
 export const destinations: Record<string, Destination> = toMap([
   afriqueDuSud,
   antigua,
+  barbade,
   botswana,
   corse,
   costaRica,
@@ -699,6 +707,9 @@ export const experiences: Record<string, Experience> = toMap([
   catamaranPriveCadesReef,
   randonneeEquestrePlage,
   visiteNelsonsDockyard,
+  degustationMountGay,
+  dinerTheCliff,
+  harrisonsCave,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -876,6 +887,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   jumbyBayIsland,
   hermitageBay,
   carlisleBay,
+  sandyLane,
+  cobblersCove,
+  coralReefClub,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
