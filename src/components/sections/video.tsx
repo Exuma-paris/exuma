@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 export type VideoSectionProps = {
   eyebrow?: string;
   heading: string;
+  description?: string;
   video: { src?: string; poster: string; alt?: string };
   /**
    * Quand la vidéo est hébergée ailleurs, le bloc devient un lien vers elle :
@@ -22,6 +23,7 @@ export type VideoSectionProps = {
 export function VideoSection({
   eyebrow,
   heading,
+  description,
   video,
   href,
   background,
@@ -44,6 +46,7 @@ export function VideoSection({
           eyebrow={eyebrow}
           heading={heading}
           headingLevel="h2"
+          paragraph={description}
         />
 
         <div className="group/video relative aspect-video w-full overflow-hidden bg-muted">

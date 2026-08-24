@@ -83,7 +83,11 @@ export default function Home() {
         />
         <VideoSection
           eyebrow="Partenaires"
-          heading="Exuma et Ponant"
+          // Section volontairement écrite sur la pratique et non sur un
+          // partenaire nommé : la vidéo illustrée peut changer sans que le
+          // bloc soit à réécrire.
+          heading="Nous parlons destinations avec ceux qui les opèrent"
+          description="Compagnies, hôteliers, guides locaux : nous passons du temps avec ceux qui travaillent sur le terrain, et nous y retournons régulièrement. Ce que nous vous conseillons vient de ces conversations, pas d'un catalogue."
           // La vidéo est hébergée sur la page Facebook d'Exuma, pas dans le
           // dépôt : le bloc renvoie vers elle plutôt que de proposer une
           // lecture sur place qui n'aboutirait pas.
