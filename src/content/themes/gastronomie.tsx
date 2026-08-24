@@ -8,6 +8,10 @@ export const theme: Theme = {
   intent:
     "On ne parle pas de restaurant, on parle de portes qui s'ouvrent. La table d'un vigneron qui ne reçoit pas, un chef qui cuisine pour douze le vendredi soir.",
   keywords: ["gastronomie", "vin", "chef", "epicurien", "art de vivre", "vigneron"],
+  cardImage: {
+    src: "/theme/gastronomie/hero-1-1x1.png",
+    alt: "Un couple attablé seul dans une salle troglodyte dressée et déserte, face à la mer",
+  },
   sections: [
     {
       type: "hero",
@@ -16,8 +20,8 @@ export const theme: Theme = {
       description: "Des portes qui s'ouvrent, pas des étoiles à cocher.",
       images: [
         {
-          src: "/destination/corse/hero-1.png",
-          alt: "Gastronomie",
+          src: "/theme/gastronomie/hero-1.png",
+          alt: "Un couple attablé seul dans une salle troglodyte dressée et déserte, face à la mer",
         },
       ],
     },
