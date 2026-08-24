@@ -222,6 +222,24 @@ export function getServiceCategoryCards(): {
   });
 }
 
+/**
+ * Travel designers mis en avant, dans l'ordre donné, prêts pour la section
+ * `testimonials`. Seuls ceux qui portent un verbatim sont retenus : afficher
+ * une carte de citation vide n'aurait pas de sens.
+ */
+export function getTravelDesignerTestimonials(slugs: string[]): {
+  quote: string;
+  image: { src: string; alt: string };
+  name: string;
+  role?: string;
+}[] {
+  return slugs.flatMap((slug) => {
+    const c = collaborateurs[slug];
+    if (!c?.quote) return [];
+    return [{ quote: c.quote, image: c.image, name: c.name, role: c.role }];
+  });
+}
+
 function matches(haystack: unknown, needle: string): boolean {
   if (typeof haystack !== "string" || !haystack) return false;
   return haystack.toLowerCase().includes(needle);

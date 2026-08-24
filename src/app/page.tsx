@@ -9,6 +9,7 @@ import { FeatureCardsSection } from "@/components/sections/feature-cards";
 import {
   getServiceCategoryCards,
   getThemeCards,
+  getTravelDesignerTestimonials,
 } from "@/lib/content/queries";
 import { VideoSection } from "@/components/sections/video";
 import { FaqSection } from "@/components/sections/faq";
@@ -97,51 +98,16 @@ export default function Home() {
           href="https://www.facebook.com/exumafr/videos/26088294140798440/"
         />
         <TestimonialsSection
-          eyebrow="Travel Designer"
-          heading="Rencontrez nos travels designers"
-          cta={{ label: "Créer mon voyage", href: "/votre-projet" }}
-          testimonials={[
-            {
-              quote:
-                "Voyager en Polynésie, c'est découvrir des paysages époustouflants, des plages de sable fin et une culture riche. Une aventure unique qui éveille les sens et nourrit l'âme.",
-              image: {
-                src: "/testimonials/stephane.jpg",
-                alt: "Portrait de Stéphane, travel designer",
-              },
-              name: "Stéphane",
-              role: "Travel Designer Exuma spécialiste de la Polynésie",
-            },
-            {
-              quote:
-                "Chaque voyage est une histoire à construire ensemble, au rythme des rencontres et des envies.",
-              image: {
-                src: "/testimonials/marie.jpg",
-                alt: "Portrait de Marie, travel designer",
-              },
-              name: "Marie",
-              role: "Travel Designer Exuma spécialiste des Caraïbes",
-            },
-            {
-              quote:
-                "Je conçois des itinéraires qui révèlent l'âme des lieux, loin des sentiers battus et au plus près des habitants.",
-              image: {
-                src: "/testimonials/julien.jpg",
-                alt: "Portrait de Julien, travel designer",
-              },
-              name: "Julien",
-              role: "Travel Designer Exuma spécialiste du Japon",
-            },
-            {
-              quote:
-                "Un bon voyage se ressent dans les détails : une table, un lever de soleil, une conversation inattendue.",
-              image: {
-                src: "/testimonials/camille.jpg",
-                alt: "Portrait de Camille, travel designer",
-              },
-              name: "Camille",
-              role: "Travel Designer Exuma spécialiste de l'Afrique",
-            },
-          ]}
+          eyebrow="Travel designers"
+          heading="Celles et ceux qui s'en occupent"
+          cta={{ label: "Créer votre voyage", href: "/votre-projet" }}
+          // Noms, rôles, portraits et verbatims viennent des fiches
+          // collaborateurs : la page ne fait que choisir qui apparaît.
+          testimonials={getTravelDesignerTestimonials([
+            "carole",
+            "stephane",
+            "taina",
+          ])}
         />
         <FaqSection
           heading="Foire aux questions"

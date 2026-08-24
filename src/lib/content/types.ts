@@ -145,6 +145,13 @@ export type Accommodation = EntityBase & {
 
 export type Collaborateur = EntityBase & {
   role?: string;
+  /**
+   * Verbatim attribué à la personne. Il vit sur sa fiche et non dans la page
+   * qui l'affiche, pour qu'un changement de citation n'ait qu'un seul point
+   * d'entrée. À faire valider par l'intéressé avant publication : on ne prête
+   * pas de propos à quelqu'un sans son accord.
+   */
+  quote?: string;
   /** Full-shot portrait (250×300, person sitting in chair). */
   image: ImageRef;
   /** Square zoom on the face (300×300). Used for header avatars, chips, etc. */
