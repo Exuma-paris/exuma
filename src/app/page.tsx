@@ -96,6 +96,7 @@ export default function Home() {
             alt: "Échange entre Céline Lagraulet et un travel designer Exuma sur la Polynésie",
           }}
           href="https://www.facebook.com/exumafr/videos/26088294140798440/"
+          background="bg-background-soft"
         />
         <TestimonialsSection
           eyebrow="Travel designers"
