@@ -165,47 +165,45 @@ export const destination: Destination = {
         {
           iconName: "plane",
           title: "Temps de vol",
-          // TODO: verify les liaisons et les durées de vol vers Providenciales
+          // TODO: revérifier avant publication, les rotations British Airways changent de saison en saison
           description:
-            "Il n'existe pas de vol direct depuis Paris. Les itinéraires passent par Londres, d'où British Airways rejoint Providenciales, ou par un hub nord-américain : Miami est à un peu plus d'une heure de l'archipel, New York à trois heures et demie, Toronto à quatre heures. Comptez une journée complète de trajet depuis Paris. Providenciales concentre les vols internationaux ; Grand Turk, South Caicos et Ambergris Cay se rejoignent ensuite en petit avion, North et Middle Caicos par le ferry puis par la chaussée.",
+            "Il n'existe pas de vol direct depuis Paris. Les itinéraires passent par Londres, d'où British Airways rejoint Providenciales, certaines rotations marquant une escale à Nassau, ou par un hub nord-américain : Miami est à un peu moins de deux heures de l'archipel, New York à trois heures et demie, Toronto à quatre heures. Comptez une journée complète de trajet depuis Paris. Providenciales concentre les vols internationaux ; Grand Turk et South Caicos se rejoignent ensuite par un vol domestique, Ambergris Cay par un transfert aérien privé, North Caicos par le ferry, puis Middle Caicos par la route qui relie les deux îles.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "L'archipel vit à l'heure de la côte est américaine et change d'heure aux mêmes dates que les États-Unis. Le décalage avec la France reste donc stable toute l'année : six heures de retard.",
+            "L'archipel change d'heure aux mêmes dates que la côte est américaine, et la France à des dates différentes. Le décalage est donc de six heures de retard la plus grande partie de l'année, et de cinq heures pendant deux courtes périodes de bascule, en mars et autour de la fin octobre. En 2026, l'archipel change le 8 mars et le 1er novembre.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
-          // TODO: verify le taux des taxes de séjour et du service
           description:
-            "La monnaie officielle est le dollar américain, ce qui évite tout change sur place. Les cartes passent partout à Providenciales, dans les hôtels comme dans les restaurants. On garde des espèces pour les taxis, les bateaux et les petites adresses de Blue Hills ou de Middle Caicos. Une taxe de séjour s'ajoute aux nuitées, et le service est le plus souvent facturé d'office.",
+            "La monnaie officielle est le dollar américain, ce qui évite tout change sur place. Les cartes sont largement acceptées, surtout à Providenciales, dans les hôtels comme dans les restaurants. On garde des espèces pour les taxis, les bateaux et les petites adresses de Blue Hills ou de Middle Caicos. Une taxe touristique de 12 % s'applique aux hébergements, et les hôtels comme leurs restaurants ajoutent le plus souvent 10 % de service.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
-          // TODO: verify l'obligation d'ETA britannique en transit aéroportuaire
           description:
-            "Aucun visa n'est demandé aux ressortissants français pour un séjour touristique de moins de trois mois. Le passeport doit être valide pendant toute la durée du séjour, et un billet de retour est demandé à l'entrée. Si l'itinéraire passe par les États-Unis, l'autorisation ESTA est obligatoire, y compris en simple transit. En cas de correspondance à Londres, l'autorisation britannique ETA est à prévoir : mieux vaut la demander avant le départ.",
+            "Aucun visa n'est demandé aux ressortissants français, dont le séjour touristique est autorisé jusqu'à quatre-vingt-dix jours. Le Border Force local demande en revanche un passeport valable au moins six mois, et un billet de retour est demandé à l'entrée. Si l'itinéraire passe par les États-Unis, l'autorisation ESTA est obligatoire, y compris en simple transit. En cas de correspondance à Londres, l'autorisation britannique ETA n'est pas nécessaire tant que l'on reste en zone de transit ; elle le devient dès que l'on franchit la frontière.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est obligatoire pour un séjour touristique. Il est recommandé d'être à jour des vaccinations du calendrier français, celle contre l'hépatite A se discutant selon la durée du séjour. La dengue circule dans les Antilles selon les années : une protection contre les moustiques reste la précaution la plus utile, surtout en fin de journée.",
+            "Aucun vaccin n'est exigé à l'entrée. Les vaccinations du calendrier français doivent être à jour, et le vaccin contre l'hépatite A est recommandé aux voyageurs qui ne l'ont pas encore reçu. La dengue circule dans les Antilles selon les années : les moustiques qui la transmettent piquent aussi en pleine journée, une protection régulière vaut donc mieux qu'une simple précaution du soir.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison sèche court de décembre à avril, avec un alizé régulier et une humidité basse. Nous privilégions février et mars, quand l'eau est la plus claire et que les baleines à bosse remontent le passage des Turks vers le Silver Bank. Mai et le début du mois de juin restent une bonne fenêtre, plus chaude et beaucoup plus calme. La saison cyclonique court de juin à novembre, avec un cœur d'activité en août, septembre et octobre.",
+            "La saison la plus sèche court de janvier à avril, avec un alizé régulier et une humidité basse. Nous privilégions février et mars, quand l'eau est la plus claire et que les baleines à bosse traversent le passage des Turks, leur pic se situant de la fin janvier au début du mois de mars. Mai et le début du mois de juin restent une fenêtre possible, plus chaude, avec davantage de pluie certaines années. La saison cyclonique s'ouvre officiellement le 1er juin et se ferme fin novembre, avec un cœur d'activité en août, septembre et octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais est la langue officielle et celle de la vie quotidienne, dans les hôtels comme sur les bateaux. On entend aussi le créole haïtien, parlé par une partie de la population, et l'espagnol dans les commerces.",
+            "L'anglais est la langue officielle et celle de la vie quotidienne, dans les hôtels comme sur les bateaux. Le créole haïtien est également présent, parlé par une partie de la population.",
         },
         {
           iconName: "sun",
@@ -306,7 +304,7 @@ export const destination: Destination = {
         {
           title: "Grand Turk et Salt Cay",
           description:
-            "De l'autre côté du passage, deux petites îles vivent au ralenti sur les vestiges de l'industrie du sel. Cockburn Town garde ses maisons de bois et ses salines à sec. De janvier à avril, les baleines à bosse remontent le passage en longeant la côte, à portée de vue depuis la terre.",
+            "De l'autre côté du passage, deux petites îles vivent au ralenti sur les vestiges de l'industrie du sel. Cockburn Town garde ses maisons de bois et ses salines à sec. De la fin janvier au début du mois de mars, les baleines à bosse traversent le passage en longeant la côte, à portée de vue depuis la terre.",
           image: {
             src: "/destination/turks-and-caicos/map-grand-turk.png",
             alt: "Les anciennes salines et les maisons de bois de Cockburn Town à Grand Turk",
@@ -342,12 +340,13 @@ export const destination: Destination = {
                 Providenciales. Comptez une journée complète de trajet.
               </p>
               <p>
-                Depuis Providenciales, Grand Turk, South Caicos et Ambergris Cay
-                se rejoignent en petit avion, Parrot Cay en bateau privé, North
-                Caicos par le ferry puis par la chaussée qui la relie à Middle
-                Caicos. Ces petits appareils ne volent pas de nuit et leur
-                franchise de bagages est limitée : nous laissons de la marge
-                après le long-courrier plutôt que d&apos;enchaîner.
+                Depuis Providenciales, Grand Turk et South Caicos se rejoignent
+                par un vol domestique, Ambergris Cay par un transfert aérien
+                privé, Parrot Cay en bateau, et North Caicos par le ferry, puis
+                Middle Caicos par la route qui relie les deux îles. Ces petits
+                appareils ne volent pas de nuit et leur franchise de bagages est
+                limitée : nous laissons de la marge après le long-courrier
+                plutôt que d&apos;enchaîner.
               </p>
               <h4 className="font-medium">Avec Exuma :</h4>
               <p>
@@ -387,22 +386,24 @@ export const destination: Destination = {
           cardEyebrow: "Saison",
           modalEyebrow: "Guide pratique",
           shortDescription:
-            "La saison sèche va de décembre à avril, et nous visons février et mars",
+            "La saison la plus sèche va de janvier à avril, et nous visons février et mars",
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                La saison sèche court de décembre à avril, avec un alizé
+                La saison la plus sèche court de janvier à avril, avec un alizé
                 régulier et une humidité basse. Nous privilégions février et
                 mars : l&apos;eau est au plus clair, la visibilité sur le
                 tombant atteint ses meilleurs jours, et les baleines à bosse
-                remontent le passage des Turks vers le Silver Bank.
+                traversent le passage des Turks. Leur pic se situe de la fin
+                janvier au début du mois de mars.
               </p>
               <p>
                 Les fêtes de fin d&apos;année sont la période la plus demandée
                 et la plus chère. Mai et le début du mois de juin restent une
-                bonne fenêtre, plus chaude et beaucoup plus calme. La saison
-                cyclonique court de juin à novembre, avec un cœur
-                d&apos;activité en août, septembre et octobre.
+                fenêtre possible, plus chaude, avec davantage de pluie certaines
+                années. La saison cyclonique s&apos;ouvre officiellement le 1er
+                juin et se ferme fin novembre, avec un cœur d&apos;activité en
+                août, septembre et octobre.
               </p>
             </div>
           ),
@@ -627,17 +628,17 @@ export const destination: Destination = {
           question:
             "Quelle est la meilleure période pour partir aux Turks and Caicos ?",
           answer:
-            "La saison sèche court de décembre à avril, avec un alizé régulier et une humidité basse. Nous privilégions février et mars : l'eau est au plus clair, la visibilité sur les tombants atteint ses meilleurs jours, et les baleines à bosse remontent le passage des Turks vers le Silver Bank. Les fêtes de fin d'année sont la période la plus demandée et la plus chère. Mai et le début du mois de juin restent une bonne fenêtre, plus chaude et beaucoup plus calme. La saison cyclonique court de juin à novembre, avec un cœur d'activité en août, septembre et octobre.",
+            "La saison la plus sèche court de janvier à avril, avec un alizé régulier et une humidité basse. Nous privilégions février et mars : l'eau est au plus clair, la visibilité sur les tombants atteint ses meilleurs jours, et les baleines à bosse traversent le passage des Turks, leur pic se situant de la fin janvier au début du mois de mars. Les fêtes de fin d'année sont la période la plus demandée et la plus chère. Mai et le début du mois de juin restent une fenêtre possible, plus chaude, avec davantage de pluie certaines années. La saison cyclonique s'ouvre officiellement le 1er juin et se ferme fin novembre, avec un cœur d'activité en août, septembre et octobre.",
         },
         {
           question: "Comment se rendre aux Turks and Caicos depuis Paris ?",
           answer:
-            "Il n'existe pas de vol direct depuis Paris. Les itinéraires passent par Londres, d'où British Airways rejoint Providenciales, ou par un hub nord-américain : Miami, New York, Charlotte ou Toronto. Comptez une journée complète de trajet. Tous les vols internationaux arrivent à Providenciales. De là, Grand Turk, South Caicos et Ambergris Cay se rejoignent en petit avion, Parrot Cay en bateau privé, et North Caicos par le ferry puis par la chaussée qui la relie à Middle Caicos. Les petits appareils ne volent pas de nuit : prévoyez de la marge entre le long-courrier et le dernier tronçon.",
+            "Il n'existe pas de vol direct depuis Paris. Les itinéraires passent par Londres, d'où British Airways rejoint Providenciales, certaines rotations marquant une escale à Nassau, ou par un hub nord-américain : Miami, New York, Charlotte ou Toronto. Comptez une journée complète de trajet. Tous les vols internationaux arrivent à Providenciales. De là, Grand Turk et South Caicos se rejoignent par un vol domestique, Ambergris Cay par un transfert aérien privé, Parrot Cay en bateau, et North Caicos par le ferry, puis Middle Caicos par la route qui relie les deux îles. Ces appareils ne volent pas de nuit : prévoyez de la marge entre le long-courrier et le dernier tronçon.",
         },
         {
           question: "Faut-il un visa pour les Turks and Caicos ?",
           answer:
-            "Les ressortissants français n'ont pas besoin de visa pour un séjour touristique de moins de trois mois. Le passeport doit être valide pendant toute la durée du séjour, et un billet de retour est demandé à l'entrée. Si votre itinéraire comprend une escale aux États-Unis, l'autorisation ESTA est obligatoire, y compris en simple transit. En cas de correspondance à Londres, prévoyez l'autorisation britannique ETA avant le départ.",
+            "Les ressortissants français n'ont pas besoin de visa, et le séjour touristique est autorisé jusqu'à quatre-vingt-dix jours. Le Border Force local demande en revanche un passeport valable au moins six mois, et un billet de retour est demandé à l'entrée. Si votre itinéraire comprend une escale aux États-Unis, l'autorisation ESTA est obligatoire, y compris en simple transit. En cas de correspondance à Londres, l'autorisation britannique ETA n'est pas nécessaire tant que vous restez en zone de transit ; elle le devient dès que vous franchissez la frontière.",
         },
         {
           question: "Que faire aux Turks and Caicos en une semaine ?",
