@@ -1,6 +1,9 @@
 import { Header } from "@/components/sections/header";
 import { HeroImageBottom } from "@/components/sections/hero/image-bottom";
 import { Recommended } from "@/components/blocks/recommended";
+import { DestinationFinder } from "@/components/blocks/destination-finder";
+import { TextBlock } from "@/components/blocks/text-block";
+import { getDestinationFinderIndex } from "@/lib/content/destination-finder";
 import { BentoSection } from "@/components/sections/bento";
 import { FeatureCardsSection } from "@/components/sections/feature-cards";
 import {
@@ -12,6 +15,10 @@ import { FaqSection } from "@/components/sections/faq";
 import { TestimonialsSection } from "@/components/sections/testimonials";
 
 export default function Home() {
+  // Index construit côté serveur : le composant de recherche est client, lui
+  // envoyer le registre entier pour comparer des noms serait absurde.
+  const finderEntries = getDestinationFinderIndex();
+
   return (
     <>
       <main className="flex-1">
@@ -40,6 +47,21 @@ export default function Home() {
         <section className="section-px mx-auto w-full max-w-layout py-10">
           <Recommended />
         </section>
+        <div className="w-full bg-background-subtle">
+          <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px section-py">
+            <div className="flex flex-col items-start gap-6 text-left md:items-center md:text-center">
+              <TextBlock
+                align="left"
+                mdAlign="center"
+                eyebrow="Destinations"
+                heading="Où souhaitez-vous partir ?"
+                headingLevel="h2"
+                paragraph="Cherchez un pays, une île, une ville. Nous vous montrons ce que nous y connaissons."
+              />
+            </div>
+            <DestinationFinder entries={finderEntries} />
+          </section>
+        </div>
         <BentoSection
           background="bg-background"
           eyebrow="Conciergerie"
