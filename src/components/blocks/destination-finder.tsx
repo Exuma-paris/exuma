@@ -3,7 +3,11 @@
 import { useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { MarkerPin01 as MapPin, SearchLg as Search } from "@untitledui/icons";
+import {
+  ArrowUpRight,
+  MarkerPin01 as MapPin,
+  SearchLg as Search,
+} from "@untitledui/icons";
 import { buttonVariants } from "@/components/ui/button";
 import type { FinderEntry } from "@/lib/content/destination-finder";
 import { cn } from "@/lib/utils";
@@ -58,6 +62,29 @@ function Card({ entry }: { entry: FinderEntry }) {
           <span className="text-[12px] opacity-70">{entry.continent}</span>
         ) : null}
       </div>
+    </Link>
+  );
+}
+
+/**
+ * Dernière tuile de la grille. Elle occupe la case laissée libre par le compte
+ * de destinations et referme la rangée, plutôt que de laisser un vide en coin.
+ */
+function CtaCard() {
+  return (
+    <Link
+      href="/votre-projet"
+      className="group/cta flex aspect-4/5 flex-col justify-between border border-border bg-background-subtle p-4 transition-colors hover:bg-background focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-foreground"
+    >
+      <ArrowUpRight className="size-5 text-primary transition-transform duration-300 group-hover/cta:-translate-y-0.5 group-hover/cta:translate-x-0.5" />
+      <span className="flex flex-col gap-1">
+        <span className="font-heading text-[17px] leading-tight text-foreground">
+          Dites-nous où
+        </span>
+        <span className="text-[12px] leading-snug text-secondary-foreground">
+          Nous construisons le reste.
+        </span>
+      </span>
     </Link>
   );
 }
@@ -123,12 +150,15 @@ export function DestinationFinder({
       </div>
 
       {shown.length > 0 ? (
-        <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5">
-          {shown.slice(0, 10).map((entry) => (
+        <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+          {shown.slice(0, 11).map((entry) => (
             <li key={entry.slug}>
               <Card entry={entry} />
             </li>
           ))}
+          <li>
+            <CtaCard />
+          </li>
         </ul>
       ) : (
         // Une conciergerie ne répond pas « aucun résultat » : elle propose d'en
