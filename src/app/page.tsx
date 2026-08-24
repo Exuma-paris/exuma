@@ -84,11 +84,14 @@ export default function Home() {
         <VideoSection
           eyebrow="Partenaires"
           heading="Exuma et Ponant"
+          // La vidéo est hébergée sur la page Facebook d'Exuma, pas dans le
+          // dépôt : le bloc renvoie vers elle plutôt que de proposer une
+          // lecture sur place qui n'aboutirait pas.
           video={{
-            src: "/videos/exuma-ponant.mp4",
             poster: "/videos/exuma-ponant-poster.jpg",
-            alt: "Présentation du partenariat Exuma et Ponant",
+            alt: "Échange entre Céline Lagraulet et un travel designer Exuma sur la Polynésie",
           }}
+          href="https://www.facebook.com/exumafr/videos/26088294140798440/"
         />
         <TestimonialsSection
           eyebrow="Travel Designer"
