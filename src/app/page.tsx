@@ -82,10 +82,9 @@ export default function Home() {
           cards={getThemeCards()}
         />
         <VideoSection
-          eyebrow="Partenaires"
-          // Section volontairement écrite sur la pratique et non sur un
-          // partenaire nommé : la vidéo illustrée peut changer sans que le
-          // bloc soit à réécrire.
+          // Le surtitre légende la vidéo du moment, le titre parle de la
+          // pratique : changer de film ne demande de toucher qu'à cette ligne.
+          eyebrow="Partenaire · Ponant"
           heading="Nous parlons destinations avec ceux qui les opèrent"
           description="Compagnies, hôteliers, guides locaux : nous passons du temps avec ceux qui travaillent sur le terrain, et nous y retournons régulièrement. Ce que nous vous conseillons vient de ces conversations, pas d'un catalogue."
           // La vidéo est hébergée sur la page Facebook d'Exuma, pas dans le
