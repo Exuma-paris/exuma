@@ -23,6 +23,7 @@ import { destination as polynesie } from "@/content/destinations/polynesie";
 import { destination as marrakech } from "@/content/destinations/marrakech";
 import { destination as oman } from "@/content/destinations/oman";
 import { destination as paris } from "@/content/destinations/paris";
+import { destination as perou } from "@/content/destinations/perou";
 import { destination as republiqueDominicaine } from "@/content/destinations/republique-dominicaine";
 import { destination as paysBas } from "@/content/destinations/pays-bas";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
@@ -65,6 +66,7 @@ import { destination as jordanie } from "@/content/destinations/jordanie";
 import { destination as norvege } from "@/content/destinations/norvege";
 import { destination as islande } from "@/content/destinations/islande";
 import { destination as losCabos } from "@/content/destinations/los-cabos";
+import { destination as montenegro } from "@/content/destinations/montenegro";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -252,6 +254,12 @@ import { experience as escapadeTodosSantos } from "@/content/experiences/escapad
 import { experience as plongeeCaboPulmo } from "@/content/experiences/plongee-cabo-pulmo";
 import { experience as snorkelingLionsMerEspirituSanto } from "@/content/experiences/snorkeling-lions-mer-espiritu-santo";
 import { experience as wineOclockValleGuadalupe } from "@/content/experiences/wine-oclock-valle-guadalupe";
+import { experience as tableChefCentralLima } from "@/content/experiences/table-chef-central-lima";
+import { experience as valleeSacreeArcheologuePrive } from "@/content/experiences/vallee-sacree-archeologue-prive";
+import { experience as immersionAmazonieNaturaliste } from "@/content/experiences/immersion-amazonie-naturaliste";
+import { experience as helicoCanyonTara } from "@/content/experiences/helico-canyon-tara";
+import { experience as rempartsKotorAube } from "@/content/experiences/remparts-kotor-aube";
+import { experience as vinCrmnicaLacSkadar } from "@/content/experiences/vin-crmnica-lac-skadar";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -410,6 +418,12 @@ import { accommodation as fourSeasonsLosCabos } from "@/content/accommodations/f
 import { accommodation as oneAndOnlyPalmilla } from "@/content/accommodations/one-and-only-palmilla";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
+import { accommodation as belmondSanctuaryLodge } from "@/content/accommodations/belmond-sanctuary-lodge";
+import { accommodation as belmondPalacioNazarenas } from "@/content/accommodations/belmond-palacio-nazarenas";
+import { accommodation as inkaterraReservaAmazonica } from "@/content/accommodations/inkaterra-reserva-amazonica";
+import { accommodation as amanSvetiStefan } from "@/content/accommodations/aman-sveti-stefan";
+import { accommodation as oneOnlyPortonovi } from "@/content/accommodations/one-only-portonovi";
+import { accommodation as regentPortoMontenegro } from "@/content/accommodations/regent-porto-montenegro";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -435,6 +449,7 @@ export const destinations: Record<string, Destination> = toMap([
   jordanie,
   marrakech,
   maurice,
+  montenegro,
   namibie,
   norvege,
   oman,
@@ -462,6 +477,7 @@ export const destinations: Record<string, Destination> = toMap([
   philippines,
   kenya,
   paysBas,
+  perou,
   polynesie,
   republiqueDominicaine,
   rioDeJaneiro,
@@ -538,6 +554,7 @@ export const experiences: Record<string, Experience> = toMap([
   eclosionTortuesSeychelles,
   flyCampKopjesGrumeti,
   golfParadisMorne,
+  helicoCanyonTara,
   crieeAalsmeerAube,
   croisiereBoutreMidaCreek,
   croisierePriveeCyclades,
@@ -617,6 +634,7 @@ export const experiences: Record<string, Experience> = toMap([
   ponteTortuesVertes,
   refugeCuru,
   reinefjordMoskenstraumen,
+  rempartsKotorAube,
   reserveNectandra,
   rungisChef,
   safariNocturneProjecteur,
@@ -666,6 +684,10 @@ export const experiences: Record<string, Experience> = toMap([
   plongeeCaboPulmo,
   snorkelingLionsMerEspirituSanto,
   wineOclockValleGuadalupe,
+  tableChefCentralLima,
+  valleeSacreeArcheologuePrive,
+  immersionAmazonieNaturaliste,
+  vinCrmnicaLacSkadar,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -681,6 +703,7 @@ export const services: Record<string, Service> = toMap([]);
 export const accommodations: Record<string, Accommodation> = toMap([
   alMoudiraLouxor,
   amanjena,
+  amanSvetiStefan,
   amankila,
   amanpuri,
   anantaraAlJabalAlAkhdar,
@@ -768,7 +791,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   nihiSumba,
   northIsland,
   oldCataractAssouan,
+  oneOnlyPortonovi,
   pashaSantaTeresa,
+  regentPortoMontenegro,
   royalMansour,
   royalPalmBeachcomber,
   sasekaTentedCamp,
@@ -834,6 +859,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   chilenoBayAuberge,
   fourSeasonsLosCabos,
   oneAndOnlyPalmilla,
+  belmondSanctuaryLodge,
+  belmondPalacioNazarenas,
+  inkaterraReservaAmazonica,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
