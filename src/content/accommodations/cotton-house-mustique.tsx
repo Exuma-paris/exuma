@@ -16,6 +16,6 @@ export const accommodation: Accommodation = {
     src: "/destination/caraibes/hotel-cotton-house.png",
     alt: "Terrasse de la Cotton House à Mustique sous les arbres, mobilier de rotin",
   },
-  destinationSlugs: ["caraibes"],
+  destinationSlugs: ["caraibes", "saint-vincent-et-les-grenadines"],
   sections: [],
 };

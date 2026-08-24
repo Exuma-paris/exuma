@@ -68,6 +68,8 @@ import { destination as losCabos } from "@/content/destinations/los-cabos";
 import { destination as caraibes } from "@/content/destinations/caraibes";
 import { destination as saintBarthelemy } from "@/content/destinations/saint-barthelemy";
 import { destination as maroc } from "@/content/destinations/maroc";
+import { destination as saintVincentEtLesGrenadines } from "@/content/destinations/saint-vincent-et-les-grenadines";
+import { destination as turksAndCaicos } from "@/content/destinations/turks-and-caicos";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -264,6 +266,12 @@ import { experience as voilesDeSaintBarthRegate } from "@/content/experiences/vo
 import { experience as sagesseSoufieFes } from "@/content/experiences/sagesse-soufie-fes";
 import { experience as valleeDesRosesRoseDamas } from "@/content/experiences/vallee-des-roses-rose-damas";
 import { experience as detroitGibraltarNavigation } from "@/content/experiences/detroit-gibraltar-navigation";
+import { experience as voilierIlesGrenadines } from "@/content/experiences/voilier-iles-grenadines";
+import { experience as chevalSentiersPlagesGrenadines } from "@/content/experiences/cheval-sentiers-plages-grenadines";
+import { experience as voyageSpaGrenadines } from "@/content/experiences/voyage-spa-grenadines";
+import { experience as plongeeNorthwestPointWestCaicos } from "@/content/experiences/plongee-northwest-point-west-caicos";
+import { experience as catamaranPriveBeluga } from "@/content/experiences/catamaran-prive-beluga";
+import { experience as northMiddleCaicosMudjinHarbour } from "@/content/experiences/north-middle-caicos-mudjin-harbour";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -423,10 +431,15 @@ import { accommodation as oneAndOnlyPalmilla } from "@/content/accommodations/on
 import { accommodation as chevalBlancStBarth } from "@/content/accommodations/cheval-blanc-st-barth";
 import { accommodation as belmondCapJuluca } from "@/content/accommodations/belmond-cap-juluca";
 import { accommodation as cottonHouseMustique } from "@/content/accommodations/cotton-house-mustique";
+import { accommodation as petitSaintVincent } from "@/content/accommodations/petit-saint-vincent";
+import { accommodation as canouanEstate } from "@/content/accommodations/canouan-estate";
 import { accommodation as rosewoodLeGuanahani } from "@/content/accommodations/rosewood-le-guanahani";
 import { accommodation as edenRockStBarths } from "@/content/accommodations/eden-rock-st-barths";
 import { accommodation as karawanRiad } from "@/content/accommodations/karawan-riad";
 import { accommodation as kasbahTamadot } from "@/content/accommodations/kasbah-tamadot";
+import { accommodation as amanyara } from "@/content/accommodations/amanyara";
+import { accommodation as comoParrotCay } from "@/content/accommodations/como-parrot-cay";
+import { accommodation as ambergrisCay } from "@/content/accommodations/ambergris-cay";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
 
@@ -499,6 +512,8 @@ export const destinations: Record<string, Destination> = toMap([
   caraibes,
   saintBarthelemy,
   maroc,
+  saintVincentEtLesGrenadines,
+  turksAndCaicos,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -694,9 +709,15 @@ export const experiences: Record<string, Experience> = toMap([
   grosPitonAubeSoufriere,
   corossolVannieresLantana,
   voilesDeSaintBarthRegate,
+  voilierIlesGrenadines,
+  chevalSentiersPlagesGrenadines,
+  voyageSpaGrenadines,
   sagesseSoufieFes,
   valleeDesRosesRoseDamas,
   detroitGibraltarNavigation,
+  plongeeNorthwestPointWestCaicos,
+  catamaranPriveBeluga,
+  northMiddleCaicosMudjinHarbour,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -868,10 +889,15 @@ export const accommodations: Record<string, Accommodation> = toMap([
   chevalBlancStBarth,
   belmondCapJuluca,
   cottonHouseMustique,
+  petitSaintVincent,
+  canouanEstate,
   rosewoodLeGuanahani,
   edenRockStBarths,
   karawanRiad,
   kasbahTamadot,
+  amanyara,
+  comoParrotCay,
+  ambergrisCay,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
