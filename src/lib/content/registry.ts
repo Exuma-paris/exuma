@@ -61,6 +61,7 @@ import { destination as egypte } from "@/content/destinations/egypte";
 import { destination as indonesie } from "@/content/destinations/indonesie";
 import { destination as costaRica } from "@/content/destinations/costa-rica";
 import { destination as afriqueDuSud } from "@/content/destinations/afrique-du-sud";
+import { destination as anguilla } from "@/content/destinations/anguilla";
 import { destination as thailande } from "@/content/destinations/thailande";
 import { destination as jordanie } from "@/content/destinations/jordanie";
 import { destination as norvege } from "@/content/destinations/norvege";
@@ -194,6 +195,9 @@ import { experience as iguacuChutesAube } from "@/content/experiences/iguacu-chu
 import { experience as saveiroBaieTousLesSaints } from "@/content/experiences/saveiro-baie-tous-les-saints";
 import { experience as pistageJaguarsPantanal } from "@/content/experiences/pistage-jaguars-pantanal";
 import { experience as chevalPlageComporta } from "@/content/experiences/cheval-plage-comporta";
+import { experience as chevalMerCoveBay } from "@/content/experiences/cheval-mer-cove-bay";
+import { experience as yachtPriveSandyIsland } from "@/content/experiences/yacht-prive-sandy-island";
+import { experience as sunsetVoilierPrive } from "@/content/experiences/sunset-voilier-prive";
 import { experience as fadoChapelleAlfama } from "@/content/experiences/fado-chapelle-alfama";
 import { experience as grottesPontaDaPiedade } from "@/content/experiences/grottes-ponta-da-piedade";
 import { experience as dinerBancDeSableNoonu } from "@/content/experiences/diner-banc-de-sable-noonu";
@@ -283,6 +287,7 @@ import { accommodation as hotelDeRussie } from "@/content/accommodations/hotel-d
 import { accommodation as jKPlaceRoma } from "@/content/accommodations/j-k-place-roma";
 import { accommodation as hasslerRoma } from "@/content/accommodations/hassler-roma";
 import { accommodation as belmondCopacabanaPalace } from "@/content/accommodations/belmond-copacabana-palace";
+import { accommodation as belmondCapJuluca } from "@/content/accommodations/belmond-cap-juluca";
 import { accommodation as fasanoRio } from "@/content/accommodations/fasano-rio";
 import { accommodation as hotelSantaTeresa } from "@/content/accommodations/hotel-santa-teresa";
 import { accommodation as northIsland } from "@/content/accommodations/north-island";
@@ -327,6 +332,7 @@ import { accommodation as magicCampsWahibaSands } from "@/content/accommodations
 import { accommodation as kempinskiIshtarDeadSea } from "@/content/accommodations/kempinski-ishtar-dead-sea";
 import { accommodation as movenpickResortPetra } from "@/content/accommodations/movenpick-resort-petra";
 import { accommodation as fourSeasonsAmman } from "@/content/accommodations/four-seasons-amman";
+import { accommodation as fourSeasonsAnguilla } from "@/content/accommodations/four-seasons-anguilla";
 import { accommodation as holmenLofoten } from "@/content/accommodations/holmen-lofoten";
 import { accommodation as juvetLandskapshotell } from "@/content/accommodations/juvet-landskapshotell";
 import { accommodation as umiHotel } from "@/content/accommodations/umi-hotel";
@@ -379,6 +385,7 @@ import { accommodation as fincaCortesin } from "@/content/accommodations/finca-c
 import { accommodation as sonBunyola } from "@/content/accommodations/son-bunyola";
 import { accommodation as alMaha } from "@/content/accommodations/al-maha";
 import { accommodation as qasrAlSarab } from "@/content/accommodations/qasr-al-sarab";
+import { accommodation as quintessenceHotel } from "@/content/accommodations/quintessence-hotel";
 import { accommodation as alBaitSharjah } from "@/content/accommodations/al-bait-sharjah";
 import { accommodation as chableYucatan } from "@/content/accommodations/chable-yucatan";
 import { accommodation as maromaBelmond } from "@/content/accommodations/maroma-belmond";
@@ -440,6 +447,7 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
 
 export const destinations: Record<string, Destination> = toMap([
   afriqueDuSud,
+  anguilla,
   botswana,
   corse,
   costaRica,
@@ -539,6 +547,9 @@ export const experiences: Record<string, Experience> = toMap([
   cabernetCulteNapa,
   cenoteSecretYucatan,
   chevalPlageComporta,
+  chevalMerCoveBay,
+  yachtPriveSandyIsland,
+  sunsetVoilierPrive,
   chevauxCarthusiensJerez,
   canoeAubeLacMoraine,
   chevauxSkokiBanff,
@@ -708,6 +719,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   amanpuri,
   anantaraAlJabalAlAkhdar,
   belmondCopacabanaPalace,
+  belmondCapJuluca,
   amanoi,
   amanTokyo,
   ajiaHotel,
@@ -751,6 +763,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   chateauStGerlach,
   deLEuropeAmsterdam,
   fourSeasonsAmman,
+  fourSeasonsAnguilla,
   fourSeasonsJakarta,
   fourSeasonsMahe,
   fourSeasonsPapagayo,
@@ -812,6 +825,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   olissippoLapaPalace,
   postRanchInn,
   qasrAlSarab,
+  quintessenceHotel,
   rosewoodCastiglionDelBosco,
   rosewoodSchlossFuschl,
   sixSensesNinhVanBay,
