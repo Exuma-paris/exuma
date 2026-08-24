@@ -10,7 +10,7 @@ export const theme: Theme = {
   keywords: ["gastronomie", "vin", "chef", "epicurien", "art de vivre", "vigneron"],
   cardImage: {
     src: "/theme/gastronomie/hero-1-1x1.png",
-    alt: "Un couple attablé seul dans une salle troglodyte dressée et déserte, face à la mer",
+    alt: "Une table dressée aux chandelles dans une crayère de Champagne, entre les pupitres",
   },
   sections: [
     {
@@ -21,7 +21,7 @@ export const theme: Theme = {
       images: [
         {
           src: "/theme/gastronomie/hero-1.png",
-          alt: "Un couple attablé seul dans une salle troglodyte dressée et déserte, face à la mer",
+          alt: "Une table dressée aux chandelles dans une crayère de Champagne, entre les pupitres",
         },
       ],
     },
