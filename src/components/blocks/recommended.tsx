@@ -30,7 +30,11 @@ const defaultLogos: Logo[] = [
 ];
 
 export function Recommended({
-  title = "Agence recommandée par",
+  // Not "recommandée par" : none of these bodies recommends anyone. Les
+  // Entreprises du Voyage is a federation we belong to, Takumians a network,
+  // IATA an accreditation. Naming the relationship correctly is also the
+  // stronger claim, since it is a verifiable one.
+  title = "Membre et accrédité",
   logos = defaultLogos,
   className,
 }: {

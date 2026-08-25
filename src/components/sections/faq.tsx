@@ -67,7 +67,9 @@ export function FaqSection({
   background,
 }: FaqSectionProps) {
   return (
-    <div className={cn("w-full", background)}>
+    // L'ancre porte le lien "FAQ" du menu et du pied de page, qui pointaient
+    // jusqu'ici vers un fragment inexistant.
+    <div id="faq" className={cn("w-full scroll-mt-24", background)}>
       <section className="mx-auto grid w-full max-w-layout gap-10 section-px section-py md:grid-cols-2 md:gap-20">
         <div className="flex flex-col gap-3">
           {eyebrow ? (

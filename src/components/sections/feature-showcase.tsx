@@ -18,6 +18,7 @@ export type FeatureShowcaseProps = {
   heading: string;
   description?: string;
   items: FeatureShowcaseItem[];
+  background?: string;
 };
 
 export const featureShowcaseMeta = {
@@ -69,13 +70,14 @@ export function FeatureShowcase({
   heading,
   description,
   items,
+  background,
 }: FeatureShowcaseProps) {
   const [active, setActive] = useState(0);
   const current = items[active];
 
   return (
-    <div className="w-full">
-      <section className="mx-auto grid w-full max-w-layout gap-10 section-px section-py md:grid-cols-2 md:gap-16 md:items-start">
+    <div className={cn("w-full", background)}>
+      <section className="mx-auto grid w-full max-w-layout gap-10 section-px section-py md:grid-cols-2 md:gap-16 md:items-stretch">
         <div className="flex flex-col gap-10">
           <TextBlock
             align="left"
@@ -121,7 +123,10 @@ export function FeatureShowcase({
           </ul>
         </div>
 
-        <div className="relative aspect-square w-full overflow-hidden bg-muted">
+        {/* Carré sur mobile, où l'image passe sous l'accordéon. Au-dessus de
+            md, elle s'aligne sur la hauteur de la colonne de gauche plutôt que
+            de déborder sous elle. */}
+        <div className="relative aspect-square w-full overflow-hidden bg-muted md:aspect-auto md:h-full">
           {items.map((item, i) => (
             <Image
               key={i}

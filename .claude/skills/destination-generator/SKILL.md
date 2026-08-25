@@ -431,7 +431,7 @@ The 14 mandatory entries in `sections[]`, in this exact order, plus one optional
 10. `bento`
 11. `placesMap` (bg-background-soft)
 12. `tips` (bg-background-soft)
-13. `testimonials`
+13. `testimonials` — verbatims clients réels, anonymisés en prénom + initiale. **Jamais inventés** : voir REFERENCE.md § 13. À omettre si l'utilisateur n'a pas de verbatim.
 14. `faq` (bg-white) — see "FAQ is the destination's source of truth" below
 15. *(optional)* **`entityList`** (`kind: "destination"` — bg-background-soft) — references up to 3 related destination slugs. Rendered as feature cards using each destination's first hero image. See step 1f.
 
@@ -473,7 +473,7 @@ import { defaultBento } from "@/components/sections/bento";
   eyebrow: defaultBento.eyebrow,
   heading: defaultBento.heading,
   description: "Plusieurs expertises se mobilisent sur chaque dossier <Destination>. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-  cta: { label: "Construire ce voyage", href: "/reserver" },
+  cta: { label: "Construire ce voyage", href: "/votre-projet" },
   cards: defaultBento.cards.map((card, i) => ({
     ...card,
     image: {
@@ -591,7 +591,7 @@ Do NOT scaffold any files under `src/app/landing/`. The `[slug]` route is alread
 
 **Read [STYLE.md](STYLE.md) before writing any copy.** It is the single source of truth for the editorial voice — sentence rhythm, allowed/forbidden vocabulary, anti-cliché rewrites, per-section rules (including for entity blurbs), and three proof-of-voice excerpts to match for cadence.
 
-Quick summary (full rules in STYLE.md): French, present tense, third person or impersonal `on`, never `vous` outside CTAs/FAQ. Open paragraphs on a concrete observation — never on "Découvrez/Imaginez/Plongez". Show register by detail, not by adjective. The words "luxe", "paradis", "exceptionnel", "authentique", "incontournable" are forbidden in body copy. Use real names and specific numbers. End paragraphs on an observation, not a CTA. Two canonical CTAs project-wide: *"Construire ce voyage"* (preferred) or *"Créer votre voyage"* → `/reserver`, *"Contactez-nous"* → `/contact`.
+Quick summary (full rules in STYLE.md): French, present tense, third person or impersonal `on`, never `vous` outside CTAs/FAQ. Open paragraphs on a concrete observation — never on "Découvrez/Imaginez/Plongez". Show register by detail, not by adjective. The words "luxe", "paradis", "exceptionnel", "authentique", "incontournable" are forbidden in body copy. Use real names and specific numbers. End paragraphs on an observation, not a CTA. Two canonical CTAs project-wide: *"Construire ce voyage"* (preferred) or *"Créer votre voyage"* → `/votre-projet`, *"Contactez-nous"* → `/contact`.
 
 **Entity blurbs follow the same voice.** Each `Experience.blurb` and `Accommodation.blurb` is the editorial copy that used to live as the inline card description on the destination page. Same rules — same anti-cliché list — same cadence.
 
@@ -601,11 +601,11 @@ Quick summary (full rules in STYLE.md): French, present tense, third person or i
 
 ## Placeholders policy
 
-When inventing factual data (flight time, currency value, hotel names, map coordinates, testimonials), write plausible values but ALWAYS flag them with `// TODO: verify` on the same line.
+When inventing factual data (flight time, currency value, hotel names, map coordinates), write plausible values but ALWAYS flag them with `// TODO: verify` on the same line. Customer testimonials are never invented at all — see below.
 
 For `infoGrid` items where the description is fabricated, prefix the description string with `TODO:` inside the string literal (e.g. `description: "TODO: 7h30 de vol depuis Paris"`).
 
-For testimonials: every quote, name, and role must be flagged — testimonials are real-customer content and must never be silently invented.
+Testimonials are the exception: they are NEVER invented, not even with a flag. A fabricated customer review is a deceptive commercial practice under article L121-2 of the French consumer code, and the `TODO` flags have repeatedly shipped to production. Ask the user for real verbatims; if none are available, omit the section entirely and say so in the closing summary. See REFERENCE.md § 13 for the anonymisation convention.
 
 The new top-level fields follow the same rule: if `country` or `continentSlug` are uncertain, flag them with `// TODO: verify` on the same line.
 

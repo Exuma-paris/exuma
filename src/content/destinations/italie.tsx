@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Ce que l'Italie garde encore pour elle",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Italie commence souvent par Florence, parce que tout y tient dans une marche : la coupole de Brunelleschi, les Offices, l'Arno et ses ponts. Puis la ville se quitte pour la campagne. Les cyprès montent en ligne le long des routes du Chianti, les fermes se transforment en tables, et le paysage finit par ressembler aux tableaux vus le matin.",
         "Plus au nord, Venise se parcourt à pied et en bateau, des palais du Grand Canal aux ateliers de Murano. La Vénétie mène ensuite aux Dolomites, où l'air se rafraîchit et où la montagne se dresse d'un seul coup au-dessus des prés. Au sud, la Campanie ajoute le volcan, la mer et les rues de Pompéi.",
@@ -165,7 +165,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Italie",
       description:
         "Vol, décalage, monnaie, formalités et saison : l'essentiel avant de partir.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -224,7 +224,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Un voyage en Italie se prépare dans le détail : une salle ouverte avant l'arrivée du public, une table de village obtenue par téléphone, un chauffeur qui connaît les routes de Toscane. Une seule personne coordonne l'ensemble, et elle reste la vôtre jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -249,7 +249,7 @@ export const destination: Destination = {
       heading: "Six lieux qui font le voyage",
       description:
         "Florence, Venise, le Val d'Orcia, les Dolomites, Pompéi, les Langhe. Nos itinéraires s'écrivent presque toujours autour de ces six-là.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -322,7 +322,7 @@ export const destination: Destination = {
       heading: "Ce que l'on aimerait vous dire avant le départ",
       description:
         "Des observations de terrain, glanées à force d'y retourner. De quoi comprendre pourquoi nous plaçons telle étape à telle heure.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le train d'une ville à l'autre",
@@ -520,7 +520,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

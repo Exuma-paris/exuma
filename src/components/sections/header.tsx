@@ -122,7 +122,7 @@ export function Header({
             Contactez-nous
           </Link>
           <Link
-            href="/reserver"
+            href="/votre-projet"
             className={cn(
               buttonVariants({ variant: "secondary" }),
               "hidden md:inline-flex",

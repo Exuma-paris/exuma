@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "L'Argentine, un pays qui se savoure étape par étape",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Argentine commence presque toujours à Buenos Aires, dans une ville qui se réveille tard et se couche plus tard encore. On flâne entre les hôtels particuliers de Recoleta et les patios de San Telmo, on pousse la porte d'une librairie de l'avenue Corrientes à une heure où tout est fermé ailleurs, et l'on dîne quand la nuit est déjà installée. Le pays vit à son propre rythme, et le voyage suit ce tempo.",
         "Les vignes de Mendoza prennent ensuite le relais, avec ces tables que l'on dresse entre les rangs au moment où la cordillère passe au rose. Plus au sud, la Patagonie s'ouvre sur le lac Argentino et ses glaciers, et le silence y remplace tout le reste. Au nord, les marais d'Iberá abritent des jaguars nés en liberté là où l'espèce avait disparu, et c'est aujourd'hui l'un des plus beaux retours du continent. Nous vous conduisons dans chacun de ces mondes, l'un après l'autre, et c'est cette Argentine-là que nous montrons.",
@@ -161,7 +161,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Argentine",
       description:
         "Temps de vol, décalage, monnaie, formalités et saisons inversées : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -220,7 +220,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Argentine. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -245,7 +245,7 @@ export const destination: Destination = {
       heading: "De Buenos Aires aux marais d'Iberá",
       description:
         "Buenos Aires, Mendoza, El Calafate, les marais d'Iberá, Iguazú et la Quebrada de Humahuaca ont chacun leur charme. Voici les lieux autour desquels s'organisent le plus souvent nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
         {
@@ -318,7 +318,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Argentine",
       description:
         "Huit observations de terrain que l'on ne trouve pas dans un guide, pour choisir une étape ou comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Les saisons sont inversées",
@@ -526,7 +526,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
