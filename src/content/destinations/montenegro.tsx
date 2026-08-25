@@ -68,7 +68,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Monténégro",
       heading: "Un pays qui tient entre une baie et une montagne",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Monténégro commence presque toujours par la même image : une route qui descend en lacets vers une baie si refermée sur elle-même qu'on la prend d'abord pour un lac. Ce n'est pas un lac. C'est l'une des baies les plus profondément découpées de la Méditerranée, et la seule où un fjord européen croise une vieille ville vénitienne.",
         "Kotor referme ses remparts au pied du mont Vrmac. À quinze minutes en bateau, Perast aligne ses palais baroques face à l'îlot artificiel de Notre-Dame-du-Rocher. Plus haut, la route aux vingt-cinq virages grimpe vers Njeguši, village natal de la dynastie Petrović-Njegoš, avant de rejoindre Cetinje, l'ancienne capitale royale posée sur son plateau.",
@@ -165,7 +165,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Monténégro",
       description:
         "L'essentiel avant de partir pour un pays encore peu documenté par les guides classiques.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -224,7 +224,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Monténégro. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -247,7 +247,7 @@ export const destination: Destination = {
       heading: "Le Monténégro, la mer en toile de fond, les montagnes pour horizon",
       description:
         "Un pays qui se traverse vite mais se comprend lentement : la côte adriatique d'un côté, les Alpes dinariques de l'autre.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 8,
       places: [
         {
@@ -326,7 +326,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Monténégro",
       description:
         "Un pays qui se traverse en deux heures mais change de visage à chaque col. Quelques repères pour préparer un séjour à la hauteur de ce que le Monténégro a à offrir.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -544,7 +544,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer mon voyage", href: "/reserver" },
+      cta: { label: "Créer mon voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

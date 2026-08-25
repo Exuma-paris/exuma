@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "De l'eau, de la forêt et du sable à perte de vue",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Brésil commence par une leçon d'échelle. Un fleuve si large que l'on n'en voit pas l'autre rive. Des chutes que l'on entend gronder bien avant d'arriver. Des dunes qui se remplissent d'eau douce et deviennent, quelques mois par an, un désert de lagunes tièdes. Des plages qui n'en finissent pas.",
         "Au milieu de tout cela vivent des jaguars, des loutres géantes, des aras et des dauphins roses, que l'on approche ici plus facilement que partout ailleurs. Et à chaque étape, une ville, une table, une musique qui rappellent que ce pays sait aussi très bien recevoir.",
@@ -161,7 +161,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Brésil",
       description:
         "Temps de vol, décalage, monnaie, formalités et saisons : l'essentiel pour caler les dates avant d'écrire l'itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -224,7 +224,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Brésil. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -249,7 +249,7 @@ export const destination: Destination = {
       heading: "Les six régions que nous relions le plus souvent",
       description:
         "Les Lençóis, Salvador, Iguaçu, le Pantanal, l'Amazonie et Rio composent la plupart de nos itinéraires. Chacune a sa saison et son tempérament, et l'on retient celles qui se répondent le mieux.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
         {
@@ -322,7 +322,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Brésil",
       description:
         "Huit observations de terrain qui décident souvent d'une date, d'une étape ou d'une façon de voyager.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Les lagunes se remplissent de juin à septembre",
@@ -520,7 +520,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

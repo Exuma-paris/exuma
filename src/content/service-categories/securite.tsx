@@ -28,8 +28,8 @@ export const serviceCategory: ServiceCategory = {
         "Protection sur-mesure, réactivité face aux imprévus, disponibilité continue et anticipation des contraintes locales.",
       images: [
         {
-          src: "/destination/corse/hero-1.png",
-          alt: "Sécurité",
+          src: "/service/securite/hero-1.png",
+          alt: "Chauffeur tenant la portière d'une berline à l'arrivée d'une voyageuse",
         },
       ],
     },

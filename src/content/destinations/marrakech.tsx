@@ -46,7 +46,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une ville qui ne se livre pas au premier passage",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "La médina de Marrakech couvre six cents hectares ceints de remparts en pisé rose. On y entre par une porte, on en sort par une autre, et entre les deux la logique de la ville change quatre fois. Les fondouks du quartier Mouassine, les tombeaux Saadiens, le palais Bahia : chaque strate porte le nom de la dynastie qui l'a construite. Le plan n'aide pas. Le bon guide, si.",
         "À quarante minutes vers le sud, la route de l'Ourika grimpe entre les noyers et les terrasses de culture berbère. L'Atlas se découvre par paliers : vallée d'abord, puis plateau, puis crête à trois mille mètres. On passe d'un souk couvert à un sentier muletier dans la même journée. Ce contraste n'est pas un argument de brochure. C'est la géographie de la région.",
@@ -65,11 +65,11 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Marrakech — L'artisanat et le geste",
+      eyebrow: "Marrakech, l'artisanat et le geste",
       heading: "Ce qui se fabrique encore à la main",
       theme: "light",
       paragraphs: [
-        "Dans le souk des teinturiers, le cuir trempe dans des cuves de chaux depuis le XIe siècle. Le procédé n'a pas changé. Les peaux montent sur les terrasses pour sécher au soleil, et l'odeur — âcre, minérale — signale le quartier avant qu'on ne le voie. Plus loin, rue Amesfah, un maître zelligeur découpe les tesselles à l'œil, sans gabarit. Chaque pièce est un losange irrégulier qui trouvera sa place dans un motif géométrique de huit mille fragments.",
+        "Dans le souk des teinturiers, le cuir trempe dans des cuves de chaux depuis le XIe siècle. Le procédé n'a pas changé. Les peaux montent sur les terrasses pour sécher au soleil, et l'odeur, âcre et minérale, signale le quartier avant qu'on ne le voie. Plus loin, rue Amesfah, un maître zelligeur découpe les tesselles à l'œil, sans gabarit. Chaque pièce est un losange irrégulier qui trouvera sa place dans un motif géométrique de huit mille fragments.",
         "Le geste artisanal à Marrakech n'est pas une mise en scène pour visiteurs. C'est une économie. Les ateliers de dinanderie, de marqueterie de thuya, de broderie fassi emploient des familles entières. On y entre par une porte sans enseigne, on s'assoit, on regarde. Le bruit du marteau sur le cuivre est le même depuis quatre siècles.",
       ],
       images: [
@@ -137,7 +137,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Marrakech",
       description:
         "Monnaie, formalités, vol, décalage : l'essentiel pour partir sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -183,12 +183,12 @@ export const destination: Destination = {
       heading: "Voyage sur mesure à Marrakech",
       description:
         "Connaissance du terrain, réseau local, un seul interlocuteur du premier échange jusqu'au retour. Ce que nous mettons en place, vous n'avez pas à le vérifier.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Itinéraires médina–Atlas",
           description:
-            "Nous assemblons les deux registres — ville et montagne — dans une logique de rythme, pas de distance.",
+            "Nous assemblons les deux registres, ville et montagne, dans une logique de rythme, pas de distance.",
           image: {
             src: "/destination/marrakech/bento-map.png",
             alt: "Carte d'itinéraire personnalisé Marrakech et Atlas",
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six lieux, et ce qu'il y a derrière",
       description:
         "Médina, palmeraie, vallées de l'Atlas : chaque lieu tient une promesse distincte. Voici ceux autour desquels s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 9,
       places: [
         {
@@ -275,7 +275,7 @@ export const destination: Destination = {
           coordinates: { lat: 31.6216, lng: -7.9833 }, // TODO: verify coords
         },
         {
-          title: "Le plateau du Kik — Atlas",
+          title: "Le plateau du Kik, Atlas",
           description:
             "À une heure de route. Un plateau à 1 800 mètres d'altitude face à la chaîne du Toubkal. Pas de tourisme organisé. Un berger, des troupeaux, un silence de montagne.",
           image: {
@@ -295,7 +295,7 @@ export const destination: Destination = {
           coordinates: { lat: 31.6100, lng: -7.9850 }, // TODO: verify coords
         },
         {
-          title: "Skoura — la palmeraie du Dadès",
+          title: "Skoura, la palmeraie du Dadès",
           description:
             "Deux heures trente de route vers l'est. Une palmeraie traversée de kasbahs en terre, dont celle d'Amridil. Le rythme change : on passe de la ville rouge au silence ocre du pré-Sahara.",
           image: {
@@ -314,7 +314,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Marrakech",
       description:
         "Quatre observations de terrain qui changent la façon d'aborder la ville et ses environs.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -325,7 +325,7 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                La médina se parcourt à pied sur des sols irréguliers — dalles,
+                La médina se parcourt à pied sur des sols irréguliers : dalles,
                 terre battue, pavés disjoints. Des chaussures fermées et
                 confortables sont indispensables. Pour le reste : lin ou coton
                 léger en journée, une veste en laine pour les soirées si
@@ -352,7 +352,7 @@ export const destination: Destination = {
               <p>
                 Pas de vaccin obligatoire pour le Maroc. Hépatite A recommandée
                 par prudence, DTP à jour. L'eau du robinet n'est pas potable
-                dans l'usage courant — tous les établissements fournissent de
+                dans l'usage courant. Tous les établissements fournissent de
                 l'eau en bouteille.
               </p>
               <h4 className="font-medium">Conseil :</h4>
@@ -374,7 +374,7 @@ export const destination: Destination = {
             <div className="flex flex-col gap-4">
               <p>
                 D'octobre à mai, les températures oscillent entre 18 et 28 °C.
-                Juin à septembre dépasse régulièrement 40 °C — la ville se
+                Juin à septembre dépasse régulièrement 40 °C. La ville se
                 vide, les terrasses ferment à midi. Le printemps (mars-mai)
                 combine jardins en floraison, Atlas accessible sans neige basse,
                 et affluence modérée.
@@ -397,7 +397,7 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                Le dirham marocain (MAD) ne se change pas hors du Maroc — prévoir
+                Le dirham marocain (MAD) ne se change pas hors du Maroc : prévoir
                 le retrait sur place ou le change à l'arrivée. Les établissements
                 haut de gamme acceptent la carte. Dans les souks, le paiement est
                 en espèces et le prix se négocie (diviser le premier prix par
@@ -420,7 +420,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

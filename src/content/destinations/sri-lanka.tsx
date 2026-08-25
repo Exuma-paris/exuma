@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Sri Lanka",
       heading: "Les capitales que la jungle a reprises",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Sri Lanka change plusieurs fois de climat sans jamais imposer une longue route. Le matin, on gravit un rocher de granit qu'un roi avait transformé en capitale. L'après-midi, on gagne les hautes terres, où l'air se rafraîchit d'un coup et où les théiers couvrent les versants jusqu'à la crête. Le lendemain, la jungle sèche du sud-est et ses pistes de sable.",
         "Le triangle culturel n'est pas une formule d'agence. Anuradhapura, Polonnaruwa et Sigiriya sont trois capitales successives, abandonnées les unes après les autres entre le IVe siècle avant notre ère et le XIIIe. Les figuiers ont poussé dans les palais. Les fresques des demoiselles de Sigiriya ont mille cinq cents ans et gardent leurs pigments.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Sri Lanka",
       description:
         "Vol, décalage, monnaie, formalités et moussons : l'essentiel pour préparer le voyage au Sri Lanka sans mauvaise surprise.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Sri Lanka. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six étapes, du triangle culturel à la côte",
       description:
         "De Sigiriya à Galle, six étapes que la route relie en une dizaine de jours et que la plupart des itinéraires traitent séparément.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Sri Lanka",
       description:
         "Huit observations de terrain qui ne se trouvent pas dans un guide. Pour calibrer les attentes, choisir la bonne fenêtre ou comprendre pourquoi nous inscrivons telle étape à l'itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Deux moussons, jamais la même côte",
@@ -538,7 +538,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

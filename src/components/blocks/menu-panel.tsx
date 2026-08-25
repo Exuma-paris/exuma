@@ -17,10 +17,12 @@ import {
 } from "@/lib/content/queries";
 import {
   getMenuGroups,
+  menuCtas,
   proLink,
   type MenuGroupKey,
+  type MenuItem,
 } from "@/lib/content/menu-groups";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 type SubKey = MenuGroupKey;
@@ -163,6 +165,8 @@ export function MenuPanel({
               />
             </div>
           </div>
+
+          <MenuFooter onNavigate={close} />
         </DialogPrimitive.Popup>
       </DialogPrimitive.Portal>
     </DialogPrimitive.Root>
@@ -205,6 +209,80 @@ function RootView({
   );
 }
 
+function MenuFooter({ onNavigate }: { onNavigate: () => void }) {
+  return (
+    <div className="flex flex-col gap-3 border-t border-border px-6 py-5">
+      <Link
+        href={menuCtas.primary.href}
+        onClick={onNavigate}
+        className={buttonVariants({ variant: "secondary" })}
+      >
+        {menuCtas.primary.label}
+      </Link>
+      <Link
+        href={menuCtas.contact.href}
+        onClick={onNavigate}
+        className={buttonVariants({ variant: "ghost" })}
+      >
+        {menuCtas.contact.label}
+      </Link>
+    </div>
+  );
+}
+
+const cardClass =
+  "flex flex-col gap-1 border border-border p-4 transition-colors hover:bg-background-soft";
+
+function MenuCardList({
+  items,
+  onNavigate,
+}: {
+  items: MenuItem[];
+  onNavigate: () => void;
+}) {
+  return (
+    <ul className="mt-6 flex flex-col gap-3">
+      {items.map((item) => (
+        <li key={item.href}>
+          <Link href={item.href} onClick={onNavigate} className={cardClass}>
+            <span className="font-heading text-h5 text-foreground">
+              {item.label}
+            </span>
+            {item.description ? (
+              <span className="text-secondary-foreground">
+                {item.description}
+              </span>
+            ) : null}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function MenuIntro({
+  intro,
+  onNavigate,
+}: {
+  intro: NonNullable<Group["intro"]>;
+  onNavigate: () => void;
+}) {
+  return (
+    <div className="flex flex-col items-start gap-3 border-b border-border pb-6">
+      <p className="text-secondary-foreground">{intro.text}</p>
+      {intro.cta ? (
+        <Link
+          href={intro.cta.href}
+          onClick={onNavigate}
+          className="text-eyebrow text-primary transition-colors hover:text-foreground"
+        >
+          {intro.cta.label}
+        </Link>
+      ) : null}
+    </div>
+  );
+}
+
 function SubView({
   group,
   onContinentSelect,
@@ -214,10 +292,16 @@ function SubView({
   onContinentSelect: (slug: string) => void;
   onNavigate: () => void;
 }) {
+  const hasDescriptions = group?.items.some((item) => item.description) ?? false;
+
   return (
     <div className="h-full w-1/3 shrink-0 overflow-y-auto px-6 py-8">
       {group ? (
         <>
+          {group.intro ? (
+            <MenuIntro intro={group.intro} onNavigate={onNavigate} />
+          ) : null}
+
           {group.key === "continents" ? (
             <MenuRowList>
               {Object.values(continents).map((c) => (
@@ -230,6 +314,8 @@ function SubView({
                 </li>
               ))}
             </MenuRowList>
+          ) : hasDescriptions ? (
+            <MenuCardList items={group.items} onNavigate={onNavigate} />
           ) : (
             <MenuRowList>
               {group.items.map((item) => (
