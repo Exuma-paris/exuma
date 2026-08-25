@@ -40,7 +40,7 @@ export function getGeneralEnquiryQuestions(): Question[] {
       eyebrow: EYEBROW,
       heading: "Parlez-nous de votre projet",
       description:
-        "Une envie, une question, un besoin précis. Écrivez-le comme vous nous le diriez au téléphone — nous n'attendons rien de formaté.",
+        "Une envie, une question, un besoin précis. Écrivez-le comme vous nous le diriez au téléphone : nous n'attendons rien de formaté.",
       placeholder:
         "Par exemple : nous partons en Italie en mai et nous cherchons quelqu'un pour organiser les transferts et les réservations sur place.",
       rows: 6,
