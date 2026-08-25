@@ -69,6 +69,7 @@ import { destination as losCabos } from "@/content/destinations/los-cabos";
 import { destination as montenegro } from "@/content/destinations/montenegro";
 import { destination as antigua } from "@/content/destinations/antigua";
 import { destination as barbade } from "@/content/destinations/barbade";
+import { destination as portoRico } from "@/content/destinations/porto-rico";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -268,6 +269,9 @@ import { experience as visiteNelsonsDockyard } from "@/content/experiences/visit
 import { experience as degustationMountGay } from "@/content/experiences/degustation-mount-gay";
 import { experience as dinerTheCliff } from "@/content/experiences/diner-the-cliff";
 import { experience as harrisonsCave } from "@/content/experiences/harrisons-cave";
+import { experience as randonneeCascadesElYunque } from "@/content/experiences/randonnee-cascades-el-yunque";
+import { experience as immersionVieuxSanJuan } from "@/content/experiences/immersion-vieux-san-juan";
+import { experience as catamaranPriveCulebra } from "@/content/experiences/catamaran-prive-culebra";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -438,6 +442,9 @@ import { accommodation as carlisleBay } from "@/content/accommodations/carlisle-
 import { accommodation as sandyLane } from "@/content/accommodations/sandy-lane";
 import { accommodation as cobblersCove } from "@/content/accommodations/cobblers-cove";
 import { accommodation as coralReefClub } from "@/content/accommodations/coral-reef-club";
+import { accommodation as doradoBeachRitzCarltonReserve } from "@/content/accommodations/dorado-beach-ritz-carlton-reserve";
+import { accommodation as fairmontElConvento } from "@/content/accommodations/fairmont-el-convento";
+import { accommodation as stRegisBahiaBeach } from "@/content/accommodations/st-regis-bahia-beach";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -495,6 +502,7 @@ export const destinations: Record<string, Destination> = toMap([
   paysBas,
   perou,
   polynesie,
+  portoRico,
   republiqueDominicaine,
   rioDeJaneiro,
   rome,
@@ -710,6 +718,9 @@ export const experiences: Record<string, Experience> = toMap([
   degustationMountGay,
   dinerTheCliff,
   harrisonsCave,
+  randonneeCascadesElYunque,
+  immersionVieuxSanJuan,
+  catamaranPriveCulebra,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -890,6 +901,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   sandyLane,
   cobblersCove,
   coralReefClub,
+  doradoBeachRitzCarltonReserve,
+  fairmontElConvento,
+  stRegisBahiaBeach,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
