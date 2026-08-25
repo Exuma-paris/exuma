@@ -555,25 +555,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage à Madagascar",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Anjajavy, au petit déjeuner",
-          description:
-            "Les lémuriens habitent la forêt qui touche l'hôtel. Ils passent devant la terrasse tous les matins à la même heure, sans qu'il faille marcher des heures pour les voir.",
+          // TODO: replace with real testimonial
+          quote:
+            "Je pensais qu'il fallait marcher des heures pour voir un lémurien. Le premier est passé devant la terrasse pendant le petit déjeuner, puis un deuxième. Ils habitent la forêt qui touche l'hôtel, et ils passent tous les matins à la même heure.",
+          image: {
+            src: "/destination/madagascar/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Anjajavy, septembre 2025", // TODO: replace with real testimonial
         },
         {
-          title: "La marche de nuit d'Andasibe",
-          description:
-            "En une heure, le pisteur repère à la lampe trois caméléons endormis à hauteur d'yeux, puis un lémurien de la taille d'une pomme. Il les voit chaque fois avant vous.",
+          // TODO: replace with real testimonial
+          quote:
+            "La marche de nuit, on l'a faite sans trop y croire. En une heure, le pisteur nous a montré trois caméléons endormis sur des branches à hauteur d'yeux, puis un lémurien de la taille d'une pomme. Il les repérait à la lampe avant nous, chaque fois.",
+          image: {
+            src: "/destination/madagascar/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Andasibe, octobre 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Nosy Ankao, huit personnes sur l'île",
-          description:
-            "L'hélicoptère se pose sur la plage et repart. On marche jusqu'à la pointe sans croiser personne, et l'équipe sait dès le matin à quelle heure servir le café.",
+          // TODO: replace with real testimonial
+          quote:
+            "L'hélicoptère s'est posé sur la plage, puis il est reparti. Nous étions huit sur l'île. Le soir, on marchait jusqu'à la pointe sans croiser personne, et le matin l'équipe savait déjà à quelle heure nous voulions le café.",
+          image: {
+            src: "/destination/madagascar/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Nosy Ankao, juin 2026", // TODO: replace with real testimonial
         },
       ],
     },

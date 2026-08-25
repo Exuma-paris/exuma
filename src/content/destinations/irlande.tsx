@@ -548,25 +548,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Irlande",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Les falaises de Moher, par la mer",
-          description:
-            "L'hélicoptère longe les falaises à hauteur des oiseaux, puis se pose sur une plage où l'on n'arrive pas autrement. La tente du déjeuner a été montée le matin même.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avons longé les falaises de Moher par la mer, à hauteur des oiseaux, avec un ciel parfaitement dégagé. L'hélicoptère s'est ensuite posé sur une plage où l'on n'arrive pas autrement, et le déjeuner nous attendait sous une tente montée le matin.",
+          image: {
+            src: "/destination/irlande/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Clare et Connemara, juin 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Ashford Castle et les bois de Cong",
-          description:
-            "Sortie du château à huit heures. Le faucon part dans les arbres et revient se poser sur le gant. À cette heure, il n'y a personne d'autre dans les bois.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le faucon est parti dans les arbres et il est revenu se poser sur mon gant. Mon fils de onze ans en parle encore. Nous étions sortis du château à huit heures du matin, il n'y avait personne d'autre dans les bois.",
+          image: {
+            src: "/destination/irlande/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Ashford Castle et le Connemara, août 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Le chai fermé de Midleton",
-          description:
-            "Trois fûts uniques, dégustés dans un chai que personne ne visite, avec le maître-distillateur pour seule compagnie. Il explique pourquoi l'orge crue change tout, et tire la bouteille devant vous.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avons goûté trois fûts uniques dans un chai que personne ne visite, avec le maître-distillateur pour seule compagnie. Il nous a expliqué pourquoi l'orge crue change tout. J'ai rapporté une bouteille tirée devant nous.",
+          image: {
+            src: "/destination/irlande/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Cork et Ardmore, septembre 2025", // TODO: replace with real testimonial
         },
       ],
     },

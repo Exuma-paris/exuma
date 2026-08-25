@@ -558,25 +558,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Arabie Saoudite",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Hegra, au premier créneau",
-          description:
-            "Le site s'ouvre pour vous seuls et le guide passe une heure devant un seul tombeau. On en ressort en connaissant le nom de son sculpteur.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous sommes entrés à Hegra au premier créneau du matin. Il n'y avait que nous et le guide, qui a passé une heure devant un seul tombeau. Nous en sommes ressortis en connaissant le nom de son sculpteur.",
+          image: {
+            src: "/destination/arabie-saoudite/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: AlUla, février 2026", // TODO: replace with real testimonial
         },
         {
-          title: "Un dîner dans la réserve de Sharaan",
-          description:
-            "Les lampes sont posées à même le sable, au fond d'un canyon. Avant le dîner, la lampe UV du guide fait apparaître les scorpions fluorescents : le désert est plus habité qu'il n'y paraît.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le dîner s'est fait au fond d'un canyon, avec des lampes posées à même le sable. Avant cela, le guide nous avait montré des scorpions fluorescents à la lampe UV. Je n'imaginais pas le désert aussi habité.",
+          image: {
+            src: "/destination/arabie-saoudite/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Réserve de Sharaan, décembre 2025", // TODO: replace with real testimonial
         },
         {
-          title: "La vieille ville d'AlUla",
-          description:
-            "Une maison de terre éclairée à la bougie, dans les ruelles de la vieille ville. Dix minutes de marche le matin suffisent pour être dans l'oasis, entre les palmiers.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avons dormi dans une maison de terre de la vieille ville, éclairée à la bougie. Le matin, dix minutes de marche suffisaient pour être dans l'oasis, entre les palmiers.",
+          image: {
+            src: "/destination/arabie-saoudite/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Vieille ville d'AlUla, novembre 2025", // TODO: replace with real testimonial
         },
       ],
     },

@@ -556,25 +556,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Écosse",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Trois nuits dans les Highlands",
-          description:
-            "Le train roule la nuit et s'arrête au matin devant un paysage différent. Le soir, le dîner se prend à quai, quelque part dans une vallée, les fenêtres ouvertes.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avons dormi trois nuits dans le train et nous nous sommes réveillés chaque matin devant un paysage différent. Le soir, on dînait à quai, quelque part dans les Highlands, avec les fenêtres ouvertes sur la vallée.",
+          image: {
+            src: "/destination/ecosse/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Highlands, juin 2026", // TODO: replace with real testimonial
         },
         {
-          title: "Floors Castle, hors horaires",
-          description:
-            "La visite se fait après la fermeture, sans personne d'autre dans les salons. Le jardin clos se découvre au passage, et les légumes du soir en viennent.",
+          // TODO: replace with real testimonial
+          quote:
+            "La visite de Floors s'est faite hors des horaires d'ouverture, il n'y avait personne d'autre dans les salons. On nous a montré le jardin clos, puis les légumes du soir sont arrivés de là.",
+          image: {
+            src: "/destination/ecosse/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Kelso et les Borders, mai 2026", // TODO: replace with real testimonial
         },
         {
-          title: "Six verres à Édimbourg",
-          description:
-            "Une heure avec un expert pour comprendre ce que la tourbe et le fût changent, six verres à l'appui. On en ressort en sachant nommer ce que l'on aime.",
+          // TODO: replace with real testimonial
+          quote:
+            "Six verres, et à la fin j'étais capable de dire ce que j'aimais et pourquoi. L'expert a passé une heure à nous expliquer ce que la tourbe et le fût changent. Je ne bois plus de whisky de la même façon.",
+          image: {
+            src: "/destination/ecosse/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Édimbourg, septembre 2025", // TODO: replace with real testimonial
         },
       ],
     },

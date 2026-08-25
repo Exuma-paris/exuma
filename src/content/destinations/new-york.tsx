@@ -576,25 +576,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage à New York",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Le Frick, un jour de fermeture",
-          description:
-            "Le musée est fermé, il n'y a que la conférencière et les Vermeer. Devant un seul tableau, dix minutes passent sans que personne pense à avancer.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous sommes entrés au Frick un jour de fermeture. Il n'y avait que nous, la conférencière et les Vermeer. Ma fille de quinze ans a passé dix minutes devant un seul tableau, ce qui ne lui était jamais arrivé.",
+          image: {
+            src: "/destination/new-york/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: New York, avril 2026", // TODO: replace with real testimonial
         },
         {
-          title: "Broadway, après le rideau",
-          description:
-            "Deux comédiens s'assoient à table après le spectacle et racontent une heure durant les auditions et les huit représentations par semaine.",
+          // TODO: replace with real testimonial
+          quote:
+            "Après le spectacle, deux comédiens se sont assis à notre table. Ils ont raconté les auditions et les huit représentations par semaine pendant une heure. Les enfants en parlent encore.",
+          image: {
+            src: "/destination/new-york/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Broadway, décembre 2025", // TODO: replace with real testimonial
         },
         {
-          title: "La patinoire du Rockefeller Center",
-          description:
-            "La glace est laissée à votre groupe en fin de soirée. Le dîner se prend au bord de la piste, avant de patiner sous les tours allumées.",
+          // TODO: replace with real testimonial
+          quote:
+            "La patinoire du Rockefeller nous a été laissée à la fin de la soirée. Nous avons dîné au bord de la glace, puis patiné à cinq, avec les tours allumées au-dessus.",
+          image: {
+            src: "/destination/new-york/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Rockefeller Center, janvier 2026", // TODO: replace with real testimonial
         },
       ],
     },
