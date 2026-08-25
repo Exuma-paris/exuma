@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Afrique du Sud",
       heading: "Trois régions, et l'ordre dans lequel on les prend",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Afrique du Sud commence presque toujours au Cap. La ville est posée entre Table Mountain et l'Atlantique, sur une presqu'île étroite. On y arrive après un vol de nuit et on y reste trois ou quatre jours, le temps de descendre la péninsule jusqu'au cap de Bonne-Espérance et de passer une journée dans les vignobles de Constantia, de Stellenbosch et de Franschhoek.",
         "Au nord du Cap, la route monte vers le Cederberg. Ce massif de grès rouge marque la limite de la région du fynbos. Les Bushmen, aussi appelés San, y ont peint les parois pendant des milliers d'années. La réserve de Bushmans Kloof en protège à elle seule plus de 130 sites. On y marche le matin, et on ne croise personne d'autre que son guide.",
@@ -165,7 +165,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Afrique du Sud",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons. Voici les repères qui permettent de caler les dates d'un voyage en Afrique du Sud.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -224,7 +224,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Afrique du Sud. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -247,7 +247,7 @@ export const destination: Destination = {
       heading: "Six régions, du fynbos du Cap au bush du Lowveld",
       description:
         "Six secteurs composent la carte du pays. Ils sont éloignés les uns des autres et se relient par la route ou par un vol intérieur. Peu d'itinéraires les réunissent dans un même voyage.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -327,7 +327,7 @@ export const destination: Destination = {
         "Les conseils de nos experts pour votre voyage en Afrique du Sud",
       description:
         "Neuf repères issus du terrain. Ils aident à choisir la période, à comprendre le découpage de l'itinéraire et à ajuster les attentes.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Les deux saisons du pays ne se recouvrent pas",
@@ -594,7 +594,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

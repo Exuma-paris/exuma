@@ -2,11 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Mail01 as Mail, MarkerPin01 as MapPin, Phone } from "@untitledui/icons";
 import { Logo } from "@/components/ui/logo";
-import {
-  continents,
-  serviceCategories,
-  themes,
-} from "@/lib/content/registry";
+import { getMenuGroups, proLink } from "@/lib/content/menu-groups";
 import {
   EXUMA_ADDRESS,
   EXUMA_EMAIL,
@@ -28,14 +24,6 @@ const legalLinks = [
   { label: "Conditions générales de vente", href: "/cgv" },
   { label: "Politique de confidentialité", href: "/confidentialite" },
   { label: "Gestion des cookies", href: "/cookies" },
-];
-
-const companyLinks = [
-  { label: "À propos d'Exuma", href: "/a-propos" },
-  { label: "Notre approche", href: "/approche" },
-  { label: "Contactez-nous", href: "/contact" },
-  { label: "FAQ", href: "/#faq" },
-  { label: "Créer votre voyage", href: "/reserver" },
 ];
 
 const certifications = [
@@ -80,9 +68,9 @@ export function Footer({ className }: { className?: string }) {
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://exuma.example.com";
 
-  const continentList = Object.values(continents);
-  const themeList = Object.values(themes);
-  const serviceList = Object.values(serviceCategories);
+  // Same source as the burger menu, so a label or link renamed there can
+  // never leave the footer showing the old wording.
+  const groups = getMenuGroups();
 
   return (
     <footer
@@ -136,7 +124,7 @@ export function Footer({ className }: { className?: string }) {
 
             <div className="flex flex-col gap-4 border-t border-background/10 pt-6">
               <p className="text-eyebrow text-background/60">
-                Agence recommandée par
+                Membre et accrédité
               </p>
               <ul className="flex flex-wrap items-center gap-x-6 gap-y-4">
                 {certifications.map((c) => (
@@ -155,81 +143,27 @@ export function Footer({ className }: { className?: string }) {
             </div>
           </div>
 
-          <nav
-            aria-label="Continents"
-            className="flex flex-col gap-4 lg:col-span-2"
-          >
-            <p className="text-eyebrow text-background/60">Continents</p>
-            <ul className="flex flex-col gap-2">
-              {continentList.map((c) => (
-                <li key={c.slug}>
-                  <Link
-                    href={`/continents/${c.slug}`}
-                    className="text-background/80 hover:text-background"
-                  >
-                    {c.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-
-          <nav
-            aria-label="Thématiques de voyage"
-            className="flex flex-col gap-4 lg:col-span-2"
-          >
-            <p className="text-eyebrow text-background/60">Thématiques</p>
-            <ul className="flex flex-col gap-2">
-              {themeList.map((t) => (
-                <li key={t.slug}>
-                  <Link
-                    href={`/themes/${t.slug}`}
-                    className="text-background/80 hover:text-background"
-                  >
-                    {t.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-
-          <nav
-            aria-label="Conciergerie"
-            className="flex flex-col gap-4 lg:col-span-2"
-          >
-            <p className="text-eyebrow text-background/60">Conciergerie</p>
-            <ul className="flex flex-col gap-2">
-              {serviceList.map((s) => (
-                <li key={s.slug}>
-                  <Link
-                    href={`/services/${s.slug}`}
-                    className="text-background/80 hover:text-background"
-                  >
-                    {s.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-
-          <nav
-            aria-label="Agence"
-            className="flex flex-col gap-4 lg:col-span-2"
-          >
-            <p className="text-eyebrow text-background/60">Agence</p>
-            <ul className="flex flex-col gap-2">
-              {companyLinks.map((l) => (
-                <li key={l.href}>
-                  <Link
-                    href={l.href}
-                    className="text-background/80 hover:text-background"
-                  >
-                    {l.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
+          {groups.map((group) => (
+            <nav
+              key={group.key}
+              aria-label={group.label}
+              className="flex flex-col gap-4 lg:col-span-2"
+            >
+              <p className="text-eyebrow text-background/60">{group.label}</p>
+              <ul className="flex flex-col gap-2">
+                {group.items.map((item) => (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      className="text-background/80 hover:text-background"
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          ))}
         </div>
 
       </div>
@@ -241,6 +175,11 @@ export function Footer({ className }: { className?: string }) {
             Tous droits réservés.
           </p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            <li>
+              <Link href={proLink.href} className="hover:text-background">
+                {proLink.label}
+              </Link>
+            </li>
             {legalLinks.map((l) => (
               <li key={l.href}>
                 <Link href={l.href} className="hover:text-background">

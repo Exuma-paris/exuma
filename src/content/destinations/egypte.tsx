@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Égypte",
       heading: "Remonter le fleuve, dans l'ordre",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Égypte se lit du nord au sud, à contre-courant. Le Caire d'abord, Gizeh et le Grand Egyptian Museum. Louxor ensuite, à une heure de vol. Assouan enfin, puis Abou Simbel, à quarante kilomètres de la frontière soudanaise. Le fleuve descend dans l'autre sens : c'est lui qui a fixé cet ordre il y a cinq mille ans.",
         "Le plateau de Gizeh se tient à la lisière de la ville. Depuis 2025, le Grand Egyptian Museum lui fait face avec la collection complète de Toutânkhamon, cinq mille quatre cents objets réunis pour la première fois au même endroit. La chambre funéraire n'avait jamais été montrée dans son entier.", // TODO: verify nombre d'objets et date d'ouverture complète du GEM
@@ -168,7 +168,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Égypte",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons. Voici les repères qui permettent de caler les dates d'un voyage en Égypte.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -227,7 +227,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Égypte. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -250,7 +250,7 @@ export const destination: Destination = {
       heading: "Six étapes, du plateau de Gizeh aux sables de Siwa",
       description:
         "Six secteurs composent la carte du pays. Cinq sont alignés sur le fleuve, dans l'ordre chronologique de leur construction. Le sixième se trouve à sept cents kilomètres à l'ouest, et n'a jamais parlé la même langue.", // TODO: verify distance Siwa / vallée du Nil
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -329,7 +329,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Égypte",
       description:
         "Huit repères issus du terrain. Ils aident à choisir la période, à découper les journées et à comprendre ce qui se négocie à l'avance.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "L'heure d'ouverture des sites",
@@ -567,7 +567,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
