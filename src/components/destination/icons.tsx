@@ -5,6 +5,7 @@ import {
   CurrencyEuro as Euro,
   File02 as FileText,
   Translate01 as Languages,
+  Phone,
   Plane,
   Stars01 as Sparkles,
   Star01 as Star,
@@ -19,6 +20,8 @@ export function renderIcon(name: IconName) {
       return <Plane />;
     case "clock":
       return <Clock />;
+    case "phone":
+      return <Phone />;
     case "euro":
       return <Euro />;
     case "fileText":
