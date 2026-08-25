@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Uruguay",
       heading: "Le plaisir de ralentir, entre l'océan et les estancias",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Uruguay se savoure plutôt qu'il ne s'enchaîne. On passe de Montevideo, de sa vieille ville et de sa longue promenade au bord du Río de la Plata, aux villages de la côte sans jamais avoir l'impression de courir. La campagne prend le relais très vite, avec ses troupeaux, ses lagunes et ses chemins de terre bordés d'eucalyptus.",
         "La côte se découvre d'ouest en est, et chaque étape se fait plus tranquille. Colonia del Sacramento garde ses rues pavées héritées des Portugais et ses murs couverts de bougainvillées. Punta del Este a ses immeubles et son port animé, puis le paysage s'ouvre : José Ignacio, La Pedrera, et enfin Cabo Polonio où l'on s'éclaire encore à la bougie. Le pont circulaire de la Laguna Garzón, dessiné par Rafael Viñoly, marque le passage d'un monde à l'autre.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Uruguay",
       description:
         "Vol, décalage, monnaie, formalités et saisons : l'essentiel pour préparer le voyage en Uruguay sereinement.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Uruguay. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "De la vieille ville de Colonia aux villages de l'Atlantique",
       description:
         "Les étapes que nous aimons relier, en s'arrêtant là où le pays prend son temps.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Uruguay",
       description:
         "Quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir la bonne saison, comprendre les usages et savourer le pays comme il se vit.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le meilleur moment pour la côte",
@@ -522,7 +522,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

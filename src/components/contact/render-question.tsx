@@ -13,6 +13,8 @@ import { ContactQuestionView } from "./questions/contact";
 import { DestinationQuestionView } from "./questions/destination";
 import { TravelersQuestionView } from "./questions/travelers";
 import { PeriodQuestionView } from "./questions/period";
+import { TextQuestionView } from "./questions/text";
+import { CountQuestionView } from "./questions/count";
 
 export type RenderQuestionProps = {
   question: Question;
@@ -73,6 +75,7 @@ export function RenderQuestion({
               ? a.value
               : {
                   name: "",
+                  company: "",
                   email: "",
                   phoneCountry: "FR",
                   phone: "",
@@ -104,6 +107,22 @@ export function RenderQuestion({
           question={question}
           value={a.type === "period" ? a.value : { mode: null, detail: "" }}
           onChange={(value) => onChange({ type: "period", value })}
+        />
+      );
+    case "text":
+      return (
+        <TextQuestionView
+          question={question}
+          value={a.type === "text" ? a.value : ""}
+          onChange={(value) => onChange({ type: "text", value })}
+        />
+      );
+    case "count":
+      return (
+        <CountQuestionView
+          question={question}
+          value={a.type === "count" ? a.value : null}
+          onChange={(value) => onChange({ type: "count", value })}
         />
       );
   }

@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Le Canada, le grand air et le confort des maisons de bois",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Canada commence souvent en Alberta, sur la rive du lac Louise. L'eau y prend un vert laiteux qui vient des glaciers, et la montagne se couche dedans en entier dès que le vent tombe. On part en canoë avant le petit-déjeuner, puis on rentre déjeuner au chaud dans un hôtel qui regarde ce lac depuis toujours.",
         "La suite se dessine vers l'ouest. La forêt prend le relais sur l'île de Vancouver, avec ses cèdres immenses et ses baies que l'on rejoint en hydravion. Le Pacifique apporte ses ours noirs, ses saumons et ses tempêtes d'automne, que l'on regarde depuis un fauteuil, une couverture sur les genoux. Pour ceux qui veulent l'océan du bout du monde, Terre-Neuve garde ses icebergs et ses villages de pêcheurs. C'est ce Canada-là que nous montrons, et nous le composons maison par maison.",
@@ -165,7 +165,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Canada",
       description:
         "Temps de vol, décalage, monnaie, formalités et meilleure saison : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -224,7 +224,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Canada. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -249,7 +249,7 @@ export const destination: Destination = {
       heading: "Du lac Louise à Terre-Neuve, nos étapes préférées",
       description:
         "Banff, la promenade des Glaciers, les Bugaboos, Tofino, Vancouver et Fogo Island : chacune de ces étapes a son caractère, et c'est autour d'elles que s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
         {
@@ -322,7 +322,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Canada",
       description:
         "Quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir une étape ou comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le lac Moraine, avant les navettes",
@@ -518,7 +518,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

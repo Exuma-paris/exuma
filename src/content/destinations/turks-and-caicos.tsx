@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte des Turks and Caicos",
       heading: "Quarante îles, huit habitées",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Turks and Caicos commence par une ligne de récif plutôt que par une route. Le corail court au large de la côte nord, casse la houle de l'Atlantique et laisse derrière lui une eau immobile où l'on voit son ombre sur le sable avant d'avoir nagé. Providenciales tient cette côte avec Grace Bay, puis l'archipel s'égrène vers l'est : North et Middle Caicos reliées par une chaussée, South Caicos et ses flats, Grand Turk et Salt Cay au-delà du passage.",
         "Chaque île a gardé son usage. Providenciales reçoit les vols et concentre les tables, mais sa pointe nord-ouest reste vide, adossée au parc marin de Northwest Point. Middle Caicos garde les grottes de Conch Bar et les falaises de Mudjin Harbour, seul endroit de l'archipel où la côte cesse d'être plate. South Caicos vit encore de la langouste et de la conque, et ses fonds à hauteur de mollet font venir les pêcheurs à la mouche de très loin.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage aux Turks and Caicos",
       description:
         "Voici les repères pratiques à réunir avant de choisir vos dates : le trajet, les formalités, la monnaie et les saisons.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -220,7 +220,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Turks and Caicos. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -243,7 +243,7 @@ export const destination: Destination = {
       heading: "Les îles où l'on jette l'ancre",
       description:
         "L'archipel se parcourt d'ouest en est, de la côte habitée aux cays déserts, et chaque île a son heure. Nous plaçons les étapes pour que le rythme reste celui de la mer.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 9,
       places: [
         {
@@ -323,7 +323,7 @@ export const destination: Destination = {
         "Les conseils de nos experts pour votre voyage aux Turks and Caicos",
       description:
         "Voici quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir la bonne semaine et comprendre comment l'archipel se vit une fois sur place.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Arriver, puis rejoindre son île",
@@ -574,7 +574,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

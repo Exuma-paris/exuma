@@ -235,7 +235,7 @@ export const sections: Section[] = [
         "Séminaire de direction, convention, incentive, déplacement d'une équipe entière sur un même site : nous prenons l'ensemble, des vols au dernier transfert, avec un interlocuteur unique du premier devis au retour.",
         "Les listes de participants changent jusqu'au dernier moment, les contraintes alimentaires et médicales aussi. Nous les tenons à jour, nous suivons chaque arrivée, et nous restons présents pendant l'événement.",
       ],
-      cta: { label: "Parler d'un projet de groupe", href: "/contact" },
+      cta: { label: "Parler d'un projet de groupe", href: "/professionnels/groupes" },
     },
   },
 
@@ -292,7 +292,7 @@ export const sections: Section[] = [
       // Formulation à faire valider par Ludivine (règle interne).
       "En interne, l'information circule au strict nécessaire : votre interlocuteur, son suppléant, et personne d'autre. Ce que prépare votre direction ne se devine pas depuis un carnet de réservations.",
     ],
-    cta: { label: "Recevoir notre engagement écrit", href: "/contact" },
+    cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement?profil=entreprise" },
   },
 
   {
@@ -426,6 +426,6 @@ export const sections: Section[] = [
     heading: "Besoin de déléguer différemment ? Contactez-nous",
     primaryCta: { label: "Appeler Exuma", href: EXUMA_TEL_HREF },
     // TODO : remplacer par la ligne directe du service entreprises.
-    secondaryCta: { label: "Écrire à Exuma", href: "/contact" },
+    secondaryCta: { label: "Écrire à Ludivine", href: "/professionnels/contact?profil=entreprise" },
   },
 ];

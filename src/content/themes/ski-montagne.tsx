@@ -25,5 +25,12 @@ export const theme: Theme = {
         },
       ],
     },
+    {
+      type: "finalCta",
+      eyebrow: "Aller plus loin",
+      heading: "Dites-nous ce que vous avez en tête",
+      primaryCta: { label: "Créer votre voyage", href: "/votre-projet" },
+      secondaryCta: { label: "Nous écrire", href: "/nous-ecrire" },
+    },
   ],
 };

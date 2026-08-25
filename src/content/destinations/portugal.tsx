@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Le Portugal, la douceur de vivre au bord de l'Atlantique",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Portugal commence toujours par la mer. Elle borde le pays sur toute sa longueur et se retrouve partout : dans la cuisine, dans les chansons, dans la façon qu'ont les gens de vous recevoir. D'un bout à l'autre de la côte, chaque étape a son caractère, et c'est ce qui donne envie d'y revenir.",
         "Lisbonne se dévoile peu à peu, entre ses tramways jaunes et ses façades d'azulejos. Un peu plus au sud, la pinède de Comporta ouvre sur un sable clair où l'on marche longtemps sans croiser personne. L'Alentejo prend ensuite le relais, avec ses villages blancs et ses grandes tables d'été. Tout au nord, le Douro déroule ses vignes au-dessus du fleuve, là où naissent les plus beaux vins du pays.",
@@ -164,7 +164,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Portugal",
       description:
         "Vol, décalage, monnaie, formalités et saison : l'essentiel avant de partir.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -223,7 +223,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Un voyage au Portugal se prépare dans le détail. Une cave que l'on ouvre pour vous seuls, une table de village qui ne prend pas de réservation, une voiture qui vous attend là où le sentier s'arrête. Une seule personne s'occupe de tout, et elle reste la vôtre jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -248,7 +248,7 @@ export const destination: Destination = {
       heading: "Les lieux que l'on aime faire découvrir",
       description:
         "Lisbonne, Sintra, le Douro, Porto, Comporta et l'Algarve. Nos itinéraires passent presque toujours par là, dans un ordre qui change avec la saison.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Ce que l'on aimerait vous dire avant le départ",
       description:
         "Des observations de terrain, glanées à force d'y retourner. De quoi comprendre pourquoi nous plaçons telle étape à telle heure.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Lisbonne se monte à pied",
@@ -521,7 +521,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
