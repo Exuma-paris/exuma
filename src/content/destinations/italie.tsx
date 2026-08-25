@@ -517,43 +517,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Italie",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous avons traversé le Corridor de Vasari tous les deux, avec un historien, à l'heure où Florence commençait à s'éclairer. Nos petits-enfants ont eu droit au récit complet au retour. Ils réclament l'Italie pour l'an prochain.",
-          image: {
-            src: "/destination/italie/hero-1.png",
-            alt: "Portrait de Bernard", // TODO: verify
-          },
-          name: "Bernard", // TODO: verify
-          role: "Voyage en couple, mai 2026", // TODO: verify
+          title: "Le Corridor de Vasari, à deux",
+          description:
+            "La traversée se fait avec un historien, à l'heure où Florence commence à s'éclairer. Le passage n'est pas ouvert au tout-venant.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Trois enfants, trois régions, et pas une journée de trop. Le four du verrier à Murano les a occupés une matinée entière, ce que je n'aurais jamais obtenu dans un musée.",
-          image: {
-            src: "/destination/italie/hero-2.png",
-            alt: "Portrait de Constance", // TODO: verify
-          },
-          name: "Constance", // TODO: verify
-          role: "Voyage en famille, avril 2026", // TODO: verify
+          title: "Le four du verrier à Murano",
+          description:
+            "Une matinée entière devant le four tient les enfants mieux que n'importe quel musée.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Pompéi après la fermeture, avec l'archéologue qui fouille sur place. Nous étions six dans les rues, et personne d'autre. C'est exactement ce que je ne savais pas comment organiser moi-même.",
-          image: {
-            src: "/destination/italie/hero-3.png",
-            alt: "Portrait d'Édouard", // TODO: verify
-          },
-          name: "Édouard", // TODO: verify
-          role: "Voyage anniversaire, octobre 2025", // TODO: verify
+          title: "Pompéi après la fermeture",
+          description:
+            "Six personnes dans les rues, avec l'archéologue qui fouille sur place. Le site fermé ne ressemble en rien au site ouvert.",
         },
       ],
     },

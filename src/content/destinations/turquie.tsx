@@ -525,43 +525,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Turquie",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous n'avions fait qu'une escale à Istanbul, autrefois. Cette fois nous avons pris le temps, avec un guide qui nous a fait entrer à Sainte-Sophie avant tout le monde. Et puis il y a eu la Cappadoce, et cette montgolfière rien que pour nous. Nos petits-enfants nous en parlent encore.",
-          image: {
-            src: "/destination/turquie/hero-1.png",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
-          },
-          name: "Bernard & Michèle", // TODO: verify
-          role: "Voyage de transmission, mai 2026", // TODO: verify
+          title: "Sainte-Sophie avant tout le monde",
+          description:
+            "L'entrée anticipée change la visite. En Cappadoce, la montgolfière se privatise pour un seul groupe.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Éphèse après la fermeture, avec l'archéologue qui a fouillé les maisons en terrasses. Nous avions le site pour nous, et il nous a raconté chaque mosaïque. Je ne pensais pas qu'une chose pareille se négociait encore.",
-          image: {
-            src: "/destination/turquie/hero-2.png",
-            alt: "Portrait d'Édouard", // TODO: verify
-          },
-          name: "Édouard", // TODO: verify
-          role: "Séjour en couple, avril 2026", // TODO: verify
+          title: "Éphèse après la fermeture",
+          description:
+            "Le site se vide, et l'archéologue qui a fouillé les maisons en terrasses raconte chaque mosaïque. Cela se négocie encore.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Une semaine de goélette le long de la côte lycienne, avec un équipage qui savait exactement où mouiller le soir. On se baignait au-dessus des ruines avant le petit-déjeuner. Je n'avais pas décroché comme cela depuis des années.",
-          image: {
-            src: "/destination/turquie/hero-3.png",
-            alt: "Portrait de Frédéric", // TODO: verify
-          },
-          name: "Frédéric", // TODO: verify
-          role: "Croisière privée, septembre 2025", // TODO: verify
+          title: "Une goélette sur la côte lycienne",
+          description:
+            "Une semaine de navigation avec un équipage qui sait où mouiller le soir. On se baigne au-dessus des ruines avant le petit-déjeuner.",
         },
       ],
     },

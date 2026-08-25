@@ -550,43 +550,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage à Oman",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "La journée chez la famille bédouine est ce qu'on raconte en rentrant. Le café servi trois fois, le pain sur la plaque, et le père qui explique où trouver l'eau sous la dune. Rien d'arrangé, on était les seuls sur place.",
-          image: {
-            src: "/destination/oman/hero-1.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Oman, désert et montagne, 2026", // TODO: replace with real testimonial
+          title: "Une journée chez une famille bédouine",
+          description:
+            "Le café servi trois fois, le pain sur la plaque, et le père qui explique où trouver l'eau sous la dune. Rien n'est arrangé et personne d'autre n'est sur place.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Le Jebel Akhdar en février, personne sur les sentiers entre les villages, et le canyon juste derrière la terrasse. On avait prévu deux nuits, on en a passé quatre.",
-          image: {
-            src: "/destination/oman/hero-2.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Oman, Jebel Akhdar et Nizwa, 2026", // TODO: replace with real testimonial
+          title: "Le Jebel Akhdar en février",
+          description:
+            "Personne sur les sentiers entre les villages, et le canyon juste derrière la terrasse. Deux nuits prévues deviennent souvent quatre.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Les Daymaniyat en bateau privé au départ de Mascate : tortues dès la première mise à l'eau, et aucun autre bateau à l'ancre. Le retour longe la côte au moment où la lumière tombe.",
-          image: {
-            src: "/destination/oman/hero-3.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Oman, côte et intérieur, 2026", // TODO: replace with real testimonial
+          title: "Les Daymaniyat en bateau privé",
+          description:
+            "Des tortues dès la première mise à l'eau, aucun autre bateau à l'ancre, et un retour qui longe la côte quand la lumière tombe.",
         },
       ],
     },

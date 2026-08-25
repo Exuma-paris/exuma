@@ -512,43 +512,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Grèce",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Notre voyage en Grèce a mêlé l'histoire et la mer sans jamais courir. L'Acropole avant l'ouverture, une journée de navigation dans les Cyclades, et ce dîner chez un vigneron de Santorin. Tout s'enchaînait naturellement.",
-          image: {
-            src: "/destination/grece/hero-1.png",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
-          },
-          name: "Bernard & Michèle", // TODO: verify
-          role: "Voyage anniversaire, septembre 2025", // TODO: verify
+          title: "L'Acropole avant l'ouverture",
+          description:
+            "Le site se visite avant l'affluence, et le reste de la journée s'enchaîne sans courir : navigation dans les Cyclades, dîner chez un vigneron de Santorin.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Le Péloponnèse a été la révélation du séjour. Épidaure au lever du jour, Nauplie le soir, presque personne. Notre travel designer avait tout ordonné pour que rien ne se croise.",
-          image: {
-            src: "/destination/grece/hero-2.png",
-            alt: "Portrait d'Édouard", // TODO: verify
-          },
-          name: "Édouard", // TODO: verify
-          role: "Voyage en famille, juin 2025", // TODO: verify
+          title: "Épidaure au lever du jour",
+          description:
+            "Le Péloponnèse se traverse à contretemps : Épidaure au petit matin, Nauplie le soir. Ordonné dans cet ordre, rien ne se croise.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "La croisière privée dans les Cyclades restera le souvenir marquant. On lève l'ancre avant tout le monde, on nage dans une crique déserte, on déjeune à bord. Un rythme qu'on n'aurait jamais trouvé seuls.",
-          image: {
-            src: "/destination/grece/hero-3.png",
-            alt: "Portrait de Claire", // TODO: verify
-          },
-          name: "Claire", // TODO: verify
-          role: "Séjour en couple, mai 2025", // TODO: verify
+          title: "Lever l'ancre avant tout le monde",
+          description:
+            "En croisière privée dans les Cyclades, on nage dans une crique déserte et l'on déjeune à bord. Ce rythme ne se trouve pas seul.",
         },
       ],
     },

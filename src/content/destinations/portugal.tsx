@@ -518,43 +518,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage au Portugal",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous voulions voir le Douro, et nous avons vendangé. Deux heures dans la cuve, puis le dîner avec ceux qui avaient travaillé la journée. Je ne pensais plus avoir de première fois comme celle-là.",
-          image: {
-            src: "/destination/portugal/hero-1.png",
-            alt: "Portrait de Bernard", // TODO: verify
-          },
-          name: "Bernard", // TODO: verify
-          role: "Voyage en couple, septembre 2025", // TODO: verify
+          title: "Vendanger dans le Douro",
+          description:
+            "Deux heures dans la cuve, puis le dîner avec ceux qui ont travaillé la journée. La quinta ne reçoit pas de visiteurs de passage à ce moment de l'année.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Trois enfants, dont un petit qui n'entre pas dans l'eau froide. Carole a mis la mer du côté de la Ria Formosa et gardé Lisbonne pour la fin. Personne ne s'est plaint de marcher, ce qui n'arrive jamais chez nous.",
-          image: {
-            src: "/destination/portugal/hero-2.png",
-            alt: "Portrait de Constance", // TODO: verify
-          },
-          name: "Constance", // TODO: verify
-          role: "Voyage en famille, juin 2026", // TODO: verify
+          title: "La Ria Formosa avec des enfants",
+          description:
+            "L'eau y est plus douce que sur la côte atlantique. Lisbonne se garde pour la fin, quand la marche ne pèse plus.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Une semaine sans ouvrir une carte ni choisir un restaurant. La maison de Comporta était à quelques minutes de la plage et le chauffeur savait où aller sans que j'aie à le dire. C'est exactement ce que je cherchais.",
-          image: {
-            src: "/destination/portugal/hero-3.png",
-            alt: "Portrait de Frédéric", // TODO: verify
-          },
-          name: "Frédéric", // TODO: verify
-          role: "Séjour en famille, juillet 2025", // TODO: verify
+          title: "Comporta, sans ouvrir une carte",
+          description:
+            "La maison est à quelques minutes de la plage et le chauffeur sait où aller sans qu'on ait à le dire.",
         },
       ],
     },

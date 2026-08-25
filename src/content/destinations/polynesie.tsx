@@ -561,43 +561,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Polynésie",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Notre voyage en Polynésie avec Exuma a été un rêve éveillé. Chaque détail était pensé, chaque île une découverte. Le bungalow sur pilotis à Bora Bora restera gravé dans nos mémoires.",
-          image: {
-            src: "/destination/polynesie/hero-1.png",
-            alt: "Portrait de Sophie et Marc", // TODO: verify
-          },
-          name: "Sophie & Marc", // TODO: verify
-          role: "Voyage de noces, octobre 2025", // TODO: verify
+          title: "Un bungalow sur pilotis à Bora Bora",
+          description:
+            "Chaque île se choisit pour ce qu'elle apporte au séjour. Bora Bora tient sa réputation à condition d'y arriver au bon moment.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Grâce à notre travel designer, nous avons découvert des endroits que nous n'aurions jamais trouvés seuls. La plongée à Fakarava, le dîner sur le motu… des moments magiques.",
-          image: {
-            src: "/destination/polynesie/hero-2.png",
-            alt: "Portrait de Laurent", // TODO: verify
-          },
-          name: "Laurent", // TODO: verify
-          role: "Séjour en famille, août 2025", // TODO: verify
+          title: "La plongée à Fakarava",
+          description:
+            "La passe sud se plonge à l'étale, sur un créneau étroit. Le dîner sur le motu se prépare le même jour.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Ce qui m'a le plus marquée, c'est la qualité de l'accompagnement. Tout était fluide, du premier appel jusqu'au retour. On se sent véritablement pris en charge.",
-          image: {
-            src: "/destination/polynesie/hero-3.png",
-            alt: "Portrait de Claire", // TODO: verify
-          },
-          name: "Claire", // TODO: verify
-          role: "Escapade solo, mai 2025", // TODO: verify
+          title: "Du premier appel au retour",
+          description:
+            "Un seul interlocuteur suit le voyage d'un bout à l'autre. Rien n'est laissé à décider sur place.",
         },
       ],
     },

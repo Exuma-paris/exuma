@@ -514,43 +514,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage au Mexique",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Chichén Itzá au petit matin restera notre plus beau souvenir. Nous étions seuls devant la pyramide, et l'archéologue qui nous accompagnait nous a raconté ce que chaque escalier signifiait.",
-          image: {
-            src: "/destination/mexique/hero-1.png",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
-          },
-          name: "Bernard & Michèle", // TODO: verify
-          role: "Voyage anniversaire, février 2026", // TODO: verify
+          title: "Chichén Itzá au petit matin",
+          description:
+            "Seuls devant la pyramide, avec un archéologue qui explique ce que chaque escalier signifie. Le site se vide bien avant l'affluence.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous avons passé quelques nuits dans une hacienda du Yucatán avant de rejoindre la mer. Le cénote au fond du domaine, ouvert pour nous seuls, valait à lui seul le séjour.",
-          image: {
-            src: "/destination/mexique/hero-2.png",
-            alt: "Portrait d'Édouard", // TODO: verify
-          },
-          name: "Édouard", // TODO: verify
-          role: "Séjour en famille, janvier 2026", // TODO: verify
+          title: "Un cénote au fond d'une hacienda",
+          description:
+            "Quelques nuits dans une hacienda du Yucatán avant la mer, et le cénote du domaine ouvert pour un seul groupe.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Oaxaca a été la belle surprise du voyage. Un déjeuner chez une cuisinière, dans sa cuisine, et un après-midi qui passe sans qu'on le voie. Nous n'aurions jamais trouvé cette adresse seuls.",
-          image: {
-            src: "/destination/mexique/hero-3.png",
-            alt: "Portrait de Claire", // TODO: verify
-          },
-          name: "Claire", // TODO: verify
-          role: "Voyage en couple, novembre 2025", // TODO: verify
+          title: "Une cuisine d'Oaxaca",
+          description:
+            "Le déjeuner se prend chez une cuisinière, dans sa cuisine. L'après-midi passe sans qu'on le voie, et l'adresse ne se trouve pas seul.",
         },
       ],
     },

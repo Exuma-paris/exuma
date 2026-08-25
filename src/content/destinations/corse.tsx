@@ -478,43 +478,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer mon voyage", href: "/votre-projet" },
-      testimonials: [
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Corse",
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Notre semaine en Corse avec Exuma a été d'une douceur rare. La bergerie restaurée dans le Sartenais, le bateau privé jusqu'aux Lavezzi, le dîner sous les pins de Palombaggia, chaque détail parlait.",
-          image: {
-            src: "/destination/corse/hero-1.png",
-            alt: "Portrait de Hélène et Pierre", // TODO: verify
-          },
-          name: "Hélène & Pierre", // TODO: verify
-          role: "Anniversaire de mariage, septembre 2025", // TODO: verify
+          title: "Une bergerie du Sartenais",
+          description:
+            "Une bergerie restaurée pour seule adresse, un bateau privé jusqu'aux Lavezzi, un dîner sous les pins de Palombaggia. La semaine tient dans ces trois points.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Notre travel designer nous a ouvert une Corse qu'on ne pensait pas exister. La rencontre avec un berger du Niolu, une dégustation chez un vigneron du Sartenais, des moments d'une justesse rare.",
-          image: {
-            src: "/destination/corse/hero-2.png",
-            alt: "Portrait de Julien", // TODO: verify
-          },
-          name: "Julien", // TODO: verify
-          role: "Séjour en famille, juillet 2025", // TODO: verify
+          title: "Un berger du Niolu",
+          description:
+            "La rencontre ne figure sur aucun programme public. Elle se prépare, comme la dégustation qui suit chez un vigneron du Sartenais.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Ce qui m'a marquée, c'est la justesse de l'accompagnement. Tout fluide, du premier appel jusqu'au retour. On se sent vraiment prise en charge, sans jamais en faire trop.",
-          image: {
-            src: "/destination/corse/hero-3.png",
-            alt: "Portrait de Camille", // TODO: verify
-          },
-          name: "Camille", // TODO: verify
-          role: "Escapade solo, juin 2025", // TODO: verify
+          title: "Du premier appel au retour",
+          description:
+            "Un seul interlocuteur suit le séjour d'un bout à l'autre. Rien n'est laissé à gérer sur place, et rien n'en fait trop.",
         },
       ],
     },

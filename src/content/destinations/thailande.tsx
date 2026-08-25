@@ -578,43 +578,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Thaïlande",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous avions déjà fait la Thaïlande il y a vingt ans et nous en gardions un souvenir moyen. Le passage par Koh Yao Noi a tout changé. Deux hôtels sur l'île, des buffles sur la route, et la baie en face.",
-          image: {
-            src: "/destination/thailande/hero-1.webp",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bangkok et mer d'Andaman, février 2025", // TODO: replace with real testimonial
+          title: "Koh Yao Noi, entre deux baies",
+          description:
+            "Deux hôtels sur l'île, des buffles sur la route, et la baie en face. De quoi revenir sur un souvenir de Thaïlande vieux de vingt ans.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous sommes partis en mer à six heures pour les lagons de Koh Hong, au moment où la lumière est la plus belle. Nous y sommes restés seuls une heure. Les autres bateaux arrivaient quand nous repartions, pour un petit-déjeuner à bord.",
-          image: {
-            src: "/destination/thailande/hero-2.webp",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Thaïlande en famille, décembre 2024", // TODO: replace with real testimonial
+          title: "Les lagons de Koh Hong à six heures",
+          description:
+            "Une heure seuls dans les lagons, au moment où la lumière est la plus belle. Les autres bateaux arrivent quand on repart, pour un petit-déjeuner à bord.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Les enfants ont retenu le cours de cuisine autant que les plages. Le marché le matin avec le chef, puis les fourneaux. Ils refont le curry vert à Paris, avec les épices rapportées dans la valise.",
-          image: {
-            src: "/destination/thailande/hero-3.webp",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bangkok et Koh Samui, juillet 2025", // TODO: replace with real testimonial
+          title: "Le marché, puis les fourneaux",
+          description:
+            "Le cours de cuisine commence au marché avec le chef. Le curry vert se refait ensuite à la maison, avec les épices rapportées.",
         },
       ],
     },

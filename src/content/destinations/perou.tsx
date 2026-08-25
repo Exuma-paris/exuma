@@ -520,43 +520,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage au Pérou",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Notre voyage au Pérou avec Exuma a suivi une logique qu'on n'aurait jamais construite seuls : deux jours à Cusco avant de bouger, puis la Vallée Sacrée, puis le Machu Picchu à l'aube. Chaque étape avait un sens.",
-          image: {
-            src: "/destination/perou/hero-1.png",
-            alt: "Portrait de Sophie et Marc", // TODO: verify
-          },
-          name: "Sophie & Marc", // TODO: verify
-          role: "Voyage de noces, mai 2025", // TODO: verify
+          title: "Deux jours à Cusco avant de bouger",
+          description:
+            "L'acclimatation conditionne le reste. Cusco d'abord, la Vallée Sacrée ensuite, le Machu Picchu à l'aube : l'ordre n'est pas négociable.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "La nuit au Sanctuary Lodge et l'entrée au Machu Picchu avant les premiers trains restent le souvenir le plus fort du voyage. Notre travel designer avait tout anticipé, jusqu'à l'acclimatation à Cusco.",
-          image: {
-            src: "/destination/perou/hero-2.png",
-            alt: "Portrait de Laurent", // TODO: verify
-          },
-          name: "Laurent", // TODO: verify
-          role: "Voyage en famille, juillet 2025", // TODO: verify
+          title: "Le Machu Picchu avant les premiers trains",
+          description:
+            "Dormir au Sanctuary Lodge donne accès au site avant l'arrivée des trains. C'est la seule façon de le voir vide.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Ce qui m'a marquée, c'est l'Amazonie après les Andes : deux pays dans un seul voyage. La réserve de Tambopata, un naturaliste dédié, un rythme qui n'a rien de touristique.",
-          image: {
-            src: "/destination/perou/hero-3.png",
-            alt: "Portrait de Claire", // TODO: verify
-          },
-          name: "Claire", // TODO: verify
-          role: "Escapade solo, septembre 2025", // TODO: verify
+          title: "L'Amazonie après les Andes",
+          description:
+            "Tambopata avec un naturaliste dédié. Deux pays dans un seul voyage, et un rythme qui n'a rien de touristique.",
         },
       ],
     },

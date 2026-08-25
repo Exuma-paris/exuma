@@ -597,43 +597,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Jordanie",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "J'étais persuadé qu'un jour suffisait pour Pétra et j'avais demandé à raccourcir. On m'a expliqué pourquoi, on a gardé les deux nuits, et le second matin on est arrivés au Monastère par le haut sans croiser personne. C'est ce jour-là que j'ai compris la taille du site.",
-          image: {
-            src: "/destination/jordanie/hero-1.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Jordanie, Pétra et Wadi Rum, 2026", // TODO: replace with real testimonial
+          title: "Le Monastère de Pétra, par le haut",
+          description:
+            "Un jour ne suffit pas. Le second matin, l'arrivée par le haut se fait sans croiser personne, et c'est là que la taille du site apparaît.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "La mer Morte, je la voyais comme une attraction pour photos. On s'est retrouvés seuls sur la rive en fin de journée, avec le sel qui craque sous les pieds et les lumières de l'autre côté de l'eau. On y est restés deux nuits au lieu d'une.",
-          image: {
-            src: "/destination/jordanie/hero-2.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Jordanie, mer Morte et route des Rois, 2026", // TODO: replace with real testimonial
+          title: "La mer Morte en fin de journée",
+          description:
+            "Le sel craque sous les pieds, les lumières s'allument de l'autre côté de l'eau. Beaucoup y prolongent d'une nuit.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Notre chauffeur bédouin du Wadi Rum nous a emmenés chez son frère, à l'écart des campements. Le thé, le pain cuit sur la plaque, et les enfants qui nous montraient où grimper dans le rocher. On est rentrés au campement à la nuit tombée.",
-          image: {
-            src: "/destination/jordanie/hero-3.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Jordanie, désert et Aqaba, 2026", // TODO: replace with real testimonial
+          title: "Le thé chez un Bédouin du Wadi Rum",
+          description:
+            "À l'écart des campements : le pain cuit sur la plaque, les enfants qui montrent où grimper dans le rocher, et le retour au campement à la nuit tombée.",
         },
       ],
     },

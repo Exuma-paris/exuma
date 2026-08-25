@@ -514,43 +514,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l’expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Autriche",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "La répétition du matin au Musikverein restera le souvenir du séjour. Nous étions une trentaine dans la salle. Le soir, nous y sommes revenus pour le concert, et ce n’était plus du tout la même chose.",
-          image: {
-            src: "/destination/autriche/hero-1.png",
-            alt: "Portrait de Bernard", // TODO: verify
-          },
-          name: "Bernard", // TODO: verify
-          role: "Séjour en couple, mai 2026", // TODO: verify
+          title: "La répétition du Musikverein",
+          description:
+            "Une trentaine de personnes dans la salle au matin, pour la répétition. Le soir, le même programme donné en concert n'a plus rien à voir.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Vienne, puis la Wachau, puis les lacs. Dix jours et jamais l’impression de courir. Le vigneron de Dürnstein nous a fait descendre à la cave et remonter des bouteilles de 1997, ce n’était pas au programme.",
-          image: {
-            src: "/destination/autriche/hero-2.png",
-            alt: "Portrait de Michèle", // TODO: verify
-          },
-          name: "Michèle", // TODO: verify
-          role: "Voyage anniversaire, septembre 2025", // TODO: verify
+          title: "La cave de Dürnstein",
+          description:
+            "Dix jours entre Vienne, la Wachau et les lacs, sans jamais courir. À Dürnstein, le vigneron fait descendre à la cave et remonter des bouteilles de 1997, hors programme.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Une semaine à Lech en février, avec un guide le matin et rien d’imposé l’après-midi. Nous sommes montés en peau de phoque avant l’ouverture des remontées et redescendus dans une neige que personne n’avait touchée.",
-          image: {
-            src: "/destination/autriche/hero-3.png",
-            alt: "Portrait de Frédéric", // TODO: verify
-          },
-          name: "Frédéric", // TODO: verify
-          role: "Séjour en famille, février 2026", // TODO: verify
+          title: "Lech avant l'ouverture des remontées",
+          description:
+            "Un guide le matin, rien d'imposé l'après-midi. La montée se fait en peau de phoque avant l'ouverture, la descente dans une neige que personne n'a touchée.",
         },
       ],
     },

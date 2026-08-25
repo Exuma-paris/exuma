@@ -417,43 +417,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un séjour à Marrakech",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "On a passé trois jours dans la médina sans croiser un seul groupe organisé. Notre guide connaissait chaque porte, chaque artisan par son prénom. Le dernier soir, un dîner sur un toit-terrasse qu'aucun guide ne mentionne.",
-          image: {
-            src: "/destination/marrakech/hero-1.png",
-            alt: "Portrait",
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Séjour en couple, mars 2025", // TODO: replace with real testimonial
+          title: "La médina sans les groupes",
+          description:
+            "Trois jours de ruelles sans croiser un groupe organisé, avec un guide qui connaît chaque porte et chaque artisan par son prénom.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Le passage de la ville à l'Atlas s'est fait sans transition visible. Un matin on était dans les souks, l'après-midi sur un plateau à 2 000 mètres avec un berger qui nous a montré comment il lit le ciel pour prévoir la météo du lendemain.",
-          image: {
-            src: "/destination/marrakech/hero-2.png",
-            alt: "Portrait",
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Voyage en famille, avril 2025", // TODO: replace with real testimonial
+          title: "De la ville à l'Atlas dans la journée",
+          description:
+            "Les souks le matin, un plateau à 2 000 mètres l'après-midi, et un berger qui montre comment il lit le ciel pour prévoir le lendemain.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Ce qui m'a marqué : le hammam privé à sept heures du matin, le silence total, la vapeur, la lumière par les moucharabiehs. Trente minutes qui ont changé le rythme de toute la journée.",
-          image: {
-            src: "/destination/marrakech/hero-3.png",
-            alt: "Portrait",
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Escapade solo, novembre 2024", // TODO: replace with real testimonial
+          title: "Un hammam privé à sept heures",
+          description:
+            "Le silence, la vapeur, la lumière filtrée par les moucharabiehs. Trente minutes qui changent le rythme de toute la journée.",
         },
       ],
     },

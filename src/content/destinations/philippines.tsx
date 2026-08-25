@@ -540,43 +540,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage aux Philippines",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Partir avant le jour, c'est ce qui a tout changé. Nous avons eu le Big Lagoon pour nous, en kayak, dans un silence complet. Quand les autres bateaux sont arrivés, nous étions déjà sur une plage que personne ne connaissait. Notre capitaine avait pensé la journée dans cet ordre-là.",
-          image: {
-            src: "/destination/philippines/hero-1.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Philippines, Palawan et Coron, 2025", // TODO: replace with real testimonial
+          title: "Le Big Lagoon en kayak, avant le jour",
+          description:
+            "Le lagon reste silencieux jusqu'à l'arrivée des premiers bateaux. À ce moment-là, le capitaine a déjà changé de plage.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Amanpulo, c'est une île pour soi. Nous n'avons croisé personne sur la plage de l'est en une semaine, et les enfants ont fini par connaître le récif mieux que nous. Même le vol depuis Manille fait partie du souvenir.",
-          image: {
-            src: "/destination/philippines/hero-2.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Philippines en famille, 2025", // TODO: replace with real testimonial
+          title: "Amanpulo, une île pour soi",
+          description:
+            "Une semaine sans croiser personne sur la plage est. Les enfants finissent par connaître le récif mieux que les adultes.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "On monte à Batad à pied, et on entend l'eau courir dans les canaux avant de voir les terrasses. L'aîné qui nous accompagnait a raconté comment sa famille les entretient depuis toujours. Après les lagons, nous ne pensions pas que ce serait ce souvenir-là qui resterait.",
-          image: {
-            src: "/destination/philippines/hero-3.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Philippines, Palawan et Cordillère, 2025", // TODO: replace with real testimonial
+          title: "La montée à Batad",
+          description:
+            "On entend l'eau courir dans les canaux avant de voir les terrasses. L'aîné du village raconte comment sa famille les entretient depuis toujours.",
         },
       ],
     },

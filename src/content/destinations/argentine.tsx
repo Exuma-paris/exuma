@@ -523,43 +523,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Argentine",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Buenos Aires pour commencer, les vignes de Uco ensuite, puis le sud, et à chaque fois nous arrivions avant que la lumière ne tombe. C'est ce genre de détail que l'on n'organise pas soi-même.",
-          image: {
-            src: "/destination/argentine/hero-1.png",
-            alt: "Portrait de Philippe et Anne", // TODO: verify
-          },
-          name: "Philippe & Anne", // TODO: verify
-          role: "Voyage anniversaire, novembre 2025", // TODO: verify
+          title: "Buenos Aires, l'Uco, puis le sud",
+          description:
+            "Trois régions dans un même voyage, avec chaque arrivée calée avant que la lumière ne tombe. C'est le genre de détail qui ne s'organise pas soi-même.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Iberá restera le souvenir du voyage. Nous n'avons pas vu de jaguar et cela n'a rien changé, tant les journées passées auprès des biologistes du programme nous ont appris de choses que nous ignorions.",
-          image: {
-            src: "/destination/argentine/hero-2.png",
-            alt: "Portrait d'Édouard", // TODO: verify
-          },
-          name: "Édouard", // TODO: verify
-          role: "Séjour en famille, mars 2025", // TODO: verify
+          title: "Les biologistes d'Iberá",
+          description:
+            "Les journées se passent auprès des biologistes du programme de réintroduction. Voir un jaguar n'est jamais garanti, et ce n'est pas ce qui reste du séjour.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "La milonga dans ce patio de San Telmo nous a appris davantage sur le pays qu'une semaine de visites. Il n'y avait personne d'autre que nous et les danseurs, et nous avons fini par nous lever aussi.",
-          image: {
-            src: "/destination/argentine/hero-3.png",
-            alt: "Portrait de Marie-Hélène", // TODO: verify
-          },
-          name: "Marie-Hélène", // TODO: verify
-          role: "Voyage en couple, avril 2025", // TODO: verify
+          title: "Une milonga à San Telmo",
+          description:
+            "Un patio, des danseurs, et personne d'autre. La soirée en apprend davantage sur le pays qu'une semaine de visites, et l'on finit par se lever aussi.",
         },
       ],
     },

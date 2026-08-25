@@ -523,43 +523,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage au Royaume-Uni",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Une journée entière sur la Spey avec le ghillie, sans croiser âme qui vive. Il nous a repris le lancer toute la matinée sans jamais s'impatienter. Le saumon est reparti à l'eau, et c'est le souvenir le plus net du voyage.",
-          image: {
-            src: "/destination/royaume-uni/hero-1.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Royaume-Uni, Speyside et Deeside, septembre 2025", // TODO: replace with real testimonial
+          title: "Une journée sur la Spey",
+          description:
+            "Le ghillie reprend le lancer toute la matinée sans jamais s'impatienter, et l'on ne croise personne. Le saumon repart à l'eau.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "On nous a ouvert une maison de famille dans les Highlands, pour nous seuls, avec le dîner servi dans la bibliothèque. Personne ne jouait un rôle : c'était leur maison, et ils nous y recevaient. Je ne pensais pas que cela se faisait encore.",
-          image: {
-            src: "/destination/royaume-uni/hero-2.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Royaume-Uni, Londres et les Highlands, 2025", // TODO: replace with real testimonial
+          title: "Une maison de famille dans les Highlands",
+          description:
+            "Ouverte pour un seul groupe, avec le dîner servi dans la bibliothèque. Personne n'y joue un rôle : c'est leur maison.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Les enfants ont adoré la ferme du Hampshire, et nous les jardins. Trois nuits à Londres au début, la campagne ensuite : dans cet ordre, tout le monde y trouvait son compte. Le train nous a évité toute la logistique.",
-          image: {
-            src: "/destination/royaume-uni/hero-3.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Royaume-Uni, Londres, Hampshire et Cotswolds, juin 2026", // TODO: replace with real testimonial
+          title: "Londres d'abord, la campagne ensuite",
+          description:
+            "Trois nuits en ville, puis la ferme du Hampshire et les jardins des Cotswolds. Dans cet ordre, chacun y trouve son compte, et le train évite la logistique.",
         },
       ],
     },

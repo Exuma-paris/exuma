@@ -517,43 +517,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage au Brésil",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Partir d'Atins avant le jour et se retrouver seuls dans les lagunes restera notre plus beau souvenir de voyage. Nous avons croisé les premiers véhicules en repartant, alors que la matinée était déjà bien avancée.",
-          image: {
-            src: "/destination/bresil/hero-1.png",
-            alt: "Portrait d'Édouard", // TODO: verify
-          },
-          name: "Édouard", // TODO: verify
-          role: "Voyage en couple, juillet 2025", // TODO: verify
+          title: "Les lagunes d'Atins, avant le jour",
+          description:
+            "Le départ précède le lever du soleil et les lagunes restent vides. Les premiers véhicules se croisent au retour, la matinée déjà bien avancée.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Trois régions en deux semaines, et pas une correspondance ratée. Le Pantanal nous a offert deux jaguars, dont un tout près de la barque, et nous en parlons encore à nos amis.",
-          image: {
-            src: "/destination/bresil/hero-2.png",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
-          },
-          name: "Bernard & Michèle", // TODO: verify
-          role: "Voyage anniversaire, août 2025", // TODO: verify
+          title: "Le Pantanal depuis la barque",
+          description:
+            "Trois régions en deux semaines, sans une correspondance ratée. Sur la rivière, deux jaguars, dont un tout près de la barque.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Salvador avec un guide qui connaissait chaque ruelle du Pelourinho, puis Iguaçu depuis l'hôtel du parc. Les chutes pour nous seuls au petit matin. Nos enfants s'en souviennent encore.",
-          image: {
-            src: "/destination/bresil/hero-3.png",
-            alt: "Portrait de Constance", // TODO: verify
-          },
-          name: "Constance", // TODO: verify
-          role: "Voyage en famille, juillet 2025", // TODO: verify
+          title: "Iguaçu depuis l'hôtel du parc",
+          description:
+            "Salvador avec un guide qui connaît chaque ruelle du Pelourinho, puis les chutes au petit matin, avant l'ouverture au public.",
         },
       ],
     },

@@ -516,43 +516,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Espagne",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "L'Alhambra après la fermeture restera le moment du voyage. Nous étions une poignée dans la cour des Lions, avec un historien qui parlait tout bas. On n'entendait plus que l'eau.",
-          image: {
-            src: "/destination/espagne/hero-1.png",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
-          },
-          name: "Bernard & Michèle", // TODO: verify
-          role: "Voyage anniversaire, mai 2026", // TODO: verify
+          title: "L'Alhambra après la fermeture",
+          description:
+            "Une poignée de visiteurs dans la cour des Lions, un historien qui parle tout bas. Passé un certain silence, on n'entend plus que l'eau.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "On nous avait conseillé de choisir quelques régions plutôt que de vouloir tout voir, et c'était le bon conseil. L'Andalousie, le Pays basque, puis Majorque pour finir. Nous n'avons jamais eu l'impression de courir.",
-          image: {
-            src: "/destination/espagne/hero-2.png",
-            alt: "Portrait d'Édouard", // TODO: verify
-          },
-          name: "Édouard", // TODO: verify
-          role: "Voyage en famille, avril 2026", // TODO: verify
+          title: "Trois régions, pas dix",
+          description:
+            "L'Andalousie, le Pays basque, puis Majorque. Choisir quelques régions plutôt que tout voir est la seule façon de ne pas courir.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Le dîner dans un txoko de Saint-Sébastien a enchanté les enfants. On cuisine soi-même, la maison n'est ouverte à personne d'autre, et l'on repart avec le sentiment d'avoir été reçus.",
-          image: {
-            src: "/destination/espagne/hero-3.png",
-            alt: "Portrait de Claire", // TODO: verify
-          },
-          name: "Claire", // TODO: verify
-          role: "Séjour en famille, octobre 2025", // TODO: verify
+          title: "Un txoko de Saint-Sébastien",
+          description:
+            "On y cuisine soi-même, la maison n'est ouverte à personne d'autre ce soir-là. On en repart avec le sentiment d'avoir été reçu.",
         },
       ],
     },

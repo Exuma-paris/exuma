@@ -576,43 +576,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un séjour à Rio de Janeiro",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Le Corcovado à six heures du matin avec notre guide naturaliste, c'est ce qui restera. Pas de file, pas de bus. Le silence et la baie qui apparaît en dessous.",
-          image: {
-            src: "/destination/rio-de-janeiro/hero-1.png",
-            alt: "Portrait de voyageur (TODO)", // TODO: verify
-          },
-          name: "TODO", // TODO: verify
-          role: "Voyage en couple, août 2025", // TODO: verify
+          title: "Le Corcovado à six heures",
+          description:
+            "Ni file, ni bus. Le silence, et la baie qui apparaît en dessous, avec un guide naturaliste.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "L'atelier de samba à Mangueira a complètement changé notre voyage. On a passé deux heures avec un percussionniste qui enseigne aux enfants du quartier. Aucun spectacle n'aurait pu remplacer ça.",
-          image: {
-            src: "/destination/rio-de-janeiro/hero-2.png",
-            alt: "Portrait de voyageur (TODO)", // TODO: verify
-          },
-          name: "TODO", // TODO: verify
-          role: "Voyage en famille, juillet 2025", // TODO: verify
+          title: "Un atelier de samba à Mangueira",
+          description:
+            "Deux heures avec un percussionniste qui enseigne aux enfants du quartier. Aucun spectacle ne remplace cela.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Stéphane nous a fait choisir le Hotel Santa Teresa plutôt que Copacabana. C'était la bonne décision. La vue sur la baie depuis la terrasse, le soir, et le tram jaune juste devant la porte.",
-          image: {
-            src: "/destination/rio-de-janeiro/hero-3.png",
-            alt: "Portrait de voyageur (TODO)", // TODO: verify
-          },
-          name: "TODO", // TODO: verify
-          role: "Anniversaire de mariage, octobre 2025", // TODO: verify
+          title: "Santa Teresa plutôt que Copacabana",
+          description:
+            "La vue sur la baie depuis la terrasse le soir, et le tram jaune juste devant la porte. Le quartier fait le séjour.",
         },
       ],
     },

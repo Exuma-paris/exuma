@@ -524,43 +524,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage aux Émirats",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous n'attendions pas grand-chose des Émirats, et c'est le désert qui a tout emporté. Les oryx qui passent devant la terrasse au petit matin, puis le musée d'Abu Dhabi que nous avons eu pour nous seuls. Rien ne se croisait, rien n'attendait.",
-          image: {
-            src: "/destination/emirats-arabes-unis/hero-1.png",
-            alt: "Portrait de Frédéric", // TODO: verify
-          },
-          name: "Frédéric", // TODO: verify
-          role: "Séjour en couple, février 2026", // TODO: verify
+          title: "Les oryx au petit matin",
+          description:
+            "Ils passent devant la terrasse avant le lever du jour. Le musée d'Abu Dhabi se visite ensuite hors affluence : rien ne se croise, rien n'attend.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "La nuit à Liwa restera notre plus beau souvenir. La tente dressée pour nous seuls, le dîner sur le sable et ce ciel dont on ne voit jamais autant d'étoiles. Notre travel designer nous avait conseillé une veste, nous avons eu tort d'en douter.",
-          image: {
-            src: "/destination/emirats-arabes-unis/hero-2.png",
-            alt: "Portrait d'Édouard", // TODO: verify
-          },
-          name: "Édouard", // TODO: verify
-          role: "Voyage anniversaire, janvier 2026", // TODO: verify
+          title: "Une nuit à Liwa",
+          description:
+            "Une tente dressée pour un seul groupe, le dîner sur le sable, et un ciel dont on ne voit jamais autant d'étoiles. Prévoir une veste, le désert refroidit vite.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Sharjah était l'étape dont je me passais volontiers, et c'est celle dont je parle encore. Les cours plantées, le dîner à l'ombre, le musée sous son dôme. Le contraste avec Dubaï fait tout le charme du séjour.",
-          image: {
-            src: "/destination/emirats-arabes-unis/hero-3.png",
-            alt: "Portrait de Constance", // TODO: verify
-          },
-          name: "Constance", // TODO: verify
-          role: "Voyage en famille, décembre 2025", // TODO: verify
+          title: "Sharjah, l'étape qu'on n'attend pas",
+          description:
+            "Les cours plantées, le déjeuner à l'ombre, le musée sous son dôme. C'est le contraste avec Dubaï qui fait le séjour.",
         },
       ],
     },

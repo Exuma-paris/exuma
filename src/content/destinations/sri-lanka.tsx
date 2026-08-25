@@ -535,43 +535,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage au Sri Lanka",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      testimonials: [
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Monter à Sigiriya à cinq heures et demie avec un archéologue, c'est autre chose que la file de sept heures. On avait la galerie des fresques pour nous, et il nous a lu les graffitis du mur miroir. Ce matin-là justifie le voyage.",
-          image: {
-            src: "/destination/sri-lanka/hero-1.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sri Lanka, triangle culturel et pays du thé, 2025", // TODO: replace with real testimonial
+          title: "Sigiriya à cinq heures et demie",
+          description:
+            "Avec un archéologue, la galerie des fresques se visite avant la file de sept heures, et les graffitis du mur miroir se laissent lire.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Les bungalows de Bogawantalawa, le feu de cheminée à 1 200 mètres et le thé servi à six heures du matin : on ne s'attendait pas à avoir froid au Sri Lanka. C'est le souvenir le plus net des quinze jours.",
-          image: {
-            src: "/destination/sri-lanka/hero-2.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sri Lanka en famille, 2025", // TODO: replace with real testimonial
+          title: "Le feu de cheminée de Bogawantalawa",
+          description:
+            "À 1 200 mètres, il fait froid au Sri Lanka. Le thé se sert à six heures du matin, devant la cheminée.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "À Yala, notre naturaliste a coupé le moteur et attendu quarante minutes sur les alarmes des langurs. Le léopard est passé à dix mètres. Les autres 4x4 étaient trois kilomètres plus loin, sur la radio.",
-          image: {
-            src: "/destination/sri-lanka/hero-3.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sri Lanka, Yala et côte sud, 2025", // TODO: replace with real testimonial
+          title: "Quarante minutes d'attente à Yala",
+          description:
+            "Le naturaliste coupe le moteur et écoute les alarmes des langurs. Le léopard passe à dix mètres, quand les autres véhicules sont trois kilomètres plus loin.",
         },
       ],
     },

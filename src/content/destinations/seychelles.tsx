@@ -479,43 +479,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer votre voyage", href: "/votre-projet" },
-      testimonials: [
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage aux Seychelles",
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Trois îles en douze jours, et l'impression de n'avoir jamais couru. Carole avait calé chaque transfert au bon moment. Le coucher de soleil sur le granit, à deux, restera notre meilleur souvenir.",
-          image: {
-            src: "/destination/seychelles/hero-1.png",
-            alt: "Portrait de Hélène et Thomas", // TODO: verify
-          },
-          name: "Hélène & Thomas", // TODO: verify
-          role: "Voyage en couple, mai 2025", // TODO: verify
+          title: "Trois îles en douze jours",
+          description:
+            "Chaque transfert se cale sur le bon horaire, sinon la journée se perd en attente. Le coucher de soleil sur le granit vaut le détour.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Avec deux enfants, on redoutait la logistique. Tout était fluide, et l'éclosion des tortues les a marqués pour de bon. On a vu des choses qu'on n'aurait jamais trouvées seuls.",
-          image: {
-            src: "/destination/seychelles/hero-2.png",
-            alt: "Portrait de la famille Rivière", // TODO: verify
-          },
-          name: "Famille Rivière", // TODO: verify
-          role: "Séjour en famille, octobre 2025", // TODO: verify
+          title: "L'éclosion des tortues",
+          description:
+            "Elle ne se réserve pas : elle se guette, sur une fenêtre de quelques semaines. C'est ce que les enfants retiennent du séjour.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Ce qui m'a marquée, c'est la qualité de l'accompagnement. Un seul interlocuteur, du premier appel au retour. La journée sur Curieuse, avant les groupes, valait le voyage à elle seule.",
-          image: {
-            src: "/destination/seychelles/hero-3.png",
-            alt: "Portrait de Nathalie", // TODO: verify
-          },
-          name: "Nathalie", // TODO: verify
-          role: "Escapade nature, avril 2025", // TODO: verify
+          title: "Curieuse avant les groupes",
+          description:
+            "Une journée sur l'île avant l'arrivée des bateaux, avec un seul interlocuteur pour organiser le reste du voyage.",
         },
       ],
     },
