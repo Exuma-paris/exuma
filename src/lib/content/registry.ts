@@ -80,6 +80,7 @@ import { destination as saintBarthelemy } from "@/content/destinations/saint-bar
 import { destination as maroc } from "@/content/destinations/maroc";
 import { destination as saintVincentEtLesGrenadines } from "@/content/destinations/saint-vincent-et-les-grenadines";
 import { destination as turksAndCaicos } from "@/content/destinations/turks-and-caicos";
+import { destination as sainteLucie } from "@/content/destinations/sainte-lucie";
 import { destination as montenegro } from "@/content/destinations/montenegro";
 import { destination as coreeDuSud } from "@/content/destinations/coree-du-sud";
 import { destination as jamaique } from "@/content/destinations/jamaique";
@@ -302,6 +303,8 @@ import { experience as excursionBateauPrive } from "@/content/experiences/excurs
 import { experience as piqueNiqueAnseColombier } from "@/content/experiences/pique-nique-anse-colombier";
 import { experience as cacaoBelmontGrenade } from "@/content/experiences/cacao-belmont-grenade";
 import { experience as grosPitonAubeSoufriere } from "@/content/experiences/gros-piton-aube-soufriere";
+import { experience as arbreAuChocolatSoufriere } from "@/content/experiences/arbre-au-chocolat-soufriere";
+import { experience as helicopterePriveSainteLucie } from "@/content/experiences/helicoptere-prive-sainte-lucie";
 import { experience as corossolVannieresLantana } from "@/content/experiences/corossol-vannieres-lantana";
 import { experience as voilesDeSaintBarthRegate } from "@/content/experiences/voiles-de-saint-barth-regate";
 import { experience as sagesseSoufieFes } from "@/content/experiences/sagesse-soufie-fes";
@@ -528,6 +531,9 @@ import { accommodation as petitSaintVincent } from "@/content/accommodations/pet
 import { accommodation as canouanEstate } from "@/content/accommodations/canouan-estate";
 import { accommodation as rosewoodLeGuanahani } from "@/content/accommodations/rosewood-le-guanahani";
 import { accommodation as edenRockStBarths } from "@/content/accommodations/eden-rock-st-barths";
+import { accommodation as jadeMountain } from "@/content/accommodations/jade-mountain";
+import { accommodation as sugarBeachViceroy } from "@/content/accommodations/sugar-beach-viceroy";
+import { accommodation as ladera } from "@/content/accommodations/ladera";
 import { accommodation as karawanRiad } from "@/content/accommodations/karawan-riad";
 import { accommodation as kasbahTamadot } from "@/content/accommodations/kasbah-tamadot";
 import { accommodation as amanyara } from "@/content/accommodations/amanyara";
@@ -652,6 +658,7 @@ export const destinations: Record<string, Destination> = toMap([
   maroc,
   saintVincentEtLesGrenadines,
   turksAndCaicos,
+  sainteLucie,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -875,6 +882,8 @@ export const experiences: Record<string, Experience> = toMap([
   piqueNiqueAnseColombier,
   cacaoBelmontGrenade,
   grosPitonAubeSoufriere,
+  arbreAuChocolatSoufriere,
+  helicopterePriveSainteLucie,
   corossolVannieresLantana,
   voilesDeSaintBarthRegate,
   voilierIlesGrenadines,
@@ -1112,6 +1121,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   canouanEstate,
   rosewoodLeGuanahani,
   edenRockStBarths,
+  jadeMountain,
+  sugarBeachViceroy,
+  ladera,
   karawanRiad,
   kasbahTamadot,
   amanyara,
