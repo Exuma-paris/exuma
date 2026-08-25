@@ -71,6 +71,11 @@ import { destination as madagascar } from "@/content/destinations/madagascar";
 import { destination as arabieSaoudite } from "@/content/destinations/arabie-saoudite";
 import { destination as newYork } from "@/content/destinations/new-york";
 import { destination as losCabos } from "@/content/destinations/los-cabos";
+import { destination as caraibes } from "@/content/destinations/caraibes";
+import { destination as saintBarthelemy } from "@/content/destinations/saint-barthelemy";
+import { destination as maroc } from "@/content/destinations/maroc";
+import { destination as saintVincentEtLesGrenadines } from "@/content/destinations/saint-vincent-et-les-grenadines";
+import { destination as turksAndCaicos } from "@/content/destinations/turks-and-caicos";
 import { destination as montenegro } from "@/content/destinations/montenegro";
 
 import { continent as europe } from "@/content/continents/europe";
@@ -79,6 +84,7 @@ import { continent as asie } from "@/content/continents/asie";
 import { continent as ameriques } from "@/content/continents/ameriques";
 import { continent as procheOrient } from "@/content/continents/proche-orient";
 import { continent as ilesOceanie } from "@/content/continents/iles-oceanie";
+import { continent as caraibesContinent } from "@/content/continents/caraibes";
 
 import { theme as bienEtre } from "@/content/themes/bien-etre";
 import { theme as skiMontagne } from "@/content/themes/ski-montagne";
@@ -274,6 +280,20 @@ import { experience as escapadeTodosSantos } from "@/content/experiences/escapad
 import { experience as plongeeCaboPulmo } from "@/content/experiences/plongee-cabo-pulmo";
 import { experience as snorkelingLionsMerEspirituSanto } from "@/content/experiences/snorkeling-lions-mer-espiritu-santo";
 import { experience as wineOclockValleGuadalupe } from "@/content/experiences/wine-oclock-valle-guadalupe";
+import { experience as piqueNiqueAnseColombier } from "@/content/experiences/pique-nique-anse-colombier";
+import { experience as cacaoBelmontGrenade } from "@/content/experiences/cacao-belmont-grenade";
+import { experience as grosPitonAubeSoufriere } from "@/content/experiences/gros-piton-aube-soufriere";
+import { experience as corossolVannieresLantana } from "@/content/experiences/corossol-vannieres-lantana";
+import { experience as voilesDeSaintBarthRegate } from "@/content/experiences/voiles-de-saint-barth-regate";
+import { experience as sagesseSoufieFes } from "@/content/experiences/sagesse-soufie-fes";
+import { experience as valleeDesRosesRoseDamas } from "@/content/experiences/vallee-des-roses-rose-damas";
+import { experience as detroitGibraltarNavigation } from "@/content/experiences/detroit-gibraltar-navigation";
+import { experience as voilierIlesGrenadines } from "@/content/experiences/voilier-iles-grenadines";
+import { experience as chevalSentiersPlagesGrenadines } from "@/content/experiences/cheval-sentiers-plages-grenadines";
+import { experience as voyageSpaGrenadines } from "@/content/experiences/voyage-spa-grenadines";
+import { experience as plongeeNorthwestPointWestCaicos } from "@/content/experiences/plongee-northwest-point-west-caicos";
+import { experience as catamaranPriveBeluga } from "@/content/experiences/catamaran-prive-beluga";
+import { experience as northMiddleCaicosMudjinHarbour } from "@/content/experiences/north-middle-caicos-mudjin-harbour";
 import { experience as tableChefCentralLima } from "@/content/experiences/table-chef-central-lima";
 import { experience as valleeSacreeArcheologuePrive } from "@/content/experiences/vallee-sacree-archeologue-prive";
 import { experience as immersionAmazonieNaturaliste } from "@/content/experiences/immersion-amazonie-naturaliste";
@@ -453,6 +473,20 @@ import { accommodation as vikChile } from "@/content/accommodations/vik-chile";
 import { accommodation as chilenoBayAuberge } from "@/content/accommodations/chileno-bay-auberge";
 import { accommodation as fourSeasonsLosCabos } from "@/content/accommodations/four-seasons-los-cabos";
 import { accommodation as oneAndOnlyPalmilla } from "@/content/accommodations/one-and-only-palmilla";
+import { accommodation as chevalBlancStBarth } from "@/content/accommodations/cheval-blanc-st-barth";
+import { accommodation as belmondCapJuluca } from "@/content/accommodations/belmond-cap-juluca";
+import { accommodation as cottonHouseMustique } from "@/content/accommodations/cotton-house-mustique";
+import { accommodation as petitSaintVincent } from "@/content/accommodations/petit-saint-vincent";
+import { accommodation as canouanEstate } from "@/content/accommodations/canouan-estate";
+import { accommodation as rosewoodLeGuanahani } from "@/content/accommodations/rosewood-le-guanahani";
+import { accommodation as edenRockStBarths } from "@/content/accommodations/eden-rock-st-barths";
+import { accommodation as karawanRiad } from "@/content/accommodations/karawan-riad";
+import { accommodation as kasbahTamadot } from "@/content/accommodations/kasbah-tamadot";
+import { accommodation as amanyara } from "@/content/accommodations/amanyara";
+import { accommodation as comoParrotCay } from "@/content/accommodations/como-parrot-cay";
+import { accommodation as ambergrisCay } from "@/content/accommodations/ambergris-cay";
+// Svart (src/content/accommodations/svart.tsx) reste volontairement hors
+// registre tant que la date d'ouverture n'est pas connue.
 import { accommodation as belmondSanctuaryLodge } from "@/content/accommodations/belmond-sanctuary-lodge";
 import { accommodation as belmondPalacioNazarenas } from "@/content/accommodations/belmond-palacio-nazarenas";
 import { accommodation as inkaterraReservaAmazonica } from "@/content/accommodations/inkaterra-reserva-amazonica";
@@ -533,6 +567,11 @@ export const destinations: Record<string, Destination> = toMap([
   uruguay,
   royaumeUni,
   losCabos,
+  caraibes,
+  saintBarthelemy,
+  maroc,
+  saintVincentEtLesGrenadines,
+  turksAndCaicos,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -542,6 +581,7 @@ export const continents: Record<string, Continent> = toMap([
   ameriques,
   procheOrient,
   ilesOceanie,
+  caraibesContinent,
 ]);
 
 // Ordre d'affichage partagé par la home, le menu et le pied de page.
@@ -740,6 +780,20 @@ export const experiences: Record<string, Experience> = toMap([
   plongeeCaboPulmo,
   snorkelingLionsMerEspirituSanto,
   wineOclockValleGuadalupe,
+  piqueNiqueAnseColombier,
+  cacaoBelmontGrenade,
+  grosPitonAubeSoufriere,
+  corossolVannieresLantana,
+  voilesDeSaintBarthRegate,
+  voilierIlesGrenadines,
+  chevalSentiersPlagesGrenadines,
+  voyageSpaGrenadines,
+  sagesseSoufieFes,
+  valleeDesRosesRoseDamas,
+  detroitGibraltarNavigation,
+  plongeeNorthwestPointWestCaicos,
+  catamaranPriveBeluga,
+  northMiddleCaicosMudjinHarbour,
   tableChefCentralLima,
   valleeSacreeArcheologuePrive,
   immersionAmazonieNaturaliste,
@@ -930,6 +984,18 @@ export const accommodations: Record<string, Accommodation> = toMap([
   chilenoBayAuberge,
   fourSeasonsLosCabos,
   oneAndOnlyPalmilla,
+  chevalBlancStBarth,
+  belmondCapJuluca,
+  cottonHouseMustique,
+  petitSaintVincent,
+  canouanEstate,
+  rosewoodLeGuanahani,
+  edenRockStBarths,
+  karawanRiad,
+  kasbahTamadot,
+  amanyara,
+  comoParrotCay,
+  ambergrisCay,
   belmondSanctuaryLodge,
   belmondPalacioNazarenas,
   inkaterraReservaAmazonica,
