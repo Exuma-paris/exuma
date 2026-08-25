@@ -71,6 +71,7 @@ import { destination as antigua } from "@/content/destinations/antigua";
 import { destination as barbade } from "@/content/destinations/barbade";
 import { destination as portoRico } from "@/content/destinations/porto-rico";
 import { destination as singapour } from "@/content/destinations/singapour";
+import { destination as suede } from "@/content/destinations/suede";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -276,6 +277,9 @@ import { experience as catamaranPriveCulebra } from "@/content/experiences/catam
 import { experience as dinerChefCandlenut } from "@/content/experiences/diner-chef-candlenut";
 import { experience as visitePriveeJardinsBotaniques } from "@/content/experiences/visite-privee-jardins-botaniques";
 import { experience as croisiereIlesDuSud } from "@/content/experiences/croisiere-iles-du-sud";
+import { experience as voileArchipelStockholm } from "@/content/experiences/voile-archipel-stockholm";
+import { experience as rencontreSamesRennesLaponie } from "@/content/experiences/rencontre-sames-rennes-laponie";
+import { experience as atelierVerreSmaland } from "@/content/experiences/atelier-verre-smaland";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -452,6 +456,9 @@ import { accommodation as stRegisBahiaBeach } from "@/content/accommodations/st-
 import { accommodation as capellaSingapore } from "@/content/accommodations/capella-singapore";
 import { accommodation as rafflesSingapore } from "@/content/accommodations/raffles-singapore";
 import { accommodation as sixSensesDuxton } from "@/content/accommodations/six-senses-duxton";
+import { accommodation as arcticBath } from "@/content/accommodations/arctic-bath";
+import { accommodation as treehotel } from "@/content/accommodations/treehotel";
+import { accommodation as fabrikenFurillen } from "@/content/accommodations/fabriken-furillen";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -522,6 +529,7 @@ export const destinations: Record<string, Destination> = toMap([
   uruguay,
   royaumeUni,
   singapour,
+  suede,
   tanzanie,
   thailande,
   losCabos,
@@ -732,6 +740,9 @@ export const experiences: Record<string, Experience> = toMap([
   dinerChefCandlenut,
   visitePriveeJardinsBotaniques,
   croisiereIlesDuSud,
+  voileArchipelStockholm,
+  rencontreSamesRennesLaponie,
+  atelierVerreSmaland,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -918,6 +929,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   capellaSingapore,
   rafflesSingapore,
   sixSensesDuxton,
+  arcticBath,
+  treehotel,
+  fabrikenFurillen,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
