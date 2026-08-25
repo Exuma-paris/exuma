@@ -28,6 +28,7 @@ import { destination as paysBas } from "@/content/destinations/pays-bas";
 import { destination as rioDeJaneiro } from "@/content/destinations/rio-de-janeiro";
 import { destination as rome } from "@/content/destinations/rome";
 import { destination as seychelles } from "@/content/destinations/seychelles";
+import { destination as fidji } from "@/content/destinations/fidji";
 import { destination as kenya } from "@/content/destinations/kenya";
 import { destination as vietnam } from "@/content/destinations/vietnam";
 import { destination as madere } from "@/content/destinations/madere";
@@ -70,6 +71,8 @@ import { destination as saintBarthelemy } from "@/content/destinations/saint-bar
 import { destination as maroc } from "@/content/destinations/maroc";
 import { destination as saintVincentEtLesGrenadines } from "@/content/destinations/saint-vincent-et-les-grenadines";
 import { destination as turksAndCaicos } from "@/content/destinations/turks-and-caicos";
+import { destination as sainteLucie } from "@/content/destinations/sainte-lucie";
+import { destination as laGrenade } from "@/content/destinations/la-grenade";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -122,6 +125,9 @@ import { experience as sablesSecretsRio } from "@/content/experiences/sables-sec
 import { experience as coucherSoleilGranit } from "@/content/experiences/coucher-soleil-granit";
 import { experience as volHelicoptereSeychelles } from "@/content/experiences/vol-helicoptere-seychelles";
 import { experience as eclosionTortuesSeychelles } from "@/content/experiences/eclosion-tortues-seychelles";
+import { experience as plongeeGreatAstrolabeKadavu } from "@/content/experiences/plongee-great-astrolabe-kadavu";
+import { experience as requinsBeqaLagoon } from "@/content/experiences/requins-beqa-lagoon";
+import { experience as sevusevuVillageNavala } from "@/content/experiences/sevusevu-village-navala";
 import { experience as decouverteIlesBateauSeychelles } from "@/content/experiences/decouverte-iles-bateau-seychelles";
 import { experience as safariMontgolfiereMara } from "@/content/experiences/safari-montgolfiere-mara";
 import { experience as croisiereBoutreMidaCreek } from "@/content/experiences/croisiere-boutre-mida-creek";
@@ -261,6 +267,8 @@ import { experience as wineOclockValleGuadalupe } from "@/content/experiences/wi
 import { experience as piqueNiqueAnseColombier } from "@/content/experiences/pique-nique-anse-colombier";
 import { experience as cacaoBelmontGrenade } from "@/content/experiences/cacao-belmont-grenade";
 import { experience as grosPitonAubeSoufriere } from "@/content/experiences/gros-piton-aube-soufriere";
+import { experience as arbreAuChocolatSoufriere } from "@/content/experiences/arbre-au-chocolat-soufriere";
+import { experience as helicopterePriveSainteLucie } from "@/content/experiences/helicoptere-prive-sainte-lucie";
 import { experience as corossolVannieresLantana } from "@/content/experiences/corossol-vannieres-lantana";
 import { experience as voilesDeSaintBarthRegate } from "@/content/experiences/voiles-de-saint-barth-regate";
 import { experience as sagesseSoufieFes } from "@/content/experiences/sagesse-soufie-fes";
@@ -272,6 +280,9 @@ import { experience as voyageSpaGrenadines } from "@/content/experiences/voyage-
 import { experience as plongeeNorthwestPointWestCaicos } from "@/content/experiences/plongee-northwest-point-west-caicos";
 import { experience as catamaranPriveBeluga } from "@/content/experiences/catamaran-prive-beluga";
 import { experience as northMiddleCaicosMudjinHarbour } from "@/content/experiences/north-middle-caicos-mudjin-harbour";
+import { experience as snorkelingZodiacGrenade } from "@/content/experiences/snorkeling-zodiac-grenade";
+import { experience as atvCascadePriveeGrenade } from "@/content/experiences/atv-cascade-privee-grenade";
+import { experience as tourCulinaireGrenade } from "@/content/experiences/tour-culinaire-grenade";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -377,6 +388,9 @@ import { accommodation as olissippoLapaPalace } from "@/content/accommodations/o
 import { accommodation as sonevaJani } from "@/content/accommodations/soneva-jani";
 import { accommodation as chevalBlancRandheli } from "@/content/accommodations/cheval-blanc-randheli";
 import { accommodation as sixSensesLaamu } from "@/content/accommodations/six-senses-laamu";
+import { accommodation as laucalaIsland } from "@/content/accommodations/laucala-island";
+import { accommodation as kokomoPrivateIsland } from "@/content/accommodations/kokomo-private-island";
+import { accommodation as sixSensesFiji } from "@/content/accommodations/six-senses-fiji";
 import { accommodation as amangiri } from "@/content/accommodations/amangiri";
 import { accommodation as postRanchInn } from "@/content/accommodations/post-ranch-inn";
 import { accommodation as theMarkHotel } from "@/content/accommodations/the-mark-hotel";
@@ -435,11 +449,17 @@ import { accommodation as petitSaintVincent } from "@/content/accommodations/pet
 import { accommodation as canouanEstate } from "@/content/accommodations/canouan-estate";
 import { accommodation as rosewoodLeGuanahani } from "@/content/accommodations/rosewood-le-guanahani";
 import { accommodation as edenRockStBarths } from "@/content/accommodations/eden-rock-st-barths";
+import { accommodation as jadeMountain } from "@/content/accommodations/jade-mountain";
+import { accommodation as sugarBeachViceroy } from "@/content/accommodations/sugar-beach-viceroy";
+import { accommodation as ladera } from "@/content/accommodations/ladera";
 import { accommodation as karawanRiad } from "@/content/accommodations/karawan-riad";
 import { accommodation as kasbahTamadot } from "@/content/accommodations/kasbah-tamadot";
 import { accommodation as amanyara } from "@/content/accommodations/amanyara";
 import { accommodation as comoParrotCay } from "@/content/accommodations/como-parrot-cay";
 import { accommodation as ambergrisCay } from "@/content/accommodations/ambergris-cay";
+import { accommodation as silversandsGrandAnse } from "@/content/accommodations/silversands-grand-anse";
+import { accommodation as calabashHotel } from "@/content/accommodations/calabash-hotel";
+import { accommodation as sixSensesLaSagesse } from "@/content/accommodations/six-senses-la-sagesse";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
 
@@ -462,6 +482,7 @@ export const destinations: Record<string, Destination> = toMap([
   corse,
   costaRica,
   egypte,
+  fidji,
   indonesie,
   islande,
   jordanie,
@@ -514,6 +535,8 @@ export const destinations: Record<string, Destination> = toMap([
   maroc,
   saintVincentEtLesGrenadines,
   turksAndCaicos,
+  sainteLucie,
+  laGrenade,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -574,6 +597,9 @@ export const experiences: Record<string, Experience> = toMap([
   dinerLadyLisbeth,
   echappeeSkeletonCoast,
   eclosionTortuesSeychelles,
+  plongeeGreatAstrolabeKadavu,
+  requinsBeqaLagoon,
+  sevusevuVillageNavala,
   flyCampKopjesGrumeti,
   golfParadisMorne,
   crieeAalsmeerAube,
@@ -707,6 +733,8 @@ export const experiences: Record<string, Experience> = toMap([
   piqueNiqueAnseColombier,
   cacaoBelmontGrenade,
   grosPitonAubeSoufriere,
+  arbreAuChocolatSoufriere,
+  helicopterePriveSainteLucie,
   corossolVannieresLantana,
   voilesDeSaintBarthRegate,
   voilierIlesGrenadines,
@@ -718,6 +746,9 @@ export const experiences: Record<string, Experience> = toMap([
   plongeeNorthwestPointWestCaicos,
   catamaranPriveBeluga,
   northMiddleCaicosMudjinHarbour,
+  snorkelingZodiacGrenade,
+  atvCascadePriveeGrenade,
+  tourCulinaireGrenade,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -849,6 +880,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   sixSensesDouroValley,
   sixSensesKaplankaya,
   sixSensesLaamu,
+  laucalaIsland,
+  kokomoPrivateIsland,
+  sixSensesFiji,
   sonBunyola,
   sonevaJani,
   songSaaPrivateIsland,
@@ -893,11 +927,17 @@ export const accommodations: Record<string, Accommodation> = toMap([
   canouanEstate,
   rosewoodLeGuanahani,
   edenRockStBarths,
+  jadeMountain,
+  sugarBeachViceroy,
+  ladera,
   karawanRiad,
   kasbahTamadot,
   amanyara,
   comoParrotCay,
   ambergrisCay,
+  silversandsGrandAnse,
+  calabashHotel,
+  sixSensesLaSagesse,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
