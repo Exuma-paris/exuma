@@ -85,7 +85,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Un pays qui change de visage à chaque étape",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Du nord au sud, le Vietnam compose un voyage de contrastes. Sur plus de 1 600 kilomètres, le pays s’étire du delta du fleuve Rouge aux mangroves du Mékong. À Hanoï, en janvier, on porte une veste. Le même jour, à Hô-Chi-Minh-Ville, le thermomètre approche les 30 °C. Cette diversité climatique donne son rythme au voyage.",
         "La baie de Lan Ha, plus discrète que sa voisine d’Halong, dévoile ses criques et ses îlots depuis l’eau. Plus au centre, Hué conserve les palais et les tombeaux des empereurs Nguyễn, le long de la rivière des Parfums. Dans les montagnes du nord-ouest, les rizières en terrasses de Sa Pa changent de teinte au fil des saisons, du vert tendre aux nuances dorées. C’est cette succession de paysages et de rythmes qui guide nos itinéraires : chaque déplacement a sa raison, chaque étape apporte quelque chose à la suivante.",
@@ -178,7 +178,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Vietnam",
       description:
         "Décalage horaire, monnaie, visa, saison : l'essentiel pour construire un itinéraire au Vietnam sans mauvaise surprise.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -237,7 +237,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Vietnam. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -260,7 +260,7 @@ export const destination: Destination = {
       heading: "Six lieux, et ce qu'ils gardent",
       description:
         "Hanoï, Hué, la baie de Lan Ha : les grands repères d'un voyage au Vietnam, complétés de lieux que la plupart des voyageurs traversent sans s'arrêter.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -335,7 +335,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Vietnam",
       description:
         "Huit clés de lecture pour comprendre le Vietnam autrement. Des repères qui guident nos choix d'étapes et la construction de chaque itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -560,7 +560,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

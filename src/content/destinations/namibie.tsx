@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Namibie",
       heading: "Ce que le vide donne à voir",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Namibie commence presque toujours à Sesriem, à la porte du parc du Namib-Naukluft. La route file ensuite vers l'ouest sur une soixantaine de kilomètres, entre les contreforts du Naukluft et les premières crêtes de sable.", // TODO: verify distance Sesriem-Sossusvlei (source client : 50 km)
         "Dune 45 se gravit avant la chaleur. Deadvlei se rejoint à pied, dans le dernier kilomètre de sable. La cuvette d'argile y est restée blanche, les acacias y sont morts debout depuis plusieurs siècles, et l'ombre qu'ils portent au sol est la seule chose qui bouge de la matinée.", // TODO: verify ancienneté des acacias de Deadvlei
@@ -168,7 +168,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Namibie",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons. Voici les repères qui permettent de caler les dates d'un voyage en Namibie.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -227,7 +227,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Namibie. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -250,7 +250,7 @@ export const destination: Destination = {
       heading: "Six terrains, du sel de Deadvlei aux galets du Kaokoland",
       description:
         "Six secteurs composent la carte du pays, des dunes du Namib aux gravures de Twyfelfontein, des maisons ensablées de Kolmanskop aux points d'eau d'Etosha. Peu d'itinéraires les réunissent dans un même voyage.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -329,7 +329,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Namibie",
       description:
         "Huit repères issus du terrain. Ils aident à choisir la période, à comprendre le découpage de l'itinéraire et à ajuster les attentes.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "L'heure d'ouverture de Sesriem",
@@ -566,7 +566,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

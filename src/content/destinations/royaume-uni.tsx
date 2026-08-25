@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Royaume-Uni",
       heading: "L'art anglais de recevoir, le silence écossais",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Royaume-Uni se construit par contrastes plutôt que par kilomètres. On passe de Mayfair, de ses places géorgiennes et de ses maisons de couture, à une vallée du Hampshire où la ferme fournit encore la cuisine, puis à une rivière des Highlands où l'on n'entend que l'eau. Le train relie tout cela dans la même journée, et c'est ce qui rend le pays si confortable à parcourir.",
         "L'Angleterre se lit dans ses maisons. Les demeures géorgiennes ont gardé leurs parcs dessinés au dix-huitième siècle, leurs potagers clos et leurs allées de tilleuls. Beaucoup appartiennent toujours aux mêmes familles, et quelques-unes n'ouvrent que pour une tablée par soir. Les Cotswolds ont leur pierre blonde et leurs villages nés de la laine, Bath ses façades en croissant, le Dorset ses falaises blanches.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Royaume-Uni",
       description:
         "Trajet, décalage, monnaie, formalités et saisons : l'essentiel pour préparer le voyage au Royaume-Uni sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,7 +219,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Royaume-Uni. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "De Mayfair aux entrepôts de whisky des Hébrides",
       description:
         "Les étapes que nous aimons relier, du sud de l'Angleterre jusqu'aux îles de la côte ouest.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Royaume-Uni",
       description:
         "Quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir la bonne saison, comprendre les usages et voyager comme on vit sur place.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "La bonne saison change selon la latitude",
@@ -526,7 +526,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
