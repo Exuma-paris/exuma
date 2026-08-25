@@ -557,25 +557,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage au Vietnam",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Une nuit sur la baie de Lan Ha",
-          description:
-            "La jonque mouille à l'écart, sans un autre bateau en vue. Lan Ha reste plus calme que sa voisine.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le Vietnam avec Exuma n'a rien eu d'un circuit organisé. La nuit sur la jonque dans la baie de Lan Ha, sans un autre bateau en vue, restera notre plus beau souvenir.",
+          image: {
+            src: "/destination/vietnam/hero-1.png",
+            alt: "Portrait de Nathalie et Bertrand", // TODO: verify
+          },
+          name: "Nathalie & Bertrand", // TODO: verify
+          role: "Voyage de noces, novembre 2025", // TODO: verify
         },
         {
-          title: "Hué en dehors des heures d'ouverture",
-          description:
-            "L'historien raconte la cour impériale dans une cité vide. La visite ne ressemble en rien à celle de la journée.",
+          // TODO: replace with real testimonial
+          quote:
+            "L'historien qui nous a fait visiter Hué en dehors des heures d'ouverture nous a raconté la cour impériale comme personne. Nos parents, en voyage de transmission avec nous, en parlent encore.",
+          image: {
+            src: "/destination/vietnam/hero-2.png",
+            alt: "Portrait de Michel", // TODO: verify
+          },
+          name: "Michel", // TODO: verify
+          role: "Voyage intergénérationnel, octobre 2025", // TODO: verify
         },
         {
-          title: "Du nord jusqu'au delta",
-          description:
-            "Le pays est long. Un itinéraire tient quand aucun déplacement n'est là par défaut.",
+          // TODO: replace with real testimonial
+          quote:
+            "Ce qui m'a frappée, c'est la cohérence de l'itinéraire malgré la taille du pays. Jamais un déplacement qui n'avait pas sa raison, du nord jusqu'au delta.",
+          image: {
+            src: "/destination/vietnam/hero-3.png",
+            alt: "Portrait de Sophie", // TODO: verify
+          },
+          name: "Sophie", // TODO: verify
+          role: "Voyage solo, mars 2025", // TODO: verify
         },
       ],
     },

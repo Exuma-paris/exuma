@@ -514,25 +514,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en France",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l’expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Chambord sortant de la brume",
-          description:
-            "Vu en nacelle au petit matin, le château n'a plus rien à voir avec celui des après-midi de pleine saison.",
+          // TODO: replace with real testimonial
+          quote:
+            "J’avais vu Chambord trois fois dans ma vie, toujours en plein après-midi et toujours au milieu de la foule. Le voir sortir de la brume depuis une nacelle, au petit matin, ce n’était plus du tout le même château.",
+          image: {
+            src: "/destination/france/hero-1.png",
+            alt: "Portrait d’Édouard", // TODO: verify
+          },
+          name: "Édouard", // TODO: verify
+          role: "Voyage anniversaire, mai 2026", // TODO: verify
         },
         {
-          title: "Dix jours à trois générations",
-          description:
-            "Les longues étapes se font en train, les matins sont réservés aux marchés. Le rythme se pose en amont, et personne ne se plaint des trajets.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous étions trois générations pendant dix jours, et personne ne s’est plaint des trajets une seule fois. Tainà avait tout posé au bon rythme, les longues étapes en train et les matins réservés aux marchés. Mes parents en parlent encore.",
+          image: {
+            src: "/destination/france/hero-2.png",
+            alt: "Portrait de Constance", // TODO: verify
+          },
+          name: "Constance", // TODO: verify
+          role: "Voyage en famille, juin 2026", // TODO: verify
         },
         {
-          title: "La craie, avec le chef de cave",
-          description:
-            "On descend dans le froid et le silence pour goûter ce qui n'est pas encore du champagne. Peu d'expériences françaises ressemblent à celle-là.",
+          // TODO: replace with real testimonial
+          quote:
+            "Descendre dans la craie avec le chef de cave, goûter ce qui n’est pas encore du champagne, dans le froid et dans le silence. Nous n’avions jamais rien connu de tel, et surtout pas en France.",
+          image: {
+            src: "/destination/france/hero-3.png",
+            alt: "Portrait de Bernard", // TODO: verify
+          },
+          name: "Bernard", // TODO: verify
+          role: "Séjour en couple, septembre 2025", // TODO: verify
         },
       ],
     },

@@ -557,25 +557,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Tanzanie",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "La berge de la Grumeti",
-          description:
-            "Une matinée entière d'attente, peu de véhicules et tous du même camp. Le passage s'engage ensuite d'un coup.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avons attendu sur la berge de la Grumeti une matinée entière. Peu de véhicules, tous du même camp. Le passage s'est ensuite engagé d'un coup. C'est le souvenir le plus net du voyage, deux ans après.",
+          image: {
+            src: "/destination/tanzanie/hero-1.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Safari Serengeti Ouest, juin 2024", // TODO: replace with real testimonial
         },
         {
-          title: "La première nuit à Laba Mama Simba",
-          description:
-            "L'arrivée se fait souvent au milieu de la nuit, après un long trajet. Au réveil, le salon s'ouvre directement sur le mont Meru.",
+          // TODO: replace with real testimonial
+          quote:
+            "La première nuit à Laba Mama Simba change le reste du séjour. Nous sommes arrivés au milieu de la nuit, après quatorze heures de trajet. Au réveil, le salon s'ouvre directement sur le mont Meru.",
+          image: {
+            src: "/destination/tanzanie/hero-2.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Tanzanie et Zanzibar, septembre 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Les gorges d'Olduvai",
-          description:
-            "Commentées par un guide qui a fouillé le site, ce sont les strates que les enfants retiennent, pas les lions.",
+          // TODO: replace with real testimonial
+          quote:
+            "Les gorges d'Olduvai commentées par un guide qui a fouillé le site, c'est ce que nos enfants ont retenu. Pas les lions. Les strates et ce qu'elles racontent.",
+          image: {
+            src: "/destination/tanzanie/hero-3.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Tanzanie en famille, février 2025", // TODO: replace with real testimonial
         },
       ],
     },

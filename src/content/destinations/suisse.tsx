@@ -507,25 +507,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Suisse",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l’expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Trois vallées, sans rien porter",
-          description:
-            "Gstaad, les Grisons, puis le Tessin. Les bagages précèdent d'une maison à l'autre, personne ne porte rien du séjour.",
+          // TODO: replace with real testimonial
+          quote:
+            "Trois vallées, et jamais l’impression de courir. Gstaad, puis les Grisons, puis le Tessin. Nos bagages nous précédaient d’une maison à l’autre, nous n’avons rien porté de tout le séjour.",
+          image: {
+            src: "/destination/suisse/hero-1.png",
+            alt: "Portrait de Frédéric", // TODO: verify
+          },
+          name: "Frédéric", // TODO: verify
+          role: "Séjour en couple, février 2026", // TODO: verify
         },
         {
-          title: "Trois générations, une seule table",
-          description:
-            "Les enfants au ski le matin, les grands-parents aux thermes, et tout le monde réuni à midi. Personne n'attend personne.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous étions trois générations et personne n’a attendu personne. Les enfants au ski le matin, mes parents aux thermes, et tout le monde à la même table à midi. C’était exactement ce que j’espérais.",
+          image: {
+            src: "/destination/suisse/hero-2.png",
+            alt: "Portrait de Constance", // TODO: verify
+          },
+          name: "Constance", // TODO: verify
+          role: "Voyage en famille, janvier 2026", // TODO: verify
         },
         {
-          title: "Un petit-déjeuner sur le glacier",
-          description:
-            "La montée se fait tôt et la redescente précède le réveil de la vallée. Le moment se raconte mal, il se vit.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le petit-déjeuner sur le glacier restera le souvenir du voyage. Ce moment-là est difficile à raconter. Nous étions redescendus avant même que la vallée ne se réveille.",
+          image: {
+            src: "/destination/suisse/hero-3.png",
+            alt: "Portrait de Laurent", // TODO: verify
+          },
+          name: "Laurent", // TODO: verify
+          role: "Voyage anniversaire, septembre 2025", // TODO: verify
         },
       ],
     },

@@ -542,25 +542,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage au Cambodge",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Angkor Vat avant le jour",
-          description:
-            "Entrer dans le parc avant l'aube donne la chaussée pour soi, dans un silence complet. L'archéologue qui accompagne montre des détails invisibles autrement.",
+          // TODO: replace with real testimonial
+          quote:
+            "Entrer dans le parc avant le jour, c'est ce qui a tout changé. Nous avons eu la chaussée d'Angkor Vat pour nous, dans un silence complet. L'archéologue qui nous accompagnait nous a montré des détails que nous n'aurions jamais remarqués, et nous étions repartis quand les cars sont arrivés.",
+          image: {
+            src: "/destination/cambodge/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Cambodge, Angkor et Phnom Penh, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Une nuit à Banteay Chhmar",
-          description:
-            "Un temple que personne n'a restauré, une tente montée sur place, un dîner préparé par le village. Au matin, la brume tient encore entre les pierres.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avons dormi sous tente à Banteay Chhmar, dans un temple que personne n'a restauré. Le village avait préparé le dîner et, au matin, la brume tenait encore entre les pierres. C'est le souvenir que nos petits-enfants racontent encore.",
+          image: {
+            src: "/destination/cambodge/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Cambodge en famille, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Les Cardamomes après les temples",
-          description:
-            "Une rivière, un campement suspendu dans les arbres, et deux gardes qui emmènent relever des pièges toute une matinée. Beaucoup y restent plus longtemps que prévu.",
+          // TODO: replace with real testimonial
+          quote:
+            "Après les temples, nous ne pensions pas que ce serait la forêt qui resterait. Une rivière, un campement suspendu dans les arbres, et deux gardes qui nous ont emmenés relever des pièges toute une matinée. Nous sommes restés plus longtemps que prévu.",
+          image: {
+            src: "/destination/cambodge/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Cambodge, Angkor et Cardamomes, 2025", // TODO: replace with real testimonial
         },
       ],
     },

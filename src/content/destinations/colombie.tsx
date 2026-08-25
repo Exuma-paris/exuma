@@ -537,25 +537,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Colombie",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Le sentier de la Ciudad Perdida",
-          description:
-            "Quatre jours de marche sans croiser un autre groupe. Le créneau se verrouille des mois avant le départ, c'est ce qui permet d'avoir le sentier pour soi.",
+          // TODO: replace with real testimonial
+          quote:
+            "Quatre jours de marche jusqu'à la Ciudad Perdida, sans un autre groupe croisé sur le sentier : c'est exactement ce que nous cherchions, et Exuma a tout verrouillé des mois avant notre départ.",
+          image: {
+            src: "/destination/colombie/hero-1.png",
+            alt: "Portrait de Marion et Thomas", // TODO: verify
+          },
+          name: "Marion & Thomas", // TODO: verify
+          role: "Voyage en couple, août 2025", // TODO: verify
         },
         {
-          title: "Une hacienda caféière du Quindío",
-          description:
-            "La famille y récolte encore le café à la main, et fait participer qui le souhaite. Beaucoup en gardent un souvenir plus vif que de Carthagène.",
+          // TODO: replace with real testimonial
+          quote:
+            "Notre travel designer nous a fait dormir dans une hacienda caféière du Quindío où la famille récolte encore le café à la main. Nos enfants s'en souviennent encore plus que de Carthagène.",
+          image: {
+            src: "/destination/colombie/hero-2.png",
+            alt: "Portrait de Frédéric", // TODO: verify
+          },
+          name: "Frédéric", // TODO: verify
+          role: "Voyage en famille, décembre 2025", // TODO: verify
         },
         {
-          title: "De Carthagène à l'Amazonie",
-          description:
-            "Le pays est divers au point de se disperser. Un itinéraire tient quand chaque étape a sa raison d'être, et que l'ordre des étapes se justifie.",
+          // TODO: replace with real testimonial
+          quote:
+            "Ce qui m'a marquée, c'est la cohérence de l'itinéraire malgré la diversité du pays. De Carthagène à l'Amazonie, chaque étape avait sa raison d'être.",
+          image: {
+            src: "/destination/colombie/hero-3.png",
+            alt: "Portrait de Camille", // TODO: verify
+          },
+          name: "Camille", // TODO: verify
+          role: "Voyage solo, juillet 2025", // TODO: verify
         },
       ],
     },

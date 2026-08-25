@@ -563,25 +563,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Namibie",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Dune 45 avant le soleil",
-          description:
-            "Dormir à l'intérieur du parc permet d'y monter seul. À dix heures, en redescendant, quarante véhicules stationnent au pied.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous sommes montés sur Dune 45 avant le soleil, seuls. À dix heures, en redescendant, il y avait quarante véhicules au pied. Partir de l'intérieur du parc change tout le voyage.",
+          image: {
+            src: "/destination/namibie/hero-1.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Namib et Kalahari, juin 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Le vol vers la Skeleton Coast",
-          description:
-            "Quarante minutes sans une route en dessous. Le pilote se pose sur du gravier, et il n'y a que le 4x4 qui attend.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le vol vers la Skeleton Coast dure quarante minutes et on ne voit pas une route en dessous. Le pilote s'est posé sur du gravier. Il n'y avait que le 4x4 qui nous attendait.",
+          image: {
+            src: "/destination/namibie/hero-2.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Hoanib et Skeleton Coast, septembre 2024", // TODO: replace with real testimonial
         },
         {
-          title: "Le ciel du NamibRand",
-          description:
-            "Ce sont les enfants qui en reparlent, pas les animaux. Beaucoup n'ont jamais vu la Voie lactée avant cette nuit-là.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avions demandé un voyage avec nos petits-enfants. Ce sont eux qui parlent encore du ciel du NamibRand, pas des animaux. Ils n'avaient jamais vu la Voie lactée.",
+          image: {
+            src: "/destination/namibie/hero-3.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: NamibRand et Damaraland, mai 2026", // TODO: replace with real testimonial
         },
       ],
     },

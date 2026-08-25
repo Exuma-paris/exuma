@@ -576,25 +576,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Indonésie",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Deux nuits à bord de l'Amandira",
-          description:
-            "Le bateau change de mouillage pendant la nuit. Au réveil, le paysage n'est plus le même, et le pont avant vaut toutes les cabines.",
+          // TODO: replace with real testimonial
+          quote:
+            "Deux nuits à bord de l'Amandira, et le bateau change de mouillage pendant qu'on dort. Au réveil, le paysage n'est plus le même. Nos deux adolescents ont passé la traversée sur le pont avant, ce qui n'était pas gagné.",
+          image: {
+            src: "/destination/indonesie/hero-1.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Bali et Komodo en famille, juillet 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Le Bromo à quatre heures du matin",
-          description:
-            "Dans le noir et le froid, jusqu'au belvédère. Une fois assis, il se passe vingt minutes sans que personne parle.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le Bromo à 4 heures du matin, dans le noir et dans le froid. Une fois au belvédère, on s'est assis et personne n'a parlé pendant vingt minutes. C'est le seul moment du voyage où j'ai oublié de prendre une photo.",
+          image: {
+            src: "/destination/indonesie/hero-2.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Indonésie, mai 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Les villages de Sumba",
-          description:
-            "L'île figure rarement dans les itinéraires. Ce ne sont pas les plages qui marquent, ce sont les villages.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous n'avions jamais entendu parler de Sumba avant que Stéphane l'ajoute à l'itinéraire. C'est l'étape dont nos enfants reparlent, un an après. Pas la plage : les villages.",
+          image: {
+            src: "/destination/indonesie/hero-3.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Bali et Sumba, septembre 2024", // TODO: replace with real testimonial
         },
       ],
     },

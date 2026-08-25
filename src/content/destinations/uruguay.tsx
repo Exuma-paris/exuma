@@ -519,25 +519,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Uruguay",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Le déjeuner au feu, à Garzón",
-          description:
-            "On ne sait pas ce qu'on va manger en s'asseyant, et c'est très bien ainsi. Les vignes suivent l'après-midi, avec l'œnologue.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le déjeuner au feu à Garzón, puis les vignes dans l'après-midi avec l'œnologue, dans la même journée. On ne savait pas ce qu'on allait manger en s'asseyant, et c'était très bien comme ça. C'est le souvenir qui nous reste le plus nettement.",
+          image: {
+            src: "/destination/uruguay/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Uruguay, Montevideo, Garzón et la côte, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "À cheval avec les gauchos",
-          description:
-            "Départ au petit matin, viande sur les braises du corral à midi. Personne ne joue un rôle : ils travaillent, on suit.",
+          // TODO: replace with real testimonial
+          quote:
+            "Partir à cheval au petit matin avec les gauchos, puis la viande sur les braises du corral à midi. Personne ne jouait un rôle pour nous : ils travaillaient, et on suivait. Je ne pensais pas que cela existait encore ainsi.",
+          image: {
+            src: "/destination/uruguay/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Uruguay, estancias du centre-nord, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Une nuit à Cabo Polonio",
-          description:
-            "Sans électricité et sans lune. On entend les otaries depuis la plage et l'on voit la Voie lactée à l'œil nu.",
+          // TODO: replace with real testimonial
+          quote:
+            "Une nuit à Cabo Polonio, sans électricité et sans lune. On entendait les otaries depuis la plage et on voyait la voie lactée à l'œil nu. En mars, la côte était pour nous : c'était exactement ce que nous cherchions.",
+          image: {
+            src: "/destination/uruguay/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Uruguay, côte de Rocha, mars 2026", // TODO: replace with real testimonial
         },
       ],
     },

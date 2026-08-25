@@ -541,25 +541,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage au Monténégro",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
+      cta: { label: "Créer mon voyage", href: "/votre-projet" },
+      testimonials: [
         {
-          title: "De Kotor au Durmitor",
-          description:
-            "La croisière en voilier à l'aube, la nuit à Sveti Stefan, la route jusqu'au Durmitor. Une semaine qui donne l'impression de traverser trois pays.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous ne connaissions le Monténégro que par la baie de Kotor sur les photos. La croisière en voilier à l'aube, la nuit à Sveti Stefan, la route jusqu'au Durmitor : on a eu l'impression de traverser trois pays en une semaine.",
+          image: {
+            src: "/destination/montenegro/hero-1.png",
+            alt: "Portrait de Camille et Antoine", // TODO: verify
+          },
+          name: "Camille & Antoine", // TODO: verify
+          role: "Voyage de noces, juin 2025", // TODO: verify
         },
         {
-          title: "Perast plutôt que Budva",
-          description:
-            "En pleine saison, l'une se traverse et l'autre s'évite. Le déjeuner chez un vigneron de la Crmnica reste le point fort du séjour.",
+          // TODO: replace with real testimonial
+          quote:
+            "Notre travel designer nous a évité Budva en pleine saison et nous a envoyés à Perast à la place. Le déjeuner chez le vigneron de la Crmnica reste le meilleur souvenir du voyage.",
+          image: {
+            src: "/destination/montenegro/hero-2.png",
+            alt: "Portrait de Marc", // TODO: verify
+          },
+          name: "Marc", // TODO: verify
+          role: "Séjour en famille, août 2025", // TODO: verify
         },
         {
-          title: "La baie le matin, la Tara l'après-midi",
-          description:
-            "Peu de pays tiennent deux paysages aussi différents dans une seule journée sans que cela paraisse forcé.",
+          // TODO: replace with real testimonial
+          quote:
+            "Ce qui nous a marqués, c'est le contraste : la baie le matin, le canyon de la Tara l'après-midi. Aucun autre pays ne tient ça en une seule journée sans que ça paraisse forcé.",
+          image: {
+            src: "/destination/montenegro/hero-3.png",
+            alt: "Portrait de Sophie", // TODO: verify
+          },
+          name: "Sophie", // TODO: verify
+          role: "Escapade en couple, septembre 2025", // TODO: verify
         },
       ],
     },

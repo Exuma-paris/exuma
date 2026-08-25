@@ -564,25 +564,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Égypte",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Un guide passé par les fouilles",
-          description:
-            "Quatre saisons sur le chantier de Deir el-Bahari changent la visite. Les monuments ne sont plus commentés : ils sont rattachés à ce qu'on vient de sortir du sable.",
+          // TODO: replace with real testimonial
+          quote:
+            "Notre guide avait passé quatre saisons sur un chantier de fouilles à Deir el-Bahari. Il ne commentait pas les monuments : il les rattachait à ce qu'on venait de sortir du sable, et à ce que les gens du village en font aujourd'hui. La qualité du guide a plus compté que tout le reste du programme.",
+          image: {
+            src: "/destination/egypte/hero-1.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Le Caire, Louxor et Assouan, novembre 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Karnak d'abord, la rive ouest ensuite",
-          description:
-            "L'ordre des visites paraît arbitraire sur le moment. Dans la Vallée des Rois, il devient évident : on voit ce que les mêmes équipes ont fait sous terre.",
+          // TODO: replace with real testimonial
+          quote:
+            "On nous avait imposé un ordre : Karnak d'abord, la rive ouest seulement deux jours plus tard. Sur le moment nous n'avons pas compris pourquoi. Dans la Vallée des Rois, c'est devenu évident. On voyait ce que les mêmes équipes avaient fait sous terre, là où plus personne ne les regardait.",
+          image: {
+            src: "/destination/egypte/hero-2.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Voyage de transmission, mars 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Al Moudira, sur la rive ouest",
-          description:
-            "L'emplacement compte plus que la catégorie. À l'écart des quais, les tombes sont à quinze minutes quand les autres traversent encore le fleuve.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avions demandé une catégorie d'hôtel, on nous a répondu emplacement. Al Moudira se tient sur la rive ouest, à l'écart des quais : nous étions aux tombes en quinze minutes quand les autres traversaient encore le fleuve. C'est ça qui a fait le séjour, pas les équipements de la chambre.",
+          image: {
+            src: "/destination/egypte/hero-3.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Louxor rive ouest et dahabieh, février 2025", // TODO: replace with real testimonial
         },
       ],
     },

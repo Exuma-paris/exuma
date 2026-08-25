@@ -572,25 +572,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un séjour à Rome",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "La Galerie Borghèse vide, à huit heures",
-          description:
-            "Le créneau d'ouverture se réserve longtemps à l'avance. Un bon guide y parle de Bernini comme s'il l'avait connu.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le moment où on entre dans la Galerie Borghèse vide, à huit heures, on comprend pourquoi on a fait ce voyage. Notre guide a parlé de Bernini comme s'il l'avait connu personnellement.",
+          image: {
+            src: "/destination/rome/hero-1.png",
+            alt: "Portrait de voyageur (TODO)", // TODO: verify
+          },
+          name: "TODO", // TODO: verify
+          role: "Voyage en couple, mai 2025", // TODO: verify
         },
         {
-          title: "Une logique de quartier",
-          description:
-            "Organisé quartier par quartier, le séjour se marche sans courir. On voit plus, et chaque dîner tombe au bon endroit.",
+          // TODO: replace with real testimonial
+          quote:
+            "La logique de quartier proposée par Tainà a tout changé. On a marché sans courir, on a vu plus, on a profité de chaque dîner. Chambre au J.K. Place : parfaite.",
+          image: {
+            src: "/destination/rome/hero-2.png",
+            alt: "Portrait de voyageur (TODO)", // TODO: verify
+          },
+          name: "TODO", // TODO: verify
+          role: "Premier voyage en Italie, septembre 2025", // TODO: verify
         },
         {
-          title: "La Via Appia en Vespa, à sept heures",
-          description:
-            "La voie est vide à cette heure-là. Trois nuits sur place restent courtes : six sont le bon compte.",
+          // TODO: replace with real testimonial
+          quote:
+            "Trois nuits à Rome c'était trop court ; six aurait été le bon nombre. Mais la Vespa sur la Via Appia à sept heures du matin restera. Et la nonna à Trastevere.",
+          image: {
+            src: "/destination/rome/hero-3.png",
+            alt: "Portrait de voyageur (TODO)", // TODO: verify
+          },
+          name: "TODO", // TODO: verify
+          role: "Anniversaire de mariage, juin 2025", // TODO: verify
         },
       ],
     },

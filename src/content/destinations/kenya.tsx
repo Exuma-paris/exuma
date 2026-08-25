@@ -530,25 +530,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage au Kenya",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "La concession privée d'Oare Orok",
-          description:
-            "Pas un autre véhicule en vue, un guide qui suit les traces à pied, et un passage de gnous qui se laisse attendre deux heures sur la rive.",
+          // TODO: replace with real testimonial
+          quote:
+            "La concession privée Oare Orok, c'est une autre dimension. Pas un autre véhicule en vue, un guide qui suit les traces à pied, et un crossing de gnous qu'on a attendu deux heures sur la rive. Ces deux heures, on en parle encore.",
+          image: {
+            src: "/destination/kenya/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Safari Kenya, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "De la savane à Galu Beach",
-          description:
-            "Quarante-cinq minutes de vol séparent le Masaï Mara de la côte. Le soir, les poulpes grillent sous les filaos.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le passage de la savane à la plage de Galu Beach en quarante-cinq minutes de vol résume ce qui est unique dans cet itinéraire. Kinondo Kwetu et ses poulpes grillés sous les filaos, c'est le meilleur dîner du voyage.",
+          image: {
+            src: "/destination/kenya/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Kenya Masaï Mara et côte, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "L'atelier des voitures de Karen Blixen",
-          description:
-            "Quatre heures avec le mécanicien, et la Packard d'Out of Africa sous une bâche depuis quarante ans. L'adresse ne se trouve pas seule.",
+          // TODO: replace with real testimonial
+          quote:
+            "L'atelier Karen Blixen et les voitures, c'est le moment du voyage qu'on n'attendait pas. Quatre heures avec le mécanicien, la Packard d'Out of Africa sous une bâche depuis quarante ans. On ne l'aurait jamais trouvé seuls.",
+          image: {
+            src: "/destination/kenya/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Kenya Culture et Safari, 2025", // TODO: replace with real testimonial
         },
       ],
     },

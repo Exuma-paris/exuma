@@ -515,25 +515,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage au Canada",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Le lac Moraine avant l'ouverture",
-          description:
-            "Un canoë, du café chaud, et le lac avant tout le monde. Le silence de cette heure-là donne le ton du reste du séjour.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous étions au bord du lac Moraine avant tout le monde, avec un canoë et du café chaud. Le silence de cette heure-là, je ne l'oublierai pas. Le reste du séjour a tenu la même note, jusqu'au dernier dîner dans les Rocheuses.",
+          image: {
+            src: "/destination/canada/hero-1.png",
+            alt: "Portrait de Frédéric", // TODO: verify
+          },
+          name: "Frédéric", // TODO: verify
+          role: "Séjour en couple, juillet 2025", // TODO: verify
         },
         {
-          title: "Un fjord accessible en hydravion",
-          description:
-            "L'avion dépose au fond du fjord. Les chevaux, les ours vus depuis le bateau, le feu le soir : une semaine sans téléphone, y compris pour les adolescents.",
+          // TODO: replace with real testimonial
+          quote:
+            "L'hydravion nous a déposés au fond d'un fjord, et nos deux adolescents n'ont plus regardé leur téléphone pendant une semaine. Les chevaux, les ours vus depuis le bateau, le feu le soir : ils en parlent encore à table.",
+          image: {
+            src: "/destination/canada/hero-2.png",
+            alt: "Portrait de Constance", // TODO: verify
+          },
+          name: "Constance", // TODO: verify
+          role: "Voyage en famille, août 2025", // TODO: verify
         },
         {
-          title: "Les Bugaboos, puis Terre-Neuve",
-          description:
-            "Trois jours d'héliski avec l'appareil pour soi seul, puis les icebergs de Terre-Neuve. Deux Canada qui n'ont rien à voir.",
+          // TODO: replace with real testimonial
+          quote:
+            "Trois jours dans les Bugaboos avec l'hélicoptère pour nous seuls, puis Terre-Neuve et ses icebergs, que je n'attendais pas du tout. Je pensais connaître le Canada. Pas celui-là.",
+          image: {
+            src: "/destination/canada/hero-3.png",
+            alt: "Portrait d'Édouard", // TODO: verify
+          },
+          name: "Édouard", // TODO: verify
+          role: "Voyage sur mesure, février 2026", // TODO: verify
         },
       ],
     },

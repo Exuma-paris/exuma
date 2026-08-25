@@ -540,25 +540,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage aux Bahamas",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Harbour Island au petit matin",
-          description:
-            "Départ de Nassau avant sept heures, et la plage pour soi. Le sable y est vraiment rose. Le capitaine pense la journée dans cet ordre, et cela change tout.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous sommes partis de Nassau avant sept heures et nous avons eu la plage de Harbour Island pour nous. Le sable est vraiment rose, personne ne nous croit sur les photos. Le capitaine avait pensé la journée dans cet ordre-là, et cela a tout changé.",
+          image: {
+            src: "/destination/bahamas/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Bahamas, Eleuthera et Harbour Island, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Une île des Exumas, pour un groupe",
-          description:
-            "Une île entière, un équipage et deux bateaux. Dix jours sans croiser personne, et un transfert en hydravion qui fait partie du souvenir.",
+          // TODO: replace with real testimonial
+          quote:
+            "Une île entière pour nous huit, avec l'équipage et deux bateaux. Les enfants ont fini par connaître les plages mieux que le personnel, et nous n'avons croisé personne en dix jours. Même le transfert en hydravion fait partie du souvenir.",
+          image: {
+            src: "/destination/bahamas/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Bahamas en famille, Exumas, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Les flats d'Andros",
-          description:
-            "Trois jours de pêche avec le même guide, qui voit le poisson dix secondes avant vous, chaque fois. Les tables de Nassau paraissent ensuite presque trop confortables.",
+          // TODO: replace with real testimonial
+          quote:
+            "Trois jours dans les flats d'Andros avec le même guide. Il voyait le poisson dix secondes avant moi, chaque fois. Après cela, les tables de Nassau et le retour au calme de la maison sur la caye nous ont paru presque trop confortables.",
+          image: {
+            src: "/destination/bahamas/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Bahamas, Andros, 2025", // TODO: replace with real testimonial
         },
       ],
     },

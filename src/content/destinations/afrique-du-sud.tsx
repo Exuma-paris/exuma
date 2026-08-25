@@ -591,25 +591,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Afrique du Sud",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "L'art rupestre du Cederberg",
-          description:
-            "Deux heures de marche le matin pour arriver devant une paroi peinte il y a dix mille ans, sans personne d'autre autour. Beaucoup viennent pour le safari et repartent en parlant du Cederberg.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous étions partis pour le safari. Ce dont nous parlons en rentrant, c'est du Cederberg. Marcher deux heures le matin pour arriver devant une paroi peinte il y a dix mille ans, avec personne d'autre autour, cela ne ressemble à rien de ce que nous connaissions.",
+          image: {
+            src: "/destination/afrique-du-sud/hero-1.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Le Cap, Cederberg et Thornybush, avril 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Du Cap au Kruger, en deux heures",
-          description:
-            "Rejoindre le Kruger depuis Le Cap demande deux jours de route, ou deux heures d'avion. Sur un séjour de deux semaines, le vol libère trois journées entières.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous voulions tout faire en voiture. On nous a expliqué qu'il fallait deux jours de route pour rejoindre le Kruger depuis Le Cap, et on nous a mis dans un avion de deux heures. Nous avons gagné trois journées entières sur un séjour de deux semaines.",
+          image: {
+            src: "/destination/afrique-du-sud/hero-2.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Le Cap et Lowveld, septembre 2025", // TODO: replace with real testimonial
         },
         {
-          title: "La collection d'Ellerman House",
-          description:
-            "Les tableaux accrochés dans les salons ne sont pas de la décoration d'hôtel. C'est une collection d'art sud-africain, et quelqu'un prend le temps de la commenter.",
+          // TODO: replace with real testimonial
+          quote:
+            "À Ellerman House, les tableaux accrochés dans les salons ne sont pas de la décoration d'hôtel. C'est une collection d'art sud-africain, et quelqu'un prend le temps de vous la commenter. Nous y avons compris l'histoire du pays mieux que dans un musée.",
+          image: {
+            src: "/destination/afrique-du-sud/hero-3.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Le Cap et Winelands, février 2026", // TODO: replace with real testimonial
         },
       ],
     },

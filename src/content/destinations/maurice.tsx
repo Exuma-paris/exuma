@@ -579,25 +579,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage à Maurice",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+      testimonials: [
         {
-          title: "Dix jours entre deux côtes",
-          description:
-            "Le nord pour les enfants, Le Morne pour les parents. Le survol en hélicoptère est ce dont on reparle en rentrant.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avons partagé nos dix jours entre deux côtes, comme Carole nous l'avait proposé. Le nord pour les enfants, le Morne pour nous. Le survol en hélicoptère reste ce dont ils parlent encore.",
+          image: {
+            src: "/destination/maurice/hero-1.png",
+            alt: "Portrait de la famille Delaunay", // TODO: verify
+          },
+          name: "Famille Delaunay", // TODO: verify
+          role: "Séjour en famille, août 2025", // TODO: verify
         },
         {
-          title: "Rien à organiser sur place",
-          description:
-            "Transferts, départs de golf, dîner à bord du bateau : tout est calé. La seule décision quotidienne concerne l'heure du réveil.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous ne voulions rien avoir à organiser. Tout était prévu : les transferts, les départs de golf, jusqu'au dîner à bord du bateau. Notre seule décision quotidienne concernait l'heure du réveil.",
+          image: {
+            src: "/destination/maurice/hero-2.png",
+            alt: "Portrait de Jean-Marc", // TODO: verify
+          },
+          name: "Jean-Marc", // TODO: verify
+          role: "Voyage en couple, septembre 2025", // TODO: verify
         },
         {
-          title: "Le Morne au lever du jour",
-          description:
-            "La montée se fait avec un guide qui raconte l'histoire du lieu plutôt que de compter les mètres. La matinée justifie le déplacement.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avons monté le Morne au lever du jour, avec un guide qui raconte l'histoire du lieu plutôt que de compter les mètres. Cette matinée justifiait à elle seule le voyage.",
+          image: {
+            src: "/destination/maurice/hero-3.png",
+            alt: "Portrait de Claire", // TODO: verify
+          },
+          name: "Claire", // TODO: verify
+          role: "Escapade nature, juin 2025", // TODO: verify
         },
       ],
     },

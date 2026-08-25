@@ -583,25 +583,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Norvège",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+      testimonials: [
         {
-          title: "Le Geirangerfjord à six heures",
-          description:
-            "Le skipper coupe le moteur sous la cascade. Il se passe dix minutes sans que personne parle.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous sommes entrés dans le Geirangerfjord à six heures du matin, seuls. Le skipper a coupé le moteur sous la cascade et personne n'a parlé pendant dix minutes. C'est la seule chose dont je parle encore au bureau.",
+          image: {
+            src: "/destination/norvege/hero-1.png",
+            alt: "Portrait de Philippe", // TODO: verify
+          },
+          name: "Philippe", // TODO: verify
+          role: "Voyage en couple, juin 2025", // TODO: verify
         },
         {
-          title: "Dix jours sans rien décider",
-          description:
-            "Vols, ferries, bateau de pêche : tout est calé en amont. Le seul choix de la journée porte sur l'heure du petit déjeuner.",
+          // TODO: replace with real testimonial
+          quote:
+            "Je voulais dix jours sans rien avoir à décider. Les vols, les ferries, le bateau de pêche, tout était calé. Le seul choix de la journée portait sur l'heure du petit déjeuner.",
+          image: {
+            src: "/destination/norvege/hero-2.png",
+            alt: "Portrait de Marc-Antoine", // TODO: verify
+          },
+          name: "Marc-Antoine", // TODO: verify
+          role: "Séjour dans les Lofoten, février 2025", // TODO: verify
         },
         {
-          title: "Quatre nuits à Valldal",
-          description:
-            "Sept chambres, une rivière sous les fenêtres, pas un bruit après vingt-deux heures. On y prolonge plus souvent qu'on n'écourte.",
+          // TODO: replace with real testimonial
+          quote:
+            "Sept chambres, une rivière sous les fenêtres, et pas un bruit après vingt-deux heures. Nous sommes restés quatre nuits à Valldal alors que nous en avions prévu deux.",
+          image: {
+            src: "/destination/norvege/hero-3.png",
+            alt: "Portrait de Sylvie", // TODO: verify
+          },
+          name: "Sylvie", // TODO: verify
+          role: "Escapade dans le Sunnmøre, août 2025", // TODO: verify
         },
       ],
     },

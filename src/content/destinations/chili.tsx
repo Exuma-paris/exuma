@@ -539,25 +539,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage au Chili",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Cinq jours dans les fjords Kawésqar",
-          description:
-            "Cinq jours sans croiser un autre bateau. Le matin, le glacier lâche des blocs et personne ne dit rien. Le cuisinier achète le crabe aux pêcheurs avant d'appareiller.",
+          // TODO: replace with real testimonial
+          quote:
+            "Cinq jours dans les fjords sans voir un autre bateau. Le matin, le glacier lâchait des blocs et personne ne disait rien. Le cuisinier achetait le crabe aux pêcheurs avant de partir. Je n'ai pas ouvert mon téléphone une seule fois.",
+          image: {
+            src: "/destination/chili/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Chili, Patagonie et fjords Kawésqar, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "À cheval avec les baqueanos",
-          description:
-            "Deux baqueanos ouvrent la route sur des terres où personne n'entre, les tours de Torres del Paine en face toute la matinée. C'est là que la Patagonie prend son sens.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous étions à cheval avec deux baqueanos sur des terres où personne n'entre, les tours en face de nous toute la matinée. Nos petits-enfants ont compris ce jour-là ce que voulait dire la Patagonie.",
+          image: {
+            src: "/destination/chili/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Chili en famille, trois générations, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Les Nuages de Magellan, dans l'Atacama",
-          description:
-            "L'astrophysicien règle son télescope dans le froid et le noir du désert. Trois jours plus tard, le déjeuner se prend dans une cave de Millahue, avec le vigneron.",
+          // TODO: replace with real testimonial
+          quote:
+            "L'astrophysicien a réglé son télescope et nous a montré les Nuages de Magellan. Il faisait froid, le désert était noir. Trois jours plus tard nous déjeunions dans une cave de Millahue avec le vigneron. Tout s'enchaînait sans que nous ayons rien à demander.",
+          image: {
+            src: "/destination/chili/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Chili, Atacama et Colchagua, 2025", // TODO: replace with real testimonial
         },
       ],
     },

@@ -558,25 +558,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en République dominicaine",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Samaná pour les baleines",
-          description:
-            "Remonter jusqu'à Samaná avant de redescendre vers Casa de Campo fait deux voyages en un, sans une journée de trop.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous ne connaissions que Punta Cana par ouïe-dire. Carole nous a fait remonter jusqu'à Samaná pour les baleines, puis redescendre vers Casa de Campo : deux voyages en un, sans une seule journée de trop.",
+          image: {
+            src: "/destination/republique-dominicaine/hero-1.png",
+            alt: "Portrait de Isabelle et Thomas", // TODO: verify
+          },
+          name: "Isabelle & Thomas", // TODO: verify
+          role: "Séjour en famille, février 2026", // TODO: verify
         },
         {
-          title: "Le survol entre deux mers",
-          description:
-            "Moins d'une heure d'hélicoptère suffit à voir l'île basculer d'une mer à l'autre.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le survol en hélicoptère entre Samaná et Punta Cana restera le moment fort du voyage. On a vu l'île entière basculer d'une mer à l'autre en moins d'une heure.",
+          image: {
+            src: "/destination/republique-dominicaine/hero-2.png",
+            alt: "Portrait de Frédéric", // TODO: verify
+          },
+          name: "Frédéric", // TODO: verify
+          role: "Voyage entre amis, mars 2026", // TODO: verify
         },
         {
-          title: "L'Hacienda Elvesia",
-          description:
-            "Une plantation de cacao familiale, loin des circuits organisés. On n'y regarde plus une tablette de chocolat de la même façon.",
+          // TODO: replace with real testimonial
+          quote:
+            "Ce qui m'a marquée, c'est l'Hacienda Elvesia : une plantation de cacao familiale, loin des circuits organisés. Nos enfants n'ont plus regardé une tablette de chocolat de la même façon.",
+          image: {
+            src: "/destination/republique-dominicaine/hero-3.png",
+            alt: "Portrait de Constance", // TODO: verify
+          },
+          name: "Constance", // TODO: verify
+          role: "Voyage en famille, janvier 2026", // TODO: verify
         },
       ],
     },

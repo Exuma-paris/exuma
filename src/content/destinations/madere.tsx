@@ -514,25 +514,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage à Madère",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Fanal à sept heures du matin",
-          description:
-            "La forêt de lauriers dans la brume, sans personne. C'est le moment dont on reparle en rentrant.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous sommes partis pour marcher. Nous avons eu Fanal à sept heures du matin, seuls dans la brume. Ma femme n'a rien dit pendant vingt minutes. C'est le moment dont nous reparlons encore.",
+          image: {
+            src: "/destination/madere/hero-1.png",
+            alt: "Portrait de Frédéric", // TODO: verify
+          },
+          name: "Frédéric", // TODO: verify
+          role: "Séjour en couple, mai 2026", // TODO: verify
         },
         {
-          title: "Des levadas pour tous les âges",
-          description:
-            "Levadas plates et journées courtes quand les enfants sont jeunes. Le marché de Funchal retient même les adolescents.",
+          // TODO: replace with real testimonial
+          quote:
+            "Deux adolescents et un petit de huit ans, je voyais mal comment faire. Carole a choisi des levadas plates et des journées courtes. Le marché de Funchal a même intéressé les grands, ce qui n'était pas gagné.",
+          image: {
+            src: "/destination/madere/hero-2.png",
+            alt: "Portrait de Constance", // TODO: verify
+          },
+          name: "Constance", // TODO: verify
+          role: "Voyage en famille, avril 2026", // TODO: verify
         },
         {
-          title: "Du Pico do Arieiro au Pico Ruivo",
-          description:
-            "Le lever du jour au premier sommet, la traversée à pied jusqu'au second, et la voiture qui attend à l'autre bout.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le lever du jour au Pico do Arieiro, puis la traversée à pied vers le Pico Ruivo pendant que la voiture nous attendait à l'autre bout. C'est exactement ce que je ne voulais pas avoir à organiser.",
+          image: {
+            src: "/destination/madere/hero-3.png",
+            alt: "Portrait d'Édouard", // TODO: verify
+          },
+          name: "Édouard", // TODO: verify
+          role: "Voyage anniversaire, octobre 2025", // TODO: verify
         },
       ],
     },

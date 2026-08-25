@@ -560,25 +560,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage au Botswana",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Les suricates du Makgadikgadi",
-          description:
-            "Une heure assis dans le sel, à un mètre des terriers. Un jeune suricate finit par monter sur une épaule pour regarder le ciel, sans que personne ne lui ait rien demandé.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous sommes restés assis dans le sel pendant une heure, à un mètre des terriers. Un jeune suricate est ensuite monté sur l'épaule de mon fils pour regarder le ciel. Personne ne lui avait rien demandé.",
+          image: {
+            src: "/destination/botswana/hero-1.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Okavango et Makgadikgadi, juillet 2024", // TODO: replace with real testimonial
         },
         {
-          title: "Trois camps, trois paysages",
-          description:
-            "L'eau de l'Okavango, puis la forêt, puis le sel, en dix jours. Sur la Gomoti, trois jours passent sans croiser un autre véhicule.",
+          // TODO: replace with real testimonial
+          quote:
+            "Trois camps en dix jours, et trois pays différents en réalité. L'eau, puis la forêt, puis le sel. Sur la Gomoti, nous n'avons croisé aucun autre véhicule en trois jours.",
+          image: {
+            src: "/destination/botswana/hero-2.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Botswana et chutes Victoria, septembre 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Le safari de nuit à Moremi",
-          description:
-            "La surprise n'est pas le lion du matin, mais l'oryctérope repéré à trente mètres dans le faisceau rouge. Personne ne l'aurait vu de jour.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le safari de nuit a été la vraie surprise du voyage. Pas les lions du matin, mais l'oryctérope repéré à trente mètres dans le faisceau rouge. Personne ne l'aurait vu de jour.",
+          image: {
+            src: "/destination/botswana/hero-3.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Moremi et Makgadikgadi, juin 2026", // TODO: replace with real testimonial
         },
       ],
     },

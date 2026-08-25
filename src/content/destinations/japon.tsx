@@ -563,25 +563,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage au Japon",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Une cérémonie du thé à Kyoto",
-          description:
-            "Elle se tient dans un sous-temple qui ne reçoit pas de visiteurs. L'accès se négocie, il ne se réserve pas.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le Japon avec Exuma n'a rien eu d'un circuit organisé. La cérémonie du thé dans ce sous-temple de Kyoto, personne ne nous l'aurait ouverte seuls.",
+          image: {
+            src: "/destination/japon/hero-1.png",
+            alt: "Portrait d'Isabelle et Marc", // TODO: verify
+          },
+          name: "Isabelle & Marc", // TODO: verify
+          role: "Voyage de noces, avril 2025", // TODO: verify
         },
         {
-          title: "Un maître céramiste à Kanazawa",
-          description:
-            "L'atelier retient les adolescents plus longtemps que prévu, y compris ceux qui ne voulaient entendre parler que de jeux vidéo.",
+          // TODO: replace with real testimonial
+          quote:
+            "Notre fils de seize ans qui ne voulait entendre parler que de jeux vidéo est reparti fasciné par un maître céramiste rencontré à Kanazawa. C'est rare, un voyage qui marque toute une famille comme ça.",
+          image: {
+            src: "/destination/japon/hero-2.png",
+            alt: "Portrait de Frédéric", // TODO: verify
+          },
+          name: "Frédéric", // TODO: verify
+          role: "Séjour en famille, novembre 2025", // TODO: verify
         },
         {
-          title: "La précision, transfert après transfert",
-          description:
-            "Chaque correspondance, chaque réservation de table, chaque horaire de train. Au Japon, rien ne glisse d'une minute, à condition que tout soit calé en amont.",
+          // TODO: replace with real testimonial
+          quote:
+            "Ce qui m'a frappée, c'est la précision. Chaque transfert, chaque réservation de table, chaque horaire de train : rien n'a jamais glissé d'une minute.",
+          image: {
+            src: "/destination/japon/hero-3.png",
+            alt: "Portrait de Claire", // TODO: verify
+          },
+          name: "Claire", // TODO: verify
+          role: "Voyage solo, octobre 2025", // TODO: verify
         },
       ],
     },

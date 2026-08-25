@@ -470,25 +470,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un séjour à Paris",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Le Louvre après la fermeture",
-          description:
-            "La visite se fait salles vides. Sur quatre jours, l'atelier Lesage et un déjeuner au Bristol tiennent le même niveau, sans une décision logistique à prendre.",
+          // TODO: replace with real testimonial
+          quote:
+            "Quatre jours à Paris organisés par Exuma. La visite du Louvre après fermeture, l'atelier Lesage à Aubervilliers, le déjeuner au Bristol, chaque moment était à sa juste place. On n'a pas eu une seule décision logistique à prendre.",
+          image: {
+            src: "/destination/paris/hero-1.png",
+            alt: "Portrait de Sophie et Marc", // TODO: verify
+          },
+          name: "Sophie & Marc", // TODO: verify
+          role: "Anniversaire de mariage, juin 2026", // TODO: verify
         },
         {
-          title: "Un ébéniste du Faubourg",
-          description:
-            "Le rendez-vous s'obtient, il ne se réserve pas. Une heure de conversation avec un artisan que l'on cherchait à rencontrer depuis des années.",
+          // TODO: replace with real testimonial
+          quote:
+            "Notre travel designer a obtenu un rendez-vous chez un ébéniste du Faubourg que je cherchais à rencontrer depuis trois ans. Une heure de conversation, une vraie. C'est ce que je viens chercher dans un voyage à Paris.",
+          image: {
+            src: "/destination/paris/hero-2.png",
+            alt: "Portrait de Laurent", // TODO: verify
+          },
+          name: "Laurent", // TODO: verify
+          role: "Séjour en solo, octobre 2025", // TODO: verify
         },
         {
-          title: "Trois adresses, trois moments",
-          description:
-            "Un palace, un hôtel quai du Louvre, un boutique rive gauche. Chacune prend son sens à un moment précis du séjour.",
+          // TODO: replace with real testimonial
+          quote:
+            "Ce qui m'a marquée, c'est la qualité du choix. Trois adresses très différentes, un palace, un hôtel quai du Louvre, un boutique rive gauche, et chacune a fait sens à son moment du séjour. Tout fluide, du premier appel jusqu'au retour.",
+          image: {
+            src: "/destination/paris/hero-3.png",
+            alt: "Portrait de Claire", // TODO: verify
+          },
+          name: "Claire", // TODO: verify
+          role: "Escapade culturelle, mars 2026", // TODO: verify
         },
       ],
     },

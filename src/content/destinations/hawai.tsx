@@ -538,25 +538,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage à Hawaï",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Une nuit au sommet du Mauna Kea",
-          description:
-            "Au-dessus des nuages, avec un astronome. Le froid est sec et le ciel d'une netteté qu'on ne trouve pas ailleurs.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avons passé la nuit au sommet du Mauna Kea avec un astronome, au-dessus des nuages. Il faisait un froid sec et le ciel avait une netteté que je n'avais jamais vue ailleurs. Mes enfants en parlent encore.",
+          image: {
+            src: "/destination/hawai/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Hawaï, Big Island et Maui, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Le chant d'accueil de Halawa",
-          description:
-            "On attend à l'entrée du sentier le temps du chant. Ce n'est pas une mise en scène pour visiteurs, et la journée en prend une autre couleur.",
+          // TODO: replace with real testimonial
+          quote:
+            "À Halawa, on nous a fait attendre à l'entrée du sentier le temps du chant d'accueil. Ce n'était pas une mise en scène pour visiteurs, on l'a senti tout de suite. La journée a pris une autre couleur après cela.",
+          image: {
+            src: "/destination/hawai/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Hawaï, Molokai et Kauai, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Lanai, sans file d'attente",
-          description:
-            "Pas d'embouteillage, des pistes rouges, l'océan pour soi. Peu d'îles de l'archipel offrent encore cela.",
+          // TODO: replace with real testimonial
+          quote:
+            "Lanai nous a réconciliés avec l'idée de vacances : pas une file d'attente, pas un embouteillage, des pistes rouges et l'océan pour nous seuls. Je ne savais pas qu'il restait un endroit comme celui-là.",
+          image: {
+            src: "/destination/hawai/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Hawaï, Lanai et Big Island, 2026", // TODO: replace with real testimonial
         },
       ],
     },

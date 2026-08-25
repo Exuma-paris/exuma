@@ -599,25 +599,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage en Islande",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+      testimonials: [
         {
-          title: "Glacier le matin, source chaude à seize heures",
-          description:
-            "Deux paysages sans rapport dans la même journée, à quelques kilomètres l'un de l'autre, en plein champ de lave.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous avons marché sur un glacier le matin et nous étions dans une source chaude à seize heures, en plein champ de lave. Je n'avais jamais fait deux choses aussi différentes dans la même journée.",
+          image: {
+            src: "/destination/islande/hero-1.png",
+            alt: "Portrait de Vincent", // TODO: verify
+          },
+          name: "Vincent", // TODO: verify
+          role: "Voyage en couple, mars 2026", // TODO: verify
         },
         {
-          title: "Trois nuits au même endroit",
-          description:
-            "Changer d'hôtel chaque soir pour tout voir est le meilleur moyen de manquer les aurores. Rester trois nuits au même endroit multiplie les chances.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous voulions changer d'hôtel tous les soirs pour tout voir. On nous a conseillé l'inverse, trois nuits au même endroit. C'est la seule raison pour laquelle nous avons fini par voir les aurores.",
+          image: {
+            src: "/destination/islande/hero-2.png",
+            alt: "Portrait de Claire", // TODO: verify
+          },
+          name: "Claire", // TODO: verify
+          role: "Séjour sur la côte sud, février 2026", // TODO: verify
         },
         {
-          title: "La glace bleue et ses bandes noires",
-          description:
-            "Chaque bande sombre correspond à une éruption, et le guide sait les dater. La grotte se lit comme une archive.",
+          // TODO: replace with real testimonial
+          quote:
+            "Dans la grotte, la glace est bleue et traversée de bandes noires. Le guide nous a expliqué que chaque bande correspondait à une éruption, et il savait les dater. Je ne m'attendais pas à apprendre quoi que ce soit ce jour-là.",
+          image: {
+            src: "/destination/islande/hero-3.png",
+            alt: "Portrait de Marc", // TODO: verify
+          },
+          name: "Marc", // TODO: verify
+          role: "Voyage en famille, janvier 2026", // TODO: verify
         },
       ],
     },

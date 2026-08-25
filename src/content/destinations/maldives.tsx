@@ -505,25 +505,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage aux Maldives",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+      testimonials: [
         {
-          title: "Hanifaru, calé sur la bonne marée",
-          description:
-            "Deux atolls en douze jours sans que les transferts pèsent. Les mantas passent à un mètre, et le créneau se réserve marée par marée.",
+          // TODO: replace with real testimonial
+          quote:
+            "Deux atolls en douze jours, et jamais l'impression de faire des transferts. Stéphane avait calé Hanifaru sur la bonne marée. Les mantas sont passées à un mètre, et nous étions le seul bateau.",
+          image: {
+            src: "/destination/maldives/hero-1.png",
+            alt: "Portrait de Guillaume et Sophie", // TODO: verify
+          },
+          name: "Guillaume & Sophie", // TODO: verify
+          role: "Voyage en couple, septembre 2025", // TODO: verify
         },
         {
-          title: "La pépinière de corail",
-          description:
-            "Les enfants y retournent tous les matins avant le petit déjeuner, avec le biologiste. Une île n'ennuie que si personne n'y travaille avec eux.",
+          // TODO: replace with real testimonial
+          quote:
+            "Avec trois enfants, on redoutait l'ennui d'une île. Ils ont passé la semaine dans la pépinière de corail avec le biologiste, et ils y retournaient tous les matins avant le petit déjeuner.",
+          image: {
+            src: "/destination/maldives/hero-2.png",
+            alt: "Portrait de la famille Lambert", // TODO: verify
+          },
+          name: "Famille Lambert", // TODO: verify
+          role: "Séjour en famille, février 2025", // TODO: verify
         },
         {
-          title: "Un dîner sur le banc de sable",
-          description:
-            "Une table posée sur le sable, sans personne autour, et rien à vérifier de la journée : un seul interlocuteur du premier appel au retour.",
+          // TODO: replace with real testimonial
+          quote:
+            "Ce que j'ai apprécié, c'est de n'avoir rien à vérifier. Un seul interlocuteur, du premier appel au retour. Le dîner sur le banc de sable, seuls, valait le voyage à lui seul.",
+          image: {
+            src: "/destination/maldives/hero-3.png",
+            alt: "Portrait de Nicolas", // TODO: verify
+          },
+          name: "Nicolas", // TODO: verify
+          role: "Semaine de décompression, avril 2025", // TODO: verify
         },
       ],
     },

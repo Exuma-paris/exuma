@@ -544,25 +544,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage au Bhoutan",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "La montée de Taktsang, avant le jour",
-          description:
-            "Le départ se fait de nuit avec un moine qui connaît chaque pierre du sentier. En haut, la salle de méditation s'ouvre pour vous seuls, éclairée aux lampes à beurre.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous sommes partis avant le jour avec un moine qui connaissait chaque pierre du sentier. En haut, il a ouvert la salle de méditation pour nous seuls, il n'y avait que les lampes à beurre. Nous redescendions quand les premiers groupes arrivaient.",
+          image: {
+            src: "/destination/bhoutan/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Bhoutan, Paro et Punakha, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Une bénédiction à Punakha",
-          description:
-            "Portes refermées, un lama prend le temps d'expliquer chaque geste. Ce n'est pas une visite : on vous laisse prendre part au moment.",
+          // TODO: replace with real testimonial
+          quote:
+            "La bénédiction à Punakha, portes refermées, avec un lama qui prenait le temps d'expliquer chaque geste. Nos petits-enfants en parlent encore. Ce n'était pas une visite, c'était un moment auquel on nous laissait prendre part.",
+          image: {
+            src: "/destination/bhoutan/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Bhoutan en famille, trois générations, 2025", // TODO: replace with real testimonial
         },
         {
-          title: "La vallée de Phobjikha au petit matin",
-          description:
-            "Les grues quittent le marais et il n'y a personne d'autre autour. Deux semaines où tout est réglé avant même qu'on y pense.",
+          // TODO: replace with real testimonial
+          quote:
+            "Je n'avais pas passé deux semaines sans consulter mes messages depuis très longtemps. La vallée de Phobjikha au petit matin, les grues qui quittent le marais, et personne d'autre autour. Tout était réglé avant même que nous y pensions.",
+          image: {
+            src: "/destination/bhoutan/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Bhoutan, Phobjikha et Bumthang, 2025", // TODO: replace with real testimonial
         },
       ],
     },

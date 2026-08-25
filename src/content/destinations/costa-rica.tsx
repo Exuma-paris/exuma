@@ -561,25 +561,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage au Costa Rica",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Les canaux de Tortuguero",
-          description:
-            "Le guide coupe le moteur au milieu du canal et montre un paresseux à trente mètres. Personne ne l'aurait repéré seul, et aucun transfert n'est à gérer du séjour.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le premier matin à Tortuguero, le guide a coupé le moteur au milieu d'un canal et nous a montré un paresseux à trente mètres. Nos enfants ne l'auraient jamais repéré seuls. Et pas un transfert à gérer de tout le séjour.",
+          image: {
+            src: "/destination/costa-rica/hero-1.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Costa Rica en famille, février 2026", // TODO: replace with real testimonial
         },
         {
-          title: "Une réserve privée, avec ses propriétaires",
-          description:
-            "Ils marchent avec le groupe toute la matinée, six personnes au maximum. Le déjeuner qui suit est simple et excellent.",
+          // TODO: replace with real testimonial
+          quote:
+            "La réserve privée avec les propriétaires reste le moment le plus fort. Nous étions six, ils ont marché avec nous toute la matinée. Le déjeuner était simple et excellent.",
+          image: {
+            src: "/destination/costa-rica/hero-2.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Costa Rica, avril 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Santa Teresa, invisible depuis la route",
-          description:
-            "La villa ne se voit pas depuis la piste. Surf le matin, forêt sèche l'après-midi, dîner les pieds dans le sable, et un chef qui compose avec ce que les enfants veulent goûter.",
+          // TODO: replace with real testimonial
+          quote:
+            "La villa à Santa Teresa est invisible depuis la route, et le chef composait ses menus avec ce que les enfants avaient envie de goûter. On a surfé le matin, marché dans la forêt sèche l'après-midi, dîné les pieds dans le sable.",
+          image: {
+            src: "/destination/costa-rica/hero-3.webp",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Nicoya et Papagayo, janvier 2026", // TODO: replace with real testimonial
         },
       ],
     },

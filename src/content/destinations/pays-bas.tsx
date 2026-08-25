@@ -563,25 +563,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage aux Pays-Bas",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "La Ronde de nuit à huit heures",
-          description:
-            "Six personnes dans la Galerie d'honneur, avec un conservateur. Il montre où la toile a été coupée au dix-huitième siècle pour entrer dans une autre salle.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous étions six dans la Galerie d'honneur, à huit heures du matin. Le conservateur nous a montré, sur La Ronde de nuit, l'endroit où la toile avait été coupée au dix-huitième siècle pour entrer dans une autre salle. Je regarde les tableaux différemment depuis.",
+          image: {
+            src: "/destination/pays-bas/hero-1.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Amsterdam, La Haye et Delft, avril 2026", // TODO: replace with real testimonial
         },
         {
-          title: "La forêt de la Veluwe à vélo",
-          description:
-            "Le pays ne se résume pas à ses musées. Un après-midi de forêt suffit à faire rallonger le séjour de deux nuits.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous partions pour trois jours de musées et nous avons passé un après-midi entier à vélo dans la forêt de la Veluwe. Personne ne nous avait dit que les Pays-Bas avaient des forêts pareilles. Nous avons rallongé de deux nuits sur place.",
+          image: {
+            src: "/destination/pays-bas/hero-2.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Amsterdam et la Veluwe, juin 2025", // TODO: replace with real testimonial
         },
         {
-          title: "Les canaux à dix-huit heures",
-          description:
-            "Le bateau vient prendre devant l'hôtel et dépose deux heures plus tard au pied du restaurant, avec le skipper pour seule compagnie.",
+          // TODO: replace with real testimonial
+          quote:
+            "Le bateau est venu nous prendre devant l'hôtel à dix-huit heures. Nous avons remonté les canaux pendant deux heures, avec le skipper pour seule compagnie, puis il nous a déposés au pied du restaurant. C'est la soirée dont mes enfants reparlent.",
+          image: {
+            src: "/destination/pays-bas/hero-3.png",
+            alt: "Portrait", // TODO: verify
+          },
+          name: "TODO", // TODO: replace with real testimonial
+          role: "TODO: Amsterdam et le Limbourg, septembre 2025", // TODO: replace with real testimonial
         },
       ],
     },

@@ -532,25 +532,43 @@ export const destination: Destination = {
     },
 
     {
-      type: "spotsList",
-      eyebrow: "Récits de voyage",
-      heading: "Trois scènes d'un voyage aux États-Unis",
+      type: "testimonials",
+      eyebrow: "Témoignages",
+      heading: "Ils ont vécu l'expérience Exuma",
       cta: { label: "Construire ce voyage", href: "/votre-projet" },
-      spots: [
+      testimonials: [
         {
-          title: "Le canyon au lever du jour",
-          description:
-            "À six et sur trois générations, la logistique décide de tout. Les distances se calculent pour que personne ne subisse la route, et le lever du jour réunit tout le monde.",
+          // TODO: replace with real testimonial
+          quote:
+            "Nous partions à six, sur trois générations, et je redoutais la logistique. Le canyon au lever du jour a réuni tout le monde, ce que je n'attendais pas. Les distances avaient été pensées pour que personne ne subisse la route.",
+          image: {
+            src: "/destination/etats-unis/hero-1.png",
+            alt: "Portrait de Bernard et Michèle", // TODO: verify
+          },
+          name: "Bernard & Michèle", // TODO: verify
+          role: "Voyage en famille, mai 2025", // TODO: verify
         },
         {
-          title: "Un canyon à accès privé",
-          description:
-            "L'Ouest paraît connu jusqu'à ce qu'on entre dans un canyon dont on n'a jamais entendu le nom, avec la famille qui en détient l'accès.",
+          // TODO: replace with real testimonial
+          quote:
+            "J'avais déjà fait l'Ouest deux fois, en pensant l'avoir vu. Cette fois nous sommes entrés dans un canyon dont je n'avais jamais entendu le nom, avec la famille qui en détient l'accès. C'est exactement ce que je cherchais.",
+          image: {
+            src: "/destination/etats-unis/hero-2.png",
+            alt: "Portrait d'Édouard", // TODO: verify
+          },
+          name: "Édouard", // TODO: verify
+          role: "Séjour dans l'Ouest, octobre 2025", // TODO: verify
         },
         {
-          title: "Big Sur, puis New York",
-          description:
-            "Une semaine chacun, et c'est le contraste qui fait le voyage. Un seul interlocuteur d'un bout à l'autre, y compris pour un vol décalé la veille du retour.",
+          // TODO: replace with real testimonial
+          quote:
+            "Big Sur puis New York, en une semaine chacun. Le contraste faisait tout le voyage. Une seule personne au bout du téléphone d'un bout à l'autre, y compris pour un vol décalé la veille du retour.",
+          image: {
+            src: "/destination/etats-unis/hero-3.png",
+            alt: "Portrait de Claire", // TODO: verify
+          },
+          name: "Claire", // TODO: verify
+          role: "Voyage en couple, septembre 2025", // TODO: verify
         },
       ],
     },
