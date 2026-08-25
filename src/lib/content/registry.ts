@@ -60,6 +60,9 @@ import { destination as thailande } from "@/content/destinations/thailande";
 import { destination as jordanie } from "@/content/destinations/jordanie";
 import { destination as norvege } from "@/content/destinations/norvege";
 import { destination as islande } from "@/content/destinations/islande";
+import { destination as ileDePaques } from "@/content/destinations/ile-de-paques";
+import { destination as inde } from "@/content/destinations/inde";
+import { destination as zanzibar } from "@/content/destinations/zanzibar";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -231,6 +234,15 @@ import { experience as helicoHimalayaJomolhari } from "@/content/experiences/hel
 import { experience as torresPaineBaqueanos } from "@/content/experiences/torres-paine-baqueanos";
 import { experience as atacamaAstrophysicien } from "@/content/experiences/atacama-astrophysicien";
 import { experience as fjordsKawesqarGoelette } from "@/content/experiences/fjords-kawesqar-goelette";
+import { experience as tongarikiLeverSoleil } from "@/content/experiences/tongariki-lever-soleil";
+import { experience as terevakaChevalRapaNui } from "@/content/experiences/terevaka-cheval-rapa-nui";
+import { experience as umuRapaNuiFamille } from "@/content/experiences/umu-rapa-nui-famille";
+import { experience as highTeaFamilleRoyaleCochin } from "@/content/experiences/high-tea-famille-royale-cochin";
+import { experience as jalSanjhiUdaipur } from "@/content/experiences/jal-sanjhi-udaipur";
+import { experience as begumsDeDelhi } from "@/content/experiences/begums-de-delhi";
+import { experience as safariBleuBoutre } from "@/content/experiences/safari-bleu-boutre";
+import { experience as stoneTownVisitePrivee } from "@/content/experiences/stone-town-visite-privee";
+import { experience as epicesKidichiLivingstone } from "@/content/experiences/epices-kidichi-livingstone";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -372,6 +384,15 @@ import { accommodation as gangteyLodge } from "@/content/accommodations/gangtey-
 import { accommodation as awasiPatagonia } from "@/content/accommodations/awasi-patagonia";
 import { accommodation as exploraAtacama } from "@/content/accommodations/explora-atacama";
 import { accommodation as vikChile } from "@/content/accommodations/vik-chile";
+import { accommodation as exploraRapaNui } from "@/content/accommodations/explora-rapa-nui";
+import { accommodation as nayaraHangaroa } from "@/content/accommodations/nayara-hangaroa";
+import { accommodation as altiplanicoRapaNui } from "@/content/accommodations/altiplanico-rapa-nui";
+import { accommodation as amanbagh } from "@/content/accommodations/amanbagh";
+import { accommodation as tajMahalPalaceMumbai } from "@/content/accommodations/taj-mahal-palace-mumbai";
+import { accommodation as ahilyaFort } from "@/content/accommodations/ahilya-fort";
+import { accommodation as mnembaIslandLodge } from "@/content/accommodations/mnemba-island-lodge";
+import { accommodation as parkHyattZanzibar } from "@/content/accommodations/park-hyatt-zanzibar";
+import { accommodation as zanzibarWhiteSand } from "@/content/accommodations/zanzibar-white-sand";
 // Svart (src/content/accommodations/svart.tsx) reste volontairement hors
 // registre tant que la date d'ouverture n'est pas connue.
 
@@ -389,6 +410,9 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
   Object.fromEntries(items.map((i) => [i.slug, i]));
 
 export const destinations: Record<string, Destination> = toMap([
+  ileDePaques,
+  inde,
+  zanzibar,
   argentine,
   autriche,
   bahamas,
@@ -460,6 +484,15 @@ export const themes: Record<string, Theme> = toMap([
 export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
+  tongarikiLeverSoleil,
+  terevakaChevalRapaNui,
+  umuRapaNuiFamille,
+  highTeaFamilleRoyaleCochin,
+  jalSanjhiUdaipur,
+  begumsDeDelhi,
+  safariBleuBoutre,
+  stoneTownVisitePrivee,
+  epicesKidichiLivingstone,
   acropoleHorsHeures,
   apoReefPlongeePrivee,
   arlbergPeauDePhoque,
@@ -622,6 +655,15 @@ export const serviceCategories: Record<string, ServiceCategory> = toMap([
 export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
+  exploraRapaNui,
+  nayaraHangaroa,
+  altiplanicoRapaNui,
+  amanbagh,
+  tajMahalPalaceMumbai,
+  ahilyaFort,
+  mnembaIslandLodge,
+  parkHyattZanzibar,
+  zanzibarWhiteSand,
   ajiaHotel,
   akelarre,
   alBaitSharjah,
