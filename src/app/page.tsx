@@ -111,28 +111,43 @@ export default function Home() {
           ])}
         />
         <FaqSection
-          heading="Foire aux questions"
+          heading="Questions fréquentes"
           contact={{
-            prefix: "N'hésitez pas à ",
-            label: "nous contacter",
+            prefix: "Une question qui n'est pas ici ? ",
+            label: "Écrivez-nous",
             href: "/contact",
-            suffix: " si vous avez une question.",
+            suffix: ", nous répondons nous-mêmes.",
           }}
           items={[
             {
-              question: "Quand partir en polynésie ?",
+              question: "Comment se passe un premier échange ?",
               answer:
-                "La meilleure période s'étend de mai à octobre, pendant la saison sèche, avec un climat agréable et peu de précipitations.",
+                "Une conversation, pas un questionnaire. Vous nous dites où vous aimeriez aller, avec qui et à quel moment ; nous vous disons ce qui est possible, et ce qui l'est moins. Un travel designer vous est attribué dès cet échange, et c'est lui qui vous suit jusqu'au retour.",
             },
             {
-              question: "Quels sont les démarches administrative ?",
+              question: "Faut-il tout vous confier ?",
               answer:
-                "Un passeport valide est nécessaire pour les ressortissants de l'Union européenne. Aucun visa n'est requis pour un séjour touristique inférieur à 90 jours.",
+                "Non. Certains nous confient le voyage entier, d'autres seulement ce qui les encombre : les vols, les transferts, une table impossible à obtenir, un imprévu à rattraper. Vous gardez la main sur ce que vous souhaitez garder.",
             },
             {
-              question: "Question",
+              question: "Voyager avec des enfants, cela change-t-il quelque chose ?",
               answer:
-                "Réponse à la question. Complétez ce contenu selon vos besoins.",
+                "Cela change presque tout, et c'est justement le travail. Des enfants d'âges différents n'ont ni le même rythme ni la même patience : nous construisons des journées qui tiennent pour chacun, sans que personne n'ait le sentiment d'attendre les autres.",
+            },
+            {
+              question: "Combien coûte un voyage conçu par Exuma ?",
+              answer:
+                "Il n'y a pas de tarif au catalogue, puisqu'il n'y a pas de programme au catalogue. Nous partons du budget que vous avez en tête et nous vous disons franchement ce qu'il permet et ce qu'il ne permet pas. Nos honoraires vous sont annoncés avant que le travail commence.",
+            },
+            {
+              question: "Que se passe-t-il si quelque chose tourne mal sur place ?",
+              answer:
+                "Vous appelez votre interlocuteur, pas un standard. Vol annulé, hébergement décevant, contretemps de santé : nous reprenons la main depuis Paris et nous réorganisons ce qui doit l'être. C'est à ce moment précis que se juge une conciergerie.",
+            },
+            {
+              question: "Quelles garanties apportez-vous ?",
+              answer:
+                "Exuma est membre des Entreprises du Voyage et accrédité IATA. Vos versements sont couverts par les garanties professionnelles attachées à ces statuts, et une assurance voyage vous est proposée avant le départ.",
             },
           ]}
         />
