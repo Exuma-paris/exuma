@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Tanzanie",
       heading: "Le Serengeti et sa partie occidentale",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Tanzanie passe presque toujours par le Serengeti, qui s'étend sur 14 763 km². Sa partie occidentale est nettement moins proposée. Le corridor de Grumeti et la réserve d'Ikorongo y prolongent le parc vers le lac Victoria. Les droits de safari y sont détenus par un acteur unique.",
         "La migration ne suit pas de calendrier fixe. Elle dépend de la pousse de l'herbe et du rythme des pluies. Entre fin mai et juillet, le troupeau quitte les plaines du sud, remonte par l'ouest et atteint la rivière Grumeti. Le passage y est moins photographié que celui de la Mara, en août, côté kenyan. Il est aussi moins fréquenté.",
@@ -163,7 +163,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Tanzanie",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage en Tanzanie.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -222,7 +222,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Chaque dossier Tanzanie mobilise plusieurs expertises. Un interlocuteur unique en assure la coordination et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -245,7 +245,7 @@ export const destination: Destination = {
       heading: "Six territoires, du lac Victoria à l'océan Indien",
       description:
         "De la concession de Grumeti aux gorges d'Olduvai, du bord du cratère à l'îlot de Mnemba : six secteurs que peu d'itinéraires réunissent dans un même voyage.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -324,7 +324,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Tanzanie",
       description:
         "Huit points de repère issus du terrain. Ils servent à calibrer les attentes, à choisir la période et à comprendre le choix de certaines étapes.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le corridor ouest et la période de juin",
@@ -560,7 +560,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

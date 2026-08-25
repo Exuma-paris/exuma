@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import {
   accommodations,
   allTagged,
@@ -164,6 +165,79 @@ export function getRelatedDestinations(
         d.slug !== destinationSlug && d.continentSlug === target.continentSlug,
     )
     .slice(0, limit);
+}
+
+/**
+ * Themes shaped for a `featureCards` grid, with the hero image of each theme
+ * page as the card visual. Used by the home page so the thematic grid always
+ * mirrors the registry instead of hardcoding a list that drifts.
+ */
+export function getThemeCards(): {
+  title: string;
+  description: ReactNode;
+  image: { src: string; alt: string };
+  link: { label: string; href: string };
+}[] {
+  return Object.values(themes).flatMap((theme) => {
+    const hero = theme.sections.find((s) => s.type === "hero");
+    // The card is square; prefer the 1:1 derivative when the theme has one.
+    const image = theme.cardImage ?? hero?.images?.[0];
+    if (!image) return [];
+    return [
+      {
+        title: theme.name,
+        description: theme.blurb,
+        image,
+        link: { label: "Découvrir", href: `/themes/${theme.slug}` },
+      },
+    ];
+  });
+}
+
+/**
+ * The five service poles shaped for a `bento` grid, with each service page's
+ * hero image as the card visual. Registry-driven so the home always states the
+ * offer exactly as the service pages do.
+ */
+export function getServiceCategoryCards(): {
+  title: string;
+  description: string;
+  image: { src: string; alt: string };
+  href: string;
+}[] {
+  return Object.values(serviceCategories).flatMap((category) => {
+    const hero = category.sections.find((s) => s.type === "hero");
+    const image = hero?.images?.[0];
+    // Blurbs are authored as plain strings; anything richer has no place on a
+    // bento card, so skip rather than render an empty tile.
+    if (!image || typeof category.blurb !== "string") return [];
+    return [
+      {
+        title: category.name,
+        description: category.blurb,
+        image,
+        href: `/services/${category.slug}`,
+      },
+    ];
+  });
+}
+
+/**
+ * Travel designers mis en avant, dans l'ordre donné, prêts pour la section
+ * `testimonials`. Seuls ceux qui portent un verbatim sont retenus : afficher
+ * une carte de citation vide n'aurait pas de sens.
+ */
+export function getTravelDesignerTestimonials(slugs: string[]): {
+  quote: string;
+  image: { src: string; alt: string };
+  name: string;
+  role?: string;
+}[] {
+  return slugs.flatMap((slug) => {
+    const c = collaborateurs[slug];
+    if (!c?.quote) return [];
+    return [{ quote: c.quote, image: c.image, name: c.name, role: c.role }];
+  });
 }
 
 function matches(haystack: unknown, needle: string): boolean {

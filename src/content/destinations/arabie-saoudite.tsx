@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Arabie Saoudite",
       heading: "AlUla, Diriyah, puis la mer Rouge",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Arabie Saoudite commence par AlUla. La vallée s'ouvre d'un coup après le désert : des tables de grès rouge de cent mètres de haut, séparées par du sable clair, et une oasis de palmiers cultivée en continu depuis plus de deux mille ans. Les hommes s'y arrêtent depuis toujours parce que l'eau y affleure. Hegra, la cité nabatéenne, est à vingt minutes de la vieille ville.", // TODO: verify l'ancienneté de la culture de l'oasis d'AlUla
         "Riyad tient le centre du pays et se visite pour Diriyah. C'est le quartier d'At-Turaif, berceau de la première dynastie saoudienne, bâti en terre crue au bord d'un oued et inscrit au patrimoine mondial en 2010. Les murs sont épais, les ruelles étroites, les toits en troncs de palmier. On y comprend d'où vient le royaume avant de regarder ce qu'il construit aujourd'hui.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Arabie Saoudite",
       description:
         "Vol, monnaie, formalités et saisons : les repères qui permettent de poser les dates d'un voyage en Arabie Saoudite.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,7 +219,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Arabie Saoudite. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "Six étapes, d'AlUla à la mer Rouge",
       description:
         "Six étapes qui ne se ressemblent pas : une cité nabatéenne, une vieille ville de terre, une falaise couverte d'écritures, une réserve fermée au public, le berceau du royaume et une côte de récifs.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -322,7 +322,7 @@ export const destination: Destination = {
         "Les conseils de nos experts pour votre voyage en Arabie Saoudite",
       description:
         "Huit repères venus du terrain : la lumière, le café, la table, les distances, et ce qui change quand on part à plusieurs.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le café se sert jusqu'à ce qu'on secoue la tasse",
@@ -558,43 +558,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
-      testimonials: [
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Arabie Saoudite",
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous sommes entrés à Hegra au premier créneau du matin. Il n'y avait que nous et le guide, qui a passé une heure devant un seul tombeau. Nous en sommes ressortis en connaissant le nom de son sculpteur.",
-          image: {
-            src: "/destination/arabie-saoudite/hero-1.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: AlUla, février 2026", // TODO: replace with real testimonial
+          title: "Hegra, au premier créneau",
+          description:
+            "Le site s'ouvre pour vous seuls et le guide passe une heure devant un seul tombeau. On en ressort en connaissant le nom de son sculpteur.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Le dîner s'est fait au fond d'un canyon, avec des lampes posées à même le sable. Avant cela, le guide nous avait montré des scorpions fluorescents à la lampe UV. Je n'imaginais pas le désert aussi habité.",
-          image: {
-            src: "/destination/arabie-saoudite/hero-2.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Réserve de Sharaan, décembre 2025", // TODO: replace with real testimonial
+          title: "Un dîner dans la réserve de Sharaan",
+          description:
+            "Les lampes sont posées à même le sable, au fond d'un canyon. Avant le dîner, la lampe UV du guide fait apparaître les scorpions fluorescents : le désert est plus habité qu'il n'y paraît.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous avons dormi dans une maison de terre de la vieille ville, éclairée à la bougie. Le matin, dix minutes de marche suffisaient pour être dans l'oasis, entre les palmiers.",
-          image: {
-            src: "/destination/arabie-saoudite/hero-3.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Vieille ville d'AlUla, novembre 2025", // TODO: replace with real testimonial
+          title: "La vieille ville d'AlUla",
+          description:
+            "Une maison de terre éclairée à la bougie, dans les ruelles de la vieille ville. Dix minutes de marche le matin suffisent pour être dans l'oasis, entre les palmiers.",
         },
       ],
     },

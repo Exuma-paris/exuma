@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Irlande",
       heading: "Dublin, l'ouest sauvage, puis le sud plus doux",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Irlande commence par Dublin. La ville est petite et se parcourt à pied. On va voir le Book of Kells, un manuscrit peint par des moines il y a douze siècles, conservé dans la bibliothèque de Trinity College. Le reste de la journée se passe dans les rues géorgiennes, devant les portes peintes de couleurs vives. Le soir, la ville dîne tard et bien.",
         "L'ouest est tout autre chose. La route y traverse des landes, des tourbières et des lacs, et le paysage reste vide d'un bout à l'autre. C'est là, au bord d'un grand lac aux portes du Connemara, que se trouve Ashford Castle. Le matin, on part en forêt avec un fauconnier : l'oiseau vole d'arbre en arbre au-dessus de la marche, puis revient se poser sur le gant.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Irlande",
       description:
         "Trajet, monnaie, formalités et saisons. Voici les repères qui permettent de caler les dates d'un voyage en Irlande.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Irlande. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six étapes, de Dublin à la côte du Cork",
       description:
         "Six secteurs et six registres : une capitale géorgienne, un lac et ses bois, un plateau calcaire nu, une péninsule de langue irlandaise, un port de pêche devenu place gastronomique et une falaise tournée vers le sud.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Irlande",
       description:
         "Huit repères issus du terrain. Ils aident à choisir la période, à découper les journées et à comprendre ce qui se prépare très longtemps à l'avance.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "La lumière change vite",
@@ -548,43 +548,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
-      testimonials: [
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage en Irlande",
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous avons longé les falaises de Moher par la mer, à hauteur des oiseaux, avec un ciel parfaitement dégagé. L'hélicoptère s'est ensuite posé sur une plage où l'on n'arrive pas autrement, et le déjeuner nous attendait sous une tente montée le matin.",
-          image: {
-            src: "/destination/irlande/hero-1.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Clare et Connemara, juin 2025", // TODO: replace with real testimonial
+          title: "Les falaises de Moher, par la mer",
+          description:
+            "L'hélicoptère longe les falaises à hauteur des oiseaux, puis se pose sur une plage où l'on n'arrive pas autrement. La tente du déjeuner a été montée le matin même.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Le faucon est parti dans les arbres et il est revenu se poser sur mon gant. Mon fils de onze ans en parle encore. Nous étions sortis du château à huit heures du matin, il n'y avait personne d'autre dans les bois.",
-          image: {
-            src: "/destination/irlande/hero-2.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Ashford Castle et le Connemara, août 2025", // TODO: replace with real testimonial
+          title: "Ashford Castle et les bois de Cong",
+          description:
+            "Sortie du château à huit heures. Le faucon part dans les arbres et revient se poser sur le gant. À cette heure, il n'y a personne d'autre dans les bois.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous avons goûté trois fûts uniques dans un chai que personne ne visite, avec le maître-distillateur pour seule compagnie. Il nous a expliqué pourquoi l'orge crue change tout. J'ai rapporté une bouteille tirée devant nous.",
-          image: {
-            src: "/destination/irlande/hero-3.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Cork et Ardmore, septembre 2025", // TODO: replace with real testimonial
+          title: "Le chai fermé de Midleton",
+          description:
+            "Trois fûts uniques, dégustés dans un chai que personne ne visite, avec le maître-distillateur pour seule compagnie. Il explique pourquoi l'orge crue change tout, et tire la bouteille devant vous.",
         },
       ],
     },

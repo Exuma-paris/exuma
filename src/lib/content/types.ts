@@ -100,6 +100,14 @@ export type DestinationLanding = {
 export type Theme = EntityBase & {
   intent?: string;
   subthemeSlugs?: string[];
+  /**
+   * Square derivative of the hero image, for the thematic cards on the home
+   * page. The theme page itself uses the 16:9 master from `sections`; the card
+   * crops to 1:1, so it needs the variant `crop-images.py` anchors on the
+   * subject rather than a blind centre crop. Falls back to the master when
+   * absent.
+   */
+  cardImage?: ImageRef;
 };
 
 export type Subtheme = EntityBase & {
@@ -137,6 +145,13 @@ export type Accommodation = EntityBase & {
 
 export type Collaborateur = EntityBase & {
   role?: string;
+  /**
+   * Verbatim attribué à la personne. Il vit sur sa fiche et non dans la page
+   * qui l'affiche, pour qu'un changement de citation n'ait qu'un seul point
+   * d'entrée. À faire valider par l'intéressé avant publication : on ne prête
+   * pas de propos à quelqu'un sans son accord.
+   */
+  quote?: string;
   /** Full-shot portrait (250×300, person sitting in chair). */
   image: ImageRef;
   /** Square zoom on the face (300×300). Used for header avatars, chips, etc. */

@@ -30,8 +30,8 @@ export const serviceCategory: ServiceCategory = {
         "Places privilégiées, tables introuvables, guides experts et navigation privée, l'accès aux expériences hors circuit.",
       images: [
         {
-          src: "/destination/polynesie/hero-1.png",
-          alt: "Service lifestyle",
+          src: "/service/lifestyle/hero-1.png",
+          alt: "Table de chef dressée face aux cuisines d'un restaurant gastronomique",
         },
       ],
     },

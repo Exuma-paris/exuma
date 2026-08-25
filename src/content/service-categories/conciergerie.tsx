@@ -27,8 +27,8 @@ export const serviceCategory: ServiceCategory = {
         "Surprises, célébrations, événements privés, sélection de personnel qualifié et capacité à obtenir l'impossible, même dans l'urgence.",
       images: [
         {
-          src: "/destination/corse/hero-1.png",
-          alt: "Conciergerie",
+          src: "/service/conciergerie/hero-1.png",
+          alt: "Mains d'un concierge remettant une clé au comptoir d'un hôtel",
         },
       ],
     },

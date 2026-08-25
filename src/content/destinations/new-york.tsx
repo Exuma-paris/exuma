@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de New York",
       heading: "Chaque quartier a son heure",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à New York se règle sur des horaires plutôt que sur des distances. Le Theater District se vide et se remplit deux fois par soirée. Le West Village s'anime vers sept heures, quand les tables de Bleecker et de Cornelia sortent sur le trottoir. L'Upper East Side, lui, se prend le matin, avant que la Cinquième Avenue ne se charge.",
         "Les adresses qui comptent sont rarement les plus grandes. Un cabaret de quelques dizaines de couverts sur Madison, une table de comptoir dans le West Village, et deux collections restées dans leur maison, le Frick et la Morgan, qui se parcourent en une heure. Manhattan en compte des milliers : le travail consiste à en retenir deux ou trois par quartier, et à les placer au bon moment.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à New York",
       description:
         "Vol, formalités, saisons et usages : les repères qui permettent de poser les dates d'un voyage à New York.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier New York. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six endroits, chacun à son heure",
       description:
         "Six endroits qui ne se prennent pas au même moment de la journée : une collection restée dans sa maison, une place qui devient patinoire, un quartier de théâtres, des rues de travers, un parc dessiné avant les immeubles, et l'eau qui ferme l'île au sud.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 12,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à New York",
       description:
         "Neuf repères venus du terrain : les jours de fermeture, les horaires de Broadway, le pourboire, les distances, et ce qui change quand on part avec des enfants.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Les jours de fermeture sont les meilleurs jours",
@@ -576,43 +576,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
-      testimonials: [
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage à New York",
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Nous sommes entrés au Frick un jour de fermeture. Il n'y avait que nous, la conférencière et les Vermeer. Ma fille de quinze ans a passé dix minutes devant un seul tableau, ce qui ne lui était jamais arrivé.",
-          image: {
-            src: "/destination/new-york/hero-1.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: New York, avril 2026", // TODO: replace with real testimonial
+          title: "Le Frick, un jour de fermeture",
+          description:
+            "Le musée est fermé, il n'y a que la conférencière et les Vermeer. Devant un seul tableau, dix minutes passent sans que personne pense à avancer.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Après le spectacle, deux comédiens se sont assis à notre table. Ils ont raconté les auditions et les huit représentations par semaine pendant une heure. Les enfants en parlent encore.",
-          image: {
-            src: "/destination/new-york/hero-2.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Broadway, décembre 2025", // TODO: replace with real testimonial
+          title: "Broadway, après le rideau",
+          description:
+            "Deux comédiens s'assoient à table après le spectacle et racontent une heure durant les auditions et les huit représentations par semaine.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "La patinoire du Rockefeller nous a été laissée à la fin de la soirée. Nous avons dîné au bord de la glace, puis patiné à cinq, avec les tours allumées au-dessus.",
-          image: {
-            src: "/destination/new-york/hero-3.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Rockefeller Center, janvier 2026", // TODO: replace with real testimonial
+          title: "La patinoire du Rockefeller Center",
+          description:
+            "La glace est laissée à votre groupe en fin de soirée. Le dîner se prend au bord de la piste, avant de patiner sous les tours allumées.",
         },
       ],
     },

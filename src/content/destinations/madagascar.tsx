@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de Madagascar",
       heading: "Le Nord, la côte ouest, puis la forêt de l'Est",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Madagascar commence souvent par le Nord. Autour d'Antsiranana, la terre est rouge et l'air sent la poussière chaude. Les Tsingy Rouges, dans la vallée de l'Irodo, en sont la forme la plus spectaculaire. Au large, les îles sont nombreuses et presque vides : Nosy Ankao à l'est, l'archipel des Mitsio à l'ouest. Sur chacune, une plage, quelques villas et personne d'autre.",
         "Plus au sud, sur la côte ouest, Anjajavy occupe une presqu'île que la route n'atteint pas : on y arrive par les airs, sur une piste en terre. Le long de cette côte, les pêcheurs vezo naviguent en pirogue à voile et partent avec le vent du matin. Près de Morondava, l'allée des baobabs aligne une vingtaine de ces arbres de part et d'autre d'une piste de sable. Les Sakalava, le peuple de cette région, les considèrent comme des ancêtres.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Madagascar",
       description:
         "Vol, formalités, monnaie et saisons : de quoi caler les dates et la durée d'un voyage à Madagascar.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se croisent sur un dossier Madagascar : les vols intérieurs, les lodges, les pisteurs. Un seul interlocuteur coordonne l'ensemble et reste le vôtre.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six étapes, du Nord rouge à la forêt de l'Est",
       description:
         "Six étapes qui ne se ressemblent pas : une baie et ses cirques de latérite, deux îles posées au large, une presqu'île de forêt sèche, une allée de baobabs sur la piste de Morondava, et un parc de forêt humide à l'est d'Antananarivo.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Madagascar",
       description:
         "Huit repères venus du terrain : les liaisons intérieures, l'heure des lémuriens, les guides de village, la table, la vanille, Antananarivo et les saisons.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le Nord se rejoint en avion",
@@ -555,43 +555,25 @@ export const destination: Destination = {
     },
 
     {
-      type: "testimonials",
-      eyebrow: "Témoignages",
-      heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
-      testimonials: [
+      type: "spotsList",
+      eyebrow: "Récits de voyage",
+      heading: "Trois scènes d'un voyage à Madagascar",
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      spots: [
         {
-          // TODO: replace with real testimonial
-          quote:
-            "Je pensais qu'il fallait marcher des heures pour voir un lémurien. Le premier est passé devant la terrasse pendant le petit déjeuner, puis un deuxième. Ils habitent la forêt qui touche l'hôtel, et ils passent tous les matins à la même heure.",
-          image: {
-            src: "/destination/madagascar/hero-1.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Anjajavy, septembre 2025", // TODO: replace with real testimonial
+          title: "Anjajavy, au petit déjeuner",
+          description:
+            "Les lémuriens habitent la forêt qui touche l'hôtel. Ils passent devant la terrasse tous les matins à la même heure, sans qu'il faille marcher des heures pour les voir.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "La marche de nuit, on l'a faite sans trop y croire. En une heure, le pisteur nous a montré trois caméléons endormis sur des branches à hauteur d'yeux, puis un lémurien de la taille d'une pomme. Il les repérait à la lampe avant nous, chaque fois.",
-          image: {
-            src: "/destination/madagascar/hero-2.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Andasibe, octobre 2025", // TODO: replace with real testimonial
+          title: "La marche de nuit d'Andasibe",
+          description:
+            "En une heure, le pisteur repère à la lampe trois caméléons endormis à hauteur d'yeux, puis un lémurien de la taille d'une pomme. Il les voit chaque fois avant vous.",
         },
         {
-          // TODO: replace with real testimonial
-          quote:
-            "L'hélicoptère s'est posé sur la plage, puis il est reparti. Nous étions huit sur l'île. Le soir, on marchait jusqu'à la pointe sans croiser personne, et le matin l'équipe savait déjà à quelle heure nous voulions le café.",
-          image: {
-            src: "/destination/madagascar/hero-3.png",
-            alt: "Portrait", // TODO: verify
-          },
-          name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Nosy Ankao, juin 2026", // TODO: replace with real testimonial
+          title: "Nosy Ankao, huit personnes sur l'île",
+          description:
+            "L'hélicoptère se pose sur la plage et repart. On marche jusqu'à la pointe sans croiser personne, et l'équipe sait dès le matin à quelle heure servir le café.",
         },
       ],
     },
