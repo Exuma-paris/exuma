@@ -165,7 +165,7 @@ Each `<h2>` must be unique on the page. The canonical section list already produ
 - **`bento.cards[].description`** — concrete, almost a tagline.
 - **`placesMap.places[].description`** — open on a fact about the place; close on what makes it different.
 - **`tips.items[].shortDescription`** — no period at end is fine.
-- **`testimonials.testimonials[].quote`** — first-person voice (the traveller). Real-customer texture: small details, slightly imperfect rhythm. **Always flag with `// TODO: replace with real testimonial`.**
+- **`spotsList.spots[].description`** (à la place d'un bloc témoignages) — tournure impersonnelle, jamais la voix d'un client. Un détail concret, une heure, un geste. Aucun nom de personne, aucune date de séjour. Les blocs `testimonials` ne se rédigent pas : ils ne contiennent que des avis réellement recueillis.
 - **`faq.items[].answer`** — direct, factual, no sensory copy. The only place "vous" is fully natural.
 
 ---
@@ -212,7 +212,7 @@ Plus the local link CTAs: "Découvrir", "Voir tout {region}". No exclamation mar
 
 ## Placeholder discipline
 
-When a fact is invented (flight time, coordinates, hotel name, testimonial quote, country/continent assignment in ambiguous cases), flag with `// TODO: verify` on the same line. For testimonials specifically: every quote, name, and role gets `// TODO: replace with real testimonial` — testimonials are real-customer content and must never be silently invented.
+When a fact is invented (flight time, coordinates, hotel name, country/continent assignment in ambiguous cases), flag with `// TODO: verify` on the same line. Customer testimonials are the one thing that is never invented, flagged or not: a fabricated review is a deceptive commercial practice (article L121-2 du Code de la consommation), and the flags have repeatedly shipped to production unnoticed. Write a `spotsList` of unattributed scenes instead.
 
 ---
 

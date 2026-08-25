@@ -351,28 +351,34 @@ The `content` is `React.ReactNode` — `data.tsx` MUST be `.tsx` for this to com
 
 ---
 
-## 13. testimonials
+## 13. spotsList — trois scènes du voyage
+
+**N'utilisez JAMAIS le bloc `testimonials` ici.** Il attend un avis client réel, avec un nom et un portrait. Inventer un témoignage, même signalé par un `TODO`, revient à publier un faux avis : c'est une pratique commerciale trompeuse (article L121-2 du Code de la consommation) et cela finit en ligne. Le bloc `testimonials` est réservé aux textes que l'agence a réellement recueillis et qu'elle est en mesure de prouver.
+
+À cette position, écrivez trois scènes concrètes, sans attribution :
 
 ```tsx
 {
-  type: "testimonials",
-  eyebrow: "Témoignages",
-  heading: "Ils ont vécu l'expérience Exuma",
-  cta: { label: "Créer mon voyage", href: "/votre-projet" },
-  testimonials: [
+  type: "spotsList",
+  eyebrow: "Récits de voyage",
+  heading: "Trois scènes de ce voyage",
+  cta: { label: "Construire ce voyage", href: "/votre-projet" },
+  spots: [
     {
-      // TODO: replace with real testimonial
-      quote: "…",
-      image: { src: "/destination/<slug>/hero-1.png", alt: "Portrait" },  // reuse hero
-      name: "TODO",
-      role: "TODO: contexte (Voyage de noces, octobre 2025)",
+      title: "…",        // le lieu ou le moment (max 50 caractères)
+      description: "…",  // la scène, 180 caractères visés
     },
-    // …2 more, reusing hero-2.png and hero-3.png
+    // …2 autres
   ],
 }
 ```
 
-Reusing hero images for portraits matches both reference pages — no new image files needed.
+Règles d'écriture :
+
+- **Troisième personne ou tournure impersonnelle.** « L'hélicoptère se pose sur une plage où l'on n'arrive pas autrement », jamais « nous nous sommes posés ».
+- **Aucun nom de personne, aucune date de séjour, aucun portrait.** Rien qui laisse croire au récit d'un client identifiable.
+- **Jamais les noms des personas** (Frédéric, Constance, Édouard, Bernard & Michèle, Olivier, Sophie, Alexandre). Ce sont des outils internes, ils n'ont rien à faire dans une page publique.
+- Le `title` nomme le lieu ou le moment, la `description` raconte ce qui s'y passe : un détail concret, une heure, un geste.
 
 ---
 
