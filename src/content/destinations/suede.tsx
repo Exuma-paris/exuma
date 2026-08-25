@@ -20,7 +20,7 @@ export const destination: Destination = {
     "kiruna",
     "aurores boreales",
   ],
-  metaTitle: "Suède — Voyage sur mesure",
+  metaTitle: "Suède : Voyage sur mesure",
   metaDescription:
     "Voyage en Suède sur mesure : archipel de Stockholm, Laponie polaire, Gotland. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
   sections: [
