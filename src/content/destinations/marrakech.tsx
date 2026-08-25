@@ -65,11 +65,11 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Marrakech — L'artisanat et le geste",
+      eyebrow: "Marrakech, l'artisanat et le geste",
       heading: "Ce qui se fabrique encore à la main",
       theme: "light",
       paragraphs: [
-        "Dans le souk des teinturiers, le cuir trempe dans des cuves de chaux depuis le XIe siècle. Le procédé n'a pas changé. Les peaux montent sur les terrasses pour sécher au soleil, et l'odeur — âcre, minérale — signale le quartier avant qu'on ne le voie. Plus loin, rue Amesfah, un maître zelligeur découpe les tesselles à l'œil, sans gabarit. Chaque pièce est un losange irrégulier qui trouvera sa place dans un motif géométrique de huit mille fragments.",
+        "Dans le souk des teinturiers, le cuir trempe dans des cuves de chaux depuis le XIe siècle. Le procédé n'a pas changé. Les peaux montent sur les terrasses pour sécher au soleil, et l'odeur, âcre et minérale, signale le quartier avant qu'on ne le voie. Plus loin, rue Amesfah, un maître zelligeur découpe les tesselles à l'œil, sans gabarit. Chaque pièce est un losange irrégulier qui trouvera sa place dans un motif géométrique de huit mille fragments.",
         "Le geste artisanal à Marrakech n'est pas une mise en scène pour visiteurs. C'est une économie. Les ateliers de dinanderie, de marqueterie de thuya, de broderie fassi emploient des familles entières. On y entre par une porte sans enseigne, on s'assoit, on regarde. Le bruit du marteau sur le cuivre est le même depuis quatre siècles.",
       ],
       images: [
@@ -188,7 +188,7 @@ export const destination: Destination = {
         {
           title: "Itinéraires médina–Atlas",
           description:
-            "Nous assemblons les deux registres — ville et montagne — dans une logique de rythme, pas de distance.",
+            "Nous assemblons les deux registres, ville et montagne, dans une logique de rythme, pas de distance.",
           image: {
             src: "/destination/marrakech/bento-map.png",
             alt: "Carte d'itinéraire personnalisé Marrakech et Atlas",
@@ -275,7 +275,7 @@ export const destination: Destination = {
           coordinates: { lat: 31.6216, lng: -7.9833 }, // TODO: verify coords
         },
         {
-          title: "Le plateau du Kik — Atlas",
+          title: "Le plateau du Kik, Atlas",
           description:
             "À une heure de route. Un plateau à 1 800 mètres d'altitude face à la chaîne du Toubkal. Pas de tourisme organisé. Un berger, des troupeaux, un silence de montagne.",
           image: {
@@ -295,7 +295,7 @@ export const destination: Destination = {
           coordinates: { lat: 31.6100, lng: -7.9850 }, // TODO: verify coords
         },
         {
-          title: "Skoura — la palmeraie du Dadès",
+          title: "Skoura, la palmeraie du Dadès",
           description:
             "Deux heures trente de route vers l'est. Une palmeraie traversée de kasbahs en terre, dont celle d'Amridil. Le rythme change : on passe de la ville rouge au silence ocre du pré-Sahara.",
           image: {
@@ -325,7 +325,7 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                La médina se parcourt à pied sur des sols irréguliers — dalles,
+                La médina se parcourt à pied sur des sols irréguliers : dalles,
                 terre battue, pavés disjoints. Des chaussures fermées et
                 confortables sont indispensables. Pour le reste : lin ou coton
                 léger en journée, une veste en laine pour les soirées si
@@ -352,7 +352,7 @@ export const destination: Destination = {
               <p>
                 Pas de vaccin obligatoire pour le Maroc. Hépatite A recommandée
                 par prudence, DTP à jour. L'eau du robinet n'est pas potable
-                dans l'usage courant — tous les établissements fournissent de
+                dans l'usage courant. Tous les établissements fournissent de
                 l'eau en bouteille.
               </p>
               <h4 className="font-medium">Conseil :</h4>
@@ -374,7 +374,7 @@ export const destination: Destination = {
             <div className="flex flex-col gap-4">
               <p>
                 D'octobre à mai, les températures oscillent entre 18 et 28 °C.
-                Juin à septembre dépasse régulièrement 40 °C — la ville se
+                Juin à septembre dépasse régulièrement 40 °C. La ville se
                 vide, les terrasses ferment à midi. Le printemps (mars-mai)
                 combine jardins en floraison, Atlas accessible sans neige basse,
                 et affluence modérée.
@@ -397,7 +397,7 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                Le dirham marocain (MAD) ne se change pas hors du Maroc — prévoir
+                Le dirham marocain (MAD) ne se change pas hors du Maroc : prévoir
                 le retrait sur place ou le change à l'arrivée. Les établissements
                 haut de gamme acceptent la carte. Dans les souks, le paiement est
                 en espèces et le prix se négocie (diviser le premier prix par
