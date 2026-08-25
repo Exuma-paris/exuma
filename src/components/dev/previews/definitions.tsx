@@ -353,7 +353,7 @@ export const definitions: PreviewDefinition[] = [
           eyebrow="Voyage de luxe en Polynésie"
           heading="Vivez l'inaccessible"
           description="Créateur de voyages d'exception façonnés selon vos aspirations, entre atolls préservés et adresses confidentielles de Polynésie."
-          cta={{ label: "Créez votre voyage", href: "/reserver" }}
+          cta={{ label: "Créez votre voyage", href: "/votre-projet" }}
           rating={
             str(v.showRating) === "yes"
               ? { score: 4.9, label: "247 voyages créés en 2025" }

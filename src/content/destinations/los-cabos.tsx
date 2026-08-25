@@ -83,7 +83,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de Los Cabos",
       heading: "La pointe de la Baja",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Los Cabos commence souvent par une image : l'Arco de Cabo San Lucas, cette arche rocheuse dorée où le Pacifique rencontre la mer de Cortez au bout de la péninsule. Ce n'est pas un hasard géographique. C'est la logique du lieu : une fin de terre entre deux eaux, que les baleines, les raies-aigles et les otaries habitent avant nous.",
         "San José del Cabo tient le registre inverse. Pas de marina, pas de discothèque. Des rues pavées du XVIIIe siècle, un district des galeries ouvert le jeudi soir, des restaurants où les chefs cuisinent les légumes du matin. À trente kilomètres au sud, une autre ville commence.",
@@ -176,7 +176,7 @@ export const destination: Destination = {
       heading: "Voyage sur mesure à Los Cabos",
       description:
         "De l'Arco de Cabo San Lucas aux vignes du Valle de Guadalupe, chaque étape est construite pour ne rien laisser au hasard.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Création d'itinéraires",
@@ -233,7 +233,7 @@ export const destination: Destination = {
       heading: "De Cabo Pulmo à La Paz",
       description:
         "Six lieux qui définissent la géographie du voyage : l'arche, la réserve marine, la ville d'artistes, l'île aux otaries.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -311,7 +311,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Los Cabos",
       description:
         "Ce que les guides ne disent pas, et ce qu'on règle pour vous avant le départ.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",

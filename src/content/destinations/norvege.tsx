@@ -84,7 +84,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Deux Norvège, séparées par mille kilomètres",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Norvège commence par le choix d'une région. Deux zones concentrent l'essentiel de nos itinéraires. À l'ouest, autour d'Ålesund et de Geiranger, la mer entre dans les terres et forme les fjords. Au nord, à plus de mille kilomètres de là, les îles Lofoten se trouvent au-delà du cercle polaire. Sur une photo, les deux régions se ressemblent. Sur place, on ne fait pas du tout le même voyage.",
         "À l'ouest, le paysage est vert et très vertical. Le Geirangerfjord s'étire sur quinze kilomètres et les montagnes qui l'entourent culminent entre 1 600 et 1 700 mètres. La cascade des Sept Sœurs y tombe de 410 mètres, en sept jets séparés. Sur les corniches, on aperçoit d'anciennes fermes : Skageflå, Knivsflå. Des familles y ont vécu jusqu'au début du vingtième siècle, sans autre accès qu'une barque et une échelle. Plus au sud, autour du Hjørundfjord, les montagnes des Alpes de Sunnmøre descendent directement jusqu'à la mer. Ålesund, reconstruite en style art nouveau après l'incendie de 1904, sert de point d'arrivée.",
@@ -177,7 +177,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Norvège",
       description:
         "Temps de vol, formalités, monnaie, saisons et lumière : l'essentiel pour choisir vos dates avant de choisir votre itinéraire.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -236,7 +236,7 @@ export const destination: Destination = {
       heading: "Voyage sur mesure en Norvège",
       description:
         "Plusieurs expertises interviennent sur chaque dossier norvégien. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'à votre retour.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Création d'itinéraires",
@@ -294,7 +294,7 @@ export const destination: Destination = {
       heading: "Six lieux autour desquels s'organisent nos itinéraires",
       description:
         "Trois dans les Lofoten, trois dans le Sunnmøre. La plupart de nos voyages se construisent sur l'un des deux blocs, ou sur les deux quand la durée le permet.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -367,7 +367,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Norvège",
       description:
         "Huit observations de terrain qui expliquent pourquoi nous inscrivons une étape à une date plutôt qu'à une autre.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -586,7 +586,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

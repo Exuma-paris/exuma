@@ -10,6 +10,9 @@ import { SingleChoiceView } from "./questions/single-choice";
 import { MultiChoiceView } from "./questions/multi-choice";
 import { CalendarQuestionView } from "./questions/calendar";
 import { ContactQuestionView } from "./questions/contact";
+import { DestinationQuestionView } from "./questions/destination";
+import { TravelersQuestionView } from "./questions/travelers";
+import { PeriodQuestionView } from "./questions/period";
 
 export type RenderQuestionProps = {
   question: Question;
@@ -77,6 +80,30 @@ export function RenderQuestion({
                 }
           }
           onChange={(value) => onChange({ type: "contact", value })}
+        />
+      );
+    case "destination":
+      return (
+        <DestinationQuestionView
+          question={question}
+          value={a.type === "destination" ? a.value : { text: "", matches: [] }}
+          onChange={(value) => onChange({ type: "destination", value })}
+        />
+      );
+    case "travelers":
+      return (
+        <TravelersQuestionView
+          question={question}
+          value={a.type === "travelers" ? a.value : { adults: 2, children: 0 }}
+          onChange={(value) => onChange({ type: "travelers", value })}
+        />
+      );
+    case "period":
+      return (
+        <PeriodQuestionView
+          question={question}
+          value={a.type === "period" ? a.value : { mode: null, detail: "" }}
+          onChange={(value) => onChange({ type: "period", value })}
         />
       );
   }

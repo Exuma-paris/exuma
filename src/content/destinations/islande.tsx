@@ -83,7 +83,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une seule route fait le tour de l'île",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Islande commence par le choix d'un rythme. Une seule grande route fait le tour complet de l'île, la route 1. On peut la suivre entièrement, ou n'en parcourir qu'une portion et rester plusieurs nuits au même endroit. Nos itinéraires se concentrent presque toujours sur la côte sud. C'est la partie du pays où les glaciers, les cascades et les plages noires se succèdent le long de la même route.",
         "Sur cette côte, on roule avec la mer d'un côté et les glaciers de l'autre. Le plus grand d'entre eux s'appelle le Vatnajökull. C'est le glacier le plus volumineux d'Europe. Plusieurs langues de glace en descendent jusqu'à la plaine. Au bout de l'une d'elles s'est formé un lac, le Jökulsárlón. Des blocs de glace s'en détachent et flottent parfois plusieurs saisons avant de rejoindre la mer. La marée en ramène une partie sur la plage voisine, où ils restent posés sur le sable noir jusqu'à fondre.",
@@ -176,7 +176,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Islande",
       description:
         "Temps de vol, formalités, monnaie, saisons et météo : l'essentiel pour choisir vos dates avant de choisir votre itinéraire.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -235,7 +235,7 @@ export const destination: Destination = {
       heading: "Voyage sur mesure en Islande",
       description:
         "Plusieurs expertises interviennent sur chaque dossier islandais. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'à votre retour.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Création d'itinéraires",
@@ -293,7 +293,7 @@ export const destination: Destination = {
       heading: "Six lieux autour desquels s'organisent nos itinéraires",
       description:
         "Tous se trouvent sur la côte sud ou juste au large. La plupart de nos voyages se construisent en deux bases, l'une autour de Hvolsvöllur, l'autre au pied du Vatnajökull.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -366,7 +366,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Islande",
       description:
         "Huit observations de terrain qui expliquent pourquoi nous plaçons une étape à une date plutôt qu'à une autre.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -602,7 +602,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

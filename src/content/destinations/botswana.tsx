@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Botswana",
       heading: "Trois milieux qui ne se ressemblent pas",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Botswana se déploie à travers trois territoires. D'abord, le delta de l'Okavango. On l'explore en bateau ou en mokoro, cette pirogue traditionnelle poussée à la perche. Viennent ensuite les plaines de Moremi, autour de la rivière Gomoti. Ici, le véhicule retrouve toute sa place. Enfin, les salines du Makgadikgadi dévoilent un horizon plat et blanc, sur des dizaines de kilomètres.",
         "La crue arrive à contretemps. Les pluies tombent sur les hauts plateaux d'Angola, entre janvier et mars. L'eau traverse ensuite la bande de Caprivi. Elle s'étale enfin dans les sables du Kalahari, entre mai et août. Le delta atteint ainsi son plus haut niveau, alors que le ciel reste sec depuis plusieurs semaines. Ce décalage concentre la faune sur les îles et les bras encore navigables.",
@@ -164,7 +164,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Botswana",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons. Voici les repères qui permettent de caler les dates d'un voyage au Botswana.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -223,7 +223,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Botswana. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Six territoires, du delta aux salines",
       description:
         "Six secteurs composent la carte du pays, du delta de l'Okavango aux baobabs de Baines, de la rivière Gomoti au front de Chobe. Peu d'itinéraires les réunissent dans un même voyage.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -325,7 +325,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Botswana",
       description:
         "Huit repères issus du terrain. Ils aident à choisir la période, à comprendre le découpage de l'itinéraire et à ajuster les attentes.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "La crue de l'Okavango et le calendrier",
@@ -563,7 +563,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

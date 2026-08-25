@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Zimbabwe",
       heading: "Un pays qui se marche, pas seulement qui se traverse",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Zimbabwe commence presque toujours par les chutes Victoria, et on se trompe sur ce qu'on va y trouver. On entend l'eau bien avant de la voir. Le sentier longe la gorge juste en face du rideau, à travers une forêt que la brume de la chute entretient toute l'année : selon le mois, on en ressort humide ou trempé.",
         "Le reste du pays commence à l'intérieur. À Hwange, il n'y a pas une seule rivière : la faune vit autour de points d'eau alimentés par des pompes, et en fin de saison sèche, tout le parc converge vers ces quelques mares. On s'installe à l'affût, on coupe le moteur, et les troupeaux arrivent d'eux-mêmes.",
@@ -164,7 +164,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Zimbabwe",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage au Zimbabwe.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -223,7 +223,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Chaque dossier Zimbabwe mobilise plusieurs expertises. Un interlocuteur unique en assure la coordination et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Six territoires, du Zambèze aux collines du sud",
       description:
         "Des chutes Victoria à la réserve de Malilangwe, six territoires que douze jours permettent d'enchaîner sans passer ses journées sur la piste.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -325,7 +325,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Zimbabwe",
       description:
         "Huit repères rapportés du terrain : ce qu'il faut viser, quand partir, et ce qui change d'un parc à l'autre.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le guide fait le voyage, pas le camp",
@@ -555,7 +555,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte des Pays-Bas",
       heading: "Trois villes d'eau et une forêt",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Pays-Bas commence presque toujours par Amsterdam, et la ville se prend par le matin. À neuf heures, on traverse la Galerie d'honneur du Rijksmuseum sans attendre devant les toiles. Le musée Van Gogh est juste à côté, sur la même place. L'après-midi se passe sur l'eau, et le soir dans le Jordaan, où les salles tiennent une vingtaine de couverts.",
         "La Haye est à cinquante minutes de train, et l'on y va pour une matinée. Le Mauritshuis est une maison, pas un palais : vingt salles, une heure et demie de visite, et la Jeune fille à la perle accrochée à hauteur d'œil, à un mètre de vous. Delft est la ville voisine. On y déjeune sur la place du marché, puis on regarde les peintres de la faïencerie poser le bleu à la main, motif après motif.", // TODO: verify le nombre de salles du Mauritshuis
@@ -167,7 +167,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage aux Pays-Bas",
       description:
         "Trajet, monnaie, formalités et saisons. Voici les repères qui permettent de caler les dates d'un voyage aux Pays-Bas.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -226,7 +226,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Pays-Bas. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -249,7 +249,7 @@ export const destination: Destination = {
       heading: "Six étapes, d'Amsterdam aux collines du Limbourg",
       description:
         "Six secteurs, et chacun propose autre chose : des salles de musée, une place de marché, une forêt à vélo, des champs de fleurs, des collines et des terrasses. Aucun n'est à plus de deux heures de train d'Amsterdam.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -328,7 +328,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage aux Pays-Bas",
       description:
         "Huit repères issus du terrain. Ils aident à choisir la période, à découper les journées et à comprendre ce qui se prépare longtemps à l'avance.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Les musées le matin",
@@ -566,7 +566,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
