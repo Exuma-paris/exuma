@@ -275,7 +275,7 @@ export default function DesignSystemPage() {
             <IconPillButton href="/destinations/marrakech" icon={<ArrowRight />}>
               Voir Marrakech
             </IconPillButton>
-            <IconPillButton href="/reserver" icon={<Sparkles />}>
+            <IconPillButton href="/votre-projet" icon={<Sparkles />}>
               Construire ce voyage
             </IconPillButton>
           </div>

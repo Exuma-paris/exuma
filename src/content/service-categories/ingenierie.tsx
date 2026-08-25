@@ -28,8 +28,8 @@ export const serviceCategory: ServiceCategory = {
         "Visas, autorisations, assurances sur-mesure, accès aux privilèges exclusifs et coordination de chaque étape du voyage.",
       images: [
         {
-          src: "/destination/polynesie/hero-1.png",
-          alt: "Ingénierie du voyage",
+          src: "/service/ingenierie/hero-1.jpg",
+          alt: "Conseillère Exuma au téléphone, casque sur les oreilles, à son bureau",
         },
       ],
     },

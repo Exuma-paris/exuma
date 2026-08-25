@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "La Turquie, l'art de vivre entre Orient et Méditerranée",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Turquie commence à Istanbul, dans la lumière qui tombe des coupoles. On descend l'escalier de la citerne basilique et la ville se tait d'un coup : les colonnes se répondent dans la pénombre, l'eau affleure sous les passerelles. En remontant à l'air libre, le Bosphore est là, avec ses bateaux et l'odeur du thé sur les pontons.",
         "La suite se dessine comme une promenade. Istanbul se donne en plusieurs jours, le temps que ses deux rives deviennent familières. La Cappadoce prend le relais avec ses paysages de roche creusée et ses églises souterraines. Puis la mer Égée appelle, avec Éphèse et Pergame, avant que la côte lycienne ne referme le voyage sur l'eau. C'est cette Turquie-là que nous montrons, et nous la connaissons depuis plus de dix ans.",
@@ -161,7 +161,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Turquie",
       description:
         "Temps de vol, décalage, monnaie, formalités et meilleure saison : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -222,7 +222,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Turquie. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -247,7 +247,7 @@ export const destination: Destination = {
       heading: "D'Istanbul à la côte lycienne, nos étapes préférées",
       description:
         "Istanbul, la Cappadoce, Éphèse, Pamukkale, Kekova et Bodrum : chacune de ces étapes a son caractère, et c'est autour d'elles que s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Turquie",
       description:
         "Quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir une étape ou comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Istanbul, le bon ordre des journées",
@@ -528,7 +528,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

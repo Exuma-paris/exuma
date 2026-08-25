@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Panama",
       heading: "Un isthme, deux océans, sept peuples autochtones",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Panama commence par une donnée de géographie : le pays sépare deux océans sur une largeur que l'on franchit en une matinée. Le canal en a fait un point de passage du commerce mondial, et Panama City une capitale de tours de verre. À dix minutes de ces tours, le Casco Viejo aligne encore ses façades espagnoles et ses clochers, et les ruines de Panamá Viejo marquent l'emplacement de la première ville, brûlée en 1671 par Henry Morgan.",
         "Le reste du pays vit à un autre rythme. Sur la côte caraïbe, la comarca de Guna Yala est administrée par les Guna eux-mêmes, île par île. Plus à l'ouest, Bocas del Toro mélange archipel, mangrove et villages ngöbe où le cacao pousse à l'ombre des grands arbres. Vers la frontière colombienne, le Darién reste sans route : on y entre en pirogue, chez les Emberá.",
@@ -163,7 +163,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Panama",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage au Panama.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -222,7 +222,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Chaque dossier Panama mobilise plusieurs expertises. Un interlocuteur unique en assure la coordination et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -245,7 +245,7 @@ export const destination: Destination = {
       heading: "Six territoires, d'une côte à l'autre",
       description:
         "Du Casco Viejo aux Islas Secas, six territoires que deux semaines permettent d'enchaîner sans passer ses journées en transfert.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -324,7 +324,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Panama",
       description:
         "Huit repères rapportés du terrain : ce qu'il faut viser, quand partir, et ce qui change d'une côte à l'autre.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Deux semaines pour changer trois fois de décor",
@@ -581,7 +581,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
