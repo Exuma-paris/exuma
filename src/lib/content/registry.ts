@@ -70,6 +70,7 @@ import { destination as montenegro } from "@/content/destinations/montenegro";
 import { destination as antigua } from "@/content/destinations/antigua";
 import { destination as barbade } from "@/content/destinations/barbade";
 import { destination as portoRico } from "@/content/destinations/porto-rico";
+import { destination as singapour } from "@/content/destinations/singapour";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -272,6 +273,9 @@ import { experience as harrisonsCave } from "@/content/experiences/harrisons-cav
 import { experience as randonneeCascadesElYunque } from "@/content/experiences/randonnee-cascades-el-yunque";
 import { experience as immersionVieuxSanJuan } from "@/content/experiences/immersion-vieux-san-juan";
 import { experience as catamaranPriveCulebra } from "@/content/experiences/catamaran-prive-culebra";
+import { experience as dinerChefCandlenut } from "@/content/experiences/diner-chef-candlenut";
+import { experience as visitePriveeJardinsBotaniques } from "@/content/experiences/visite-privee-jardins-botaniques";
+import { experience as croisiereIlesDuSud } from "@/content/experiences/croisiere-iles-du-sud";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -445,6 +449,9 @@ import { accommodation as coralReefClub } from "@/content/accommodations/coral-r
 import { accommodation as doradoBeachRitzCarltonReserve } from "@/content/accommodations/dorado-beach-ritz-carlton-reserve";
 import { accommodation as fairmontElConvento } from "@/content/accommodations/fairmont-el-convento";
 import { accommodation as stRegisBahiaBeach } from "@/content/accommodations/st-regis-bahia-beach";
+import { accommodation as capellaSingapore } from "@/content/accommodations/capella-singapore";
+import { accommodation as rafflesSingapore } from "@/content/accommodations/raffles-singapore";
+import { accommodation as sixSensesDuxton } from "@/content/accommodations/six-senses-duxton";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -514,6 +521,7 @@ export const destinations: Record<string, Destination> = toMap([
   turquie,
   uruguay,
   royaumeUni,
+  singapour,
   tanzanie,
   thailande,
   losCabos,
@@ -721,6 +729,9 @@ export const experiences: Record<string, Experience> = toMap([
   randonneeCascadesElYunque,
   immersionVieuxSanJuan,
   catamaranPriveCulebra,
+  dinerChefCandlenut,
+  visitePriveeJardinsBotaniques,
+  croisiereIlesDuSud,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -904,6 +915,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   doradoBeachRitzCarltonReserve,
   fairmontElConvento,
   stRegisBahiaBeach,
+  capellaSingapore,
+  rafflesSingapore,
+  sixSensesDuxton,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
