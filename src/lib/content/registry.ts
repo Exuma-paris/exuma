@@ -499,7 +499,6 @@ import { accommodation as sofitelLegendCascoViejo } from "@/content/accommodatio
 import { accommodation as santaMariaLuxuryCollection } from "@/content/accommodations/santa-maria-luxury-collection";
 import { accommodation as islasSecas } from "@/content/accommodations/islas-secas";
 import { accommodation as chevalBlancStBarth } from "@/content/accommodations/cheval-blanc-st-barth";
-import { accommodation as belmondCapJuluca } from "@/content/accommodations/belmond-cap-juluca";
 import { accommodation as cottonHouseMustique } from "@/content/accommodations/cotton-house-mustique";
 import { accommodation as petitSaintVincent } from "@/content/accommodations/petit-saint-vincent";
 import { accommodation as canouanEstate } from "@/content/accommodations/canouan-estate";
