@@ -45,6 +45,7 @@ import { destination as turquie } from "@/content/destinations/turquie";
 import { destination as canada } from "@/content/destinations/canada";
 import { destination as autriche } from "@/content/destinations/autriche";
 import { destination as argentine } from "@/content/destinations/argentine";
+import { destination as australie } from "@/content/destinations/australie";
 import { destination as sriLanka } from "@/content/destinations/sri-lanka";
 import { destination as uruguay } from "@/content/destinations/uruguay";
 import { destination as hawai } from "@/content/destinations/hawai";
@@ -313,6 +314,9 @@ import { experience as immersionAmazonieNaturaliste } from "@/content/experience
 import { experience as helicoCanyonTara } from "@/content/experiences/helico-canyon-tara";
 import { experience as rempartsKotorAube } from "@/content/experiences/remparts-kotor-aube";
 import { experience as vinCrmnicaLacSkadar } from "@/content/experiences/vin-crmnica-lac-skadar";
+import { experience as airboatMaryRiver } from "@/content/experiences/airboat-mary-river";
+import { experience as grandeBarriereCroisiere } from "@/content/experiences/grande-barriere-croisiere";
+import { experience as sealBayLionsDeMer } from "@/content/experiences/seal-bay-lions-de-mer";
 import { experience as cafeBlueMountains } from "@/content/experiences/cafe-blue-mountains";
 import { experience as yachtPriveChefMontegoBay } from "@/content/experiences/yacht-prive-chef-montego-bay";
 import { experience as appletonEstateRhums } from "@/content/experiences/appleton-estate-rhums";
@@ -521,6 +525,10 @@ import { accommodation as roundHill } from "@/content/accommodations/round-hill"
 import { accommodation as tryallClub } from "@/content/accommodations/tryall-club";
 import { accommodation as strawberryHill } from "@/content/accommodations/strawberry-hill";
 
+import { accommodation as bamurruPlains } from "@/content/accommodations/bamurru-plains";
+import { accommodation as longitude131 } from "@/content/accommodations/longitude-131";
+import { accommodation as southernOceanLodge } from "@/content/accommodations/southern-ocean-lodge";
+
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
 import { collaborateur as calvin } from "@/content/collaborateurs/calvin";
@@ -535,6 +543,7 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
   Object.fromEntries(items.map((i) => [i.slug, i]));
 
 export const destinations: Record<string, Destination> = toMap([
+  australie,
   afriqueDuSud,
   anguilla,
   arabieSaoudite,
@@ -629,6 +638,9 @@ export const themes: Record<string, Theme> = toMap([
 export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
+  airboatMaryRiver,
+  grandeBarriereCroisiere,
+  sealBayLionsDeMer,
   alleeBaobabsAube,
   ascensionMontBromo,
   atelierLesage,
@@ -854,6 +866,9 @@ export const serviceCategories: Record<string, ServiceCategory> = toMap([
 export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
+  bamurruPlains,
+  longitude131,
+  southernOceanLodge,
   alMoudiraLouxor,
   amangiri,
   amanjena,
