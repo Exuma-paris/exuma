@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'île de Pâques",
       heading: "Une histoire que les Rapanui racontent encore",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à l'île de Pâques commence toujours par Hanga Roa, le seul village, où les barques rentrent le matin et où les chevaux traversent la rue sans se presser. Le reste de l'île est un parc national que les Rapanui administrent eux-mêmes, et l'on n'y entre qu'accompagné de l'un d'entre eux. C'est une chance plutôt qu'une contrainte : personne ne raconte mieux cette terre que ceux qui en descendent.",
         "Les moai ne regardent pas la mer, et c'est la première chose que l'on apprend ici. Dressés sur leurs plateformes, ils tournent le dos au Pacifique pour veiller sur les villages qui les avaient élevés. À Rano Raraku, la carrière où ils sont nés, beaucoup n'ont jamais quitté la pente : certains à peine dégagés de la roche, d'autres couchés dans l'herbe, le visage tourné vers le ciel.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à l'île de Pâques",
       description:
         "Vol, formalités, saisons et règles du parc national : l'essentiel pour préparer votre voyage à l'île de Pâques sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,7 +219,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Île de Pâques. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "Les endroits où l'île se raconte",
       description:
         "De Hanga Roa aux plateformes de la côte est, les lieux où l'on comprend d'où viennent les moai, visités aux heures qui leur vont.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 10,
       places: [
         {
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à l'île de Pâques",
       description:
         "Nos conseils de terrain pour choisir la saison, comprendre les règles du parc national et laisser à l'île le temps qu'elle demande.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Quand partir",
@@ -563,7 +563,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

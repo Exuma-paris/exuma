@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de Zanzibar",
       heading: "Zanzibar, entre les épices de Stone Town et le bleu du lagon",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Zanzibar commence presque toujours par Stone Town. On y marche sans carte, entre les portes de teck, les échoppes d'épices et les cours ombragées, et l'on débouche sur le port sans savoir comment. La vieille ville a été la capitale des sultans d'Oman et le grand comptoir de l'océan Indien, et cette histoire se lit encore sur les façades blanchies par le sel.",
         "La côte se laisse apprivoiser autrement. Au nord, à Matemwe et à Nungwi, l'eau reste haute et l'on se baigne à toute heure. Au sud-est, à Paje et à Jambiani, la marée se retire le matin et découvre un lagon immense où les villageoises cultivent leurs algues. C'est cette différence qui décide de la maison où l'on pose ses valises, et nous en parlons avec vous dès la première conversation.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Zanzibar",
       description:
         "Vol, formalités, santé et saisons : de quoi caler vos dates sereinement avant que nous écrivions l'itinéraire ensemble.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Zanzibar. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "De Stone Town aux girofliers de Pemba",
       description:
         "L'archipel se parcourt sans jamais se presser. Voici les endroits où nous aimons vous emmener, et ce que l'on y trouve.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 8,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Zanzibar",
       description:
         "Quelques observations de terrain qui aident à choisir le bon moment, le bon côté de l'île, et à comprendre pourquoi nous inscrivons telle étape à votre itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Choisir son côté de l'île",
@@ -533,7 +533,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
