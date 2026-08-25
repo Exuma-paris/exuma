@@ -351,34 +351,33 @@ The `content` is `React.ReactNode` — `data.tsx` MUST be `.tsx` for this to com
 
 ---
 
-## 13. spotsList — trois scènes du voyage
+## 13. testimonials — verbatims clients
 
-**N'utilisez JAMAIS le bloc `testimonials` ici.** Il attend un avis client réel, avec un nom et un portrait. Inventer un témoignage, même signalé par un `TODO`, revient à publier un faux avis : c'est une pratique commerciale trompeuse (article L121-2 du Code de la consommation) et cela finit en ligne. Le bloc `testimonials` est réservé aux textes que l'agence a réellement recueillis et qu'elle est en mesure de prouver.
-
-À cette position, écrivez trois scènes concrètes, sans attribution :
+Un carrousel de trois verbatims clients. **Ces citations ne s'inventent pas.** Elles proviennent de retours réellement recueillis par l'agence : publier un avis fabriqué est une pratique commerciale trompeuse (article L121-2 du Code de la consommation).
 
 ```tsx
 {
-  type: "spotsList",
-  eyebrow: "Récits de voyage",
-  heading: "Trois scènes de ce voyage",
+  type: "testimonials",
+  eyebrow: "Témoignages",
+  heading: "Ils ont vécu l'expérience Exuma",
   cta: { label: "Construire ce voyage", href: "/votre-projet" },
-  spots: [
+  testimonials: [
     {
-      title: "…",        // le lieu ou le moment (max 50 caractères)
-      description: "…",  // la scène, 180 caractères visés
+      quote: "…",                       // le verbatim, mot pour mot
+      image: { src: "/destination/<slug>/hero-1.png", alt: "Témoignage anonymisé" },
+      name: "Hélène P.",                // prénom + initiale du nom
+      role: "Anniversaire de mariage, septembre 2025",
     },
-    // …2 autres
+    // …2 autres, avec hero-2.png et hero-3.png
   ],
 }
 ```
 
-Règles d'écriture :
+**Convention d'anonymat** : prénom suivi de l'initiale du nom (« Hélène P. », « Jean-Marc T. »). Jamais le nom complet, jamais un portrait du client : le visuel est une image de la destination, avec l'alt « Témoignage anonymisé ». Même principe que le hub `/professionnels`.
 
-- **Troisième personne ou tournure impersonnelle.** « L'hélicoptère se pose sur une plage où l'on n'arrive pas autrement », jamais « nous nous sommes posés ».
-- **Aucun nom de personne, aucune date de séjour, aucun portrait.** Rien qui laisse croire au récit d'un client identifiable.
-- **Jamais les noms des personas** (Frédéric, Constance, Édouard, Bernard & Michèle, Olivier, Sophie, Alexandre). Ce sont des outils internes, ils n'ont rien à faire dans une page publique.
-- Le `title` nomme le lieu ou le moment, la `description` raconte ce qui s'y passe : un détail concret, une heure, un geste.
+**Si l'agence n'a pas encore de verbatim pour cette destination** : demandez-les à l'utilisateur. S'il n'en a pas sous la main, **omettez la section entière** et signalez-le dans le récapitulatif de fin. Une page sans témoignage est normale ; une page avec trois faux témoignages ne l'est pas.
+
+Ne jamais utiliser les noms des personas (Frédéric, Constance, Édouard, Bernard & Michèle, Olivier, Sophie, Alexandre) comme signataires : ce sont des outils internes.
 
 ---
 

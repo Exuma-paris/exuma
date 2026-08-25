@@ -431,7 +431,7 @@ The 14 mandatory entries in `sections[]`, in this exact order, plus one optional
 10. `bento`
 11. `placesMap` (bg-background-soft)
 12. `tips` (bg-background-soft)
-13. `spotsList` — trois scènes du voyage, sans attribution. **Jamais `testimonials`** : voir REFERENCE.md § 13.
+13. `testimonials` — verbatims clients réels, anonymisés en prénom + initiale. **Jamais inventés** : voir REFERENCE.md § 13. À omettre si l'utilisateur n'a pas de verbatim.
 14. `faq` (bg-white) — see "FAQ is the destination's source of truth" below
 15. *(optional)* **`entityList`** (`kind: "destination"` — bg-background-soft) — references up to 3 related destination slugs. Rendered as feature cards using each destination's first hero image. See step 1f.
 
@@ -605,7 +605,7 @@ When inventing factual data (flight time, currency value, hotel names, map coord
 
 For `infoGrid` items where the description is fabricated, prefix the description string with `TODO:` inside the string literal (e.g. `description: "TODO: 7h30 de vol depuis Paris"`).
 
-Testimonials are the exception: they are NEVER invented, not even with a flag. A fabricated customer review is a deceptive commercial practice under article L121-2 of the French consumer code, and the `TODO` flags have repeatedly shipped to production. Use `spotsList` with unattributed scenes instead — see REFERENCE.md § 13. The `testimonials` block is reserved for quotes the agency has actually collected.
+Testimonials are the exception: they are NEVER invented, not even with a flag. A fabricated customer review is a deceptive commercial practice under article L121-2 of the French consumer code, and the `TODO` flags have repeatedly shipped to production. Ask the user for real verbatims; if none are available, omit the section entirely and say so in the closing summary. See REFERENCE.md § 13 for the anonymisation convention.
 
 The new top-level fields follow the same rule: if `country` or `continentSlug` are uncertain, flag them with `// TODO: verify` on the same line.
 
