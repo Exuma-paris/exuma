@@ -67,6 +67,7 @@ import { destination as norvege } from "@/content/destinations/norvege";
 import { destination as islande } from "@/content/destinations/islande";
 import { destination as losCabos } from "@/content/destinations/los-cabos";
 import { destination as montenegro } from "@/content/destinations/montenegro";
+import { destination as coreeDuSud } from "@/content/destinations/coree-du-sud";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -260,6 +261,9 @@ import { experience as immersionAmazonieNaturaliste } from "@/content/experience
 import { experience as helicoCanyonTara } from "@/content/experiences/helico-canyon-tara";
 import { experience as rempartsKotorAube } from "@/content/experiences/remparts-kotor-aube";
 import { experience as vinCrmnicaLacSkadar } from "@/content/experiences/vin-crmnica-lac-skadar";
+import { experience as soireeSeoulStreetFood } from "@/content/experiences/soiree-seoul-street-food";
+import { experience as nSeoulTower } from "@/content/experiences/n-seoul-tower";
+import { experience as atelierCuisineBusan } from "@/content/experiences/atelier-cuisine-busan";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -424,6 +428,9 @@ import { accommodation as inkaterraReservaAmazonica } from "@/content/accommodat
 import { accommodation as amanSvetiStefan } from "@/content/accommodations/aman-sveti-stefan";
 import { accommodation as oneOnlyPortonovi } from "@/content/accommodations/one-only-portonovi";
 import { accommodation as regentPortoMontenegro } from "@/content/accommodations/regent-porto-montenegro";
+import { accommodation as nostalgiaHanokHotel } from "@/content/accommodations/nostalgia-hanok-hotel";
+import { accommodation as anantiBusanCove } from "@/content/accommodations/ananti-busan-cove";
+import { accommodation as podoHotelJeju } from "@/content/accommodations/podo-hotel-jeju";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -493,6 +500,7 @@ export const destinations: Record<string, Destination> = toMap([
   tanzanie,
   thailande,
   losCabos,
+  coreeDuSud,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -689,6 +697,9 @@ export const experiences: Record<string, Experience> = toMap([
   valleeSacreeArcheologuePrive,
   immersionAmazonieNaturaliste,
   vinCrmnicaLacSkadar,
+  soireeSeoulStreetFood,
+  nSeoulTower,
+  atelierCuisineBusan,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -863,6 +874,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   belmondSanctuaryLodge,
   belmondPalacioNazarenas,
   inkaterraReservaAmazonica,
+  nostalgiaHanokHotel,
+  anantiBusanCove,
+  podoHotelJeju,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
