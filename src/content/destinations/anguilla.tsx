@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte d'Anguilla",
       heading: "L'île se traverse en trente minutes de voiture",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Anguilla commence le plus souvent par un trajet en bateau. Le grand aéroport de la zone est celui de Saint-Martin, à vingt-cinq minutes de mer de Blowing Point. On arrive donc par l'eau, et cela donne le ton d'emblée.",
         "L'île est plate et sèche. Pas de montagne, pas de rivière, une végétation basse de buissons et de figuiers de Barbarie. Ce que cela produit, c'est une eau sans limon, transparente jusqu'au fond, et des plages qui gardent leur sable clair toute l'année.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Anguilla",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage à Anguilla.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Anguilla. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six baies, et ce qui les sépare",
       description:
         "L'île se traverse en une demi-heure, mais chaque baie a son caractère, son eau et son heure. Voici celles qui structurent un séjour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 11,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Anguilla",
       description:
         "Huit repères rapportés du terrain : comment on arrive, ce qui change d'une côte à l'autre, et ce qui se réserve avant de partir.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "On arrive par Saint-Martin, et c'est une bonne nouvelle",
@@ -553,7 +553,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
