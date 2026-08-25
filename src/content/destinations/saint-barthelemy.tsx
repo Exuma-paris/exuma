@@ -68,7 +68,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de Saint-Barthélemy",
       heading: "Le plaisir de vivre dehors, du réveil jusqu'au dîner",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Saint-Barthélemy commence toujours par la mer. L'île est petite, bordée de baies qui se découvrent une à une, et chacune change de caractère selon l'heure et selon le vent. Au sud, Grande Saline et le Gouverneur s'étendent au pied des collines, loin de toute construction. Au nord, Flamands et le Grand Cul-de-Sac sont plus doux, et c'est là que les familles s'installent pour la semaine.",
         "Ce qui étonne, c'est la vie qui continue en dehors des plages. À Corossol, les barques de pêche restent tirées sur le sable et l'on entend encore le parler de l'île chez les anciens. Le marché de Gustavia sent la mangue et le poisson du matin. Les tables sont tenues par des chefs installés là depuis longtemps, et l'on y mange une cuisine française qui a pris le goût des Antilles.",
@@ -168,7 +168,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Saint-Barthélemy",
       description:
         "Voici les repères pratiques à réunir avant de choisir vos dates : le vol, les formalités, la monnaie et les saisons.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -227,7 +227,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Saint-Barthélemy. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -250,7 +250,7 @@ export const destination: Destination = {
       heading: "Les endroits de l'île où l'on aime revenir",
       description:
         "L'île se découvre par petites boucles, et chaque anse a son heure. Nous plaçons les journées pour que chacune arrive au bon moment du séjour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 11,
       places: [
         {
@@ -330,7 +330,7 @@ export const destination: Destination = {
         "Les conseils de nos experts pour votre voyage à Saint-Barthélemy",
       description:
         "Voici quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir la bonne semaine et comprendre comment l'île se vit une fois sur place.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Arriver sur l'île sans y penser",
@@ -587,7 +587,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

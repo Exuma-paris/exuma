@@ -185,7 +185,10 @@ export function FeatureCardsSection({
       </div>
 
       {hasControls ? (
-        <div className="mx-auto flex w-full max-w-layout justify-end gap-2 section-px pt-10 section-pb">
+        // Les flèches se collent aux cartes qu'elles commandent, et ne portent
+        // plus la marge basse de la section : la section suivante apporte déjà
+        // sa propre respiration en haut.
+        <div className="mx-auto flex w-full max-w-layout justify-end gap-2 section-px pt-6 pb-4">
           <Button
             variant="outline"
             className="aspect-square border-0 px-0 shadow-deep"

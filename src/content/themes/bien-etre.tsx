@@ -8,6 +8,10 @@ export const theme: Theme = {
   intent:
     "On ne parle pas de spas ou de soins. On parle de l'endroit où quelqu'un qui n'arrête jamais va enfin s'arrêter. L'intention est de faire ressentir la coupure, pas de décrire les équipements.",
   keywords: ["bien-etre", "reconnexion", "ressourcement", "deconnexion", "retraite"],
+  cardImage: {
+    src: "/theme/bien-etre/hero-1-1x1.png",
+    alt: "Une personne seule attablée devant un café, de dos, face au lac au petit matin",
+  },
   sections: [
     {
       type: "hero",
@@ -17,8 +21,8 @@ export const theme: Theme = {
         "L'endroit où quelqu'un qui n'arrête jamais va enfin s'arrêter.",
       images: [
         {
-          src: "/destination/polynesie/hero-1.png",
-          alt: "Lieu de reconnexion",
+          src: "/theme/bien-etre/hero-1.png",
+          alt: "Une personne seule attablée devant un café, de dos, face au lac au petit matin",
         },
       ],
     },

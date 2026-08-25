@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Maroc",
       heading: "Le Maroc, l'art de recevoir poussé jusqu'au détail",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Maroc commence presque toujours par une odeur. On reconnaît le cèdre que l'on travaille au fond d'un atelier, le pain qui sort du four du quartier, la menthe que l'on verse de haut dans un verre brûlant. Le pays se raconte par les sens avant de se raconter par son histoire, et l'on comprend vite que l'hospitalité n'est pas ici une politesse mais une façon de vivre.",
         "Chaque région a son caractère. Fès garde la mémoire savante du pays, ses relieurs, ses dinandiers et son université millénaire, et l'on s'y perd volontiers dans la médina parce que c'est ainsi qu'elle se laisse apprivoiser. Le Haut Atlas commence à Asni et monte jusqu'aux villages d'Imlil, où les mules croisent encore les voitures. Au sud, les palmeraies du Dadès et les jardins de la vallée des Roses annoncent le désert, et la lumière devient plus douce à mesure que l'on avance.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Maroc",
       description:
         "Vol, décalage, monnaie, formalités et saisons : de quoi caler les dates avant d'écrire l'itinéraire ensemble.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Maroc. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Les endroits où le Maroc change de caractère",
       description:
         "Le pays réunit des mondes qui ne se ressemblent pas, et chacun demande sa propre saison. Nous les mettons dans l'ordre qui rend le voyage juste, en laissant à chaque étape le temps de s'installer.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Maroc",
       description:
         "Quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir la bonne saison et comprendre pourquoi nous vous proposons telle étape plutôt qu'une autre.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Une médina se visite avec quelqu'un qui y vit",
@@ -604,7 +604,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

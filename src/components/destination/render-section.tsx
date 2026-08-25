@@ -105,6 +105,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           heading={section.heading}
           description={section.description}
           items={section.items}
+          background={section.background}
         />
       );
 
@@ -157,14 +158,8 @@ export function renderSection(section: Section, key: string): ReactNode {
 
     case "imageDuoWithText":
       return (
-        <div
-          key={key}
-          className="image-duo-with-text relative"
-        >
-          <ImageDuoSection
-            left={section.duo.left}
-            right={section.duo.right}
-          />
+        <div key={key} className="image-duo-with-text relative">
+          <ImageDuoSection left={section.duo.left} right={section.duo.right} />
           <TextColumnsSection
             eyebrow={section.text.eyebrow}
             heading={section.text.heading}
@@ -343,8 +338,8 @@ export function renderSection(section: Section, key: string): ReactNode {
           const heroImage =
             "heroImage" in entity && entity.heroImage
               ? entity.heroImage
-              : entity.sections.find((s) => s.type === "hero")?.images?.[0] ??
-                ENTITY_PLACEHOLDER_IMAGE;
+              : (entity.sections.find((s) => s.type === "hero")?.images?.[0] ??
+                ENTITY_PLACEHOLDER_IMAGE);
           return {
             title: entity.name,
             description: entity.blurb ?? "",

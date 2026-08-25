@@ -154,7 +154,8 @@
 
 :root {
   --section-gutter: 1rem;
-  --section-block: 3.75rem;
+  /* Respiration verticale de toutes les sections du site. */
+  --section-block: 3rem;
 }
 @media (min-width: 375px) {
   :root {
@@ -164,7 +165,7 @@
 @media (min-width: 768px) {
   :root {
     --section-gutter: 2.5rem;
-    --section-block: 7.5rem;
+    --section-block: 5rem;
   }
 }
 
