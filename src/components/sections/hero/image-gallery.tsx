@@ -48,19 +48,33 @@ export const heroMeta = {
   },
 } as const satisfies SectionMeta;
 
-function ImageTile({ image }: { image: { src: string; alt: string } }) {
+/**
+ * Largeurs réelles des tuiles, à garder alignées sur les classes `w-[…]` des
+ * slides plus bas. Une valeur sous-estimée fait télécharger au navigateur une
+ * image trop petite, qu'il agrandit ensuite : l'image paraît pixelisée.
+ *
+ * Le piège est la plage md : la tuile y occupe `100vw - 20rem`, soit environ
+ * 65vw à 900px de large. L'ancienne déclaration « 33vw à partir de 768px »
+ * demandait donc une image deux fois trop petite.
+ */
+const CAROUSEL_SIZES =
+  "(min-width: 1024px) calc((100vw - 3rem) / 3), (min-width: 768px) calc(100vw - 20rem), calc(100vw - 5rem)";
+const SINGLE_SIZES = "calc(100vw - 1.5rem)";
+
+function ImageTile({
+  image,
+  sizes,
+}: {
+  image: { src: string; alt: string };
+  sizes: string;
+}) {
   return (
     <div className="relative aspect-square w-full overflow-hidden bg-muted">
       <Image
         src={image.src}
         alt={image.alt}
         fill
-        // Must mirror the slide widths set below on the carousel item, or the
-        // browser downloads a variant sized for the wrong breakpoint and upscales
-        // it. The md range is the trap: the slide is `100vw - 20rem` there (≈65vw
-        // at 900px), so the old "33vw from 768px up" under-requested by ~2x and
-        // the tiles rendered visibly pixelated.
-        sizes="(min-width: 1024px) calc((100vw - 3rem) / 3), (min-width: 768px) calc(100vw - 20rem), calc(100vw - 5rem)"
+        sizes={sizes}
         className="object-cover"
       />
     </div>
@@ -165,7 +179,7 @@ export function HeroImageGallery({
                 data-slide
                 className="w-[calc(100vw-5rem)] shrink-0 snap-center snap-always md:w-[calc(100vw-20rem)] lg:w-[calc((100vw-3rem)/3)] lg:snap-start"
               >
-                <ImageTile image={img} />
+                <ImageTile image={img} sizes={CAROUSEL_SIZES} />
               </div>
             ))}
             <div aria-hidden className="w-10 shrink-0 md:w-40 lg:w-3" />
@@ -173,7 +187,7 @@ export function HeroImageGallery({
         </div>
       ) : (
         <div className="px-3">
-          <ImageTile image={images[0]} />
+          <ImageTile image={images[0]} sizes={SINGLE_SIZES} />
         </div>
       )}
 
