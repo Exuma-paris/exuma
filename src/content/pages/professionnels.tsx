@@ -256,7 +256,7 @@ export const sections: Section[] = [
           alt: "Témoignage anonymisé",
         },
         name: "Directeur",
-        role: "Family office, Genève",
+        role: "Family office",
       },
       {
         // TODO : témoignage à recueillir, porte B. Question à poser : que
@@ -268,7 +268,7 @@ export const sections: Section[] = [
           alt: "Témoignage anonymisé",
         },
         name: "Office manager",
-        role: "Cabinet d'avocats, Paris",
+        role: "Cabinet d'avocats",
       },
       {
         // TODO : témoignage à recueillir, porte C. Question à poser : qu'est-ce
