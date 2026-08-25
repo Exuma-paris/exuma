@@ -71,6 +71,7 @@ import { destination as madagascar } from "@/content/destinations/madagascar";
 import { destination as arabieSaoudite } from "@/content/destinations/arabie-saoudite";
 import { destination as newYork } from "@/content/destinations/new-york";
 import { destination as losCabos } from "@/content/destinations/los-cabos";
+import { destination as panama } from "@/content/destinations/panama";
 import { destination as caraibes } from "@/content/destinations/caraibes";
 import { destination as saintBarthelemy } from "@/content/destinations/saint-barthelemy";
 import { destination as maroc } from "@/content/destinations/maroc";
@@ -280,6 +281,9 @@ import { experience as escapadeTodosSantos } from "@/content/experiences/escapad
 import { experience as plongeeCaboPulmo } from "@/content/experiences/plongee-cabo-pulmo";
 import { experience as snorkelingLionsMerEspirituSanto } from "@/content/experiences/snorkeling-lions-mer-espiritu-santo";
 import { experience as wineOclockValleGuadalupe } from "@/content/experiences/wine-oclock-valle-guadalupe";
+import { experience as parcMarinCoiba } from "@/content/experiences/parc-marin-coiba";
+import { experience as excursionBioluminescente } from "@/content/experiences/excursion-bioluminescente";
+import { experience as excursionBateauPrive } from "@/content/experiences/excursion-bateau-prive";
 import { experience as piqueNiqueAnseColombier } from "@/content/experiences/pique-nique-anse-colombier";
 import { experience as cacaoBelmontGrenade } from "@/content/experiences/cacao-belmont-grenade";
 import { experience as grosPitonAubeSoufriere } from "@/content/experiences/gros-piton-aube-soufriere";
@@ -473,6 +477,9 @@ import { accommodation as vikChile } from "@/content/accommodations/vik-chile";
 import { accommodation as chilenoBayAuberge } from "@/content/accommodations/chileno-bay-auberge";
 import { accommodation as fourSeasonsLosCabos } from "@/content/accommodations/four-seasons-los-cabos";
 import { accommodation as oneAndOnlyPalmilla } from "@/content/accommodations/one-and-only-palmilla";
+import { accommodation as sofitelLegendCascoViejo } from "@/content/accommodations/sofitel-legend-casco-viejo";
+import { accommodation as santaMariaLuxuryCollection } from "@/content/accommodations/santa-maria-luxury-collection";
+import { accommodation as islasSecas } from "@/content/accommodations/islas-secas";
 import { accommodation as chevalBlancStBarth } from "@/content/accommodations/cheval-blanc-st-barth";
 import { accommodation as belmondCapJuluca } from "@/content/accommodations/belmond-cap-juluca";
 import { accommodation as cottonHouseMustique } from "@/content/accommodations/cotton-house-mustique";
@@ -567,6 +574,7 @@ export const destinations: Record<string, Destination> = toMap([
   uruguay,
   royaumeUni,
   losCabos,
+  panama,
   caraibes,
   saintBarthelemy,
   maroc,
@@ -780,6 +788,9 @@ export const experiences: Record<string, Experience> = toMap([
   plongeeCaboPulmo,
   snorkelingLionsMerEspirituSanto,
   wineOclockValleGuadalupe,
+  parcMarinCoiba,
+  excursionBioluminescente,
+  excursionBateauPrive,
   piqueNiqueAnseColombier,
   cacaoBelmontGrenade,
   grosPitonAubeSoufriere,
@@ -984,6 +995,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   chilenoBayAuberge,
   fourSeasonsLosCabos,
   oneAndOnlyPalmilla,
+  sofitelLegendCascoViejo,
+  santaMariaLuxuryCollection,
+  islasSecas,
   chevalBlancStBarth,
   belmondCapJuluca,
   cottonHouseMustique,
