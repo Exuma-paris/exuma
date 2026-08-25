@@ -79,6 +79,7 @@ import { destination as maroc } from "@/content/destinations/maroc";
 import { destination as saintVincentEtLesGrenadines } from "@/content/destinations/saint-vincent-et-les-grenadines";
 import { destination as turksAndCaicos } from "@/content/destinations/turks-and-caicos";
 import { destination as montenegro } from "@/content/destinations/montenegro";
+import { destination as jamaique } from "@/content/destinations/jamaique";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -308,6 +309,9 @@ import { experience as immersionAmazonieNaturaliste } from "@/content/experience
 import { experience as helicoCanyonTara } from "@/content/experiences/helico-canyon-tara";
 import { experience as rempartsKotorAube } from "@/content/experiences/remparts-kotor-aube";
 import { experience as vinCrmnicaLacSkadar } from "@/content/experiences/vin-crmnica-lac-skadar";
+import { experience as cafeBlueMountains } from "@/content/experiences/cafe-blue-mountains";
+import { experience as yachtPriveChefMontegoBay } from "@/content/experiences/yacht-prive-chef-montego-bay";
+import { experience as appletonEstateRhums } from "@/content/experiences/appleton-estate-rhums";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -507,6 +511,9 @@ import { accommodation as inkaterraReservaAmazonica } from "@/content/accommodat
 import { accommodation as amanSvetiStefan } from "@/content/accommodations/aman-sveti-stefan";
 import { accommodation as oneOnlyPortonovi } from "@/content/accommodations/one-only-portonovi";
 import { accommodation as regentPortoMontenegro } from "@/content/accommodations/regent-porto-montenegro";
+import { accommodation as roundHill } from "@/content/accommodations/round-hill";
+import { accommodation as tryallClub } from "@/content/accommodations/tryall-club";
+import { accommodation as strawberryHill } from "@/content/accommodations/strawberry-hill";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -581,6 +588,7 @@ export const destinations: Record<string, Destination> = toMap([
   uruguay,
   royaumeUni,
   losCabos,
+  jamaique,
   zimbabwe,
   panama,
   caraibes,
@@ -820,6 +828,9 @@ export const experiences: Record<string, Experience> = toMap([
   valleeSacreeArcheologuePrive,
   immersionAmazonieNaturaliste,
   vinCrmnicaLacSkadar,
+  cafeBlueMountains,
+  yachtPriveChefMontegoBay,
+  appletonEstateRhums,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -1027,6 +1038,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   belmondSanctuaryLodge,
   belmondPalacioNazarenas,
   inkaterraReservaAmazonica,
+  roundHill,
+  tryallClub,
+  strawberryHill,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
