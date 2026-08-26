@@ -68,6 +68,8 @@ import { destination as islande } from "@/content/destinations/islande";
 import { destination as losCabos } from "@/content/destinations/los-cabos";
 import { destination as montenegro } from "@/content/destinations/montenegro";
 import { destination as coreeDuSud } from "@/content/destinations/coree-du-sud";
+import { destination as australie } from "@/content/destinations/australie";
+import { destination as chine } from "@/content/destinations/chine";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -264,6 +266,12 @@ import { experience as vinCrmnicaLacSkadar } from "@/content/experiences/vin-crm
 import { experience as soireeSeoulStreetFood } from "@/content/experiences/soiree-seoul-street-food";
 import { experience as nSeoulTower } from "@/content/experiences/n-seoul-tower";
 import { experience as atelierCuisineBusan } from "@/content/experiences/atelier-cuisine-busan";
+import { experience as airboatMaryRiver } from "@/content/experiences/airboat-mary-river";
+import { experience as grandeBarriereCroisiere } from "@/content/experiences/grande-barriere-croisiere";
+import { experience as sealBayLionsDeMer } from "@/content/experiences/seal-bay-lions-de-mer";
+import { experience as spectacleEraShanghai } from "@/content/experiences/spectacle-era-shanghai";
+import { experience as villagesEthniquesGuizhou } from "@/content/experiences/villages-ethniques-guizhou";
+import { experience as helicoptereVictoriaHarbor } from "@/content/experiences/helicoptere-victoria-harbor";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -431,6 +439,12 @@ import { accommodation as regentPortoMontenegro } from "@/content/accommodations
 import { accommodation as nostalgiaHanokHotel } from "@/content/accommodations/nostalgia-hanok-hotel";
 import { accommodation as anantiBusanCove } from "@/content/accommodations/ananti-busan-cove";
 import { accommodation as podoHotelJeju } from "@/content/accommodations/podo-hotel-jeju";
+import { accommodation as longitude131 } from "@/content/accommodations/longitude-131";
+import { accommodation as southernOceanLodge } from "@/content/accommodations/southern-ocean-lodge";
+import { accommodation as bamurruPlains } from "@/content/accommodations/bamurru-plains";
+import { accommodation as amandayan } from "@/content/accommodations/amandayan";
+import { accommodation as capellaShanghai } from "@/content/accommodations/capella-shanghai";
+import { accommodation as banyanTreeHangzhou } from "@/content/accommodations/banyan-tree-hangzhou";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -501,6 +515,8 @@ export const destinations: Record<string, Destination> = toMap([
   thailande,
   losCabos,
   coreeDuSud,
+  australie,
+  chine,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -700,6 +716,12 @@ export const experiences: Record<string, Experience> = toMap([
   soireeSeoulStreetFood,
   nSeoulTower,
   atelierCuisineBusan,
+  airboatMaryRiver,
+  grandeBarriereCroisiere,
+  sealBayLionsDeMer,
+  spectacleEraShanghai,
+  villagesEthniquesGuizhou,
+  helicoptereVictoriaHarbor,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -877,6 +899,12 @@ export const accommodations: Record<string, Accommodation> = toMap([
   nostalgiaHanokHotel,
   anantiBusanCove,
   podoHotelJeju,
+  bamurruPlains,
+  longitude131,
+  southernOceanLodge,
+  amandayan,
+  capellaShanghai,
+  banyanTreeHangzhou,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
