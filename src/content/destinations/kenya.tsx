@@ -69,7 +69,7 @@ export const destination: Destination = {
       columns: [
         "Un voyage au Kenya ne se résume pas à la savane. Le Masaï Mara couvre moins de deux pour cent du territoire. Autour de lui, le Laikipia, les contreforts du mont Kenya, les plaines de l'Amboseli et la côte swahilie composent des Kenya distincts que la plupart des itinéraires ne réunissent jamais. Nous les réunissons.",
         "La Grande Migration est réelle, vérifiable au mètre : entre juillet et octobre, un million et demi de gnous traversent la rivière Mara depuis la Tanzanie. Les crocodiles attendent depuis trois mois. Le guide arrête le moteur sur la rive. Ce moment ne s'organise pas. Il se prépare, avec les bonnes personnes, depuis le bon côté de la rivière.",
-        "Richard's River Camp est niché dans la réserve privée Oare Orok, fondée par Richard Roberts. Kinondo Kwetu est posé sur la plage de Galu Beach, à soixante-dix kilomètres au sud de Mombasa. Entre les deux, il y a un vol domestique d'une heure et une logique de voyage que nous écrivons pour chaque dossier.",
+        "Richard's River Camp est niché dans la réserve privée Oare Orok, fondée par Richard Roberts. Chale Island Resort occupe une petite île au large de la côte sud, face à Diani. Entre les deux, il y a un vol domestique d'une heure et une logique de voyage que nous écrivons pour chaque dossier.",
       ],
     },
 
@@ -148,7 +148,7 @@ export const destination: Destination = {
       heading: "Où séjourner au Kenya",
       description:
         "Un camp de tentes dans la réserve privée Oare Orok, une propriété sur la plage de Galu Beach, une maison à Nairobi où les girafes de Rothschild passent la tête par les fenêtres du petit déjeuner.",
-      slugs: ["richards-river-camp", "kinondo-kwetu", "giraffe-manor"],
+      slugs: ["richards-river-camp", "chale-island-resort", "giraffe-manor"],
     },
 
     {
@@ -225,7 +225,7 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure au Kenya entre Masaï Mara, Laikipia et côte",
             "Adresses confidentielles au Kenya : lodges privés et camps hors circuit",
-            "Hébergements au Kenya : Richard's River Camp et Kinondo Kwetu",
+            "Hébergements au Kenya : Richard's River Camp et Chale Island Resort",
             "Conciergerie privée 24/7 pour un voyage au Kenya",
             "Expériences immersives au Kenya : montgolfière Mara et culture Samburu",
           ][i],
@@ -279,7 +279,7 @@ export const destination: Destination = {
         {
           title: "Diani Beach, la côte sans les foules",
           description:
-            "À soixante-dix kilomètres au sud de Mombasa, Diani est la côte kenyane telle qu'elle était. Galu Beach, Kinondo Kwetu, cuisine biologique à l'ombre des filaos.",
+            "À soixante-dix kilomètres au sud de Mombasa, Diani est la côte kenyane telle qu'elle était. Galu Beach, l'île de Chale à quelques minutes de bateau, l'ombre des filaos.",
           image: {
             src: "/destination/kenya/map-diani-beach.webp",
             alt: "Plage de Diani Beach sur la côte sud du Kenya avec cocotiers et sable blanc",
@@ -549,7 +549,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Le passage de la savane à la plage de Galu Beach en quarante-cinq minutes de vol résume ce qui est unique dans cet itinéraire. Kinondo Kwetu et ses poulpes grillés sous les filaos, c'est le meilleur dîner du voyage.",
+            "Le passage de la savane à la plage de Galu Beach en quarante-cinq minutes de vol résume ce qui est unique dans cet itinéraire. Le dîner sur l'île de Chale, les pieds dans le sable, c'est le meilleur repas du voyage.",
           image: {
             src: "/destination/kenya/hero-2.png",
             alt: "Portrait", // TODO: verify
