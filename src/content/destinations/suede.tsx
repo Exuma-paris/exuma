@@ -85,7 +85,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Un voyage en Suède qui tient sur deux latitudes",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Suède commence, comme en Norvège, par le choix d'une latitude. Au sud, Stockholm et son archipel de trente mille îles occupent la mer Baltique jusqu'à l'horizon. Mille kilomètres plus au nord, au-delà du cercle polaire, la Laponie suédoise bascule en une saison de neige et de nuit. Sur une carte, les deux régions semblent appartenir au même pays. Sur place, on ne fait pas du tout le même voyage.",
         "Autour de Stockholm, la ville se love entre quatorze îles reliées par des ponts, avant que l'archipel ne prenne le relais vers le large. Gamla Stan garde ses ruelles pavées du treizième siècle, tandis que le Vasamuseet abrite un navire de guerre de 1628, coulé au sortir du port et renfloué intact en 1961. Plus loin en mer, Vaxholm et Sandhamn marquent l'entrée de l'archipel habité ; au-delà, les îles se comptent par milliers et ne portent plus de nom. Dans la Baltique, au sud, l'île de Gotland garde la ville close de Visby et les rochers de calcaire de Fårö.",

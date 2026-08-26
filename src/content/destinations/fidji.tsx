@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte des Fidji",
       heading: "De Nadi aux Yasawa, puis vers les archipels de l'est",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Fidji commence à Nadi, sur la côte sèche de Viti Levu, mais il se décide vraiment le jour où l'on monte dans le bateau qui s'éloigne de la côte. Les Mamanuca apparaissent presque aussitôt, les Yasawa un peu plus loin, avec leurs falaises de calcaire et le passage de Drawaqa où les raies manta remontent le courant de mai à octobre. Plus au sud, Kadavu vit à l'abri du Great Astrolabe Reef, l'une des plus grandes barrières de corail du monde.",
         "Ce qui frappe en arrivant, c'est l'accueil. On dit bula à chaque croisement, et il faut peu de temps pour comprendre que ce n'est pas une formule. Dans les hautes terres de Ba, le village de Navala a gardé ses bures couvertes de chaume, les seules qui subsistent en nombre dans le pays. On y entre en offrant une racine de yaqona au chef, et la cérémonie se prend au sérieux.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage aux Fidji",
       description:
         "Voici les repères pratiques à réunir avant de choisir vos dates : le vol, les formalités, la monnaie et les saisons.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,7 +219,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Fidji. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "Des Mamanuca aux îles Lau",
       description:
         "Le pays se parcourt par archipels, et chacun demande son temps de trajet. Nous plaçons les étapes pour que les transferts servent le voyage au lieu de le découper.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage aux Fidji",
       description:
         "Voici quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir le bon archipel et comprendre comment le pays se vit une fois sur place.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Choisir son archipel",
@@ -550,7 +550,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
