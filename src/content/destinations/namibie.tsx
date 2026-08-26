@@ -33,15 +33,15 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/namibie/hero-1.webp",
-          alt: "Dunes ocres de Sossusvlei au lever du jour, voyage en Namibie",
+          alt: "Marcheurs entre les acacias morts de Deadvlei au pied d'une grande dune ocre, voyage en Namibie",
         },
         {
           src: "/destination/namibie/hero-2.webp",
-          alt: "Épave échouée dans le brouillard de la Skeleton Coast, côte namibienne",
+          alt: "Deux montgolfières au-dessus des plaines du Namib au lever du jour",
         },
         {
           src: "/destination/namibie/hero-3.webp",
-          alt: "Acacias noircis de Deadvlei sur la cuvette d'argile blanche du Namib",
+          alt: "Lion traversant un point d'eau d'Etosha entre girafes, gnous et springboks",
         },
       ],
     },
@@ -79,7 +79,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/namibie/full-image.webp",
-        alt: "Crêtes de sable du Namib s'étirant jusqu'à l'horizon au coucher du soleil, voyage en Namibie",
+        alt: "Grande dune ocre de Sossusvlei et acacias à son pied, voyage en Namibie",
       },
       height: 600,
     },
@@ -99,11 +99,11 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/namibie/split-1.webp",
-          alt: "Welwitschia aux feuilles effilochées sur les plaines caillouteuses du Damaraland",
+          alt: "Éléphant remontant seul une piste de gravier dans le parc d'Etosha",
         },
         {
           src: "/destination/namibie/split-2.webp",
-          alt: "Banc de brume remontant de l'Atlantique sur les dunes de la côte namibienne",
+          alt: "Piste de sable rouge traversant les plaines herbeuses du NamibRand",
         },
       ],
     },
@@ -117,7 +117,7 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/namibie/xp-kalahari-2.webp",
-          alt: "Acacia erioloba isolé sur une crête de sable rouge du Kalahari namibien",
+          alt: "Girafe traversant la brousse du Kalahari dans la lumière du soir",
         },
       },
       text: {
@@ -234,10 +234,10 @@ export const destination: Destination = {
           src: `/destination/namibie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Namibie entre le Namib, la Skeleton Coast et le Kalahari",
-            "Adresses confidentielles en Namibie : concessions privées et réserves fermées",
-            "Hébergements en Namibie : Sossusvlei Desert Lodge et Zannier Sonop",
+            "Terrasse privée et télescope au crépuscule dans le désert namibien",
+            "Piscine et transats face aux montagnes du désert namibien",
             "Conciergerie privée 24/7 pour un voyage en Namibie",
-            "Expériences immersives en Namibie : dunes, épaves et vallée de la Hoanib",
+            "4x4 sur une crête de dune au-dessus de l'Atlantique, Sandwich Harbour",
           ][i],
         },
       })),
@@ -259,7 +259,7 @@ export const destination: Destination = {
             "Les dunes y comptent parmi les plus hautes du monde, Big Daddy dépassant les 320 mètres. À son pied, la cuvette d'argile de Deadvlei garde des acacias morts debout, jamais tombés faute d'humidité pour les décomposer.", // TODO: verify hauteur de Big Daddy
           image: {
             src: "/destination/namibie/map-sossusvlei.webp",
-            alt: "Dune ocre et acacias noircis de Deadvlei à Sossusvlei, Namibie",
+            alt: "Acacia mort sur l'argile blanche de Deadvlei au pied d'une dune orange, Namibie",
           },
           // TODO: verify coords
           coordinates: { lat: -24.7275, lng: 15.3444 },
@@ -270,7 +270,7 @@ export const destination: Destination = {
             "Le parc couvre 49 800 km², soit davantage que la Suisse. Il réunit les crêtes du Naukluft, au-dessus de 2 000 mètres, les plaines de galets du Namib et le canyon de Sesriem, creusé par la Tsauchab.",
           image: {
             src: "/destination/namibie/map-namib-naukluft.webp",
-            alt: "Plaines de galets du Namib-Naukluft au pied des montagnes du Naukluft, Namibie",
+            alt: "Zèbre de montagne sur une dune rouge herbeuse du Namib-Naukluft",
           },
           // TODO: verify coords
           coordinates: { lat: -24.4869, lng: 15.7996 },
@@ -281,7 +281,7 @@ export const destination: Destination = {
             "Les Portugais l'appelaient la côte de l'enfer. Les épaves y restent des décennies, poussées vers l'intérieur par l'avancée du sable. La vallée de la Hoanib, en retrait, abrite des éléphants et des lions adaptés au désert.",
           image: {
             src: "/destination/namibie/map-skeleton-coast.webp",
-            alt: "Épave rouillée sur le sable de la Skeleton Coast dans la brume, Namibie",
+            alt: "Épave d'un chalutier échoué dans les rouleaux de la Skeleton Coast, Namibie",
           },
           // TODO: verify coords
           coordinates: { lat: -19.6, lng: 12.9 },
@@ -314,7 +314,7 @@ export const destination: Destination = {
             "Une cuvette de sel de 4 800 km² occupe le centre du parc, visible depuis l'espace. En fin de saison sèche, toute la faune se rassemble sur une poignée de points d'eau permanents, où l'on reste garé sans bouger.", // TODO: verify surface du pan
           image: {
             src: "/destination/namibie/map-etosha.webp",
-            alt: "Point d'eau du parc d'Etosha en saison sèche avec zèbres et oryx, Namibie",
+            alt: "Éléphants réunis à un point d'eau du parc d'Etosha en saison sèche, Namibie",
           },
           // TODO: verify coords
           coordinates: { lat: -18.855, lng: 16.329 },
