@@ -82,6 +82,7 @@ import { destination as saintVincentEtLesGrenadines } from "@/content/destinatio
 import { destination as turksAndCaicos } from "@/content/destinations/turks-and-caicos";
 import { destination as montenegro } from "@/content/destinations/montenegro";
 import { destination as coreeDuSud } from "@/content/destinations/coree-du-sud";
+import { destination as chine } from "@/content/destinations/chine";
 import { destination as jamaique } from "@/content/destinations/jamaique";
 import { destination as antigua } from "@/content/destinations/antigua";
 import { destination as barbade } from "@/content/destinations/barbade";
@@ -334,6 +335,9 @@ import { experience as atelierCuisineBusan } from "@/content/experiences/atelier
 import { experience as airboatMaryRiver } from "@/content/experiences/airboat-mary-river";
 import { experience as grandeBarriereCroisiere } from "@/content/experiences/grande-barriere-croisiere";
 import { experience as sealBayLionsDeMer } from "@/content/experiences/seal-bay-lions-de-mer";
+import { experience as spectacleEraShanghai } from "@/content/experiences/spectacle-era-shanghai";
+import { experience as villagesEthniquesGuizhou } from "@/content/experiences/villages-ethniques-guizhou";
+import { experience as helicoptereVictoriaHarbor } from "@/content/experiences/helicoptere-victoria-harbor";
 import { experience as cafeBlueMountains } from "@/content/experiences/cafe-blue-mountains";
 import { experience as yachtPriveChefMontegoBay } from "@/content/experiences/yacht-prive-chef-montego-bay";
 import { experience as appletonEstateRhums } from "@/content/experiences/appleton-estate-rhums";
@@ -579,13 +583,16 @@ import { accommodation as regentPortoMontenegro } from "@/content/accommodations
 import { accommodation as nostalgiaHanokHotel } from "@/content/accommodations/nostalgia-hanok-hotel";
 import { accommodation as anantiBusanCove } from "@/content/accommodations/ananti-busan-cove";
 import { accommodation as podoHotelJeju } from "@/content/accommodations/podo-hotel-jeju";
+import { accommodation as longitude131 } from "@/content/accommodations/longitude-131";
+import { accommodation as southernOceanLodge } from "@/content/accommodations/southern-ocean-lodge";
+import { accommodation as bamurruPlains } from "@/content/accommodations/bamurru-plains";
+import { accommodation as amandayan } from "@/content/accommodations/amandayan";
+import { accommodation as capellaShanghai } from "@/content/accommodations/capella-shanghai";
+import { accommodation as banyanTreeHangzhou } from "@/content/accommodations/banyan-tree-hangzhou";
 import { accommodation as roundHill } from "@/content/accommodations/round-hill";
 import { accommodation as tryallClub } from "@/content/accommodations/tryall-club";
 import { accommodation as strawberryHill } from "@/content/accommodations/strawberry-hill";
 
-import { accommodation as bamurruPlains } from "@/content/accommodations/bamurru-plains";
-import { accommodation as longitude131 } from "@/content/accommodations/longitude-131";
-import { accommodation as southernOceanLodge } from "@/content/accommodations/southern-ocean-lodge";
 import { accommodation as jumbyBayIsland } from "@/content/accommodations/jumby-bay-island";
 import { accommodation as hermitageBay } from "@/content/accommodations/hermitage-bay";
 import { accommodation as carlisleBay } from "@/content/accommodations/carlisle-bay";
@@ -713,6 +720,7 @@ export const destinations: Record<string, Destination> = toMap([
   suede,
   losCabos,
   coreeDuSud,
+  chine,
   jamaique,
   zimbabwe,
   panama,
@@ -981,6 +989,9 @@ export const experiences: Record<string, Experience> = toMap([
   soireeSeoulStreetFood,
   nSeoulTower,
   atelierCuisineBusan,
+  spectacleEraShanghai,
+  villagesEthniquesGuizhou,
+  helicoptereVictoriaHarbor,
   cafeBlueMountains,
   yachtPriveChefMontegoBay,
   appletonEstateRhums,
@@ -1238,6 +1249,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   nostalgiaHanokHotel,
   anantiBusanCove,
   podoHotelJeju,
+  amandayan,
+  capellaShanghai,
+  banyanTreeHangzhou,
   roundHill,
   tryallClub,
   strawberryHill,

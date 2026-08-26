@@ -244,13 +244,13 @@ export const destination: Destination = {
             "Maisons d'hôtes, palais transformés, hôtels de famille. Ici, le caractère se révèle dans le choix des matériaux, la cuisine, l'attention portée à chaque détail du quotidien.",
           ][i] ?? card.description,
         image: {
-          src: `/destination/japon/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/japon/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé pour un voyage au Japon",
-            "Ruelle d'un quartier historique de Kyoto au crépuscule",
-            "Chambre de ryokan traditionnelle avec vue sur un jardin japonais",
+            "Calligraphe traçant des caractères au pinceau sur une feuille de papier",
+            "Salle de restaurant d'un hôtel de Tokyo derrière une claustra de bois, au coucher du soleil",
             "Concierge Exuma organisant un transfert privé à Tokyo",
-            "Maître artisan japonais au travail dans son atelier",
+            "Séance d'acupuncture dans un institut japonais",
           ][i],
         },
       })),
