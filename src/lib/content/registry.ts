@@ -364,9 +364,7 @@ import { experience as observationAlbatrosEspanola } from "@/content/experiences
 import { experience as grottesWaitomo } from "@/content/experiences/grottes-waitomo";
 import { experience as voilierPriveBayOfIslands } from "@/content/experiences/voilier-prive-bay-of-islands";
 import { experience as rencontreMaorieRotorua } from "@/content/experiences/rencontre-maorie-rotorua";
-import { experience as arbreAuChocolatSoufriere } from "@/content/experiences/arbre-au-chocolat-soufriere";
 import { experience as atvCascadePriveeGrenade } from "@/content/experiences/atv-cascade-privee-grenade";
-import { experience as helicopterePriveSainteLucie } from "@/content/experiences/helicoptere-prive-sainte-lucie";
 import { experience as plongeeGreatAstrolabeKadavu } from "@/content/experiences/plongee-great-astrolabe-kadavu";
 import { experience as requinsBeqaLagoon } from "@/content/experiences/requins-beqa-lagoon";
 import { experience as sevusevuVillageNavala } from "@/content/experiences/sevusevu-village-navala";
@@ -620,14 +618,11 @@ import { accommodation as blanketBay } from "@/content/accommodations/blanket-ba
 import { accommodation as hukaLodge } from "@/content/accommodations/huka-lodge";
 import { accommodation as eaglesNest } from "@/content/accommodations/eagles-nest";
 import { accommodation as calabashHotel } from "@/content/accommodations/calabash-hotel";
-import { accommodation as jadeMountain } from "@/content/accommodations/jade-mountain";
 import { accommodation as kokomoPrivateIsland } from "@/content/accommodations/kokomo-private-island";
-import { accommodation as ladera } from "@/content/accommodations/ladera";
 import { accommodation as laucalaIsland } from "@/content/accommodations/laucala-island";
 import { accommodation as silversandsGrandAnse } from "@/content/accommodations/silversands-grand-anse";
 import { accommodation as sixSensesFiji } from "@/content/accommodations/six-senses-fiji";
 import { accommodation as sixSensesLaSagesse } from "@/content/accommodations/six-senses-la-sagesse";
-import { accommodation as sugarBeachViceroy } from "@/content/accommodations/sugar-beach-viceroy";
 import { accommodation as exploraRapaNui } from "@/content/accommodations/explora-rapa-nui";
 import { accommodation as nayaraHangaroa } from "@/content/accommodations/nayara-hangaroa";
 import { accommodation as altiplanicoRapaNui } from "@/content/accommodations/altiplanico-rapa-nui";
