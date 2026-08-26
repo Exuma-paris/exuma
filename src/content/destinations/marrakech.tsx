@@ -46,7 +46,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une ville qui ne se livre pas au premier passage",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "La médina de Marrakech couvre six cents hectares ceints de remparts en pisé rose. On y entre par une porte, on en sort par une autre, et entre les deux la logique de la ville change quatre fois. Les fondouks du quartier Mouassine, les tombeaux Saadiens, le palais Bahia : chaque strate porte le nom de la dynastie qui l'a construite. Le plan n'aide pas. Le bon guide, si.",
         "À quarante minutes vers le sud, la route de l'Ourika grimpe entre les noyers et les terrasses de culture berbère. L'Atlas se découvre par paliers : vallée d'abord, puis plateau, puis crête à trois mille mètres. On passe d'un souk couvert à un sentier muletier dans la même journée. Ce contraste n'est pas un argument de brochure. C'est la géographie de la région.",
@@ -137,7 +137,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Marrakech",
       description:
         "Monnaie, formalités, vol, décalage : l'essentiel pour partir sereinement.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -183,7 +183,7 @@ export const destination: Destination = {
       heading: "Voyage sur mesure à Marrakech",
       description:
         "Connaissance du terrain, réseau local, un seul interlocuteur du premier échange jusqu'au retour. Ce que nous mettons en place, vous n'avez pas à le vérifier.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Itinéraires médina–Atlas",
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six lieux, et ce qu'il y a derrière",
       description:
         "Médina, palmeraie, vallées de l'Atlas : chaque lieu tient une promesse distincte. Voici ceux autour desquels s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 9,
       places: [
         {
@@ -314,7 +314,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Marrakech",
       description:
         "Quatre observations de terrain qui changent la façon d'aborder la ville et ses environs.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -420,7 +420,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

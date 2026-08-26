@@ -1,5 +1,8 @@
+import Link from "next/link";
 import { Header } from "@/components/sections/header";
 import { serviceCategories } from "@/lib/content/registry";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 export default function Page() {
   const cats = Object.values(serviceCategories);
@@ -32,6 +35,26 @@ export default function Page() {
             </li>
           ))}
         </ul>
+
+        <div className="flex flex-col items-start gap-4 border-t border-border pt-10">
+          <p className="text-h3 max-w-140">
+            Une question sur l&apos;un de ces services ? Écrivez-nous
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/nous-ecrire"
+              className={cn(buttonVariants({ variant: "default" }))}
+            >
+              Nous écrire
+            </Link>
+            <Link
+              href="/votre-projet"
+              className={cn(buttonVariants({ variant: "secondary" }))}
+            >
+              Créer votre voyage
+            </Link>
+          </div>
+        </div>
       </section>
     </main>
   );

@@ -32,5 +32,12 @@ export const serviceCategory: ServiceCategory = {
         },
       ],
     },
+    {
+      type: "finalCta",
+      eyebrow: "Aller plus loin",
+      heading: "Une question sur ce service ? Écrivez-nous",
+      primaryCta: { label: "Nous écrire", href: "/nous-ecrire" },
+      secondaryCta: { label: "Créer votre voyage", href: "/votre-projet" },
+    },
   ],
 };

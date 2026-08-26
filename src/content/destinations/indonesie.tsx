@@ -68,7 +68,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Indonésie",
       heading: "Quatre îles, quatre façons de voyager",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Indonésie pose d'abord une question de distance. Entre Sumatra et la Papouasie, l'archipel s'étend sur plus de cinq mille kilomètres. Vouloir tout relier revient à passer son séjour dans les aéroports intérieurs. Nous préférons retenir quatre étapes, reliées entre elles par des vols d'une à deux heures. Ce format demande une vingtaine de jours.",
         "Java ouvre le voyage. Jakarta sert de porte d'entrée, avec ses musées et la vieille ville de Batavia. L'est de l'île concentre les volcans : le mont Bromo, qui culmine à 2 329 mètres, se rejoint depuis Surabaya et se découvre avant le lever du soleil. Bali vient ensuite, mais pas par Kuta ni par Seminyak. Ubud a gardé ses temples et ses ateliers de peinture. Plus à l'est, autour de Manggis et de Karangasem, se trouvent les anciens palais d'eau des rois de Bali : Tirtagangga et Ujung. Il faut s'y rendre tôt le matin, avant l'arrivée des groupes.", // TODO: verify altitude du Bromo et meilleur horaire de visite des palais d'eau
@@ -161,7 +161,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Indonésie",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage en Indonésie.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -220,7 +220,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Chaque dossier Indonésie mobilise plusieurs expertises. Un interlocuteur unique en assure la coordination et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -243,7 +243,7 @@ export const destination: Destination = {
       heading: "Six escales, des volcans de Java à l'ouest de Sumba",
       description:
         "De la caldeira du Tengger au parc national de Komodo, des temples d'Ubud aux villages de l'ouest de Sumba : six territoires que peu d'itinéraires réunissent dans un même voyage.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -322,7 +322,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Indonésie",
       description:
         "Huit points de repère issus du terrain. Ils servent à calibrer les attentes, à choisir la période et à comprendre le choix de certaines étapes.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Les formalités se règlent en ligne, avant le départ",
@@ -579,7 +579,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

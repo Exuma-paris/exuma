@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de New York",
       heading: "Chaque quartier a son heure",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à New York se règle sur des horaires plutôt que sur des distances. Le Theater District se vide et se remplit deux fois par soirée. Le West Village s'anime vers sept heures, quand les tables de Bleecker et de Cornelia sortent sur le trottoir. L'Upper East Side, lui, se prend le matin, avant que la Cinquième Avenue ne se charge.",
         "Les adresses qui comptent sont rarement les plus grandes. Un cabaret de quelques dizaines de couverts sur Madison, une table de comptoir dans le West Village, et deux collections restées dans leur maison, le Frick et la Morgan, qui se parcourent en une heure. Manhattan en compte des milliers : le travail consiste à en retenir deux ou trois par quartier, et à les placer au bon moment.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à New York",
       description:
         "Vol, formalités, saisons et usages : les repères qui permettent de poser les dates d'un voyage à New York.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier New York. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six endroits, chacun à son heure",
       description:
         "Six endroits qui ne se prennent pas au même moment de la journée : une collection restée dans sa maison, une place qui devient patinoire, un quartier de théâtres, des rues de travers, un parc dessiné avant les immeubles, et l'eau qui ferme l'île au sud.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 12,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à New York",
       description:
         "Neuf repères venus du terrain : les jours de fermeture, les horaires de Broadway, le pourboire, les distances, et ce qui change quand on part avec des enfants.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Les jours de fermeture sont les meilleurs jours",
@@ -579,7 +579,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Barbade",
       heading: "La Barbade, deux mers pour une île",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à la Barbade se lit en deux côtes, presque deux mers. La Platinum Coast, à l'ouest, longe une mer des Caraïbes plate sur près de vingt kilomètres, de Speightstown à Bridgetown. La côte est regarde l'Atlantique en face, sans îlot pour l'arrêter avant l'Afrique.",
         "Bridgetown organise l'angle sud-ouest de l'île autour de Carlisle Bay et de sa Garrison, un ensemble militaire du XVIIe siècle classé à l'UNESCO en 2011. Le tram électrique d'Harrison's Cave descend, lui, sous les collines calcaires du centre de l'île, à moins de trente minutes de la côte.",
@@ -156,7 +156,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à la Barbade",
       description:
         "Vol, décalage, formalités et saisons : de quoi caler les dates d'un voyage à la Barbade en toute tranquillité.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -215,7 +215,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Barbade. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -238,7 +238,7 @@ export const destination: Destination = {
       heading: "Six lieux, deux côtes, et ce qu'il y a derrière",
       description:
         "De Bridgetown à Bathsheba, six repères qui racontent l'île autant par la mer plate de l'ouest que par l'Atlantique de l'est.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 11,
       places: [
         {
@@ -317,7 +317,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à la Barbade",
       description:
         "Huit repères de terrain pour composer un séjour entre Platinum Coast et côte atlantique sans mauvaise surprise.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "La saison où la Barbade se dévoile le mieux",
@@ -513,7 +513,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

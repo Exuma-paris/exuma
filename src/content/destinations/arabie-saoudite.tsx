@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Arabie Saoudite",
       heading: "AlUla, Diriyah, puis la mer Rouge",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Arabie Saoudite commence par AlUla. La vallée s'ouvre d'un coup après le désert : des tables de grès rouge de cent mètres de haut, séparées par du sable clair, et une oasis de palmiers cultivée en continu depuis plus de deux mille ans. Les hommes s'y arrêtent depuis toujours parce que l'eau y affleure. Hegra, la cité nabatéenne, est à vingt minutes de la vieille ville.", // TODO: verify l'ancienneté de la culture de l'oasis d'AlUla
         "Riyad tient le centre du pays et se visite pour Diriyah. C'est le quartier d'At-Turaif, berceau de la première dynastie saoudienne, bâti en terre crue au bord d'un oued et inscrit au patrimoine mondial en 2010. Les murs sont épais, les ruelles étroites, les toits en troncs de palmier. On y comprend d'où vient le royaume avant de regarder ce qu'il construit aujourd'hui.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Arabie Saoudite",
       description:
         "Vol, monnaie, formalités et saisons : les repères qui permettent de poser les dates d'un voyage en Arabie Saoudite.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,7 +219,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Arabie Saoudite. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "Six étapes, d'AlUla à la mer Rouge",
       description:
         "Six étapes qui ne se ressemblent pas : une cité nabatéenne, une vieille ville de terre, une falaise couverte d'écritures, une réserve fermée au public, le berceau du royaume et une côte de récifs.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -322,7 +322,7 @@ export const destination: Destination = {
         "Les conseils de nos experts pour votre voyage en Arabie Saoudite",
       description:
         "Huit repères venus du terrain : la lumière, le café, la table, les distances, et ce qui change quand on part à plusieurs.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le café se sert jusqu'à ce qu'on secoue la tasse",
@@ -561,7 +561,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

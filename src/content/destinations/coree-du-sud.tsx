@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Corée du Sud",
       heading: "Un pays de montagnes, avec des villes posées dans les creux",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Séoul est la première étape de presque tous les voyages en Corée du Sud. La ville est immense, mais elle se visite quartier par quartier. À Bukchon, les maisons traditionnelles en bois, appelées hanoks, occupent encore une colline entière, avec leurs toits de tuiles grises et leurs cours intérieures.",
         "Le reste du pays est montagneux. Les villes se sont installées dans les vallées et le long de la côte, et les forêts commencent au bout des rues. En automne, ces forêts virent au rouge et au jaune, et les Coréens partent y marcher en famille.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Corée du Sud",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons : les éléments à connaître avant de caler les dates.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,7 +219,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Corée du Sud. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "De Séoul à Jeju, six étapes possibles",
       description:
         "Le pays se parcourt en train, d'une ville à l'autre. On passe de la capitale aux temples, puis à la mer. Voici les étapes qui structurent un séjour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Corée du Sud",
       description:
         "Huit repères rapportés du terrain : comment on circule, ce qui se réserve à l'avance, et ce qui change d'une saison à l'autre.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le train fait presque tout le voyage",
@@ -557,7 +557,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -32,15 +32,15 @@ export const destination: Destination = {
         "On croit le connaître, et il se dévoile ailleurs. Il faut monter une dune pour découvrir des lagunes d'eau tiède, s'asseoir un soir dans le Pelourinho, entendre Iguaçu bien avant de la voir. Chaque étape appelle la suivante, et nous en écrivons l'ordre avec vous.",
       images: [
         {
-          src: "/destination/bresil/hero-1.png",
+          src: "/destination/bresil/hero-1.webp",
           alt: "Dunes blanches et lagunes turquoise des Lençóis Maranhenses au Brésil",
         },
         {
-          src: "/destination/bresil/hero-2.png",
+          src: "/destination/bresil/hero-2.webp",
           alt: "Façades colorées du Pelourinho à Salvador de Bahia en fin de journée",
         },
         {
-          src: "/destination/bresil/hero-3.png",
+          src: "/destination/bresil/hero-3.webp",
           alt: "Rideau d'eau des chutes d'Iguaçu vu depuis la passerelle brésilienne",
         },
       ],
@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "De l'eau, de la forêt et du sable à perte de vue",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Brésil commence par une leçon d'échelle. Un fleuve si large que l'on n'en voit pas l'autre rive. Des chutes que l'on entend gronder bien avant d'arriver. Des dunes qui se remplissent d'eau douce et deviennent, quelques mois par an, un désert de lagunes tièdes. Des plages qui n'en finissent pas.",
         "Au milieu de tout cela vivent des jaguars, des loutres géantes, des aras et des dauphins roses, que l'on approche ici plus facilement que partout ailleurs. Et à chaque étape, une ville, une table, une musique qui rappellent que ce pays sait aussi très bien recevoir.",
@@ -77,7 +77,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/bresil/full-image.png",
+        src: "/destination/bresil/full-image.webp",
         alt: "Lagunes d'eau douce entre les dunes des Lençóis Maranhenses, Brésil",
       },
       height: 600,
@@ -95,11 +95,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/bresil/split-1.png",
+          src: "/destination/bresil/split-1.webp",
           alt: "Baiana en robe blanche préparant des acarajés dans une rue de Salvador",
         },
         {
-          src: "/destination/bresil/split-2.png",
+          src: "/destination/bresil/split-2.webp",
           alt: "Intérieur doré à la feuille de l'église São Francisco de Salvador",
         },
       ],
@@ -125,11 +125,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/bresil/xp-lencois-1.png",
+          src: "/destination/bresil/xp-lencois-1.webp",
           alt: "4×4 sur la plage d'Atins au lever du jour, à l'entrée des Lençóis",
         },
         right: {
-          src: "/destination/bresil/xp-lencois-2.png",
+          src: "/destination/bresil/xp-lencois-2.webp",
           alt: "Baigneur seul dans une lagune des Lençóis Maranhenses au petit matin",
         },
       },
@@ -161,7 +161,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Brésil",
       description:
         "Temps de vol, décalage, monnaie, formalités et saisons : l'essentiel pour caler les dates avant d'écrire l'itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -224,13 +224,13 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Brésil. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
           src: `/destination/bresil/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure au Brésil",
             "Ruelle pavée du Pelourinho aux façades colorées",
@@ -249,7 +249,7 @@ export const destination: Destination = {
       heading: "Les six régions que nous relions le plus souvent",
       description:
         "Les Lençóis, Salvador, Iguaçu, le Pantanal, l'Amazonie et Rio composent la plupart de nos itinéraires. Chacune a sa saison et son tempérament, et l'on retient celles qui se répondent le mieux.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
         {
@@ -257,7 +257,7 @@ export const destination: Destination = {
           description:
             "Un immense champ de dunes blanches qui se remplit d'eau de pluie pendant l'hiver austral. On y entre par le village d'Atins, en 4×4, au lever du jour.",
           image: {
-            src: "/destination/bresil/map-lencois.png",
+            src: "/destination/bresil/map-lencois.webp",
             alt: "Lagunes entre les dunes du parc des Lençóis Maranhenses",
           },
           coordinates: { lat: -2.4867, lng: -43.1281 }, // TODO: verify coords
@@ -267,7 +267,7 @@ export const destination: Destination = {
           description:
             "La première capitale du pays, restée son cœur afro-brésilien. On y trouve le Pelourinho, l'or de São Francisco, les tambours du soir et la cuisine à l'huile de palme.",
           image: {
-            src: "/destination/bresil/map-salvador.png",
+            src: "/destination/bresil/map-salvador.webp",
             alt: "Vue du Pelourinho et de la baie de Tous-les-Saints à Salvador",
           },
           coordinates: { lat: -12.9711, lng: -38.5108 }, // TODO: verify coords
@@ -277,7 +277,7 @@ export const destination: Destination = {
           description:
             "La forêt s'ouvre d'un coup sur des dizaines de cascades, à la frontière argentine. Le côté brésilien offre le panorama, le côté argentin mène au pied de la Garganta do Diabo.",
           image: {
-            src: "/destination/bresil/map-iguacu.png",
+            src: "/destination/bresil/map-iguacu.webp",
             alt: "Panorama des chutes d'Iguaçu depuis le côté brésilien",
           },
           coordinates: { lat: -25.6953, lng: -54.4367 }, // TODO: verify coords
@@ -287,7 +287,7 @@ export const destination: Destination = {
           description:
             "La plus grande zone humide de la planète. Quand la saison sèche s'installe, les jaguars descendent sur les berges et se laissent observer depuis une barque.",
           image: {
-            src: "/destination/bresil/map-pantanal.png",
+            src: "/destination/bresil/map-pantanal.webp",
             alt: "Jaguar sur une berge du Pantanal au Brésil",
           },
           coordinates: { lat: -19.9556, lng: -56.3211 }, // TODO: verify coords
@@ -297,7 +297,7 @@ export const destination: Destination = {
           description:
             "En amont de Manaus, le fleuve s'élargit en un archipel d'îles couvertes de forêt. Ses eaux sombres portent peu de moustiques, ce qui rend les nuits douces.",
           image: {
-            src: "/destination/bresil/map-amazonie.png",
+            src: "/destination/bresil/map-amazonie.webp",
             alt: "Eaux noires du rio Negro et forêt inondée de l'archipel d'Anavilhanas",
           },
           coordinates: { lat: -3.136, lng: -59.98 }, // TODO: verify coords
@@ -307,7 +307,7 @@ export const destination: Destination = {
           description:
             "La baie de Guanabara, les morros, Ipanema et Santa Teresa. Rio se glisse en début ou en fin de séjour, et la ville a sa propre page chez nous.",
           image: {
-            src: "/destination/bresil/map-rio.png",
+            src: "/destination/bresil/map-rio.webp",
             alt: "Pain de Sucre et baie de Guanabara à Rio de Janeiro",
           },
           coordinates: { lat: -22.9519, lng: -43.2105 }, // TODO: verify coords
@@ -322,7 +322,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Brésil",
       description:
         "Huit observations de terrain qui décident souvent d'une date, d'une étape ou d'une façon de voyager.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Les lagunes se remplissent de juin à septembre",
@@ -520,14 +520,14 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
           quote:
             "Partir d'Atins avant le jour et se retrouver seuls dans les lagunes restera notre plus beau souvenir de voyage. Nous avons croisé les premiers véhicules en repartant, alors que la matinée était déjà bien avancée.",
           image: {
-            src: "/destination/bresil/hero-1.png",
+            src: "/destination/bresil/hero-1.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify
@@ -538,7 +538,7 @@ export const destination: Destination = {
           quote:
             "Trois régions en deux semaines, et pas une correspondance ratée. Le Pantanal nous a offert deux jaguars, dont un tout près de la barque, et nous en parlons encore à nos amis.",
           image: {
-            src: "/destination/bresil/hero-2.png",
+            src: "/destination/bresil/hero-2.webp",
             alt: "Portrait de Bernard et Michèle", // TODO: verify
           },
           name: "Bernard & Michèle", // TODO: verify
@@ -549,7 +549,7 @@ export const destination: Destination = {
           quote:
             "Salvador avec un guide qui connaissait chaque ruelle du Pelourinho, puis Iguaçu depuis l'hôtel du parc. Les chutes pour nous seuls au petit matin. Nos enfants s'en souviennent encore.",
           image: {
-            src: "/destination/bresil/hero-3.png",
+            src: "/destination/bresil/hero-3.webp",
             alt: "Portrait de Constance", // TODO: verify
           },
           name: "Constance", // TODO: verify

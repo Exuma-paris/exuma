@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte des Caraïbes",
       heading: "Des îles où la journée se décide au matin",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage dans les Caraïbes tient d'abord à la couleur de l'eau au réveil et au vent qui se lève vers le milieu de la matinée. C'est lui qui décide de la baie où l'on se baignera, de la plage où la table sera dressée, et de l'heure à laquelle on rentrera. On croit venir pour le sable, et l'on repart en parlant des gens rencontrés sur un ponton ou au marché.",
         "Les îles ne se ressemblent pas. Saint-Barthélemy vit à la française, avec ses tables tenues par des chefs installés là depuis longtemps et ses anses que l'on rejoint par la mer. Anguilla est plus discrète, presque silencieuse, et l'on y marche sur le sable sans croiser personne. Plus au sud, les Grenadines forment un chapelet de mouillages où l'on navigue de Bequia aux Tobago Cays, tandis que Sainte-Lucie dresse ses Pitons au-dessus de la forêt et de la mer.",
@@ -164,7 +164,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage dans les Caraïbes",
       description:
         "Vol, décalage, monnaies, formalités et saisons : de quoi caler les dates avant d'écrire l'itinéraire ensemble.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -228,7 +228,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Caraïbes. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -251,7 +251,7 @@ export const destination: Destination = {
       heading: "Les escales où l'on jette l'ancre",
       description:
         "Chaque île a son vent, ses tables et ses habitudes. Nous composons l'itinéraire pour que chacune arrive au bon moment du séjour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -331,7 +331,7 @@ export const destination: Destination = {
         "Les conseils de nos experts pour votre voyage dans les Caraïbes",
       description:
         "Quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir la bonne saison et comprendre pourquoi nous vous proposons telle île plutôt qu'une autre.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Choisir ses îles avant de choisir son hôtel",
@@ -547,7 +547,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

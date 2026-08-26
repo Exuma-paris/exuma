@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de Madagascar",
       heading: "Le Nord, la côte ouest, puis la forêt de l'Est",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Madagascar commence souvent par le Nord. Autour d'Antsiranana, la terre est rouge et l'air sent la poussière chaude. Les Tsingy Rouges, dans la vallée de l'Irodo, en sont la forme la plus spectaculaire. Au large, les îles sont nombreuses et presque vides : Nosy Ankao à l'est, l'archipel des Mitsio à l'ouest. Sur chacune, une plage, quelques villas et personne d'autre.",
         "Plus au sud, sur la côte ouest, Anjajavy occupe une presqu'île que la route n'atteint pas : on y arrive par les airs, sur une piste en terre. Le long de cette côte, les pêcheurs vezo naviguent en pirogue à voile et partent avec le vent du matin. Près de Morondava, l'allée des baobabs aligne une vingtaine de ces arbres de part et d'autre d'une piste de sable. Les Sakalava, le peuple de cette région, les considèrent comme des ancêtres.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Madagascar",
       description:
         "Vol, formalités, monnaie et saisons : de quoi caler les dates et la durée d'un voyage à Madagascar.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se croisent sur un dossier Madagascar : les vols intérieurs, les lodges, les pisteurs. Un seul interlocuteur coordonne l'ensemble et reste le vôtre.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six étapes, du Nord rouge à la forêt de l'Est",
       description:
         "Six étapes qui ne se ressemblent pas : une baie et ses cirques de latérite, deux îles posées au large, une presqu'île de forêt sèche, une allée de baobabs sur la piste de Morondava, et un parc de forêt humide à l'est d'Antananarivo.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Madagascar",
       description:
         "Huit repères venus du terrain : les liaisons intérieures, l'heure des lémuriens, les guides de village, la table, la vanille, Antananarivo et les saisons.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le Nord se rejoint en avion",
@@ -558,7 +558,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

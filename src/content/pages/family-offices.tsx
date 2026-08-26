@@ -282,7 +282,7 @@ export const sections: Section[] = [
       // Formulation à faire valider par Ludivine (règle interne, pas une promesse chiffrée).
       "En interne, l'information circule au strict nécessaire : votre référent, son suppléant, et personne d'autre. Les voyages privés suivent exactement les mêmes règles que les professionnels.",
     ],
-    cta: { label: "Recevoir notre engagement écrit", href: "/contact" },
+    cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement?profil=family-office" },
   },
 
   {
@@ -429,6 +429,6 @@ export const sections: Section[] = [
     heading: "Besoin de déléguer les voyages de vos clients ? Contactez-nous",
     primaryCta: { label: "Appeler Exuma", href: EXUMA_TEL_HREF },
     // TODO : remplacer par la ligne directe du service.
-    secondaryCta: { label: "Écrire à Exuma", href: "/contact" },
+    secondaryCta: { label: "Écrire à Ludivine", href: "/professionnels/contact?profil=family-office" },
   },
 ];

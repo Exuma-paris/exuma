@@ -14,6 +14,7 @@ import {
 import { VideoSection } from "@/components/sections/video";
 import { FaqSection } from "@/components/sections/faq";
 import { TestimonialsSection } from "@/components/sections/testimonials";
+import { EXUMA_MAILTO_HREF, EXUMA_TEL_HREF } from "@/lib/exuma";
 
 export default function Home() {
   // Index construit côté serveur : le composant de recherche est client, lui
@@ -40,7 +41,7 @@ export default function Home() {
               primary: { label: "Créer votre voyage", href: "/votre-projet" },
               secondary: {
                 label: "Parler à un travel designer",
-                href: "/contact",
+                href: EXUMA_TEL_HREF,
               },
             }}
           />
@@ -115,7 +116,7 @@ export default function Home() {
           contact={{
             prefix: "Une question qui n'est pas ici ? ",
             label: "Écrivez-nous",
-            href: "/contact",
+            href: EXUMA_MAILTO_HREF,
             suffix: ", nous répondons nous-mêmes.",
           }}
           items={[

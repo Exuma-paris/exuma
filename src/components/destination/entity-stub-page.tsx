@@ -26,18 +26,21 @@ export function EntityStubPage({
           aujourd&apos;hui, votre travel designer peut vous répondre dans la
           journée.
         </p>
+        {/* Ces pages sont rattachées à une destination : quelqu'un qui les
+            ouvre pense à un voyage, pas à une question d'ordre général. Le
+            parcours complet passe donc devant. */}
         <div className="flex flex-wrap gap-3 pt-2">
           <Link
-            href="/contact"
+            href="/votre-projet"
             className={cn(buttonVariants({ variant: "default" }))}
           >
-            Contactez-nous
+            Créer votre voyage
           </Link>
           <Link
-            href="/votre-projet"
+            href="/contact"
             className={cn(buttonVariants({ variant: "secondary" }))}
           >
-            Construire ce voyage
+            Contactez-nous
           </Link>
         </div>
       </section>
