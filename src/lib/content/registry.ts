@@ -90,6 +90,9 @@ import { destination as singapour } from "@/content/destinations/singapour";
 import { destination as fidji } from "@/content/destinations/fidji";
 import { destination as sainteLucie } from "@/content/destinations/sainte-lucie";
 import { destination as laGrenade } from "@/content/destinations/la-grenade";
+import { destination as ileDePaques } from "@/content/destinations/ile-de-paques";
+import { destination as inde } from "@/content/destinations/inde";
+import { destination as zanzibar } from "@/content/destinations/zanzibar";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -351,6 +354,15 @@ import { experience as requinsBeqaLagoon } from "@/content/experiences/requins-b
 import { experience as sevusevuVillageNavala } from "@/content/experiences/sevusevu-village-navala";
 import { experience as snorkelingZodiacGrenade } from "@/content/experiences/snorkeling-zodiac-grenade";
 import { experience as tourCulinaireGrenade } from "@/content/experiences/tour-culinaire-grenade";
+import { experience as tongarikiLeverSoleil } from "@/content/experiences/tongariki-lever-soleil";
+import { experience as terevakaChevalRapaNui } from "@/content/experiences/terevaka-cheval-rapa-nui";
+import { experience as umuRapaNuiFamille } from "@/content/experiences/umu-rapa-nui-famille";
+import { experience as highTeaFamilleRoyaleCochin } from "@/content/experiences/high-tea-famille-royale-cochin";
+import { experience as jalSanjhiUdaipur } from "@/content/experiences/jal-sanjhi-udaipur";
+import { experience as begumsDeDelhi } from "@/content/experiences/begums-de-delhi";
+import { experience as safariBleuBoutre } from "@/content/experiences/safari-bleu-boutre";
+import { experience as stoneTownVisitePrivee } from "@/content/experiences/stone-town-visite-privee";
+import { experience as epicesKidichiLivingstone } from "@/content/experiences/epices-kidichi-livingstone";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -583,6 +595,15 @@ import { accommodation as silversandsGrandAnse } from "@/content/accommodations/
 import { accommodation as sixSensesFiji } from "@/content/accommodations/six-senses-fiji";
 import { accommodation as sixSensesLaSagesse } from "@/content/accommodations/six-senses-la-sagesse";
 import { accommodation as sugarBeachViceroy } from "@/content/accommodations/sugar-beach-viceroy";
+import { accommodation as exploraRapaNui } from "@/content/accommodations/explora-rapa-nui";
+import { accommodation as nayaraHangaroa } from "@/content/accommodations/nayara-hangaroa";
+import { accommodation as altiplanicoRapaNui } from "@/content/accommodations/altiplanico-rapa-nui";
+import { accommodation as amanbagh } from "@/content/accommodations/amanbagh";
+import { accommodation as tajMahalPalaceMumbai } from "@/content/accommodations/taj-mahal-palace-mumbai";
+import { accommodation as ahilyaFort } from "@/content/accommodations/ahilya-fort";
+import { accommodation as mnembaIslandLodge } from "@/content/accommodations/mnemba-island-lodge";
+import { accommodation as parkHyattZanzibar } from "@/content/accommodations/park-hyatt-zanzibar";
+import { accommodation as zanzibarWhiteSand } from "@/content/accommodations/zanzibar-white-sand";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -601,6 +622,9 @@ export const destinations: Record<string, Destination> = toMap([
   fidji,
   sainteLucie,
   laGrenade,
+  ileDePaques,
+  inde,
+  zanzibar,
   australie,
   afriqueDuSud,
   anguilla,
@@ -709,6 +733,15 @@ export const experiences: Record<string, Experience> = toMap([
   sevusevuVillageNavala,
   snorkelingZodiacGrenade,
   tourCulinaireGrenade,
+  tongarikiLeverSoleil,
+  terevakaChevalRapaNui,
+  umuRapaNuiFamille,
+  highTeaFamilleRoyaleCochin,
+  jalSanjhiUdaipur,
+  begumsDeDelhi,
+  safariBleuBoutre,
+  stoneTownVisitePrivee,
+  epicesKidichiLivingstone,
   airboatMaryRiver,
   grandeBarriereCroisiere,
   sealBayLionsDeMer,
@@ -961,6 +994,15 @@ export const accommodations: Record<string, Accommodation> = toMap([
   sixSensesFiji,
   sixSensesLaSagesse,
   sugarBeachViceroy,
+  exploraRapaNui,
+  nayaraHangaroa,
+  altiplanicoRapaNui,
+  amanbagh,
+  tajMahalPalaceMumbai,
+  ahilyaFort,
+  mnembaIslandLodge,
+  parkHyattZanzibar,
+  zanzibarWhiteSand,
   bamurruPlains,
   longitude131,
   southernOceanLodge,

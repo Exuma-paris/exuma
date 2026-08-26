@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Grenade",
       heading: "Le sud-ouest, de Saint-Georges à L'Anse aux Épines",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à la Grenade commence par le sud-ouest, la pointe de l'île où tout se tient à vingt minutes de route. Saint-Georges y ferme son port sur le Carénage, entre les entrepôts d'épices et les goélettes qui chargent encore à quai. Un peu plus bas s'ouvre la Grand Anse, et derrière elle les baies de Morne Rouge et de L'Anse aux Épines, où l'eau reste calme du matin jusqu'au soir.",
         "Ce qui surprend, c'est la vitesse à laquelle l'île change dès que l'on monte. La forêt du Grand Étang prend le relais des jardins, avec son lac de cratère, ses cascades des Seven Sisters et ses singes qui traversent la route. Plus au nord, les plantations travaillent encore à l'ancienne : la muscade sèche à Gouyave sur de longs plateaux que l'on pousse à la main, le cacao fermente sous des couvercles de bois à Belmont Estate, et la roue à aubes de River Antoine tourne à l'eau de la rivière depuis 1785.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à la Grenade",
       description:
         "Voici les repères pratiques à réunir avant de choisir vos dates : le vol, les formalités, la monnaie et les saisons.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -221,7 +221,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Grenade. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -244,7 +244,7 @@ export const destination: Destination = {
       heading: "De Saint-Georges à Carriacou",
       description:
         "L'île se découvre par petites boucles, entre la mer et la forêt, et chaque endroit a son heure. Nous plaçons les journées pour que chacune arrive au bon moment du séjour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 9,
       places: [
         {
@@ -323,7 +323,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à la Grenade",
       description:
         "Voici quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir la bonne semaine et comprendre comment l'île se vit une fois sur place.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "L'arrivée et le choix de l'escale",
@@ -558,7 +558,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
