@@ -8,9 +8,8 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
  * arrive déjà recommandé et vérifie une réputation, il ne découvre pas une
  * offre.
  *
- * Les pages filles (`/professionnels/family-offices`, `/entreprises`,
- * `/dirigeants`) ne sont pas encore produites : les trois portes pointent
- * provisoirement vers `/contact`.
+ * Les trois pages filles sont produites : `/professionnels/family-offices`,
+ * `/professionnels/entreprises` et `/professionnels/dirigeants`.
  *
  * TODO chiffres : toutes les valeurs marquées TODO attendent le retour de
  * Ludivine (garanties, volumes, ancienneté, pays opérés, délai de réponse).
@@ -99,8 +98,10 @@ export const sections: Section[] = [
           src: "/professionnels/porte-a.png",
           alt: "Organiser les voyages de vos clients depuis son bureau",
         },
-        // TODO lien : /professionnels/family-offices une fois la page produite.
-        link: { label: "Nous en parler", href: "/contact" },
+        link: {
+          label: "Nous en parler",
+          href: "/professionnels/family-offices",
+        },
       },
       {
         title: "Entreprise ou cabinet",
@@ -110,8 +111,7 @@ export const sections: Section[] = [
           src: "/professionnels/porte-b.png",
           alt: "Collaborateur en déplacement, au travail pendant le trajet",
         },
-        // TODO lien : /professionnels/entreprises une fois la page produite.
-        link: { label: "Nous en parler", href: "/contact" },
+        link: { label: "Nous en parler", href: "/professionnels/entreprises" },
       },
       {
         title: "Dirigeant",
@@ -121,8 +121,7 @@ export const sections: Section[] = [
           src: "/professionnels/porte-c.png",
           alt: "Attablé seul en terrasse en fin de journée",
         },
-        // TODO lien : /professionnels/dirigeants une fois la page produite.
-        link: { label: "Nous en parler", href: "/contact" },
+        link: { label: "Nous en parler", href: "/professionnels/dirigeants" },
       },
     ],
   },
@@ -256,7 +255,7 @@ export const sections: Section[] = [
           alt: "Témoignage anonymisé",
         },
         name: "Directeur",
-        role: "Family office, Genève",
+        role: "Family office",
       },
       {
         // TODO : témoignage à recueillir, porte B. Question à poser : que
@@ -268,7 +267,7 @@ export const sections: Section[] = [
           alt: "Témoignage anonymisé",
         },
         name: "Office manager",
-        role: "Cabinet d'avocats, Paris",
+        role: "Cabinet d'avocats",
       },
       {
         // TODO : témoignage à recueillir, porte C. Question à poser : qu'est-ce

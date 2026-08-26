@@ -65,7 +65,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Australie",
       heading: "L'hiver de Sydney est la bonne saison du désert",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Sydney passe l'hiver en juillet, au moment précis où le Kakadu sèche et où Uluru devient praticable en journée. Un voyage en Australie se cale d'abord sur ce décalage : le pays couvre quatre climats, et deux étapes voisines sur la carte peuvent appartenir à deux saisons différentes.",
         "Les distances se franchissent en avion. Sydney rejoint Uluru en trois heures de vol, Uluru rejoint Cairns en trois heures encore, et certaines stations du bush se gagnent en Cessna, cinq places, depuis Darwin. Un itinéraire réussi compte peu d'étapes et beaucoup de nuits par étape.",
@@ -158,7 +158,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Australie",
       description:
         "Vol, décalage, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage en Australie.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -217,7 +217,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Australie. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -240,7 +240,7 @@ export const destination: Destination = {
       heading: "Six étapes, et les vols qui les relient",
       description:
         "Le pays fait quatorze fois la France. Voici les six étapes qui structurent un premier voyage, et ce que chacune apporte que les autres n'ont pas.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
         {
@@ -319,7 +319,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Australie",
       description:
         "Huit repères rapportés du terrain : comment on arrive, comment on se déplace, et ce qui se réserve des mois avant le départ.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "L'escale se choisit, elle ne se subit pas",
@@ -553,7 +553,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
@@ -644,8 +644,7 @@ export const destination: Destination = {
       heading: "Destinations similaires",
       description:
         "D'autres façons de traverser de grands espaces, entre atolls du Pacifique, désert du Namib et volcans indonésiens. Trois prolongements possibles après un premier voyage en Australie.",
-      // TODO: remplacer par nouvelle-zelande et fidji dès que ces destinations existent
-      slugs: ["polynesie", "namibie", "indonesie"],
+      slugs: ["nouvelle-zelande", "fidji", "polynesie"],
     },
   ],
 };
