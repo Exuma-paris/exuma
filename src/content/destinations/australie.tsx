@@ -644,8 +644,7 @@ export const destination: Destination = {
       heading: "Destinations similaires",
       description:
         "D'autres façons de traverser de grands espaces, entre atolls du Pacifique, désert du Namib et volcans indonésiens. Trois prolongements possibles après un premier voyage en Australie.",
-      // TODO: remplacer par nouvelle-zelande et fidji dès que ces destinations existent
-      slugs: ["polynesie", "namibie", "indonesie"],
+      slugs: ["nouvelle-zelande", "fidji", "polynesie"],
     },
   ],
 };

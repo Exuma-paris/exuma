@@ -87,6 +87,9 @@ import { destination as antigua } from "@/content/destinations/antigua";
 import { destination as barbade } from "@/content/destinations/barbade";
 import { destination as portoRico } from "@/content/destinations/porto-rico";
 import { destination as singapour } from "@/content/destinations/singapour";
+import { destination as suede } from "@/content/destinations/suede";
+import { destination as galapagos } from "@/content/destinations/galapagos";
+import { destination as nouvelleZelande } from "@/content/destinations/nouvelle-zelande";
 import { destination as fidji } from "@/content/destinations/fidji";
 import { destination as sainteLucie } from "@/content/destinations/sainte-lucie";
 import { destination as laGrenade } from "@/content/destinations/la-grenade";
@@ -346,6 +349,15 @@ import { experience as catamaranPriveCulebra } from "@/content/experiences/catam
 import { experience as dinerChefCandlenut } from "@/content/experiences/diner-chef-candlenut";
 import { experience as visitePriveeJardinsBotaniques } from "@/content/experiences/visite-privee-jardins-botaniques";
 import { experience as croisiereIlesDuSud } from "@/content/experiences/croisiere-iles-du-sud";
+import { experience as voileArchipelStockholm } from "@/content/experiences/voile-archipel-stockholm";
+import { experience as rencontreSamesRennesLaponie } from "@/content/experiences/rencontre-sames-rennes-laponie";
+import { experience as atelierVerreSmaland } from "@/content/experiences/atelier-verre-smaland";
+import { experience as snorkelingOtariesGalapagos } from "@/content/experiences/snorkeling-otaries-galapagos";
+import { experience as observationTortuesGeantesSantaCruz } from "@/content/experiences/observation-tortues-geantes-santa-cruz";
+import { experience as observationAlbatrosEspanola } from "@/content/experiences/observation-albatros-espanola";
+import { experience as grottesWaitomo } from "@/content/experiences/grottes-waitomo";
+import { experience as voilierPriveBayOfIslands } from "@/content/experiences/voilier-prive-bay-of-islands";
+import { experience as rencontreMaorieRotorua } from "@/content/experiences/rencontre-maorie-rotorua";
 import { experience as arbreAuChocolatSoufriere } from "@/content/experiences/arbre-au-chocolat-soufriere";
 import { experience as atvCascadePriveeGrenade } from "@/content/experiences/atv-cascade-privee-grenade";
 import { experience as helicopterePriveSainteLucie } from "@/content/experiences/helicoptere-prive-sainte-lucie";
@@ -586,6 +598,15 @@ import { accommodation as stRegisBahiaBeach } from "@/content/accommodations/st-
 import { accommodation as capellaSingapore } from "@/content/accommodations/capella-singapore";
 import { accommodation as rafflesSingapore } from "@/content/accommodations/raffles-singapore";
 import { accommodation as sixSensesDuxton } from "@/content/accommodations/six-senses-duxton";
+import { accommodation as arcticBath } from "@/content/accommodations/arctic-bath";
+import { accommodation as treehotel } from "@/content/accommodations/treehotel";
+import { accommodation as fabrikenFurillen } from "@/content/accommodations/fabriken-furillen";
+import { accommodation as aquaMare } from "@/content/accommodations/aqua-mare";
+import { accommodation as pikaiaLodge } from "@/content/accommodations/pikaia-lodge";
+import { accommodation as ecoventuraTheory } from "@/content/accommodations/ecoventura-theory";
+import { accommodation as blanketBay } from "@/content/accommodations/blanket-bay";
+import { accommodation as hukaLodge } from "@/content/accommodations/huka-lodge";
+import { accommodation as eaglesNest } from "@/content/accommodations/eagles-nest";
 import { accommodation as calabashHotel } from "@/content/accommodations/calabash-hotel";
 import { accommodation as jadeMountain } from "@/content/accommodations/jade-mountain";
 import { accommodation as kokomoPrivateIsland } from "@/content/accommodations/kokomo-private-island";
@@ -689,6 +710,7 @@ export const destinations: Record<string, Destination> = toMap([
   uruguay,
   royaumeUni,
   singapour,
+  suede,
   losCabos,
   coreeDuSud,
   jamaique,
@@ -699,6 +721,8 @@ export const destinations: Record<string, Destination> = toMap([
   maroc,
   saintVincentEtLesGrenadines,
   turksAndCaicos,
+  galapagos,
+  nouvelleZelande,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -972,6 +996,15 @@ export const experiences: Record<string, Experience> = toMap([
   dinerChefCandlenut,
   visitePriveeJardinsBotaniques,
   croisiereIlesDuSud,
+  voileArchipelStockholm,
+  rencontreSamesRennesLaponie,
+  atelierVerreSmaland,
+  snorkelingOtariesGalapagos,
+  observationTortuesGeantesSantaCruz,
+  observationAlbatrosEspanola,
+  grottesWaitomo,
+  voilierPriveBayOfIslands,
+  rencontreMaorieRotorua,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -1220,6 +1253,15 @@ export const accommodations: Record<string, Accommodation> = toMap([
   capellaSingapore,
   rafflesSingapore,
   sixSensesDuxton,
+  arcticBath,
+  treehotel,
+  fabrikenFurillen,
+  aquaMare,
+  pikaiaLodge,
+  ecoventuraTheory,
+  blanketBay,
+  hukaLodge,
+  eaglesNest,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
