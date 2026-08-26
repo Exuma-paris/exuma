@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["costa-rica", "santa teresa", "playa carmen", "nicoya", "surf"],
   heroImage: {
     src: "/destination/costa-rica/hotel-nantipa.webp",
-    alt: "Casita de bois du Nantipa ouverte sur la plage de Santa Teresa au coucher du soleil",
+    alt: "Villa de bois et bains de soleil du Nantipa dans la végétation, Santa Teresa",
   },
   destinationSlugs: ["costa-rica"],
   sections: [],
