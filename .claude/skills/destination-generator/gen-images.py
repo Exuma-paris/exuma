@@ -75,9 +75,10 @@ ALLOWED_ROOTS = ("destination", "experience", "accommodation", "service", "theme
 
 EXUMA_STYLE = """Apply this Exuma photographic style:
 - Quiet luxury, non-ostentatious elegance, timeless atmosphere; mood of nostalgia, silence and calm
-- Low contrast, warm whites (never pure white), soft shadows
+- Gentle, low contrast, but with rich depth: keep shadows dense and midtones full. Do NOT wash out, fade, bleach or lift the image. No milky, hazy or pastel look. Overall exposure sits on the deeper, denser side rather than bright and airy
+- Warm whites (never pure white), soft but clearly readable shadows, blacks that stay black
 - Subtle film grain, 35mm analog texture, soft depth of field
-- Color palette pulled toward sand, beige, ochre tones, olive green, very desaturated blue, warm skin tones
+- Color palette pulled toward sand, beige, ochre tones, olive green, deep desaturated blue, warm skin tones. Hues stay muted, but the colours remain saturated and dense, never pale
 - Editorial photography finishing, refined framing"""
 
 GRADE_ONLY_PROMPT = f"""Apply the visual style described below to this reference photograph as a color grade and post-processing treatment ONLY.
