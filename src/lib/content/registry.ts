@@ -89,6 +89,7 @@ import { destination as portoRico } from "@/content/destinations/porto-rico";
 import { destination as singapour } from "@/content/destinations/singapour";
 import { destination as suede } from "@/content/destinations/suede";
 import { destination as galapagos } from "@/content/destinations/galapagos";
+import { destination as nouvelleZelande } from "@/content/destinations/nouvelle-zelande";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -348,6 +349,9 @@ import { experience as atelierVerreSmaland } from "@/content/experiences/atelier
 import { experience as snorkelingOtariesGalapagos } from "@/content/experiences/snorkeling-otaries-galapagos";
 import { experience as observationTortuesGeantesSantaCruz } from "@/content/experiences/observation-tortues-geantes-santa-cruz";
 import { experience as observationAlbatrosEspanola } from "@/content/experiences/observation-albatros-espanola";
+import { experience as grottesWaitomo } from "@/content/experiences/grottes-waitomo";
+import { experience as voilierPriveBayOfIslands } from "@/content/experiences/voilier-prive-bay-of-islands";
+import { experience as rencontreMaorieRotorua } from "@/content/experiences/rencontre-maorie-rotorua";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -577,6 +581,9 @@ import { accommodation as fabrikenFurillen } from "@/content/accommodations/fabr
 import { accommodation as aquaMare } from "@/content/accommodations/aqua-mare";
 import { accommodation as pikaiaLodge } from "@/content/accommodations/pikaia-lodge";
 import { accommodation as ecoventuraTheory } from "@/content/accommodations/ecoventura-theory";
+import { accommodation as blanketBay } from "@/content/accommodations/blanket-bay";
+import { accommodation as hukaLodge } from "@/content/accommodations/huka-lodge";
+import { accommodation as eaglesNest } from "@/content/accommodations/eagles-nest";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -668,6 +675,7 @@ export const destinations: Record<string, Destination> = toMap([
   saintVincentEtLesGrenadines,
   turksAndCaicos,
   galapagos,
+  nouvelleZelande,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -930,6 +938,9 @@ export const experiences: Record<string, Experience> = toMap([
   snorkelingOtariesGalapagos,
   observationTortuesGeantesSantaCruz,
   observationAlbatrosEspanola,
+  grottesWaitomo,
+  voilierPriveBayOfIslands,
+  rencontreMaorieRotorua,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -1166,6 +1177,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   aquaMare,
   pikaiaLodge,
   ecoventuraTheory,
+  blanketBay,
+  hukaLodge,
+  eaglesNest,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
