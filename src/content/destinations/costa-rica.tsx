@@ -79,7 +79,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/costa-rica/full-image.webp",
-        alt: "Forêt de nuages du Costa Rica au lever du jour, canopée noyée de brume",
+        alt: "Cascade tombant dans la forêt tropicale dense du Costa Rica, vue de la canopée",
       },
       height: 600,
     },
@@ -96,11 +96,11 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/costa-rica/split-1.webp",
-          alt: "Pont suspendu tendu dans la canopée au-dessus de la forêt de La Fortuna",
+          alt: "Canopée de forêt tropicale et volcan noyé dans la brume près de La Fortuna, Costa Rica",
         },
         {
           src: "/destination/costa-rica/split-2.webp",
-          alt: "Bassin de source thermale naturelle étagé sous la forêt au pied de l'Arenal",
+          alt: "Cascade de La Fortuna tombant dans son bassin turquoise au cœur de la forêt",
         },
       ],
     },
@@ -222,10 +222,10 @@ export const destination: Destination = {
           src: `/destination/costa-rica/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Costa Rica entre Tortuguero, Arenal et Nicoya",
-            "Adresses confidentielles au Costa Rica : réserves privées et villas fermées",
-            "Hébergements au Costa Rica : écolodges et villas privées de Santa Teresa",
+            "Déjeuner privé installé au bord d'une rivière encaissée, Costa Rica",
+            "Écolodge perché dans la canopée costaricienne au coucher du soleil",
             "Conciergerie privée 24/7 pour un voyage au Costa Rica",
-            "Expériences immersives au Costa Rica : tortues, forêt de nuages et café",
+            "Traversée d'un pont suspendu dans la canopée d'une forêt costaricienne",
           ][i],
         },
       })),
@@ -258,7 +258,7 @@ export const destination: Destination = {
             "La région la plus connue du pays, et pour de bonnes raisons : le cône parfait de l'Arenal, les sources thermales qui descendent de ses flancs et les ponts suspendus tendus dans la canopée.",
           image: {
             src: "/destination/costa-rica/map-arenal.webp",
-            alt: "Volcan Arenal vu depuis les sources thermales de La Fortuna, Costa Rica",
+            alt: "Volcan Arenal au-dessus des pâturages de La Fortuna, chevaux au premier plan",
           },
           // TODO: verify coords
           coordinates: { lat: 10.4632, lng: -84.7033 },

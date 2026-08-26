@@ -45,6 +45,7 @@ import { destination as turquie } from "@/content/destinations/turquie";
 import { destination as canada } from "@/content/destinations/canada";
 import { destination as autriche } from "@/content/destinations/autriche";
 import { destination as argentine } from "@/content/destinations/argentine";
+import { destination as australie } from "@/content/destinations/australie";
 import { destination as sriLanka } from "@/content/destinations/sri-lanka";
 import { destination as uruguay } from "@/content/destinations/uruguay";
 import { destination as hawai } from "@/content/destinations/hawai";
@@ -61,6 +62,7 @@ import { destination as egypte } from "@/content/destinations/egypte";
 import { destination as indonesie } from "@/content/destinations/indonesie";
 import { destination as costaRica } from "@/content/destinations/costa-rica";
 import { destination as afriqueDuSud } from "@/content/destinations/afrique-du-sud";
+import { destination as anguilla } from "@/content/destinations/anguilla";
 import { destination as thailande } from "@/content/destinations/thailande";
 import { destination as jordanie } from "@/content/destinations/jordanie";
 import { destination as norvege } from "@/content/destinations/norvege";
@@ -79,7 +81,22 @@ import { destination as maroc } from "@/content/destinations/maroc";
 import { destination as saintVincentEtLesGrenadines } from "@/content/destinations/saint-vincent-et-les-grenadines";
 import { destination as turksAndCaicos } from "@/content/destinations/turks-and-caicos";
 import { destination as montenegro } from "@/content/destinations/montenegro";
+import { destination as coreeDuSud } from "@/content/destinations/coree-du-sud";
+import { destination as chine } from "@/content/destinations/chine";
 import { destination as jamaique } from "@/content/destinations/jamaique";
+import { destination as antigua } from "@/content/destinations/antigua";
+import { destination as barbade } from "@/content/destinations/barbade";
+import { destination as portoRico } from "@/content/destinations/porto-rico";
+import { destination as singapour } from "@/content/destinations/singapour";
+import { destination as suede } from "@/content/destinations/suede";
+import { destination as galapagos } from "@/content/destinations/galapagos";
+import { destination as nouvelleZelande } from "@/content/destinations/nouvelle-zelande";
+import { destination as fidji } from "@/content/destinations/fidji";
+import { destination as sainteLucie } from "@/content/destinations/sainte-lucie";
+import { destination as laGrenade } from "@/content/destinations/la-grenade";
+import { destination as ileDePaques } from "@/content/destinations/ile-de-paques";
+import { destination as inde } from "@/content/destinations/inde";
+import { destination as zanzibar } from "@/content/destinations/zanzibar";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -232,6 +249,9 @@ import { experience as iguacuChutesAube } from "@/content/experiences/iguacu-chu
 import { experience as saveiroBaieTousLesSaints } from "@/content/experiences/saveiro-baie-tous-les-saints";
 import { experience as pistageJaguarsPantanal } from "@/content/experiences/pistage-jaguars-pantanal";
 import { experience as chevalPlageComporta } from "@/content/experiences/cheval-plage-comporta";
+import { experience as chevalMerCoveBay } from "@/content/experiences/cheval-mer-cove-bay";
+import { experience as yachtPriveSandyIsland } from "@/content/experiences/yacht-prive-sandy-island";
+import { experience as sunsetVoilierPrive } from "@/content/experiences/sunset-voilier-prive";
 import { experience as fadoChapelleAlfama } from "@/content/experiences/fado-chapelle-alfama";
 import { experience as grottesPontaDaPiedade } from "@/content/experiences/grottes-ponta-da-piedade";
 import { experience as dinerBancDeSableNoonu } from "@/content/experiences/diner-banc-de-sable-noonu";
@@ -309,9 +329,56 @@ import { experience as immersionAmazonieNaturaliste } from "@/content/experience
 import { experience as helicoCanyonTara } from "@/content/experiences/helico-canyon-tara";
 import { experience as rempartsKotorAube } from "@/content/experiences/remparts-kotor-aube";
 import { experience as vinCrmnicaLacSkadar } from "@/content/experiences/vin-crmnica-lac-skadar";
+import { experience as soireeSeoulStreetFood } from "@/content/experiences/soiree-seoul-street-food";
+import { experience as nSeoulTower } from "@/content/experiences/n-seoul-tower";
+import { experience as atelierCuisineBusan } from "@/content/experiences/atelier-cuisine-busan";
+import { experience as airboatMaryRiver } from "@/content/experiences/airboat-mary-river";
+import { experience as grandeBarriereCroisiere } from "@/content/experiences/grande-barriere-croisiere";
+import { experience as sealBayLionsDeMer } from "@/content/experiences/seal-bay-lions-de-mer";
+import { experience as spectacleEraShanghai } from "@/content/experiences/spectacle-era-shanghai";
+import { experience as villagesEthniquesGuizhou } from "@/content/experiences/villages-ethniques-guizhou";
+import { experience as helicoptereVictoriaHarbor } from "@/content/experiences/helicoptere-victoria-harbor";
 import { experience as cafeBlueMountains } from "@/content/experiences/cafe-blue-mountains";
 import { experience as yachtPriveChefMontegoBay } from "@/content/experiences/yacht-prive-chef-montego-bay";
 import { experience as appletonEstateRhums } from "@/content/experiences/appleton-estate-rhums";
+import { experience as catamaranPriveCadesReef } from "@/content/experiences/catamaran-prive-cades-reef";
+import { experience as randonneeEquestrePlage } from "@/content/experiences/randonnee-equestre-plage";
+import { experience as visiteNelsonsDockyard } from "@/content/experiences/visite-nelsons-dockyard";
+import { experience as degustationMountGay } from "@/content/experiences/degustation-mount-gay";
+import { experience as dinerTheCliff } from "@/content/experiences/diner-the-cliff";
+import { experience as harrisonsCave } from "@/content/experiences/harrisons-cave";
+import { experience as randonneeCascadesElYunque } from "@/content/experiences/randonnee-cascades-el-yunque";
+import { experience as immersionVieuxSanJuan } from "@/content/experiences/immersion-vieux-san-juan";
+import { experience as catamaranPriveCulebra } from "@/content/experiences/catamaran-prive-culebra";
+import { experience as dinerChefCandlenut } from "@/content/experiences/diner-chef-candlenut";
+import { experience as visitePriveeJardinsBotaniques } from "@/content/experiences/visite-privee-jardins-botaniques";
+import { experience as croisiereIlesDuSud } from "@/content/experiences/croisiere-iles-du-sud";
+import { experience as voileArchipelStockholm } from "@/content/experiences/voile-archipel-stockholm";
+import { experience as rencontreSamesRennesLaponie } from "@/content/experiences/rencontre-sames-rennes-laponie";
+import { experience as atelierVerreSmaland } from "@/content/experiences/atelier-verre-smaland";
+import { experience as snorkelingOtariesGalapagos } from "@/content/experiences/snorkeling-otaries-galapagos";
+import { experience as observationTortuesGeantesSantaCruz } from "@/content/experiences/observation-tortues-geantes-santa-cruz";
+import { experience as observationAlbatrosEspanola } from "@/content/experiences/observation-albatros-espanola";
+import { experience as grottesWaitomo } from "@/content/experiences/grottes-waitomo";
+import { experience as voilierPriveBayOfIslands } from "@/content/experiences/voilier-prive-bay-of-islands";
+import { experience as rencontreMaorieRotorua } from "@/content/experiences/rencontre-maorie-rotorua";
+import { experience as arbreAuChocolatSoufriere } from "@/content/experiences/arbre-au-chocolat-soufriere";
+import { experience as atvCascadePriveeGrenade } from "@/content/experiences/atv-cascade-privee-grenade";
+import { experience as helicopterePriveSainteLucie } from "@/content/experiences/helicoptere-prive-sainte-lucie";
+import { experience as plongeeGreatAstrolabeKadavu } from "@/content/experiences/plongee-great-astrolabe-kadavu";
+import { experience as requinsBeqaLagoon } from "@/content/experiences/requins-beqa-lagoon";
+import { experience as sevusevuVillageNavala } from "@/content/experiences/sevusevu-village-navala";
+import { experience as snorkelingZodiacGrenade } from "@/content/experiences/snorkeling-zodiac-grenade";
+import { experience as tourCulinaireGrenade } from "@/content/experiences/tour-culinaire-grenade";
+import { experience as tongarikiLeverSoleil } from "@/content/experiences/tongariki-lever-soleil";
+import { experience as terevakaChevalRapaNui } from "@/content/experiences/terevaka-cheval-rapa-nui";
+import { experience as umuRapaNuiFamille } from "@/content/experiences/umu-rapa-nui-famille";
+import { experience as highTeaFamilleRoyaleCochin } from "@/content/experiences/high-tea-famille-royale-cochin";
+import { experience as jalSanjhiUdaipur } from "@/content/experiences/jal-sanjhi-udaipur";
+import { experience as begumsDeDelhi } from "@/content/experiences/begums-de-delhi";
+import { experience as safariBleuBoutre } from "@/content/experiences/safari-bleu-boutre";
+import { experience as stoneTownVisitePrivee } from "@/content/experiences/stone-town-visite-privee";
+import { experience as epicesKidichiLivingstone } from "@/content/experiences/epices-kidichi-livingstone";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -335,6 +402,7 @@ import { accommodation as hotelDeRussie } from "@/content/accommodations/hotel-d
 import { accommodation as jKPlaceRoma } from "@/content/accommodations/j-k-place-roma";
 import { accommodation as hasslerRoma } from "@/content/accommodations/hassler-roma";
 import { accommodation as belmondCopacabanaPalace } from "@/content/accommodations/belmond-copacabana-palace";
+import { accommodation as belmondCapJuluca } from "@/content/accommodations/belmond-cap-juluca";
 import { accommodation as fasanoRio } from "@/content/accommodations/fasano-rio";
 import { accommodation as hotelSantaTeresa } from "@/content/accommodations/hotel-santa-teresa";
 import { accommodation as northIsland } from "@/content/accommodations/north-island";
@@ -379,6 +447,7 @@ import { accommodation as magicCampsWahibaSands } from "@/content/accommodations
 import { accommodation as kempinskiIshtarDeadSea } from "@/content/accommodations/kempinski-ishtar-dead-sea";
 import { accommodation as movenpickResortPetra } from "@/content/accommodations/movenpick-resort-petra";
 import { accommodation as fourSeasonsAmman } from "@/content/accommodations/four-seasons-amman";
+import { accommodation as fourSeasonsAnguilla } from "@/content/accommodations/four-seasons-anguilla";
 import { accommodation as holmenLofoten } from "@/content/accommodations/holmen-lofoten";
 import { accommodation as juvetLandskapshotell } from "@/content/accommodations/juvet-landskapshotell";
 import { accommodation as umiHotel } from "@/content/accommodations/umi-hotel";
@@ -454,6 +523,7 @@ import { accommodation as fincaCortesin } from "@/content/accommodations/finca-c
 import { accommodation as sonBunyola } from "@/content/accommodations/son-bunyola";
 import { accommodation as alMaha } from "@/content/accommodations/al-maha";
 import { accommodation as qasrAlSarab } from "@/content/accommodations/qasr-al-sarab";
+import { accommodation as quintessenceHotel } from "@/content/accommodations/quintessence-hotel";
 import { accommodation as alBaitSharjah } from "@/content/accommodations/al-bait-sharjah";
 import { accommodation as chableYucatan } from "@/content/accommodations/chable-yucatan";
 import { accommodation as maromaBelmond } from "@/content/accommodations/maroma-belmond";
@@ -492,7 +562,6 @@ import { accommodation as sofitelLegendCascoViejo } from "@/content/accommodatio
 import { accommodation as santaMariaLuxuryCollection } from "@/content/accommodations/santa-maria-luxury-collection";
 import { accommodation as islasSecas } from "@/content/accommodations/islas-secas";
 import { accommodation as chevalBlancStBarth } from "@/content/accommodations/cheval-blanc-st-barth";
-import { accommodation as belmondCapJuluca } from "@/content/accommodations/belmond-cap-juluca";
 import { accommodation as cottonHouseMustique } from "@/content/accommodations/cotton-house-mustique";
 import { accommodation as petitSaintVincent } from "@/content/accommodations/petit-saint-vincent";
 import { accommodation as canouanEstate } from "@/content/accommodations/canouan-estate";
@@ -511,9 +580,58 @@ import { accommodation as inkaterraReservaAmazonica } from "@/content/accommodat
 import { accommodation as amanSvetiStefan } from "@/content/accommodations/aman-sveti-stefan";
 import { accommodation as oneOnlyPortonovi } from "@/content/accommodations/one-only-portonovi";
 import { accommodation as regentPortoMontenegro } from "@/content/accommodations/regent-porto-montenegro";
+import { accommodation as nostalgiaHanokHotel } from "@/content/accommodations/nostalgia-hanok-hotel";
+import { accommodation as anantiBusanCove } from "@/content/accommodations/ananti-busan-cove";
+import { accommodation as podoHotelJeju } from "@/content/accommodations/podo-hotel-jeju";
+import { accommodation as longitude131 } from "@/content/accommodations/longitude-131";
+import { accommodation as southernOceanLodge } from "@/content/accommodations/southern-ocean-lodge";
+import { accommodation as bamurruPlains } from "@/content/accommodations/bamurru-plains";
+import { accommodation as amandayan } from "@/content/accommodations/amandayan";
+import { accommodation as capellaShanghai } from "@/content/accommodations/capella-shanghai";
+import { accommodation as banyanTreeHangzhou } from "@/content/accommodations/banyan-tree-hangzhou";
 import { accommodation as roundHill } from "@/content/accommodations/round-hill";
 import { accommodation as tryallClub } from "@/content/accommodations/tryall-club";
 import { accommodation as strawberryHill } from "@/content/accommodations/strawberry-hill";
+
+import { accommodation as jumbyBayIsland } from "@/content/accommodations/jumby-bay-island";
+import { accommodation as hermitageBay } from "@/content/accommodations/hermitage-bay";
+import { accommodation as carlisleBay } from "@/content/accommodations/carlisle-bay";
+import { accommodation as sandyLane } from "@/content/accommodations/sandy-lane";
+import { accommodation as cobblersCove } from "@/content/accommodations/cobblers-cove";
+import { accommodation as coralReefClub } from "@/content/accommodations/coral-reef-club";
+import { accommodation as doradoBeachRitzCarltonReserve } from "@/content/accommodations/dorado-beach-ritz-carlton-reserve";
+import { accommodation as fairmontElConvento } from "@/content/accommodations/fairmont-el-convento";
+import { accommodation as stRegisBahiaBeach } from "@/content/accommodations/st-regis-bahia-beach";
+import { accommodation as capellaSingapore } from "@/content/accommodations/capella-singapore";
+import { accommodation as rafflesSingapore } from "@/content/accommodations/raffles-singapore";
+import { accommodation as sixSensesDuxton } from "@/content/accommodations/six-senses-duxton";
+import { accommodation as arcticBath } from "@/content/accommodations/arctic-bath";
+import { accommodation as treehotel } from "@/content/accommodations/treehotel";
+import { accommodation as fabrikenFurillen } from "@/content/accommodations/fabriken-furillen";
+import { accommodation as aquaMare } from "@/content/accommodations/aqua-mare";
+import { accommodation as pikaiaLodge } from "@/content/accommodations/pikaia-lodge";
+import { accommodation as ecoventuraTheory } from "@/content/accommodations/ecoventura-theory";
+import { accommodation as blanketBay } from "@/content/accommodations/blanket-bay";
+import { accommodation as hukaLodge } from "@/content/accommodations/huka-lodge";
+import { accommodation as eaglesNest } from "@/content/accommodations/eagles-nest";
+import { accommodation as calabashHotel } from "@/content/accommodations/calabash-hotel";
+import { accommodation as jadeMountain } from "@/content/accommodations/jade-mountain";
+import { accommodation as kokomoPrivateIsland } from "@/content/accommodations/kokomo-private-island";
+import { accommodation as ladera } from "@/content/accommodations/ladera";
+import { accommodation as laucalaIsland } from "@/content/accommodations/laucala-island";
+import { accommodation as silversandsGrandAnse } from "@/content/accommodations/silversands-grand-anse";
+import { accommodation as sixSensesFiji } from "@/content/accommodations/six-senses-fiji";
+import { accommodation as sixSensesLaSagesse } from "@/content/accommodations/six-senses-la-sagesse";
+import { accommodation as sugarBeachViceroy } from "@/content/accommodations/sugar-beach-viceroy";
+import { accommodation as exploraRapaNui } from "@/content/accommodations/explora-rapa-nui";
+import { accommodation as nayaraHangaroa } from "@/content/accommodations/nayara-hangaroa";
+import { accommodation as altiplanicoRapaNui } from "@/content/accommodations/altiplanico-rapa-nui";
+import { accommodation as amanbagh } from "@/content/accommodations/amanbagh";
+import { accommodation as tajMahalPalaceMumbai } from "@/content/accommodations/taj-mahal-palace-mumbai";
+import { accommodation as ahilyaFort } from "@/content/accommodations/ahilya-fort";
+import { accommodation as mnembaIslandLodge } from "@/content/accommodations/mnemba-island-lodge";
+import { accommodation as parkHyattZanzibar } from "@/content/accommodations/park-hyatt-zanzibar";
+import { accommodation as zanzibarWhiteSand } from "@/content/accommodations/zanzibar-white-sand";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -529,8 +647,18 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
   Object.fromEntries(items.map((i) => [i.slug, i]));
 
 export const destinations: Record<string, Destination> = toMap([
+  fidji,
+  sainteLucie,
+  laGrenade,
+  ileDePaques,
+  inde,
+  zanzibar,
+  australie,
   afriqueDuSud,
+  anguilla,
   arabieSaoudite,
+  antigua,
+  barbade,
   botswana,
   canada,
   corse,
@@ -546,13 +674,13 @@ export const destinations: Record<string, Destination> = toMap([
   madagascar,
   marrakech,
   maurice,
+  montenegro,
   namibie,
   newYork,
   norvege,
   oman,
   paris,
   paysBas,
-  montenegro,
   colombie,
   argentine,
   autriche,
@@ -574,6 +702,7 @@ export const destinations: Record<string, Destination> = toMap([
   kenya,
   perou,
   polynesie,
+  portoRico,
   republiqueDominicaine,
   rioDeJaneiro,
   rome,
@@ -587,7 +716,11 @@ export const destinations: Record<string, Destination> = toMap([
   turquie,
   uruguay,
   royaumeUni,
+  singapour,
+  suede,
   losCabos,
+  coreeDuSud,
+  chine,
   jamaique,
   zimbabwe,
   panama,
@@ -596,6 +729,8 @@ export const destinations: Record<string, Destination> = toMap([
   maroc,
   saintVincentEtLesGrenadines,
   turksAndCaicos,
+  galapagos,
+  nouvelleZelande,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -622,6 +757,26 @@ export const themes: Record<string, Theme> = toMap([
 export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
+  arbreAuChocolatSoufriere,
+  atvCascadePriveeGrenade,
+  helicopterePriveSainteLucie,
+  plongeeGreatAstrolabeKadavu,
+  requinsBeqaLagoon,
+  sevusevuVillageNavala,
+  snorkelingZodiacGrenade,
+  tourCulinaireGrenade,
+  tongarikiLeverSoleil,
+  terevakaChevalRapaNui,
+  umuRapaNuiFamille,
+  highTeaFamilleRoyaleCochin,
+  jalSanjhiUdaipur,
+  begumsDeDelhi,
+  safariBleuBoutre,
+  stoneTownVisitePrivee,
+  epicesKidichiLivingstone,
+  airboatMaryRiver,
+  grandeBarriereCroisiere,
+  sealBayLionsDeMer,
   alleeBaobabsAube,
   ascensionMontBromo,
   atelierLesage,
@@ -649,6 +804,9 @@ export const experiences: Record<string, Experience> = toMap([
   bivouacRubAlKhali,
   cenoteSecretYucatan,
   chevalPlageComporta,
+  chevalMerCoveBay,
+  yachtPriveSandyIsland,
+  sunsetVoilierPrive,
   chevauxCarthusiensJerez,
   colonieManchotsBoulders,
   corcovadoAubePaineiras,
@@ -754,9 +912,9 @@ export const experiences: Record<string, Experience> = toMap([
   ponteTortuesVertes,
   refugeCuru,
   reinefjordMoskenstraumen,
+  rempartsKotorAube,
   reserveNectandra,
   rijksmuseumAvantOuverture,
-  rempartsKotorAube,
   rungisChef,
   safariNocturneProjecteur,
   skiVoileSunnmore,
@@ -828,9 +986,36 @@ export const experiences: Record<string, Experience> = toMap([
   valleeSacreeArcheologuePrive,
   immersionAmazonieNaturaliste,
   vinCrmnicaLacSkadar,
+  soireeSeoulStreetFood,
+  nSeoulTower,
+  atelierCuisineBusan,
+  spectacleEraShanghai,
+  villagesEthniquesGuizhou,
+  helicoptereVictoriaHarbor,
   cafeBlueMountains,
   yachtPriveChefMontegoBay,
   appletonEstateRhums,
+  catamaranPriveCadesReef,
+  randonneeEquestrePlage,
+  visiteNelsonsDockyard,
+  degustationMountGay,
+  dinerTheCliff,
+  harrisonsCave,
+  randonneeCascadesElYunque,
+  immersionVieuxSanJuan,
+  catamaranPriveCulebra,
+  dinerChefCandlenut,
+  visitePriveeJardinsBotaniques,
+  croisiereIlesDuSud,
+  voileArchipelStockholm,
+  rencontreSamesRennesLaponie,
+  atelierVerreSmaland,
+  snorkelingOtariesGalapagos,
+  observationTortuesGeantesSantaCruz,
+  observationAlbatrosEspanola,
+  grottesWaitomo,
+  voilierPriveBayOfIslands,
+  rencontreMaorieRotorua,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -844,10 +1029,32 @@ export const serviceCategories: Record<string, ServiceCategory> = toMap([
 export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
+  calabashHotel,
+  jadeMountain,
+  kokomoPrivateIsland,
+  ladera,
+  laucalaIsland,
+  silversandsGrandAnse,
+  sixSensesFiji,
+  sixSensesLaSagesse,
+  sugarBeachViceroy,
+  exploraRapaNui,
+  nayaraHangaroa,
+  altiplanicoRapaNui,
+  amanbagh,
+  tajMahalPalaceMumbai,
+  ahilyaFort,
+  mnembaIslandLodge,
+  parkHyattZanzibar,
+  zanzibarWhiteSand,
+  bamurruPlains,
+  longitude131,
+  southernOceanLodge,
   alMoudiraLouxor,
   amangiri,
   amanjena,
   adareManor,
+  amanSvetiStefan,
   amankila,
   amanNewYork,
   amanpuri,
@@ -856,6 +1063,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   ashfordCastle,
   baccaratNewYork,
   belmondCopacabanaPalace,
+  belmondCapJuluca,
   bushmansKloof,
   calaRossa,
   casaCiprianiNewYork,
@@ -878,7 +1086,6 @@ export const accommodations: Record<string, Accommodation> = toMap([
   fourSeasonsAmman,
   fourSeasonsJakarta,
   fourSeasonsLanai,
-  amanSvetiStefan,
   amanoi,
   amanTokyo,
   ajiaHotel,
@@ -905,6 +1112,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   eoloPatagonia,
   fasanoSalvador,
   fincaCortesin,
+  fourSeasonsAnguilla,
   fourSeasonsMahe,
   fourSeasonsPapagayo,
   fregateIslandPrivate,
@@ -951,14 +1159,14 @@ export const accommodations: Record<string, Accommodation> = toMap([
   postRanchInn,
   princesStreet100,
   roodeKoperVeluwe,
+  oneOnlyPortonovi,
+  regentPortoMontenegro,
   royalMansour,
   royalPalmBeachcomber,
   royalScotsman,
   redSeaEdition,
   sasekaTentedCamp,
   schlossRoxburghe,
-  oneOnlyPortonovi,
-  regentPortoMontenegro,
   singitaSasakwaLodge,
   sixSensesYaoNoi,
   skalakot,
@@ -975,6 +1183,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   oneOnlyMandarina,
   olissippoLapaPalace,
   qasrAlSarab,
+  quintessenceHotel,
   rosewoodCastiglionDelBosco,
   rosewoodSchlossFuschl,
   sixSensesNinhVanBay,
@@ -1024,7 +1233,6 @@ export const accommodations: Record<string, Accommodation> = toMap([
   santaMariaLuxuryCollection,
   islasSecas,
   chevalBlancStBarth,
-  belmondCapJuluca,
   cottonHouseMustique,
   petitSaintVincent,
   canouanEstate,
@@ -1038,9 +1246,36 @@ export const accommodations: Record<string, Accommodation> = toMap([
   belmondSanctuaryLodge,
   belmondPalacioNazarenas,
   inkaterraReservaAmazonica,
+  nostalgiaHanokHotel,
+  anantiBusanCove,
+  podoHotelJeju,
+  amandayan,
+  capellaShanghai,
+  banyanTreeHangzhou,
   roundHill,
   tryallClub,
   strawberryHill,
+  jumbyBayIsland,
+  hermitageBay,
+  carlisleBay,
+  sandyLane,
+  cobblersCove,
+  coralReefClub,
+  doradoBeachRitzCarltonReserve,
+  fairmontElConvento,
+  stRegisBahiaBeach,
+  capellaSingapore,
+  rafflesSingapore,
+  sixSensesDuxton,
+  arcticBath,
+  treehotel,
+  fabrikenFurillen,
+  aquaMare,
+  pikaiaLodge,
+  ecoventuraTheory,
+  blanketBay,
+  hukaLodge,
+  eaglesNest,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([

@@ -99,11 +99,11 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/egypte/split-1.webp",
-          alt: "Escalier du nilomètre de l'île Éléphantine descendant vers le Nil, Assouan",
+          alt: "Felouque à la voile sur le Nil entre les rochers de granit d'Assouan, au crépuscule",
         },
         {
           src: "/destination/egypte/split-2.webp",
-          alt: "Bande de cultures vertes serrée entre le Nil et le désert, moyenne Égypte",
+          alt: "Montgolfières au-dessus du Nil et de la rive ouest de Louxor au lever du jour",
         },
       ],
     },

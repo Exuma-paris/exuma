@@ -126,7 +126,7 @@ export const destination: Destination = {
           alt: "Voiture ancienne des années 1930 dans l'atelier privé du quartier de Karen, Nairobi",
         },
         right: {
-          src: "/destination/kenya/karen-blixen-musee.png",
+          src: "/destination/kenya/karen-blixen-musee.webp",
           alt: "Façade en pierre du musée Karen Blixen entourée de verdure dans le quartier de Karen, Nairobi",
         },
       },
@@ -248,7 +248,7 @@ export const destination: Destination = {
           description:
             "La réserve nationale couvre 1 510 km². Les concessions privées autour d'elle, comme Oare Orok, offrent des safaris à pied impossibles dans le parc.",
           image: {
-            src: "/destination/kenya/map-masai-mara.png",
+            src: "/destination/kenya/map-masai-mara.webp",
             alt: "Plaines dorées du Masaï Mara avec troupeaux de gnous et ciel africain",
           },
           // TODO: verify coords
@@ -259,7 +259,7 @@ export const destination: Destination = {
           description:
             "La capitale abrite le musée Karen Blixen, le sanctuaire des girafes de Rothschild et le seul parc national au monde situé en limite d'une capitale.",
           image: {
-            src: "/destination/kenya/map-nairobi.png",
+            src: "/destination/kenya/map-nairobi.webp",
             alt: "Skyline de Nairobi au coucher du soleil depuis les hauteurs de Karen",
           },
           // TODO: verify coords
@@ -270,7 +270,7 @@ export const destination: Destination = {
           description:
             "Au nord du mont Kenya, le plateau de Laikipia abrite la plus grande population de rhinocéros noirs du pays, le sanctuaire Reteti et le lodge Ol Malo.",
           image: {
-            src: "/destination/kenya/map-laikipia.png",
+            src: "/destination/kenya/map-laikipia.webp",
             alt: "Éléphants dans les plaines arides du Laikipia sous un ciel nuageux au Kenya",
           },
           // TODO: verify coords
@@ -281,7 +281,7 @@ export const destination: Destination = {
           description:
             "À soixante-dix kilomètres au sud de Mombasa, Diani est la côte kenyane telle qu'elle était. Galu Beach, Kinondo Kwetu, cuisine biologique à l'ombre des filaos.",
           image: {
-            src: "/destination/kenya/map-diani-beach.png",
+            src: "/destination/kenya/map-diani-beach.webp",
             alt: "Plage de Diani Beach sur la côte sud du Kenya avec cocotiers et sable blanc",
           },
           // TODO: verify coords
@@ -292,7 +292,7 @@ export const destination: Destination = {
           description:
             "La crique de Mida est un site Ramsar : sept cents hectares de mangroves et d'herbiers marins classés. On y navigue en boutre au coucher du soleil.",
           image: {
-            src: "/destination/kenya/map-watamu.png",
+            src: "/destination/kenya/map-watamu.webp",
             alt: "Boutre traditionnel voguant sur la crique de Mida à Watamu, côte nord du Kenya",
           },
           // TODO: verify coords
@@ -303,7 +303,7 @@ export const destination: Destination = {
           description:
             "La forêt de Ngare Ndare borde les contreforts nord du mont Kenya. Les bassins naturels sous la cascade sont alimentés par les neiges du sommet à 5 199 mètres.",
           image: {
-            src: "/destination/kenya/map-mont-kenya.png",
+            src: "/destination/kenya/map-mont-kenya.webp",
             alt: "Cascade et bassins turquoise de la forêt de Ngare Ndare au pied du mont Kenya",
           },
           // TODO: verify coords
