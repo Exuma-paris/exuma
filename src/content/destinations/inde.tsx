@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Inde",
       heading: "Un pays qui se visite par étapes, jamais d'un seul geste",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Inde se prépare un peu comme on prépare une rencontre. Le pays est immense et généreux, et l'on n'a pas besoin de le parcourir en entier pour s'y sentir chez soi : trois ou quatre étapes, reliées par des vols courts, laissent tout le temps de s'attarder là où l'on se sent bien. Ce que l'on garde pour plus tard devient, presque toujours, la raison d'un prochain départ.",
         "Le chemin le plus connu passe par Delhi, Agra et le Rajasthan, et il garde tout son charme quand on le prend un peu de côté. On traverse Old Delhi au petit matin avec un historien qui raconte sa ville comme il raconterait sa famille. On regarde le Taj Mahal depuis la rive opposée de la Yamuna, quand la lumière est encore douce et que les perroquets font plus de bruit que les visiteurs. À Jaipur, ce sont les propriétaires eux-mêmes qui ouvrent les portes de leurs havelis, et l'on y reste toujours plus longtemps que prévu.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Inde",
       description:
         "Vol, visa, saisons et santé : l'essentiel pour préparer votre voyage en Inde sans mauvaise surprise.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Inde. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -242,7 +242,7 @@ export const destination: Destination = {
         "De Delhi aux canaux du Kerala, six étapes qui tiennent ensemble",
       description:
         "Six villes que les vols intérieurs relient en moins de trois heures, avec le temps de s'arrêter dans les ateliers et les maisons.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Inde",
       description:
         "Huit conseils de terrain, pour choisir la bonne saison, franchir les distances sans fatigue et comprendre pourquoi nous inscrivons telle étape à votre itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       items: [
         {
           title: "Quand partir",
@@ -552,7 +552,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
