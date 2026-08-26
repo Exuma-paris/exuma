@@ -87,6 +87,9 @@ import { destination as antigua } from "@/content/destinations/antigua";
 import { destination as barbade } from "@/content/destinations/barbade";
 import { destination as portoRico } from "@/content/destinations/porto-rico";
 import { destination as singapour } from "@/content/destinations/singapour";
+import { destination as fidji } from "@/content/destinations/fidji";
+import { destination as sainteLucie } from "@/content/destinations/sainte-lucie";
+import { destination as laGrenade } from "@/content/destinations/la-grenade";
 import { destination as ileDePaques } from "@/content/destinations/ile-de-paques";
 import { destination as inde } from "@/content/destinations/inde";
 import { destination as zanzibar } from "@/content/destinations/zanzibar";
@@ -343,6 +346,14 @@ import { experience as catamaranPriveCulebra } from "@/content/experiences/catam
 import { experience as dinerChefCandlenut } from "@/content/experiences/diner-chef-candlenut";
 import { experience as visitePriveeJardinsBotaniques } from "@/content/experiences/visite-privee-jardins-botaniques";
 import { experience as croisiereIlesDuSud } from "@/content/experiences/croisiere-iles-du-sud";
+import { experience as arbreAuChocolatSoufriere } from "@/content/experiences/arbre-au-chocolat-soufriere";
+import { experience as atvCascadePriveeGrenade } from "@/content/experiences/atv-cascade-privee-grenade";
+import { experience as helicopterePriveSainteLucie } from "@/content/experiences/helicoptere-prive-sainte-lucie";
+import { experience as plongeeGreatAstrolabeKadavu } from "@/content/experiences/plongee-great-astrolabe-kadavu";
+import { experience as requinsBeqaLagoon } from "@/content/experiences/requins-beqa-lagoon";
+import { experience as sevusevuVillageNavala } from "@/content/experiences/sevusevu-village-navala";
+import { experience as snorkelingZodiacGrenade } from "@/content/experiences/snorkeling-zodiac-grenade";
+import { experience as tourCulinaireGrenade } from "@/content/experiences/tour-culinaire-grenade";
 import { experience as tongarikiLeverSoleil } from "@/content/experiences/tongariki-lever-soleil";
 import { experience as terevakaChevalRapaNui } from "@/content/experiences/terevaka-cheval-rapa-nui";
 import { experience as umuRapaNuiFamille } from "@/content/experiences/umu-rapa-nui-famille";
@@ -575,6 +586,15 @@ import { accommodation as stRegisBahiaBeach } from "@/content/accommodations/st-
 import { accommodation as capellaSingapore } from "@/content/accommodations/capella-singapore";
 import { accommodation as rafflesSingapore } from "@/content/accommodations/raffles-singapore";
 import { accommodation as sixSensesDuxton } from "@/content/accommodations/six-senses-duxton";
+import { accommodation as calabashHotel } from "@/content/accommodations/calabash-hotel";
+import { accommodation as jadeMountain } from "@/content/accommodations/jade-mountain";
+import { accommodation as kokomoPrivateIsland } from "@/content/accommodations/kokomo-private-island";
+import { accommodation as ladera } from "@/content/accommodations/ladera";
+import { accommodation as laucalaIsland } from "@/content/accommodations/laucala-island";
+import { accommodation as silversandsGrandAnse } from "@/content/accommodations/silversands-grand-anse";
+import { accommodation as sixSensesFiji } from "@/content/accommodations/six-senses-fiji";
+import { accommodation as sixSensesLaSagesse } from "@/content/accommodations/six-senses-la-sagesse";
+import { accommodation as sugarBeachViceroy } from "@/content/accommodations/sugar-beach-viceroy";
 import { accommodation as exploraRapaNui } from "@/content/accommodations/explora-rapa-nui";
 import { accommodation as nayaraHangaroa } from "@/content/accommodations/nayara-hangaroa";
 import { accommodation as altiplanicoRapaNui } from "@/content/accommodations/altiplanico-rapa-nui";
@@ -599,6 +619,9 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
   Object.fromEntries(items.map((i) => [i.slug, i]));
 
 export const destinations: Record<string, Destination> = toMap([
+  fidji,
+  sainteLucie,
+  laGrenade,
   ileDePaques,
   inde,
   zanzibar,
@@ -702,6 +725,14 @@ export const themes: Record<string, Theme> = toMap([
 export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
+  arbreAuChocolatSoufriere,
+  atvCascadePriveeGrenade,
+  helicopterePriveSainteLucie,
+  plongeeGreatAstrolabeKadavu,
+  requinsBeqaLagoon,
+  sevusevuVillageNavala,
+  snorkelingZodiacGrenade,
+  tourCulinaireGrenade,
   tongarikiLeverSoleil,
   terevakaChevalRapaNui,
   umuRapaNuiFamille,
@@ -954,6 +985,15 @@ export const serviceCategories: Record<string, ServiceCategory> = toMap([
 export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
+  calabashHotel,
+  jadeMountain,
+  kokomoPrivateIsland,
+  ladera,
+  laucalaIsland,
+  silversandsGrandAnse,
+  sixSensesFiji,
+  sixSensesLaSagesse,
+  sugarBeachViceroy,
   exploraRapaNui,
   nayaraHangaroa,
   altiplanicoRapaNui,
