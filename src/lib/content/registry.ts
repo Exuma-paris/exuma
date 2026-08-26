@@ -409,7 +409,7 @@ import { accommodation as northIsland } from "@/content/accommodations/north-isl
 import { accommodation as fregateIslandPrivate } from "@/content/accommodations/fregate-island-private";
 import { accommodation as fourSeasonsMahe } from "@/content/accommodations/four-seasons-mahe";
 import { accommodation as giraffeManor } from "@/content/accommodations/giraffe-manor";
-import { accommodation as kinondoKwetu } from "@/content/accommodations/kinondo-kwetu";
+import { accommodation as chaleIslandResort } from "@/content/accommodations/chale-island-resort";
 import { accommodation as richardsRiverCamp } from "@/content/accommodations/richards-river-camp";
 import { accommodation as royalPalmBeachcomber } from "@/content/accommodations/royal-palm-beachcomber";
 import { accommodation as vingtDegresSud } from "@/content/accommodations/20-degres-sud";
@@ -1138,7 +1138,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   kalesmaMykonos,
   laResidenceHue,
   laBastideDeGordes,
-  kinondoKwetu,
+  chaleIslandResort,
   labaMamaSimba,
   leBristol,
   lefayDolomiti,
