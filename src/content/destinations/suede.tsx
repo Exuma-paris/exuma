@@ -85,7 +85,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Un voyage en Suède qui tient sur deux latitudes",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Construire ce voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Suède commence, comme en Norvège, par le choix d'une latitude. Au sud, Stockholm et son archipel de trente mille îles occupent la mer Baltique jusqu'à l'horizon. Mille kilomètres plus au nord, au-delà du cercle polaire, la Laponie suédoise bascule en une saison de neige et de nuit. Sur une carte, les deux régions semblent appartenir au même pays. Sur place, on ne fait pas du tout le même voyage.",
         "Autour de Stockholm, la ville se love entre quatorze îles reliées par des ponts, avant que l'archipel ne prenne le relais vers le large. Gamla Stan garde ses ruelles pavées du treizième siècle, tandis que le Vasamuseet abrite un navire de guerre de 1628, coulé au sortir du port et renfloué intact en 1961. Plus loin en mer, Vaxholm et Sandhamn marquent l'entrée de l'archipel habité ; au-delà, les îles se comptent par milliers et ne portent plus de nom. Dans la Baltique, au sud, l'île de Gotland garde la ville close de Visby et les rochers de calcaire de Fårö.",
@@ -178,7 +178,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Suède",
       description:
         "Temps de vol, formalités, monnaie, saisons et lumière : l'essentiel pour choisir vos dates avant de choisir votre itinéraire.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -237,7 +237,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier suédois. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -262,7 +262,7 @@ export const destination: Destination = {
       heading: "Six lieux autour desquels s'organisent nos itinéraires",
       description:
         "Trois autour de Stockholm et de Gotland, trois en Laponie. La plupart de nos voyages se construisent sur l'un des deux blocs, ou sur les deux quand la durée le permet.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -341,7 +341,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Suède",
       description:
         "Huit observations de terrain qui expliquent pourquoi nous inscrivons une étape à une date plutôt qu'à une autre.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -540,7 +540,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

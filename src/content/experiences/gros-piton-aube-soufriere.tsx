@@ -16,6 +16,6 @@ export const experience: Experience = {
     src: "/destination/caraibes/xp-gros-piton.png",
     alt: "Randonneurs sur le sentier du Gros Piton à Sainte-Lucie au lever du jour",
   },
-  destinationSlugs: ["caraibes"],
+  destinationSlugs: ["caraibes", "sainte-lucie"],
   sections: [],
 };
