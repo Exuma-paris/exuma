@@ -84,7 +84,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Deux Norvège, séparées par mille kilomètres",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Norvège commence par le choix d'une région. Deux zones concentrent l'essentiel de nos itinéraires. À l'ouest, autour d'Ålesund et de Geiranger, la mer entre dans les terres et forme les fjords. Au nord, à plus de mille kilomètres de là, les îles Lofoten se trouvent au-delà du cercle polaire. Sur une photo, les deux régions se ressemblent. Sur place, on ne fait pas du tout le même voyage.",
         "À l'ouest, le paysage est vert et très vertical. Le Geirangerfjord s'étire sur quinze kilomètres et les montagnes qui l'entourent culminent entre 1 600 et 1 700 mètres. La cascade des Sept Sœurs y tombe de 410 mètres, en sept jets séparés. Sur les corniches, on aperçoit d'anciennes fermes : Skageflå, Knivsflå. Des familles y ont vécu jusqu'au début du vingtième siècle, sans autre accès qu'une barque et une échelle. Plus au sud, autour du Hjørundfjord, les montagnes des Alpes de Sunnmøre descendent directement jusqu'à la mer. Ålesund, reconstruite en style art nouveau après l'incendie de 1904, sert de point d'arrivée.",

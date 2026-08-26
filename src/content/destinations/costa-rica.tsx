@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Costa Rica",
       heading: "Un pays organisé autour de ce qu'il protège",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Costa Rica commence par une donnée simple : plus de trente parcs nationaux et réserves couvrent le territoire. La première d'entre elles, Cabo Blanco, a été créée en 1963 à la pointe de la péninsule de Nicoya. Le pays n'a pas découvert la conservation avec le tourisme, il l'a précédée d'une génération.",
         "L'itinéraire habituel enchaîne quatre milieux qui n'ont rien en commun. Les canaux de Tortuguero, sur la côte caraïbe, ne se rejoignent qu'en bateau. Le volcan Arenal et les sources thermales de La Fortuna occupent le centre du pays. Monteverde, plus haut, tient dans une forêt de nuages où le quetzal se laisse observer une partie de l'année. Santa Teresa ferme le voyage sur le Pacifique, avec ses plages ouvertes et son ambiance de village de surf.",
@@ -156,7 +156,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Costa Rica",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage au Costa Rica.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -215,7 +215,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Chaque dossier Costa Rica mobilise plusieurs expertises. Un interlocuteur unique en assure la coordination et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -238,7 +238,7 @@ export const destination: Destination = {
       heading: "Six étapes, de la côte caraïbe au Pacifique nord",
       description:
         "Des canaux de Tortuguero à la péninsule de Papagayo, six territoires que quinze jours permettent d'enchaîner sans passer ses journées sur la route.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -317,7 +317,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Costa Rica",
       description:
         "Huit repères rapportés du terrain : ce qu'il faut viser, quand partir, et ce qui fait la différence d'une adresse à l'autre.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Quinze jours pour que chaque étape existe",
@@ -564,7 +564,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

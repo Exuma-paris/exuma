@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Jamaïque",
       heading: "Une île de montagne posée dans la Caraïbe",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Jamaïque surprend d'abord par le relief. L'île est une montagne : les Blue Mountains occupent tout l'est du pays et se remontent depuis Kingston en une matinée. En chemin, la température perd une dizaine de degrés et la brume s'installe pour de bon.",
         "L'est de l'île vit à part. À Port Antonio, les rivières descendent de la montagne et rejoignent la mer au milieu des plages. On nage en eau douce le matin, en eau salée l'après-midi. C'est la Jamaïque la plus verte, et la moins construite.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Jamaïque",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage en Jamaïque.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Chaque dossier Jamaïque mobilise plusieurs expertises. Un interlocuteur unique en assure la coordination et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six territoires, de la crête à la côte sud",
       description:
         "De Port Antonio à Treasure Beach, six territoires que douze jours permettent d'enchaîner sans passer ses journées sur la route.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 8,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Jamaïque",
       description:
         "Huit repères rapportés du terrain : ce qu'il faut viser, quand partir, et ce qui change d'un bout de l'île à l'autre.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Douze jours pour traverser l'île d'est en ouest",
@@ -567,7 +567,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

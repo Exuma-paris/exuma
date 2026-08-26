@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de Sainte-Lucie",
       heading: "La côte ouest, de Castries à l'Anse Chastanet",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Sainte-Lucie commence presque toujours par la côte ouest, celle qui regarde la mer des Caraïbes. C'est là que se trouvent Soufrière et ses deux Pitons, la baie de Marigot cachée derrière sa langue de sable, et les anses où l'eau reste calme du matin jusqu'au soir. La route qui les relie serpente au-dessus de la mer, et l'on s'arrête souvent sans l'avoir prévu.",
         "Ce qui étonne, c'est tout ce qui se passe dès que l'on quitte le rivage. La forêt commence juste derrière les villages, avec ses cacaoyers, ses manguiers et ses sources qui fument au pied du volcan. Sur le marché de Soufrière, on achète la banane verte et le poisson du matin. Les cuisiniers de l'île le passent au feu de bois et le servent avec des racines et du lait de coco.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Sainte-Lucie",
       description:
         "Voici les repères pratiques à réunir avant de choisir vos dates : le vol, les formalités, la monnaie et les saisons.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,7 +219,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Sainte-Lucie. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "De Soufrière à la baie de Rodney",
       description:
         "L'île se découvre par petites boucles, entre la mer et la montagne, et chaque endroit a son heure. Nous plaçons les journées pour que chacune arrive au bon moment du séjour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 10,
       places: [
         {
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Sainte-Lucie",
       description:
         "Voici quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir la bonne semaine et comprendre comment l'île se vit une fois sur place.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Choisir son aéroport d'arrivée",
@@ -539,7 +539,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Chine",
       heading: "Un pays qui change de siècle à chaque étape",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Chine se joue sur le choix des régions. Le nord tient l'histoire impériale, le delta tient les villes et le thé, le sud-ouest tient les montagnes et les fêtes de village. Un itinéraire en retient trois, pour ce qu'elles ont d'irremplaçable.",
         "Au nord, l'histoire impériale. Pékin aligne la Cité interdite, le temple du Ciel et les tombes des Ming, et la Grande Muraille court sur les crêtes voisines, sur des sections où l'on marche seul pendant des heures. Xi'an complète l'ensemble avec l'armée de terre cuite, sortie d'une fosse en 1974 par des paysans qui creusaient un puits.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Chine",
       description:
         "Vol, décalage horaire, paiement, formalités et saisons : les éléments à connaître avant de caler les dates.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,7 +219,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Chine. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "De Pékin au Yunnan, six étapes possibles",
       description:
         "On commence par le nord et l'histoire, on descend sur le delta et ses jardins, puis vers les montagnes du sud-ouest. Voici les étapes qui structurent un séjour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
         {
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Chine",
       description:
         "Huit repères rapportés du terrain : comment on circule, ce qui se prépare avant de partir, et ce qui change d'une région à l'autre.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le train fait le plus beau du trajet",
@@ -557,7 +557,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
