@@ -8,6 +8,12 @@ export const destination: Destination = {
   country: "Kenya",
   genitive: "du Kenya",
   continentSlug: "afrique",
+  // La première image du hero montre la traversée de la Mara, presque identique
+  // à celle de la Tanzanie : côte à côte en cartes, les deux se confondaient.
+  heroImage: {
+    src: "/destination/kenya/hero-2.png",
+    alt: "Femmes Masaï en tenue traditionnelle dans les plaines de la savane kenyane",
+  },
   blurb: "Masaï Mara, Laikipia, Galu Beach",
   keywords: [
     "kenya",
