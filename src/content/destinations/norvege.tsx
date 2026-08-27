@@ -31,15 +31,15 @@ export const destination: Destination = {
         "Un fjord est un bras de mer qui entre dans les terres, entre deux parois de plusieurs centaines de mètres. On y navigue comme dans un couloir, avec la montagne des deux côtés. En juin, dans les Lofoten, il fait jour toute la nuit.",
       images: [
         {
-          src: "/destination/norvege/hero-1.png",
+          src: "/destination/norvege/hero-1.webp",
           alt: "Village de Reine et sommets des Lofoten au bord de l'eau, Norvège",
         },
         {
-          src: "/destination/norvege/hero-2.png",
+          src: "/destination/norvege/hero-2.webp",
           alt: "Parois du Geirangerfjord plongeant dans l'eau sombre au lever du jour",
         },
         {
-          src: "/destination/norvege/hero-3.png",
+          src: "/destination/norvege/hero-3.webp",
           alt: "Cabane de pêcheur rouge isolée au pied d'une montagne enneigée",
         },
       ],
@@ -95,7 +95,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/norvege/full-image.png",
+        src: "/destination/norvege/full-image.webp",
         alt: "Fjord étroit et parois verticales sous une lumière basse, Norvège",
       },
       height: 600,
@@ -112,11 +112,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/norvege/split-1.png",
+          src: "/destination/norvege/split-1.webp",
           alt: "Séchoirs en bois couverts de morues suspendues dans un village des Lofoten",
         },
         {
-          src: "/destination/norvege/split-2.png",
+          src: "/destination/norvege/split-2.webp",
           alt: "Bateau de pêche rentrant au port de Sørvågen sous une lumière d'hiver",
         },
       ],
@@ -126,11 +126,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/norvege/xp-geirangerfjord-1.png",
+          src: "/destination/norvege/xp-geirangerfjord-1.webp",
           alt: "Petit bateau seul sur l'eau lisse du Geirangerfjord au lever du jour",
         },
         right: {
-          src: "/destination/norvege/xp-geirangerfjord-2.png",
+          src: "/destination/norvege/xp-geirangerfjord-2.webp",
           alt: "Cascade des Sept Sœurs tombant dans le Geirangerfjord en Norvège",
         },
       },
@@ -243,7 +243,7 @@ export const destination: Destination = {
           description:
             "Mille kilomètres séparent les Lofoten du Sunnmøre. Nous décidons de ce que l'on garde, de ce que l'on abandonne, et dans quel ordre.",
           image: {
-            src: "/destination/norvege/bento-map.png",
+            src: "/destination/norvege/bento-map.webp",
             alt: "Carte d'itinéraire entre les fjords de l'ouest et les Lofoten",
           },
           tone: "dark",
@@ -253,7 +253,7 @@ export const destination: Destination = {
           description:
             "Tables de village à Sørvågen, fermes de fjord au fond du Hjørundfjord, quais privés à Geiranger. Ces adresses ne se réservent pas en ligne.",
           image: {
-            src: "/destination/norvege/bento-adresses.png",
+            src: "/destination/norvege/bento-adresses.webp",
             alt: "Table dressée face au fjord dans une maison de bois norvégienne",
           },
         },
@@ -262,7 +262,7 @@ export const destination: Destination = {
           description:
             "Maisons familiales et hôtels de neuf chambres, choisis pour leur emplacement et leur cuisine plutôt que pour leur classement.",
           image: {
-            src: "/destination/norvege/bento-hebergements.png",
+            src: "/destination/norvege/bento-hebergements.webp",
             alt: "Chambre vitrée ouverte sur une forêt de bouleaux et une rivière",
           },
         },
@@ -271,7 +271,7 @@ export const destination: Destination = {
           description:
             "Un seul interlocuteur du premier échange jusqu'au retour. En Norvège, la météo décide souvent : nous réorganisons la journée sans vous en charger.",
           image: {
-            src: "/destination/norvege/bento-conciergerie.png",
+            src: "/destination/norvege/bento-conciergerie.webp",
             alt: "Conseillère Exuma en conversation téléphonique avec un voyageur",
           },
         },
@@ -280,7 +280,7 @@ export const destination: Destination = {
           description:
             "Sortie au skrei avec un patron de pêche, navigation privée dans le Reinefjord, ski depuis un voilier. Chaque accès se négocie en direct.",
           image: {
-            src: "/destination/norvege/bento-experiences.png",
+            src: "/destination/norvege/bento-experiences.webp",
             alt: "Skieur de randonnée montant une pente au-dessus d'un fjord norvégien",
           },
         },
@@ -302,7 +302,7 @@ export const destination: Destination = {
           description:
             "Le village est construit sur une étroite bande de terre entre la mer et la montagne. Le fond du fjord n'est accessible que par bateau : aucune route ne dessert les plages de Bunes et de Kjerkfjorden.",
           image: {
-            src: "/destination/norvege/map-reine.png",
+            src: "/destination/norvege/map-reine.webp",
             alt: "Maisons rouges de Reine au pied des sommets du Reinefjord, Lofoten",
           },
           coordinates: { lat: 67.9324, lng: 13.0887 },
@@ -312,7 +312,7 @@ export const destination: Destination = {
           description:
             "La route E10 se termine ici, au bout de l'archipel. Le village vit de la pêche au cabillaud de janvier à avril, et ses séchoirs à poisson sont toujours en activité.",
           image: {
-            src: "/destination/norvege/map-sorvagen.png",
+            src: "/destination/norvege/map-sorvagen.webp",
             alt: "Port de Sørvågen et fin de la route E10 au bout des Lofoten",
           },
           coordinates: { lat: 67.8869, lng: 12.9906 },
@@ -322,7 +322,7 @@ export const destination: Destination = {
           description:
             "Entre les îles de Moskenesøya et de Værøy, la marée crée l'un des courants les plus puissants du monde. Poe et Jules Verne s'en sont inspirés pour décrire un tourbillon géant.",
           image: {
-            src: "/destination/norvege/map-moskenstraumen.png",
+            src: "/destination/norvege/map-moskenstraumen.webp",
             alt: "Remous du courant de Moskenstraumen au large des Lofoten",
           },
           coordinates: { lat: 67.8, lng: 12.83 }, // TODO: verify coords
@@ -332,7 +332,7 @@ export const destination: Destination = {
           description:
             "Classé à l'UNESCO depuis 2005, ce bras de mer de quinze kilomètres atteint 260 mètres de profondeur, entouré de sommets de 1 600 mètres. Les fermes de Skageflå et Knivsflå se rejoignent par bateau.",
           image: {
-            src: "/destination/norvege/map-geirangerfjord.png",
+            src: "/destination/norvege/map-geirangerfjord.webp",
             alt: "Cascade des Sept Sœurs et parois du Geirangerfjord classé à l'UNESCO",
           },
           coordinates: { lat: 62.1019, lng: 7.2072 },
@@ -342,7 +342,7 @@ export const destination: Destination = {
           description:
             "Un village agricole au bord du Norddalsfjord, connu pour ses fraises et pour la gorge de la Valldøla. C'est la base la plus commode pour rejoindre Geiranger sans y dormir.",
           image: {
-            src: "/destination/norvege/map-valldal.png",
+            src: "/destination/norvege/map-valldal.webp",
             alt: "Rivière Valldøla et forêt de bouleaux dans la vallée de Valldal",
           },
           coordinates: { lat: 62.3067, lng: 7.2528 }, // TODO: verify coords
@@ -352,7 +352,7 @@ export const destination: Destination = {
           description:
             "Ces montagnes comptent parmi les plus raides du pays et descendent jusqu'au bord de l'eau. Au printemps, on y monte à ski de randonnée et l'on redescend jusqu'au niveau de la mer.",
           image: {
-            src: "/destination/norvege/map-hjorundfjord.png",
+            src: "/destination/norvege/map-hjorundfjord.webp",
             alt: "Sommets des Alpes de Sunnmøre plongeant dans le Hjørundfjord",
           },
           coordinates: { lat: 62.2, lng: 6.4 }, // TODO: verify coords
@@ -593,7 +593,7 @@ export const destination: Destination = {
           quote:
             "Nous sommes entrés dans le Geirangerfjord à six heures du matin, seuls. Le skipper a coupé le moteur sous la cascade et personne n'a parlé pendant dix minutes. C'est la seule chose dont je parle encore au bureau.",
           image: {
-            src: "/destination/norvege/hero-1.png",
+            src: "/destination/norvege/hero-1.webp",
             alt: "Portrait de Philippe", // TODO: verify
           },
           name: "Philippe", // TODO: verify
@@ -604,7 +604,7 @@ export const destination: Destination = {
           quote:
             "Je voulais dix jours sans rien avoir à décider. Les vols, les ferries, le bateau de pêche, tout était calé. Le seul choix de la journée portait sur l'heure du petit déjeuner.",
           image: {
-            src: "/destination/norvege/hero-2.png",
+            src: "/destination/norvege/hero-2.webp",
             alt: "Portrait de Marc-Antoine", // TODO: verify
           },
           name: "Marc-Antoine", // TODO: verify
@@ -615,7 +615,7 @@ export const destination: Destination = {
           quote:
             "Sept chambres, une rivière sous les fenêtres, et pas un bruit après vingt-deux heures. Nous sommes restés quatre nuits à Valldal alors que nous en avions prévu deux.",
           image: {
-            src: "/destination/norvege/hero-3.png",
+            src: "/destination/norvege/hero-3.webp",
             alt: "Portrait de Sylvie", // TODO: verify
           },
           name: "Sylvie", // TODO: verify
