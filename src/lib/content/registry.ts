@@ -65,6 +65,7 @@ import { destination as thailande } from "@/content/destinations/thailande";
 import { destination as jordanie } from "@/content/destinations/jordanie";
 import { destination as norvege } from "@/content/destinations/norvege";
 import { destination as islande } from "@/content/destinations/islande";
+import { destination as irlande } from "@/content/destinations/irlande";
 import { destination as losCabos } from "@/content/destinations/los-cabos";
 import { destination as montenegro } from "@/content/destinations/montenegro";
 import { destination as coreeDuSud } from "@/content/destinations/coree-du-sud";
@@ -272,6 +273,9 @@ import { experience as sealBayLionsDeMer } from "@/content/experiences/seal-bay-
 import { experience as spectacleEraShanghai } from "@/content/experiences/spectacle-era-shanghai";
 import { experience as villagesEthniquesGuizhou } from "@/content/experiences/villages-ethniques-guizhou";
 import { experience as helicoptereVictoriaHarbor } from "@/content/experiences/helicoptere-victoria-harbor";
+import { experience as midletonMaitreDistillateur } from "@/content/experiences/midleton-maitre-distillateur";
+import { experience as fauconnerieAshford } from "@/content/experiences/fauconnerie-ashford";
+import { experience as oldHeadKinsale } from "@/content/experiences/old-head-kinsale";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -445,6 +449,9 @@ import { accommodation as bamurruPlains } from "@/content/accommodations/bamurru
 import { accommodation as amandayan } from "@/content/accommodations/amandayan";
 import { accommodation as capellaShanghai } from "@/content/accommodations/capella-shanghai";
 import { accommodation as banyanTreeHangzhou } from "@/content/accommodations/banyan-tree-hangzhou";
+import { accommodation as ashfordCastle } from "@/content/accommodations/ashford-castle";
+import { accommodation as adareManor } from "@/content/accommodations/adare-manor";
+import { accommodation as cliffHouseArdmore } from "@/content/accommodations/cliff-house-ardmore";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -466,6 +473,7 @@ export const destinations: Record<string, Destination> = toMap([
   costaRica,
   egypte,
   indonesie,
+  irlande,
   islande,
   jordanie,
   marrakech,
@@ -605,6 +613,7 @@ export const experiences: Record<string, Experience> = toMap([
   iguacuChutesAube,
   ilesCagarrasPecheur,
   ilesDaymaniyatSnorkeling,
+  fauconnerieAshford,
   ilesWestmanEldfell,
   kayakPaddleThorsmork,
   khaoYaiHeowSuwat,
@@ -640,6 +649,7 @@ export const experiences: Record<string, Experience> = toMap([
   lavezzi,
   louvrePriveNocturne,
   marcheBushmenSan,
+  midletonMaitreDistillateur,
   marchePistageThornybush,
   montgolfiereNecropoleThebaine,
   mauritshuisVermeerDelft,
@@ -648,6 +658,7 @@ export const experiences: Record<string, Experience> = toMap([
   nickTetautiare,
   nizwaBahlaJabreen,
   nonnaCuisineTrastevere,
+  oldHeadKinsale,
   observationBaleinesIslande,
   observationEtoilesWadiRum,
   olduvaiPaleoanthropologue,
@@ -738,9 +749,11 @@ export const accommodations: Record<string, Accommodation> = toMap([
   alMoudiraLouxor,
   amanjena,
   amanSvetiStefan,
+  adareManor,
   amankila,
   amanpuri,
   anantaraAlJabalAlAkhdar,
+  ashfordCastle,
   belmondCopacabanaPalace,
   amanoi,
   amanTokyo,
@@ -772,6 +785,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   fairmontChateauLakeLouise,
   fogoIslandInn,
   chevalBlancParis,
+  cliffHouseArdmore,
   dahabiehPrivatiseeNil,
   darAhlam,
   dusitThaniBangkok,
