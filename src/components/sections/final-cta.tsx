@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Phone } from "@untitledui/icons";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
 
@@ -48,6 +49,11 @@ export function FinalCtaSection({
             href={primaryCta.href}
             className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-[13px] tracking-wide text-background transition-opacity hover:opacity-75"
           >
+            {/* Un CTA qui pointe vers un `tel:` porte son icône, sans que la
+                page ait à la déclarer. */}
+            {primaryCta.href.startsWith("tel:") ? (
+              <Phone aria-hidden className="size-4" />
+            ) : null}
             {primaryCta.label}
           </Link>
           {secondaryCta ? (

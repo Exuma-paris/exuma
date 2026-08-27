@@ -112,6 +112,7 @@ export type Section =
         title: string;
         description: string;
       }[];
+      theme?: "light" | "dark";
       background?: string;
     }
   | {
@@ -247,6 +248,19 @@ export type Section =
       items: {
         title: string;
         detail: ReactNode;
+        image: ImageRef;
+      }[];
+      background?: string;
+    }
+  | {
+      type: "featureRows";
+      eyebrow?: string;
+      heading: string;
+      description?: string;
+      cta?: Cta;
+      items: {
+        title: string;
+        paragraphs: string[];
         image: ImageRef;
       }[];
       background?: string;
