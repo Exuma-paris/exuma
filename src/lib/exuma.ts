@@ -14,3 +14,31 @@ export const EXUMA_TEL_HREF = `tel:${EXUMA_PHONE.replace(/\s/g, "")}`;
 
 /** Pre-built `mailto:` href. */
 export const EXUMA_MAILTO_HREF = `mailto:${EXUMA_EMAIL}`;
+
+/**
+ * Adresse éclatée pour les données structurées (schema.org PostalAddress).
+ * `EXUMA_ADDRESS` reste la version affichée ; ces champs-ci existent parce
+ * qu'un moteur ne sait pas découper une chaîne libre en rue / code postal.
+ */
+export const EXUMA_POSTAL_ADDRESS = {
+  streetAddress: "73 rue de Courcelles",
+  postalCode: "75008",
+  addressLocality: "Paris",
+  addressCountry: "FR",
+} as const;
+
+/** Comptes sociaux officiels, dans l'ordre d'affichage du pied de page. */
+export const EXUMA_SOCIALS = [
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/exuma_paris/",
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/exumafr/",
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/company/exumaparis/",
+  },
+] as const;
