@@ -495,6 +495,7 @@ import { accommodation as belmondReidsPalace } from "@/content/accommodations/be
 import { accommodation as casaVelhaDoPalheiro } from "@/content/accommodations/casa-velha-do-palheiro";
 import { accommodation as savoyPalace } from "@/content/accommodations/savoy-palace";
 import { accommodation as laBastideDeGordes } from "@/content/accommodations/la-bastide-de-gordes";
+import { accommodation as crillonLeBrave } from "@/content/accommodations/crillon-le-brave";
 import { accommodation as lesSourcesDeCheverny } from "@/content/accommodations/les-sources-de-cheverny";
 import { accommodation as grandHotelDuCapFerrat } from "@/content/accommodations/grand-hotel-du-cap-ferrat";
 import { accommodation as amanVenice } from "@/content/accommodations/aman-venice";
@@ -1140,6 +1141,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   kalesmaMykonos,
   laResidenceHue,
   laBastideDeGordes,
+  crillonLeBrave,
   kinondoKwetu,
   labaMamaSimba,
   leBristol,

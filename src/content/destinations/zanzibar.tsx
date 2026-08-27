@@ -32,15 +32,15 @@ export const destination: Destination = {
         "Zanzibar se découvre lentement. On commence par les ruelles de Stone Town, où le bois des portes sculptées garde le parfum du girofle, et l'on finit les pieds dans une eau qui reste tiède jusqu'au soir. Entre les deux, il y a les plantations d'épices, les boutres à la voile et les jardins de corail de Mnemba.",
       images: [
         {
-          src: "/destination/zanzibar/hero-1.png",
+          src: "/destination/zanzibar/hero-1.webp",
           alt: "Boutre traditionnel à voile au large de la côte de Zanzibar au coucher du soleil",
         },
         {
-          src: "/destination/zanzibar/hero-2.png",
+          src: "/destination/zanzibar/hero-2.webp",
           alt: "Ruelle de Stone Town et porte sculptée en bois de teck, Zanzibar",
         },
         {
-          src: "/destination/zanzibar/hero-3.png",
+          src: "/destination/zanzibar/hero-3.webp",
           alt: "Plage de sable blanc et eaux calmes près de l'île de Mnemba, Zanzibar",
         },
       ],
@@ -77,7 +77,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/zanzibar/full-image.png",
+        src: "/destination/zanzibar/full-image.webp",
         alt: "Vue aérienne de la côte de Zanzibar, de ses eaux turquoise et de ses bancs de sable",
       },
       height: 600,
@@ -94,11 +94,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/zanzibar/split-1.png",
+          src: "/destination/zanzibar/split-1.webp",
           alt: "Cultivatrice d'algues dans le lagon découvert de Jambiani, côte sud-est de Zanzibar",
         },
         {
-          src: "/destination/zanzibar/split-2.png",
+          src: "/destination/zanzibar/split-2.webp",
           alt: "Charpentiers construisant un boutre traditionnel sur la plage de Nungwi",
         },
       ],
@@ -108,11 +108,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/zanzibar/xp-corail-mnemba-1.png",
+          src: "/destination/zanzibar/xp-corail-mnemba-1.webp",
           alt: "Plongeur fixant des fragments de corail sur une structure immergée au large de Mnemba",
         },
         right: {
-          src: "/destination/zanzibar/xp-corail-mnemba-2.png",
+          src: "/destination/zanzibar/xp-corail-mnemba-2.webp",
           alt: "Récif corallien et poissons tropicaux dans la réserve marine de Mnemba, Zanzibar",
         },
       },
@@ -222,7 +222,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/zanzibar/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/zanzibar/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Zanzibar entre Stone Town, Mnemba et la côte est",
             "Adresses confidentielles à Zanzibar : maisons swahilies et villas hors circuit",
@@ -249,7 +249,7 @@ export const destination: Destination = {
           description:
             "On s'y perd volontiers, entre les portes de teck sculptées, les étals d'épices et les terrasses qui donnent sur le port. Le soir, les jardins de Forodhani sentent le poisson grillé et toute la ville descend s'y promener.",
           image: {
-            src: "/destination/zanzibar/map-stone-town.png",
+            src: "/destination/zanzibar/map-stone-town.webp",
             alt: "Front de mer et toits de Stone Town, capitale historique de Zanzibar",
           },
           // TODO: verify coords
@@ -260,7 +260,7 @@ export const destination: Destination = {
           description:
             "Un banc de sable planté de palmiers au large de Matemwe, entouré d'une réserve marine. On y dort dans des bandas ouvertes sur la plage et l'on nage au-dessus des jardins de corail dès le réveil.",
           image: {
-            src: "/destination/zanzibar/map-mnemba.png",
+            src: "/destination/zanzibar/map-mnemba.webp",
             alt: "Île privée de Mnemba entourée de son lagon turquoise au large de Zanzibar",
           },
           // TODO: verify coords
@@ -271,7 +271,7 @@ export const destination: Destination = {
           description:
             "Un village de pêcheurs qui regarde Mnemba, où l'eau reste haute même quand la marée descend. Les bateaux partent vers le récif au lever du jour, et l'on peut monter à bord avec eux.",
           image: {
-            src: "/destination/zanzibar/map-matemwe.png",
+            src: "/destination/zanzibar/map-matemwe.webp",
             alt: "Plage et pirogues de pêcheurs du village de Matemwe, nord-est de Zanzibar",
           },
           // TODO: verify coords
@@ -282,7 +282,7 @@ export const destination: Destination = {
           description:
             "La dernière grande forêt de l'archipel abrite le colobe roux, un singe que l'on ne rencontre nulle part ailleurs au monde. Une passerelle de bois traverse la mangrove, dans une lumière verte et humide.",
           image: {
-            src: "/destination/zanzibar/map-jozani.png",
+            src: "/destination/zanzibar/map-jozani.webp",
             alt: "Colobe roux de Kirk dans la forêt de Jozani, parc national de Zanzibar",
           },
           // TODO: verify coords
@@ -293,7 +293,7 @@ export const destination: Destination = {
           description:
             "Le lagon se retire le matin et découvre un plateau de sable clair que l'on parcourt à pied. L'après-midi, le vent se lève et les voiles de kitesurf remplissent l'horizon. Les maisons y sont plus grandes et plus discrètes qu'ailleurs sur l'île.",
           image: {
-            src: "/destination/zanzibar/map-paje.png",
+            src: "/destination/zanzibar/map-paje.webp",
             alt: "Lagon de Paje à marée basse et voiles de kitesurf sur la côte sud-est de Zanzibar",
           },
           // TODO: verify coords
@@ -304,7 +304,7 @@ export const destination: Destination = {
           description:
             "L'île sœur de Zanzibar, vallonnée et plantée de girofliers dont l'odeur porte jusqu'à la mer. Peu de voyageurs y viennent, et les plongeurs y trouvent parmi les plus beaux tombants de l'océan Indien.",
           image: {
-            src: "/destination/zanzibar/map-pemba.png",
+            src: "/destination/zanzibar/map-pemba.webp",
             alt: "Collines plantées de girofliers et lagon de l'île de Pemba, archipel de Zanzibar",
           },
           // TODO: verify coords
@@ -540,7 +540,7 @@ export const destination: Destination = {
           quote:
             "Nous arrivions du Serengeti, couverts de poussière, et nous nous sommes retrouvés le soir même sur la plage de Mnemba. Le contraste est ce qui rend ce voyage inoubliable. Nous n'avons partagé l'îlot avec personne.",
           image: {
-            src: "/destination/zanzibar/hero-1.png",
+            src: "/destination/zanzibar/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -551,7 +551,7 @@ export const destination: Destination = {
           quote:
             "Notre guide francophone connaissait les familles derrière les portes sculptées de Stone Town, et il nous a fait entrer chez elles. Nos enfants ont retenu cette matinée mieux que n'importe quel cours d'histoire.",
           image: {
-            src: "/destination/zanzibar/hero-2.png",
+            src: "/destination/zanzibar/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -562,7 +562,7 @@ export const destination: Destination = {
           quote:
             "Nous pensions que replanter du corail serait une animation d'hôtel. Nous recevons encore des nouvelles de notre structure, et c'est devenu le souvenir dont nous parlons le plus depuis le retour.",
           image: {
-            src: "/destination/zanzibar/hero-3.png",
+            src: "/destination/zanzibar/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

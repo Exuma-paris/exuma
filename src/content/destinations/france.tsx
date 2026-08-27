@@ -149,9 +149,9 @@ export const destination: Destination = {
       eyebrow: "Hébergements en France",
       heading: "Où séjourner",
       description:
-        "Trois maisons et trois lumières différentes : la pierre dorée d’un village du Luberon, un château endormi au milieu des bois de Sologne, une pointe de pins suspendue au-dessus de la Méditerranée.",
+        "Trois maisons et trois lumières différentes : un village de Provence posé face au Ventoux, un château endormi au milieu des bois de Sologne, une pointe de pins suspendue au-dessus de la Méditerranée.",
       slugs: [
-        "la-bastide-de-gordes",
+        "crillon-le-brave",
         "les-sources-de-cheverny",
         "grand-hotel-du-cap-ferrat",
       ],
