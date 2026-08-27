@@ -32,15 +32,15 @@ export const destination: Destination = {
         "Le sable des Wahiba change de couleur avec l'heure. Plus haut, sur les terrasses du Jebel Akhdar, l'air sent la rose et les nuits sont froides. Entre les deux, des forts de terre et des villages accrochés au vide. Oman se traverse lentement.",
       images: [
         {
-          src: "/destination/oman/hero-1.png",
+          src: "/destination/oman/hero-1.webp",
           alt: "Dunes des Wahiba Sands au lever du jour lors d'un voyage à Oman",
         },
         {
-          src: "/destination/oman/hero-2.png",
+          src: "/destination/oman/hero-2.webp",
           alt: "Terrasses de pierre sèche du plateau de Saiq sur le Jebel Akhdar",
         },
         {
-          src: "/destination/oman/hero-3.png",
+          src: "/destination/oman/hero-3.webp",
           alt: "Tours de terre du fort de Nizwa dominant la palmeraie omanaise",
         },
       ],
@@ -77,7 +77,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/oman/full-image.png",
+        src: "/destination/oman/full-image.webp",
         alt: "Canyon du Jebel Akhdar et villages accrochés à la falaise lors d'un voyage à Oman",
       },
       height: 600,
@@ -94,11 +94,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/oman/split-1.png",
+          src: "/destination/oman/split-1.webp",
           alt: "Cueillette de la rose de Damas sur les terrasses du plateau de Saiq, Oman",
         },
         {
-          src: "/destination/oman/split-2.png",
+          src: "/destination/oman/split-2.webp",
           alt: "Crête de dune dans le désert des Wahiba Sands en fin de journée",
         },
       ],
@@ -108,11 +108,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/oman/xp-culture-bedouine-1.png",
+          src: "/destination/oman/xp-culture-bedouine-1.webp",
           alt: "Service du café à la cardamome dans une dallah de cuivre sous une tente bédouine",
         },
         right: {
-          src: "/destination/oman/xp-culture-bedouine-2.png",
+          src: "/destination/oman/xp-culture-bedouine-2.webp",
           alt: "Famille bédouine devant sa tente au pied des dunes des Wahiba Sands",
         },
       },
@@ -226,7 +226,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/oman/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/oman/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Oman entre Mascate, Nizwa et les Wahiba",
             "Adresses confidentielles à Oman : maisons de montagne et campements hors piste",
@@ -253,7 +253,7 @@ export const destination: Destination = {
           description:
             "La ville reste basse et blanche, coincée entre la montagne et la mer. La Grande Mosquée se visite au calme, le matin. Le souk de Mutrah s'anime en fin d'après-midi, quand l'encens brûle sur les seuils.",
           image: {
-            src: "/destination/oman/map-mascate.png",
+            src: "/destination/oman/map-mascate.webp",
             alt: "Corniche de Mutrah à Mascate avec boutres et maisons blanches au crépuscule",
           },
           // TODO: verify coords
@@ -264,7 +264,7 @@ export const destination: Destination = {
           description:
             "L'ancienne capitale garde son fort de terre au-dessus de la palmeraie. Le souk vend l'argent, la poterie et les dattes. Le vendredi au petit matin, les éleveurs font tourner les bêtes sur la place.",
           image: {
-            src: "/destination/oman/map-nizwa.png",
+            src: "/destination/oman/map-nizwa.webp",
             alt: "Tour ronde du fort de Nizwa et minaret au-dessus de la palmeraie, Oman",
           },
           // TODO: verify coords
@@ -275,7 +275,7 @@ export const destination: Destination = {
           description:
             "La montagne verte porte bien son nom : vergers en terrasses, grenadiers, roses. L'air y reste frais toute l'année et les nuits d'hiver piquent. Les villages tiennent accrochés au-dessus de la gorge.",
           image: {
-            src: "/destination/oman/map-jebel-akhdar.png",
+            src: "/destination/oman/map-jebel-akhdar.webp",
             alt: "Villages en terrasses du Jebel Akhdar accrochés au-dessus du canyon, Oman",
           },
           // TODO: verify coords
@@ -286,7 +286,7 @@ export const destination: Destination = {
           description:
             "Des dunes jusqu'à l'horizon, sans piste ni repère. Le sable vire à l'orange en fin de journée, puis s'éteint d'un coup. La nuit, on entend le vent et rien d'autre.",
           image: {
-            src: "/destination/oman/map-wahiba.png",
+            src: "/destination/oman/map-wahiba.webp",
             alt: "Dunes orangées des Wahiba Sands sous un ciel de fin d'après-midi, Oman",
           },
           // TODO: verify coords
@@ -297,7 +297,7 @@ export const destination: Destination = {
           description:
             "L'eau coule ici toute l'année, ce qui n'arrive presque nulle part ailleurs. Les bassins verts s'enchaînent entre les parois, à l'ombre des palmiers. Un sentier remonte le lit jusqu'à une grotte.",
           image: {
-            src: "/destination/oman/map-wadi-bani-khalid.png",
+            src: "/destination/oman/map-wadi-bani-khalid.webp",
             alt: "Vasques turquoise et palmiers du Wadi Bani Khalid entre les parois rocheuses, Oman",
           },
           // TODO: verify coords
@@ -308,7 +308,7 @@ export const destination: Destination = {
           description:
             "Quelques îlots de granit au large, classés en réserve naturelle. On se met à l'eau et les tortues passent sous la coque. Le débarquement est réglementé une partie de l'année.", // TODO: verify la réglementation de débarquement
           image: {
-            src: "/destination/oman/map-daymaniyat.png",
+            src: "/destination/oman/map-daymaniyat.webp",
             alt: "Eaux turquoise et îlots rocheux de la réserve des îles Daymaniyat, Oman",
           },
           // TODO: verify coords
@@ -560,7 +560,7 @@ export const destination: Destination = {
           quote:
             "La journée chez la famille bédouine est ce qu'on raconte en rentrant. Le café servi trois fois, le pain sur la plaque, et le père qui explique où trouver l'eau sous la dune. Rien d'arrangé, on était les seuls sur place.",
           image: {
-            src: "/destination/oman/hero-1.png",
+            src: "/destination/oman/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -571,7 +571,7 @@ export const destination: Destination = {
           quote:
             "Le Jebel Akhdar en février, personne sur les sentiers entre les villages, et le canyon juste derrière la terrasse. On avait prévu deux nuits, on en a passé quatre.",
           image: {
-            src: "/destination/oman/hero-2.png",
+            src: "/destination/oman/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -582,7 +582,7 @@ export const destination: Destination = {
           quote:
             "Les Daymaniyat en bateau privé au départ de Mascate : tortues dès la première mise à l'eau, et aucun autre bateau à l'ancre. Le retour longe la côte au moment où la lumière tombe.",
           image: {
-            src: "/destination/oman/hero-3.png",
+            src: "/destination/oman/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

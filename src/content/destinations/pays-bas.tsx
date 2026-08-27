@@ -32,15 +32,15 @@ export const destination: Destination = {
         "Le ciel occupe la moitié du paysage et la lumière change plusieurs fois par heure. Elle éclaire des choses très concrètes. Une salle de musée encore vide à huit heures du matin. Un canal remonté en bateau à l'heure de l'apéritif. Un chemin de sable en forêt, à vélo, jusqu'aux Van Gogh. Le tout à une heure de train l'un de l'autre.",
       images: [
         {
-          src: "/destination/pays-bas/hero-1.png",
+          src: "/destination/pays-bas/hero-1.webp",
           alt: "Anneau de canaux d'Amsterdam au petit matin, voyage aux Pays-Bas",
         },
         {
-          src: "/destination/pays-bas/hero-2.png",
+          src: "/destination/pays-bas/hero-2.webp",
           alt: "Galerie d'honneur du Rijksmuseum avant l'ouverture au public, Amsterdam",
         },
         {
-          src: "/destination/pays-bas/hero-3.png",
+          src: "/destination/pays-bas/hero-3.webp",
           alt: "Allée de sable dans la forêt de la Veluwe traversée à vélo, Gueldre",
         },
       ],
@@ -78,7 +78,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/pays-bas/full-image.png",
+        src: "/destination/pays-bas/full-image.webp",
         alt: "Maisons du Grachtengordel et péniches à la tombée du jour, voyage aux Pays-Bas",
       },
       height: 600,
@@ -97,11 +97,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/pays-bas/split-1.png",
+          src: "/destination/pays-bas/split-1.webp",
           alt: "Voilier en acier des années 1900 sous voile sur l'IJsselmeer, Pays-Bas",
         },
         {
-          src: "/destination/pays-bas/split-2.png",
+          src: "/destination/pays-bas/split-2.webp",
           alt: "Maisons de bois vertes et jardins au bord d'un canal du Waterland",
         },
       ],
@@ -111,11 +111,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/pays-bas/xp-salonboot-1.png",
+          src: "/destination/pays-bas/xp-salonboot-1.webp",
           alt: "Salonboot en acajou verni amarré sur le Herengracht en fin de journée, Amsterdam",
         },
         right: {
-          src: "/destination/pays-bas/xp-salonboot-2.png",
+          src: "/destination/pays-bas/xp-salonboot-2.webp",
           alt: "Fenêtres éclairées d'une maison de canal vues depuis le pont d'un bateau, Amsterdam",
         },
       },
@@ -230,7 +230,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/pays-bas/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/pays-bas/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure aux Pays-Bas, d'Amsterdam aux collines du Limbourg",
             "Adresses confidentielles aux Pays-Bas : musées hors horaires et ateliers de peintres",
@@ -257,7 +257,7 @@ export const destination: Destination = {
           description:
             "La ville se visite tôt et se traverse à pied. Le Rijksmuseum et le musée Van Gogh bordent tous les deux le Museumplein. À partir de dix-sept heures, on passe sur l'eau : ici les canaux servent de rues, et un bateau peut accoster devant la porte du restaurant.",
           image: {
-            src: "/destination/pays-bas/map-amsterdam.png",
+            src: "/destination/pays-bas/map-amsterdam.webp",
             alt: "Maisons étroites et ponts du Grachtengordel d'Amsterdam vus depuis l'eau",
           },
           // TODO: verify coords
@@ -268,7 +268,7 @@ export const destination: Destination = {
           description:
             "Le Mauritshuis est une maison de vingt salles au bord d'un étang, et l'on en fait le tour en une heure et demie. La Jeune fille à la perle y est accrochée à hauteur d'œil, à un mètre du visiteur. En sortant, la plage de Scheveningen et ses cabines de bain ferment la journée.", // TODO: verify le nombre de salles du Mauritshuis
           image: {
-            src: "/destination/pays-bas/map-la-haye.png",
+            src: "/destination/pays-bas/map-la-haye.webp",
             alt: "Façade du Mauritshuis reflétée dans l'étang du Hofvijver, La Haye",
           },
           // TODO: verify coords
@@ -279,7 +279,7 @@ export const destination: Destination = {
           description:
             "Delft se fait à pied, entre la place du marché et les canaux bordés de tilleuls. À la manufacture Royal Delft, les peintres travaillent devant vous : le bleu se pose au pinceau, motif après motif, et l'on peut en peindre une pièce soi-même. Le soir, la ville se vide et l'on dîne au calme.", // TODO: verify la possibilité de peindre une pièce à la manufacture
           image: {
-            src: "/destination/pays-bas/map-delft.png",
+            src: "/destination/pays-bas/map-delft.webp",
             alt: "Canal de Delft et clocher penché de la Oude Kerk où Vermeer est enterré",
           },
           // TODO: verify coords
@@ -290,7 +290,7 @@ export const destination: Destination = {
           description:
             "Les vélos blancs du parc se prennent librement aux entrées, sans réservation. Les chemins de sable traversent la forêt et les landes pendant des kilomètres, et les cerfs sortent dans les clairières au crépuscule. Au centre, le musée Kröller-Müller conserve près de quatre-vingt-dix Van Gogh et un jardin de sculptures sous les arbres.", // TODO: verify le nombre de toiles de Van Gogh
           image: {
-            src: "/destination/pays-bas/map-veluwe.png",
+            src: "/destination/pays-bas/map-veluwe.webp",
             alt: "Vélos blancs sur un chemin de sable du parc national de la Hoge Veluwe",
           },
           // TODO: verify coords
@@ -301,7 +301,7 @@ export const destination: Destination = {
           description:
             "À six heures du matin, la criée d'Aalsmeer tourne à plein : les chariots de fleurs défilent sous la passerelle et le cadran fait descendre les prix jusqu'à ce qu'un acheteur s'arrête. Une heure plus tard, on marche entre les rangs d'un producteur du Bollenstreek, au milieu des champs de tulipes.",
           image: {
-            src: "/destination/pays-bas/map-bollenstreek.png",
+            src: "/destination/pays-bas/map-bollenstreek.webp",
             alt: "Bandes de tulipes rouges et jaunes dans les champs du Bollenstreek",
           },
           // TODO: verify coords
@@ -312,7 +312,7 @@ export const destination: Destination = {
           description:
             "Maastricht se vit sur ses terrasses et dans ses marchés, et la campagne autour est vallonnée. La grande librairie de la ville occupe une église gothique : on lit sous les voûtes, un café à la main. Les vignobles du Limbourg et la frontière belge sont à un quart d'heure, ce qui met deux cuisines à portée du même déjeuner.", // TODO: verify les vignobles du Limbourg et la distance à la frontière belge
           image: {
-            src: "/destination/pays-bas/map-maastricht.png",
+            src: "/destination/pays-bas/map-maastricht.webp",
             alt: "Ruelle pavée de Maastricht et collines du Limbourg en arrière-plan",
           },
           // TODO: verify coords
@@ -573,7 +573,7 @@ export const destination: Destination = {
           quote:
             "Nous étions six dans la Galerie d'honneur, à huit heures du matin. Le conservateur nous a montré, sur La Ronde de nuit, l'endroit où la toile avait été coupée au dix-huitième siècle pour entrer dans une autre salle. Je regarde les tableaux différemment depuis.",
           image: {
-            src: "/destination/pays-bas/hero-1.png",
+            src: "/destination/pays-bas/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -584,7 +584,7 @@ export const destination: Destination = {
           quote:
             "Nous partions pour trois jours de musées et nous avons passé un après-midi entier à vélo dans la forêt de la Veluwe. Personne ne nous avait dit que les Pays-Bas avaient des forêts pareilles. Nous avons rallongé de deux nuits sur place.",
           image: {
-            src: "/destination/pays-bas/hero-2.png",
+            src: "/destination/pays-bas/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -595,7 +595,7 @@ export const destination: Destination = {
           quote:
             "Le bateau est venu nous prendre devant l'hôtel à dix-huit heures. Nous avons remonté les canaux pendant deux heures, avec le skipper pour seule compagnie, puis il nous a déposés au pied du restaurant. C'est la soirée dont mes enfants reparlent.",
           image: {
-            src: "/destination/pays-bas/hero-3.png",
+            src: "/destination/pays-bas/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

@@ -13,7 +13,7 @@ export const accommodation: Accommodation = {
     "Un anneau posé sur pilotis dans le Holandsfjord, face au glacier de Svartisen. Le bâtiment produit davantage d'énergie qu'il n'en consomme, et se rejoint par bateau depuis Meløy.", // TODO: verify
   keywords: ["norvege", "svart", "svartisen", "meloy", "holandsfjord"],
   heroImage: {
-    src: "/destination/norvege/hotel-svart.png",
+    src: "/destination/norvege/hotel-svart.webp",
     alt: "Bâtiment circulaire sur pilotis face au glacier de Svartisen en Norvège",
   },
   destinationSlugs: ["norvege"],

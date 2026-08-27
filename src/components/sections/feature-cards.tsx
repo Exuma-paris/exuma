@@ -18,6 +18,19 @@ export type FeatureCardsSectionProps = {
   description?: string;
   cta?: { label: string; href: string };
   cards: FeatureCardProps[];
+  /**
+   * "carousel" (défaut) fait défiler trois cartes à la fois : c'est le rendu
+   * historique de la section. "grid" les pose toutes sur deux colonnes, sans
+   * flèche et sans carte cachée. À préférer dès qu'aucune carte ne doit
+   * échapper au lecteur, typiquement sur une page d'index.
+   */
+  layout?: "carousel" | "grid";
+  /**
+   * Contenu libre placé dans la dernière case de la grille, après les cartes.
+   * Sert à occuper la cellule laissée vide par un nombre impair de cartes,
+   * typiquement avec un appel à contact. Ignoré en mode carrousel.
+   */
+  endSlot?: React.ReactNode;
   background?: string;
 };
 
@@ -75,8 +88,11 @@ export function FeatureCardsSection({
   description,
   cta,
   cards,
+  layout = "carousel",
+  endSlot,
   background,
 }: FeatureCardsSectionProps) {
+  const isGrid = layout === "grid";
   const scrollerRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
   const hasControls = cards.length > 3;
@@ -163,6 +179,20 @@ export function FeatureCardsSection({
         ) : null}
       </div>
 
+      {isGrid ? (
+        <ul className="mx-auto mt-10 grid w-full max-w-layout gap-x-6 gap-y-12 section-px md:grid-cols-2">
+          {cards.map((card) => (
+            <li key={card.title}>
+              <FeatureCard
+                {...card}
+                ratio="aspect-3/2"
+                sizes="(min-width: 768px) 50vw, 100vw"
+              />
+            </li>
+          ))}
+          {endSlot ? <li className="flex">{endSlot}</li> : null}
+        </ul>
+      ) : (
       <div
         ref={scrollerRef}
         className="mt-10 snap-x snap-mandatory overflow-x-auto scroll-smooth scroll-px-[max(var(--section-gutter),calc((100vw-var(--container-layout))/2+var(--section-gutter)))] [&::-webkit-scrollbar]:hidden [scrollbar-width:none]"
@@ -183,12 +213,10 @@ export function FeatureCardsSection({
           />
         </div>
       </div>
+      )}
 
-      {hasControls ? (
-        // Les flèches se collent aux cartes qu'elles commandent, et ne portent
-        // plus la marge basse de la section : la section suivante apporte déjà
-        // sa propre respiration en haut.
-        <div className="mx-auto flex w-full max-w-layout justify-end gap-2 section-px pt-6 pb-4">
+      {hasControls && !isGrid ? (
+        <div className="mx-auto flex w-full max-w-layout justify-end gap-2 section-px pt-10 section-pb">
           <Button
             variant="outline"
             className="aspect-square border-0 px-0 shadow-deep"
