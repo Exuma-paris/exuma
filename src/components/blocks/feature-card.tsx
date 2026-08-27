@@ -8,6 +8,10 @@ export type FeatureCardProps = {
   description: React.ReactNode;
   image: { src: string; alt: string };
   link?: { label: string; href: string };
+  /** Cadrage de l'image. Carré par défaut, comme dans le carrousel. */
+  ratio?: string;
+  /** Largeur rendue, à ajuster selon le conteneur (carrousel ou grille). */
+  sizes?: string;
   className?: string;
 };
 
@@ -16,16 +20,18 @@ export function FeatureCard({
   description,
   image,
   link,
+  ratio = "aspect-square",
+  sizes = "(min-width: 1024px) 33vw, 100vw",
   className,
 }: FeatureCardProps) {
   return (
     <article className={cn("flex flex-col gap-4 pb-4", className)}>
-      <div className="relative aspect-square w-full overflow-hidden bg-muted">
+      <div className={cn("relative w-full overflow-hidden bg-muted", ratio)}>
         <Image
           src={image.src}
           alt={image.alt}
           fill
-          sizes="(min-width: 1024px) 33vw, 100vw"
+          sizes={sizes}
           className="object-cover"
         />
       </div>
