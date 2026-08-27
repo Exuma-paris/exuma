@@ -165,6 +165,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           description={section.description}
           cta={section.cta}
           cards={section.cards}
+          layout={section.layout}
           background={section.background}
         />
       );

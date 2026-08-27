@@ -60,6 +60,8 @@ export type Section =
         image: ImageRef;
         link?: Cta;
       }[];
+      /** "grid" pose toutes les cartes sur deux colonnes, sans carrousel. */
+      layout?: "carousel" | "grid";
       background?: string;
     }
   | {
