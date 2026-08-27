@@ -83,7 +83,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une seule route fait le tour de l'île",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Islande commence par le choix d'un rythme. Une seule grande route fait le tour complet de l'île, la route 1. On peut la suivre entièrement, ou n'en parcourir qu'une portion et rester plusieurs nuits au même endroit. Nos itinéraires se concentrent presque toujours sur la côte sud. C'est la partie du pays où les glaciers, les cascades et les plages noires se succèdent le long de la même route.",
         "Sur cette côte, on roule avec la mer d'un côté et les glaciers de l'autre. Le plus grand d'entre eux s'appelle le Vatnajökull. C'est le glacier le plus volumineux d'Europe. Plusieurs langues de glace en descendent jusqu'à la plaine. Au bout de l'une d'elles s'est formé un lac, le Jökulsárlón. Des blocs de glace s'en détachent et flottent parfois plusieurs saisons avant de rejoindre la mer. La marée en ramène une partie sur la plage voisine, où ils restent posés sur le sable noir jusqu'à fondre.",

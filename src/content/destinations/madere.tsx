@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Madère, une île qui se révèle en hauteur",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Madère commence face à l'océan. Puis le regard monte vers les sommets. L'île se dévoile entre falaises, forêts profondes et villages suspendus au-dessus de l'Atlantique. Ses levadas, ces anciens canaux devenus sentiers, longent les montagnes et franchissent les vallées. Chaque promenade devient une immersion dans une nature restée intacte.",
         "Au sud, Funchal cultive un art de vivre lumineux. Ses marchés, ses jardins, ses anciennes demeures. Plus loin, la côte ouvre sur les piscines naturelles de Porto Moniz et le sable volcanique de Seixal. Puis vient le nord, plus sauvage. La brume enveloppe la forêt de Fanal, le silence s'installe, le temps ralentit.",
@@ -165,7 +165,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Madère",
       description:
         "Vol, décalage, monnaie, formalités et saison : l'essentiel avant de partir.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -224,7 +224,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Un voyage à Madère se prépare dans le détail : une randonnée calée sur la lumière du matin, une cave ouverte pour vous, un chauffeur qui connaît la route de nuit. Une seule personne s'en occupe, et elle reste la vôtre jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -249,7 +249,7 @@ export const destination: Destination = {
       heading: "Six lieux qui font le voyage",
       description:
         "Funchal, le Pico do Arieiro, Curral das Freiras, Porto Moniz, São Lourenço, Câmara de Lobos. Nos itinéraires s'écrivent presque toujours autour de ces six-là.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 9,
       places: [
         {
@@ -322,7 +322,7 @@ export const destination: Destination = {
       heading: "Ce que l'on aimerait vous dire avant le départ",
       description:
         "Des observations de terrain, glanées à force d'y retourner. De quoi comprendre pourquoi nous plaçons telle étape à telle heure.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le nord et le sud, deux climats",
@@ -517,7 +517,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

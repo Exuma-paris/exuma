@@ -1,79 +1,7 @@
-import { continents, destinations } from "@/lib/content/registry";
-import type { DestinationIndexEntry, Question } from "@/lib/contact/types";
+import type { Question } from "@/lib/contact/types";
+import { buildDestinationIndex } from "@/lib/contact/destination-index";
 
 const EYEBROW = "Votre projet";
-
-/**
- * Names and slugs only — enough for the free-text field to recognise a place,
- * without shipping any page content to the browser. See DestinationQuestion.
- *
- * Keywords make good aliases when they are place names ("polynesie" on the
- * Polynésie entry) and terrible ones when they are themes: "safari" sits on a
- * dozen destinations, so using it would answer "un safari en Afrique du Sud"
- * with Botswana and Tanzanie — visibly not reading what was just written.
- * Keeping only keywords unique to one entry separates the two cases without
- * anyone having to curate a list.
- */
-/**
- * Turns the pre-written French genitive into a nominative with its article:
- * "du Japon" gives "le Japon", "de l'Italie" gives "l'Italie", "de Rome"
- * gives "Rome". French articles cannot be guessed from a name, which is why
- * the genitive is authored by hand on every destination — deriving from it
- * keeps that single source of truth instead of asking for a second field.
- */
-function subjectFromGenitive(genitive: string, fallback: string): string {
-  const g = genitive.trim();
-  if (g.startsWith("de l'")) return `l'${g.slice(5)}`;
-  if (g.startsWith("de la ")) return `la ${g.slice(6)}`;
-  if (g.startsWith("des ")) return `les ${g.slice(4)}`;
-  if (g.startsWith("du ")) return `le ${g.slice(3)}`;
-  if (g.startsWith("de ")) return g.slice(3);
-  return fallback;
-}
-
-/** The six continents, written once: they carry no genitive of their own. */
-const CONTINENT_SUBJECTS: Record<string, string> = {
-  europe: "l'Europe",
-  afrique: "l'Afrique",
-  asie: "l'Asie",
-  ameriques: "les Amériques",
-  "proche-orient": "le Proche et Moyen-Orient",
-  "iles-oceanie": "les îles et l'Océanie",
-};
-
-function buildDestinationIndex(): DestinationIndexEntry[] {
-  const entries = [
-    ...Object.values(destinations).map((d) => ({
-      kind: "destination" as const,
-      slug: d.slug,
-      name: d.name,
-      subject: subjectFromGenitive(d.genitive, d.name),
-      keywords: d.keywords ?? [],
-    })),
-    ...Object.values(continents).map((c) => ({
-      kind: "continent" as const,
-      slug: c.slug,
-      name: c.name,
-      subject: CONTINENT_SUBJECTS[c.slug] ?? c.name,
-      keywords: c.keywords ?? [],
-    })),
-  ];
-
-  const uses = new Map<string, number>();
-  for (const e of entries) {
-    for (const k of new Set(e.keywords.map((k) => k.toLowerCase()))) {
-      uses.set(k, (uses.get(k) ?? 0) + 1);
-    }
-  }
-
-  return entries.map(({ kind, slug, name, subject, keywords }) => ({
-    kind,
-    slug,
-    name,
-    subject,
-    aliases: keywords.filter((k) => uses.get(k.toLowerCase()) === 1),
-  }));
-}
 
 /**
  * The site-wide brief funnel behind `/votre-projet`, i.e. the destination
@@ -100,7 +28,7 @@ export function getGeneralContactQuestions(): Question[] {
       eyebrow: EYEBROW,
       heading: "Qui part avec vous ?",
       description:
-        "Le nombre et les âges changent beaucoup de choses : les hébergements, le rythme, ce qu'on vous proposera sur place.",
+        "Le nombre de voyageurs change beaucoup de choses : les hébergements, le rythme, ce qu'on vous proposera sur place.",
       adultsLabel: "Adultes",
       childrenLabel: "Enfants",
     },
@@ -123,14 +51,35 @@ export function getGeneralContactQuestions(): Question[] {
       heading: "Quel budget avez-vous en tête ?",
       description:
         "Pour l'ensemble du séjour. Le savoir tôt nous évite de vous proposer ce qui ne vous conviendrait pas.",
+      // Les paliers s'élargissent vers le haut à dessein : le centre de la
+      // liste est ce qui se lit comme la norme, et des tranches égales le
+      // tireraient vers le bas.
       options: [
-        { id: "10-15", label: "10 000 € – 15 000 €" },
-        { id: "15-20", label: "15 000 € – 20 000 €" },
-        { id: "20-25", label: "20 000 € – 25 000 €" },
-        { id: "25-30", label: "25 000 € – 30 000 €" },
-        { id: "30-plus", label: "Plus de 30 000 €" },
+        { id: "0-20", label: "Jusqu'à 20 000 €" },
+        { id: "20-35", label: "20 000 € – 35 000 €" },
+        { id: "35-50", label: "35 000 € – 50 000 €" },
+        { id: "50-80", label: "50 000 € – 80 000 €" },
+        { id: "80-plus", label: "Plus de 80 000 €" },
         { id: "open", label: "Je préfère en parler de vive voix" },
       ],
+      // Sous une semaine, la grille longue ferait fuir sans raison. Le haut
+      // reste ouvert : un court séjour n'est pas un petit budget — quatre
+      // jours à Marrakech en jet privé dépassent la moitié de cette échelle.
+      optionsWhen: {
+        questionId: "period",
+        when: "nightsUnder",
+        nights: 7,
+        options: [
+          { id: "0-10", label: "Moins de 10 000 €" },
+          { id: "10-18", label: "10 000 € – 18 000 €" },
+          { id: "18-30", label: "18 000 € – 30 000 €" },
+          { id: "30-50", label: "30 000 € – 50 000 €" },
+          { id: "50-plus", label: "Plus de 50 000 €" },
+          // Même identifiant que sur la grille longue : ce choix-là survit à
+          // un changement de dates, il ne dépend d'aucun montant.
+          { id: "open", label: "Je préfère en parler de vive voix" },
+        ],
+      },
     },
     {
       // Asked at first contact on purpose: it is the only way to find out
@@ -151,15 +100,29 @@ export function getGeneralContactQuestions(): Question[] {
       ],
     },
     {
+      // Facultatif, et placé juste avant les coordonnées : une fois le cadre
+      // pratique posé, on laisse la parole. Personne n'est retenu ici — le
+      // bouton reste actif sur un champ vide.
+      id: "envies",
+      type: "text",
+      eyebrow: EYEBROW,
+      heading: "Envie de nous en dire plus ?",
+      description:
+        "Ce qui vous ferait plaisir, ce que vous voulez éviter, une occasion à fêter. Tout ce que vous écrivez ici nous sert. Et si vous préférez en parler de vive voix, passez simplement à l'étape suivante.",
+      placeholder:
+        "Par exemple : nous fêtons nos vingt ans de mariage, nous aimons marcher, et nous détestons les hôtels où tout le monde parle français.",
+      rows: 5,
+    },
+    {
       id: "contact",
       type: "contact",
       eyebrow: "Dernière étape",
       heading: "Comment vous joindre ?",
-      // TODO: state the response commitment here once the SLA is settled.
-      // Two promises must never be conflated: time to answer an incoming
-      // request, and 24/7 assistance *during* the trip.
+      // Le délai porte sur la réponse à une demande entrante. Il ne dit rien
+      // de l'assistance pendant le voyage : ce sont deux promesses distinctes
+      // et les confondre serait un engagement qu'on ne tient pas.
       description:
-        "Un travel designer vous rappelle pour en parler de vive voix.",
+        "Un travel designer vous rappelle dans les 24 heures ouvrées pour en parler de vive voix.",
     },
   ];
 }

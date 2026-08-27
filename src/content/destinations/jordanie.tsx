@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Jordanie",
       heading: "De la pierre, du sable et une mer où l'on flotte",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Jordanie commence presque toujours par Amman. La capitale s'étale sur une série de collines et elle est plus discrète qu'on ne l'imagine. Les maisons sont bâties en calcaire clair, ce qui donne à la ville une teinte uniforme, presque beige. Le théâtre romain et la citadelle tiennent en plein centre, à quelques minutes des cafés de Jabal Amman.",
         "Au sud d'Amman, la route des Rois descend vers Pétra en suivant la ligne des hauts plateaux. C'est l'ancienne voie caravanière. Elle passe par les mosaïques de Madaba, par le mont Nébo qui regarde la vallée du Jourdain, puis par la forteresse croisée de Kerak. L'autoroute du désert va beaucoup plus vite. La route des Rois demande la journée entière, et c'est celle qui a du sens.",
@@ -164,7 +164,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Jordanie",
       description:
         "Vol, décalage, monnaie, formalités et meilleure saison : l'essentiel pour préparer sereinement un séjour sur mesure en Jordanie.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -223,7 +223,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Jordanie. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Du nord romain au golfe d'Aqaba",
       description:
         "Six étapes reliées par une seule route, du nord au sud. Les distances sont courtes, ce qui laisse le temps de s'arrêter.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -325,7 +325,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Jordanie",
       description:
         "Neuf observations de terrain qui ne se trouvent pas dans un guide. Pour calibrer les attentes, choisir la bonne fenêtre ou comprendre pourquoi nous inscrivons telle étape à l'itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Pétra demande deux jours",
@@ -600,7 +600,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
