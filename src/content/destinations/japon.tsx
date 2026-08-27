@@ -85,7 +85,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Un pays qui se découvre par les gestes",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Japon se découvre dans les gestes, plus que dans les lieux que l'on coche. À Kyoto, certains sous-temples de Nanzen-ji n'ouvrent leurs portes qu'à quelques visiteurs, sur recommandation. Ailleurs, un maître artisan répète le même geste depuis quarante ans, avec une précision qui ne doit rien au hasard. C'est dans ces détails, souvent invisibles au premier regard, que le Japon se révèle.",
         "Le voyage se construit ensuite par contrastes. Tokyo pour son énergie, sa densité et la précision de ses services. Puis le Shinkansen vers Kyoto, où le rythme change, entre jardins, temples et maisons de thé. Plus loin, les Alpes japonaises, Hakone ou les rives du lac Kawaguchi, pour retrouver le silence et laisser le mont Fuji apparaître, parfois simplement depuis une fenêtre.\n\nDepuis plus de dix ans, nous imaginons ces itinéraires comme une succession de nuances plutôt qu'une liste d'étapes. Chaque lieu prépare le suivant. Chaque détour a sa raison. Et c'est souvent entre deux incontournables que commence le véritable voyage.",
@@ -174,7 +174,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Japon",
       description:
         "Décalage horaire, monnaie, visa, saison : l'essentiel pour construire un itinéraire au Japon sans mauvaise surprise.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -232,7 +232,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Japon. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         // Japon-specific description overrides — scoped to this destination only,
@@ -244,13 +244,13 @@ export const destination: Destination = {
             "Maisons d'hôtes, palais transformés, hôtels de famille. Ici, le caractère se révèle dans le choix des matériaux, la cuisine, l'attention portée à chaque détail du quotidien.",
           ][i] ?? card.description,
         image: {
-          src: `/destination/japon/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/japon/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé pour un voyage au Japon",
-            "Ruelle d'un quartier historique de Kyoto au crépuscule",
-            "Chambre de ryokan traditionnelle avec vue sur un jardin japonais",
+            "Calligraphe traçant des caractères au pinceau sur une feuille de papier",
+            "Salle de restaurant d'un hôtel de Tokyo derrière une claustra de bois, au coucher du soleil",
             "Concierge Exuma organisant un transfert privé à Tokyo",
-            "Maître artisan japonais au travail dans son atelier",
+            "Séance d'acupuncture dans un institut japonais",
           ][i],
         },
       })),
@@ -263,7 +263,7 @@ export const destination: Destination = {
       heading: "Six lieux, et les histoires qu'ils racontent",
       description:
         "Tokyo, Kyoto, le mont Fuji : les grands repères d'un voyage au Japon, enrichis de lieux plus discrets que l'on découvre autrement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -339,7 +339,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Japon",
       description:
         "Huit clés de lecture pour comprendre le Japon autrement. Des repères qui guident nos choix d'étapes et la construction de chaque itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -566,7 +566,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Deux heures de piste entre les massifs de grès, jusqu'aux dunes rouges et aux arches de roche. Le dîner se prépare au campement, sous une tente ouverte. Après le coucher du soleil, la température tombe d'un coup.",
   keywords: ["jordanie", "wadi rum", "desert", "bedouins", "campement"],
   heroImage: {
-    src: "/destination/jordanie/xp-wadi-rum-4x4.png",
+    src: "/destination/jordanie/xp-wadi-rum-4x4.webp",
     alt: "4x4 sur une piste de sable rouge entre les massifs de grès du Wadi Rum, Jordanie",
   },
   destinationSlugs: ["jordanie"],

@@ -86,7 +86,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Deux archipels, une même eau",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Seychelles commence par une question de roche. Les îles intérieures, autour de Mahé, sont en granit : des blocs arrondis, gris et roses, posés sur le sable comme s'ils avaient toujours été là. Ils ont quatre milliards d'années. C'est le plus vieux socle océanique du monde, le seul fragment de continent resté seul au milieu de l'océan Indien après la séparation de l'Inde et de Madagascar.",
         "Le séjour se construit autour d'une logique de déplacement entre les îles. Mahé pour l'arrivée et le Morne Seychellois. Praslin pour la Vallée de Mai et le coco de mer, la plus grosse graine du monde végétal, classée au patrimoine mondial de l'UNESCO. La Digue pour Anse Source d'Argent, que l'on rejoint à vélo parce qu'il n'y a presque pas de voitures. Et, plus loin, Curieuse et ses tortues géantes, Cousin et ses sternes, Aride et sa flore rare. Chaque déplacement a une raison. Cette raison change la qualité de ce qu'on ressent en arrivant.",
@@ -180,7 +180,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage aux Seychelles",
       description:
         "Temps de vol, décalage, monnaie, formalités et meilleure saison : l'essentiel pour préparer le séjour sereinement.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -239,7 +239,7 @@ export const destination: Destination = {
       heading: "Voyage sur mesure aux Seychelles",
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Seychelles. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Création d'itinéraires",
@@ -297,7 +297,7 @@ export const destination: Destination = {
       heading: "Six lieux, et ce qu'il y a derrière",
       description:
         "Mahé, Praslin, La Digue, Curieuse, Cousin, Aride : chaque île tient une promesse distincte. Voici celles autour desquelles s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 9,
       places: [
         {
@@ -370,7 +370,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage aux Seychelles",
       description:
         "Quatre observations de terrain qui ne se trouvent pas dans un guide. Pour décider d'une étape, ou comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -482,7 +482,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

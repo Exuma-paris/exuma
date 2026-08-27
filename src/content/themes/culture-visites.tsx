@@ -8,6 +8,10 @@ export const theme: Theme = {
   intent:
     "On ne visite pas, on comprend. L'intention est de mettre en avant l'accès humain. Ce n'est jamais un cours d'histoire, c'est toujours une rencontre.",
   keywords: ["culture", "patrimoine", "musee", "histoire", "rencontre", "conservateur"],
+  cardImage: {
+    src: "/theme/culture-visites/hero-1-1x1.png",
+    alt: "Un couple et leur guide, de dos, seuls sur le chemin de ronde d'une muraille",
+  },
   sections: [
     {
       type: "hero",
@@ -16,10 +20,17 @@ export const theme: Theme = {
       description: "Comprendre par la rencontre, pas par le guide audio.",
       images: [
         {
-          src: "/destination/corse/hero-1.png",
-          alt: "Patrimoine",
+          src: "/theme/culture-visites/hero-1.png",
+          alt: "Un couple et leur guide, de dos, seuls sur le chemin de ronde d'une muraille",
         },
       ],
+    },
+    {
+      type: "finalCta",
+      eyebrow: "Aller plus loin",
+      heading: "Dites-nous ce que vous avez en tête",
+      primaryCta: { label: "Créer votre voyage", href: "/votre-projet" },
+      secondaryCta: { label: "Nous écrire", href: "/nous-ecrire" },
     },
   ],
 };

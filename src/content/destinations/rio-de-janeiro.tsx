@@ -53,7 +53,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane", // TODO: verify collaborateurSlug — pas de spécialiste Brésil dédié
         // TODO: verify quote attribution
         quote:
-          "Rio change deux fois par jour. Le matin, les plages se remplissent par couches sociales — une famille à six heures, un coureur à sept, l'enseignant à huit. Le soir, après dix-sept heures, c'est tout l'inverse. La logique du voyage commence là : choisir les bonnes heures pour les bons quartiers.",
+          "Rio change deux fois par jour. Le matin, les plages se remplissent par couches sociales : une famille à six heures, un coureur à sept, l'enseignant à huit. Le soir, après dix-sept heures, c'est tout l'inverse. La logique du voyage commence là : choisir les bonnes heures pour les bons quartiers.",
         role: "Travel Designer · Brésil", // TODO: verify
       },
       features: defaultSpotlightFeatures,
@@ -64,11 +64,11 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une ville qui change deux fois par jour",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Rio de Janeiro ne commence pas par un programme. Il commence par une lecture des heures. Six heures du matin, une famille pose ses serviettes sur le sable de Copacabana. Sept heures, un coureur prend la mesure du Pain de Sucre depuis la promenade. Dix-sept heures, la lumière passe au-dessus du Corcovado et la ville bascule. Apprendre ces heures, c'est déjà la moitié du voyage.",
         "L'itinéraire se construit par quartiers, pas par checklists. Une matinée à Santa Teresa entre les tramways jaunes et les ateliers d'artisans, un déjeuner au comptoir d'Ipanema, une visite à l'aube du Corcovado par le sentier de Paineiras, un atelier de samba à la Mangueira. Chaque quartier garde sa langue, son rythme, sa cuisine. Nous écrivons cette logique en collaboration avec les Brésiliens qui la vivent.",
-        "« Carioca » n'est pas un adjectif facile. C'est un état d'attention au temps qui change, à la lumière qui tourne, au rythme qui ne se force pas. Rio, c'est la ville où l'océan s'arrête au pied de la forêt — et où la forêt redescend dans la ville.",
+        "« Carioca » n'est pas un adjectif facile. C'est un état d'attention au temps qui change, à la lumière qui tourne, au rythme qui ne se force pas. Rio, c'est la ville où l'océan s'arrête au pied de la forêt, et où la forêt redescend dans la ville.",
       ],
     },
 
@@ -88,7 +88,7 @@ export const destination: Destination = {
       theme: "light",
       paragraphs: [
         "Le sentier de Paineiras part à six heures du matin. Quarante minutes de marche dans la forêt de Tijuca avant que le sommet ne soit ouvert au public. Les singes capucins traversent au-dessus du chemin, on les entend avant de les voir. Le guide marche en tête. Pas de carte, pas de balisage : il connaît le sentier depuis vingt ans.",
-        "À sept heures, on arrive sous la statue du Christ Rédempteur. Personne. Le brouillard se déchire sous les pieds, et la baie de Guanabara apparaît par fragments — Pain de Sucre, baie de Botafogo, Niterói en arrière-plan. La ville s'étend entre les sept montagnes. C'est cette heure-là, et seulement cette heure-là, qu'on voit Rio en entier.",
+        "À sept heures, on arrive sous la statue du Christ Rédempteur. Personne. Le brouillard se déchire sous les pieds, et la baie de Guanabara apparaît par fragments : Pain de Sucre, baie de Botafogo, Niterói en arrière-plan. La ville s'étend entre les sept montagnes. C'est cette heure-là, et seulement cette heure-là, qu'on voit Rio en entier.",
       ],
       images: [
         {
@@ -119,7 +119,7 @@ export const destination: Destination = {
         heading: "Deux heures avec un percussionniste de la Mangueira",
         columns: [
           "L'école de Mangueira est l'une des plus anciennes de Rio. Fondée en 1928 dans le quartier ouvrier qui a donné son nom à la samba moderne, elle reste un cœur vivant : répétitions hebdomadaires, défilé du carnaval, école de musique pour les enfants du quartier. L'atelier privé se tient le mardi ou le jeudi, dans la quadra (la salle de répétition).",
-          "Notre percussionniste y est résident depuis vingt ans. Il enseigne le surdo, le tamborim, le pandeiro — un par participant. La séance dure deux heures. Le rythme s'apprend par le corps, pas par la partition. À la fin, on joue ensemble une samba simple. C'est ce moment-là qu'on signe, parce qu'on ne le voit pas autrement.",
+          "Notre percussionniste y est résident depuis vingt ans. Il enseigne le surdo, le tamborim, le pandeiro, un par participant. La séance dure deux heures. Le rythme s'apprend par le corps, pas par la partition. À la fin, on joue ensemble une samba simple. C'est ce moment-là qu'on signe, parce qu'on ne le voit pas autrement.",
         ],
       },
     },
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Ce qu'il faut savoir avant de partir à Rio",
       description:
         "Vol, monnaie, langue, sécurité, période : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -212,7 +212,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Rio de Janeiro. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           ...defaultBento.cards[0],
@@ -259,7 +259,7 @@ export const destination: Destination = {
       heading: "Six quartiers, et ce qu'il y a derrière",
       description:
         "Copacabana, Ipanema, Santa Teresa, Lapa, Centro, Jardim Botânico : chaque quartier tient sa promesse. Voici ceux autour desquels s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 11,
       places: [
         {
@@ -332,7 +332,7 @@ export const destination: Destination = {
       heading: "L'envers de Rio",
       description:
         "Huit observations de terrain qui ne se trouvent pas dans un guide. Pour décider d'une étape, ou comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le coucher du soleil à Ipanema, debout",
@@ -398,7 +398,7 @@ export const destination: Destination = {
           cardEyebrow: "Cuisine",
           modalEyebrow: "Ce que les guides ne disent pas",
           shortDescription:
-            "Citron vert pilé avec la peau, sucre de canne brut, cachaça artisanale, glace concassée — l'ordre compte",
+            "Citron vert pilé avec la peau, sucre de canne brut, cachaça artisanale, glace concassée, l'ordre compte",
           content: (
             <div className="flex flex-col gap-4">
               <p>
@@ -428,7 +428,7 @@ export const destination: Destination = {
           cardEyebrow: "Transport",
           modalEyebrow: "Ce que les guides ne disent pas",
           shortDescription:
-            "Le tramway jaune de Santa Teresa restauré en 2015 — patrimoine vivant, vingt-cinq minutes pour traverser le quartier",
+            "Le tramway jaune de Santa Teresa restauré en 2015 : patrimoine vivant, vingt-cinq minutes pour traverser le quartier",
           content: (
             <div className="flex flex-col gap-4">
               <p>
@@ -579,7 +579,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Mail01 as Mail, MarkerPin01 as MapPin, Phone } from "@untitledui/icons";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import {
   LegalPage,
   LegalSection,
@@ -63,12 +66,26 @@ export default function ContactPage() {
         <p>{EXUMA_HOURS}</p>
       </LegalSection>
 
-      <LegalSection heading="Construire votre voyage">
+      <LegalSection heading="Nous écrire">
         <p>
-          Pour entamer la préparation d'un voyage sur mesure, le plus simple
-          est de nous appeler ou de nous écrire. Un travel designer vous
-          recontacte dans la journée pour cadrer votre projet.
+          Si vous préférez l&apos;écrit, trois questions suffisent : ce que vous
+          avez en tête, comment vous nous avez connus, et comment vous joindre.
+          Un interlocuteur vous répond dans les 24 heures ouvrées.
         </p>
+        <div className="mt-5 flex flex-wrap gap-3">
+          <Link
+            href="/nous-ecrire"
+            className={cn(buttonVariants({ variant: "default" }))}
+          >
+            Nous écrire
+          </Link>
+          <Link
+            href="/votre-projet"
+            className={cn(buttonVariants({ variant: "secondary" }))}
+          >
+            Créer votre voyage
+          </Link>
+        </div>
       </LegalSection>
     </LegalPage>
   );

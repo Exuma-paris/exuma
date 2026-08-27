@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Le désert d'Arabie, à l'heure douce de l'hiver",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Émirats arabes unis commence vraiment à Liwa, cette oasis de palmiers posée à la lisière du Rub al-Khali. La route s'arrête, le sable prend le relais et le silence s'installe. Les Bédouins appellent cette immensité le Quart Vide, et le nom dit bien ce que l'on y trouve. On s'y sent minuscule, et c'est un plaisir.",
         "Le reste du voyage se construit autour de ce contraste. Abu Dhabi retient pour son Louvre signé Jean Nouvel et pour la mosquée Cheikh Zayed, dont le marbre blanc rosit à la tombée du jour. Sharjah a gardé ses souks et ses maisons de marchands de perles, et l'on s'y promène le soir dans une ville qui prend son temps. Le désert vient ensuite, dans la réserve protégée voisine de Dubaï ou plus au sud dans les grandes dunes. C'est ce pays-là que nous montrons.",
@@ -161,7 +161,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage aux Émirats arabes unis",
       description:
         "Temps de vol, décalage, monnaie, formalités et meilleure saison : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -220,7 +220,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Émirats. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -245,7 +245,7 @@ export const destination: Destination = {
       heading: "Les lieux que nous aimons faire découvrir",
       description:
         "Abu Dhabi, Liwa, Sharjah, la réserve de Dubaï, le Jebel Jais et la crique de Dubaï. Chacune de ces étapes a son caractère, et c'est autour d'elles que s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -318,7 +318,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage aux Émirats",
       description:
         "Quelques observations de terrain qui aident à choisir une étape, ou à comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le désert à la saison douce",
@@ -527,7 +527,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

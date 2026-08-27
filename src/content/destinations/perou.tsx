@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Pérou",
       heading: "Le Pérou, un voyage entre les hauteurs",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Pérou se lit en altitude avant de se lire en kilomètres. Lima au niveau de la mer, Cusco à 3 400 mètres, le col d'Abra Málaga à plus de 4 300 mètres avant la descente vers la jungle : chaque étape change l'air qu'on respire, et ce que le corps ressent le lendemain matin.",
         "La logique d'un itinéraire péruvien se construit à l'envers d'un guide classique. Deux jours à Cusco avant toute chose, pour que le corps s'habitue. La Vallée Sacrée ensuite : Ollantaytambo, les terrasses circulaires de Moray, les salines de Maras qui blanchissent au soleil depuis le XVe siècle. Le train, Vistadome ou Hiram Bingham, remonte la vallée jusqu'à Aguas Calientes. Le Machu Picchu se découvre au matin, avant que les premiers cars n'arrivent de la vallée.",
@@ -164,7 +164,7 @@ export const destination: Destination = {
       heading: "Ce qu'il faut savoir avant de partir au Pérou",
       description:
         "Monnaie, formalités, vaccin, temps de vol, décalage et meilleure saison : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -223,7 +223,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Pérou. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Six lieux, et ce qu'il y a derrière",
       description:
         "Cusco, le Machu Picchu, la Vallée Sacrée, le lac Titicaca, l'Amazonie et Lima : chaque étape répond à une raison précise dans un itinéraire péruvien.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -319,7 +319,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Pérou",
       description:
         "Huit repères de terrain pour préparer un séjour entre Andes, Amazonie et Pacifique sans mauvaise surprise.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -523,7 +523,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

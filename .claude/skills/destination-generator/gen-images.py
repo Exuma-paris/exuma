@@ -16,13 +16,14 @@ composition correction beyond the color grade (requires `--only`, and always
 overwrites that output). With no instruction the run is a pure preserve+grade.
 
 `--root` selects the entity family the slug belongs to. Default is `destination`.
-Supported values: `destination`, `experience`, `accommodation`, `service`. The flag drives
+Supported values: `destination`, `experience`, `accommodation`, `service`, `theme`. The flag drives
 both the input and output paths:
 
     --root destination   →  references/destination/<slug>/  →  public/destination/<slug>/
     --root experience    →  references/experience/<slug>/   →  public/experience/<slug>/
     --root accommodation →  references/accommodation/<slug>/→  public/accommodation/<slug>/
     --root service       →  references/service/<slug>/      →  public/service/<slug>/
+    --root theme         →  references/theme/<slug>/        →  public/theme/<slug>/
 
 For each reference at <ref-dir>/<name>-ref.<ext>, sends the reference + the
 shared "preserve + grade" prompt to Gemini 3 Pro Image (Nano Banana Pro), and
@@ -70,13 +71,14 @@ ASPECT_RATIO = "16:9"
 # Downscaling the 4K render to 2560px keeps the stored master at the ~7 MB of the
 # existing pages while staying visibly sharper than a native-2K render.
 STORE_WIDTH = 2560
-ALLOWED_ROOTS = ("destination", "experience", "accommodation", "service")
+ALLOWED_ROOTS = ("destination", "experience", "accommodation", "service", "theme")
 
 EXUMA_STYLE = """Apply this Exuma photographic style:
 - Quiet luxury, non-ostentatious elegance, timeless atmosphere; mood of nostalgia, silence and calm
-- Low contrast, warm whites (never pure white), soft shadows
+- Gentle, low contrast, but with rich depth: keep shadows dense and midtones full. Do NOT wash out, fade, bleach or lift the image. No milky, hazy or pastel look. Overall exposure sits on the deeper, denser side rather than bright and airy
+- Warm whites (never pure white), soft but clearly readable shadows, blacks that stay black
 - Subtle film grain, 35mm analog texture, soft depth of field
-- Color palette pulled toward sand, beige, ochre tones, olive green, very desaturated blue, warm skin tones
+- Color palette pulled toward sand, beige, ochre tones, olive green, deep desaturated blue, warm skin tones. Hues stay muted, but the colours remain saturated and dense, never pale
 - Editorial photography finishing, refined framing"""
 
 GRADE_ONLY_PROMPT = f"""Apply the visual style described below to this reference photograph as a color grade and post-processing treatment ONLY.
@@ -224,7 +226,7 @@ def enforce_16x9(image_bytes: bytes) -> bytes:
 
 
 USAGE = (
-    "usage: gen-images.py [--root destination|experience|accommodation|service] "
+    "usage: gen-images.py [--root destination|experience|accommodation] "
     "[--only <name>] [--instruction <text>] [--inspire] [--caption <text>] "
     "<slug> [--force]"
 )

@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Chili",
       heading: "Un pays qui se lit du nord au sud",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Chili commence presque toujours par le nord. À San Pedro de Atacama, il ne pleut certaines années pas une goutte, et le sol garde la mémoire de chaque pas. On part avant l'aube vers les geysers du Tatio, à 4 300 mètres, où l'eau sort de terre dans un froid sec. Le soir, les lagunes de l'altiplano se couvrent de flamants roses.",
         "Plus bas, Santiago tient entre la cordillère et la côte, et Valparaíso empile ses maisons de tôle peinte sur quarante-deux collines reliées par des funiculaires. À une heure de route, la vallée de Colchagua aligne ses carménères, ce cépage bordelais que le phylloxéra avait effacé d'Europe et que le Chili a conservé sans le savoir pendant plus d'un siècle. On y déjeune chez les vignerons, entre les rangs.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Chili",
       description:
         "Vol, formalités, saisons et distances : l'essentiel pour préparer votre voyage au Chili en toute tranquillité.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -223,7 +223,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Chili. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Six étapes, du désert d'Atacama au massif du Paine",
       description:
         "Quatre mille kilomètres du nord au sud, que les vols intérieurs relient sans transformer le voyage en course.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
         {
@@ -325,7 +325,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Chili",
       description:
         "Huit conseils de terrain, pour choisir la bonne saison, absorber les distances et comprendre pourquoi nous inscrivons telle étape à votre itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Quand partir",
@@ -542,7 +542,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

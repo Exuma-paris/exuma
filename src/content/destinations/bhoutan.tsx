@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Bhoutan",
       heading: "Un royaume bouddhiste où le temps ralentit",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Bhoutan commence toujours par une vallée. Celle de Paro accueille les arrivées, entre ses champs de riz rouge et ses maisons aux fenêtres peintes. La brume ne quitte les versants qu'en milieu de matinée, et l'on part vers le monastère du Nid du Tigre pendant que l'air est encore frais. Rien ne presse ici, et c'est déjà une bonne raison de venir.",
         "La route continue vers Thimphu, où l'on croise des moines devant les cafés et un agent en gants blancs qui règle la circulation à la main. À l'école des treize arts, les élèves apprennent encore la peinture de thangka, la broderie et la sculpture sur bois comme on l'enseignait à leurs grands-parents. On y passe une matinée entière sans s'en apercevoir.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Bhoutan",
       description:
         "Vol, formalités, saisons et altitude : l'essentiel pour préparer votre voyage au Bhoutan en toute tranquillité.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Bhoutan. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "D'une vallée à l'autre, du dzong de Punakha aux grues de Phobjikha",
       description:
         "Six étapes que la route relie sans jamais donner l'impression de courir, avec le temps de s'arrêter dans les monastères et les fermes.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 8,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Bhoutan",
       description:
         "Huit conseils de terrain, pour choisir la bonne saison, arriver reposé et comprendre pourquoi nous inscrivons telle étape à votre itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Quand partir",
@@ -547,7 +547,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -30,15 +30,15 @@ export const destination: Destination = {
         "En Islande, la terre est encore en activité. Dans une grande partie du pays, l'eau qui sort du sol est naturellement chaude et sert à chauffer les maisons. Sur la côte sud, le sable des plages est noir. Il vient de la lave, broyée par la mer. En juin, il ne fait jamais complètement nuit.",
       images: [
         {
-          src: "/destination/islande/hero-1.png",
+          src: "/destination/islande/hero-1.webp",
           alt: "Plage de sable noir et blocs de glace échoués sur la côte sud de l'Islande",
         },
         {
-          src: "/destination/islande/hero-2.png",
+          src: "/destination/islande/hero-2.webp",
           alt: "Langue glaciaire descendant du Vatnajökull vers la plaine",
         },
         {
-          src: "/destination/islande/hero-3.png",
+          src: "/destination/islande/hero-3.webp",
           alt: "Maison isolée au pied d'un volcan couvert de neige",
         },
       ],
@@ -83,7 +83,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une seule route fait le tour de l'île",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Islande commence par le choix d'un rythme. Une seule grande route fait le tour complet de l'île, la route 1. On peut la suivre entièrement, ou n'en parcourir qu'une portion et rester plusieurs nuits au même endroit. Nos itinéraires se concentrent presque toujours sur la côte sud. C'est la partie du pays où les glaciers, les cascades et les plages noires se succèdent le long de la même route.",
         "Sur cette côte, on roule avec la mer d'un côté et les glaciers de l'autre. Le plus grand d'entre eux s'appelle le Vatnajökull. C'est le glacier le plus volumineux d'Europe. Plusieurs langues de glace en descendent jusqu'à la plaine. Au bout de l'une d'elles s'est formé un lac, le Jökulsárlón. Des blocs de glace s'en détachent et flottent parfois plusieurs saisons avant de rejoindre la mer. La marée en ramène une partie sur la plage voisine, où ils restent posés sur le sable noir jusqu'à fondre.",
@@ -94,8 +94,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/islande/full-image.png",
-        alt: "Cascade et plaine volcanique sous une lumière basse, côte sud de l'Islande",
+        src: "/destination/islande/full-image.webp",
+        alt: "Grande cascade tombant d'une falaise couverte de mousse, côte sud de l'Islande",
       },
       height: 600,
     },
@@ -111,11 +111,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/islande/split-1.png",
+          src: "/destination/islande/split-1.webp",
           alt: "Ferme islandaise au pied du volcan Eyjafjallajökull couvert de neige",
         },
         {
-          src: "/destination/islande/split-2.png",
+          src: "/destination/islande/split-2.webp",
           alt: "Maisons de Heimaey devant le cône volcanique de l'Eldfell",
         },
       ],
@@ -125,11 +125,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/islande/xp-motoneige-glacier-1.png",
+          src: "/destination/islande/xp-motoneige-glacier-1.webp",
           alt: "Motoneiges sur la calotte glaciaire du Mýrdalsjökull en Islande",
         },
         right: {
-          src: "/destination/islande/xp-motoneige-glacier-2.png",
+          src: "/destination/islande/xp-motoneige-glacier-2.webp",
           alt: "Intérieur d'une grotte de glace bleue striée de cendre volcanique",
         },
       },
@@ -176,7 +176,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Islande",
       description:
         "Temps de vol, formalités, monnaie, saisons et météo : l'essentiel pour choisir vos dates avant de choisir votre itinéraire.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -235,14 +235,14 @@ export const destination: Destination = {
       heading: "Voyage sur mesure en Islande",
       description:
         "Plusieurs expertises interviennent sur chaque dossier islandais. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'à votre retour.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Création d'itinéraires",
           description:
             "Faire le tour de l'île ou rester sur la côte sud. Nous décidons de ce que l'on garde, de ce que l'on abandonne, et du nombre de nuits par étape.",
           image: {
-            src: "/destination/islande/bento-map.png",
+            src: "/destination/islande/bento-map.webp",
             alt: "Carte d'itinéraire le long de la côte sud de l'Islande",
           },
           tone: "dark",
@@ -252,7 +252,7 @@ export const destination: Destination = {
           description:
             "Tables de ferme sous l'Eyjafjallajökull, bains géothermiques sans panneau au bord de la route, dîners servis dans une grotte. Ces adresses ne se réservent pas en ligne.",
           image: {
-            src: "/destination/islande/bento-adresses.png",
+            src: "/destination/islande/bento-adresses.webp",
             alt: "Table dressée dans une ferme islandaise face à la plaine",
           },
         },
@@ -261,7 +261,7 @@ export const destination: Destination = {
           description:
             "Fermes équestres et maisons de campagne, choisies pour leur emplacement sur la route et pour la distance qui les sépare du premier lampadaire.",
           image: {
-            src: "/destination/islande/bento-hebergements.png",
+            src: "/destination/islande/bento-hebergements.webp",
             alt: "Chambre vitrée ouverte sur un champ de lave et un glacier",
           },
         },
@@ -270,7 +270,7 @@ export const destination: Destination = {
           description:
             "Un seul interlocuteur du premier échange jusqu'au retour. Si le ciel se dégage à minuit, on vous prévient pour les aurores. Si la mer est belle plus tôt que prévu, on avance la sortie en bateau.",
           image: {
-            src: "/destination/islande/bento-conciergerie.png",
+            src: "/destination/islande/bento-conciergerie.webp",
             alt: "Conseillère Exuma en conversation téléphonique avec un voyageur",
           },
         },
@@ -279,7 +279,7 @@ export const destination: Destination = {
           description:
             "Motoneige sur la calotte glaciaire, grotte de glace avec un guide, kayak entre les blocs de glace de Thorsmörk. Chaque sortie se réserve en direct et en petit groupe.",
           image: {
-            src: "/destination/islande/bento-experiences.png",
+            src: "/destination/islande/bento-experiences.webp",
             alt: "Kayak passant entre des blocs de glace dans la vallée de Thorsmörk",
           },
         },
@@ -293,7 +293,7 @@ export const destination: Destination = {
       heading: "Six lieux autour desquels s'organisent nos itinéraires",
       description:
         "Tous se trouvent sur la côte sud ou juste au large. La plupart de nos voyages se construisent en deux bases, l'une autour de Hvolsvöllur, l'autre au pied du Vatnajökull.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -301,7 +301,7 @@ export const destination: Destination = {
           description:
             "Cette cascade tombe d'une ancienne falaise marine, aujourd'hui située à plusieurs kilomètres de la mer. Un sentier passe derrière le rideau d'eau, ce qui est rare en Islande. On la voit alors de l'intérieur, en contre-jour. On en ressort trempé et ravi.",
           image: {
-            src: "/destination/islande/map-seljalandsfoss.png",
+            src: "/destination/islande/map-seljalandsfoss.webp",
             alt: "Cascade de Seljalandsfoss et sentier passant derrière le rideau d'eau",
           },
           coordinates: { lat: 63.6156, lng: -19.9886 },
@@ -311,7 +311,7 @@ export const destination: Destination = {
           description:
             "Cette vallée est encerclée par trois glaciers. On y entre en véhicule surélevé, en traversant la rivière Krossá à gué, ce qui fait déjà partie du plaisir. Peu de monde y accède, et l'on y marche entre bouleaux nains et gorges de roche noire.",
           image: {
-            src: "/destination/islande/map-thorsmork.png",
+            src: "/destination/islande/map-thorsmork.webp",
             alt: "Vallée de Thorsmörk entourée de glaciers en Islande",
           },
           coordinates: { lat: 63.6864, lng: -19.5069 }, // Langidalur, coeur de la vallée
@@ -321,7 +321,7 @@ export const destination: Destination = {
           description:
             "Le village de Vík est le plus au sud du pays. Sa plage est faite de sable noir et bordée de colonnes de basalte à section hexagonale, comme un orgue posé au bord de l'eau. Depuis le promontoire, on voit arriver les vagues de l'Atlantique de très loin.",
           image: {
-            src: "/destination/islande/map-vik.png",
+            src: "/destination/islande/map-vik.webp",
             alt: "Colonnes de basalte et sable noir de la plage de Reynisfjara à Vík",
           },
           coordinates: { lat: 63.4054, lng: -19.0448 },
@@ -331,7 +331,7 @@ export const destination: Destination = {
           description:
             "Cette ancienne réserve est aujourd'hui rattachée au parc national du Vatnajökull. C'est le point de départ des marches sur glacier. Vingt minutes de marche facile depuis le parking mènent au pied du Skaftafellsjökull.",
           image: {
-            src: "/destination/islande/map-skaftafell.png",
+            src: "/destination/islande/map-skaftafell.webp",
             alt: "Langue glaciaire du Vatnajökull vue depuis Skaftafell",
           },
           coordinates: { lat: 64.0166, lng: -16.9666 },
@@ -341,7 +341,7 @@ export const destination: Destination = {
           description:
             "Ce lac n'existait pas il y a un siècle. Il s'est formé à mesure que le glacier reculait, et il grandit encore. Les blocs qui s'en détachent passent sous le pont de la route 1 avant de rejoindre la mer.",
           image: {
-            src: "/destination/islande/map-jokulsarlon.png",
+            src: "/destination/islande/map-jokulsarlon.webp",
             alt: "Blocs de glace flottant sur le lagon de Jökulsárlón en Islande",
           },
           coordinates: { lat: 64.0784, lng: -16.2306 },
@@ -351,8 +351,8 @@ export const destination: Destination = {
           description:
             "L'île se rejoint par un ferry depuis Landeyjahöfn. Le volcan Eldfell y est sorti de terre en 1973, à la sortie du village. Ses pentes accueillent aujourd'hui l'une des plus grandes colonies de macareux du monde.",
           image: {
-            src: "/destination/islande/map-heimaey.png",
-            alt: "Port de Heimaey et volcan Eldfell dans les îles Vestmann",
+            src: "/destination/islande/map-heimaey.webp",
+            alt: "Falaises et sommet vert de Heimaey vus depuis la mer, îles Vestmann",
           },
           coordinates: { lat: 63.4427, lng: -20.2734 },
         },
@@ -366,7 +366,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Islande",
       description:
         "Huit observations de terrain qui expliquent pourquoi nous plaçons une étape à une date plutôt qu'à une autre.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -602,14 +602,14 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
           quote:
             "Nous avons marché sur un glacier le matin et nous étions dans une source chaude à seize heures, en plein champ de lave. Je n'avais jamais fait deux choses aussi différentes dans la même journée.",
           image: {
-            src: "/destination/islande/hero-1.png",
+            src: "/destination/islande/hero-1.webp",
             alt: "Portrait de Vincent", // TODO: verify
           },
           name: "Vincent", // TODO: verify
@@ -620,7 +620,7 @@ export const destination: Destination = {
           quote:
             "Nous voulions changer d'hôtel tous les soirs pour tout voir. On nous a conseillé l'inverse, trois nuits au même endroit. C'est la seule raison pour laquelle nous avons fini par voir les aurores.",
           image: {
-            src: "/destination/islande/hero-2.png",
+            src: "/destination/islande/hero-2.webp",
             alt: "Portrait de Claire", // TODO: verify
           },
           name: "Claire", // TODO: verify
@@ -631,7 +631,7 @@ export const destination: Destination = {
           quote:
             "Dans la grotte, la glace est bleue et traversée de bandes noires. Le guide nous a expliqué que chaque bande correspondait à une éruption, et il savait les dater. Je ne m'attendais pas à apprendre quoi que ce soit ce jour-là.",
           image: {
-            src: "/destination/islande/hero-3.png",
+            src: "/destination/islande/hero-3.webp",
             alt: "Portrait de Marc", // TODO: verify
           },
           name: "Marc", // TODO: verify

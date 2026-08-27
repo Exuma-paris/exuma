@@ -7,6 +7,7 @@ export type Cta = { label: string; href: string };
 export type IconName =
   | "plane"
   | "clock"
+  | "phone"
   | "euro"
   | "fileText"
   | "syringe"

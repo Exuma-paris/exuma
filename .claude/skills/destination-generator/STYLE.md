@@ -165,7 +165,7 @@ Each `<h2>` must be unique on the page. The canonical section list already produ
 - **`bento.cards[].description`** — concrete, almost a tagline.
 - **`placesMap.places[].description`** — open on a fact about the place; close on what makes it different.
 - **`tips.items[].shortDescription`** — no period at end is fine.
-- **`testimonials.testimonials[].quote`** — first-person voice (the traveller). Real-customer texture: small details, slightly imperfect rhythm. **Always flag with `// TODO: replace with real testimonial`.**
+- **`testimonials.testimonials[].quote`** — ne se rédige pas. Le verbatim est repris mot pour mot d'un retour client réel fourni par l'agence, signé par un prénom suivi de l'initiale du nom. En l'absence de verbatim, la section est omise, jamais comblée.
 - **`faq.items[].answer`** — direct, factual, no sensory copy. The only place "vous" is fully natural.
 
 ---
@@ -191,8 +191,8 @@ Each `<h2>` must be unique on the page. The canonical section list already produ
 ## CTAs (project-wide)
 
 Two canonical CTAs, used everywhere:
-- "Construire ce voyage" → `/reserver`  *(preferred for Polynésie/v8-style pages)*
-- "Créer votre voyage" → `/reserver`  *(historical, still in use)*
+- "Construire ce voyage" → `/votre-projet`  *(preferred for Polynésie/v8-style pages)*
+- "Créer votre voyage" → `/votre-projet`  *(historical, still in use)*
 - "Contactez-nous" → `/contact`
 
 Plus the local link CTAs: "Découvrir", "Voir tout {region}". No exclamation marks. No "→" in the label string (the component adds it).
@@ -212,7 +212,7 @@ Plus the local link CTAs: "Découvrir", "Voir tout {region}". No exclamation mar
 
 ## Placeholder discipline
 
-When a fact is invented (flight time, coordinates, hotel name, testimonial quote, country/continent assignment in ambiguous cases), flag with `// TODO: verify` on the same line. For testimonials specifically: every quote, name, and role gets `// TODO: replace with real testimonial` — testimonials are real-customer content and must never be silently invented.
+When a fact is invented (flight time, coordinates, hotel name, country/continent assignment in ambiguous cases), flag with `// TODO: verify` on the same line. Customer testimonials are the one thing that is never invented, flagged or not: a fabricated review is a deceptive commercial practice (article L121-2 du Code de la consommation), and the flags have repeatedly shipped to production unnoticed. Ask for real verbatims, or omit the section.
 
 ---
 

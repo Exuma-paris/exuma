@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "L'Espagne, la douceur de vivre à l'ombre des patios",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Espagne commence souvent à Grenade, dans les jardins de l'Alhambra. Les Nasrides ont bâti ce palais autour de l'eau, qui court d'un bassin à l'autre et rafraîchit les cours avant même que l'on y entre. On s'y attarde bien plus longtemps que prévu, simplement pour écouter.",
         "Le pays se déguste ensuite du sud au nord. L'Andalousie se visite le matin puis se vit à l'ombre, entre les patios fleuris de Cordoue et les ruelles de Séville. Le Pays basque se raconte autour d'une table, à Saint-Sébastien où l'on passe d'un comptoir à l'autre, et à Getaria où le poisson cuit doucement sur la braise. La Castille garde ses vignes et ses caves sous les villages de la Ribera del Duero. Puis vient une île, pour finir les pieds dans l'eau.",
@@ -161,7 +161,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Espagne",
       description:
         "Temps de vol, décalage, monnaie, formalités et meilleure saison : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -220,7 +220,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Espagne. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -245,7 +245,7 @@ export const destination: Destination = {
       heading: "De Grenade à Majorque, les étapes qui marquent le voyage",
       description:
         "Grenade, Séville, Madrid, Saint-Sébastien, la Serra de Tramuntana et la Ribera del Duero. Voici les lieux autour desquels s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -318,7 +318,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Espagne",
       description:
         "Huit observations de terrain qui ne se trouvent pas dans un guide, pour choisir vos étapes et comprendre pourquoi nous les inscrivons à votre itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Prenez l'heure espagnole",
@@ -519,7 +519,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

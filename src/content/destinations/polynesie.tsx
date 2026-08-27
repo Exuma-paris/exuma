@@ -180,7 +180,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Un archipel, pas une destination",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "À Fakarava, le fond du lagon est visible à quarante mètres de profondeur. On voit son ombre sur le sable avant même d'avoir sauté du bateau. Cette clarté n'est pas un détail de brochure. C'est la mesure de ce que la Polynésie française a encore préservé, et de ce que le reste du monde a, depuis longtemps, perdu de vue.",
         "Un voyage en Polynésie française se construit autour d'une logique de déplacement entre les îles. La semaine à Moorea avant les Tuamotu. Le passage par Raiatea pour le marae de Taputapuatea, classé au patrimoine mondial de l'UNESCO. Les deux nuits sur Tetiaroa en ouverture ou en clôture, quand on a besoin que rien ne presse. Nous construisons cette cohérence depuis plus de dix ans. Chaque déplacement a une raison. Cette raison change la qualité de ce qu'on ressent en arrivant.",
@@ -272,7 +272,7 @@ export const destination: Destination = {
       heading: "Ce qu'il faut savoir avant de partir en Polynésie",
       description:
         "Monnaie, formalités, escale, temps de vol, décalage et meilleure saison : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "euro",
@@ -319,7 +319,7 @@ export const destination: Destination = {
       heading: "Notre rôle dans ce voyage",
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Polynésie. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Connaissance des archipels",
@@ -377,7 +377,7 @@ export const destination: Destination = {
       heading: "Quatre lieux, et ce qu'il y a derrière",
       description:
         "Tetiaroa, Moorea, Bora Bora, Raiatea : chaque île tient une promesse distincte. Voici celles autour desquelles s'organisent la plupart de nos itinéraires, plus deux îles que peu de voyageurs traversent.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -450,7 +450,7 @@ export const destination: Destination = {
       heading: "L'envers des îles",
       description:
         "Quatre observations de terrain qui ne se trouvent pas dans un guide. Pour décider d'une étape, ou comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Maupiti, le lagon sans les hôtels",
@@ -564,7 +564,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte des Bahamas",
       heading: "On ne visite pas les Bahamas, on en choisit trois",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Bahamas commence par une carte marine plutôt que par une liste. L'archipel s'étire sur mille kilomètres, de Grand Bahama au nord jusqu'à Inagua au sud-est, et rien ne se relie par la route. On retient trois îles, quatre au plus, et le petit avion fait le reste.",
         "Harbour Island tient dans cinq kilomètres de sable rose et deux rues de maisons coloniales. À Dunmore Town, on circule en voiturette de golf, on dîne chez des gens qui vous reconnaissent le deuxième soir, et la plage change de teinte à mesure que le soleil descend.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage aux Bahamas",
       description:
         "Vol, décalage, formalités et saisons : de quoi caler les dates d'un voyage aux Bahamas en toute tranquillité.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Bahamas. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six îles que l'on relie par les airs et par l'eau",
       description:
         "De Nassau aux Abacos, six étapes que le petit avion et le bateau enchaînent dans l'ordre qui vous convient.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage aux Bahamas",
       description:
         "Huit observations de terrain qui ne figurent pas dans un guide : la bonne saison, la façon de passer d'une île à l'autre, et ce qui se règle avant de partir.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "La saison qui rend tout plus facile",
@@ -543,7 +543,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

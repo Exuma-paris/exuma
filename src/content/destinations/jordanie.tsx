@@ -32,15 +32,15 @@ export const destination: Destination = {
         "Le matin, la roche de Pétra passe du brun au rose. Plus au sud, le sable du Wadi Rum garde la chaleur de la veille et les nuits y sont froides. À l'ouest, la mer Morte ne fait aucun bruit. La Jordanie se traverse lentement, même si elle est petite.",
       images: [
         {
-          src: "/destination/jordanie/hero-1.png",
+          src: "/destination/jordanie/hero-1.webp",
           alt: "Façade du Khazneh à Pétra au sortir du Siq lors d'un voyage en Jordanie",
         },
         {
-          src: "/destination/jordanie/hero-2.png",
+          src: "/destination/jordanie/hero-2.webp",
           alt: "Massifs de grès et sable rouge du désert du Wadi Rum en fin de journée",
         },
         {
-          src: "/destination/jordanie/hero-3.png",
+          src: "/destination/jordanie/hero-3.webp",
           alt: "Dépôts de sel et eau immobile sur la rive jordanienne de la mer Morte",
         },
       ],
@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Jordanie",
       heading: "De la pierre, du sable et une mer où l'on flotte",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Jordanie commence presque toujours par Amman. La capitale s'étale sur une série de collines et elle est plus discrète qu'on ne l'imagine. Les maisons sont bâties en calcaire clair, ce qui donne à la ville une teinte uniforme, presque beige. Le théâtre romain et la citadelle tiennent en plein centre, à quelques minutes des cafés de Jabal Amman.",
         "Au sud d'Amman, la route des Rois descend vers Pétra en suivant la ligne des hauts plateaux. C'est l'ancienne voie caravanière. Elle passe par les mosaïques de Madaba, par le mont Nébo qui regarde la vallée du Jourdain, puis par la forteresse croisée de Kerak. L'autoroute du désert va beaucoup plus vite. La route des Rois demande la journée entière, et c'est celle qui a du sens.",
@@ -78,7 +78,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/jordanie/full-image.png",
+        src: "/destination/jordanie/full-image.webp",
         alt: "Massifs de grès du Wadi Rum au coucher du soleil lors d'un voyage en Jordanie",
       },
       height: 600,
@@ -95,11 +95,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/jordanie/split-1.png",
+          src: "/destination/jordanie/split-1.webp",
           alt: "Parois resserrées du Siq de Pétra éclairées par une bande de lumière",
         },
         {
-          src: "/destination/jordanie/split-2.png",
+          src: "/destination/jordanie/split-2.webp",
           alt: "Canaux d'eau nabatéens taillés dans la paroi du Siq à Pétra, Jordanie",
         },
       ],
@@ -109,11 +109,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/jordanie/xp-petra-by-night-1.png",
+          src: "/destination/jordanie/xp-petra-by-night-1.webp",
           alt: "Bougies posées au sol éclairant le Siq de Pétra pendant Petra by Night",
         },
         right: {
-          src: "/destination/jordanie/xp-petra-by-night-2.png",
+          src: "/destination/jordanie/xp-petra-by-night-2.webp",
           alt: "Esplanade du Khazneh à Pétra couverte de bougies à la nuit tombée",
         },
       },
@@ -164,7 +164,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Jordanie",
       description:
         "Vol, décalage, monnaie, formalités et meilleure saison : l'essentiel pour préparer sereinement un séjour sur mesure en Jordanie.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -223,11 +223,11 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Jordanie. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/jordanie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/jordanie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Jordanie entre Amman, Pétra et le Wadi Rum",
             "Adresses confidentielles en Jordanie : maisons de pierre et campements hors piste",
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Du nord romain au golfe d'Aqaba",
       description:
         "Six étapes reliées par une seule route, du nord au sud. Les distances sont courtes, ce qui laisse le temps de s'arrêter.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -254,7 +254,7 @@ export const destination: Destination = {
           description:
             "La ville s'étend sur une série de collines et reste bâtie en calcaire clair. La citadelle et le théâtre romain occupent le centre. En fin de journée, les cafés de Rainbow Street et de Jabal Amman se remplissent.",
           image: {
-            src: "/destination/jordanie/map-amman.png",
+            src: "/destination/jordanie/map-amman.webp",
             alt: "Colonnes du temple d'Hercule sur la citadelle d'Amman au-dessus de la ville, Jordanie",
           },
           // TODO: verify coords
@@ -265,7 +265,7 @@ export const destination: Destination = {
           description:
             "C'est l'une des cités romaines les mieux conservées du Proche-Orient. La grande rue à colonnades traverse tout le site, du forum ovale à l'arc d'Hadrien. On y marche une bonne partie de la matinée sans revenir sur ses pas.",
           image: {
-            src: "/destination/jordanie/map-jerash.png",
+            src: "/destination/jordanie/map-jerash.webp",
             alt: "Rue à colonnades et forum ovale du site romain de Jerash, Jordanie",
           },
           // TODO: verify coords
@@ -276,7 +276,7 @@ export const destination: Destination = {
           description:
             "La rive jordanienne descend en terrasses jusqu'à l'eau. La concentration en sel est telle qu'on flotte sans nager. Sur le bord, le sel forme des croûtes blanches et la boue grise se ramasse à la main.",
           image: {
-            src: "/destination/jordanie/map-mer-morte.png",
+            src: "/destination/jordanie/map-mer-morte.webp",
             alt: "Formations de sel blanc sur la rive jordanienne de la mer Morte au crépuscule",
           },
           // TODO: verify coords
@@ -287,7 +287,7 @@ export const destination: Destination = {
           description:
             "On entre par le Siq, une faille de plus d'un kilomètre, qui débouche sur le Khazneh. Le site continue derrière sur plusieurs vallées : le théâtre, les tombeaux royaux, puis l'escalier qui monte au Monastère.",
           image: {
-            src: "/destination/jordanie/map-petra.png",
+            src: "/destination/jordanie/map-petra.webp",
             alt: "Façade du Monastère taillée dans la falaise sur les hauteurs de Pétra, Jordanie",
           },
           // TODO: verify coords
@@ -298,7 +298,7 @@ export const destination: Destination = {
           description:
             "Des massifs de grès et de granit sortent du sable rouge, séparés par de larges couloirs plats. La zone est protégée et gérée par les Bédouins Zalabieh. Après le coucher du soleil, la température tombe vite.",
           image: {
-            src: "/destination/jordanie/map-wadi-rum.png",
+            src: "/destination/jordanie/map-wadi-rum.webp",
             alt: "Couloir de sable rouge entre deux massifs de grès du Wadi Rum, Jordanie",
           },
           // TODO: verify coords
@@ -309,7 +309,7 @@ export const destination: Destination = {
           description:
             "C'est le seul accès du pays à la mer. Le récif commence à quelques mètres du bord, ce qui est rare. L'eau reste chaude toute l'année et la visibilité est meilleure en automne.",
           image: {
-            src: "/destination/jordanie/map-aqaba.png",
+            src: "/destination/jordanie/map-aqaba.webp",
             alt: "Récif corallien et eau claire du golfe d'Aqaba sur la côte jordanienne",
           },
           // TODO: verify coords
@@ -325,7 +325,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Jordanie",
       description:
         "Neuf observations de terrain qui ne se trouvent pas dans un guide. Pour calibrer les attentes, choisir la bonne fenêtre ou comprendre pourquoi nous inscrivons telle étape à l'itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Pétra demande deux jours",
@@ -600,14 +600,14 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
           quote:
             "J'étais persuadé qu'un jour suffisait pour Pétra et j'avais demandé à raccourcir. On m'a expliqué pourquoi, on a gardé les deux nuits, et le second matin on est arrivés au Monastère par le haut sans croiser personne. C'est ce jour-là que j'ai compris la taille du site.",
           image: {
-            src: "/destination/jordanie/hero-1.png",
+            src: "/destination/jordanie/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -618,7 +618,7 @@ export const destination: Destination = {
           quote:
             "La mer Morte, je la voyais comme une attraction pour photos. On s'est retrouvés seuls sur la rive en fin de journée, avec le sel qui craque sous les pieds et les lumières de l'autre côté de l'eau. On y est restés deux nuits au lieu d'une.",
           image: {
-            src: "/destination/jordanie/hero-2.png",
+            src: "/destination/jordanie/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -629,7 +629,7 @@ export const destination: Destination = {
           quote:
             "Notre chauffeur bédouin du Wadi Rum nous a emmenés chez son frère, à l'écart des campements. Le thé, le pain cuit sur la plaque, et les enfants qui nous montraient où grimper dans le rocher. On est rentrés au campement à la nuit tombée.",
           image: {
-            src: "/destination/jordanie/hero-3.png",
+            src: "/destination/jordanie/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

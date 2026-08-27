@@ -8,6 +8,10 @@ export const theme: Theme = {
   intent:
     "Raconter l'intensité sans glamouriser l'inconfort. Le confort est sous-entendu, jamais décrit. Ce qui compte c'est l'accès. Ton documentaire, pas lyrique.",
   keywords: ["safari", "trek", "aventure", "brousse", "serengeti", "masai mara"],
+  cardImage: {
+    src: "/theme/safaris-aventure/hero-1-1x1.png",
+    alt: "Un véhicule seul arrêté dans la plaine à la première lumière, une girafe traversant la piste",
+  },
   sections: [
     {
       type: "hero",
@@ -16,10 +20,17 @@ export const theme: Theme = {
       description: "L'accès au terrain, pas la mise en scène.",
       images: [
         {
-          src: "/destination/polynesie/hero-1.png",
-          alt: "Safari",
+          src: "/theme/safaris-aventure/hero-1.png",
+          alt: "Un véhicule seul arrêté dans la plaine à la première lumière, une girafe traversant la piste",
         },
       ],
+    },
+    {
+      type: "finalCta",
+      eyebrow: "Aller plus loin",
+      heading: "Dites-nous ce que vous avez en tête",
+      primaryCta: { label: "Créer votre voyage", href: "/votre-projet" },
+      secondaryCta: { label: "Nous écrire", href: "/nous-ecrire" },
     },
   ],
 };

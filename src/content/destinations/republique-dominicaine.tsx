@@ -86,7 +86,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une île, deux mers",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en République dominicaine change de mer sans jamais changer de latitude. Au nord, la péninsule de Samaná regarde l'Atlantique et ses courants agités. Au sud-est, Punta Cana et La Romana bordent la mer des Caraïbes, plus plate, plus chaude. Entre les deux, la cordillère centrale sépare deux climats et deux rythmes de vie.",
         "De janvier à mars, plusieurs milliers de baleines à bosse viennent mettre bas dans la baie de Samaná avant de repartir vers l'Atlantique Nord. Plus à l'est, le parc national Los Haitises ne se traverse qu'en bateau, entre mangroves et grottes aux pictogrammes taïnos. Sur la côte sud-est, les villas de Casa de Campo et de Punta Cana composent un tout autre registre : celui de la propriété privée, du golf et du personnel dédié. Nous construisons l'itinéraire qui fait tenir ces deux versants ensemble.",
@@ -179,7 +179,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en République dominicaine",
       description:
         "Décalage horaire, monnaie, visa, saison : l'essentiel pour construire un itinéraire en République dominicaine sans mauvaise surprise.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -238,7 +238,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier République dominicaine. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -261,7 +261,7 @@ export const destination: Destination = {
       heading: "Six lieux, et ce qu'ils gardent",
       description:
         "Samaná, Punta Cana, Santo Domingo : les grands repères d'un voyage en République dominicaine, complétés de lieux que la plupart des voyageurs traversent sans s'arrêter.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 8,
       places: [
         {
@@ -338,7 +338,7 @@ export const destination: Destination = {
         "Les conseils de nos experts pour votre voyage en République dominicaine",
       description:
         "Huit clés de lecture pour comprendre la République dominicaine autrement. Des repères qui guident nos choix d'étapes et la construction de chaque itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -561,7 +561,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

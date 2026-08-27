@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "La France que l’on découvre en ralentissant",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Les plus beaux moments d’un voyage en France arrivent tôt le matin, quand tout est encore calme. Chambord flotte alors au-dessus de la brume de Sologne, le Mont-Saint-Michel se détache seul sur des sables luisants, et un marché de Provence embaume le melon, la lavande et le basilic.",
         "Les soirs, eux, ne se ressemblent jamais d’une région à l’autre. En Provence, la chaleur du jour s’attarde et les dîners s’étirent jusqu’à la nuit tombée. En Champagne, on descend dans la craie une veste sur les épaules, au mois d’août. Sur le cap Ferrat, la mer devient rose entre les pins et plus personne n’a envie de rentrer.",
@@ -164,7 +164,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en France",
       description:
         "Trajets, saison, climat et formalités : l’essentiel avant de partir.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -223,7 +223,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Un voyage en France tient souvent à trois fois rien : une montgolfière qui décolle avant le jour, une cave que l’on ouvre pour vous seuls, une table de village que l’on ne trouve dans aucun moteur de réservation. Une seule personne réunit tout cela, et elle reste la vôtre jusqu’au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -248,7 +248,7 @@ export const destination: Destination = {
       heading: "Six régions dont on ne revient pas tout à fait le même",
       description:
         "Le Mont-Saint-Michel, Chambord, Reims, le Luberon, le cap Ferrat, Chamonix. Nos itinéraires s’écrivent presque toujours autour de trois d’entre elles.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Ce que l’on aimerait vous dire avant le départ",
       description:
         "Quelques observations rapportées du terrain, à force d’y retourner. De quoi comprendre pourquoi nous plaçons telle étape à telle heure.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Aller moins loin, rester plus longtemps",
@@ -517,7 +517,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l’expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "La Suisse, le grand calme et la lumière des sommets",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Suisse commence souvent sur une route de montagne. Elle s’élève doucement entre les sapins, franchit un col, et redescend dans une vallée où l’on vous répond en italien. Le pays change de langue et de lumière en quelques virages. C’est ce qui le rend si vivant.",
         "Le reste se compose au fil des saisons. L’hiver appartient à l’Oberland bernois et au Valais, quand la neige tient et que le soleil reste haut. L’été ouvre les alpages et les sentiers des Grisons. L’automne dore les forêts de l’Engadine. Et le sud garde sa douceur presque toute l’année. Nous vous disons ce qui se vit le mieux au moment où vous partez.",
@@ -162,7 +162,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Suisse",
       description:
         "Le trajet, la monnaie, les formalités et la meilleure saison. De quoi choisir vos dates l’esprit tranquille.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -221,7 +221,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque voyage en Suisse. Un seul interlocuteur coordonne l’ensemble et reste le vôtre, du premier échange jusqu’au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Les six lieux que nous aimons faire découvrir",
       description:
         "Zermatt, Gstaad, l’Engadine, Lavaux, Lucerne et Ascona. Six lieux, six ambiances, et la plupart de nos voyages en retiennent trois.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -319,7 +319,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Suisse",
       description:
         "Huit choses que l’on apprend en y allant souvent, et qui aident à choisir sa saison, sa vallée et son rythme.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le train, la plus belle façon de circuler",
@@ -510,7 +510,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l’expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

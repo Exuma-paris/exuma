@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "La douceur de vivre au fil des lagons",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Maldives commence par le choix d'un atoll. L'archipel s'étire du nord au sud dans l'océan Indien, et chaque atoll y dessine un anneau de corail autour d'un lagon clair. Les îles se traversent en quelques pas, des cocotiers et une plage qui en fait le tour, et l'eau reste agréable toute l'année. C'est un pays qui se vit au ras de la mer, dans une lumière que rien n'arrête.",
         "Le séjour s'organise ensuite atoll par atoll. On arrive à Malé, puis l'hydravion se pose devant l'île, toujours de jour. Baa abrite la baie de Hanifaru, où les raies manta se rassemblent une partie de l'année sous la protection de la réserve de biosphère. Noonu garde les grands lagons du nord et les adresses les plus discrètes du pays. Plus au sud, Laamu se partage entre un seul hôtel et une équipe de biologistes marins. Chaque étape a sa raison d'être, et c'est elle qui donne au séjour sa couleur.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage aux Maldives",
       description:
         "Temps de vol, décalage, monnaie, formalités et saison : l'essentiel pour caler le séjour avant d'entrer dans le détail des atolls.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,7 +219,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Un voyage aux Maldives se joue sur des détails qu'aucun site de réservation ne montre : le corail qui borde l'île, l'heure du vol en hydravion, le créneau réservé pour Hanifaru. Une seule personne s'en occupe, et elle reste la vôtre jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -244,7 +244,7 @@ export const destination: Destination = {
       heading: "Six atolls, et ce qu'il y a derrière",
       description:
         "Du nord au sud, chaque atoll a sa raison d'être : une baie où passent les raies manta, un lagon bordé de villas, un récif que longent les requins-baleines. Voici ceux autour desquels s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -317,7 +317,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage aux Maldives",
       description:
         "Huit conseils que l'on donne à nos voyageurs avant le départ. De quoi choisir son île en connaissance de cause, et profiter du lagon dès le premier matin.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -508,7 +508,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

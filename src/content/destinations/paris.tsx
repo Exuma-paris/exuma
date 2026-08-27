@@ -80,7 +80,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une ville qui change de visage selon l'heure et la rue",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "À six heures du matin, place de la Concorde, la ville est encore au gris. Pas un car, pas un photographe. Seuls les balayeurs, et la lumière qui n'a pas encore basculé. C'est l'heure que les guides ne mentionnent pas, et c'est celle qui dit le mieux ce qu'est Paris.",
         "Un voyage à Paris se construit autour des heures, plus que des lieux. Le Louvre à dix-neuf heures avec un conservateur, quand les couloirs sont vides. Rungis à quatre heures avec un chef étoilé, dans le tumulte du marché de gros. Le café du Marais à onze heures, dans la pause d'un libraire qui vous ouvre l'arrière-boutique. C'est cette logique de moments que nous travaillons depuis plus de dix ans.",
@@ -172,7 +172,7 @@ export const destination: Destination = {
       heading: "Ce qu'il faut savoir avant de partir à Paris",
       description:
         "L'essentiel à anticiper avant l'arrivée, formalités, transports, et la fenêtre que nous recommandons.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -223,7 +223,7 @@ export const destination: Destination = {
       heading: "Notre rôle dans ce voyage",
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Paris. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Création d'itinéraires",
@@ -281,7 +281,7 @@ export const destination: Destination = {
       heading: "Les Paris à connaître",
       description:
         "Une fois la carte des arrondissements posée, chaque quartier tient une promesse distincte. Voici ceux autour desquels s'organisent la plupart de nos séjours.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 12,
       places: [
         {
@@ -354,7 +354,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Paris",
       description:
         "Quelques repères concrets pour préparer le séjour : ce qu'on emporte, ce qu'on anticipe côté santé, la fenêtre idéale, et comment fonctionne la vie sur place.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -473,7 +473,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -85,7 +85,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une île volcanique dans un anneau de corail",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à l'île Maurice commence par le choix de la côte. L'île mesure environ 67 kilomètres du nord au sud et 46 kilomètres de large. Pourtant, chaque région possède son propre visage. Le nord et le sud n'offrent ni la même mer, ni les mêmes vents, ni la même atmosphère. Le récif corallien protège une grande partie du littoral. Il crée ces lagons aux eaux calmes et tièdes. Au sud, lorsque le récif s'interrompt, l'océan devient plus sauvage.",
         "Le séjour se construit autour de ce découpage. Le nord, autour de Grand Baie et de Pointe aux Canonniers, séduit par son lagon abrité. Il permet aussi de rejoindre facilement le Coin de Mire. À l'ouest, Tamarin offre la lumière du soir et les dauphins au lever du jour. Au sud-ouest, Le Morne Brabant domine le littoral du haut de ses 556 mètres. Classé à l'UNESCO, il porte la mémoire des esclaves et fait face aux vents du large. Puis vient l'intérieur de l'île : Chamarel, ses terres de sept couleurs et sa cascade. Enfin, les gorges de Rivière Noire abritent les derniers paysages forestiers naturels de Maurice. Chaque déplacement révèle une autre facette de l'île.",
@@ -178,7 +178,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à l'île Maurice",
       description:
         "Temps de vol, décalage horaire, monnaie, formalités et meilleure saison : voici l'essentiel pour organiser votre séjour.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -237,7 +237,7 @@ export const destination: Destination = {
       heading: "Voyage sur mesure à l'île Maurice",
       description:
         "Plusieurs expertises interviennent sur chaque projet de voyage. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'à votre retour.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Création d'itinéraires",
@@ -295,7 +295,7 @@ export const destination: Destination = {
       heading: "Six étapes qui structurent l'île",
       description:
         "Le Morne, Chamarel, Grand Baie, Port-Louis, les gorges de Rivière Noire et l'île aux Cerfs. La plupart de nos itinéraires s'organisent autour de ces six lieux.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 10,
       places: [
         {
@@ -368,7 +368,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à l'île Maurice",
       description:
         "Huit observations de terrain que l'on ne trouve pas dans les guides. Elles vous aideront à choisir une étape, ou à comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -582,7 +582,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer votre voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

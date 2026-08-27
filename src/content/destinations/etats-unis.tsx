@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Un pays qui ne se visite pas d'un seul tenant",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux États-Unis commence souvent par le plateau du Colorado, là où l'eau a creusé le grès en canyons profonds. Le matin, on y marche dans un silence que rien ne vient troubler, sinon le vent dans les genévriers. Les Navajos nomment cette terre Dinétah et la parcourent depuis toujours. On prend la mesure du pays ici, avant d'en découvrir les villes.",
         "La suite se dessine selon ce que l'on cherche. Les canyons de l'Utah et les eaux du lac Powell d'abord, puis la côte de Big Sur, où la route suit l'océan entre Carmel et San Simeon. New York arrive en fin de parcours, quand l'envie de ville revient. Le plaisir tient à deux ou trois régions que l'on prend le temps d'habiter, et nous composons ces itinéraires depuis plus de dix ans.",
@@ -162,7 +162,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage aux États-Unis",
       description:
         "Temps de vol, décalage, formalités, saison et climat : l'essentiel pour cadrer le voyage avant d'en dessiner l'itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -222,7 +222,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier américain. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -247,7 +247,7 @@ export const destination: Destination = {
       heading: "Six étapes, et pourquoi elles tiennent ensemble",
       description:
         "Canyon Point, Monument Valley, la rive nord du Grand Canyon, Big Sur, la Napa Valley, l'Upper East Side. Six points autour desquels s'organisent la plupart de nos itinéraires américains.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage aux États-Unis",
       description:
         "Huit observations de terrain qui ne figurent pas dans un guide. Pour arbitrer une étape, ou comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le plaisir de rester un peu",
@@ -535,7 +535,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
