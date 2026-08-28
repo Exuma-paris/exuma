@@ -8,7 +8,7 @@ export const experience: Experience = {
     "Les galeries sont encore vides et les gardiens allument les salles une à une. Un conservateur du musée vous ouvre les portes avant le public, et s'arrête là où il travaille en ce moment. On entend ses pas dans la salle égyptienne.",
   keywords: ["etats-unis", "new york", "metropolitan museum", "musee", "art"],
   heroImage: {
-    src: "/destination/etats-unis/xp-met-avant-ouverture.png",
+    src: "/destination/etats-unis/xp-met-avant-ouverture.webp",
     alt: "Galerie déserte du Metropolitan Museum de New York avant l'ouverture",
   },
   destinationSlugs: ["etats-unis"],

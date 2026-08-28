@@ -33,15 +33,15 @@ export const destination: Destination = {
         "Il y a l'Amérique des canyons et celle des avenues, et le plaisir du voyage tient à passer de l'une à l'autre. Le plateau du Colorado est silencieux au petit matin, les séquoias de Big Sur se devinent dans la brume, et New York rend ensuite le mouvement de la ville. Chaque étape se choisit pour ce qu'elle apporte aux autres.",
       images: [
         {
-          src: "/destination/etats-unis/hero-1.png",
+          src: "/destination/etats-unis/hero-1.webp",
           alt: "Falaises de grès du plateau du Colorado au lever du jour, dans l'Utah, aux États-Unis",
         },
         {
-          src: "/destination/etats-unis/hero-2.png",
+          src: "/destination/etats-unis/hero-2.webp",
           alt: "Route côtière de Big Sur surplombant le Pacifique en Californie",
         },
         {
-          src: "/destination/etats-unis/hero-3.png",
+          src: "/destination/etats-unis/hero-3.webp",
           alt: "Façades de l'Upper East Side bordant Central Park à New York",
         },
       ],
@@ -78,7 +78,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/etats-unis/full-image.png",
+        src: "/destination/etats-unis/full-image.webp",
         alt: "Méandre du Colorado encaissé dans les canyons de l'Utah, aux États-Unis",
       },
       height: 600,
@@ -96,11 +96,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/etats-unis/split-1.png",
+          src: "/destination/etats-unis/split-1.webp",
           alt: "Pont de Bixby Creek sur la route côtière de Big Sur, en Californie",
         },
         {
-          src: "/destination/etats-unis/split-2.png",
+          src: "/destination/etats-unis/split-2.webp",
           alt: "Séquoias dans le brouillard de la vallée de Big Sur",
         },
       ],
@@ -110,11 +110,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/etats-unis/xp-canyon-navajo-1.png",
+          src: "/destination/etats-unis/xp-canyon-navajo-1.webp",
           alt: "Parois de grès orange d'un canyon en fente sur les terres navajo de l'Utah",
         },
         right: {
-          src: "/destination/etats-unis/xp-canyon-navajo-2.png",
+          src: "/destination/etats-unis/xp-canyon-navajo-2.webp",
           alt: "Guide navajo éclairé par la lumière réfléchie dans un canyon étroit",
         },
       },
@@ -228,7 +228,7 @@ export const destination: Destination = {
         image: {
           src: `/destination/etats-unis/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure aux États-Unis",
             "Table dressée dans une salle à manger de l'Upper East Side",
@@ -255,7 +255,7 @@ export const destination: Destination = {
           description:
             "Le plateau du Colorado s'achève ici en larges marches de pierre rouge. Le lac Powell a rempli tout un réseau de canyons, que l'on remonte aujourd'hui en bateau jusqu'à des bras où l'on se retrouve seul. C'est de là que partent les canyons étroits.",
           image: {
-            src: "/destination/etats-unis/map-canyon-point.png",
+            src: "/destination/etats-unis/map-canyon-point.webp",
             alt: "Bras du lac Powell encaissé entre des falaises de grès à Canyon Point",
           },
           coordinates: { lat: 37.0089, lng: -111.53 }, // TODO: verify coords
@@ -265,7 +265,7 @@ export const destination: Destination = {
           description:
             "Des buttes immenses posées sur un désert parfaitement plat, sur les terres de la nation Navajo. John Ford y a tourné ses westerns, et le paysage a gardé cette allure de décor. Au-delà de la piste principale, on circule accompagné d'un guide navajo.",
           image: {
-            src: "/destination/etats-unis/map-monument-valley.png",
+            src: "/destination/etats-unis/map-monument-valley.webp",
             alt: "Buttes de grès de Monument Valley à la tombée du jour",
           },
           coordinates: { lat: 36.998, lng: -110.0985 }, // TODO: verify coords
@@ -275,7 +275,7 @@ export const destination: Destination = {
           description:
             "La rive nord reste la plus tranquille des deux, et une forêt de pins y remplace le désert. On y contemple le canyon depuis des promontoires où l'on croise peu de monde. Elle s'ouvre du printemps à l'automne.",
           image: {
-            src: "/destination/etats-unis/map-grand-canyon.png",
+            src: "/destination/etats-unis/map-grand-canyon.webp",
             alt: "Rive nord du Grand Canyon vue depuis un promontoire boisé",
           },
           coordinates: { lat: 36.1976, lng: -112.0563 }, // TODO: verify coords
@@ -285,7 +285,7 @@ export const destination: Destination = {
           description:
             "Une côte que personne n'a bâtie, entre Carmel et San Simeon, où la route épouse la falaise. Les condors de Californie y planent de nouveau après avoir failli disparaître. Le brouillard monte du large en fin de matinée et se retire l'après-midi.",
           image: {
-            src: "/destination/etats-unis/map-big-sur.png",
+            src: "/destination/etats-unis/map-big-sur.webp",
             alt: "Falaises de Big Sur plongeant dans le Pacifique en Californie",
           },
           coordinates: { lat: 36.2704, lng: -121.8081 }, // TODO: verify coords
@@ -295,7 +295,7 @@ export const destination: Destination = {
           description:
             "Une vallée entière couverte de vignes, où les plus grands cabernets de Californie se font depuis les années soixante. Les domaines les plus recherchés vendent sur liste d'attente et n'ouvrent pas leur portail. On y entre par le vigneron, jamais par la boutique.",
           image: {
-            src: "/destination/etats-unis/map-napa.png",
+            src: "/destination/etats-unis/map-napa.webp",
             alt: "Rangs de vigne de la Napa Valley au petit matin, en Californie",
           },
           coordinates: { lat: 38.5025, lng: -122.2654 }, // TODO: verify coords
@@ -305,8 +305,8 @@ export const destination: Destination = {
           description:
             "Les grands musées de New York se suivent le long de la Cinquième Avenue, le Metropolitan en tête. Le quartier se vide le week-end, quand ses habitants s'en vont, et c'est le meilleur moment pour y marcher. Central Park s'ouvre juste en face.",
           image: {
-            src: "/destination/etats-unis/map-new-york.png",
-            alt: "Cinquième Avenue et le Metropolitan Museum bordant Central Park à New York",
+            src: "/destination/etats-unis/map-new-york.webp",
+            alt: "Le lac de Central Park et les tours qui le bordent, à New York",
           },
           coordinates: { lat: 40.7736, lng: -73.9566 }, // TODO: verify coords
         },
@@ -542,7 +542,7 @@ export const destination: Destination = {
           quote:
             "Nous partions à six, sur trois générations, et je redoutais la logistique. Le canyon au lever du jour a réuni tout le monde, ce que je n'attendais pas. Les distances avaient été pensées pour que personne ne subisse la route.",
           image: {
-            src: "/destination/etats-unis/hero-1.png",
+            src: "/destination/etats-unis/hero-1.webp",
             alt: "Portrait de Bernard et Michèle", // TODO: verify
           },
           name: "Bernard & Michèle", // TODO: verify
@@ -553,7 +553,7 @@ export const destination: Destination = {
           quote:
             "J'avais déjà fait l'Ouest deux fois, en pensant l'avoir vu. Cette fois nous sommes entrés dans un canyon dont je n'avais jamais entendu le nom, avec la famille qui en détient l'accès. C'est exactement ce que je cherchais.",
           image: {
-            src: "/destination/etats-unis/hero-2.png",
+            src: "/destination/etats-unis/hero-2.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify
@@ -564,7 +564,7 @@ export const destination: Destination = {
           quote:
             "Big Sur puis New York, en une semaine chacun. Le contraste faisait tout le voyage. Une seule personne au bout du téléphone d'un bout à l'autre, y compris pour un vol décalé la veille du retour.",
           image: {
-            src: "/destination/etats-unis/hero-3.png",
+            src: "/destination/etats-unis/hero-3.webp",
             alt: "Portrait de Claire", // TODO: verify
           },
           name: "Claire", // TODO: verify
