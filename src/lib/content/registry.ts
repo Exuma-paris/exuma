@@ -61,6 +61,7 @@ import { destination as namibie } from "@/content/destinations/namibie";
 import { destination as egypte } from "@/content/destinations/egypte";
 import { destination as indonesie } from "@/content/destinations/indonesie";
 import { destination as costaRica } from "@/content/destinations/costa-rica";
+import { destination as croatie } from "@/content/destinations/croatie";
 import { destination as afriqueDuSud } from "@/content/destinations/afrique-du-sud";
 import { destination as anguilla } from "@/content/destinations/anguilla";
 import { destination as thailande } from "@/content/destinations/thailande";
@@ -352,6 +353,9 @@ import { experience as observationAlbatrosEspanola } from "@/content/experiences
 import { experience as grottesWaitomo } from "@/content/experiences/grottes-waitomo";
 import { experience as voilierPriveBayOfIslands } from "@/content/experiences/voilier-prive-bay-of-islands";
 import { experience as rencontreMaorieRotorua } from "@/content/experiences/rencontre-maorie-rotorua";
+import { experience as rempartsDubrovnikAube } from "@/content/experiences/remparts-dubrovnik-aube";
+import { experience as truffeBlancheMotovun } from "@/content/experiences/truffe-blanche-motovun";
+import { experience as vinPeljesacDingac } from "@/content/experiences/vin-peljesac-dingac";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -584,6 +588,9 @@ import { accommodation as ecoventuraTheory } from "@/content/accommodations/ecov
 import { accommodation as blanketBay } from "@/content/accommodations/blanket-bay";
 import { accommodation as hukaLodge } from "@/content/accommodations/huka-lodge";
 import { accommodation as eaglesNest } from "@/content/accommodations/eagles-nest";
+import { accommodation as hotelExcelsiorDubrovnik } from "@/content/accommodations/hotel-excelsior-dubrovnik";
+import { accommodation as maslinaResort } from "@/content/accommodations/maslina-resort";
+import { accommodation as villaSheherezade } from "@/content/accommodations/villa-sheherezade";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -609,6 +616,7 @@ export const destinations: Record<string, Destination> = toMap([
   canada,
   corse,
   costaRica,
+  croatie,
   ecosse,
   egypte,
   etatsUnis,
@@ -941,6 +949,9 @@ export const experiences: Record<string, Experience> = toMap([
   grottesWaitomo,
   voilierPriveBayOfIslands,
   rencontreMaorieRotorua,
+  rempartsDubrovnikAube,
+  truffeBlancheMotovun,
+  vinPeljesacDingac,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -1180,6 +1191,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   blanketBay,
   hukaLodge,
   eaglesNest,
+  hotelExcelsiorDubrovnik,
+  maslinaResort,
+  villaSheherezade,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
