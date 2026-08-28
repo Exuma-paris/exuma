@@ -33,15 +33,15 @@ export const destination: Destination = {
         "L'archipel se découvre lagon par lagon. On choisit un atoll pour son corail, un autre pour son silence, et l'hydravion relie les deux. Le reste du voyage se passe pieds nus.",
       images: [
         {
-          src: "/destination/maldives/hero-1.png",
+          src: "/destination/maldives/hero-1.webp",
           alt: "Lagon turquoise et villas sur pilotis d'un atoll des Maldives",
         },
         {
-          src: "/destination/maldives/hero-2.png",
+          src: "/destination/maldives/hero-2.webp",
           alt: "Banc de sable découvert à marée basse dans l'atoll de Noonu",
         },
         {
-          src: "/destination/maldives/hero-3.png",
+          src: "/destination/maldives/hero-3.webp",
           alt: "Hydravion amarré au ponton d'une île de l'océan Indien",
         },
       ],
@@ -78,7 +78,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/maldives/full-image.png",
+        src: "/destination/maldives/full-image.webp",
         alt: "Vue aérienne d'un atoll des Maldives et de son récif corallien",
       },
       height: 600,
@@ -95,7 +95,7 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/maldives/split-1.png",
+          src: "/destination/maldives/split-1.webp",
           alt: "Ponton de bois et villas sur pilotis de l'atoll de Laamu aux Maldives",
         },
         {
@@ -109,11 +109,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/maldives/xp-hanifaru-1.png",
+          src: "/destination/maldives/xp-hanifaru-1.webp",
           alt: "Raies manta se rassemblant en surface dans la baie de Hanifaru, atoll de Baa",
         },
         right: {
-          src: "/destination/maldives/xp-hanifaru-2.png",
+          src: "/destination/maldives/xp-hanifaru-2.webp",
           alt: "Nageur au masque et tuba observant une raie manta aux Maldives",
         },
       },
@@ -225,7 +225,7 @@ export const destination: Destination = {
         image: {
           src: `/destination/maldives/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure entre les atolls des Maldives",
             "Banc de sable isolé au milieu d'un lagon maldivien",
@@ -515,7 +515,7 @@ export const destination: Destination = {
           quote:
             "Deux atolls en douze jours, et jamais l'impression de faire des transferts. Stéphane avait calé Hanifaru sur la bonne marée. Les mantas sont passées à un mètre, et nous étions le seul bateau.",
           image: {
-            src: "/destination/maldives/hero-1.png",
+            src: "/destination/maldives/hero-1.webp",
             alt: "Portrait de Guillaume et Sophie", // TODO: verify
           },
           name: "Guillaume & Sophie", // TODO: verify
@@ -526,7 +526,7 @@ export const destination: Destination = {
           quote:
             "Avec trois enfants, on redoutait l'ennui d'une île. Ils ont passé la semaine dans la pépinière de corail avec le biologiste, et ils y retournaient tous les matins avant le petit déjeuner.",
           image: {
-            src: "/destination/maldives/hero-2.png",
+            src: "/destination/maldives/hero-2.webp",
             alt: "Portrait de la famille Lambert", // TODO: verify
           },
           name: "Famille Lambert", // TODO: verify
@@ -537,7 +537,7 @@ export const destination: Destination = {
           quote:
             "Ce que j'ai apprécié, c'est de n'avoir rien à vérifier. Un seul interlocuteur, du premier appel au retour. Le dîner sur le banc de sable, seuls, valait le voyage à lui seul.",
           image: {
-            src: "/destination/maldives/hero-3.png",
+            src: "/destination/maldives/hero-3.webp",
             alt: "Portrait de Nicolas", // TODO: verify
           },
           name: "Nicolas", // TODO: verify
