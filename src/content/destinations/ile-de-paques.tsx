@@ -32,15 +32,15 @@ export const destination: Destination = {
         "Au milieu du Pacifique, l'île de Pâques se laisse apprivoiser lentement. On y vient pour les statues et l'on en repart avec autre chose : le vent qui ne faiblit jamais, la lumière qui change plusieurs fois par jour, et les récits que les familles rapanui réservent à ceux qui prennent le temps de les écouter. C'est cette île-là que nous vous ouvrons, avec ceux qui y sont nés.",
       images: [
         {
-          src: "/destination/ile-de-paques/hero-1.png",
+          src: "/destination/ile-de-paques/hero-1.webp",
           alt: "Moai d'Ahu Tongariki au lever du jour sur l'île de Pâques",
         },
         {
-          src: "/destination/ile-de-paques/hero-2.png",
+          src: "/destination/ile-de-paques/hero-2.webp",
           alt: "Cratère du Rano Kau et village de pierre d'Orongo au-dessus de l'océan",
         },
         {
-          src: "/destination/ile-de-paques/hero-3.png",
+          src: "/destination/ile-de-paques/hero-3.webp",
           alt: "Baie d'Anakena et sa cocoteraie sur la côte nord de Rapa Nui",
         },
       ],
@@ -78,7 +78,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/ile-de-paques/full-image.png",
+        src: "/destination/ile-de-paques/full-image.webp",
         alt: "Moai enterrés jusqu'aux épaules à Rano Raraku lors d'un voyage à l'île de Pâques",
       },
       height: 600,
@@ -95,11 +95,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/ile-de-paques/split-1.png",
-          alt: "Guide rapanui devant une plateforme de moai sur la côte est de l'île de Pâques",
+          src: "/destination/ile-de-paques/split-1.webp",
+          alt: "Guide rapanui montrant les moai d'Ahu Tongariki à un couple de voyageurs sur l'île de Pâques",
         },
         {
-          src: "/destination/ile-de-paques/split-2.png",
+          src: "/destination/ile-de-paques/split-2.webp",
           alt: "Four enterré umu pae que l'on ouvre dans un jardin de Hanga Roa",
         },
       ],
@@ -109,11 +109,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/ile-de-paques/xp-rano-raraku-1.png",
+          src: "/destination/ile-de-paques/xp-rano-raraku-1.webp",
           alt: "Moai inachevés dressés dans la pente de la carrière de Rano Raraku",
         },
         right: {
-          src: "/destination/ile-de-paques/xp-rano-raraku-2.png",
+          src: "/destination/ile-de-paques/xp-rano-raraku-2.webp",
           alt: "Archéologue montrant les traces d'outils dans la pierre de Rano Raraku",
         },
       },
@@ -223,7 +223,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/ile-de-paques/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/ile-de-paques/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à l'île de Pâques entre Rano Raraku, Orongo et Anakena",
             "Adresses confidentielles à Rapa Nui : terres privées et grottes de familles rapanui",
@@ -250,7 +250,7 @@ export const destination: Destination = {
           description:
             "Le seul village de l'île, où tout le monde vit et où tout commence. Les barques rentrent le matin et le poisson part directement au marché. En fin de journée, on descend à pied jusqu'aux moai de Tahai pour regarder le soleil tomber derrière eux.",
           image: {
-            src: "/destination/ile-de-paques/map-hanga-roa.png",
+            src: "/destination/ile-de-paques/map-hanga-roa.webp",
             alt: "Barques de pêche et front de mer du village de Hanga Roa à Rapa Nui",
           },
           // TODO: verify coords
@@ -261,7 +261,7 @@ export const destination: Destination = {
           description:
             "La carrière où toutes les statues de l'île ont été taillées, dans la pierre tendre d'un volcan éteint. Beaucoup n'en sont jamais parties : elles dorment dans l'herbe, enterrées jusqu'aux épaules, et la plus grande n'a jamais été détachée du rocher.",
           image: {
-            src: "/destination/ile-de-paques/map-rano-raraku.png",
+            src: "/destination/ile-de-paques/map-rano-raraku.webp",
             alt: "Moai inachevés dans la carrière de Rano Raraku sur l'île de Pâques",
           },
           // TODO: verify coords
@@ -272,7 +272,7 @@ export const destination: Destination = {
           description:
             "La plus grande plateforme de l'île, relevée après qu'un raz-de-marée avait couché ses moai. Le soleil se lève juste derrière eux. Nous vous y conduisons avant que les grilles n'ouvrent, quand il n'y a encore personne sur le site.",
           image: {
-            src: "/destination/ile-de-paques/map-tongariki.png",
+            src: "/destination/ile-de-paques/map-tongariki.webp",
             alt: "Moai d'Ahu Tongariki en contre-jour au lever du soleil à Rapa Nui",
           },
           // TODO: verify coords
@@ -283,7 +283,7 @@ export const destination: Destination = {
           description:
             "Un cratère immense, tapissé de roseaux, ouvert d'un côté sur l'océan. Sur son bord tiennent encore les maisons de pierre d'Orongo, d'où les clans lançaient la course de l'homme-oiseau vers l'îlot de Motu Nui.",
           image: {
-            src: "/destination/ile-de-paques/map-orongo.png",
+            src: "/destination/ile-de-paques/map-orongo.webp",
             alt: "Maisons de pierre d'Orongo au bord du cratère du Rano Kau",
           },
           // TODO: verify coords
@@ -294,7 +294,7 @@ export const destination: Destination = {
           description:
             "La plage de l'île, son sable clair et sa cocoteraie, là où la tradition fait débarquer le premier roi Hotu Matu'a. Les moai d'Ahu Nau Nau y portent encore leur chignon de pierre rouge, et l'eau y est assez douce pour se baigner.",
           image: {
-            src: "/destination/ile-de-paques/map-anakena.png",
+            src: "/destination/ile-de-paques/map-anakena.webp",
             alt: "Plage d'Anakena, cocotiers et moai d'Ahu Nau Nau à l'île de Pâques",
           },
           // TODO: verify coords
@@ -305,7 +305,7 @@ export const destination: Destination = {
           description:
             "Les seuls moai de l'île tournés vers l'océan. Ils sont alignés sur le soleil des équinoxes, à l'intérieur des terres, et l'endroit garde en fin de journée un calme que l'on ne trouve nulle part ailleurs.",
           image: {
-            src: "/destination/ile-de-paques/map-ahu-akivi.png",
+            src: "/destination/ile-de-paques/map-ahu-akivi.webp",
             alt: "Moai d'Ahu Akivi alignés face à l'océan sur l'île de Pâques",
           },
           // TODO: verify coords
@@ -570,7 +570,7 @@ export const destination: Destination = {
           quote:
             "Nous sommes entrés dans la carrière au petit matin avec l'archéologue, et il n'y avait personne d'autre. Il nous a montré ce que l'on ne voit jamais depuis le chemin. Quand les premiers visiteurs sont arrivés, nous étions déjà ailleurs sur l'île.",
           image: {
-            src: "/destination/ile-de-paques/hero-1.png",
+            src: "/destination/ile-de-paques/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -581,7 +581,7 @@ export const destination: Destination = {
           quote:
             "Le four a été ouvert au moment où le jour tombait, dans le jardin, avec la grand-mère et les petits-enfants autour. Nous avons mangé assis par terre et personne n'a regardé l'heure. C'est le repas dont nos enfants parlent encore.",
           image: {
-            src: "/destination/ile-de-paques/hero-2.png",
+            src: "/destination/ile-de-paques/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -592,7 +592,7 @@ export const destination: Destination = {
           quote:
             "En haut du Terevaka il n'y avait que les chevaux, le vent et le silence. Je n'avais jamais eu cette sensation nulle part ailleurs, et je ne l'ai pas oubliée depuis.",
           image: {
-            src: "/destination/ile-de-paques/hero-3.png",
+            src: "/destination/ile-de-paques/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
