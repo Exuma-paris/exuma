@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Sur la piste au nord de Morondava, une vingtaine de baobabs bordent la route. On arrive avant le soleil, quand la lumière est encore basse. Un guide de Marofandilia explique ce que ces arbres représentent pour les Sakalava.",
   keywords: ["madagascar", "morondava", "baobabs", "sakalava", "cote ouest"],
   heroImage: {
-    src: "/destination/madagascar/xp-baobabs-aube.png",
+    src: "/destination/madagascar/xp-baobabs-aube.webp",
     alt: "L'allée des baobabs au lever du soleil sur la piste au nord de Morondava",
   },
   destinationSlugs: ["madagascar"],

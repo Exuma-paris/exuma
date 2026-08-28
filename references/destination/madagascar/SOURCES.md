@@ -1,31 +1,40 @@
 # Reference images — Madagascar
 
-Each generated image in `public/destination/madagascar/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
+Chaque image de `public/destination/madagascar/` a été produite en envoyant la référence correspondante à Gemini 3 Pro Image (Nano Banana Pro) avec le brief de style intégré à `.claude/skills/destination-generator/gen-images.py`. Composition, cadrage et heure de la référence sont conservés ; seul le rendu colorimétrique Exuma est appliqué.
 
-| Output                            | Reference file                         | Source URL | License |
-| --------------------------------- | -------------------------------------- | ---------- | ------- |
-| `hero-1.png`                      | `hero-1-ref.jpg`                       | TODO       | TODO    |
-| `hero-2.png`                      | `hero-2-ref.jpg`                       | TODO       | TODO    |
-| `hero-3.png`                      | `hero-3-ref.jpg`                       | TODO       | TODO    |
-| `full-image.png`                  | `full-image-ref.jpg`                   | TODO       | TODO    |
-| `split-1.png`                     | `split-1-ref.jpg`                      | TODO       | TODO    |
-| `split-2.png`                     | `split-2-ref.jpg`                      | TODO       | TODO    |
-| `xp-indri-1.png`                  | `xp-indri-1-ref.jpg`                   | TODO       | TODO    |
-| `xp-indri-2.png`                  | `xp-indri-2-ref.jpg`                   | TODO       | TODO    |
-| `xp-tsingy-rouges.png`            | `xp-tsingy-rouges-ref.jpg`             | TODO       | TODO    |
-| `xp-baobabs-aube.png`             | `xp-baobabs-aube-ref.jpg`              | TODO       | TODO    |
-| `xp-baleines-sainte-marie.png`    | `xp-baleines-sainte-marie-ref.jpg`     | TODO       | TODO    |
-| `hotel-miavana.png`               | `hotel-miavana-ref.jpg`                | TODO       | TODO    |
-| `hotel-tsarabanjina.png`          | `hotel-tsarabanjina-ref.jpg`           | TODO       | TODO    |
-| `hotel-anjajavy.png`              | `hotel-anjajavy-ref.jpg`               | TODO       | TODO    |
-| `bento-map.png`                   | `bento-map-ref.jpg`                    | TODO       | TODO    |
-| `bento-adresses.png`              | `bento-adresses-ref.jpg`               | TODO       | TODO    |
-| `bento-hebergements.png`          | `bento-hebergements-ref.jpg`           | TODO       | TODO    |
-| `bento-conciergerie.png`          | `bento-conciergerie-ref.jpg`           | TODO       | TODO    |
-| `bento-experiences.png`           | `bento-experiences-ref.jpg`            | TODO       | TODO    |
-| `map-antsiranana.png`             | `map-antsiranana-ref.jpg`              | TODO       | TODO    |
-| `map-nosy-ankao.png`              | `map-nosy-ankao-ref.jpg`               | TODO       | TODO    |
-| `map-mitsio.png`                  | `map-mitsio-ref.jpg`                   | TODO       | TODO    |
-| `map-anjajavy.png`                | `map-anjajavy-ref.jpg`                 | TODO       | TODO    |
-| `map-baobabs.png`                 | `map-baobabs-ref.jpg`                  | TODO       | TODO    |
-| `map-andasibe.png`                | `map-andasibe-ref.jpg`                 | TODO       | TODO    |
+Les références ont été fournies par l'auteur de la page, déclarées libres de droit. Sortie : master 16:9, 4096 × 2304, WebP.
+
+| Output                          | Reference file                     | Source URL                          | License        |
+| ------------------------------- | ---------------------------------- | ----------------------------------- | -------------- |
+| `hero-1.webp`                   | `hero-1-ref.png`                   | fournie par l'auteur de la page     | libre de droit |
+| `hero-2.webp`                   | `hero-2-ref.png`                   | fournie par l'auteur de la page     | libre de droit |
+| `hero-3.webp`                   | `hero-3-ref.png`                   | fournie par l'auteur de la page     | libre de droit |
+| `full-image.webp`               | `full-image-ref.png`               | fournie par l'auteur de la page     | libre de droit |
+| `split-1.webp`                  | `split-1-ref.png`                  | fournie par l'auteur de la page     | libre de droit |
+| `split-2.webp`                  | `split-2-ref.png`                  | fournie par l'auteur de la page     | libre de droit |
+| `xp-indri-1.webp`               | `xp-indri-1-ref.png`               | fournie par l'auteur, remplacée une fois | libre de droit |
+| `xp-indri-2.webp`               | `xp-indri-2-ref.png`               | fournie par l'auteur de la page     | libre de droit |
+| `xp-tsingy-rouges.webp`         | `xp-tsingy-rouges-ref.png`         | fournie par l'auteur de la page     | libre de droit |
+| `xp-baobabs-aube.webp`          | `xp-baobabs-aube-ref.png`          | fournie par l'auteur de la page     | libre de droit |
+| `xp-baleines-sainte-marie.webp` | `xp-baleines-sainte-marie-ref.png` | fournie par l'auteur de la page     | libre de droit |
+| `hotel-miavana.webp`            | `hotel-miavana-ref.png`            | fournie par l'auteur de la page     | libre de droit |
+| `hotel-tsarabanjina.webp`       | `hotel-tsarabanjina-ref.png`       | fournie par l'auteur de la page     | libre de droit |
+| `hotel-anjajavy.webp`           | `hotel-anjajavy-ref.png`           | fournie par l'auteur de la page     | libre de droit |
+| `bento-adresses.webp`           | `bento-adresses-ref.png`           | fournie par l'auteur de la page     | libre de droit |
+| `bento-hebergements.webp`       | `bento-hebergements-ref.png`       | fournie par l'auteur de la page     | libre de droit |
+| `bento-experiences.webp`        | `bento-experiences-ref.png`        | fournie par l'auteur de la page     | libre de droit |
+| `map-baobabs.webp`              | `map-baobabs-ref.png`              | fournie par l'auteur de la page     | libre de droit |
+| `map-andasibe.webp`             | `map-andasibe-ref.png`             | fournie par l'auteur de la page     | libre de droit |
+
+## Références encore à fournir
+
+Ces six sorties n'existent pas : aucune référence n'a été déposée.
+
+| Output                     | Sujet attendu                                       |
+| -------------------------- | --------------------------------------------------- |
+| `bento-map.webp`           | Création d'itinéraires                              |
+| `bento-conciergerie.webp`  | Conciergerie 24/7                                   |
+| `map-antsiranana.webp`     | La baie d'Antsiranana et son rocher en pain de sucre |
+| `map-nosy-ankao.webp`      | Le lagon et la plage de Nosy Ankao                  |
+| `map-mitsio.webp`          | Rochers de granit et plage de l'archipel des Mitsio |
+| `map-anjajavy.webp`        | Forêt et plage de la presqu'île d'Anjajavy          |

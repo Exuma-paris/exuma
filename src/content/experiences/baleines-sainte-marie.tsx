@@ -13,7 +13,7 @@ export const experience: Experience = {
     "cote est",
   ],
   heroImage: {
-    src: "/destination/madagascar/xp-baleines-sainte-marie.png",
+    src: "/destination/madagascar/xp-baleines-sainte-marie.webp",
     alt: "Baleine à bosse et son petit dans le canal de Sainte-Marie, à l'est de Madagascar",
   },
   destinationSlugs: ["madagascar"],
