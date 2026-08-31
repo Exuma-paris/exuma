@@ -2,23 +2,23 @@
 
 Dossier : `public/destination/maldives/`
 
-**0 sur 25 présentes.** Il manque 25 images.
+**8 sur 25 présentes.** Il manque 17 images.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
 ## Carrousel du hero
 
-- [ ] `hero-1.png`
-- [ ] `hero-2.png`
-- [ ] `hero-3.png`
+- [x] `hero-1.png`
+- [x] `hero-2.png`
+- [x] `hero-3.png`
 
 ## Bandeau pleine largeur
 
-- [ ] `full-image.png`
+- [x] `full-image.png`
 
 ## Section texte et images
 
-- [ ] `split-1.png`
+- [x] `split-1.png`
 - [ ] `split-2.png`
 
 ## Expériences
@@ -26,8 +26,8 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 - [ ] `xp-banc-de-sable.png`
 - [ ] `xp-corail.png`
 - [ ] `xp-dhoni.png`
-- [ ] `xp-hanifaru-1.png`
-- [ ] `xp-hanifaru-2.png`
+- [x] `xp-hanifaru-1.jpg`
+- [x] `xp-hanifaru-2.png`
 
 ## Hébergements
 
@@ -39,7 +39,7 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 - [ ] `bento-adresses.png`
 - [ ] `bento-conciergerie.png`
-- [ ] `bento-experiences.png`
+- [x] `bento-experiences.png`
 - [ ] `bento-hebergements.png`
 - [ ] `bento-map.png`
 

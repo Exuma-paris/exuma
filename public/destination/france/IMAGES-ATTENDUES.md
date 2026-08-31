@@ -2,38 +2,39 @@
 
 Dossier : `public/destination/france/`
 
-**0 sur 25 présentes.** Il manque 25 images.
+**13 sur 26 présentes.** Il manque 13 images.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
 ## Carrousel du hero
 
-- [ ] `hero-1.png`
-- [ ] `hero-2.png`
-- [ ] `hero-3.png`
+- [x] `hero-1.png`
+- [x] `hero-2.png`
+- [x] `hero-3.png`
 
 ## Bandeau pleine largeur
 
-- [ ] `full-image.png`
+- [x] `full-image.png`
 
 ## Section texte et images
 
-- [ ] `split-1.png`
-- [ ] `split-2.png`
+- [x] `split-1.png`
+- [x] `split-2.png`
 
 ## Expériences
 
-- [ ] `xp-baie-mont-saint-michel.png`
-- [ ] `xp-montgolfiere-1.png`
+- [x] `xp-baie-mont-saint-michel.png`
+- [x] `xp-montgolfiere-1.png`
 - [ ] `xp-montgolfiere-2.png`
-- [ ] `xp-vallee-blanche.png`
+- [x] `xp-vallee-blanche.png`
 - [ ] `xp-vins-clairs-champagne.png`
 
 ## Hébergements
 
-- [ ] `hotel-grand-hotel-du-cap-ferrat.png`
 - [ ] `hotel-crillon-le-brave.png`
-- [ ] `hotel-les-sources-de-cheverny.png`
+- [x] `hotel-grand-hotel-du-cap-ferrat.jpg`
+- [ ] `hotel-la-bastide-de-gordes.png`
+- [x] `hotel-les-sources-de-cheverny.jpg`
 
 ## Bloc bento
 
@@ -46,8 +47,8 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 ## Carte interactive
 
 - [ ] `map-cap-ferrat.png`
-- [ ] `map-chambord.png`
+- [x] `map-chambord.png`
 - [ ] `map-chamonix.png`
 - [ ] `map-gordes.png`
-- [ ] `map-mont-saint-michel.png`
+- [x] `map-mont-saint-michel.png`
 - [ ] `map-reims.png`

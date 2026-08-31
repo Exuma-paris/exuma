@@ -2,36 +2,36 @@
 
 Dossier : `public/destination/portugal/`
 
-**0 sur 25 présentes.** Il manque 25 images.
+**14 sur 25 présentes.** Il manque 11 images.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
 ## Carrousel du hero
 
-- [ ] `hero-1.png`
-- [ ] `hero-2.png`
+- [x] `hero-1.png`
+- [x] `hero-2.png`
 - [ ] `hero-3.png`
 
 ## Bandeau pleine largeur
 
-- [ ] `full-image.png`
+- [x] `full-image.png`
 
 ## Section texte et images
 
-- [ ] `split-1.png`
+- [x] `split-1.png`
 - [ ] `split-2.png`
 
 ## Expériences
 
-- [ ] `xp-cheval-comporta.png`
-- [ ] `xp-croisiere-douro-1.png`
+- [x] `xp-cheval-comporta.png`
+- [x] `xp-croisiere-douro-1.png`
 - [ ] `xp-croisiere-douro-2.png`
-- [ ] `xp-fado-alfama.png`
-- [ ] `xp-ponta-da-piedade.png`
+- [x] `xp-fado-alfama.png`
+- [x] `xp-ponta-da-piedade.png`
 
 ## Hébergements
 
-- [ ] `hotel-lapa-palace.png`
+- [x] `hotel-lapa-palace.png`
 - [ ] `hotel-six-senses-douro.png`
 - [ ] `hotel-sublime-comporta.png`
 
@@ -45,9 +45,9 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 ## Carte interactive
 
-- [ ] `map-algarve.png`
+- [x] `map-algarve.png`
 - [ ] `map-comporta.png`
-- [ ] `map-douro.png`
-- [ ] `map-lisbonne.png`
-- [ ] `map-porto.png`
-- [ ] `map-sintra.png`
+- [x] `map-douro.png`
+- [x] `map-lisbonne.png`
+- [x] `map-porto.png`
+- [x] `map-sintra.png`

@@ -2,7 +2,7 @@
 
 Dossier : `public/destination/japon/`
 
-**8 sur 25 présentes.** Il manque 17 images.
+**15 sur 25 présentes.** Il manque 10 images.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
@@ -23,8 +23,8 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 ## Expériences
 
-- [ ] `xp-ceremonie-the-kyoto.png`
-- [ ] `xp-kaiseki-gion.png`
+- [x] `xp-ceremonie-the-kyoto.webp`
+- [x] `xp-kaiseki-gion.webp`
 - [ ] `xp-sumo-tokyo.png`
 - [x] `xp-survol-fuji-1.png`
 - [x] `xp-survol-fuji-2.png`
@@ -32,16 +32,16 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 ## Hébergements
 
 - [x] `hotel-aman-tokyo.png`
-- [ ] `hotel-hoshinoya-fuji.png`
-- [ ] `hotel-hoshinoya-kyoto.png`
+- [x] `hotel-hoshinoya-fuji.webp`
+- [x] `hotel-hoshinoya-kyoto.webp`
 
 ## Bloc bento
 
-- [ ] `bento-adresses.png`
-- [ ] `bento-conciergerie.png`
-- [ ] `bento-experiences.png`
-- [ ] `bento-hebergements.png`
-- [ ] `bento-map.png`
+- [x] `bento-adresses.webp`
+- [ ] `bento-conciergerie.webp`
+- [x] `bento-experiences.webp`
+- [x] `bento-hebergements.webp`
+- [ ] `bento-map.webp`
 
 ## Carte interactive
 

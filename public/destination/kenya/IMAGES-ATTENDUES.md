@@ -2,7 +2,7 @@
 
 Dossier : `public/destination/kenya/`
 
-**6 sur 26 présentes.** Il manque 20 images.
+**17 sur 26 présentes.** Il manque 9 images.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
@@ -25,14 +25,14 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 - [ ] `xp-boutre-mida.png`
 - [ ] `xp-karen-blixen.png`
-- [ ] `xp-montgolfiere.png`
-- [ ] `xp-samburu.png`
+- [x] `xp-montgolfiere.webp`
+- [x] `xp-samburu.webp`
 
 ## Hébergements
 
-- [ ] `hotel-giraffe-manor.png`
+- [x] `hotel-giraffe-manor.webp`
 - [ ] `hotel-kinondo-kwetu.png`
-- [ ] `hotel-richards-river-camp.png`
+- [x] `hotel-richards-river-camp.webp`
 
 ## Bloc bento
 
@@ -44,14 +44,14 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 ## Carte interactive
 
-- [ ] `map-diani-beach.png`
-- [ ] `map-laikipia.png`
-- [ ] `map-masai-mara.png`
-- [ ] `map-mont-kenya.png`
-- [ ] `map-nairobi.png`
-- [ ] `map-watamu.png`
+- [x] `map-diani-beach.webp`
+- [x] `map-laikipia.webp`
+- [x] `map-masai-mara.webp`
+- [x] `map-mont-kenya.webp`
+- [x] `map-nairobi.webp`
+- [x] `map-watamu.webp`
 
 ## Autres
 
-- [ ] `karen-blixen-musee.png`
+- [x] `karen-blixen-musee.webp`
 - [ ] `karen-blixen-voiture.png`

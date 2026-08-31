@@ -13,7 +13,7 @@ export const experience: Experience = {
     "lever du jour",
   ],
   heroImage: {
-    src: "/destination/ile-de-paques/xp-tongariki-lever-soleil.png",
+    src: "/destination/ile-de-paques/xp-tongariki-lever-soleil.webp",
     alt: "Moai d'Ahu Tongariki en contre-jour au lever du jour sur l'île de Pâques",
   },
   destinationSlugs: ["ile-de-paques"],

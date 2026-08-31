@@ -2,14 +2,14 @@
 
 Dossier : `public/destination/afrique-du-sud/`
 
-**0 sur 25 présentes.** Il manque 25 images.
+**8 sur 25 présentes.** Il manque 17 images.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
 ## Carrousel du hero
 
-- [ ] `hero-1.webp`
-- [ ] `hero-2.webp`
+- [x] `hero-1.webp`
+- [x] `hero-2.webp`
 - [ ] `hero-3.webp`
 
 ## Bandeau pleine largeur
@@ -26,14 +26,14 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 - [ ] `xp-art-rupestre-1.webp`
 - [ ] `xp-art-rupestre-2.webp`
 - [ ] `xp-helicoptere-mpumalanga.webp`
-- [ ] `xp-manchots-boulders.webp`
-- [ ] `xp-marche-thornybush.webp`
+- [x] `xp-manchots-boulders.webp`
+- [x] `xp-marche-thornybush.webp`
 
 ## Hébergements
 
-- [ ] `hotel-bushmans-kloof.webp`
-- [ ] `hotel-ellerman-house.webp`
-- [ ] `hotel-saseka.webp`
+- [x] `hotel-bushmans-kloof.webp`
+- [x] `hotel-ellerman-house.webp`
+- [x] `hotel-saseka.webp`
 
 ## Bloc bento
 
@@ -49,5 +49,5 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 - [ ] `map-le-cap.webp`
 - [ ] `map-route-des-jardins.webp`
 - [ ] `map-simons-town.webp`
-- [ ] `map-thornybush.webp`
+- [x] `map-thornybush.webp`
 - [ ] `map-winelands.webp`

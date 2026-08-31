@@ -2,53 +2,53 @@
 
 Dossier : `public/destination/bresil/`
 
-**0 sur 26 présentes.** Il manque 26 images.
+**15 sur 26 présentes.** Il manque 11 images.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
 ## Carrousel du hero
 
-- [ ] `hero-1.png`
-- [ ] `hero-2.png`
-- [ ] `hero-3.png`
+- [x] `hero-1.webp`
+- [x] `hero-2.webp`
+- [x] `hero-3.webp`
 
 ## Bandeau pleine largeur
 
-- [ ] `full-image.png`
+- [x] `full-image.webp`
 
 ## Section texte et images
 
-- [ ] `split-1.png`
-- [ ] `split-2.png`
+- [ ] `split-1.webp`
+- [x] `split-2.webp`
 
 ## Expériences
 
-- [ ] `xp-iguacu-chutes.png`
-- [ ] `xp-jaguars-pantanal.png`
-- [ ] `xp-lagunes-lencois.png`
-- [ ] `xp-lencois-1.png`
-- [ ] `xp-lencois-2.png`
-- [ ] `xp-saveiro-bahia.png`
+- [x] `xp-iguacu-chutes.webp`
+- [ ] `xp-jaguars-pantanal.webp`
+- [x] `xp-lagunes-lencois.webp`
+- [x] `xp-lencois-1.webp`
+- [x] `xp-lencois-2.webp`
+- [ ] `xp-saveiro-bahia.webp`
 
 ## Hébergements
 
-- [ ] `hotel-das-cataratas.png`
-- [ ] `hotel-fasano-salvador.png`
-- [ ] `hotel-vila-guara.png`
+- [x] `hotel-das-cataratas.webp`
+- [x] `hotel-fasano-salvador.webp`
+- [x] `hotel-vila-guara.webp`
 
 ## Bloc bento
 
-- [ ] `bento-adresses.png`
-- [ ] `bento-conciergerie.png`
-- [ ] `bento-experiences.png`
-- [ ] `bento-hebergements.png`
-- [ ] `bento-map.png`
+- [ ] `bento-adresses.webp`
+- [ ] `bento-conciergerie.webp`
+- [ ] `bento-experiences.webp`
+- [ ] `bento-hebergements.webp`
+- [ ] `bento-map.webp`
 
 ## Carte interactive
 
-- [ ] `map-amazonie.png`
-- [ ] `map-iguacu.png`
-- [ ] `map-lencois.png`
-- [ ] `map-pantanal.png`
-- [ ] `map-rio.png`
-- [ ] `map-salvador.png`
+- [ ] `map-amazonie.webp`
+- [x] `map-iguacu.webp`
+- [x] `map-lencois.webp`
+- [ ] `map-pantanal.webp`
+- [x] `map-rio.webp`
+- [ ] `map-salvador.webp`

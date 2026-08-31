@@ -13,7 +13,7 @@ export const accommodation: Accommodation = {
     "saint jean cap ferrat",
   ],
   heroImage: {
-    src: "/destination/france/hotel-grand-hotel-du-cap-ferrat.png",
+    src: "/destination/france/hotel-grand-hotel-du-cap-ferrat.jpg",
     alt: "Piscine taillée dans la roche du Grand-Hôtel du Cap-Ferrat au-dessus de la Méditerranée",
   },
   destinationSlugs: ["france"],

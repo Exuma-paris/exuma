@@ -13,7 +13,7 @@ export const experience: Experience = {
     "famille rapanui",
   ],
   heroImage: {
-    src: "/destination/ile-de-paques/xp-terevaka-cheval.png",
+    src: "/destination/ile-de-paques/xp-terevaka-cheval.webp",
     alt: "Cavaliers rapanui sur les hauteurs herbeuses du Terevaka face au Pacifique",
   },
   destinationSlugs: ["ile-de-paques"],
