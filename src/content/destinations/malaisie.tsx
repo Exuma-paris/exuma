@@ -85,7 +85,7 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Malaisie — le parc de Kilim",
+      eyebrow: "Malaisie, le parc de Kilim",
       heading: "Ce que l'on gagne à pagayer avant l'aube",
       theme: "light",
       paragraphs: [
