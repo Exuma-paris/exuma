@@ -2,7 +2,7 @@
 
 Dossier : `public/destination/ile-de-paques/`
 
-**10 sur 25 présentes.** Il manque 15 images.
+**14 sur 25 présentes.** Il manque 11 images.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
@@ -33,11 +33,11 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 - [ ] `hotel-altiplanico.webp`
 - [ ] `hotel-explora-rapa-nui.webp`
-- [ ] `hotel-nayara-hangaroa.webp`
+- [x] `hotel-nayara-hangaroa.webp`
 
 ## Bloc bento
 
-- [ ] `bento-adresses.webp`
+- [x] `bento-adresses.webp`
 - [ ] `bento-conciergerie.webp`
 - [ ] `bento-experiences.webp`
 - [ ] `bento-hebergements.webp`
@@ -49,5 +49,5 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 - [ ] `map-anakena.webp`
 - [ ] `map-hanga-roa.webp`
 - [ ] `map-orongo.webp`
-- [ ] `map-rano-raraku.webp`
-- [ ] `map-tongariki.webp`
+- [x] `map-rano-raraku.webp`
+- [x] `map-tongariki.webp`

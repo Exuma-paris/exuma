@@ -10,22 +10,22 @@ Each generated image in `public/destination/ile-de-paques/` was produced by feed
 | `full-image.webp` | `full-image-ref.png` | à renseigner | à renseigner |
 | `split-1.webp` | `split-1-ref.png` | à renseigner | à renseigner |
 | `split-2.webp` | aucune, image générée | brief textuel documenté, sans photo source | image originale Exuma |
-| `xp-rano-raraku-1.webp` | `xp-rano-raraku-1-ref.png` | à renseigner | à renseigner |
+| `xp-rano-raraku-1.webp` | `xp-rano-raraku-1-ref.jpg` | à renseigner | à renseigner |
 | `xp-rano-raraku-2.webp` | aucune, image générée | brief textuel documenté, sans photo source | image originale Exuma |
 | `xp-tongariki-lever-soleil.webp` | `xp-tongariki-lever-soleil-ref.png` | à renseigner | à renseigner |
 | `xp-terevaka-cheval.webp` | aucune, image originale composée | brief textuel, aucune photo donnée au modèle | image originale Exuma |
 | `xp-umu-rapa-nui.webp` | `xp-umu-rapa-nui-ref.png` | en attente | en attente |
 | `hotel-explora-rapa-nui.webp` | `hotel-explora-rapa-nui-ref.png` | en attente | en attente |
-| `hotel-nayara-hangaroa.webp` | `hotel-nayara-hangaroa-ref.png` | en attente | en attente |
+| `hotel-nayara-hangaroa.webp` | `hotel-nayara-hangaroa-ref.jpg` | à renseigner | à renseigner |
 | `hotel-altiplanico.webp` | `hotel-altiplanico-ref.png` | en attente | en attente |
 | `bento-map.webp` | `bento-map-ref.png` | en attente | en attente |
-| `bento-adresses.webp` | `bento-adresses-ref.png` | en attente | en attente |
+| `bento-adresses.webp` | `bento-adresses-ref.jpg` | à renseigner | à renseigner |
 | `bento-hebergements.webp` | `bento-hebergements-ref.png` | en attente | en attente |
 | `bento-conciergerie.webp` | `bento-conciergerie-ref.png` | en attente | en attente |
 | `bento-experiences.webp` | `bento-experiences-ref.png` | en attente | en attente |
 | `map-hanga-roa.webp` | `map-hanga-roa-ref.png` | en attente | en attente |
-| `map-rano-raraku.webp` | `map-rano-raraku-ref.png` | en attente | en attente |
-| `map-tongariki.webp` | `map-tongariki-ref.png` | en attente | en attente |
+| `map-rano-raraku.webp` | copie de `xp-rano-raraku-1.webp` | même photo que le duo Rano Raraku | à renseigner |
+| `map-tongariki.webp` | `map-tongariki-ref.jpg` | à renseigner | à renseigner |
 | `map-orongo.webp` | `map-orongo-ref.png` | en attente | en attente |
 | `map-anakena.webp` | `map-anakena-ref.png` | en attente | en attente |
 | `map-ahu-akivi.webp` | `map-ahu-akivi-ref.png` | en attente | en attente |

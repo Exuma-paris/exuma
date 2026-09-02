@@ -32,15 +32,15 @@ export const destination: Destination = {
         "Un pays long de 4 300 kilomètres et large de deux cents, tenu entre la cordillère et le Pacifique. On commence par le désert le plus sec du monde, on descend vers les vignes de Colchagua et les maisons sur pilotis de Chiloé, on finit face au massif du Paine, là où le vent décide de tout. Entre les deux, il y a Rapa Nui, à cinq heures d'avion de la côte. Nous relions ces mondes dans un même voyage.",
       images: [
         {
-          src: "/destination/chili/hero-1.png",
+          src: "/destination/chili/hero-1.webp",
           alt: "Massif des Torres del Paine en Patagonie chilienne au lever du jour",
         },
         {
-          src: "/destination/chili/hero-2.png",
+          src: "/destination/chili/hero-2.webp",
           alt: "Vallée de la Lune et cordillère de sel dans le désert d'Atacama",
         },
         {
-          src: "/destination/chili/hero-3.png",
+          src: "/destination/chili/hero-3.webp",
           alt: "Maisons sur pilotis de Castro sur l'île de Chiloé au Chili",
         },
       ],
@@ -77,7 +77,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/chili/full-image.png",
+        src: "/destination/chili/full-image.webp",
         alt: "Guanacos devant le massif du Paine lors d'un voyage au Chili en Patagonie",
       },
       height: 600,
@@ -94,12 +94,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/chili/split-1.png",
+          src: "/destination/chili/split-1.webp",
           alt: "Baqueano patagon et ses chevaux criollos devant une estancia du Paine",
         },
         {
-          src: "/destination/chili/split-2.png",
-          alt: "Vigneron de la vallée de Colchagua dans sa cave à barriques de carménère",
+          src: "/destination/chili/split-2.webp",
+          alt: "Chai à barriques de carménère dans la vallée de Colchagua au Chili",
         },
       ],
     },
@@ -108,11 +108,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/chili/xp-tongariki-aube-1.png",
+          src: "/destination/chili/xp-tongariki-aube-1.webp",
           alt: "Les quinze moai d'Ahu Tongariki en contre-jour au lever du soleil sur l'île de Pâques",
         },
         right: {
-          src: "/destination/chili/xp-tongariki-aube-2.png",
+          src: "/destination/chili/xp-tongariki-aube-2.webp",
           alt: "Guide rapanui devant les moai d'Ahu Tongariki, site encore désert au petit matin",
         },
       },
@@ -227,7 +227,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/chili/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/chili/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Chili entre Atacama, Colchagua, Chiloé et la Patagonie",
             "Adresses confidentielles au Chili : estancias fermées au public et caves de vignerons",
@@ -254,7 +254,7 @@ export const destination: Destination = {
           description:
             "Un village de terre au pied du volcan Licancabur, entouré du désert le plus sec du monde. Les geysers du Tatio fument à 4 300 mètres avant le lever du jour, et les lagunes de l'altiplano se remplissent de flamants roses.",
           image: {
-            src: "/destination/chili/map-atacama.png",
+            src: "/destination/chili/map-atacama.webp",
             alt: "Geysers du Tatio fumant à l'aube dans le désert d'Atacama au Chili",
           },
           // TODO: verify coords
@@ -265,8 +265,8 @@ export const destination: Destination = {
           description:
             "Quarante-deux collines de maisons en tôle peinte, reliées par des funiculaires centenaires qui grincent encore. Le port travaille en bas, les ateliers de peintres et les tables de poisson occupent les hauteurs.",
           image: {
-            src: "/destination/chili/map-valparaiso.png",
-            alt: "Maisons colorées et funiculaire sur les collines de Valparaíso au Chili",
+            src: "/destination/chili/map-valparaiso.webp",
+            alt: "Maisons colorées des collines de Valparaíso au-dessus de la baie du Pacifique",
           },
           // TODO: verify coords
           coordinates: { lat: -33.0472, lng: -71.6127 },
@@ -276,7 +276,7 @@ export const destination: Destination = {
           description:
             "Le pays du carménère, ce cépage bordelais disparu d'Europe et redécouvert ici au milieu des merlots. On déjeune chez les vignerons, et les caves les plus intéressantes ne figurent sur aucune carte touristique.",
           image: {
-            src: "/destination/chili/map-colchagua.png",
+            src: "/destination/chili/map-colchagua.webp",
             alt: "Vignes de carménère de la vallée de Colchagua au pied de la cordillère",
           },
           // TODO: verify coords
@@ -287,7 +287,7 @@ export const destination: Destination = {
           description:
             "Une île de brume et de bois, où les églises jésuites sont charpentées comme des barques retournées. À Castro, les palafitos tiennent sur pilotis au-dessus de l'eau, et le curanto se cuit encore sous la terre chauffée aux pierres.",
           image: {
-            src: "/destination/chili/map-chiloe.png",
+            src: "/destination/chili/map-chiloe.webp",
             alt: "Palafitos de Castro sur pilotis au-dessus de l'eau sur l'île de Chiloé",
           },
           // TODO: verify coords
@@ -298,8 +298,8 @@ export const destination: Destination = {
           description:
             "Trois tours de granit au-dessus des lacs turquoise, et un vent qui ne s'arrête jamais tout à fait. Les guanacos y vivent par centaines, et le puma s'y observe à l'aube depuis les estancias voisines du parc.",
           image: {
-            src: "/destination/chili/map-torres-del-paine.png",
-            alt: "Tours de granit du Paine au-dessus du lac Pehoé en Patagonie chilienne",
+            src: "/destination/chili/map-torres-del-paine.webp",
+            alt: "Cuernos del Paine au-dessus du lac Pehoé en Patagonie chilienne",
           },
           // TODO: verify coords
           coordinates: { lat: -50.9423, lng: -73.4068 },
@@ -309,8 +309,8 @@ export const destination: Destination = {
           description:
             "Cinq heures de vol depuis Santiago pour la terre habitée la plus isolée du monde. Les moai y sont dressés face à l'intérieur des terres, et plusieurs centaines dorment encore dans la carrière de Rano Raraku.",
           image: {
-            src: "/destination/chili/map-rapa-nui.png",
-            alt: "Moai alignés d'Ahu Tongariki face à l'océan sur l'île de Pâques",
+            src: "/destination/chili/map-rapa-nui.webp",
+            alt: "Les quinze moai alignés d'Ahu Tongariki, dos à l'océan, sur l'île de Pâques",
           },
           // TODO: verify coords
           coordinates: { lat: -27.1127, lng: -109.3497 },
@@ -549,7 +549,7 @@ export const destination: Destination = {
           quote:
             "Cinq jours dans les fjords sans voir un autre bateau. Le matin, le glacier lâchait des blocs et personne ne disait rien. Le cuisinier achetait le crabe aux pêcheurs avant de partir. Je n'ai pas ouvert mon téléphone une seule fois.",
           image: {
-            src: "/destination/chili/hero-1.png",
+            src: "/destination/chili/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -560,7 +560,7 @@ export const destination: Destination = {
           quote:
             "Nous étions à cheval avec deux baqueanos sur des terres où personne n'entre, les tours en face de nous toute la matinée. Nos petits-enfants ont compris ce jour-là ce que voulait dire la Patagonie.",
           image: {
-            src: "/destination/chili/hero-2.png",
+            src: "/destination/chili/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -571,7 +571,7 @@ export const destination: Destination = {
           quote:
             "L'astrophysicien a réglé son télescope et nous a montré les Nuages de Magellan. Il faisait froid, le désert était noir. Trois jours plus tard nous déjeunions dans une cave de Millahue avec le vigneron. Tout s'enchaînait sans que nous ayons rien à demander.",
           image: {
-            src: "/destination/chili/hero-3.png",
+            src: "/destination/chili/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
