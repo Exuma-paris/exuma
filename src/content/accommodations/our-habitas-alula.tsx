@@ -4,11 +4,11 @@ export const accommodation: Accommodation = {
   slug: "our-habitas-alula",
   name: "Our Habitas AlUla",
   blurb:
-    "Des villas posées au fond du canyon d'Ashar, face à une paroi de grès de cent mètres. La piscine est taillée au pied de la falaise et les terrasses n'ont vue que sur la roche. Maraya est à quelques minutes de route.", // TODO: verify la hauteur de la paroi et la distance jusqu'à Maraya
+    "Des villas de toile et de bois posées dans le sable, au fond du canyon d'Ashar. Les terrasses n'ont vue que sur la paroi de grès, qui monte droit derrière les tentes. Maraya est à quelques minutes de route.", // TODO: verify la hauteur de la paroi et la distance jusqu'à Maraya
   keywords: ["arabie-saoudite", "alula", "ashar", "canyon", "desert"],
   heroImage: {
-    src: "/destination/arabie-saoudite/hotel-our-habitas-alula.png",
-    alt: "Villa et piscine de Our Habitas AlUla au pied de la paroi de grès du canyon d'Ashar",
+    src: "/destination/arabie-saoudite/hotel-our-habitas-alula.webp",
+    alt: "Villa de toile et de bois de Our Habitas AlUla, au pied des parois du canyon d'Ashar",
   },
   destinationSlugs: ["arabie-saoudite"],
   sections: [],

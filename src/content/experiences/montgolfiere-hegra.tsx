@@ -13,8 +13,8 @@ export const experience: Experience = {
     "elephant-rock",
   ],
   heroImage: {
-    src: "/destination/arabie-saoudite/xp-montgolfiere-hegra.png",
-    alt: "Montgolfière au lever du jour au-dessus des tombeaux de Hegra, AlUla",
+    src: "/destination/arabie-saoudite/xp-montgolfiere-hegra.webp",
+    alt: "Montgolfière gonflée avant le décollage, brûleur allumé, au petit matin",
   },
   destinationSlugs: ["arabie-saoudite"],
   sections: [],
