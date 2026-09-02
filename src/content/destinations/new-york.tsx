@@ -32,15 +32,15 @@ export const destination: Destination = {
         "À dix heures du soir, la 8e Avenue se remplit d'un coup : les théâtres viennent de vider leurs salles et les tables du quartier tournent une deuxième fois. La ville a ce rythme partout, et il change d'heure à chaque quartier. Tout l'exercice consiste à savoir où être, et quand.",
       images: [
         {
-          src: "/destination/new-york/hero-1.png",
+          src: "/destination/new-york/hero-1.webp",
           alt: "Les gratte-ciel de Manhattan et Central Park à la lumière de fin de journée, voyage à New York",
         },
         {
-          src: "/destination/new-york/hero-2.png",
+          src: "/destination/new-york/hero-2.webp",
           alt: "Salon de la Frick Collection, hôtel particulier de la Cinquième Avenue, Upper East Side",
         },
         {
-          src: "/destination/new-york/hero-3.png",
+          src: "/destination/new-york/hero-3.webp",
           alt: "Enseignes lumineuses des théâtres de Broadway un soir d'hiver, Theater District",
         },
       ],
@@ -77,7 +77,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/new-york/full-image.png",
+        src: "/destination/new-york/full-image.webp",
         alt: "Vue sur Central Park et les immeubles de la Cinquième Avenue depuis les hauteurs, voyage à New York",
       },
       height: 600,
@@ -94,11 +94,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/new-york/split-1.png",
+          src: "/destination/new-york/split-1.webp",
           alt: "Tables sorties sur le trottoir d'une rue du West Village à la tombée du jour",
         },
         {
-          src: "/destination/new-york/split-2.png",
+          src: "/destination/new-york/split-2.webp",
           alt: "Façades en fonte et trottoirs larges d'une rue de Tribeca, sud de Manhattan",
         },
       ],
@@ -108,11 +108,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/new-york/xp-broadway-vip-1.png",
+          src: "/destination/new-york/xp-broadway-vip-1.webp",
           alt: "Salle d'un théâtre de Broadway vue des premiers rangs avant le lever du rideau",
         },
         right: {
-          src: "/destination/new-york/xp-broadway-vip-2.png",
+          src: "/destination/new-york/xp-broadway-vip-2.webp",
           alt: "Comédiens de Broadway attablés avec des spectateurs après la représentation",
         },
       },
@@ -222,7 +222,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/new-york/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/new-york/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à New York, de l'Upper East Side au port de Manhattan",
             "Adresses confidentielles à New York : collections privées, cabarets et tables réservées",
@@ -249,7 +249,7 @@ export const destination: Destination = {
           description:
             "L'hôtel particulier d'Henry Clay Frick, sur la Cinquième Avenue, resté meublé comme il l'a quitté. Les Vermeer sont au salon, les Fragonard dans une pièce construite pour eux. La maison a rouvert en 2025 et laisse désormais monter aux étages privés.", // TODO: verify la réouverture en 2025
           image: {
-            src: "/destination/new-york/map-frick.png",
+            src: "/destination/new-york/map-frick.webp",
             alt: "Façade de l'hôtel particulier de la Frick Collection sur la Cinquième Avenue",
           },
           // TODO: verify coords
@@ -260,7 +260,7 @@ export const destination: Destination = {
           description:
             "Le seul quartier de Manhattan qui échappe au plan en damier : les rues s'y croisent de travers et les immeubles font quatre étages. Les tables sortent sur le trottoir dès que la lumière baisse, sur Bleecker et sur Cornelia. On y dîne tôt.",
           image: {
-            src: "/destination/new-york/map-west-village.png",
+            src: "/destination/new-york/map-west-village.webp",
             alt: "Rue de travers du West Village bordée de terrasses en fin de journée",
           },
           // TODO: verify coords
@@ -271,7 +271,7 @@ export const destination: Destination = {
           description:
             "Un ensemble de tours des années trente autour d'une place en creux. La place devient patinoire de novembre à mars, sous le sapin, et se privatise en fin de soirée. Le Sea Grill donne directement sur la glace.",
           image: {
-            src: "/destination/new-york/map-rockefeller-center.png",
+            src: "/destination/new-york/map-rockefeller-center.webp",
             alt: "Patinoire du Rockefeller Center éclairée sous le sapin de Noël, Midtown",
           },
           // TODO: verify coords
@@ -282,7 +282,7 @@ export const destination: Destination = {
           description:
             "Une quarantaine de salles serrées entre la 41e et la 54e rue, autour de Times Square. Les spectacles se jouent huit fois par semaine, avec des matinées le mercredi, le samedi et le dimanche. Les loges s'ouvrent après le rideau, sur rendez-vous.", // TODO: verify le nombre de salles de Broadway
           image: {
-            src: "/destination/new-york/map-theater-district.png",
+            src: "/destination/new-york/map-theater-district.webp",
             alt: "Marquises lumineuses des théâtres du Theater District à la tombée du soir",
           },
           // TODO: verify coords
@@ -293,7 +293,7 @@ export const destination: Destination = {
           description:
             "Un parc dessiné avant que les immeubles ne l'entourent, avec ses affleurements de roche, ses ponts en fonte et son réservoir. Chaque porte donne sur un parc différent : les rochers au sud, les prairies au centre, les bois au nord.",
           image: {
-            src: "/destination/new-york/map-central-park.png",
+            src: "/destination/new-york/map-central-park.webp",
             alt: "Allées et affleurements rocheux de Central Park au petit matin, Manhattan",
           },
           // TODO: verify coords
@@ -304,7 +304,7 @@ export const destination: Destination = {
           description:
             "La pointe sud de l'île, là où les voiliers sortent et où les ferries partent pour Ellis Island. En face, Brooklyn et le quartier de Dumbo, sous les piles du pont. La ville se regarde de loin, ce qui n'arrive nulle part ailleurs à Manhattan.",
           image: {
-            src: "/destination/new-york/map-port-dumbo.png",
+            src: "/destination/new-york/map-port-dumbo.webp",
             alt: "Voilier dans le port de New York face aux tours de Manhattan et au pont de Brooklyn",
           },
           // TODO: verify coords
@@ -586,7 +586,7 @@ export const destination: Destination = {
           quote:
             "Nous sommes entrés au Frick un jour de fermeture. Il n'y avait que nous, la conférencière et les Vermeer. Ma fille de quinze ans a passé dix minutes devant un seul tableau, ce qui ne lui était jamais arrivé.",
           image: {
-            src: "/destination/new-york/hero-1.png",
+            src: "/destination/new-york/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -597,7 +597,7 @@ export const destination: Destination = {
           quote:
             "Après le spectacle, deux comédiens se sont assis à notre table. Ils ont raconté les auditions et les huit représentations par semaine pendant une heure. Les enfants en parlent encore.",
           image: {
-            src: "/destination/new-york/hero-2.png",
+            src: "/destination/new-york/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -608,7 +608,7 @@ export const destination: Destination = {
           quote:
             "La patinoire du Rockefeller nous a été laissée à la fin de la soirée. Nous avons dîné au bord de la glace, puis patiné à cinq, avec les tours allumées au-dessus.",
           image: {
-            src: "/destination/new-york/hero-3.png",
+            src: "/destination/new-york/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

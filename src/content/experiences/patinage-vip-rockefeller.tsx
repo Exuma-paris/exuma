@@ -13,7 +13,7 @@ export const experience: Experience = {
     "manhattan",
   ],
   heroImage: {
-    src: "/destination/new-york/xp-patinage-rockefeller.png",
+    src: "/destination/new-york/xp-patinage-rockefeller.webp",
     alt: "Patinoire du Rockefeller Center éclairée le soir, au pied des tours de Midtown",
   },
   destinationSlugs: ["new-york"],
