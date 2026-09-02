@@ -14,13 +14,19 @@ export type FinderEntry = {
 };
 
 /**
- * Index léger des destinations pour le champ de recherche de la home.
+ * Index léger des destinations pour le champ de recherche.
+ *
+ * Sans option, il couvre tout le catalogue (page d'accueil). Avec
+ * `continentSlug`, il se restreint aux destinations du continent : c'est ce que
+ * consomment les pages `/continents/[slug]`.
  *
  * Vit à part de `queries.ts` parce qu'il lit le disque : ce module ne doit être
  * importé que depuis un composant serveur. Le composant client reçoit le
  * résultat en props, ce qui évite d'envoyer le registre entier au navigateur.
  */
-export function getDestinationFinderIndex(): FinderEntry[] {
+export function getDestinationFinderIndex(
+  options: { continentSlug?: string } = {},
+): FinderEntry[] {
   const publicDir = join(process.cwd(), "public");
 
   const uses = new Map<string, number>();
@@ -31,9 +37,15 @@ export function getDestinationFinderIndex(): FinderEntry[] {
   }
 
   return Object.values(destinations)
+    .filter(
+      (d) =>
+        !options.continentSlug || d.continentSlug === options.continentSlug,
+    )
     .map((d) => {
       const hero = d.sections.find((s) => s.type === "hero");
-      const declared = hero?.images?.[0];
+      // Même règle que les cartes (`render-section`) : la vignette explicite
+      // l'emporte, sinon la première image du hero.
+      const declared = d.heroImage ?? hero?.images?.[0];
       const image =
         declared && existsSync(join(publicDir, declared.src))
           ? declared

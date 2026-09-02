@@ -4,6 +4,7 @@ import { heroImageBackgroundMeta } from "@/components/sections/hero/image-backgr
 import { heroLandingMeta } from "@/components/sections/hero/landing";
 import { galleryMeta } from "@/components/sections/gallery";
 import { featureShowcaseMeta } from "@/components/sections/feature-showcase";
+import { featureRowsMeta } from "@/components/sections/feature-rows";
 import { textColumnsMeta } from "@/components/sections/text-columns";
 import { fullImageMeta } from "@/components/sections/full-image";
 import { textImagesSplitMeta } from "@/components/sections/text-images-split";
@@ -30,6 +31,7 @@ export const sectionMetas = {
   heroLanding: heroLandingMeta,
   gallery: galleryMeta,
   featureShowcase: featureShowcaseMeta,
+  featureRows: featureRowsMeta,
   textColumns: textColumnsMeta,
   fullImage: fullImageMeta,
   textImagesSplit: textImagesSplitMeta,

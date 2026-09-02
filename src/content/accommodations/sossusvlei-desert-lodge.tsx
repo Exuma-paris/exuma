@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["namibie", "sossusvlei", "namibrand", "namib", "ciel etoile"],
   heroImage: {
     src: "/destination/namibie/hotel-sossusvlei-desert-lodge.webp",
-    alt: "Suite de pierre et de verre du Sossusvlei Desert Lodge face aux dunes du NamibRand",
+    alt: "Suites de pierre et de verre du Sossusvlei Desert Lodge posées dans les plaines du NamibRand",
   },
   destinationSlugs: ["namibie"],
   sections: [],
