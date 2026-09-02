@@ -32,16 +32,16 @@ export const destination: Destination = {
         "En juin, à Édimbourg, il fait encore jour à vingt-deux heures trente, et plus longtemps encore en montant vers le nord. Le matin, on se promène dans le parc d'un château que la même famille habite depuis trois siècles. Le soir, un whisky se sert avec le nom de la rivière qui l'a fait.",
       images: [
         {
-          src: "/destination/ecosse/hero-1.png",
-          alt: "Le château d'Édimbourg au-dessus de la vieille ville au petit matin, voyage en Écosse",
+          src: "/destination/ecosse/hero-1.webp",
+          alt: "Les flèches de la vieille ville d'Édimbourg au-dessus des arbres d'automne, voyage en Écosse",
         },
         {
-          src: "/destination/ecosse/hero-2.png",
-          alt: "Le château de Floors et son parc au bord de la Tweed, à Kelso dans les Borders",
+          src: "/destination/ecosse/hero-2.webp",
+          alt: "Joueur de cornemuse en tenue de cérémonie devant un mur de pierre, Édimbourg",
         },
         {
-          src: "/destination/ecosse/hero-3.png",
-          alt: "Les montagnes Cuillin de l'île de Skye au-dessus du loch, à la fin du jour",
+          src: "/destination/ecosse/hero-3.webp",
+          alt: "Le château d'Édimbourg au-dessus des arbres d'automne des jardins de Princes Street",
         },
       ],
     },
@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Écosse",
       heading: "Édimbourg, les Borders, puis la route du nord",
-      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+      cta: { label: "Construire ce voyage", href: "/reserver" },
       columns: [
         "Un voyage en Écosse commence par Édimbourg. La ville tient sur deux niveaux. En haut, la vieille ville accrochée à sa crête de basalte, avec le château à un bout et le palais de Holyrood à l'autre. En bas, la New Town géorgienne, dessinée d'un seul trait au dix-huitième siècle. On passe d'un monde à l'autre en dix minutes de marche.",
         "Une heure au sud, les Borders. C'est la vallée de la Tweed : des collines rondes, des abbayes ouvertes au ciel et des maisons de famille encore occupées. Le château de Floors, à Kelso, appartient toujours aux ducs de Roxburghe. On visite les salons, puis le jardin clos où poussent les légumes servis à table. L'ancien domaine de la famille est de l'autre côté de la rivière.",
@@ -77,8 +77,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/ecosse/full-image.png",
-        alt: "Route des Highlands traversant la vallée de Glencoe, voyage en Écosse",
+        src: "/destination/ecosse/full-image.webp",
+        alt: "Le château d'Édimbourg sur son rocher au-dessus de la ville en automne, voyage en Écosse",
       },
       height: 600,
     },
@@ -94,12 +94,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/ecosse/split-1.png",
+          src: "/destination/ecosse/split-1.webp",
           alt: "Salon du château de Floors, ses tapisseries et ses portraits de famille, Kelso",
         },
         {
-          src: "/destination/ecosse/split-2.png",
-          alt: "Bibliothèque d'Abbotsford, la maison de Walter Scott au bord de la Tweed",
+          src: "/destination/ecosse/split-2.webp",
+          alt: "Le Scott Monument et ses flèches de grès au-dessus des jardins de Princes Street, Édimbourg",
         },
       ],
     },
@@ -108,12 +108,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/ecosse/xp-whisky-1.png",
-          alt: "Six verres de dégustation alignés lors d'un atelier whisky privé à Édimbourg",
+          src: "/destination/ecosse/xp-whisky-1.webp",
+          alt: "Alambics en cuivre dans la salle de distillation d'une distillerie écossaise",
         },
         right: {
-          src: "/destination/ecosse/xp-whisky-2.png",
-          alt: "Expert en kilt versant un whisky lors d'une dégustation privée à Édimbourg",
+          src: "/destination/ecosse/xp-whisky-2.webp",
+          alt: "Verre de whisky posé sur une table sombre, dégustation privée à Édimbourg",
         },
       },
       text: {
@@ -155,7 +155,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Écosse",
       description:
         "Vol, monnaie, formalités et saisons : les repères qui permettent de poser les dates d'un voyage en Écosse.",
-      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+      cta: { label: "Construire ce voyage", href: "/reserver" },
       items: [
         {
           iconName: "plane",
@@ -214,17 +214,17 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Écosse. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+      cta: { label: "Construire ce voyage", href: "/reserver" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/ecosse/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/ecosse/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Écosse, d'Édimbourg aux Borders et à l'île de Skye",
-            "Adresses confidentielles en Écosse : maisons de famille et chais fermés au public",
-            "Hébergements en Écosse : train des Highlands, domaine ducal des Borders et maison d'Édimbourg",
+            "Service à bord du Royal Scotsman, adresses confidentielles en Écosse",
+            "Salon d'observation du Royal Scotsman ouvert sur la campagne écossaise",
             "Conciergerie privée 24/7 pour un voyage en Écosse",
-            "Expériences en Écosse : château de Floors, pêche à la mouche sur Skye et links d'East Lothian",
+            "Kilts et instruments avant une soirée de musique traditionnelle en Écosse",
           ][i],
         },
       })),
@@ -234,10 +234,10 @@ export const destination: Destination = {
       type: "placesMap",
       background: "bg-background-soft",
       eyebrow: "Les incontournables en Écosse",
-      heading: "Six étapes, d'Édimbourg à l'île de Skye",
+      heading: "Six étapes, d'Édimbourg aux Highlands de l'Ouest",
       description:
-        "Six étapes qui ne se ressemblent pas : une capitale sur deux niveaux, une vallée de grandes demeures, un cordon de links au bord de la mer, une vallée de distilleries, un défilé de montagnes et une île de rivières.",
-      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+        "Six étapes qui ne se ressemblent pas : une capitale sur deux niveaux, une vallée de grandes demeures, un cordon de links au bord de la mer, une vallée de distilleries, un défilé de montagnes et un viaduc que franchit un train à vapeur.",
+      cta: { label: "Construire ce voyage", href: "/reserver" },
       initialZoom: 6,
       places: [
         {
@@ -245,8 +245,8 @@ export const destination: Destination = {
           description:
             "Deux jours suffisent. Le château au bout de la crête, le Royal Mile qui descend jusqu'à Holyrood, et la New Town géorgienne en contrebas. En août, le Festival occupe toute la ville : théâtre, musique et spectacles de rue du matin au soir.",
           image: {
-            src: "/destination/ecosse/map-edimbourg.png",
-            alt: "Le Royal Mile et les toits de la vieille ville d'Édimbourg vus depuis la crête",
+            src: "/destination/ecosse/map-edimbourg.webp",
+            alt: "Façades de pierre et cheminées de la vieille ville d'Édimbourg",
           },
           // TODO: verify coords
           coordinates: { lat: 55.9533, lng: -3.1883 },
@@ -256,8 +256,8 @@ export const destination: Destination = {
           description:
             "La Tweed, des collines rondes et quatre abbayes médiévales. Le château de Floors domine la rivière et appartient toujours aux ducs de Roxburghe. Abbotsford, la maison de Walter Scott, est à trente minutes de route.",
           image: {
-            src: "/destination/ecosse/map-kelso.png",
-            alt: "La Tweed et les collines des Borders au pied du château de Floors, Kelso",
+            src: "/destination/ecosse/map-kelso.webp",
+            alt: "Les ruines de l'abbaye de Kelso au-dessus des arbres, dans les Borders",
           },
           // TODO: verify coords
           coordinates: { lat: 55.5967, lng: -2.4344 },
@@ -267,8 +267,8 @@ export const destination: Destination = {
           description:
             "Une trentaine de kilomètres de côte à l'est d'Édimbourg, et une douzaine de links posés sur la dune. Muirfield et North Berwick se suivent presque sans interruption, face à l'île de Bass Rock et à sa colonie de fous de Bassan.",
           image: {
-            src: "/destination/ecosse/map-east-lothian.png",
-            alt: "Green d'un links d'East Lothian au bord de la mer du Nord, près de North Berwick",
+            src: "/destination/ecosse/map-east-lothian.webp",
+            alt: "Le rocher de Bass Rock au large de la côte d'East Lothian",
           },
           // TODO: verify coords
           coordinates: { lat: 56.0578, lng: -2.7166 },
@@ -278,8 +278,8 @@ export const destination: Destination = {
           description:
             "La vallée de la Spey rassemble la plus forte concentration de distilleries du pays. Aberlour, Craigellachie et Glenfarclas se suivent sur quelques kilomètres. La rivière est aussi l'une des meilleures d'Europe pour le saumon.",
           image: {
-            src: "/destination/ecosse/map-speyside.png",
-            alt: "Alambics en cuivre d'une distillerie du Speyside, dans la vallée de la Spey",
+            src: "/destination/ecosse/map-speyside.webp",
+            alt: "Cols de cygne et alambics en cuivre d'une distillerie du Speyside",
           },
           // TODO: verify coords
           coordinates: { lat: 57.4711, lng: -3.2265 },
@@ -289,22 +289,22 @@ export const destination: Destination = {
           description:
             "Un défilé encaissé entre de grandes parois, ouvert sur la mer à son extrémité. La route le traverse en vingt minutes, et le vallon caché se gagne en une demi-journée de marche. Le Ben Nevis, plus haut sommet du pays, est juste au nord.",
           image: {
-            src: "/destination/ecosse/map-glencoe.png",
-            alt: "Les parois de la vallée de Glencoe et la route qui la traverse, Highlands de l'Ouest",
+            src: "/destination/ecosse/map-glencoe.webp",
+            alt: "La rivière et les sommets enneigés de la vallée de Glencoe",
           },
           // TODO: verify coords
           coordinates: { lat: 56.6816, lng: -5.1029 },
         },
         {
-          title: "L'île de Skye",
+          title: "Glenfinnan et le Jacobite",
           description:
-            "Les Cuillin d'un côté, une côte découpée de l'autre, et Portree comme seul vrai village. Les rivières y sont courtes et rapides : la truite de mer y monte en été. Un pont relie l'île au continent, à deux heures de Glencoe.",
+            "Le viaduc de Glenfinnan porte la voie sur vingt et une arches, au-dessus d'un vallon ouvert sur le loch Shiel. Le Jacobite, un train à vapeur, le franchit deux fois par jour en été. Depuis le centre d'accueil, un sentier monte en vingt minutes jusqu'au point de vue qui domine la courbe. La ligne se termine à Mallaig, d'où le ferry passe sur l'île de Skye.", // TODO: verify le nombre d'arches et la fréquence du train
           image: {
-            src: "/destination/ecosse/map-skye.png",
-            alt: "Le port coloré de Portree et les Cuillin en arrière-plan, île de Skye",
+            src: "/destination/ecosse/map-jacobite.webp",
+            alt: "Le Jacobite franchissant le viaduc de Glenfinnan dans un panache de vapeur",
           },
           // TODO: verify coords
-          coordinates: { lat: 57.4125, lng: -6.1946 },
+          coordinates: { lat: 56.8756, lng: -5.4331 },
         },
       ],
     },
@@ -316,7 +316,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Écosse",
       description:
         "Huit repères venus du terrain : la lumière, les routes, le whisky, la table, et ce qui se réserve très longtemps à l'avance.",
-      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+      cta: { label: "Construire ce voyage", href: "/reserver" },
       items: [
         {
           title: "La lumière du nord",
@@ -559,14 +559,14 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+      cta: { label: "Construire ce voyage", href: "/reserver" },
       testimonials: [
         {
           // TODO: replace with real testimonial
           quote:
             "Nous avons dormi trois nuits dans le train et nous nous sommes réveillés chaque matin devant un paysage différent. Le soir, on dînait à quai, quelque part dans les Highlands, avec les fenêtres ouvertes sur la vallée.",
           image: {
-            src: "/destination/ecosse/hero-1.png",
+            src: "/destination/ecosse/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -577,7 +577,7 @@ export const destination: Destination = {
           quote:
             "La visite de Floors s'est faite hors des horaires d'ouverture, il n'y avait personne d'autre dans les salons. On nous a montré le jardin clos, puis les légumes du soir sont arrivés de là.",
           image: {
-            src: "/destination/ecosse/hero-2.png",
+            src: "/destination/ecosse/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -588,7 +588,7 @@ export const destination: Destination = {
           quote:
             "Six verres, et à la fin j'étais capable de dire ce que j'aimais et pourquoi. L'expert a passé une heure à nous expliquer ce que la tourbe et le fût changent. Je ne bois plus de whisky de la même façon.",
           image: {
-            src: "/destination/ecosse/hero-3.png",
+            src: "/destination/ecosse/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Un train de nuit en acajou et tartan, parti de la gare de Waverley à Édimbourg. Il roule le jour, dort à quai la nuit, et il n'y a jamais plus d'une quarantaine de passagers à bord. Le wagon d'observation est ouvert sur la voie.", // TODO: verify le nombre de passagers
   keywords: ["ecosse", "highlands", "train", "belmond", "edimbourg"],
   heroImage: {
-    src: "/destination/ecosse/hotel-royal-scotsman.png",
-    alt: "Wagon d'observation du Royal Scotsman ouvert sur un paysage des Highlands",
+    src: "/destination/ecosse/hotel-royal-scotsman.webp",
+    alt: "Intérieur d'une cabine du Royal Scotsman, boiseries et salle de bains carrelée",
   },
   destinationSlugs: ["ecosse"],
   sections: [],
