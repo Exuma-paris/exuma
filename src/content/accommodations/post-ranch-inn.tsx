@@ -13,7 +13,7 @@ export const accommodation: Accommodation = {
     "cote pacifique",
   ],
   heroImage: {
-    src: "/destination/etats-unis/hotel-post-ranch-inn.png",
+    src: "/destination/etats-unis/hotel-post-ranch-inn.webp",
     alt: "Chambre du Post Ranch Inn en surplomb du Pacifique à Big Sur",
   },
   destinationSlugs: ["etats-unis"],
