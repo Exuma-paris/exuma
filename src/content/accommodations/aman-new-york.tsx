@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["new-york", "manhattan", "cinquieme-avenue", "midtown", "aman"],
   heroImage: {
     src: "/destination/new-york/hotel-aman.webp",
-    alt: "Jardin intérieur et cheminée de l'Aman New York, suspendus au-dessus de Manhattan",
+    alt: "Terrasse plantée et balustrade de l'Aman New York, au-dessus des toits de Manhattan",
   },
   destinationSlugs: ["new-york"],
   sections: [],

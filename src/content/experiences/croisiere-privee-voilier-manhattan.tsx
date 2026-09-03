@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["new-york", "manhattan", "voilier", "hudson", "port"],
   heroImage: {
     src: "/destination/new-york/xp-voilier-manhattan.webp",
-    alt: "Voilier sous voiles dans le port de New York face aux tours de Manhattan",
+    alt: "Voilier sous voiles dans le port, devant les tours du sud de Manhattan",
   },
   destinationSlugs: ["new-york"],
   sections: [],

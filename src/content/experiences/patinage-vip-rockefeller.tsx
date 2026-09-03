@@ -14,7 +14,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/new-york/xp-patinage-rockefeller.webp",
-    alt: "Patinoire du Rockefeller Center éclairée le soir, au pied des tours de Midtown",
+    alt: "La statue dorée de Prométhée au Rockefeller Center, au-dessus de la patinoire",
   },
   destinationSlugs: ["new-york"],
   sections: [],

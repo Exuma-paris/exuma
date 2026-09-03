@@ -33,11 +33,11 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/new-york/hero-1.webp",
-          alt: "Les gratte-ciel de Manhattan et Central Park à la lumière de fin de journée, voyage à New York",
+          alt: "Le pont de Brooklyn et les tours du sud de Manhattan au soleil couchant, voyage à New York",
         },
         {
           src: "/destination/new-york/hero-2.webp",
-          alt: "Salon de la Frick Collection, hôtel particulier de la Cinquième Avenue, Upper East Side",
+          alt: "Le pont de Manhattan encadré par les entrepôts de brique de Dumbo, à Brooklyn",
         },
         {
           src: "/destination/new-york/hero-3.webp",
@@ -78,7 +78,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/new-york/full-image.webp",
-        alt: "Vue sur Central Park et les immeubles de la Cinquième Avenue depuis les hauteurs, voyage à New York",
+        alt: "Central Park et les tours de Midtown vus du ciel en fin de journée, voyage à New York",
       },
       height: 600,
     },
@@ -95,11 +95,11 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/new-york/split-1.webp",
-          alt: "Tables sorties sur le trottoir d'une rue du West Village à la tombée du jour",
+          alt: "Perrons et rampes en fonte des maisons de brique d'une rue de Manhattan",
         },
         {
           src: "/destination/new-york/split-2.webp",
-          alt: "Façades en fonte et trottoirs larges d'une rue de Tribeca, sud de Manhattan",
+          alt: "Carrefour de Manhattan sous la pluie, vu d'en haut, avec un taxi jaune",
         },
       ],
     },
@@ -109,11 +109,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/new-york/xp-broadway-vip-1.webp",
-          alt: "Salle d'un théâtre de Broadway vue des premiers rangs avant le lever du rideau",
+          alt: "Deux comédiens en costume sur la scène d'un théâtre, entre les rideaux rouges",
         },
         right: {
           src: "/destination/new-york/xp-broadway-vip-2.webp",
-          alt: "Comédiens de Broadway attablés avec des spectateurs après la représentation",
+          alt: "Les ampoules d'une marquise de théâtre de Broadway vues d'en dessous",
         },
       },
       text: {
@@ -225,10 +225,10 @@ export const destination: Destination = {
           src: `/destination/new-york/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à New York, de l'Upper East Side au port de Manhattan",
-            "Adresses confidentielles à New York : collections privées, cabarets et tables réservées",
-            "Hébergements à New York : jardin suspendu, immeuble de cristal et gare maritime sur l'eau",
+            "Truffe noire râpée sur des pâtes, dans la salle d'un restaurant new-yorkais",
+            "Bassin intérieur bordé de cheminées dans un hôtel de Manhattan",
             "Conciergerie privée 24/7 pour un voyage à New York",
-            "Expériences à New York : coulisses de Broadway, patinoire privatisée et voilier dans le port",
+            "Soin dans la cabine d'un spa d'hôtel à New York",
           ][i],
         },
       })),
@@ -261,7 +261,7 @@ export const destination: Destination = {
             "Le seul quartier de Manhattan qui échappe au plan en damier : les rues s'y croisent de travers et les immeubles font quatre étages. Les tables sortent sur le trottoir dès que la lumière baisse, sur Bleecker et sur Cornelia. On y dîne tôt.",
           image: {
             src: "/destination/new-york/map-west-village.webp",
-            alt: "Rue de travers du West Village bordée de terrasses en fin de journée",
+            alt: "Rue du sud de Manhattan filant vers les tours du quartier des affaires",
           },
           // TODO: verify coords
           coordinates: { lat: 40.7358, lng: -74.0036 },
@@ -272,7 +272,7 @@ export const destination: Destination = {
             "Un ensemble de tours des années trente autour d'une place en creux. La place devient patinoire de novembre à mars, sous le sapin, et se privatise en fin de soirée. Le Sea Grill donne directement sur la glace.",
           image: {
             src: "/destination/new-york/map-rockefeller-center.webp",
-            alt: "Patinoire du Rockefeller Center éclairée sous le sapin de Noël, Midtown",
+            alt: "La statue d'Atlas éclairée la nuit, face à la cathédrale Saint-Patrick",
           },
           // TODO: verify coords
           coordinates: { lat: 40.7587, lng: -73.9787 },
@@ -294,7 +294,7 @@ export const destination: Destination = {
             "Un parc dessiné avant que les immeubles ne l'entourent, avec ses affleurements de roche, ses ponts en fonte et son réservoir. Chaque porte donne sur un parc différent : les rochers au sud, les prairies au centre, les bois au nord.",
           image: {
             src: "/destination/new-york/map-central-park.webp",
-            alt: "Allées et affleurements rocheux de Central Park au petit matin, Manhattan",
+            alt: "Central Park et les avenues qui le bordent, vus du ciel au lever du jour",
           },
           // TODO: verify coords
           coordinates: { lat: 40.7812, lng: -73.9665 },
@@ -305,7 +305,7 @@ export const destination: Destination = {
             "La pointe sud de l'île, là où les voiliers sortent et où les ferries partent pour Ellis Island. En face, Brooklyn et le quartier de Dumbo, sous les piles du pont. La ville se regarde de loin, ce qui n'arrive nulle part ailleurs à Manhattan.",
           image: {
             src: "/destination/new-york/map-port-dumbo.webp",
-            alt: "Voilier dans le port de New York face aux tours de Manhattan et au pont de Brooklyn",
+            alt: "Câbles et pylône du pont de Brooklyn depuis la passerelle piétonne",
           },
           // TODO: verify coords
           coordinates: { lat: 40.7033, lng: -74.017 },

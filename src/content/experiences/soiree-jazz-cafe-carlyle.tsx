@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["new-york", "cafe-carlyle", "jazz", "cabaret", "upper-east-side"],
   heroImage: {
     src: "/destination/new-york/xp-jazz-carlyle.webp",
-    alt: "Salle intime du Café Carlyle pendant un concert de jazz, Upper East Side",
+    alt: "Quartet de jazz sur scène, vu depuis une table de la salle",
   },
   destinationSlugs: ["new-york"],
   sections: [],
