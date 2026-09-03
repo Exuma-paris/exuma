@@ -1,31 +1,35 @@
 # Reference images — Panama
 
-Each generated image in `public/destination/panama/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
+Each generated image in `public/destination/panama/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.mjs` (Node port of `gen-images.py`, used because this workstation has no Python) to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference below. Pure preserve + grade: no `--instruction` was passed, so every composition is the reference's own.
 
-| Output                            | Reference file                        | Source URL | License |
-| --------------------------------- | ------------------------------------- | ---------- | ------- |
-| `hero-1.png`                      | `hero-1-ref.jpg`                      | TODO       | TODO    |
-| `hero-2.png`                      | `hero-2-ref.jpg`                      | TODO       | TODO    |
-| `hero-3.png`                      | `hero-3-ref.jpg`                      | TODO       | TODO    |
-| `full-image.png`                  | `full-image-ref.jpg`                  | TODO       | TODO    |
-| `split-1.png`                     | `split-1-ref.jpg`                     | TODO       | TODO    |
-| `split-2.png`                     | `split-2-ref.jpg`                     | TODO       | TODO    |
-| `xp-chocolat-ngobe-1.png`         | `xp-chocolat-ngobe-1-ref.jpg`         | TODO       | TODO    |
-| `xp-chocolat-ngobe-2.png`         | `xp-chocolat-ngobe-2-ref.jpg`         | TODO       | TODO    |
-| `xp-coiba.png`                    | `xp-coiba-ref.jpg`                    | TODO       | TODO    |
-| `xp-bioluminescence.png`          | `xp-bioluminescence-ref.jpg`          | TODO       | TODO    |
-| `xp-bateau-prive.png`             | `xp-bateau-prive-ref.jpg`             | TODO       | TODO    |
-| `hotel-sofitel-casco-viejo.png`   | `hotel-sofitel-casco-viejo-ref.jpg`   | TODO       | TODO    |
-| `hotel-santa-maria.png`           | `hotel-santa-maria-ref.jpg`           | TODO       | TODO    |
-| `hotel-islas-secas.png`           | `hotel-islas-secas-ref.jpg`           | TODO       | TODO    |
-| `bento-map.png`                   | `bento-map-ref.jpg`                   | TODO       | TODO    |
-| `bento-adresses.png`              | `bento-adresses-ref.jpg`              | TODO       | TODO    |
-| `bento-hebergements.png`          | `bento-hebergements-ref.jpg`          | TODO       | TODO    |
-| `bento-conciergerie.png`          | `bento-conciergerie-ref.jpg`          | TODO       | TODO    |
-| `bento-experiences.png`           | `bento-experiences-ref.jpg`           | TODO       | TODO    |
-| `map-canal.png`                   | `map-canal-ref.jpg`                   | TODO       | TODO    |
-| `map-casco-viejo.png`             | `map-casco-viejo-ref.jpg`             | TODO       | TODO    |
-| `map-guna-yala.png`               | `map-guna-yala-ref.jpg`               | TODO       | TODO    |
-| `map-bocas-del-toro.png`          | `map-bocas-del-toro-ref.jpg`          | TODO       | TODO    |
-| `map-boquete.png`                 | `map-boquete-ref.jpg`                 | TODO       | TODO    |
-| `map-coiba.png`                   | `map-coiba-ref.jpg`                   | TODO       | TODO    |
+References were supplied directly by Exuma (dropped into this folder), not downloaded from a stock library — hence no source URL. Output masters are 16:9 WebP at 4K.
+
+| Output                            | Reference file                        | Source                | License |
+| --------------------------------- | ------------------------------------- | --------------------- | ------- |
+| `hero-1.webp`                     | `hero-1-ref.png`                      | fournie par Exuma     | interne |
+| `hero-2.webp`                     | `hero-2-ref.png`                      | fournie par Exuma     | interne |
+| `hero-3.webp`                     | `hero-3-ref.png`                      | fournie par Exuma     | interne |
+| `full-image.webp`                 | `full-image-ref.png`                  | fournie par Exuma     | interne |
+| `split-1.webp`                    | `split-1-ref.png`                     | fournie par Exuma     | interne |
+| `split-2.webp`                    | `split-2-ref.png`                     | fournie par Exuma     | interne |
+| `xp-chocolat-ngobe-1.webp`        | `xp-chocolat-ngobe-1-ref.png`         | fournie par Exuma     | interne |
+| `xp-chocolat-ngobe-2.webp`        | `xp-chocolat-ngobe-2-ref.png`         | fournie par Exuma     | interne |
+| `xp-coiba.webp`                   | `xp-coiba-ref.png`                    | fournie par Exuma     | interne |
+| `xp-bioluminescence.webp`         | `xp-bioluminescence-ref.png`          | fournie par Exuma     | interne |
+| `xp-bateau-prive.webp`            | `xp-bateau-prive-ref.png`             | fournie par Exuma     | interne |
+| `hotel-sofitel-casco-viejo.webp`  | `hotel-sofitel-casco-viejo-ref.png`   | fournie par Exuma     | interne |
+| `hotel-santa-maria.webp`          | `hotel-santa-maria-ref.png`           | fournie par Exuma     | interne |
+| `hotel-islas-secas.webp`          | `hotel-islas-secas-ref.png`           | TODO : non fournie    | TODO    |
+| `bento-map.webp`                  | `bento-map-ref.png`                   | TODO : non fournie    | TODO    |
+| `bento-adresses.webp`             | `bento-adresses-ref.png`              | fournie par Exuma     | interne |
+| `bento-hebergements.webp`         | `bento-hebergements-ref.png`          | fournie par Exuma     | interne |
+| `bento-conciergerie.webp`         | `bento-conciergerie-ref.png`          | TODO : non fournie    | TODO    |
+| `bento-experiences.webp`          | `bento-experiences-ref.png`           | fournie par Exuma     | interne |
+| `map-canal.webp`                  | `map-canal-ref.png`                   | TODO : non fournie    | TODO    |
+| `map-casco-viejo.webp`            | `map-casco-viejo-ref.png`             | fournie par Exuma     | interne |
+| `map-guna-yala.webp`              | `map-guna-yala-ref.png`               | fournie par Exuma     | interne |
+| `map-bocas-del-toro.webp`         | `map-bocas-del-toro-ref.png`          | fournie par Exuma     | interne |
+| `map-boquete.webp`                | `map-boquete-ref.png`                 | TODO : non fournie    | TODO    |
+| `map-coiba.webp`                  | `map-coiba-ref.png`                   | fournie par Exuma     | interne |
+
+Une seconde variante de `bento-hebergements` a été déposée (`bento-hebergements.png (2).png`) et laissée de côté : c'est la première qui a été retenue.

@@ -13,7 +13,7 @@ export const experience: Experience = {
     "caraibes",
   ],
   heroImage: {
-    src: "/destination/panama/xp-bioluminescence.png",
+    src: "/destination/panama/xp-bioluminescence.webp",
     alt: "Traînées de plancton bioluminescent dans une baie sombre de Bocas del Toro",
   },
   destinationSlugs: ["panama"],

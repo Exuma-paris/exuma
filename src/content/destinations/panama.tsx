@@ -32,15 +32,15 @@ export const destination: Destination = {
         "Guna Yala aligne trois cent soixante-cinq îles sur la côte caraïbe, dont une cinquantaine seulement sont habitées. Coiba abrite le deuxième plus grand récif corallien du Pacifique oriental. Entre les deux, une capitale, sa vieille ville espagnole et le canal. Nous écrivons ces itinéraires étape par étape.",
       images: [
         {
-          src: "/destination/panama/hero-1.png",
+          src: "/destination/panama/hero-1.webp",
           alt: "Îles de l'archipel de Guna Yala au Panama vues depuis la mer",
         },
         {
-          src: "/destination/panama/hero-2.png",
+          src: "/destination/panama/hero-2.webp",
           alt: "Façades colorées et clochers du Casco Viejo devant les tours de Panama City",
         },
         {
-          src: "/destination/panama/hero-3.png",
+          src: "/destination/panama/hero-3.webp",
           alt: "Caféiers en terrasses sur les pentes du volcan Barú à Boquete",
         },
       ],
@@ -77,7 +77,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/panama/full-image.png",
+        src: "/destination/panama/full-image.webp",
         alt: "Voyage au Panama : forêt et récifs du parc national de Coiba au lever du jour",
       },
       height: 600,
@@ -94,11 +94,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/panama/split-1.png",
+          src: "/destination/panama/split-1.webp",
           alt: "Cueilleuse triant des cerises de café geisha dans une finca de Boquete",
         },
         {
-          src: "/destination/panama/split-2.png",
+          src: "/destination/panama/split-2.webp",
           alt: "Îlots inhabités du golfe de Chiriquí vus depuis les Islas Secas",
         },
       ],
@@ -108,11 +108,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/panama/xp-chocolat-ngobe-1.png",
+          src: "/destination/panama/xp-chocolat-ngobe-1.webp",
           alt: "Cabosses de cacao ouvertes sur une table de bois dans un village ngöbe",
         },
         right: {
-          src: "/destination/panama/xp-chocolat-ngobe-2.png",
+          src: "/destination/panama/xp-chocolat-ngobe-2.webp",
           alt: "Broyage des fèves de cacao à la pierre chez une famille ngöbe de Bocas del Toro",
         },
       },
@@ -226,7 +226,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/panama/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/panama/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Panama entre Guna Yala, Boquete et le golfe de Chiriquí",
             "Adresses confidentielles au Panama : fincas de café et îles privées",
@@ -253,7 +253,7 @@ export const destination: Destination = {
           description:
             "Les écluses de Miraflores se regardent depuis une plateforme, à quelques mètres des navires. La ville derrière aligne ses tours, ses marchés de poisson et le Biomuseo dessiné par Frank Gehry.",
           image: {
-            src: "/destination/panama/map-canal.png",
+            src: "/destination/panama/map-canal.webp",
             alt: "Cargo franchissant les écluses de Miraflores sur le canal de Panama",
           },
           // TODO: verify coords
@@ -264,7 +264,7 @@ export const destination: Destination = {
           description:
             "La vieille ville espagnole, inscrite au patrimoine mondial, tient sur une pointe face à la baie. Ruelles pavées, cours intérieures, toits-terrasses : le contraste avec les tours d'en face se voit d'un seul regard.",
           image: {
-            src: "/destination/panama/map-casco-viejo.png",
+            src: "/destination/panama/map-casco-viejo.webp",
             alt: "Ruelle pavée et balcons de bois du Casco Viejo à Panama City",
           },
           // TODO: verify coords
@@ -275,7 +275,7 @@ export const destination: Destination = {
           description:
             "Une comarca autonome administrée par les Guna, sur un chapelet d'îles de sable et de cocotiers. On y vient avec leur accord, on y dort simplement, et la nuit ne porte aucune lumière artificielle.",
           image: {
-            src: "/destination/panama/map-guna-yala.png",
+            src: "/destination/panama/map-guna-yala.webp",
             alt: "Île de sable et cocotiers de l'archipel de Guna Yala au Panama",
           },
           // TODO: verify coords
@@ -286,7 +286,7 @@ export const destination: Destination = {
           description:
             "Un archipel de mangrove et de récifs, des maisons sur pilotis, et des villages ngöbe où le cacao pousse sous les grands arbres. La nuit, certaines baies s'allument au moindre mouvement dans l'eau.",
           image: {
-            src: "/destination/panama/map-bocas-del-toro.png",
+            src: "/destination/panama/map-bocas-del-toro.webp",
             alt: "Maisons sur pilotis et eaux calmes de l'archipel de Bocas del Toro",
           },
           // TODO: verify coords
@@ -297,7 +297,7 @@ export const destination: Destination = {
           description:
             "À 1 200 mètres, l'air est frais et la brume passe deux fois par jour. Les fincas de Chiriquí y cultivent le geisha, et le sommet du Barú se gravit de nuit pour arriver au lever du jour.",
           image: {
-            src: "/destination/panama/map-boquete.png",
+            src: "/destination/panama/map-boquete.webp",
             alt: "Vallée de Boquete sous la brume, au pied du volcan Barú",
           },
           // TODO: verify coords
@@ -308,7 +308,7 @@ export const destination: Destination = {
           description:
             "Un archipel privé du golfe de Chiriquí, à une heure de bateau du parc national de Coiba. Baleines de passage, requins-baleines, tortues : la réserve marine fait la valeur de l'endroit.",
           image: {
-            src: "/destination/panama/map-coiba.png",
+            src: "/destination/panama/map-coiba.webp",
             alt: "Récif et eaux claires du parc national marin de Coiba au Panama",
           },
           // TODO: verify coords
@@ -588,7 +588,7 @@ export const destination: Destination = {
           quote:
             "L'atelier cacao dans le village ngöbe est ce dont nos enfants parlent encore. Ils ont ouvert les cabosses, broyé les fèves et repris deux fois du déjeuner. On est repartis avec trois tablettes emballées dans du papier.",
           image: {
-            src: "/destination/panama/hero-1.png",
+            src: "/destination/panama/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -599,7 +599,7 @@ export const destination: Destination = {
           quote:
             "Coiba au premier créneau du matin, avec un guide pour nous seuls. Requins-baleines le deuxième jour. Le soir, on dînait à quatre sur une île où il n'y avait personne d'autre.",
           image: {
-            src: "/destination/panama/hero-2.png",
+            src: "/destination/panama/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -610,7 +610,7 @@ export const destination: Destination = {
           quote:
             "Deux nuits à Guna Yala, puis Boquete et le café. Le passage d'un monde à l'autre a été organisé sans que nous ayons un seul transfert à gérer.",
           image: {
-            src: "/destination/panama/hero-3.png",
+            src: "/destination/panama/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
