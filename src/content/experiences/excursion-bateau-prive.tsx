@@ -13,7 +13,7 @@ export const experience: Experience = {
     "dauphins",
   ],
   heroImage: {
-    src: "/destination/panama/xp-bateau-prive.png",
+    src: "/destination/panama/xp-bateau-prive.webp",
     alt: "Bateau privé au mouillage devant un îlot du golfe de Chiriquí au coucher du soleil",
   },
   destinationSlugs: ["panama"],
