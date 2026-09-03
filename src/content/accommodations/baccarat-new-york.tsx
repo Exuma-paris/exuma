@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["new-york", "manhattan", "midtown", "baccarat", "cristal"],
   heroImage: {
     src: "/destination/new-york/hotel-baccarat.webp",
-    alt: "Salon du Baccarat Hotel New York et ses lustres de cristal, Midtown",
+    alt: "Le bar du Baccarat Hotel New York, son lustre de cristal et son mur de bouteilles",
   },
   destinationSlugs: ["new-york"],
   sections: [],

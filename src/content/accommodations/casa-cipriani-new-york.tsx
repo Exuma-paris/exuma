@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["new-york", "manhattan", "battery-park", "cipriani", "port"],
   heroImage: {
     src: "/destination/new-york/hotel-casa-cipriani.webp",
-    alt: "Façade de l'ancienne gare maritime abritant Casa Cipriani, à Battery Park",
+    alt: "Le bar en terrasse du Casa Cipriani, face aux tours du sud de Manhattan",
   },
   destinationSlugs: ["new-york"],
   sections: [],
