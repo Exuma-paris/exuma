@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Le voilier quitte la pointe sud de l'île pour deux heures. On longe la Statue de la Liberté, on coupe le moteur au large, et Manhattan se regarde enfin de loin. Le cap se décide à bord.",
   keywords: ["new-york", "manhattan", "voilier", "hudson", "port"],
   heroImage: {
-    src: "/destination/new-york/xp-voilier-manhattan.png",
-    alt: "Voilier sous voiles dans le port de New York face aux tours de Manhattan",
+    src: "/destination/new-york/xp-voilier-manhattan.webp",
+    alt: "Voilier sous voiles dans le port, devant les tours du sud de Manhattan",
   },
   destinationSlugs: ["new-york"],
   sections: [],
