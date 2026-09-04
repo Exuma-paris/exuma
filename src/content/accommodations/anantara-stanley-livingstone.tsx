@@ -7,7 +7,7 @@ export const accommodation: Accommodation = {
     "Une maison de dix-sept suites posée sur sa propre réserve, à vingt minutes des chutes. Les rhinocéros y sont suivis à pied avec les gardes, et le grondement du fleuve s'entend depuis la véranda.", // TODO: verify (nombre de suites)
   keywords: ["zimbabwe", "victoria falls", "zambeze", "reserve privee", "rhinoceros"],
   heroImage: {
-    src: "/destination/zimbabwe/hotel-stanley-livingstone.png",
+    src: "/destination/zimbabwe/hotel-stanley-livingstone.webp",
     alt: "Véranda et jardins de l'Anantara Stanley & Livingstone, près des chutes Victoria",
   },
   destinationSlugs: ["zimbabwe"],
