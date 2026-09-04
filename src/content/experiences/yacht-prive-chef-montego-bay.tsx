@@ -12,8 +12,8 @@ export const experience: Experience = {
     "Le bateau quitte Montego Bay pour la journée, avec un chef à bord et dix personnes au maximum. Mouillage dans une baie pour le snorkeling, déjeuner servi sur le pont, retour à la lumière de fin d'après-midi.",
   keywords: ["jamaique", "montego bay", "yacht prive", "chef", "snorkeling"],
   heroImage: {
-    src: "/destination/jamaique/xp-yacht-montego-bay.png",
-    alt: "Yacht privé au mouillage dans une baie turquoise au large de Montego Bay",
+    src: "/destination/jamaique/xp-yacht-montego-bay.webp",
+    alt: "Ponton de bois avançant dans une eau claire, voilier au large de Montego Bay",
   },
   destinationSlugs: ["jamaique"],
   sections: [],
