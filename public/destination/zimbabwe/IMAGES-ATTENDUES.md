@@ -2,52 +2,56 @@
 
 Dossier : `public/destination/zimbabwe/`
 
-**0 sur 25 présentes.** Il manque 25 images.
+**19 sur 25 présentes.** Il manque 6 images.
 
-Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
+Les fichiers sont au format `.webp` : ils sont produits à partir d'une photo de référence déposée dans `references/destination/zimbabwe/` sous le nom `<nom>-ref.jpg` (ou `.png`), puis passés au filtre Exuma. Déposez la photo de référence, pas le fichier final.
+
+Attention : la photo de référence doit remplir tout le cadre, sans marge blanche autour. Une photo posée au centre d'un fond blanc ressort avec ses bandes blanches.
 
 ## Carrousel du hero
 
-- [ ] `hero-1.png`
-- [ ] `hero-2.png`
-- [ ] `hero-3.png`
+- [x] `hero-1.webp`
+- [x] `hero-2.webp`
+- [x] `hero-3.webp`
 
 ## Bandeau pleine largeur
 
-- [ ] `full-image.png`
+- [x] `full-image.webp`
 
 ## Section texte et images
 
-- [ ] `split-1.png`
-- [ ] `split-2.png`
+- [x] `split-1.webp`
+- [x] `split-2.webp`
 
 ## Expériences
 
-- [ ] `xp-chutes-a-pied-1.png`
-- [ ] `xp-chutes-a-pied-2.png`
-- [ ] `xp-croisiere-zambeze.png`
-- [ ] `xp-helico-chutes.png`
-- [ ] `xp-safari-vehicule.png`
+- [x] `xp-chutes-a-pied-1.webp`
+- [x] `xp-chutes-a-pied-2.webp`
+- [x] `xp-croisiere-zambeze.webp`
+- [ ] `xp-helico-chutes.webp` — vue aérienne des chutes et des gorges en zigzag
+- [x] `xp-safari-vehicule.webp`
 
 ## Hébergements
 
-- [ ] `hotel-linkwasha.png`
-- [ ] `hotel-pamushana.png`
-- [ ] `hotel-stanley-livingstone.png`
+- [x] `hotel-stanley-livingstone.webp`
+- [x] `hotel-linkwasha.webp`
+- [x] `hotel-pamushana.webp`
 
-## Bloc bento
+## Bloc Exuma
 
-- [ ] `bento-adresses.png`
-- [ ] `bento-conciergerie.png`
-- [ ] `bento-experiences.png`
-- [ ] `bento-hebergements.png`
-- [ ] `bento-map.png`
+- [ ] `bento-map.webp` — image d'ambiance pour « Création d'itinéraires »
+- [x] `bento-adresses.webp`
+- [x] `bento-hebergements.webp`
+- [ ] `bento-conciergerie.webp` — image d'ambiance pour « Conciergerie 24/7 »
+- [x] `bento-experiences.webp`
 
-## Carte interactive
+## Carte des étapes
 
-- [ ] `map-great-zimbabwe.png`
-- [ ] `map-hwange.png`
-- [ ] `map-malilangwe.png`
-- [ ] `map-mana-pools.png`
-- [ ] `map-matobo.png`
-- [ ] `map-victoria-falls.png`
+- [ ] `map-victoria-falls.webp` — les chutes depuis la rive zimbabwéenne
+- [x] `map-hwange.webp`
+- [ ] `map-mana-pools.webp` — un bras du Zambèze et la forêt claire d'albidas
+- [x] `map-matobo.webp`
+- [x] `map-great-zimbabwe.webp`
+- [ ] `map-malilangwe.webp` — les falaises de Chilojo ou la brousse du sud-est
+
+Les portraits des témoignages réutilisent `hero-1`, `hero-2` et `hero-3` : aucun fichier supplémentaire.
