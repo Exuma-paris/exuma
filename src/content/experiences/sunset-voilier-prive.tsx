@@ -13,7 +13,7 @@ export const experience: Experience = {
     "navigation",
   ],
   heroImage: {
-    src: "/destination/anguilla/xp-sunset-voilier.png",
+    src: "/destination/anguilla/xp-sunset-voilier.webp",
     alt: "Vieux voilier privatisé naviguant au coucher du soleil au large d'Anguilla",
   },
   destinationSlugs: ["anguilla"],
