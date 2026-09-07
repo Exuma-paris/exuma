@@ -7,7 +7,7 @@ export const accommodation: Accommodation = {
     "Des villas blanches à toits en dôme, posées en arc sur la courbe de Maundays Bay, face aux montagnes de Saint-Martin. Le sable arrive au pas des chambres et la plage fait plus d'un kilomètre pour une centaine de clefs.",
   keywords: ["anguilla", "maundays bay", "cap juluca", "belmond", "villa"],
   heroImage: {
-    src: "/destination/anguilla/hotel-cap-juluca.png",
+    src: "/destination/anguilla/hotel-cap-juluca.webp",
     alt: "Villas blanches à dômes de Cap Juluca alignées sur la plage de Maundays Bay",
   },
   destinationSlugs: ["anguilla"],
