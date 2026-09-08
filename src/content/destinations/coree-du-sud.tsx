@@ -37,11 +37,11 @@ export const destination: Destination = {
         },
         {
           src: "/destination/coree-du-sud/hero-2.png",
-          alt: "Pavillon de bois et étang de lotus du Jardin secret de Changdeokgung",
+          alt: "Le rocher d'Oedolgae et la côte de falaises volcaniques de l'île de Jeju",
         },
         {
           src: "/destination/coree-du-sud/hero-3.png",
-          alt: "Plongeuses haenyeo remontant sur les rochers noirs de l'île de Jeju",
+          alt: "Cour intérieure d'un palais royal de Séoul, charpente peinte et volets verts",
         },
       ],
     },
