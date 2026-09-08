@@ -9,7 +9,7 @@ metadata:
 
 Scaffold a new destination as a typed `Destination` data object that the dynamic route at `src/app/destinations/[slug]/page.tsx` renders via `<DestinationPage>`. Mirror the canonical section list from the Polynésie reference at `src/content/destinations/polynesie.tsx`. A short seven-question interview (see below) gathers the name, place type, persona(s), the hotel/experience selection, the specialist, and related destinations; everything else — slug, continent, structure, copy, factual placeholders, the entity stubs — is generated from those answers. The image binaries are produced afterward in the chained image phase (reference → `gen-images.py` → preview), one at a time.
 
-Always read `STYLE.md` and `REFERENCE.md` in this same folder before writing data. STYLE.md owns the editorial voice; REFERENCE.md owns the `Section` discriminated-union shape and the entity stub shape.
+Always read `.claude/STYLE.md` (the global layer, and it wins on conflict), then `STYLE.md` and `REFERENCE.md` in this same folder, before writing data. The global file owns the two hard rules that apply to every surface: no em dashes, and never frame copy on what the reader would get wrong. The local STYLE.md owns the editorial voice; REFERENCE.md owns the `Section` discriminated-union shape and the entity stub shape.
 
 ## Bound-entity model (read this first)
 
@@ -257,11 +257,18 @@ Bad — true of forty other destinations:
 - `Une destination magnifique que nous connaissons bien et dont nous avons hâte de parler avec vous.`
 - `Plages de rêve, culture millénaire et hospitalité légendaire vous y attendent.`
 
+Bad — specific, but framed on what the reader would get wrong (see `.claude/STYLE.md` § 2):
+- `Le pays se referme vite si l'on reste sur la route principale.` → `Le pays s'ouvre dès qu'on quitte la route principale.`
+- `Un itinéraire qui ignore ce décalage manque la moitié du pays.` → `Suivre ce décalage, c'est tenir les deux moitiés du pays.`
+
+The note answers someone who has just written the name of a place they want to go. It confirms the choice and shows what we know there. It never warns, never implies the trip could be botched, never puts the reader in the wrong. Read the sentence back and ask: does it congratulate, or does it caution? Only the first ships.
+
 STYLE.md applies here as everywhere: no em-dashes, no superlatives, no « rêve » / « paradis » / « incontournable ».
 
 ### 4. Read reference files
 
 Before writing anything, read:
+- `.claude/STYLE.md` — **the global writing rules**, mandatory and winning over anything below: no em dashes (§ 1), and positive framing for statements and FAQ questions alike (§ 2).
 - `STYLE.md` (this folder) — **the editorial voice spec.** Single source of truth for sentence rhythm, allowed/forbidden vocabulary, anti-cliché rewrites, per-section copy rules, and three proof-of-voice excerpts. Mandatory for every paragraph you write (including entity blurbs).
 - `REFERENCE.md` (this folder) — `Section` shape per type, plus the Experience and Accommodation entity stub shapes.
 - `src/content/destinations/polynesie.tsx` — Polynésie reference (copy register + section ordering, with bound `entityList` sections)

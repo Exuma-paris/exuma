@@ -8,7 +8,7 @@ export const destination: Destination = {
   country: "Vietnam",
   genitive: "du Vietnam",
   projectNote:
-    "Le pays se referme vite si l'on reste sur la route principale. Entre Hanoï et Hué il y a une autre histoire : une jonque qui dort dans une crique de la baie de Lan Ha, une cour impériale presque vide.",
+    "Le pays s'ouvre dès qu'on quitte la route principale. Entre Hanoï et Hué, une jonque qui dort dans une crique de la baie de Lan Ha, une cour impériale que peu de voyageurs prennent le temps de voir.",
   continentSlug: "asie",
   blurb: "Hanoï, Hué, baie de Lan Ha, Sa Pa, Nha Trang",
   keywords: [

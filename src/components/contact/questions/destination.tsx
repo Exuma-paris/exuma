@@ -74,6 +74,7 @@ export function DestinationQuestionView({
         label={question.label ?? "Votre destination"}
         type="text"
         autoComplete="off"
+        required
         value={value.text}
         onChange={(e) => {
           const text = e.target.value;

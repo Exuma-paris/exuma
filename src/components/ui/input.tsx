@@ -33,6 +33,7 @@ export function Input({
   onFocus,
   onBlur,
   disabled,
+  required,
   ...rest
 }: InputProps) {
   const generatedId = useId();
@@ -93,6 +94,14 @@ export function Input({
             )}
           >
             {label}
+            {/* L'astérisque est décorative : `required` sur le champ dit déjà
+                l'obligation aux lecteurs d'écran, et la faire lire donnerait
+                « Nom complet étoile ». */}
+            {required ? (
+              <span aria-hidden className="ml-0.5 text-[#888684]">
+                *
+              </span>
+            ) : null}
           </label>
           <input
             id={inputId}
@@ -102,6 +111,7 @@ export function Input({
             onFocus={handleFocus}
             onBlur={handleBlur}
             disabled={disabled}
+            required={required}
             className="absolute inset-0 w-full bg-transparent px-3 pt-6 pb-2 text-[15px] leading-6 text-foreground outline-none disabled:cursor-not-allowed"
             {...rest}
           />
