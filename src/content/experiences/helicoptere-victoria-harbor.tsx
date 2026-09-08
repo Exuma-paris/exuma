@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["chine", "hong kong", "helicoptere", "victoria harbor", "survol"],
   heroImage: {
     src: "/destination/chine/xp-helicoptere-victoria-harbor.webp",
-    alt: "Vue des gratte-ciels de Hong Kong et de Victoria Harbor depuis un hélicoptère",
+    alt: "Les gratte-ciels de Hong Kong et Victoria Harbor dominés par le Victoria Peak",
   },
   destinationSlugs: ["chine"],
   sections: [],

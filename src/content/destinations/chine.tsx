@@ -33,15 +33,15 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/chine/hero-1.webp",
-          alt: "Voyage en Chine : la Grande Muraille suivant la crête à Jinshanling, au lever du jour",
+          alt: "Voyage en Chine : la Grande Muraille suivant une crête boisée, au lever du jour",
         },
         {
           src: "/destination/chine/hero-2.webp",
-          alt: "Toits de la Cité interdite vus depuis la colline de Jingshan, à Pékin",
+          alt: "Avant-toits sculptés et laqués d'un pavillon chinois traditionnel",
         },
         {
           src: "/destination/chine/hero-3.webp",
-          alt: "Rizières en terrasses et village de bois dans les montagnes du Guizhou",
+          alt: "Rangées de guerriers de l'armée de terre cuite dans leur fosse, près de Xi'an",
         },
       ],
     },
@@ -78,7 +78,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/chine/full-image.webp",
-        alt: "Voyage en Chine : le lac de l'Ouest à Hangzhou dans la brume du matin",
+        alt: "Voyage en Chine : pitons de grès boisés émergeant de la brume du matin",
       },
       height: 600,
     },
@@ -95,7 +95,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/chine/split-1.webp",
-          alt: "Cuisinier découpant un canard laqué devant la table, à Pékin",
+          alt: "Deux clientes attablées devant la devanture de brique d'une maison de thé",
         },
         {
           src: "/destination/chine/split-2.webp",
@@ -226,10 +226,10 @@ export const destination: Destination = {
           src: `/destination/chine/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Chine, de Pékin à Shanghai et aux montagnes du Yunnan",
-            "Adresses confidentielles en Chine : maisons de thé, ateliers d'artisans et tables de chefs",
-            "Hébergements en Chine : shikumen de Shanghai et maisons de pierre du Yunnan",
+            "Adresses confidentielles en Chine : une table dressée face aux neiges du Jade Dragon",
+            "Hébergements en Chine : galeries de bois et lanternes d'un salon d'hôtel",
             "Conciergerie privée 24/7 pour un voyage en Chine",
-            "Expériences en Chine : Grande Muraille privatisée, villages du Guizhou et survol de Hong Kong",
+            "Expériences en Chine : un pavillon privatisé et sa table dressée au-dessus des toits",
           ][i],
         },
       })),
@@ -251,7 +251,7 @@ export const destination: Destination = {
             "La capitale s'ordonne sur un grand axe nord-sud, de la Cité interdite au temple du Ciel. Les hutongs, ces ruelles de maisons basses à cour carrée, occupent encore des quartiers entiers autour du lac Houhai.",
           image: {
             src: "/destination/chine/map-pekin.webp",
-            alt: "Cour intérieure d'une maison de hutong dans le vieux Pékin",
+            alt: "Le temple du Ciel encadré par les portes rouges de son enceinte, à Pékin",
           },
           // TODO: verify coords
           coordinates: { lat: 39.9042, lng: 116.4074 },
@@ -273,7 +273,7 @@ export const destination: Destination = {
             "Sur une rive, les façades des années 1920 du Bund. Sur l'autre, les tours de Pudong. Entre les deux, l'ancienne concession française, ses platanes et ses ruelles de shikumen, ces maisons mitoyennes de brique à porte de pierre.",
           image: {
             src: "/destination/chine/map-shanghai.webp",
-            alt: "Ruelle de shikumen bordée de platanes dans l'ancienne concession française de Shanghai",
+            alt: "Les tours de Pudong vues depuis le Bund à la tombée du jour, à Shanghai",
           },
           // TODO: verify coords
           coordinates: { lat: 31.2304, lng: 121.4737 },
@@ -284,7 +284,7 @@ export const destination: Destination = {
             "Une ville posée autour d'un lac que les peintres chinois copient depuis mille ans. Les collines de thé de Longjing commencent au bout des faubourgs, et le Grand Canal, creusé à la main sur des siècles, s'achève ici.",
           image: {
             src: "/destination/chine/map-hangzhou.webp",
-            alt: "Barque sur le lac de l'Ouest à Hangzhou, avec les collines en arrière-plan",
+            alt: "Pagode dominant la forêt et la ville de Hangzhou au crépuscule",
           },
           // TODO: verify coords
           coordinates: { lat: 30.2741, lng: 120.1551 },
@@ -295,7 +295,7 @@ export const destination: Destination = {
             "Une vieille ville de canaux et de pavés, posée au pied du Jade Dragon. Les Naxi y vivent depuis des siècles et ont gardé la dernière écriture pictographique encore en usage au monde.",
           image: {
             src: "/destination/chine/map-lijiang.webp",
-            alt: "Toits et canaux de la vieille ville de Lijiang, au pied du Jade Dragon",
+            alt: "Lanternes rouges suspendues aux maisons de bois de la vieille ville de Lijiang",
           },
           // TODO: verify coords
           coordinates: { lat: 26.8721, lng: 100.2299 },
@@ -306,7 +306,7 @@ export const destination: Destination = {
             "La province la plus montagneuse du pays, et la moins parcourue. Autour de Kaili, les villages miao et dong se tiennent sur les crêtes, avec leurs tours du tambour en bois assemblées sans un seul clou.",
           image: {
             src: "/destination/chine/map-guizhou.webp",
-            alt: "Village dong et tour du tambour en bois sur une crête du Guizhou",
+            alt: "Village miao aux toits de bois s'étageant sur un versant du Guizhou, à la nuit tombante",
           },
           // TODO: verify coords
           coordinates: { lat: 26.5833, lng: 107.9817 },

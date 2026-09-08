@@ -66,11 +66,16 @@ import { destination as jordanie } from "@/content/destinations/jordanie";
 import { destination as norvege } from "@/content/destinations/norvege";
 import { destination as islande } from "@/content/destinations/islande";
 import { destination as irlande } from "@/content/destinations/irlande";
+import { destination as ecosse } from "@/content/destinations/ecosse";
 import { destination as losCabos } from "@/content/destinations/los-cabos";
 import { destination as montenegro } from "@/content/destinations/montenegro";
 import { destination as coreeDuSud } from "@/content/destinations/coree-du-sud";
+import { destination as madagascar } from "@/content/destinations/madagascar";
 import { destination as australie } from "@/content/destinations/australie";
 import { destination as chine } from "@/content/destinations/chine";
+import { destination as arabieSaoudite } from "@/content/destinations/arabie-saoudite";
+import { destination as jamaique } from "@/content/destinations/jamaique";
+import { destination as zimbabwe } from "@/content/destinations/zimbabwe";
 
 import { continent as europe } from "@/content/continents/europe";
 import { continent as afrique } from "@/content/continents/afrique";
@@ -276,6 +281,21 @@ import { experience as helicoptereVictoriaHarbor } from "@/content/experiences/h
 import { experience as midletonMaitreDistillateur } from "@/content/experiences/midleton-maitre-distillateur";
 import { experience as fauconnerieAshford } from "@/content/experiences/fauconnerie-ashford";
 import { experience as oldHeadKinsale } from "@/content/experiences/old-head-kinsale";
+import { experience as chateauFloors } from "@/content/experiences/chateau-floors";
+import { experience as pecheMoucheSkye } from "@/content/experiences/peche-mouche-skye";
+import { experience as linksEastLothian } from "@/content/experiences/links-east-lothian";
+import { experience as tsingyRouges } from "@/content/experiences/tsingy-rouges";
+import { experience as alleeBaobabsAube } from "@/content/experiences/allee-baobabs-aube";
+import { experience as baleinesSainteMarie } from "@/content/experiences/baleines-sainte-marie";
+import { experience as montgolfiereHegra } from "@/content/experiences/montgolfiere-hegra";
+import { experience as landRoverVintageDadan } from "@/content/experiences/land-rover-vintage-dadan";
+import { experience as elephantRockHeureDoree } from "@/content/experiences/elephant-rock-heure-doree";
+import { experience as cafeBlueMountains } from "@/content/experiences/cafe-blue-mountains";
+import { experience as yachtPriveChefMontegoBay } from "@/content/experiences/yacht-prive-chef-montego-bay";
+import { experience as appletonEstateRhums } from "@/content/experiences/appleton-estate-rhums";
+import { experience as safariVehiculeHwange } from "@/content/experiences/safari-vehicule-hwange";
+import { experience as croisierePremiumZambeze } from "@/content/experiences/croisiere-premium-zambeze";
+import { experience as helicoptereChutesVictoria } from "@/content/experiences/helicoptere-chutes-victoria";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -452,6 +472,21 @@ import { accommodation as banyanTreeHangzhou } from "@/content/accommodations/ba
 import { accommodation as ashfordCastle } from "@/content/accommodations/ashford-castle";
 import { accommodation as adareManor } from "@/content/accommodations/adare-manor";
 import { accommodation as cliffHouseArdmore } from "@/content/accommodations/cliff-house-ardmore";
+import { accommodation as royalScotsman } from "@/content/accommodations/royal-scotsman";
+import { accommodation as schlossRoxburghe } from "@/content/accommodations/schloss-roxburghe";
+import { accommodation as princesStreet100 } from "@/content/accommodations/100-princes-street";
+import { accommodation as timeTideMiavana } from "@/content/accommodations/time-tide-miavana";
+import { accommodation as constanceTsarabanjina } from "@/content/accommodations/constance-tsarabanjina";
+import { accommodation as anjajavyLeLodge } from "@/content/accommodations/anjajavy-le-lodge";
+import { accommodation as darTantora } from "@/content/accommodations/dar-tantora";
+import { accommodation as ourHabitasAlula } from "@/content/accommodations/our-habitas-alula";
+import { accommodation as redSeaEdition } from "@/content/accommodations/red-sea-edition";
+import { accommodation as roundHill } from "@/content/accommodations/round-hill";
+import { accommodation as tryallClub } from "@/content/accommodations/tryall-club";
+import { accommodation as strawberryHill } from "@/content/accommodations/strawberry-hill";
+import { accommodation as anantaraStanleyLivingstone } from "@/content/accommodations/anantara-stanley-livingstone";
+import { accommodation as linkwashaCamp } from "@/content/accommodations/linkwasha-camp";
+import { accommodation as singitaPamushana } from "@/content/accommodations/singita-pamushana";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -467,15 +502,18 @@ const toMap = <T extends { slug: string }>(items: T[]): Record<string, T> =>
   Object.fromEntries(items.map((i) => [i.slug, i]));
 
 export const destinations: Record<string, Destination> = toMap([
+  arabieSaoudite,
   afriqueDuSud,
   botswana,
   corse,
   costaRica,
+  ecosse,
   egypte,
   indonesie,
   irlande,
   islande,
   jordanie,
+  madagascar,
   marrakech,
   maurice,
   montenegro,
@@ -525,6 +563,8 @@ export const destinations: Record<string, Destination> = toMap([
   coreeDuSud,
   australie,
   chine,
+  jamaique,
+  zimbabwe,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -550,10 +590,16 @@ export const themes: Record<string, Theme> = toMap([
 export const subthemes: Record<string, Subtheme> = toMap([]);
 
 export const experiences: Record<string, Experience> = toMap([
+  elephantRockHeureDoree,
+  landRoverVintageDadan,
+  montgolfiereHegra,
+  alleeBaobabsAube,
   ascensionMontBromo,
   atelierLesage,
   atelierSambaMangueira,
   aubeHadzabeLacEyasi,
+  baleinesSainteMarie,
+  chateauFloors,
   acropoleHorsHeures,
   apoReefPlongeePrivee,
   arlbergPeauDePhoque,
@@ -647,6 +693,7 @@ export const experiences: Record<string, Experience> = toMap([
   soireeBossaNovaIpanema,
   lagonMoorea,
   lavezzi,
+  linksEastLothian,
   louvrePriveNocturne,
   marcheBushmenSan,
   midletonMaitreDistillateur,
@@ -664,6 +711,7 @@ export const experiences: Record<string, Experience> = toMap([
   olduvaiPaleoanthropologue,
   parcNamibNaukluft,
   pecheMoorea,
+  pecheMoucheSkye,
   rizieresIfugao,
   pecheSkreiLofoten,
   plongeeMerRougeAqaba,
@@ -679,6 +727,7 @@ export const experiences: Record<string, Experience> = toMap([
   sossusvleiDeadvlei,
   survolAtlasBiplan,
   tirtaEmpulForetSinges,
+  tsingyRouges,
   valleeRoisTombesFermees,
   viaAppiaVespa,
   vinCorse,
@@ -733,6 +782,12 @@ export const experiences: Record<string, Experience> = toMap([
   spectacleEraShanghai,
   villagesEthniquesGuizhou,
   helicoptereVictoriaHarbor,
+  cafeBlueMountains,
+  yachtPriveChefMontegoBay,
+  appletonEstateRhums,
+  safariVehiculeHwange,
+  croisierePremiumZambeze,
+  helicoptereChutesVictoria,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -746,6 +801,9 @@ export const serviceCategories: Record<string, ServiceCategory> = toMap([
 export const services: Record<string, Service> = toMap([]);
 
 export const accommodations: Record<string, Accommodation> = toMap([
+  darTantora,
+  ourHabitasAlula,
+  redSeaEdition,
   alMoudiraLouxor,
   amanjena,
   amanSvetiStefan,
@@ -753,6 +811,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   amankila,
   amanpuri,
   anantaraAlJabalAlAkhdar,
+  anjajavyLeLodge,
   ashfordCastle,
   belmondCopacabanaPalace,
   amanoi,
@@ -785,6 +844,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   fairmontChateauLakeLouise,
   fogoIslandInn,
   chevalBlancParis,
+  constanceTsarabanjina,
   cliffHouseArdmore,
   dahabiehPrivatiseeNil,
   darAhlam,
@@ -841,8 +901,11 @@ export const accommodations: Record<string, Accommodation> = toMap([
   oldCataractAssouan,
   oneOnlyPortonovi,
   pashaSantaTeresa,
+  princesStreet100,
   regentPortoMontenegro,
   royalMansour,
+  royalScotsman,
+  schlossRoxburghe,
   royalPalmBeachcomber,
   sasekaTentedCamp,
   singitaSasakwaLodge,
@@ -850,6 +913,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   skalakot,
   sossusvleiDesertLodge,
   tawana,
+  timeTideMiavana,
   umiHotel,
   vingtDegresSud,
   zannierSonop,
@@ -919,6 +983,12 @@ export const accommodations: Record<string, Accommodation> = toMap([
   amandayan,
   capellaShanghai,
   banyanTreeHangzhou,
+  roundHill,
+  tryallClub,
+  strawberryHill,
+  anantaraStanleyLivingstone,
+  linkwashaCamp,
+  singitaPamushana,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([

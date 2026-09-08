@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Dans une vallée du Jura, un petit atelier ouvre ses portes pour vous seuls. On démonte une montre, on la remonte, et l’horloger raconte son métier tout en travaillant.",
   keywords: ["suisse", "vallee de joux", "horlogerie", "jura", "atelier"],
   heroImage: {
-    src: "/destination/suisse/xp-atelier-horloger.png",
+    src: "/destination/suisse/xp-atelier-horloger.webp",
     alt: "Établi d’horloger et mouvement démonté dans un atelier de la Vallée de Joux",
   },
   destinationSlugs: ["suisse"],
