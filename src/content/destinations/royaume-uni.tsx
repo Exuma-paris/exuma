@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Royaume-Uni",
   genitive: "du Royaume-Uni",
+  projectNote:
+    "Une maison de famille du Deeside n'a pas d'enseigne, un tailleur de Savile Row ne reçoit pas sans être présenté, et le meilleur beat de la Spey se loue longtemps à l'avance.",
   continentSlug: "europe",
   blurb: "Mayfair, Cotswolds, Speyside, Hébrides",
   keywords: [

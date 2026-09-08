@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Maroc",
   genitive: "du Maroc",
+  projectNote:
+    "On y est attendu. On pousse une porte qui ne dit rien depuis la rue, et il y a déjà du thé, une conversation, quelqu'un qui prend le temps. À Fès, un brodeur montre ses outils comme des photos.",
   continentSlug: "afrique",
   blurb: "Fès, Haut Atlas, Dadès, Sahara",
   keywords: [

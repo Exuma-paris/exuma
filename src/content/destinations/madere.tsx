@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Portugal",
   genitive: "de Madère",
+  projectNote:
+    "On vient pour la douceur du climat, on repart avec un matin dans la brume, un sentier au-dessus des nuages, une table dressée au milieu des vignes. Tout tient à l'heure où on les place.",
   continentSlug: "europe",
   blurb: "Funchal, les levadas, Fanal, Porto Moniz",
   keywords: [

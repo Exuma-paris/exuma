@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Irlande",
   genitive: "de l'Irlande",
+  projectNote:
+    "On croit y aller pour les paysages, ce sont les gens dont on parle en rentrant. Un verre dans un pub de Dingle, quelqu'un se met à raconter, trois musiciens s'installent au fond, la soirée est faite.",
   continentSlug: "europe",
   blurb: "Dublin, le Connemara, le Kerry, la côte du Cork",
   keywords: [

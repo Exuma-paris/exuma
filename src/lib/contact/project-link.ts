@@ -66,6 +66,7 @@ export function prefilledDestinationAnswers(
             slug: entry.slug,
             name: entry.name,
             subject: entry.subject,
+            note: entry.note,
             highlights: entry.highlights,
           },
         ],

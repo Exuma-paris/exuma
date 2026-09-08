@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Arabie Saoudite",
   genitive: "de l'Arabie Saoudite",
+  projectNote:
+    "À AlUla, cent onze tombeaux nabatéens taillés dans le grès rouge. Nous entrons à Hegra en début de matinée, quand les façades sont encore dans l'ombre et le site à nous.",
   continentSlug: "proche-orient",
   blurb: "AlUla, Hegra, Sharaan, la mer Rouge",
   keywords: [

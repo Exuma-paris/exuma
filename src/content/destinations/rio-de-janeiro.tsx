@@ -7,6 +7,8 @@ export const destination: Destination = {
   name: "Rio de Janeiro",
   country: "Brésil",
   genitive: "de Rio de Janeiro",
+  projectNote:
+    "La ville change deux fois par jour. Le matin les plages se remplissent par couches, une famille à six heures, un coureur à sept. Après dix-sept heures, c'est l'inverse. Tout part de là.",
   placeKind: "city",
   continentSlug: "ameriques",
   blurb: "Copacabana, Ipanema, Santa Teresa, Corcovado, Lapa",

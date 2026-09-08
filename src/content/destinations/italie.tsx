@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Italie",
   genitive: "de l'Italie",
+  projectNote:
+    "Un vigneron qui ouvre une bouteille de votre année de naissance, un conservateur qui vous laisse seuls dans une salle. Notre travail consiste à vous asseoir en face d'eux.",
   continentSlug: "europe",
   blurb: "Florence, Venise, la Toscane, les Dolomites",
   keywords: [

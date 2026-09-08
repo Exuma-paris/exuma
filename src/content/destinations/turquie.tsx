@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Turquie",
   genitive: "de la Turquie",
+  projectNote:
+    "Le pays demande du temps. Istanbul a besoin de quelques jours pour cesser d'être une image, la Cappadoce se donne au lever du jour, et la côte lycienne se savoure depuis un bateau.",
   continentSlug: "proche-orient",
   blurb: "Istanbul, la Cappadoce, Éphèse, la côte lycienne",
   keywords: [

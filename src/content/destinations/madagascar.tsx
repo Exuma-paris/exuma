@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Madagascar",
   genitive: "de Madagascar",
+  projectNote:
+    "Le seul pays où nous ne reconnaissons rien de ce que nous connaissons ailleurs : les arbres, les animaux, la couleur de la terre. À Anjajavy, la forêt sèche commence derrière la terrasse.",
   continentSlug: "afrique",
   blurb: "Le Nord, Anjajavy, les baobabs, Andasibe",
   keywords: [

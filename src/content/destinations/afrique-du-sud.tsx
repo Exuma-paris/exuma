@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Afrique du Sud",
   genitive: "de l'Afrique du Sud",
+  projectNote:
+    "Trois heures de route y suffisent à changer de climat : Le Cap entre montagne et deux océans, les grès peints du Cederberg, puis les réserves privées sans clôture avec le Kruger.",
   continentSlug: "afrique",
   blurb: "Le Cap, Cederberg, réserves privées du Kruger",
   keywords: [

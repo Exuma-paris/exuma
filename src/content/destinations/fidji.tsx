@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Fidji",
   genitive: "des Fidji",
+  projectNote:
+    "Un pays dont les routes sont des couloirs de mer. Il y a toujours un soir où l'on cesse de compter les jours, assis sur une natte, dans un village dont on ignorait le nom le matin même.",
   continentSlug: "iles-oceanie",
   blurb: "Les Yasawa, Kadavu, les îles Lau",
   keywords: [

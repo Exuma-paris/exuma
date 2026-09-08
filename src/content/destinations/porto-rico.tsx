@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Porto Rico", // TODO: verify — territoire non incorporé des États-Unis, traité ici comme un pays autonome dans l'arborescence
   genitive: "de Porto Rico",
+  projectNote:
+    "L'île se lit en climats, pas en kilomètres. En une demi-journée, on passe du Vieux San Juan à la canopée d'El Yunque, puis on prend un petit avion pour Vieques.",
   continentSlug: "ameriques",
   blurb: "San Juan colonial, forêt tropicale, îles bioluminescentes",
   keywords: [

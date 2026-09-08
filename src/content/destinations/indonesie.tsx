@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Indonésie",
   genitive: "de l'Indonésie",
+  projectNote:
+    "Bali concentre l'essentiel de la demande et le sud de l'île en souffre. Nous commençons par les volcans de Java, reprenons Bali par l'intérieur, puis Komodo en phinisi.",
   continentSlug: "asie",
   blurb: "Ubud, Komodo, Sumba",
   keywords: [

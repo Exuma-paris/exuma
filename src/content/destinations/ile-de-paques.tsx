@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Chili",
   genitive: "de l'île de Pâques",
+  projectNote:
+    "Rapa Nui ne ressemble à aucune autre étape chilienne : on y parle une langue polynésienne, on y mange le poisson sorti de terre. Nous plaçons cette étape en fin de voyage, jamais au début.",
   continentSlug: "ameriques", // rattachée au Chili dans l'arborescence, même si l'île est polynésienne
   blurb: "Rapa Nui, Rano Raraku, Tongariki, Orongo",
   keywords: [

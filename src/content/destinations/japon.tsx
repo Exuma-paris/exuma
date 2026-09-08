@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Japon",
   genitive: "du Japon",
+  projectNote:
+    "Nous y ouvrons des portes qui restent fermées aux visiteurs : sous-temples de Kyoto, écuries de sumo, ateliers d'artisans. Dix ans de relations sur place, pas un catalogue.",
   continentSlug: "asie",
   blurb: "Tokyo, Kyoto, Mont Fuji, Kanazawa, Nara",
   keywords: [

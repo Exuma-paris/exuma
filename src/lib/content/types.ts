@@ -55,6 +55,22 @@ export type Destination = EntityBase & {
    * destination is findable regardless of this field.
    */
   placeKind?: "country" | "region" | "city";
+  /**
+   * Ce que nous répondons quand quelqu'un écrit cette destination dans le
+   * formulaire « Créer votre voyage ». Une phrase, écrite pour cet endroit-là
+   * et pour aucun autre : ce que nous y connaissons, ce qui s'y joue, ce que
+   * nous savons y obtenir. Elle s'affiche telle quelle, sous le champ, à la
+   * suite de « <Destination>, très beau choix. » que le gabarit pose.
+   *
+   * Contrainte : 220 caractères au plus, 160 en cible. Au-delà, la phrase
+   * passe à quatre lignes sur mobile et pousse le bouton « Continuer » sous
+   * la ligne de flottaison. `node scripts/check-project-notes.mjs`
+   * la vérifie.
+   *
+   * Omise, le gabarit se rabat sur une phrase construite à partir du `blurb`.
+   * C'est un filet, pas une cible : chaque fiche mérite la sienne.
+   */
+  projectNote?: string;
   continentSlug?: string;
   themeSlugs?: string[];
   accommodationSlugs?: string[];

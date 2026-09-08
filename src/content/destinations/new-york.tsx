@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "city",
   country: "États-Unis",
   genitive: "de New York",
+  projectNote:
+    "On n'y va pas pour se reposer, on y va pour être dedans. À vingt-deux heures la 8e Avenue se remplit d'un coup, les théâtres vident leurs salles et les tables tournent une deuxième fois.",
   continentSlug: "ameriques",
   blurb: "Manhattan, Broadway, le Village, le port",
   keywords: [

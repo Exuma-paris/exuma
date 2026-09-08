@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Antigua-et-Barbuda",
   genitive: "d'Antigua",
+  projectNote:
+    "Une plage par jour de l'année, et Barbuda à une heure de bateau avec ses dix-sept kilomètres de sable rose. Nous réservons la traversée avant l'hôtel, jamais l'inverse.",
   continentSlug: "ameriques",
   blurb: "English Harbour, Barbuda, villas privées",
   keywords: [

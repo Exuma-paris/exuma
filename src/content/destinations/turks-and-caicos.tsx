@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Caraïbes",
   genitive: "des Turks and Caicos",
+  projectNote:
+    "On ne suit pas un programme, on suit la mer. Nous laissons trois options par journée et le capitaine tranche le matin selon le vent : le tombant de West Caicos si c'est calme, les hauts-fonds sinon.",
   continentSlug: "caraibes",
   blurb: "Grace Bay, Parrot Cay, le mur de West Caicos",
   keywords: [

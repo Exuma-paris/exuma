@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Caraïbes",
   genitive: "de Saint-Vincent-et-les-Grenadines",
+  projectNote:
+    "On vient rarement pour une seule île. Les traversées durent une heure, parfois moins, et l'on finit par vivre au rythme du bateau. Nous construisons le séjour autour de ce mouvement.",
   continentSlug: "caraibes",
   blurb: "Mustique, Bequia, Canouan, les Tobago Cays",
   keywords: [

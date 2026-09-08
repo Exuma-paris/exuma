@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Australie",
   genitive: "de l'Australie",
+  projectNote:
+    "Le froid du désert à cinq heures du matin à Uluru, la voix d'un guide anangu qui raconte sa terre, puis trois mille kilomètres jusqu'au récif. Le pays demande du temps, et il le rend.",
   continentSlug: "iles-oceanie",
   blurb: "Uluru, la Grande Barrière, le Top End",
   keywords: [

@@ -7,6 +7,8 @@ export const destination: Destination = {
   name: "Kenya",
   country: "Kenya",
   genitive: "du Kenya",
+  projectNote:
+    "Un même voyage commence dans une concession privée du Masaï Mara, sans un autre camp visible à l'horizon, et se termine sur l'océan Indien en moins d'une heure de vol intérieur.",
   placeKind: "country",
   continentSlug: "afrique",
   // La première image du hero montre la traversée de la Mara, presque identique

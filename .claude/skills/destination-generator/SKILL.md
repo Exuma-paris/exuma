@@ -237,6 +237,28 @@ Format: pre-prefixed with `de`/`du`/`d'` so it slots straight into "Spécialiste
 
 If genuinely uncertain (e.g. invented destination), pick the most likely article and flag with `// TODO: verify genitive` on the same line.
 
+### 3c. Write the `projectNote`
+
+The sentence the form answers with when someone types this destination into « Créer votre voyage ». It appears under the field, right after « <Destination>, très beau choix. » which the template supplies — so the note picks up mid-conversation and never repeats the name.
+
+Write it **for this place and no other**. It must say something a reader could not have guessed and could not read on a competitor's page: what we know there, who opens a door for us, what the trip actually turns on. Take the material from the page you have just written — the hero description, the specialist quote, the `featureShowcase` details — never from general knowledge about the country.
+
+Constraint: **220 characters maximum, 160 on target.** Past 220 the sentence runs to four lines on mobile and pushes the « Continuer » button below the fold. Verify with:
+
+```bash
+node scripts/check-project-notes.mjs
+```
+
+Good — specific, sourced from the page:
+- Afrique du Sud: `Trois heures de route y suffisent à changer de climat : Le Cap entre montagne et deux océans, les grès peints du Cederberg, puis les réserves privées sans clôture avec le Kruger.`
+- Japon: `Nous y ouvrons des portes qui restent fermées aux visiteurs : sous-temples de Kyoto, écuries de sumo, ateliers d'artisans. Dix ans de relations sur place, pas un catalogue.`
+
+Bad — true of forty other destinations:
+- `Une destination magnifique que nous connaissons bien et dont nous avons hâte de parler avec vous.`
+- `Plages de rêve, culture millénaire et hospitalité légendaire vous y attendent.`
+
+STYLE.md applies here as everywhere: no em-dashes, no superlatives, no « rêve » / « paradis » / « incontournable ».
+
 ### 4. Read reference files
 
 Before writing anything, read:
@@ -268,6 +290,8 @@ export const destination: Destination = {
   placeKind: "<country | region | city — from Q2>",
   country: "<parent country (French) — see step 3>",
   genitive: "<French genitive — see step 3b>",
+  projectNote:
+    "<one sentence written for this place, max 220 chars — see step 3c>",
   continentSlug: "<one of the 6 continent slugs>",
   blurb: "<one-line teaser, 4–8 words>",
   keywords: [

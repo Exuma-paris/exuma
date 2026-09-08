@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "États-Unis",
   genitive: "des États-Unis",
+  projectNote:
+    "Ce que nous organisons, ce sont les moments qu'on ne réserve pas soi-même : un canyon navajo ouvert pour vous seuls au lever du jour, un chai de la Napa, une galerie du Metropolitan avant l'heure.",
   continentSlug: "ameriques",
   blurb: "Le plateau du Colorado, Big Sur, New York",
   keywords: [

@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Jordanie",
   genitive: "de la Jordanie",
+  projectNote:
+    "Une journée ne suffit pas à Pétra, et nous le disons avant de parler du reste. La plupart des visiteurs s'arrêtent au Khazneh alors que les vallées derrière sont vides.",
   continentSlug: "proche-orient",
   blurb: "Pétra, Wadi Rum, mer Morte",
   keywords: [

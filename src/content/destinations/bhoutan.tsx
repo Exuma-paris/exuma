@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Bhoutan",
   genitive: "du Bhoutan",
+  projectNote:
+    "Rien ne s'y obtient par la porte principale. Un moine ouvre une salle avant le jour, une famille du Bumthang met un couvert de plus. Nous travaillons avec ceux qui ouvrent ces portes.",
   continentSlug: "asie",
   blurb: "Paro, Punakha, Phobjikha, Bumthang",
   keywords: [

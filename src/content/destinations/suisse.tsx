@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Suisse",
   genitive: "de la Suisse",
+  projectNote:
+    "Le pays a la réputation d'être facile. Il l'est, jusqu'au jour où l'on veut autre chose que ce qui se réserve en ligne : une maison au bout d'une route, un atelier d'horloger ouvert pour vous seuls.",
   continentSlug: "europe",
   blurb: "Gstaad, Zermatt, l’Engadine, le Tessin",
   keywords: [

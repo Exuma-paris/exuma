@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Zimbabwe",
   genitive: "du Zimbabwe",
+  projectNote:
+    "Le pays a l'école de guides la plus exigeante d'Afrique : des années d'examens avant d'avoir le droit de marcher devant des clients. On ne regarde pas les animaux de la même façon.",
   continentSlug: "afrique",
   blurb: "Chutes Victoria, Hwange, Mana Pools, Matobo",
   keywords: [

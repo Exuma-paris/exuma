@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Émirats arabes unis",
   genitive: "des Émirats arabes unis",
+  projectNote:
+    "Les villes d'abord, musées et souks dans la douceur du matin, puis le désert qui donne au voyage son silence. Une réserve où seuls les hôtes entrent, un fauconnier qui reçoit chez lui.",
   continentSlug: "proche-orient",
   blurb: "Abu Dhabi, Sharjah, le Rub al-Khali, Dubaï",
   keywords: [

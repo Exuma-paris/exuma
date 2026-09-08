@@ -84,10 +84,13 @@ export type DestinationIndexEntry = {
   /** Extra spellings worth matching (keywords from the registry entry). */
   aliases?: string[];
   /**
-   * Le `blurb` de la fiche : les lieux que nous y connaissons pour une
-   * destination ("Tokyo, Kyoto, Mont Fuji"), une phrase d'ambiance pour un
-   * continent. Sert à répondre quelque chose de propre à l'endroit cité
-   * plutôt qu'une formule valable partout.
+   * La phrase écrite pour cette destination (`projectNote` sur la fiche).
+   * C'est elle qui répond quand quelqu'un tape ce nom.
+   */
+  note?: string;
+  /**
+   * Filet : le `blurb` de la fiche, faute de `note`. Les lieux que nous y
+   * connaissons pour une destination, une phrase d'ambiance pour un continent.
    */
   highlights?: string;
 };
@@ -184,6 +187,7 @@ export type DestinationAnswer = {
     slug: string;
     name: string;
     subject: string;
+    note?: string;
     highlights?: string;
   }[];
 };

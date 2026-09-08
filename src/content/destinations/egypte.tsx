@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Égypte",
   genitive: "de l'Égypte",
+  projectNote:
+    "Dans la tombe de Séti Ier, les bleus du plafond astronomique n'ont jamais été repeints : le pigment d'origine, posé il y a trente-trois siècles. Louxor, Assouan, Siwa, dans l'ordre du fleuve.",
   continentSlug: "afrique",
   blurb: "Le Nil, Louxor, Assouan, Siwa",
   keywords: [

@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Panama",
   genitive: "du Panama",
+  projectNote:
+    "Le pays se lit côte par côte. Le Pacifique et la Caraïbe n'ont ni la même saison sèche, ni les mêmes adresses : un itinéraire qui ignore ce décalage manque la moitié du Panama.",
   continentSlug: "ameriques",
   blurb: "Guna Yala, Bocas del Toro, Boquete, Coiba",
   keywords: [

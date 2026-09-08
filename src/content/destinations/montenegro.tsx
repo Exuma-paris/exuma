@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Monténégro",
   genitive: "du Monténégro",
+  projectNote:
+    "Les Bouches de Kotor s'enfoncent sur vingt-huit kilomètres entre les Alpes dinariques. Plus au nord, le canyon de la Tara creuse 1 300 mètres. La baie mérite plus qu'une journée.",
   continentSlug: "europe",
   blurb: "Baie de Kotor, Sveti Stefan, Durmitor, Perast",
   keywords: [

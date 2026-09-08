@@ -57,6 +57,7 @@ export function buildDestinationIndex(): DestinationIndexEntry[] {
       name: d.name,
       subject: subjectFromGenitive(d.genitive, d.name),
       keywords: d.keywords ?? [],
+      note: d.projectNote,
       highlights: textOrUndefined(d.blurb),
     })),
     ...Object.values(continents).map((c) => ({
@@ -65,6 +66,7 @@ export function buildDestinationIndex(): DestinationIndexEntry[] {
       name: c.name,
       subject: CONTINENT_SUBJECTS[c.slug] ?? c.name,
       keywords: c.keywords ?? [],
+      note: undefined,
       highlights: textOrUndefined(c.blurb),
     })),
   ];
@@ -76,11 +78,12 @@ export function buildDestinationIndex(): DestinationIndexEntry[] {
     }
   }
 
-  return entries.map(({ kind, slug, name, subject, keywords, highlights }) => ({
+  return entries.map(({ kind, slug, name, subject, keywords, note, highlights }) => ({
     kind,
     slug,
     name,
     subject,
+    note,
     highlights,
     aliases: keywords.filter((k) => uses.get(k.toLowerCase()) === 1),
   }));

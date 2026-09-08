@@ -5,6 +5,8 @@ export const destination: Destination = {
   name: "Corse",
   country: "France",
   genitive: "de la Corse",
+  projectNote:
+    "Une montagne plongée dans la mer. Criques rejointes en bateau privé, bergeries au cœur du maquis, tables et vignerons qui ne sont dans aucun guide.",
   placeKind: "region",
   continentSlug: "europe",
   blurb: "Bonifacio, Calvi, Sartenais, Cap Corse, Lavezzi",

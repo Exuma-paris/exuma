@@ -50,9 +50,13 @@ export function DestinationQuestionView({
         : "ces destinations";
     const lead = single ? "très beau choix" : "très beau programme";
 
-    // Une seule destination reconnue : on répond ce que nous connaissons
-    // d'elle plutôt qu'une formule qui vaudrait pour n'importe où. Les lieux
-    // viennent du `blurb` de la fiche, donc du même endroit que la page.
+    // Une seule destination reconnue : c'est sa propre phrase qui répond,
+    // écrite sur la fiche (`projectNote`). Rien n'est fabriqué ici.
+    const note = single ? shown[0].note?.trim() : undefined;
+    if (note) return `${list}, ${lead}. ${note}`;
+
+    // Filet, tant qu'une fiche n'a pas la sienne : les lieux de son `blurb`,
+    // qui restent propres à l'endroit même si la tournure ne l'est pas.
     const highlights = single ? shown[0].highlights?.trim() : undefined;
     if (highlights) {
       const body = highlights.replace(/[.\s]+$/, "");
