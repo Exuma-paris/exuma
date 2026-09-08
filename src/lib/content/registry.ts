@@ -14,6 +14,7 @@ import type {
 } from "./types";
 
 import { destination as colombie } from "@/content/destinations/colombie";
+import { destination as danemark } from "@/content/destinations/danemark";
 import { destination as bresil } from "@/content/destinations/bresil";
 import { destination as corse } from "@/content/destinations/corse";
 import { destination as espagne } from "@/content/destinations/espagne";
@@ -360,6 +361,9 @@ import { experience as vinPeljesacDingac } from "@/content/experiences/vin-pelje
 import { experience as observationOrangsOutansKinabatangan } from "@/content/experiences/observation-orangs-outans-kinabatangan";
 import { experience as trekDanumValley } from "@/content/experiences/trek-danum-valley";
 import { experience as patrimoineGeorgeTown } from "@/content/experiences/patrimoine-george-town";
+import { experience as atelierDesignCopenhague } from "@/content/experiences/atelier-design-copenhague";
+import { experience as croisiereIlesDanoises } from "@/content/experiences/croisiere-iles-danoises";
+import { experience as visitePriveeChateauxRoyaux } from "@/content/experiences/visite-privee-chateaux-royaux";
 
 import { accommodation as theBrando } from "@/content/accommodations/the-brando";
 import { accommodation as leTahaa } from "@/content/accommodations/le-tahaa";
@@ -598,6 +602,9 @@ import { accommodation as villaSheherezade } from "@/content/accommodations/vill
 import { accommodation as theDataiLangkawi } from "@/content/accommodations/the-datai-langkawi";
 import { accommodation as bungaRayaIslandResort } from "@/content/accommodations/bunga-raya-island-resort";
 import { accommodation as sukauRainforestLodge } from "@/content/accommodations/sukau-rainforest-lodge";
+import { accommodation as dragsholmSlot } from "@/content/accommodations/dragsholm-slot";
+import { accommodation as nimbHotelCopenhague } from "@/content/accommodations/nimb-hotel-copenhague";
+import { accommodation as hotelSanders } from "@/content/accommodations/hotel-sanders";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
 import { collaborateur as blanche } from "@/content/collaborateurs/blanche";
@@ -624,6 +631,7 @@ export const destinations: Record<string, Destination> = toMap([
   corse,
   costaRica,
   croatie,
+  danemark,
   ecosse,
   egypte,
   etatsUnis,
@@ -963,6 +971,9 @@ export const experiences: Record<string, Experience> = toMap([
   observationOrangsOutansKinabatangan,
   trekDanumValley,
   patrimoineGeorgeTown,
+  atelierDesignCopenhague,
+  croisiereIlesDanoises,
+  visitePriveeChateauxRoyaux,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -1208,6 +1219,9 @@ export const accommodations: Record<string, Accommodation> = toMap([
   theDataiLangkawi,
   bungaRayaIslandResort,
   sukauRainforestLodge,
+  dragsholmSlot,
+  nimbHotelCopenhague,
+  hotelSanders,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
