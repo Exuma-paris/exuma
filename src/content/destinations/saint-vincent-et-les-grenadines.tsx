@@ -653,9 +653,9 @@ export const destination: Destination = {
             "Une semaine tient confortablement sur une base et quelques journées de mer. On garde une journée entière pour le parc marin des Tobago Cays, une autre pour Bequia et ses chantiers de bateaux à Port Elizabeth, et une troisième pour Mayreau et le mouillage de Salt Whistle Bay. Les journées restantes se passent à terre, entre la plage, la table et la sieste. Ceux qui veulent voir le sud ajoutent Petit St. Vincent et Chatham Bay à Union.",
         },
         {
-          question: "Peut-on séjourner à Mustique sans y posséder de maison ?",
+          question: "Comment séjourne-t-on à Mustique ?",
           answer:
-            "Oui. L'île se loue par ses villas, gérées par la compagnie qui administre Mustique, ou se vit depuis la Cotton House, l'ancienne maison de plantation devenue hôtel. Dans les deux cas la réservation passe par l'île elle-même, et les meilleures maisons partent une saison à l'avance, davantage encore pour les fêtes de fin d'année. Il n'y a ni paquebot ni excursion à la journée : on n'y séjourne que si l'on y dort.",
+            "L'île se loue par ses villas, gérées par la compagnie qui administre Mustique, ou se vit depuis la Cotton House, l'ancienne maison de plantation devenue hôtel. Dans les deux cas la réservation passe par l'île elle-même, et les meilleures maisons partent une saison à l'avance, davantage encore pour les fêtes de fin d'année. Il n'y a ni paquebot ni excursion à la journée : on n'y séjourne que si l'on y dort.",
         },
         {
           question: "Quel budget prévoir pour un voyage dans les Grenadines ?",

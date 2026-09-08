@@ -49,6 +49,18 @@ export function DestinationQuestionView({
         ? "cette destination"
         : "ces destinations";
     const lead = single ? "très beau choix" : "très beau programme";
+
+    // Une seule destination reconnue : on répond ce que nous connaissons
+    // d'elle plutôt qu'une formule qui vaudrait pour n'importe où. Les lieux
+    // viennent du `blurb` de la fiche, donc du même endroit que la page.
+    const highlights = single ? shown[0].highlights?.trim() : undefined;
+    if (highlights) {
+      const body = highlights.replace(/[.\s]+$/, "");
+      return isRegion
+        ? `${list}, ${lead}. ${body}. Dites-nous ce qui vous attire, nous construisons le reste.`
+        : `${list}, ${lead}. Nous y connaissons ${body} : dites-nous ce qui vous attire, nous construisons le reste.`;
+    }
+
     return `${list}, ${lead}. Nous aimons particulièrement ${noun} et nous avons hâte d'en parler avec vous.`;
   }, [shown]);
 

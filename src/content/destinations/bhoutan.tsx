@@ -623,7 +623,7 @@ export const destination: Destination = {
             "Dix jours suffisent à traverser quatre vallées sans courir. Paro d'abord, pour s'acclimater et monter au Nid du Tigre. Thimphu ensuite, pour l'école des treize arts et le grand Bouddha qui veille sur la vallée. Punakha pour sa forteresse entre les rivières, ses rizières et ses orangers. Phobjikha enfin, pour la tourbière et le monastère de Gangteng. Trois jours de plus ouvrent le Bumthang et ses temples fondateurs, ou la vallée de Haa par le col de Chele La.",
         },
         {
-          question: "Le Bhoutan est-il accessible sans être un grand marcheur ?",
+          question: "Le Bhoutan est-il accessible à tous les marcheurs ?",
           answer:
             "Oui. Les étapes se font en voiture avec chauffeur et guide, et la plupart des monastères, fermes et ateliers d'artisans se visitent sans effort particulier. Seule la montée au Nid du Tigre demande une bonne condition physique ; des chevaux conduisent jusqu'à la cafétéria de mi-parcours, d'où la vue sur le monastère est déjà celle des photographies. Nous adaptons le rythme et les étapes à chacun, y compris avec des grands-parents et de jeunes enfants.",
         },

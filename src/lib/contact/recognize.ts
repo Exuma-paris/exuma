@@ -50,6 +50,7 @@ export function recognizeDestinations(
         slug: entry.slug,
         name: entry.name,
         subject: entry.subject,
+        highlights: entry.highlights,
       });
   }
 

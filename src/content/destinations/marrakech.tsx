@@ -5,6 +5,7 @@ export const destination: Destination = {
   name: "Marrakech",
   country: "Maroc",
   genitive: "de Marrakech",
+  placeKind: "city",
   continentSlug: "afrique",
   blurb: "Médina, Atlas, riads, palmeraie",
   keywords: [

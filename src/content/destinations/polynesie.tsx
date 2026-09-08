@@ -5,6 +5,7 @@ export const destination: Destination = {
   name: "Polynésie française",
   country: "Polynésie française",
   genitive: "de la Polynésie",
+  placeKind: "country",
   continentSlug: "iles-oceanie",
   blurb: "Tetiaroa, Bora Bora, Moorea, Raiatea, Fakarava",
   keywords: [

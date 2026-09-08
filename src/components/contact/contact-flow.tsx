@@ -38,11 +38,14 @@ export function ContactFlow({
   aside,
   submitRedirect,
   initialAnswers,
+  exitHref = "/",
 }: {
   questions: Question[];
   contactCta?: SimpleHeaderProps["contactCta"];
   aside?: ContactFlowAside | null;
   submitRedirect: string;
+  /** Où mène la croix quand rien ne précède le formulaire dans l'historique. */
+  exitHref?: string;
   /**
    * Answers already known before the first screen — typically what the page
    * the visitor came from says about them. Prefilled, never locked: the
@@ -74,6 +77,17 @@ export function ContactFlow({
   const isLastStep = step === total;
   const continueLabel = isLastStep ? "Envoyer ma demande" : "Continuer";
 
+  // La croix rend la main d'où l'on vient. Sans historique — un lien ouvert
+  // dans un nouvel onglet, par exemple — elle ramène à l'accueil plutôt que
+  // de ne rien faire.
+  const exit = () => {
+    if (typeof window !== "undefined" && window.history.length > 1) {
+      router.back();
+      return;
+    }
+    router.push(exitHref);
+  };
+
   const setAnswer = (next: Answer) => {
     setAnswers((prev) => ({ ...prev, [question.id]: next }));
   };
@@ -102,7 +116,7 @@ export function ContactFlow({
   return (
     <div className="flex min-h-screen bg-background-subtle">
       <div className="flex flex-1 flex-col">
-        <SimpleHeader contactCta={contactCta} logoHref={null} />
+        <SimpleHeader contactCta={contactCta} logoHref={null} onClose={exit} />
 
         <div className="flex flex-1 flex-col items-center px-6 py-12">
           <div className="flex w-full max-w-110 flex-col gap-10">

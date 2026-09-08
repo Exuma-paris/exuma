@@ -83,7 +83,6 @@ export default async function Page({
             <DestinationFinder
               entries={entries}
               excludeFromSuggestions={featured}
-              idleCaption={`${entries.length} destination${entries.length > 1 ? "s" : ""}, un seul interlocuteur.`}
               notFoundCaption={`Aucune destination ${genitive} ne porte ce nom.`}
               emptyMessage="Nous voyageons aussi ailleurs, y compris là où nous n'avons pas encore de page. Dites-nous où."
             />

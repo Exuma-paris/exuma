@@ -5,6 +5,7 @@ export const destination: Destination = {
   name: "Paris",
   country: "France",
   genitive: "de Paris",
+  placeKind: "city",
   continentSlug: "europe",
   blurb: "Marais, Saint-Germain, Faubourg, Batignolles, Belleville",
   keywords: [

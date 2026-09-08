@@ -5,6 +5,7 @@ export const destination: Destination = {
   name: "Corse",
   country: "France",
   genitive: "de la Corse",
+  placeKind: "region",
   continentSlug: "europe",
   blurb: "Bonifacio, Calvi, Sartenais, Cap Corse, Lavezzi",
   keywords: [

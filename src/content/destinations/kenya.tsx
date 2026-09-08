@@ -7,6 +7,7 @@ export const destination: Destination = {
   name: "Kenya",
   country: "Kenya",
   genitive: "du Kenya",
+  placeKind: "country",
   continentSlug: "afrique",
   // La première image du hero montre la traversée de la Mara, presque identique
   // à celle de la Tanzanie : côte à côte en cartes, les deux se confondaient.

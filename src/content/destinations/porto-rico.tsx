@@ -583,9 +583,9 @@ export const destination: Destination = {
             "Oui. Le Vieux San Juan se visite à pied sans difficulté, El Yunque propose des sentiers courts adaptés aux enfants, et des adresses comme Dorado ou la côte de Bahía offrent des plages protégées et des activités multi-âges.",
         },
         {
-          question: "Faut-il absolument visiter Vieques ?",
+          question: "Vieques vaut-elle le détour ?",
           answer:
-            "Ce n'est pas obligatoire, mais Vieques concentre deux expériences rares : la baie bioluminescente de Mosquito Bay et des plages presque désertes. Comptez deux à trois nuits pour en profiter sans se presser, accessible en douze minutes de vol ou par ferry depuis Ceiba.",
+            "Pour deux expériences rares, oui : la baie bioluminescente de Mosquito Bay et des plages presque désertes. Comptez deux à trois nuits pour en profiter sans se presser, à douze minutes de vol ou en ferry depuis Ceiba.",
         },
         {
           question: "Quel budget prévoir pour un voyage à Porto Rico ?",

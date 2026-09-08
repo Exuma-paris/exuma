@@ -15,7 +15,7 @@ export const theme: Theme = {
   sections: [
     {
       type: "hero",
-      eyebrow: "Thématique",
+      eyebrow: "Expérience",
       heading: "Safaris, trek & aventure",
       description: "L'accès au terrain, pas la mise en scène.",
       images: [

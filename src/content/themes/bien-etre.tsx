@@ -15,7 +15,7 @@ export const theme: Theme = {
   sections: [
     {
       type: "hero",
-      eyebrow: "Thématique",
+      eyebrow: "Expérience",
       heading: "Bien-être & reconnexion",
       description:
         "L'endroit où quelqu'un qui n'arrête jamais va enfin s'arrêter.",

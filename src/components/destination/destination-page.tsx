@@ -1,10 +1,17 @@
 import { Header } from "@/components/sections/header";
 import type { Destination } from "@/lib/content/types";
+import { withDestinationContext } from "@/lib/contact/project-link";
 import { destinationJsonLdScripts } from "@/lib/destination/seo";
 import { renderSection } from "./render-section";
 
 export function DestinationPage({ destination }: { destination: Destination }) {
-  const [hero, ...rest] = destination.sections;
+  // Tous les « Créer votre voyage » de la page emmènent la destination avec
+  // eux, pour que le formulaire s'ouvre déjà rempli.
+  const sections = withDestinationContext(
+    destination.sections,
+    destination.slug,
+  );
+  const [hero, ...rest] = sections;
   const scripts = destinationJsonLdScripts(destination);
 
   return (

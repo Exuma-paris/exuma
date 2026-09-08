@@ -83,6 +83,13 @@ export type DestinationIndexEntry = {
   subject: string;
   /** Extra spellings worth matching (keywords from the registry entry). */
   aliases?: string[];
+  /**
+   * Le `blurb` de la fiche : les lieux que nous y connaissons pour une
+   * destination ("Tokyo, Kyoto, Mont Fuji"), une phrase d'ambiance pour un
+   * continent. Sert à répondre quelque chose de propre à l'endroit cité
+   * plutôt qu'une formule valable partout.
+   */
+  highlights?: string;
 };
 
 export type DestinationQuestion = QuestionBase & {
@@ -96,11 +103,16 @@ export type DestinationQuestion = QuestionBase & {
   index: DestinationIndexEntry[];
 };
 
-/** Head count, split adults / children. */
+/**
+ * Head count, split adults / children / infants. Infants are counted apart
+ * because they change the trip in ways a child does not: cots, car seats,
+ * cabin bassinets and flight fares all hinge on the under-threes.
+ */
 export type TravelersQuestion = QuestionBase & {
   type: "travelers";
   adultsLabel?: string;
   childrenLabel?: string;
+  babiesLabel?: string;
   maxPerGroup?: number;
 };
 
@@ -172,12 +184,15 @@ export type DestinationAnswer = {
     slug: string;
     name: string;
     subject: string;
+    highlights?: string;
   }[];
 };
 
 export type TravelersAnswer = {
   adults: number;
   children: number;
+  /** Moins de trois ans, comptés à part des enfants. */
+  babies: number;
 };
 
 export type PeriodAnswer = {
@@ -233,7 +248,7 @@ export function emptyAnswer(question: Question): Answer {
     case "destination":
       return { type: "destination", value: { text: "", matches: [] } };
     case "travelers":
-      return { type: "travelers", value: { adults: 2, children: 0 } };
+      return { type: "travelers", value: { adults: 2, children: 0, babies: 0 } };
     case "period":
       return { type: "period", value: { mode: null, detail: "" } };
     case "text":
@@ -268,7 +283,7 @@ export function isAnswered(question: Question, answer: Answer | undefined): bool
     case "travelers":
       return (
         answer.type === "travelers" &&
-        answer.value.adults + answer.value.children > 0
+        answer.value.adults + answer.value.children + answer.value.babies > 0
       );
     case "period": {
       if (answer.type !== "period") return false;

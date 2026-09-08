@@ -7,6 +7,7 @@ export const destination: Destination = {
   name: "Rome",
   country: "Italie",
   genitive: "de Rome",
+  placeKind: "city",
   continentSlug: "europe",
   blurb: "Vatican, Trastevere, Via Appia, Galerie Borghèse",
   keywords: [
