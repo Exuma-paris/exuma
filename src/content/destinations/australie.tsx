@@ -84,21 +84,21 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Australie : les lodges du bout du monde",
-      heading: "Quinze tentes face au monolithe, et rien d'autre autour",
+      eyebrow: "Australie : la mer et la vigne",
+      heading: "Les vignes de la Barossa comptent parmi les plus vieilles du monde",
       theme: "light",
       paragraphs: [
-        "Les meilleures adresses australiennes ne sont pas des hôtels de ville. Longitude 131° tient en quinze tentes posées sur une dune, chacune ouverte sur Uluru par une baie vitrée toute hauteur. Le dîner se prend dehors, sous les étoiles, et le parc national commence au pied du camp.",
-        "Sur les falaises de Kangaroo Island, le Southern Ocean Lodge regarde l'océan Austral. Aux portes du Kakadu, Bamurru Plains ne capte pas le réseau : les bungalows sont montés sur pilotis au-dessus des plaines inondables, et les journées se comptent en sorties en airboat plutôt qu'en services.",
+        "À l'intérieur des terres, les vignobles occupent le fond des vallées. Dans la Barossa, des familles allemandes ont planté des pieds de shiraz au dix-neuvième siècle, et ces vignes produisent toujours. Les caves se visitent sans rendez-vous, et c'est souvent le vigneron lui-même qui sert.",
+        "Sur la côte sud, ce sont les parcs à huîtres qui bordent la route. On s'arrête devant un ponton, on achète une douzaine d'huîtres ouvertes le matin même, et on les mange assis sur la jetée, face à l'eau d'où elles sortent. Ces mêmes producteurs fournissent les tables de Sydney et d'Adélaïde.",
       ],
       images: [
         {
           src: "/destination/australie/split-1.png",
-          alt: "Tente de lodge ouverte sur les dunes rouges du désert australien face à Uluru",
+          alt: "Rangées de vignes sur les collines d'un vignoble du sud de l'Australie, en fin de journée",
         },
         {
           src: "/destination/australie/split-2.png",
-          alt: "Bungalow sur pilotis au-dessus des plaines inondables du Top End australien",
+          alt: "Huîtres fraîchement ouvertes servies sur un ponton de bois, côte sud australienne",
         },
       ],
     },
