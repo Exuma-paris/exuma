@@ -4,6 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "madere",
+  subthemeSlugs: ["randonnee-montagne", "vignobles-spiritueux", "mediterranee-atlantique"],
   name: "Madère",
   placeKind: "region",
   country: "Portugal",

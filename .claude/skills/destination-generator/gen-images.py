@@ -71,7 +71,14 @@ ASPECT_RATIO = "16:9"
 # Downscaling the 4K render to 2560px keeps the stored master at the ~7 MB of the
 # existing pages while staying visibly sharper than a native-2K render.
 STORE_WIDTH = 2560
-ALLOWED_ROOTS = ("destination", "experience", "accommodation", "service", "theme")
+ALLOWED_ROOTS = (
+    "destination",
+    "experience",
+    "accommodation",
+    "service",
+    "theme",
+    "subtheme",
+)
 
 EXUMA_STYLE = """Apply this Exuma photographic style:
 - Quiet luxury, non-ostentatious elegance, timeless atmosphere; mood of nostalgia, silence and calm

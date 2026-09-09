@@ -4,6 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "maroc",
+  subthemeSlugs: ["traditions-vivantes", "lieux-de-culte", "savoir-faire"],
   name: "Maroc",
   placeKind: "country",
   country: "Maroc",

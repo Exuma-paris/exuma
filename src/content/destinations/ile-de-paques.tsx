@@ -4,6 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "ile-de-paques",
+  subthemeSlugs: ["sites-historiques", "traditions-vivantes"],
   name: "Île de Pâques",
   placeKind: "region",
   country: "Chili",

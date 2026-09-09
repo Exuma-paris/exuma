@@ -2,6 +2,7 @@ import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
   slug: "los-cabos",
+  subthemeSlugs: ["plongee-bouteille", "safari-marin", "vignobles-spiritueux"],
   name: "Los Cabos",
   country: "Mexique",
   genitive: "de Los Cabos",

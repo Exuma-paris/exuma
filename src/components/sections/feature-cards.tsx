@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "@untitledui/icons";
 import { TextBlock } from "@/components/blocks/text-block";
@@ -31,6 +32,14 @@ export type FeatureCardsSectionProps = {
    * typiquement avec un appel à contact. Ignoré en mode carrousel.
    */
   endSlot?: React.ReactNode;
+  /**
+   * Rangée de vignettes carrées posée sous les cartes, dans le même bloc et
+   * sous le même titre. Sert la suite d'une liste dont les premières entrées
+   * ont droit au grand format : image, nom, et c'est tout.
+   */
+  thumbnails?: { title: string; image: { src: string; alt: string }; href: string }[];
+  /** Ligne d'annonce au-dessus de la rangée de vignettes. */
+  thumbnailsIntro?: string;
   background?: string;
 };
 
@@ -88,6 +97,8 @@ export function FeatureCardsSection({
   description,
   cta,
   cards,
+  thumbnails,
+  thumbnailsIntro,
   layout = "carousel",
   endSlot,
   background,
@@ -214,6 +225,41 @@ export function FeatureCardsSection({
         </div>
       </div>
       )}
+
+      {thumbnails?.length && thumbnailsIntro ? (
+        <div className="section-px mx-auto mt-12 w-full max-w-layout">
+          <p className="max-w-120 text-secondary-foreground">{thumbnailsIntro}</p>
+        </div>
+      ) : null}
+
+      {thumbnails?.length ? (
+        <div className="mt-4 overflow-x-auto scroll-smooth [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+          <ul className="flex gap-3 px-[max(var(--section-gutter),calc((100vw-var(--container-layout))/2+var(--section-gutter)))]">
+            {thumbnails.map((thumb) => (
+              <li key={thumb.title} className="w-44 shrink-0 md:w-56">
+                <Link href={thumb.href} className="group block">
+                  <div className="relative aspect-3/2 w-full overflow-hidden bg-muted">
+                    <Image
+                      src={thumb.image.src}
+                      alt={thumb.image.alt}
+                      fill
+                      sizes="224px"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                  <p className="mt-2 text-[13px] text-secondary-foreground transition-colors group-hover:text-foreground">
+                    {thumb.title}
+                  </p>
+                </Link>
+              </li>
+            ))}
+            <li
+              aria-hidden
+              className="w-[max(var(--section-gutter),calc((100vw-var(--container-layout))/2+var(--section-gutter)))] shrink-0"
+            />
+          </ul>
+        </div>
+      ) : null}
 
       {hasControls && !isGrid ? (
         <div className="mx-auto flex w-full max-w-layout justify-end gap-2 section-px pt-10 section-pb">

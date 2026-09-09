@@ -4,6 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "porto-rico",
+  subthemeSlugs: ["caraibes-plages", "sites-historiques", "trek-expedition"],
   name: "Porto Rico",
   placeKind: "country",
   country: "Porto Rico", // TODO: verify — territoire non incorporé des États-Unis, traité ici comme un pays autonome dans l'arborescence

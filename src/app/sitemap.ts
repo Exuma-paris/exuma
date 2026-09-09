@@ -47,14 +47,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const dynamicEntries: MetadataRoute.Sitemap = allTagged.map(
-    ({ kind, entity }) => ({
+  // Les sous-familles d'expérience sont un paramétrage interne : elles n'ont
+  // pas de page à elles, `entityRoute` les renverrait sur une URL en 404.
+  const dynamicEntries: MetadataRoute.Sitemap = allTagged
+    .filter(({ kind }) => kind !== "subtheme")
+    .map(({ kind, entity }) => ({
       url: `${siteUrl}${entityRoute[kind](entity.slug)}`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.7,
-    }),
-  );
+    }));
 
   return [...staticEntries, ...dynamicEntries];
 }

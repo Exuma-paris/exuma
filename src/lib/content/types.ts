@@ -73,6 +73,29 @@ export type Destination = EntityBase & {
   projectNote?: string;
   continentSlug?: string;
   themeSlugs?: string[];
+  /**
+   * Rattachement aux sous-familles d'expérience (voir `src/content/subthemes/`).
+   * C'est le SEUL endroit où le rattachement se décide, au moment de la création
+   * de la destination. La famille (le thème) s'en déduit : inutile de remplir
+   * `themeSlugs` en plus.
+   *
+   * Règles, arrêtées avec l'équipe éditoriale :
+   *   - trois sous-familles au maximum, ce qui garantit trois familles au plus ;
+   *   - la PREMIÈRE est la sous-famille DOMINANTE : ce que la destination évoque
+   *     en premier, la porte d'entrée qu'on garderait s'il n'en restait qu'une.
+   *     Elle donne droit à la carte dans son bloc ; les rattachements
+   *     secondaires passent derrière, et en liens texte s'il n'y a plus de
+   *     place. C'est ce qui empêche une destination d'être en vitrine sur un
+   *     thème qui n'est pas le sien ;
+   *   - on ne rattache pas une sous-famille que la page ne porte pas. S'il
+   *     manque la matière, on ajoute d'abord l'expérience qui la justifie, et
+   *     le rattachement vient ensuite ;
+   *   - la liste est ORDONNÉE. Quand deux sous-familles appartiennent à la même
+   *     famille (Maldives : plongée et snorkeling), la première l'emporte pour
+   *     l'affichage et la destination n'apparaît qu'une fois sur la page. La
+   *     seconde reste vraie et continue de servir la recherche.
+   */
+  subthemeSlugs?: string[];
   accommodationSlugs?: string[];
   metaTitle?: string;
   metaDescription?: string;
@@ -130,6 +153,15 @@ export type Theme = EntityBase & {
   intent?: string;
   subthemeSlugs?: string[];
   /**
+   * Titre et description de la page famille. Sans eux la page hérite du titre
+   * générique du site, et les huit familles se présentent à Google sous le
+   * même intitulé. Le titre porte le terme de recherche de la famille, pas son
+   * nom de marque : on cherche « voyage safari », pas « Safaris, trek &
+   * aventure ».
+   */
+  metaTitle?: string;
+  metaDescription?: string;
+  /**
    * Square derivative of the hero image, for the thematic cards on the home
    * page. The theme page itself uses the 16:9 master from `sections`; the card
    * crops to 1:1, so it needs the variant `crop-images.py` anchors on the
@@ -139,9 +171,57 @@ export type Theme = EntityBase & {
   cardImage?: ImageRef;
 };
 
+/**
+ * Sous-famille d'expérience. Paramétrage INTERNE : elle n'a pas de page à elle
+ * et n'est jamais présentée au visiteur comme un filtre cliquable. Elle sert à
+ * découper la page de sa famille en blocs, chacun avec son titre, son
+ * paragraphe et ses destinations.
+ *
+ * La liste est fermée : on n'en crée pas une nouvelle sans arbitrage éditorial.
+ */
 export type Subtheme = EntityBase & {
   themeSlug: string;
   experienceSlugs?: string[];
+  /**
+   * Titre rédigé du bloc (le H2 de la page famille). Le `name` sert de
+   * sur-titre. Sans lui, le bloc reprend le `name` en titre, ce qui donne un
+   * H2 plat et sans intérêt pour la recherche.
+   */
+  blockHeading?: string;
+  /**
+   * Le brief du bandeau : ce que l'image doit montrer. Écrit une fois ici pour
+   * que la production ne reparte pas de zéro à chaque fois et que deux
+   * bandeaux faits à six mois d'écart se ressemblent. Pendant du champ
+   * `intent` des thèmes.
+   */
+  bandIntent?: string;
+  /**
+   * Bande pleine largeur posée avant le bloc, qui sert de séparateur de
+   * chapitre. Sans elle, le bloc se distingue seulement par son fond alterné.
+   *
+   * Elle se produit POUR la sous-famille et vit à `/subtheme/<slug>/band.png`.
+   * On n'emprunte pas le `full-image` d'une fiche destination : ce sont des
+   * images de destination, elles montrent un pays et pas une pratique. Un
+   * safari marin ne s'illustre pas avec un 4x4 dans la savane, un bloc musées
+   * ne s'illustre pas avec un canal d'Amsterdam. En cas de doute, pas d'image :
+   * un bandeau hors sujet coûte plus cher qu'un bloc sans bandeau.
+   */
+  heroImage?: ImageRef;
+  /**
+   * Ligne courte posée entre les grands encarts et la rangée de vignettes,
+   * pour annoncer la suite. Elle parle de la sous-famille, jamais des
+   * destinations qui s'y trouvent : la liste bouge à chaque rattachement, la
+   * phrase doit rester vraie sans être relue.
+   */
+  thumbnailsIntro?: string;
+  /**
+   * Les destinations mises en avant en cartes, dans l'ordre voulu, six au plus.
+   * Doivent toutes porter cette sous-famille dans leur `subthemeSlugs` : c'est
+   * la fiche destination qui fait foi pour l'appartenance, cette liste ne règle
+   * que l'ordre et la mise en avant. Les destinations rattachées mais absentes
+   * d'ici sortent en liens texte sous les cartes.
+   */
+  featuredDestinationSlugs?: string[];
 };
 
 export type Experience = EntityBase & {

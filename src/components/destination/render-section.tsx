@@ -29,7 +29,9 @@ import {
   destinations,
   experiences,
 } from "@/lib/content/registry";
+import { getDestinationCardDescription } from "@/lib/content/queries";
 import { entityRoute } from "@/lib/content/types";
+import type { Destination } from "@/lib/content/types";
 import { renderIcon } from "./icons";
 
 const ENTITY_PLACEHOLDER_IMAGE = {
@@ -358,7 +360,10 @@ export function renderSection(section: Section, key: string): ReactNode {
                 ENTITY_PLACEHOLDER_IMAGE);
           return {
             title: entity.name,
-            description: entity.blurb ?? "",
+            description:
+              section.kind === "destination"
+                ? getDestinationCardDescription(entity as Destination)
+                : (entity.blurb ?? ""),
             image: heroImage,
             link:
               entity.sections.length > 0
@@ -370,6 +375,19 @@ export function renderSection(section: Section, key: string): ReactNode {
           };
         });
 
+      // "spotlight" : quatre grands encarts sur deux colonnes, le reste en
+      // vignettes carrées sous eux, dans le même bloc et sous le même titre.
+      const isSpotlight = section.layout === "spotlight";
+      const SPOTLIGHT_CARDS = 4;
+      const headline = isSpotlight ? cards.slice(0, SPOTLIGHT_CARDS) : cards;
+      const thumbnails = isSpotlight
+        ? cards.slice(SPOTLIGHT_CARDS).flatMap((card) =>
+            card.link
+              ? [{ title: card.title, image: card.image, href: card.link.href }]
+              : [],
+          )
+        : undefined;
+
       return (
         <FeatureCardsSection
           key={key}
@@ -377,7 +395,10 @@ export function renderSection(section: Section, key: string): ReactNode {
           heading={section.heading}
           description={section.description}
           cta={section.cta}
-          cards={cards}
+          cards={headline}
+          layout={isSpotlight ? "grid" : undefined}
+          thumbnails={thumbnails}
+          thumbnailsIntro={section.thumbnailsIntro}
           background={section.background}
         />
       );

@@ -4,6 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "rio-de-janeiro",
+  subthemeSlugs: ["traditions-vivantes", "mediterranee-atlantique", "trek-expedition"],
   name: "Rio de Janeiro",
   country: "Brésil",
   genitive: "de Rio de Janeiro",

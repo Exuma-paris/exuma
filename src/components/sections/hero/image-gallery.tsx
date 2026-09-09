@@ -6,6 +6,7 @@ import { TextBlock } from "@/components/blocks/text-block";
 import { ProgressBar } from "@/components/ui/progress-bar";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
+import type { ImageRef } from "@/lib/destination/types";
 
 export type HeroImageGalleryProps = {
   eyebrow?: string;
@@ -69,7 +70,7 @@ function ImageTile({
   sizes,
   ratio = "aspect-square",
 }: {
-  image: { src: string; alt: string };
+  image: ImageRef;
   sizes: string;
   /**
    * Le carré convient aux vignettes du carrousel, qui n'occupent qu'un tiers de
@@ -86,6 +87,7 @@ function ImageTile({
         fill
         sizes={sizes}
         className="object-cover"
+        style={image.position ? { objectPosition: image.position } : undefined}
       />
     </div>
   );

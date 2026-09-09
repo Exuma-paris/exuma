@@ -4,6 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "sri-lanka",
+  subthemeSlugs: ["lieux-de-culte", "safari-terrestre", "retraite-yoga"],
   name: "Sri Lanka",
   placeKind: "country",
   country: "Sri Lanka",
@@ -140,6 +141,7 @@ export const destination: Destination = {
         "train-kandy-ella-wagon-prive",
         "pistage-leopards-yala",
         "temple-de-la-dent-ceremonie",
+        "cure-ayurvedique-cote-sud",
       ],
     },
 

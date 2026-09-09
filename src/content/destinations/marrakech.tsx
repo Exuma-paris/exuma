@@ -2,6 +2,7 @@ import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
   slug: "marrakech",
+  subthemeSlugs: ["savoir-faire", "spa-thalasso", "tables-chefs"],
   name: "Marrakech",
   country: "Maroc",
   genitive: "de Marrakech",

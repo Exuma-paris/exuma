@@ -4,6 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "thailande",
+  subthemeSlugs: ["lieux-de-culte", "tables-chefs", "safari-terrestre"],
   name: "Thaïlande",
   placeKind: "country",
   country: "Thaïlande",

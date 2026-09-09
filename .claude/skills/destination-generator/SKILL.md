@@ -1,6 +1,6 @@
 ---
 name: destination-generator
-description: Generate a new destination page for the Exuma travel site (Next.js, French content). Use when the user asks to create a destination page, add a new travel destination, or scaffold a destination. Runs a strict seven-question interview first (one at a time, all answered before any production): name, place type (pays/région/ville — sets placeKind + tree position), primary persona(s), 3 accommodations, 4 experiences (1 coup-de-cœur focus), the spotlight collaborateur, and 3 related destinations. Then produces src/content/destinations/<slug>.tsx (typed Destination object with all sections), up to 7 stub entity files in src/content/experiences/ and src/content/accommodations/ (4 experiences + 3 hotels not already present), references/destination/<slug>/SOURCES.md, and registers everything in src/lib/content/registry.ts. After the page type-checks and the copy is corrected, runs a chained image phase: re-lists every caption in display order and, one image at a time, asks for a reference link (plus optional non-colour correction), generates it via gen-images.py, and previews it in the rendered page before the next.
+description: Generate a new destination page for the Exuma travel site (Next.js, French content). Use when the user asks to create a destination page, add a new travel destination, or scaffold a destination. Runs a strict eight-question interview first (one at a time, all answered before any production): name, place type (pays/région/ville — sets placeKind + tree position), primary persona(s), 3 accommodations, 4 experiences (1 coup-de-cœur focus), the spotlight collaborateur, 3 related destinations, and the 1 to 3 ordered sub-families of experience (proposed by Claude, validated by the user). Then produces src/content/destinations/<slug>.tsx (typed Destination object with all sections), up to 7 stub entity files in src/content/experiences/ and src/content/accommodations/ (4 experiences + 3 hotels not already present), references/destination/<slug>/SOURCES.md, and registers everything in src/lib/content/registry.ts. After the page type-checks and the copy is corrected, runs a chained image phase: re-lists every caption in display order and, one image at a time, asks for a reference link (plus optional non-colour correction), generates it via gen-images.py, and previews it in the rendered page before the next.
 metadata:
   short-description: Scaffold a destination page with copy, structure, entity stubs, and image manifest
 ---
@@ -32,7 +32,7 @@ Ask: *"Vous voulez (a) scaffolder une nouvelle destination, ou (b) ajouter un fu
 
 ### The questionnaire runs in strict sequence — ask one question at a time
 
-Before producing anything, walk the user through **seven questions, in this exact order**, one at a time. Ask a question, wait for the answer, then ask the next. Do **not** batch several into one message, do not jump ahead, and do not start producing (slug, copy, files, images) until all seven are answered. Each answer feeds the next — the place type fixes the tree position, the persona shapes the voice *and* the hotel/experience picks, so a skipped question yields a page aimed at no one.
+Before producing anything, walk the user through **eight questions, in this exact order**, one at a time. Ask a question, wait for the answer, then ask the next. Do **not** batch several into one message, do not jump ahead, and do not start producing (slug, copy, files, images) until all eight are answered. Each answer feeds the next — the place type fixes the tree position, the persona shapes the voice *and* the hotel/experience picks, so a skipped question yields a page aimed at no one.
 
 | # | Question | Drives | Detail |
 |---|----------|--------|--------|
@@ -43,6 +43,7 @@ Before producing anything, walk the user through **seven questions, in this exac
 | Q5 | Experiences — retain **4**, incl. 1 focus | `imageDuoWithText` + `entityList kind: "experience"` | step 1d |
 | Q6 | Destination expert (collaborateur) | `specialistSpotlight` | step 1e |
 | Q7 | Related destinations (pays) — **3** | inspiration carousel | step 1f |
+| Q8 | Sub-families — you propose **3 ordered**, the user validates | `subthemeSlugs`, placement on the family pages | step 1g |
 
 Exception: if the user's opening prompt already answers a question explicitly (e.g. "fais une page **ville** de Marrakech pour **Édouard** avec **La Mamounia**"), treat it as answered and don't re-ask. A bare destination name or a smoke-test prompt pre-answers nothing.
 
@@ -191,6 +192,58 @@ You have up to 3 destination slugs (all must already exist). Carry these into st
 }
 ```
 
+### 1g. Sub-families — you propose, the user validates (Q8)
+
+Every destination is attached to **one to three sub-families of experience** (`subthemeSlugs`). This is what places it on the family pages (`/themes/<slug>`), which are built entirely from these attachments: nothing is listed by hand over there. Miss this question and the destination exists but is reachable only through the menu and the search.
+
+**You propose, the user validates.** Never ask the user to pick from a list of twenty-four slugs.
+
+Read the closed list from `src/content/subthemes/` (each file carries its `name` and its `themeSlug`). Then propose, with a one-line justification each:
+
+```
+Sous-familles proposées pour <Destination>, dans l'ordre :
+1. <Nom de la sous-famille> — <pourquoi, en une ligne>
+2. <Nom de la sous-famille> — <pourquoi>
+3. <Nom de la sous-famille> — <pourquoi>
+
+Je valide ?
+```
+
+Wait for the answer. The user may reorder, remove, or swap. Do not proceed until they confirm.
+
+**Rules, non-negotiable:**
+
+- **Three at most.** Three sub-families means at most three families, which is the ceiling the editorial team set.
+- **The first one is the DOMINANT one.** Ask yourself what this destination evokes first, the one door you would keep if you could keep only one. It earns the card in its block; secondary attachments queue behind it and fall through to text links. A destination showcased on a theme that is not its own is the failure this rule exists to prevent.
+- **No attachment without matter on the page.** A sub-family only applies if this destination's page actually carries it: an experience, a hotel, a passage. If the destination deserves a sub-family the page does not carry, do NOT attach it. Say so, and propose the experience that would earn it:
+
+  ```
+  Le Sri Lanka mériterait « Retraite de yoga », mais la page n'en dit rien.
+  Je propose d'ajouter une expérience de cure ayurvédique avant de la rattacher. On la crée ?
+  ```
+
+  The user decides. A card that promises what the page does not deliver is worse than no card.
+- **The order matters.** When two sub-families belong to the same family (Maldives: `plongee-bouteille` and `snorkeling`), the first one wins and the destination shows only once on that page. The second stays true and keeps serving the search.
+- **Three conditions to qualify:** a real product on the ground (a hotel, an access, a named guide), a sufficient reason to travel there (not a side trip), and a season you can name. Fail one, drop the sub-family.
+- **Never invent a sub-family.** The list is closed. If nothing fits, propose fewer than three and say so.
+
+Three boundary rules settle the frequent overlaps:
+
+| Overlap | Rule |
+|---|---|
+| `safari-marin` vs `snorkeling` | Above the surface (whales, sea lions, penguins) is a marine safari. Below it is diving and snorkelling. |
+| `randonnee-montagne` vs `trek-expedition` | Fixed base and day walks is mountain hiking. A committing multi-day itinerary is trekking. |
+| `voilier` vs the `iles-lagons` sub-families | Sleeping aboard is a cruise. Sleeping ashore is islands and lagoons. |
+| `plongee-bouteille` vs `snorkeling` | Snorkelling needs no certification and works from the beach or the boat. Diving is for the sites that justify the certification. |
+
+Carry the validated list into step 5a as the `subthemeSlugs` field, placed right after `slug`:
+
+```tsx
+subthemeSlugs: ["safari-terrestre", "traditions-vivantes", "sites-historiques"],
+```
+
+Do **not** also fill `themeSlugs` — the family is derived from the sub-families.
+
 ### 2. Derive the slug
 
 ```js
@@ -305,6 +358,10 @@ export const destination: Destination = {
     "<slug>",
     /* 3–8 lowercase, no-accent strings: notable places, regions, activities */
   ],
+  // Rattachement aux sous-familles, validé en Q8. Une à trois, ORDONNÉES.
+  // C'est ce qui place la destination sur les pages famille. Ne pas remplir
+  // `themeSlugs` en plus : la famille se déduit des sous-familles.
+  subthemeSlugs: ["<sous-famille-1>", "<sous-famille-2>", "<sous-famille-3>"],
   metaTitle: "<Destination> — Voyage sur mesure",   // optional; this is the default
   metaDescription:
     "<150–160 chars, primary keyword (\"voyage en <Destination>\") + geographic anchor, no CTA — see STYLE.md § SEO discipline>",
@@ -699,6 +756,49 @@ map-<place>.png     (one per map place; 6 places)
 ```
 
 Testimonial portraits reuse `hero-1/2/3.png` — no separate files.
+
+### Sub-family banners — produce the ones that are missing
+
+Each sub-family (`src/content/subthemes/`) carries a full-width banner shown above its block on the family page, at `/subtheme/<slug>/band.png`. They accumulate as destinations are created. **This step produces the missing ones, it does not merely report them.**
+
+After the destination's own images are done, for each slug in the validated `subthemeSlugs`, read the sub-family file. If it already has a `heroImage`, move on. Otherwise, produce it, in this order.
+
+**1. Say what the image must show.** The brief is already written on the sub-family, in its `bandIntent` field. Read it and state it to the user in your own words, then ask for a reference:
+
+```
+La sous-famille « Safari marin » n'a pas encore son bandeau.
+Ce qu'il faut : une baleine ou des otaries observées depuis le pont d'un
+bateau, la surface de l'eau dans le cadre, aucun véhicule terrestre.
+
+Vous avez un lien de référence, ou je pioche dans ce qu'on a déjà ?
+```
+
+If the sub-family has no `bandIntent` (it should), write one first, in the same register: the practice, the gesture, the light, and what must NOT be in the frame.
+
+**2. Reusing an existing image is allowed, but only after having looked at it.** Search `public/destination/*/` for a plausible candidate, then **open it with the Read tool and describe what you actually see**. A filename, an alt text or a destination name proves nothing: `france/full-image.png` is a lavender field in Provence, `italie/full-image.png` is the Tuscan countryside, `pays-bas/full-image.webp` is an Amsterdam canal. None of them illustrates the sub-family whose name would have suggested them. Propose a reuse only when the image you have seen matches the brief, and say what it shows so the user can judge:
+
+```
+J'ai regardé tanzanie/full-image.webp : un 4x4 de safari arrêté dans la
+savane, une girafe traversant la piste. Ça correspond au brief du safari
+terrestre. On la reprend, ou on en produit une ?
+```
+
+**3. Otherwise, produce it.** Ask for one reference link, download it to `references/subtheme/<slug>/band-ref.<ext>`, then:
+
+```bash
+GEMINI_API_KEY=… python3 .claude/skills/destination-generator/gen-images.py --root subtheme --only band <subtheme-slug>
+```
+
+**4. Register it** on the sub-family file, with an `alt` that describes what the image really shows:
+
+```tsx
+heroImage: {
+  src: "/subtheme/<subtheme-slug>/band.png",
+  alt: "<ce que montre l'image, en français>",
+},
+```
+
+**The banner shows the practice, never a country.** If nothing fits and the user has no reference, leave the banner out and say so: a block with no banner reads better than a banner about something else.
 
 ### Generation script
 

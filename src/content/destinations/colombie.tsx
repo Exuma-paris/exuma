@@ -4,6 +4,7 @@ import { defaultSpotlightFeatures } from "@/components/sections/specialist-spotl
 
 export const destination: Destination = {
   slug: "colombie",
+  subthemeSlugs: ["caraibes-plages", "safari-marin", "savoir-faire"],
   name: "Colombie",
   placeKind: "country",
   country: "Colombie",

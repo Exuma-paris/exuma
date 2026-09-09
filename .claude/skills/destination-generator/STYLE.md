@@ -201,6 +201,30 @@ Plus the local link CTAs: "Découvrir", "Voir tout {region}". No exclamation mar
 
 ---
 
+## The closing `finalCta`
+
+The `finalCta` is the one block that addresses the reader directly, and the last thing they read. On a page with a subject of its own (a family page, a destination), **it must be written for that subject**. The generic site line, "Dites-nous ce que vous avez en tête", is the fallback for pages that have no subject of their own, not a default to reach for.
+
+Two lines, and they do different jobs:
+
+- The **eyebrow** states a real constraint of the subject: a season, a lead time, a duration. It is a fact, not a slogan. "Un safari se prépare une saison à l'avance." "Les accès se négocient des semaines avant."
+- The **heading** asks for the single piece of information we need to start, and says what we do with it. "Dites-nous ce que vous voulez voir, nous trouverons le mois et le terrain."
+
+**Never transactional.** The reader is planning a journey, not booking a service. "Dites-nous ce que vous avez envie de goûter" turns a gastronomy trip into a restaurant reservation; "Dites-nous quelle cuisine vous voulez suivre, nous bâtirons l'itinéraire" keeps it a journey. Same for a room, a table, a seat: name the trip, never the booking.
+
+Written examples, one per family page — reuse the shape, never the line:
+
+| Page | Eyebrow | Heading |
+|---|---|---|
+| Safaris | Un safari se prépare une saison à l'avance | Dites-nous ce que vous voulez voir, nous trouverons le mois et le terrain |
+| Croisière | Le bateau donne sa forme au voyage | Dites-nous où vous voulez naviguer, nous écrirons le reste du séjour |
+| Gastronomie | Une table ne fait pas un voyage | Dites-nous quelle cuisine vous voulez suivre, nous bâtirons l'itinéraire |
+| Îles & lagons | Le bon mois change d'un océan à l'autre | Dites-nous quand vous pouvez partir, nous dirons vers quel océan |
+
+The button labels themselves do not change: they stay the canonical CTAs above.
+
+---
+
 ## Image alt text
 
 - French. Sensory but factual. ≤ 100 chars.
