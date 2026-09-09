@@ -1,32 +1,39 @@
 # Reference images — Zimbabwe
 
-Each generated image in `public/destination/zimbabwe/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
+Each generated image in `public/destination/zimbabwe/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.mjs` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
 
-| Output                            | Reference file                         | Source URL | License |
-| --------------------------------- | -------------------------------------- | ---------- | ------- |
-| `hero-1.png`                      | `hero-1-ref.jpg`                       | TODO       | TODO    |
-| `hero-2.png`                      | `hero-2-ref.jpg`                       | TODO       | TODO    |
-| `hero-3.png`                      | `hero-3-ref.jpg`                       | TODO       | TODO    |
-| `full-image.png`                  | `full-image-ref.jpg`                   | TODO       | TODO    |
-| `split-1.png`                     | `split-1-ref.jpg`                      | TODO       | TODO    |
-| `split-2.png`                     | `split-2-ref.jpg`                      | TODO       | TODO    |
-| `xp-chutes-a-pied-1.png`           | `xp-chutes-a-pied-1-ref.jpg`           | TODO       | TODO    |
-| `xp-chutes-a-pied-2.png`           | `xp-chutes-a-pied-2-ref.jpg`           | TODO       | TODO    |
-| `xp-croisiere-zambeze.png`         | `xp-croisiere-zambeze-ref.jpg`         | TODO       | TODO    |
-| `xp-helico-chutes.png`             | `xp-helico-chutes-ref.jpg`             | TODO       | TODO    |
-| `xp-safari-vehicule.png`          | `xp-safari-vehicule-ref.jpg`           | TODO       | TODO    |
-| `hotel-stanley-livingstone.png`   | `hotel-stanley-livingstone-ref.jpg`    | TODO       | TODO    |
-| `hotel-linkwasha.png`             | `hotel-linkwasha-ref.jpg`              | TODO       | TODO    |
-| `hotel-pamushana.png`             | `hotel-pamushana-ref.jpg`              | TODO       | TODO    |
-| `bento-map.png`                   | `bento-map-ref.jpg`                    | TODO       | TODO    |
-| `bento-adresses.png`              | `bento-adresses-ref.jpg`               | TODO       | TODO    |
-| `bento-hebergements.png`          | `bento-hebergements-ref.jpg`           | TODO       | TODO    |
-| `bento-conciergerie.png`          | `bento-conciergerie-ref.jpg`           | TODO       | TODO    |
-| `bento-experiences.png`           | `bento-experiences-ref.jpg`            | TODO       | TODO    |
-| `map-victoria-falls.png`          | `map-victoria-falls-ref.jpg`           | TODO       | TODO    |
-| `map-hwange.png`                  | `map-hwange-ref.jpg`                   | TODO       | TODO    |
-| `map-mana-pools.png`              | `map-mana-pools-ref.jpg`               | TODO       | TODO    |
-| `map-matobo.png`                  | `map-matobo-ref.jpg`                   | TODO       | TODO    |
-| `map-great-zimbabwe.png`          | `map-great-zimbabwe-ref.jpg`           | TODO       | TODO    |
-| `map-malilangwe.png`              | `map-malilangwe-ref.jpg`               | TODO       | TODO    |
+Les références ont été fournies par l'auteur le 4 septembre 2026, déclarées libres de droit. Traitement appliqué : filtre Exuma seul (composition inchangée), sauf mention contraire.
 
+| Output                          | Reference file                       | Source URL                     | License          |
+| ------------------------------- | ------------------------------------ | ------------------------------ | ---------------- |
+| `hero-1.webp`                   | `hero-1-ref.png`                     | fournie par l'auteur           | libre de droit   |
+| `hero-2.webp`                   | `hero-2-ref.png`                     | fournie par l'auteur           | libre de droit   |
+| `hero-3.webp`                   | `hero-3-ref.png`                     | fournie par l'auteur           | libre de droit   |
+| `full-image.webp`               | `full-image-ref.png`                 | fournie par l'auteur           | libre de droit   |
+| `split-1.webp`                  | `split-1-ref.png`                    | fournie par l'auteur           | libre de droit   |
+| `split-2.webp`                  | `split-2-ref.png`                    | fournie par l'auteur           | libre de droit   |
+| `xp-chutes-a-pied-1.webp`       | `xp-chutes-a-pied-1-ref.jpg`         | fournie par l'auteur           | libre de droit   |
+| `xp-chutes-a-pied-2.webp`       | `xp-chutes-a-pied-2-ref.png`         | fournie par l'auteur           | libre de droit   |
+| `xp-croisiere-zambeze.webp`     | `xp-croisiere-zambeze-ref.png`       | fournie par l'auteur           | libre de droit   |
+| `xp-helico-chutes.webp`         | MANQUANTE                            | à fournir                      | -                |
+| `xp-safari-vehicule.webp`       | `xp-safari-vehicule-ref.jpg`         | fournie par l'auteur           | libre de droit   |
+| `hotel-stanley-livingstone.webp`| `hotel-stanley-livingstone-ref.jpg`  | fournie par l'auteur           | libre de droit   |
+| `hotel-linkwasha.webp`          | `hotel-linkwasha-ref.png`            | fournie par l'auteur           | libre de droit   |
+| `hotel-pamushana.webp`          | `hotel-pamushana-ref.png`            | fournie par l'auteur           | libre de droit   |
+| `bento-map.webp`                | MANQUANTE                            | à fournir                      | -                |
+| `bento-adresses.webp`           | `bento-adresses-ref.jpg`             | fournie par l'auteur           | libre de droit   |
+| `bento-hebergements.webp`       | `bento-hebergements-ref.jpg`         | fournie par l'auteur           | libre de droit   |
+| `bento-conciergerie.webp`       | MANQUANTE                            | à fournir                      | -                |
+| `bento-experiences.webp`        | `bento-experiences-ref.jpg`          | fournie par l'auteur           | libre de droit   |
+| `map-victoria-falls.webp`       | MANQUANTE                            | à fournir                      | -                |
+| `map-hwange.webp`               | `map-hwange-ref.png`                 | fournie par l'auteur           | libre de droit   |
+| `map-mana-pools.webp`           | MANQUANTE                            | à fournir                      | -                |
+| `map-matobo.webp`               | `map-matobo-ref.png`                 | fournie par l'auteur           | libre de droit   |
+| `map-great-zimbabwe.webp`       | `map-great-zimbabwe-ref.png`         | fournie par l'auteur           | libre de droit   |
+| `map-malilangwe.webp`           | MANQUANTE                            | à fournir                      | -                |
+
+## Corrections appliquées au-delà du filtre
+
+| Output                  | Instruction passée à Gemini                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| `hotel-pamushana.webp`  | remise au net de la photographie de référence, qui était floue |

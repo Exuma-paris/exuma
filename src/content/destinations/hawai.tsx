@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte d'Hawaï",
       heading: "Hawaï, la douceur du Pacifique et le feu des volcans",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Hawaï commence par le choix des îles, et c'est là que tout se joue. Kauai est la plus ancienne : ses reliefs se sont adoucis, ses rivières ont ouvert des canyons rouges et la forêt a tout recouvert. Big Island, la plus jeune, s'agrandit encore à chaque réveil du Kilauea. Entre elles, Maui, Molokai et Lanai proposent chacune une autre façon d'habiter le Pacifique.",
         "L'archipel s'est formé au-dessus d'un point chaud qui n'a jamais bougé, et les îles sont nées l'une après l'autre en dérivant lentement vers le nord-ouest. Cela se lit dans le paysage sans qu'on ait besoin de l'expliquer : on descend le matin dans un canyon que l'eau a mis des millénaires à creuser, et l'on marche le soir sur une coulée noire où rien ne pousse encore.",
@@ -163,7 +163,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Hawaï",
       description:
         "Vol, décalage, formalités et saisons : l'essentiel pour préparer sereinement votre voyage à Hawaï.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -222,7 +222,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Hawaï. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -245,7 +245,7 @@ export const destination: Destination = {
       heading: "Les lieux qui donnent envie de traverser l'archipel",
       description:
         "Du sommet du Mauna Kea aux falaises de Na Pali, voici les étapes autour desquelles nous aimons construire un séjour à Hawaï.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -324,7 +324,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Hawaï",
       description:
         "Quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir la bonne saison, les bonnes îles et profiter de chaque journée.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Choisir ses îles",
@@ -541,7 +541,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

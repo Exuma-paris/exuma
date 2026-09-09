@@ -33,15 +33,15 @@ export const destination: Destination = {
         "La Suisse se découvre vallée après vallée. On passe des chalets de Gstaad aux forêts de l’Engadine, puis on descend vers le sud, au bord du lac Majeur. Chaque versant a son caractère, et nous savons dans quel ordre les traverser.",
       images: [
         {
-          src: "/destination/suisse/hero-1.png",
+          src: "/destination/suisse/hero-1.webp",
           alt: "Chalet de bois et sommets enneigés au lever du jour, voyage en Suisse",
         },
         {
-          src: "/destination/suisse/hero-2.png",
+          src: "/destination/suisse/hero-2.webp",
           alt: "Le Cervin se dévoile au-dessus de Zermatt au premier soleil",
         },
         {
-          src: "/destination/suisse/hero-3.png",
+          src: "/destination/suisse/hero-3.webp",
           alt: "Terrasse de bois face au lac des Quatre-Cantons dans la brume du matin",
         },
       ],
@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "La Suisse, le grand calme et la lumière des sommets",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Suisse commence souvent sur une route de montagne. Elle s’élève doucement entre les sapins, franchit un col, et redescend dans une vallée où l’on vous répond en italien. Le pays change de langue et de lumière en quelques virages. C’est ce qui le rend si vivant.",
         "Le reste se compose au fil des saisons. L’hiver appartient à l’Oberland bernois et au Valais, quand la neige tient et que le soleil reste haut. L’été ouvre les alpages et les sentiers des Grisons. L’automne dore les forêts de l’Engadine. Et le sud garde sa douceur presque toute l’année. Nous vous disons ce qui se vit le mieux au moment où vous partez.",
@@ -78,7 +78,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/suisse/full-image.png",
+        src: "/destination/suisse/full-image.webp",
         alt: "Vallée alpine et sommets enneigés au petit matin, voyage en Suisse",
       },
       height: 600,
@@ -96,11 +96,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/suisse/split-1.png",
+          src: "/destination/suisse/split-1.webp",
           alt: "Maison engadinoise aux motifs gravés dans l’enduit, à Sils Maria",
         },
         {
-          src: "/destination/suisse/split-2.png",
+          src: "/destination/suisse/split-2.webp",
           alt: "Forêts de mélèzes dorées au-dessus du lac de Silvaplana en Engadine",
         },
       ],
@@ -110,11 +110,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/suisse/xp-glacier-aletsch-1.png",
+          src: "/destination/suisse/xp-glacier-aletsch-1.webp",
           alt: "Hélicoptère posé sur la neige du glacier d’Aletsch au lever du jour",
         },
         right: {
-          src: "/destination/suisse/xp-glacier-aletsch-2.png",
+          src: "/destination/suisse/xp-glacier-aletsch-2.webp",
           alt: "Table dressée sur la neige face aux glaces du glacier d’Aletsch",
         },
       },
@@ -162,7 +162,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Suisse",
       description:
         "Le trajet, la monnaie, les formalités et la meilleure saison. De quoi choisir vos dates l’esprit tranquille.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -221,13 +221,13 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque voyage en Suisse. Un seul interlocuteur coordonne l’ensemble et reste le vôtre, du premier échange jusqu’au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
           src: `/destination/suisse/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d’un itinéraire sur mesure entre les vallées suisses",
             "Ruelle d’un village de l’Oberland bernois aux façades de bois",
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Les six lieux que nous aimons faire découvrir",
       description:
         "Zermatt, Gstaad, l’Engadine, Lavaux, Lucerne et Ascona. Six lieux, six ambiances, et la plupart de nos voyages en retiennent trois.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -254,7 +254,7 @@ export const destination: Destination = {
           description:
             "Le village se blottit au fond d’une vallée sans issue, face au Cervin. Aucune voiture n’y circule. Le matin, la montagne se dévoile avant que les nuages ne viennent la couvrir.",
           image: {
-            src: "/destination/suisse/map-zermatt.png",
+            src: "/destination/suisse/map-zermatt.webp",
             alt: "Le Cervin au-dessus du village de Zermatt en Valais",
           },
           coordinates: { lat: 46.0207, lng: 7.7491 }, // TODO: verify coords
@@ -264,7 +264,7 @@ export const destination: Destination = {
           description:
             "Des chalets de bois sombre, une rue où l’on se promène, et tout autour des alpages qui montent doucement. Rien ne dépasse, rien ne brille. C’est ce qui plaît à ceux qui viennent y disparaître.",
           image: {
-            src: "/destination/suisse/map-gstaad.png",
+            src: "/destination/suisse/map-gstaad.webp",
             alt: "Chalets de bois de Gstaad et alpages du Saanenland sous la neige",
           },
           coordinates: { lat: 46.4726, lng: 7.2861 }, // TODO: verify coords
@@ -274,7 +274,7 @@ export const destination: Destination = {
           description:
             "Une vallée posée en altitude, entre forêts sombres et villages blancs. Saint-Moritz est tout près, et pourtant on se sent ailleurs. Le temps y ralentit dès le premier matin.",
           image: {
-            src: "/destination/suisse/map-engadine.png",
+            src: "/destination/suisse/map-engadine.webp",
             alt: "Lac de Sils et forêts de l’Engadine dans les Grisons",
           },
           coordinates: { lat: 46.4297, lng: 9.7614 }, // TODO: verify coords
@@ -284,7 +284,7 @@ export const destination: Destination = {
           description:
             "Les vignes descendent en terrasses jusqu’au Léman, entre Lausanne et Montreux. Le chasselas mûrit face au lac. Les vignerons ouvrent leur caveau à tour de rôle, et l’on s’y attarde volontiers.",
           image: {
-            src: "/destination/suisse/map-lavaux.png",
+            src: "/destination/suisse/map-lavaux.webp",
             alt: "Vignes en terrasses de Lavaux descendant vers le lac Léman",
           },
           coordinates: { lat: 46.4833, lng: 6.75 }, // TODO: verify coords
@@ -294,7 +294,7 @@ export const destination: Destination = {
           description:
             "Un pont de bois couvert, une vieille ville restée intacte, et un lac dont les bras s’enfoncent chacun dans une montagne. Les bateaux à vapeur y naviguent encore.",
           image: {
-            src: "/destination/suisse/map-lucerne.png",
+            src: "/destination/suisse/map-lucerne.webp",
             alt: "Bateau à vapeur sur le lac des Quatre-Cantons devant Lucerne",
           },
           coordinates: { lat: 47.0502, lng: 8.3093 }, // TODO: verify coords
@@ -304,7 +304,7 @@ export const destination: Destination = {
           description:
             "Ici, la Suisse parle italien. Les façades sont ocre, les palmiers bordent la promenade du lac Majeur, et les terrasses restent ouvertes tard.",
           image: {
-            src: "/destination/suisse/map-ascona.png",
+            src: "/destination/suisse/map-ascona.webp",
             alt: "Promenade et façades ocre d’Ascona au bord du lac Majeur, Tessin",
           },
           coordinates: { lat: 46.1547, lng: 8.7739 }, // TODO: verify coords
@@ -319,7 +319,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Suisse",
       description:
         "Huit choses que l’on apprend en y allant souvent, et qui aident à choisir sa saison, sa vallée et son rythme.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le train, la plus belle façon de circuler",
@@ -510,14 +510,14 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l’expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
           quote:
             "Trois vallées, et jamais l’impression de courir. Gstaad, puis les Grisons, puis le Tessin. Nos bagages nous précédaient d’une maison à l’autre, nous n’avons rien porté de tout le séjour.",
           image: {
-            src: "/destination/suisse/hero-1.png",
+            src: "/destination/suisse/hero-1.webp",
             alt: "Portrait de Frédéric", // TODO: verify
           },
           name: "Frédéric", // TODO: verify
@@ -528,7 +528,7 @@ export const destination: Destination = {
           quote:
             "Nous étions trois générations et personne n’a attendu personne. Les enfants au ski le matin, mes parents aux thermes, et tout le monde à la même table à midi. C’était exactement ce que j’espérais.",
           image: {
-            src: "/destination/suisse/hero-2.png",
+            src: "/destination/suisse/hero-2.webp",
             alt: "Portrait de Constance", // TODO: verify
           },
           name: "Constance", // TODO: verify
@@ -539,7 +539,7 @@ export const destination: Destination = {
           quote:
             "Le petit-déjeuner sur le glacier restera le souvenir du voyage. Ce moment-là est difficile à raconter. Nous étions redescendus avant même que la vallée ne se réveille.",
           image: {
-            src: "/destination/suisse/hero-3.png",
+            src: "/destination/suisse/hero-3.webp",
             alt: "Portrait de Laurent", // TODO: verify
           },
           name: "Laurent", // TODO: verify

@@ -7,8 +7,8 @@ export const experience: Experience = {
     "En hiver, les baleines à bosse viennent mettre bas dans la baie de Banderas. Le bateau coupe son moteur, l'hydrophone descend dans l'eau, et le chant des mâles remplit tout à coup le silence.",
   keywords: ["mexique", "nayarit", "baleines", "pacifique", "banderas"],
   heroImage: {
-    src: "/destination/mexique/xp-baleines.png",
-    alt: "Baleine à bosse et son baleineau dans la baie de Banderas, Pacifique mexicain",
+    src: "/destination/mexique/xp-baleines.webp",
+    alt: "Baleine à bosse jaillissant de l'eau dans le Pacifique mexicain",
   },
   destinationSlugs: ["mexique"],
   sections: [],

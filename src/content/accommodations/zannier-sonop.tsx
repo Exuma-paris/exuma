@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["namibie", "kalahari", "karas", "sonop", "zannier"],
   heroImage: {
     src: "/destination/namibie/hotel-sonop.webp",
-    alt: "Tente du Zannier Sonop posée sur des blocs de granit au-dessus du Kalahari, Namibie",
+    alt: "Pavillons et piscine du Zannier Sonop posés sur les blocs de granit du Karas, Namibie",
   },
   destinationSlugs: ["namibie"],
   sections: [],

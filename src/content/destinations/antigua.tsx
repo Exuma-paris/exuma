@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte d'Antigua",
       heading: "Une île à contours, pas une plage à liste",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Antigua se lit à la carte marine autant qu'à la carte routière. L'île mesure vingt-deux kilomètres sur seize, ce qui permet de dormir dans une seule baie et de rayonner en une heure de voiture vers n'importe quel point de la côte, de Jolly Harbour à Half Moon Bay.",
         "English Harbour et Nelson's Dockyard occupent le sud-est depuis 1725. Le chantier naval, classé à l'UNESCO en 2016, garde ses ateliers de pierre et de bois, et sert toujours de mouillage aux voiliers de compétition pendant l'Antigua Sailing Week, fin avril.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Antigua",
       description:
         "Vol, décalage, formalités et saisons : de quoi caler les dates d'un voyage à Antigua en toute tranquillité.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Antigua. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six étapes que l'on relie par la route et par le bateau",
       description:
         "De St. John's à Barbuda, six repères que la voiture et le bateau rapide enchaînent dans l'ordre qui vous convient.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 10,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Antigua",
       description:
         "Huit observations de terrain qui ne figurent pas dans un guide : la bonne saison, la façon de rejoindre Barbuda, et ce qui se règle avant de partir.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "La saison où Antigua se dévoile le mieux",
@@ -512,7 +512,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

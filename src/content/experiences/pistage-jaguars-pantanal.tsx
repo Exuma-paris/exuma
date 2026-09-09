@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Les biologistes d'Onçafari suivent ces jaguars depuis des années, et les félins ne s'écartent plus des véhicules. On les observe à quelques mètres, depuis un 4×4 ou une barque, au moment où ils descendent boire.",
   keywords: ["bresil", "pantanal", "jaguar", "oncafari", "faune"],
   heroImage: {
-    src: "/destination/bresil/xp-jaguars-pantanal.png",
+    src: "/destination/bresil/xp-jaguars-pantanal.webp",
     alt: "Jaguar allongé sur une berge du Pantanal observé depuis une barque",
   },
   destinationSlugs: ["bresil"],

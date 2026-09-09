@@ -122,5 +122,11 @@ export const accommodation: Accommodation = {
         "Trois expériences ancrées dans le reste de la Polynésie, à programmer en ouverture ou en clôture du séjour sur Onetahi.",
       slugs: ["peche-moorea", "nick-tetautiare", "lagon-moorea"],
     },
+    {
+      type: "finalCta",
+      eyebrow: "Aller plus loin",
+      heading: "Envie d'en faire une étape de votre voyage ?",
+      primaryCta: { label: "Créer votre voyage", href: "/votre-projet" },
+    },
   ],
 };

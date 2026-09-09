@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Le désert n'a aucune lumière parasite, et la Voie lactée se voit à l'œil nu une fois les feux du campement éteints. Un guide monte un télescope à l'écart des tentes et nomme ce qu'on regarde.",
   keywords: ["jordanie", "wadi rum", "etoiles", "desert", "nuit"],
   heroImage: {
-    src: "/destination/jordanie/xp-etoiles-wadi-rum.png",
+    src: "/destination/jordanie/xp-etoiles-wadi-rum.webp",
     alt: "Voie lactée au-dessus des massifs du Wadi Rum et d'un campement bédouin, Jordanie",
   },
   destinationSlugs: ["jordanie"],

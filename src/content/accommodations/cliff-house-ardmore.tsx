@@ -7,7 +7,7 @@ export const accommodation: Accommodation = {
     "La maison est accrochée dans la falaise d'Ardmore et chaque chambre regarde la baie. Sa table, étoilée sans interruption depuis 2010, travaille ce que les bateaux rentrent le matin. Le sentier de falaise part de la terrasse et fait le tour du promontoire.",
   keywords: ["irlande", "ardmore", "waterford", "falaise", "cote sud"],
   heroImage: {
-    src: "/destination/irlande/hotel-cliff-house.png",
+    src: "/destination/irlande/hotel-cliff-house.webp",
     alt: "Chambres du Cliff House Hotel accrochées dans la falaise face à la baie d'Ardmore",
   },
   destinationSlugs: ["irlande"],

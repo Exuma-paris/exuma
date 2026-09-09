@@ -19,6 +19,8 @@ export type InfoGridSectionProps = {
   description?: string;
   cta?: { label: string; href: string };
   items: InfoGridItem[];
+  /** "dark" retourne la section sur le fond sombre de la marque. */
+  theme?: "light" | "dark";
   background?: string;
 };
 
@@ -40,6 +42,10 @@ export const infoGridMeta = {
       role: "Optional sub-paragraph under the heading.",
       required: false,
       length: { chars: { target: 220, max: 320 } },
+    },
+    theme: {
+      role: "\"dark\" flips the section onto the brand's dark ground.",
+      required: false,
     },
     items: {
       role: "Info cells, rendered in a 4-column grid on desktop.",
@@ -71,15 +77,24 @@ export function InfoGridSection({
   description,
   cta,
   items,
+  theme = "light",
   background,
 }: InfoGridSectionProps) {
+  const isDark = theme === "dark";
   return (
-    <div className={cn("relative w-full", background)}>
+    <div
+      className={cn(
+        "relative w-full",
+        isDark && "bg-foreground text-background",
+        background,
+      )}
+    >
       <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-10 section-py">
         <div className="flex flex-col items-start gap-6 md:flex-row md:items-end md:justify-between">
           <TextBlock
             align="left"
             eyebrow={eyebrow}
+            eyebrowTone={isDark ? "background" : "primary"}
             heading={heading}
             headingLevel="h2"
             paragraph={description}
@@ -94,20 +109,43 @@ export function InfoGridSection({
           ) : null}
         </div>
 
-        <div className="grid grid-cols-1 border-t border-l border-border sm:grid-cols-2 lg:grid-cols-4">
+        <div
+          className={cn(
+            "grid grid-cols-1 border-t border-l sm:grid-cols-2 lg:grid-cols-4",
+            isDark ? "border-background/20" : "border-border",
+          )}
+        >
           {items.map((item, i) => (
             <div
               key={i}
-              className="flex flex-col gap-3 border-r border-b border-border p-6"
+              className={cn(
+                "flex flex-col gap-3 border-r border-b p-6",
+                isDark ? "border-background/20" : "border-border",
+              )}
             >
-              <div className="text-foreground [&>svg]:size-5">{item.icon}</div>
-              <h3 className="text-foreground">{item.title}</h3>
-              <p className="text-secondary-foreground">{item.description}</p>
+              <div
+                className={cn(
+                  "[&>svg]:size-5",
+                  isDark ? "text-background" : "text-foreground",
+                )}
+              >
+                {item.icon}
+              </div>
+              <h3 className={isDark ? "text-background" : "text-foreground"}>
+                {item.title}
+              </h3>
+              <p
+                className={
+                  isDark ? "text-background/70" : "text-secondary-foreground"
+                }
+              >
+                {item.description}
+              </p>
             </div>
           ))}
         </div>
       </section>
-      <Fingerprint />
+      {isDark ? null : <Fingerprint />}
     </div>
   );
 }

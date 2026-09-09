@@ -13,16 +13,16 @@ Each generated image in `public/destination/japon/` was produced by feeding the 
 | `xp-survol-fuji-1.png`            | `xp-survol-fuji-1-ref.jpg`              | TODO       | TODO    |
 | `xp-survol-fuji-2.png`            | `xp-survol-fuji-2-ref.jpg`              | TODO       | TODO    |
 | `xp-sumo-tokyo.png`               | `xp-sumo-tokyo-ref.jpg`                 | TODO       | TODO    |
-| `xp-ceremonie-the-kyoto.png`      | `xp-ceremonie-the-kyoto-ref.jpg`        | TODO       | TODO    |
-| `xp-kaiseki-gion.png`             | `xp-kaiseki-gion-ref.jpg`               | TODO       | TODO    |
+| `xp-ceremonie-the-kyoto.webp`      | `xp-ceremonie-the-kyoto-ref.jpg`        | TODO       | Libre de droits (fournie par Exuma)    |
+| `xp-kaiseki-gion.webp`             | `xp-kaiseki-gion-ref.jpg`               | TODO       | Libre de droits (fournie par Exuma)    |
 | `hotel-aman-tokyo.png`            | `hotel-aman-tokyo-ref.jpg`              | TODO       | TODO    |
-| `hotel-hoshinoya-kyoto.png`       | `hotel-hoshinoya-kyoto-ref.jpg`         | TODO       | TODO    |
-| `hotel-hoshinoya-fuji.png`        | `hotel-hoshinoya-fuji-ref.jpg`          | TODO       | TODO    |
+| `hotel-hoshinoya-kyoto.webp`       | `hotel-hoshinoya-kyoto-ref.jpg`         | TODO       | Libre de droits (fournie par Exuma)    |
+| `hotel-hoshinoya-fuji.webp`        | `hotel-hoshinoya-fuji-ref.jpg`          | TODO       | Libre de droits (fournie par Exuma)    |
 | `bento-map.png`                   | `bento-map-ref.jpg`                    | TODO       | TODO    |
-| `bento-adresses.png`              | `bento-adresses-ref.jpg`               | TODO       | TODO    |
-| `bento-hebergements.png`          | `bento-hebergements-ref.jpg`           | TODO       | TODO    |
+| `bento-adresses.webp`              | `bento-adresses-ref.jpg`               | TODO       | Libre de droits (fournie par Exuma)    |
+| `bento-hebergements.webp`          | `bento-hebergements-ref.jpg`           | TODO       | Libre de droits (fournie par Exuma)    |
 | `bento-conciergerie.png`          | `bento-conciergerie-ref.jpg`           | TODO       | TODO    |
-| `bento-experiences.png`           | `bento-experiences-ref.jpg`            | TODO       | TODO    |
+| `bento-experiences.webp`           | `bento-experiences-ref.jpg`            | TODO       | Libre de droits (fournie par Exuma)    |
 | `map-tokyo.png`                   | `map-tokyo-ref.jpg`                    | TODO       | TODO    |
 | `map-kyoto.png`                   | `map-kyoto-ref.jpg`                    | TODO       | TODO    |
 | `map-fuji.png`                    | `map-fuji-ref.jpg`                     | TODO       | TODO    |

@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte des Grenadines",
       heading: "Un archipel que l'on parcourt d'île en île",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage dans les Grenadines commence par une carte marine plutôt que par une route. Saint-Vincent tient le nord avec sa montagne et ses jardins botaniques, puis l'archipel s'égrène vers le sud : Bequia, Mustique, Canouan, Mayreau, Union et les îlots qui les séparent. Les traversées se comptent en heures, parfois en minutes, et l'on change d'île comme ailleurs on change de quartier.",
         "Chacune a gardé son caractère. Bequia construit des bateaux depuis toujours, et les coques en chantier se voient encore derrière Port Elizabeth. Mustique appartient à une compagnie que se partagent les propriétaires de ses maisons, ce qui explique le calme des chemins et l'absence de circulation. Canouan reçoit les familles pour la semaine entière, dans de grandes villas où le personnel reste sur place.",
@@ -164,7 +164,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage dans les Grenadines",
       description:
         "Voici les repères pratiques à réunir avant de choisir vos dates : le trajet, les formalités, la monnaie et les saisons.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -223,7 +223,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Grenadines. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Les îles où l'on jette l'ancre",
       description:
         "L'archipel se parcourt du nord au sud, une île après l'autre, et chacune a son heure. Nous plaçons les étapes pour que le rythme reste celui du bateau.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 9,
       places: [
         {
@@ -326,7 +326,7 @@ export const destination: Destination = {
         "Les conseils de nos experts pour votre voyage dans les Grenadines",
       description:
         "Voici quelques observations de terrain qui ne se trouvent pas dans un guide, pour choisir la bonne semaine et comprendre comment l'archipel se vit une fois sur place.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Arriver dans l'archipel sans y penser",
@@ -581,7 +581,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -1,38 +1,40 @@
 # Reference images — Norvège
 
-Each generated image in `public/destination/norvege/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
+Chaque image de `public/destination/norvege/` est produite en envoyant la photo de référence ci-dessous, accompagnée du prompt intégré à `.claude/skills/destination-generator/gen-images.mjs`, à Gemini 3 Pro Image (Nano Banana Pro). La composition de la référence est conservée telle quelle ; seul le rendu est retravaillé.
 
-| Output                          | Reference file                      | Source URL | License |
-| ------------------------------- | ----------------------------------- | ---------- | ------- |
-| `hero-1.png`                    | `hero-1-ref.jpg`                    | TODO       | TODO    |
-| `hero-2.png`                    | `hero-2-ref.jpg`                    | TODO       | TODO    |
-| `hero-3.png`                    | `hero-3-ref.jpg`                    | TODO       | TODO    |
-| `full-image.png`                | `full-image-ref.jpg`                | TODO       | TODO    |
-| `split-1.png`                   | `split-1-ref.jpg`                   | TODO       | TODO    |
-| `split-2.png`                   | `split-2-ref.jpg`                   | TODO       | TODO    |
-| `xp-geirangerfjord-1.png`       | `xp-geirangerfjord-1-ref.jpg`       | TODO       | TODO    |
-| `xp-geirangerfjord-2.png`       | `xp-geirangerfjord-2-ref.jpg`       | TODO       | TODO    |
-| `xp-peche-skrei.png`            | `xp-peche-skrei-ref.jpg`            | TODO       | TODO    |
-| `xp-reinefjord.png`             | `xp-reinefjord-ref.jpg`             | TODO       | TODO    |
-| `xp-ski-voile-sunnmore.png`     | `xp-ski-voile-sunnmore-ref.jpg`     | TODO       | TODO    |
-| `hotel-holmen-lofoten.png`      | `hotel-holmen-lofoten-ref.jpg`      | TODO       | TODO    |
-| `hotel-juvet.png`               | `hotel-juvet-ref.jpg`               | TODO       | TODO    |
-| `bento-map.png`                 | `bento-map-ref.jpg`                 | TODO       | TODO    |
-| `bento-adresses.png`            | `bento-adresses-ref.jpg`            | TODO       | TODO    |
-| `bento-hebergements.png`        | `bento-hebergements-ref.jpg`        | TODO       | TODO    |
-| `bento-conciergerie.png`        | `bento-conciergerie-ref.jpg`        | TODO       | TODO    |
-| `bento-experiences.png`         | `bento-experiences-ref.jpg`         | TODO       | TODO    |
-| `map-reine.png`                 | `map-reine-ref.jpg`                 | TODO       | TODO    |
-| `map-sorvagen.png`              | `map-sorvagen-ref.jpg`              | TODO       | TODO    |
-| `map-moskenstraumen.png`        | `map-moskenstraumen-ref.jpg`        | TODO       | TODO    |
-| `map-geirangerfjord.png`        | `map-geirangerfjord-ref.jpg`        | TODO       | TODO    |
-| `map-valldal.png`               | `map-valldal-ref.jpg`               | TODO       | TODO    |
-| `map-hjorundfjord.png`          | `map-hjorundfjord-ref.jpg`          | TODO       | TODO    |
+Références fournies par le client, déclarées libres de droit. Colonne « Source URL » à compléter si une traçabilité par lien est nécessaire.
+
+| Output | Reference file | Source URL | License |
+| --- | --- | --- | --- |
+| `hero-1.webp` | `hero-1-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `hero-2.webp` | `hero-2-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `hero-3.webp` | `hero-3-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `full-image.webp` | `full-image-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `split-1.webp` | `split-1-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `split-2.webp` | `split-2-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `xp-geirangerfjord-1.webp` | `xp-geirangerfjord-1-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `xp-geirangerfjord-2.webp` | `xp-geirangerfjord-2-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `xp-peche-skrei.webp` | `xp-peche-skrei-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `xp-reinefjord.webp` | `xp-reinefjord-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `xp-ski-voile-sunnmore.webp` | MANQUANTE | à fournir | à fournir |
+| `hotel-holmen-lofoten.webp` | `hotel-holmen-lofoten-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `hotel-juvet.webp` | `hotel-juvet-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `bento-map.webp` | MANQUANTE | à fournir | à fournir |
+| `bento-adresses.webp` | `bento-adresses-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `bento-hebergements.webp` | `bento-hebergements-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `bento-conciergerie.webp` | MANQUANTE | à fournir | à fournir |
+| `bento-experiences.webp` | `bento-experiences-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `map-reine.webp` | `map-reine-ref.jpg` | fourni par le client | libre de droit (déclaré) |
+| `map-sorvagen.webp` | `map-sorvagen-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `map-moskenstraumen.webp` | `map-moskenstraumen-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `map-geirangerfjord.webp` | `map-geirangerfjord-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `map-valldal.webp` | MANQUANTE | à fournir | à fournir |
+| `map-hjorundfjord.webp` | `map-hjorundfjord-ref.png` | fourni par le client | libre de droit (déclaré) |
 
 En attente d'ouverture, hors page pour l'instant :
 
-| Output              | Reference file          | Source URL | License |
-| ------------------- | ----------------------- | ---------- | ------- |
-| `hotel-svart.png`   | `hotel-svart-ref.jpg`   | TODO       | TODO    |
+| Output | Reference file | Source URL | License |
+| --- | --- | --- | --- |
+| `hotel-svart.webp` | MANQUANTE | à fournir | à fournir |
 
-Les portraits de la section témoignages réutilisent `hero-1.png`, `hero-2.png` et `hero-3.png`. Aucun fichier supplémentaire n'est nécessaire.
+Les portraits de la section témoignages réutilisent `hero-1.webp`, `hero-2.webp` et `hero-3.webp`.

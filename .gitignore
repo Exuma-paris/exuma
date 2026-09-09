@@ -49,6 +49,8 @@ references/**/*.jpg
 references/**/*.jpeg
 references/**/*.png
 references/**/*.webp
+references/**/*.tif
+references/**/*.tiff
 
 # Windows / Dropbox
 desktop.ini

@@ -5,6 +5,8 @@ type HeadingLevel = "h1" | "h2" | "h3" | "h4" | "h5";
 const eyebrowTones = {
   primary: "text-primary",
   foreground: "text-foreground",
+  /** Pour les sections en fond sombre, où les deux autres tons disparaissent. */
+  background: "text-background/70",
 } as const;
 
 export function TextBlock({

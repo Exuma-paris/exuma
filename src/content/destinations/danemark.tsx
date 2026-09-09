@@ -84,7 +84,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Danemark",
       heading: "Un pays qui tient sur le vélo et sur l'eau",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Danemark commence souvent par Copenhague, mais le pays se révèle pleinement lorsque l'on poursuit la route au-delà de la capitale. Copenhague se traverse en une journée à vélo, entre les façades du dix-septième siècle de Nyhavn, le palais de Christiansborg et le nouveau quartier de Nordhavn, construit sur d'anciens quais industriels. Puis viennent les îles : 444 au total, chacune offrant une autre facette du Danemark, de Bornholm à Ærø.",
         "Sur l'île de Sjælland, à quarante minutes de train de Copenhague, Kronborg veille sur l'Øresund depuis la forteresse de Krogen, édifiée en 1420. Le château Renaissance actuel fut construit à partir de 1574 et inspira à Shakespeare l'Elseneur de Hamlet ; il figure au patrimoine mondial de l'Unesco depuis 2000. Plus à l'intérieur des terres, le château de Frederiksborg à Hillerød reste le plus grand château Renaissance de Scandinavie.",
@@ -177,7 +177,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Danemark",
       description:
         "Temps de vol, formalités, monnaie, saisons et lumière : l'essentiel pour choisir vos dates avant de choisir votre itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -236,7 +236,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Chaque dossier Danemark mobilise plusieurs expertises. Un interlocuteur unique en assure la coordination et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -259,7 +259,7 @@ export const destination: Destination = {
       heading: "Six lieux autour desquels s'organisent nos itinéraires",
       description:
         "De Copenhague aux fumoirs de Bornholm, des toits de chaume d'Ærø à la lumière de Skagen : six repères que la plupart de nos voyages combinent selon la durée du séjour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -338,7 +338,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Danemark",
       description:
         "Huit observations de terrain qui expliquent pourquoi nous inscrivons une étape à une date plutôt qu'à une autre.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",

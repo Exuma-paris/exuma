@@ -28,6 +28,6 @@ Each generated image in `public/destination/ecosse/` was produced by feeding the
 | `map-east-lothian.png`            | `map-east-lothian-ref.jpg`            | TODO       | TODO    |
 | `map-speyside.png`                | `map-speyside-ref.jpg`                | TODO       | TODO    |
 | `map-glencoe.png`                 | `map-glencoe-ref.jpg`                 | TODO       | TODO    |
-| `map-skye.png`                    | `map-skye-ref.jpg`                    | TODO       | TODO    |
+| `map-jacobite.png`                | `map-jacobite-ref.jpg`                | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no separate files.

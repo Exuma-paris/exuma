@@ -68,6 +68,7 @@ When asked to build or edit a page, lead with the existing sections — surface 
 | `entityList` | Auto-rendered list of experiences/accommodations/destinations by slug |
 | `gallery` | Auto-scrolling image gallery |
 | `featureShowcase` | Alternating feature items (image + rich detail) |
+| `featureRows` | 3 to 6 standalone rows (image + title + paragraphs), all readable without interaction; image side and crop alternate |
 
 Keep this table in sync with the `Section` union — they must always match.
 

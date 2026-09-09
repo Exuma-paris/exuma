@@ -65,7 +65,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Colombie",
       heading: "Un pays façonné par trois cordillères",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Colombie traverse trois cordillères andines, deux océans et un bassin amazonien, souvent en l'espace d'une même semaine. À Carthagène des Indes, la chaleur des Caraïbes colle aux remparts du XVIe siècle. À Bogotá, huit heures plus tard en altitude, il fait quinze degrés à midi. Cette amplitude géographique n'est pas un obstacle : elle est la matière du voyage.",
         "Dans la Zone Café, entre Quindío et Risaralda, les caféiers poussent sur des pentes que l'on croirait dessinées pour le paysage plutôt que pour la récolte. Plus au nord, la Sierra Nevada de Santa Marta grimpe de la mer des Caraïbes à cinq mille huit cents mètres en moins de quarante kilomètres à vol d'oiseau, une des plus fortes déclivités du monde. Au sud, l'Amazonie colombienne commence à Leticia, sur les rives du fleuve, à la frontière du Brésil et du Pérou.",
@@ -158,7 +158,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Colombie",
       description:
         "Décalage horaire, monnaie, visa, saison : l'essentiel pour construire un itinéraire en Colombie sans mauvaise surprise.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -217,7 +217,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Colombie. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -240,7 +240,7 @@ export const destination: Destination = {
       heading: "Six lieux, et ce qu'ils gardent",
       description:
         "Carthagène, la Sierra Nevada, la Zone Café : les grands repères d'un voyage en Colombie, complétés de lieux que la plupart des voyageurs traversent sans s'arrêter.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -316,7 +316,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Colombie",
       description:
         "Huit clés de lecture pour comprendre la Colombie autrement. Des repères qui guident nos choix d'étapes et la construction de chaque itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -540,7 +540,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -14,7 +14,7 @@ export const accommodation: Accommodation = {
     "villa",
   ],
   heroImage: {
-    src: "/destination/anguilla/hotel-cap-juluca.png",
+    src: "/destination/anguilla/hotel-cap-juluca.webp",
     alt: "Villas blanches à dômes de Cap Juluca alignées sur la plage de Maundays Bay",
   },
   destinationSlugs: ["anguilla", "caraibes"],

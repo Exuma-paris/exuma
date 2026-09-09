@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Nouvelle-Zélande",
       heading: "L'été austral commence en décembre, à l'autre bout du monde",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Nouvelle-Zélande inverse d'abord le calendrier : décembre ouvre l'été austral, juillet ferme l'hiver, et la saison de ski des Alpes du Sud se joue en plein cœur de l'été français. Deux îles, deux climats, une même ligne de faille qui les traverse du nord au sud.",
         "L'île du Nord tient dans la géothermie et le Pacifique tiède : les geysers et les lacs bouillonnants de Rotorua, la Baie des Îles et ses cent quarante-quatre îlots, les vignobles de Hawke's Bay. L'île du Sud tient dans la roche et la glace : les Alpes du Sud, Aoraki, le plus haut sommet du pays, les fjords du Fiordland et les glaciers de Franz Josef et Fox qui descendent jusqu'à la forêt tropicale tempérée.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Nouvelle-Zélande",
       description:
         "Vol, décalage, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage en Nouvelle-Zélande.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Nouvelle-Zélande. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six étapes, et les vols qui les relient",
       description:
         "Le pays s'étire sur plus de mille cinq cents kilomètres. Voici les six étapes qui structurent un premier voyage, et ce que chacune apporte que les autres n'ont pas.", // TODO: verify figure
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Nouvelle-Zélande",
       description:
         "Huit repères rapportés du terrain : comment on arrive, comment on se déplace, et ce qui se réserve des mois avant le départ.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "L'escale se choisit, elle ne se subit pas",

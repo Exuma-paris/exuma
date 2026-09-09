@@ -36,13 +36,16 @@ export const heroMeta = {
       length: { chars: { target: 220, max: 280 } },
     },
     images: {
-      role: "Hero gallery (auto-scrolls when length > 1).",
+      role: "Hero gallery — a single full-width band, or a carousel that auto-scrolls from 2 images up.",
       required: true,
-      itemCount: { exact: 3 },
+      itemCount: { min: 1, max: 3 },
       perItem: {
         role: "One hero image.",
         required: true,
-        image: { role: "atmospheric", ratio: "1:1" },
+        image: {
+          role: "atmospheric",
+          ratio: "1:1 master; cropped square in the carousel, 21:9 when alone",
+        },
       },
     },
   },
@@ -64,12 +67,19 @@ const SINGLE_SIZES = "calc(100vw - 1.5rem)";
 function ImageTile({
   image,
   sizes,
+  ratio = "aspect-square",
 }: {
   image: { src: string; alt: string };
   sizes: string;
+  /**
+   * Le carré convient aux vignettes du carrousel, qui n'occupent qu'un tiers de
+   * la largeur. Sur une image unique, qui prend toute la largeur, il produit une
+   * bande aussi haute que l'écran et repousse le contenu hors de vue.
+   */
+  ratio?: string;
 }) {
   return (
-    <div className="relative aspect-square w-full overflow-hidden bg-muted">
+    <div className={cn("relative w-full overflow-hidden bg-muted", ratio)}>
       <Image
         src={image.src}
         alt={image.alt}
@@ -187,7 +197,11 @@ export function HeroImageGallery({
         </div>
       ) : (
         <div className="px-3">
-          <ImageTile image={images[0]} sizes={SINGLE_SIZES} />
+          <ImageTile
+            image={images[0]}
+            sizes={SINGLE_SIZES}
+            ratio="aspect-3/2 md:aspect-21/9"
+          />
         </div>
       )}
 

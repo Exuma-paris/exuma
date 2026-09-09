@@ -68,7 +68,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte des Galápagos",
       heading: "Un archipel où la restriction a produit la préservation",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Galápagos commence par une contrainte que peu de destinations s'imposent : le parc national fixe un nombre de visiteurs par site et par jour, et impose un guide naturaliste certifié à chaque débarquement. Cette règle, en vigueur depuis les années 1970, explique pourquoi l'archipel a gardé ce que la plupart des îles tropicales ont perdu.",
         "L'UNESCO a inscrit les Galápagos au patrimoine mondial en 1978, premier site retenu au tout premier classement. L'archipel est né d'un point chaud volcanique actif depuis plus de quatre millions d'années, et l'équateur traverse l'île Isabela en son milieu exact, à hauteur du volcan Wolf.",
@@ -161,7 +161,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage aux Galápagos",
       description:
         "Vol, décalage, formalités et saisons : de quoi caler les dates d'un voyage aux Galápagos en toute tranquillité.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -220,7 +220,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Galápagos. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -243,7 +243,7 @@ export const destination: Destination = {
       heading: "De Puerto Ayora à Punta Suárez, un archipel qui change d'île en île",
       description:
         "Chaque île a son relief, sa faune dominante, son histoire. Six repères qui donnent la mesure de cette diversité, du cratère de Sierra Negra à la colonie d'albatros d'Española.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 8,
       places: [
         {
@@ -322,7 +322,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage aux Galápagos",
       description:
         "Huit repères de terrain pour composer un séjour dans un archipel où le parc national encadre chaque déplacement.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le guide naturaliste, une obligation, pas une option",

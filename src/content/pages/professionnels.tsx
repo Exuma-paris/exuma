@@ -175,7 +175,7 @@ export const sections: Section[] = [
       // Formulation à faire valider par Ludivine (règle interne, pas une promesse chiffrée).
       "En interne, l'information circule au strict nécessaire : votre référent, son suppléant, et personne d'autre.",
     ],
-    cta: { label: "Recevoir notre engagement écrit", href: "/contact" },
+    cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement" },
   },
 
   {
@@ -290,6 +290,6 @@ export const sections: Section[] = [
     heading: "Un échange, pas un formulaire",
     primaryCta: { label: "Appeler Exuma", href: EXUMA_TEL_HREF },
     // TODO : remplacer par la ligne directe et le mail nominatif de Ludivine.
-    secondaryCta: { label: "Écrire à Ludivine", href: "/contact" },
+    secondaryCta: { label: "Écrire à Ludivine", href: "/professionnels/contact" },
   },
 ];

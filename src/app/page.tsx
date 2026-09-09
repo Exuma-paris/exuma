@@ -88,14 +88,15 @@ export default function Home() {
           eyebrow="Partenaire · Ponant"
           heading="Nous parlons destinations avec ceux qui les opèrent"
           description="Compagnies, hôteliers, guides locaux : nous passons du temps avec ceux qui travaillent sur le terrain, et nous y retournons régulièrement. Ce que nous vous conseillons vient de ces conversations, pas d'un catalogue."
-          // La vidéo est hébergée sur la page Facebook d'Exuma, pas dans le
-          // dépôt : le bloc renvoie vers elle plutôt que de proposer une
-          // lecture sur place qui n'aboutirait pas.
+          // La vidéo vit sur la chaîne YouTube d’Exuma, mais se regarde ici :
+          // le lecteur n’est chargé qu’au clic, donc la page d’accueil ne
+          // demande rien à YouTube tant que personne ne lance la lecture.
           video={{
             poster: "/videos/exuma-ponant-poster.jpg",
             alt: "Échange entre Céline Lagraulet et un travel designer Exuma sur la Polynésie",
           }}
-          href="https://www.facebook.com/exumafr/videos/26088294140798440/"
+          youtubeId="PukQKp3985c"
+          youtubeStart={2}
           background="bg-background-soft"
         />
         <TestimonialsSection

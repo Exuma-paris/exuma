@@ -252,7 +252,7 @@ export const sections: Section[] = [
       // Formulation à faire valider par Ludivine (règle interne).
       "En interne, l'information circule au strict nécessaire : votre interlocuteur, son suppléant, et personne d'autre. Ce que vous préparez ne se devine pas depuis un carnet de réservations.",
     ],
-    cta: { label: "Recevoir notre engagement écrit", href: "/contact" },
+    cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement?profil=dirigeant" },
   },
 
   {
@@ -375,6 +375,6 @@ export const sections: Section[] = [
     heading: "Envie qu'on s'en occupe ? Contactez-nous",
     primaryCta: { label: "Appeler Exuma", href: EXUMA_TEL_HREF },
     // TODO : remplacer par la ligne directe et le mail nominatif du référent.
-    secondaryCta: { label: "Écrire à Exuma", href: "/contact" },
+    secondaryCta: { label: "Écrire à Ludivine", href: "/professionnels/contact?profil=dirigeant" },
   },
 ];

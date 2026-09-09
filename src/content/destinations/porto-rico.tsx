@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de Porto Rico",
       heading: "Porto Rico, une île qui change de climat en une heure de route",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Porto Rico se construit entre trois climats qui se touchent sans se ressembler. Le Vieux San Juan respire l'air salé de l'Atlantique sous les remparts espagnols du XVIe siècle. À moins d'une heure de route, El Yunque retient un mur d'humidité que la côte ne connaît pas. Au large, Vieques et Culebra gardent leurs plages presque vides, hors des grands ferries de croisière qui s'arrêtent à San Juan.",
         "La logique d'un itinéraire portoricain suit ces trois climats plutôt qu'une carte routière. Deux ou trois jours dans le Vieux San Juan pour prendre la mesure de la vieille ville : le fort San Felipe del Morro, les balcons bleus de la Calle Fortaleza, le marché couvert de Santurce. Direction ensuite Río Grande et la réserve d'El Yunque, où les cascades de La Mina et de Juan Diego coulent toute l'année. Le dernier tiers du séjour se joue au large : un vol de douze minutes ou un ferry depuis Ceiba mènent à Vieques, où la baie de Mosquito Bay referme la boucle.",
@@ -163,7 +163,7 @@ export const destination: Destination = {
       heading: "Ce qu'il faut savoir avant de partir à Porto Rico",
       description:
         "Monnaie, formalités, vaccin, temps de vol, décalage et meilleure saison : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -222,7 +222,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Porto Rico. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -245,7 +245,7 @@ export const destination: Destination = {
       heading: "Six lieux, et ce qu'il y a derrière",
       description:
         "Le Vieux San Juan, El Yunque, Vieques, Culebra, Dorado et Ponce : chaque étape répond à une raison précise dans un itinéraire portoricain.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 9,
       places: [
         {
@@ -318,7 +318,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Porto Rico",
       description:
         "Huit repères de terrain pour préparer un séjour entre ville coloniale, forêt tropicale et îles au large sans mauvaise surprise.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Dans ma valise",
@@ -512,7 +512,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

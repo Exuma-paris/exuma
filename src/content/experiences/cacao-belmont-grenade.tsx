@@ -10,6 +10,6 @@ export const experience: Experience = {
     src: "/destination/caraibes/xp-cacao-grenade.png",
     alt: "Fèves de cacao séchant au soleil sur les plateaux de Belmont Estate à la Grenade",
   },
-  destinationSlugs: ["caraibes"],
+  destinationSlugs: ["caraibes", "la-grenade"],
   sections: [],
 };

@@ -65,7 +65,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Australie",
       heading: "L'hiver de Sydney est la bonne saison du désert",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Sydney passe l'hiver en juillet, au moment précis où le Kakadu sèche et où Uluru devient praticable en journée. Un voyage en Australie se cale d'abord sur ce décalage : le pays couvre quatre climats, et deux étapes voisines sur la carte peuvent appartenir à deux saisons différentes.",
         "Les distances se franchissent en avion. Sydney rejoint Uluru en trois heures de vol, Uluru rejoint Cairns en trois heures encore, et certaines stations du bush se gagnent en Cessna, cinq places, depuis Darwin. Un itinéraire réussi compte peu d'étapes et beaucoup de nuits par étape.",
@@ -84,21 +84,21 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Australie : les lodges du bout du monde",
-      heading: "Quinze tentes face au monolithe, et rien d'autre autour",
+      eyebrow: "Australie : la mer et la vigne",
+      heading: "Les vignes de la Barossa comptent parmi les plus vieilles du monde",
       theme: "light",
       paragraphs: [
-        "Les meilleures adresses australiennes ne sont pas des hôtels de ville. Longitude 131° tient en quinze tentes posées sur une dune, chacune ouverte sur Uluru par une baie vitrée toute hauteur. Le dîner se prend dehors, sous les étoiles, et le parc national commence au pied du camp.",
-        "Sur les falaises de Kangaroo Island, le Southern Ocean Lodge regarde l'océan Austral. Aux portes du Kakadu, Bamurru Plains ne capte pas le réseau : les bungalows sont montés sur pilotis au-dessus des plaines inondables, et les journées se comptent en sorties en airboat plutôt qu'en services.",
+        "À l'intérieur des terres, les vignobles occupent le fond des vallées. Dans la Barossa, des familles allemandes ont planté des pieds de shiraz au dix-neuvième siècle, et ces vignes produisent toujours. Les caves se visitent sans rendez-vous, et c'est souvent le vigneron lui-même qui sert.",
+        "Sur la côte sud, ce sont les parcs à huîtres qui bordent la route. On s'arrête devant un ponton, on achète une douzaine d'huîtres ouvertes le matin même, et on les mange assis sur la jetée, face à l'eau d'où elles sortent. Ces mêmes producteurs fournissent les tables de Sydney et d'Adélaïde.",
       ],
       images: [
         {
           src: "/destination/australie/split-1.png",
-          alt: "Tente de lodge ouverte sur les dunes rouges du désert australien face à Uluru",
+          alt: "Rangées de vignes sur les collines d'un vignoble du sud de l'Australie, en fin de journée",
         },
         {
           src: "/destination/australie/split-2.png",
-          alt: "Bungalow sur pilotis au-dessus des plaines inondables du Top End australien",
+          alt: "Huîtres fraîchement ouvertes servies sur un ponton de bois, côte sud australienne",
         },
       ],
     },
@@ -158,7 +158,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Australie",
       description:
         "Vol, décalage, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage en Australie.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -217,7 +217,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Australie. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -240,7 +240,7 @@ export const destination: Destination = {
       heading: "Six étapes, et les vols qui les relient",
       description:
         "Le pays fait quatorze fois la France. Voici les six étapes qui structurent un premier voyage, et ce que chacune apporte que les autres n'ont pas.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
         {
@@ -319,7 +319,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Australie",
       description:
         "Huit repères rapportés du terrain : comment on arrive, comment on se déplace, et ce qui se réserve des mois avant le départ.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "L'escale se choisit, elle ne se subit pas",
@@ -553,7 +553,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
@@ -644,8 +644,7 @@ export const destination: Destination = {
       heading: "Destinations similaires",
       description:
         "D'autres façons de traverser de grands espaces, entre atolls du Pacifique, désert du Namib et volcans indonésiens. Trois prolongements possibles après un premier voyage en Australie.",
-      // TODO: remplacer par fidji dès que cette destination existe
-      slugs: ["nouvelle-zelande", "polynesie", "namibie"],
+      slugs: ["nouvelle-zelande", "fidji", "polynesie"],
     },
   ],
 };

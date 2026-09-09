@@ -13,7 +13,7 @@ export const accommodation: Accommodation = {
     "ile privee",
   ],
   heroImage: {
-    src: "/destination/maldives/hotel-cheval-blanc-randheli.png",
+    src: "/destination/maldives/hotel-cheval-blanc-randheli.webp",
     alt: "Villa et lagon de Cheval Blanc Randheli dans l'atoll de Noonu aux Maldives",
   },
   destinationSlugs: ["maldives"],

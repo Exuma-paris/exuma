@@ -1,31 +1,39 @@
 # Reference images — Émirats arabes unis
 
-Each generated image in `public/destination/emirats-arabes-unis/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
+Les images fournies pour cette destination sont des photographies libres de droit
+retenues par l'équipe. Elles n'ont pas été régénérées : le contenu de chaque
+photographie est conservé à l'identique, seul le filtre Exuma (désaturation
+douce, tons denses, grain 35 mm) leur a été appliqué en local, sans passer par
+Gemini, pour uniformiser la série avec le reste du site.
 
-| Output                            | Reference file                          | Source URL | License |
-| --------------------------------- | --------------------------------------- | ---------- | ------- |
-| `hero-1.png`                      | `hero-1-ref.jpg`                        | TODO       | TODO    |
-| `hero-2.png`                      | `hero-2-ref.jpg`                        | TODO       | TODO    |
-| `hero-3.png`                      | `hero-3-ref.jpg`                        | TODO       | TODO    |
-| `full-image.png`                  | `full-image-ref.jpg`                    | TODO       | TODO    |
-| `split-1.png`                     | `split-1-ref.jpg`                       | TODO       | TODO    |
-| `split-2.png`                     | `split-2-ref.jpg`                       | TODO       | TODO    |
-| `xp-louvre-abu-dhabi-1.png`       | `xp-louvre-abu-dhabi-1-ref.jpg`         | TODO       | TODO    |
-| `xp-louvre-abu-dhabi-2.png`       | `xp-louvre-abu-dhabi-2-ref.jpg`         | TODO       | TODO    |
-| `xp-montgolfiere-faucon.png`      | `xp-montgolfiere-faucon-ref.jpg`        | TODO       | TODO    |
-| `xp-perles-suwaidi.png`           | `xp-perles-suwaidi-ref.jpg`             | TODO       | TODO    |
-| `xp-bivouac-rub-al-khali.png`     | `xp-bivouac-rub-al-khali-ref.jpg`       | TODO       | TODO    |
-| `hotel-al-maha.png`               | `hotel-al-maha-ref.jpg`                 | TODO       | TODO    |
-| `hotel-qasr-al-sarab.png`         | `hotel-qasr-al-sarab-ref.jpg`           | TODO       | TODO    |
-| `hotel-al-bait-sharjah.png`       | `hotel-al-bait-sharjah-ref.jpg`         | TODO       | TODO    |
-| `bento-map.png`                   | `bento-map-ref.jpg`                     | TODO       | TODO    |
-| `bento-adresses.png`              | `bento-adresses-ref.jpg`                | TODO       | TODO    |
-| `bento-hebergements.png`          | `bento-hebergements-ref.jpg`            | TODO       | TODO    |
-| `bento-conciergerie.png`          | `bento-conciergerie-ref.jpg`            | TODO       | TODO    |
-| `bento-experiences.png`           | `bento-experiences-ref.jpg`             | TODO       | TODO    |
-| `map-abu-dhabi.png`               | `map-abu-dhabi-ref.jpg`                 | TODO       | TODO    |
-| `map-liwa.png`                    | `map-liwa-ref.jpg`                      | TODO       | TODO    |
-| `map-sharjah.png`                 | `map-sharjah-ref.jpg`                   | TODO       | TODO    |
-| `map-reserve-dubai.png`           | `map-reserve-dubai-ref.jpg`             | TODO       | TODO    |
-| `map-jebel-jais.png`              | `map-jebel-jais-ref.jpg`                | TODO       | TODO    |
-| `map-dubai-creek.png`             | `map-dubai-creek-ref.jpg`               | TODO       | TODO    |
+Les captures fournies en 1920x1080 contenaient des bandes noires latérales
+(image carrée centrée dans un cadre 16:9) : elles ont été retirées avant le
+filtre, ce qui donne des masters carrés — même parti que l'Égypte et Anguilla.
+
+| Output                        | Reference file                     | Source URL | License          |
+| ----------------------------- | ---------------------------------- | ---------- | ---------------- |
+| `hero-1.webp`                 | `hero-1-ref.png`                   | TODO       | Libre de droit   |
+| `hero-2.webp`                 | `hero-2-ref.png`                   | TODO       | Libre de droit   |
+| `hero-3.webp`                 | `hero-3-ref.png`                   | TODO       | Libre de droit   |
+| `full-image.webp`             | `full-image-ref.png`               | TODO       | Libre de droit   |
+| `split-1.webp`                | À FOURNIR                          | —          | —                |
+| `split-2.webp`                | `split-2-ref.png`                  | TODO       | Libre de droit   |
+| `xp-louvre-abu-dhabi-1.webp`  | À FOURNIR                          | —          | —                |
+| `xp-louvre-abu-dhabi-2.webp`  | `xp-louvre-abu-dhabi-2-ref.png`    | TODO       | Libre de droit   |
+| `xp-montgolfiere-faucon.webp` | `xp-montgolfiere-faucon-ref.png`   | TODO       | Libre de droit   |
+| `xp-perles-suwaidi.webp`      | À FOURNIR                          | —          | —                |
+| `xp-bivouac-rub-al-khali.webp`| À FOURNIR                          | —          | —                |
+| `hotel-al-maha.webp`          | `hotel-al-maha-ref.png`            | TODO       | Libre de droit   |
+| `hotel-qasr-al-sarab.webp`    | `hotel-qasr-al-sarab-ref.jpg`      | TODO       | Libre de droit   |
+| `hotel-al-bait-sharjah.webp`  | `hotel-al-bait-sharjah-ref.png`    | TODO       | Libre de droit   |
+| `bento-map.webp`              | À FOURNIR                          | —          | —                |
+| `bento-adresses.webp`         | `bento-adresses-ref.jpg`           | TODO       | Libre de droit   |
+| `bento-hebergements.webp`     | `bento-hebergements-ref.jpg`       | TODO       | Libre de droit   |
+| `bento-conciergerie.webp`     | À FOURNIR                          | —          | —                |
+| `bento-experiences.webp`      | `bento-experiences-ref.jpg`        | TODO       | Libre de droit   |
+| `map-abu-dhabi.webp`          | `map-abu-dhabi-ref.png`            | TODO       | Libre de droit   |
+| `map-liwa.webp`               | `map-liwa-ref.png`                 | TODO       | Libre de droit   |
+| `map-sharjah.webp`            | `map-sharjah-ref.png`              | TODO       | Libre de droit   |
+| `map-reserve-dubai.webp`      | `map-reserve-dubai-ref.png`        | TODO       | Libre de droit   |
+| `map-jebel-jais.webp`         | `map-jebel-jais-ref.png`           | TODO       | Libre de droit   |
+| `map-dubai-creek.webp`        | `map-dubai-creek-ref.png`          | TODO       | Libre de droit   |

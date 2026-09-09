@@ -11,6 +11,8 @@ import { RenderQuestion } from "@/components/contact/render-question";
 import {
   emptyAnswer,
   isAnswered,
+  isStaleAnswer,
+  resolveQuestion,
   type Answer,
   type AnswersMap,
   type Question,
@@ -35,21 +37,35 @@ export function ContactFlow({
   contactCta,
   aside,
   submitRedirect,
+  initialAnswers,
 }: {
   questions: Question[];
   contactCta?: SimpleHeaderProps["contactCta"];
   aside?: ContactFlowAside | null;
   submitRedirect: string;
+  /**
+   * Answers already known before the first screen — typically what the page
+   * the visitor came from says about them. Prefilled, never locked: the
+   * visitor can change any of it, and a wrong guess costs one tap.
+   */
+  initialAnswers?: AnswersMap;
 }) {
   const router = useRouter();
   const [step, setStep] = useState(1);
-  const [answers, setAnswers] = useState<AnswersMap>({});
+  const [answers, setAnswers] = useState<AnswersMap>(initialAnswers ?? {});
   const [submitting, setSubmitting] = useState(false);
   const [direction, setDirection] = useState<"next" | "prev">("next");
 
   const total = questions.length;
-  const question = questions[step - 1];
-  const answer = answers[question.id];
+  // A question can depend on what came before it — the budget scale narrows
+  // for a short trip. Resolve it against the answers rather than reading the
+  // authored version straight off the list.
+  const question = resolveQuestion(questions[step - 1], answers);
+  const stored = answers[question.id];
+  // Walking back and changing the dates can swap the option set under a choice
+  // already made. Rather than keep a value that is no longer on screen, drop
+  // it and ask again — one tap, and the payload stays truthful.
+  const answer = isStaleAnswer(question, stored) ? undefined : stored;
   // Validate against the default rather than `undefined`, so a step that ships
   // a meaningful default (two adults) counts as answered without forcing the
   // visitor to nudge a control just to unlock the button. Steps whose default

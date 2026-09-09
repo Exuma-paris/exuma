@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Le parcours occupe un promontoire cerné par l'Atlantique sur trois côtés, neuf greens au bord de la falaise. Le caddie lit la ligne du vent avant de lire le green. Départ le matin, quand la mer est encore grise.",
   keywords: ["irlande", "kinsale", "cork", "golf", "links"],
   heroImage: {
-    src: "/destination/irlande/xp-old-head-golf.png",
+    src: "/destination/irlande/xp-old-head-golf.webp",
     alt: "Green en bord de falaise du links d'Old Head of Kinsale face à l'Atlantique",
   },
   destinationSlugs: ["irlande"],

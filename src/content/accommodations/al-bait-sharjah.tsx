@@ -13,7 +13,7 @@ export const accommodation: Accommodation = {
     "patrimoine",
   ],
   heroImage: {
-    src: "/destination/emirats-arabes-unis/hotel-al-bait-sharjah.png",
+    src: "/destination/emirats-arabes-unis/hotel-al-bait-sharjah.webp",
     alt: "Cour intérieure d'Al Bait Sharjah entre les maisons de perliers restaurées",
   },
   destinationSlugs: ["emirats-arabes-unis"],

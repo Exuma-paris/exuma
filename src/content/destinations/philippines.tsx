@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte des Philippines",
       heading: "Chaque île se laisse apprivoiser à son rythme",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Philippines commence toujours par un choix, et c'est un plaisir plutôt qu'un renoncement. On garde Palawan pour ses lagons, une île du centre pour la douceur de ses plages, et la montagne pour ce qu'elle a d'inattendu. Le reste attend le voyage suivant, et il y en aura un.",
         "La baie de Bacuit se mérite au petit matin. Les falaises de calcaire y sortent de l'eau comme des tours, et les lagons qu'elles abritent ne s'ouvrent que par une brèche étroite, à la nage ou en kayak. Miniloc, Matinloc, Cadlao : les noms se retiennent vite, et l'eau y change de couleur d'une heure à l'autre.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage aux Philippines",
       description:
         "Vol, décalage, formalités et saisons : de quoi caler les dates d'un voyage aux Philippines en toute tranquillité.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -220,7 +220,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Philippines. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -243,7 +243,7 @@ export const destination: Destination = {
       heading: "Six îles que l'on n'a pas envie de quitter",
       description:
         "De Palawan à Siargao, six étapes que l'on relie par les airs et par l'eau, et que nous enchaînons dans l'ordre qui vous convient.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -322,7 +322,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage aux Philippines",
       description:
         "Huit observations de terrain qui ne figurent pas dans un guide : la bonne saison, la façon de passer d'une île à l'autre, et ce qui se prépare avant de partir.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "La saison qui rend tout plus facile",
@@ -543,7 +543,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

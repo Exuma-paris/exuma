@@ -137,5 +137,11 @@ export const experience: Experience = {
         },
       ],
     },
+    {
+      type: "finalCta",
+      eyebrow: "Aller plus loin",
+      heading: "Envie d'en faire une étape de votre voyage ?",
+      primaryCta: { label: "Créer votre voyage", href: "/votre-projet" },
+    },
   ],
 };

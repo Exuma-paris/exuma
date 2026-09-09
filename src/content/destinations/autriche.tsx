@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "L’Autriche, la ville d’abord, la montagne ensuite",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Autriche commence presque toujours dans un café de Vienne. Le serveur pose un verre d’eau avant même la commande, le journal pend à sa baguette de bois, et personne ne vous demandera de libérer la table. On y reste deux heures pour le prix d’un mélange. C’est le premier signe que le pays ne mesure pas le temps comme ses voisins.",
         "Le reste se compose ensuite. Salzbourg pour l’été des festivals, la Wachau pour les terrasses de riesling qui descendent vers le Danube, le Salzkammergut pour ses lacs verts et ses maisons d’empereur. Puis l’ouest, le Vorarlberg et le Tyrol, où la neige tient de décembre à avril et où les meilleures maisons ne comptent que vingt chambres. Quatre régions, dans un pays plus petit que la moitié de la France.",
@@ -162,7 +162,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Autriche",
       description:
         "Le trajet, la monnaie, les formalités et la meilleure saison. De quoi choisir vos dates l’esprit tranquille.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -221,7 +221,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque voyage en Autriche. Un seul interlocuteur coordonne l’ensemble et reste le vôtre, du premier échange jusqu’au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -246,7 +246,7 @@ export const destination: Destination = {
       heading: "Les six lieux que nous aimons faire découvrir",
       description:
         "Vienne, Salzbourg, la Wachau, le Salzkammergut, Lech am Arlberg et Innsbruck. Six lieux, six ambiances, et la plupart de nos voyages en retiennent trois.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -319,7 +319,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Autriche",
       description:
         "Huit choses que l’on apprend en y allant souvent, et qui aident à choisir sa saison, sa région et son rythme.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le café viennois est une institution, pas un commerce",
@@ -517,7 +517,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l’expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

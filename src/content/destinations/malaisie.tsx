@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Malaisie",
       heading: "Une capitale, une jungle, deux mers",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Malaisie commence le plus souvent par Kuala Lumpur. La ville se lit depuis le pied des tours Petronas, quatre cent cinquante et un mètres et quatre-vingt-huit étages, les plus hautes tours jumelles du monde depuis leur achèvement en 1998. À quelques rues de là, le quartier colonial de Merdeka Square et les grottes de Batu, creusées dans le calcaire et accessibles par deux cent soixante-douze marches peintes de couleurs vives, racontent une autre histoire de la ville.",
         "À deux heures de vol vers l'est, Sabah change complètement de registre. La vallée de Danum, quatre cent trente-huit kilomètres carrés de forêt primaire sans aucun village permanent, abrite l'une des plus fortes densités d'orangs-outans sauvages du pays. Plus au nord, la rivière Kinabatangan sert de corridor à des éléphants pygmées, des singes proboscis et des varans, observables depuis un bateau silencieux au lever et au coucher du soleil.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Malaisie",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage en Malaisie.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Chaque dossier Malaisie mobilise plusieurs expertises. Un interlocuteur unique en assure la coordination et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six territoires, de la péninsule à Bornéo",
       description:
         "De Kuala Lumpur aux tombants de Sipadan, de la vallée de Danum aux mangroves de Langkawi : six secteurs que peu d'itinéraires réunissent dans un même voyage.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Malaisie",
       description:
         "Huit points de repère issus du terrain. Ils servent à choisir la côte, à calibrer les attentes et à comprendre le choix de certaines étapes.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le permis de plongée à Sipadan",

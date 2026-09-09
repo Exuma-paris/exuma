@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["namibie", "sossusvlei", "deadvlei", "dune 45", "sesriem"],
   heroImage: {
     src: "/destination/namibie/xp-sossusvlei.webp",
-    alt: "Marcheurs sur la crête d'une dune de Sossusvlei au lever du jour, Namibie",
+    alt: "Quatre marcheurs traversant une plaine du Namib dans la lumière du soir, Namibie",
   },
   destinationSlugs: ["namibie"],
   sections: [],

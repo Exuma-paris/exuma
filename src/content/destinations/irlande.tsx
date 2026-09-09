@@ -32,15 +32,15 @@ export const destination: Destination = {
         "En Irlande, le vert n'a pas la même couleur qu'ailleurs : la lande, les prés, la mousse sur les murets de pierre. On marche dans les bois d'un château posé au bord d'un lac. Le soir, à Dingle, trois musiciens s'installent au fond du pub et jouent pour la salle.",
       images: [
         {
-          src: "/destination/irlande/hero-1.png",
+          src: "/destination/irlande/hero-1.webp",
           alt: "Falaises de Moher battues par l'Atlantique au petit matin, voyage en Irlande",
         },
         {
-          src: "/destination/irlande/hero-2.png",
+          src: "/destination/irlande/hero-2.webp",
           alt: "Tours d'Ashford Castle au bord du Lough Corrib, comté de Mayo",
         },
         {
-          src: "/destination/irlande/hero-3.png",
+          src: "/destination/irlande/hero-3.webp",
           alt: "Murets de pierre sèche et tourbières du Connemara sous un ciel changeant",
         },
       ],
@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Irlande",
       heading: "Dublin, l'ouest sauvage, puis le sud plus doux",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Irlande commence par Dublin. La ville est petite et se parcourt à pied. On va voir le Book of Kells, un manuscrit peint par des moines il y a douze siècles, conservé dans la bibliothèque de Trinity College. Le reste de la journée se passe dans les rues géorgiennes, devant les portes peintes de couleurs vives. Le soir, la ville dîne tard et bien.",
         "L'ouest est tout autre chose. La route y traverse des landes, des tourbières et des lacs, et le paysage reste vide d'un bout à l'autre. C'est là, au bord d'un grand lac aux portes du Connemara, que se trouve Ashford Castle. Le matin, on part en forêt avec un fauconnier : l'oiseau vole d'arbre en arbre au-dessus de la marche, puis revient se poser sur le gant.",
@@ -77,7 +77,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/irlande/full-image.png",
+        src: "/destination/irlande/full-image.webp",
         alt: "Route côtière du Wild Atlantic Way au-dessus de l'océan, voyage en Irlande",
       },
       height: 600,
@@ -94,11 +94,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/irlande/split-1.png",
+          src: "/destination/irlande/split-1.webp",
           alt: "Ostréiculteur ouvrant une huître à la fourche dans la baie de Galway",
         },
         {
-          src: "/destination/irlande/split-2.png",
+          src: "/destination/irlande/split-2.webp",
           alt: "Fûts alignés dans un chai fermé au public de la distillerie de Midleton",
         },
       ],
@@ -108,11 +108,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/irlande/xp-helicoptere-1.png",
+          src: "/destination/irlande/xp-helicoptere-1.webp",
           alt: "Hélicoptère longeant les falaises de Moher au-dessus de l'Atlantique",
         },
         right: {
-          src: "/destination/irlande/xp-helicoptere-2.png",
+          src: "/destination/irlande/xp-helicoptere-2.webp",
           alt: "Hélicoptère posé sur une plage déserte du Connemara à marée basse",
         },
       },
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Irlande",
       description:
         "Trajet, monnaie, formalités et saisons. Voici les repères qui permettent de caler les dates d'un voyage en Irlande.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,11 +218,11 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Irlande. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/irlande/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/irlande/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Irlande, de Dublin à la côte du Cork",
             "Adresses confidentielles en Irlande : chais fermés au public et maisons de famille",
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "Six étapes, de Dublin à la côte du Cork",
       description:
         "Six secteurs et six registres : une capitale géorgienne, un lac et ses bois, un plateau calcaire nu, une péninsule de langue irlandaise, un port de pêche devenu place gastronomique et une falaise tournée vers le sud.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -249,7 +249,7 @@ export const destination: Destination = {
           description:
             "Deux jours suffisent. Le Book of Kells à l'ouverture, l'or celte du musée national, les façades géorgiennes de Merrion Square. Le soir, les tables se réservent autour de Grafton Street.",
           image: {
-            src: "/destination/irlande/map-dublin.png",
+            src: "/destination/irlande/map-dublin.webp",
             alt: "Portes peintes et façades géorgiennes de Merrion Square à Dublin",
           },
           // TODO: verify coords
@@ -260,7 +260,7 @@ export const destination: Destination = {
           description:
             "Des murets de pierre sèche, des tourbières et des lacs jusqu'à l'océan. Sur la rive du Lough Corrib, Ashford Castle garde ses bois, ses bateaux et son école de fauconnerie.",
           image: {
-            src: "/destination/irlande/map-connemara.png",
+            src: "/destination/irlande/map-connemara.webp",
             alt: "Lacs et tourbières du Connemara au bord du Lough Corrib",
           },
           // TODO: verify coords
@@ -271,7 +271,7 @@ export const destination: Destination = {
           description:
             "Deux cent quatorze mètres de schiste à la verticale, et juste au nord un plateau calcaire nu où poussent des orchidées arctiques. Le dolmen de Poulnabrone y tient debout depuis plus de cinq mille ans.",
           image: {
-            src: "/destination/irlande/map-moher.png",
+            src: "/destination/irlande/map-moher.webp",
             alt: "Falaises de Moher plongeant dans l'Atlantique, comté de Clare",
           },
           // TODO: verify coords
@@ -282,7 +282,7 @@ export const destination: Destination = {
           description:
             "Une route de corniche, des forts de pierre et des plages vides. L'irlandais y est la langue courante et les panneaux ne sont pas traduits. Les sessions de musique commencent vers vingt-deux heures.",
           image: {
-            src: "/destination/irlande/map-dingle.png",
+            src: "/destination/irlande/map-dingle.webp",
             alt: "Route de corniche de Slea Head sur la péninsule de Dingle, Kerry",
           },
           // TODO: verify coords
@@ -293,7 +293,7 @@ export const destination: Destination = {
           description:
             "Un port de pêche aux façades peintes, devenu la place gastronomique du sud. À dix kilomètres, le promontoire d'Old Head avance dans l'Atlantique, cerné par la mer sur trois côtés.",
           image: {
-            src: "/destination/irlande/map-kinsale.png",
+            src: "/destination/irlande/map-kinsale.webp",
             alt: "Façades peintes du port de Kinsale et bateaux de pêche, comté de Cork",
           },
           // TODO: verify coords
@@ -304,7 +304,7 @@ export const destination: Destination = {
           description:
             "Ce que l'on tient pour le plus ancien site chrétien d'Irlande, sa tour ronde de vingt-neuf mètres, et un sentier de falaise qui en fait le tour en une heure et demie. En contrebas, la plage et la baie.",
           image: {
-            src: "/destination/irlande/map-ardmore.png",
+            src: "/destination/irlande/map-ardmore.webp",
             alt: "Tour ronde d'Ardmore au-dessus de la baie, comté de Waterford",
           },
           // TODO: verify coords
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Irlande",
       description:
         "Huit repères issus du terrain. Ils aident à choisir la période, à découper les journées et à comprendre ce qui se prépare très longtemps à l'avance.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "La lumière change vite",
@@ -551,14 +551,14 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial
           quote:
             "Nous avons longé les falaises de Moher par la mer, à hauteur des oiseaux, avec un ciel parfaitement dégagé. L'hélicoptère s'est ensuite posé sur une plage où l'on n'arrive pas autrement, et le déjeuner nous attendait sous une tente montée le matin.",
           image: {
-            src: "/destination/irlande/hero-1.png",
+            src: "/destination/irlande/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -569,7 +569,7 @@ export const destination: Destination = {
           quote:
             "Le faucon est parti dans les arbres et il est revenu se poser sur mon gant. Mon fils de onze ans en parle encore. Nous étions sortis du château à huit heures du matin, il n'y avait personne d'autre dans les bois.",
           image: {
-            src: "/destination/irlande/hero-2.png",
+            src: "/destination/irlande/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -580,7 +580,7 @@ export const destination: Destination = {
           quote:
             "Nous avons goûté trois fûts uniques dans un chai que personne ne visite, avec le maître-distillateur pour seule compagnie. Il nous a expliqué pourquoi l'orge crue change tout. J'ai rapporté une bouteille tirée devant nous.",
           image: {
-            src: "/destination/irlande/hero-3.png",
+            src: "/destination/irlande/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
