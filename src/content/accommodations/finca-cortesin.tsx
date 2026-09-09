@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Une grande finca andalouse posée entre les collines de Casares et la mer, au milieu de jardins qui occupent plus de place que les bâtiments. Les villas sont assez espacées pour qu'une famille y vive sa journée sans croiser la suivante.",
   keywords: ["espagne", "andalousie", "casares", "malaga", "finca cortesin"],
   heroImage: {
-    src: "/destination/espagne/hotel-finca-cortesin.png",
-    alt: "Patio et jardins de la Finca Cortesín au-dessus de la côte andalouse",
+    src: "/destination/espagne/hotel-finca-cortesin.webp",
+    alt: "Salon à arcades blanches de la Finca Cortesín, en Andalousie",
   },
   destinationSlugs: ["espagne"],
   sections: [],
