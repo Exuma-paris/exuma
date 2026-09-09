@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Portugal",
   genitive: "de Madère",
+  projectNote:
+    "On vient pour la douceur du climat, on repart avec un matin dans la brume, un sentier au-dessus des nuages, une table dressée au milieu des vignes. Tout tient à l'heure où on les place.",
   continentSlug: "europe",
   blurb: "Funchal, les levadas, Fanal, Porto Moniz",
   keywords: [
@@ -583,9 +585,9 @@ export const destination: Destination = {
             "Non. Madère est une région autonome du Portugal, dans l'espace Schengen. Une carte nationale d'identité ou un passeport en cours de validité suffit pour les ressortissants français et européens.",
         },
         {
-          question: "Faut-il être bon marcheur pour visiter Madère ?",
+          question: "Madère est-elle accessible à tous les marcheurs ?",
           answer:
-            "Pas du tout. Les levadas suivent d'anciens canaux d'irrigation : elles restent à plat, c'est la longueur qui fait la différence. Nous adaptons chaque itinéraire au rythme du groupe, et plusieurs sentiers se parcourent très bien avec des enfants.",
+            "Oui. Les levadas suivent d'anciens canaux d'irrigation : elles restent à plat, c'est la longueur qui fait la différence. Nous adaptons chaque itinéraire au rythme du groupe, et plusieurs sentiers se parcourent très bien avec des enfants.",
         },
         {
           question: "Que faire à Madère en une semaine ?",

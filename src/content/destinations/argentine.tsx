@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Argentine",
   genitive: "de l'Argentine",
+  projectNote:
+    "Rien ne s'y survole. Il faut consentir aux distances de Buenos Aires à Mendoza, puis laisser le vent de Patagonie décider. Nous construisons les itinéraires pour que ces heures-là arrivent.",
   continentSlug: "ameriques",
   blurb: "Buenos Aires, Mendoza, la Patagonie, Iberá",
   keywords: [

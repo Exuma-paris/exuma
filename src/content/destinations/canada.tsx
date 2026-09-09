@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Canada",
   genitive: "du Canada",
+  projectNote:
+    "Les voyageurs arrivent avec un itinéraire long comme le bras. On l'allège ensemble, et c'est le meilleur moment de la préparation : la bonne maison, la bonne heure, le bon guide.",
   continentSlug: "ameriques",
   blurb: "Les Rocheuses, le Pacifique, Terre-Neuve",
   keywords: [

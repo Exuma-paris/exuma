@@ -141,6 +141,14 @@ export function DestinationFinder({
 
   const shown = results ?? featured;
 
+  const caption =
+    results === null
+      ? (idleCaption ?? null)
+      : results.length > 0
+        ? `${results.length} destination${results.length > 1 ? "s" : ""} ${results.length > 1 ? "correspondent" : "correspond"}.`
+        : (notFoundCaption ??
+          "Nous n'avons pas encore de page pour cette destination.");
+
   return (
     <div className="flex flex-col gap-8">
       <div className="mx-auto flex w-full max-w-140 flex-col gap-2">
@@ -164,14 +172,18 @@ export function DestinationFinder({
             </button>
           ) : null}
         </div>
-        <p aria-live="polite" className="px-5 text-[13px] text-secondary-foreground">
-          {results === null
-            ? (idleCaption ??
-              `${entries.length} destinations, un seul interlocuteur.`)
-            : results.length > 0
-              ? `${results.length} destination${results.length > 1 ? "s" : ""} ${results.length > 1 ? "correspondent" : "correspond"}.`
-              : (notFoundCaption ??
-                "Nous n'avons pas encore de page pour cette destination.")}
+        {/* Rien tant que le champ est vide : annoncer un nombre de destinations
+            ne renseigne personne. La ligne ne parle qu'une fois la recherche
+            lancée, pour dire ce qu'elle a trouvé. La zone reste dans le DOM
+            pour que les lecteurs d'écran l'annoncent au lieu de la découvrir. */}
+        <p
+          aria-live="polite"
+          className={cn(
+            "px-5 text-[13px] text-secondary-foreground",
+            !caption && "sr-only",
+          )}
+        >
+          {caption}
         </p>
       </div>
 

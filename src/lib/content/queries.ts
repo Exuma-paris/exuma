@@ -114,7 +114,12 @@ export function getDestinationsByContinentGrouped(
 
   return [...map.entries()]
     .map(([country, items]) => {
-      const countryDestination = items.find((d) => d.placeKind === "country");
+      // Le repli sur le nom évite un menu où « Kenya » se déplie pour ne
+      // montrer que « Kenya » : une fiche qui porte le nom de son pays EST la
+      // page pays, que `placeKind` ait été renseigné ou non.
+      const countryDestination =
+        items.find((d) => d.placeKind === "country") ??
+        items.find((d) => d.name === country);
       const children = items
         .filter((d) => d !== countryDestination)
         .sort((a, b) => a.name.localeCompare(b.name));

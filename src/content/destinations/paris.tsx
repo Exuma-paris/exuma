@@ -5,6 +5,9 @@ export const destination: Destination = {
   name: "Paris",
   country: "France",
   genitive: "de Paris",
+  projectNote:
+    "La ville se traverse trois fois avant de commencer à comprendre. Notre rôle est d'écrire la première : les bonnes heures, les bons quartiers, les portes qui ne s'ouvrent pas pour tout le monde.",
+  placeKind: "city",
   continentSlug: "europe",
   blurb: "Marais, Saint-Germain, Faubourg, Batignolles, Belleville",
   keywords: [

@@ -5,6 +5,8 @@ export const destination: Destination = {
   name: "Seychelles",
   country: "Seychelles",
   genitive: "des Seychelles",
+  projectNote:
+    "La difficulté n'est pas de trouver une belle plage, elles le sont toutes. C'est de savoir laquelle correspond à qui voyage, et dans quel ordre relier les îles pour que rien ne se ressemble.",
   continentSlug: "iles-oceanie", // TODO: verify continent (géographiquement Afrique, océan Indien) regroupé ici avec les destinations îles/lagon
   placeKind: "country",
   blurb: "Mahé, Praslin, La Digue, Curieuse, Aride",

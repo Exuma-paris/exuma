@@ -5,6 +5,8 @@ export const destination: Destination = {
   name: "Islande",
   country: "Islande",
   genitive: "de l'Islande",
+  projectNote:
+    "Le pays tient sur une seule route. Marche sur le glacier le matin, source chaude l'après-midi, dîner à vingt minutes de là. Deux bases suffisent, on change de décor sans refaire ses valises.",
   continentSlug: "europe",
   placeKind: "country",
   blurb: "Côte sud, Vatnajökull, Jökulsárlón, Heimaey",

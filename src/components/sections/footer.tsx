@@ -9,6 +9,7 @@ import {
 import { Logo } from "@/components/ui/logo";
 import { socialIcons } from "@/components/ui/social-icons";
 import { FooterNavGroup } from "@/components/sections/footer-nav-group";
+import { ProjectCtaLink } from "@/components/blocks/project-cta-link";
 import { getMenuGroups, menuCtas, proLink } from "@/lib/content/menu-groups";
 import {
   EXUMA_ADDRESS,
@@ -143,12 +144,9 @@ export function Footer({ className }: { className?: string }) {
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
-          <Link
-            href={menuCtas.primary.href}
-            className="inline-flex items-center rounded-full bg-background px-6 py-3 text-[13px] tracking-wide text-foreground transition-opacity hover:opacity-80"
-          >
+          <ProjectCtaLink className="inline-flex items-center rounded-full bg-background px-6 py-3 text-[13px] tracking-wide text-foreground transition-opacity hover:opacity-80">
             {menuCtas.primary.label}
-          </Link>
+          </ProjectCtaLink>
           <Link
             href={menuCtas.contact.href}
             className="inline-flex items-center rounded-full border border-background/25 px-6 py-3 text-[13px] tracking-wide text-background transition-colors hover:border-background/60"

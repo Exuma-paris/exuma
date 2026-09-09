@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Bahamas",
   genitive: "des Bahamas",
+  projectNote:
+    "Sept cents îles, une trentaine habitées. Miami est à une heure de vol et pourtant, sur une caye des Exumas, il ne reste que le vent. Nous choisissons les bateaux avant les hôtels.",
   continentSlug: "ameriques",
   blurb: "Harbour Island, Exumas, Andros, Abacos",
   keywords: [

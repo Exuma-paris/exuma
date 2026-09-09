@@ -5,6 +5,9 @@ export const destination: Destination = {
   name: "Polynésie française",
   country: "Polynésie française",
   genitive: "de la Polynésie",
+  projectNote:
+    "Cinq archipels, cent dix-huit îles. Chacune a sa raison d'être dans un séjour, et cette raison change tout à ce qu'on ressent en arrivant. Il faut souvent une heure de conversation pour la trouver.",
+  placeKind: "country",
   continentSlug: "iles-oceanie",
   blurb: "Tetiaroa, Bora Bora, Moorea, Raiatea, Fakarava",
   keywords: [

@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Mexique",
   genitive: "du Mexique",
+  projectNote:
+    "On peut enchaîner une pyramide, une plage et une baignade en quelques jours et rentrer sans rien avoir goûté du pays. Nous préférons trois régions, et les laisser respirer.",
   continentSlug: "ameriques",
   blurb: "Mexico, Oaxaca, le Yucatán, le Pacifique",
   keywords: [

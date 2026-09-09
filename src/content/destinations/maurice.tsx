@@ -5,6 +5,8 @@ export const destination: Destination = {
   name: "Île Maurice",
   country: "Île Maurice",
   genitive: "de l'île Maurice",
+  projectNote:
+    "Chaque côte a son vent, sa mer et ses horaires. Le nord de Grand Baie ne ressemble ni au sud du Morne ni à l'est de Belle Mare. Nous suivons l'alizé, pas les distances routières.",
   continentSlug: "iles-oceanie", // TODO: verify continent (géographiquement Afrique, océan Indien) regroupé ici avec les Seychelles et les destinations îles/lagon
   placeKind: "country",
   blurb: "Le Morne, Grand Baie, Chamarel, Rivière Noire",

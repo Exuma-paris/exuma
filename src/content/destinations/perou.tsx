@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Pérou",
   genitive: "du Pérou",
+  projectNote:
+    "Le pays se lit par paliers d'altitude, de Lima au col d'Abra Málaga. À Cusco, les premiers jours d'acclimatation font partie du voyage : les sauter, c'est gâcher tout ce qui suit.",
   continentSlug: "ameriques",
   blurb: "Machu Picchu, Cusco, Vallée Sacrée, Amazonie, Titicaca",
   keywords: [

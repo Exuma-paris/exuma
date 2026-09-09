@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "France",
   genitive: "de la France",
+  projectNote:
+    "Nos clients ont souvent fait le tour du monde avant de voyager en France. Puis Chambord avant l'ouverture des grilles, une table dressée au milieu des vignes, et quelque chose se dénoue.",
   continentSlug: "europe",
   blurb: "Chambord, Reims, le Luberon, le Mont-Blanc",
   keywords: [

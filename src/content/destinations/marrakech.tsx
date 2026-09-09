@@ -5,6 +5,9 @@ export const destination: Destination = {
   name: "Marrakech",
   country: "Maroc",
   genitive: "de Marrakech",
+  projectNote:
+    "Médina, contreforts de l'Atlas à quarante minutes, palmeraie au nord : trois registres dans un rayon de trente kilomètres. Notre guide connaît chaque porte et chaque artisan par son prénom.",
+  placeKind: "city",
   continentSlug: "afrique",
   blurb: "Médina, Atlas, riads, palmeraie",
   keywords: [

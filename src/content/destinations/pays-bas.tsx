@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Pays-Bas",
   genitive: "des Pays-Bas",
+  projectNote:
+    "On nous demande souvent trois jours à Amsterdam. Nous en conseillons deux de plus ailleurs : tout est à une heure de train, et le Kröller-Müller conserve la deuxième collection de Van Gogh.",
   continentSlug: "europe",
   blurb: "Amsterdam, Delft, la Veluwe, le Limbourg",
   keywords: [

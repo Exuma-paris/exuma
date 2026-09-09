@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Jamaïque",
   genitive: "de la Jamaïque",
+  projectNote:
+    "Nous conseillons toujours de commencer par les hauteurs : deux nuits dans les Blue Mountains, sous une couverture, réveil dans la brume. La plage qui suit n'a plus le même goût.",
   continentSlug: "ameriques",
   blurb: "Blue Mountains, Port Antonio, Hanover, côte sud",
   keywords: [

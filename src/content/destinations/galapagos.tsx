@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Équateur",
   genitive: "des Galápagos",
+  projectNote:
+    "Le bateau n'est pas un hébergement, c'est l'itinéraire. Nous choisissons l'embarcation et l'ordre des îles avant tout le reste : le nombre de sites autorisés par jour est fixe et ne se négocie pas.",
   continentSlug: "ameriques",
   blurb: "Darwin, iguanes marins, tortues géantes, requins-marteaux",
   keywords: [

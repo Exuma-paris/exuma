@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Nouvelle-Zélande",
   genitive: "de la Nouvelle-Zélande",
+  projectNote:
+    "Le pays punit l'itinéraire pressé. Ce qui reste, c'est le silence d'un fjord avant que le moteur ne reparte, et la voix d'un guide maori qui raconte sa terre.",
   continentSlug: "iles-oceanie",
   blurb: "Fiordland, Alpes du Sud, Baie des Îles",
   keywords: [

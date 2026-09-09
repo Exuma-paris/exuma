@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Namibie",
   genitive: "de la Namibie",
+  projectNote:
+    "Le pays ne se raconte pas par sa faune mais par ses sols. En douze jours, l'argile blanche de Deadvlei, les galets noirs du Kaokoland, le sable rouge du Kalahari. La lumière change à chaque étape.",
   continentSlug: "afrique",
   blurb: "Sossusvlei, Skeleton Coast, Kalahari",
   keywords: [

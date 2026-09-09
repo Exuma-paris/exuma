@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Philippines",
   genitive: "des Philippines",
+  projectNote:
+    "On n'y arrive jamais par hasard. Il faut vouloir cette île-là, prendre le petit avion qui s'y pose, monter dans le bateau qui attend au bout de la plage. C'est ce chemin qui fait le voyage.",
   continentSlug: "asie",
   blurb: "El Nido, Coron, Siargao, rizières ifugao",
   keywords: [

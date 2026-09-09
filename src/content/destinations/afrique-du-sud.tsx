@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Afrique du Sud",
   genitive: "de l'Afrique du Sud",
+  projectNote:
+    "Trois heures de route y suffisent à changer de climat : Le Cap entre montagne et deux océans, les grès peints du Cederberg, puis les réserves privées sans clôture avec le Kruger.",
   continentSlug: "afrique",
   blurb: "Le Cap, Cederberg, réserves privées du Kruger",
   keywords: [
@@ -666,7 +668,7 @@ export const destination: Destination = {
             "Quatre nuits au Cap, avec la péninsule jusqu'au cap de Bonne-Espérance et une journée dans les vignobles de Stellenbosch et de Franschhoek. Trois nuits ensuite dans le Cederberg, pour l'art rupestre bushman et la marche. Trois nuits sur la route des Jardins, entre Mossel Bay et Plettenberg Bay. Quatre nuits enfin dans une réserve privée du Lowveld, en lisière du parc Kruger. C'est le format que nous recommandons. En dix jours, il faut renoncer à l'une des quatre étapes.",
         },
         {
-          question: "L'Afrique du Sud est-elle dangereuse pour les touristes ?",
+          question: "L'Afrique du Sud est-elle une destination sûre ?",
           answer:
             "Les quartiers touristiques du Cap, les Winelands, le Cederberg et les réserves privées ne posent pas de difficulté particulière. Les règles à respecter sont simples : ne pas marcher la nuit en ville, se déplacer en voiture ou en VTC, ne rien laisser de visible dans un véhicule à l'arrêt, et ne visiter les townships qu'accompagné d'un guide qui y vit. Les transferts sont assurés par des chauffeurs que nous connaissons.",
         },

@@ -7,6 +7,9 @@ export const destination: Destination = {
   name: "Rome",
   country: "Italie",
   genitive: "de Rome",
+  projectNote:
+    "La première fois, tout le monde court : Sixtine, Colisée, Trevi. Ce qui marque, c'est la deuxième Rome, celle qu'on voit en marchant sans rien chercher. Nous essayons de l'installer dès la première.",
+  placeKind: "city",
   continentSlug: "europe",
   blurb: "Vatican, Trastevere, Via Appia, Galerie Borghèse",
   keywords: [

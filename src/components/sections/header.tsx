@@ -7,10 +7,14 @@ import { Logo } from "@/components/ui/logo";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { SiteSearch } from "@/components/blocks/site-search";
 import { MenuPanel } from "@/components/blocks/menu-panel";
+import { useProjectHref } from "@/components/blocks/project-cta-link";
 import { cn } from "@/lib/utils";
 
 export function Header({
-  hideOnScroll = true,
+  // L'en-tête reste visible en permanence : le menu et la recherche sont les
+  // deux seules portes de navigation du site, les masquer au défilement
+  // oblige à remonter pour y revenir.
+  hideOnScroll = false,
   theme = "light",
 }: {
   hideOnScroll?: boolean;
@@ -18,9 +22,33 @@ export function Header({
 }) {
   const [hidden, setHidden] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  // Le thème sombre n'est justifié que tant que le hero plein écran passe
+  // derrière l'en-tête. Une fois la page atteinte, une barre sombre flotterait
+  // sur un fond crème : on repasse en clair.
+  const [pastHero, setPastHero] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const lastY = useRef(0);
+  // Sur une page destination, le bouton emmène la destination au formulaire :
+  // personne ne devrait avoir à retaper le nom de la page qu'il est en train
+  // de lire.
+  const createHref = useProjectHref();
+
+  useEffect(() => {
+    if (theme !== "dark") return;
+    // Le hero sombre fait exactement une hauteur d'écran (`h-screen`) ; la
+    // bascule se fait un peu avant, pour que la barre ait fini sa transition
+    // quand le contenu clair arrive dessous.
+    const onScroll = () =>
+      setPastHero(window.scrollY > window.innerHeight - 96);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, [theme]);
 
   useEffect(() => {
     if (!hideOnScroll) {
@@ -57,7 +85,7 @@ export function Header({
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-50 w-full border-b border-border transition-[translate,background-color] duration-500 ease-in-out",
-        theme === "dark" && "dark text-foreground",
+        theme === "dark" && !pastHero && "dark text-foreground",
         hidden ? "-translate-y-full" : "translate-y-0",
         scrolled && !hidden
           ? "bg-background-subtle/90 backdrop-blur"
@@ -122,7 +150,7 @@ export function Header({
             Contactez-nous
           </Link>
           <Link
-            href="/votre-projet"
+            href={createHref}
             className={cn(
               buttonVariants({ variant: "secondary" }),
               "hidden md:inline-flex",

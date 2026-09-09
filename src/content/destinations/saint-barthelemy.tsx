@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Caraïbes",
   genitive: "de Saint-Barthélemy",
+  projectNote:
+    "Une île qu'on finit par appeler la sienne. En quelques jours on a sa plage du matin, sa table du soir, son coin d'ombre. Beaucoup nous redemandent les mêmes dates l'année suivante.",
   continentSlug: "caraibes",
   blurb: "Gustavia, Colombier, les anses au vent",
   keywords: [

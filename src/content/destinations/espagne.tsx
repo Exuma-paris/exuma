@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Espagne",
   genitive: "de l'Espagne",
+  projectNote:
+    "Le voyage commence quand on n'en garde que quelques régions : le nord pour la table, l'Andalousie pour les palais, une île pour finir. Le reste, ce sont des portes que nous faisons ouvrir.",
   continentSlug: "europe",
   blurb: "Grenade, Séville, le Pays basque, Majorque",
   keywords: [

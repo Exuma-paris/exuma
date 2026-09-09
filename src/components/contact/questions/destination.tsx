@@ -49,6 +49,22 @@ export function DestinationQuestionView({
         ? "cette destination"
         : "ces destinations";
     const lead = single ? "très beau choix" : "très beau programme";
+
+    // Une seule destination reconnue : c'est sa propre phrase qui répond,
+    // écrite sur la fiche (`projectNote`). Rien n'est fabriqué ici.
+    const note = single ? shown[0].note?.trim() : undefined;
+    if (note) return `${list}, ${lead}. ${note}`;
+
+    // Filet, tant qu'une fiche n'a pas la sienne : les lieux de son `blurb`,
+    // qui restent propres à l'endroit même si la tournure ne l'est pas.
+    const highlights = single ? shown[0].highlights?.trim() : undefined;
+    if (highlights) {
+      const body = highlights.replace(/[.\s]+$/, "");
+      return isRegion
+        ? `${list}, ${lead}. ${body}. Dites-nous ce qui vous attire, nous construisons le reste.`
+        : `${list}, ${lead}. Nous y connaissons ${body} : dites-nous ce qui vous attire, nous construisons le reste.`;
+    }
+
     return `${list}, ${lead}. Nous aimons particulièrement ${noun} et nous avons hâte d'en parler avec vous.`;
   }, [shown]);
 
@@ -58,6 +74,7 @@ export function DestinationQuestionView({
         label={question.label ?? "Votre destination"}
         type="text"
         autoComplete="off"
+        required
         value={value.text}
         onChange={(e) => {
           const text = e.target.value;

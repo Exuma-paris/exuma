@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Colombie",
   genitive: "de la Colombie",
+  projectNote:
+    "Trois mondes qu'on ne relie qu'en connaissant les bons vols intérieurs : la Zone Café à mille cinq cents mètres, le Pacifique humide du Chocó, l'Amazonie qui commence à Leticia.",
   continentSlug: "ameriques",
   blurb: "Carthagène, Zone Café, Sierra Nevada, Amazonie, Pacifique",
   keywords: [

@@ -15,7 +15,7 @@ export const theme: Theme = {
   sections: [
     {
       type: "hero",
-      eyebrow: "Thématique",
+      eyebrow: "Expérience",
       heading: "Plongée & snorkeling",
       description: "Le silence sous-marin avant tout.",
       images: [

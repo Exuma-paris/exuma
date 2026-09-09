@@ -22,6 +22,7 @@ import {
   type MenuGroupKey,
   type MenuItem,
 } from "@/lib/content/menu-groups";
+import { ProjectCtaLink } from "@/components/blocks/project-cta-link";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -212,13 +213,12 @@ function RootView({
 function MenuFooter({ onNavigate }: { onNavigate: () => void }) {
   return (
     <div className="flex flex-col gap-3 border-t border-border px-6 py-5">
-      <Link
-        href={menuCtas.primary.href}
+      <ProjectCtaLink
         onClick={onNavigate}
         className={buttonVariants({ variant: "secondary" })}
       >
         {menuCtas.primary.label}
-      </Link>
+      </ProjectCtaLink>
       <Link
         href={menuCtas.contact.href}
         onClick={onNavigate}
@@ -402,9 +402,9 @@ function CountryDisclosure({
     ? `/destinations/${countryDestination.slug}`
     : null;
 
-  // No sub-categories (villes/régions): the country is a plain link to its own
-  // page, with no disclosure chevron. If it has no page either, it's a static
-  // label (shouldn't normally happen — a group always holds a destination).
+  // Pas de sous-niveau : le pays est un simple lien vers sa page, sans
+  // chevron. Créer un troisième niveau ici ferait apparaître la même page
+  // deux fois de suite dans le menu.
   if (!hasChildren) {
     return (
       <div className="flex flex-col border-b border-border last:border-b-0">
@@ -416,6 +416,30 @@ function CountryDisclosure({
           <span className={countryRowClass}>{country}</span>
         )}
       </div>
+    );
+  }
+
+  // Pas de page pays, seulement des régions ou des villes : on les pose
+  // directement à ce niveau. Un intitulé de pays qui ne mène nulle part et
+  // qu'il faut déplier pour voir une seule destination ne sert personne.
+  if (!href) {
+    return (
+      <>
+        {children.map((d) => (
+          <div
+            key={d.slug}
+            className="flex flex-col border-b border-border last:border-b-0"
+          >
+            <Link
+              href={`/destinations/${d.slug}`}
+              onClick={onNavigate}
+              className={countryRowClass}
+            >
+              {d.name}
+            </Link>
+          </div>
+        ))}
+      </>
     );
   }
 

@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Royaume-Uni",
   genitive: "de l'Écosse",
+  projectNote:
+    "En juin il fait encore jour à vingt-deux heures trente. Nous vous logeons dans des châteaux encore habités par la même famille, entre Édimbourg, les Borders et la route du nord.",
   continentSlug: "europe",
   blurb: "Édimbourg, les Borders, les Highlands, Skye",
   keywords: [

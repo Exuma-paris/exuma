@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Anguilla",
   genitive: "d'Anguilla",
+  projectNote:
+    "Une île plate, sèche, où toute l'attention va à l'eau. Ceux qui y reviennent disent la même chose : on y est tranquille et personne ne vous regarde. Dans la Caraïbe, c'est devenu rare.",
   continentSlug: "ameriques",
   blurb: "Shoal Bay, Sandy Ground, les cayes du large",
   keywords: [

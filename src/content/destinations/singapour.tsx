@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Singapour",
   genitive: "de Singapour",
+  projectNote:
+    "La ville ne se visite pas comme une escale entre deux vols. Le meilleur se joue là où aucune réservation en ligne n'entre : une table chez un chef étoilé, un jardin d'orchidées avant l'ouverture.",
   continentSlug: "asie",
   blurb: "Marina Bay, Chinatown, hawkers étoilés, Sentosa",
   keywords: [

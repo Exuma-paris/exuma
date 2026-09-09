@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Tanzanie",
   genitive: "de la Tanzanie",
+  projectNote:
+    "Le Serengeti est largement proposé, sa partie occidentale beaucoup moins. Grumeti est une concession tenue par un seul acteur, où la migration séjourne six semaines avant de rejoindre le Kenya.",
   continentSlug: "afrique",
   blurb: "Grumeti, Serengeti Ouest, Ngorongoro",
   keywords: [

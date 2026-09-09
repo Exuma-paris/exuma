@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Maldives",
   genitive: "des Maldives",
+  projectNote:
+    "L'archipel se choisit atoll par atoll : l'un pour son corail, l'autre pour son silence, l'hydravion relie les deux. À Laamu, un seul hôtel occupe l'atoll entier.",
   continentSlug: "iles-oceanie", // TODO: verify continent (géographiquement Asie, océan Indien) regroupé ici avec les destinations îles/lagon
   blurb: "Baa, Noonu, Laamu, Ari, Vaavu",
   keywords: [

@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Cambodge",
   genitive: "du Cambodge",
+  projectNote:
+    "Le pays ne se donne pas tout de suite. Il faut être à Angkor quand le jour se lève, revenir au même temple pour qu'il finisse par s'ouvrir. Nous construisons pour ces moments-là.",
   continentSlug: "asie",
   blurb: "Angkor, le Mekong, les Cardamomes, le golfe",
   keywords: [

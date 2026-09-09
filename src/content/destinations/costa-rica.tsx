@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Costa Rica",
   genitive: "du Costa Rica",
+  projectNote:
+    "Le haut de gamme s'y mesure à l'accès à la nature : un écolodge de quelques chambres, un sentier privé vers une cascade, un naturaliste attaché à la maison. Les meilleures se réservent tôt.",
   continentSlug: "ameriques",
   blurb: "Tortuguero, Arenal, Monteverde, Nicoya",
   keywords: [

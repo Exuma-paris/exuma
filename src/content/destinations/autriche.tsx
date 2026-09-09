@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Autriche",
   genitive: "de l’Autriche",
+  projectNote:
+    "Le Musikverein un matin de répétition, un vigneron de Dürnstein qui remonte un vieux millésime. Ces portes ne s'ouvrent pas depuis un site de réservation, mais parce qu'on a téléphoné la veille.",
   continentSlug: "europe",
   blurb: "Vienne, Salzbourg, la Wachau, l’Arlberg",
   keywords: [

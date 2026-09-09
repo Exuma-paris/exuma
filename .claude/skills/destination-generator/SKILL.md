@@ -9,7 +9,7 @@ metadata:
 
 Scaffold a new destination as a typed `Destination` data object that the dynamic route at `src/app/destinations/[slug]/page.tsx` renders via `<DestinationPage>`. Mirror the canonical section list from the Polynésie reference at `src/content/destinations/polynesie.tsx`. A short seven-question interview (see below) gathers the name, place type, persona(s), the hotel/experience selection, the specialist, and related destinations; everything else — slug, continent, structure, copy, factual placeholders, the entity stubs — is generated from those answers. The image binaries are produced afterward in the chained image phase (reference → `gen-images.py` → preview), one at a time.
 
-Always read `STYLE.md` and `REFERENCE.md` in this same folder before writing data. STYLE.md owns the editorial voice; REFERENCE.md owns the `Section` discriminated-union shape and the entity stub shape.
+Always read `.claude/STYLE.md` (the global layer, and it wins on conflict), then `STYLE.md` and `REFERENCE.md` in this same folder, before writing data. The global file owns the two hard rules that apply to every surface: no em dashes, and never frame copy on what the reader would get wrong. The local STYLE.md owns the editorial voice; REFERENCE.md owns the `Section` discriminated-union shape and the entity stub shape.
 
 ## Bound-entity model (read this first)
 
@@ -237,9 +237,38 @@ Format: pre-prefixed with `de`/`du`/`d'` so it slots straight into "Spécialiste
 
 If genuinely uncertain (e.g. invented destination), pick the most likely article and flag with `// TODO: verify genitive` on the same line.
 
+### 3c. Write the `projectNote`
+
+The sentence the form answers with when someone types this destination into « Créer votre voyage ». It appears under the field, right after « <Destination>, très beau choix. » which the template supplies — so the note picks up mid-conversation and never repeats the name.
+
+Write it **for this place and no other**. It must say something a reader could not have guessed and could not read on a competitor's page: what we know there, who opens a door for us, what the trip actually turns on. Take the material from the page you have just written — the hero description, the specialist quote, the `featureShowcase` details — never from general knowledge about the country.
+
+Constraint: **220 characters maximum, 160 on target.** Past 220 the sentence runs to four lines on mobile and pushes the « Continuer » button below the fold. Verify with:
+
+```bash
+node scripts/check-project-notes.mjs
+```
+
+Good — specific, sourced from the page:
+- Afrique du Sud: `Trois heures de route y suffisent à changer de climat : Le Cap entre montagne et deux océans, les grès peints du Cederberg, puis les réserves privées sans clôture avec le Kruger.`
+- Japon: `Nous y ouvrons des portes qui restent fermées aux visiteurs : sous-temples de Kyoto, écuries de sumo, ateliers d'artisans. Dix ans de relations sur place, pas un catalogue.`
+
+Bad — true of forty other destinations:
+- `Une destination magnifique que nous connaissons bien et dont nous avons hâte de parler avec vous.`
+- `Plages de rêve, culture millénaire et hospitalité légendaire vous y attendent.`
+
+Bad — specific, but framed on what the reader would get wrong (see `.claude/STYLE.md` § 2):
+- `Le pays se referme vite si l'on reste sur la route principale.` → `Le pays s'ouvre dès qu'on quitte la route principale.`
+- `Un itinéraire qui ignore ce décalage manque la moitié du pays.` → `Suivre ce décalage, c'est tenir les deux moitiés du pays.`
+
+The note answers someone who has just written the name of a place they want to go. It confirms the choice and shows what we know there. It never warns, never implies the trip could be botched, never puts the reader in the wrong. Read the sentence back and ask: does it congratulate, or does it caution? Only the first ships.
+
+STYLE.md applies here as everywhere: no em-dashes, no superlatives, no « rêve » / « paradis » / « incontournable ».
+
 ### 4. Read reference files
 
 Before writing anything, read:
+- `.claude/STYLE.md` — **the global writing rules**, mandatory and winning over anything below: no em dashes (§ 1), and positive framing for statements and FAQ questions alike (§ 2).
 - `STYLE.md` (this folder) — **the editorial voice spec.** Single source of truth for sentence rhythm, allowed/forbidden vocabulary, anti-cliché rewrites, per-section copy rules, and three proof-of-voice excerpts. Mandatory for every paragraph you write (including entity blurbs).
 - `REFERENCE.md` (this folder) — `Section` shape per type, plus the Experience and Accommodation entity stub shapes.
 - `src/content/destinations/polynesie.tsx` — Polynésie reference (copy register + section ordering, with bound `entityList` sections)
@@ -268,6 +297,8 @@ export const destination: Destination = {
   placeKind: "<country | region | city — from Q2>",
   country: "<parent country (French) — see step 3>",
   genitive: "<French genitive — see step 3b>",
+  projectNote:
+    "<one sentence written for this place, max 220 chars — see step 3c>",
   continentSlug: "<one of the 6 continent slugs>",
   blurb: "<one-line teaser, 4–8 words>",
   keywords: [

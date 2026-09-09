@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Tanzanie",
   genitive: "de Zanzibar",
+  projectNote:
+    "La plupart de nos voyageurs y arrivent après un safari, encore pleins d'images et de poussière. L'île les reçoit en douceur : une maison ouverte sur l'océan, un boutre au coucher du soleil.",
   continentSlug: "afrique",
   blurb: "Stone Town, Mnemba, Matemwe, Pemba",
   keywords: [
