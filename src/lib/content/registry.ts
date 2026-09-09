@@ -14,6 +14,7 @@ import type {
 } from "./types";
 
 import { destination as colombie } from "@/content/destinations/colombie";
+import { destination as danemark } from "@/content/destinations/danemark";
 import { destination as bresil } from "@/content/destinations/bresil";
 import { destination as corse } from "@/content/destinations/corse";
 import { destination as espagne } from "@/content/destinations/espagne";
@@ -61,6 +62,7 @@ import { destination as namibie } from "@/content/destinations/namibie";
 import { destination as egypte } from "@/content/destinations/egypte";
 import { destination as indonesie } from "@/content/destinations/indonesie";
 import { destination as costaRica } from "@/content/destinations/costa-rica";
+import { destination as croatie } from "@/content/destinations/croatie";
 import { destination as afriqueDuSud } from "@/content/destinations/afrique-du-sud";
 import { destination as anguilla } from "@/content/destinations/anguilla";
 import { destination as thailande } from "@/content/destinations/thailande";
@@ -91,6 +93,7 @@ import { destination as singapour } from "@/content/destinations/singapour";
 import { destination as suede } from "@/content/destinations/suede";
 import { destination as galapagos } from "@/content/destinations/galapagos";
 import { destination as nouvelleZelande } from "@/content/destinations/nouvelle-zelande";
+import { destination as malaisie } from "@/content/destinations/malaisie";
 import { destination as fidji } from "@/content/destinations/fidji";
 import { destination as sainteLucie } from "@/content/destinations/sainte-lucie";
 import { destination as laGrenade } from "@/content/destinations/la-grenade";
@@ -364,6 +367,15 @@ import { experience as observationAlbatrosEspanola } from "@/content/experiences
 import { experience as grottesWaitomo } from "@/content/experiences/grottes-waitomo";
 import { experience as voilierPriveBayOfIslands } from "@/content/experiences/voilier-prive-bay-of-islands";
 import { experience as rencontreMaorieRotorua } from "@/content/experiences/rencontre-maorie-rotorua";
+import { experience as rempartsDubrovnikAube } from "@/content/experiences/remparts-dubrovnik-aube";
+import { experience as truffeBlancheMotovun } from "@/content/experiences/truffe-blanche-motovun";
+import { experience as vinPeljesacDingac } from "@/content/experiences/vin-peljesac-dingac";
+import { experience as observationOrangsOutansKinabatangan } from "@/content/experiences/observation-orangs-outans-kinabatangan";
+import { experience as trekDanumValley } from "@/content/experiences/trek-danum-valley";
+import { experience as patrimoineGeorgeTown } from "@/content/experiences/patrimoine-george-town";
+import { experience as atelierDesignCopenhague } from "@/content/experiences/atelier-design-copenhague";
+import { experience as croisiereIlesDanoises } from "@/content/experiences/croisiere-iles-danoises";
+import { experience as visitePriveeChateauxRoyaux } from "@/content/experiences/visite-privee-chateaux-royaux";
 import { experience as atvCascadePriveeGrenade } from "@/content/experiences/atv-cascade-privee-grenade";
 import { experience as plongeeGreatAstrolabeKadavu } from "@/content/experiences/plongee-great-astrolabe-kadavu";
 import { experience as requinsBeqaLagoon } from "@/content/experiences/requins-beqa-lagoon";
@@ -618,6 +630,15 @@ import { accommodation as ecoventuraTheory } from "@/content/accommodations/ecov
 import { accommodation as blanketBay } from "@/content/accommodations/blanket-bay";
 import { accommodation as hukaLodge } from "@/content/accommodations/huka-lodge";
 import { accommodation as eaglesNest } from "@/content/accommodations/eagles-nest";
+import { accommodation as hotelExcelsiorDubrovnik } from "@/content/accommodations/hotel-excelsior-dubrovnik";
+import { accommodation as maslinaResort } from "@/content/accommodations/maslina-resort";
+import { accommodation as villaSheherezade } from "@/content/accommodations/villa-sheherezade";
+import { accommodation as theDataiLangkawi } from "@/content/accommodations/the-datai-langkawi";
+import { accommodation as bungaRayaIslandResort } from "@/content/accommodations/bunga-raya-island-resort";
+import { accommodation as sukauRainforestLodge } from "@/content/accommodations/sukau-rainforest-lodge";
+import { accommodation as dragsholmSlot } from "@/content/accommodations/dragsholm-slot";
+import { accommodation as nimbHotelCopenhague } from "@/content/accommodations/nimb-hotel-copenhague";
+import { accommodation as hotelSanders } from "@/content/accommodations/hotel-sanders";
 import { accommodation as calabashHotel } from "@/content/accommodations/calabash-hotel";
 import { accommodation as kokomoPrivateIsland } from "@/content/accommodations/kokomo-private-island";
 import { accommodation as laucalaIsland } from "@/content/accommodations/laucala-island";
@@ -664,6 +685,8 @@ export const destinations: Record<string, Destination> = toMap([
   canada,
   corse,
   costaRica,
+  croatie,
+  danemark,
   ecosse,
   egypte,
   etatsUnis,
@@ -732,6 +755,7 @@ export const destinations: Record<string, Destination> = toMap([
   turksAndCaicos,
   galapagos,
   nouvelleZelande,
+  malaisie,
 ]);
 
 export const continents: Record<string, Continent> = toMap([
@@ -1017,6 +1041,15 @@ export const experiences: Record<string, Experience> = toMap([
   grottesWaitomo,
   voilierPriveBayOfIslands,
   rencontreMaorieRotorua,
+  rempartsDubrovnikAube,
+  truffeBlancheMotovun,
+  vinPeljesacDingac,
+  observationOrangsOutansKinabatangan,
+  trekDanumValley,
+  patrimoineGeorgeTown,
+  atelierDesignCopenhague,
+  croisiereIlesDanoises,
+  visitePriveeChateauxRoyaux,
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
@@ -1278,6 +1311,15 @@ export const accommodations: Record<string, Accommodation> = toMap([
   blanketBay,
   hukaLodge,
   eaglesNest,
+  hotelExcelsiorDubrovnik,
+  maslinaResort,
+  villaSheherezade,
+  theDataiLangkawi,
+  bungaRayaIslandResort,
+  sukauRainforestLodge,
+  dragsholmSlot,
+  nimbHotelCopenhague,
+  hotelSanders,
 ]);
 
 export const collaborateurs: Record<string, Collaborateur> = toMap([
