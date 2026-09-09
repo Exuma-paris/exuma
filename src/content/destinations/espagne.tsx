@@ -33,16 +33,16 @@ export const destination: Destination = {
         "L'Espagne ne se visite pas d'un seul tenant, elle se savoure région par région. L'Andalousie se vit à l'ombre des patios, le Pays basque autour d'une table, et Majorque au rythme de la montagne qui descend vers la mer. C'est cette Espagne-là que nous vous montrons.",
       images: [
         {
-          src: "/destination/espagne/hero-1.png",
-          alt: "Cour des Lions de l'Alhambra de Grenade au crépuscule, voyage en Espagne",
+          src: "/destination/espagne/hero-1.webp",
+          alt: "L'Alhambra de Grenade devant les sommets enneigés de la Sierra Nevada, voyage en Espagne",
         },
         {
-          src: "/destination/espagne/hero-2.png",
-          alt: "Baie de la Concha à Saint-Sébastien au lever du jour, Pays basque",
+          src: "/destination/espagne/hero-2.webp",
+          alt: "Crique aux eaux turquoise et fort côtier sur la côte méditerranéenne espagnole",
         },
         {
-          src: "/destination/espagne/hero-3.png",
-          alt: "Terrasses d'oliviers de la Serra de Tramuntana à Majorque",
+          src: "/destination/espagne/hero-3.webp",
+          alt: "La cathédrale de Séville vue depuis le patio des Orangers",
         },
       ],
     },
@@ -78,8 +78,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/espagne/full-image.png",
-        alt: "Patios et azulejos de l'Alcázar de Séville en fin de journée, voyage en Espagne",
+        src: "/destination/espagne/full-image.webp",
+        alt: "Jardins et galeries de l'Alcázar de Séville en fin de journée, voyage en Espagne",
       },
       height: 600,
     },
@@ -96,12 +96,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/espagne/split-1.png",
-          alt: "Terrasses d'oliviers en pierre sèche au-dessus de la mer à Banyalbufar",
+          src: "/destination/espagne/split-1.webp",
+          alt: "Oliviers argentés d'une terrasse majorquine",
         },
         {
-          src: "/destination/espagne/split-2.png",
-          alt: "Ruelle de pierre du village de Deià à Majorque",
+          src: "/destination/espagne/split-2.webp",
+          alt: "Village de pierre adossé à la Serra de Tramuntana, Majorque",
         },
       ],
     },
@@ -110,12 +110,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/espagne/xp-alhambra-1.png",
-          alt: "Cour des Lions de l'Alhambra vidée de ses visiteurs en fin de journée",
+          src: "/destination/espagne/xp-alhambra-1.webp",
+          alt: "L'Alhambra vue depuis une arcade du Generalife en fin de journée",
         },
         right: {
-          src: "/destination/espagne/xp-alhambra-2.png",
-          alt: "Coupole de mocárabes d'une salle nasride de l'Alhambra en lumière douce",
+          src: "/destination/espagne/xp-alhambra-2.webp",
+          alt: "Stucs sculptés et fenêtres géminées d'une salle nasride de l'Alhambra",
         },
       },
       text: {
@@ -226,13 +226,13 @@ export const destination: Destination = {
         image: {
           src: `/destination/espagne/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure en Espagne",
-            "Patio andalou fleuri aux azulejos bleus et blancs",
-            "Chambre ouverte sur la mer Cantabrique au Pays basque",
+            "Barman préparant un cocktail derrière le comptoir d'un bar espagnol",
+            "Chambre à baldaquin ouverte sur un balcon face à la mer, à Majorque",
             "Concierge coordonnant un transfert privé en Andalousie",
-            "Table dressée sous une treille dans une finca andalouse",
+            "Séance de yoga sur une terrasse au-dessus des collines majorquines",
           ][i],
         },
       })),
@@ -253,8 +253,8 @@ export const destination: Destination = {
           description:
             "Le dernier palais des rois nasrides veille sur la ville depuis sa colline, face aux terrasses blanches de l'Albaicín. On y entre à une heure précise, et cette heure change tout au plaisir de la visite.",
           image: {
-            src: "/destination/espagne/map-grenade.png",
-            alt: "L'Alhambra de Grenade devant les sommets de la Sierra Nevada",
+            src: "/destination/espagne/map-grenade.webp",
+            alt: "Arcades et stucs nasrides de l'Alhambra de Grenade",
           },
           coordinates: { lat: 37.1761, lng: -3.5881 }, // TODO: verify coords
         },
@@ -263,8 +263,8 @@ export const destination: Destination = {
           description:
             "Un palais mudéjar aux patios frais, une cathédrale immense, et de l'autre côté du Guadalquivir le quartier de Triana, où le flamenco se danse encore entre voisins.",
           image: {
-            src: "/destination/espagne/map-seville.png",
-            alt: "Patio de l'Alcázar de Séville et ses arcades mudéjares",
+            src: "/destination/espagne/map-seville.webp",
+            alt: "Balustrade d'azulejos de la Plaza de España à Séville",
           },
           coordinates: { lat: 37.3826, lng: -5.9963 }, // TODO: verify coords
         },
@@ -273,8 +273,8 @@ export const destination: Destination = {
           description:
             "Le Prado, le Thyssen-Bornemisza et le Reina Sofía se suivent le long d'une même promenade. On y passe la matinée avec Vélasquez et Goya, puis on va déjeuner dans le quartier des Lettres.",
           image: {
-            src: "/destination/espagne/map-madrid.png",
-            alt: "Façade du musée du Prado sur le paseo del Prado à Madrid",
+            src: "/destination/espagne/map-madrid.webp",
+            alt: "L'édifice Metropolis et ses coupoles à Madrid",
           },
           coordinates: { lat: 40.4138, lng: -3.6921 }, // TODO: verify coords
         },
@@ -283,7 +283,7 @@ export const destination: Destination = {
           description:
             "La baie de la Concha dessine un croissant parfait au pied de la vieille ville. On y vient pour les comptoirs à pintxos, puis pour la route de Getaria et d'Axpe, où la braise fait tout le travail.",
           image: {
-            src: "/destination/espagne/map-saint-sebastien.png",
+            src: "/destination/espagne/map-saint-sebastien.webp",
             alt: "Baie de la Concha à Saint-Sébastien vue du Monte Igueldo",
           },
           coordinates: { lat: 43.3183, lng: -1.9812 }, // TODO: verify coords
@@ -293,7 +293,7 @@ export const destination: Destination = {
           description:
             "La montagne majorquine descend vers la mer en terrasses d'oliviers, entre Banyalbufar, Deià et Valldemossa. On y roule lentement, les fenêtres ouvertes.",
           image: {
-            src: "/destination/espagne/map-tramuntana.png",
+            src: "/destination/espagne/map-tramuntana.webp",
             alt: "Route en corniche de la Serra de Tramuntana au-dessus de la Méditerranée",
           },
           coordinates: { lat: 39.6869, lng: 2.5147 }, // TODO: verify coords
@@ -303,8 +303,8 @@ export const destination: Destination = {
           description:
             "Sur les hauts plateaux de Castille, le tempranillo prend son temps et donne des vins profonds. Les plus belles caves se visitent sous les maisons, creusées dans la pierre.",
           image: {
-            src: "/destination/espagne/map-ribera-del-duero.png",
-            alt: "Vignes de la Ribera del Duero au pied du château de Peñafiel",
+            src: "/destination/espagne/map-ribera-del-duero.webp",
+            alt: "Le château de Peñafiel dominant les vignes de la Ribera del Duero",
           },
           coordinates: { lat: 41.5983, lng: -4.1156 }, // TODO: verify coords
         },
@@ -526,7 +526,7 @@ export const destination: Destination = {
           quote:
             "L'Alhambra après la fermeture restera le moment du voyage. Nous étions une poignée dans la cour des Lions, avec un historien qui parlait tout bas. On n'entendait plus que l'eau.",
           image: {
-            src: "/destination/espagne/hero-1.png",
+            src: "/destination/espagne/hero-1.webp",
             alt: "Portrait de Bernard et Michèle", // TODO: verify
           },
           name: "Bernard & Michèle", // TODO: verify
@@ -537,7 +537,7 @@ export const destination: Destination = {
           quote:
             "On nous avait conseillé de choisir quelques régions plutôt que de vouloir tout voir, et c'était le bon conseil. L'Andalousie, le Pays basque, puis Majorque pour finir. Nous n'avons jamais eu l'impression de courir.",
           image: {
-            src: "/destination/espagne/hero-2.png",
+            src: "/destination/espagne/hero-2.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify
@@ -548,7 +548,7 @@ export const destination: Destination = {
           quote:
             "Le dîner dans un txoko de Saint-Sébastien a enchanté les enfants. On cuisine soi-même, la maison n'est ouverte à personne d'autre, et l'on repart avec le sentiment d'avoir été reçus.",
           image: {
-            src: "/destination/espagne/hero-3.png",
+            src: "/destination/espagne/hero-3.webp",
             alt: "Portrait de Claire", // TODO: verify
           },
           name: "Claire", // TODO: verify

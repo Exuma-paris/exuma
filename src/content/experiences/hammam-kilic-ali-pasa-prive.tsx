@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Un hammam ottoman de Tophane que l'on garde pour vous seuls, le temps d'une matinée. La lumière tombe du dôme en pastilles, le marbre est chaud, et le thé se prend sans regarder l'heure.",
   keywords: ["turquie", "istanbul", "hammam", "tophane", "ottoman"],
   heroImage: {
-    src: "/destination/turquie/xp-hammam-sinan.png",
-    alt: "Lumière filtrant par le dôme percé d'un hammam ottoman d'Istanbul",
+    src: "/destination/turquie/xp-hammam-sinan.webp",
+    alt: "Salle de marbre d'un hammam ottoman sous un dôme percé de lumière",
   },
   destinationSlugs: ["turquie"],
   sections: [],

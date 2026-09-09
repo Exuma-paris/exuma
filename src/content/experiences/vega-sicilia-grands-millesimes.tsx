@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Dans les caves de Valbuena de Duero, le maître de chai aligne les millésimes d'un même vin et les sert lui-même, du plus jeune au plus ancien. Il raconte ceux qu'il a élevés et ceux dont il a hérité. On comprend alors ce que le temps apporte à un vin.",
   keywords: ["espagne", "ribera del duero", "vega sicilia", "vin", "castille"],
   heroImage: {
-    src: "/destination/espagne/xp-vega-sicilia.png",
-    alt: "Bouteilles anciennes alignées dans une cave de la Ribera del Duero",
+    src: "/destination/espagne/xp-vega-sicilia.webp",
+    alt: "Barriques alignées sous les voûtes d'une cave de la Ribera del Duero",
   },
   destinationSlugs: ["espagne"],
   sections: [],

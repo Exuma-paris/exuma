@@ -32,15 +32,15 @@ export const destination: Destination = {
         "À AlUla, une vallée de grès rouge traverse le désert du nord-ouest. Les Nabatéens y ont taillé cent onze tombeaux dans la falaise, signés par leurs sculpteurs. Avant eux, deux royaumes ont gravé leurs prières sur une paroi que l'on appelle aujourd'hui la bibliothèque à ciel ouvert. En bas, l'oasis de palmiers est encore cultivée.", // TODO: verify le nombre de tombeaux monumentaux de Hegra
       images: [
         {
-          src: "/destination/arabie-saoudite/hero-1.png",
+          src: "/destination/arabie-saoudite/hero-1.webp",
           alt: "Les tombeaux nabatéens de Hegra taillés dans le grès à AlUla, voyage en Arabie Saoudite",
         },
         {
-          src: "/destination/arabie-saoudite/hero-2.png",
+          src: "/destination/arabie-saoudite/hero-2.webp",
           alt: "Elephant Rock, monolithe de grès dressé dans le sable au coucher du soleil, AlUla",
         },
         {
-          src: "/destination/arabie-saoudite/hero-3.png",
+          src: "/destination/arabie-saoudite/hero-3.webp",
           alt: "Récif de corail et lagon turquoise au large d'Umluj, sur la mer Rouge",
         },
       ],
@@ -78,7 +78,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/arabie-saoudite/full-image.png",
+        src: "/destination/arabie-saoudite/full-image.webp",
         alt: "La vallée de grès d'AlUla et son oasis de palmiers au lever du jour, voyage en Arabie Saoudite",
       },
       height: 600,
@@ -99,7 +99,7 @@ export const destination: Destination = {
           alt: "Inscriptions dadanitiques gravées dans la falaise de Jabal Ikmah, près de Dadan",
         },
         {
-          src: "/destination/arabie-saoudite/split-2.png",
+          src: "/destination/arabie-saoudite/split-2.webp",
           alt: "Qasr al-Farid, tombeau nabatéen inachevé taillé dans un bloc isolé à Hegra",
         },
       ],
@@ -113,7 +113,7 @@ export const destination: Destination = {
           alt: "Table dressée dans un canyon éclairé de la réserve de Sharaan, à AlUla",
         },
         right: {
-          src: "/destination/arabie-saoudite/xp-sharaan-safari-2.png",
+          src: "/destination/arabie-saoudite/xp-sharaan-safari-2.webp",
           alt: "Véhicule privé au pied des parois de grès de la réserve naturelle de Sharaan",
         },
       },
@@ -250,7 +250,7 @@ export const destination: Destination = {
           description:
             "La grande cité nabatéenne du sud, à vingt minutes de la vieille ville d'AlUla. Plus de cent tombeaux monumentaux taillés dans des blocs isolés, et la gare du chemin de fer du Hedjaz à l'entrée du site. Premier bien saoudien inscrit au patrimoine mondial, en 2008.",
           image: {
-            src: "/destination/arabie-saoudite/map-hegra.png",
+            src: "/destination/arabie-saoudite/map-hegra.webp",
             alt: "Façades des tombeaux nabatéens de Hegra dans le désert de grès, AlUla",
           },
           // TODO: verify coords
@@ -261,7 +261,7 @@ export const destination: Destination = {
           description:
             "Un labyrinthe de maisons de terre adossées à une citadelle, habité jusqu'aux années 1980 puis laissé au sable. Une partie est relevée, et les ruelles se traversent le soir quand les ateliers et les tables ouvrent. L'oasis commence au bout de la dernière maison.", // TODO: verify la date d'abandon de la vieille ville
           image: {
-            src: "/destination/arabie-saoudite/map-alula-vieille-ville.png",
+            src: "/destination/arabie-saoudite/map-alula-vieille-ville.webp",
             alt: "Ruelles de terre de la vieille ville d'AlUla au pied de la citadelle",
           },
           // TODO: verify coords
@@ -272,7 +272,7 @@ export const destination: Destination = {
           description:
             "L'ancienne capitale du royaume de Dadan, puis de Lihyan, avec ses tombeaux creusés en hauteur dans la falaise rouge. Le canyon voisin de Jabal Ikmah porte des centaines d'inscriptions gravées, dans quatre écritures différentes.", // TODO: verify le nombre d'écritures présentes à Jabal Ikmah
           image: {
-            src: "/destination/arabie-saoudite/map-jabal-ikmah.png",
+            src: "/destination/arabie-saoudite/map-jabal-ikmah.webp",
             alt: "Falaise gravée d'inscriptions anciennes de Jabal Ikmah, près de Dadan",
           },
           // TODO: verify coords
@@ -283,7 +283,7 @@ export const destination: Destination = {
           description:
             "Une vallée fermée au sud d'AlUla, où le léopard d'Arabie, l'oryx et le bouquetin de Nubie ont été réintroduits. On y entre avec un guide de conservation, en véhicule, et l'on y dîne au fond d'un canyon. Le ciel y est le plus noir de la région.", // TODO: verify les espèces réintroduites dans la réserve de Sharaan
           image: {
-            src: "/destination/arabie-saoudite/map-sharaan.png",
+            src: "/destination/arabie-saoudite/map-sharaan.webp",
             alt: "Canyon de grès de la réserve naturelle de Sharaan, au sud d'AlUla",
           },
           // TODO: verify coords
@@ -294,7 +294,7 @@ export const destination: Destination = {
           description:
             "Aux portes de Riyad, le quartier d'At-Turaif : le berceau de la première dynastie saoudienne, bâti en terre crue au bord d'un oued et inscrit au patrimoine mondial en 2010. Les palais se visitent le matin, avant la chaleur.",
           image: {
-            src: "/destination/arabie-saoudite/map-diriyah.png",
+            src: "/destination/arabie-saoudite/map-diriyah.webp",
             alt: "Murs de terre crue du quartier historique d'At-Turaif à Diriyah, près de Riyad",
           },
           // TODO: verify coords
@@ -305,7 +305,7 @@ export const destination: Destination = {
           description:
             "Une côte de sable blanc et un chapelet d'îles basses à moins d'une heure de bateau. Le récif commence à quelques mètres du bord : tortues vertes, raies et bancs de poissons de corail. Les hôtels y ouvrent les uns après les autres depuis 2023.", // TODO: verify le calendrier d'ouverture des hôtels de la mer Rouge
           image: {
-            src: "/destination/arabie-saoudite/map-umluj.png",
+            src: "/destination/arabie-saoudite/map-umluj.webp",
             alt: "Îles basses et eaux turquoise au large d'Umluj, côte de la mer Rouge",
           },
           // TODO: verify coords
@@ -568,7 +568,7 @@ export const destination: Destination = {
           quote:
             "Nous sommes entrés à Hegra au premier créneau du matin. Il n'y avait que nous et le guide, qui a passé une heure devant un seul tombeau. Nous en sommes ressortis en connaissant le nom de son sculpteur.",
           image: {
-            src: "/destination/arabie-saoudite/hero-1.png",
+            src: "/destination/arabie-saoudite/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -579,7 +579,7 @@ export const destination: Destination = {
           quote:
             "Le dîner s'est fait au fond d'un canyon, avec des lampes posées à même le sable. Avant cela, le guide nous avait montré des scorpions fluorescents à la lampe UV. Je n'imaginais pas le désert aussi habité.",
           image: {
-            src: "/destination/arabie-saoudite/hero-2.png",
+            src: "/destination/arabie-saoudite/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -590,7 +590,7 @@ export const destination: Destination = {
           quote:
             "Nous avons dormi dans une maison de terre de la vieille ville, éclairée à la bougie. Le matin, dix minutes de marche suffisaient pour être dans l'oasis, entre les palmiers.",
           image: {
-            src: "/destination/arabie-saoudite/hero-3.png",
+            src: "/destination/arabie-saoudite/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

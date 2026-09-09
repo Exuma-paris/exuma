@@ -33,16 +33,16 @@ export const destination: Destination = {
         "Il y a plusieurs Mexique, et tout le plaisir est de choisir les vôtres. À Mexico, les musées, les fresques et les tables comptent parmi les plus vivants du continent. Oaxaca se savoure lentement, entre ses marchés et ses ateliers de mezcal. Puis la forêt du Yucatán s'ouvre sur les cités mayas et sur ses cénotes d'eau douce, avant que la côte du Nayarit ne referme le séjour face au Pacifique.",
       images: [
         {
-          src: "/destination/mexique/hero-1.png",
-          alt: "Pyramide de Kukulcán à Chichén Itzá au lever du jour, Mexique",
+          src: "/destination/mexique/hero-1.webp",
+          alt: "Pyramide de Kukulcán à Chichén Itzá sous les nuages du Yucatán, Mexique",
         },
         {
-          src: "/destination/mexique/hero-2.png",
-          alt: "Cour d'une hacienda du Yucatán bordée d'arcades en fin de journée",
+          src: "/destination/mexique/hero-2.webp",
+          alt: "Habitants d'Oaxaca en tenue traditionnelle devant une porte peinte en rouge",
         },
         {
-          src: "/destination/mexique/hero-3.png",
-          alt: "Forêt descendant jusqu'au Pacifique sur la côte du Nayarit",
+          src: "/destination/mexique/hero-3.webp",
+          alt: "Cascade tombant dans un cénote du Yucatán entouré de lianes",
         },
       ],
     },
@@ -78,8 +78,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/mexique/full-image.png",
-        alt: "Cité maya de Palenque émergeant de la forêt du Chiapas, Mexique",
+        src: "/destination/mexique/full-image.webp",
+        alt: "Ruines mayas de Tulum dressées sur la falaise au-dessus de la mer des Caraïbes, Mexique",
       },
       height: 600,
     },
@@ -96,12 +96,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/mexique/split-1.png",
-          alt: "Cénote du Yucatán éclairé par une ouverture dans la voûte calcaire",
+          src: "/destination/mexique/split-1.webp",
+          alt: "Cénote du Yucatán aux racines tombant jusqu'à l'eau douce",
         },
         {
-          src: "/destination/mexique/split-2.png",
-          alt: "Racines descendant jusqu'à l'eau douce d'un cénote du Yucatán",
+          src: "/destination/mexique/split-2.webp",
+          alt: "Cénote isolé au milieu de la forêt du Yucatán, vu du ciel",
         },
       ],
     },
@@ -110,12 +110,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/mexique/xp-chichen-itza-1.png",
-          alt: "Esplanade déserte de Chichén Itzá dans la lumière du matin",
+          src: "/destination/mexique/xp-chichen-itza-1.webp",
+          alt: "Pyramide de Kukulcán à Chichén Itzá dans la lumière basse du matin",
         },
         right: {
-          src: "/destination/mexique/xp-chichen-itza-2.png",
-          alt: "Détail sculpté du jeu de balle de Chichén Itzá, Yucatán",
+          src: "/destination/mexique/xp-chichen-itza-2.webp",
+          alt: "Frise de crânes sculptés sur la plateforme des crânes de Chichén Itzá, Yucatán",
         },
       },
       text: {
@@ -226,13 +226,13 @@ export const destination: Destination = {
         image: {
           src: `/destination/mexique/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure au Mexique",
-            "Ruelle pavée aux façades colorées du centre d'Oaxaca",
-            "Chambre ouverte sur la cour d'une hacienda du Yucatán",
+            "Assiette de mole servie dans une cuisine mexicaine",
+            "Salon d'un hôtel mexicain ouvert par une large baie sur la végétation",
             "Concierge coordonnant un transfert privé au Mexique",
-            "Table dressée sous les arcades d'une hacienda mexicaine au crépuscule",
+            "Surfeurs rejoignant l'océan au coucher du soleil sur la côte du Pacifique",
           ][i],
         },
       })),
@@ -253,7 +253,7 @@ export const destination: Destination = {
           description:
             "Dans le bois de Chapultepec, le musée rassemble les trésors des civilisations du pays, de Teotihuacán aux Mexicas. On y comprend le Mexique avant de le parcourir, et l'on garde ensuite la ville pour ses fresques et ses tables.",
           image: {
-            src: "/destination/mexique/map-mexico.png",
+            src: "/destination/mexique/map-mexico.webp",
             alt: "Salle mexica du musée national d'anthropologie de Mexico",
           },
           coordinates: { lat: 19.426, lng: -99.1863 }, // TODO: verify coords
@@ -263,8 +263,8 @@ export const destination: Destination = {
           description:
             "Ses marchés couverts, ses moles préparés en famille et ses distilleries de mezcal dans les vallées voisines donnent envie de prolonger l'étape. La cuisine s'y transmet à la maison, pas à l'école.",
           image: {
-            src: "/destination/mexique/map-oaxaca.png",
-            alt: "Étal d'épices et de piments sur un marché couvert d'Oaxaca",
+            src: "/destination/mexique/map-oaxaca.webp",
+            alt: "Marchande de pains sur un marché couvert d'Oaxaca",
           },
           coordinates: { lat: 17.0732, lng: -96.7266 }, // TODO: verify coords
         },
@@ -273,8 +273,8 @@ export const destination: Destination = {
           description:
             "La pyramide de Kukulcán veille sur l'esplanade, et l'ombre d'un serpent glisse le long de son escalier aux équinoxes. Le site se visite au petit matin, quand la lumière est encore basse et les allées désertes.",
           image: {
-            src: "/destination/mexique/map-chichen-itza.png",
-            alt: "Pyramide de Kukulcán à Chichén Itzá dans le Yucatán",
+            src: "/destination/mexique/map-chichen-itza.webp",
+            alt: "Pyramide de Kukulcán à Chichén Itzá au crépuscule, Yucatán",
           },
           coordinates: { lat: 20.6843, lng: -88.5678 }, // TODO: verify coords
         },
@@ -283,8 +283,8 @@ export const destination: Destination = {
           description:
             "Au pied des montagnes du Chiapas, Palenque sort à peine de la forêt : une grande partie de la cité dort encore sous la végétation. Le tombeau de Pakal se cachait sous le temple des Inscriptions, et les singes hurleurs saluent le lever du jour.",
           image: {
-            src: "/destination/mexique/map-palenque.png",
-            alt: "Temple des Inscriptions de Palenque cerné par la forêt du Chiapas",
+            src: "/destination/mexique/map-palenque.webp",
+            alt: "Palais et sa tour d'observation dans la cité maya de Palenque, Chiapas",
           },
           coordinates: { lat: 17.484, lng: -92.046 }, // TODO: verify coords
         },
@@ -293,8 +293,8 @@ export const destination: Destination = {
           description:
             "Tulum est la seule cité maya bâtie sur une falaise ouverte sur les Caraïbes. Le matin, la lumière arrive de l'eau et vient éclairer les remparts. On se baigne juste en contrebas.",
           image: {
-            src: "/destination/mexique/map-tulum.png",
-            alt: "Ruines mayas de Tulum sur la falaise au-dessus de la mer des Caraïbes",
+            src: "/destination/mexique/map-tulum.webp",
+            alt: "Ruines mayas de Tulum au-dessus de l'eau turquoise de la côte caraïbe",
           },
           coordinates: { lat: 20.2114, lng: -87.4654 }, // TODO: verify coords
         },
@@ -303,8 +303,8 @@ export const destination: Destination = {
           description:
             "Au nord de Puerto Vallarta, la Sierra Madre descend jusqu'à l'océan et la forêt s'arrête au sable. Les villages de Sayulita et San Pancho gardent leur allure tranquille, et les baleines à bosse viennent mettre bas dans la baie en hiver.",
           image: {
-            src: "/destination/mexique/map-nayarit.png",
-            alt: "Falaises boisées de la côte du Nayarit plongeant dans le Pacifique",
+            src: "/destination/mexique/map-nayarit.webp",
+            alt: "Baie et village de la côte du Nayarit vus du ciel",
           },
           coordinates: { lat: 20.7745, lng: -105.509 }, // TODO: verify coords
         },
@@ -524,7 +524,7 @@ export const destination: Destination = {
           quote:
             "Chichén Itzá au petit matin restera notre plus beau souvenir. Nous étions seuls devant la pyramide, et l'archéologue qui nous accompagnait nous a raconté ce que chaque escalier signifiait.",
           image: {
-            src: "/destination/mexique/hero-1.png",
+            src: "/destination/mexique/hero-1.webp",
             alt: "Portrait de Bernard et Michèle", // TODO: verify
           },
           name: "Bernard & Michèle", // TODO: verify
@@ -535,7 +535,7 @@ export const destination: Destination = {
           quote:
             "Nous avons passé quelques nuits dans une hacienda du Yucatán avant de rejoindre la mer. Le cénote au fond du domaine, ouvert pour nous seuls, valait à lui seul le séjour.",
           image: {
-            src: "/destination/mexique/hero-2.png",
+            src: "/destination/mexique/hero-2.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify
@@ -546,7 +546,7 @@ export const destination: Destination = {
           quote:
             "Oaxaca a été la belle surprise du voyage. Un déjeuner chez une cuisinière, dans sa cuisine, et un après-midi qui passe sans qu'on le voie. Nous n'aurions jamais trouvé cette adresse seuls.",
           image: {
-            src: "/destination/mexique/hero-3.png",
+            src: "/destination/mexique/hero-3.webp",
             alt: "Portrait de Claire", // TODO: verify
           },
           name: "Claire", // TODO: verify

@@ -14,8 +14,8 @@ export const accommodation: Accommodation = {
     "oryx",
   ],
   heroImage: {
-    src: "/destination/emirats-arabes-unis/hotel-al-maha.png",
-    alt: "Suite sous tente d'Al Maha ouverte sur les dunes de la réserve de Dubaï",
+    src: "/destination/emirats-arabes-unis/hotel-al-maha.webp",
+    alt: "Entrée d'une villa d'Al Maha, murs de terre et jarres sous les arbres",
   },
   destinationSlugs: ["emirats-arabes-unis"],
   sections: [],
