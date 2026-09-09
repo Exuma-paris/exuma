@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Les Émirats se laissent apprivoiser en deux temps. Il y a d'abord les villes, où les musées et les souks s'ouvrent dans la douceur du matin. Puis vient le désert, qui donne au voyage son silence et ses plus belles heures. Nous vous y conduisons dans cet ordre, et c'est ce qui change tout.",
       images: [
         {
-          src: "/destination/emirats-arabes-unis/hero-1.png",
-          alt: "Dunes du désert de Liwa au lever du jour aux Émirats arabes unis",
+          src: "/destination/emirats-arabes-unis/hero-1.webp",
+          alt: "Coupole et minaret de la grande mosquée Cheikh Zayed d'Abu Dhabi au-dessus des bassins",
         },
         {
-          src: "/destination/emirats-arabes-unis/hero-2.png",
-          alt: "Dôme ajouré du Louvre Abu Dhabi filtrant la lumière sur l'eau",
+          src: "/destination/emirats-arabes-unis/hero-2.webp",
+          alt: "Tours de Dubaï et Burj Khalifa dans la lumière du matin",
         },
         {
-          src: "/destination/emirats-arabes-unis/hero-3.png",
-          alt: "Faucon posé sur le gant d'un fauconnier émirien dans le désert",
+          src: "/destination/emirats-arabes-unis/hero-3.webp",
+          alt: "Montagnes du Hajar plongeant dans la mer au nord des Émirats",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/emirats-arabes-unis/full-image.png",
-        alt: "Dunes du Rub al-Khali au coucher du soleil aux Émirats arabes unis",
+        src: "/destination/emirats-arabes-unis/full-image.webp",
+        alt: "Chameaux traversant les dunes du désert émirien",
       },
       height: 600,
     },
@@ -98,11 +98,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/emirats-arabes-unis/split-1.png",
+          src: "/destination/emirats-arabes-unis/split-1.webp",
           alt: "Cour intérieure d'une maison de marchand perlier à Sharjah",
         },
         {
-          src: "/destination/emirats-arabes-unis/split-2.png",
+          src: "/destination/emirats-arabes-unis/split-2.webp",
           alt: "Tour à vent barjeel au-dessus des toits du vieux Sharjah",
         },
       ],
@@ -112,11 +112,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/emirats-arabes-unis/xp-louvre-abu-dhabi-1.png",
+          src: "/destination/emirats-arabes-unis/xp-louvre-abu-dhabi-1.webp",
           alt: "Dôme ajouré du Louvre Abu Dhabi vu depuis les bassins",
         },
         right: {
-          src: "/destination/emirats-arabes-unis/xp-louvre-abu-dhabi-2.png",
+          src: "/destination/emirats-arabes-unis/xp-louvre-abu-dhabi-2.webp",
           alt: "Galerie déserte du Louvre Abu Dhabi avant l'ouverture",
         },
       },
@@ -228,13 +228,13 @@ export const destination: Destination = {
         image: {
           src: `/destination/emirats-arabes-unis/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure aux Émirats arabes unis",
-            "Ruelle du vieux quartier d'Al Fahidi à Dubaï au petit matin",
-            "Villa de désert ouverte sur les dunes de la réserve de Dubaï",
+            "Dîner dressé sur les tapis dans le désert à la nuit tombée",
+            "Lodge de désert vu du ciel, niché entre les dunes",
             "Concierge coordonnant un transfert privé entre Dubaï et Abu Dhabi",
-            "Table dressée sur le sable au crépuscule dans le Rub al-Khali",
+            "Fauconnier émirien et son faucon au bord des dunes",
           ][i],
         },
       })),
@@ -255,8 +255,8 @@ export const destination: Destination = {
           description:
             "La ville s'est offert un Louvre sous coupole et l'une des plus belles mosquées de la région, dont le marbre blanc rosit au coucher du soleil. On y flâne aussi le soir sur la corniche, face aux eaux du Golfe.",
           image: {
-            src: "/destination/emirats-arabes-unis/map-abu-dhabi.png",
-            alt: "Coupole ajourée du Louvre Abu Dhabi au-dessus des bassins",
+            src: "/destination/emirats-arabes-unis/map-abu-dhabi.webp",
+            alt: "Tours d'Abu Dhabi dorées par la lumière du soir face à la corniche",
           },
           coordinates: { lat: 24.5339, lng: 54.398 }, // TODO: verify coords
         },
@@ -265,7 +265,7 @@ export const destination: Destination = {
           description:
             "Une oasis de palmiers à la lisière du Rub al-Khali, avec les plus hautes dunes du pays juste derrière. Le sable y prend une teinte orangée en fin de journée, et le silence fait le reste.",
           image: {
-            src: "/destination/emirats-arabes-unis/map-liwa.png",
+            src: "/destination/emirats-arabes-unis/map-liwa.webp",
             alt: "Dunes géantes de Moreeb en bordure de l'oasis de Liwa",
           },
           coordinates: { lat: 23.1333, lng: 53.7833 }, // TODO: verify coords
@@ -275,8 +275,8 @@ export const destination: Destination = {
           description:
             "Le vieux quartier des marchands de perles se parcourt à pied, d'une cour à l'autre, entre les ateliers d'orfèvres et les étals d'épices. L'atmosphère y a gardé quelque chose d'ancien.",
           image: {
-            src: "/destination/emirats-arabes-unis/map-sharjah.png",
-            alt: "Maisons de corail restaurées du Cœur de Sharjah",
+            src: "/destination/emirats-arabes-unis/map-sharjah.webp",
+            alt: "Sharjah et sa lagune vues du ciel",
           },
           coordinates: { lat: 25.3463, lng: 55.4209 }, // TODO: verify coords
         },
@@ -285,7 +285,7 @@ export const destination: Destination = {
           description:
             "Un territoire de dunes et d'acacias protégé, où vivent les oryx d'Arabie et les gazelles des sables. La barrière ne s'ouvre que pour les hôtes des lodges, ce qui explique le calme des lieux.",
           image: {
-            src: "/destination/emirats-arabes-unis/map-reserve-dubai.png",
+            src: "/destination/emirats-arabes-unis/map-reserve-dubai.webp",
             alt: "Oryx d'Arabie dans la réserve naturelle du désert de Dubaï",
           },
           coordinates: { lat: 24.8153, lng: 55.6683 }, // TODO: verify coords
@@ -295,8 +295,8 @@ export const destination: Destination = {
           description:
             "Le sommet le plus haut du pays, dans les monts Hajar, où l'air se rafraîchit à mesure que la route s'élève. La vue porte au loin sur des vallées de calcaire nu, et l'on y respire un autre climat.",
           image: {
-            src: "/destination/emirats-arabes-unis/map-jebel-jais.png",
-            alt: "Route en lacets du Jebel Jais dans les monts Hajar",
+            src: "/destination/emirats-arabes-unis/map-jebel-jais.webp",
+            alt: "Sommets arides du Jebel Jais dans les monts Hajar",
           },
           coordinates: { lat: 25.9459, lng: 56.1394 }, // TODO: verify coords
         },
@@ -305,7 +305,7 @@ export const destination: Destination = {
           description:
             "Le Dubaï d'avant les tours, avec ses maisons basses, ses barques qui traversent la crique et ses souks de l'or et des épices. La promenade y est un plaisir en fin d'après-midi.",
           image: {
-            src: "/destination/emirats-arabes-unis/map-dubai-creek.png",
+            src: "/destination/emirats-arabes-unis/map-dubai-creek.webp",
             alt: "Barques abras traversant la crique de Dubaï devant Al Fahidi",
           },
           coordinates: { lat: 25.2636, lng: 55.2988 }, // TODO: verify coords
@@ -536,7 +536,7 @@ export const destination: Destination = {
           quote:
             "Nous n'attendions pas grand-chose des Émirats, et c'est le désert qui a tout emporté. Les oryx qui passent devant la terrasse au petit matin, puis le musée d'Abu Dhabi que nous avons eu pour nous seuls. Rien ne se croisait, rien n'attendait.",
           image: {
-            src: "/destination/emirats-arabes-unis/hero-1.png",
+            src: "/destination/emirats-arabes-unis/hero-1.webp",
             alt: "Portrait de Frédéric", // TODO: verify
           },
           name: "Frédéric", // TODO: verify
@@ -547,7 +547,7 @@ export const destination: Destination = {
           quote:
             "La nuit à Liwa restera notre plus beau souvenir. La tente dressée pour nous seuls, le dîner sur le sable et ce ciel dont on ne voit jamais autant d'étoiles. Notre travel designer nous avait conseillé une veste, nous avons eu tort d'en douter.",
           image: {
-            src: "/destination/emirats-arabes-unis/hero-2.png",
+            src: "/destination/emirats-arabes-unis/hero-2.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify
@@ -558,7 +558,7 @@ export const destination: Destination = {
           quote:
             "Sharjah était l'étape dont je me passais volontiers, et c'est celle dont je parle encore. Les cours plantées, le dîner à l'ombre, le musée sous son dôme. Le contraste avec Dubaï fait tout le charme du séjour.",
           image: {
-            src: "/destination/emirats-arabes-unis/hero-3.png",
+            src: "/destination/emirats-arabes-unis/hero-3.webp",
             alt: "Portrait de Constance", // TODO: verify
           },
           name: "Constance", // TODO: verify

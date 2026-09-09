@@ -13,7 +13,7 @@ export const experience: Experience = {
     "bivouac",
   ],
   heroImage: {
-    src: "/destination/emirats-arabes-unis/xp-bivouac-rub-al-khali.png",
+    src: "/destination/emirats-arabes-unis/xp-bivouac-rub-al-khali.webp",
     alt: "Campement dressé au pied d'une dune du Rub al-Khali à la nuit tombée",
   },
   destinationSlugs: ["emirats-arabes-unis"],

@@ -13,7 +13,7 @@ export const accommodation: Accommodation = {
     "akelarre",
   ],
   heroImage: {
-    src: "/destination/espagne/hotel-akelarre.png",
+    src: "/destination/espagne/hotel-akelarre.webp",
     alt: "Terrasse de l'Akelarre au-dessus de la mer Cantabrique à Saint-Sébastien",
   },
   destinationSlugs: ["espagne"],

@@ -2,30 +2,30 @@
 
 Dossier : `public/destination/australie/`
 
-**3 sur 25 présentes.** Il manque 22 images.
+**20 sur 25 présentes.** Il manque 5 images.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
 ## Carrousel du hero
 
-- [ ] `hero-1.png`
-- [ ] `hero-2.png`
-- [ ] `hero-3.png`
+- [x] `hero-1.png`
+- [x] `hero-2.png`
+- [x] `hero-3.png`
 
 ## Bandeau pleine largeur
 
-- [ ] `full-image.png`
+- [x] `full-image.png`
 
 ## Section texte et images
 
-- [ ] `split-1.png`
-- [ ] `split-2.png`
+- [x] `split-1.png`
+- [x] `split-2.png`
 
 ## Expériences
 
-- [ ] `xp-airboat-mary-river.png`
+- [x] `xp-airboat-mary-river.png`
 - [ ] `xp-grande-barriere.png`
-- [ ] `xp-seal-bay.png`
+- [x] `xp-seal-bay.png`
 - [ ] `xp-uluru-anangu-1.png`
 - [ ] `xp-uluru-anangu-2.png`
 
@@ -37,17 +37,17 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 ## Bloc bento
 
-- [ ] `bento-adresses.png`
+- [x] `bento-adresses.png`
 - [ ] `bento-conciergerie.png`
-- [ ] `bento-experiences.png`
-- [ ] `bento-hebergements.png`
+- [x] `bento-experiences.png`
+- [x] `bento-hebergements.png`
 - [ ] `bento-map.png`
 
 ## Carte interactive
 
-- [ ] `map-daintree.png`
-- [ ] `map-darwin.png`
-- [ ] `map-kakadu.png`
-- [ ] `map-kangaroo-island.png`
-- [ ] `map-sydney.png`
-- [ ] `map-uluru.png`
+- [x] `map-daintree.png`
+- [x] `map-darwin.png`
+- [x] `map-kakadu.png`
+- [x] `map-kangaroo-island.png`
+- [x] `map-sydney.png`
+- [x] `map-uluru.png`

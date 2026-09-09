@@ -13,7 +13,7 @@ export const experience: Experience = {
     "snorkeling",
   ],
   heroImage: {
-    src: "/destination/anguilla/xp-yacht-sandy-island.png",
+    src: "/destination/anguilla/xp-yacht-sandy-island.webp",
     alt: "Yacht privé mouillé au large du banc de sable de Sandy Island, à Anguilla",
   },
   destinationSlugs: ["anguilla"],

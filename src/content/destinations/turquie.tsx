@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Istanbul se découvre lentement, au fil des traversées du Bosphore et des ruelles qui montent vers les mosquées. La Cappadoce, elle, s'apprivoise au petit matin, quand le jour se lève sur ses reliefs de tuf. Et la côte lycienne garde ses criques pour ceux qui arrivent par la mer. Nous composons cet enchaînement pour vous, étape par étape.",
       images: [
         {
-          src: "/destination/turquie/hero-1.png",
-          alt: "Coupoles et minarets d'Istanbul au-dessus du Bosphore en Turquie",
+          src: "/destination/turquie/hero-1.webp",
+          alt: "Montgolfières au-dessus des reliefs de tuf de la Cappadoce au lever du jour",
         },
         {
-          src: "/destination/turquie/hero-2.png",
-          alt: "Cheminées de fées de la vallée de Göreme en Cappadoce à l'aube",
+          src: "/destination/turquie/hero-2.webp",
+          alt: "Coupole et médaillons calligraphiés de Sainte-Sophie à Istanbul",
         },
         {
-          src: "/destination/turquie/hero-3.png",
-          alt: "Goélette au mouillage dans une crique de la côte lycienne",
+          src: "/destination/turquie/hero-3.webp",
+          alt: "Sommet de la tour de Galata et sa galerie panoramique, à Istanbul",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/turquie/full-image.png",
-        alt: "Le Bosphore au crépuscule depuis les hauteurs d'Istanbul, Turquie",
+        src: "/destination/turquie/full-image.webp",
+        alt: "Bassin bordé d'une galerie à arcades au pied d'un minaret, en Turquie",
       },
       height: 600,
     },
@@ -98,12 +98,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/turquie/split-1.png",
-          alt: "Escalier taillé dans le tuf de la cité souterraine de Derinkuyu",
+          src: "/destination/turquie/split-1.webp",
+          alt: "Cheminées de fées et roche creusée d'une vallée de Cappadoce",
         },
         {
-          src: "/destination/turquie/split-2.png",
-          alt: "Paysage de roche creusée et pigeonniers près d'Uçhisar en Cappadoce",
+          src: "/destination/turquie/split-2.webp",
+          alt: "Le piton d'Uçhisar, creusé de pièces et de pigeonniers, en Cappadoce",
         },
       ],
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/turquie/xp-montgolfiere-cappadoce-1.png",
-          alt: "Montgolfière au-dessus des cheminées de fées de Göreme au lever du jour",
+          src: "/destination/turquie/xp-montgolfiere-cappadoce-1.webp",
+          alt: "Montgolfières s'élevant au-dessus des vallées de Göreme au lever du jour",
         },
         right: {
-          src: "/destination/turquie/xp-montgolfiere-cappadoce-2.png",
-          alt: "Enveloppe d'une montgolfière gonflée avant l'aube en Cappadoce",
+          src: "/destination/turquie/xp-montgolfiere-cappadoce-2.webp",
+          alt: "Nacelle et enveloppe d'une montgolfière en vol au-dessus de la Cappadoce",
         },
       },
       text: {
@@ -228,15 +228,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/turquie/bento-${
-            ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          src: `/destination/turquie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure en Turquie",
-            "Cour intérieure d'une maison ottomane aux volets de bois",
-            "Chambre troglodyte taillée dans le tuf en Cappadoce",
+            "Salle voûtée d'un restaurant aux tables dressées à la bougie en Turquie",
+            "Hôtel en bord de mer Égée vu du ciel, avec ses piscines et sa plage",
             "Concierge coordonnant un transfert privé sur le Bosphore",
-            "Table dressée au bord de l'eau à la tombée du jour en Turquie",
+            "Bassin antique aux colonnes immergées et montgolfières à l'horizon",
           ][i],
         },
       })),
@@ -257,8 +255,8 @@ export const destination: Destination = {
           description:
             "Istanbul se vit sur l'eau. On passe d'une rive à l'autre en bateau, de Sainte-Sophie et de la mosquée Bleue aux marchés de Kadıköy, et la ville change de caractère à chaque traversée.",
           image: {
-            src: "/destination/turquie/map-istanbul.png",
-            alt: "Sainte-Sophie et le Bosphore vus depuis les toits d'Istanbul",
+            src: "/destination/turquie/map-istanbul.webp",
+            alt: "Dôme et minarets d'une mosquée ottomane d'Istanbul au crépuscule",
           },
           coordinates: { lat: 41.0082, lng: 28.9784 }, // TODO: verify coords
         },
@@ -267,8 +265,8 @@ export const destination: Destination = {
           description:
             "Le plateau volcanique s'est laissé sculpter par l'eau et le vent. Les moines byzantins y ont creusé des églises entières, fresques comprises, et les villages se glissent encore dans la roche.",
           image: {
-            src: "/destination/turquie/map-cappadoce.png",
-            alt: "Cheminées de fées et églises rupestres de Göreme en Cappadoce",
+            src: "/destination/turquie/map-cappadoce.webp",
+            alt: "Montgolfières au-dessus des cheminées de fées de Göreme à l'aube",
           },
           coordinates: { lat: 38.6431, lng: 34.8286 }, // TODO: verify coords
         },
@@ -277,8 +275,8 @@ export const destination: Destination = {
           description:
             "La voie de marbre descend entre les colonnes jusqu'à la bibliothèque de Celsus. Un peu plus haut, les maisons en terrasses d'Hadrien gardent leurs mosaïques à l'abri, et l'on y circule à quelques-uns seulement.",
           image: {
-            src: "/destination/turquie/map-ephese.png",
-            alt: "Façade de la bibliothèque de Celsus sur le site d'Éphèse",
+            src: "/destination/turquie/map-ephese.webp",
+            alt: "Statue et façade sculptée de la bibliothèque de Celsus, à Éphèse",
           },
           coordinates: { lat: 37.9395, lng: 27.3417 }, // TODO: verify coords
         },
@@ -287,8 +285,8 @@ export const destination: Destination = {
           description:
             "L'eau chaude dépose son calcaire en vasques blanches depuis l'Antiquité, et l'on y marche pieds nus dans une lumière presque irréelle. La cité d'Hiérapolis veille juste au-dessus, avec son bassin antique.",
           image: {
-            src: "/destination/turquie/map-pamukkale.png",
-            alt: "Vasques de calcaire blanc de Pamukkale et ruines d'Hiérapolis",
+            src: "/destination/turquie/map-pamukkale.webp",
+            alt: "Vasques de calcaire blanc de Pamukkale remplies d'eau turquoise",
           },
           coordinates: { lat: 37.9203, lng: 29.1206 }, // TODO: verify coords
         },
@@ -297,8 +295,8 @@ export const destination: Destination = {
           description:
             "Un village lycien s'est affaissé sous la mer et l'on devine encore ses escaliers à travers l'eau claire. On y accède en bateau, ce qui rend l'endroit d'autant plus paisible.",
           image: {
-            src: "/destination/turquie/map-kekova.png",
-            alt: "Ruines lyciennes immergées de Kekova sur la côte turque",
+            src: "/destination/turquie/map-kekova.webp",
+            alt: "Rivage calcaire et eau claire de la baie de Kekova",
           },
           coordinates: { lat: 36.1833, lng: 29.85 }, // TODO: verify coords
         },
@@ -307,8 +305,8 @@ export const destination: Destination = {
           description:
             "Le château des chevaliers garde l'entrée du port et les ruelles blanches descendent vers l'eau. Au nord de la presqu'île, le maquis mène à des criques que l'on rejoint sans croiser personne.",
           image: {
-            src: "/destination/turquie/map-bodrum.png",
-            alt: "Château des chevaliers de Saint-Jean au-dessus du port de Bodrum",
+            src: "/destination/turquie/map-bodrum.webp",
+            alt: "Goélettes au mouillage dans une crique d'eau claire de la côte turque",
           },
           coordinates: { lat: 37.0344, lng: 27.4305 }, // TODO: verify coords
         },
@@ -537,7 +535,7 @@ export const destination: Destination = {
           quote:
             "Nous n'avions fait qu'une escale à Istanbul, autrefois. Cette fois nous avons pris le temps, avec un guide qui nous a fait entrer à Sainte-Sophie avant tout le monde. Et puis il y a eu la Cappadoce, et cette montgolfière rien que pour nous. Nos petits-enfants nous en parlent encore.",
           image: {
-            src: "/destination/turquie/hero-1.png",
+            src: "/destination/turquie/hero-1.webp",
             alt: "Portrait de Bernard et Michèle", // TODO: verify
           },
           name: "Bernard & Michèle", // TODO: verify
@@ -548,7 +546,7 @@ export const destination: Destination = {
           quote:
             "Éphèse après la fermeture, avec l'archéologue qui a fouillé les maisons en terrasses. Nous avions le site pour nous, et il nous a raconté chaque mosaïque. Je ne pensais pas qu'une chose pareille se négociait encore.",
           image: {
-            src: "/destination/turquie/hero-2.png",
+            src: "/destination/turquie/hero-2.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify
@@ -559,7 +557,7 @@ export const destination: Destination = {
           quote:
             "Une semaine de goélette le long de la côte lycienne, avec un équipage qui savait exactement où mouiller le soir. On se baignait au-dessus des ruines avant le petit-déjeuner. Je n'avais pas décroché comme cela depuis des années.",
           image: {
-            src: "/destination/turquie/hero-3.png",
+            src: "/destination/turquie/hero-3.webp",
             alt: "Portrait de Frédéric", // TODO: verify
           },
           name: "Frédéric", // TODO: verify

@@ -13,7 +13,7 @@ export const accommodation: Accommodation = {
     "villa privee",
   ],
   heroImage: {
-    src: "/destination/anguilla/hotel-four-seasons.png",
+    src: "/destination/anguilla/hotel-four-seasons.webp",
     alt: "Piscine et terrasse d'une résidence du Four Seasons Anguilla ouverte sur Barnes Bay",
   },
   destinationSlugs: ["anguilla"],
