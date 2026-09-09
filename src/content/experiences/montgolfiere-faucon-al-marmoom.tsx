@@ -13,7 +13,7 @@ export const experience: Experience = {
     "dubai",
   ],
   heroImage: {
-    src: "/destination/emirats-arabes-unis/xp-montgolfiere-faucon.png",
+    src: "/destination/emirats-arabes-unis/xp-montgolfiere-faucon.webp",
     alt: "Montgolfière au-dessus des dunes de la réserve d'Al Marmoom au lever du jour",
   },
   destinationSlugs: ["emirats-arabes-unis"],

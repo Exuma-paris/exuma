@@ -13,7 +13,7 @@ export const experience: Experience = {
     "dhow",
   ],
   heroImage: {
-    src: "/destination/emirats-arabes-unis/xp-perles-suwaidi.png",
+    src: "/destination/emirats-arabes-unis/xp-perles-suwaidi.webp",
     alt: "Plongeur ouvrant une huître perlière sur le pont d'un dhow à Al Rams",
   },
   destinationSlugs: ["emirats-arabes-unis"],

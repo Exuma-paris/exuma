@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "abu dhabi",
   ],
   heroImage: {
-    src: "/destination/emirats-arabes-unis/hotel-qasr-al-sarab.png",
-    alt: "Forteresse de terre ocre du Qasr Al Sarab en lisière du Rub al-Khali",
+    src: "/destination/emirats-arabes-unis/hotel-qasr-al-sarab.webp",
+    alt: "Piscine du Qasr Al Sarab face aux dunes au coucher du soleil",
   },
   destinationSlugs: ["emirats-arabes-unis"],
   sections: [],
