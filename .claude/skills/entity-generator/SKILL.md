@@ -18,7 +18,7 @@ Both entities share the same `Section` discriminated union, the same canonical s
 
 The dynamic routes (`/experiences/[slug]` and `/hebergements/[slug]`) render: `<EntityStubPage>` when `sections: []`, full editorial page when `sections[]` is non-empty.
 
-Always read the destination skill's `STYLE.md` (at `.claude/skills/destination-generator/STYLE.md`) before writing copy. Voice rules are identical across kinds.
+Always read `.claude/STYLE.md` (the global layer: no em dashes, and never frame copy on what the reader would get wrong) then the destination skill's `STYLE.md` (at `.claude/skills/destination-generator/STYLE.md`) before writing copy. Voice rules are identical across kinds; the global file wins on conflict.
 
 Always read `REFERENCE.md` in this same folder before writing data. It owns the per-section data shape and the image filename convention.
 
@@ -124,6 +124,7 @@ Propose 3 titles + 3 short details (≤ 200 chars each). Wait for confirmation b
 
 Before writing anything, read:
 
+- `.claude/STYLE.md` — global writing rules, **mandatory** and winning over anything below: no em dashes (§ 1), positive framing for statements and FAQ questions alike (§ 2).
 - `STYLE.md` at `.claude/skills/destination-generator/STYLE.md` — voice rules, forbidden vocabulary, SEO discipline. **Mandatory** for every paragraph.
 - `REFERENCE.md` (this folder) — the 5 section data shapes for an experience page.
 - `src/lib/sections/index.ts` — the `sectionMetas` registry. Each section's per-slot character limits live with the component (e.g. `galleryMeta`, `heroImageBackgroundMeta`, `featureShowcaseMeta`). Meta wins on length/structure; STYLE.md owns voice; REFERENCE.md owns experience-specific copy patterns.

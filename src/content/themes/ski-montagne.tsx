@@ -18,7 +18,7 @@ export const theme: Theme = {
   sections: [
     {
       type: "hero",
-      eyebrow: "Thématique",
+      eyebrow: "Expérience",
       heading: "Ski & montagne",
       description: "La montagne comme exigence, pas comme décor.",
       images: [

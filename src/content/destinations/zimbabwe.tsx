@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Zimbabwe",
   genitive: "du Zimbabwe",
+  projectNote:
+    "Le pays a l'école de guides la plus exigeante d'Afrique : des années d'examens avant d'avoir le droit de marcher devant des clients. On ne regarde pas les animaux de la même façon.",
   continentSlug: "afrique",
   blurb: "Chutes Victoria, Hwange, Mana Pools, Matobo",
   keywords: [
@@ -33,16 +35,16 @@ export const destination: Destination = {
         "Le grondement des chutes porte à des kilomètres et la brume d'eau se repère depuis l'avion. Plus au sud, Hwange, Matobo et Malilangwe ne font aucun bruit. C'est le même pays, et presque personne n'y va.",
       images: [
         {
-          src: "/destination/zimbabwe/hero-1.png",
+          src: "/destination/zimbabwe/hero-1.webp",
           alt: "Voyage au Zimbabwe : les chutes Victoria et leur brume d'eau vues depuis la rive zimbabwéenne",
         },
         {
-          src: "/destination/zimbabwe/hero-2.png",
+          src: "/destination/zimbabwe/hero-2.webp",
           alt: "Troupeau d'éléphants autour d'un point d'eau du parc de Hwange en fin de journée",
         },
         {
-          src: "/destination/zimbabwe/hero-3.png",
-          alt: "Blocs de granit empilés dans les collines de Matobo, au sud du Zimbabwe",
+          src: "/destination/zimbabwe/hero-3.webp",
+          alt: "Rhinocéros dans les hautes herbes au lever du jour, au Zimbabwe",
         },
       ],
     },
@@ -78,7 +80,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/zimbabwe/full-image.png",
+        src: "/destination/zimbabwe/full-image.webp",
         alt: "Voyage au Zimbabwe : la plaine du Zambèze et les acacias albida du parc de Mana Pools",
       },
       height: 600,
@@ -96,11 +98,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/zimbabwe/split-1.png",
+          src: "/destination/zimbabwe/split-1.webp",
           alt: "Guide professionnel et marcheurs entre les acacias de la plaine de Mana Pools",
         },
         {
-          src: "/destination/zimbabwe/split-2.png",
+          src: "/destination/zimbabwe/split-2.webp",
           alt: "Éléphant dressé sur ses pattes arrière pour atteindre les gousses d'un albida",
         },
       ],
@@ -110,11 +112,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/zimbabwe/xp-chutes-a-pied-1.png",
+          src: "/destination/zimbabwe/xp-chutes-a-pied-1.webp",
           alt: "Sentier de la rive zimbabwéenne face au rideau d'eau des chutes Victoria",
         },
         right: {
-          src: "/destination/zimbabwe/xp-chutes-a-pied-2.png",
+          src: "/destination/zimbabwe/xp-chutes-a-pied-2.webp",
           alt: "Promontoire de Danger Point au-dessus de la gorge du Zambèze",
         },
       },
@@ -228,7 +230,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/zimbabwe/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/zimbabwe/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Zimbabwe entre le Zambèze, Hwange et le sud-est",
             "Adresses confidentielles au Zimbabwe : concessions privées et réserves fermées au public",
@@ -255,7 +257,7 @@ export const destination: Destination = {
           description:
             "Mosi-oa-Tunya, la fumée qui gronde. Le fleuve entier bascule d'un coup dans une faille de basalte, et la rive zimbabwéenne fait face au rideau d'eau sur toute sa longueur.",
           image: {
-            src: "/destination/zimbabwe/map-victoria-falls.png",
+            src: "/destination/zimbabwe/map-victoria-falls.webp",
             alt: "Rideau d'eau des chutes Victoria et gorge du Zambèze vus de la rive zimbabwéenne",
           },
           // TODO: verify coords
@@ -266,7 +268,7 @@ export const destination: Destination = {
           description:
             "Un parc immense à la lisière du Kalahari, sans une seule rivière. Les points d'eau sont pompés, et c'est là que se rassemblent les plus grands troupeaux d'éléphants du pays.",
           image: {
-            src: "/destination/zimbabwe/map-hwange.png",
+            src: "/destination/zimbabwe/map-hwange.webp",
             alt: "Plaine herbeuse et point d'eau du parc national de Hwange au Zimbabwe",
           },
           // TODO: verify coords
@@ -277,7 +279,7 @@ export const destination: Destination = {
           description:
             "Une plaine d'inondation classée au patrimoine mondial, plantée d'acacias albida. L'un des rares parcs d'Afrique australe où la marche se fait sans véhicule d'escorte.",
           image: {
-            src: "/destination/zimbabwe/map-mana-pools.png",
+            src: "/destination/zimbabwe/map-mana-pools.webp",
             alt: "Bras du Zambèze et forêt claire d'albidas dans le parc de Mana Pools",
           },
           // TODO: verify coords
@@ -288,7 +290,7 @@ export const destination: Destination = {
           description:
             "Des blocs de granit posés en équilibre à perte de vue, criblés d'abris ornés de peintures San. C'est aussi l'un des derniers terrains à rhinocéros du pays.",
           image: {
-            src: "/destination/zimbabwe/map-matobo.png",
+            src: "/destination/zimbabwe/map-matobo.webp",
             alt: "Blocs de granit en équilibre et abris rupestres des collines de Matobo",
           },
           // TODO: verify coords
@@ -299,7 +301,7 @@ export const destination: Destination = {
           description:
             "La cité de pierre médiévale qui a donné son nom au pays. Les murs du Grand Enclos montent plus haut qu'une maison, empilés à sec, sans un gramme de mortier.",
           image: {
-            src: "/destination/zimbabwe/map-great-zimbabwe.png",
+            src: "/destination/zimbabwe/map-great-zimbabwe.webp",
             alt: "Murs de pierre sèche du Grand Enclos de Great Zimbabwe",
           },
           // TODO: verify coords
@@ -310,7 +312,7 @@ export const destination: Destination = {
           description:
             "Une réserve privée fermée au public, adossée au parc du Gonarezhou et à ses falaises de Chilojo. Rhinocéros noirs réintroduits, abris peints et lac artificiel au milieu du bush.",
           image: {
-            src: "/destination/zimbabwe/map-malilangwe.png",
+            src: "/destination/zimbabwe/map-malilangwe.webp",
             alt: "Falaises de Chilojo et brousse du sud-est zimbabwéen, près de Malilangwe",
           },
           // TODO: verify coords
@@ -563,7 +565,7 @@ export const destination: Destination = {
           quote:
             "La marche à Mana Pools, c'est ce dont on parle encore. Notre guide s'arrêtait, levait la main, et on comprenait sans un mot. On est repartis en silence, sans avoir croisé un seul véhicule de la matinée.",
           image: {
-            src: "/destination/zimbabwe/hero-1.png",
+            src: "/destination/zimbabwe/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -574,7 +576,7 @@ export const destination: Destination = {
           quote:
             "Nous cherchions une destination que nos enfants ne connaissaient pas, et c'était réussi. Great Zimbabwe avec un archéologue le matin, les collines de Matobo l'après-midi : personne n'a regardé son téléphone de la journée.",
           image: {
-            src: "/destination/zimbabwe/hero-2.png",
+            src: "/destination/zimbabwe/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -585,7 +587,7 @@ export const destination: Destination = {
           quote:
             "Trois nuits dans une concession privée de Hwange, sans croiser un autre véhicule. Le point d'eau se regardait depuis la tente. On avait fait l'Afrique de l'Est avant : ça n'a rien à voir.",
           image: {
-            src: "/destination/zimbabwe/hero-3.png",
+            src: "/destination/zimbabwe/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

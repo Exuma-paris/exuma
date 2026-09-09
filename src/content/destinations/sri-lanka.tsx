@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Sri Lanka",
   genitive: "du Sri Lanka",
+  projectNote:
+    "Peu d'îles autorisent ce déroulé : les fresques de Sigiriya au lever du jour, la nuit dans un bungalow de planteur au milieu des théiers, la trace d'un léopard le surlendemain.",
   continentSlug: "asie",
   blurb: "Sigiriya, pays du thé, Yala, Galle",
   keywords: [

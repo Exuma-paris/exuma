@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "États-Unis",
   genitive: "d'Hawaï",
+  projectNote:
+    "L'archipel ne se résume jamais à une seule île. On part pour des plages, on rentre en parlant d'un sommet glacé au-dessus des nuages et d'une vallée où une famille vous a reçus.",
   continentSlug: "ameriques",
   blurb: "Volcans, vallées et grandes falaises du Pacifique",
   keywords: [

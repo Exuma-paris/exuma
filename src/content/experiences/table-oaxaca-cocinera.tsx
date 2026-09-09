@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Le mole noir demande une longue préparation et se transmet de mère en fille. On le prépare avec elle, dans sa cuisine, avant de le partager à sa table. Les mezcals de la famille arrivent au moment du café.",
   keywords: ["mexique", "oaxaca", "mole", "mezcal", "cuisine"],
   heroImage: {
-    src: "/destination/mexique/xp-oaxaca.png",
-    alt: "Cuisinière d'Oaxaca préparant le mole noir dans sa cuisine",
+    src: "/destination/mexique/xp-oaxaca.webp",
+    alt: "Rue coloniale d'Oaxaca pavoisée de papel picado",
   },
   destinationSlugs: ["mexique"],
   sections: [],

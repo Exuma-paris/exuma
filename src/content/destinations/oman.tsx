@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Oman",
   genitive: "d'Oman",
+  projectNote:
+    "Le pays n'a jamais couru après le voyageur. On peut encore y dresser un campement dans les Wahiba pour une seule famille, et dormir au bord d'une gorge sans apercevoir une autre terrasse.",
   continentSlug: "proche-orient",
   blurb: "Jebel Akhdar, Wahiba Sands, Daymaniyat",
   keywords: [

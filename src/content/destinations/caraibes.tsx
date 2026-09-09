@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Caraïbes",
   genitive: "des Caraïbes",
+  projectNote:
+    "Chaque île y garde son caractère. À Saint-Barthélemy on retrouve les mêmes visages d'une année sur l'autre ; dans les Grenadines, le capitaine propose une baie au petit matin.",
   continentSlug: "caraibes",
   blurb: "Saint-Barth, Anguilla, Mustique, les Grenadines",
   keywords: [

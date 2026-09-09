@@ -8,6 +8,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "République dominicaine",
   genitive: "de la République dominicaine",
+  projectNote:
+    "La plupart des voyageurs ne voient que la côte est, celle des resorts. Il y a une autre île une heure au nord : la baie de Samaná, les mangroves de Los Haitises, le cacao à l'ancienne.",
   continentSlug: "ameriques",
   blurb: "Samaná, Punta Cana, Casa de Campo, Los Haitises",
   keywords: [

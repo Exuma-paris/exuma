@@ -6,6 +6,8 @@ export const destination: Destination = {
   name: "Los Cabos",
   country: "Mexique",
   genitive: "de Los Cabos",
+  projectNote:
+    "Une péninsule de désert entre deux mers. Cabo Pulmo à l'aube, avant les bateaux collectifs. Et dans le corridor, des suites qui ne se réservent pas en ligne.",
   continentSlug: "ameriques",
   placeKind: "city",
   blurb:

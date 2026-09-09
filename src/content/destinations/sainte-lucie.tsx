@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Caraïbes",
   genitive: "de Sainte-Lucie",
+  projectNote:
+    "L'île ne ressemble pas à l'idée qu'on se fait des Antilles. Nos voyageurs partent pour la mer et rappellent en parlant de la forêt, des sources chaudes et du Gros Piton avant le jour.",
   continentSlug: "caraibes",
   blurb: "Les Pitons, Soufrière, la baie de Marigot",
   keywords: [

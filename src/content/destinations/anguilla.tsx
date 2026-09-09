@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Anguilla",
   genitive: "d'Anguilla",
+  projectNote:
+    "Une île plate, sèche, où toute l'attention va à l'eau. Ceux qui y reviennent disent la même chose : on y est tranquille et personne ne vous regarde. Dans la Caraïbe, c'est devenu rare.",
   continentSlug: "ameriques",
   blurb: "Shoal Bay, Sandy Ground, les cayes du large",
   keywords: [
@@ -33,15 +35,15 @@ export const destination: Destination = {
         "Ici rien ne dépasse. L'île est plate, sèche, couverte de buissons bas. Toute l'attention va à l'eau, qui passe du turquoise au vert selon l'heure et le banc de sable qu'elle recouvre.",
       images: [
         {
-          src: "/destination/anguilla/hero-1.png",
+          src: "/destination/anguilla/hero-1.webp",
           alt: "Voyage à Anguilla : sable blanc et eau turquoise de Shoal Bay East",
         },
         {
-          src: "/destination/anguilla/hero-2.png",
+          src: "/destination/anguilla/hero-2.webp",
           alt: "Bateaux de pêche colorés amarrés dans la baie de Sandy Ground",
         },
         {
-          src: "/destination/anguilla/hero-3.png",
+          src: "/destination/anguilla/hero-3.webp",
           alt: "Banc de sable désert de Sandy Island au large d'Anguilla",
         },
       ],
@@ -78,7 +80,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/anguilla/full-image.png",
+        src: "/destination/anguilla/full-image.webp",
         alt: "Voyage à Anguilla : la longue plage de Rendezvous Bay face à Saint-Martin",
       },
       height: 600,
@@ -95,11 +97,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/anguilla/split-1.png",
+          src: "/destination/anguilla/split-1.webp",
           alt: "Langouste grillée servie sur une table posée dans le sable à Sandy Island",
         },
         {
-          src: "/destination/anguilla/split-2.png",
+          src: "/destination/anguilla/split-2.webp",
           alt: "Paillote et cocotiers de l'îlot de Prickly Pear, au large d'Anguilla",
         },
       ],
@@ -109,11 +111,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/anguilla/xp-plongee-epaves-1.png",
+          src: "/destination/anguilla/xp-plongee-epaves-1.webp",
           alt: "Plongeur au-dessus d'une épave couverte de coraux au large d'Anguilla",
         },
         right: {
-          src: "/destination/anguilla/xp-plongee-epaves-2.png",
+          src: "/destination/anguilla/xp-plongee-epaves-2.webp",
           alt: "Bateau de plongée privatisé mouillé au-dessus d'un récif à Anguilla",
         },
       },
@@ -223,7 +225,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/anguilla/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/anguilla/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Anguilla entre Shoal Bay, Sandy Ground et les cayes",
             "Adresses confidentielles à Anguilla : paillotes des cayes et tables de chefs",
@@ -250,7 +252,7 @@ export const destination: Destination = {
           description:
             "Trois kilomètres de sable blanc sur la côte nord, avec un récif à quelques brasses du bord. Le matin, la plage appartient encore aux pêcheurs et aux pélicans.",
           image: {
-            src: "/destination/anguilla/map-shoal-bay.png",
+            src: "/destination/anguilla/map-shoal-bay.webp",
             alt: "Sable blanc et eau claire de Shoal Bay East, sur la côte nord d'Anguilla",
           },
           // TODO: verify coords
@@ -261,7 +263,7 @@ export const destination: Destination = {
           description:
             "Le port de l'île et son seul vrai point de rassemblement. Les bateaux de plongée et ceux des cayes partent d'ici, et les bars de la plage se remplissent quand la pêche rentre.",
           image: {
-            src: "/destination/anguilla/map-sandy-ground.png",
+            src: "/destination/anguilla/map-sandy-ground.webp",
             alt: "Bateaux amarrés devant les maisons colorées de Sandy Ground, à Anguilla",
           },
           // TODO: verify coords
@@ -272,7 +274,7 @@ export const destination: Destination = {
           description:
             "La façade ouest, celle des couchers de soleil et des grandes adresses. Deux baies voisines, l'une longue et ouverte, l'autre plus resserrée entre deux pointes rocheuses.",
           image: {
-            src: "/destination/anguilla/map-meads-bay.png",
+            src: "/destination/anguilla/map-meads-bay.webp",
             alt: "Longue plage de Meads Bay bordée de cocotiers, côte ouest d'Anguilla",
           },
           // TODO: verify coords
@@ -283,7 +285,7 @@ export const destination: Destination = {
           description:
             "Une courbe de sable de plus de deux kilomètres, face aux montagnes de Saint-Martin. C'est là que Bankie Banx a bâti le Dune Preserve, une cabane de bois faite de bateaux échoués.",
           image: {
-            src: "/destination/anguilla/map-rendezvous-bay.png",
+            src: "/destination/anguilla/map-rendezvous-bay.webp",
             alt: "Courbe de sable de Rendezvous Bay avec Saint-Martin à l'horizon",
           },
           // TODO: verify coords
@@ -294,7 +296,7 @@ export const destination: Destination = {
           description:
             "Deux cayes inhabitées au large de Sandy Ground, un banc de sable et quelques cocotiers chacune. On y va pour la journée, pour le récif et pour la langouste au feu de bois.",
           image: {
-            src: "/destination/anguilla/map-sandy-island.png",
+            src: "/destination/anguilla/map-sandy-island.webp",
             alt: "Îlot de Sandy Island et son récif, au large de la côte nord d'Anguilla",
           },
           // TODO: verify coords
@@ -305,7 +307,7 @@ export const destination: Destination = {
           description:
             "La capitale tient en quelques rues et le point le plus haut de l'île culmine à soixante-cinq mètres. Non loin, la Fountain Cavern garde des gravures amérindiennes taillées dans la roche.",
           image: {
-            src: "/destination/anguilla/map-the-valley.png",
+            src: "/destination/anguilla/map-the-valley.webp",
             alt: "Rues basses et toits de The Valley, la capitale d'Anguilla",
           },
           // TODO: verify coords
@@ -561,7 +563,7 @@ export const destination: Destination = {
           quote:
             "La journée de plongée en bateau privé a réconcilié tout le monde. Mon mari et moi sur les épaves, les enfants au masque et tuba au-dessus du récif, et tout le monde à table sur Sandy Island à midi.",
           image: {
-            src: "/destination/anguilla/hero-1.png",
+            src: "/destination/anguilla/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -572,7 +574,7 @@ export const destination: Destination = {
           quote:
             "Sept nuits sur Maundays Bay sans reprendre la voiture plus de trois fois. C'est la première fois qu'on ne cherche pas à occuper les journées.",
           image: {
-            src: "/destination/anguilla/hero-2.png",
+            src: "/destination/anguilla/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -583,7 +585,7 @@ export const destination: Destination = {
           quote:
             "Le voilier de fin de journée, à six, sans personne d'autre à bord. On est rentrés à Sandy Ground de nuit et on a dîné sur la plage en descendant du bateau.",
           image: {
-            src: "/destination/anguilla/hero-3.png",
+            src: "/destination/anguilla/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

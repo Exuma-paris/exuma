@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Chili",
   genitive: "du Chili",
+  projectNote:
+    "4 300 kilomètres du désert d'Atacama au massif du Paine. Trois jours de trop dans le nord et l'on arrive fatigué en Patagonie, où le vent ne pardonne rien. Nous dosons la traversée.",
   continentSlug: "ameriques",
   blurb: "Atacama, Colchagua, Chiloé, Patagonie",
   keywords: [

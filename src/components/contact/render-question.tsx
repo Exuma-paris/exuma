@@ -97,7 +97,9 @@ export function RenderQuestion({
       return (
         <TravelersQuestionView
           question={question}
-          value={a.type === "travelers" ? a.value : { adults: 2, children: 0 }}
+          value={
+            a.type === "travelers" ? a.value : { adults: 2, children: 0, babies: 0 }
+          }
           onChange={(value) => onChange({ type: "travelers", value })}
         />
       );

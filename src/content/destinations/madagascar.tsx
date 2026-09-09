@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Madagascar",
   genitive: "de Madagascar",
+  projectNote:
+    "Le seul pays où nous ne reconnaissons rien de ce que nous connaissons ailleurs : les arbres, les animaux, la couleur de la terre. À Anjajavy, la forêt sèche commence derrière la terrasse.",
   continentSlug: "afrique",
   blurb: "Le Nord, Anjajavy, les baobabs, Andasibe",
   keywords: [
@@ -33,15 +35,15 @@ export const destination: Destination = {
         "Le matin, à Anjajavy, un lémurien blanc traverse la pelouse et s'arrête à trois mètres de la terrasse. La forêt sèche commence juste derrière, et la mer est de l'autre côté. Le soir, l'eau du canal du Mozambique passe au rose, puis au gris.",
       images: [
         {
-          src: "/destination/madagascar/hero-1.png",
+          src: "/destination/madagascar/hero-1.webp",
           alt: "Lémurien sifaka dans la forêt sèche d'Anjajavy, voyage à Madagascar",
         },
         {
-          src: "/destination/madagascar/hero-2.png",
+          src: "/destination/madagascar/hero-2.webp",
           alt: "Les cirques de latérite des Tsingy Rouges dans la vallée de l'Irodo, au nord d'Antsiranana",
         },
         {
-          src: "/destination/madagascar/hero-3.png",
+          src: "/destination/madagascar/hero-3.webp",
           alt: "Plage et barrière de corail de Nosy Ankao, au large du nord-est malgache",
         },
       ],
@@ -78,7 +80,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/madagascar/full-image.png",
+        src: "/destination/madagascar/full-image.webp",
         alt: "L'allée des baobabs près de Morondava en fin de journée, voyage à Madagascar",
       },
       height: 600,
@@ -95,11 +97,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/madagascar/split-1.png",
+          src: "/destination/madagascar/split-1.webp",
           alt: "Rizières en terrasses des hauts plateaux malgaches, au sud d'Antananarivo",
         },
         {
-          src: "/destination/madagascar/split-2.png",
+          src: "/destination/madagascar/split-2.webp",
           alt: "Maisons de brique rouge à balcons de bois sur les hauts plateaux, près d'Antsirabe",
         },
       ],
@@ -109,11 +111,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/madagascar/xp-indri-1.png",
+          src: "/destination/madagascar/xp-indri-1.webp",
           alt: "Famille d'indris dans la forêt humide d'Andasibe, à l'est de Madagascar",
         },
         right: {
-          src: "/destination/madagascar/xp-indri-2.png",
+          src: "/destination/madagascar/xp-indri-2.webp",
           alt: "Pisteur du village guidant des visiteurs dans la forêt d'Andasibe au lever du jour",
         },
       },
@@ -294,7 +296,7 @@ export const destination: Destination = {
           description:
             "Sur la piste au nord de Morondava, une vingtaine de baobabs bordent la route sur quelques centaines de mètres. On y va au lever ou au coucher du soleil, quand la lumière est basse.",
           image: {
-            src: "/destination/madagascar/map-baobabs.png",
+            src: "/destination/madagascar/map-baobabs.webp",
             alt: "L'allée des baobabs et sa piste de sable au nord de Morondava",
           },
           // TODO: verify coords
@@ -305,7 +307,7 @@ export const destination: Destination = {
           description:
             "À l'est d'Antananarivo, une forêt humide protégée où se croisent onze espèces de lémuriens. Les marches se font au petit matin, quand les familles chantent, et le soir à la lampe.", // TODO: verify le nombre d'espèces de lémuriens à Andasibe-Mantadia
           image: {
-            src: "/destination/madagascar/map-andasibe.png",
+            src: "/destination/madagascar/map-andasibe.webp",
             alt: "Forêt humide du parc d'Andasibe-Mantadia, à l'est d'Antananarivo",
           },
           // TODO: verify coords
@@ -566,7 +568,7 @@ export const destination: Destination = {
           quote:
             "Je pensais qu'il fallait marcher des heures pour voir un lémurien. Le premier est passé devant la terrasse pendant le petit déjeuner, puis un deuxième. Ils habitent la forêt qui touche l'hôtel, et ils passent tous les matins à la même heure.",
           image: {
-            src: "/destination/madagascar/hero-1.png",
+            src: "/destination/madagascar/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -577,7 +579,7 @@ export const destination: Destination = {
           quote:
             "La marche de nuit, on l'a faite sans trop y croire. En une heure, le pisteur nous a montré trois caméléons endormis sur des branches à hauteur d'yeux, puis un lémurien de la taille d'une pomme. Il les repérait à la lampe avant nous, chaque fois.",
           image: {
-            src: "/destination/madagascar/hero-2.png",
+            src: "/destination/madagascar/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -588,7 +590,7 @@ export const destination: Destination = {
           quote:
             "L'hélicoptère s'est posé sur la plage, puis il est reparti. Nous étions huit sur l'île. Le soir, on marchait jusqu'à la pointe sans croiser personne, et le matin l'équipe savait déjà à quelle heure nous voulions le café.",
           image: {
-            src: "/destination/madagascar/hero-3.png",
+            src: "/destination/madagascar/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

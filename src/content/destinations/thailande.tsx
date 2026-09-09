@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Thaïlande",
   genitive: "de la Thaïlande",
+  projectNote:
+    "Deux façades maritimes dont les saisons s'inversent : l'Andaman de novembre à mars, le golfe de février à septembre. Ici le calendrier commande l'itinéraire, jamais l'inverse.",
   continentSlug: "asie",
   blurb: "Bangkok, Phang Nga, Phuket, Koh Samui",
   keywords: [

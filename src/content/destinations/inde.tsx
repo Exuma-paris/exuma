@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Inde",
   genitive: "de l'Inde",
+  projectNote:
+    "Plusieurs voyages tiennent dans un seul : le Gange à l'heure où Varanasi s'éveille, puis la table d'une famille qui habite son fort depuis des générations, puis les canaux du Kerala.",
   continentSlug: "asie",
   blurb: "Delhi, Agra, Rajasthan, Varanasi, Kerala",
   keywords: [

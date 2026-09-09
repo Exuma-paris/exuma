@@ -18,7 +18,7 @@ export const theme: Theme = {
   sections: [
     {
       type: "hero",
-      eyebrow: "Thématique",
+      eyebrow: "Expérience",
       heading: "Croisière d'exception",
       description: "La mer, en petit comité, à l'écart des routes habituelles.",
       images: [

@@ -8,12 +8,12 @@ import { cn } from "@/lib/utils";
 type Cta = { label: string; href: string };
 
 export function HeroImageBottom({
-  // Fallbacks only. The home passes its own copy in src/app/page.tsx, which is
-  // where the headline is edited; these keep the design-system preview on
-  // message instead of showing the wording the positioning rules out.
+  // Fallbacks only : ce gabarit ne sert plus qu'à l'aperçu du design system,
+  // la home étant passée au hero plein cadre. La copie reste alignée sur le
+  // positionnement pour que l'aperçu ne montre pas un discours périmé.
   eyebrow = "Conciergerie de voyage · depuis 1991",
-  heading = "Vous nous dites où. Nous nous occupons du reste.",
-  paragraph = "Un interlocuteur unique conçoit, affine, réserve et coordonne vos voyages. Il reste joignable avant, pendant et après le voyage.",
+  heading = "Vous choisissez la destination. Nous nous occupons du reste.",
+  paragraph = "Un interlocuteur unique vous accompagne à chaque étape de votre voyage.",
   image = {
     src: "/hero.jpg",
     alt: "Paysage de Bora Bora avec lagon turquoise et bungalows sur pilotis",

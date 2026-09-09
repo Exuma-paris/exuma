@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Une goélette réservée pour vous seuls, avec son équipage, entre Kaş et Kekova. Le mouillage du soir se choisit selon le vent, souvent au-dessus des escaliers lyciens que la mer a engloutis.",
   keywords: ["turquie", "cote lycienne", "kekova", "goelette", "kas"],
   heroImage: {
-    src: "/destination/turquie/xp-goelette-lycienne.png",
+    src: "/destination/turquie/xp-goelette-lycienne.webp",
     alt: "Goélette turque au mouillage dans une crique de la côte lycienne",
   },
   destinationSlugs: ["turquie"],

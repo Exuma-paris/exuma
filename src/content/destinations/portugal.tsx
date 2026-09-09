@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Portugal",
   genitive: "du Portugal",
+  projectNote:
+    "On passe d'une ville à un vignoble, puis à une plage, sans jamais avoir l'impression de courir. Au-dessus du Douro, les domaines reçoivent comme des amis. C'est de cela qu'on se souvient.",
   continentSlug: "europe",
   blurb: "Lisbonne, le Douro, Comporta, l'Algarve",
   keywords: [

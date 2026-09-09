@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { XClose as X } from "@untitledui/icons";
 import { Logo } from "@/components/ui/logo";
+import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const stripWhitespace = (s: string) => s.replace(/\s/g, "");
@@ -21,12 +23,21 @@ export type SimpleHeaderProps = {
    * the user out of the funnel by sending them to the marketing root.
    */
   logoHref?: string | null;
+  /**
+   * Rend une croix de sortie à droite de l'en-tête. Dans un tunnel, le logo
+   * ne ramène nulle part : sans elle, quelqu'un entré par erreur n'a que le
+   * bouton « Précédent » du navigateur pour repartir.
+   */
+  onClose?: () => void;
+  closeLabel?: string;
   className?: string;
 };
 
 export function SimpleHeader({
   contactCta,
   logoHref = "/",
+  onClose,
+  closeLabel = "Quitter le formulaire",
   className,
 }: SimpleHeaderProps) {
   const logo = <Logo className="h-7 w-auto" />;
@@ -48,6 +59,7 @@ export function SimpleHeader({
           </Link>
         )}
 
+        <div className="flex items-center gap-2">
         {contactCta ? (
           <a
             href={`tel:${stripWhitespace(contactCta.phone)}`}
@@ -92,6 +104,19 @@ export function SimpleHeader({
             </span>
           </a>
         ) : null}
+
+        {onClose ? (
+          <Button
+            variant="ghost"
+            size="icon-lg"
+            aria-label={closeLabel}
+            onClick={onClose}
+            className="-mr-2 shrink-0"
+          >
+            <X className="size-5 stroke-[1.5]" />
+          </Button>
+        ) : null}
+        </div>
       </div>
     </header>
   );

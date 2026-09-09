@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Corée du Sud",
   genitive: "de la Corée du Sud",
+  projectNote:
+    "Le pays dément vite la première impression : une ville de verre à Séoul, et le lendemain une maison de bois au sol chaud. C'est au sud, autour de Gyeongju, qu'il ralentit pour de bon.",
   continentSlug: "asie",
   blurb: "Séoul, Gyeongju, Busan et l'île de Jeju",
   keywords: [

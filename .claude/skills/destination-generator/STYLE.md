@@ -11,7 +11,7 @@ The editorial voice for destination pages. Read this before writing any copy. Th
 1. **Start with a thing, not a feeling.** Open every paragraph on a concrete observation — a place, an object, a person, a number, a sound. Never on "Découvrez", "Imaginez", "Plongez dans", "Laissez-vous".
 2. **Show by detail, not by adjective.** A hotel earns its register from what's named (the technique, the material, the gesture), not from "exceptionnel" or "luxe".
 3. **The reader is intelligent and skeptical.** Don't sell. Observe. Confidence is built by precision.
-4. **Negation is proof.** State what something is *not* as a way to define what it is. ("Ce n'est pas un détail de brochure." "Ce n'est pas une démonstration.")
+4. **Negation is proof, about the place only.** State what something is *not* as a way to define what it is ("Ce n'est pas un détail de brochure." "Ce n'est pas une démonstration."). Never turn that negation on the reader: no sentence may frame their choices, their itinerary or their questions as a mistake to avoid. See `.claude/STYLE.md` § 2 — it governs statements and FAQ questions alike, and it wins over this file.
 5. **End paragraphs on an observation, not a CTA.** The CTA lives in its own block.
 
 ---

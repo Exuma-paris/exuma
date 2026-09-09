@@ -39,6 +39,16 @@ const CONTINENT_SUBJECTS: Record<string, string> = {
   "iles-oceanie": "les îles et l'Océanie",
 };
 
+/**
+ * `blurb` est typé `ReactNode` pour les blocs qui l'affichent en JSX. Ici la
+ * phrase part dans une chaîne de caractères : seules les valeurs déjà
+ * textuelles sont retenues, le reste est ignoré plutôt que rendu en "[object
+ * Object]".
+ */
+function textOrUndefined(value: unknown): string | undefined {
+  return typeof value === "string" && value.trim() ? value : undefined;
+}
+
 export function buildDestinationIndex(): DestinationIndexEntry[] {
   const entries = [
     ...Object.values(destinations).map((d) => ({
@@ -47,6 +57,8 @@ export function buildDestinationIndex(): DestinationIndexEntry[] {
       name: d.name,
       subject: subjectFromGenitive(d.genitive, d.name),
       keywords: d.keywords ?? [],
+      note: d.projectNote,
+      highlights: textOrUndefined(d.blurb),
     })),
     ...Object.values(continents).map((c) => ({
       kind: "continent" as const,
@@ -54,6 +66,8 @@ export function buildDestinationIndex(): DestinationIndexEntry[] {
       name: c.name,
       subject: CONTINENT_SUBJECTS[c.slug] ?? c.name,
       keywords: c.keywords ?? [],
+      note: undefined,
+      highlights: textOrUndefined(c.blurb),
     })),
   ];
 
@@ -64,11 +78,13 @@ export function buildDestinationIndex(): DestinationIndexEntry[] {
     }
   }
 
-  return entries.map(({ kind, slug, name, subject, keywords }) => ({
+  return entries.map(({ kind, slug, name, subject, keywords, note, highlights }) => ({
     kind,
     slug,
     name,
     subject,
+    note,
+    highlights,
     aliases: keywords.filter((k) => uses.get(k.toLowerCase()) === 1),
   }));
 }

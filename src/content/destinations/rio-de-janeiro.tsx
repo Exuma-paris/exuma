@@ -8,6 +8,9 @@ export const destination: Destination = {
   name: "Rio de Janeiro",
   country: "Brésil",
   genitive: "de Rio de Janeiro",
+  projectNote:
+    "La ville change deux fois par jour. Le matin les plages se remplissent par couches, une famille à six heures, un coureur à sept. Après dix-sept heures, c'est l'inverse. Tout part de là.",
+  placeKind: "city",
   continentSlug: "ameriques",
   blurb: "Copacabana, Ipanema, Santa Teresa, Corcovado, Lapa",
   keywords: [
@@ -651,7 +654,7 @@ export const destination: Destination = {
             "Le budget dépend du standing souhaité et de la durée. Pour cinq jours en hôtel cinq étoiles (Belmond, Fasano) avec accès privés (Corcovado à l'aube, atelier samba, sortie en mer) et transferts inclus, compter à partir de 4 800 € par personne, hors vol.", // TODO: verify
         },
         {
-          question: "Rio est-elle dangereuse ?",
+          question: "Rio est-elle une ville sûre ?",
           answer:
             "Rio se lit par quartier. La Zona Sul (Ipanema, Leblon, Lagoa, Botafogo, Urca, Copacabana) est sûre en journée et en soirée. Le Centro est sûr en journée, déconseillé après vingt heures. Avec un travel designer local et des transferts privés, les voyageurs ne sont pas exposés aux quartiers sensibles.",
         },

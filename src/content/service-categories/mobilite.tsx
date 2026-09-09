@@ -375,10 +375,10 @@ export const serviceCategory: ServiceCategory = {
       },
       items: [
         {
-          question: "Faut-il voyager en jet privé pour faire appel à vous ?",
+          question: "Peut-on faire appel à vous sur des vols réguliers ?",
           answer: (
             <p>
-              Non. La majorité des voyages que nous organisons se font sur des
+              Oui. La majorité des voyages que nous organisons se font sur des
               vols réguliers, et le soin apporté est le même : la place choisie
               en fonction de votre sommeil, l&apos;horaire qui vous arrange, la
               voiture qui attend à l&apos;arrivée. L&apos;affrètement est une

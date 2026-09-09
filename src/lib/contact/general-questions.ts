@@ -30,7 +30,8 @@ export function getGeneralContactQuestions(): Question[] {
       description:
         "Le nombre de voyageurs change beaucoup de choses : les hébergements, le rythme, ce qu'on vous proposera sur place.",
       adultsLabel: "Adultes",
-      childrenLabel: "Enfants",
+      childrenLabel: "Enfants (3 à 17 ans)",
+      babiesLabel: "Bébés (0 à 2 ans)",
     },
     {
       id: "period",
@@ -38,7 +39,7 @@ export function getGeneralContactQuestions(): Question[] {
       eyebrow: EYEBROW,
       heading: "Avez-vous une période en tête ?",
       description:
-        "Des dates arrêtées ou une simple intention, les deux nous vont.",
+        "Des dates déjà fixées ou une simple intention : l'une comme l'autre nous permettent d'avancer.",
       fixedLabel: "Nos dates sont arrêtées",
       flexibleLabel: "La période reste à définir",
       flexiblePlaceholder:
@@ -106,9 +107,9 @@ export function getGeneralContactQuestions(): Question[] {
       id: "envies",
       type: "text",
       eyebrow: EYEBROW,
-      heading: "Envie de nous en dire plus ?",
+      heading: "Parlez-nous de votre voyage",
       description:
-        "Ce qui vous ferait plaisir, ce que vous voulez éviter, une occasion à fêter. Tout ce que vous écrivez ici nous sert. Et si vous préférez en parler de vive voix, passez simplement à l'étape suivante.",
+        "Vos envies, vos préférences, une occasion particulière à célébrer, chaque détail nous aide à concevoir un voyage à votre image. Vous préférez en discuter directement ? Passez à l'étape suivante, nous en parlerons de vive voix.",
       placeholder:
         "Par exemple : nous fêtons nos vingt ans de mariage, nous aimons marcher, et nous détestons les hôtels où tout le monde parle français.",
       rows: 5,
@@ -122,7 +123,7 @@ export function getGeneralContactQuestions(): Question[] {
       // de l'assistance pendant le voyage : ce sont deux promesses distinctes
       // et les confondre serait un engagement qu'on ne tient pas.
       description:
-        "Un travel designer vous rappelle dans les 24 heures ouvrées pour en parler de vive voix.",
+        "Un travel designer vous rappelle sous 24 heures ouvrées pour échanger sur votre projet.",
     },
   ];
 }

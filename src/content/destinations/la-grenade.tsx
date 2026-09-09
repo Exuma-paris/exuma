@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Caraïbes",
   genitive: "de la Grenade",
+  projectNote:
+    "L'île que nous proposons à ceux qui connaissent déjà les Antilles : pas de front de mer construit, pas de file devant les sites, et l'odeur de la muscade dès que la route quitte la côte.",
   continentSlug: "caraibes",
   blurb: "Saint-Georges, la muscade, Carriacou",
   keywords: [

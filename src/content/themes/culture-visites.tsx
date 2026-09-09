@@ -18,7 +18,7 @@ export const theme: Theme = {
   sections: [
     {
       type: "hero",
-      eyebrow: "Thématique",
+      eyebrow: "Expérience",
       heading: "Culture, visites & patrimoine",
       description: "Comprendre par la rencontre, pas par le guide audio.",
       images: [

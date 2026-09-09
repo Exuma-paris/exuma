@@ -8,6 +8,8 @@ export const destination: Destination = {
   name: "Suède",
   country: "Suède",
   genitive: "de la Suède",
+  projectNote:
+    "Le pays ne se visite pas d'un bloc. L'archipel de Stockholm en bateau l'été, quand les jours ne finissent pas ; la Laponie en traîneau l'hiver, quand la nuit ne finit pas non plus.",
   continentSlug: "europe",
   placeKind: "country",
   blurb: "Stockholm, l'archipel, la Laponie, Gotland",

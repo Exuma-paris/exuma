@@ -34,7 +34,7 @@ const companyLinks: MenuItem[] = [
 
 /** Discreet B2B entry, pinned under a rule at the root of the menu. It is a
  * distinct audience, not a category of the B2C catalogue, so it never sits as
- * a peer of Destinations / Thématiques. */
+ * a peer of Destinations / Expériences. */
 export const proLink: MenuItem = {
   label: "Professionnels & family offices",
   href: "/professionnels",
@@ -59,7 +59,7 @@ export function getMenuGroups(): MenuGroup[] {
     },
     {
       key: "themes",
-      label: "Thématiques",
+      label: "Expériences",
       items: Object.values(themes).map((t) => ({
         label: t.name,
         href: `/themes/${t.slug}`,

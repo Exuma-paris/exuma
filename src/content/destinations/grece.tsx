@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Grèce",
   genitive: "de la Grèce",
+  projectNote:
+    "Six mille îles, deux cents habitées. Le voyage commence quand on remplace l'image du coucher de soleil par un ordre : quelle île avant quelle autre, à quelle heure on entre sur un site.",
   continentSlug: "europe",
   blurb: "Athènes, Delphes, les Cyclades, le Péloponnèse",
   keywords: [

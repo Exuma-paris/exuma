@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "region",
   country: "Royaume-Uni",
   genitive: "de l'Écosse",
+  projectNote:
+    "En juin il fait encore jour à vingt-deux heures trente. Nous vous logeons dans des châteaux encore habités par la même famille, entre Édimbourg, les Borders et la route du nord.",
   continentSlug: "europe",
   blurb: "Édimbourg, les Borders, les Highlands, Skye",
   keywords: [
@@ -67,7 +69,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Écosse",
       heading: "Édimbourg, les Borders, puis la route du nord",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Écosse commence par Édimbourg. La ville tient sur deux niveaux. En haut, la vieille ville accrochée à sa crête de basalte, avec le château à un bout et le palais de Holyrood à l'autre. En bas, la New Town géorgienne, dessinée d'un seul trait au dix-huitième siècle. On passe d'un monde à l'autre en dix minutes de marche.",
         "Une heure au sud, les Borders. C'est la vallée de la Tweed : des collines rondes, des abbayes ouvertes au ciel et des maisons de famille encore occupées. Le château de Floors, à Kelso, appartient toujours aux ducs de Roxburghe. On visite les salons, puis le jardin clos où poussent les légumes servis à table. L'ancien domaine de la famille est de l'autre côté de la rivière.",
@@ -156,7 +158,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Écosse",
       description:
         "Vol, monnaie, formalités et saisons : les repères qui permettent de poser les dates d'un voyage en Écosse.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -215,7 +217,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Écosse. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -238,7 +240,7 @@ export const destination: Destination = {
       heading: "Six étapes, d'Édimbourg aux Highlands de l'Ouest",
       description:
         "Six étapes qui ne se ressemblent pas : une capitale sur deux niveaux, une vallée de grandes demeures, un cordon de links au bord de la mer, une vallée de distilleries, un défilé de montagnes et un viaduc que franchit un train à vapeur.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -317,7 +319,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Écosse",
       description:
         "Huit repères venus du terrain : la lumière, les routes, le whisky, la table, et ce qui se réserve très longtemps à l'avance.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "La lumière du nord",
@@ -560,7 +562,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

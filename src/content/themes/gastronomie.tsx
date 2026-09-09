@@ -18,7 +18,7 @@ export const theme: Theme = {
   sections: [
     {
       type: "hero",
-      eyebrow: "Thématique",
+      eyebrow: "Expérience",
       heading: "Gastronomie & art de vivre",
       description: "Des portes qui s'ouvrent, pas des étoiles à cocher.",
       images: [

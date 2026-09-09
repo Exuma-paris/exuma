@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Une plage de la Riviera Maya bordée de palmiers, dessinée autrefois avec l'aide d'un chaman maya puis reprise avec beaucoup de soin. Les chambres blanches donnent sur la mangrove ou sur le sable, et l'agitation de la côte s'arrête à l'entrée du domaine.",
   keywords: ["mexique", "riviera maya", "maroma", "belmond", "quintana roo"],
   heroImage: {
-    src: "/destination/mexique/hotel-maroma.png",
-    alt: "Plage et palmiers du Maroma sur la Riviera Maya au petit matin",
+    src: "/destination/mexique/hotel-maroma.webp",
+    alt: "Bassin et jardin tropical du Maroma sur la Riviera Maya",
   },
   destinationSlugs: ["mexique"],
   sections: [],

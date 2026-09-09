@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Barbade",
   genitive: "de la Barbade",
+  projectNote:
+    "L'île se choisit une côte à la fois : la Platinum Coast pour une mer sans vague et des villas avec équipage, la côte est pour voir l'Atlantique frapper les falaises de Bathsheba.",
   continentSlug: "ameriques",
   blurb: "Platinum Coast, Bridgetown, rhum de Mount Gay",
   keywords: [

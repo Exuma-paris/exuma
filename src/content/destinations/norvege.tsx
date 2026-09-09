@@ -6,6 +6,8 @@ export const destination: Destination = {
   name: "Norvège",
   country: "Norvège",
   genitive: "de la Norvège",
+  projectNote:
+    "Tout dépend de la date. Le cabillaud arrive en janvier, la neige tient jusqu'en mai, le soleil de minuit dure du 28 mai au 14 juillet. Nous choisissons la région d'après vos dates.",
   continentSlug: "europe",
   placeKind: "country",
   blurb: "Lofoten, Geirangerfjord, Sunnmøre, Valldal",

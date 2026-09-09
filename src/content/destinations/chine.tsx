@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Chine",
   genitive: "de la Chine",
+  projectNote:
+    "L'axe du nord, Pékin et Xi'an, puis la descente vers le sud-ouest : une maison de brique à Shanghai un jour, le repas d'une famille dong sur une crête du Guizhou la semaine suivante.",
   continentSlug: "asie",
   blurb: "Pékin, Shanghai, Hangzhou et le Yunnan",
   keywords: [

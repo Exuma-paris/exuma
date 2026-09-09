@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Uruguay",
   genitive: "de l'Uruguay",
+  projectNote:
+    "Le pays ne précipite rien. Le feu de midi rassemble la maison, le mate passe de main en main, et l'on finit par adopter ce rythme sans y penser. Les estancias tiennent le reste.",
   continentSlug: "ameriques",
   blurb: "José Ignacio, Garzón, gauchos, Cabo Polonio",
   keywords: [

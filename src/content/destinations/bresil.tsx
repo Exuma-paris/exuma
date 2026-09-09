@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Brésil",
   genitive: "du Brésil",
+  projectNote:
+    "Une journée prévue pour deux heures en dure six. Le pilote de 4x4 du Maranhão, la cuisinière de Salvador, le pisteur du Pantanal : chacun ouvre sa région à sa façon.",
   continentSlug: "ameriques",
   blurb: "Les Lençóis, Salvador, Iguaçu, le Pantanal",
   keywords: [

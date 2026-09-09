@@ -38,7 +38,7 @@ function Stepper({
       <div className="flex items-center gap-3">
         <button
           type="button"
-          aria-label={`Retirer un ${label.toLowerCase()}`}
+          aria-label={`Diminuer : ${label}`}
           className={cn(btn)}
           disabled={count <= min}
           onClick={() => onChange(Math.max(min, count - 1))}
@@ -53,7 +53,7 @@ function Stepper({
         </span>
         <button
           type="button"
-          aria-label={`Ajouter un ${label.toLowerCase()}`}
+          aria-label={`Augmenter : ${label}`}
           className={cn(btn)}
           disabled={count >= max}
           onClick={() => onChange(Math.min(max, count + 1))}
@@ -82,11 +82,21 @@ export function TravelersQuestionView({
         onChange={(adults) => onChange({ ...value, adults })}
       />
       <Stepper
-        label={question.childrenLabel ?? "Enfants"}
+        label={question.childrenLabel ?? "Enfants (3 à 17 ans)"}
         count={value.children}
         min={0}
         max={max}
         onChange={(children) => onChange({ ...value, children })}
+      />
+      {/* Les moins de trois ans sont comptés à part : lits, sièges auto,
+          nacelles en cabine et tarifs aériens ne se décident pas comme pour
+          un enfant plus grand. */}
+      <Stepper
+        label={question.babiesLabel ?? "Bébés (0 à 2 ans)"}
+        count={value.babies}
+        min={0}
+        max={max}
+        onChange={(babies) => onChange({ ...value, babies })}
       />
     </div>
   );

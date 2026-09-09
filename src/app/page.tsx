@@ -1,5 +1,8 @@
 import { Header } from "@/components/sections/header";
-import { HeroImageBottom } from "@/components/sections/hero/image-bottom";
+import Link from "next/link";
+import { HeroImageBackground } from "@/components/sections/hero/image-background";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { Recommended } from "@/components/blocks/recommended";
 import { DestinationFinder } from "@/components/blocks/destination-finder";
 import { TextBlock } from "@/components/blocks/text-block";
@@ -14,7 +17,6 @@ import {
 import { VideoSection } from "@/components/sections/video";
 import { FaqSection } from "@/components/sections/faq";
 import { TestimonialsSection } from "@/components/sections/testimonials";
-import { EXUMA_MAILTO_HREF, EXUMA_TEL_HREF } from "@/lib/exuma";
 
 export default function Home() {
   // Index construit côté serveur : le composant de recherche est client, lui
@@ -25,25 +27,38 @@ export default function Home() {
     <>
       <main className="flex-1">
         <div className="relative">
-          <Header />
-          <HeroImageBottom
+          {/* Thème sombre : le titre est posé sur l'image plein cadre, comme
+              sur les pages Professionnels et Expérience. */}
+          <Header theme="dark" />
+          <HeroImageBackground
             eyebrow="Conciergerie de voyage · depuis 1991"
             // Copie volontaire de l'image de Madère plutôt qu'un lien vers
             // /destination/madere/ : ré-illustrer la page destination ne doit
             // pas changer la première image du site.
-            image={{
-              src: "/home-hero.png",
-              alt: "Une famille sur un promontoire de Madère, au-dessus d'une mer de nuages",
-            }}
-            heading="Vous nous dites où. Nous nous occupons du reste."
-            paragraph="Un interlocuteur unique conçoit, affine, réserve et coordonne vos voyages. Il reste joignable avant, pendant et après le voyage."
-            ctas={{
-              primary: { label: "Créer votre voyage", href: "/votre-projet" },
-              secondary: {
-                label: "Parler à un travel designer",
-                href: EXUMA_TEL_HREF,
+            images={[
+              {
+                src: "/home-hero.png",
+                alt: "Une famille sur un promontoire de Madère, au-dessus d'une mer de nuages",
               },
-            }}
+            ]}
+            heading="Vous choisissez la destination. Nous nous occupons du reste."
+            description="Un interlocuteur unique vous accompagne à chaque étape de votre voyage."
+            cta={
+              <div className="flex flex-wrap items-center justify-center gap-3">
+                <Link
+                  href="/votre-projet"
+                  className={cn(buttonVariants({ variant: "secondary" }))}
+                >
+                  Créer votre voyage
+                </Link>
+                <Link
+                  href="/contact"
+                  className={cn(buttonVariants({ variant: "outline" }))}
+                >
+                  Parler à un travel designer
+                </Link>
+              </div>
+            }
           />
         </div>
         <section className="section-px mx-auto w-full max-w-layout py-10">
@@ -78,7 +93,7 @@ export default function Home() {
           cards={getServiceCategoryCards()}
         />
         <FeatureCardsSection
-          eyebrow="Thématiques"
+          eyebrow="Expériences"
           heading="Par envie plutôt que par destination"
           cta={{ label: "Créer votre voyage", href: "/votre-projet" }}
           cards={getThemeCards()}
@@ -89,14 +104,15 @@ export default function Home() {
           eyebrow="Partenaire · Ponant"
           heading="Nous parlons destinations avec ceux qui les opèrent"
           description="Compagnies, hôteliers, guides locaux : nous passons du temps avec ceux qui travaillent sur le terrain, et nous y retournons régulièrement. Ce que nous vous conseillons vient de ces conversations, pas d'un catalogue."
-          // La vidéo est hébergée sur la page Facebook d'Exuma, pas dans le
-          // dépôt : le bloc renvoie vers elle plutôt que de proposer une
-          // lecture sur place qui n'aboutirait pas.
+          // La vidéo vit sur la chaîne YouTube d’Exuma, mais se regarde ici :
+          // le lecteur n’est chargé qu’au clic, donc la page d’accueil ne
+          // demande rien à YouTube tant que personne ne lance la lecture.
           video={{
             poster: "/videos/exuma-ponant-poster.jpg",
             alt: "Échange entre Céline Lagraulet et un travel designer Exuma sur la Polynésie",
           }}
-          href="https://www.facebook.com/exumafr/videos/26088294140798440/"
+          youtubeId="PukQKp3985c"
+          youtubeStart={2}
           background="bg-background-soft"
         />
         <TestimonialsSection
@@ -116,7 +132,7 @@ export default function Home() {
           contact={{
             prefix: "Une question qui n'est pas ici ? ",
             label: "Écrivez-nous",
-            href: EXUMA_MAILTO_HREF,
+            href: "/contact",
             suffix: ", nous répondons nous-mêmes.",
           }}
           items={[
@@ -126,9 +142,9 @@ export default function Home() {
                 "Une conversation, pas un questionnaire. Vous nous dites où vous aimeriez aller, avec qui et à quel moment ; nous vous disons ce qui est possible, et ce qui l'est moins. Un travel designer vous est attribué dès cet échange, et c'est lui qui vous suit jusqu'au retour.",
             },
             {
-              question: "Faut-il tout vous confier ?",
+              question: "Pouvons-nous tout vous confier ?",
               answer:
-                "Non. Certains nous confient le voyage entier, d'autres seulement ce qui les encombre : les vols, les transferts, une table impossible à obtenir, un imprévu à rattraper. Vous gardez la main sur ce que vous souhaitez garder.",
+                "Oui, et vous pouvez tout aussi bien ne nous confier qu'une partie. Certains nous remettent le voyage entier, d'autres seulement ce qui les encombre : les vols, les transferts, une table impossible à obtenir, un imprévu à rattraper. Vous gardez la main sur ce que vous souhaitez garder.",
             },
             {
               question: "Voyager avec des enfants, cela change-t-il quelque chose ?",

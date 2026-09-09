@@ -42,8 +42,12 @@ import { cn } from "@/lib/utils";
 const KIND_LABEL: Record<EntityKind, string> = {
   continent: "Continents",
   destination: "Destinations",
-  theme: "Thématiques",
-  subtheme: "Sous-thématiques",
+  // Les thèmes sont présentés comme des « Expériences » dans le menu et sur la
+  // home. Ici seulement, ils portent le nom de familles : la recherche est le
+  // seul endroit où ils s'affichent juste au-dessus des expériences
+  // individuelles, et deux titres identiques s'y suivraient.
+  theme: "Familles d'expériences",
+  subtheme: "Sous-catégories",
   experience: "Expériences",
   serviceCategory: "Services",
   service: "Services",
@@ -61,10 +65,15 @@ const KIND_ICON: Record<EntityKind, React.ComponentType<{ className?: string }>>
   accommodation: Hotel,
 };
 
+/**
+ * Les familles d'expériences (`theme`, `subtheme`) sont absentes à dessein :
+ * elles se parcourent depuis le menu, pas depuis une recherche. Les faire
+ * remonter ici mettait sept pages de catégorie juste au-dessus des expériences
+ * elles-mêmes, pour un mot tapé qui visait ces dernières.
+ */
 const KIND_ORDER: EntityKind[] = [
   "destination",
   "continent",
-  "theme",
   "experience",
   "accommodation",
   "serviceCategory",

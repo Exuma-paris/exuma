@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Botswana",
   genitive: "du Botswana",
+  projectNote:
+    "En dix jours, l'itinéraire traverse trois écosystèmes : les eaux de l'Okavango, les plaines de la Gomoti, les salines du Makgadikgadi. Bateau, marche, véhicule, un mode par milieu.",
   continentSlug: "afrique",
   blurb: "Okavango, Moremi, Makgadikgadi",
   keywords: [

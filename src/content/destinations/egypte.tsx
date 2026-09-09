@@ -9,6 +9,8 @@ export const destination: Destination = {
   placeKind: "country",
   country: "Égypte",
   genitive: "de l'Égypte",
+  projectNote:
+    "Dans la tombe de Séti Ier, les bleus du plafond astronomique n'ont jamais été repeints : le pigment d'origine, posé il y a trente-trois siècles. Louxor, Assouan, Siwa, dans l'ordre du fleuve.",
   continentSlug: "afrique",
   blurb: "Le Nil, Louxor, Assouan, Siwa",
   keywords: [
@@ -639,7 +641,7 @@ export const destination: Destination = {
             "Trois nuits au Caire pour Gizeh, le Grand Egyptian Museum et le vieux Caire copte. Deux nuits à Louxor, une rive par jour : Karnak à l'est, la Vallée des Rois et Deir el-Bahari à l'ouest. Quatre nuits ensuite sur une dahabieh privatisée jusqu'à Assouan, avec Edfou, Kom Ombo et les carrières de grès de Gebel Silsileh en chemin. Abou Simbel s'ajoute en une journée depuis Assouan. Siwa demande deux jours supplémentaires.",
         },
         {
-          question: "Une croisière sur le Nil, est-ce que ça vaut le coup ?",
+          question: "Une croisière sur le Nil mérite-t-elle le détour ?",
           answer:
             "Sur un bateau classique de soixante à deux cents cabines, l'expérience est celle d'un hôtel flottant qui accoste au même quai que quatre autres. Sur une dahabieh privatisée de quatre à six cabines, c'est un autre voyage : la voile, des berges inaccessibles aux grands bateaux, un équipage pour une seule famille et des escales décidées le matin même. C'est cette seconde formule que nous construisons.",
         },
