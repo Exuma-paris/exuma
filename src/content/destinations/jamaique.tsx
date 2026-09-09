@@ -32,16 +32,16 @@ export const destination: Destination = {
         "Le matin, la brume passe dans les caféiers au-dessus de Kingston. L'après-midi, on nage dans une crique où une rivière rejoint la mer. C'est la même île, et c'est le même jour.",
       images: [
         {
-          src: "/destination/jamaique/hero-1.png",
-          alt: "Voyage en Jamaïque : crêtes des Blue Mountains sous la brume au lever du jour",
+          src: "/destination/jamaique/hero-1.webp",
+          alt: "Voyage en Jamaïque : cocotiers en bord de plage devant les collines boisées",
         },
         {
-          src: "/destination/jamaique/hero-2.png",
-          alt: "Radeau de bambou descendant la rivière Rio Grande près de Port Antonio",
+          src: "/destination/jamaique/hero-2.webp",
+          alt: "Eaux turquoise d'une rivière bordée de végétation dense, côte est de la Jamaïque",
         },
         {
-          src: "/destination/jamaique/hero-3.png",
-          alt: "Crique de sable et falaises boisées de la côte est jamaïcaine",
+          src: "/destination/jamaique/hero-3.webp",
+          alt: "Façade de pierre à arcades d'une ancienne demeure coloniale jamaïcaine",
         },
       ],
     },
@@ -77,8 +77,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/jamaique/full-image.png",
-        alt: "Voyage en Jamaïque : la rivière Rio Grande descendant des Blue Mountains vers la côte",
+        src: "/destination/jamaique/full-image.webp",
+        alt: "Voyage en Jamaïque : radeau de bambou sur les eaux calmes du Rio Grande",
       },
       height: 600,
     },
@@ -94,11 +94,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/jamaique/split-1.png",
-          alt: "Cueilleuse triant des cerises de café sur un domaine des Blue Mountains",
+          src: "/destination/jamaique/split-1.webp",
+          alt: "Reliefs boisés des Blue Mountains derrière un premier plan de bananiers",
         },
         {
-          src: "/destination/jamaique/split-2.png",
+          src: "/destination/jamaique/split-2.webp",
           alt: "Eaux du Blue Lagoon entourées de végétation près de Port Antonio",
         },
       ],
@@ -108,12 +108,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/jamaique/xp-raft-rio-grande-1.png",
+          src: "/destination/jamaique/xp-raft-rio-grande-1.webp",
           alt: "Raftsman poussant à la perche un radeau de bambou sur le Rio Grande",
         },
         right: {
-          src: "/destination/jamaique/xp-raft-rio-grande-2.png",
-          alt: "Banc de bambou et seau à champagne à bord d'un radeau sur le Rio Grande",
+          src: "/destination/jamaique/xp-raft-rio-grande-2.webp",
+          alt: "Radeau de bambou amarré sur la berge du Rio Grande, au pied des collines",
         },
       },
       text: {
@@ -222,13 +222,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/jamaique/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/jamaique/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Jamaïque entre les Blue Mountains, Portland et Hanover",
-            "Adresses confidentielles en Jamaïque : domaines de café et villas privées",
-            "Hébergements en Jamaïque : villa de Hanover et maison de bois des Blue Mountains",
+            "Verre de rhum jamaïcain sur une planche de bois, citron vert et feuilles fraîches",
+            "Vérandas et terrasse fleurie d'une maison de bois blanche, en Jamaïque",
             "Conciergerie privée 24/7 pour un voyage en Jamaïque",
-            "Expériences immersives en Jamaïque : Rio Grande, café Blue Mountain et rhum d'Appleton",
+            "Cascade tombant dans un bassin turquoise entouré de végétation tropicale",
           ][i],
         },
       })),
@@ -249,7 +249,7 @@ export const destination: Destination = {
           description:
             "La côte la plus verte de l'île, une succession de criques et de rivières qui rejoignent la mer. Le Blue Lagoon mélange eau douce et eau de mer, et la couleur change avec l'heure.",
           image: {
-            src: "/destination/jamaique/map-port-antonio.png",
+            src: "/destination/jamaique/map-port-antonio.webp",
             alt: "Baie et végétation dense de Port Antonio, sur la côte est de la Jamaïque",
           },
           // TODO: verify coords
@@ -260,8 +260,8 @@ export const destination: Destination = {
           description:
             "La chaîne culmine à 2 256 mètres au Blue Mountain Peak. L'ascension se fait de nuit, pour arriver en haut au lever du jour.",
           image: {
-            src: "/destination/jamaique/map-blue-mountains.png",
-            alt: "Versants plantés de caféiers dans les Blue Mountains jamaïcaines",
+            src: "/destination/jamaique/map-blue-mountains.webp",
+            alt: "Collines vertes et crêtes boisées des Blue Mountains, en Jamaïque",
           },
           // TODO: verify coords
           coordinates: { lat: 18.0528, lng: -76.5789 },
@@ -271,8 +271,8 @@ export const destination: Destination = {
           description:
             "La capitale et le berceau du reggae. Le studio Tuff Gong tourne toujours, et la maison de Bob Marley se visite sur Hope Road.",
           image: {
-            src: "/destination/jamaique/map-kingston.png",
-            alt: "Toits de Kingston devant les contreforts des Blue Mountains",
+            src: "/destination/jamaique/map-kingston.webp",
+            alt: "Maisons étagées sur les hauteurs au-dessus de la baie, à la tombée du jour",
           },
           // TODO: verify coords
           coordinates: { lat: 17.9714, lng: -76.7931 },
@@ -282,8 +282,8 @@ export const destination: Destination = {
           description:
             "L'ouest de l'île et son alignement de domaines de villas, sur d'anciennes terres sucrières. C'est là que se concentrent les maisons avec personnel et les parcours de golf.",
           image: {
-            src: "/destination/jamaique/map-montego-bay.png",
-            alt: "Littoral et baies boisées de la côte de Hanover près de Montego Bay",
+            src: "/destination/jamaique/map-montego-bay.webp",
+            alt: "Crique rocheuse et eaux claires vues du ciel, côte ouest de la Jamaïque",
           },
           // TODO: verify coords
           coordinates: { lat: 18.4762, lng: -77.8939 },
@@ -293,7 +293,7 @@ export const destination: Destination = {
           description:
             "Une vallée de cannes à sucre encadrée par les collines de calcaire du Cockpit Country. Appleton y distille depuis 1749, dans les mêmes chais.",
           image: {
-            src: "/destination/jamaique/map-appleton.png",
+            src: "/destination/jamaique/map-appleton.webp",
             alt: "Champs de cannes à sucre de la vallée de Nassau, autour du domaine d'Appleton",
           },
           // TODO: verify coords
@@ -304,7 +304,7 @@ export const destination: Destination = {
           description:
             "Des villages de pêcheurs, une côte sèche et peu construite, et un bar sur pilotis planté sur un banc de sable à vingt minutes de bateau du rivage.",
           image: {
-            src: "/destination/jamaique/map-treasure-beach.png",
+            src: "/destination/jamaique/map-treasure-beach.webp",
             alt: "Barques de pêcheurs sur une plage de la côte sud jamaïcaine à Treasure Beach",
           },
           // TODO: verify coords
@@ -574,7 +574,7 @@ export const destination: Destination = {
           quote:
             "Le radeau sur le Rio Grande, c'est ce dont on parle encore. Deux heures et demie sans un bruit de moteur, et un raftsman qui raconte la rivière comme on raconte sa rue. On a fini les pieds dans l'eau à St Margaret's Bay.",
           image: {
-            src: "/destination/jamaique/hero-1.png",
+            src: "/destination/jamaique/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -585,7 +585,7 @@ export const destination: Destination = {
           quote:
             "La villa de Hanover avec son équipe, c'était le bon choix avec les enfants. Le chef s'adaptait à leurs horaires, et on a pu partir en bateau une journée sans avoir rien à organiser.",
           image: {
-            src: "/destination/jamaique/hero-2.png",
+            src: "/destination/jamaique/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -596,7 +596,7 @@ export const destination: Destination = {
           quote:
             "Deux nuits dans les Blue Mountains avant de redescendre sur la côte. La récolte au domaine avec le planteur valait à elle seule le détour. On n'imaginait pas qu'il puisse faire douze degrés en Jamaïque.",
           image: {
-            src: "/destination/jamaique/hero-3.png",
+            src: "/destination/jamaique/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
