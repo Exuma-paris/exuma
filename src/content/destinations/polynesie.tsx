@@ -2,6 +2,7 @@ import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
   slug: "polynesie",
+  subthemeSlugs: ["pacifique-sud", "snorkeling", "traditions-vivantes"],
   name: "Polynésie française",
   country: "Polynésie française",
   genitive: "de la Polynésie",

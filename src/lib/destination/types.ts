@@ -1,6 +1,17 @@
 import type { ReactNode } from "react";
 
-export type ImageRef = { src: string; alt: string };
+export type ImageRef = {
+  src: string;
+  alt: string;
+  /**
+   * Point d'ancrage du recadrage, en valeur CSS `object-position`
+   * (« center 80% », « left top »…). Utile quand le cadre est plus large que
+   * l'image et que le centrage par défaut coupe le sujet : sur une bande en
+   * 21:9 tirée d'une photo en 16:9, un quart de la hauteur disparaît, moitié
+   * en haut, moitié en bas. Non renseigné, le comportement reste le centrage.
+   */
+  position?: string;
+};
 
 export type Cta = { label: string; href: string };
 
@@ -224,6 +235,15 @@ export type Section =
       description?: string;
       cta?: Cta;
       slugs: string[];
+      /**
+       * "spotlight" pose les quatre premières entités en grands encarts sur
+       * deux colonnes, puis le reste en vignettes carrées défilantes sous
+       * elles. Un seul titre pour les deux, parce que c'est un seul bloc.
+       * "carousel" (défaut) garde le rendu historique, trois cartes visibles.
+       */
+      layout?: "carousel" | "spotlight";
+      /** Ligne d'annonce placée entre les encarts et les vignettes. */
+      thumbnailsIntro?: string;
       background?: string;
     }
   | {

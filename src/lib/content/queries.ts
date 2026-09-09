@@ -61,6 +61,59 @@ export function getDestinationSpecialist(
   return collaborateurs[spotlight.specialist.collaborateurSlug];
 }
 
+/** Au-delà, la carte devient un pavé de texte. */
+const CARD_DESCRIPTION_MAX = 240;
+/** En dessous, la carte paraît vide à côté de son image. */
+const CARD_DESCRIPTION_MIN = 90;
+
+/**
+ * Le texte affiché sur une carte destination. Le `blurb` d'une destination est
+ * une énumération de lieux (« Abu Dhabi, Sharjah, le Rub al-Khali, Dubaï »),
+ * juste ce qu'il faut sous une entrée de menu, mais sec sur une grande carte.
+ * La description du hero, elle, est déjà écrite pour donner envie : on en garde
+ * les premières phrases entières, sans jamais couper au milieu de l'une d'elles.
+ */
+export function getDestinationCardDescription(
+  destination: Destination,
+): ReactNode {
+  const hero = destination.sections.find((s) => s.type === "hero");
+  const description = hero?.description;
+  if (!description) return destination.blurb ?? "";
+
+  const firstPhrases = takeSentences(description);
+  if (firstPhrases.length >= CARD_DESCRIPTION_MIN) return firstPhrases;
+
+  // Quelques heros tiennent en une phrase courte, qui laisse la carte à moitié
+  // vide. On enchaîne alors sur le premier paragraphe de la page, écrit dans
+  // la même voix, plutôt que de retomber sur l'énumération du `blurb`.
+  const intro = destination.sections.find((s) => s.type === "textColumns");
+  const continuation = intro?.columns?.[0];
+  if (!continuation) return firstPhrases || destination.blurb || "";
+  return takeSentences(`${description} ${continuation}`);
+}
+
+/**
+ * Les premières phrases entières d'un texte, sans jamais couper au milieu.
+ * Le plafond cède devant le plancher : tant que la carte serait trop courte,
+ * on prend la phrase suivante même si elle fait dépasser la longueur visée.
+ */
+function takeSentences(text: string): string {
+  const sentences = text.match(/[^.]+\.(?:\s|$)/g) ?? [text];
+  let kept = "";
+  for (const sentence of sentences) {
+    const next = (kept + sentence).trim();
+    if (
+      kept &&
+      next.length > CARD_DESCRIPTION_MAX &&
+      kept.length >= CARD_DESCRIPTION_MIN
+    ) {
+      break;
+    }
+    kept += sentence;
+  }
+  return kept.trim();
+}
+
 export function getDestinationsByContinent(
   continentSlug: string,
 ): Destination[] {
@@ -139,6 +192,100 @@ export function getExperiencesByDestination(
 
 export function getSubthemesByTheme(themeSlug: string): Subtheme[] {
   return Object.values(subthemes).filter((s) => s.themeSlug === themeSlug);
+}
+
+/** Un bloc ne sort que s'il porte au moins ce nombre de destinations. */
+const MIN_DESTINATIONS_PER_BLOCK = 3;
+/**
+ * Les sous-familles d'une destination qui comptent pour l'affichage : une seule
+ * par famille, la première de la liste ordonnée. Les Maldives portent
+ * « plongée » et « snorkeling », les deux sont vraies, mais la destination
+ * n'apparaît qu'une fois sur la page Plongée & snorkeling.
+ */
+function displayedSubthemeSlugs(destination: Destination): string[] {
+  const seenThemes = new Set<string>();
+  const kept: string[] = [];
+  for (const slug of destination.subthemeSlugs ?? []) {
+    const subtheme = subthemes[slug];
+    if (!subtheme || seenThemes.has(subtheme.themeSlug)) continue;
+    seenThemes.add(subtheme.themeSlug);
+    kept.push(slug);
+  }
+  return kept;
+}
+
+export function getDestinationsBySubtheme(subthemeSlug: string): Destination[] {
+  return Object.values(destinations).filter((d) =>
+    displayedSubthemeSlugs(d).includes(subthemeSlug),
+  );
+}
+
+/**
+ * La sous-famille dominante d'une destination : la première de sa liste. C'est
+ * ce que la destination évoque en premier, la porte d'entrée qu'on garderait
+ * si on ne devait en garder qu'une. Elle donne droit à la carte : dans un bloc,
+ * les destinations dont c'est la sous-famille dominante passent devant celles
+ * qui n'y sont rattachées qu'en second ou en troisième. Sans cette règle, une
+ * destination se retrouve en vitrine sur un thème qui n'est pas le sien.
+ */
+export function isDominantSubtheme(
+  destination: Destination,
+  subthemeSlug: string,
+): boolean {
+  return destination.subthemeSlugs?.[0] === subthemeSlug;
+}
+
+/**
+ * Les sections d'une page famille, composées depuis les rattachements portés
+ * par les fiches destination. Une sous-famille donne une bande image en
+ * séparateur, un bloc de cartes, et une ligne de liens pour le reste. Rien
+ * n'est listé en dur : une destination nouvellement rattachée apparaît sans
+ * qu'on touche à la page.
+ */
+export function getThemeBlocks(themeSlug: string): Section[] {
+  const sections: Section[] = [];
+  let blockIndex = 0;
+
+  for (const subtheme of getSubthemesByTheme(themeSlug)) {
+    const members = getDestinationsBySubtheme(subtheme.slug);
+    if (members.length < MIN_DESTINATIONS_PER_BLOCK) continue;
+
+    const featured = (subtheme.featuredDestinationSlugs ?? []).filter((slug) =>
+      members.some((d) => d.slug === slug),
+    );
+    // Le reste passe après la sélection éditoriale, dominantes d'abord.
+    const rest = members
+      .filter((d) => !featured.includes(d.slug))
+      .sort((a, b) => {
+        const byDominance =
+          Number(isDominantSubtheme(b, subtheme.slug)) -
+          Number(isDominantSubtheme(a, subtheme.slug));
+        return byDominance !== 0 ? byDominance : a.name.localeCompare(b.name);
+      })
+      .map((d) => d.slug);
+    const ordered = [...featured, ...rest];
+    const background = blockIndex % 2 === 0 ? "bg-white" : "bg-background-soft";
+
+    // Le chapô de la page sépare le hero du premier bloc, donc le bandeau vaut
+    // pour tous les blocs sans faire doublon avec le hero.
+    if (subtheme.heroImage) {
+      sections.push({ type: "fullImage", image: subtheme.heroImage });
+    }
+    sections.push({
+      type: "entityList",
+      kind: "destination",
+      eyebrow: subtheme.name,
+      heading: subtheme.blockHeading ?? subtheme.name,
+      description: typeof subtheme.blurb === "string" ? subtheme.blurb : undefined,
+      layout: "spotlight",
+      thumbnailsIntro: subtheme.thumbnailsIntro,
+      slugs: ordered,
+      background,
+    });
+    blockIndex += 1;
+  }
+
+  return sections;
 }
 
 export function getAccommodationsByDestination(

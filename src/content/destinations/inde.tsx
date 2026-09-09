@@ -4,6 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "inde",
+  subthemeSlugs: ["sites-historiques", "savoir-faire", "retraite-yoga"],
   name: "Inde",
   placeKind: "country",
   country: "Inde",
@@ -131,13 +132,14 @@ export const destination: Destination = {
       kind: "experience",
       background: "bg-white",
       eyebrow: "Expériences et activités en Inde",
-      heading: "Trois portes que l'on ouvre pour vous",
+      heading: "Quatre portes que l'on ouvre pour vous",
       description:
         "Chez les descendants de la famille royale de Cochin, on prend le thé au salon. À Udaipur, une famille montre comment naît une peinture posée sur l'eau. Et à Delhi, ce sont les femmes de l'empire moghol qui racontent la ville.",
       slugs: [
         "high-tea-famille-royale-cochin",
         "jal-sanjhi-udaipur",
         "begums-de-delhi",
+        "cure-ayurvedique-kerala",
       ],
     },
 

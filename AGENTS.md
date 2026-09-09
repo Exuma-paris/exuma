@@ -15,13 +15,28 @@ All page content (destinations, continents, themes, subthemes, experiences, serv
 | Continent         | `src/content/continents/`         | `/continents/[slug]`   |
 | Destination       | `src/content/destinations/`       | `/destinations/[slug]` |
 | Theme             | `src/content/themes/`             | `/themes/[slug]`       |
-| Subtheme          | `src/content/subthemes/`          | `/themes/[slug]`       |
+| Subtheme          | `src/content/subthemes/`          | aucune page propre     |
 | Experience        | `src/content/experiences/`        | `/experiences/[slug]`  |
 | ServiceCategory   | `src/content/service-categories/` | `/services/[slug]`     |
 | Service           | `src/content/services/`           | `/services/[slug]`     |
 | Accommodation     | `src/content/accommodations/`     | `/hebergements/[slug]` |
 
 URLs are flat slugs except continents (which sit at `/continents/<slug>`). Routes are plural; never re-introduce `/destination/<slug>` (singular).
+
+## Sous-familles d'expérience (`Subtheme`)
+
+Les sept familles d'expérience plus « Îles & lagons » (`src/content/themes/`) sont découpées en **sous-familles** (`src/content/subthemes/`). C'est un **paramétrage interne** : une sous-famille n'a pas de page à elle, n'est jamais présentée au visiteur comme un filtre cliquable, et sert uniquement à découper la page de sa famille en blocs.
+
+- **La liste est fermée.** Vingt-quatre sous-familles. On n'en crée pas une nouvelle sans arbitrage éditorial explicite.
+- **Le rattachement vit sur la destination**, dans `subthemeSlugs`, et se décide au moment de la création de la destination (question Q8 du `destination-generator`). Une à trois, **ordonnées**.
+- **La première sous-famille est la dominante** : ce que la destination évoque en premier. Elle donne droit à la carte dans son bloc, les rattachements secondaires passent derrière. Une destination ne doit jamais être en vitrine sur un thème qui n'est pas le sien.
+- **Pas de rattachement sans matière sur la page.** Si une destination mériterait une sous-famille mais que sa page n'en dit rien, on ne la rattache pas : on propose d'abord l'expérience qui manque, et le rattachement suit. Une carte qui promet ce que la page ne tient pas est pire que l'absence de carte.
+- **La famille se déduit** de la sous-famille. Ne remplis pas `themeSlugs` en plus.
+- **Une destination n'apparaît qu'une fois par page.** Quand deux sous-familles appartiennent à la même famille, la première de la liste l'emporte pour l'affichage ; la seconde reste vraie et sert la recherche.
+- **Chaque sous-famille a son propre bandeau**, dont le brief visuel est écrit sur elle dans `bandIntent`. Il se produit pour elle et se range dans `public/subtheme/<slug>/band.png` (référence dans `references/subtheme/<slug>/band-ref.<ext>`, génération via `gen-images.py --root subtheme <slug>`). Il montre la pratique, pas un pays : un safari marin ne s'illustre pas avec un 4x4 dans la savane. Réemployer une image existante est permis, mais seulement après l'avoir ouverte et regardée : un nom de fichier ne prouve rien, `france/full-image.png` est un champ de lavande. En cas de doute, pas d'image.
+- **Pas de compteur dans les titres de blocs.** « Dix pays où… » devient faux au premier changement de rattachement, et ce n'est pas la voix de la maison. Le `blockHeading` porte le terme de recherche de la sous-famille dans une phrase, sans chiffre.
+- **La conclusion d'une page famille lui appartient.** Le `finalCta` reprend le sujet de la page, jamais la ligne générique du site, et jamais un registre transactionnel (réserver une table, une chambre). Voir `.claude/skills/destination-generator/STYLE.md` § « The closing `finalCta` ».
+- **La page famille est composée, pas écrite.** `getThemeBlocks()` (dans `queries.ts`) fabrique les sections depuis les rattachements : bande image en séparateur, bloc de six cartes au plus, liens texte pour le reste. Un bloc ne sort qu'à partir de trois destinations. Ne liste jamais de destinations en dur dans un fichier `src/content/themes/`.
 
 ## Registry & queries
 

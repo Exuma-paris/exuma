@@ -113,6 +113,31 @@ import { theme as gastronomie } from "@/content/themes/gastronomie";
 import { theme as safarisAventure } from "@/content/themes/safaris-aventure";
 import { theme as cultureVisites } from "@/content/themes/culture-visites";
 import { theme as croisiere } from "@/content/themes/croisiere";
+import { theme as ilesLagons } from "@/content/themes/iles-lagons";
+import { subtheme as caraibesPlagesSub } from "@/content/subthemes/caraibes-plages";
+import { subtheme as croisiereFluvialeSub } from "@/content/subthemes/croisiere-fluviale";
+import { subtheme as cureThermaleSub } from "@/content/subthemes/cure-thermale";
+import { subtheme as lieuxDeCulteSub } from "@/content/subthemes/lieux-de-culte";
+import { subtheme as mediterraneeAtlantiqueSub } from "@/content/subthemes/mediterranee-atlantique";
+import { subtheme as museesSub } from "@/content/subthemes/musees";
+import { subtheme as oceanIndienSub } from "@/content/subthemes/ocean-indien";
+import { subtheme as pacifiqueSudSub } from "@/content/subthemes/pacifique-sud";
+import { subtheme as paquebotSub } from "@/content/subthemes/paquebot";
+import { subtheme as plongeeBouteilleSub } from "@/content/subthemes/plongee-bouteille";
+import { subtheme as randonneeMontagneSub } from "@/content/subthemes/randonnee-montagne";
+import { subtheme as retraiteYogaSub } from "@/content/subthemes/retraite-yoga";
+import { subtheme as safariMarinSub } from "@/content/subthemes/safari-marin";
+import { subtheme as safariTerrestreSub } from "@/content/subthemes/safari-terrestre";
+import { subtheme as savoirFaireSub } from "@/content/subthemes/savoir-faire";
+import { subtheme as sitesHistoriquesSub } from "@/content/subthemes/sites-historiques";
+import { subtheme as skiGlisseSub } from "@/content/subthemes/ski-glisse";
+import { subtheme as snorkelingSub } from "@/content/subthemes/snorkeling";
+import { subtheme as spaThalassoSub } from "@/content/subthemes/spa-thalasso";
+import { subtheme as tablesChefsSub } from "@/content/subthemes/tables-chefs";
+import { subtheme as traditionsVivantesSub } from "@/content/subthemes/traditions-vivantes";
+import { subtheme as trekExpeditionSub } from "@/content/subthemes/trek-expedition";
+import { subtheme as vignoblesSpiritueuxSub } from "@/content/subthemes/vignobles-spiritueux";
+import { subtheme as voilierSub } from "@/content/subthemes/voilier";
 
 import { serviceCategory as mobilite } from "@/content/service-categories/mobilite";
 import { serviceCategory as lifestyle } from "@/content/service-categories/lifestyle";
@@ -375,6 +400,9 @@ import { experience as terevakaChevalRapaNui } from "@/content/experiences/terev
 import { experience as umuRapaNuiFamille } from "@/content/experiences/umu-rapa-nui-famille";
 import { experience as highTeaFamilleRoyaleCochin } from "@/content/experiences/high-tea-famille-royale-cochin";
 import { experience as jalSanjhiUdaipur } from "@/content/experiences/jal-sanjhi-udaipur";
+import { experience as cureAyurvediqueKerala } from "@/content/experiences/cure-ayurvedique-kerala";
+import { experience as cureAyurvediqueCoteSud } from "@/content/experiences/cure-ayurvedique-cote-sud";
+import { experience as retraiteYogaUbud } from "@/content/experiences/retraite-yoga-ubud";
 import { experience as begumsDeDelhi } from "@/content/experiences/begums-de-delhi";
 import { experience as safariBleuBoutre } from "@/content/experiences/safari-bleu-boutre";
 import { experience as stoneTownVisitePrivee } from "@/content/experiences/stone-town-visite-privee";
@@ -750,14 +778,44 @@ export const themes: Record<string, Theme> = toMap([
   croisiere,
   cultureVisites,
   gastronomie,
+  ilesLagons,
   plongee,
   safarisAventure,
   skiMontagne,
 ]);
 
-export const subthemes: Record<string, Subtheme> = toMap([]);
+// Ordre d'affichage des blocs à l'intérieur de chaque page famille.
+export const subthemes: Record<string, Subtheme> = toMap([
+  safariTerrestreSub,
+  safariMarinSub,
+  trekExpeditionSub,
+  skiGlisseSub,
+  randonneeMontagneSub,
+  paquebotSub,
+  voilierSub,
+  croisiereFluvialeSub,
+  spaThalassoSub,
+  cureThermaleSub,
+  retraiteYogaSub,
+  sitesHistoriquesSub,
+  lieuxDeCulteSub,
+  museesSub,
+  traditionsVivantesSub,
+  tablesChefsSub,
+  vignoblesSpiritueuxSub,
+  savoirFaireSub,
+  plongeeBouteilleSub,
+  snorkelingSub,
+  caraibesPlagesSub,
+  oceanIndienSub,
+  pacifiqueSudSub,
+  mediterraneeAtlantiqueSub,
+]);
 
 export const experiences: Record<string, Experience> = toMap([
+  cureAyurvediqueKerala,
+  cureAyurvediqueCoteSud,
+  retraiteYogaUbud,
   arbreAuChocolatSoufriere,
   atvCascadePriveeGrenade,
   helicopterePriveSainteLucie,

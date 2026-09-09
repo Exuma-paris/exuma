@@ -2,6 +2,7 @@ import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
   slug: "maurice",
+  subthemeSlugs: ["ocean-indien", "snorkeling", "voilier"],
   name: "Île Maurice",
   country: "Île Maurice",
   genitive: "de l'île Maurice",

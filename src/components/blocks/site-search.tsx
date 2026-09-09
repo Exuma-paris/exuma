@@ -69,7 +69,8 @@ const KIND_ORDER: EntityKind[] = [
   "accommodation",
   "serviceCategory",
   "service",
-  "subtheme",
+  // Pas de "subtheme" : les sous-familles d'expérience sont un paramétrage
+  // interne, sans page propre. Les proposer en résultat mènerait sur un 404.
 ];
 
 export function SiteSearch({
