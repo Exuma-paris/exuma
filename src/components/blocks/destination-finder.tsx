@@ -92,18 +92,42 @@ function CtaCard() {
 export function DestinationFinder({
   entries,
   suggestions = 5,
+  excludeFromSuggestions,
+  idleCaption,
+  notFoundCaption,
+  emptyMessage,
 }: {
   entries: FinderEntry[];
   /** Nombre de destinations montrées tant que rien n'est saisi. */
   suggestions?: number;
+  /**
+   * Slugs à écarter des suggestions, sans les retirer de la recherche. Les
+   * pages continent s'en servent pour ne pas reproposer les destinations déjà
+   * mises en avant en cartes plus haut.
+   */
+  excludeFromSuggestions?: string[];
+  /** Phrase affichée sous le champ tant que rien n'est saisi. */
+  idleCaption?: string;
+  /**
+   * Phrase affichée quand la recherche ne renvoie rien. À préciser dès que
+   * l'index est restreint : sur une page continent, « nous n'avons pas de page »
+   * serait faux pour une destination qui existe sur un autre continent.
+   */
+  notFoundCaption?: string;
+  /** Message du bloc de repli, sous la même contrainte que `notFoundCaption`. */
+  emptyMessage?: string;
 }) {
   const [query, setQuery] = useState("");
 
   // Les fiches illustrées d'abord : ce sont elles qui donnent envie de cliquer.
-  const featured = useMemo(
-    () => entries.filter((e) => e.image).slice(0, suggestions),
-    [entries, suggestions],
-  );
+  // Les autres complètent la rangée en tuile typographique plutôt que de la
+  // laisser incomplète, ce qui arrive dès qu'un continent a peu d'images.
+  const featured = useMemo(() => {
+    const skip = new Set(excludeFromSuggestions ?? []);
+    const pool = entries.filter((e) => !skip.has(e.slug));
+    return [...pool.filter((e) => e.image), ...pool.filter((e) => !e.image)]
+      .slice(0, suggestions);
+  }, [entries, suggestions, excludeFromSuggestions]);
 
   const results = useMemo(() => {
     const q = strip(query);
@@ -142,10 +166,12 @@ export function DestinationFinder({
         </div>
         <p aria-live="polite" className="px-5 text-[13px] text-secondary-foreground">
           {results === null
-            ? `${entries.length} destinations, un seul interlocuteur.`
+            ? (idleCaption ??
+              `${entries.length} destinations, un seul interlocuteur.`)
             : results.length > 0
               ? `${results.length} destination${results.length > 1 ? "s" : ""} ${results.length > 1 ? "correspondent" : "correspond"}.`
-              : "Nous n'avons pas encore de page pour cette destination."}
+              : (notFoundCaption ??
+                "Nous n'avons pas encore de page pour cette destination.")}
         </p>
       </div>
 
@@ -166,7 +192,8 @@ export function DestinationFinder({
         <div className="mx-auto flex max-w-140 flex-col items-center gap-4 border border-border px-6 py-10 text-center">
           <MapPin className="size-5 text-primary" aria-hidden />
           <p className="text-secondary-foreground">
-            Nous y allons quand même. Dites-nous où, nous construisons le reste.
+            {emptyMessage ??
+              "Nous y allons quand même. Dites-nous où, nous construisons le reste."}
           </p>
           <Link
             href="/votre-projet"

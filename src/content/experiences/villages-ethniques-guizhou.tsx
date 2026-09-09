@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["chine", "guizhou", "miao", "dong", "kaili", "rizieres"],
   heroImage: {
     src: "/destination/chine/xp-villages-guizhou.webp",
-    alt: "Femme miao en coiffe d'argent tenant des bâtons d'encens, dans le Guizhou",
+    alt: "Femmes miao en costume de fête dans un village des montagnes du Guizhou",
   },
   destinationSlugs: ["chine"],
   sections: [],

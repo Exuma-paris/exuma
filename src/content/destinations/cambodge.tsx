@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte du Cambodge",
       heading: "Le Cambodge, la beauté tranquille des temples et du fleuve",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Cambodge commence presque toujours par Angkor, et c'est très bien ainsi. Le site est immense, une journée n'en fait pas le tour, alors nous étalons la visite sur plusieurs matinées. On suit la lumière plutôt qu'un programme : Angkor Vat quand le jour se lève, le Bayon lorsque le soleil monte, puis Ta Prohm et ses fromagers dans le calme du milieu de journée.",
         "Le pays vit au rythme de son eau. Le Tonlé Sap gonfle à la saison des pluies puis se retire doucement, et les villages montent et descendent avec lui sans jamais quitter leurs pilotis. À Kampong Phluk, on traverse la forêt inondée en barque, et le silence n'est troublé que par la rame.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Cambodge",
       description:
         "Vol, décalage, formalités et saisons : de quoi caler les dates d'un voyage au Cambodge en toute tranquillité.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -218,7 +218,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Cambodge. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -241,7 +241,7 @@ export const destination: Destination = {
       heading: "D'Angkor au golfe, les étapes qui font le voyage",
       description:
         "Des temples de Siem Reap aux îles du golfe, en passant par le fleuve et la forêt, voici les étapes que nous relions dans l'ordre qui vous convient.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 7,
       places: [
         {
@@ -320,7 +320,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage au Cambodge",
       description:
         "Quelques observations de terrain qui ne figurent pas dans un guide : la bonne saison, l'heure à laquelle on entre dans les temples, et ce qui se prépare avant de partir.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "La saison qui rend tout plus simple",
@@ -545,7 +545,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

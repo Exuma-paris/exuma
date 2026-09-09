@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Thaïlande",
       heading: "Une capitale, une forêt, deux mers",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Thaïlande commence presque toujours par Bangkok, et c'est souvent l'étape que l'on raccourcit le plus. À tort. La ville se lit depuis le Chao Phraya, à l'heure où les bateaux de riz remontent le fleuve et où les moines de Wat Pho terminent leurs chants. Le Grand Palais, résidence royale pendant plus de deux siècles, se visite dès l'ouverture : la chaleur et les groupes arrivent ensemble, vers le milieu de la matinée.",
         "À trois heures de route au nord-est, le parc national de Khao Yai change complètement de registre. Premier parc du pays, créé en 1962, inscrit au patrimoine mondial en juillet 2005, il couvre 2 168 km². Plus de trois cents éléphants sauvages y vivent, la population la plus importante de Thaïlande. Les chutes de Heow Suwat, dans le parc, ont servi de décor au film The Beach.",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Thaïlande",
       description:
         "Vol, décalage horaire, monnaie, formalités et saisons : les éléments à connaître pour caler les dates d'un voyage en Thaïlande.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,7 +219,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Chaque dossier Thaïlande mobilise plusieurs expertises. Un interlocuteur unique en assure la coordination et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "Six territoires, du Chao Phraya au golfe",
       description:
         "De Bangkok aux pitons de Phang Nga, de la forêt de Khao Yai aux collines de Chiang Mai : six secteurs que peu d'itinéraires réunissent dans un même voyage.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Thaïlande",
       description:
         "Huit points de repère issus du terrain. Ils servent à choisir la côte, à calibrer les attentes et à comprendre le choix de certaines étapes.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Les deux moussons et le choix de la côte",
@@ -581,7 +581,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -33,15 +33,15 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/arabie-saoudite/hero-1.webp",
-          alt: "Le tombeau de Qasr al-Farid taillé dans un bloc isolé à Hegra, voyage en Arabie Saoudite",
+          alt: "Les tombeaux nabatéens de Hegra taillés dans le grès à AlUla, voyage en Arabie Saoudite",
         },
         {
           src: "/destination/arabie-saoudite/hero-2.webp",
-          alt: "Formations de grès de la vallée d'AlUla à contre-jour, en fin de journée",
+          alt: "Elephant Rock, monolithe de grès dressé dans le sable au coucher du soleil, AlUla",
         },
         {
           src: "/destination/arabie-saoudite/hero-3.webp",
-          alt: "Troupeau de dromadaires au pied des falaises de grès, dans le désert d'AlUla",
+          alt: "Récif de corail et lagon turquoise au large d'Umluj, sur la mer Rouge",
         },
       ],
     },
@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de l'Arabie Saoudite",
       heading: "AlUla, Diriyah, puis la mer Rouge",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Arabie Saoudite commence par AlUla. La vallée s'ouvre d'un coup après le désert : des tables de grès rouge de cent mètres de haut, séparées par du sable clair, et une oasis de palmiers cultivée en continu depuis plus de deux mille ans. Les hommes s'y arrêtent depuis toujours parce que l'eau y affleure. Hegra, la cité nabatéenne, est à vingt minutes de la vieille ville.", // TODO: verify l'ancienneté de la culture de l'oasis d'AlUla
         "Riyad tient le centre du pays et se visite pour Diriyah. C'est le quartier d'At-Turaif, berceau de la première dynastie saoudienne, bâti en terre crue au bord d'un oued et inscrit au patrimoine mondial en 2010. Les murs sont épais, les ruelles étroites, les toits en troncs de palmier. On y comprend d'où vient le royaume avant de regarder ce qu'il construit aujourd'hui.",
@@ -79,7 +79,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/arabie-saoudite/full-image.webp",
-        alt: "La vallée de grès d'AlUla et son oasis de palmiers en contrebas, voyage en Arabie Saoudite",
+        alt: "La vallée de grès d'AlUla et son oasis de palmiers au lever du jour, voyage en Arabie Saoudite",
       },
       height: 600,
     },
@@ -95,12 +95,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/arabie-saoudite/split-1.webp",
+          src: "/destination/arabie-saoudite/split-1.png",
           alt: "Inscriptions dadanitiques gravées dans la falaise de Jabal Ikmah, près de Dadan",
         },
         {
           src: "/destination/arabie-saoudite/split-2.webp",
-          alt: "Palais de terre crue du Najd, murs crénelés et ouvertures triangulaires",
+          alt: "Qasr al-Farid, tombeau nabatéen inachevé taillé dans un bloc isolé à Hegra",
         },
       ],
     },
@@ -109,12 +109,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/arabie-saoudite/xp-sharaan-safari-1.webp",
+          src: "/destination/arabie-saoudite/xp-sharaan-safari-1.png",
           alt: "Table dressée dans un canyon éclairé de la réserve de Sharaan, à AlUla",
         },
         right: {
           src: "/destination/arabie-saoudite/xp-sharaan-safari-2.webp",
-          alt: "Parois de grès de la réserve de Sharaan dans la lumière de la fin du jour",
+          alt: "Véhicule privé au pied des parois de grès de la réserve naturelle de Sharaan",
         },
       },
       text: {
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Arabie Saoudite",
       description:
         "Vol, monnaie, formalités et saisons : les repères qui permettent de poser les dates d'un voyage en Arabie Saoudite.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,17 +219,17 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Arabie Saoudite. Un seul interlocuteur en assure la coordination. Il reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
           src: `/destination/arabie-saoudite/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
           alt: [
             "Itinéraire sur mesure en Arabie Saoudite, d'AlUla à Diriyah et à la mer Rouge",
-            "Côtelettes d'agneau et légumes grillés servis sur un plateau de laiton, à AlUla",
-            "Pavillons de bois posés dans le sable au pied des parois de grès d'AlUla",
+            "Adresses confidentielles en Arabie Saoudite : maisons de terre et tables de la vallée d'AlUla",
+            "Hébergements en Arabie Saoudite : maisons de la vieille ville, canyon d'Ashar et île de la mer Rouge",
             "Conciergerie privée 24/7 pour un voyage en Arabie Saoudite",
-            "Séance de yoga au lever du soleil sur une terrasse de bois, face aux rochers d'AlUla",
+            "Expériences en Arabie Saoudite : montgolfière sur Hegra, Land Rover vintage et dîner dans un canyon",
           ][i],
         },
       })),
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "Six étapes, d'AlUla à la mer Rouge",
       description:
         "Six étapes qui ne se ressemblent pas : une cité nabatéenne, une vieille ville de terre, une falaise couverte d'écritures, une réserve fermée au public, le berceau du royaume et une côte de récifs.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -251,7 +251,7 @@ export const destination: Destination = {
             "La grande cité nabatéenne du sud, à vingt minutes de la vieille ville d'AlUla. Plus de cent tombeaux monumentaux taillés dans des blocs isolés, et la gare du chemin de fer du Hedjaz à l'entrée du site. Premier bien saoudien inscrit au patrimoine mondial, en 2008.",
           image: {
             src: "/destination/arabie-saoudite/map-hegra.webp",
-            alt: "Qasr al-Farid, tombeau isolé de Hegra, vu du ciel",
+            alt: "Façades des tombeaux nabatéens de Hegra dans le désert de grès, AlUla",
           },
           // TODO: verify coords
           coordinates: { lat: 26.7869, lng: 37.9535 },
@@ -262,7 +262,7 @@ export const destination: Destination = {
             "Un labyrinthe de maisons de terre adossées à une citadelle, habité jusqu'aux années 1980 puis laissé au sable. Une partie est relevée, et les ruelles se traversent le soir quand les ateliers et les tables ouvrent. L'oasis commence au bout de la dernière maison.", // TODO: verify la date d'abandon de la vieille ville
           image: {
             src: "/destination/arabie-saoudite/map-alula-vieille-ville.webp",
-            alt: "Ouverture dans le grès donnant sur les formations rocheuses de la vallée d'AlUla",
+            alt: "Ruelles de terre de la vieille ville d'AlUla au pied de la citadelle",
           },
           // TODO: verify coords
           coordinates: { lat: 26.6089, lng: 37.9217 },
@@ -273,7 +273,7 @@ export const destination: Destination = {
             "L'ancienne capitale du royaume de Dadan, puis de Lihyan, avec ses tombeaux creusés en hauteur dans la falaise rouge. Le canyon voisin de Jabal Ikmah porte des centaines d'inscriptions gravées, dans quatre écritures différentes.", // TODO: verify le nombre d'écritures présentes à Jabal Ikmah
           image: {
             src: "/destination/arabie-saoudite/map-jabal-ikmah.webp",
-            alt: "Paroi de grès rouge du canyon de Jabal Ikmah, près de Dadan",
+            alt: "Falaise gravée d'inscriptions anciennes de Jabal Ikmah, près de Dadan",
           },
           // TODO: verify coords
           coordinates: { lat: 26.6383, lng: 37.8933 },
@@ -284,7 +284,7 @@ export const destination: Destination = {
             "Une vallée fermée au sud d'AlUla, où le léopard d'Arabie, l'oryx et le bouquetin de Nubie ont été réintroduits. On y entre avec un guide de conservation, en véhicule, et l'on y dîne au fond d'un canyon. Le ciel y est le plus noir de la région.", // TODO: verify les espèces réintroduites dans la réserve de Sharaan
           image: {
             src: "/destination/arabie-saoudite/map-sharaan.webp",
-            alt: "Piste de sable et 4x4 dans un canyon de la réserve de Sharaan, au sud d'AlUla",
+            alt: "Canyon de grès de la réserve naturelle de Sharaan, au sud d'AlUla",
           },
           // TODO: verify coords
           coordinates: { lat: 26.55, lng: 37.75 },
@@ -306,7 +306,7 @@ export const destination: Destination = {
             "Une côte de sable blanc et un chapelet d'îles basses à moins d'une heure de bateau. Le récif commence à quelques mètres du bord : tortues vertes, raies et bancs de poissons de corail. Les hôtels y ouvrent les uns après les autres depuis 2023.", // TODO: verify le calendrier d'ouverture des hôtels de la mer Rouge
           image: {
             src: "/destination/arabie-saoudite/map-umluj.webp",
-            alt: "Gorgone rouge sur un récif de la mer Rouge, au large d'Umluj",
+            alt: "Îles basses et eaux turquoise au large d'Umluj, côte de la mer Rouge",
           },
           // TODO: verify coords
           coordinates: { lat: 25.0213, lng: 37.2685 },
@@ -322,7 +322,7 @@ export const destination: Destination = {
         "Les conseils de nos experts pour votre voyage en Arabie Saoudite",
       description:
         "Huit repères venus du terrain : la lumière, le café, la table, les distances, et ce qui change quand on part à plusieurs.",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le café se sert jusqu'à ce qu'on secoue la tasse",
@@ -561,7 +561,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/reserver" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

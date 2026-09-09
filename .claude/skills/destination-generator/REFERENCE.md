@@ -351,28 +351,33 @@ The `content` is `React.ReactNode` — `data.tsx` MUST be `.tsx` for this to com
 
 ---
 
-## 13. testimonials
+## 13. testimonials — verbatims clients
+
+Un carrousel de trois verbatims clients. **Ces citations ne s'inventent pas.** Elles proviennent de retours réellement recueillis par l'agence : publier un avis fabriqué est une pratique commerciale trompeuse (article L121-2 du Code de la consommation).
 
 ```tsx
 {
   type: "testimonials",
   eyebrow: "Témoignages",
   heading: "Ils ont vécu l'expérience Exuma",
-  cta: { label: "Créer mon voyage", href: "/votre-projet" },
+  cta: { label: "Construire ce voyage", href: "/votre-projet" },
   testimonials: [
     {
-      // TODO: replace with real testimonial
-      quote: "…",
-      image: { src: "/destination/<slug>/hero-1.png", alt: "Portrait" },  // reuse hero
-      name: "TODO",
-      role: "TODO: contexte (Voyage de noces, octobre 2025)",
+      quote: "…",                       // le verbatim, mot pour mot
+      image: { src: "/destination/<slug>/hero-1.png", alt: "Témoignage anonymisé" },
+      name: "Hélène P.",                // prénom + initiale du nom
+      role: "Anniversaire de mariage, septembre 2025",
     },
-    // …2 more, reusing hero-2.png and hero-3.png
+    // …2 autres, avec hero-2.png et hero-3.png
   ],
 }
 ```
 
-Reusing hero images for portraits matches both reference pages — no new image files needed.
+**Convention d'anonymat** : prénom suivi de l'initiale du nom (« Hélène P. », « Jean-Marc T. »). Jamais le nom complet, jamais un portrait du client : le visuel est une image de la destination, avec l'alt « Témoignage anonymisé ». Même principe que le hub `/professionnels`.
+
+**Si l'agence n'a pas encore de verbatim pour cette destination** : demandez-les à l'utilisateur. S'il n'en a pas sous la main, **omettez la section entière** et signalez-le dans le récapitulatif de fin. Une page sans témoignage est normale ; une page avec trois faux témoignages ne l'est pas.
+
+Ne jamais utiliser les noms des personas (Frédéric, Constance, Édouard, Bernard & Michèle, Olivier, Sophie, Alexandre) comme signataires : ce sont des outils internes.
 
 ---
 

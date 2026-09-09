@@ -67,7 +67,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Un pays où le passé se vit au présent",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage au Mexique commence souvent sur le Zócalo de Mexico, la grande place du centre. La cathédrale espagnole s'y tient tout près des ruines aztèques du Templo Mayor, retrouvées par hasard sous les pavés. Rien n'a été effacé ici, tout s'est posé par-dessus, et c'est ce qui rend la ville si vivante.",
         "La suite se compose selon vos envies. Mexico se visite entre le musée national d'anthropologie, les maisons colorées de Coyoacán et les terrasses de la Roma. Oaxaca prend son temps, avec ses marchés, son mole noir et les distilleries de mezcal des vallées voisines. Le Yucatán se partage entre ses haciendas et ses cénotes, et la côte du Nayarit offre au séjour une fin paisible face au Pacifique. C'est ce Mexique-là que nous vous montrons.",
@@ -161,7 +161,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage au Mexique",
       description:
         "Temps de vol, décalage, monnaie, formalités et saison : l'essentiel pour préparer le séjour sereinement.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -220,7 +220,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Différentes expertises se réunissent autour de votre projet mexicain. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -245,7 +245,7 @@ export const destination: Destination = {
       heading: "Les endroits où le pays se raconte le mieux",
       description:
         "Mexico, Oaxaca, Chichén Itzá, Palenque, Tulum et la côte du Nayarit apportent chacun au séjour une couleur différente. Ce sont les étapes autour desquelles s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
@@ -318,7 +318,7 @@ export const destination: Destination = {
       heading: "Ce que nos experts vous diraient avant de partir",
       description:
         "Huit observations de terrain qui ne se trouvent pas dans un guide, pour choisir une étape ou comprendre pourquoi nous l'inscrivons à votre itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Chichén Itzá, l'heure qui change tout",
@@ -517,7 +517,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

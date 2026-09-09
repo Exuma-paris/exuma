@@ -85,7 +85,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une île volcanique dans un anneau de corail",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à l'île Maurice commence par le choix de la côte. L'île mesure environ 67 kilomètres du nord au sud et 46 kilomètres de large. Pourtant, chaque région possède son propre visage. Le nord et le sud n'offrent ni la même mer, ni les mêmes vents, ni la même atmosphère. Le récif corallien protège une grande partie du littoral. Il crée ces lagons aux eaux calmes et tièdes. Au sud, lorsque le récif s'interrompt, l'océan devient plus sauvage.",
         "Le séjour se construit autour de ce découpage. Le nord, autour de Grand Baie et de Pointe aux Canonniers, séduit par son lagon abrité. Il permet aussi de rejoindre facilement le Coin de Mire. À l'ouest, Tamarin offre la lumière du soir et les dauphins au lever du jour. Au sud-ouest, Le Morne Brabant domine le littoral du haut de ses 556 mètres. Classé à l'UNESCO, il porte la mémoire des esclaves et fait face aux vents du large. Puis vient l'intérieur de l'île : Chamarel, ses terres de sept couleurs et sa cascade. Enfin, les gorges de Rivière Noire abritent les derniers paysages forestiers naturels de Maurice. Chaque déplacement révèle une autre facette de l'île.",

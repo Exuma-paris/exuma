@@ -64,7 +64,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Ouverture",
       heading: "Une ville qui se traverse en couches",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Rome ne se mesure pas en monuments visités. Depuis le Forum jusqu'au Janicule, depuis le Colisée jusqu'à Saint-Pierre, la ville se superpose à elle-même. Trois mille ans de constructions empilées sur la même surface : la marche entre Piazza Navona et le Panthéon traverse vingt siècles en quinze minutes.",
         "L'itinéraire se construit par quartiers, pas par checklists. Une matinée à Trastevere chez les artisans du Vicolo del Cinque, une visite privée de la Galerie Borghèse en fin de journée, un dîner à la table de Marcella dans le Ghetto. Chaque quartier garde sa lumière, ses heures, sa cuisine. Nous écrivons cette logique en collaboration avec les Italiens qui la vivent.",
@@ -159,7 +159,7 @@ export const destination: Destination = {
       heading: "Ce qu'il faut savoir avant de partir à Rome",
       description:
         "Vol, monnaie, langue, période : l'essentiel pour préparer le voyage sereinement.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -212,7 +212,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Rome. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           ...defaultBento.cards[0],
@@ -259,7 +259,7 @@ export const destination: Destination = {
       heading: "Six quartiers, et ce qu'il y a derrière",
       description:
         "Vatican, Trastevere, Centro Storico, Via Appia, Aventino, Quartier Juif : chaque quartier tient sa promesse. Voici ceux autour desquels s'organisent la plupart de nos itinéraires.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 12,
       places: [
         {
@@ -332,7 +332,7 @@ export const destination: Destination = {
       heading: "L'envers de Rome",
       description:
         "Quatre observations de terrain qui ne se trouvent pas dans un guide. Pour décider d'une étape, ou comprendre pourquoi nous l'inscrivons à un itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "L'eau du robinet, la meilleure d'Europe",
@@ -575,7 +575,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

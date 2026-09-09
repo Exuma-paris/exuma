@@ -7,6 +7,7 @@ export type Cta = { label: string; href: string };
 export type IconName =
   | "plane"
   | "clock"
+  | "phone"
   | "euro"
   | "fileText"
   | "syringe"
@@ -60,6 +61,8 @@ export type Section =
         image: ImageRef;
         link?: Cta;
       }[];
+      /** "grid" pose toutes les cartes sur deux colonnes, sans carrousel. */
+      layout?: "carousel" | "grid";
       background?: string;
     }
   | {
@@ -112,6 +115,7 @@ export type Section =
         title: string;
         description: string;
       }[];
+      theme?: "light" | "dark";
       background?: string;
     }
   | {
@@ -247,6 +251,19 @@ export type Section =
       items: {
         title: string;
         detail: ReactNode;
+        image: ImageRef;
+      }[];
+      background?: string;
+    }
+  | {
+      type: "featureRows";
+      eyebrow?: string;
+      heading: string;
+      description?: string;
+      cta?: Cta;
+      items: {
+        title: string;
+        paragraphs: string[];
         image: ImageRef;
       }[];
       background?: string;

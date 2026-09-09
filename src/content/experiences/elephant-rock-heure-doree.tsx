@@ -14,7 +14,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/arabie-saoudite/xp-elephant-rock.webp",
-    alt: "Elephant Rock éclairé à la nuit tombée, assises creusées dans le sable au premier plan",
+    alt: "Elephant Rock à la lumière rouge de la fin du jour, dans le désert d'AlUla",
   },
   destinationSlugs: ["arabie-saoudite"],
   sections: [],

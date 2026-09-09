@@ -15,9 +15,9 @@ Each generated image in `public/destination/france/` was produced by feeding the
 | `xp-baie-mont-saint-michel.png`           | `xp-baie-mont-saint-michel-ref.jpg`           | TODO       | TODO    |
 | `xp-vins-clairs-champagne.png`            | `xp-vins-clairs-champagne-ref.jpg`            | TODO       | TODO    |
 | `xp-vallee-blanche.png`                   | `xp-vallee-blanche-ref.jpg`                   | TODO       | TODO    |
-| `hotel-la-bastide-de-gordes.png`          | `hotel-la-bastide-de-gordes-ref.jpg`          | TODO       | TODO    |
-| `hotel-les-sources-de-cheverny.png`       | `hotel-les-sources-de-cheverny-ref.jpg`       | TODO       | TODO    |
-| `hotel-grand-hotel-du-cap-ferrat.png`     | `hotel-grand-hotel-du-cap-ferrat-ref.jpg`     | TODO       | TODO    |
+| `hotel-crillon-le-brave.png`          | `hotel-crillon-le-brave-ref.jpg`          | TODO       | TODO    |
+| `hotel-les-sources-de-cheverny.jpg`       | `hotel-les-sources-de-cheverny-ref.jpg`       | TODO       | TODO    |
+| `hotel-grand-hotel-du-cap-ferrat.jpg`     | `hotel-grand-hotel-du-cap-ferrat-ref.jpg`     | TODO       | TODO    |
 | `bento-map.png`                           | `bento-map-ref.jpg`                           | TODO       | TODO    |
 | `bento-adresses.png`                      | `bento-adresses-ref.jpg`                      | TODO       | TODO    |
 | `bento-hebergements.png`                  | `bento-hebergements-ref.jpg`                  | TODO       | TODO    |

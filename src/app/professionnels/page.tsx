@@ -3,10 +3,33 @@ import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { meta, sections } from "@/content/pages/professionnels";
 
+/** Image de partage : la première image du hero. Sans cette déclaration, la
+ * page hériterait des balises Open Graph de l'accueil, alors qu'elle est faite
+ * pour être transmise telle quelle par mail ou sur LinkedIn. */
+const shareImage = sections.find((s) => s.type === "hero")?.images[0];
+
 export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,
   alternates: { canonical: "/professionnels" },
+  openGraph: {
+    type: "article",
+    // Le gabarit `%s | Exuma` du layout ne vaut que pour <title> : sans ceci,
+    // la carte de partage sortirait sans le nom de la maison.
+    siteName: "Exuma",
+    url: "/professionnels",
+    title: `${meta.title} | Exuma`,
+    description: meta.description,
+    ...(shareImage
+      ? { images: [{ url: shareImage.src, alt: shareImage.alt }] }
+      : {}),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${meta.title} | Exuma`,
+    description: meta.description,
+    ...(shareImage ? { images: [shareImage.src] } : {}),
+  },
 };
 
 export default function Page() {

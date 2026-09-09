@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["arabie-saoudite", "alula", "vieille-ville", "terre-crue", "oasis"],
   heroImage: {
     src: "/destination/arabie-saoudite/hotel-dar-tantora.webp",
-    alt: "Bassin et lanternes du Dar Tantora au crépuscule, ouvert sur l'oasis d'AlUla",
+    alt: "Chambre éclairée à la bougie dans une maison de terre du Dar Tantora, vieille ville d'AlUla",
   },
   destinationSlugs: ["arabie-saoudite"],
   sections: [],

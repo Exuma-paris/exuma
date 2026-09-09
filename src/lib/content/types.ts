@@ -25,9 +25,22 @@ type EntityBase = {
 export type Continent = EntityBase & {
   heroImage?: ImageRef;
   destinationSlugs?: string[];
+  /**
+   * Forme génitive du nom, utilisée dans les titres construits par le gabarit :
+   * « Toutes les destinations {genitive} ». Écrite à la main parce qu'aucune
+   * règle ne couvre « d'Afrique », « des Amériques » et « du Proche-Orient ».
+   */
+  genitive?: string;
 };
 
 export type Destination = EntityBase & {
+  /**
+   * Image de vignette, utilisée partout où la destination apparaît en carte ou
+   * en tuile. Sans elle, c'est la première image du hero qui sert : à ne
+   * renseigner que lorsque cette première image tombe mal en liste, par exemple
+   * quand deux destinations voisines se ressemblent trop.
+   */
+  heroImage?: ImageRef;
   country?: string;
   /**
    * Where this destination sits in the Continent > Pays > Villes/Régions tree.

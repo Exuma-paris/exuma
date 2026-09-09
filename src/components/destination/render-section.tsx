@@ -5,6 +5,7 @@ import { HeroImageBackground } from "@/components/sections/hero/image-background
 import { HeroLanding } from "@/components/sections/hero/landing";
 import { GallerySection } from "@/components/sections/gallery";
 import { FeatureShowcase } from "@/components/sections/feature-showcase";
+import { FeatureRowsSection } from "@/components/sections/feature-rows";
 import { TextColumnsSection } from "@/components/sections/text-columns";
 import { FullImageSection } from "@/components/sections/full-image";
 import { TextImagesSplitSection } from "@/components/sections/text-images-split";
@@ -105,6 +106,20 @@ export function renderSection(section: Section, key: string): ReactNode {
           heading={section.heading}
           description={section.description}
           items={section.items}
+          background={section.background}
+        />
+      );
+
+    case "featureRows":
+      return (
+        <FeatureRowsSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          cta={section.cta}
+          items={section.items}
+          background={section.background}
         />
       );
 
@@ -151,20 +166,15 @@ export function renderSection(section: Section, key: string): ReactNode {
           description={section.description}
           cta={section.cta}
           cards={section.cards}
+          layout={section.layout}
           background={section.background}
         />
       );
 
     case "imageDuoWithText":
       return (
-        <div
-          key={key}
-          className="image-duo-with-text relative"
-        >
-          <ImageDuoSection
-            left={section.duo.left}
-            right={section.duo.right}
-          />
+        <div key={key} className="image-duo-with-text relative">
+          <ImageDuoSection left={section.duo.left} right={section.duo.right} />
           <TextColumnsSection
             eyebrow={section.text.eyebrow}
             heading={section.text.heading}
@@ -215,6 +225,7 @@ export function renderSection(section: Section, key: string): ReactNode {
             title: item.title,
             description: item.description,
           }))}
+          theme={section.theme}
           background={section.background}
         />
       );
@@ -343,8 +354,8 @@ export function renderSection(section: Section, key: string): ReactNode {
           const heroImage =
             "heroImage" in entity && entity.heroImage
               ? entity.heroImage
-              : entity.sections.find((s) => s.type === "hero")?.images?.[0] ??
-                ENTITY_PLACEHOLDER_IMAGE;
+              : (entity.sections.find((s) => s.type === "hero")?.images?.[0] ??
+                ENTITY_PLACEHOLDER_IMAGE);
           return {
             title: entity.name,
             description: entity.blurb ?? "",

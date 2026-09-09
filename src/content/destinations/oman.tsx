@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte d'Oman",
       heading: "Un pays qui a choisi de ne pas se vendre",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Oman ne ressemble pas à ce qu'on attend de la péninsule arabique. Pas de tours de verre, pas d'enseignes le long de la mer. Mascate reste basse et blanche, posée entre la montagne et l'eau. Le pays s'est ouvert tard au voyage, et il a gardé de cette lenteur quelque chose que ses voisins ont perdu.",
         "À l'intérieur des terres, la lumière change. Les forts de Nizwa et de Bahla montent au-dessus des palmeraies, couleur de sable eux aussi. Le souk ouvre en fin de journée : l'argent, les dattes, l'encens du Dhofar. On y marche sans être sollicité, ce qui est devenu rare.",
@@ -163,7 +163,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage à Oman",
       description:
         "Vol, décalage, monnaie, formalités et meilleure saison : l'essentiel pour préparer sereinement un séjour sur mesure à Oman.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -222,7 +222,7 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Oman. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
@@ -245,7 +245,7 @@ export const destination: Destination = {
       heading: "Six territoires, et ce qu'il y a derrière",
       description:
         "La mer, les forts, la montagne verte, le sable. Six territoires qu'un même itinéraire relie sans jamais refaire deux fois la même route.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
         {
@@ -324,7 +324,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage à Oman",
       description:
         "Huit observations de terrain qui ne se trouvent pas dans un guide. Pour calibrer les attentes, choisir la bonne fenêtre ou comprendre pourquoi nous inscrivons telle étape à l'itinéraire.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le vendredi matin à Nizwa",
@@ -553,7 +553,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

@@ -13,9 +13,24 @@ export type BooleanQuestion = QuestionBase & {
 
 export type ChoiceOption = { id: string; label: string };
 
+/**
+ * Alternative option set, chosen from an answer already given earlier in the
+ * flow. Deliberately expressed as data rather than as a callback: the funnel
+ * is meant to move to Sanity, and a function would not survive the trip.
+ */
+export type OptionsRule = {
+  /** The question whose answer decides. Must sit before this one. */
+  questionId: string;
+  /** Matches when the trip is strictly shorter than `nights`. */
+  when: "nightsUnder";
+  nights: number;
+  options: ChoiceOption[];
+};
+
 export type SingleChoiceQuestion = QuestionBase & {
   type: "single";
   options: ChoiceOption[];
+  optionsWhen?: OptionsRule;
 };
 
 export type MultiChoiceQuestion = QuestionBase & {
@@ -41,6 +56,13 @@ export type CalendarQuestion = QuestionBase & {
 export type ContactQuestion = QuestionBase & {
   type: "contact";
   marketingConsentLabel?: string;
+  /**
+   * Adds a company field. Never required, and shown exactly like the others:
+   * someone writing on their own behalf simply leaves it empty, and nobody
+   * is told they may skip it.
+   */
+  withCompany?: boolean;
+  companyLabel?: string;
 };
 
 /**
@@ -94,6 +116,32 @@ export type PeriodQuestion = QuestionBase & {
   flexiblePlaceholder?: string;
 };
 
+/**
+ * Free text with nothing riding on it. Optional by default: the visitor who
+ * has nothing to add taps Continue, and the one who wants to talk has room to.
+ */
+export type TextQuestion = QuestionBase & {
+  type: "text";
+  placeholder?: string;
+  rows?: number;
+  /** Set to true only if the flow should block on an empty field. */
+  required?: boolean;
+  /** False renders a single-line field — a company name is not a paragraph. */
+  multiline?: boolean;
+};
+
+/**
+ * A plain head count, typed rather than tapped. The traveller stepper caps at
+ * a dozen and suits a family; a seminar can be a hundred and fifty, and nobody
+ * is going to press a plus sign that many times.
+ */
+export type CountQuestion = QuestionBase & {
+  type: "count";
+  label?: string;
+  min?: number;
+  max?: number;
+};
+
 export type Question =
   | BooleanQuestion
   | SingleChoiceQuestion
@@ -102,10 +150,13 @@ export type Question =
   | ContactQuestion
   | DestinationQuestion
   | TravelersQuestion
-  | PeriodQuestion;
+  | PeriodQuestion
+  | TextQuestion
+  | CountQuestion;
 
 export type ContactAnswer = {
   name: string;
+  company: string;
   email: string;
   phoneCountry: string;
   phone: string;
@@ -151,7 +202,9 @@ export type Answer =
   | { type: "contact"; value: ContactAnswer }
   | { type: "destination"; value: DestinationAnswer }
   | { type: "travelers"; value: TravelersAnswer }
-  | { type: "period"; value: PeriodAnswer };
+  | { type: "period"; value: PeriodAnswer }
+  | { type: "text"; value: string }
+  | { type: "count"; value: number | null };
 
 export type AnswersMap = Record<string, Answer>;
 
@@ -170,6 +223,7 @@ export function emptyAnswer(question: Question): Answer {
         type: "contact",
         value: {
           name: "",
+          company: "",
           email: "",
           phoneCountry: "FR",
           phone: "",
@@ -182,6 +236,10 @@ export function emptyAnswer(question: Question): Answer {
       return { type: "travelers", value: { adults: 2, children: 0 } };
     case "period":
       return { type: "period", value: { mode: null, detail: "" } };
+    case "text":
+      return { type: "text", value: "" };
+    case "count":
+      return { type: "count", value: null };
   }
 }
 
@@ -219,6 +277,14 @@ export function isAnswered(question: Question, answer: Answer | undefined): bool
       if (v.mode === "flexible") return v.detail.trim().length > 0;
       return false;
     }
+    case "text":
+      // An optional question is answered the moment it is shown: leaving it
+      // blank is a valid reply, not an omission.
+      if (!question.required) return true;
+      return answer.type === "text" && answer.value.trim().length > 0;
+    case "count":
+      if (answer.type !== "count" || answer.value === null) return false;
+      return answer.value >= (question.min ?? 1);
     case "contact": {
       if (answer.type !== "contact") return false;
       const v = answer.value;
@@ -229,4 +295,46 @@ export function isAnswered(question: Question, answer: Answer | undefined): bool
       );
     }
   }
+}
+
+/** Nights between two `YYYY-MM-DD` keys, or null when the dates are not set. */
+export function nightsInPeriod(value: PeriodAnswer): number | null {
+  if (value.mode !== "fixed" || !value.start || !value.end) return null;
+  const [ys, ms, ds] = value.start.split("-").map(Number);
+  const [ye, me, de] = value.end.split("-").map(Number);
+  // UTC on both ends so a daylight-saving change inside the range cannot turn
+  // seven nights into six and a half.
+  const ms_ = Date.UTC(ye, me - 1, de) - Date.UTC(ys, ms - 1, ds);
+  const nights = Math.round(ms_ / 86_400_000);
+  return nights >= 0 ? nights : null;
+}
+
+/**
+ * The question as it should be shown, given what has been answered so far.
+ * Only the option set varies today — headings and descriptions stay put.
+ */
+export function resolveQuestion(
+  question: Question,
+  answers: AnswersMap,
+): Question {
+  if (question.type !== "single" || !question.optionsWhen) return question;
+  const rule = question.optionsWhen;
+  const dependency = answers[rule.questionId];
+  if (dependency?.type !== "period") return question;
+  const nights = nightsInPeriod(dependency.value);
+  // No dates, or a long enough trip: the default set stands. A period left in
+  // the visitor's own words counts as "no indication" on purpose.
+  if (nights === null || nights >= rule.nights) return question;
+  return { ...question, options: rule.options };
+}
+
+/**
+ * True when a stored answer no longer exists in the option set now on screen —
+ * which happens when someone walks back, changes their dates, and crosses the
+ * threshold. The answer is then dropped rather than silently kept.
+ */
+export function isStaleAnswer(question: Question, answer: Answer | undefined): boolean {
+  if (!answer || question.type !== "single" || answer.type !== "single") return false;
+  if (answer.value === null) return false;
+  return !question.options.some((o) => o.id === answer.value);
 }

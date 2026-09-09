@@ -19,6 +19,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    // Les pages éditoriales de `src/content/pages` ne passent pas par le
+    // registre, donc `allTagged` ne les voit pas : elles se déclarent ici.
+    {
+      url: `${siteUrl}/professionnels`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteUrl}/professionnels/family-offices`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteUrl}/professionnels/entreprises`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteUrl}/professionnels/dirigeants`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
   ];
 
   const dynamicEntries: MetadataRoute.Sitemap = allTagged.map(

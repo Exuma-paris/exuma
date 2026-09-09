@@ -33,15 +33,15 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/chine/hero-1.webp",
-          alt: "Voyage en Chine : la Grande Muraille suivant une crête boisée, au lever du jour",
+          alt: "Voyage en Chine : la Grande Muraille suivant la crête à Jinshanling, au lever du jour",
         },
         {
           src: "/destination/chine/hero-2.webp",
-          alt: "Avant-toits sculptés et laqués d'un pavillon chinois traditionnel",
+          alt: "Toits de la Cité interdite vus depuis la colline de Jingshan, à Pékin",
         },
         {
           src: "/destination/chine/hero-3.webp",
-          alt: "Rangées de guerriers de l'armée de terre cuite dans leur fosse, près de Xi'an",
+          alt: "Rizières en terrasses et village de bois dans les montagnes du Guizhou",
         },
       ],
     },
@@ -66,7 +66,7 @@ export const destination: Destination = {
       background: "bg-white",
       eyebrow: "Découverte de la Chine",
       heading: "Un pays qui change de siècle à chaque étape",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Chine se joue sur le choix des régions. Le nord tient l'histoire impériale, le delta tient les villes et le thé, le sud-ouest tient les montagnes et les fêtes de village. Un itinéraire en retient trois, pour ce qu'elles ont d'irremplaçable.",
         "Au nord, l'histoire impériale. Pékin aligne la Cité interdite, le temple du Ciel et les tombes des Ming, et la Grande Muraille court sur les crêtes voisines, sur des sections où l'on marche seul pendant des heures. Xi'an complète l'ensemble avec l'armée de terre cuite, sortie d'une fosse en 1974 par des paysans qui creusaient un puits.",
@@ -78,7 +78,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/chine/full-image.webp",
-        alt: "Voyage en Chine : pitons de grès boisés émergeant de la brume du matin",
+        alt: "Voyage en Chine : le lac de l'Ouest à Hangzhou dans la brume du matin",
       },
       height: 600,
     },
@@ -95,7 +95,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/chine/split-1.webp",
-          alt: "Deux clientes attablées devant la devanture de brique d'une maison de thé",
+          alt: "Cuisinier découpant un canard laqué devant la table, à Pékin",
         },
         {
           src: "/destination/chine/split-2.webp",
@@ -160,7 +160,7 @@ export const destination: Destination = {
       heading: "Préparer votre voyage en Chine",
       description:
         "Vol, décalage horaire, paiement, formalités et saisons : les éléments à connaître avant de caler les dates.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           iconName: "plane",
@@ -219,17 +219,17 @@ export const destination: Destination = {
       heading: defaultBento.heading,
       description:
         "Plusieurs expertises se mobilisent sur chaque dossier Chine. Un seul interlocuteur coordonne l'ensemble et reste le vôtre, du premier échange jusqu'au retour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
           src: `/destination/chine/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Chine, de Pékin à Shanghai et aux montagnes du Yunnan",
-            "Adresses confidentielles en Chine : une table dressée face aux neiges du Jade Dragon",
-            "Hébergements en Chine : galeries de bois et lanternes d'un salon d'hôtel",
+            "Adresses confidentielles en Chine : maisons de thé, ateliers d'artisans et tables de chefs",
+            "Hébergements en Chine : shikumen de Shanghai et maisons de pierre du Yunnan",
             "Conciergerie privée 24/7 pour un voyage en Chine",
-            "Expériences en Chine : un pavillon privatisé et sa table dressée au-dessus des toits",
+            "Expériences en Chine : Grande Muraille privatisée, villages du Guizhou et survol de Hong Kong",
           ][i],
         },
       })),
@@ -242,7 +242,7 @@ export const destination: Destination = {
       heading: "De Pékin au Yunnan, six étapes possibles",
       description:
         "On commence par le nord et l'histoire, on descend sur le delta et ses jardins, puis vers les montagnes du sud-ouest. Voici les étapes qui structurent un séjour.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
         {
@@ -251,7 +251,7 @@ export const destination: Destination = {
             "La capitale s'ordonne sur un grand axe nord-sud, de la Cité interdite au temple du Ciel. Les hutongs, ces ruelles de maisons basses à cour carrée, occupent encore des quartiers entiers autour du lac Houhai.",
           image: {
             src: "/destination/chine/map-pekin.webp",
-            alt: "Le temple du Ciel encadré par les portes rouges de son enceinte, à Pékin",
+            alt: "Cour intérieure d'une maison de hutong dans le vieux Pékin",
           },
           // TODO: verify coords
           coordinates: { lat: 39.9042, lng: 116.4074 },
@@ -273,7 +273,7 @@ export const destination: Destination = {
             "Sur une rive, les façades des années 1920 du Bund. Sur l'autre, les tours de Pudong. Entre les deux, l'ancienne concession française, ses platanes et ses ruelles de shikumen, ces maisons mitoyennes de brique à porte de pierre.",
           image: {
             src: "/destination/chine/map-shanghai.webp",
-            alt: "Les tours de Pudong vues depuis le Bund à la tombée du jour, à Shanghai",
+            alt: "Ruelle de shikumen bordée de platanes dans l'ancienne concession française de Shanghai",
           },
           // TODO: verify coords
           coordinates: { lat: 31.2304, lng: 121.4737 },
@@ -284,7 +284,7 @@ export const destination: Destination = {
             "Une ville posée autour d'un lac que les peintres chinois copient depuis mille ans. Les collines de thé de Longjing commencent au bout des faubourgs, et le Grand Canal, creusé à la main sur des siècles, s'achève ici.",
           image: {
             src: "/destination/chine/map-hangzhou.webp",
-            alt: "Pagode dominant la forêt et la ville de Hangzhou au crépuscule",
+            alt: "Barque sur le lac de l'Ouest à Hangzhou, avec les collines en arrière-plan",
           },
           // TODO: verify coords
           coordinates: { lat: 30.2741, lng: 120.1551 },
@@ -295,7 +295,7 @@ export const destination: Destination = {
             "Une vieille ville de canaux et de pavés, posée au pied du Jade Dragon. Les Naxi y vivent depuis des siècles et ont gardé la dernière écriture pictographique encore en usage au monde.",
           image: {
             src: "/destination/chine/map-lijiang.webp",
-            alt: "Lanternes rouges suspendues aux maisons de bois de la vieille ville de Lijiang",
+            alt: "Toits et canaux de la vieille ville de Lijiang, au pied du Jade Dragon",
           },
           // TODO: verify coords
           coordinates: { lat: 26.8721, lng: 100.2299 },
@@ -306,7 +306,7 @@ export const destination: Destination = {
             "La province la plus montagneuse du pays, et la moins parcourue. Autour de Kaili, les villages miao et dong se tiennent sur les crêtes, avec leurs tours du tambour en bois assemblées sans un seul clou.",
           image: {
             src: "/destination/chine/map-guizhou.webp",
-            alt: "Village miao aux toits de bois s'étageant sur un versant du Guizhou, à la nuit tombante",
+            alt: "Village dong et tour du tambour en bois sur une crête du Guizhou",
           },
           // TODO: verify coords
           coordinates: { lat: 26.5833, lng: 107.9817 },
@@ -321,7 +321,7 @@ export const destination: Destination = {
       heading: "Les conseils de nos experts pour votre voyage en Chine",
       description:
         "Huit repères rapportés du terrain : comment on circule, ce qui se prépare avant de partir, et ce qui change d'une région à l'autre.",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       items: [
         {
           title: "Le train fait le plus beau du trajet",
@@ -557,7 +557,7 @@ export const destination: Destination = {
       type: "testimonials",
       eyebrow: "Témoignages",
       heading: "Ils ont vécu l'expérience Exuma",
-      cta: { label: "Construire ce voyage", href: "/votre-projet" },
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       testimonials: [
         {
           // TODO: replace with real testimonial

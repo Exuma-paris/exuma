@@ -32,6 +32,17 @@ export function ContactQuestionView({
         onChange={(e) => set("name", e.target.value)}
         required
       />
+      {question.withCompany ? (
+        // Facultatif, mais présenté comme les autres champs : le signaler
+        // reviendrait à inviter à le sauter.
+        <Input
+          label={question.companyLabel ?? "Société"}
+          type="text"
+          autoComplete="organization"
+          value={value.company}
+          onChange={(e) => set("company", e.target.value)}
+        />
+      ) : null}
       <Input
         label="Email"
         type="email"
