@@ -1,31 +1,56 @@
 # Reference images — Argentine
 
-Each generated image in `public/destination/argentine/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
+Deux traitements coexistent sur cette page, selon le statut de la référence.
 
-| Output                     | Reference file                 | Source URL | License |
-| -------------------------- | ------------------------------ | ---------- | ------- |
-| `hero-1.png`               | `hero-1-ref.jpg`               | TODO       | TODO    |
-| `hero-2.png`               | `hero-2-ref.jpg`               | TODO       | TODO    |
-| `hero-3.png`               | `hero-3-ref.jpg`               | TODO       | TODO    |
-| `full-image.png`           | `full-image-ref.jpg`           | TODO       | TODO    |
-| `split-1.png`              | `split-1-ref.jpg`              | TODO       | TODO    |
-| `split-2.png`              | `split-2-ref.jpg`              | TODO       | TODO    |
-| `xp-ibera-jaguar-1.png`    | `xp-ibera-jaguar-1-ref.jpg`    | TODO       | TODO    |
-| `xp-ibera-jaguar-2.png`    | `xp-ibera-jaguar-2-ref.jpg`    | TODO       | TODO    |
-| `xp-milonga-san-telmo.png` | `xp-milonga-san-telmo-ref.jpg` | TODO       | TODO    |
-| `xp-mallmann-uco.png`      | `xp-mallmann-uco-ref.jpg`      | TODO       | TODO    |
-| `xp-glacier-upsala.png`    | `xp-glacier-upsala-ref.jpg`    | TODO       | TODO    |
-| `hotel-alvear-palace.png`  | `hotel-alvear-palace-ref.jpg`  | TODO       | TODO    |
-| `hotel-awasi-mendoza.png`  | `hotel-awasi-mendoza-ref.jpg`  | TODO       | TODO    |
-| `hotel-eolo.png`           | `hotel-eolo-ref.jpg`           | TODO       | TODO    |
-| `bento-map.png`            | `bento-map-ref.jpg`            | TODO       | TODO    |
-| `bento-adresses.png`       | `bento-adresses-ref.jpg`       | TODO       | TODO    |
-| `bento-hebergements.png`   | `bento-hebergements-ref.jpg`   | TODO       | TODO    |
-| `bento-conciergerie.png`   | `bento-conciergerie-ref.jpg`   | TODO       | TODO    |
-| `bento-experiences.png`    | `bento-experiences-ref.jpg`    | TODO       | TODO    |
-| `map-buenos-aires.png`     | `map-buenos-aires-ref.jpg`     | TODO       | TODO    |
-| `map-mendoza.png`          | `map-mendoza-ref.jpg`          | TODO       | TODO    |
-| `map-perito-moreno.png`    | `map-perito-moreno-ref.jpg`    | TODO       | TODO    |
-| `map-ibera.png`            | `map-ibera-ref.jpg`            | TODO       | TODO    |
-| `map-iguazu.png`           | `map-iguazu-ref.jpg`           | TODO       | TODO    |
-| `map-humahuaca.png`        | `map-humahuaca-ref.jpg`        | TODO       | TODO    |
+**A. Photos libres de droit, filtre local (20 images).** Fournies par l'équipe
+éditoriale, reprises à l'identique : rognage des bandes transparentes, upscale
+Lanczos3 vers 1920 px de grand côté, puis filtre Exuma appliqué en local par
+`.claude/skills/destination-generator/tmp/grade-argentine.mjs` (saturation 0.84,
+gain [0.86, 0.855, 0.83], lift [18, 15, 11], grain gaussien sigma 6, WebP q96).
+Aucun passage par Gemini : la composition d'origine est conservée telle quelle.
+
+**B. Références non libres de droit, régénération « inspired by » (4 images).**
+La référence a servi de brief de sujet et d'ambiance, pas de source à
+reproduire. Gemini 3 Pro Image (mode `--inspire` de `gen-images.mjs`) a composé
+une photographie originale : même sujet, même terrain, même saison, même
+lumière et même focale, mais position de caméra, angle et cadrage différents.
+La sortie n'est pas un dérivé de la photo de référence.
+
+## A — Photos libres de droit, filtre local
+
+| Sortie                      | Référence                    | Source URL | Licence |
+| --------------------------- | ---------------------------- | ---------- | ------- |
+| `hero-1.webp`               | `hero-1.png`                 | TODO       | libre de droit (à préciser) |
+| `hero-2.webp`               | `hero-2.png`                 | TODO       | libre de droit (à préciser) |
+| `full-image.webp`           | `full-image.png`             | TODO       | libre de droit (à préciser) |
+| `split-1.webp`              | `split-1.png`                | TODO       | libre de droit (à préciser) |
+| `split-2.webp`              | `split-2.png`                | TODO       | libre de droit (à préciser) |
+| `xp-glacier-upsala.webp`    | `xp-glacier-upsala.png`      | TODO       | libre de droit (à préciser) |
+| `xp-milonga-san-telmo.webp` | `xp-milonga-san-telmo.png`   | TODO       | libre de droit (à préciser) |
+| `hotel-alvear-palace.webp`  | `hotel-alvear-palace.png`    | TODO       | libre de droit (à préciser) |
+| `hotel-awasi-mendoza.webp`  | `hotel-awasi-mendoza.png`    | TODO       | libre de droit (à préciser) |
+| `hotel-eolo.webp`           | `hotel-eolo.png`             | TODO       | libre de droit (à préciser) |
+| `bento-adresses.webp`       | `bento-adresses.png`         | TODO       | libre de droit (à préciser) |
+| `bento-hebergements.webp`   | `bento-hebergements.png`     | TODO       | libre de droit (à préciser) |
+| `bento-conciergerie.webp`   | `bento-conciergerie.png`     | TODO       | libre de droit (à préciser) |
+| `bento-experiences.webp`    | `bento-experiences.png`      | TODO       | libre de droit (à préciser) |
+| `map-buenos-aires.webp`     | `map-buenos-aires.png`       | TODO       | libre de droit (à préciser) |
+| `map-mendoza.webp`          | `map-mendoza.png`            | TODO       | libre de droit (à préciser) |
+| `map-perito-moreno.webp`    | `map-perito-moreno.png`      | TODO       | libre de droit (à préciser) |
+| `map-ibera.webp`            | `map-ibera.png`              | TODO       | libre de droit (à préciser) |
+| `map-iguazu.webp`           | `map-iguazu.png`             | TODO       | libre de droit (à préciser) |
+| `map-humahuaca.webp`        | `map-humahuaca.png`          | TODO       | libre de droit (à préciser) |
+
+## B — Régénération « inspired by » (référence non libre de droit)
+
+| Sortie                    | Brief                        | Statut de la référence |
+| ------------------------- | ---------------------------- | ---------------------- |
+| `hero-3.webp`             | `hero-3-ref.png`             | non libre de droit — non publiée, sert de brief seulement |
+| `xp-ibera-jaguar-1.webp`  | `xp-ibera-jaguar-1-ref.png`  | non libre de droit — non publiée, sert de brief seulement |
+| `xp-ibera-jaguar-2.webp`  | `xp-ibera-jaguar-2-ref.png`  | non libre de droit — non publiée, sert de brief seulement |
+| `xp-mallmann-uco.webp`    | `xp-mallmann-uco-ref.png`    | non libre de droit — non publiée, sert de brief seulement |
+
+## Reste à produire
+
+`bento-map.webp` — carte d'itinéraire, fabriquée à partir des contours
+OpenStreetMap par `build-bento-map.mjs`, pas à partir d'une photo.

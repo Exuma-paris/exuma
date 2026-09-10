@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Une vieille maison de San Telmo, un patio ouvert sur le ciel, un orchestre à cordes et des danseurs qui se connaissent depuis toujours. On regarde d'abord, puis quelqu'un finit par vous tendre la main.",
   keywords: ["argentine", "buenos aires", "san telmo", "tango", "milonga"],
   heroImage: {
-    src: "/destination/argentine/xp-milonga-san-telmo.png",
+    src: "/destination/argentine/xp-milonga-san-telmo.webp",
     alt: "Couple de danseurs de tango dans un patio de San Telmo à Buenos Aires",
   },
   destinationSlugs: ["argentine"],
