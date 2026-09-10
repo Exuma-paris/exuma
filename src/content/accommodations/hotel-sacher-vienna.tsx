@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["autriche", "vienne", "opera", "ring", "sacher"],
   heroImage: {
     src: "/destination/autriche/hotel-sacher.webp",
-    alt: "Façade de l’Hotel Sacher face à l’Opéra de Vienne à la tombée du jour",
+    alt: "Chambre du Sacher, lustre de verre et fenêtre ouverte sur les façades viennoises",
   },
   destinationSlugs: ["autriche"],
   sections: [],

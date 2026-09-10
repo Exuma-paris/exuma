@@ -26,6 +26,10 @@ rognés sur la boîte opaque.
 | `map-salzkammergut.webp`   | `map-salzkammergut.png.png`   | Un lac vert du Salzkammergut vu des hauteurs                      | TODO       | TODO    |
 | `map-lech.webp`            | `map-lech.png.png`            | Arête et sommet enneigés du massif de l'Arlberg                   | TODO       | TODO    |
 | `map-innsbruck.webp`       | `map-innsbruck.png.png`       | Le clocher à bulbe d'Innsbruck devant la Nordkette                | TODO       | TODO    |
+| `xp-wachau.webp`           | `xp-wachau.png`               | Terrasses de vigne en pierre sèche d'un coteau de la Wachau       | TODO       | TODO    |
+| `hotel-sacher.webp`        | `hotel-sacher.png`            | Chambre du Sacher, lustre de verre, fenêtre sur les façades       | TODO       | TODO    |
+| `hotel-schloss-fuschl.webp`| `hotel-schloss-fuschl.png`    | Le château sur sa presqu'île du Fuschlsee, vu du ciel             | TODO       | TODO    |
+| `hotel-aurelio-lech.webp`  | `hotel-aurelio-lech.png`      | Terrasse de l'Aurelio Lech ouverte sur les prés, en été           | TODO       | TODO    |
 
 ## Manquantes
 
@@ -35,11 +39,7 @@ rognés sur la boîte opaque.
 | `xp-musikverein-2.webp`      | imageDuoWithText « La Salle dorée »            | Musiciens du Philharmonique en répétition              |
 | `bento-map.webp`             | bento, carte 1                                 | Carte d'un itinéraire Vienne / Wachau / Tyrol          |
 | `bento-conciergerie.webp`    | bento, carte 4                                 | Concierge coordonnant un transfert privé               |
-| `hotel-sacher.webp`          | fiche Hotel Sacher Vienna                      | Façade du Sacher face à l'Opéra de Vienne              |
-| `hotel-schloss-fuschl.webp`  | fiche Rosewood Schloss Fuschl                  | Le château sur sa presqu'île du Fuschlsee              |
-| `hotel-aurelio-lech.webp`    | fiche Aurelio Lech                             | Terrasse de bois ouverte sur les pistes de l'Arlberg   |
 | `xp-lipizzans.webp`          | expérience lipizzans-hofreitschule             | Lipizzan et écuyer dans le manège de la Hofburg        |
-| `xp-wachau.webp`             | expérience wachau-riesling-durnstein           | Terrasses de vigne en pierre sèche au-dessus du Danube |
 | `xp-arlberg.webp`            | expérience arlberg-peau-de-phoque              | Skieurs en montée à peau de phoque à l'aube            |
 
 Les portraits de témoignages réemploient `hero-1/2/3.webp` — ce sont des paysages,

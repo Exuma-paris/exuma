@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["autriche", "wachau", "durnstein", "riesling", "danube"],
   heroImage: {
     src: "/destination/autriche/xp-wachau.webp",
-    alt: "Terrasses de vigne en pierre sèche au-dessus du Danube, près de Dürnstein",
+    alt: "Terrasses de vigne en pierre sèche sur un coteau de la Wachau à l’automne",
   },
   destinationSlugs: ["autriche"],
   sections: [],

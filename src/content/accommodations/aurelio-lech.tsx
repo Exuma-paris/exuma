@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["autriche", "lech", "arlberg", "vorarlberg", "ski"],
   heroImage: {
     src: "/destination/autriche/hotel-aurelio-lech.webp",
-    alt: "Terrasse de bois de l’Aurelio Lech ouverte sur les pistes enneigées de l’Arlberg",
+    alt: "Terrasse et tables de l’Aurelio Lech ouvertes sur les prés de l’Arlberg en été",
   },
   destinationSlugs: ["autriche"],
   sections: [],
