@@ -29,3 +29,16 @@ Each generated image in `public/destination/namibie/` was produced by feeding th
 | `map-damaraland.webp`                   | `map-damaraland-ref.jpg`                    | TODO       | TODO    |
 | `map-kolmanskop.webp`                   | `map-kolmanskop-ref.jpg`                    | TODO       | TODO    |
 | `map-etosha.webp`                       | `map-etosha-ref.jpg`                        | TODO       | TODO    |
+
+---
+
+## Retouches appliquées
+
+Quatre visuels n'ont pas suivi le traitement standard :
+
+| Sortie | Traitement |
+| --- | --- |
+| `xp-skeleton-coast.webp` | Photo non libre de droit. Régénérée avec changement d'angle (vue au niveau du sol au lieu du surplomb) et ajout d'une silhouette au pied de la proue, pour ne pas reproduire l'original. |
+| `xp-namib-naukluft.webp` | Photo non libre de droit. Régénérée avec appareil plus bas sur la crête, cadrage plus large et marcheur vu de dos, pour ne pas reproduire l'original. |
+| `bento-conciergerie.webp` | Photo appartenant à l'agence. Reprise à l'exactitude, filtre Exuma appliqué en local, aucun passage par le modèle. |
+| `bento-map.webp` | Composée localement à partir d'un contour au trait de la Namibie, dans le langage graphique de la Polynésie : fond anthracite, pays en crème, étapes de l'itinéraire numérotées en ocre reliées par un pointillé. Script : `.claude/skills/destination-generator/tmp/build-bento-map.mjs`. |

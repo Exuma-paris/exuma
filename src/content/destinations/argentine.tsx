@@ -36,16 +36,16 @@ export const destination: Destination = {
         "L'Argentine se découvre lentement. Buenos Aires donne le ton avec ses librairies ouvertes tard et ses patios où l'on danse encore le tango, puis les vignes de Mendoza s'étendent au pied des Andes, et la Patagonie finit par tout emporter. Nous composons cet enchaînement depuis plus de dix ans.",
       images: [
         {
-          src: "/destination/argentine/hero-1.png",
-          alt: "Front d'un glacier et sommets de Patagonie argentine au lever du jour",
+          src: "/destination/argentine/hero-1.webp",
+          alt: "Route de Patagonie serpentant vers les sommets enneigés du Fitz Roy",
         },
         {
-          src: "/destination/argentine/hero-2.png",
-          alt: "Façade Belle Époque du quartier de Recoleta à Buenos Aires",
+          src: "/destination/argentine/hero-2.webp",
+          alt: "Rideau de chutes d'Iguazú au milieu de la forêt subtropicale",
         },
         {
-          src: "/destination/argentine/hero-3.png",
-          alt: "Vignes de malbec au pied de la cordillère des Andes à Mendoza",
+          src: "/destination/argentine/hero-3.webp",
+          alt: "Allée entre les rangs de vigne d'un domaine de Mendoza, les Andes enneigées au fond",
         },
       ],
     },
@@ -81,7 +81,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/argentine/full-image.png",
+        src: "/destination/argentine/full-image.webp",
         alt: "Front du glacier Perito Moreno sur le lac Argentino, Patagonie argentine",
       },
       height: 600,
@@ -99,12 +99,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/argentine/split-1.png",
-          alt: "Cerro de los Siete Colores dominant le village de Purmamarca",
+          src: "/destination/argentine/split-1.webp",
+          alt: "Montagnes rouges de la Quebrada dominant un village et ses arbres en fleurs",
         },
         {
-          src: "/destination/argentine/split-2.png",
-          alt: "Vignobles d'altitude de Cafayate dans la vallée Calchaquí",
+          src: "/destination/argentine/split-2.webp",
+          alt: "Grappes de malbec sur pied dans un vignoble de Mendoza",
         },
       ],
     },
@@ -113,12 +113,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/argentine/xp-ibera-jaguar-1.png",
-          alt: "Pirogue moteur coupé dans un couloir d'eau des Esteros del Iberá",
+          src: "/destination/argentine/xp-ibera-jaguar-1.webp",
+          alt: "Méandres d'eau et végétation flottante des Esteros del Iberá vus d'en haut",
         },
         right: {
-          src: "/destination/argentine/xp-ibera-jaguar-2.png",
-          alt: "Jaguar au bord de l'eau dans les marais d'Iberá au crépuscule",
+          src: "/destination/argentine/xp-ibera-jaguar-2.webp",
+          alt: "Femelle jaguar et ses deux jeunes traversant l'eau dans les hautes herbes d'Iberá",
         },
       },
       text: {
@@ -229,13 +229,13 @@ export const destination: Destination = {
         image: {
           src: `/destination/argentine/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure en Argentine",
-            "Porte cochère d'une maison ancienne du quartier de San Telmo",
-            "Chambre ouverte sur la steppe de Patagonie au lever du jour",
-            "Concierge coordonnant un transfert privé vers El Calafate",
-            "Table dressée près d'un feu dans les vignes de la vallée de Uco",
+            "Table dressée devant un four à bois ouvert sur les peupliers d'un domaine",
+            "Façade illuminée d'un grand hôtel Belle Époque à Buenos Aires",
+            "Conseillères d'un service de conciergerie au téléphone",
+            "Randonneur seul sur un sentier enneigé face aux sommets des Andes",
           ][i],
         },
       })),
@@ -256,8 +256,8 @@ export const destination: Destination = {
           description:
             "La ville se découvre par quartiers, des hôtels particuliers de Recoleta aux patios de San Telmo, en passant par les librairies de l'avenue Corrientes qui restent ouvertes quand tout est fermé ailleurs. On y dîne tard, et les soirées s'étirent.",
           image: {
-            src: "/destination/argentine/map-buenos-aires.png",
-            alt: "Hôtels particuliers du quartier de Recoleta à Buenos Aires",
+            src: "/destination/argentine/map-buenos-aires.webp",
+            alt: "Tour de l'horloge et place arborée du quartier de Retiro à Buenos Aires",
           },
           coordinates: { lat: -34.6037, lng: -58.3816 }, // TODO: verify coords
         },
@@ -266,7 +266,7 @@ export const destination: Destination = {
           description:
             "Les vignes s'étagent au pied de la cordillère, dans une lumière sèche qui a fait la réputation du malbec argentin. Au moment des vendanges, la vallée de Uco est à son plus beau.",
           image: {
-            src: "/destination/argentine/map-mendoza.png",
+            src: "/destination/argentine/map-mendoza.webp",
             alt: "Vignobles de la vallée de Uco face à la cordillère des Andes",
           },
           coordinates: { lat: -33.6, lng: -69.15 }, // TODO: verify coords
@@ -276,8 +276,8 @@ export const destination: Destination = {
           description:
             "Le glacier avance encore et se rompt dans un fracas que l'on entend bien après avoir vu le bloc tomber. On l'approche par les passerelles, ou depuis l'eau pour en longer le front.",
           image: {
-            src: "/destination/argentine/map-perito-moreno.png",
-            alt: "Front du glacier Perito Moreno vu depuis les passerelles",
+            src: "/destination/argentine/map-perito-moreno.webp",
+            alt: "Front du glacier Perito Moreno vu au ras de l'eau",
           },
           coordinates: { lat: -50.4785, lng: -73.0397 }, // TODO: verify coords
         },
@@ -286,8 +286,8 @@ export const destination: Destination = {
           description:
             "Ces marais de la province de Corrientes abritent le retour du jaguar en Argentine. On s'y déplace en pirogue et à cheval, au rythme que l'eau impose.",
           image: {
-            src: "/destination/argentine/map-ibera.png",
-            alt: "Couloir d'eau et végétation flottante des Esteros del Iberá",
+            src: "/destination/argentine/map-ibera.webp",
+            alt: "Cerf des marais dans les hautes herbes des Esteros del Iberá",
           },
           coordinates: { lat: -28.5333, lng: -57.1667 }, // TODO: verify coords
         },
@@ -296,8 +296,8 @@ export const destination: Destination = {
           description:
             "Les passerelles s'avancent au-dessus des chutes jusqu'à la Garganta del Diablo, où l'on ne s'entend plus parler. La forêt reprend juste derrière, avec ses toucans et ses coatis qui traversent le chemin.",
           image: {
-            src: "/destination/argentine/map-iguazu.png",
-            alt: "Passerelle face à la Garganta del Diablo aux chutes d'Iguazú",
+            src: "/destination/argentine/map-iguazu.webp",
+            alt: "Rideau de chutes d'Iguazú et rochers de la rivière en contrebas",
           },
           coordinates: { lat: -25.6953, lng: -54.4367 }, // TODO: verify coords
         },
@@ -306,7 +306,7 @@ export const destination: Destination = {
           description:
             "Les caravanes andines ont remonté cette vallée pendant des siècles, entre Purmamarca, Tilcara et Humahuaca. La route s'achève au sommet de l'Hornocal, là où la montagne ne montre plus que ses couleurs.",
           image: {
-            src: "/destination/argentine/map-humahuaca.png",
+            src: "/destination/argentine/map-humahuaca.webp",
             alt: "Strates colorées de la Quebrada de Humahuaca dans la province de Jujuy",
           },
           coordinates: { lat: -23.7447, lng: -65.4989 }, // TODO: verify coords
@@ -536,7 +536,7 @@ export const destination: Destination = {
           quote:
             "Buenos Aires pour commencer, les vignes de Uco ensuite, puis le sud, et à chaque fois nous arrivions avant que la lumière ne tombe. C'est ce genre de détail que l'on n'organise pas soi-même.",
           image: {
-            src: "/destination/argentine/hero-1.png",
+            src: "/destination/argentine/hero-1.webp",
             alt: "Portrait de Philippe et Anne", // TODO: verify
           },
           name: "Philippe & Anne", // TODO: verify
@@ -547,7 +547,7 @@ export const destination: Destination = {
           quote:
             "Iberá restera le souvenir du voyage. Nous n'avons pas vu de jaguar et cela n'a rien changé, tant les journées passées auprès des biologistes du programme nous ont appris de choses que nous ignorions.",
           image: {
-            src: "/destination/argentine/hero-2.png",
+            src: "/destination/argentine/hero-2.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify
@@ -558,7 +558,7 @@ export const destination: Destination = {
           quote:
             "La milonga dans ce patio de San Telmo nous a appris davantage sur le pays qu'une semaine de visites. Il n'y avait personne d'autre que nous et les danseurs, et nous avons fini par nous lever aussi.",
           image: {
-            src: "/destination/argentine/hero-3.png",
+            src: "/destination/argentine/hero-3.webp",
             alt: "Portrait de Marie-Hélène", // TODO: verify
           },
           name: "Marie-Hélène", // TODO: verify

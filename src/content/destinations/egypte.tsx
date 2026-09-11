@@ -44,7 +44,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/egypte/hero-3.webp",
-          alt: "Dunes de la Grande Mer de Sable en bordure de l'oasis de Siwa",
+          alt: "Baigneuse flottant sur le dos dans un lac salé turquoise de l'oasis de Siwa, Égypte",
         },
       ],
     },
