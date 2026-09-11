@@ -50,7 +50,16 @@ La sortie n'est pas un dérivé de la photo de référence.
 | `xp-ibera-jaguar-2.webp`  | `xp-ibera-jaguar-2-ref.png`  | non libre de droit — non publiée, sert de brief seulement |
 | `xp-mallmann-uco.webp`    | `xp-mallmann-uco-ref.png`    | non libre de droit — non publiée, sert de brief seulement |
 
-## Reste à produire
+## C — Carte tracée (1 image)
 
-`bento-map.webp` — carte d'itinéraire, fabriquée à partir des contours
-OpenStreetMap par `build-bento-map.mjs`, pas à partir d'une photo.
+`bento-map.webp` n'est pas une photo. Elle est tracée par
+`.claude/skills/destination-generator/tmp/bento-map-argentine.mjs` depuis la
+géométrie OpenStreetMap réelle du pays
+(`references/destination/argentine/geo/ar.json`, relevée via Nominatim), dans
+la palette prise sur `public/destination/polynesie/bento-map.png` : terre
+`#f5f2ec`, pastilles `#a5794c`, tracé et chiffres `#ffffff`, fond transparent
+laissé au composant.
+
+Les six pastilles numérotent les étapes de l'itinéraire, aux coordonnées du
+`placesMap` de la page : 1 Buenos Aires, 2 Iberá, 3 Iguazú, 4 Humahuaca,
+5 Mendoza, 6 Perito Moreno. Aucune IA.

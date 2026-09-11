@@ -2,7 +2,7 @@
 
 Dossier : `public/destination/argentine/`
 
-**24 sur 25 présentes.** Il ne manque que la carte du bloc bento.
+**25 sur 25 présentes.** La page est complète.
 
 Deux traitements, selon le statut de la référence — le détail est dans
 `references/destination/argentine/SOURCES.md` :
@@ -51,9 +51,10 @@ Les textes alternatifs de la page ont été réécrits d'après les images réel
 - [x] `bento-conciergerie.webp` — conseillères d'un service de conciergerie
 - [x] `bento-experiences.webp` — randonneur sur un sentier enneigé face aux Andes
 - [x] `bento-hebergements.webp` — façade illuminée d'un grand hôtel Belle Époque
-- [ ] `bento-map.webp` — **manquante** — carte d'itinéraire ; elle se fabrique à
-      partir des contours OpenStreetMap (`build-bento-map.mjs`), pas à partir
-      d'une photo
+- [x] `bento-map.webp` — carte de l'itinéraire, tracée depuis les contours
+      OpenStreetMap dans la palette de la Polynésie ; les six pastilles
+      numérotent les étapes : Buenos Aires, Iberá, Iguazú, Humahuaca,
+      Mendoza, Perito Moreno
 
 ## Carte interactive
 
