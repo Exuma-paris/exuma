@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["norvege", "sunnmore", "hjorundfjord", "ski de randonnee", "voilier"],
   heroImage: {
     src: "/destination/norvege/xp-ski-voile-sunnmore.webp",
-    alt: "Voilier naviguant au pied des Alpes de Sunnmøre en Norvège",
+    alt: "Voilier au mouillage au pied des Alpes de Sunnmøre en Norvège",
   },
   destinationSlugs: ["norvege"],
   sections: [],
