@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Des fresques de Sigiriya aux remparts de Galle, des plantations de Bogawantalawa aux jungles de Yala, le Sri Lanka réunit dans une seule île ce que d'autres pays mettent un continent à rassembler. On quitte une capitale royale abandonnée aux figuiers pour monter dans le froid des hautes terres, et l'on dort le lendemain là où passent les léopards. Nous écrivons cette continuité depuis dix ans.",
       images: [
         {
-          src: "/destination/sri-lanka/hero-1.png",
-          alt: "Rocher de Sigiriya émergeant de la jungle au lever du jour au Sri Lanka",
+          src: "/destination/sri-lanka/hero-1.webp",
+          alt: "Le rocher de Sigiriya émergeant d'une mer de nuages au lever du jour au Sri Lanka",
         },
         {
-          src: "/destination/sri-lanka/hero-2.png",
-          alt: "Cueilleuse de thé dans les plantations en terrasses des hautes terres srilankaises",
+          src: "/destination/sri-lanka/hero-2.webp",
+          alt: "Troupeau d'éléphants traversant une rivière bordée de jungle au Sri Lanka",
         },
         {
-          src: "/destination/sri-lanka/hero-3.png",
-          alt: "Remparts hollandais de Galle au coucher du soleil sur la côte sud du Sri Lanka",
+          src: "/destination/sri-lanka/hero-3.webp",
+          alt: "Mains d'un cultivateur srilankais tenant des feuilles et des noix fraîchement cueillies",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/sri-lanka/full-image.png",
-        alt: "Plantations de thé en terrasses des hautes terres du Sri Lanka sous la brume du matin",
+        src: "/destination/sri-lanka/full-image.webp",
+        alt: "Allée de palmiers royaux dans un jardin botanique des environs de Kandy au Sri Lanka",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/sri-lanka/split-1.png",
-          alt: "Cueilleuse de thé avançant dans un rang de théiers de la vallée de Bogawantalawa",
+          src: "/destination/sri-lanka/split-1.webp",
+          alt: "Train bleu longeant les plantations de thé en terrasses des hautes terres srilankaises",
         },
         {
-          src: "/destination/sri-lanka/split-2.png",
-          alt: "Machines d'origine de l'usine de thé de Dambatenne construite par Thomas Lipton",
+          src: "/destination/sri-lanka/split-2.webp",
+          alt: "Collines de thé taillées en terrasses dans la vallée de Bogawantalawa au Sri Lanka",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/sri-lanka/xp-sigiriya-1.png",
-          alt: "Escalier taillé dans la paroi du rocher de Sigiriya au petit matin",
+          src: "/destination/sri-lanka/xp-sigiriya-1.webp",
+          alt: "Escalier accroché à la paroi du rocher de Sigiriya au petit matin",
         },
         right: {
-          src: "/destination/sri-lanka/xp-sigiriya-2.png",
-          alt: "Fresque des demoiselles de Sigiriya peinte à même la paroi de granit",
+          src: "/destination/sri-lanka/xp-sigiriya-2.webp",
+          alt: "Escaliers de brique descendant vers un bassin des jardins d'eau au pied de Sigiriya",
         },
       },
       text: {
@@ -226,13 +226,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/sri-lanka/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/sri-lanka/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Sri Lanka entre triangle culturel, pays du thé et côte sud",
-            "Adresses confidentielles au Sri Lanka : bungalows de planteurs et maisons hors circuit",
-            "Hébergements au Sri Lanka : Ceylon Tea Trails et Wild Coast Tented Lodge",
+            "Danseurs kandyens et joueurs de tambour lors d'une représentation au Sri Lanka",
+            "Piscine bordée de transats et de palmiers dans un hébergement du Sri Lanka",
             "Conciergerie privée 24/7 pour un voyage au Sri Lanka",
-            "Expériences immersives au Sri Lanka : Sigiriya à l'aube et pistage des léopards de Yala",
+            "Moines en robe safran devant un bouddha sous un surplomb rocheux éclairé de bougies",
           ][i],
         },
       })),
@@ -253,8 +253,8 @@ export const destination: Destination = {
           description:
             "Le rocher culmine à 180 mètres au-dessus de la plaine. Au sommet, les fondations du palais de Kassapa et des citernes taillées dans le granit, en eau depuis 477.",
           image: {
-            src: "/destination/sri-lanka/map-sigiriya.png",
-            alt: "Rocher du Lion de Sigiriya vu depuis la plaine et ses jardins d'eau",
+            src: "/destination/sri-lanka/map-sigiriya.webp",
+            alt: "Le rocher de Sigiriya et ses ruines vus d'en haut au-dessus de la jungle",
           },
           // TODO: verify coords
           coordinates: { lat: 7.957, lng: 80.7603 },
@@ -264,8 +264,8 @@ export const destination: Destination = {
           description:
             "Le royaume est tombé en 1815. Le temple de la Dent garde une relique du Bouddha et trois cérémonies par jour, tambours et hautbois.",
           image: {
-            src: "/destination/sri-lanka/map-kandy.png",
-            alt: "Temple de la Dent au bord du lac de Kandy au Sri Lanka",
+            src: "/destination/sri-lanka/map-kandy.webp",
+            alt: "Galerie de pierre sculptée du temple de la Dent à Kandy au Sri Lanka",
           },
           // TODO: verify coords
           coordinates: { lat: 7.2906, lng: 80.6337 },
@@ -275,7 +275,7 @@ export const destination: Destination = {
           description:
             "À 1 200 mètres, la vallée produit l'un des thés les plus cotés de Ceylan. Quatre bungalows de planteurs des années 1890 y sont restés habitables.",
           image: {
-            src: "/destination/sri-lanka/map-bogawantalawa.png",
+            src: "/destination/sri-lanka/map-bogawantalawa.webp",
             alt: "Vallée de Bogawantalawa et ses plantations de thé dans les hautes terres srilankaises",
           },
           // TODO: verify coords
@@ -286,8 +286,8 @@ export const destination: Destination = {
           description:
             "Le viaduc de Demodara a été bâti en 1921 en pierre et en briques, sans une tige d'acier : la guerre avait tout absorbé. Le train y passe plusieurs fois par jour.",
           image: {
-            src: "/destination/sri-lanka/map-ella.png",
-            alt: "Pont des neuf arches de Demodara près d'Ella entouré de jungle",
+            src: "/destination/sri-lanka/map-ella.webp",
+            alt: "Cascade dévalant la falaise dans la jungle des environs d'Ella au Sri Lanka",
           },
           // TODO: verify coords
           coordinates: { lat: 6.8667, lng: 81.0466 },
@@ -297,8 +297,8 @@ export const destination: Destination = {
           description:
             "Le bloc 1 affiche l'une des plus fortes densités de léopards au monde. Le parc ferme en septembre et une partie d'octobre, quand les points d'eau s'assèchent.",
           image: {
-            src: "/destination/sri-lanka/map-yala.png",
-            alt: "Léopard du Sri Lanka sur un rocher du bloc 1 du parc national de Yala",
+            src: "/destination/sri-lanka/map-yala.webp",
+            alt: "Troupeau d'éléphants au petit matin dans la brume du parc national de Yala",
           },
           // TODO: verify coords
           coordinates: { lat: 6.3728, lng: 81.5016 },
@@ -308,8 +308,8 @@ export const destination: Destination = {
           description:
             "Les fortifications hollandaises de 1663 ont contenu le tsunami de 2004. À l'intérieur, des rues à angle droit, un phare et un terrain de cricket qu'on regarde depuis le rempart.",
           image: {
-            src: "/destination/sri-lanka/map-galle.png",
-            alt: "Phare et remparts hollandais du fort de Galle sur la côte sud du Sri Lanka",
+            src: "/destination/sri-lanka/map-galle.webp",
+            alt: "Phare blanc du fort de Galle entre les palmiers sur la côte sud du Sri Lanka",
           },
           // TODO: verify coords
           coordinates: { lat: 6.0535, lng: 80.221 },
@@ -549,8 +549,8 @@ export const destination: Destination = {
           quote:
             "Monter à Sigiriya à cinq heures et demie avec un archéologue, c'est autre chose que la file de sept heures. On avait la galerie des fresques pour nous, et il nous a lu les graffitis du mur miroir. Ce matin-là justifie le voyage.",
           image: {
-            src: "/destination/sri-lanka/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            src: "/destination/sri-lanka/hero-1.webp",
+            alt: "Le rocher de Sigiriya émergeant d'une mer de nuages au lever du jour au Sri Lanka", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "TODO: Sri Lanka, triangle culturel et pays du thé, 2025", // TODO: replace with real testimonial
@@ -560,8 +560,8 @@ export const destination: Destination = {
           quote:
             "Les bungalows de Bogawantalawa, le feu de cheminée à 1 200 mètres et le thé servi à six heures du matin : on ne s'attendait pas à avoir froid au Sri Lanka. C'est le souvenir le plus net des quinze jours.",
           image: {
-            src: "/destination/sri-lanka/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            src: "/destination/sri-lanka/hero-2.webp",
+            alt: "Troupeau d'éléphants traversant une rivière bordée de jungle au Sri Lanka", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "TODO: Sri Lanka en famille, 2025", // TODO: replace with real testimonial
@@ -571,8 +571,8 @@ export const destination: Destination = {
           quote:
             "À Yala, notre naturaliste a coupé le moteur et attendu quarante minutes sur les alarmes des langurs. Le léopard est passé à dix mètres. Les autres 4x4 étaient trois kilomètres plus loin, sur la radio.",
           image: {
-            src: "/destination/sri-lanka/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            src: "/destination/sri-lanka/hero-3.webp",
+            alt: "Mains d'un cultivateur srilankais tenant des feuilles et des noix fraîchement cueillies", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "TODO: Sri Lanka, Yala et côte sud, 2025", // TODO: replace with real testimonial
