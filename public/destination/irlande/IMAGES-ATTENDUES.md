@@ -2,9 +2,9 @@
 
 Dossier : `public/destination/irlande/`
 
-**19 sur 25 présentes.** Il manque 6 images.
+25 sur 25 présentes. La série est complète.
 
-Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher. Les fichiers sont au format `.webp`.
+Toutes les images sont en place, au format `.webp`. Pour en remplacer une, déposez le fichier de référence dans `references/destination/irlande/` sous le nom `<nom>-ref.png`.
 
 ## Carrousel du hero
 
@@ -23,8 +23,8 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 ## Notre coup de cœur
 
-- [ ] `xp-helicoptere-1.webp` — **Hélicoptère longeant les falaises de Moher au-dessus de l'Atlantique**
-- [ ] `xp-helicoptere-2.webp` — **Hélicoptère posé sur une plage déserte du Connemara à marée basse**
+- [x] `xp-helicoptere-1.webp` — Hélicoptère longeant les falaises de Moher au-dessus de l'Atlantique
+- [x] `xp-helicoptere-2.webp` — Hélicoptère survolant les falaises de Moher et le rocher de Branaunmore, vu depuis un bateau
 
 ## Cartes d'expériences
 
@@ -40,19 +40,19 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 ## Bloc de présentation Exuma
 
-- [ ] `bento-map.webp` — **Itinéraire sur mesure en Irlande, de Dublin à la côte du Cork** (tracé de carte, pas une photo)
+- [x] `bento-map.webp` — Itinéraire sur mesure en Irlande, de Dublin à la côte du Cork (tracé de carte, pas une photo)
 - [x] `bento-adresses.webp` — Adresses confidentielles : chais fermés et maisons de famille
 - [x] `bento-hebergements.webp` — Hébergements : château au bord du lac et manoir du Limerick
-- [ ] `bento-conciergerie.webp` — **Conciergerie privée 24/7 pour un voyage en Irlande**
+- [x] `bento-conciergerie.webp` — Conciergerie privée 24/7 pour un voyage en Irlande
 - [x] `bento-experiences.webp` — Expériences : fauconnerie, hélicoptère et links d'Old Head
 
 ## Carte des six étapes
 
-- [ ] `map-dublin.webp` — **Portes peintes et façades géorgiennes de Merrion Square à Dublin**
+- [x] `map-dublin.webp` — Façades géorgiennes en brique et pont de pierre sur la Liffey à Dublin
 - [x] `map-connemara.webp` — Lacs et tourbières du Connemara au bord du Lough Corrib
 - [x] `map-moher.webp` — Falaises de Moher plongeant dans l'Atlantique, comté de Clare
 - [x] `map-dingle.webp` — Route de corniche de Slea Head sur la péninsule de Dingle
-- [ ] `map-kinsale.webp` — **Façades peintes du port de Kinsale et bateaux de pêche, comté de Cork**
+- [x] `map-kinsale.webp` — Façades peintes et devantures d'une ruelle pavée de Kinsale
 - [x] `map-ardmore.webp` — Tour ronde d'Ardmore au-dessus de la baie, comté de Waterford
 
 ## À noter
