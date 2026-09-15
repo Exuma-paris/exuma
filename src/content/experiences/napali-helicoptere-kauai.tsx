@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Portes retirées, l'appareil longe des falaises vertes où aucune route ne mène, puis s'engage dans le canyon de Waimea. C'est la seule façon de voir le nord de Kauai comme les navigateurs l'ont découvert.",
   keywords: ["hawai", "kauai", "na pali", "helicoptere", "waimea"],
   heroImage: {
-    src: "/destination/hawai/xp-napali.png",
-    alt: "Falaises de la côte de Na Pali vues depuis un hélicoptère au nord de Kauai",
+    src: "/destination/hawai/xp-napali.webp",
+    alt: "Hélicoptère longeant les falaises cannelées de la côte de Na Pali, au nord de Kauai",
   },
   destinationSlugs: ["hawai"],
   sections: [],
