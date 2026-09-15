@@ -225,12 +225,12 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/madagascar/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/madagascar/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Madagascar, du Nord à la côte ouest et à la forêt de l'Est",
             "Adresses confidentielles à Madagascar : îles privées et lodges de forêt",
             "Hébergements à Madagascar : île privée du Nord, îlot des Mitsio et presqu'île d'Anjajavy",
-            "Conciergerie privée 24/7 pour un voyage à Madagascar",
+            "Conseillère Exuma au casque, conciergerie privée 24/7 pendant le voyage",
             "Expériences à Madagascar : Tsingy Rouges, allée des baobabs et baleines de Sainte-Marie",
           ][i],
         },
@@ -250,10 +250,10 @@ export const destination: Destination = {
         {
           title: "La baie d'Antsiranana",
           description:
-            "L'une des plus vastes rades naturelles du monde. Un rocher en pain de sucre en marque l'entrée, les plages de Ramena ferment la pointe nord, et la vallée de l'Irodo est à une heure de route.", // TODO: verify le classement de la rade d'Antsiranana
+            "L'une des plus vastes rades naturelles du monde. Les pirogues à voile y rentrent en fin de matinée, les plages de Ramena ferment la pointe nord, et la vallée de l'Irodo est à une heure de route.", // TODO: verify le classement de la rade d'Antsiranana
           image: {
-            src: "/destination/madagascar/map-antsiranana.png",
-            alt: "La baie d'Antsiranana et son rocher en pain de sucre, pointe nord de Madagascar",
+            src: "/destination/madagascar/map-antsiranana.webp",
+            alt: "Pirogue à voile malgache mouillée dans une baie turquoise, pointe nord de Madagascar",
           },
           // TODO: verify coords
           coordinates: { lat: -12.2787, lng: 49.2917 },
@@ -263,8 +263,8 @@ export const destination: Destination = {
           description:
             "Cinq îles au large du nord-est, dont une seule est habitée. Le récif commence à la sortie de la plage, et les tortues vertes viennent pondre sur le sable entre novembre et mars.", // TODO: verify la saison de ponte des tortues à Nosy Ankao
           image: {
-            src: "/destination/madagascar/map-nosy-ankao.png",
-            alt: "Lagon et plage blanche de l'île de Nosy Ankao, nord-est de Madagascar",
+            src: "/destination/madagascar/map-nosy-ankao.webp",
+            alt: "Banc de sable blanc et récif vus du ciel, île de Nosy Ankao, nord-est de Madagascar",
           },
           // TODO: verify coords
           coordinates: { lat: -12.9022, lng: 49.9394 },
@@ -272,10 +272,10 @@ export const destination: Destination = {
         {
           title: "L'archipel des Mitsio",
           description:
-            "Une dizaine d'îles de granit au nord de Nosy Be. Tsarabanjina, la plus connue, tient une plage au nord et une autre au sud : on change de côté selon l'heure du jour.",
+            "Une dizaine d'îles volcaniques au nord de Nosy Be. Sur Nosy Mitsio, des orgues basaltiques tombent droit dans la mer. Tsarabanjina tient une plage au nord et une autre au sud : on change de côté selon l'heure du jour.",
           image: {
-            src: "/destination/madagascar/map-mitsio.png",
-            alt: "Rochers de granit et plage de l'archipel des Mitsio, au nord de Nosy Be",
+            src: "/destination/madagascar/map-mitsio.webp",
+            alt: "Orgues basaltiques plongeant dans la mer, archipel des Mitsio, au nord de Nosy Be",
           },
           // TODO: verify coords
           coordinates: { lat: -12.955, lng: 48.5833 },
@@ -285,8 +285,8 @@ export const destination: Destination = {
           description:
             "Une presqu'île de la côte ouest, que l'on rejoint en avion. Des grottes de calcaire s'ouvrent au bord de l'eau à marée basse, et des criques se succèdent jusqu'à la pointe.",
           image: {
-            src: "/destination/madagascar/map-anjajavy.png",
-            alt: "Forêt sèche et plage de la presqu'île d'Anjajavy, côte ouest de Madagascar",
+            src: "/destination/madagascar/map-anjajavy.webp",
+            alt: "Crique de sable blanc bordée de tsingy calcaires, presqu'île d'Anjajavy, côte ouest",
           },
           // TODO: verify coords
           coordinates: { lat: -15.0167, lng: 47.2333 },
