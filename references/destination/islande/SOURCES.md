@@ -12,18 +12,18 @@ Les références ont été fournies par l'utilisateur le 27 août 2026. Elles so
 | `full-image.webp` | `full-image-ref.png` | fournie par le client | libre de droit |
 | `split-1.webp` | `split-1-ref.png` | fournie par le client | libre de droit |
 | `split-2.webp` | `split-2-ref.png` | fournie par le client | libre de droit |
-| `xp-motoneige-glacier-1.webp` | manquante | à fournir | à fournir |
-| `xp-motoneige-glacier-2.webp` | manquante | à fournir | à fournir |
+| `xp-motoneige-glacier-1.webp` | `xp-motoneige-glacier-1-ref.png` | fournie par le client | **non libre de droit** : rendu via Gemini avec changement de point de vue |
+| `xp-motoneige-glacier-2.webp` | `xp-motoneige-glacier-2-ref.png` | fournie par le client | **non libre de droit** : rendu via Gemini avec changement de point de vue |
 | `xp-iles-westman.webp` | `xp-iles-westman-ref.png` | fournie par le client | libre de droit |
 | `xp-kayak-icebergs.webp` | `xp-kayak-icebergs-ref.png` | fournie par le client | libre de droit |
 | `xp-baleines.webp` | `xp-baleines-ref.png` | fournie par le client | libre de droit |
 | `hotel-umi.webp` | `hotel-umi-ref.png` | fournie par le client | libre de droit |
 | `hotel-skalakot.webp` | `hotel-skalakot-ref.png` | fournie par le client | libre de droit |
 | `hotel-jokulsarlon.webp` | `hotel-jokulsarlon-ref.png` | fournie par le client | libre de droit |
-| `bento-map.webp` | manquante | carte à construire, pas une photo | — |
+| `bento-map.webp` | `bento-map-ref.png` | silhouette fournie par le client | carte composée localement, palette de la carte Polynésie |
 | `bento-adresses.webp` | `bento-adresses-ref.png` | fournie par le client | libre de droit |
 | `bento-hebergements.webp` | `bento-hebergements-ref.png` | fournie par le client | libre de droit |
-| `bento-conciergerie.webp` | manquante | à fournir | à fournir |
+| `bento-conciergerie.webp` | `bento-conciergerie-ref.png` | fournie par le client | libre de droit, reprise telle quelle |
 | `bento-experiences.webp` | `bento-experiences-ref.png` | fournie par le client | libre de droit |
 | `map-seljalandsfoss.webp` | `map-seljalandsfoss-ref.png` | fournie par le client | libre de droit |
 | `map-thorsmork.webp` | `map-thorsmork-ref.png` | fournie par le client | libre de droit |

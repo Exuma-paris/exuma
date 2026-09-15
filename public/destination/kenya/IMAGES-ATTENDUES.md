@@ -2,9 +2,7 @@
 
 Dossier : `public/destination/kenya/`
 
-**17 sur 26 présentes.** Il manque 9 images.
-
-Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
+**26 sur 26 présentes.** La page est complète.
 
 ## Carrousel du hero
 
@@ -23,24 +21,24 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 ## Expériences
 
-- [ ] `xp-boutre-mida.png`
-- [ ] `xp-karen-blixen.png`
+- [x] `xp-boutre-mida.webp`
+- [x] `xp-karen-blixen.webp`
 - [x] `xp-montgolfiere.webp`
 - [x] `xp-samburu.webp`
 
 ## Hébergements
 
+- [x] `hotel-chale-island-resort.webp`
 - [x] `hotel-giraffe-manor.webp`
-- [ ] `hotel-kinondo-kwetu.png`
 - [x] `hotel-richards-river-camp.webp`
 
 ## Bloc bento
 
-- [ ] `bento-adresses.png`
-- [ ] `bento-conciergerie.png`
-- [ ] `bento-experiences.png`
-- [ ] `bento-hebergements.png`
-- [ ] `bento-map.png`
+- [x] `bento-adresses.webp`
+- [x] `bento-conciergerie.webp`
+- [x] `bento-experiences.webp`
+- [x] `bento-hebergements.webp`
+- [x] `bento-map.webp` — carte vectorielle, construite par `tmp/bento-map-kenya.mjs`, pas une photo
 
 ## Carte interactive
 
@@ -54,4 +52,4 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 ## Autres
 
 - [x] `karen-blixen-musee.webp`
-- [ ] `karen-blixen-voiture.png`
+- [x] `karen-blixen-voiture.webp`

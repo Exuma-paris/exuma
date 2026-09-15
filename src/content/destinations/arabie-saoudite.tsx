@@ -36,15 +36,15 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/arabie-saoudite/hero-1.webp",
-          alt: "Les tombeaux nabatéens de Hegra taillés dans le grès à AlUla, voyage en Arabie Saoudite",
+          alt: "Le tombeau de Qasr al-Farid taillé dans un bloc isolé à Hegra, voyage en Arabie Saoudite",
         },
         {
           src: "/destination/arabie-saoudite/hero-2.webp",
-          alt: "Elephant Rock, monolithe de grès dressé dans le sable au coucher du soleil, AlUla",
+          alt: "Formations de grès de la vallée d'AlUla à contre-jour, en fin de journée",
         },
         {
           src: "/destination/arabie-saoudite/hero-3.webp",
-          alt: "Récif de corail et lagon turquoise au large d'Umluj, sur la mer Rouge",
+          alt: "Troupeau de dromadaires au pied des falaises de grès, dans le désert d'AlUla",
         },
       ],
     },
@@ -82,7 +82,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/arabie-saoudite/full-image.webp",
-        alt: "La vallée de grès d'AlUla et son oasis de palmiers au lever du jour, voyage en Arabie Saoudite",
+        alt: "La vallée de grès d'AlUla et son oasis de palmiers en contrebas, voyage en Arabie Saoudite",
       },
       height: 600,
     },
@@ -98,12 +98,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/arabie-saoudite/split-1.png",
-          alt: "Inscriptions dadanitiques gravées dans la falaise de Jabal Ikmah, près de Dadan",
+          src: "/destination/arabie-saoudite/split-1.webp",
+          alt: "Paroi gravée d'inscriptions et de pétroglyphes anciens à Jabal Ikmah, près de Dadan",
         },
         {
           src: "/destination/arabie-saoudite/split-2.webp",
-          alt: "Qasr al-Farid, tombeau nabatéen inachevé taillé dans un bloc isolé à Hegra",
+          alt: "Palais de terre crue du Najd, murs crénelés et ouvertures triangulaires",
         },
       ],
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/arabie-saoudite/xp-sharaan-safari-1.png",
-          alt: "Table dressée dans un canyon éclairé de la réserve de Sharaan, à AlUla",
+          src: "/destination/arabie-saoudite/xp-sharaan-safari-1.webp",
+          alt: "Deux 4x4 sur une piste de sable dans la plaine verte de la réserve de Sharaan",
         },
         right: {
           src: "/destination/arabie-saoudite/xp-sharaan-safari-2.webp",
-          alt: "Véhicule privé au pied des parois de grès de la réserve naturelle de Sharaan",
+          alt: "Parois de grès de la réserve de Sharaan dans la lumière de la fin du jour",
         },
       },
       text: {
@@ -226,13 +226,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/arabie-saoudite/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/arabie-saoudite/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Arabie Saoudite, d'AlUla à Diriyah et à la mer Rouge",
-            "Adresses confidentielles en Arabie Saoudite : maisons de terre et tables de la vallée d'AlUla",
-            "Hébergements en Arabie Saoudite : maisons de la vieille ville, canyon d'Ashar et île de la mer Rouge",
-            "Conciergerie privée 24/7 pour un voyage en Arabie Saoudite",
-            "Expériences en Arabie Saoudite : montgolfière sur Hegra, Land Rover vintage et dîner dans un canyon",
+            "Côtelettes d'agneau et légumes grillés servis sur un plateau de laiton, à AlUla",
+            "Pavillons de bois posés dans le sable au pied des parois de grès d'AlUla",
+            "Travel designer Exuma à son bureau, conciergerie privée 24/7",
+            "Séance de yoga au lever du soleil sur une terrasse de bois, face aux rochers d'AlUla",
           ][i],
         },
       })),
@@ -254,7 +254,7 @@ export const destination: Destination = {
             "La grande cité nabatéenne du sud, à vingt minutes de la vieille ville d'AlUla. Plus de cent tombeaux monumentaux taillés dans des blocs isolés, et la gare du chemin de fer du Hedjaz à l'entrée du site. Premier bien saoudien inscrit au patrimoine mondial, en 2008.",
           image: {
             src: "/destination/arabie-saoudite/map-hegra.webp",
-            alt: "Façades des tombeaux nabatéens de Hegra dans le désert de grès, AlUla",
+            alt: "Qasr al-Farid, tombeau isolé de Hegra, vu du ciel",
           },
           // TODO: verify coords
           coordinates: { lat: 26.7869, lng: 37.9535 },
@@ -265,7 +265,7 @@ export const destination: Destination = {
             "Un labyrinthe de maisons de terre adossées à une citadelle, habité jusqu'aux années 1980 puis laissé au sable. Une partie est relevée, et les ruelles se traversent le soir quand les ateliers et les tables ouvrent. L'oasis commence au bout de la dernière maison.", // TODO: verify la date d'abandon de la vieille ville
           image: {
             src: "/destination/arabie-saoudite/map-alula-vieille-ville.webp",
-            alt: "Ruelles de terre de la vieille ville d'AlUla au pied de la citadelle",
+            alt: "Ouverture dans le grès donnant sur les formations rocheuses de la vallée d'AlUla",
           },
           // TODO: verify coords
           coordinates: { lat: 26.6089, lng: 37.9217 },
@@ -276,7 +276,7 @@ export const destination: Destination = {
             "L'ancienne capitale du royaume de Dadan, puis de Lihyan, avec ses tombeaux creusés en hauteur dans la falaise rouge. Le canyon voisin de Jabal Ikmah porte des centaines d'inscriptions gravées, dans quatre écritures différentes.", // TODO: verify le nombre d'écritures présentes à Jabal Ikmah
           image: {
             src: "/destination/arabie-saoudite/map-jabal-ikmah.webp",
-            alt: "Falaise gravée d'inscriptions anciennes de Jabal Ikmah, près de Dadan",
+            alt: "Paroi de grès rouge du canyon de Jabal Ikmah, près de Dadan",
           },
           // TODO: verify coords
           coordinates: { lat: 26.6383, lng: 37.8933 },
@@ -287,7 +287,7 @@ export const destination: Destination = {
             "Une vallée fermée au sud d'AlUla, où le léopard d'Arabie, l'oryx et le bouquetin de Nubie ont été réintroduits. On y entre avec un guide de conservation, en véhicule, et l'on y dîne au fond d'un canyon. Le ciel y est le plus noir de la région.", // TODO: verify les espèces réintroduites dans la réserve de Sharaan
           image: {
             src: "/destination/arabie-saoudite/map-sharaan.webp",
-            alt: "Canyon de grès de la réserve naturelle de Sharaan, au sud d'AlUla",
+            alt: "Piste de sable et 4x4 dans un canyon de la réserve de Sharaan, au sud d'AlUla",
           },
           // TODO: verify coords
           coordinates: { lat: 26.55, lng: 37.75 },
@@ -309,7 +309,7 @@ export const destination: Destination = {
             "Une côte de sable blanc et un chapelet d'îles basses à moins d'une heure de bateau. Le récif commence à quelques mètres du bord : tortues vertes, raies et bancs de poissons de corail. Les hôtels y ouvrent les uns après les autres depuis 2023.", // TODO: verify le calendrier d'ouverture des hôtels de la mer Rouge
           image: {
             src: "/destination/arabie-saoudite/map-umluj.webp",
-            alt: "Îles basses et eaux turquoise au large d'Umluj, côte de la mer Rouge",
+            alt: "Gorgone rouge sur un récif de la mer Rouge, au large d'Umluj",
           },
           // TODO: verify coords
           coordinates: { lat: 25.0213, lng: 37.2685 },

@@ -31,3 +31,26 @@ Each generated image in `public/destination/egypte/` was produced by feeding the
 | `map-siwa.webp`               | `map-siwa-ref.jpg`                | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.webp`, `hero-2.webp` and `hero-3.webp` — no separate files.
+
+---
+
+## Note de production — 9 septembre 2026
+
+Les huit derniers visuels ont été produits à partir de photos fournies par l'équipe éditoriale.
+
+**Six images issues de photos NON libres de droit.** Elles n'ont pas été reprises telles quelles : chacune a été régénérée via Gemini avec un changement de point de vue explicite (angle, hauteur, distance), de façon à obtenir une composition nouvelle plutôt qu'une copie recadrée. Le lieu et les éléments réels sont conservés pour rester fidèles au terrain.
+
+| Sortie | Déplacement de caméra demandé |
+| --- | --- |
+| `hero-3.webp` | Vue oblique rasante depuis la rive opposée, au lieu de l'aérienne plongeante. Une seule baigneuse, en planche. |
+| `xp-siwa.webp` | Caméra au ras du sable, de trois quarts sur le flanc gauche de la tente. |
+| `xp-gem-nocturne-2.webp` | Masque de trois quarts dans sa vitrine, galerie visible autour. |
+| `map-siwa.webp` | Contre-plongée depuis une ruelle du village, murs de kershef au premier plan. |
+| `bento-adresses.webp` | Depuis un angle de la salle, à hauteur d'assise. |
+| `bento-experiences.webp` | Au niveau de l'eau, de trois quarts. Main retirée. |
+
+**`bento-conciergerie.webp` — photo propriété d'Exuma.** Aucune modification, aucun passage par l'IA : seul l'étalonnage couleur maison a été appliqué.
+
+**`bento-map.webp` — aucune photo.** Silhouette vectorielle construite à partir des frontières OpenStreetMap de l'Égypte (`geo/eg.json`, relation OSM, données ODbL), dans la palette relevée sur `public/destination/polynesie/bento-map.png`. Cinq étapes : Gizeh, Louxor, Assouan, Abou Simbel le long du Nil, et Siwa relié depuis Le Caire.
+
+**Réserve juridique.** Une modification de cadrage ne fait pas disparaître les droits de l'auteur d'une photographie : un visuel dérivé reste discutable. Pour une mise en ligne durable, privilégier des sources libres ou sous licence acquise.

@@ -129,11 +129,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/islande/xp-motoneige-glacier-1.webp",
-          alt: "Motoneiges sur la calotte glaciaire du Mýrdalsjökull en Islande",
+          alt: "File de motoneiges traversant la calotte glaciaire du Mýrdalsjökull en Islande",
         },
         right: {
           src: "/destination/islande/xp-motoneige-glacier-2.webp",
-          alt: "Intérieur d'une grotte de glace bleue striée de cendre volcanique",
+          alt: "Pilote seul en motoneige au bord du glacier, face à la côte noire et à la mer",
         },
       },
       text: {

@@ -116,7 +116,7 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/irlande/xp-helicoptere-2.webp",
-          alt: "Hélicoptère posé sur une plage déserte du Connemara à marée basse",
+          alt: "Hélicoptère survolant les falaises de Moher et le rocher de Branaunmore, vu depuis un bateau",
         },
       },
       text: {
@@ -227,7 +227,7 @@ export const destination: Destination = {
         image: {
           src: `/destination/irlande/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
-            "Itinéraire sur mesure en Irlande, de Dublin à la côte du Cork",
+            "Itinéraire sur mesure en Irlande, de Dublin à la côte sud",
             "Adresses confidentielles en Irlande : chais fermés au public et maisons de famille",
             "Hébergements en Irlande : château au bord du Lough Corrib et manoir du Limerick",
             "Conciergerie privée 24/7 pour un voyage en Irlande",
@@ -253,7 +253,7 @@ export const destination: Destination = {
             "Deux jours suffisent. Le Book of Kells à l'ouverture, l'or celte du musée national, les façades géorgiennes de Merrion Square. Le soir, les tables se réservent autour de Grafton Street.",
           image: {
             src: "/destination/irlande/map-dublin.webp",
-            alt: "Portes peintes et façades géorgiennes de Merrion Square à Dublin",
+            alt: "Façades géorgiennes en brique et pont de pierre sur la Liffey à Dublin",
           },
           // TODO: verify coords
           coordinates: { lat: 53.3498, lng: -6.2603 },
@@ -297,7 +297,7 @@ export const destination: Destination = {
             "Un port de pêche aux façades peintes, devenu la place gastronomique du sud. À dix kilomètres, le promontoire d'Old Head avance dans l'Atlantique, cerné par la mer sur trois côtés.",
           image: {
             src: "/destination/irlande/map-kinsale.webp",
-            alt: "Façades peintes du port de Kinsale et bateaux de pêche, comté de Cork",
+            alt: "Façades peintes et devantures d'une ruelle pavée de Kinsale, comté de Cork",
           },
           // TODO: verify coords
           coordinates: { lat: 51.7075, lng: -8.5222 },

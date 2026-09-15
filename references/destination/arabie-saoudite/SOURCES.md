@@ -1,4 +1,4 @@
-# Reference images — Arabie Saoudite
+| `bento-conciergerie.webp` | `bento-conciergerie.png` | Fournie par Exuma | Libre de droit, filtre local sans Gemini || `bento-map.webp` | aucune | Trace OpenStreetMap, build-bento-map-arabie-saoudite.mjs | Donnees OSM (ODbL) || `xp-land-rover-dadan.webp` | `xp-land-rover-dadan-ref.png` | Fournie par Exuma | Non libre de droit : image neuve composee en mode --inspire || `xp-sharaan-safari-1.webp` | `xp-sharaan-safari-1-ref.png` | Fournie par Exuma | Non libre de droit : image neuve composee en mode --inspire || `split-1.webp` | `split-1-ref.png` | Fournie par Exuma | Libre de droit, filtre local sans Gemini |# Reference images — Arabie Saoudite
 
 Each generated image in `public/destination/arabie-saoudite/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
 

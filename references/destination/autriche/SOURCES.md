@@ -1,33 +1,46 @@
 # Reference images — Autriche
 
-Each generated image in `public/destination/autriche/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
+Les visuels de cette destination **ne passent pas par Gemini**. Les photographies
+ont été fournies libres de droit et sont reprises à l'exactitude : seul le filtre
+Exuma est appliqué en local (`.claude/skills/destination-generator/tmp/grade-autriche.mjs`)
+pour uniformiser la série — désaturation douce, tons denses, grain 35 mm, WebP q96.
+Les fichiers en 1920x1080 arrivaient carrés entre deux bandes transparentes,
+rognés sur la boîte opaque.
 
-| Output                          | Reference file                      | Source URL | License |
-| ------------------------------- | ----------------------------------- | ---------- | ------- |
-| `hero-1.png`                    | `hero-1-ref.jpg`                    | TODO       | TODO    |
-| `hero-2.png`                    | `hero-2-ref.jpg`                    | TODO       | TODO    |
-| `hero-3.png`                    | `hero-3-ref.jpg`                    | TODO       | TODO    |
-| `full-image.png`                | `full-image-ref.jpg`                | TODO       | TODO    |
-| `split-1.png`                   | `split-1-ref.jpg`                   | TODO       | TODO    |
-| `split-2.png`                   | `split-2-ref.jpg`                   | TODO       | TODO    |
-| `xp-musikverein-1.png`          | `xp-musikverein-1-ref.jpg`          | TODO       | TODO    |
-| `xp-musikverein-2.png`          | `xp-musikverein-2-ref.jpg`          | TODO       | TODO    |
-| `xp-lipizzans.png`              | `xp-lipizzans-ref.jpg`              | TODO       | TODO    |
-| `xp-wachau.png`                 | `xp-wachau-ref.jpg`                 | TODO       | TODO    |
-| `xp-arlberg.png`                | `xp-arlberg-ref.jpg`                | TODO       | TODO    |
-| `hotel-sacher.png`              | `hotel-sacher-ref.jpg`              | TODO       | TODO    |
-| `hotel-schloss-fuschl.png`      | `hotel-schloss-fuschl-ref.jpg`      | TODO       | TODO    |
-| `hotel-aurelio-lech.png`        | `hotel-aurelio-lech-ref.jpg`        | TODO       | TODO    |
-| `bento-map.png`                 | `bento-map-ref.jpg`                 | TODO       | TODO    |
-| `bento-adresses.png`            | `bento-adresses-ref.jpg`            | TODO       | TODO    |
-| `bento-hebergements.png`        | `bento-hebergements-ref.jpg`        | TODO       | TODO    |
-| `bento-conciergerie.png`        | `bento-conciergerie-ref.jpg`        | TODO       | TODO    |
-| `bento-experiences.png`         | `bento-experiences-ref.jpg`         | TODO       | TODO    |
-| `map-vienne.png`                | `map-vienne-ref.jpg`                | TODO       | TODO    |
-| `map-salzbourg.png`             | `map-salzbourg-ref.jpg`             | TODO       | TODO    |
-| `map-wachau.png`                | `map-wachau-ref.jpg`                | TODO       | TODO    |
-| `map-salzkammergut.png`         | `map-salzkammergut-ref.jpg`         | TODO       | TODO    |
-| `map-lech.png`                  | `map-lech-ref.jpg`                  | TODO       | TODO    |
-| `map-innsbruck.png`             | `map-innsbruck-ref.jpg`             | TODO       | TODO    |
+## Livrées
 
-Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no separate files.
+| Sortie                     | Fichier de référence          | Sujet réel                                                        | Source URL | Licence |
+| -------------------------- | ----------------------------- | ----------------------------------------------------------------- | ---------- | ------- |
+| `hero-1.webp`              | `hero-1.png.png`              | Hallstatt et son clocher au bord du lac, dans la brume            | TODO       | TODO    |
+| `hero-2.webp`              | `hero-2.png.png`              | Prés et forêts d'une vallée au pied des montagnes                 | TODO       | TODO    |
+| `hero-3.webp`              | `hero-3.png.png`              | Façades colorées d'Innsbruck au bord de l'Inn                     | TODO       | TODO    |
+| `full-image.webp`          | `full-image.png.png`          | Le Danube, les vignes et un village de la Wachau                  | TODO       | TODO    |
+| `split-2.webp`             | `split-2.png.png`             | Les maisons de Hallstatt étagées à flanc de montagne              | TODO       | TODO    |
+| `xp-musikverein-1.webp`    | `xp-musikverein-1.png.png`    | Voûtes et coupole dorées d'un intérieur baroque viennois          | TODO       | TODO    |
+| `bento-adresses.webp`      | `bento-adresses.png.png`      | Table dressée sur une terrasse au-dessus des toits de Vienne      | TODO       | TODO    |
+| `bento-hebergements.webp`  | `bento-hebergements.png.png`  | Piscine intérieure d'un hôtel, boiseries et lumière basse         | TODO       | TODO    |
+| `bento-experiences.webp`   | `bento-experiences.png.png`   | Paddle sur un lac au petit matin d'automne                        | TODO       | TODO    |
+| `map-vienne.webp`          | `map-vienne.png.png`          | Le château de Schönbrunn et son bassin                            | TODO       | TODO    |
+| `map-salzbourg.webp`       | `map-salzbourg.png.png`       | La Salzach et la forteresse de Hohensalzburg                      | TODO       | TODO    |
+| `map-wachau.webp`          | `map-wachau.png.png`          | L'abbaye de Melk au-dessus du Danube                              | TODO       | TODO    |
+| `map-salzkammergut.webp`   | `map-salzkammergut.png.png`   | Un lac vert du Salzkammergut vu des hauteurs                      | TODO       | TODO    |
+| `map-lech.webp`            | `map-lech.png.png`            | Arête et sommet enneigés du massif de l'Arlberg                   | TODO       | TODO    |
+| `map-innsbruck.webp`       | `map-innsbruck.png.png`       | Le clocher à bulbe d'Innsbruck devant la Nordkette                | TODO       | TODO    |
+| `xp-wachau.webp`           | `xp-wachau.png`               | Terrasses de vigne en pierre sèche d'un coteau de la Wachau       | TODO       | TODO    |
+| `hotel-sacher.webp`        | `hotel-sacher.png`            | Chambre du Sacher, lustre de verre, fenêtre sur les façades       | TODO       | TODO    |
+| `hotel-schloss-fuschl.webp`| `hotel-schloss-fuschl.png`    | Le château sur sa presqu'île du Fuschlsee, vu du ciel             | TODO       | TODO    |
+| `hotel-aurelio-lech.webp`  | `hotel-aurelio-lech.png`      | Terrasse de l'Aurelio Lech ouverte sur les prés, en été           | TODO       | TODO    |
+
+## Manquantes
+
+| Sortie attendue              | Emplacement sur le site                        | Sujet attendu                                          |
+| ---------------------------- | ---------------------------------------------- | ------------------------------------------------------ |
+| `split-1.webp`               | textImagesSplit « Le Salzkammergut »           | Façade jaune impérial et volets de bois à Bad Ischl    |
+| `xp-musikverein-2.webp`      | imageDuoWithText « La Salle dorée »            | Musiciens du Philharmonique en répétition              |
+| `bento-map.webp`             | bento, carte 1                                 | Carte d'un itinéraire Vienne / Wachau / Tyrol          |
+| `bento-conciergerie.webp`    | bento, carte 4                                 | Concierge coordonnant un transfert privé               |
+| `xp-lipizzans.webp`          | expérience lipizzans-hofreitschule             | Lipizzan et écuyer dans le manège de la Hofburg        |
+| `xp-arlberg.webp`            | expérience arlberg-peau-de-phoque              | Skieurs en montée à peau de phoque à l'aube            |
+
+Les portraits de témoignages réemploient `hero-1/2/3.webp` — ce sont des paysages,
+à remplacer par de vraies photos client ou à retirer.

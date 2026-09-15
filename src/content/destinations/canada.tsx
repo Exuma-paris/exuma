@@ -36,15 +36,15 @@ export const destination: Destination = {
         "Le lac Louise se découvre au petit matin, quand l'eau ne porte encore aucune ride et que la montagne s'y reflète en entier. Plus à l'ouest, la forêt descend jusqu'au Pacifique et les hydravions posent leurs flotteurs au fond des baies. À l'autre bout du pays, Terre-Neuve laisse dériver ses icebergs devant les maisons de bois. Nous relions ces trois Canada pour vous, dans l'ordre qui leur convient.",
       images: [
         {
-          src: "/destination/canada/hero-1.png",
-          alt: "Le lac Louise et les Rocheuses au petit matin au Canada",
+          src: "/destination/canada/hero-1.webp",
+          alt: "Canoës rouges sur l'eau turquoise du lac Louise face au glacier, au Canada",
         },
         {
-          src: "/destination/canada/hero-2.png",
+          src: "/destination/canada/hero-2.webp",
           alt: "Chalets sur pilotis au fond d'une baie de Colombie-Britannique",
         },
         {
-          src: "/destination/canada/hero-3.png",
+          src: "/destination/canada/hero-3.webp",
           alt: "Iceberg dérivant au large des maisons de bois de Terre-Neuve",
         },
       ],
@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/canada/full-image.png",
-        alt: "La promenade des Glaciers entre Banff et Jasper dans les Rocheuses au Canada",
+        src: "/destination/canada/full-image.webp",
+        alt: "Le lac Moraine et la vallée des Dix Pics au lever du jour dans les Rocheuses canadiennes",
       },
       height: 600,
     },
@@ -99,11 +99,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/canada/split-1.png",
+          src: "/destination/canada/split-1.webp",
           alt: "Ours esprit au pelage crème au bord d'une rivière à saumons de Colombie-Britannique",
         },
         {
-          src: "/destination/canada/split-2.png",
+          src: "/destination/canada/split-2.webp",
           alt: "Cèdres couverts de mousse dans la forêt du Grand Ours au bord du Pacifique",
         },
       ],
@@ -113,11 +113,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/canada/xp-heliski-bugaboos-1.png",
+          src: "/destination/canada/xp-heliski-bugaboos-1.webp",
           alt: "Hélicoptère posé sur un glacier au pied des tours de granit des Bugaboos",
         },
         right: {
-          src: "/destination/canada/xp-heliski-bugaboos-2.png",
+          src: "/destination/canada/xp-heliski-bugaboos-2.webp",
           alt: "Skieur dans une pente de neige vierge au-dessus d'un glacier des Bugaboos",
         },
       },
@@ -233,13 +233,13 @@ export const destination: Destination = {
         image: {
           src: `/destination/canada/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure au Canada",
-            "Table dressée par un chef dans une maison de bois de l'Ouest canadien",
-            "Chambre en bois clair ouverte sur la forêt du Pacifique",
+            "Salle à manger dont la fenêtre voûtée ouvre sur le lac Louise",
+            "Grand hôtel des Rocheuses illuminé au bord du lac, sous la neige",
             "Concierge organisant un vol en hydravion vers un lodge canadien",
-            "Feu de camp au bord d'un lac des Rocheuses à la tombée du jour",
+            "Deux skieurs de fond dans une vallée enneigée des Rocheuses",
           ][i],
         },
       })),
@@ -260,8 +260,8 @@ export const destination: Destination = {
           description:
             "Le lac Louise ouvre les Rocheuses, avec son eau verte et son glacier au fond de la vallée. Un peu plus haut, le lac Moraine se garde pour ceux qui montent avant les navettes.",
           image: {
-            src: "/destination/canada/map-lac-louise.png",
-            alt: "Le lac Louise et son glacier au fond de la vallée en Alberta",
+            src: "/destination/canada/map-lac-louise.webp",
+            alt: "Ponton de bois sur le lac Louise au lever du jour en Alberta",
           },
           coordinates: { lat: 51.4254, lng: -116.1773 }, // TODO: verify coords
         },
@@ -270,7 +270,7 @@ export const destination: Destination = {
           description:
             "La route relie Banff à Jasper en longeant les champs de glace. On s'arrête au lac Peyto, on marche jusqu'au pied d'un glacier, et l'on croise plus de wapitis que de voitures au petit matin.",
           image: {
-            src: "/destination/canada/map-promenade-glaciers.png",
+            src: "/destination/canada/map-promenade-glaciers.webp",
             alt: "Route de la promenade des Glaciers longeant les sommets enneigés des Rocheuses",
           },
           coordinates: { lat: 52.22, lng: -117.2255 }, // TODO: verify coords
@@ -280,7 +280,7 @@ export const destination: Destination = {
           description:
             "Des tours de granit posées sur un glacier, au milieu des montagnes de Colombie-Britannique. L'héliski y est né et l'on n'y arrive qu'en hélicoptère, ce qui garde la vallée à peu de monde.",
           image: {
-            src: "/destination/canada/map-bugaboos.png",
+            src: "/destination/canada/map-bugaboos.webp",
             alt: "Tours de granit des Bugaboos au-dessus d'un glacier de Colombie-Britannique",
           },
           coordinates: { lat: 50.75, lng: -116.75 }, // TODO: verify coords
@@ -290,8 +290,8 @@ export const destination: Destination = {
           description:
             "À l'ouest de l'île de Vancouver, la forêt vient mourir sur des plages de sable gris. On sort en pirogue de cèdre, on guette les baleines grises, et l'on regarde les tempêtes arriver depuis l'intérieur.",
           image: {
-            src: "/destination/canada/map-tofino.png",
-            alt: "Plage de sable gris et forêt de cèdres à Tofino sur l'île de Vancouver",
+            src: "/destination/canada/map-tofino.webp",
+            alt: "Caillebotis de bois traversant la forêt pluviale près de Tofino, sur l'île de Vancouver",
           },
           coordinates: { lat: 49.153, lng: -125.9066 }, // TODO: verify coords
         },
@@ -300,7 +300,7 @@ export const destination: Destination = {
           description:
             "La ville tient entre la mer et la montagne, et l'on skie le matin avant de dîner au bord de l'eau. Le marché de Granville Island et les totems de Stanley Park donnent le ton du voyage.",
           image: {
-            src: "/destination/canada/map-vancouver.png",
+            src: "/destination/canada/map-vancouver.webp",
             alt: "Vancouver entre la baie et les montagnes de la côte Pacifique",
           },
           coordinates: { lat: 49.2827, lng: -123.1207 }, // TODO: verify coords
@@ -310,8 +310,8 @@ export const destination: Destination = {
           description:
             "Une île de pêcheurs posée dans l'Atlantique Nord, avec ses maisons de bois peintes et ses ateliers d'artistes. Les icebergs passent au large au début de l'été, et les baleines arrivent juste après.",
           image: {
-            src: "/destination/canada/map-fogo.png",
-            alt: "Maisons de bois peintes de Fogo Island face à l'Atlantique Nord",
+            src: "/destination/canada/map-fogo.webp",
+            alt: "Sentier de bois montant sur les rochers de Fogo Island face à l'Atlantique Nord",
           },
           coordinates: { lat: 49.7167, lng: -54.1833 }, // TODO: verify coords
         },
@@ -528,7 +528,7 @@ export const destination: Destination = {
           quote:
             "Nous étions au bord du lac Moraine avant tout le monde, avec un canoë et du café chaud. Le silence de cette heure-là, je ne l'oublierai pas. Le reste du séjour a tenu la même note, jusqu'au dernier dîner dans les Rocheuses.",
           image: {
-            src: "/destination/canada/hero-1.png",
+            src: "/destination/canada/hero-1.webp",
             alt: "Portrait de Frédéric", // TODO: verify
           },
           name: "Frédéric", // TODO: verify
@@ -539,7 +539,7 @@ export const destination: Destination = {
           quote:
             "L'hydravion nous a déposés au fond d'un fjord, et nos deux adolescents n'ont plus regardé leur téléphone pendant une semaine. Les chevaux, les ours vus depuis le bateau, le feu le soir : ils en parlent encore à table.",
           image: {
-            src: "/destination/canada/hero-2.png",
+            src: "/destination/canada/hero-2.webp",
             alt: "Portrait de Constance", // TODO: verify
           },
           name: "Constance", // TODO: verify
@@ -550,7 +550,7 @@ export const destination: Destination = {
           quote:
             "Trois jours dans les Bugaboos avec l'hélicoptère pour nous seuls, puis Terre-Neuve et ses icebergs, que je n'attendais pas du tout. Je pensais connaître le Canada. Pas celui-là.",
           image: {
-            src: "/destination/canada/hero-3.png",
+            src: "/destination/canada/hero-3.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify

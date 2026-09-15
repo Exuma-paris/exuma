@@ -36,16 +36,16 @@ export const destination: Destination = {
         "Le pays tient dans deux registres qui ne se ressemblent pas. Vienne et Salzbourg d’un côté, leurs salles de concert et leurs cafés qui n’ont pas changé de siècle. De l’autre, les vallées du Vorarlberg et du Tyrol, où l’on part skis aux pieds. Nous savons dans quel ordre les prendre.",
       images: [
         {
-          src: "/destination/autriche/hero-1.png",
-          alt: "Salle de concert dorée et loges de velours à Vienne, voyage en Autriche",
+          src: "/destination/autriche/hero-1.webp",
+          alt: "Le village de Hallstatt et son clocher au bord du lac, dans la brume, voyage en Autriche",
         },
         {
-          src: "/destination/autriche/hero-2.png",
-          alt: "Village de montagne du Vorarlberg sous la neige au premier soleil",
+          src: "/destination/autriche/hero-2.webp",
+          alt: "Prés et forêts d’une vallée autrichienne au pied des montagnes",
         },
         {
-          src: "/destination/autriche/hero-3.png",
-          alt: "Barque de bois amarrée sur un lac du Salzkammergut dans la brume",
+          src: "/destination/autriche/hero-3.webp",
+          alt: "Façades colorées d’Innsbruck au bord de l’Inn devant les sommets enneigés du Tyrol",
         },
       ],
     },
@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/autriche/full-image.png",
-        alt: "Le Danube et les terrasses de vigne de la Wachau au lever du jour, voyage en Autriche",
+        src: "/destination/autriche/full-image.webp",
+        alt: "Le Danube, les vignes et un village de la Wachau vus des hauteurs, voyage en Autriche",
       },
       height: 600,
     },
@@ -99,12 +99,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/autriche/split-1.png",
+          src: "/destination/autriche/split-1.webp",
           alt: "Façade jaune impérial et volets de bois d’une maison de Bad Ischl",
         },
         {
-          src: "/destination/autriche/split-2.png",
-          alt: "Le lac de Hallstatt entre deux parois de montagne au petit matin",
+          src: "/destination/autriche/split-2.webp",
+          alt: "Les maisons de bois de Hallstatt étagées à flanc de montagne dans la brume",
         },
       ],
     },
@@ -113,11 +113,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/autriche/xp-musikverein-1.png",
-          alt: "La Salle dorée du Musikverein de Vienne, vide avant la répétition du matin",
+          src: "/destination/autriche/xp-musikverein-1.webp",
+          alt: "Voûtes et coupole dorées d’un intérieur baroque viennois",
         },
         right: {
-          src: "/destination/autriche/xp-musikverein-2.png",
+          src: "/destination/autriche/xp-musikverein-2.webp",
           alt: "Musiciens du Philharmonique de Vienne en répétition sous les cariatides dorées",
         },
       },
@@ -230,13 +230,13 @@ export const destination: Destination = {
         image: {
           src: `/destination/autriche/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d’un itinéraire sur mesure entre Vienne, la Wachau et le Tyrol",
-            "Cour intérieure pavée et façades baroques dans le centre de Salzbourg",
-            "Suite d’un palais viennois ouverte sur les toits de la vieille ville",
+            "Table dressée sur une terrasse au-dessus des toits de Vienne à la nuit tombante",
+            "Piscine intérieure d’un hôtel autrichien, boiseries et lumière basse",
             "Concierge coordonnant un transfert privé depuis un hôtel autrichien",
-            "Table dressée à la bougie dans une cave voûtée de la Wachau",
+            "Paddle sur un lac autrichien au petit matin d’automne",
           ][i],
         },
       })),
@@ -257,8 +257,8 @@ export const destination: Destination = {
           description:
             "La ville se marche du Ring à la Hofburg sans jamais presser le pas. Les cafés y tiennent lieu de salon et l’Opéra donne près de trois cents représentations par an, sur une saison qui court de septembre à juin. Rien n’oblige à tout voir.",
           image: {
-            src: "/destination/autriche/map-vienne.png",
-            alt: "Façades du Ring et coupoles de Vienne à la tombée du jour",
+            src: "/destination/autriche/map-vienne.webp",
+            alt: "Le château de Schönbrunn et son bassin, à Vienne",
           },
           coordinates: { lat: 48.2082, lng: 16.3738 }, // TODO: verify coords
         },
@@ -267,8 +267,8 @@ export const destination: Destination = {
           description:
             "Une forteresse au-dessus des toits, une rivière qui coupe la ville en deux, des cours intérieures que l’on traverse sans les avoir vues depuis la rue. Fin juillet, le Festival prend toute la ville et les chambres se réservent un an à l’avance.",
           image: {
-            src: "/destination/autriche/map-salzbourg.png",
-            alt: "La forteresse de Hohensalzburg au-dessus des toits de Salzbourg",
+            src: "/destination/autriche/map-salzbourg.webp",
+            alt: "La Salzach et la forteresse de Hohensalzburg au-dessus de Salzbourg",
           },
           coordinates: { lat: 47.8095, lng: 13.055 }, // TODO: verify coords
         },
@@ -277,8 +277,8 @@ export const destination: Destination = {
           description:
             "Une quarantaine de kilomètres de Danube entre Melk et Krems, bordés de terrasses de pierre sèche où mûrissent le riesling et le grüner veltliner. Les domaines sont familiaux et petits. Beaucoup ne vendent qu’au caveau.",
           image: {
-            src: "/destination/autriche/map-wachau.png",
-            alt: "Terrasses de vigne au-dessus du Danube et clocher bleu de Dürnstein",
+            src: "/destination/autriche/map-wachau.webp",
+            alt: "L’abbaye de Melk au-dessus du Danube, à l’entrée de la Wachau",
           },
           coordinates: { lat: 48.3961, lng: 15.5203 }, // TODO: verify coords
         },
@@ -287,8 +287,8 @@ export const destination: Destination = {
           description:
             "La région des lacs, à l’est de Salzbourg. Une eau verte et froide, des maisons de bois sur les rives, et le sel que l’on remonte de la montagne depuis trois millénaires. Hallstatt se visite tôt, ou pas du tout.",
           image: {
-            src: "/destination/autriche/map-salzkammergut.png",
-            alt: "Maisons de bois au bord du lac de Hallstatt dans le Salzkammergut",
+            src: "/destination/autriche/map-salzkammergut.webp",
+            alt: "Un lac vert du Salzkammergut vu des hauteurs, entre forêts et sommets",
           },
           coordinates: { lat: 47.5622, lng: 13.6493 }, // TODO: verify coords
         },
@@ -297,8 +297,8 @@ export const destination: Destination = {
           description:
             "Un village du Vorarlberg posé à quinze cents mètres, relié à Zürs et à Saint-Anton par un domaine que l’on parcourt d’un versant à l’autre. Les maisons appartiennent aux mêmes familles depuis trois générations. Aucune n’a grandi.",
           image: {
-            src: "/destination/autriche/map-lech.png",
-            alt: "Chalets de bois enneigés de Lech am Arlberg dans le Vorarlberg",
+            src: "/destination/autriche/map-lech.webp",
+            alt: "Arête et sommet enneigés du massif de l’Arlberg",
           },
           coordinates: { lat: 47.2081, lng: 10.1435 }, // TODO: verify coords
         },
@@ -307,8 +307,8 @@ export const destination: Destination = {
           description:
             "Une ville de vieilles arcades avec un massif de deux mille cinq cents mètres au bout de la rue principale. Le funiculaire monte du centre aux alpages en une vingtaine de minutes. On déjeune en altitude et l’on redescend dîner en ville.",
           image: {
-            src: "/destination/autriche/map-innsbruck.png",
-            alt: "Arcades colorées d’Innsbruck devant les sommets enneigés du Tyrol",
+            src: "/destination/autriche/map-innsbruck.webp",
+            alt: "Le clocher à bulbe d’Innsbruck devant les sommets enneigés de la Nordkette",
           },
           coordinates: { lat: 47.2692, lng: 11.4041 }, // TODO: verify coords
         },
@@ -527,7 +527,7 @@ export const destination: Destination = {
           quote:
             "La répétition du matin au Musikverein restera le souvenir du séjour. Nous étions une trentaine dans la salle. Le soir, nous y sommes revenus pour le concert, et ce n’était plus du tout la même chose.",
           image: {
-            src: "/destination/autriche/hero-1.png",
+            src: "/destination/autriche/hero-1.webp",
             alt: "Portrait de Bernard", // TODO: verify
           },
           name: "Bernard", // TODO: verify
@@ -538,7 +538,7 @@ export const destination: Destination = {
           quote:
             "Vienne, puis la Wachau, puis les lacs. Dix jours et jamais l’impression de courir. Le vigneron de Dürnstein nous a fait descendre à la cave et remonter des bouteilles de 1997, ce n’était pas au programme.",
           image: {
-            src: "/destination/autriche/hero-2.png",
+            src: "/destination/autriche/hero-2.webp",
             alt: "Portrait de Michèle", // TODO: verify
           },
           name: "Michèle", // TODO: verify
@@ -549,7 +549,7 @@ export const destination: Destination = {
           quote:
             "Une semaine à Lech en février, avec un guide le matin et rien d’imposé l’après-midi. Nous sommes montés en peau de phoque avant l’ouverture des remontées et redescendus dans une neige que personne n’avait touchée.",
           image: {
-            src: "/destination/autriche/hero-3.png",
+            src: "/destination/autriche/hero-3.webp",
             alt: "Portrait de Frédéric", // TODO: verify
           },
           name: "Frédéric", // TODO: verify
