@@ -2,7 +2,7 @@
 
 Dossier : `public/destination/panama/`
 
-**20 sur 25 présentes.** Il manque 5 images. Les 20 présentes sont des masters 16:9 en WebP 4K, passés au filtre Exuma.
+**25 sur 25 présentes.** La série est complète.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
@@ -31,23 +31,23 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 ## Hébergements
 
-- [ ] `hotel-islas-secas.webp`
+- [x] `hotel-islas-secas.webp`
 - [x] `hotel-santa-maria.webp`
 - [x] `hotel-sofitel-casco-viejo.webp`
 
 ## Bloc bento
 
 - [x] `bento-adresses.webp`
-- [ ] `bento-conciergerie.webp`
+- [x] `bento-conciergerie.webp`
 - [x] `bento-experiences.webp`
 - [x] `bento-hebergements.webp`
-- [ ] `bento-map.webp`
+- [x] `bento-map.webp`
 
 ## Carte interactive
 
 - [x] `map-bocas-del-toro.webp`
-- [ ] `map-boquete.webp`
-- [ ] `map-canal.webp`
+- [x] `map-boquete.webp`
+- [x] `map-canal.webp`
 - [x] `map-casco-viejo.webp`
 - [x] `map-coiba.webp`
 - [x] `map-guna-yala.webp`
