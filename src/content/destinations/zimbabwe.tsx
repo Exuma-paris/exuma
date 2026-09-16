@@ -280,7 +280,7 @@ export const destination: Destination = {
             "Une plaine d'inondation classée au patrimoine mondial, plantée d'acacias albida. L'un des rares parcs d'Afrique australe où la marche se fait sans véhicule d'escorte.",
           image: {
             src: "/destination/zimbabwe/map-mana-pools.webp",
-            alt: "Bras du Zambèze et forêt claire d'albidas dans le parc de Mana Pools",
+            alt: "Éléphants sur la rive du Zambèze et forêt claire d'albidas, dans le parc de Mana Pools",
           },
           // TODO: verify coords
           coordinates: { lat: -15.7333, lng: 29.35 },
