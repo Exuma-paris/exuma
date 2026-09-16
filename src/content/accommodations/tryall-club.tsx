@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["jamaique", "hanover", "montego bay", "villa privee", "golf"],
   heroImage: {
     src: "/destination/jamaique/hotel-tryall-club.webp",
-    alt: "Villa du Tryall Club et sa piscine surplombant la mer, côte de Hanover",
+    alt: "Villa du Tryall Club et sa piscine au milieu des palmiers, côte de Hanover",
   },
   destinationSlugs: ["jamaique"],
   sections: [],
