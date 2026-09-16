@@ -232,7 +232,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure aux Philippines entre Palawan, Siargao et la Cordillère",
             "Terrasse de bois ouverte sur la mer et les îles au coucher du soleil",
             "Salon d'une villa de bois ouvert sur la végétation de l'île",
-            "Conseillère Exuma au téléphone depuis le bureau parisien",
+            "Conseillère Exuma à son poste, au bureau parisien",
             "Tortue marine croisée en apnée, juste sous la surface",
           ][i],
         },
