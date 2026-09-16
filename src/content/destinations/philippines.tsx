@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Les Philippines se découvrent une île à la fois, et chacune a son tempérament. À Palawan, les falaises de calcaire s'ouvrent sur des lagons que l'on gagne en bateau. Dans la Cordillère, les rizières s'étagent depuis des siècles. C'est cet archipel-là que nous composons pour vous.",
       images: [
         {
-          src: "/destination/philippines/hero-1.png",
+          src: "/destination/philippines/hero-1.webp",
           alt: "Lagon fermé de la baie de Bacuit à El Nido, au nord de Palawan, aux Philippines",
         },
         {
-          src: "/destination/philippines/hero-2.png",
-          alt: "Plage de sable blanc et récif de l'île privée de Pamalican dans l'archipel des Cuyo",
+          src: "/destination/philippines/hero-2.webp",
+          alt: "Îlot de sable blanc cerné d'eau turquoise, un bateau à balancier au mouillage",
         },
         {
-          src: "/destination/philippines/hero-3.png",
-          alt: "Rizières en terrasses des Ifugao dans la Cordillère de Luçon au lever du jour",
+          src: "/destination/philippines/hero-3.webp",
+          alt: "Rizières en terrasses des Ifugao au premier soleil, une hutte de chaume posée entre les paliers",
         },
       ],
     },
@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/philippines/full-image.png",
-        alt: "Tours de calcaire de la baie de Bacuit au large d'El Nido, aux Philippines",
+        src: "/destination/philippines/full-image.webp",
+        alt: "Crique de sable au pied des tours de calcaire de la baie de Bacuit, un bateau à balancier échoué",
       },
       height: 600,
     },
@@ -98,12 +98,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/philippines/split-1.png",
-          alt: "Plongeur à l'intérieur d'une épave japonaise de la baie de Coron",
+          src: "/destination/philippines/split-1.webp",
+          alt: "Vue aérienne du lac Kayangan, bassin d'eau sombre enfermé dans les karsts de Coron",
         },
         {
-          src: "/destination/philippines/split-2.png",
-          alt: "Falaises de karst et eau claire du lac Kayangan sur l'île de Coron",
+          src: "/destination/philippines/split-2.webp",
+          alt: "Nageuse en apnée au-dessus des coraux, juste sous la surface",
         },
       ],
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/philippines/xp-lagons-el-nido-1.png",
+          src: "/destination/philippines/xp-lagons-el-nido-1.webp",
           alt: "Bateau à balancier à l'entrée d'un lagon fermé de la baie de Bacuit à l'aube",
         },
         right: {
-          src: "/destination/philippines/xp-lagons-el-nido-2.png",
-          alt: "Kayak dans le Big Lagoon d'El Nido entre les parois de calcaire",
+          src: "/destination/philippines/xp-lagons-el-nido-2.webp",
+          alt: "Plage de sable au pied des falaises de la baie de Bacuit, bateaux à balancier au mouillage",
         },
       },
       text: {
@@ -227,13 +227,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/philippines/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/philippines/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure aux Philippines entre Palawan, Siargao et la Cordillère",
-            "Adresses confidentielles aux Philippines : maisons d'île et plages hors circuit",
-            "Hébergements aux Philippines : Amanpulo et Nay Palad Hideaway",
-            "Conciergerie privée 24/7 pour un voyage aux Philippines",
-            "Expériences immersives aux Philippines : lagons d'El Nido et récif d'Apo Reef",
+            "Terrasse de bois ouverte sur la mer et les îles au coucher du soleil",
+            "Salon d'une villa de bois ouvert sur la végétation de l'île",
+            "Conseillère Exuma au téléphone depuis le bureau parisien",
+            "Tortue marine croisée en apnée, juste sous la surface",
           ][i],
         },
       })),
@@ -254,8 +254,8 @@ export const destination: Destination = {
           description:
             "Des falaises de calcaire sortent de l'eau et referment des lagons sur eux-mêmes. On y entre par une brèche étroite, en kayak ou à la nage, et l'eau y prend un vert que l'on ne revoit nulle part.",
           image: {
-            src: "/destination/philippines/map-el-nido.png",
-            alt: "Îles de calcaire de la baie de Bacuit vues depuis El Nido à Palawan",
+            src: "/destination/philippines/map-el-nido.webp",
+            alt: "Cocotiers et plage au pied des falaises de calcaire de la baie de Bacuit",
           },
           // TODO: verify coords
           coordinates: { lat: 11.1957, lng: 119.416 },
@@ -265,7 +265,7 @@ export const destination: Destination = {
           description:
             "Une île de sable blanc ceinturée d'un récif continu, que l'on rejoint par les airs. Amanpulo l'occupe seule, et l'on peut y marcher longtemps sans croiser personne.",
           image: {
-            src: "/destination/philippines/map-pamalican.png",
+            src: "/destination/philippines/map-pamalican.webp",
             alt: "Île privée de Pamalican et son récif dans l'archipel des Cuyo",
           },
           // TODO: verify coords
@@ -276,8 +276,8 @@ export const destination: Destination = {
           description:
             "Des navires dorment au fond de la baie depuis la guerre, devenus récifs à leur tour. Sur l'île, des lacs d'eau tiède se cachent derrière la roche.",
           image: {
-            src: "/destination/philippines/map-coron.png",
-            alt: "Falaises karstiques de l'île de Coron au nord de Palawan",
+            src: "/destination/philippines/map-coron.webp",
+            alt: "Îlot de sable blanc et végétation basse, cerné d'eau claire au large de Coron",
           },
           // TODO: verify coords
           coordinates: { lat: 11.9986, lng: 120.2044 },
@@ -287,8 +287,8 @@ export const destination: Destination = {
           description:
             "Le sable de White Beach est d'une finesse rare et la mer y reste calme du matin au soir. Au nord, les criques de Punta Bunga offrent le même sable dans le silence.",
           image: {
-            src: "/destination/philippines/map-boracay.png",
-            alt: "Sable blanc de White Beach sur l'île de Boracay aux Philippines",
+            src: "/destination/philippines/map-boracay.webp",
+            alt: "Cocotiers penchés sur le sable blanc de White Beach à Boracay",
           },
           // TODO: verify coords
           coordinates: { lat: 11.9674, lng: 121.9248 },
@@ -298,8 +298,8 @@ export const destination: Destination = {
           description:
             "La vague de Cloud 9 a fait la réputation de l'île, mais on y vient aussi pour la lagune de Sugba et les routes bordées de palmiers. Le temps y ralentit sans qu'on s'en aperçoive.",
           image: {
-            src: "/destination/philippines/map-siargao.png",
-            alt: "Lagune de Sugba et palmiers de l'île de Siargao aux Philippines",
+            src: "/destination/philippines/map-siargao.webp",
+            alt: "Route rectiligne bordée de cocotiers traversant l'île de Siargao",
           },
           // TODO: verify coords
           coordinates: { lat: 9.7889, lng: 126.1583 },
@@ -309,8 +309,8 @@ export const destination: Destination = {
           description:
             "Les rizières montent à flanc de montagne comme un escalier sans fin. L'air y est frais, le silence presque complet, et l'on y dort mieux qu'ailleurs.",
           image: {
-            src: "/destination/philippines/map-banaue.png",
-            alt: "Rizières en terrasses de Banaue dans la Cordillère de Luçon",
+            src: "/destination/philippines/map-banaue.webp",
+            alt: "Rizières en terrasses étagées dans une vallée de la Cordillère de Luçon",
           },
           // TODO: verify coords
           coordinates: { lat: 16.9089, lng: 121.0578 },
@@ -553,7 +553,7 @@ export const destination: Destination = {
           quote:
             "Partir avant le jour, c'est ce qui a tout changé. Nous avons eu le Big Lagoon pour nous, en kayak, dans un silence complet. Quand les autres bateaux sont arrivés, nous étions déjà sur une plage que personne ne connaissait. Notre capitaine avait pensé la journée dans cet ordre-là.",
           image: {
-            src: "/destination/philippines/hero-1.png",
+            src: "/destination/philippines/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -564,7 +564,7 @@ export const destination: Destination = {
           quote:
             "Amanpulo, c'est une île pour soi. Nous n'avons croisé personne sur la plage de l'est en une semaine, et les enfants ont fini par connaître le récif mieux que nous. Même le vol depuis Manille fait partie du souvenir.",
           image: {
-            src: "/destination/philippines/hero-2.png",
+            src: "/destination/philippines/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -575,7 +575,7 @@ export const destination: Destination = {
           quote:
             "On monte à Batad à pied, et on entend l'eau courir dans les canaux avant de voir les terrasses. L'aîné qui nous accompagnait a raconté comment sa famille les entretient depuis toujours. Après les lagons, nous ne pensions pas que ce serait ce souvenir-là qui resterait.",
           image: {
-            src: "/destination/philippines/hero-3.png",
+            src: "/destination/philippines/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
