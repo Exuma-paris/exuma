@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Une maison géorgienne du Hampshire rendue à ses terres : quatre cents hectares de bois, de lacs et de prairies, et une ferme en biodynamie qui fournit la cuisine chaque matin. Skye Gyngell écrit la carte selon ce que la ferme a donné la veille.",
   keywords: ["royaume-uni", "hampshire", "campagne anglaise", "biodynamie", "ferme"],
   heroImage: {
-    src: "/destination/royaume-uni/hotel-heckfield.png",
-    alt: "Maison géorgienne de Heckfield Place et ses prairies dans le Hampshire",
+    src: "/destination/royaume-uni/hotel-heckfield.webp",
+    alt: "La maison géorgienne de Heckfield Place au milieu de son parc embrumé, dans le Hampshire",
   },
   destinationSlugs: ["royaume-uni"],
   sections: [],
