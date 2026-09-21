@@ -16,7 +16,7 @@ Chaque image de `public/destination/japon/` vient de la référence listée ci-d
 | `split-2.png`                 | `split-2-ref.jpg`                | Grade Gemini        | TODO       | TODO    |
 | `xp-survol-fuji-1.png`        | `xp-survol-fuji-1-ref.jpg`       | Grade Gemini        | TODO       | TODO    |
 | `xp-survol-fuji-2.png`        | `xp-survol-fuji-2-ref.jpg`       | Grade Gemini        | TODO       | TODO    |
-| `xp-sumo-tokyo.webp`          | `xp-sumo-tokyo-ref.png`          | Inspire (Gemini)    | TODO       | Non libre de droit — image neuve |
+| `xp-sumo-tokyo.webp`          | `xp-sumo-tokyo-brief.png`        | Inspire, puis retouche de pose | TODO | Non libre de droit — image neuve |
 | `xp-ceremonie-the-kyoto.webp` | `xp-ceremonie-the-kyoto-ref.jpg` | Grade Gemini        | TODO       | Libre de droits (fournie par Exuma) |
 | `xp-kaiseki-gion.webp`        | `xp-kaiseki-gion-ref.jpg`        | Grade Gemini        | TODO       | Libre de droits (fournie par Exuma) |
 | `hotel-aman-tokyo.png`        | `hotel-aman-tokyo-ref.jpg`       | Grade Gemini        | TODO       | TODO    |
@@ -33,6 +33,16 @@ Chaque image de `public/destination/japon/` vient de la référence listée ci-d
 | `map-kanazawa.webp`           | `map-kanazawa-ref.png`           | Filtre local        | TODO       | Libre de droits (fournie par Exuma) |
 | `map-nara.webp`               | `map-nara-ref.png`               | Filtre local        | TODO       | Libre de droits (fournie par Exuma) |
 | `map-miyajima.webp`           | `map-miyajima-ref.png`           | Filtre local        | TODO       | Libre de droits (fournie par Exuma) |
+
+## Retouche de pose sur `xp-sumo-tokyo.webp`
+
+La photo d'origine, non libre de droit, est conservée sous
+`xp-sumo-tokyo-brief.png` : elle n'a servi que de brief de contenu et n'est plus
+lue par le pipeline. L'image neuve produite en `--inspire` montrait le lutteur
+en shiko, sur un pied. La correction est passée par `--instruction`, avec **notre
+propre rendu** comme référence (`xp-sumo-tokyo-ref.webp`) : le mode édition garde
+la salle, le cadrage et la lumière, et ne change que la posture — les deux pieds
+au sol. Aucune composition tierce n'entre dans cette passe.
 
 ## Tracé de `bento-map.webp`
 
