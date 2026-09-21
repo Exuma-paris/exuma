@@ -259,6 +259,17 @@ export const destination: Destination = {
           coordinates: { lat: 27.4287, lng: 89.4164 },
         },
         {
+          title: "Haa et le col de Chele La",
+          description:
+            "Une vallée longtemps restée fermée aux voyageurs, que l'on rejoint par le plus haut col carrossable du pays. De là-haut, les sommets de l'Himalaya se découvrent d'un coup, drapeaux de prière au premier plan.",
+          image: {
+            src: "/destination/bhoutan/map-haa.webp",
+            alt: "Fermes et champs en terrasses de la vallée de Haa au Bhoutan",
+          },
+          // TODO: verify coords
+          coordinates: { lat: 27.3833, lng: 89.2833 },
+        },
+        {
           title: "Thimphu, la capitale",
           description:
             "Elle tient tout entière dans une vallée et garde des allures de ville de province. On y croise des moines devant les cafés, un agent qui règle la circulation à la main, et le grand Bouddha doré qui veille depuis la colline.",
@@ -297,21 +308,10 @@ export const destination: Destination = {
             "Quatre vallées et les temples les plus anciens du royaume, où l'on vient encore prier plutôt que visiter. On y mange le sarrasin sous toutes ses formes et l'on y boit l'ara au coin du feu.",
           image: {
             src: "/destination/bhoutan/map-bumthang.webp",
-            alt: "Temple de Kurjey Lhakhang dans la vallée de Bumthang au Bhoutan",
+            alt: "Dzong posé sur une crête boisée au-dessus de la vallée de Bumthang dans la brume du matin",
           },
           // TODO: verify coords
           coordinates: { lat: 27.55, lng: 90.75 },
-        },
-        {
-          title: "Haa et le col de Chele La",
-          description:
-            "Une vallée longtemps restée fermée aux voyageurs, que l'on rejoint par le plus haut col carrossable du pays. De là-haut, les sommets de l'Himalaya se découvrent d'un coup, drapeaux de prière au premier plan.",
-          image: {
-            src: "/destination/bhoutan/map-haa.webp",
-            alt: "Fermes et champs en terrasses de la vallée de Haa au Bhoutan",
-          },
-          // TODO: verify coords
-          coordinates: { lat: 27.3833, lng: 89.2833 },
         },
       ],
     },

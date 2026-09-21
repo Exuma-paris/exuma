@@ -116,8 +116,8 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/japon/split-1.png",
-          alt: "Lutteur de sumo s'entraînant tôt le matin dans une écurie de Tokyo, Japon",
+          src: "/destination/japon/split-1.webp",
+          alt: "Deux lutteurs de sumo face à face sur la terre battue d'une écurie de Tokyo, Japon",
         },
         {
           src: "/destination/japon/split-2.png",
@@ -252,7 +252,7 @@ export const destination: Destination = {
             "Carte d'itinéraire personnalisé pour un voyage au Japon",
             "Calligraphe traçant des caractères au pinceau sur une feuille de papier",
             "Salle de restaurant d'un hôtel de Tokyo derrière une claustra de bois, au coucher du soleil",
-            "Concierge Exuma organisant un transfert privé à Tokyo",
+            "Conseillère Exuma au travail sur le dossier d'un voyage",
             "Séance d'acupuncture dans un institut japonais",
           ][i],
         },
@@ -274,28 +274,18 @@ export const destination: Destination = {
           description:
             "Quatorze millions d'habitants et un métro qui arrive à la seconde près. Le quartier de Ginza le jour, celui de Shibuya la nuit : deux villes dans la même ville.",
           image: {
-            src: "/destination/japon/map-tokyo.png",
-            alt: "Croisement animé de Shibuya de nuit à Tokyo, Japon",
+            src: "/destination/japon/map-tokyo.webp",
+            alt: "Pagode à cinq étages d'un temple de Tokyo, Japon",
           },
           coordinates: { lat: 35.6762, lng: 139.6503 },
-        },
-        {
-          title: "Kyoto, mille six cents temples et une seule capitale",
-          description:
-            "Capitale impériale pendant plus de mille ans. Le quartier de Gion garde encore ses maisons de geisha en activité.",
-          image: {
-            src: "/destination/japon/map-kyoto.png",
-            alt: "Ruelles de pierre du quartier de Gion à Kyoto, Japon",
-          },
-          coordinates: { lat: 35.0116, lng: 135.7681 },
         },
         {
           title: "Mont Fuji, la montagne qu'on ne voit jamais deux fois pareille",
           description:
             "Visible depuis Tokyo un jour sur trois seulement, selon l'humidité. Les sources chaudes de Hakone permettent de l'observer en onsen extérieur.",
           image: {
-            src: "/destination/japon/map-fuji.png",
-            alt: "Mont Fuji enneigé reflété dans le lac Kawaguchiko, Japon",
+            src: "/destination/japon/map-fuji.webp",
+            alt: "Sommet enneigé du mont Fuji dans la lumière du lever du jour, Japon",
           },
           coordinates: { lat: 35.3606, lng: 138.7274 },
         },
@@ -304,19 +294,29 @@ export const destination: Destination = {
           description:
             "Aucun bombardement en 1945 : les quartiers de samouraïs et de geishas ont traversé les siècles intacts. Le jardin Kenroku-en compte parmi les trois plus beaux du pays.",
           image: {
-            src: "/destination/japon/map-kanazawa.png",
-            alt: "Quartier historique des samouraïs de Kanazawa, Japon",
+            src: "/destination/japon/map-kanazawa.webp",
+            alt: "Maison de thé en bois au-dessus de l'étang d'un jardin de Kanazawa, Japon",
           },
           // TODO: verify coords
           coordinates: { lat: 36.5613, lng: 136.6562 },
+        },
+        {
+          title: "Kyoto, mille six cents temples et une seule capitale",
+          description:
+            "Capitale impériale pendant plus de mille ans. Le quartier de Gion garde encore ses maisons de geisha en activité.",
+          image: {
+            src: "/destination/japon/map-kyoto.webp",
+            alt: "Femme et enfant en kimono dans une ruelle pavée de Kyoto, Japon",
+          },
+          coordinates: { lat: 35.0116, lng: 135.7681 },
         },
         {
           title: "Nara, la première capitale",
           description:
             "Fondée en 710, avant Kyoto. Mille daims sacrés circulent librement autour du grand Bouddha de bronze du Tôdai-ji.",
           image: {
-            src: "/destination/japon/map-nara.png",
-            alt: "Daims sacrés devant le temple Todai-ji à Nara, Japon",
+            src: "/destination/japon/map-nara.webp",
+            alt: "Daim en liberté sous les érables rouges du parc de Nara, Japon",
           },
           // TODO: verify coords
           coordinates: { lat: 34.6851, lng: 135.8048 },
@@ -326,8 +326,8 @@ export const destination: Destination = {
           description:
             "Le sanctuaire d'Itsukushima et son portail rouge, immergés à marée haute. L'île interdit toute naissance ou tout décès sur son sol depuis des siècles.",
           image: {
-            src: "/destination/japon/map-miyajima.png",
-            alt: "Torii rouge du sanctuaire d'Itsukushima à marée haute, Japon",
+            src: "/destination/japon/map-miyajima.webp",
+            alt: "Torii rouge d'Itsukushima vu depuis les toits du sanctuaire, Miyajima, Japon",
           },
           // TODO: verify coords
           coordinates: { lat: 34.296, lng: 132.3197 },
