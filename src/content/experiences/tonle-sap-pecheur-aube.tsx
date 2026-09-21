@@ -7,7 +7,7 @@ export const experience: Experience = {
     "La barque quitte Kampong Phluk avant le jour, au moment où les filets remontent. Le pêcheur montre jusqu'où l'eau est descendue depuis les pluies, et la forêt inondée se traverse à la rame, dans un silence complet.",
   keywords: ["cambodge", "tonle sap", "kampong phluk", "peche", "siem reap"],
   heroImage: {
-    src: "/destination/cambodge/xp-tonle-sap.png",
+    src: "/destination/cambodge/xp-tonle-sap.webp",
     alt: "Pêcheur relevant ses filets à l'aube devant les maisons sur pilotis de Kampong Phluk",
   },
   destinationSlugs: ["cambodge"],

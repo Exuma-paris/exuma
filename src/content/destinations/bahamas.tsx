@@ -35,16 +35,16 @@ export const destination: Destination = {
         "L'archipel compte sept cents îles et quelques milliers de cayes, dont une trentaine seulement sont habitées. Depuis l'avion, on lit le fond des bancs de sable à travers l'eau avant même d'avoir atterri. Le reste appartient aux bateaux, aux oiseaux et à ceux qui savent où aller.",
       images: [
         {
-          src: "/destination/bahamas/hero-1.png",
+          src: "/destination/bahamas/hero-1.webp",
           alt: "Bancs de sable et eaux turquoise des Exuma Cays lors d'un voyage aux Bahamas",
         },
         {
-          src: "/destination/bahamas/hero-2.png",
-          alt: "Plage de sable rose de Harbour Island, au large d'Eleuthera",
+          src: "/destination/bahamas/hero-2.webp",
+          alt: "Cochons nageurs dans les eaux peu profondes de Big Major Cay, aux Exumas",
         },
         {
-          src: "/destination/bahamas/hero-3.png",
-          alt: "Ponton de bois et cocotiers d'une caye privée d'Andros à la tombée du jour",
+          src: "/destination/bahamas/hero-3.webp",
+          alt: "Maisons de bois blanches et cocotiers d'un village des Bahamas",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/bahamas/full-image.png",
-        alt: "Chaîne de cayes et bancs de sable des Exumas survolés lors d'un voyage aux Bahamas",
+        src: "/destination/bahamas/full-image.webp",
+        alt: "Deux bateaux à l'ancre sur les hauts-fonds turquoise des Exumas, vus du ciel",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/bahamas/split-1.png",
+          src: "/destination/bahamas/split-1.webp",
           alt: "Maison de bois et ponton privé sur une caye du sud des Exumas",
         },
         {
-          src: "/destination/bahamas/split-2.png",
-          alt: "Tombant de la barrière de corail d'Andros au bord de la Tongue of the Ocean",
+          src: "/destination/bahamas/split-2.webp",
+          alt: "Haut-fond corallien et tombant vers le grand bleu, au large des Bahamas",
         },
       ],
     },
@@ -111,11 +111,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/bahamas/xp-harbour-island-1.png",
+          src: "/destination/bahamas/xp-harbour-island-1.webp",
           alt: "Sable rose de Pink Sands Beach à Harbour Island au lever du jour",
         },
         right: {
-          src: "/destination/bahamas/xp-harbour-island-2.png",
+          src: "/destination/bahamas/xp-harbour-island-2.webp",
           alt: "Speedboat privé à l'approche de Dunmore Town, à Harbour Island",
         },
       },
@@ -225,13 +225,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/bahamas/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/bahamas/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure aux Bahamas entre Harbour Island, les Exumas et Andros",
             "Adresses confidentielles aux Bahamas : cayes privées et plages sans nom",
             "Hébergements aux Bahamas : Musha Cay et Kamalame Cay",
             "Conciergerie privée 24/7 pour un voyage aux Bahamas",
-            "Expériences immersives aux Bahamas : sable rose et pêche dans les flats",
+            "Baignade au pied d'une falaise calcaire, sur un banc de sable des Bahamas",
           ][i],
         },
       })),
@@ -252,8 +252,8 @@ export const destination: Destination = {
           description:
             "La capitale garde ses maisons roses et jaunes, son marché aux paniers et les marches taillées du fort Fincastle. On y passe la nuit d'arrivée, et l'on repart au matin vers les cayes.",
           image: {
-            src: "/destination/bahamas/map-nassau.png",
-            alt: "Maisons coloniales et port de Nassau sur l'île de New Providence",
+            src: "/destination/bahamas/map-nassau.webp",
+            alt: "Maisons pastel de Paradise Island et pont vers Nassau, vus du ciel",
           },
           // TODO: verify coords
           coordinates: { lat: 25.078, lng: -77.3383 },
@@ -263,8 +263,8 @@ export const destination: Destination = {
           description:
             "Cinq kilomètres de sable rose, deux rues de maisons coloniales et des voiturettes de golf pour tout véhicule. L'île se traverse en une matinée et retient une semaine.",
           image: {
-            src: "/destination/bahamas/map-harbour-island.png",
-            alt: "Rue de maisons coloniales de Dunmore Town à Harbour Island",
+            src: "/destination/bahamas/map-harbour-island.webp",
+            alt: "Vue aérienne de Harbour Island et de son banc de sable, au large d'Eleuthera",
           },
           // TODO: verify coords
           coordinates: { lat: 25.5, lng: -76.6333 },
@@ -274,8 +274,8 @@ export const destination: Destination = {
           description:
             "Trois cent soixante cayes dont la plupart n'ont pas de nom. Le parc marin y interdit toute pêche depuis 1958, et cela se voit sous la coque du bateau.",
           image: {
-            src: "/destination/bahamas/map-exumas.png",
-            alt: "Cayes et hauts-fonds turquoise du parc marin des Exumas",
+            src: "/destination/bahamas/map-exumas.webp",
+            alt: "Cochon nageur au bord d'une plage des Exumas, aux Bahamas",
           },
           // TODO: verify coords
           coordinates: { lat: 24.1667, lng: -76.4333 },
@@ -285,7 +285,7 @@ export const destination: Destination = {
           description:
             "La plus grande île de l'archipel, et la moins peuplée. Ses flats s'étendent à perte de vue, ses trous bleus s'ouvrent en pleine forêt, et la barrière de corail tombe d'un coup à l'est.",
           image: {
-            src: "/destination/bahamas/map-andros.png",
+            src: "/destination/bahamas/map-andros.webp",
             alt: "Trou bleu et forêt de pins de l'île d'Andros, aux Bahamas",
           },
           // TODO: verify coords
@@ -296,7 +296,7 @@ export const destination: Destination = {
           description:
             "Un chapelet de cayes que l'on navigue à la voile, des maisons de bois blanches et le phare rayé d'Elbow Cay, l'un des derniers encore allumés à la main.",
           image: {
-            src: "/destination/bahamas/map-abacos.png",
+            src: "/destination/bahamas/map-abacos.webp",
             alt: "Phare rayé d'Elbow Cay et port de Hope Town, dans les Abacos",
           },
           // TODO: verify coords
@@ -307,7 +307,7 @@ export const destination: Destination = {
           description:
             "Le trou bleu le plus profond du monde s'ouvre à trente mètres du rivage et descend à deux cent deux mètres. Autour, l'île reste longue, sèche et presque vide.",
           image: {
-            src: "/destination/bahamas/map-long-island.png",
+            src: "/destination/bahamas/map-long-island.webp",
             alt: "Dean's Blue Hole et sa plage en croissant sur Long Island",
           },
           // TODO: verify coords
@@ -553,7 +553,7 @@ export const destination: Destination = {
           quote:
             "Nous sommes partis de Nassau avant sept heures et nous avons eu la plage de Harbour Island pour nous. Le sable est vraiment rose, personne ne nous croit sur les photos. Le capitaine avait pensé la journée dans cet ordre-là, et cela a tout changé.",
           image: {
-            src: "/destination/bahamas/hero-1.png",
+            src: "/destination/bahamas/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -564,7 +564,7 @@ export const destination: Destination = {
           quote:
             "Une île entière pour nous huit, avec l'équipage et deux bateaux. Les enfants ont fini par connaître les plages mieux que le personnel, et nous n'avons croisé personne en dix jours. Même le transfert en hydravion fait partie du souvenir.",
           image: {
-            src: "/destination/bahamas/hero-2.png",
+            src: "/destination/bahamas/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -575,7 +575,7 @@ export const destination: Destination = {
           quote:
             "Trois jours dans les flats d'Andros avec le même guide. Il voyait le poisson dix secondes avant moi, chaque fois. Après cela, les tables de Nassau et le retour au calme de la maison sur la caye nous ont paru presque trop confortables.",
           image: {
-            src: "/destination/bahamas/hero-3.png",
+            src: "/destination/bahamas/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

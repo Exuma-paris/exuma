@@ -1,31 +1,35 @@
 # Reference images — Bahamas
 
-Each generated image in `public/destination/bahamas/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
+Les photographies de `references/destination/bahamas/` ont été déposées par Exuma comme libres de droit. Elles sont **reprises à l'identique** : pas de passage par Gemini, seulement le filtre Exuma appliqué en local (`.claude/skills/destination-generator/tmp/grade-local-bahamas.mjs` — désaturation 0.84, tons denses, grain 35 mm, WebP q96).
 
-| Output                         | Reference file                       | Source URL | License |
+Exception : les trois `hotel-*` arrivaient en définition trop basse (812 à 1618 px de large). Elles ont été repassées par `gen-images.mjs --only hotel-<nom> bahamas --force`, **sans aucun flag de mode** : le prompt `GRADE_ONLY` conserve le cadrage et rend un master 4K. Comparaison avant/après vérifiée dans `.claude/skills/destination-generator/tmp/cmp-hotels-bahamas.jpg` — même bâtiment, même mobilier, même vue, le 16:9 élargit simplement le champ.
+
+Les fichiers de référence sont arrivés en double extension (`hero-1.png.png`) et, pour la plupart, en 1920x1080 avec des bandes latérales transparentes autour d'un carré : ils ont été renommés `<nom>-ref.png` et rognés sur leur boîte opaque avant traitement.
+
+| Output                         | Reference file                      | Source URL | License |
 | ------------------------------ | ----------------------------------- | ---------- | ------- |
-| `hero-1.png`                   | `hero-1-ref.jpg`                    | TODO       | TODO    |
-| `hero-2.png`                   | `hero-2-ref.jpg`                    | TODO       | TODO    |
-| `hero-3.png`                   | `hero-3-ref.jpg`                    | TODO       | TODO    |
-| `full-image.png`               | `full-image-ref.jpg`                | TODO       | TODO    |
-| `split-1.png`                  | `split-1-ref.jpg`                   | TODO       | TODO    |
-| `split-2.png`                  | `split-2-ref.jpg`                   | TODO       | TODO    |
-| `xp-harbour-island-1.png`      | `xp-harbour-island-1-ref.jpg`       | TODO       | TODO    |
-| `xp-harbour-island-2.png`      | `xp-harbour-island-2-ref.jpg`       | TODO       | TODO    |
-| `xp-bonefish.png`              | `xp-bonefish-ref.jpg`               | TODO       | TODO    |
-| `xp-catamaran-green-cay.png`   | `xp-catamaran-green-cay-ref.jpg`    | TODO       | TODO    |
-| `xp-junkanoo.png`              | `xp-junkanoo-ref.jpg`               | TODO       | TODO    |
-| `hotel-musha-cay.png`          | `hotel-musha-cay-ref.jpg`           | TODO       | TODO    |
-| `hotel-kamalame-cay.png`       | `hotel-kamalame-cay-ref.jpg`        | TODO       | TODO    |
-| `hotel-potlatch-club.png`      | `hotel-potlatch-club-ref.jpg`       | TODO       | TODO    |
-| `bento-map.png`                | `bento-map-ref.jpg`                 | TODO       | TODO    |
-| `bento-adresses.png`           | `bento-adresses-ref.jpg`            | TODO       | TODO    |
-| `bento-hebergements.png`       | `bento-hebergements-ref.jpg`        | TODO       | TODO    |
-| `bento-conciergerie.png`       | `bento-conciergerie-ref.jpg`        | TODO       | TODO    |
-| `bento-experiences.png`        | `bento-experiences-ref.jpg`         | TODO       | TODO    |
-| `map-nassau.png`               | `map-nassau-ref.jpg`                | TODO       | TODO    |
-| `map-harbour-island.png`       | `map-harbour-island-ref.jpg`        | TODO       | TODO    |
-| `map-exumas.png`               | `map-exumas-ref.jpg`                | TODO       | TODO    |
-| `map-andros.png`               | `map-andros-ref.jpg`                | TODO       | TODO    |
-| `map-abacos.png`               | `map-abacos-ref.jpg`                | TODO       | TODO    |
-| `map-long-island.png`          | `map-long-island-ref.jpg`           | TODO       | TODO    |
+| `hero-1.webp`                  | `hero-1-ref.png`                    | déposée par Exuma | libre de droit |
+| `hero-2.webp`                  | `hero-2-ref.png`                    | déposée par Exuma | libre de droit |
+| `hero-3.webp`                  | `hero-3-ref.png`                    | déposée par Exuma | libre de droit |
+| `full-image.webp`              | `full-image-ref.png`                | déposée par Exuma | libre de droit |
+| `split-1.webp`                 | — manquante                         | à fournir  | —       |
+| `split-2.webp`                 | `split-2-ref.png`                   | déposée par Exuma | libre de droit |
+| `xp-harbour-island-1.webp`     | — manquante                         | à fournir  | —       |
+| `xp-harbour-island-2.webp`     | — manquante                         | à fournir  | —       |
+| `xp-bonefish.webp`             | `xp-bonefish-ref.png`               | déposée par Exuma | libre de droit |
+| `xp-catamaran-green-cay.webp`  | `xp-catamaran-green-cay-ref.png`    | déposée par Exuma | libre de droit |
+| `xp-junkanoo.webp`             | `xp-junkanoo-ref.png`               | déposée par Exuma | libre de droit |
+| `hotel-musha-cay.webp`         | `hotel-musha-cay-ref.png`           | déposée par Exuma — restylage 4K, cadrage conservé | libre de droit |
+| `hotel-kamalame-cay.webp`      | `hotel-kamalame-cay-ref.png`        | déposée par Exuma — restylage 4K, cadrage conservé | libre de droit |
+| `hotel-potlatch-club.webp`     | `hotel-potlatch-club-ref.png`       | déposée par Exuma — restylage 4K, cadrage conservé | libre de droit |
+| `bento-map.webp`               | — manquante                         | carte à tracer depuis Natural Earth | — |
+| `bento-adresses.webp`          | `bento-adresses-ref.png` — hors sujet (visage de Bouddha) | à remplacer | — |
+| `bento-hebergements.webp`      | `bento-hebergements-ref.png` — hors sujet (salon d'hôtel asiatique) | à remplacer | — |
+| `bento-conciergerie.webp`      | — manquante                         | à fournir  | —       |
+| `bento-experiences.webp`       | `bento-experiences-ref.png`         | déposée par Exuma | libre de droit |
+| `map-nassau.webp`              | `map-nassau-ref.png`                | déposée par Exuma | libre de droit |
+| `map-harbour-island.webp`      | `map-harbour-island-ref.png`        | déposée par Exuma | libre de droit |
+| `map-exumas.webp`              | `map-exumas-ref.png`                | déposée par Exuma | libre de droit |
+| `map-andros.webp`              | — manquante                         | à fournir  | —       |
+| `map-abacos.webp`              | — manquante                         | à fournir  | —       |
+| `map-long-island.webp`         | — manquante                         | à fournir  | —       |
