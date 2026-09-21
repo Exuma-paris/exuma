@@ -2,52 +2,63 @@
 
 Dossier : `public/destination/bhoutan/`
 
-**0 sur 25 présentes.** Il manque 25 images.
+**20 sur 25 présentes.** Il manque 5 images. Les présentes sont en `.webp`.
 
-Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
+Les 20 photos ont été déposées dans `references/destination/bhoutan/`, libres de
+droit, et **reprises telles quelles** : aucun passage par Gemini, seulement le
+filtre Exuma appliqué en local
+(`.claude/skills/destination-generator/tmp/grade-local-bhoutan.mjs`) —
+désaturation douce, tons denses, grain 35 mm. Les fichiers 1920×1080 arrivaient
+en carré centré entre deux bandes transparentes : elles ont été rognées avant
+traitement, l'aspect natif est conservé.
 
-## Carrousel du hero
+## Encore à fournir
 
-- [ ] `hero-1.png`
-- [ ] `hero-2.png`
-- [ ] `hero-3.png`
+| Fichier | Sujet attendu |
+|---|---|
+| `xp-punakha-benediction.webp` | Un lama conduisant une bénédiction dans une chapelle du dzong de Punakha |
+| `xp-grues-phobjikha.webp` | Des grues à cou noir s'envolant de la tourbière de Phobjikha, au petit matin |
+| `xp-helico-jomolhari.webp` | Un hélicoptère privé survolant les sommets et les lacs glaciaires de l'Himalaya bhoutanais |
+| `map-bumthang.webp` | Le temple de Kurjey Lhakhang, vallée de Bumthang |
+| `bento-map.webp` | La carte du pays — elle se trace, elle ne se photographie pas (`build-bento-map.mjs`) |
 
-## Bandeau pleine largeur
+## À vérifier
 
-- [ ] `full-image.png`
+`map-paro.webp` montre les chortens du col de Dochula, pas la vallée de Paro :
+la carte interactive annonce « Paro, la vallée d'arrivée » sur cette étape.
 
-## Section texte et images
+## Présentes
 
-- [ ] `split-1.png`
-- [ ] `split-2.png`
+### Carrousel du hero
+- [x] `hero-1.webp` — le Nid du Tigre accroché à la falaise
+- [x] `hero-2.webp` — un moine devant la façade peinte d'un temple
+- [x] `hero-3.webp` — toiture dorée d'un temple devant la montagne
 
-## Expériences
+### Bandeau pleine largeur
+- [x] `full-image.webp` — rangée de moulins à prières peints
 
-- [ ] `xp-grues-phobjikha.png`
-- [ ] `xp-helico-jomolhari.png`
-- [ ] `xp-punakha-benediction.png`
-- [ ] `xp-taktsang-1.png`
-- [ ] `xp-taktsang-2.png`
+### Section texte et images
+- [x] `split-1.webp` — entrée peinte d'un dzong et son escalier de pierre
+- [x] `split-2.webp` — toiture dorée d'un temple en fin de journée
 
-## Hébergements
+### Le Nid du Tigre
+- [x] `xp-taktsang-1.webp` — moines longeant les moulins à prières
+- [x] `xp-taktsang-2.webp` — Taktsang vu entre les drapeaux de prière
 
-- [ ] `hotel-amankora.png`
-- [ ] `hotel-gangtey-lodge.png`
-- [ ] `hotel-six-senses-bhutan.png`
+### Hébergements
+- [x] `hotel-amankora.webp` — chambre en bois clair, poêle et fenêtre sur la forêt
+- [x] `hotel-gangtey-lodge.webp` — baignoire face à la vallée de Phobjikha
+- [x] `hotel-six-senses-bhutan.webp` — pavillon et piscine à débordement
 
-## Bloc bento
+### Bloc bento
+- [x] `bento-adresses.webp` — repas préparé à la main dans une maison de famille
+- [x] `bento-conciergerie.webp` — la conciergerie au travail
+- [x] `bento-experiences.webp` — danseurs masqués d'un festival cham
+- [x] `bento-hebergements.webp` — baignoire de pierre devant une fenêtre de bois
 
-- [ ] `bento-adresses.png`
-- [ ] `bento-conciergerie.png`
-- [ ] `bento-experiences.png`
-- [ ] `bento-hebergements.png`
-- [ ] `bento-map.png`
-
-## Carte interactive
-
-- [ ] `map-bumthang.png`
-- [ ] `map-haa.png`
-- [ ] `map-paro.png`
-- [ ] `map-phobjikha.png`
-- [ ] `map-punakha.png`
-- [ ] `map-thimphu.png`
+### Carte interactive
+- [x] `map-paro.webp` — chortens du col de Dochula (voir « À vérifier »)
+- [x] `map-thimphu.webp` — le grand Bouddha Dordenma
+- [x] `map-punakha.webp` — le dzong, son pont couvert et ses jacarandas
+- [x] `map-phobjikha.webp` — la vallée et ses tourbières au couchant
+- [x] `map-haa.webp` — fermes et champs en terrasses de la vallée de Haa
