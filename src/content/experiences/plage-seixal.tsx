@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Sur le versant nord, la lave a laissé une plage sombre au pied de falaises vertes. Un peu plus loin, des bassins de basalte que la marée remplit. La cascade du Véu da Noiva tombe au bord de la route.",
   keywords: ["madere", "seixal", "sable noir", "piscines naturelles", "nord"],
   heroImage: {
-    src: "/destination/madere/xp-plage-seixal.png",
+    src: "/destination/madere/xp-plage-seixal.webp",
     alt: "Plage de sable noir de Seixal encadrée de falaises verdoyantes à Madère",
   },
   destinationSlugs: ["madere"],

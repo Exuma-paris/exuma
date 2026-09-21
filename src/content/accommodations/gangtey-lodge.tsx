@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Une ferme rénovée face au monastère de Gangteng, avec une poignée de chambres seulement et la vallée de Phobjikha pour horizon. Depuis la baignoire, on suit les grues à cou noir qui passent l'hiver dans le marais.",
   keywords: ["bhoutan", "phobjikha", "gangtey", "grues a cou noir", "ferme renovee"],
   heroImage: {
-    src: "/destination/bhoutan/hotel-gangtey-lodge.png",
-    alt: "Terrasse du Gangtey Lodge face à la vallée de Phobjikha et au monastère de Gangteng",
+    src: "/destination/bhoutan/hotel-gangtey-lodge.webp",
+    alt: "Baignoire du Gangtey Lodge devant la baie vitrée ouverte sur la vallée de Phobjikha",
   },
   destinationSlugs: ["bhoutan"],
   sections: [],

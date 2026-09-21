@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Le Bhoutan se laisse approcher lentement, vallée après vallée. La route mène de Thimphu, la capitale où les moines croisent les voitures, à Punakha et ses rizières, puis s'élève vers Phobjikha, où les grues venues du nord passent l'hiver au bord du marais. Partout, les monastères sont restés des lieux de vie plutôt que des monuments. C'est ce royaume-là que nous vous ouvrons, porte après porte.",
       images: [
         {
-          src: "/destination/bhoutan/hero-1.png",
-          alt: "Monastère du Nid du Tigre au-dessus de la vallée de Paro au Bhoutan",
+          src: "/destination/bhoutan/hero-1.webp",
+          alt: "Le monastère du Nid du Tigre accroché à la falaise au-dessus de la vallée de Paro",
         },
         {
-          src: "/destination/bhoutan/hero-2.png",
-          alt: "Dzong de Punakha au bord de la rivière au Bhoutan",
+          src: "/destination/bhoutan/hero-2.webp",
+          alt: "Moine en robe grenat devant la façade peinte d'un temple bhoutanais",
         },
         {
-          src: "/destination/bhoutan/hero-3.png",
-          alt: "Moines en robe grenat dans la cour d'un dzong bhoutanais au petit matin",
+          src: "/destination/bhoutan/hero-3.webp",
+          alt: "Toiture dorée et bois sculpté d'un temple bhoutanais devant la montagne",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/bhoutan/full-image.png",
-        alt: "Vallée de Paro et ses rizières en terrasses au Bhoutan dans la lumière du matin",
+        src: "/destination/bhoutan/full-image.webp",
+        alt: "Rangée de moulins à prières peints le long d'un mur de monastère au Bhoutan",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/bhoutan/split-1.png",
-          alt: "Peintre de thangka de l'école des treize arts au travail à Thimphu",
+          src: "/destination/bhoutan/split-1.webp",
+          alt: "Entrée peinte d'un dzong bhoutanais et son escalier de pierre",
         },
         {
-          src: "/destination/bhoutan/split-2.png",
-          alt: "Fenêtres peintes d'une ferme traditionnelle de la vallée de Punakha",
+          src: "/destination/bhoutan/split-2.webp",
+          alt: "Toiture dorée d'un temple bhoutanais dans la lumière de fin de journée",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/bhoutan/xp-taktsang-1.png",
-          alt: "Sentier montant vers le monastère du Nid du Tigre dans la brume du matin",
+          src: "/destination/bhoutan/xp-taktsang-1.webp",
+          alt: "Moines en robe grenat longeant les moulins à prières dans la cour du monastère",
         },
         right: {
-          src: "/destination/bhoutan/xp-taktsang-2.png",
-          alt: "Lampes à beurre allumées dans une salle de méditation du monastère de Taktsang",
+          src: "/destination/bhoutan/xp-taktsang-2.webp",
+          alt: "Le monastère de Taktsang vu de près entre les drapeaux de prière",
         },
       },
       text: {
@@ -225,13 +225,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/bhoutan/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/bhoutan/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Bhoutan entre Paro, Punakha, Phobjikha et Bumthang",
-            "Adresses confidentielles au Bhoutan : maisons de famille et monastères fermés à la visite",
-            "Hébergements au Bhoutan : lodges de vallée et ferme rénovée face au monastère de Gangteng",
+            "Repas bhoutanais préparé à la main dans une maison de famille, épices et piments dans leurs bols",
+            "Baignoire de pierre devant une fenêtre de bois dans un lodge bhoutanais",
             "Conciergerie privée 24/7 pour un voyage au Bhoutan",
-            "Expériences immersives au Bhoutan : le Nid du Tigre au petit jour et les grues de Phobjikha",
+            "Danseurs masqués d'un festival cham sous les pins au Bhoutan",
           ][i],
         },
       })),
@@ -252,19 +252,30 @@ export const destination: Destination = {
           description:
             "Ses champs de riz rouge, ses fermes aux fenêtres peintes et son dzong blanc au-dessus de la rivière. C'est d'ici que part le sentier du Nid du Tigre, et le monastère se devine déjà depuis la route.",
           image: {
-            src: "/destination/bhoutan/map-paro.png",
-            alt: "Vallée de Paro, son dzong et ses rizières vus depuis les hauteurs",
+            src: "/destination/bhoutan/map-paro.webp",
+            alt: "Chortens du col de Dochula émergeant des nuages au Bhoutan",
           },
           // TODO: verify coords
           coordinates: { lat: 27.4287, lng: 89.4164 },
+        },
+        {
+          title: "Haa et le col de Chele La",
+          description:
+            "Une vallée longtemps restée fermée aux voyageurs, que l'on rejoint par le plus haut col carrossable du pays. De là-haut, les sommets de l'Himalaya se découvrent d'un coup, drapeaux de prière au premier plan.",
+          image: {
+            src: "/destination/bhoutan/map-haa.webp",
+            alt: "Fermes et champs en terrasses de la vallée de Haa au Bhoutan",
+          },
+          // TODO: verify coords
+          coordinates: { lat: 27.3833, lng: 89.2833 },
         },
         {
           title: "Thimphu, la capitale",
           description:
             "Elle tient tout entière dans une vallée et garde des allures de ville de province. On y croise des moines devant les cafés, un agent qui règle la circulation à la main, et le grand Bouddha doré qui veille depuis la colline.",
           image: {
-            src: "/destination/bhoutan/map-thimphu.png",
-            alt: "Grand Bouddha doré dominant la vallée de Thimphu au Bhoutan",
+            src: "/destination/bhoutan/map-thimphu.webp",
+            alt: "Le grand Bouddha Dordenma dominant la vallée de Thimphu",
           },
           // TODO: verify coords
           coordinates: { lat: 27.4728, lng: 89.639 },
@@ -274,8 +285,8 @@ export const destination: Destination = {
           description:
             "Plus basse et plus douce, elle laisse pousser les orangers au bord de l'eau. Sa forteresse se tient entre deux rivières et se couvre de jacarandas violets au printemps.",
           image: {
-            src: "/destination/bhoutan/map-punakha.png",
-            alt: "Dzong de Punakha et ses jacarandas au bord de la rivière Mo Chhu",
+            src: "/destination/bhoutan/map-punakha.webp",
+            alt: "Dzong de Punakha, son pont couvert et ses jacarandas au bord de la rivière",
           },
           // TODO: verify coords
           coordinates: { lat: 27.6206, lng: 89.8676 },
@@ -285,8 +296,8 @@ export const destination: Destination = {
           description:
             "Une large vallée de tourbières où les grues à cou noir viennent passer l'hiver. Les lignes électriques y ont été enterrées pour ne pas les gêner, et le monastère de Gangteng regarde le marais depuis sa colline.",
           image: {
-            src: "/destination/bhoutan/map-phobjikha.png",
-            alt: "Grues à cou noir dans la tourbière de la vallée de Phobjikha au Bhoutan",
+            src: "/destination/bhoutan/map-phobjikha.webp",
+            alt: "Vallée de Phobjikha et ses tourbières dans la lumière du couchant",
           },
           // TODO: verify coords
           coordinates: { lat: 27.4667, lng: 90.1667 },
@@ -296,22 +307,11 @@ export const destination: Destination = {
           description:
             "Quatre vallées et les temples les plus anciens du royaume, où l'on vient encore prier plutôt que visiter. On y mange le sarrasin sous toutes ses formes et l'on y boit l'ara au coin du feu.",
           image: {
-            src: "/destination/bhoutan/map-bumthang.png",
-            alt: "Temple de Kurjey Lhakhang dans la vallée de Bumthang au Bhoutan",
+            src: "/destination/bhoutan/map-bumthang.webp",
+            alt: "Dzong posé sur une crête boisée au-dessus de la vallée de Bumthang dans la brume du matin",
           },
           // TODO: verify coords
           coordinates: { lat: 27.55, lng: 90.75 },
-        },
-        {
-          title: "Haa et le col de Chele La",
-          description:
-            "Une vallée longtemps restée fermée aux voyageurs, que l'on rejoint par le plus haut col carrossable du pays. De là-haut, les sommets de l'Himalaya se découvrent d'un coup, drapeaux de prière au premier plan.",
-          image: {
-            src: "/destination/bhoutan/map-haa.png",
-            alt: "Drapeaux de prière au col de Chele La face aux sommets de l'Himalaya bhoutanais",
-          },
-          // TODO: verify coords
-          coordinates: { lat: 27.3833, lng: 89.2833 },
         },
       ],
     },
@@ -557,8 +557,8 @@ export const destination: Destination = {
           quote:
             "Nous sommes partis avant le jour avec un moine qui connaissait chaque pierre du sentier. En haut, il a ouvert la salle de méditation pour nous seuls, il n'y avait que les lampes à beurre. Nous redescendions quand les premiers groupes arrivaient.",
           image: {
-            src: "/destination/bhoutan/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            src: "/destination/bhoutan/hero-1.webp",
+            alt: "Le monastère du Nid du Tigre accroché à la falaise au-dessus de la vallée de Paro"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "TODO: Bhoutan, Paro et Punakha, 2025", // TODO: replace with real testimonial
@@ -568,8 +568,8 @@ export const destination: Destination = {
           quote:
             "La bénédiction à Punakha, portes refermées, avec un lama qui prenait le temps d'expliquer chaque geste. Nos petits-enfants en parlent encore. Ce n'était pas une visite, c'était un moment auquel on nous laissait prendre part.",
           image: {
-            src: "/destination/bhoutan/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            src: "/destination/bhoutan/hero-2.webp",
+            alt: "Moine en robe grenat devant la façade peinte d'un temple bhoutanais"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "TODO: Bhoutan en famille, trois générations, 2025", // TODO: replace with real testimonial
@@ -579,8 +579,8 @@ export const destination: Destination = {
           quote:
             "Je n'avais pas passé deux semaines sans consulter mes messages depuis très longtemps. La vallée de Phobjikha au petit matin, les grues qui quittent le marais, et personne d'autre autour. Tout était réglé avant même que nous y pensions.",
           image: {
-            src: "/destination/bhoutan/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            src: "/destination/bhoutan/hero-3.webp",
+            alt: "Toiture dorée et bois sculpté d'un temple bhoutanais devant la montagne"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "TODO: Bhoutan, Phobjikha et Bumthang, 2025", // TODO: replace with real testimonial

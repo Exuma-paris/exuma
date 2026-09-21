@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Là-haut, une trentaine de lauriers centenaires se tiennent seuls dans une prairie rase. La brume monte avant le jour, et leurs silhouettes se devinent une à une. Nous vous y conduisons avant sept heures, quand il n'y a que les cloches des vaches.",
   keywords: ["madere", "fanal", "laurisylve", "randonnee", "unesco"],
   heroImage: {
-    src: "/destination/madere/xp-foret-fanal.png",
-    alt: "Lauriers centenaires émergeant de la brume sur le plateau de Fanal à Madère",
+    src: "/destination/madere/xp-foret-fanal.webp",
+    alt: "Laurier centenaire penché par le vent au-dessus d'une mer de nuages, à Fanal",
   },
   destinationSlugs: ["madere"],
   sections: [],

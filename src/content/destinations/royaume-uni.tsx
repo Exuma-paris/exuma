@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Le pays tient en quelques heures de train et change pourtant du tout au tout. Londres se parcourt par ses quartiers et ses portes discrètes, la campagne anglaise vit encore de ses fermes et de ses maisons de famille, et l'Écosse commence là où la route se rétrécit. Des Cotswolds au Speyside, du Deeside aux Hébrides, c'est ce Royaume-Uni-là que nous vous montrons.",
       images: [
         {
-          src: "/destination/royaume-uni/hero-1.png",
-          alt: "Place géorgienne de Mayfair à Londres en fin de journée, au Royaume-Uni",
+          src: "/destination/royaume-uni/hero-1.webp",
+          alt: "Façade de brique rouge et de terre cuite ouvragée d'un immeuble de Mayfair, à Londres",
         },
         {
-          src: "/destination/royaume-uni/hero-2.png",
-          alt: "Pêcheur au lancer spey dans une rivière à saumon des Highlands écossaises",
+          src: "/destination/royaume-uni/hero-2.webp",
+          alt: "Torrent descendant entre les collines d'une vallée des Highlands écossaises",
         },
         {
-          src: "/destination/royaume-uni/hero-3.png",
-          alt: "Village de pierre blonde des Cotswolds au petit matin dans la campagne anglaise",
+          src: "/destination/royaume-uni/hero-3.webp",
+          alt: "Cottages de pierre blonde alignés dans un village des Cotswolds, en Angleterre",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/royaume-uni/full-image.png",
-        alt: "Rivière à saumon serpentant dans une vallée des Highlands, au nord du Royaume-Uni",
+        src: "/destination/royaume-uni/full-image.webp",
+        alt: "Tower Bridge et le méandre de la Tamise vus du ciel, au cœur de Londres",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/royaume-uni/split-1.png",
-          alt: "Cerf sur une colline couverte de bruyère dans le Deeside en Écosse",
+          src: "/destination/royaume-uni/split-1.webp",
+          alt: "Rivage des Hébrides face à la mer et aux collines, dans l'ouest de l'Écosse",
         },
         {
-          src: "/destination/royaume-uni/split-2.png",
-          alt: "Entrepôts de whisky au bord de la mer sur l'île d'Islay, dans les Hébrides",
+          src: "/destination/royaume-uni/split-2.webp",
+          alt: "Fûts de whisky empilés sur leurs rayonnages dans un entrepôt de vieillissement écossais",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/royaume-uni/xp-saumon-spey-1.png",
-          alt: "Pêcheur et ghillie dans le courant de la Spey au lever du jour en Écosse",
+          src: "/destination/royaume-uni/xp-saumon-spey-1.webp",
+          alt: "Pêcheur à la mouche dans le courant d'une rivière à saumon écossaise",
         },
         right: {
-          src: "/destination/royaume-uni/xp-saumon-spey-2.png",
-          alt: "Mouches à saumon et canne à deux mains posées sur la berge de la Spey",
+          src: "/destination/royaume-uni/xp-saumon-spey-2.webp",
+          alt: "Saumon sauvage franchissant un barrage sur une rivière d'Écosse",
         },
       },
       text: {
@@ -226,13 +226,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/royaume-uni/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/royaume-uni/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Royaume-Uni entre Londres, les Cotswolds et les Highlands",
-            "Adresses confidentielles au Royaume-Uni : clubs londoniens et maisons de famille",
-            "Hébergements au Royaume-Uni : The Connaught, Heckfield Place et The Fife Arms",
-            "Conciergerie privée 24/7 pour un voyage au Royaume-Uni",
-            "Expériences immersives au Royaume-Uni : pêche du saumon et chais d'Islay",
+            "Salle à manger privée d'un club londonien, boiseries et banquettes de cuir",
+            "Salle à manger d'hôtel ouverte par ses grandes fenêtres sur une place arborée de Londres",
+            "Conseillère de la conciergerie, casque sur les oreilles, joignable jour et nuit",
+            "Sauna de bois clair ouvert sur un pré et un grand arbre, dans la campagne anglaise",
           ][i],
         },
       })),
@@ -253,8 +253,8 @@ export const destination: Destination = {
           description:
             "Les places géorgiennes, les arcades de Piccadilly et les maisons de couture tiennent dans un même carré de rues. Les clubs et les tailleurs n'ont pas d'enseigne : on y entre par une porte peinte et un nom sur une plaque de cuivre.",
           image: {
-            src: "/destination/royaume-uni/map-londres.png",
-            alt: "Rue géorgienne de Mayfair et arcades de Piccadilly à Londres",
+            src: "/destination/royaume-uni/map-londres.webp",
+            alt: "Rue incurvée bordée d'immeubles de brique rouge dans le centre de Londres",
           },
           // TODO: verify coords
           coordinates: { lat: 51.5074, lng: -0.1278 },
@@ -264,8 +264,8 @@ export const destination: Destination = {
           description:
             "Cent cinquante villages bâtis dans le même calcaire, enrichis autrefois par le commerce de la laine. Les murs sans mortier découpent les collines, et les jardins anglais y ont trouvé leur forme la plus aboutie.",
           image: {
-            src: "/destination/royaume-uni/map-cotswolds.png",
-            alt: "Village de pierre blonde et murets des Cotswolds dans la campagne anglaise",
+            src: "/destination/royaume-uni/map-cotswolds.webp",
+            alt: "Rue bordée de maisons de pierre blonde dans un village des Cotswolds",
           },
           // TODO: verify coords
           coordinates: { lat: 51.9298, lng: -1.7222 },
@@ -275,8 +275,8 @@ export const destination: Destination = {
           description:
             "La vieille ville s'accroche à la crête volcanique du château, la ville nouvelle déploie ses croissants géorgiens en contrebas. Les deux sont inscrites au patrimoine mondial, et l'on passe de l'une à l'autre en dix minutes de marche.",
           image: {
-            src: "/destination/royaume-uni/map-edimbourg.png",
-            alt: "Vieille ville d'Édimbourg vue depuis Calton Hill au crépuscule",
+            src: "/destination/royaume-uni/map-edimbourg.webp",
+            alt: "Le château d'Édimbourg dressé sur son rocher volcanique",
           },
           // TODO: verify coords
           coordinates: { lat: 55.9533, lng: -3.1883 },
@@ -286,8 +286,8 @@ export const destination: Destination = {
           description:
             "La vallée concentre la plus forte densité de distilleries d'Écosse et l'une de ses meilleures rivières à saumon. Les deux tiennent à la même eau, descendue des Cairngorms.",
           image: {
-            src: "/destination/royaume-uni/map-speyside.png",
-            alt: "Méandre de la Spey et distillerie dans la vallée du Speyside en Écosse",
+            src: "/destination/royaume-uni/map-speyside.webp",
+            alt: "Fût de chêne posé sur la pelouse d'une distillerie du Speyside, en Écosse",
           },
           // TODO: verify coords
           coordinates: { lat: 57.4736, lng: -3.227 },
@@ -297,8 +297,8 @@ export const destination: Destination = {
           description:
             "Neuf distilleries se partagent une île de quarante kilomètres de long, la plupart les pieds dans l'eau. La tourbe coupée sur la lande donne au whisky son goût de fumée, et l'air en porte déjà l'odeur sur le quai.",
           image: {
-            src: "/destination/royaume-uni/map-islay.png",
-            alt: "Distillerie blanche au bord de la mer sur l'île d'Islay en Écosse",
+            src: "/destination/royaume-uni/map-islay.webp",
+            alt: "Lande à tourbe et moutons en pâture sur l'île d'Islay",
           },
           // TODO: verify coords
           coordinates: { lat: 55.757, lng: -6.287 },
@@ -308,8 +308,8 @@ export const destination: Destination = {
           description:
             "La crête noire des Cuillin ferme l'horizon au sud de l'île, la plus haute chaîne des Hébrides. Le reste se parcourt par des routes à une voie, entre les falaises de Trotternish et les crofts encore habités.",
           image: {
-            src: "/destination/royaume-uni/map-skye.png",
-            alt: "Crête des Cuillin et lochs de l'île de Skye dans les Hébrides intérieures",
+            src: "/destination/royaume-uni/map-skye.webp",
+            alt: "Maisons colorées et barques du port de Portree, sur l'île de Skye",
           },
           // TODO: verify coords
           coordinates: { lat: 57.4125, lng: -6.1958 },
@@ -536,7 +536,7 @@ export const destination: Destination = {
           quote:
             "Une journée entière sur la Spey avec le ghillie, sans croiser âme qui vive. Il nous a repris le lancer toute la matinée sans jamais s'impatienter. Le saumon est reparti à l'eau, et c'est le souvenir le plus net du voyage.",
           image: {
-            src: "/destination/royaume-uni/hero-1.png",
+            src: "/destination/royaume-uni/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -547,7 +547,7 @@ export const destination: Destination = {
           quote:
             "On nous a ouvert une maison de famille dans les Highlands, pour nous seuls, avec le dîner servi dans la bibliothèque. Personne ne jouait un rôle : c'était leur maison, et ils nous y recevaient. Je ne pensais pas que cela se faisait encore.",
           image: {
-            src: "/destination/royaume-uni/hero-2.png",
+            src: "/destination/royaume-uni/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -558,7 +558,7 @@ export const destination: Destination = {
           quote:
             "Les enfants ont adoré la ferme du Hampshire, et nous les jardins. Trois nuits à Londres au début, la campagne ensuite : dans cet ordre, tout le monde y trouvait son compte. Le train nous a évité toute la logistique.",
           image: {
-            src: "/destination/royaume-uni/hero-3.png",
+            src: "/destination/royaume-uni/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

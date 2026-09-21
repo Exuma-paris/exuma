@@ -98,7 +98,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/anguilla/split-1.webp",
-          alt: "Langouste grillée servie sur une table posée dans le sable à Sandy Island",
+          alt: "Langouste grillée servie à la table d'une paillote de plage, le sable juste derrière",
         },
         {
           src: "/destination/anguilla/split-2.webp",
@@ -230,7 +230,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure à Anguilla entre Shoal Bay, Sandy Ground et les cayes",
             "Adresses confidentielles à Anguilla : paillotes des cayes et tables de chefs",
             "Hébergements à Anguilla : villas blanches de Maundays Bay et maisons de Barnes Bay",
-            "Conciergerie privée 24/7 pour un voyage à Anguilla",
+            "Conseillère Exuma à son poste, au bureau parisien",
             "Expériences à Anguilla : plongée sur épaves, yacht privé et cheval à Cove Bay",
           ][i],
         },
@@ -264,7 +264,7 @@ export const destination: Destination = {
             "Le port de l'île et son seul vrai point de rassemblement. Les bateaux de plongée et ceux des cayes partent d'ici, et les bars de la plage se remplissent quand la pêche rentre.",
           image: {
             src: "/destination/anguilla/map-sandy-ground.webp",
-            alt: "Bateaux amarrés devant les maisons colorées de Sandy Ground, à Anguilla",
+            alt: "Bateaux au mouillage dans la baie de Sandy Ground, les maisons du village le long de la plage",
           },
           // TODO: verify coords
           coordinates: { lat: 18.2039, lng: -63.0925 },

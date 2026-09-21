@@ -7,8 +7,8 @@ export const experience: Experience = {
     "L'entrepôt donne sur la mer et l'air y sent la tourbe mouillée. Le master blender tire le whisky du fût à la pipette, millésime après millésime, dans un chai que les visites ne franchissent jamais.",
   keywords: ["royaume-uni", "islay", "hebrides", "whisky", "tourbe"],
   heroImage: {
-    src: "/destination/royaume-uni/xp-islay.png",
-    alt: "Dégustation au fût dans un entrepôt de whisky au bord de la mer sur l'île d'Islay",
+    src: "/destination/royaume-uni/xp-islay.webp",
+    alt: "Fûts alignés du sol au plafond dans un entrepôt de whisky d'Islay",
   },
   destinationSlugs: ["royaume-uni"],
   sections: [],

@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Sur la terre battue, les lutteurs commencent leur entraînement pieds nus. Les corps se heurtent, les pas résonnent, puis le silence reprend sa place. Quelques bancs de bois, quelques privilégiés admis par l'écurie : rien n'est mis en scène.",
   keywords: ["tokyo", "sumo", "keiko", "japon", "ryogoku"],
   heroImage: {
-    src: "/destination/japon/xp-sumo-tokyo.png",
-    alt: "Lutteurs de sumo s'entraînant à l'aube dans une écurie de Tokyo",
+    src: "/destination/japon/xp-sumo-tokyo.webp",
+    alt: "Lutteur de sumo en position de garde sur la terre battue d'une écurie de Tokyo",
   },
   destinationSlugs: ["japon"],
   sections: [],

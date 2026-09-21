@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Un campement de tentes suspendues au-dessus d'une rivière des Cardamomes, dessiné par Bill Bensley dans une vallée qu'il a rachetée pour la protéger. Les équipes anti-braconnage partent d'ici chaque matin, et l'on peut les accompagner.",
   keywords: ["cambodge", "cardamomes", "bensley", "foret", "conservation"],
   heroImage: {
-    src: "/destination/cambodge/hotel-shinta-mani-wild.png",
-    alt: "Tente de Shinta Mani Wild suspendue au-dessus d'une rivière des Cardamomes",
+    src: "/destination/cambodge/hotel-shinta-mani-wild.webp",
+    alt: "Tente de Shinta Mani Wild sur sa plateforme au-dessus des rapides, dans la forêt des Cardamomes",
   },
   destinationSlugs: ["cambodge"],
   sections: [],

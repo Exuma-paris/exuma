@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["chine", "shanghai", "era", "acrobatie", "spectacle"],
   heroImage: {
     src: "/destination/chine/xp-spectacle-era.webp",
-    alt: "Acrobates en costume sur la scène du spectacle ERA, à Shanghai",
+    alt: "Acrobate en équilibre sur les mains au sommet d'une colonne de chaises, sur une scène de Shanghai",
   },
   destinationSlugs: ["chine"],
   sections: [],
