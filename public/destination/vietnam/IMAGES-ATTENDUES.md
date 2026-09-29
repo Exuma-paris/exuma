@@ -2,52 +2,52 @@
 
 Dossier : `public/destination/vietnam/`
 
-**0 sur 25 présentes.** Il manque 25 images.
+**25 sur 25 présentes.**
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
 ## Carrousel du hero
 
-- [ ] `hero-1.png` : jonque traditionnelle entre les pitons karstiques de la baie de Lan Ha
-- [ ] `hero-2.png` : cour intérieure de la Cité impériale de Hué au crépuscule
-- [ ] `hero-3.png` : rizières en terrasses de Sa Pa au lever du jour
+- [x] `hero-1.webp` : femme au chapeau conique et bottes d'encens rouges à sécher
+- [x] `hero-2.webp` : rivière entre rizières et pitons karstiques de Ninh Binh
+- [x] `hero-3.webp` : jonque aux voiles ocre au coucher du soleil
 
 ## Bandeau pleine largeur
 
-- [ ] `full-image.png` : pitons karstiques émergeant de la baie de Lan Ha au lever du jour
+- [x] `full-image.webp` : femme portant une hotte dans les rizières en terrasses
 
 ## Section texte et images
 
-- [ ] `split-1.png` : porte Ngọ Môn de la Cité impériale de Hué dans la brume matinale
-- [ ] `split-2.png` : bateau-dragon sur la rivière des Parfums à Hué
+- [x] `split-1.webp` : pagode Tran Quoc au bord du lac de l'Ouest, Hanoï
+- [x] `split-2.webp` : lanternes de soie rouges de Hoi An
 
 ## Expériences
 
-- [ ] `xp-cite-imperiale-hue.png` : historien devant un pavillon de la Cité impériale de Hué
-- [ ] `xp-croisiere-lan-ha-1.png` : jonque en bois entre les pitons karstiques de Lan Ha
-- [ ] `xp-croisiere-lan-ha-2.png` : crique déserte de Lan Ha vue depuis le pont d'une jonque
-- [ ] `xp-diner-chef-hanoi.png` : chef vietnamien préparant un dîner privé dans une cuisine ouverte à Hanoï
-- [ ] `xp-trekking-sapa.png` : guide Hmong marchant le long des rizières de Sa Pa
+- [x] `xp-cite-imperiale-hue.webp` : historien devant un pavillon de la Cité impériale de Hué
+- [x] `xp-croisiere-lan-ha-1.webp` : pitons karstiques de Lan Ha au lever du jour
+- [x] `xp-croisiere-lan-ha-2.webp` : vue aérienne des îlots de Lan Ha
+- [x] `xp-diner-chef-hanoi.webp` : chef vietnamien préparant un dîner privé dans une cuisine ouverte à Hanoï
+- [x] `xp-trekking-sapa.webp` : guide Hmong marchant le long des rizières de Sa Pa
 
 ## Hébergements
 
-- [ ] `hotel-amanoi.png` : vue aérienne des pavillons d'Amanoi dans le parc national de Nui Chua
-- [ ] `hotel-la-residence-hue.png` : façade Art déco de La Résidence Hué, au bord de la rivière des Parfums
-- [ ] `hotel-six-senses-ninh-van-bay.png` : villas sur pilotis de Six Senses Ninh Van Bay au-dessus d'une baie isolée
+- [x] `hotel-amanoi.webp` : pavillon sur le lac, face aux montagnes de Nui Chua
+- [x] `hotel-la-residence-hue.webp` : bar Art déco aux fauteuils de cuir
+- [x] `hotel-six-senses-ninh-van-bay.webp` : villa en bois ouverte sur la mer
 
 ## Bloc bento
 
-- [ ] `bento-adresses.png` : ruelle du Vieux Quartier de Hanoï au crépuscule
-- [ ] `bento-conciergerie.png` : concierge organisant un transfert privé à Hanoï
-- [ ] `bento-experiences.png` : capitaine de jonque au travail dans la baie de Lan Ha
-- [ ] `bento-hebergements.png` : villa isolée dans un parc national vietnamien
-- [ ] `bento-map.png` : carte d'itinéraire du Vietnam
+- [x] `bento-adresses.webp` : dîner aux lanternes sous les arbres
+- [x] `bento-conciergerie.webp` : conseillère Exuma avec casque
+- [x] `bento-experiences.webp` : tisserande au métier à tisser
+- [x] `bento-hebergements.webp` : villa avec piscine et terrasse en bois
+- [x] `bento-map.webp` : carte des six étapes, du nord au sud
 
 ## Carte interactive
 
-- [ ] `map-hanoi.png` : ruelles animées du Vieux Quartier de Hanoï
-- [ ] `map-hoi-an.png` : lanternes de soie dans les rues anciennes de Hoi An
-- [ ] `map-hue.png` : Cité impériale de Hué au bord de la rivière des Parfums
-- [ ] `map-lan-ha.png` : pitons karstiques de Lan Ha vus depuis une jonque
-- [ ] `map-mekong.png` : marché flottant du delta du Mékong au lever du jour
-- [ ] `map-sapa.png` : rizières en terrasses de Sa Pa dans la brume
+- [x] `map-hanoi.webp` : marchande ambulante au vélo chargé de fruits
+- [x] `map-hoi-an.webp` : lanternes de soie colorées
+- [x] `map-hue.webp` : proue de bateau-dragon sur la rivière des Parfums
+- [x] `map-lan-ha.webp` : eaux turquoise entre les îlots, vue aérienne
+- [x] `map-mekong.webp` : barques en bois sur un bras du Mékong
+- [x] `map-sapa.webp` : rizières en terrasses dans une vallée de montagne

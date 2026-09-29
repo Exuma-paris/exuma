@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Un guide Hmong conduit la marche entre les rizières en terrasses des hauts plateaux du nord-ouest. La nuit se passe chez une famille, au son du torrent qui descend vers la vallée.",
   keywords: ["vietnam", "sapa", "trekking", "rizieres", "hmong"],
   heroImage: {
-    src: "/destination/vietnam/xp-trekking-sapa.png",
+    src: "/destination/vietnam/xp-trekking-sapa.webp",
     alt: "Guide Hmong marchant le long des rizières en terrasses de Sa Pa",
   },
   destinationSlugs: ["vietnam"],

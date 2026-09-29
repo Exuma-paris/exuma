@@ -31,3 +31,9 @@ Each generated image in `public/destination/vietnam/` was produced by feeding th
 | `map-mekong.png`                        | `map-mekong-ref.jpg`                     | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.png` / `hero-2.png` / `hero-3.png` — no separate files.
+
+## Traitement réel (29 septembre 2026)
+
+- Photos libres de droit fournies par l'équipe, reprises à l'identique avec le filtre Exuma local (sans Gemini) : hero, full-image, split, xp-croisiere-lan-ha, hôtels, bento (sauf la carte), map-*. Script : `.claude/skills/destination-generator/tmp/grade-local-vietnam.mjs`.
+- Photos non libres de droit, recomposées par Gemini en mode `--inspire` (nouvel angle, nouvelle scène) : `xp-cite-imperiale-hue`, `xp-diner-chef-hanoi`, `xp-trekking-sapa`. Script : `tmp/run-vietnam-inspire.sh`.
+- `bento-map` : tracé Natural Earth, couleurs de la carte Polynésie, pastilles = étapes du placesMap dans l'ordre. Script : `tmp/build-bento-map-vietnam.mjs`.

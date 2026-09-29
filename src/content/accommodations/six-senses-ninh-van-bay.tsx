@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "acces bateau",
   ],
   heroImage: {
-    src: "/destination/vietnam/hotel-six-senses-ninh-van-bay.png",
-    alt: "Villas sur pilotis de Six Senses Ninh Van Bay au-dessus d'une baie isolée",
+    src: "/destination/vietnam/hotel-six-senses-ninh-van-bay.webp",
+    alt: "Villa en bois de Six Senses Ninh Van Bay ouverte sur la mer",
   },
   destinationSlugs: ["vietnam"],
   sections: [],
