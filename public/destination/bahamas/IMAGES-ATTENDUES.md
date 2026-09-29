@@ -2,11 +2,15 @@
 
 Dossier : `public/destination/bahamas/`
 
-**15 sur 25 présentes.** Il manque 10 images.
+**25 sur 25 présentes.** La série est complète.
 
-Les photographies libres de droit déposées par Exuma dans `references/destination/bahamas/` ont été reprises à l'identique, avec le seul filtre Exuma appliqué en local. Les trois `hotel-*`, trop peu définies, ont été repassées par Gemini en mode grade seul (`gen-images.mjs`, sans flag) : cadrage conservé, master 4K. Format de sortie : `.webp`.
+Trois traitements, selon les droits de chaque référence déposée dans `references/destination/bahamas/` :
 
-Déposez chaque fichier manquant dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
+- **libres de droit** → reprises à l'identique, seul le filtre Exuma est appliqué en local (`tmp/grade-local-bahamas.mjs`) ;
+- **trop peu définies** (les trois `hotel-*`) → repassées par Gemini en mode grade seul, cadrage conservé, master 4K ;
+- **non libres de droit** → servies à Gemini comme brief de contenu (`--inspire`), qui compose une photographie neuve du même sujet sous un autre point de vue.
+
+`bento-map.webp` est tracée sans IA depuis Natural Earth. Format de sortie : `.webp`.
 
 ## Carrousel du hero
 
@@ -20,13 +24,13 @@ Déposez chaque fichier manquant dans ce dossier en respectant exactement le nom
 
 ## Section texte et images
 
-- [ ] `split-1.webp` — maison de bois et ponton privé sur une caye du sud des Exumas
+- [x] `split-1.webp`
 - [x] `split-2.webp`
 
 ## Expériences
 
-- [ ] `xp-harbour-island-1.webp` — sable rose de Pink Sands Beach au lever du jour
-- [ ] `xp-harbour-island-2.webp` — speedboat privé à l'approche de Dunmore Town
+- [x] `xp-harbour-island-1.webp`
+- [x] `xp-harbour-island-2.webp`
 - [x] `xp-bonefish.webp`
 - [x] `xp-catamaran-green-cay.webp`
 - [x] `xp-junkanoo.webp`
@@ -39,10 +43,10 @@ Déposez chaque fichier manquant dans ce dossier en respectant exactement le nom
 
 ## Bloc bento
 
-- [ ] `bento-map.webp` — carte des Bahamas avec les étapes de l'itinéraire, à tracer depuis Natural Earth
-- [ ] `bento-adresses.webp` — la référence déposée montrait un visage de Bouddha en bronze, hors sujet
-- [ ] `bento-hebergements.webp` — la référence déposée montrait un salon d'hôtel asiatique, hors sujet
-- [ ] `bento-conciergerie.webp` — scène de conciergerie privée
+- [x] `bento-map.webp`
+- [x] `bento-adresses.webp`
+- [x] `bento-hebergements.webp`
+- [x] `bento-conciergerie.webp`
 - [x] `bento-experiences.webp`
 
 ## Carte interactive
@@ -50,6 +54,6 @@ Déposez chaque fichier manquant dans ce dossier en respectant exactement le nom
 - [x] `map-nassau.webp`
 - [x] `map-harbour-island.webp`
 - [x] `map-exumas.webp`
-- [ ] `map-andros.webp` — trou bleu et forêt de pins d'Andros
-- [ ] `map-abacos.webp` — phare rayé d'Elbow Cay et port de Hope Town
-- [ ] `map-long-island.webp` — Dean's Blue Hole et sa plage en croissant
+- [x] `map-andros.webp`
+- [x] `map-abacos.webp`
+- [x] `map-long-island.webp`

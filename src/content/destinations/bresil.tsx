@@ -236,10 +236,10 @@ export const destination: Destination = {
           }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure au Brésil",
-            "Ruelle pavée du Pelourinho aux façades colorées",
-            "Bangalô de bois ouvert sur les dunes à Atins",
+            "Tables dressées sous une pergola végétalisée à la tombée de la nuit",
+            "Piscine d'une villa de bord de mer bordée de cocotiers au Brésil",
             "Concierge coordonnant un vol intérieur au Brésil",
-            "Pirogue remontant un bras du rio Negro dans le Pantanal",
+            "Passerelle en surplomb face aux chutes d'Iguaçu",
           ][i],
         },
       })),
@@ -251,10 +251,20 @@ export const destination: Destination = {
       eyebrow: "Que voir au Brésil",
       heading: "Les six régions que nous relions le plus souvent",
       description:
-        "Les Lençóis, Salvador, Iguaçu, le Pantanal, l'Amazonie et Rio composent la plupart de nos itinéraires. Chacune a sa saison et son tempérament, et l'on retient celles qui se répondent le mieux.",
+        "L'Amazonie, les Lençóis, Salvador, Rio, Iguaçu et le Pantanal composent la plupart de nos itinéraires. Chacune a sa saison et son tempérament, et l'on retient celles qui se répondent le mieux.",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 4,
       places: [
+        {
+          title: "L'Amazonie et le rio Negro",
+          description:
+            "En amont de Manaus, le fleuve s'élargit en un archipel d'îles couvertes de forêt. Ses eaux sombres portent peu de moustiques, ce qui rend les nuits douces.",
+          image: {
+            src: "/destination/bresil/map-amazonie.webp",
+            alt: "Méandre du rio Negro et bancs de sable au lever du jour",
+          },
+          coordinates: { lat: -3.136, lng: -59.98 }, // TODO: verify coords
+        },
         {
           title: "Lençóis Maranhenses",
           description:
@@ -271,9 +281,19 @@ export const destination: Destination = {
             "La première capitale du pays, restée son cœur afro-brésilien. On y trouve le Pelourinho, l'or de São Francisco, les tambours du soir et la cuisine à l'huile de palme.",
           image: {
             src: "/destination/bresil/map-salvador.webp",
-            alt: "Vue du Pelourinho et de la baie de Tous-les-Saints à Salvador",
+            alt: "Façades coloniales de Salvador au-dessus de la baie de Tous-les-Saints",
           },
           coordinates: { lat: -12.9711, lng: -38.5108 }, // TODO: verify coords
+        },
+        {
+          title: "Rio de Janeiro",
+          description:
+            "La baie de Guanabara, les morros, Ipanema et Santa Teresa. Rio se glisse en début ou en fin de séjour, et la ville a sa propre page chez nous.",
+          image: {
+            src: "/destination/bresil/map-rio.webp",
+            alt: "Pain de Sucre et baie de Guanabara à Rio de Janeiro",
+          },
+          coordinates: { lat: -22.9519, lng: -43.2105 }, // TODO: verify coords
         },
         {
           title: "Les chutes d'Iguaçu",
@@ -291,29 +311,9 @@ export const destination: Destination = {
             "La plus grande zone humide de la planète. Quand la saison sèche s'installe, les jaguars descendent sur les berges et se laissent observer depuis une barque.",
           image: {
             src: "/destination/bresil/map-pantanal.webp",
-            alt: "Jaguar sur une berge du Pantanal au Brésil",
+            alt: "Lagunes et forêts inondées du Pantanal vues du ciel",
           },
           coordinates: { lat: -19.9556, lng: -56.3211 }, // TODO: verify coords
-        },
-        {
-          title: "L'Amazonie et le rio Negro",
-          description:
-            "En amont de Manaus, le fleuve s'élargit en un archipel d'îles couvertes de forêt. Ses eaux sombres portent peu de moustiques, ce qui rend les nuits douces.",
-          image: {
-            src: "/destination/bresil/map-amazonie.webp",
-            alt: "Eaux noires du rio Negro et forêt inondée de l'archipel d'Anavilhanas",
-          },
-          coordinates: { lat: -3.136, lng: -59.98 }, // TODO: verify coords
-        },
-        {
-          title: "Rio de Janeiro",
-          description:
-            "La baie de Guanabara, les morros, Ipanema et Santa Teresa. Rio se glisse en début ou en fin de séjour, et la ville a sa propre page chez nous.",
-          image: {
-            src: "/destination/bresil/map-rio.webp",
-            alt: "Pain de Sucre et baie de Guanabara à Rio de Janeiro",
-          },
-          coordinates: { lat: -22.9519, lng: -43.2105 }, // TODO: verify coords
         },
       ],
     },

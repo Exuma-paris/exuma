@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["bresil", "pantanal", "jaguar", "oncafari", "faune"],
   heroImage: {
     src: "/destination/bresil/xp-jaguars-pantanal.webp",
-    alt: "Jaguar allongé sur une berge du Pantanal observé depuis une barque",
+    alt: "Jaguar couché sur un tronc au bord d'une rivière du Pantanal, vu depuis une barque",
   },
   destinationSlugs: ["bresil"],
   sections: [],

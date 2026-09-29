@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["bresil", "salvador", "bahia", "saveiro", "itaparica"],
   heroImage: {
     src: "/destination/bresil/xp-saveiro-bahia.webp",
-    alt: "Saveiro traditionnel toutes voiles dehors dans la baie de Tous-les-Saints",
+    alt: "Deux saveiros traditionnels toutes voiles dehors dans la baie de Tous-les-Saints",
   },
   destinationSlugs: ["bresil"],
   sections: [],

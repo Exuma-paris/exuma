@@ -98,7 +98,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/bahamas/split-1.webp",
-          alt: "Maison de bois et ponton privé sur une caye du sud des Exumas",
+          alt: "Cayes vertes, bancs de sable et voiliers au mouillage dans les Exumas, vus du ciel",
         },
         {
           src: "/destination/bahamas/split-2.webp",
@@ -116,7 +116,7 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/bahamas/xp-harbour-island-2.webp",
-          alt: "Speedboat privé à l'approche de Dunmore Town, à Harbour Island",
+          alt: "Longue plage de sable rose de Harbour Island et bateau au mouillage, vus du ciel",
         },
       },
       text: {
@@ -227,10 +227,10 @@ export const destination: Destination = {
         image: {
           src: `/destination/bahamas/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
-            "Itinéraire sur mesure aux Bahamas entre Harbour Island, les Exumas et Andros",
-            "Adresses confidentielles aux Bahamas : cayes privées et plages sans nom",
-            "Hébergements aux Bahamas : Musha Cay et Kamalame Cay",
-            "Conciergerie privée 24/7 pour un voyage aux Bahamas",
+            "Carte des Bahamas et des six étapes d'un itinéraire sur mesure, de Nassau aux Abacos",
+            "Table dressée face à la mer aux Bahamas, langouste grillée et vin blanc",
+            "Chambre au plafond de bois ouverte sur la mer turquoise, aux Bahamas",
+            "Conseillère Exuma à son bureau, en train de préparer un voyage aux Bahamas",
             "Baignade au pied d'une falaise calcaire, sur un banc de sable des Bahamas",
           ][i],
         },
@@ -286,7 +286,7 @@ export const destination: Destination = {
             "La plus grande île de l'archipel, et la moins peuplée. Ses flats s'étendent à perte de vue, ses trous bleus s'ouvrent en pleine forêt, et la barrière de corail tombe d'un coup à l'est.",
           image: {
             src: "/destination/bahamas/map-andros.webp",
-            alt: "Trou bleu et forêt de pins de l'île d'Andros, aux Bahamas",
+            alt: "Hydravion amarré à un ponton devant la côte boisée de pins d'Andros, aux Bahamas",
           },
           // TODO: verify coords
           coordinates: { lat: 24.7, lng: -77.7833 },
