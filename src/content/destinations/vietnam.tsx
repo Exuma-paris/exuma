@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Du nord au sud, le Vietnam change de visage à chaque étape. Les pitons karstiques de la baie de Lan Ha, les ruelles de Hué, les rizières en terrasses de Sa Pa, les eaux du delta du Mékong : autant de paysages, de cuisines et de rythmes qui racontent un même pays autrement.",
       images: [
         {
-          src: "/destination/vietnam/hero-1.png",
-          alt: "Jonque traditionnelle voguant entre les pitons karstiques de la baie de Lan Ha, Vietnam",
+          src: "/destination/vietnam/hero-1.webp",
+          alt: "Femme au chapeau conique disposant des bottes d'encens rouges à sécher, Vietnam",
         },
         {
-          src: "/destination/vietnam/hero-2.png",
-          alt: "Cour intérieure de la Cité impériale de Hué au crépuscule, Vietnam",
+          src: "/destination/vietnam/hero-2.webp",
+          alt: "Rivière serpentant entre les rizières et les pitons karstiques de Ninh Binh, Vietnam",
         },
         {
-          src: "/destination/vietnam/hero-3.png",
-          alt: "Rizières en terrasses des hauts plateaux de Sa Pa au lever du jour, Vietnam",
+          src: "/destination/vietnam/hero-3.webp",
+          alt: "Jonque aux voiles ocre devant les pitons karstiques au coucher du soleil, Vietnam",
         },
       ],
     },
@@ -99,8 +99,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/vietnam/full-image.png",
-        alt: "Pitons karstiques émergeant de la baie de Lan Ha au lever du jour, Vietnam",
+        src: "/destination/vietnam/full-image.webp",
+        alt: "Femme portant une hotte au milieu des rizières en terrasses du nord du Vietnam",
       },
       height: 600,
     },
@@ -116,12 +116,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/vietnam/split-1.png",
-          alt: "Porte Ngọ Môn de la Cité impériale de Hué dans la brume matinale",
+          src: "/destination/vietnam/split-1.webp",
+          alt: "Pagode Tran Quoc au bord du lac de l'Ouest à Hanoï, au coucher du soleil",
         },
         {
-          src: "/destination/vietnam/split-2.png",
-          alt: "Bateau-dragon traditionnel sur la rivière des Parfums à Hué",
+          src: "/destination/vietnam/split-2.webp",
+          alt: "Lanternes de soie rouges suspendues dans une ruelle de Hoi An",
         },
       ],
     },
@@ -130,12 +130,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/vietnam/xp-croisiere-lan-ha-1.png",
-          alt: "Jonque en bois voguant entre les pitons karstiques de la baie de Lan Ha, Vietnam",
+          src: "/destination/vietnam/xp-croisiere-lan-ha-1.webp",
+          alt: "Pitons karstiques de la baie de Lan Ha au lever du jour, vus depuis les hauteurs",
         },
         right: {
-          src: "/destination/vietnam/xp-croisiere-lan-ha-2.png",
-          alt: "Crique déserte de la baie de Lan Ha vue depuis le pont d'une jonque privée",
+          src: "/destination/vietnam/xp-croisiere-lan-ha-2.webp",
+          alt: "Vue aérienne des îlots karstiques et des eaux vertes de la baie de Lan Ha",
         },
       },
       text: {
@@ -244,13 +244,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/vietnam/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/vietnam/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé pour un voyage au Vietnam",
-            "Ruelle du Vieux Quartier de Hanoï au crépuscule",
-            "Villa isolée dans un parc national vietnamien",
-            "Concierge Exuma organisant un transfert privé à Hanoï",
-            "Capitaine de jonque au travail dans la baie de Lan Ha",
+            "Dîner aux lanternes sous les arbres, entre les rochers",
+            "Villa avec piscine et terrasse en bois au milieu de la végétation",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Tisserande au métier à tisser, fils de soie roses",
           ][i],
         },
       })),
@@ -267,12 +267,22 @@ export const destination: Destination = {
       initialZoom: 5,
       places: [
         {
+          title: "Sa Pa, les rizières en altitude",
+          description:
+            "Rizières en terrasses des ethnies Hmong et Dao, à quinze cents mètres d'altitude. Le brouillard couvre les sommets avant midi, la plupart des jours.",
+          image: {
+            src: "/destination/vietnam/map-sapa.webp",
+            alt: "Rizières en terrasses dans une vallée de montagne près de Sa Pa",
+          },
+          coordinates: { lat: 22.3364, lng: 103.8438 },
+        },
+        {
           title: "Hanoï, mille ans de capitale",
           description:
             "Le Vieux Quartier garde trente-six corporations d'artisans dans ses ruelles. Le lac Hoàn Kiếm loue sa légende de tortue géante à qui veut l'entendre.",
           image: {
-            src: "/destination/vietnam/map-hanoi.png",
-            alt: "Ruelles animées du Vieux Quartier de Hanoï, Vietnam",
+            src: "/destination/vietnam/map-hanoi.webp",
+            alt: "Marchande ambulante au chapeau conique poussant son vélo chargé de fruits à Hanoï",
           },
           coordinates: { lat: 21.0278, lng: 105.8342 },
         },
@@ -281,8 +291,8 @@ export const destination: Destination = {
           description:
             "À une heure de navigation d'Halong, les mêmes pitons karstiques, une fraction du trafic. Les jonques y mouillent encore dans des criques désertes.",
           image: {
-            src: "/destination/vietnam/map-lan-ha.png",
-            alt: "Pitons karstiques de la baie de Lan Ha vus depuis une jonque, Vietnam",
+            src: "/destination/vietnam/map-lan-ha.webp",
+            alt: "Vue aérienne des eaux turquoise entre les îlots karstiques de la baie de Lan Ha",
           },
           // TODO: verify coords
           coordinates: { lat: 20.73, lng: 107.09 },
@@ -292,8 +302,8 @@ export const destination: Destination = {
           description:
             "Cité impériale sur la rivière des Parfums. Treize règnes, un seul titre : Kinh đô, la capitale.",
           image: {
-            src: "/destination/vietnam/map-hue.png",
-            alt: "Cité impériale de Hué au bord de la rivière des Parfums, Vietnam",
+            src: "/destination/vietnam/map-hue.webp",
+            alt: "Proue d'un bateau-dragon sur la rivière des Parfums au coucher du soleil, Hué",
           },
           coordinates: { lat: 16.4637, lng: 107.5909 },
         },
@@ -302,28 +312,18 @@ export const destination: Destination = {
           description:
             "Ancien port marchand du XVIe siècle, lanternes de soie et maisons de négociants japonais et chinois. Classé au patrimoine mondial de l'UNESCO.",
           image: {
-            src: "/destination/vietnam/map-hoi-an.png",
-            alt: "Lanternes de soie dans les rues anciennes de Hoi An, Vietnam",
+            src: "/destination/vietnam/map-hoi-an.webp",
+            alt: "Lanternes de soie colorées illuminées dans les rues de Hoi An",
           },
           coordinates: { lat: 15.8801, lng: 108.338 },
-        },
-        {
-          title: "Sa Pa, les rizières en altitude",
-          description:
-            "Rizières en terrasses des ethnies Hmong et Dao, à quinze cents mètres d'altitude. Le brouillard couvre les sommets avant midi, la plupart des jours.",
-          image: {
-            src: "/destination/vietnam/map-sapa.png",
-            alt: "Rizières en terrasses de Sa Pa dans la brume, Vietnam",
-          },
-          coordinates: { lat: 22.3364, lng: 103.8438 },
         },
         {
           title: "Delta du Mékong, neuf bras avant l'océan",
           description:
             "Marchés flottants dès cinq heures du matin, le riz s'y récolte trois fois par an. Une géographie d'eau, de barques et de vergers flottants.",
           image: {
-            src: "/destination/vietnam/map-mekong.png",
-            alt: "Marché flottant du delta du Mékong au lever du jour, Vietnam",
+            src: "/destination/vietnam/map-mekong.webp",
+            alt: "Barques en bois amarrées sur un bras du delta du Mékong bordé de palmiers",
           },
           // TODO: verify coords
           coordinates: { lat: 10.0333, lng: 105.7833 },
@@ -570,7 +570,7 @@ export const destination: Destination = {
           quote:
             "Le Vietnam avec Exuma n'a rien eu d'un circuit organisé. La nuit sur la jonque dans la baie de Lan Ha, sans un autre bateau en vue, restera notre plus beau souvenir.",
           image: {
-            src: "/destination/vietnam/hero-1.png",
+            src: "/destination/vietnam/hero-1.webp",
             alt: "Portrait de Nathalie et Bertrand", // TODO: verify
           },
           name: "Nathalie & Bertrand", // TODO: verify
@@ -581,7 +581,7 @@ export const destination: Destination = {
           quote:
             "L'historien qui nous a fait visiter Hué en dehors des heures d'ouverture nous a raconté la cour impériale comme personne. Nos parents, en voyage de transmission avec nous, en parlent encore.",
           image: {
-            src: "/destination/vietnam/hero-2.png",
+            src: "/destination/vietnam/hero-2.webp",
             alt: "Portrait de Michel", // TODO: verify
           },
           name: "Michel", // TODO: verify
@@ -592,7 +592,7 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a frappée, c'est la cohérence de l'itinéraire malgré la taille du pays. Jamais un déplacement qui n'avait pas sa raison, du nord jusqu'au delta.",
           image: {
-            src: "/destination/vietnam/hero-3.png",
+            src: "/destination/vietnam/hero-3.webp",
             alt: "Portrait de Sophie", // TODO: verify
           },
           name: "Sophie", // TODO: verify

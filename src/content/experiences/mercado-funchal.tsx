@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Le marché ouvre tôt. En bas, les poissonniers alignent l'espada, ce long poisson noir des grands fonds. À l'étage, des fruits que l'on ne connaît pas. Puis les ruelles de la Zona Velha, aux portes peintes une par une.",
   keywords: ["madere", "funchal", "mercado dos lavradores", "zona velha", "marche"],
   heroImage: {
-    src: "/destination/madere/xp-mercado-funchal.png",
+    src: "/destination/madere/xp-mercado-funchal.webp",
     alt: "Étals de fruits du Mercado dos Lavradores de Funchal à Madère",
   },
   destinationSlugs: ["madere"],

@@ -13,7 +13,7 @@ export const experience: Experience = {
     "snorkeling",
   ],
   heroImage: {
-    src: "/destination/australie/xp-grande-barriere.png",
+    src: "/destination/australie/xp-grande-barriere.webp",
     alt: "Bateau privé mouillé au-dessus des jardins coralliens d'Agincourt, sur la Grande Barrière de Corail",
   },
   destinationSlugs: ["australie"],

@@ -19,17 +19,25 @@ References were supplied directly by Exuma (dropped into this folder), not downl
 | `xp-bateau-prive.webp`            | `xp-bateau-prive-ref.png`             | fournie par Exuma     | interne |
 | `hotel-sofitel-casco-viejo.webp`  | `hotel-sofitel-casco-viejo-ref.png`   | fournie par Exuma     | interne |
 | `hotel-santa-maria.webp`          | `hotel-santa-maria-ref.png`           | fournie par Exuma     | interne |
-| `hotel-islas-secas.webp`          | `hotel-islas-secas-ref.png`           | TODO : non fournie    | TODO    |
-| `bento-map.webp`                  | `bento-map-ref.png`                   | TODO : non fournie    | TODO    |
+| `hotel-islas-secas.webp`          | `hotel-islas-secas.png`               | fournie par Exuma, libre de droit | interne |
+| `bento-map.webp`                  | `bento-map.png` (contour) + `geo/pa.json` | trace fourni par Exuma | interne |
 | `bento-adresses.webp`             | `bento-adresses-ref.png`              | fournie par Exuma     | interne |
 | `bento-hebergements.webp`         | `bento-hebergements-ref.png`          | fournie par Exuma     | interne |
-| `bento-conciergerie.webp`         | `bento-conciergerie-ref.png`          | TODO : non fournie    | TODO    |
+| `bento-conciergerie.webp`         | `bento-conciergerie.png`              | fournie par Exuma, libre de droit | interne |
 | `bento-experiences.webp`          | `bento-experiences-ref.png`           | fournie par Exuma     | interne |
-| `map-canal.webp`                  | `map-canal-ref.png`                   | TODO : non fournie    | TODO    |
+| `map-canal.webp`                  | `map-canal-ref.png`                   | brief Exuma, image neuve (--inspire) | image originale |
 | `map-casco-viejo.webp`            | `map-casco-viejo-ref.png`             | fournie par Exuma     | interne |
 | `map-guna-yala.webp`              | `map-guna-yala-ref.png`               | fournie par Exuma     | interne |
 | `map-bocas-del-toro.webp`         | `map-bocas-del-toro-ref.png`          | fournie par Exuma     | interne |
-| `map-boquete.webp`                | `map-boquete-ref.png`                 | TODO : non fournie    | TODO    |
+| `map-boquete.webp`                | `map-boquete-ref.png`                 | brief Exuma, image neuve (--inspire) | image originale |
 | `map-coiba.webp`                  | `map-coiba-ref.png`                   | fournie par Exuma     | interne |
 
 Une seconde variante de `bento-hebergements` a été déposée (`bento-hebergements.png (2).png`) et laissée de côté : c'est la première qui a été retenue.
+
+## Les cinq derniers visuels (16 septembre 2026)
+
+Trois régimes différents, selon le statut des droits de chaque référence :
+
+- **`bento-conciergerie` et `hotel-islas-secas`** : références libres de droit. Pas de passage par Gemini, la photo est reprise telle quelle et seul le filtre Exuma est appliqué en local (`tmp/grade-panama.mjs`, dosage Égypte : saturation 0.84, gain [0.86, 0.855, 0.83], lift [18, 15, 11], grain sigma 6, WebP q96). La conciergerie est livrée en master carré, la carte bento étant carrée en `object-cover`.
+- **`map-canal` et `map-boquete`** : références non libres de droit. Traitées en `gen-images.mjs --inspire`, qui lit la référence comme un brief de contenu et compose une image neuve. Un simple changement d'angle (`--instruction`) resterait une œuvre dérivée.
+- **`bento-map`** : construite sans IA par `tmp/build-bento-map-panama.mjs`, dans la palette relevée sur `public/destination/polynesie/bento-map.png` (fond #383632, terre #f9f5ee, pastille #a5794c). La terre vient du contour fourni par Exuma, rempli par propagation depuis les bords : la relation administrative OSM inclut les eaux territoriales et remplit le golfe de Panama. Les cinq pastilles reprennent les étapes de l'itinéraire dans l'ordre, comme la Polynésie.

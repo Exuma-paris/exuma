@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "annam",
   ],
   heroImage: {
-    src: "/destination/vietnam/hotel-la-residence-hue.png",
-    alt: "Façade Art déco de La Résidence Hué Hotel & Spa au bord de la rivière des Parfums",
+    src: "/destination/vietnam/hotel-la-residence-hue.webp",
+    alt: "Bar Art déco de La Résidence Hué, fauteuils de cuir et hautes fenêtres",
   },
   destinationSlugs: ["vietnam"],
   sections: [],

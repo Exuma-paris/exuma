@@ -39,12 +39,12 @@ export const destination: Destination = {
           alt: "Sommets volcaniques de Madère au-dessus d'une mer de nuages au lever du jour",
         },
         {
-          src: "/destination/madere/hero-2.png",
-          alt: "Sentier de levada longeant un canal d'irrigation dans la forêt de lauriers",
+          src: "/destination/madere/hero-2.webp",
+          alt: "Cascade tombant d'une paroi couverte de mousse et de fougères, à Madère",
         },
         {
-          src: "/destination/madere/hero-3.png",
-          alt: "Baie de Funchal et ses versants en terrasses vus depuis les hauteurs",
+          src: "/destination/madere/hero-3.webp",
+          alt: "Maison triangulaire au toit de chaume et aux volets bleus, typique de Santana",
         },
       ],
     },
@@ -80,7 +80,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/madere/full-image.png",
+        src: "/destination/madere/full-image.webp",
         alt: "Falaise de Cabo Girão plongeant dans l'Atlantique sur la côte sud de Madère",
       },
       height: 600,
@@ -98,11 +98,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/madere/split-1.png",
+          src: "/destination/madere/split-1.webp",
           alt: "Canal de levada creusé dans la roche au-dessus d'une vallée boisée",
         },
         {
-          src: "/destination/madere/split-2.png",
+          src: "/destination/madere/split-2.webp",
           alt: "Cascade du Caldeirão Verde tombant dans un cirque de basalte",
         },
       ],
@@ -128,11 +128,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/madere/xp-fanal-1.png",
+          src: "/destination/madere/xp-fanal-1.webp",
           alt: "Lauriers centenaires isolés dans le brouillard sur le plateau de Fanal",
         },
         right: {
-          src: "/destination/madere/xp-fanal-2.png",
+          src: "/destination/madere/xp-fanal-2.webp",
           alt: "Prairie rase et troncs noueux de la forêt de Fanal au petit matin",
         },
       },
@@ -231,15 +231,19 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/madere/bento-${
-            ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          src: [
+            "/destination/madere/bento-map.webp",
+            "/destination/madere/bento-adresses.webp",
+            "/destination/madere/bento-hebergements.webp",
+            "/destination/madere/bento-conciergerie.webp",
+            "/destination/madere/bento-experiences.webp",
+          ][i],
           alt: [
             "Carte d'un itinéraire sur mesure à Madère",
-            "Ruelle pavée de la Zona Velha de Funchal aux portes peintes",
-            "Terrasse d'une quinta surplombant la baie de Funchal",
-            "Concierge coordonnant un transfert privé à Madère",
-            "Table dressée face à l'Atlantique sur la côte sud de Madère",
+            "Place du Município à Funchal et son pavement en mosaïque noir et blanc",
+            "Transats alignés dans le couloir de spa d'un hôtel de Funchal",
+            "Conseillère Exuma préparant un voyage à Madère depuis son bureau",
+            "Séance de yoga au petit matin sur la pelouse d'une quinta de Madère",
           ][i],
         },
       })),
@@ -260,7 +264,7 @@ export const destination: Destination = {
           description:
             "La ville s'étage en amphithéâtre au-dessus de sa baie. Le marché ouvre tôt, les jardins descendent vers la mer, et les ruelles de la vieille ville se parcourent sans plan.",
           image: {
-            src: "/destination/madere/map-funchal.png",
+            src: "/destination/madere/map-funchal.webp",
             alt: "Baie et vieille ville de Funchal adossées aux versants de Madère",
           },
           coordinates: { lat: 32.6669, lng: -16.9241 }, // TODO: verify coords
@@ -270,7 +274,7 @@ export const destination: Destination = {
           description:
             "Le deuxième sommet de l'île, que la route rejoint directement. Au lever du jour, les nuages s'étendent en dessous comme une mer. Un sentier d'arêtes conduit ensuite au Pico Ruivo.",
           image: {
-            src: "/destination/madere/map-pico-arieiro.png",
+            src: "/destination/madere/map-pico-arieiro.webp",
             alt: "Sommet du Pico do Arieiro dominant une mer de nuages à Madère",
           },
           coordinates: { lat: 32.735, lng: -16.9283 }, // TODO: verify coords
@@ -280,7 +284,7 @@ export const destination: Destination = {
           description:
             "Un village posé au fond d'un cirque de parois verticales. Les religieuses de Santa Clara s'y réfugièrent au seizième siècle. On y cultive la châtaigne, et on y descend par une route en lacets.",
           image: {
-            src: "/destination/madere/map-curral-das-freiras.png",
+            src: "/destination/madere/map-curral-das-freiras.webp",
             alt: "Village de Curral das Freiras au fond d'un cirque de montagnes",
           },
           coordinates: { lat: 32.7189, lng: -16.9564 }, // TODO: verify coords
@@ -290,7 +294,7 @@ export const destination: Destination = {
           description:
             "À la pointe nord-ouest, la lave a creusé des bassins que l'océan remplit à chaque marée. On s'y baigne dans une eau claire, entre les rochers noirs.",
           image: {
-            src: "/destination/madere/map-porto-moniz.png",
+            src: "/destination/madere/map-porto-moniz.webp",
             alt: "Piscines naturelles de lave de Porto Moniz face à l'Atlantique",
           },
           coordinates: { lat: 32.8667, lng: -17.1706 }, // TODO: verify coords
@@ -300,7 +304,7 @@ export const destination: Destination = {
           description:
             "La pointe est de l'île, nue et dorée, battue par le vent. Un sentier la parcourt avec la mer des deux côtés. C'est le coin le plus sec de Madère.",
           image: {
-            src: "/destination/madere/map-sao-lourenco.png",
+            src: "/destination/madere/map-sao-lourenco.webp",
             alt: "Presqu'île rocheuse de Ponta de São Lourenço à l'est de Madère",
           },
           coordinates: { lat: 32.7442, lng: -16.69 }, // TODO: verify coords
@@ -310,7 +314,7 @@ export const destination: Destination = {
           description:
             "Un port de pêche aux barques peintes, à quelques minutes de Funchal. Les pêcheurs y rentrent en fin de matinée. Au-dessus, les vignes montent en terrasses.",
           image: {
-            src: "/destination/madere/map-camara-de-lobos.png",
+            src: "/destination/madere/map-camara-de-lobos.webp",
             alt: "Barques de pêche colorées dans le port de Câmara de Lobos",
           },
           coordinates: { lat: 32.6503, lng: -16.9775 }, // TODO: verify coords
@@ -538,7 +542,7 @@ export const destination: Destination = {
           quote:
             "Deux adolescents et un petit de huit ans, je voyais mal comment faire. Carole a choisi des levadas plates et des journées courtes. Le marché de Funchal a même intéressé les grands, ce qui n'était pas gagné.",
           image: {
-            src: "/destination/madere/hero-2.png",
+            src: "/destination/madere/hero-2.webp",
             alt: "Portrait de Constance", // TODO: verify
           },
           name: "Constance", // TODO: verify
@@ -549,7 +553,7 @@ export const destination: Destination = {
           quote:
             "Le lever du jour au Pico do Arieiro, puis la traversée à pied vers le Pico Ruivo pendant que la voiture nous attendait à l'autre bout. C'est exactement ce que je ne voulais pas avoir à organiser.",
           image: {
-            src: "/destination/madere/hero-3.png",
+            src: "/destination/madere/hero-3.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify

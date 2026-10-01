@@ -13,7 +13,7 @@ export const experience: Experience = {
     "riviere des parfums",
   ],
   heroImage: {
-    src: "/destination/vietnam/xp-cite-imperiale-hue.png",
+    src: "/destination/vietnam/xp-cite-imperiale-hue.webp",
     alt: "Historien de la cour Nguyễn devant un pavillon de la Cité impériale de Hué",
   },
   destinationSlugs: ["vietnam"],

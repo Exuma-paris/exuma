@@ -228,10 +228,10 @@ export const destination: Destination = {
         image: {
           src: `/destination/coree-du-sud/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
           alt: [
-            "Itinéraire sur mesure en Corée du Sud, de Séoul à Gyeongju et à l'île de Jeju",
+            "Carte d'itinéraire en Corée du Sud, de Séoul à l'île de Jeju en six étapes",
             "Adresses confidentielles en Corée du Sud : ateliers d'artisans et tables de chefs",
             "Hébergements en Corée du Sud : maisons de bois de Séoul et domaines de bord de mer",
-            "Conciergerie privée 24/7 pour un voyage en Corée du Sud",
+            "Conseillère Exuma avec son casque, en conversation avec un voyageur",
             "Expériences en Corée du Sud : palais en privé, marchés de nuit et cuisine à Busan",
           ][i],
         },

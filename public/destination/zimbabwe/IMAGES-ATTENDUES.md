@@ -2,7 +2,7 @@
 
 Dossier : `public/destination/zimbabwe/`
 
-**19 sur 25 présentes.** Il manque 6 images.
+**25 sur 25 présentes.** La page est complète.
 
 Les fichiers sont au format `.webp` : ils sont produits à partir d'une photo de référence déposée dans `references/destination/zimbabwe/` sous le nom `<nom>-ref.jpg` (ou `.png`), puis passés au filtre Exuma. Déposez la photo de référence, pas le fichier final.
 
@@ -28,7 +28,7 @@ Attention : la photo de référence doit remplir tout le cadre, sans marge blanc
 - [x] `xp-chutes-a-pied-1.webp`
 - [x] `xp-chutes-a-pied-2.webp`
 - [x] `xp-croisiere-zambeze.webp`
-- [ ] `xp-helico-chutes.webp` — vue aérienne des chutes et des gorges en zigzag
+- [x] `xp-helico-chutes.webp`
 - [x] `xp-safari-vehicule.webp`
 
 ## Hébergements
@@ -39,19 +39,19 @@ Attention : la photo de référence doit remplir tout le cadre, sans marge blanc
 
 ## Bloc Exuma
 
-- [ ] `bento-map.webp` — image d'ambiance pour « Création d'itinéraires »
+- [x] `bento-map.webp`
 - [x] `bento-adresses.webp`
 - [x] `bento-hebergements.webp`
-- [ ] `bento-conciergerie.webp` — image d'ambiance pour « Conciergerie 24/7 »
+- [x] `bento-conciergerie.webp`
 - [x] `bento-experiences.webp`
 
 ## Carte des étapes
 
-- [ ] `map-victoria-falls.webp` — les chutes depuis la rive zimbabwéenne
+- [x] `map-victoria-falls.webp`
 - [x] `map-hwange.webp`
-- [ ] `map-mana-pools.webp` — un bras du Zambèze et la forêt claire d'albidas
+- [x] `map-mana-pools.webp`
 - [x] `map-matobo.webp`
 - [x] `map-great-zimbabwe.webp`
-- [ ] `map-malilangwe.webp` — les falaises de Chilojo ou la brousse du sud-est
+- [x] `map-malilangwe.webp`
 
 Les portraits des témoignages réutilisent `hero-1`, `hero-2` et `hero-3` : aucun fichier supplémentaire.

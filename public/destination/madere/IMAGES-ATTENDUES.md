@@ -2,53 +2,53 @@
 
 Dossier : `public/destination/madere/`
 
-**2 sur 26 présentes.** Il manque 24 images.
+**26 sur 26 en place.** La page est complète.
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
 ## Carrousel du hero
 
 - [x] `hero-1.png`
-- [x] `hero-2.png`
-- [ ] `hero-3.png`
+- [x] `hero-2.webp`
+- [x] `hero-3.webp`
 
 ## Bandeau pleine largeur
 
-- [ ] `full-image.png`
+- [x] `full-image.webp`
 
 ## Section texte et images
 
-- [ ] `split-1.png`
-- [ ] `split-2.png`
+- [x] `split-1.webp`
+- [x] `split-2.webp`
 
 ## Expériences
 
-- [ ] `xp-degustation-blandys.png`
-- [ ] `xp-fanal-1.png`
-- [ ] `xp-fanal-2.png`
-- [ ] `xp-foret-fanal.png`
-- [ ] `xp-mercado-funchal.png`
-- [ ] `xp-plage-seixal.png`
+- [x] `xp-degustation-blandys.webp`
+- [x] `xp-fanal-1.webp`
+- [x] `xp-fanal-2.webp`
+- [x] `xp-foret-fanal.webp`
+- [x] `xp-mercado-funchal.webp`
+- [x] `xp-plage-seixal.webp`
 
 ## Hébergements
 
-- [ ] `hotel-casa-velha-palheiro.png`
-- [ ] `hotel-reids-palace.png`
-- [ ] `hotel-savoy-palace.png`
+- [x] `hotel-casa-velha-palheiro.webp`
+- [x] `hotel-reids-palace.webp`
+- [x] `hotel-savoy-palace.webp`
 
 ## Bloc bento
 
-- [ ] `bento-adresses.png`
-- [ ] `bento-conciergerie.png`
-- [ ] `bento-experiences.png`
-- [ ] `bento-hebergements.png`
-- [ ] `bento-map.png`
+- [x] `bento-adresses.webp`
+- [x] `bento-conciergerie.webp`
+- [x] `bento-experiences.webp`
+- [x] `bento-hebergements.webp`
+- [x] `bento-map.webp`
 
 ## Carte interactive
 
-- [ ] `map-camara-de-lobos.png`
-- [ ] `map-curral-das-freiras.png`
-- [ ] `map-funchal.png`
-- [ ] `map-pico-arieiro.png`
-- [ ] `map-porto-moniz.png`
-- [ ] `map-sao-lourenco.png`
+- [x] `map-camara-de-lobos.webp`
+- [x] `map-curral-das-freiras.webp`
+- [x] `map-funchal.webp`
+- [x] `map-pico-arieiro.webp`
+- [x] `map-porto-moniz.webp`
+- [x] `map-sao-lourenco.webp`

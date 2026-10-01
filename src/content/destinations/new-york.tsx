@@ -227,10 +227,10 @@ export const destination: Destination = {
         image: {
           src: `/destination/new-york/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
-            "Itinéraire sur mesure à New York, de l'Upper East Side au port de Manhattan",
+            "Carte de Manhattan et des quatre étapes du séjour, de Central Park à la pointe sud",
             "Truffe noire râpée sur des pâtes, dans la salle d'un restaurant new-yorkais",
             "Bassin intérieur bordé de cheminées dans un hôtel de Manhattan",
-            "Conciergerie privée 24/7 pour un voyage à New York",
+            "Conseillère de la conciergerie Exuma, casque sur les oreilles, devant son écran",
             "Soin dans la cabine d'un spa d'hôtel à New York",
           ][i],
         },
@@ -253,7 +253,7 @@ export const destination: Destination = {
             "L'hôtel particulier d'Henry Clay Frick, sur la Cinquième Avenue, resté meublé comme il l'a quitté. Les Vermeer sont au salon, les Fragonard dans une pièce construite pour eux. La maison a rouvert en 2025 et laisse désormais monter aux étages privés.", // TODO: verify la réouverture en 2025
           image: {
             src: "/destination/new-york/map-frick.webp",
-            alt: "Façade de l'hôtel particulier de la Frick Collection sur la Cinquième Avenue",
+            alt: "Grande galerie aux murs verts sous verrière, tableaux anciens dans leurs cadres dorés",
           },
           // TODO: verify coords
           coordinates: { lat: 40.7712, lng: -73.9673 },
@@ -286,7 +286,7 @@ export const destination: Destination = {
             "Une quarantaine de salles serrées entre la 41e et la 54e rue, autour de Times Square. Les spectacles se jouent huit fois par semaine, avec des matinées le mercredi, le samedi et le dimanche. Les loges s'ouvrent après le rideau, sur rendez-vous.", // TODO: verify le nombre de salles de Broadway
           image: {
             src: "/destination/new-york/map-theater-district.webp",
-            alt: "Marquises lumineuses des théâtres du Theater District à la tombée du soir",
+            alt: "Marquise éclairée d'un théâtre du Theater District à la tombée du soir, spectateurs sur le trottoir",
           },
           // TODO: verify coords
           coordinates: { lat: 40.759, lng: -73.9845 },

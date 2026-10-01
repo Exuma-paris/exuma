@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Le Cambodge se laisse apprivoiser lentement. À Siem Reap, la forêt s'ouvre sur des temples que l'on croyait connaître et qui se révèlent bien plus vastes. Plus au sud, le Mekong descend vers le delta et la forêt des Cardamomes ferme l'horizon. C'est ce royaume-là que nous composons pour vous, étape après étape.",
       images: [
         {
-          src: "/destination/cambodge/hero-1.png",
-          alt: "Les tours d'Angkor Vat au lever du jour près de Siem Reap, au Cambodge",
+          src: "/destination/cambodge/hero-1.webp",
+          alt: "Deux jeunes moines en robe safran assis dans l'embrasure d'un temple d'Angkor",
         },
         {
-          src: "/destination/cambodge/hero-2.png",
-          alt: "Village sur pilotis de Kampong Phluk au bord du Tonlé Sap à la tombée du jour",
+          src: "/destination/cambodge/hero-2.webp",
+          alt: "Silhouette d'un éléphant et de son cornac dans la lumière du couchant, au Cambodge",
         },
         {
-          src: "/destination/cambodge/hero-3.png",
-          alt: "Rivière et forêt des Cardamomes dans le sud-ouest du Cambodge",
+          src: "/destination/cambodge/hero-3.webp",
+          alt: "Les tours d'Angkor Vat reflétées dans le bassin aux nénuphars, près de Siem Reap",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/cambodge/full-image.png",
-        alt: "Visages de pierre du temple du Bayon dans le parc d'Angkor, au Cambodge",
+        src: "/destination/cambodge/full-image.webp",
+        alt: "Porte de grès sculptée et bouddha assis dans un temple khmer, au Cambodge",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/cambodge/split-1.png",
-          alt: "Toits dorés du Palais royal et de la pagode d'Argent à Phnom Penh",
+          src: "/destination/cambodge/split-1.webp",
+          alt: "Visage de pierre du temple du Bayon dans le parc d'Angkor, au Cambodge",
         },
         {
-          src: "/destination/cambodge/split-2.png",
-          alt: "Quais du Sisowath au confluent du Mekong et du Tonlé Sap à Phnom Penh",
+          src: "/destination/cambodge/split-2.webp",
+          alt: "Toits dorés et flèches du Palais royal de Phnom Penh",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/cambodge/xp-angkor-aube-1.png",
-          alt: "Chaussée d'Angkor Vat déserte avant le lever du jour",
+          src: "/destination/cambodge/xp-angkor-aube-1.webp",
+          alt: "Les tours d'Angkor Vat dans la lumière rasante du matin, entre les palmiers à sucre",
         },
         right: {
-          src: "/destination/cambodge/xp-angkor-aube-2.png",
-          alt: "Racines de fromager sur les murs du temple de Ta Prohm à Angkor",
+          src: "/destination/cambodge/xp-angkor-aube-2.webp",
+          alt: "Bas-relief d'apsaras sculptées dans le grès d'un temple d'Angkor",
         },
       },
       text: {
@@ -225,7 +225,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/cambodge/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/cambodge/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Cambodge entre Angkor, le Mekong et les Cardamomes",
             "Adresses confidentielles au Cambodge : temples reculés et villages du fleuve",
@@ -252,52 +252,52 @@ export const destination: Destination = {
           description:
             "Des temples, des douves et une forêt qui les entoure depuis des siècles. Angkor Vat, le Bayon et Ta Prohm en sont le cœur, mais les enceintes extérieures se visitent souvent seul, et c'est là que le site prend toute sa mesure.",
           image: {
-            src: "/destination/cambodge/map-angkor.png",
-            alt: "Temple d'Angkor Vat et ses douves dans le parc archéologique de Siem Reap",
+            src: "/destination/cambodge/map-angkor.webp",
+            alt: "Tour centrale d'Angkor Vat dans la lumière du matin, à Siem Reap",
           },
           // TODO: verify coords
           coordinates: { lat: 13.4125, lng: 103.867 },
-        },
-        {
-          title: "Phnom Penh",
-          description:
-            "La capitale se tient au confluent des fleuves. Le Palais royal, la pagode d'Argent et le Musée national occupent la matinée, et les quais font le reste lorsque la chaleur retombe.",
-          image: {
-            src: "/destination/cambodge/map-phnom-penh.png",
-            alt: "Palais royal de Phnom Penh au bord du Tonlé Sap",
-          },
-          // TODO: verify coords
-          coordinates: { lat: 11.5564, lng: 104.9282 },
-        },
-        {
-          title: "Le Tonlé Sap et Kampong Phluk",
-          description:
-            "Le grand lac du Cambodge gonfle à la saison des pluies puis se retire. Les maisons de Kampong Phluk tiennent sur de hauts pilotis, et la forêt inondée se traverse en barque, à la rame.",
-          image: {
-            src: "/destination/cambodge/map-tonle-sap.png",
-            alt: "Maisons sur pilotis de Kampong Phluk au bord du lac Tonlé Sap",
-          },
-          // TODO: verify coords
-          coordinates: { lat: 13.1667, lng: 103.9833 },
         },
         {
           title: "Banteay Chhmar",
           description:
             "Un temple posé dans la campagne du nord-ouest, que personne n'a restauré et que la forêt a laissé s'affaisser. Le village en tient les clés et accueille ceux qui souhaitent y passer la nuit.",
           image: {
-            src: "/destination/cambodge/map-banteay-chhmar.png",
-            alt: "Ruines du temple de Banteay Chhmar dans le nord-ouest du Cambodge",
+            src: "/destination/cambodge/map-banteay-chhmar.webp",
+            alt: "Tours de grès rose finement sculptées d'un temple khmer, au Cambodge",
           },
           // TODO: verify coords
           coordinates: { lat: 14.0333, lng: 103.0833 },
+        },
+        {
+          title: "Le Tonlé Sap et Kampong Phluk",
+          description:
+            "Le grand lac du Cambodge gonfle à la saison des pluies puis se retire. Les maisons de Kampong Phluk tiennent sur de hauts pilotis, et la forêt inondée se traverse en barque, à la rame.",
+          image: {
+            src: "/destination/cambodge/map-tonle-sap.webp",
+            alt: "Barques de pêcheurs sur le Tonlé Sap au coucher du soleil",
+          },
+          // TODO: verify coords
+          coordinates: { lat: 13.1667, lng: 103.9833 },
+        },
+        {
+          title: "Phnom Penh",
+          description:
+            "La capitale se tient au confluent des fleuves. Le Palais royal, la pagode d'Argent et le Musée national occupent la matinée, et les quais font le reste lorsque la chaleur retombe.",
+          image: {
+            src: "/destination/cambodge/map-phnom-penh.webp",
+            alt: "Monument de l'Indépendance de Phnom Penh",
+          },
+          // TODO: verify coords
+          coordinates: { lat: 11.5564, lng: 104.9282 },
         },
         {
           title: "Les Cardamomes",
           description:
             "L'une des dernières grandes forêts d'Asie du Sud-Est, avec ses éléphants, ses gibbons et ses rivières à courant lent. Des équipes de protection la parcourent chaque jour, et l'on peut les accompagner.",
           image: {
-            src: "/destination/cambodge/map-cardamomes.png",
-            alt: "Rivière et canopée de la forêt des Cardamomes au sud-ouest du Cambodge",
+            src: "/destination/cambodge/map-cardamomes.webp",
+            alt: "Rivière en cascades sur les dalles de roche, sous la canopée de la forêt des Cardamomes",
           },
           // TODO: verify coords
           coordinates: { lat: 11.6, lng: 103.2 },
@@ -307,8 +307,8 @@ export const destination: Destination = {
           description:
             "Des îles de sable clair à l'écart de la côte, longtemps absentes des cartes. Song Saa en occupe deux, reliées par une passerelle de bois posée au-dessus d'une réserve marine.",
           image: {
-            src: "/destination/cambodge/map-koh-rong.png",
-            alt: "Îles de sable clair de l'archipel de Koh Rong dans le golfe de Thaïlande",
+            src: "/destination/cambodge/map-koh-rong.webp",
+            alt: "Barques de bois amarrées devant le village de Koh Rong, dans le golfe de Thaïlande",
           },
           // TODO: verify coords
           coordinates: { lat: 10.7, lng: 103.25 },
@@ -555,7 +555,7 @@ export const destination: Destination = {
           quote:
             "Entrer dans le parc avant le jour, c'est ce qui a tout changé. Nous avons eu la chaussée d'Angkor Vat pour nous, dans un silence complet. L'archéologue qui nous accompagnait nous a montré des détails que nous n'aurions jamais remarqués, et nous étions repartis quand les cars sont arrivés.",
           image: {
-            src: "/destination/cambodge/hero-1.png",
+            src: "/destination/cambodge/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -566,7 +566,7 @@ export const destination: Destination = {
           quote:
             "Nous avons dormi sous tente à Banteay Chhmar, dans un temple que personne n'a restauré. Le village avait préparé le dîner et, au matin, la brume tenait encore entre les pierres. C'est le souvenir que nos petits-enfants racontent encore.",
           image: {
-            src: "/destination/cambodge/hero-2.png",
+            src: "/destination/cambodge/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -577,7 +577,7 @@ export const destination: Destination = {
           quote:
             "Après les temples, nous ne pensions pas que ce serait la forêt qui resterait. Une rivière, un campement suspendu dans les arbres, et deux gardes qui nous ont emmenés relever des pièges toute une matinée. Nous sommes restés plus longtemps que prévu.",
           image: {
-            src: "/destination/cambodge/hero-3.png",
+            src: "/destination/cambodge/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

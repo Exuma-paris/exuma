@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["jamaique", "appleton estate", "rhum", "nassau valley", "degustation"],
   heroImage: {
     src: "/destination/jamaique/xp-appleton-rhum.webp",
-    alt: "Alignement de fûts de rhum vieillissant dans un chai d'Appleton Estate en Jamaïque",
+    alt: "Alambics de cuivre alignés sous la charpente d'une distillerie de rhum jamaïcaine",
   },
   destinationSlugs: ["jamaique"],
   sections: [],

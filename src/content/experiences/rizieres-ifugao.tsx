@@ -7,8 +7,8 @@ export const experience: Experience = {
     "On monte à Batad par un sentier, sans autre bruit que celui de l'eau dans les canaux. Un aîné du village raconte comment sa famille entretient les terrasses, et le paysage cesse d'être un décor.",
   keywords: ["philippines", "banaue", "batad", "ifugao", "cordillere"],
   heroImage: {
-    src: "/destination/philippines/xp-rizieres-ifugao.png",
-    alt: "Terrasses de riz de Batad entretenues par les Ifugao dans la Cordillère de Luçon",
+    src: "/destination/philippines/xp-rizieres-ifugao.webp",
+    alt: "Terrasses de riz des Ifugao au soleil rasant, dans la Cordillère de Luçon",
   },
   destinationSlugs: ["philippines"],
   sections: [],

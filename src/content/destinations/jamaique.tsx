@@ -102,7 +102,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/jamaique/split-2.webp",
-          alt: "Eaux du Blue Lagoon entourées de végétation près de Port Antonio",
+          alt: "Barques de bois amarrées sur les eaux sombres du Blue Lagoon, à la tombée du jour",
         },
       ],
     },
@@ -253,7 +253,7 @@ export const destination: Destination = {
             "La côte la plus verte de l'île, une succession de criques et de rivières qui rejoignent la mer. Le Blue Lagoon mélange eau douce et eau de mer, et la couleur change avec l'heure.",
           image: {
             src: "/destination/jamaique/map-port-antonio.webp",
-            alt: "Baie et végétation dense de Port Antonio, sur la côte est de la Jamaïque",
+            alt: "Marina de Port Antonio, voiliers au mouillage devant les collines boisées de la côte est",
           },
           // TODO: verify coords
           coordinates: { lat: 18.1796, lng: -76.4494 },

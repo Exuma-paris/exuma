@@ -2,7 +2,7 @@
 
 Dossier : `public/destination/australie/`
 
-**20 sur 25 présentes.** Il manque 5 images.
+**Les 25 images sont en place.**
 
 Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
 
@@ -24,10 +24,10 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 ## Expériences
 
 - [x] `xp-airboat-mary-river.png`
-- [ ] `xp-grande-barriere.png`
+- [x] `xp-grande-barriere.png`
 - [x] `xp-seal-bay.png`
-- [ ] `xp-uluru-anangu-1.png`
-- [ ] `xp-uluru-anangu-2.png`
+- [x] `xp-uluru-anangu-1.png`
+- [x] `xp-uluru-anangu-2.png`
 
 ## Hébergements
 
@@ -38,10 +38,10 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 ## Bloc bento
 
 - [x] `bento-adresses.png`
-- [ ] `bento-conciergerie.png`
+- [x] `bento-conciergerie.png`
 - [x] `bento-experiences.png`
 - [x] `bento-hebergements.png`
-- [ ] `bento-map.png`
+- [x] `bento-map.png`
 
 ## Carte interactive
 

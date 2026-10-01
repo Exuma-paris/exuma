@@ -110,12 +110,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/australie/xp-uluru-anangu-1.png",
+          src: "/destination/australie/xp-uluru-anangu-1.webp",
           alt: "Marche à l'aube dans les gorges de Kata Tjuta, dans le Centre rouge australien",
         },
         right: {
-          src: "/destination/australie/xp-uluru-anangu-2.png",
-          alt: "Guide anangu racontant la Tjukurpa au pied du monolithe d'Uluru",
+          src: "/destination/australie/xp-uluru-anangu-2.webp",
+          alt: "Guide anangu et deux marcheurs face à Uluru dans la lumière de fin de journée",
         },
       },
       text: {
@@ -224,7 +224,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/australie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/australie/bento-${["map.webp", "adresses.png", "hebergements.png", "conciergerie.webp", "experiences.png"][i]}`,
           alt: [
             "Itinéraire sur mesure en Australie entre Sydney, Uluru et le Top End",
             "Adresses confidentielles en Australie : tables de chefs et stations isolées du bush",

@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["panama", "chiriqui", "islas secas", "ile privee", "coiba"],
   heroImage: {
     src: "/destination/panama/hotel-islas-secas.webp",
-    alt: "Casita des Islas Secas ouverte sur une baie déserte du golfe de Chiriquí",
+    alt: "Lit à baldaquin sous moustiquaire et persiennes ouvertes sur la végétation, casita des Islas Secas",
   },
   destinationSlugs: ["panama"],
   sections: [],

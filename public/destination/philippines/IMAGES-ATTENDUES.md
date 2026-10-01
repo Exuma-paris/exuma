@@ -2,52 +2,52 @@
 
 Dossier : `public/destination/philippines/`
 
-**0 sur 25 présentes.** Il manque 25 images.
+**25 sur 25 présentes.** La série est complète.
 
-Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
+Les photographies libres de droit déposées par Exuma dans `references/destination/philippines/` ont été reprises à l'identique, avec le seul filtre Exuma appliqué en local. `hero-3`, qui n'est pas libre de droit, a été recomposée par Gemini en mode `--inspire`. `bento-map` est tracée depuis Natural Earth, sans IA. Format de sortie : `.webp`.
 
 ## Carrousel du hero
 
-- [ ] `hero-1.png`
-- [ ] `hero-2.png`
-- [ ] `hero-3.png`
+- [x] `hero-1.webp`
+- [x] `hero-2.webp`
+- [x] `hero-3.webp`
 
 ## Bandeau pleine largeur
 
-- [ ] `full-image.png`
+- [x] `full-image.webp`
 
 ## Section texte et images
 
-- [ ] `split-1.png`
-- [ ] `split-2.png`
+- [x] `split-1.webp`
+- [x] `split-2.webp`
 
 ## Expériences
 
-- [ ] `xp-apo-reef.png`
-- [ ] `xp-hydravion-palawan.png`
-- [ ] `xp-lagons-el-nido-1.png`
-- [ ] `xp-lagons-el-nido-2.png`
-- [ ] `xp-rizieres-ifugao.png`
+- [x] `xp-lagons-el-nido-1.webp`
+- [x] `xp-lagons-el-nido-2.webp`
+- [x] `xp-apo-reef.webp`
+- [x] `xp-hydravion-palawan.webp`
+- [x] `xp-rizieres-ifugao.webp`
 
 ## Hébergements
 
-- [ ] `hotel-amanpulo.png`
-- [ ] `hotel-nay-palad-hideaway.png`
-- [ ] `hotel-shangri-la-boracay.png`
+- [x] `hotel-amanpulo.webp`
+- [x] `hotel-nay-palad-hideaway.webp`
+- [x] `hotel-shangri-la-boracay.webp`
 
 ## Bloc bento
 
-- [ ] `bento-adresses.png`
-- [ ] `bento-conciergerie.png`
-- [ ] `bento-experiences.png`
-- [ ] `bento-hebergements.png`
-- [ ] `bento-map.png`
+- [x] `bento-adresses.webp`
+- [x] `bento-conciergerie.webp`
+- [x] `bento-experiences.webp`
+- [x] `bento-hebergements.webp`
+- [x] `bento-map.webp`
 
 ## Carte interactive
 
-- [ ] `map-banaue.png`
-- [ ] `map-boracay.png`
-- [ ] `map-coron.png`
-- [ ] `map-el-nido.png`
-- [ ] `map-pamalican.png`
-- [ ] `map-siargao.png`
+- [x] `map-el-nido.webp`
+- [x] `map-pamalican.webp`
+- [x] `map-coron.webp`
+- [x] `map-boracay.webp`
+- [x] `map-siargao.webp`
+- [x] `map-banaue.webp`

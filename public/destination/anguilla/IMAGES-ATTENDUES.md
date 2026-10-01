@@ -2,52 +2,52 @@
 
 Dossier : `public/destination/anguilla/`
 
-**0 sur 25 présentes.** Il manque 25 images.
+**25 sur 25 présentes.** La série est complète.
 
-Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-dessous : c'est ce nom que la page va chercher.
+Les références n'étant pas libres de droit, les images ont été composées par Gemini en mode `--inspire` à partir des photographies déposées par Exuma. Exceptions : `bento-conciergerie`, libre de droit, reprise à l'identique avec le seul filtre Exuma ; `bento-map`, tracée sans IA. Format de sortie : `.webp`.
 
 ## Carrousel du hero
 
-- [ ] `hero-1.png`
-- [ ] `hero-2.png`
-- [ ] `hero-3.png`
+- [x] `hero-1.webp`
+- [x] `hero-2.webp`
+- [x] `hero-3.webp`
 
 ## Bandeau pleine largeur
 
-- [ ] `full-image.png`
+- [x] `full-image.webp`
 
 ## Section texte et images
 
-- [ ] `split-1.png`
-- [ ] `split-2.png`
+- [x] `split-1.webp`
+- [x] `split-2.webp`
 
 ## Expériences
 
-- [ ] `xp-cheval-cove-bay.png`
-- [ ] `xp-plongee-epaves-1.png`
-- [ ] `xp-plongee-epaves-2.png`
-- [ ] `xp-sunset-voilier.png`
-- [ ] `xp-yacht-sandy-island.png`
+- [x] `xp-plongee-epaves-1.webp`
+- [x] `xp-plongee-epaves-2.webp`
+- [x] `xp-yacht-sandy-island.webp`
+- [x] `xp-sunset-voilier.webp`
+- [x] `xp-cheval-cove-bay.webp`
 
 ## Hébergements
 
-- [ ] `hotel-cap-juluca.png`
-- [ ] `hotel-four-seasons.png`
-- [ ] `hotel-quintessence.png`
+- [x] `hotel-cap-juluca.webp`
+- [x] `hotel-quintessence.webp`
+- [x] `hotel-four-seasons.webp`
 
 ## Bloc bento
 
-- [ ] `bento-adresses.png`
-- [ ] `bento-conciergerie.png`
-- [ ] `bento-experiences.png`
-- [ ] `bento-hebergements.png`
-- [ ] `bento-map.png`
+- [x] `bento-map.webp`
+- [x] `bento-adresses.webp`
+- [x] `bento-hebergements.webp`
+- [x] `bento-conciergerie.webp`
+- [x] `bento-experiences.webp`
 
 ## Carte interactive
 
-- [ ] `map-meads-bay.png`
-- [ ] `map-rendezvous-bay.png`
-- [ ] `map-sandy-ground.png`
-- [ ] `map-sandy-island.png`
-- [ ] `map-shoal-bay.png`
-- [ ] `map-the-valley.png`
+- [x] `map-shoal-bay.webp`
+- [x] `map-sandy-ground.webp`
+- [x] `map-meads-bay.webp`
+- [x] `map-rendezvous-bay.webp`
+- [x] `map-sandy-island.webp`
+- [x] `map-the-valley.webp`
