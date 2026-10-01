@@ -3,6 +3,7 @@ import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { EntityStubPage } from "@/components/destination/entity-stub-page";
 import { accommodations } from "@/lib/content/registry";
+import { applyBackgroundRhythm } from "@/lib/content/background-rhythm";
 
 export function generateStaticParams() {
   return Object.keys(accommodations).map((slug) => ({ slug }));
@@ -26,7 +27,7 @@ export default async function Page({
     );
   }
 
-  const [hero, ...rest] = accommodation.sections;
+  const [hero, ...rest] = applyBackgroundRhythm(accommodation.sections);
 
   return (
     <main className="flex-1">

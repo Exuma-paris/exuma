@@ -54,7 +54,7 @@ The top-level fields wire the destination into multiple surfaces:
 
 All these top-level fields are technically optional in the type but should always be filled in — leaving them out means the destination won't appear in those surfaces or will inherit weak global defaults.
 
-Every section accepts an optional `background?: string` (Tailwind class). Pass it only when the canonical sequence does (noted per section).
+**Section backgrounds are assigned automatically** by `applyBackgroundRhythm` (`src/lib/content/background-rhythm.ts`): the page template cycles cream → white → sand and renders `infoGrid` in dark grey. Any `background` or `theme` value written in the content file is overridden. Don't spend effort choosing them; the `bg-*` hints in the examples and section list below are legacy.
 
 ---
 

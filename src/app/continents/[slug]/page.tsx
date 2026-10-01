@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { cn } from "@/lib/utils";
 import { Header } from "@/components/sections/header";
 import { TextBlock } from "@/components/blocks/text-block";
 import { DestinationFinder } from "@/components/blocks/destination-finder";
@@ -6,6 +7,7 @@ import { renderSection } from "@/components/destination/render-section";
 import { continents } from "@/lib/content/registry";
 import { getDestinationFinderIndex } from "@/lib/content/destination-finder";
 import type { Section } from "@/lib/content/types";
+import { createBackgroundRhythm } from "@/lib/content/background-rhythm";
 
 export function generateStaticParams() {
   return Object.keys(continents).map((slug) => ({ slug }));
@@ -47,8 +49,15 @@ export default async function Page({
   // Le moteur de recherche se glisse juste avant le CTA de clôture, quel que
   // soit le nombre de sections écrites dans le fichier de contenu.
   const ctaIndex = rest.findIndex((s) => s.type === "finalCta");
-  const beforeFinder = ctaIndex === -1 ? rest : rest.slice(0, ctaIndex);
-  const afterFinder = ctaIndex === -1 ? [] : rest.slice(ctaIndex);
+  // Le cycle des fonds suit l'ordre d'affichage, moteur de recherche compris.
+  const rhythm = createBackgroundRhythm();
+  const beforeFinder = (ctaIndex === -1 ? rest : rest.slice(0, ctaIndex)).map(
+    rhythm.apply,
+  );
+  const finderBackground = rhythm.next();
+  const afterFinder = (ctaIndex === -1 ? [] : rest.slice(ctaIndex)).map(
+    rhythm.apply,
+  );
 
   // L'index est construit depuis le registre : une destination nouvellement
   // rattachée au continent y entre sans qu'il y ait à toucher au contenu.
@@ -68,7 +77,7 @@ export default async function Page({
       {beforeFinder.map((section, i) => renderSection(section, String(i + 1)))}
 
       {entries.length > 0 ? (
-        <div className="w-full bg-background-soft">
+        <div className={cn("w-full", finderBackground)}>
           <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px section-py">
             <div className="flex flex-col items-start gap-6 text-left md:items-center md:text-center">
               <TextBlock

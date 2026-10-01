@@ -1,15 +1,18 @@
 import { Header } from "@/components/sections/header";
 import type { Destination } from "@/lib/content/types";
 import { withDestinationContext } from "@/lib/contact/project-link";
+import { applyBackgroundRhythm } from "@/lib/content/background-rhythm";
 import { destinationJsonLdScripts } from "@/lib/destination/seo";
 import { renderSection } from "./render-section";
 
 export function DestinationPage({ destination }: { destination: Destination }) {
   // Tous les « Créer votre voyage » de la page emmènent la destination avec
   // eux, pour que le formulaire s'ouvre déjà rempli.
-  const sections = withDestinationContext(
-    destination.sections,
-    destination.slug,
+  // Les infos pratiques passent en gris foncé : c'est la respiration du
+  // milieu de page, au même endroit sur toutes les destinations.
+  const sections = applyBackgroundRhythm(
+    withDestinationContext(destination.sections, destination.slug),
+    { dark: ["infoGrid"] },
   );
   const [hero, ...rest] = sections;
   const scripts = destinationJsonLdScripts(destination);

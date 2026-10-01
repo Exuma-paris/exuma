@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { meta, sections } from "@/content/pages/professionnels";
+import { applyBackgroundRhythm } from "@/lib/content/background-rhythm";
 
 /** Image de partage : la première image du hero. Sans cette déclaration, la
  * page hériterait des balises Open Graph de l'accueil, alors qu'elle est faite
@@ -33,7 +34,9 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const [hero, spotlight, ...rest] = sections;
+  const [hero, spotlight, ...rest] = applyBackgroundRhythm(sections, {
+    dark: ["infoGrid"],
+  });
 
   return (
     // `--section-block` est l'espacement vertical standard des encarts du site

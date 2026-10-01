@@ -11,6 +11,7 @@ import {
   experienceJsonLdScripts,
   pickHeroImage,
 } from "@/lib/experience/seo";
+import { applyBackgroundRhythm } from "@/lib/content/background-rhythm";
 
 export function generateStaticParams() {
   return Object.keys(experiences).map((slug) => ({ slug }));
@@ -63,7 +64,7 @@ export default async function Page({
     return <EntityStubPage name={experience.name} blurb={experience.blurb} />;
   }
 
-  const [hero, ...rest] = experience.sections;
+  const [hero, ...rest] = applyBackgroundRhythm(experience.sections);
   const scripts = experienceJsonLdScripts(experience);
   const headerTheme = hero?.type === "heroImageBackground" ? "dark" : "light";
 

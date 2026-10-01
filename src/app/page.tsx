@@ -17,11 +17,25 @@ import {
 import { VideoSection } from "@/components/sections/video";
 import { FaqSection } from "@/components/sections/faq";
 import { TestimonialsSection } from "@/components/sections/testimonials";
+import { createBackgroundRhythm } from "@/lib/content/background-rhythm";
 
 export default function Home() {
   // Index construit côté serveur : le composant de recherche est client, lui
   // envoyer le registre entier pour comparer des noms serait absurde.
   const finderEntries = getDestinationFinderIndex();
+
+  // Fonds attribués dans l'ordre d'affichage (crème, blanc, sable…) : deux
+  // blocs voisins ne partagent jamais la même couleur.
+  const rhythm = createBackgroundRhythm();
+  const bg = {
+    recommended: rhythm.next(),
+    finder: rhythm.next(),
+    services: rhythm.next(),
+    themes: rhythm.next(),
+    video: rhythm.next(),
+    designers: rhythm.next(),
+    faq: rhythm.next(),
+  };
 
   return (
     <>
@@ -61,12 +75,12 @@ export default function Home() {
             }
           />
         </div>
-        <section className="section-px mx-auto w-full max-w-layout py-10">
-          <Recommended />
-        </section>
-        {/* Cream plus soutenu que le fond de page : sans lui, ce bloc et le
-            bandeau d'accréditations se confondaient en une seule zone. */}
-        <div className="w-full bg-background-soft">
+        <div className={cn("w-full", bg.recommended)}>
+          <section className="section-px mx-auto w-full max-w-layout py-10">
+            <Recommended />
+          </section>
+        </div>
+        <div className={cn("w-full", bg.finder)}>
           <section className="mx-auto flex w-full max-w-layout flex-col gap-10 section-px section-py">
             <div className="flex flex-col items-start gap-6 text-left md:items-center md:text-center">
               <TextBlock
@@ -82,7 +96,7 @@ export default function Home() {
           </section>
         </div>
         <BentoSection
-          background="bg-background"
+          background={bg.services}
           eyebrow="Conciergerie"
           heading="Ce dont vous n'avez plus à vous occuper"
           description="Nos pôles de services couvrent le voyage de bout en bout, du visa à obtenir au chauffeur qui attend à l'arrivée."
@@ -93,6 +107,7 @@ export default function Home() {
           cards={getServiceCategoryCards()}
         />
         <FeatureCardsSection
+          background={bg.themes}
           eyebrow="Expériences"
           heading="Par envie plutôt que par destination"
           cta={{ label: "Créer votre voyage", href: "/votre-projet" }}
@@ -113,9 +128,10 @@ export default function Home() {
           }}
           youtubeId="PukQKp3985c"
           youtubeStart={2}
-          background="bg-background-soft"
+          background={bg.video}
         />
         <TestimonialsSection
+          background={bg.designers}
           eyebrow="Travel designers"
           heading="Celles et ceux qui s'en occupent"
           cta={{ label: "Créer votre voyage", href: "/votre-projet" }}
@@ -128,6 +144,7 @@ export default function Home() {
           ])}
         />
         <FaqSection
+          background={bg.faq}
           heading="Questions fréquentes"
           contact={{
             prefix: "Une question qui n'est pas ici ? ",
