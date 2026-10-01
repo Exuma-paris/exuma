@@ -14,7 +14,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/namibie/xp-skeleton-coast.webp",
-    alt: "Épave échouée et colonie d'otaries sur le sable de la Skeleton Coast, Namibie",
+    alt: "Silhouette au pied de l'épave d'un cargo échoué sur la plage de la Skeleton Coast, Namibie",
   },
   destinationSlugs: ["namibie"],
   sections: [],

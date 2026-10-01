@@ -8,11 +8,11 @@ Les références ont été fournies par l'utilisateur (Rémi / collaborateurs), 
 | --- | --- | --- | --- |
 | `hero-1.webp` | `hero-1-ref.jpg` | fournie (libre de droit) | OK |
 | `hero-2.webp` | `hero-2-ref.jpg` | fournie (libre de droit) | OK |
-| `hero-3.webp` | — | — | **référence manquante** |
+| `hero-3.webp` | `hero-3-ref.png` | fournie (libre de droit, remplacee le 14/09) | OK, filtre local + nettete, 2048 px |
 | `full-image.webp` | `full-image-ref.jpg` | fournie (libre de droit) | OK |
 | `split-1.webp` | `split-1-ref.jpg` | fournie (libre de droit) | OK |
 | `split-2.webp` | `split-2-ref.jpg` | fournie (libre de droit) | OK |
-| `xp-croisiere-samui-1.webp` | — | — | **référence manquante** |
+| `xp-croisiere-samui-1.webp` | `xp-croisiere-samui-1-ref.png` | fournie (libre de droit) | **retouchee Gemini** : jonque ajoutee dans le decor, 4K |
 | `xp-croisiere-samui-2.webp` | `xp-croisiere-samui-2-ref.jpg` | fournie (libre de droit) | OK |
 | `xp-wat-pho.webp` | `xp-wat-pho-ref.jpg` | fournie (libre de droit) | OK |
 | `xp-blue-elephant.webp` | `xp-blue-elephant-ref.jpg` | fournie (libre de droit) | OK |
@@ -20,16 +20,16 @@ Les références ont été fournies par l'utilisateur (Rémi / collaborateurs), 
 | `hotel-amanpuri.webp` | `hotel-amanpuri-ref.jpg` | fournie (libre de droit, TIFF converti en JPEG) | OK au 2e essai (refus IMAGE_RECITATION au 1er) |
 | `hotel-six-senses-yao-noi.webp` | `hotel-six-senses-yao-noi-ref.jpg` | fournie (libre de droit) | OK (référence 750×627) |
 | `hotel-dusit-thani-bangkok.webp` | `hotel-dusit-thani-bangkok-ref.jpg` | fournie (libre de droit) | OK (référence 911×627) |
-| `bento-map.webp` | — | — | **référence manquante** |
+| `bento-map.webp` | trace OpenStreetMap + `bento-map.webp.png` | frontieres OSM, palette Polynesie | OK, construit par script (5 etapes numerotees) |
 | `bento-adresses.webp` | `bento-adresses-ref.jpg` | fournie (libre de droit) | OK (référence 893×690) |
 | `bento-hebergements.webp` | `bento-hebergements-ref.jpg` | fournie (libre de droit) | OK (référence 734×660) |
-| `bento-conciergerie.webp` | — | — | **référence manquante** |
+| `bento-conciergerie.webp` | `bento-conciergerie-ref.png` | fournie (libre de droit) | OK, filtre local |
 | `bento-experiences.webp` | `bento-experiences-ref.jpg` | fournie (libre de droit) | OK |
 | `map-bangkok.webp` | `map-bangkok-ref.jpg` | fournie (libre de droit) | OK |
 | `map-khao-yai.webp` | `map-khao-yai-ref.jpg` | fournie (libre de droit) | OK |
-| `map-phang-nga.webp` | — | — | **référence manquante** |
-| `map-phuket.webp` | `map-phuket-ref.jpg` | fournie (libre de droit) | **refusée 2 fois (IMAGE_RECITATION)** |
-| `map-samui.webp` | — | — | **référence manquante** |
+| `map-phang-nga.webp` | `map-phang-nga-ref.png` | fournie (libre de droit) | OK, filtre local (bandes rognees) |
+| `map-phuket.webp` | `map-phuket-ref.png` | fournie (libre de droit) | OK, filtre local (le refus Gemini ne s applique plus) |
+| `map-samui.webp` | `map-samui-ref.png` | fournie (libre de droit) | OK, filtre local (bandes rognees) |
 | `map-chiang-mai.webp` | `map-chiang-mai-ref.jpg` | fournie (libre de droit) | OK |
 
 Les portraits des témoignages réutilisent `hero-1/2/3.webp`, aucun fichier supplémentaire.

@@ -44,7 +44,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/thailande/hero-3.webp",
-          alt: "Longue-queue amarrée devant une plage bordée de cocotiers sur la côte d'Andaman",
+          alt: "Troupeau d'éléphants sauvages remontant la route forestière du parc national de Khao Yai en Thaïlande",
         },
       ],
     },
@@ -113,7 +113,7 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/thailande/xp-croisiere-samui-1.webp",
-          alt: "Jonque thaïlandaise à voiles ocre naviguant au large de Koh Samui en fin de journée",
+          alt: "Jonque thaïlandaise à voiles ocre naviguant entre les îlots boisés du golfe de Thaïlande, au large de Koh Samui",
         },
         right: {
           src: "/destination/thailande/xp-croisiere-samui-2.webp",
@@ -276,7 +276,7 @@ export const destination: Destination = {
             "Le parc national d'Ao Phang Nga couvre environ 400 km² et une quarantaine d'îles calcaires, creusées de lagons intérieurs accessibles à marée haute. Koh Yao Noi, au milieu de la baie, vit encore de la pêche et de l'hévéa.",
           image: {
             src: "/destination/thailande/map-phang-nga.webp",
-            alt: "Pitons karstiques de la baie de Phang Nga vus depuis Koh Yao Noi",
+            alt: "Le piton de Ko Tapu dressé dans les eaux calmes de la baie de Phang Nga",
           },
           // TODO: verify coords
           coordinates: { lat: 8.2667, lng: 98.5 },
@@ -287,7 +287,7 @@ export const destination: Destination = {
             "L'île fait 543 km² et se traverse en une heure. Sa côte nord-ouest, autour de Pansea Beach et de Bang Tao, reste la plus calme. Le sud concentre l'activité et les plages saturées.",
           image: {
             src: "/destination/thailande/map-phuket.webp",
-            alt: "Plage bordée de cocotiers sur la côte nord-ouest de Phuket",
+            alt: "Deux bateaux à longue queue mouillés dans une eau turquoise au pied d'une falaise calcaire, au large de Phuket",
           },
           // TODO: verify coords
           coordinates: { lat: 7.9519, lng: 98.3381 },
@@ -298,7 +298,7 @@ export const destination: Destination = {
             "Deuxième île du pays par la taille, 228 km², avec une saison sèche de février à septembre, inverse de celle d'Andaman. Le parc marin d'Ang Thong, à deux heures de bateau, réunit quarante-deux îles classées depuis 1980.",
           image: {
             src: "/destination/thailande/map-samui.webp",
-            alt: "Côte de Koh Samui bordée de cocotiers dans le golfe de Thaïlande",
+            alt: "Plage bordée de cocotiers et îlots boisés dans le golfe de Thaïlande, au large de Koh Samui",
           },
           // TODO: verify coords
           coordinates: { lat: 9.512, lng: 100.0136 },

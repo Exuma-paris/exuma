@@ -44,7 +44,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/afrique-du-sud/hero-3.webp",
-          alt: "Falaises de grès du Cederberg couvertes de fynbos en fin de journée",
+          alt: "Vue aérienne du Cap entre Table Mountain et l'océan à la tombée du jour",
         },
       ],
     },
@@ -83,7 +83,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/afrique-du-sud/full-image.webp",
-        alt: "Vignobles de Franschhoek au pied des montagnes du Cap, voyage en Afrique du Sud",
+        alt: "Lion's Head et les pentes couvertes de fynbos au-dessus du Cap, voyage en Afrique du Sud",
       },
       height: 600,
     },
@@ -103,11 +103,11 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/afrique-du-sud/split-1.webp",
-          alt: "Protéas et fynbos en fleur sur les pentes de la péninsule du Cap",
+          alt: "Cônes de protéa sur des branches de fynbos, péninsule du Cap",
         },
         {
           src: "/destination/afrique-du-sud/split-2.webp",
-          alt: "Chai d'un domaine viticole de Stellenbosch au pied des montagnes",
+          alt: "Rangs de vigne d'un domaine du Cap au pied de la montagne",
         },
       ],
     },
@@ -117,11 +117,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/afrique-du-sud/xp-art-rupestre-1.webp",
-          alt: "Peintures rupestres bushmen à l'ocre rouge sur une paroi de grès du Cederberg",
+          alt: "Gravure rupestre bushman d'un éland sur une dalle de roche",
         },
         right: {
           src: "/destination/afrique-du-sud/xp-art-rupestre-2.webp",
-          alt: "Marche matinale vers un abri sous roche peint dans la réserve de Bushmans Kloof",
+          alt: "Archers et danseurs peints à l'ocre rouge sur une paroi bushman",
         },
       },
       text: {
@@ -234,10 +234,10 @@ export const destination: Destination = {
           src: `/destination/afrique-du-sud/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Afrique du Sud entre Le Cap, le Cederberg et le Kruger",
-            "Adresses confidentielles en Afrique du Sud : domaines viticoles et réserves privées",
-            "Hébergements en Afrique du Sud : Ellerman House et Bushmans Kloof",
-            "Conciergerie privée 24/7 pour un voyage en Afrique du Sud",
-            "Expériences en Afrique du Sud : art rupestre, marche de pistage et survol du Lowveld",
+            "Table dressée à la bougie dans une salle voûtée, adresse confidentielle en Afrique du Sud",
+            "Salon d'un lodge sud-africain sous charpente, cheminée allumée",
+            "Travel designer Exuma à son bureau, devant son écran",
+            "Promontoire rocheux au-dessus d'une vallée boisée, marche en Afrique du Sud",
           ][i],
         },
       })),
@@ -259,7 +259,7 @@ export const destination: Destination = {
             "La ville est coincée entre une montagne plate de plus de mille mètres et l'Atlantique. Un téléphérique monte au sommet en cinq minutes. Le quartier de Bo-Kaap, aux maisons peintes, et le musée Zeitz d'art contemporain africain se visitent à pied depuis le port.", // TODO: verify altitude de Table Mountain
           image: {
             src: "/destination/afrique-du-sud/map-le-cap.webp",
-            alt: "Le Cap et Table Mountain vus depuis la baie, Afrique du Sud",
+            alt: "La ville du Cap éclairée au pied de Table Mountain",
           },
           // TODO: verify coords
           coordinates: { lat: -33.9249, lng: 18.4241 },
@@ -270,7 +270,7 @@ export const destination: Destination = {
             "La route longe l'océan sur une soixantaine de kilomètres jusqu'au cap de Bonne-Espérance. À mi-chemin, à Simon's Town, une colonie de manchots du Cap occupe la plage de Boulders. Les eaux de False Bay y sont plus chaudes que du côté atlantique.",
           image: {
             src: "/destination/afrique-du-sud/map-simons-town.webp",
-            alt: "Manchots du Cap sur les rochers de Boulders Beach à Simon's Town",
+            alt: "Rochers de granit et cabanes de plage à Simon's Town, péninsule du Cap",
           },
           // TODO: verify coords
           coordinates: { lat: -34.1975, lng: 18.4519 },
@@ -314,7 +314,7 @@ export const destination: Destination = {
             "La route longe la côte sud sur environ 300 kilomètres, entre Mossel Bay et Storms River. Elle traverse des forêts, des lagunes et des plages. C'est le prolongement le plus simple d'un séjour au Cap, en voiture, sur trois à quatre jours.", // TODO: verify longueur de la route des Jardins
           image: {
             src: "/destination/afrique-du-sud/map-route-des-jardins.webp",
-            alt: "Baie de Plettenberg et forêt côtière sur la route des Jardins, Afrique du Sud",
+            alt: "Plage et pointe rocheuse de la baie de Plettenberg, route des Jardins",
           },
           // TODO: verify coords
           coordinates: { lat: -34.0527, lng: 23.3716 },

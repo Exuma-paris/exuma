@@ -7,8 +7,8 @@ export const experience: Experience = {
     "On monte au coucher du soleil, bien couvert, jusqu'au plateau qui domine la mer de nuages. Un astronome vous rejoint à la nuit tombée et le ciel se déploie, d'une pureté qu'on ne connaît nulle part ailleurs.",
   keywords: ["hawai", "mauna kea", "big island", "astronomie", "volcan"],
   heroImage: {
-    src: "/destination/hawai/xp-mauna-kea.png",
-    alt: "Ciel étoilé au-dessus du sommet du Mauna Kea et de ses observatoires à Hawaï",
+    src: "/destination/hawai/xp-mauna-kea.webp",
+    alt: "Voie lactée au-dessus d'un observatoire du sommet du Mauna Kea, Big Island",
   },
   destinationSlugs: ["hawai"],
   sections: [],

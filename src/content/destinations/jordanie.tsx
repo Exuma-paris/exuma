@@ -117,7 +117,7 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/jordanie/xp-petra-by-night-2.webp",
-          alt: "Esplanade du Khazneh à Pétra couverte de bougies à la nuit tombée",
+          alt: "Lanternes allumées au sol dans le Siq de Pétra menant à la façade du Khazneh, la nuit",
         },
       },
       text: {
@@ -235,7 +235,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Jordanie entre Amman, Pétra et le Wadi Rum",
             "Adresses confidentielles en Jordanie : maisons de pierre et campements hors piste",
             "Hébergements en Jordanie : rive de la mer Morte et campement privé dans le Wadi Rum",
-            "Conciergerie privée 24/7 pour un voyage en Jordanie",
+            "Conseillère Exuma à son bureau, conciergerie privée pour un voyage en Jordanie",
             "Expériences immersives en Jordanie : Petra by Night et nuits bédouines",
           ][i],
         },

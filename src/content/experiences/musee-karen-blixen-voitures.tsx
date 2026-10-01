@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Dans un atelier privé du quartier de Karen, vingt voitures historiques dorment sous des bâches depuis quarante ans. Parmi elles, la Packard utilisée sur le tournage d'Out of Africa. Le chef mécanicien reçoit un groupe à la fois et raconte chaque véhicule.",
   keywords: ["kenya", "nairobi", "karen blixen", "out of africa", "voitures anciennes", "culture"],
   heroImage: {
-    src: "/destination/kenya/xp-karen-blixen.png",
-    alt: "Voiture ancienne des années 1930 dans l'atelier privé de Nairobi, quartier de Karen",
+    src: "/destination/kenya/xp-karen-blixen.webp",
+    alt: "Façade en pierre et véranda du musée Karen Blixen vues de biais depuis la pelouse, quartier de Karen à Nairobi",
   },
   destinationSlugs: ["kenya"],
   sections: [],

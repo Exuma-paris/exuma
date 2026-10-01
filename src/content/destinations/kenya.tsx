@@ -132,8 +132,8 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/kenya/karen-blixen-voiture.png",
-          alt: "Voiture ancienne des années 1930 dans l'atelier privé du quartier de Karen, Nairobi",
+          src: "/destination/kenya/karen-blixen-voiture.webp",
+          alt: "Voiture ancienne des années 1930 arrêtée dans la savane au coucher du soleil, une personne debout par le toit ouvrant regarde les plaines",
         },
         right: {
           src: "/destination/kenya/karen-blixen-musee.webp",
@@ -231,13 +231,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/kenya/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/kenya/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Kenya entre Masaï Mara, Laikipia et côte",
-            "Adresses confidentielles au Kenya : lodges privés et camps hors circuit",
-            "Hébergements au Kenya : Richard's River Camp et Chale Island Resort",
-            "Conciergerie privée 24/7 pour un voyage au Kenya",
-            "Expériences immersives au Kenya : montgolfière Mara et culture Samburu",
+            "Dîner au feu de bois dans la savane au crépuscule, une lanterne apportée à table",
+            "Salon sous tente d'un camp de safari ouvert sur la brousse, canapés blancs et tapis anciens",
+            "Mains sur un clavier, téléphone et carnet posés sur une table en marbre",
+            "Observation d'un groupe d'hippopotames depuis les rochers d'une rivière, accompagné de guides masaï",
           ][i],
         },
       })),

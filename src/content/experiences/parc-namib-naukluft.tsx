@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["namibie", "namib", "naukluft", "sesriem", "desert"],
   heroImage: {
     src: "/destination/namibie/xp-namib-naukluft.webp",
-    alt: "Plaines de galets du Namib-Naukluft au pied des montagnes du Naukluft, Namibie",
+    alt: "Marcheur de dos sur une crête de dune du Namib-Naukluft face aux dunes rouges, Namibie",
   },
   destinationSlugs: ["namibie"],
   sections: [],

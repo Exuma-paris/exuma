@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "La maison est posée sur la rive même du lac Louise, face au glacier qui ferme la vallée. On sort en canoë depuis le ponton avant le petit-déjeuner, et l'on rentre déjeuner devant les grandes vitres du salon.",
   keywords: ["canada", "lac louise", "banff", "alberta", "rocheuses"],
   heroImage: {
-    src: "/destination/canada/hotel-chateau-lake-louise.png",
-    alt: "Hôtel posé sur la rive du lac Louise face au glacier en Alberta",
+    src: "/destination/canada/hotel-chateau-lake-louise.webp",
+    alt: "Le lac Louise et ses sapins vus depuis une chambre du Château Lake Louise",
   },
   destinationSlugs: ["canada"],
   sections: [],

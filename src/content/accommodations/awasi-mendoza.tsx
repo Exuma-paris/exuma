@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Des villas dispersées au milieu des vignes, chacune avec son guide et son véhicule, de sorte que rien n'est jamais mis en commun. Le programme du lendemain se décide la veille au soir, pour vous seuls.",
   keywords: ["argentine", "mendoza", "uco", "awasi", "malbec"],
   heroImage: {
-    src: "/destination/argentine/hotel-awasi-mendoza.png",
-    alt: "Villa isolée au milieu des vignes face aux Andes à Mendoza",
+    src: "/destination/argentine/hotel-awasi-mendoza.webp",
+    alt: "Villa blanche entourée d'arbres et de vignes, vue depuis les hauteurs",
   },
   destinationSlugs: ["argentine"],
   sections: [],

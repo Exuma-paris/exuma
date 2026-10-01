@@ -14,7 +14,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/arabie-saoudite/xp-montgolfiere-hegra.webp",
-    alt: "Montgolfière au lever du jour au-dessus des tombeaux de Hegra, AlUla",
+    alt: "Montgolfière gonflée avant le décollage, brûleur allumé, au petit matin",
   },
   destinationSlugs: ["arabie-saoudite"],
   sections: [],

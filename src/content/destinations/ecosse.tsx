@@ -98,7 +98,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/ecosse/split-1.webp",
-          alt: "Salon du château de Floors, ses tapisseries et ses portraits de famille, Kelso",
+          alt: "Ruines d'un château écossais sur la rive d'un loch, dans la lumière du soir",
         },
         {
           src: "/destination/ecosse/split-2.webp",
@@ -223,10 +223,10 @@ export const destination: Destination = {
         image: {
           src: `/destination/ecosse/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
-            "Itinéraire sur mesure en Écosse, d'Édimbourg aux Borders et à l'île de Skye",
+            "Itinéraire sur mesure en Écosse, d'Édimbourg aux Borders, au Speyside et à Glenfinnan",
             "Service à bord du Royal Scotsman, adresses confidentielles en Écosse",
             "Salon d'observation du Royal Scotsman ouvert sur la campagne écossaise",
-            "Conciergerie privée 24/7 pour un voyage en Écosse",
+            "Demande traitée par la conciergerie Exuma pour un voyage en Écosse",
             "Kilts et instruments avant une soirée de musique traditionnelle en Écosse",
           ][i],
         },

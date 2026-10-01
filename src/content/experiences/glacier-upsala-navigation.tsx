@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Le bras nord du lac Argentino reste fermé aux circuits réguliers, si bien que l'on remonte seuls entre les icebergs jusqu'au front de l'Upsala. La marche sur la moraine se fait ensuite avec un glaciologue, qui lit dans la glace ce que l'œil ne voit pas.",
   keywords: ["argentine", "patagonie", "el calafate", "upsala", "glacier"],
   heroImage: {
-    src: "/destination/argentine/xp-glacier-upsala.png",
-    alt: "Icebergs dérivant devant le front du glacier Upsala sur le lac Argentino",
+    src: "/destination/argentine/xp-glacier-upsala.webp",
+    alt: "Langue du glacier Upsala plongeant dans un lac turquoise, vue depuis les hauteurs",
   },
   destinationSlugs: ["argentine"],
   sections: [],

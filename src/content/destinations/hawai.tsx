@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Hawaï se découvre île par île, et chacune a son caractère. Sur Big Island, la lave descend encore vers l'océan et la terre se fabrique sous vos yeux. Sur Molokai, le temps ralentit dans des vallées où le taro pousse toujours dans l'eau. Ailleurs, ce sont les sommets qui percent les nuages, les grandes falaises de Kauai et des plages où l'on reste seul. C'est cet archipel-là que nous composons pour vous, île après île.",
       images: [
         {
-          src: "/destination/hawai/hero-1.png",
-          alt: "Falaises de la côte de Na Pali plongeant dans l'océan au nord de Kauai à Hawaï",
+          src: "/destination/hawai/hero-1.webp",
+          alt: "Route bordée de palmiers au pied d'une muraille de falaises vertes à Hawaï",
         },
         {
-          src: "/destination/hawai/hero-2.png",
-          alt: "Coulée de lave du Kilauea descendant vers l'océan sur Big Island",
+          src: "/destination/hawai/hero-2.webp",
+          alt: "Surfeuse vue du ciel sur une vague turquoise à Hawaï",
         },
         {
-          src: "/destination/hawai/hero-3.png",
-          alt: "Vallée verte de Halawa et ses cultures de taro sur l'île de Molokai",
+          src: "/destination/hawai/hero-3.webp",
+          alt: "Crêtes vertes d'une côte hawaïenne sous les nuages, vues depuis la mer",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/hawai/full-image.png",
-        alt: "Cratère du Haleakala au lever du jour sur l'île de Maui à Hawaï",
+        src: "/destination/hawai/full-image.webp",
+        alt: "Falaises de la côte de Na Pali et plage de Kalalau vues du ciel, Kauai",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/hawai/split-1.png",
-          alt: "Navigateur hawaïen à la barre d'une pirogue double à voiles au large d'Oahu",
+          src: "/destination/hawai/split-1.webp",
+          alt: "Danseuse de hula en couronne et lei de feuilles au bord de l'océan à Hawaï",
         },
         {
-          src: "/destination/hawai/split-2.png",
-          alt: "Danseuse de hula en costume traditionnel lors d'un festival à Hilo",
+          src: "/destination/hawai/split-2.webp",
+          alt: "Équipage à bord d'une pirogue à balancier sous voile au large d'une côte hawaïenne",
         },
       ],
     },
@@ -111,11 +111,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/hawai/xp-halawa-1.png",
-          alt: "Sentier de la vallée de Halawa longeant la rivière sous les arbres, Molokai",
+          src: "/destination/hawai/xp-halawa-1.webp",
+          alt: "Baie et vallée de Halawa vues d'en haut, sur la côte est de Molokai",
         },
         right: {
-          src: "/destination/hawai/xp-halawa-2.png",
+          src: "/destination/hawai/xp-halawa-2.webp",
           alt: "Cascade tombant dans un bassin d'eau douce au fond de la vallée de Halawa",
         },
       },
@@ -229,13 +229,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/hawai/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/hawai/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Hawaï entre Big Island, Maui, Molokai et Kauai",
-            "Adresses confidentielles à Hawaï, des ranchs de Kohala aux maisons de Molokai",
-            "Hébergements à Hawaï : Four Seasons Lanai et Kona Village sur Big Island",
+            "Service du thé sur la terrasse d'une adresse confidentielle à Hawaï",
+            "Salon sous charpente de bois d'un hébergement hawaïen",
             "Conciergerie privée 24/7 pour un voyage à Hawaï",
-            "Expériences immersives à Hawaï, du sommet du Mauna Kea à la vallée de Halawa",
+            "Pirogue à balancier posée sur une plage de sable noir à Hawaï",
           ][i],
         },
       })),
@@ -256,7 +256,7 @@ export const destination: Destination = {
           description:
             "La route monte jusqu'à un plateau lunaire qui domine la mer de nuages. Le coucher de soleil y est irréel, et la nuit venue, le ciel compte parmi les plus purs du monde. La montagne est sacrée : nous vous y conduisons accompagnés, comme il se doit.",
           image: {
-            src: "/destination/hawai/map-mauna-kea.png",
+            src: "/destination/hawai/map-mauna-kea.webp",
             alt: "Observatoires du sommet du Mauna Kea au-dessus de la mer de nuages, Big Island",
           },
           // TODO: verify coords
@@ -267,8 +267,8 @@ export const destination: Destination = {
           description:
             "Dans le parc des volcans, le cratère de Halemaumau rougeoie à la tombée du jour et la vapeur monte des failles. Selon les périodes, la lave se voit vraiment. C'est le seul endroit d'Hawaï où l'on assiste à la naissance de la roche.",
           image: {
-            src: "/destination/hawai/map-kilauea.png",
-            alt: "Cratère de Halemaumau du Kilauea rougeoyant à la nuit tombée dans le parc des volcans",
+            src: "/destination/hawai/map-kilauea.webp",
+            alt: "Coulée de lave incandescente du Kilauea sur un champ de lave noire, Big Island",
           },
           // TODO: verify coords
           coordinates: { lat: 19.4069, lng: -155.2834 },
@@ -278,7 +278,7 @@ export const destination: Destination = {
           description:
             "À l'extrémité est de Molokai, une vallée verte descend vers une baie où la route s'arrête. Les familles qui y vivent encore cultivent le taro et accueillent elles-mêmes les visiteurs sur le sentier de la cascade.",
           image: {
-            src: "/destination/hawai/map-halawa.png",
+            src: "/destination/hawai/map-halawa.webp",
             alt: "Baie et vallée de Halawa vues depuis la route de l'est de Molokai",
           },
           // TODO: verify coords
@@ -289,8 +289,8 @@ export const destination: Destination = {
           description:
             "Ces falaises plissées tombent droit dans l'océan et aucune route n'y mène. On les découvre en bateau, en hélicoptère ou à pied, et l'on comprend d'un coup pourquoi le nord de Kauai fascine les cinéastes.",
           image: {
-            src: "/destination/hawai/map-napali.png",
-            alt: "Vallée de Kalalau et falaises de la côte de Na Pali au nord de Kauai",
+            src: "/destination/hawai/map-napali.webp",
+            alt: "Falaises vertes de la côte de Na Pali vues depuis la mer, au nord de Kauai",
           },
           // TODO: verify coords
           coordinates: { lat: 22.174, lng: -159.644 },
@@ -300,7 +300,7 @@ export const destination: Destination = {
           description:
             "On monte de nuit jusqu'au bord du cratère, bien couvert, pour voir le jour se lever sur un paysage de cendres et de cônes rouges. La descente traverse ensuite les pâturages et les champs de lavande.",
           image: {
-            src: "/destination/hawai/map-haleakala.png",
+            src: "/destination/hawai/map-haleakala.webp",
             alt: "Cônes rouges du cratère du Haleakala au lever du soleil sur Maui",
           },
           // TODO: verify coords
@@ -311,8 +311,8 @@ export const destination: Destination = {
           description:
             "Ancienne plantation d'ananas devenue une île presque entièrement privée, Lanai n'a qu'un village, des pistes rouges et les rochers sculptés de Keahiakawelo. On y vient pour le silence.",
           image: {
-            src: "/destination/hawai/map-lanai.png",
-            alt: "Baie de Hulopoe et rocher de Puupehe sur la côte sud de l'île de Lanai",
+            src: "/destination/hawai/map-lanai.webp",
+            alt: "Crique turquoise au pied des falaises rouges de la côte sud de Lanai",
           },
           // TODO: verify coords
           coordinates: { lat: 20.7418, lng: -156.8931 },
@@ -551,7 +551,7 @@ export const destination: Destination = {
           quote:
             "Nous avons passé la nuit au sommet du Mauna Kea avec un astronome, au-dessus des nuages. Il faisait un froid sec et le ciel avait une netteté que je n'avais jamais vue ailleurs. Mes enfants en parlent encore.",
           image: {
-            src: "/destination/hawai/hero-1.png",
+            src: "/destination/hawai/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -562,7 +562,7 @@ export const destination: Destination = {
           quote:
             "À Halawa, on nous a fait attendre à l'entrée du sentier le temps du chant d'accueil. Ce n'était pas une mise en scène pour visiteurs, on l'a senti tout de suite. La journée a pris une autre couleur après cela.",
           image: {
-            src: "/destination/hawai/hero-2.png",
+            src: "/destination/hawai/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -573,7 +573,7 @@ export const destination: Destination = {
           quote:
             "Lanai nous a réconciliés avec l'idée de vacances : pas une file d'attente, pas un embouteillage, des pistes rouges et l'océan pour nous seuls. Je ne savais pas qu'il restait un endroit comme celui-là.",
           image: {
-            src: "/destination/hawai/hero-3.png",
+            src: "/destination/hawai/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
