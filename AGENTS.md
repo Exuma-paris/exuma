@@ -87,6 +87,16 @@ When asked to build or edit a page, lead with the existing sections — surface 
 
 Keep this table in sync with the `Section` union — they must always match.
 
+## Fonds de section : rythme automatique
+
+Les fonds ne se choisissent pas dans les fichiers de contenu. Chaque gabarit (destination, continent, thème, service, Professionnels, expérience, hébergement, accueil) fait passer ses sections par `applyBackgroundRhythm` ou `createBackgroundRhythm` (`src/lib/content/background-rhythm.ts`) :
+
+- trois tons clairs tournent dans l'ordre d'affichage, **crème → blanc → sable**, pour que deux blocs voisins ne partagent jamais le même fond sans tomber dans un aller-retour à deux couleurs ;
+- le **gris foncé** est réservé aux types que le gabarit désigne (`dark: ["infoGrid"]` sur les destinations, services et pages Professionnels) ;
+- les images pleines (`hero`, `heroLanding`, `heroImageBackground`, `fullImage`) gardent leur rendu et ne comptent pas dans le cycle.
+
+Deux pages du même gabarit ont ainsi exactement la même alternance. Un `background` ou un `theme` écrit dans un fichier de contenu est écrasé : pour changer le rythme, on modifie le gabarit, pas la page. Un bloc qui n'est pas une section (moteur de recherche, liste de prestations) prend son fond avec `rhythm.next()`.
+
 ## Adding new content
 
 1. Create `src/content/<kind>/<slug>.tsx` exporting a typed entity (e.g. `export const destination: Destination = {...}`).

@@ -505,6 +505,8 @@ Then report:
 
 ## Canonical section order
 
+**Section backgrounds are assigned automatically** by `applyBackgroundRhythm` (`src/lib/content/background-rhythm.ts`): the page template cycles cream → white → sand and renders `infoGrid` in dark grey. Any `background` or `theme` value written in the content file is overridden. Don't spend effort choosing them; the `bg-*` hints in the examples and section list below are legacy.
+
 The 14 mandatory entries in `sections[]`, in this exact order, plus one optional entry:
 
 1. `hero`

@@ -4,6 +4,7 @@ import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { themes } from "@/lib/content/registry";
 import { getThemeBlocks } from "@/lib/content/queries";
+import { createBackgroundRhythm } from "@/lib/content/background-rhythm";
 
 export function generateStaticParams() {
   return Object.keys(themes).map((slug) => ({ slug }));
@@ -55,12 +56,17 @@ export default async function Page({
   const theme = themes[slug];
   if (!theme) notFound();
 
+  const rhythm = createBackgroundRhythm();
   const [hero, ...rest] = theme.sections;
   // Les blocs de sous-familles s'intercalent avant la dernière section de la
   // page (le bloc de contact), qui doit rester en bas.
   const blocks = getThemeBlocks(slug);
   const closing = rest.length > 0 ? rest[rest.length - 1] : undefined;
   const intro = rest.slice(0, Math.max(rest.length - 1, 0));
+  // Le cycle des fonds suit l'ordre d'affichage : intro, blocs, conclusion.
+  const introWithBg = intro.map(rhythm.apply);
+  const blocksWithBg = blocks.map(rhythm.apply);
+  const closingWithBg = closing ? rhythm.apply(closing) : undefined;
 
   return (
     <main className="flex-1">
@@ -68,9 +74,9 @@ export default async function Page({
         <Header />
         {hero && renderSection(hero, "hero")}
       </div>
-      {intro.map((section, i) => renderSection(section, `intro-${i}`))}
-      {blocks.map((section, i) => renderSection(section, `block-${i}`))}
-      {closing ? renderSection(closing, "closing") : null}
+      {introWithBg.map((section, i) => renderSection(section, `intro-${i}`))}
+      {blocksWithBg.map((section, i) => renderSection(section, `block-${i}`))}
+      {closingWithBg ? renderSection(closingWithBg, "closing") : null}
     </main>
   );
 }

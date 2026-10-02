@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { meta, sections } from "@/content/pages/dirigeants";
+import { applyBackgroundRhythm } from "@/lib/content/background-rhythm";
 
 const PATH = "/professionnels/dirigeants";
 
@@ -88,7 +89,7 @@ function faqJsonLd() {
 }
 
 export default function Page() {
-  const [hero, ...rest] = sections;
+  const [hero, ...rest] = applyBackgroundRhythm(sections, { dark: ["infoGrid"] });
   // Même convention que les pages Expérience : le titre est posé sur l'image
   // plein cadre, l'en-tête passe donc en thème sombre pour rester lisible.
   const headerTheme = hero?.type === "heroImageBackground" ? "dark" : "light";

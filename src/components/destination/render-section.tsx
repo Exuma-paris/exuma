@@ -23,6 +23,7 @@ import { FinalCtaSection } from "@/components/sections/final-cta";
 import { SpecialistSpotlight } from "@/components/sections/specialist-spotlight";
 import { FaqSection } from "@/components/sections/faq";
 import type { Section } from "@/lib/destination/types";
+import { cn } from "@/lib/utils";
 import {
   accommodations,
   collaborateurs,
@@ -175,7 +176,10 @@ export function renderSection(section: Section, key: string): ReactNode {
 
     case "imageDuoWithText":
       return (
-        <div key={key} className="image-duo-with-text relative">
+        <div
+          key={key}
+          className={cn("image-duo-with-text relative", section.background)}
+        >
           <ImageDuoSection left={section.duo.left} right={section.duo.right} />
           <TextColumnsSection
             eyebrow={section.text.eyebrow}

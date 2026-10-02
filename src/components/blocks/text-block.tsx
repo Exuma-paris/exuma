@@ -9,6 +9,12 @@ const eyebrowTones = {
   background: "text-background/70",
 } as const;
 
+const paragraphTones = {
+  default: "text-secondary-foreground",
+  /** Pour les sections en fond sombre : le gris secondaire ne s’y lit pas. */
+  background: "text-background/70",
+} as const;
+
 export function TextBlock({
   eyebrow,
   eyebrowTone = "primary",
@@ -16,6 +22,7 @@ export function TextBlock({
   headingLevel = "h2",
   headingSize,
   paragraph,
+  paragraphTone = "default",
   cta,
   align = "left",
   mdAlign,
@@ -27,6 +34,7 @@ export function TextBlock({
   headingLevel?: HeadingLevel;
   headingSize?: HeadingLevel;
   paragraph?: string;
+  paragraphTone?: keyof typeof paragraphTones;
   cta?: React.ReactNode;
   align?: "left" | "center";
   mdAlign?: "left" | "center";
@@ -68,7 +76,9 @@ export function TextBlock({
           {heading}
         </Heading>
         {paragraph ? (
-          <p className="max-w-120 text-secondary-foreground">{paragraph}</p>
+          <p className={cn("max-w-120", paragraphTones[paragraphTone])}>
+            {paragraph}
+          </p>
         ) : null}
       </div>
       {cta ? <div>{cta}</div> : null}

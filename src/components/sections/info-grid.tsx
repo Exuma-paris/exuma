@@ -98,11 +98,17 @@ export function InfoGridSection({
             heading={heading}
             headingLevel="h2"
             paragraph={description}
+            paragraphTone={isDark ? "background" : "default"}
           />
           {cta ? (
             <Link
               href={cta.href}
-              className={cn(buttonVariants(), "bg-foreground text-background")}
+              // Sur fond sombre, le bouton foncé disparaîtrait : il passe en sable.
+              className={
+                isDark
+                  ? buttonVariants({ variant: "secondary" })
+                  : cn(buttonVariants(), "bg-foreground text-background")
+              }
             >
               {cta.label}
             </Link>

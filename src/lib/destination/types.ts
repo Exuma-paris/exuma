@@ -85,6 +85,7 @@ export type Section =
         columns: string[];
         cta?: Cta;
       };
+      background?: string;
     }
   | {
       type: "bento";

@@ -3,6 +3,7 @@ import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { serviceCategories, services } from "@/lib/content/registry";
 import { getServicesByCategory } from "@/lib/content/queries";
+import { createBackgroundRhythm } from "@/lib/content/background-rhythm";
 
 export function generateStaticParams() {
   return [
@@ -23,8 +24,12 @@ export default async function Page({
   if (!category && !service) notFound();
 
   const entity = category ?? service!;
-  const [hero, ...rest] = entity.sections;
+  // Les infos pratiques passent en gris foncé, comme sur les destinations ;
+  // le bloc « Nos prestations » prend la suite du cycle.
+  const rhythm = createBackgroundRhythm({ dark: ["infoGrid"] });
+  const [hero, ...rest] = entity.sections.map(rhythm.apply);
   const childServices = category ? getServicesByCategory(category.slug) : [];
+  const childServicesBackground = rhythm.next();
 
   return (
     <main className="flex-1">
@@ -35,6 +40,7 @@ export default async function Page({
       {rest.map((section, i) => renderSection(section, String(i + 1)))}
 
       {childServices.length > 0 ? (
+        <div className={childServicesBackground}>
         <section className="section-px mx-auto flex w-full max-w-layout flex-col gap-8 py-20">
           <h2 className="text-h2">Nos prestations</h2>
           <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -53,6 +59,7 @@ export default async function Page({
             ))}
           </ul>
         </section>
+        </div>
       ) : null}
     </main>
   );
