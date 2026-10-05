@@ -7,7 +7,7 @@ export const experience: Experience = {
     "La salle de Bernini avant l'ouverture, lumière naturelle sur le marbre. Notre historien d'art italien guide en français, par tranches de quinze minutes par salle. Apollon et Daphné, deux fois.",
   keywords: ["rome", "borghese", "bernini", "art", "musee"],
   heroImage: {
-    src: "/destination/rome/xp-borghese.png",
+    src: "/destination/rome/xp-borghese.webp",
     alt: "Sculpture de Bernini à la Galerie Borghèse, Rome",
   },
   destinationSlugs: ["rome"],

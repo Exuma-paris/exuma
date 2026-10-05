@@ -7,7 +7,7 @@ export const accommodation: Accommodation = {
     "Jardins en terrasses entre la Piazza del Popolo et la Villa Borghèse. La maison italienne de Rocco Forte. Petit-déjeuner sous les bougainvilliers.",
   keywords: ["rome", "russie", "rocco-forte", "popolo", "jardin"],
   heroImage: {
-    src: "/destination/rome/hotel-de-russie.png",
+    src: "/destination/rome/hotel-de-russie.webp",
     alt: "Jardins en terrasses de l'Hotel de Russie, Rome",
   },
   destinationSlugs: ["rome"],

@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Marcella prépare la pasta à la main dans sa cuisine du Vicolo del Cinque. Quatre couverts, une recette par soirée, le poivre concassé au mortier. Repas servi vers vingt heures.",
   keywords: ["rome", "trastevere", "cuisine", "famille", "pasta"],
   heroImage: {
-    src: "/destination/rome/xp-trastevere.png",
+    src: "/destination/rome/xp-trastevere.webp",
     alt: "Table de famille à Trastevere, cuisine romaine traditionnelle",
   },
   destinationSlugs: ["rome"],
