@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["espagne", "andalousie", "jerez", "xeres", "chevaux"],
   heroImage: {
     src: "/destination/espagne/xp-jerez.webp",
-    alt: "Cheval carthusien gris mené à la main dans un haras de Jerez",
+    alt: "Cheval carthusien gris et son cavalier dans le manège d'un haras de Jerez",
   },
   destinationSlugs: ["espagne"],
   sections: [],
