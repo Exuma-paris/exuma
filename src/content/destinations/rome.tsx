@@ -23,6 +23,7 @@ export const destination: Destination = {
     "centro-storico",
     "aventino",
   ],
+  metaTitle: "Rome : Voyage sur mesure",
   metaDescription:
     "Voyage à Rome sur mesure : Galerie Borghèse hors horaires, Trastevere, Via Appia. Adresses confidentielles, accès privés au Vatican, conciergerie 24/7.",
   sections: [
@@ -34,16 +35,16 @@ export const destination: Destination = {
         "Du Vatican à la Via Appia, du Trastevere à la Villa Borghèse : Rome se traverse à pied, par couches. Nous construisons l'itinéraire qui rend chaque couche visible, chacune à son heure.",
       images: [
         {
-          src: "/destination/rome/hero-1.png",
-          alt: "Vue sur Saint-Pierre depuis Castel Sant'Angelo, Rome",
+          src: "/destination/rome/hero-1.webp",
+          alt: "Basilique Saint-Pierre dorée par le soleil couchant, Rome",
         },
         {
-          src: "/destination/rome/hero-2.png",
-          alt: "Ruelles pavées de Trastevere au crépuscule, Rome",
+          src: "/destination/rome/hero-2.webp",
+          alt: "Piazza di Santa Maria in Trastevere et sa fontaine, Rome",
         },
         {
-          src: "/destination/rome/hero-3.png",
-          alt: "Via Appia Antica, pavés et cyprès au matin",
+          src: "/destination/rome/hero-3.webp",
+          alt: "Via Appia Antica, pavés antiques, tombeau et pins parasols",
         },
       ],
     },
@@ -79,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/rome/full-image.png",
-        alt: "Vue panoramique de Rome depuis le Janicule, dôme de Saint-Pierre",
+        src: "/destination/rome/full-image.webp",
+        alt: "Château Saint-Ange et les anges du Bernin sur le pont Saint-Ange",
       },
       height: 600,
     },
@@ -96,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/rome/split-1.png",
+          src: "/destination/rome/split-1.webp",
           alt: "Détail des mains du Rapt de Proserpine, Galerie Borghèse",
         },
         {
-          src: "/destination/rome/split-2.png",
-          alt: "Salle des sculptures de la Galerie Borghèse au matin",
+          src: "/destination/rome/split-2.webp",
+          alt: "Salle aux plafonds peints de la Galerie Borghèse",
         },
       ],
     },
@@ -110,11 +111,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/rome/borghese-bernini.png",
+          src: "/destination/rome/borghese-bernini.webp",
           alt: "Apollon et Daphné de Bernini, Galerie Borghèse, Rome",
         },
         right: {
-          src: "/destination/rome/borghese-caravage.png",
+          src: "/destination/rome/borghese-caravage.webp",
           alt: "David et Goliath de Caravage, Galerie Borghèse, Rome",
         },
       },
@@ -132,7 +133,7 @@ export const destination: Destination = {
       type: "entityList",
       kind: "experience",
       background: "bg-white",
-      eyebrow: "Expériences et activités en Rome",
+      eyebrow: "Expériences et activités à Rome",
       heading: "Ce qu'on fait, concrètement",
       description:
         "Trois moments ancrés dans des personnes : un historien d'art, une nonna, un guide en Vespa. Aucune file d'attente, aucun groupe.",
@@ -221,36 +222,36 @@ export const destination: Destination = {
         {
           ...defaultBento.cards[0],
           image: {
-            src: "/destination/rome/bento-map.png",
+            src: "/destination/rome/bento-map.webp",
             alt: "Plan stylisé des quartiers de Rome",
           },
         },
         {
           ...defaultBento.cards[1],
           image: {
-            src: "/destination/rome/bento-adresses.png",
+            src: "/destination/rome/bento-adresses.webp",
             alt: "Devanture d'une trattoria de famille à Rome",
           },
         },
         {
           ...defaultBento.cards[2],
           image: {
-            src: "/destination/rome/bento-hebergements.png",
+            src: "/destination/rome/bento-hebergements.webp",
             alt: "Salon d'un palais romain transformé en maison d'hôtes",
           },
         },
         {
           ...defaultBento.cards[3],
           image: {
-            src: "/destination/rome/bento-conciergerie.png",
-            alt: "Travel designer Exuma au téléphone",
+            src: "/destination/rome/bento-conciergerie.webp",
+            alt: "Conseillère Exuma souriante, casque sur les oreilles",
           },
         },
         {
           ...defaultBento.cards[4],
           image: {
-            src: "/destination/rome/bento-experiences.png",
-            alt: "Salle de la chapelle Sixtine vide au lever du jour",
+            src: "/destination/rome/bento-experiences.webp",
+            alt: "Chapelle Sixtine vide, voûte de Michel-Ange",
           },
         },
       ],
@@ -271,8 +272,8 @@ export const destination: Destination = {
           description:
             "9 km de musées, 1 400 salles. La visite avant l'ouverture commence à sept heures. Une heure de marche jusqu'à la Sixtine.",
           image: {
-            src: "/destination/rome/map-vatican.png",
-            alt: "Coupole de Saint-Pierre depuis Castel Sant'Angelo",
+            src: "/destination/rome/map-vatican.webp",
+            alt: "Place Saint-Pierre vue depuis la coupole",
           },
           coordinates: { lat: 41.9029, lng: 12.4534 },
         },
@@ -281,8 +282,8 @@ export const destination: Destination = {
           description:
             "Quartier d'artisans du XVIIe siècle, encore peuplé d'ateliers de marbre et de restaurations de tableaux. Soir tombé : tables sur les pavés.",
           image: {
-            src: "/destination/rome/map-trastevere.png",
-            alt: "Ruelles pavées de Trastevere au crépuscule",
+            src: "/destination/rome/map-trastevere.webp",
+            alt: "Fontaine de la Piazza di Santa Maria in Trastevere",
           },
           coordinates: { lat: 41.8901, lng: 12.4707 },
         },
@@ -291,7 +292,7 @@ export const destination: Destination = {
           description:
             "Du Panthéon à Piazza Navona en quinze minutes. Largo Argentina : quatre temples républicains, ouverts depuis 2023 aux visiteurs.",
           image: {
-            src: "/destination/rome/map-centro-storico.png",
+            src: "/destination/rome/map-centro-storico.webp",
             alt: "Façade du Panthéon de Rome",
           },
           coordinates: { lat: 41.8990, lng: 12.4769 },
@@ -301,7 +302,7 @@ export const destination: Destination = {
           description:
             "17 km de chaussée romaine d'origine, bordée de cyprès et de tombeaux. À parcourir en Vespa, tôt le matin.",
           image: {
-            src: "/destination/rome/map-via-appia.png",
+            src: "/destination/rome/map-via-appia.webp",
             alt: "Pavés et cyprès de la Via Appia Antica",
           },
           coordinates: { lat: 41.8497, lng: 12.5219 },
@@ -311,7 +312,7 @@ export const destination: Destination = {
           description:
             "L'un des sept monts, encore résidentiel. Le trou de serrure du prieuré de Malte cadre la coupole de Saint-Pierre, à un kilomètre.",
           image: {
-            src: "/destination/rome/map-aventino.png",
+            src: "/destination/rome/map-aventino.webp",
             alt: "Roseraie de l'Aventino au printemps",
           },
           coordinates: { lat: 41.8830, lng: 12.4815 },
@@ -321,7 +322,7 @@ export const destination: Destination = {
           description:
             "Rues pavées du XVIe siècle, synagogue, restaurants à carciofi alla giudia. Quartier qui ne ferme pas tôt.",
           image: {
-            src: "/destination/rome/map-ghetto.png",
+            src: "/destination/rome/map-ghetto.webp",
             alt: "Portique d'Octavie dans le quartier juif de Rome",
           },
           coordinates: { lat: 41.8918, lng: 12.4783 },
@@ -586,7 +587,7 @@ export const destination: Destination = {
           quote:
             "Le moment où on entre dans la Galerie Borghèse vide, à huit heures, on comprend pourquoi on a fait ce voyage. Notre guide a parlé de Bernini comme s'il l'avait connu personnellement.",
           image: {
-            src: "/destination/rome/hero-1.png",
+            src: "/destination/rome/hero-1.webp",
             alt: "Portrait de voyageur (TODO)", // TODO: verify
           },
           name: "TODO", // TODO: verify
@@ -597,7 +598,7 @@ export const destination: Destination = {
           quote:
             "La logique de quartier proposée par Tainà a tout changé. On a marché sans courir, on a vu plus, on a profité de chaque dîner. Chambre au J.K. Place : parfaite.",
           image: {
-            src: "/destination/rome/hero-2.png",
+            src: "/destination/rome/hero-2.webp",
             alt: "Portrait de voyageur (TODO)", // TODO: verify
           },
           name: "TODO", // TODO: verify
@@ -608,7 +609,7 @@ export const destination: Destination = {
           quote:
             "Trois nuits à Rome c'était trop court ; six aurait été le bon nombre. Mais la Vespa sur la Via Appia à sept heures du matin restera. Et la nonna à Trastevere.",
           image: {
-            src: "/destination/rome/hero-3.png",
+            src: "/destination/rome/hero-3.webp",
             alt: "Portrait de voyageur (TODO)", // TODO: verify
           },
           name: "TODO", // TODO: verify

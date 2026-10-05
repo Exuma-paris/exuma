@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Tôt le matin, la chaussée pavée d'origine est silencieuse. Notre guide-historien arrête à chaque tombeau important. Sept kilomètres dans les cyprès, café à mi-parcours.",
   keywords: ["rome", "via-appia", "vespa", "antique", "matin"],
   heroImage: {
-    src: "/destination/rome/xp-via-appia.png",
+    src: "/destination/rome/xp-via-appia.webp",
     alt: "Vespa sur les pavés de la Via Appia Antica, Rome",
   },
   destinationSlugs: ["rome"],
