@@ -36,12 +36,12 @@ export const destination: Destination = {
           alt: "Falaises blanches de Bonifacio surplombant la Méditerranée",
         },
         {
-          src: "/destination/corse/hero-2.png",
+          src: "/destination/corse/hero-2.webp",
           alt: "Plage de Palombaggia bordée de pins parasols au lever du jour",
         },
         {
-          src: "/destination/corse/hero-3.png",
-          alt: "Villa de luxe avec piscine à débordement face au golfe",
+          src: "/destination/corse/hero-3.webp",
+          alt: "Aiguilles de granit de Bavella et pins laricio, dans les montagnes du sud de la Corse",
         },
       ],
     },
@@ -503,7 +503,7 @@ export const destination: Destination = {
           quote:
             "Notre travel designer nous a ouvert une Corse qu'on ne pensait pas exister. La rencontre avec un berger du Niolu, une dégustation chez un vigneron du Sartenais, des moments d'une justesse rare.",
           image: {
-            src: "/destination/corse/hero-2.png",
+            src: "/destination/corse/hero-2.webp",
             alt: "Portrait de Julien", // TODO: verify
           },
           name: "Julien", // TODO: verify
@@ -514,7 +514,7 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marquée, c'est la justesse de l'accompagnement. Tout fluide, du premier appel jusqu'au retour. On se sent vraiment prise en charge, sans jamais en faire trop.",
           image: {
-            src: "/destination/corse/hero-3.png",
+            src: "/destination/corse/hero-3.webp",
             alt: "Portrait de Camille", // TODO: verify
           },
           name: "Camille", // TODO: verify
