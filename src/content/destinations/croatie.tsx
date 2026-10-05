@@ -33,15 +33,15 @@ export const destination: Destination = {
         "Mille deux cent quarante-quatre îles bordent la côte dalmate ; une cinquantaine sont habitées. Entre elles, Dubrovnik referme ses remparts sur l'Adriatique, Split vit encore à l'intérieur du palais que l'empereur Dioclétien s'était fait construire pour sa retraite, et les Kornati n'existent que pour les voiliers qui savent où mouiller. La Croatie ne se traverse pas. Elle se navigue.",
       images: [
         {
-          src: "/destination/croatie/hero-1.png",
+          src: "/destination/croatie/hero-1.webp",
           alt: "Remparts de Dubrovnik surplombant l'Adriatique au coucher du soleil",
         },
         {
-          src: "/destination/croatie/hero-2.png",
+          src: "/destination/croatie/hero-2.webp",
           alt: "Îlots calcaires du parc national des Kornati vus depuis un voilier",
         },
         {
-          src: "/destination/croatie/hero-3.png",
+          src: "/destination/croatie/hero-3.webp",
           alt: "Ruelle du palais de Dioclétien à Split au lever du jour",
         },
       ],
@@ -77,7 +77,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/croatie/full-image.png",
+        src: "/destination/croatie/full-image.webp",
         alt: "Vue aérienne des îles Kornati et de leurs eaux turquoise en Croatie",
       },
       height: 600,
@@ -94,11 +94,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/croatie/split-1.png",
-          alt: "Cave à vin creusée dans la roche du Dingač sur la péninsule de Pelješac",
+          src: "/destination/croatie/split-1.webp",
+          alt: "Vieux ceps du Dingač à flanc de pente au-dessus de l'Adriatique, sur la péninsule de Pelješac",
         },
         {
-          src: "/destination/croatie/split-2.png",
+          src: "/destination/croatie/split-2.webp",
           alt: "Voilier mouillé dans une crique discrète des îles Kornati",
         },
       ],
@@ -108,11 +108,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/croatie/xp-voile-kornati-1.png",
+          src: "/destination/croatie/xp-voile-kornati-1.webp",
           alt: "Voilier privé naviguant entre les îlots calcaires des Kornati",
         },
         right: {
-          src: "/destination/croatie/xp-voile-kornati-2.png",
+          src: "/destination/croatie/xp-voile-kornati-2.webp",
           alt: "Mouillage secret dans une crique du parc national des Kornati",
         },
       },
@@ -222,12 +222,12 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/croatie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/croatie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé en Croatie",
             "Adresse confidentielle dans la vieille ville de Split",
             "Villa privée face à la mer Adriatique",
-            "Concierge Exuma sur le port de Dubrovnik",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Dégustation de plavac mali chez un vigneron du Pelješac",
           ][i],
         },
@@ -249,7 +249,7 @@ export const destination: Destination = {
           description:
             "Cité fortifiée du XIVe siècle, remparts praticables sur près de deux kilomètres et vue directe sur les îles Elaphites.",
           image: {
-            src: "/destination/croatie/map-dubrovnik.png",
+            src: "/destination/croatie/map-dubrovnik.webp",
             alt: "Remparts et toits de tuiles de la vieille ville de Dubrovnik",
           },
           // TODO: verify coords
@@ -260,7 +260,7 @@ export const destination: Destination = {
           description:
             "Ville construite à l'intérieur même du palais que l'empereur Dioclétien s'était fait bâtir pour sa retraite, au IVe siècle.",
           image: {
-            src: "/destination/croatie/map-split.png",
+            src: "/destination/croatie/map-split.webp",
             alt: "Colonnades du palais de Dioclétien à Split",
           },
           // TODO: verify coords
@@ -271,7 +271,7 @@ export const destination: Destination = {
           description:
             "Île aux champs de lavande et aux vignobles de plavac mali, la plus ensoleillée de l'Adriatique croate.",
           image: {
-            src: "/destination/croatie/map-hvar.png",
+            src: "/destination/croatie/map-hvar.webp",
             alt: "Port et forteresse de la ville de Hvar",
           },
           // TODO: verify coords
@@ -282,7 +282,7 @@ export const destination: Destination = {
           description:
             "Cent quarante îlots calcaires classés parc national, accessibles uniquement par la mer.",
           image: {
-            src: "/destination/croatie/map-kornati.png",
+            src: "/destination/croatie/map-kornati.webp",
             alt: "Îlots calcaires du parc national des Kornati",
           },
           // TODO: verify coords
@@ -293,7 +293,7 @@ export const destination: Destination = {
           description:
             "Seize lacs en terrasses reliés par des cascades, au cœur d'une forêt classée à l'Unesco.",
           image: {
-            src: "/destination/croatie/map-plitvice.png",
+            src: "/destination/croatie/map-plitvice.webp",
             alt: "Cascades et lacs turquoise du parc national de Plitvice",
           },
           // TODO: verify coords
@@ -304,7 +304,7 @@ export const destination: Destination = {
           description:
             "Port istrien aux façades vénitiennes, point de départ vers les truffières de Motovun et les vignobles de l'arrière-pays.",
           image: {
-            src: "/destination/croatie/map-rovinj.png",
+            src: "/destination/croatie/map-rovinj.webp",
             alt: "Vieille ville vénitienne de Rovinj en Istrie",
           },
           // TODO: verify coords
