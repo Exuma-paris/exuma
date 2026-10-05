@@ -7,7 +7,7 @@ export const experience: Experience = {
     "En fin d'après-midi, les rues de Pompéi se vident et la ville retrouve son silence. Un archéologue qui fouille sur place vous ouvre alors les maisons que le public ne voit pas, et raconte la journée qui s'est arrêtée là.",
   keywords: ["italie", "pompei", "naples", "campanie", "archeologie"],
   heroImage: {
-    src: "/destination/italie/xp-pompei.png",
+    src: "/destination/italie/xp-pompei.webp",
     alt: "Rue pavée de Pompéi au soleil couchant, avec le Vésuve à l'arrière-plan",
   },
   destinationSlugs: ["italie"],
