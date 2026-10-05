@@ -13,7 +13,7 @@ export const experience: Experience = {
     "maree",
   ],
   heroImage: {
-    src: "/destination/france/xp-baie-mont-saint-michel.png",
+    src: "/destination/france/xp-baie-mont-saint-michel.webp",
     alt: "Marcheurs traversant à pied les sables de la baie du Mont-Saint-Michel",
   },
   destinationSlugs: ["france"],

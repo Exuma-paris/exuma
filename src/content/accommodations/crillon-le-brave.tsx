@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Ce n’est pas une maison, c’est un village. Une poignée de demeures anciennes reliées par des ruelles et des jardins, tout en haut d’une colline du Vaucluse. Le Ventoux se lève en face, et l’on prend son petit déjeuner en le regardant.",
   keywords: ["france", "provence", "vaucluse", "ventoux", "village perche"],
   heroImage: {
-    src: "/destination/france/hotel-crillon-le-brave.png",
-    alt: "Maisons de pierre et jardins de Crillon le Brave face au mont Ventoux",
+    src: "/destination/france/hotel-crillon-le-brave.webp",
+    alt: "Piscine et terrasses de Crillon le Brave au pied des maisons de pierre du village",
   },
   destinationSlugs: ["france"],
   metaTitle: "Crillon le Brave en Provence, France",

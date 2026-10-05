@@ -39,12 +39,12 @@ export const destination: Destination = {
           alt: "Village de pierre dorée du Luberon dans la lumière du matin, en France",
         },
         {
-          src: "/destination/france/hero-2.png",
-          alt: "Château de Chambord émergeant de la brume de Sologne au lever du jour",
+          src: "/destination/france/hero-3.webp",
+          alt: "Calanque d’En-Vau, ses falaises calcaires et son eau turquoise, près de Cassis",
         },
         {
-          src: "/destination/france/hero-3.png",
-          alt: "Aiguilles de Chamonix et glaciers au-dessus de la vallée de l’Arve",
+          src: "/destination/france/hero-2.png",
+          alt: "Château de Chambord émergeant de la brume de Sologne au lever du jour",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/france/full-image.png",
-        alt: "Vignes et village perché du Luberon au soleil couchant, dans le sud de la France",
+        src: "/destination/france/full-image.webp",
+        alt: "L’abbaye de Sénanque derrière ses rangs de lavande, près de Gordes, dans le sud de la France",
       },
       height: 600,
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/france/xp-montgolfiere-1.png",
-          alt: "Montgolfière au-dessus de la brume de Sologne au lever du jour",
+          src: "/destination/france/xp-montgolfiere-1.webp",
+          alt: "Le château de Chambord et ses jardins vus depuis la nacelle d’une montgolfière au lever du jour",
         },
         right: {
-          src: "/destination/france/xp-montgolfiere-2.png",
-          alt: "Toits et cheminées du château de Chambord vus depuis les airs",
+          src: "/destination/france/xp-montgolfiere-2.webp",
+          alt: "Lanternes, cheminées et toits d’ardoise sur les terrasses du château de Chambord",
         },
       },
       text: {
@@ -232,12 +232,12 @@ export const destination: Destination = {
         image: {
           src: `/destination/france/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d’un itinéraire sur mesure entre la Loire, la Champagne et la Provence",
             "Ruelle pavée et façades de pierre dorée d’un village du Luberon",
             "Terrasse d’une bastide provençale ouverte sur la vallée au soleil couchant",
-            "Concierge coordonnant un transfert privé entre deux régions françaises",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Table dressée au milieu des vignes de Champagne à la fin du jour",
           ][i],
         },
@@ -279,8 +279,8 @@ export const destination: Destination = {
           description:
             "Sous la ville s’ouvrent d’anciennes carrières de craie, où le froid et l’obscurité veillent sur les bouteilles depuis des siècles. En surface, la cathédrale des sacres, et les coteaux de la côte des Blancs à quelques minutes de route.",
           image: {
-            src: "/destination/france/map-reims.png",
-            alt: "Crayères de Champagne et rangées de bouteilles sous Reims",
+            src: "/destination/france/map-reims.webp",
+            alt: "Vieilles bouteilles et ardoises millésimées dans les crayères de Reims",
           },
           coordinates: { lat: 49.2583, lng: 4.0317 }, // TODO: verify coords
         },
@@ -289,7 +289,7 @@ export const destination: Destination = {
           description:
             "Un village de pierre dorée accroché à sa falaise, face à toute la vallée. Les marchés se montent avant le jour à Apt, à Coustellet et à L’Isle-sur-la-Sorgue, et à midi il ne reste plus que l’odeur des melons sur le pavé.",
           image: {
-            src: "/destination/france/map-gordes.png",
+            src: "/destination/france/map-gordes.webp",
             alt: "Village de Gordes accroché à sa falaise au-dessus du Luberon",
           },
           coordinates: { lat: 43.9114, lng: 5.1985 }, // TODO: verify coords
@@ -299,7 +299,7 @@ export const destination: Destination = {
           description:
             "Une presqu’île de pins posée entre Nice et Monaco, qu’un sentier contourne au ras de l’eau. Tout en haut, la villa Ephrussi de Rothschild laisse descendre ses jardins jusqu’à la mer.",
           image: {
-            src: "/destination/france/map-cap-ferrat.png",
+            src: "/destination/france/map-cap-ferrat.webp",
             alt: "Presqu’île du cap Ferrat et son sentier littoral au-dessus de la Méditerranée",
           },
           coordinates: { lat: 43.6874, lng: 7.332 }, // TODO: verify coords
@@ -309,7 +309,7 @@ export const destination: Destination = {
           description:
             "Le téléphérique s’élève dans le vide et dépose à l’Aiguille du Midi, au milieu des glaciers, là où l’air devient si léger qu’il en change la voix. De là part la vallée Blanche, une longue descente sur la glace jusqu’au fond de la vallée, encordé derrière un guide.",
           image: {
-            src: "/destination/france/map-chamonix.png",
+            src: "/destination/france/map-chamonix.webp",
             alt: "Aiguille du Midi et massif du Mont-Blanc au-dessus de Chamonix",
           },
           coordinates: { lat: 45.9237, lng: 6.8694 }, // TODO: verify coords
@@ -549,7 +549,7 @@ export const destination: Destination = {
           quote:
             "Descendre dans la craie avec le chef de cave, goûter ce qui n’est pas encore du champagne, dans le froid et dans le silence. Nous n’avions jamais rien connu de tel, et surtout pas en France.",
           image: {
-            src: "/destination/france/hero-3.png",
+            src: "/destination/france/hero-3.webp",
             alt: "Portrait de Bernard", // TODO: verify
           },
           name: "Bernard", // TODO: verify
