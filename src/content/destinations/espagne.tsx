@@ -73,8 +73,8 @@ export const destination: Destination = {
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Espagne commence souvent à Grenade, dans les jardins de l'Alhambra. Les Nasrides ont bâti ce palais autour de l'eau, qui court d'un bassin à l'autre et rafraîchit les cours avant même que l'on y entre. On s'y attarde bien plus longtemps que prévu, simplement pour écouter.",
-        "Le pays se déguste ensuite du sud au nord. L'Andalousie se visite le matin puis se vit à l'ombre, entre les patios fleuris de Cordoue et les ruelles de Séville. Le Pays basque se raconte autour d'une table, à Saint-Sébastien où l'on passe d'un comptoir à l'autre, et à Getaria où le poisson cuit doucement sur la braise. La Castille garde ses vignes et ses caves sous les villages de la Ribera del Duero. Puis vient une île, pour finir les pieds dans l'eau.",
-        "« Il n'y a pas une Espagne mais plusieurs, et tout le plaisir du voyage tient à celles que l'on choisit. Nous les connaissons une à une, et nous vous y conduisons. »",
+        "Le pays se déguste ensuite du sud au nord. L'Andalousie se visite le matin puis se vit à l'ombre, entre les patios fleuris de Cordoue et les ruelles de Séville. Le Pays basque se raconte autour d'une table, à Saint-Sébastien où l'on passe d'un comptoir à l'autre, et à Getaria où le poisson cuit doucement sur la braise.",
+        "La Castille garde ses vignes et ses caves sous les villages de la Ribera del Duero. Puis vient une île, pour finir les pieds dans l'eau. « Il n'y a pas une Espagne mais plusieurs, et tout le plaisir du voyage tient à celles que l'on choisit. Nous les connaissons une à une, et nous vous y conduisons. »",
       ],
     },
 
@@ -234,7 +234,7 @@ export const destination: Destination = {
             "Carte d'un itinéraire sur mesure en Espagne",
             "Barman préparant un cocktail derrière le comptoir d'un bar espagnol",
             "Chambre à baldaquin ouverte sur un balcon face à la mer, à Majorque",
-            "Concierge coordonnant un transfert privé en Andalousie",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Séance de yoga sur une terrasse au-dessus des collines majorquines",
           ][i],
         },
@@ -297,7 +297,7 @@ export const destination: Destination = {
             "La montagne majorquine descend vers la mer en terrasses d'oliviers, entre Banyalbufar, Deià et Valldemossa. On y roule lentement, les fenêtres ouvertes.",
           image: {
             src: "/destination/espagne/map-tramuntana.webp",
-            alt: "Route en corniche de la Serra de Tramuntana au-dessus de la Méditerranée",
+            alt: "La route en lacets de Sa Calobra dans la Serra de Tramuntana, à Majorque",
           },
           coordinates: { lat: 39.6869, lng: 2.5147 }, // TODO: verify coords
         },
