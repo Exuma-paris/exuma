@@ -28,19 +28,19 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe au Danemark",
       heading: "Danemark, l'art de vivre à vélo",
       description:
-        "Le Danemark compte quatre cent quarante-quatre îles, dont une soixantaine-dix seulement sont habitées. Copenhague s'étend principalement sur les îles de Sjælland et d'Amager, tandis que les ponts et les ferries relient les différentes terres de l'archipel. Au nord du Jutland, à Skagen, le Skagerrak et le Kattegat se rencontrent dans un paysage baigné d'une lumière singulière, qui a attiré dès les années 1870 toute une communauté de peintres et donné naissance à la célèbre école de Skagen.",
+        "Quatre cent quarante-trois îles, dont soixante-dix habitées, que relient des ponts et des ferries. Copenhague en occupe deux. Tout au nord, à Skagen, deux mers se rejoignent sous une lumière qui a retenu là, dès 1870, toute une génération de peintres.",
       images: [
         {
-          src: "/destination/danemark/hero-1.png",
+          src: "/destination/danemark/hero-1.webp",
           alt: "Façades colorées et bateaux amarrés le long du canal de Nyhavn à Copenhague, Danemark",
         },
         {
-          src: "/destination/danemark/hero-2.png",
-          alt: "Château de Kronborg au bord de l'Øresund, à Helsingør au Danemark",
+          src: "/destination/danemark/hero-3.webp",
+          alt: "Herbes de dune et plage de galets qui mènent au phare gris de Skagen, à la pointe nord du Danemark",
         },
         {
-          src: "/destination/danemark/hero-3.png",
-          alt: "Plage de sable blanc à Skagen, à la pointe nord du Danemark",
+          src: "/destination/danemark/hero-2.webp",
+          alt: "Château de Kronborg au bord de l'Øresund, à Helsingør au Danemark",
         },
       ],
     },
@@ -95,8 +95,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/danemark/full-image.png",
-        alt: "Vue aérienne des canaux et des toits de Copenhague au coucher du soleil, Danemark",
+        src: "/destination/danemark/full-image.webp",
+        alt: "Bateau privé en bois verni sur un canal de Copenhague, clocher de Saint-Nicolas en fin de journée, Danemark",
       },
       height: 600,
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/danemark/split-1.png",
-          alt: "Église ronde fortifiée du treizième siècle sur l'île de Bornholm, Danemark",
+          src: "/destination/danemark/split-1.webp",
+          alt: "Église ronde fortifiée d'Østerlars sur l'île de Bornholm, Danemark",
         },
         {
-          src: "/destination/danemark/split-2.png",
-          alt: "Maisons à toit de chaume d'Ærøskøbing sur l'île d'Ærø, Danemark",
+          src: "/destination/danemark/split-2.webp",
+          alt: "Cabane de plage au toit de chaume à Marstal, sur l'île d'Ærø, Danemark",
         },
       ],
     },
@@ -126,12 +126,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/danemark/xp-diner-noma-1.png",
-          alt: "Table dressée dans la salle de Noma avant l'ouverture au public, Copenhague",
+          src: "/destination/danemark/xp-diner-noma-1.webp",
+          alt: "Les pavillons en bois de Noma dans leur jardin sauvage, à Copenhague",
         },
         right: {
-          src: "/destination/danemark/xp-diner-noma-2.png",
-          alt: "Plat de la cuisine New Nordic préparé en cuisine chez Noma, Copenhague",
+          src: "/destination/danemark/xp-diner-noma-2.webp",
+          alt: "Produits de saison et préparations de Noma disposés sur une table, vus du dessus, Copenhague",
         },
       },
       text: {
@@ -240,7 +240,7 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/danemark/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/danemark/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Danemark entre Copenhague, Sjælland et Bornholm",
             "Adresse confidentielle au Danemark, atelier d'artisan ou table de chef",
@@ -267,7 +267,7 @@ export const destination: Destination = {
           description:
             "Le canal historique, creusé à partir de 1670, garde ses façades colorées de marchands et de pêcheurs. C'est aussi le point de départ de la plupart des itinéraires à vélo dans la capitale.",
           image: {
-            src: "/destination/danemark/map-copenhague.png",
+            src: "/destination/danemark/map-copenhague.webp",
             alt: "Canal de Nyhavn et ses façades colorées à Copenhague",
           },
           // TODO: verify coords
@@ -278,7 +278,7 @@ export const destination: Destination = {
           description:
             "Le château garde l'Øresund depuis 1420 et a inspiré à Shakespeare le cadre de son Hamlet. Il figure au patrimoine mondial de l'Unesco depuis 2000.",
           image: {
-            src: "/destination/danemark/map-kronborg.png",
+            src: "/destination/danemark/map-kronborg.webp",
             alt: "Château de Kronborg au bord de l'Øresund à Helsingør",
           },
           // TODO: verify coords
@@ -289,7 +289,7 @@ export const destination: Destination = {
           description:
             "À la pointe nord du Jutland, la mer du Nord et la Baltique se rejoignent visiblement sur la plage de Grenen. La lumière rasante de la région a formé toute une école de peinture à la fin du dix-neuvième siècle.",
           image: {
-            src: "/destination/danemark/map-skagen.png",
+            src: "/destination/danemark/map-skagen.webp",
             alt: "Plage de Grenen où se rejoignent deux mers, à Skagen",
           },
           // TODO: verify coords
@@ -300,8 +300,8 @@ export const destination: Destination = {
           description:
             "Île de la Baltique à sept heures de ferry de Copenhague, connue pour ses églises rondes fortifiées et ses fumoirs à hareng de Svaneke. L'île compte aussi une forte concentration d'ateliers de céramique.",
           image: {
-            src: "/destination/danemark/map-bornholm.png",
-            alt: "Église ronde fortifiée et port de Svaneke sur l'île de Bornholm",
+            src: "/destination/danemark/map-bornholm.webp",
+            alt: "Église ronde fortifiée d'Østerlars sur l'île de Bornholm",
           },
           // TODO: verify coords
           coordinates: { lat: 55.1338, lng: 15.1414 },
@@ -311,7 +311,7 @@ export const destination: Destination = {
           description:
             "Ce village au sud de Fionie a gardé ses maisons à colombages et ses toits de chaume du dix-huitième siècle le long d'un unique quai, sans grande transformation depuis.",
           image: {
-            src: "/destination/danemark/map-aeroe.png",
+            src: "/destination/danemark/map-aeroe.webp",
             alt: "Maisons à colombages d'Ærøskøbing sur l'île d'Ærø",
           },
           // TODO: verify coords
@@ -322,8 +322,8 @@ export const destination: Destination = {
           description:
             "Cinq navires vikings, coulés volontairement au onzième siècle pour bloquer le fjord, ont été renfloués en 1962 et se visitent aujourd'hui au musée des navires vikings. La cathédrale voisine sert de nécropole aux monarques danois depuis le Moyen Âge.",
           image: {
-            src: "/destination/danemark/map-roskilde.png",
-            alt: "Navires vikings renfloués exposés au musée de Roskilde",
+            src: "/destination/danemark/map-roskilde.webp",
+            alt: "Bateau viking reconstitué dans le port du musée de Roskilde",
           },
           // TODO: verify coords
           coordinates: { lat: 55.6415, lng: 12.0803 },

@@ -7,7 +7,7 @@ export const accommodation: Accommodation = {
     "Un ancien théâtre transformé par le décorateur Tyge Sanders, à deux rues de Nyhavn. Les chambres tiennent sur du velours et du bois clair, sans logo ni réception démonstrative.",
   keywords: ["danemark", "copenhague", "hotel sanders", "design", "boutique"],
   heroImage: {
-    src: "/destination/danemark/hotel-sanders.png",
+    src: "/destination/danemark/hotel-sanders.webp",
     alt: "Salon en velours et bois clair de l'Hotel Sanders à Copenhague",
   },
   destinationSlugs: ["danemark"],
