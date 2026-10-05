@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Cap depuis Bonifacio vers les Lavezzi, mouillage confidentiel et déjeuner à bord en petit comité.",
   keywords: ["lavezzi", "corse", "bateau", "bonifacio", "mediterranee"],
   heroImage: {
-    src: "/destination/corse/xp-bateau-bonifacio.png",
-    alt: "Bateau privé naviguant vers les îles Lavezzi",
+    src: "/destination/corse/xp-bateau-bonifacio.webp",
+    alt: "Enfants plongeant d'un catamaran privé au mouillage dans un lagon des îles Lavezzi",
   },
   destinationSlugs: ["corse"],
   sections: [],

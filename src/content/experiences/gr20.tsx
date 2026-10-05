@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Une journée d'altitude avec un guide local sur l'un des plus beaux tronçons du sentier mythique.",
   keywords: ["gr20", "corse", "randonnee", "montagne", "altitude"],
   heroImage: {
-    src: "/destination/corse/xp-randonnee-gr20.png",
-    alt: "Randonneurs sur une crête granitique du GR20",
+    src: "/destination/corse/xp-randonnee-gr20.webp",
+    alt: "Randonneuse sur un sentier au pied des aiguilles de granit de Bavella",
   },
   destinationSlugs: ["corse"],
   sections: [],

@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Rencontre avec un maître de chai, dégustation de vermentinos et niellucciu sur les terrasses de granit.",
   keywords: ["vin", "corse", "sartenais", "vermentino", "niellucciu"],
   heroImage: {
-    src: "/destination/corse/xp-degustation-vin.png",
+    src: "/destination/corse/xp-degustation-vin.webp",
     alt: "Verres de vin corse sur une terrasse en pierre face au maquis",
   },
   destinationSlugs: ["corse"],

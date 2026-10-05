@@ -96,8 +96,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/corse/full-image.png",
-        alt: "Vue aérienne du golfe de Porto et des calanques de Piana au coucher du soleil",
+        src: "/destination/corse/full-image.webp",
+        alt: "Yacht privé au pied des falaises de roche rouge de la réserve de Scandola, golfe de Porto",
       },
       height: 600,
     },
@@ -113,12 +113,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/corse/split-1.png",
+          src: "/destination/corse/split-1.webp",
           alt: "Bergerie en pierre sèche au cœur du maquis corse",
         },
         {
-          src: "/destination/corse/split-2.png",
-          alt: "Bateau traditionnel mouillé dans une crique des îles Lavezzi",
+          src: "/destination/corse/split-2.webp",
+          alt: "Yacht privé au mouillage dans un lagon turquoise des îles Lavezzi",
         },
       ],
     },
@@ -127,12 +127,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/corse/polyphonie.png",
+          src: "/destination/corse/polyphonie.webp",
           alt: "Chanteurs polyphoniques corses dans une église romane",
         },
         right: {
-          src: "/destination/corse/berger.png",
-          alt: "Berger corse devant sa bergerie de pierre dans le maquis",
+          src: "/destination/corse/berger.webp",
+          alt: "Tommes de brebis en cours d'affinage dans la cave d'une bergerie corse",
         },
       },
       text: {
@@ -232,7 +232,7 @@ export const destination: Destination = {
           description:
             "Chaque voyage naît d'un échange personnel pour comprendre vos rythmes, vos envies et vos habitudes.",
           image: {
-            src: "/destination/corse/bento-map.png",
+            src: "/destination/corse/bento-map.webp",
             alt: "Carte d'itinéraire personnalisé en Corse",
           },
           tone: "dark",
@@ -242,7 +242,7 @@ export const destination: Destination = {
           description:
             "Accès privilégié à nos adresses hors des sentiers battus, des bergeries aux tables d'hôtes secrètes.",
           image: {
-            src: "/destination/corse/bento-adresses.png",
+            src: "/destination/corse/bento-adresses.webp",
             alt: "Ruelle de pierres d'un village perché corse",
           },
         },
@@ -251,8 +251,8 @@ export const destination: Destination = {
           description:
             "Des bergeries restaurées dans le maquis aux villas privées les pieds dans l'eau.",
           image: {
-            src: "/destination/corse/bento-aerien.png",
-            alt: "Vue aérienne d'une crique préservée de Corse",
+            src: "/destination/corse/bento-aerien.webp",
+            alt: "Vue aérienne d'une crique de granit rose et d'eau turquoise en Corse",
           },
         },
         {
@@ -260,8 +260,8 @@ export const destination: Destination = {
           description:
             "Assistance en continu. Bateau privé, chauffeur, dîner privé sur la plage à toute heure.",
           image: {
-            src: "/destination/corse/bento-conciergerie.png",
-            alt: "Concierge Exuma sur le port de Bonifacio",
+            src: "/destination/corse/bento-conciergerie.webp",
+            alt: "Conseillère Exuma souriante, casque sur les oreilles",
           },
         },
         {
@@ -269,7 +269,7 @@ export const destination: Destination = {
           description:
             "Accédez à des expériences rares : journée chez un berger, sortie en bateau privé, dégustation de vermentinos.",
           image: {
-            src: "/destination/corse/bento-experience.png",
+            src: "/destination/corse/bento-experience.webp",
             alt: "Dégustation de vins et charcuterie corse sur une terrasse",
           },
         },
@@ -291,7 +291,7 @@ export const destination: Destination = {
           description:
             "Cité médiévale perchée sur des falaises calcaires, escalier du Roy d'Aragon et îles Lavezzi à proximité.",
           image: {
-            src: "/destination/corse/map-bonifacio.png",
+            src: "/destination/corse/map-bonifacio.webp",
             alt: "Falaises et citadelle de Bonifacio",
           },
           // TODO: verify coords
@@ -302,7 +302,7 @@ export const destination: Destination = {
           description:
             "Citadelle génoise face à la baie, point de départ vers le désert des Agriates et la plage de Saleccia.",
           image: {
-            src: "/destination/corse/map-calvi.png",
+            src: "/destination/corse/map-calvi.webp",
             alt: "Citadelle de Calvi vue depuis la mer",
           },
           // TODO: verify coords
@@ -313,7 +313,7 @@ export const destination: Destination = {
           description:
             "Capitale historique au cœur des montagnes, accès aux gorges de la Restonica et au lac de Melu.",
           image: {
-            src: "/destination/corse/map-corte.png",
+            src: "/destination/corse/map-corte.webp",
             alt: "Citadelle de Corte au pied des montagnes",
           },
           // TODO: verify coords
@@ -324,8 +324,8 @@ export const destination: Destination = {
           description:
             "Port animé du Cap Corse, ruelles génoises, marché du Vieux-Port et balcons sur le Tyrrhénienne.",
           image: {
-            src: "/destination/corse/map-bastia.png",
-            alt: "Vieux-Port de Bastia au matin",
+            src: "/destination/corse/map-bastia.webp",
+            alt: "Bateaux et façades du Vieux-Port de Bastia",
           },
           // TODO: verify coords
           coordinates: { lat: 42.7028, lng: 9.4506 },
@@ -335,8 +335,8 @@ export const destination: Destination = {
           description:
             "Golfe protégé bordé de plages mythiques : Palombaggia, Santa Giulia, Rondinara.",
           image: {
-            src: "/destination/corse/map-porto-vecchio.png",
-            alt: "Plage de Palombaggia au lever du jour",
+            src: "/destination/corse/map-porto-vecchio.webp",
+            alt: "Plage de Palombaggia et son eau turquoise vue du ciel, près de Porto-Vecchio",
           },
           // TODO: verify coords
           coordinates: { lat: 41.5917, lng: 9.2806 },
@@ -346,8 +346,8 @@ export const destination: Destination = {
           description:
             "Presqu'île sauvage au nord de l'île, villages de pêcheurs, tours génoises et vins de muscat.",
           image: {
-            src: "/destination/corse/map-cap-corse.png",
-            alt: "Tour génoise et maquis du Cap Corse",
+            src: "/destination/corse/map-cap-corse.webp",
+            alt: "Tour génoise de Sagro dans le maquis du Cap Corse",
           },
           // TODO: verify coords
           coordinates: { lat: 42.9667, lng: 9.4333 },
