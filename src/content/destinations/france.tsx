@@ -280,7 +280,7 @@ export const destination: Destination = {
             "Sous la ville s’ouvrent d’anciennes carrières de craie, où le froid et l’obscurité veillent sur les bouteilles depuis des siècles. En surface, la cathédrale des sacres, et les coteaux de la côte des Blancs à quelques minutes de route.",
           image: {
             src: "/destination/france/map-reims.webp",
-            alt: "Vieilles bouteilles et ardoises millésimées dans les crayères de Reims",
+            alt: "Galerie des caves de Champagne et pupitres de bouteilles, sous Reims",
           },
           coordinates: { lat: 49.2583, lng: 4.0317 }, // TODO: verify coords
         },
@@ -300,7 +300,7 @@ export const destination: Destination = {
             "Une presqu’île de pins posée entre Nice et Monaco, qu’un sentier contourne au ras de l’eau. Tout en haut, la villa Ephrussi de Rothschild laisse descendre ses jardins jusqu’à la mer.",
           image: {
             src: "/destination/france/map-cap-ferrat.webp",
-            alt: "Presqu’île du cap Ferrat et son sentier littoral au-dessus de la Méditerranée",
+            alt: "Plage de Passable et eau turquoise au cap Ferrat, sur la Côte d’Azur",
           },
           coordinates: { lat: 43.6874, lng: 7.332 }, // TODO: verify coords
         },
@@ -310,7 +310,7 @@ export const destination: Destination = {
             "Le téléphérique s’élève dans le vide et dépose à l’Aiguille du Midi, au milieu des glaciers, là où l’air devient si léger qu’il en change la voix. De là part la vallée Blanche, une longue descente sur la glace jusqu’au fond de la vallée, encordé derrière un guide.",
           image: {
             src: "/destination/france/map-chamonix.webp",
-            alt: "Aiguille du Midi et massif du Mont-Blanc au-dessus de Chamonix",
+            alt: "Le centre de Chamonix au bord de l’Arve, le massif du Mont-Blanc en arrière-plan",
           },
           coordinates: { lat: 45.9237, lng: 6.8694 }, // TODO: verify coords
         },
