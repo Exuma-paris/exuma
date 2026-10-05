@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["grece", "athenes", "acropole", "parthenon", "archeologie"],
   heroImage: {
     src: "/destination/grece/xp-acropole.webp",
-    alt: "Colonnes du Parthénon sur l'Acropole d'Athènes, sans la foule",
+    alt: "Odéon d'Hérode Atticus au pied de l'Acropole, lumière dorée du soir",
   },
   destinationSlugs: ["grece"],
   sections: [],

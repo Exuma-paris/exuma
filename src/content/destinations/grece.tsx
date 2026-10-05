@@ -82,7 +82,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/grece/full-image.webp",
-        alt: "Caldeira de Santorin au coucher du soleil, mer Égée, Grèce",
+        alt: "Village d'Oia et son moulin à vent dans la lumière dorée de Santorin",
       },
       height: 600,
     },
@@ -100,11 +100,11 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/grece/split-1.webp",
-          alt: "Port en fer à cheval d'Hydra bordé de maisons de pierre",
+          alt: "Maisons blanches d'Hydra au-dessus de l'eau turquoise, entre les pins",
         },
         {
           src: "/destination/grece/split-2.webp",
-          alt: "Façade blanchie à la chaux et volets gris dans une ruelle d'Hydra",
+          alt: "Mules d'Hydra sellées de tapis colorés sur le quai pavé",
         },
       ],
     },
@@ -120,8 +120,8 @@ export const destination: Destination = {
       slugs: [
         "croisiere-privee-cyclades",
         "acropole-hors-heures",
-        "delphes-guide-archeologue",
         "table-santorin-vigneron",
+        "delphes-guide-archeologue",
       ],
     },
 

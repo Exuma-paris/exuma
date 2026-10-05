@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["grece", "santorin", "vigneron", "assyrtiko", "gastronomie"],
   heroImage: {
     src: "/destination/grece/xp-vigneron-santorin.webp",
-    alt: "Vignes taillées en couronne sur le sol volcanique de Santorin",
+    alt: "Vignoble de Santorin et chapelle blanchie à la chaux dans la lumière du soir",
   },
   destinationSlugs: ["grece"],
   sections: [],

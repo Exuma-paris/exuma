@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["grece", "delphes", "archeologie", "apollon", "parnasse"],
   heroImage: {
     src: "/destination/grece/xp-delphes.webp",
-    alt: "Théâtre antique de Delphes entre les cyprès, sur les pentes du Parnasse",
+    alt: "Tholos du sanctuaire d'Athéna Pronaia à Delphes, au pied du Parnasse",
   },
   destinationSlugs: ["grece"],
   sections: [],
