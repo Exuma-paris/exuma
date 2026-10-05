@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Un maître artisan de la maison Georg Jensen reçoit, argenterie en cours de martelage sur l'établi. Aucune vitrine, aucune billetterie : la visite se négocie atelier par atelier.",
   keywords: ["danemark", "design danois", "copenhague", "artisanat", "orfevrerie"],
   heroImage: {
-    src: "/destination/danemark/xp-atelier-design.png",
+    src: "/destination/danemark/xp-atelier-design.webp",
     alt: "Artisan martelant une pièce d'argenterie dans un atelier de design à Copenhague",
   },
   destinationSlugs: ["danemark"],
