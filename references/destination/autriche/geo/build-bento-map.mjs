@@ -77,8 +77,8 @@ const route = [leg(1, 2), leg(2, 3), leg(3, 4), leg(4, 5), leg(5, 6)].join(" ");
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
   <path d="${paths}" fill="${LAND}" fill-rule="evenodd"/>
-  <path d="${route}" fill="none" stroke="${INK}" stroke-width="3"
-        stroke-dasharray="10 9" stroke-linecap="round" opacity="0.95"/>
+  <path d="${route}" fill="none" stroke="${PIN}" stroke-width="5"
+        stroke-dasharray="14 10" stroke-linecap="round" opacity="1"/>
   ${stops.map((p) => {
     const [x, y] = p.xy.map(fmt);
     return `<circle cx="${x}" cy="${y}" r="24" fill="${PIN}"/>
