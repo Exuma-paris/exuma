@@ -14,8 +14,8 @@ export const experience: Experience = {
     "degustation",
   ],
   heroImage: {
-    src: "/destination/france/xp-vins-clairs-champagne.png",
-    alt: "Dégustation de vins clairs dans une crayère de Champagne sous Reims",
+    src: "/destination/france/xp-vins-clairs-champagne.webp",
+    alt: "Pupitres de bouteilles dans les galeries de craie d’une crayère, sous Reims",
   },
   destinationSlugs: ["france"],
   sections: [],
