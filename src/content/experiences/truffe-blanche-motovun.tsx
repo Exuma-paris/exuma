@@ -7,7 +7,7 @@ export const experience: Experience = {
     "En forêt de Motovun, un trabucante et son chien remontent la piste sous les chênes truffiers. La récolte du jour finit à table, tagliatelles fraîches et truffe râpée devant tout le monde.",
   keywords: ["croatie", "istrie", "motovun", "truffe", "foret"],
   heroImage: {
-    src: "/destination/croatie/xp-truffe-motovun.png",
+    src: "/destination/croatie/xp-truffe-motovun.webp",
     alt: "Chasse à la truffe blanche en forêt de Motovun, Istrie",
   },
   destinationSlugs: ["croatie"],

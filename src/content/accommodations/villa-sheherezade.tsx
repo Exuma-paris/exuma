@@ -8,8 +8,8 @@ export const accommodation: Accommodation = {
     "À dix minutes des remparts de Dubrovnik, la villa aligne plusieurs chambres autour d'une piscine à débordement face à la mer. Le personnel vient avec la maison, cuisinier compris.", // TODO: verify room count and staff details
   keywords: ["croatie", "dubrovnik", "villa-privee", "piscine", "famille"],
   heroImage: {
-    src: "/destination/croatie/hotel-villa-sheherezade.png",
-    alt: "Villa Sheherezade et sa piscine à débordement près de Dubrovnik",
+    src: "/destination/croatie/hotel-villa-sheherezade.webp",
+    alt: "Villa Sheherezade et sa coupole bleue, terrasses et piscine au-dessus des rochers près de Dubrovnik",
   },
   destinationSlugs: ["croatie"],
   sections: [],
