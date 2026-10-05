@@ -12,8 +12,8 @@ export const accommodation: Accommodation = {
   ),
   keywords: ["paris", "bristol", "palace", "faubourg saint honore", "frechon", "epicure"],
   heroImage: {
-    src: "/destination/paris/hotel-bristol.png",
-    alt: "Façade du Bristol Paris rue du Faubourg Saint-Honoré",
+    src: "/destination/paris/hotel-bristol.webp",
+    alt: "Façade et marquise du Bristol Paris, rue du Faubourg-Saint-Honoré",
   },
   destinationSlugs: ["paris"],
   sections: [],

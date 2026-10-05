@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Quatre heures. Avec un chef étoilé, vous traversez les pavillons du plus grand marché de gros d'Europe : pêche du jour, négoce, dégustation.",
   keywords: ["paris", "rungis", "chef", "marche", "gastronomie", "etoile"],
   heroImage: {
-    src: "/destination/paris/xp-rungis.png",
-    alt: "Halle du marché de Rungis à l'aube, étals de poissonniers",
+    src: "/destination/paris/xp-rungis.webp",
+    alt: "Halle des fruits et légumes du marché de Rungis",
   },
   destinationSlugs: ["paris"],
   sections: [],
