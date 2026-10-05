@@ -32,3 +32,24 @@ Each generated image in `public/destination/italie/` was produced by feeding the
 | `map-langhe.png`                    | `map-langhe-ref.jpg`                    | TODO       | TODO    |
 
 Les portraits des témoignages réutilisent `hero-1.png`, `hero-2.png` et `hero-3.png` : aucun fichier supplémentaire.
+
+## Mise à jour octobre 2026 (webp, DA Exuma)
+
+| Fichier | Référence | Origine | Lien | Licence |
+|---|---|---|---|---|
+| `map-florence.webp` | | Blick von San Miniato al Monte auf Florenz-02.jpg. **Vraie photo**, sans IA : recadrage et étalonnage local | https://commons.wikimedia.org/wiki/File:Blick_von_San_Miniato_al_Monte_auf_Florenz-02.jpg | CC BY-SA 3.0, Rufus46 (crédit obligatoire) |
+| `map-venise.webp` | | 0 Venise, palazzi Grimani Marcello, Querini Dubois, Bernardo et Grand Canal.JPG. **Vraie photo**, sans IA : recadrage et étalonnage local | https://commons.wikimedia.org/wiki/File:0_Venise,_palazzi_Grimani_Marcello,_Querini_Dubois,_Bernardo_et_Grand_Canal.JPG | CC BY 4.0, Jean-Pol GRANDMONT (crédit obligatoire) |
+| `map-val-orcia.webp` | | Val-d Orcia landscape 20120926-3.JPG. **Vraie photo**, sans IA : recadrage et étalonnage local | https://commons.wikimedia.org/wiki/File:Val-d_Orcia_landscape_20120926-3.JPG | CC BY-SA 3.0, Hans A. Rosbach (crédit obligatoire) |
+| `map-dolomites.webp` | | Faloria Cortina d'Ampezzo 10.jpg. **Vraie photo**, sans IA : recadrage et étalonnage local | https://commons.wikimedia.org/wiki/File:Faloria_Cortina_d%27Ampezzo_10.jpg | CC BY-SA 4.0, kallerna (crédit obligatoire) |
+| `map-pompei.webp` | | Mount Vesuvius from Pompeii2.jpg. **Vraie photo**, sans IA : recadrage et étalonnage local | https://commons.wikimedia.org/wiki/File:Mount_Vesuvius_from_Pompeii2.jpg | CC0, Jebulon (crédit obligatoire) |
+| `map-langhe.webp` | | Landscape of vineyards in Piemonte, Italy.jpg. **Vraie photo**, sans IA : recadrage et étalonnage local | https://commons.wikimedia.org/wiki/File:Landscape_of_vineyards_in_Piemonte,_Italy.jpg | CC BY 2.0, Megan Mallen (crédit obligatoire) |
+| `bento-adresses.webp` | | Ruelle de Florence, volets clos. Générée par IA (Gemini) sans référence, style reportage, étalonnage chaud local | | Image IA, aucun crédit |
+| `bento-hebergements.webp` | | Terrasse de villa toscane. Générée par IA (Gemini) sans référence, style reportage, étalonnage chaud local | | Image IA, aucun crédit |
+| `bento-experiences.webp` | | Déjeuner dans les vignes du Chianti. Générée par IA (Gemini) sans référence, style reportage, étalonnage chaud local | | Image IA, aucun crédit |
+| `split-1.webp` | | Table sous la treille. Générée par IA (Gemini) sans référence, style reportage, étalonnage chaud local | | Image IA, aucun crédit |
+| `split-2.webp` | | Tajarin à la truffe blanche. Générée par IA (Gemini) sans référence, style reportage, étalonnage chaud local | | Image IA, aucun crédit |
+| `bento-conciergerie.webp` | | Photo d'équipe Exuma habituelle | | Interne |
+| `bento-map.webp` | | Carte vectorielle Natural Earth (`geo/build-bento-map.mjs`) | https://www.naturalearthdata.com | Domaine public |
+| héros, `full-image`, `xp-*`, `hotel-castiglion-del-bosco` | | Images IA existantes (voir tableau ci-dessus), converties en webp et désaturées ; originaux dans `archives/` | | Image IA |
+| `hotel-lefay-dolomiti.webp` | | Photo existante (jpg), redimensionnée ; origine à confirmer | | **Autorisation d'usage à obtenir** |
+| `hotel-aman-venice.webp` | | **À fournir** : photo officielle | | Autorisation d'usage à obtenir |

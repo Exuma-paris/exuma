@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Avant le jour, un trifolao et son chien partent dans les bois au-dessus d'Alba. La matinée se termine à sa table, la récolte râpée sur des tajarin, avec une bouteille de Barolo ouverte pour l'occasion.",
   keywords: ["italie", "piemont", "alba", "langhe", "truffe"],
   heroImage: {
-    src: "/destination/italie/xp-truffe-blanche.png",
+    src: "/destination/italie/xp-truffe-blanche.webp",
     alt: "Trifolao et son chien cherchant la truffe blanche dans un bois des Langhe",
   },
   destinationSlugs: ["italie"],

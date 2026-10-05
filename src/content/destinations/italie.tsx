@@ -35,15 +35,15 @@ export const destination: Destination = {
         "Commencez par Venise, ses palais et ses ateliers de verre. Puis Florence, ses musées et ses ponts sur l'Arno, avant les domaines du Chianti et leurs caves. Plus au nord, les Dolomites apportent la montagne et l'air frais. Et au sud, Pompéi rend le silence aux rues d'une ville que le temps a laissée en place.",
       images: [
         {
-          src: "/destination/italie/hero-1.png",
+          src: "/destination/italie/hero-1.webp",
           alt: "Collines de Toscane plantées de cyprès au lever du jour, en Italie",
         },
         {
-          src: "/destination/italie/hero-2.png",
+          src: "/destination/italie/hero-2.webp",
           alt: "Palais du Grand Canal et gondole amarrée au petit matin à Venise",
         },
         {
-          src: "/destination/italie/hero-3.png",
+          src: "/destination/italie/hero-3.webp",
           alt: "Sommets des Dolomites au-dessus des prés du Trentin en fin de journée",
         },
       ],
@@ -80,7 +80,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/italie/full-image.png",
+        src: "/destination/italie/full-image.webp",
         alt: "Route bordée de cyprès dans le Val d'Orcia, au cœur de la Toscane, en Italie",
       },
       height: 600,
@@ -98,11 +98,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/italie/split-1.png",
+          src: "/destination/italie/split-1.webp",
           alt: "Table dressée sous une treille dans un domaine viticole du Chianti",
         },
         {
-          src: "/destination/italie/split-2.png",
+          src: "/destination/italie/split-2.webp",
           alt: "Tajarin à la truffe blanche servis dans une trattoria du Piémont",
         },
       ],
@@ -112,11 +112,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/italie/xp-corridor-vasari-1.png",
+          src: "/destination/italie/xp-corridor-vasari-1.webp",
           alt: "Enfilade du Corridor de Vasari éclairée en fin de journée à Florence",
         },
         right: {
-          src: "/destination/italie/xp-corridor-vasari-2.png",
+          src: "/destination/italie/xp-corridor-vasari-2.webp",
           alt: "Fenêtre du Corridor de Vasari ouverte sur l'Arno et le Ponte Vecchio",
         },
       },
@@ -233,12 +233,12 @@ export const destination: Destination = {
         image: {
           src: `/destination/italie/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure en Italie",
-            "Ruelle de Florence aux volets clos en début de matinée",
+            "Ruelle pavée de Florence aux volets clos en début de matinée",
             "Terrasse d'une villa toscane ouverte sur les collines",
-            "Concierge organisant un transfert privé en Italie",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Déjeuner dressé dans un vignoble du Chianti",
           ][i],
         },
@@ -260,8 +260,8 @@ export const destination: Destination = {
           description:
             "Les ateliers de l'Oltrarno ouvrent sur la rue dès le matin, et les grandes places se traversent en quelques minutes. En fin de journée, on monte à San Miniato al Monte pour voir les toits passer au rose.",
           image: {
-            src: "/destination/italie/map-florence.png",
-            alt: "Toits de Florence et clochers vus depuis San Miniato al Monte",
+            src: "/destination/italie/map-florence.webp",
+            alt: "Toits de Florence et coupole du Duomo vus depuis San Miniato al Monte",
           },
           coordinates: { lat: 43.7696, lng: 11.2558 }, // TODO: verify coords
         },
@@ -270,7 +270,7 @@ export const destination: Destination = {
           description:
             "Derrière les quais, les ruelles débouchent sur de petites places où il n'y a personne. Murano et Burano se rejoignent en bateau privé, et la ville redevient calme dès que les excursions repartent.",
           image: {
-            src: "/destination/italie/map-venise.png",
+            src: "/destination/italie/map-venise.webp",
             alt: "Grand Canal de Venise et ses palais vus depuis l'eau",
           },
           coordinates: { lat: 45.4408, lng: 12.3155 }, // TODO: verify coords
@@ -280,8 +280,8 @@ export const destination: Destination = {
           description:
             "Les collines s'enchaînent en courbes régulières, coupées de routes blanches bordées de cyprès. Montalcino domine le domaine du Brunello, et les villages voisins se visitent en fin de journée, quand la lumière descend.",
           image: {
-            src: "/destination/italie/map-val-orcia.png",
-            alt: "Collines du Val d'Orcia et village de Montalcino en Toscane",
+            src: "/destination/italie/map-val-orcia.webp",
+            alt: "Ferme et rangée de cyprès sur les collines du Val d'Orcia",
           },
           coordinates: { lat: 43.0464, lng: 11.4899 }, // TODO: verify coords
         },
@@ -290,8 +290,8 @@ export const destination: Destination = {
           description:
             "La montagne se dresse d'un seul mouvement au-dessus des prés, en parois claires qui rosissent le soir. Les sentiers partent des villages, et les refuges servent à déjeuner en pleine altitude.",
           image: {
-            src: "/destination/italie/map-dolomites.png",
-            alt: "Parois des Dolomites au-dessus de la vallée de Cortina d'Ampezzo",
+            src: "/destination/italie/map-dolomites.webp",
+            alt: "Massif de la Tofana au-dessus de la vallée de Cortina d'Ampezzo",
           },
           coordinates: { lat: 46.5405, lng: 12.1357 }, // TODO: verify coords
         },
@@ -300,8 +300,8 @@ export const destination: Destination = {
           description:
             "Les rues pavées, les maisons et les fresques sont restées en place, sous le regard du volcan qui les a couvertes. Le site est immense, et il se vide complètement en fin d'après-midi.",
           image: {
-            src: "/destination/italie/map-pompei.png",
-            alt: "Rue pavée de Pompéi avec le Vésuve à l'arrière-plan",
+            src: "/destination/italie/map-pompei.webp",
+            alt: "Murs antiques de Pompéi et le Vésuve à l'horizon",
           },
           coordinates: { lat: 40.7497, lng: 14.4869 }, // TODO: verify coords
         },
@@ -310,7 +310,7 @@ export const destination: Destination = {
           description:
             "Le Piémont aligne ses coteaux en pentes douces, ceux du Barolo et du Barbaresco. Alba s'anime à l'automne, et le village se remplit dès que la saison commence.",
           image: {
-            src: "/destination/italie/map-langhe.png",
+            src: "/destination/italie/map-langhe.webp",
             alt: "Vignobles en collines des Langhe autour d'Alba dans le Piémont",
           },
           coordinates: { lat: 44.7009, lng: 8.0357 }, // TODO: verify coords
@@ -530,7 +530,7 @@ export const destination: Destination = {
           quote:
             "Nous avons traversé le Corridor de Vasari tous les deux, avec un historien, à l'heure où Florence commençait à s'éclairer. Nos petits-enfants ont eu droit au récit complet au retour. Ils réclament l'Italie pour l'an prochain.",
           image: {
-            src: "/destination/italie/hero-1.png",
+            src: "/destination/italie/hero-1.webp",
             alt: "Portrait de Bernard", // TODO: verify
           },
           name: "Bernard", // TODO: verify
@@ -541,7 +541,7 @@ export const destination: Destination = {
           quote:
             "Trois enfants, trois régions, et pas une journée de trop. Le four du verrier à Murano les a occupés une matinée entière, ce que je n'aurais jamais obtenu dans un musée.",
           image: {
-            src: "/destination/italie/hero-2.png",
+            src: "/destination/italie/hero-2.webp",
             alt: "Portrait de Constance", // TODO: verify
           },
           name: "Constance", // TODO: verify
@@ -552,7 +552,7 @@ export const destination: Destination = {
           quote:
             "Pompéi après la fermeture, avec l'archéologue qui fouille sur place. Nous étions six dans les rues, et personne d'autre. C'est exactement ce que je ne savais pas comment organiser moi-même.",
           image: {
-            src: "/destination/italie/hero-3.png",
+            src: "/destination/italie/hero-3.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify
