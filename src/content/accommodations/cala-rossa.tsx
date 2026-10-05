@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Une villa familiale les pieds dans l'eau, jardin de pins parasols et plage privée.",
   keywords: ["cala rossa", "corse", "porto vecchio", "plage privee", "pins parasols"],
   heroImage: {
-    src: "/destination/corse/hotel-cala-rossa.png",
-    alt: "Plage privée et pins parasols du Grand Hôtel de Cala Rossa",
+    src: "/destination/corse/hotel-cala-rossa.webp",
+    alt: "Terrasse du restaurant du Grand Hôtel de Cala Rossa sous les pins, face à la baie",
   },
   destinationSlugs: ["corse"],
   sections: [],

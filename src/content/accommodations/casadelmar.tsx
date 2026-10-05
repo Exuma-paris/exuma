@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Un palace contemporain face au golfe de Porto-Vecchio, terrasses suspendues et table étoilée.",
   keywords: ["casadelmar", "porto vecchio", "corse", "palace", "etoile"],
   heroImage: {
-    src: "/destination/corse/hotel-casadelmar.png",
-    alt: "Architecture contemporaine du Casadelmar face au golfe",
+    src: "/destination/corse/hotel-casadelmar.webp",
+    alt: "Chambre ouverte sur la terrasse et le golfe de Porto-Vecchio au Casadelmar",
   },
   destinationSlugs: ["corse"],
   sections: [],
