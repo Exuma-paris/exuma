@@ -52,4 +52,5 @@ Les portraits des témoignages réutilisent `hero-1.png`, `hero-2.png` et `hero-
 | `bento-map.webp` | | Carte vectorielle Natural Earth (`geo/build-bento-map.mjs`) | https://www.naturalearthdata.com | Domaine public |
 | héros, `full-image`, `xp-*`, `hotel-castiglion-del-bosco` | | Images IA existantes (voir tableau ci-dessus), converties en webp et désaturées ; originaux dans `archives/` | | Image IA |
 | `hotel-lefay-dolomiti.webp` | | Photo existante (jpg), redimensionnée ; origine à confirmer | | **Autorisation d'usage à obtenir** |
-| `hotel-aman-venice.webp` | | **À fournir** : photo officielle | | Autorisation d'usage à obtenir |
+| `hotel-aman-venice.webp` | `hotel-aman-venice-ref.jpg` | Suite Tiepolo, photo officielle transmise par Thea (via Vanity Fair Italia) ; recadrage et étalonnage local | https://media-assets.vanityfair.it | **Autorisation d'usage à obtenir** auprès d'Aman |
+| `hotel-castiglion-del-bosco.webp` (v2) | `hotel-castiglion-del-bosco-ref.jpg` | Vue aérienne du domaine, photo transmise par Thea (TripAdvisor, 900×500, agrandie) ; remplace l'image IA qui portait la mention « Rosewood Hotel » | https://www.tripadvisor.com | **Autorisation d'usage à obtenir** auprès de Rosewood |

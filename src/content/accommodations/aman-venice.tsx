@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["italie", "venise", "grand canal", "aman", "palazzo papadopoli"],
   heroImage: {
     src: "/destination/italie/hotel-aman-venice.webp",
-    alt: "Salon aux plafonds peints de l'Aman Venice ouvert sur le Grand Canal",
+    alt: "Suite Tiepolo de l'Aman Venice, lit blanc sous un plafond peint et doré",
   },
   destinationSlugs: ["italie"],
   sections: [],

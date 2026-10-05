@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["italie", "toscane", "montalcino", "val d'orcia", "brunello"],
   heroImage: {
     src: "/destination/italie/hotel-castiglion-del-bosco.webp",
-    alt: "Hameau de pierre du Rosewood Castiglion del Bosco au milieu des collines toscanes",
+    alt: "Hameau de pierre et piscine du Rosewood Castiglion del Bosco entre les cyprès du Val d'Orcia",
   },
   destinationSlugs: ["italie"],
   sections: [],
