@@ -15,7 +15,7 @@ export const continent: Continent = {
         "Trois heures de vol séparent Paris de Reykjavík, deux heures et demie des Lofoten, une heure et demie d'Ajaccio. C'est le seul continent où l'on change complètement de paysage sans que le trajet mange le voyage.",
       images: [
         {
-          src: "/destination/corse/hero-2.png",
+          src: "/destination/corse/hero-2.webp",
           alt: "Plage de Palombaggia bordée de pins parasols au lever du jour",
         },
         {
