@@ -31,16 +31,16 @@ export const destination: Destination = {
         "Vingt arrondissements, des dizaines de quartiers, des heures qu'aucune carte ne montre. Du Marais aux Batignolles, de Saint-Germain à la Petite Ceinture, chaque rue garde son rythme. Nous construisons un séjour autour de portes que les autres ne franchissent pas.",
       images: [
         {
-          src: "/destination/paris/hero-1.png",
-          alt: "Vue depuis les toits de Paris au lever du soleil",
+          src: "/destination/paris/hero-1.webp",
+          alt: "La tour Eiffel au-dessus de la Seine et de ses péniches, en fin de journée",
         },
         {
-          src: "/destination/paris/hero-2.png",
+          src: "/destination/paris/hero-2.webp",
           alt: "Bouquinistes des quais de Seine en fin d'après-midi",
         },
         {
-          src: "/destination/paris/hero-3.png",
-          alt: "Cour intérieure d'un hôtel particulier du Marais",
+          src: "/destination/paris/hero-3.webp",
+          alt: "Les fontaines de la cour Napoléon et le palais du Louvre",
         },
       ],
     },
@@ -95,8 +95,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/paris/full-image.png",
-        alt: "Vue aérienne de Paris avec la Seine et les ponts au crépuscule",
+        src: "/destination/paris/full-image.webp",
+        alt: "Le Sacré-Cœur et le carrousel de Montmartre au coucher du soleil",
       },
       height: 600,
     },
@@ -113,12 +113,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/paris/split-1.png",
-          alt: "Verrière du passage des Panoramas en fin d'après-midi",
+          src: "/destination/paris/split-1.webp",
+          alt: "L’allée intérieure du passage du Grand-Cerf, sa verrière et ses fanions",
         },
         {
-          src: "/destination/paris/split-2.png",
-          alt: "Devanture d'un libraire ancien dans le passage Choiseul",
+          src: "/destination/paris/split-2.webp",
+          alt: "Terrasse d’un bar à vin à l’entrée du passage du Grand-Cerf, à la tombée du jour",
         },
       ],
     },
@@ -127,12 +127,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/paris/bouquiniste.png",
-          alt: "Bouquiniste sur le quai de Conti devant ses caisses vertes",
+          src: "/destination/paris/bouquiniste.webp",
+          alt: "Boîtes vertes des bouquinistes sur les quais de Seine",
         },
         right: {
-          src: "/destination/paris/ebeniste.png",
-          alt: "Ébéniste plaquant un secrétaire dans son atelier du Faubourg Saint-Antoine",
+          src: "/destination/paris/ebeniste.webp",
+          alt: "Ébéniste posant un placage sur un secrétaire dans son atelier",
         },
       },
       text: {
@@ -234,7 +234,7 @@ export const destination: Destination = {
           description:
             "Du Marais aux Batignolles, dans quel ordre, à quelle heure. Une cohérence qui tient compte des fermetures, des marchés, et de la lumière.",
           image: {
-            src: "/destination/paris/bento-itineraire.png",
+            src: "/destination/paris/bento-itineraire.webp",
             alt: "Carte d'itinéraire personnalisé dans Paris",
           },
           tone: "dark",
@@ -244,7 +244,7 @@ export const destination: Destination = {
           description:
             "Cantines fermées au public, ateliers d'artisans, libraires sans devanture, terrasses qu'on ne trouve pas en ligne.",
           image: {
-            src: "/destination/paris/bento-adresses.png",
+            src: "/destination/paris/bento-adresses.webp",
             alt: "Devanture discrète d'un atelier rue de Charonne",
           },
         },
@@ -253,7 +253,7 @@ export const destination: Destination = {
           description:
             "Du palace de la rue du Faubourg à la maison de famille de douze chambres rive gauche, en passant par les hôtels particuliers du Marais.",
           image: {
-            src: "/destination/paris/bento-hebergement.png",
+            src: "/destination/paris/bento-hebergement.webp",
             alt: "Cour intérieure d'un hôtel particulier parisien",
           },
         },
@@ -262,8 +262,8 @@ export const destination: Destination = {
           description:
             "Réservations de dernière minute, transferts privés, accès rapide à l'Opéra Garnier ou aux ventes Drouot.",
           image: {
-            src: "/destination/paris/bento-conciergerie.png",
-            alt: "Foyer de l'Opéra Garnier",
+            src: "/destination/paris/bento-conciergerie.webp",
+            alt: "Conseillère Exuma souriante, casque sur les oreilles",
           },
         },
         {
@@ -271,8 +271,8 @@ export const destination: Destination = {
           description:
             "Visite privée des coulisses de l'Opéra. Atelier d'un brodeur de la Maison Lesage. Sourcing à Rungis avec un chef étoilé.",
           image: {
-            src: "/destination/paris/bento-experience.png",
-            alt: "Brodeuse au métier dans l'atelier Lesage",
+            src: "/destination/paris/bento-experience.webp",
+            alt: "Mains d'une brodeuse au métier, perles et fil doré",
           },
         },
       ],
@@ -293,7 +293,7 @@ export const destination: Destination = {
           description:
             "Médiéval et juif, gay et BCBG, hôtels particuliers et galeries. Le quartier où Paris a accepté tous ses mille-feuilles.",
           image: {
-            src: "/destination/paris/map-marais.png",
+            src: "/destination/paris/map-marais.webp",
             alt: "Façades du Marais place des Vosges",
           },
           coordinates: { lat: 48.857, lng: 2.358 },
@@ -303,7 +303,7 @@ export const destination: Destination = {
           description:
             "Libraires, galeristes, hôtels feutrés. Lipp, le Flore. Une rive intellectuelle qui a gardé sa lenteur.",
           image: {
-            src: "/destination/paris/map-saint-germain.png",
+            src: "/destination/paris/map-saint-germain.webp",
             alt: "Devanture du Café de Flore boulevard Saint-Germain",
           },
           coordinates: { lat: 48.853, lng: 2.334 },
@@ -313,8 +313,8 @@ export const destination: Destination = {
           description:
             "Petite île entre les deux bras de la Seine. Hôtels particuliers du XVIIe, glaces Berthillon, vue arrière sur Notre-Dame.",
           image: {
-            src: "/destination/paris/map-ile-saint-louis.png",
-            alt: "Quai de Bourbon sur l'Île Saint-Louis",
+            src: "/destination/paris/map-ile-saint-louis.webp",
+            alt: "La pointe de l'île Saint-Louis et la Seine",
           },
           coordinates: { lat: 48.852, lng: 2.357 },
         },
@@ -323,7 +323,7 @@ export const destination: Destination = {
           description:
             "Le 17e gentrifié, encore peu touristique. Marché bio le samedi, Square des Batignolles, vie de quartier intacte.",
           image: {
-            src: "/destination/paris/map-batignolles.png",
+            src: "/destination/paris/map-batignolles.webp",
             alt: "Marché des Batignolles le samedi matin",
           },
           coordinates: { lat: 48.886, lng: 2.318 },
@@ -333,8 +333,8 @@ export const destination: Destination = {
           description:
             "L'axe des palaces et de la haute couture. Élysée, ambassades, Le Bristol. L'autorité tranquille du quartier.",
           image: {
-            src: "/destination/paris/map-faubourg-saint-honore.png",
-            alt: "Façade de l'Élysée rue du Faubourg Saint-Honoré",
+            src: "/destination/paris/map-faubourg-saint-honore.webp",
+            alt: "Façades et boutiques de la rue du Faubourg-Saint-Honoré",
           },
           coordinates: { lat: 48.87, lng: 2.318 },
         },
@@ -343,8 +343,8 @@ export const destination: Destination = {
           description:
             "L'envers du Paris carte postale. Cours communautaires, ateliers, vue depuis le Parc de Belleville. Café Aux Folies.",
           image: {
-            src: "/destination/paris/map-belleville.png",
-            alt: "Vue depuis le Parc de Belleville sur les toits de Paris",
+            src: "/destination/paris/map-belleville.webp",
+            alt: "Les toits de Paris vus depuis les hauteurs de Belleville",
           },
           coordinates: { lat: 48.871, lng: 2.391 },
         },
@@ -484,7 +484,7 @@ export const destination: Destination = {
           quote:
             "Quatre jours à Paris organisés par Exuma. La visite du Louvre après fermeture, l'atelier Lesage à Aubervilliers, le déjeuner au Bristol, chaque moment était à sa juste place. On n'a pas eu une seule décision logistique à prendre.",
           image: {
-            src: "/destination/paris/hero-1.png",
+            src: "/destination/paris/hero-1.webp",
             alt: "Portrait de Sophie et Marc", // TODO: verify
           },
           name: "Sophie & Marc", // TODO: verify
@@ -495,7 +495,7 @@ export const destination: Destination = {
           quote:
             "Notre travel designer a obtenu un rendez-vous chez un ébéniste du Faubourg que je cherchais à rencontrer depuis trois ans. Une heure de conversation, une vraie. C'est ce que je viens chercher dans un voyage à Paris.",
           image: {
-            src: "/destination/paris/hero-2.png",
+            src: "/destination/paris/hero-2.webp",
             alt: "Portrait de Laurent", // TODO: verify
           },
           name: "Laurent", // TODO: verify
@@ -506,7 +506,7 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marquée, c'est la qualité du choix. Trois adresses très différentes, un palace, un hôtel quai du Louvre, un boutique rive gauche, et chacune a fait sens à son moment du séjour. Tout fluide, du premier appel jusqu'au retour.",
           image: {
-            src: "/destination/paris/hero-3.png",
+            src: "/destination/paris/hero-3.webp",
             alt: "Portrait de Claire", // TODO: verify
           },
           name: "Claire", // TODO: verify
