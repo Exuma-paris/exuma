@@ -104,7 +104,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/grece/split-2.webp",
-          alt: "Mules d'Hydra sellées de tapis colorés sur le quai pavé",
+          alt: "Mule d'Hydra sellée d'un tapis coloré sur le quai pavé, lumière du soir",
         },
       ],
     },
@@ -130,11 +130,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/grece/cyclades-voile.webp",
-          alt: "Goélette toutes voiles dehors dans les Cyclades au petit matin",
+          alt: "Goélette toutes voiles dehors entre deux îles des Cyclades",
         },
         right: {
           src: "/destination/grece/cyclades-crique.webp",
-          alt: "Crique turquoise aux roches blanches des Cyclades, voiliers au mouillage",
+          alt: "Chora de Naxos et la digue de la Portara entre deux eaux turquoise",
         },
       },
       text: {
