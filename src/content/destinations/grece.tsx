@@ -36,16 +36,16 @@ export const destination: Destination = {
         "Six mille îles, un peu plus de deux cents habitées. Athènes, Delphes, le Péloponnèse, les Cyclades : chaque étape répond à une autre, et l'ordre dans lequel on les traverse change le récit. Nous composons cet enchaînement depuis plus de dix ans.",
       images: [
         {
-          src: "/destination/grece/hero-1.png",
+          src: "/destination/grece/hero-1.webp",
           alt: "Village blanc aux dômes bleus surplombant la mer Égée en Grèce",
         },
         {
-          src: "/destination/grece/hero-2.png",
-          alt: "Colonnes du Parthénon sur l'Acropole d'Athènes au lever du jour",
+          src: "/destination/grece/hero-2.webp",
+          alt: "Colonnes du Parthénon au-dessus des fleurs jaunes, lumière dorée du soir",
         },
         {
-          src: "/destination/grece/hero-3.png",
-          alt: "Goélette au mouillage dans une crique des Cyclades",
+          src: "/destination/grece/hero-3.webp",
+          alt: "Goélette au mouillage dans une crique turquoise sous des falaises dorées",
         },
       ],
     },
@@ -81,7 +81,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/grece/full-image.png",
+        src: "/destination/grece/full-image.webp",
         alt: "Caldeira de Santorin au coucher du soleil, mer Égée, Grèce",
       },
       height: 600,
@@ -99,12 +99,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/grece/split-1.png",
+          src: "/destination/grece/split-1.webp",
           alt: "Port en fer à cheval d'Hydra bordé de maisons de pierre",
         },
         {
-          src: "/destination/grece/split-2.png",
-          alt: "Ruelle pavée d'Hydra à flanc de colline au coucher du soleil",
+          src: "/destination/grece/split-2.webp",
+          alt: "Façade blanchie à la chaux et volets gris dans une ruelle d'Hydra",
         },
       ],
     },
@@ -129,12 +129,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/grece/cyclades-voile.png",
+          src: "/destination/grece/cyclades-voile.webp",
           alt: "Goélette toutes voiles dehors dans les Cyclades au petit matin",
         },
         right: {
-          src: "/destination/grece/cyclades-crique.png",
-          alt: "Crique turquoise déserte des Cyclades vue du pont d'un bateau",
+          src: "/destination/grece/cyclades-crique.webp",
+          alt: "Crique turquoise aux roches blanches des Cyclades, voiliers au mouillage",
         },
       },
       text: {
@@ -230,12 +230,12 @@ export const destination: Destination = {
         image: {
           src: `/destination/grece/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure en Grèce",
             "Ruelle d'un village des Cyclades aux volets bleus",
             "Suite troglodyte face à la caldeira de Santorin",
-            "Concierge coordonnant un transfert privé en Grèce",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Table dressée face à la mer Égée au crépuscule",
           ][i],
         },
@@ -257,7 +257,7 @@ export const destination: Destination = {
           description:
             "Le Parthénon domine la ville depuis vingt-cinq siècles. Le musée de l'Acropole, en contrebas, montre ce que le rocher a perdu. À voir tôt, avant la chaleur.",
           image: {
-            src: "/destination/grece/map-athenes.png",
+            src: "/destination/grece/map-athenes.webp",
             alt: "Le Parthénon de l'Acropole d'Athènes dominant la ville",
           },
           coordinates: { lat: 37.9715, lng: 23.7267 }, // TODO: verify coords
@@ -267,8 +267,8 @@ export const destination: Destination = {
           description:
             "Le sanctuaire d'Apollon s'accroche aux pentes du Parnasse, face à la vallée d'oliviers d'Amfissa. L'oracle y parlait au nom du dieu. La route depuis Athènes vaut le détour.",
           image: {
-            src: "/destination/grece/map-delphes.png",
-            alt: "Ruines du sanctuaire d'Apollon à Delphes sur les pentes du Parnasse",
+            src: "/destination/grece/map-delphes.webp",
+            alt: "Tholos du sanctuaire d'Athéna Pronaia à Delphes, au pied du Parnasse",
           },
           coordinates: { lat: 38.4824, lng: 22.501 }, // TODO: verify coords
         },
@@ -277,7 +277,7 @@ export const destination: Destination = {
           description:
             "Première capitale de la Grèce moderne, au pied de la forteresse de Palamède. Ruelles vénitiennes, escaliers de pierre, port au fond du golfe d'Argolide. Base idéale pour le Péloponnèse.",
           image: {
-            src: "/destination/grece/map-nauplie.png",
+            src: "/destination/grece/map-nauplie.webp",
             alt: "Vieille ville de Nauplie et forteresse de Palamède au bord du golfe",
           },
           coordinates: { lat: 37.5679, lng: 22.8081 }, // TODO: verify coords
@@ -287,7 +287,7 @@ export const destination: Destination = {
           description:
             "Une île née d'une éruption, ourlée d'une falaise noire de trois cents mètres. Oia au nord, les vignes en couronne à l'intérieur. Spectaculaire, et donc à apprivoiser aux bonnes heures.",
           image: {
-            src: "/destination/grece/map-santorin.png",
+            src: "/destination/grece/map-santorin.webp",
             alt: "Village d'Oia accroché à la caldeira de Santorin",
           },
           coordinates: { lat: 36.4618, lng: 25.3753 }, // TODO: verify coords
@@ -297,7 +297,7 @@ export const destination: Destination = {
           description:
             "Aucune voiture, seulement des mules et des barques. Un port en fer à cheval bordé de maisons de capitaines. Une heure et demie d'Athènes, et un autre rythme.",
           image: {
-            src: "/destination/grece/map-hydra.png",
+            src: "/destination/grece/map-hydra.webp",
             alt: "Port d'Hydra bordé de maisons de pierre grises",
           },
           coordinates: { lat: 37.3492, lng: 23.4667 }, // TODO: verify coords
@@ -307,7 +307,7 @@ export const destination: Destination = {
           description:
             "L'île de la Vénus du Louvre, ceinturée de criques que la lave a sculptées. Sarakiniko et ses roches blanches lunaires, Kleftiko accessible seulement par la mer. Encore préservée.",
           image: {
-            src: "/destination/grece/map-milos.png",
+            src: "/destination/grece/map-milos.webp",
             alt: "Roches blanches lunaires de Sarakiniko sur l'île de Milos",
           },
           coordinates: { lat: 36.742, lng: 24.436 }, // TODO: verify coords
@@ -525,7 +525,7 @@ export const destination: Destination = {
           quote:
             "Notre voyage en Grèce a mêlé l'histoire et la mer sans jamais courir. L'Acropole avant l'ouverture, une journée de navigation dans les Cyclades, et ce dîner chez un vigneron de Santorin. Tout s'enchaînait naturellement.",
           image: {
-            src: "/destination/grece/hero-1.png",
+            src: "/destination/grece/hero-1.webp",
             alt: "Portrait de Bernard et Michèle", // TODO: verify
           },
           name: "Bernard & Michèle", // TODO: verify
@@ -536,7 +536,7 @@ export const destination: Destination = {
           quote:
             "Le Péloponnèse a été la révélation du séjour. Épidaure au lever du jour, Nauplie le soir, presque personne. Notre travel designer avait tout ordonné pour que rien ne se croise.",
           image: {
-            src: "/destination/grece/hero-2.png",
+            src: "/destination/grece/hero-2.webp",
             alt: "Portrait d'Édouard", // TODO: verify
           },
           name: "Édouard", // TODO: verify
@@ -547,7 +547,7 @@ export const destination: Destination = {
           quote:
             "La croisière privée dans les Cyclades restera le souvenir marquant. On lève l'ancre avant tout le monde, on nage dans une crique déserte, on déjeune à bord. Un rythme qu'on n'aurait jamais trouvé seuls.",
           image: {
-            src: "/destination/grece/hero-3.png",
+            src: "/destination/grece/hero-3.webp",
             alt: "Portrait de Claire", // TODO: verify
           },
           name: "Claire", // TODO: verify
