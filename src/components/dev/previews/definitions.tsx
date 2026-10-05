@@ -404,7 +404,7 @@ export const definitions: PreviewDefinition[] = [
             },
             {
               image: {
-                src: "/destination/corse/hero-2.png",
+                src: "/destination/corse/hero-2.webp",
                 alt: "Plage de Palombaggia, Corse-du-Sud",
               },
             },
