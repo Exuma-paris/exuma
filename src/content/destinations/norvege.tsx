@@ -169,8 +169,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements en Norvège",
       heading: "Où séjourner",
       description:
-        "Une maison au bout de la route dans les Lofoten, neuf chambres de verre dans une gorge du Sunnmøre. Deux adresses, deux Norvège, tenues l'une et l'autre par leurs propriétaires.",
-      slugs: ["holmen-lofoten", "juvet-landskapshotell"],
+        "Une maison au bout de la route dans les Lofoten, des chambres de verre dans une gorge du Sunnmøre, un hôtel de bois de 1891 au fond du Norangsfjord. Trois adresses, trois Norvège, tenues chacune par leurs propriétaires.",
+      slugs: ["holmen-lofoten", "juvet-landskapshotell", "union-oye"],
     },
 
     {
