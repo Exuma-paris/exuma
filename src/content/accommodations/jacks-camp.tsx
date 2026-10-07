@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["botswana", "makgadikgadi", "kalahari", "salines", "suricates"],
   heroImage: {
     src: "/destination/botswana/hotel-jacks-camp.webp",
-    alt: "Tente de toile verte de Jack's Camp en bordure des salines du Makgadikgadi",
+    alt: "Tente de toile de Jack's Camp sous les palmiers, en bordure des salines du Makgadikgadi",
   },
   destinationSlugs: ["botswana"],
   sections: [],

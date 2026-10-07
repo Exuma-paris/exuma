@@ -14,7 +14,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/botswana/xp-safari-nocturne.webp",
-    alt: "Faisceau d'un projecteur à filtre rouge balayant la bordure des pans du Makgadikgadi de nuit",
+    alt: "Véhicule de safari prêt pour la sortie de nuit, au crépuscule sur le Makgadikgadi",
   },
   destinationSlugs: ["botswana"],
   sections: [],

@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["botswana", "makgadikgadi", "bushmen san", "kalahari", "marche"],
   heroImage: {
     src: "/destination/botswana/xp-marche-san.webp",
-    alt: "Guides Bushmen San montrant une trace au sol en bordure des pans du Makgadikgadi",
+    alt: "Guides Bushmen San marchant en file sur le sel du Makgadikgadi au soleil couchant",
   },
   destinationSlugs: ["botswana"],
   sections: [],

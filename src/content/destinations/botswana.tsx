@@ -40,11 +40,11 @@ export const destination: Destination = {
         },
         {
           src: "/destination/botswana/hero-2.webp",
-          alt: "Éléphants traversant un bras d'eau peu profond dans la réserve de Moremi",
+          alt: "Éléphant et son petit dans un bras d'eau du delta de l'Okavango",
         },
         {
           src: "/destination/botswana/hero-3.webp",
-          alt: "Horizon plat et blanc des salines du Makgadikgadi en fin de saison sèche",
+          alt: "Baobabs de Baines au bord du pan blanc de Nxai, en saison sèche",
         },
       ],
     },
@@ -82,7 +82,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/botswana/full-image.webp",
-        alt: "Bras d'eau et îles boisées du delta de l'Okavango vus d'avion léger, voyage au Botswana",
+        alt: "Troupeau d'éléphants traversant un bras d'eau du delta de l'Okavango, vu d'avion léger",
       },
       height: 600,
     },
@@ -106,7 +106,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/botswana/split-2.webp",
-          alt: "Hyène brune saisie dans le faisceau d'un projecteur à filtre rouge en bordure du pan",
+          alt: "Léopard couché dans les herbes, éclairé par le projecteur d'un safari de nuit",
         },
       ],
     },
@@ -116,11 +116,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/botswana/xp-suricates-1.webp",
-          alt: "Sentinelle suricate dressée à la sortie de son terrier sur les pans du Makgadikgadi",
+          alt: "Famille de suricates serrée sur son terrier dans les herbes du Makgadikgadi",
         },
         right: {
           src: "/destination/botswana/xp-suricates-2.webp",
-          alt: "Clan de suricates face au soleil levant dans le sel du Makgadikgadi",
+          alt: "Sentinelle suricate dressée sur ses pattes arrière au petit matin",
         },
       },
       text: {
@@ -235,7 +235,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure au Botswana entre l'Okavango, Moremi et le Makgadikgadi",
             "Adresses confidentielles au Botswana : camps privés et concessions fermées",
             "Hébergements au Botswana : Eagle Island Lodge et Jack's Camp",
-            "Conciergerie privée 24/7 pour un voyage au Botswana",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Expériences immersives au Botswana : mokoro, suricates et safari nocturne",
           ][i],
         },
@@ -269,7 +269,7 @@ export const destination: Destination = {
             "Moremi a été créée en 1963 à l'initiative des BaTawana. C'est le premier cas de réserve africaine voulue par une population locale. La Gomoti traverse son secteur sud-est et reste en eau toute l'année.", // TODO: verify date et antériorité de Moremi
           image: {
             src: "/destination/botswana/map-moremi-gomoti.webp",
-            alt: "Berges de la rivière Gomoti bordées de palmiers dans le sud-est de la réserve de Moremi",
+            alt: "Impala au bord d'un point d'eau dans la réserve de Moremi",
           },
           // TODO: verify coords
           coordinates: { lat: -19.55, lng: 23.55 },
@@ -280,7 +280,7 @@ export const destination: Destination = {
             "Les pans de Ntwetwe et de Sua occupent le lit d'un lac disparu, sur près de 12 000 km². Rien n'y pousse en saison sèche. L'horizon y paraît même légèrement courbe.", // TODO: verify surface des pans
           image: {
             src: "/destination/botswana/map-makgadikgadi.webp",
-            alt: "Croûte de sel craquelée des pans de Ntwetwe au Makgadikgadi, Botswana",
+            alt: "Étendue blanche et plate des pans de sel du Makgadikgadi",
           },
           // TODO: verify coords
           coordinates: { lat: -20.5, lng: 25.3 },
@@ -656,9 +656,9 @@ export const destination: Destination = {
       eyebrow: "Inspirations",
       heading: "Destinations similaires",
       description:
-        "Le même continent, deux autres grammaires de safari. La migration du Serengeti d'un côté, les plaines du Masaï Mara de l'autre. Deux prolongements possibles après un premier voyage en Afrique australe.",
+        "Le même continent, trois autres grammaires de safari. Le Cap et les réserves privées du Sabi Sands au sud, la migration du Serengeti et les plaines du Masaï Mara à l'est.",
       // TODO: ajouter "namibie" dès que la page existe (le rendu filtre les slugs inconnus).
-      slugs: ["tanzanie", "kenya"],
+      slugs: ["afrique-du-sud", "tanzanie", "kenya"],
     },
   ],
 };

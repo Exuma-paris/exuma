@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["botswana", "okavango", "delta", "mokoro", "bateau"],
   heroImage: {
     src: "/destination/botswana/xp-canaux-okavango.webp",
-    alt: "Bateau à moteur remontant un canal bordé de papyrus dans le delta de l'Okavango",
+    alt: "Bateau à auvent remontant un canal bordé de papyrus dans le delta de l'Okavango",
   },
   destinationSlugs: ["botswana"],
   sections: [],
