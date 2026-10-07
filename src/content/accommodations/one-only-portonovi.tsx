@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Au fond de la baie de Boka, entre les Alpes dinariques et une eau presque toujours calme. Le spa Chenot occupe cinq niveaux creusés dans la colline. La marina reçoit les yachts directement sous les chambres.", // TODO: verify spa detail
   keywords: ["montenegro", "portonovi", "boka", "one-and-only", "spa"],
   heroImage: {
-    src: "/destination/montenegro/hotel-one-only-portonovi.png",
-    alt: "Marina et façade du One&Only Portonovi dans la baie de Boka",
+    src: "/destination/montenegro/hotel-one-only-portonovi.webp",
+    alt: "Salon d'une villa du One&Only Portonovi ouvert sur la piscine et la baie de Boka",
   },
   destinationSlugs: ["montenegro"],
   sections: [],

@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Au-dessus du Durmitor, l'hélicoptère suit la rivière Tara jusqu'au canyon qui creuse plus de 1 300 mètres sous le plateau. On se pose ensuite sur un balcon rocheux qu'aucune route n'atteint.", // TODO: verify canyon depth
   keywords: ["montenegro", "tara", "durmitor", "helicoptere", "canyon"],
   heroImage: {
-    src: "/destination/montenegro/xp-helico-tara.png",
-    alt: "Hélicoptère survolant le canyon de la Tara au Monténégro",
+    src: "/destination/montenegro/xp-helico-tara.webp",
+    alt: "Hélicoptère sous le pont de Đurđevića Tara, dans le canyon de la Tara",
   },
   destinationSlugs: ["montenegro"],
   sections: [],
