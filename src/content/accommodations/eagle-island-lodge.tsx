@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["botswana", "okavango", "xaxaba", "belmond", "delta"],
   heroImage: {
     src: "/destination/botswana/hotel-eagle-island.webp",
-    alt: "Terrasse de tente et bassin privé face à la lagune, Eagle Island Lodge, delta de l'Okavango",
+    alt: "Tente sur pilotis de l'Eagle Island Lodge entre les palmiers, un éléphant au premier plan",
   },
   destinationSlugs: ["botswana"],
   sections: [],

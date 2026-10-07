@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["botswana", "okavango", "moremi", "gomoti", "natural selection"],
   heroImage: {
     src: "/destination/botswana/hotel-tawana.webp",
-    alt: "Suite ouverte de Tawana surplombant la rivière Gomoti, sud-est de Moremi",
+    alt: "Suite au toit de chaume de Tawana sur sa terrasse de bois, sud-est de Moremi",
   },
   destinationSlugs: ["botswana"],
   sections: [],

@@ -31,3 +31,21 @@ Each generated image in `public/destination/botswana/` was produced by feeding t
 | `map-maun.webp`               | `map-maun-ref.jpg`                 | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1/2/3.webp` — no separate files.
+
+## Production du 07/10/2026
+
+| Fichier | Origine | Licence |
+|---|---|---|
+| `map-okavango.webp` | Okavango Delta, Botswana4.jpg, vraie photo, étalonnage local (https://commons.wikimedia.org/wiki/File:Okavango_Delta,_Botswana4.jpg) | CC BY-SA 2.0, Joachim Huber (crédit obligatoire) |
+| `map-moremi-gomoti.webp` | Impala in Moremi Game Reserve - Botswana - panoramio.jpg, vraie photo, étalonnage local (https://commons.wikimedia.org/wiki/File:Impala_in_Moremi_Game_Reserve_-_Botswana_-_panoramio.jpg) | CC BY-SA 3.0, diego_cue (crédit obligatoire) |
+| `map-makgadikgadi.webp` | Baines Baobabs, Nxai Pan (48591737286).jpg, vraie photo, étalonnage local ; véhicules effacés par IA (https://commons.wikimedia.org/wiki/File:Baines_Baobabs,_Nxai_Pan_(48591737286).jpg) | CC BY 2.0, Fabio Achilli from Milano, Italy (crédit obligatoire) |
+| `map-nxai-pan.webp` | Baines Baobabs, Nxai Pan (48591752441).jpg, vraie photo, étalonnage local ; véhicules effacés par IA (https://commons.wikimedia.org/wiki/File:Baines_Baobabs,_Nxai_Pan_(48591752441).jpg) | CC BY 2.0, Fabio Achilli from Milano, Italy (crédit obligatoire) |
+| `map-chobe-savuti.webp` | Chobe N.P. 11.jpg, vraie photo, étalonnage local (https://commons.wikimedia.org/wiki/File:Chobe_N.P._11.jpg) | CC BY-SA 4.0, LBM1948 (crédit obligatoire) |
+| `map-maun.webp` | Cessna 182 Maun Botswana 28.jpg, vraie photo, étalonnage local (https://commons.wikimedia.org/wiki/File:Cessna_182_Maun_Botswana_28.jpg) | CC BY-SA 3.0, Graf-flugplatz (crédit obligatoire) |
+| `hero-1`, `hero-2`, `hero-3`, `full-image`, `split-2`, `xp-suricates-1`, `xp-suricates-2`, `xp-canaux-okavango`, `xp-marche-san`, `xp-safari-nocturne` | IA (Gemini) d'après les références de Thea (sites d'agences, non libres, non publiées) | Image IA |
+| `split-1`, `bento-adresses`, `bento-hebergements`, `bento-experiences` | Générées par IA (Gemini) | Image IA |
+| `hotel-eagle-island` | Photo transmise par Thea (TripAdvisor) | **Autorisation d'usage à obtenir** (Belmond) |
+| `hotel-tawana` | Photo transmise par Thea (lesplusbeauxhotelsdumonde.com) | **Autorisation d'usage à obtenir** |
+| `hotel-jacks-camp` | Photo transmise par Thea (news.com.au) | **Autorisation d'usage à obtenir** |
+| `bento-map` | Carte vectorielle Natural Earth | Domaine public |
+| `bento-conciergerie` | Photo d'équipe Exuma habituelle | Interne |
