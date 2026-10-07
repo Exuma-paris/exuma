@@ -1,6 +1,6 @@
 import { Header } from "@/components/sections/header";
 import type { Destination } from "@/lib/content/types";
-import { withDestinationContext } from "@/lib/contact/project-link";
+import { PROJECT_PATH, withDestinationContext } from "@/lib/contact/project-link";
 import { applyBackgroundRhythm } from "@/lib/content/background-rhythm";
 import { destinationJsonLdScripts } from "@/lib/destination/seo";
 import { renderSection } from "./render-section";
@@ -10,8 +10,15 @@ export function DestinationPage({ destination }: { destination: Destination }) {
   // eux, pour que le formulaire s'ouvre déjà rempli.
   // Les infos pratiques passent en gris foncé : c'est la respiration du
   // milieu de page, au même endroit sur toutes les destinations.
+  // Chaque bloc d'expériences se termine par « Créer votre voyage » : c'est
+  // là que le lecteur se décide, sur toutes les destinations.
+  const withExperienceCta = destination.sections.map((section) =>
+    section.type === "entityList" && section.kind === "experience"
+      ? { ...section, cta: { label: "Créer votre voyage", href: PROJECT_PATH } }
+      : section,
+  );
   const sections = applyBackgroundRhythm(
-    withDestinationContext(destination.sections, destination.slug),
+    withDestinationContext(withExperienceCta, destination.slug),
     { dark: ["infoGrid"] },
   );
   const [hero, ...rest] = sections;

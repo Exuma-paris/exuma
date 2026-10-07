@@ -54,3 +54,5 @@ Les portraits des témoignages réutilisent `hero-1.png`, `hero-2.png` et `hero-
 | `hotel-lefay-dolomiti.webp` | | Photo existante (jpg), redimensionnée ; origine à confirmer | | **Autorisation d'usage à obtenir** |
 | `hotel-aman-venice.webp` | `hotel-aman-venice-ref.jpg` | Suite Tiepolo, photo officielle transmise par Thea (via Vanity Fair Italia) ; recadrage et étalonnage local | https://media-assets.vanityfair.it | **Autorisation d'usage à obtenir** auprès d'Aman |
 | `hotel-castiglion-del-bosco.webp` (v2) | `hotel-castiglion-del-bosco-ref.jpg` | Vue aérienne du domaine, photo transmise par Thea (TripAdvisor, 900×500, agrandie) ; remplace l'image IA qui portait la mention « Rosewood Hotel » | https://www.tripadvisor.com | **Autorisation d'usage à obtenir** auprès de Rosewood |
+
+| `xp-corridor-vasari-2.webp` (v2) | `xp-corridor-vasari-2-ref.jpg` (vignette Google, non libre, non publiée) | Enfilade d'arches, générée par IA (Gemini) d'après la référence de Thea, étalonnage chaud local | | Image IA, aucun crédit |
