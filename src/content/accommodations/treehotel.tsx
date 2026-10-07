@@ -14,8 +14,8 @@ export const accommodation: Accommodation = {
     "foret",
   ],
   heroImage: {
-    src: "/destination/suede/hotel-treehotel.png",
-    alt: "Cabane d'architecte suspendue dans les arbres au Treehotel de Harads",
+    src: "/destination/suede/hotel-treehotel.webp",
+    alt: "Suite The Oasis du Treehotel, ses murs de bois courbes et son bain chaud entre les pins de Harads",
   },
   destinationSlugs: ["suede"],
   sections: [],

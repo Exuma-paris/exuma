@@ -14,7 +14,7 @@ export const experience: Experience = {
     "kosta",
   ],
   heroImage: {
-    src: "/destination/suede/xp-atelier-verre.png",
+    src: "/destination/suede/xp-atelier-verre.webp",
     alt: "Maître verrier façonnant une pièce de cristal dans un atelier du Småland",
   },
   destinationSlugs: ["suede"],

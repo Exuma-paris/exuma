@@ -13,7 +13,7 @@ export const experience: Experience = {
     "skargarden",
   ],
   heroImage: {
-    src: "/destination/suede/xp-voile-archipel.png",
+    src: "/destination/suede/xp-voile-archipel.webp",
     alt: "Voilier privé naviguant entre les îles de l'archipel de Stockholm",
   },
   destinationSlugs: ["suede"],

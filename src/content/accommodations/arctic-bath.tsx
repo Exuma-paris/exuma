@@ -14,8 +14,8 @@ export const accommodation: Accommodation = {
     "lule",
   ],
   heroImage: {
-    src: "/destination/suede/hotel-arctic-bath.png",
-    alt: "Spa flottant Arctic Bath sur la rivière Lule en Laponie suédoise",
+    src: "/destination/suede/hotel-arctic-bath.webp",
+    alt: "Bain circulaire et cabanes de l'Arctic Bath sur la rivière Lule gelée, vus du ciel",
   },
   destinationSlugs: ["suede"],
   sections: [],

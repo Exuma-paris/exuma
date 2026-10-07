@@ -14,8 +14,8 @@ export const accommodation: Accommodation = {
     "baltique",
   ],
   heroImage: {
-    src: "/destination/suede/hotel-fabriken-furillen.png",
-    alt: "Ancienne usine de calcaire réhabilitée en hôtel sur la péninsule de Furillen, Gotland",
+    src: "/destination/suede/hotel-fabriken-furillen.webp",
+    alt: "Tour de béton de l'ancienne usine de Furillen face à la Baltique, à Gotland",
   },
   destinationSlugs: ["suede"],
   sections: [],

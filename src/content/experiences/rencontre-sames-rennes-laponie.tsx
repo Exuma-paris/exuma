@@ -13,7 +13,7 @@ export const experience: Experience = {
     "norrbotten",
   ],
   heroImage: {
-    src: "/destination/suede/xp-rennes-sames.png",
+    src: "/destination/suede/xp-rennes-sames.webp",
     alt: "Éleveur same et troupeau de rennes en Laponie suédoise",
   },
   destinationSlugs: ["suede"],

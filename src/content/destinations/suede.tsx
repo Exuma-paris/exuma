@@ -35,15 +35,15 @@ export const destination: Destination = {
         "L'archipel de Stockholm compte environ trente mille îles, îlots et rochers, entre lesquels on navigue plutôt que l'on ne circule. Mille kilomètres plus au nord, au-delà du cercle polaire, la Laponie suédoise bascule en hiver dans une nuit qui dure plusieurs semaines. Ce sont deux Suède, reliées par un seul vol intérieur.",
       images: [
         {
-          src: "/destination/suede/hero-1.png",
-          alt: "Voilier entre les îles de l'archipel de Stockholm, en Suède",
+          src: "/destination/suede/hero-1.webp",
+          alt: "Voilier au mouillage devant le village de Fjällbacka, sur la côte ouest de la Suède",
         },
         {
-          src: "/destination/suede/hero-2.png",
-          alt: "Aurores boréales au-dessus d'une cabane de Laponie suédoise",
+          src: "/destination/suede/hero-2.webp",
+          alt: "Deux voyageurs sous les aurores boréales dans une clairière enneigée de Laponie",
         },
         {
-          src: "/destination/suede/hero-3.png",
+          src: "/destination/suede/hero-3.webp",
           alt: "Rochers de calcaire de l'île de Fårö, au large de Gotland",
         },
       ],
@@ -99,8 +99,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/suede/full-image.png",
-        alt: "Vue aérienne de l'archipel de Stockholm au coucher du soleil, Suède",
+        src: "/destination/suede/full-image.webp",
+        alt: "Cabanes rouges et rochers de granit d'une île de l'archipel de Stockholm, un soir d'été",
       },
       height: 600,
     },
@@ -116,12 +116,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/suede/split-1.png",
+          src: "/destination/suede/split-1.webp",
           alt: "Remparts médiévaux de Visby sur l'île de Gotland",
         },
         {
-          src: "/destination/suede/split-2.png",
-          alt: "Ancienne carrière de calcaire et phare sur la péninsule de Furillen",
+          src: "/destination/suede/split-2.webp",
+          alt: "Colline de calcaire de l'ancienne carrière de Furillen au bord de la Baltique",
         },
       ],
     },
@@ -130,11 +130,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/suede/xp-traineau-chiens-1.png",
+          src: "/destination/suede/xp-traineau-chiens-1.webp",
           alt: "Attelage de chiens de traîneau glissant sur la neige en Laponie suédoise au crépuscule",
         },
         right: {
-          src: "/destination/suede/xp-traineau-chiens-2.png",
+          src: "/destination/suede/xp-traineau-chiens-2.webp",
           alt: "Aurores boréales vertes au-dessus d'une cabane en bois en Laponie suédoise",
         },
       },
@@ -246,12 +246,12 @@ export const destination: Destination = {
         image: {
           src: `/destination/suede/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'itinéraire personnalisé entre l'archipel de Stockholm et la Laponie suédoise",
             "Adresse confidentielle en Suède, table ou atelier d'artisan",
             "Chambre design donnant sur la forêt suédoise",
-            "Conseillère Exuma en conversation avec un voyageur",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Traîneau à chiens glissant sur la neige en Laponie suédoise",
           ][i],
         },
@@ -273,7 +273,7 @@ export const destination: Destination = {
           description:
             "La vieille ville s'étend sur une seule île entre le lac Mälar et la Baltique, avec des ruelles qui datent du treizième siècle. C'est aussi le point de départ de tous les bateaux vers l'archipel.",
           image: {
-            src: "/destination/suede/map-stockholm.png",
+            src: "/destination/suede/map-stockholm.webp",
             alt: "Ruelles pavées de Gamla Stan, la vieille ville de Stockholm",
           },
           // TODO: verify coords
@@ -284,7 +284,7 @@ export const destination: Destination = {
           description:
             "Cette petite ville fortifiée marque l'entrée de l'archipel habité, à environ une heure de bateau de Stockholm. Au-delà, les liaisons régulières s'espacent et le nombre d'îles dépasse ce qu'aucune carte ne détaille.",
           image: {
-            src: "/destination/suede/map-vaxholm.png",
+            src: "/destination/suede/map-vaxholm.webp",
             alt: "Forteresse et port de Vaxholm à l'entrée de l'archipel de Stockholm",
           },
           // TODO: verify coords
@@ -295,7 +295,7 @@ export const destination: Destination = {
           description:
             "La capitale de Gotland a gardé son enceinte fortifiée du treizième siècle, longue de plus de trois kilomètres, et figure au patrimoine mondial de l'UNESCO depuis 1995.",
           image: {
-            src: "/destination/suede/map-visby.png",
+            src: "/destination/suede/map-visby.webp",
             alt: "Remparts fortifiés de Visby sur l'île de Gotland",
           },
           // TODO: verify coords
@@ -306,7 +306,7 @@ export const destination: Destination = {
           description:
             "Séparée de Gotland par un simple bras de mer, cette île de pêcheurs a accueilli le cinéaste Ingmar Bergman pendant plus de quarante ans. Les rochers de calcaire qui bordent ses plages ne se trouvent qu'ici et sur quelques îles voisines.",
           image: {
-            src: "/destination/suede/map-faro.png",
+            src: "/destination/suede/map-faro.webp",
             alt: "Rochers de calcaire (raukar) sur une plage de l'île de Fårö",
           },
           // TODO: verify coords
@@ -317,7 +317,7 @@ export const destination: Destination = {
           description:
             "Un hôtel de glace se reconstruit ici chaque hiver depuis 1989, avec la neige et l'eau du fleuve Torne. Il fond entièrement chaque printemps et rouvre en décembre suivant.",
           image: {
-            src: "/destination/suede/map-jukkasjarvi.png",
+            src: "/destination/suede/map-jukkasjarvi.webp",
             alt: "Sculptures de glace de l'Icehotel de Jukkasjärvi en Laponie suédoise",
           },
           // TODO: verify coords
@@ -328,7 +328,7 @@ export const destination: Destination = {
           description:
             "Un village de quelques centaines d'habitants au bord du fleuve Lule, connu depuis les années 2010 pour ses cabanes d'architectes suspendues dans la forêt. On y vient pour la forêt et pour la rivière, pas pour le village lui-même.",
           image: {
-            src: "/destination/suede/map-harads.png",
+            src: "/destination/suede/map-harads.webp",
             alt: "Forêt et fleuve Lule au bord du village de Harads, Laponie suédoise",
           },
           // TODO: verify coords
@@ -550,7 +550,7 @@ export const destination: Destination = {
           quote:
             "Nous avons quitté Stockholm à l'aube, sans autre bateau à l'horizon. Le skipper a coupé le moteur près d'une île sans nom et nous avons nagé avant le petit-déjeuner. C'est ce moment-là que je raconte encore.",
           image: {
-            src: "/destination/suede/hero-1.png",
+            src: "/destination/suede/hero-1.webp",
             alt: "Portrait de Camille et Thomas", // TODO: verify
           },
           name: "Camille & Thomas", // TODO: verify
@@ -561,7 +561,7 @@ export const destination: Destination = {
           quote:
             "Le traîneau, le silence, puis les aurores la deuxième nuit alors qu'on ne les attendait plus. Notre guide a su exactement quand nous réveiller.",
           image: {
-            src: "/destination/suede/hero-2.png",
+            src: "/destination/suede/hero-2.webp",
             alt: "Portrait de Ludovic", // TODO: verify
           },
           name: "Ludovic", // TODO: verify
@@ -572,7 +572,7 @@ export const destination: Destination = {
           quote:
             "Nous avons dormi dans une usine de calcaire réhabilitée, à Gotland, sans autre lumière que celle du phare voisin. Ce n'était pas ce que j'imaginais d'un voyage en Suède, et c'est exactement pour ça que c'était juste.",
           image: {
-            src: "/destination/suede/hero-3.png",
+            src: "/destination/suede/hero-3.webp",
             alt: "Portrait de Delphine", // TODO: verify
           },
           name: "Delphine", // TODO: verify
