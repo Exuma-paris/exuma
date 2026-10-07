@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Une ancienne quinta posée au-dessus d'un méandre du Douro, avec ses vignes qui viennent jusqu'à l'eau. Le spa occupe les caves voûtées de la maison, et l'on rejoint les domaines voisins en bateau plutôt qu'en voiture.",
   keywords: ["portugal", "douro", "pinhao", "quinta", "vignoble"],
   heroImage: {
-    src: "/destination/portugal/hotel-six-senses-douro.png",
-    alt: "Piscine et terrasse du Six Senses Douro Valley au-dessus des vignes en terrasses",
+    src: "/destination/portugal/hotel-six-senses-douro.webp",
+    alt: "Quinta du Six Senses Douro Valley, ses jardins et sa piscine au milieu des vignes",
   },
   destinationSlugs: ["portugal"],
   sections: [],

@@ -7,7 +7,7 @@ export const accommodation: Accommodation = {
     "L'ancienne demeure du comte de Valença, dans le quartier de Lapa, au-dessus du Tage. Le jardin descend en terrasses jusqu'à la piscine, entre les palmiers et les jacarandas. Lisbonne commence au bas de la rue.",
   keywords: ["portugal", "lisbonne", "lapa", "palais", "jardin"],
   heroImage: {
-    src: "/destination/portugal/hotel-lapa-palace.png",
+    src: "/destination/portugal/hotel-lapa-palace.webp",
     alt: "Jardin en terrasses et piscine de l'Olissippo Lapa Palace à Lisbonne",
   },
   destinationSlugs: ["portugal"],
