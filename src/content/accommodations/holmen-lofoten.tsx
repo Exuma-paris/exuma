@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["norvege", "lofoten", "sorvagen", "holmen", "skrei"],
   heroImage: {
     src: "/destination/norvege/hotel-holmen-lofoten.webp",
-    alt: "Maison de bois de Holmen Lofoten face à la mer à Sørvågen",
+    alt: "Maisons de bois ocre de Holmen Lofoten sur leur îlot, face aux montagnes de Sørvågen",
   },
   destinationSlugs: ["norvege"],
   sections: [],
