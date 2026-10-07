@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["rome", "hassler", "trinite-des-monts", "spagna", "vue"],
   heroImage: {
     src: "/destination/rome/hotel-hassler.webp",
-    alt: "Vue depuis la terrasse de l'Hotel Hassler, Rome",
+    alt: "Terrasse de l'Hotel Hassler et clochers de la Trinité-des-Monts au coucher du soleil",
   },
   destinationSlugs: ["rome"],
   sections: [],

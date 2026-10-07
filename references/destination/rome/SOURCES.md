@@ -56,4 +56,11 @@ Each generated image in `public/destination/rome/` was produced by feeding the p
 | `xp-via-appia.webp` | | Vespa sur la Via Appia. Générée par IA (Gemini) sans référence, style reportage, étalonnage chaud local | | Image IA, aucun crédit |
 | `bento-conciergerie.webp` | | Photo d'équipe Exuma habituelle | | Interne |
 | `bento-map.webp` | | Carte vectorielle OSM (Municipio I et Vatican, `geo/build-bento-map.mjs`) | https://www.openstreetmap.org | ODbL, © contributeurs OpenStreetMap |
-| `hotel-de-russie`, `hotel-hassler`, `hotel-j-k-place` | | **À fournir** : photos officielles | | Autorisation d'usage à obtenir |
+| `hotel-de-russie.webp` | `hotel-de-russie-ref.jpg` | Jardins en terrasses, photo transmise par Thea (vignette Google 497 px, agrandie) | Rocco Forte | **Autorisation d'usage à obtenir** |
+| `hotel-j-k-place.webp` | `hotel-j-k-place-ref.jpg` | Salon, photo transmise par Thea | Booking.com (bstatic) | **Autorisation d'usage à obtenir** |
+| `hotel-hassler.webp` | `hotel-hassler-ref.webp` | Terrasse et Trinité-des-Monts, photo officielle | https://www.hotelhasslerroma.com | **Autorisation d'usage à obtenir** |
+| `hero-1.webp` (v2) | | St. Peter's Basilica (Basilica Sancti Petri) seen from St. Angelo (cropped).jpg. **Vraie photo**, étalonnage chaud local ; remplace la v1 (archives) à la demande de Thea | https://commons.wikimedia.org/wiki/File:St._Peter%27s_Basilica_(Basilica_Sancti_Petri)_seen_from_St._Angelo_(cropped).jpg | CC BY-SA 4.0, JanST (crédit obligatoire) |
+| `hero-3.webp` (v2) | | Appian Way.jpg. **Vraie photo**, étalonnage chaud local ; remplace la v1 (archives) à la demande de Thea | https://commons.wikimedia.org/wiki/File:Appian_Way.jpg | CC BY-SA 4.0, Livioandronico2013 (crédit obligatoire) |
+| `hero-1.webp` (v3) | `insp-2.jpg` (likibu.com / Fotolia, non libre, non publiée) | Toits et dômes au couchant, générée par IA (Gemini) d'après l'inspiration de Thea, étalonnage local | | Image IA, aucun crédit |
+| `hero-3.webp` (v3) | `insp-3.img` (non libre, non publiée) | Fontaine de Trevi au petit matin, générée par IA (Gemini) d'après l'inspiration de Thea | | Image IA, aucun crédit |
+| `full-image.webp` (v2) | `full-image-ref2.jpg` (romesite.fr, non libre, non publiée) | 0 Place Saint-Pierre - Vatican (2).JPG. **Vraie photo** de la même vue, recadrage et étalonnage local ; remplace le château Saint-Ange (archives) | https://commons.wikimedia.org/wiki/File:0_Place_Saint-Pierre_-_Vatican_(2).JPG | CC BY-SA 3.0, Jean-Pol GRANDMONT (crédit obligatoire) |
