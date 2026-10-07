@@ -117,7 +117,7 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/italie/xp-corridor-vasari-2.webp",
-          alt: "Fenêtre du Corridor de Vasari ouverte sur l'Arno et le Ponte Vecchio",
+          alt: "Enfilade d'arches sous le Corridor de Vasari, le long de l'Arno",
         },
       },
       text: {
