@@ -31,3 +31,17 @@ Each generated image in `public/destination/portugal/` was produced by feeding t
 | `map-algarve.png`               | `map-algarve-ref.jpg`                | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`. The specialist portrait comes from `/collaborateurs/carole.jpg`.
+
+## Reprise du 07/10/2026
+
+| Fichier | Origine | Licence |
+|---|---|---|
+| `hero-1.webp` | Monastery of São Vicente de Fora (3903814534).jpg, vraie photo de la vue demandée par Thea (réf. wixstatic, non libre) (https://commons.wikimedia.org/wiki/File:Monastery_of_S%C3%A3o_Vicente_de_Fora_(3903814534).jpg) | CC BY 2.0, Bernt Rostad from Oslo, Norway (crédit obligatoire) |
+| `hero-2.webp` | IA (Gemini) d'après `hero-2-ref.jpg` (amplitudes.com, non libre, non publiée) | Image IA |
+| `hero-3.webp`, `map-comporta.webp` | Vraies photos libres Wikimedia (Comporta, Carrasqueira) | CC BY-SA |
+| `split-2`, `xp-croisiere-douro-2`, `bento-adresses`, `bento-hebergements`, `bento-experiences` | Générées par IA (Gemini) | Image IA |
+| autres images | IA existantes, converties en webp et étalonnées, originaux dans `archives/` | Image IA |
+| `xp-ponta-da-piedade.webp` | Natural arches in Ponta da Piedade 2019-11-12-2.jpg, vraie photo (réf. dicadeportugal.com, non libre) (https://commons.wikimedia.org/wiki/File:Natural_arches_in_Ponta_da_Piedade_2019-11-12-2.jpg) | CC BY-SA 4.0, Alexey Komarov (crédit obligatoire) |
+| `xp-cheval-comporta.webp`, `xp-fado-alfama.webp` | IA (Gemini) d'après les références de Thea (vignette Google, letelegramme.fr ; non libres, non publiées) | Image IA |
+| `hotel-six-senses-douro.webp` | Vue aérienne transmise par Thea (TripAdvisor) | **Autorisation d'usage à obtenir** |
+| `hotel-sublime-comporta.webp` | Photo transmise par Thea (vignette Google 447 px, agrandie) | **Autorisation d'usage à obtenir** |

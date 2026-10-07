@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["portugal", "algarve", "lagos", "grottes", "ponta da piedade"],
   heroImage: {
     src: "/destination/portugal/xp-ponta-da-piedade.webp",
-    alt: "Arches de grès et grottes marines de la Ponta da Piedade près de Lagos",
+    alt: "Petit bateau sous les arches de grès de la Ponta da Piedade, près de Lagos",
   },
   destinationSlugs: ["portugal"],
   sections: [],

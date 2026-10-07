@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["portugal", "douro", "pinhao", "quinta", "vignoble"],
   heroImage: {
     src: "/destination/portugal/hotel-six-senses-douro.webp",
-    alt: "Piscine et terrasse du Six Senses Douro Valley au-dessus des vignes en terrasses",
+    alt: "Quinta du Six Senses Douro Valley, ses jardins et sa piscine au milieu des vignes",
   },
   destinationSlugs: ["portugal"],
   sections: [],

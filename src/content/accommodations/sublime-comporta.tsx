@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["portugal", "comporta", "alentejo", "villa", "pinede"],
   heroImage: {
     src: "/destination/portugal/hotel-sublime-comporta.webp",
-    alt: "Villa blanche et piscine privée dans la pinède du Sublime Comporta",
+    alt: "Cabanes de bois et piscine privée sous les pins parasols du Sublime Comporta",
   },
   destinationSlugs: ["portugal"],
   sections: [],

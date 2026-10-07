@@ -36,11 +36,11 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/portugal/hero-1.webp",
-          alt: "Toits d'azulejos de l'Alfama et le Tage en contrebas, à Lisbonne au Portugal",
+          alt: "Toits de l'Alfama, monastère de São Vicente de Fora et coupole du Panthéon, à Lisbonne",
         },
         {
           src: "/destination/portugal/hero-2.webp",
-          alt: "Terrasses de vignes du Douro descendant vers le fleuve au-dessus de Pinhão",
+          alt: "Quinta et sa chapelle au milieu des vignes en terrasses, au-dessus du Douro",
         },
         {
           src: "/destination/portugal/hero-3.webp",

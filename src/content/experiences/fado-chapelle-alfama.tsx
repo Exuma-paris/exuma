@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["portugal", "lisbonne", "alfama", "fado", "azulejos"],
   heroImage: {
     src: "/destination/portugal/xp-fado-alfama.webp",
-    alt: "Chanteuse de fado dans une petite salle couverte d'azulejos à Lisbonne",
+    alt: "Fadiste et guitaristes dans une petite chapelle aux azulejos de l'Alfama",
   },
   destinationSlugs: ["portugal"],
   sections: [],
