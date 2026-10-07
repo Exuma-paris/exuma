@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["rome", "j-k-place", "boutique", "monte-doro", "popolo"],
   heroImage: {
     src: "/destination/rome/hotel-j-k-place.webp",
-    alt: "Salon du J.K. Place Roma, Via di Monte d'Oro",
+    alt: "Salon du J.K. Place Roma, sol en damier et statue de marbre",
   },
   destinationSlugs: ["rome"],
   sections: [],

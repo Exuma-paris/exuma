@@ -36,7 +36,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/rome/hero-1.webp",
-          alt: "Basilique Saint-Pierre dorée par le soleil couchant, Rome",
+          alt: "Toits et dômes de Rome au coucher du soleil, le Vittoriano à l'horizon",
         },
         {
           src: "/destination/rome/hero-2.webp",
@@ -44,7 +44,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/rome/hero-3.webp",
-          alt: "Via Appia Antica, pavés antiques, tombeau et pins parasols",
+          alt: "Fontaine de Trevi au petit matin, avant l'arrivée des visiteurs",
         },
       ],
     },
@@ -81,7 +81,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/rome/full-image.webp",
-        alt: "Château Saint-Ange et les anges du Bernin sur le pont Saint-Ange",
+        alt: "Façade de la basilique Saint-Pierre et obélisque de la place Saint-Pierre",
       },
       height: 600,
     },
