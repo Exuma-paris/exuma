@@ -223,6 +223,9 @@ import { experience as reinefjordMoskenstraumen } from "@/content/experiences/re
 import { experience as skiVoileSunnmore } from "@/content/experiences/ski-voile-sunnmore";
 import { experience as ilesWestmanEldfell } from "@/content/experiences/iles-westman-eldfell";
 import { experience as kayakPaddleThorsmork } from "@/content/experiences/kayak-paddle-thorsmork";
+import { experience as auroresSuperJeepIslande } from "@/content/experiences/aurores-super-jeep-islande";
+import { experience as grotteGlaceVatnajokull } from "@/content/experiences/grotte-glace-vatnajokull";
+import { experience as lodgeAuroresIslande } from "@/content/experiences/lodge-aurores-islande";
 import { experience as observationBaleinesIslande } from "@/content/experiences/observation-baleines-islande";
 import { experience as midletonMaitreDistillateur } from "@/content/experiences/midleton-maitre-distillateur";
 import { experience as fauconnerieAshford } from "@/content/experiences/fauconnerie-ashford";
@@ -936,6 +939,9 @@ export const experiences: Record<string, Experience> = toMap([
   iguacuChutesAube,
   ilesWestmanEldfell,
   kayakPaddleThorsmork,
+  auroresSuperJeepIslande,
+  grotteGlaceVatnajokull,
+  lodgeAuroresIslande,
   khaoYaiHeowSuwat,
   lagonWeekuriSumba,
   metAvantOuverture,

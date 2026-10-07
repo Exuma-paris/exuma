@@ -35,3 +35,17 @@ Les références ont été fournies par l'utilisateur le 27 août 2026. Elles so
 Portraits des témoignages : réutilisent `hero-1.webp`, `hero-2.webp`, `hero-3.webp`. Aucun fichier supplémentaire.
 
 Le fichier `Copie de el - 2026-08-27T105529.200.png` est l'original non recadré de `full-image-ref.png`. Il est conservé sans être utilisé par la chaîne, qui ne lit que les fichiers `*-ref.*`.
+
+## Reprise du 07/10/2026
+
+| Fichier | Origine | Licence |
+|---|---|---|
+| `xp-landmannalaugar-1.webp` | Landmannalaugar Iceland 2005 2.JPG, vraie photo, recadrage et étalonnage local (https://commons.wikimedia.org/wiki/File:Landmannalaugar_Iceland_2005_2.JPG) | CC BY-SA 3.0, User:Chris 73 (crédit obligatoire) |
+| `xp-landmannalaugar-2.webp` | Landmannalaugar - La récompense après la rando (4884099742).jpg, vraie photo, recadrage et étalonnage local (https://commons.wikimedia.org/wiki/File:Landmannalaugar_-_La_r%C3%A9compense_apr%C3%A8s_la_rando_(4884099742).jpg) | CC BY-SA 2.0, Julien Carnot (crédit obligatoire) |
+| `xp-motoneige-glacier-2.webp`, `xp-grotte-glace.webp` | Photos personnelles de Thea (IMG_0162, IMG_9719) ; bleu de la glace renforcé par IA (Gemini) sur la seconde | Usage libre (Thea) |
+| `xp-kayak-icebergs.webp` | Photo personnelle de Thea (IMG_9669, Jökulsárlón), deux kayaks ajoutés par IA (Gemini) | Usage libre (Thea) |
+| `xp-lodge-aurores.webp` | Photo officielle du Panorama Glass Lodge transmise par Thea | **Autorisation d'usage à obtenir** |
+| `xp-aurores-super-jeep.webp`, `bento-experiences.webp`, `bento-adresses.webp` | Générées par IA (Gemini), étalonnage local | Image IA, aucun crédit |
+| `bento-map.webp` | Carte vectorielle Natural Earth | Domaine public |
+| `bento-conciergerie.webp` | Photo d'équipe Exuma habituelle | Interne |
+| cartes, héros, `full-image`, macareux, Skálakot | Étalonnage DA Exuma, originaux dans `archives/` | inchangée |
