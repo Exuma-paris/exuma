@@ -37,7 +37,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/suisse/hero-1.webp",
-          alt: "Chalet de bois et sommets enneigés au lever du jour, voyage en Suisse",
+          alt: "Chutes du Rhin et château de Laufen vus du ciel, à Schaffhouse",
         },
         {
           src: "/destination/suisse/hero-2.webp",
@@ -45,7 +45,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/suisse/hero-3.webp",
-          alt: "Terrasse de bois face au lac des Quatre-Cantons dans la brume du matin",
+          alt: "Château de Chillon et bateau à vapeur sur le lac Léman au coucher du soleil",
         },
       ],
     },
@@ -100,11 +100,11 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/suisse/split-1.webp",
-          alt: "Maison engadinoise aux motifs gravés dans l’enduit, à Sils Maria",
+          alt: "Sils Maria et son lac en octobre, les mélèzes dorés de l'Engadine",
         },
         {
           src: "/destination/suisse/split-2.webp",
-          alt: "Forêts de mélèzes dorées au-dessus du lac de Silvaplana en Engadine",
+          alt: "Maisons engadinoises à sgraffites et volets verts sous le clocher de Sils Maria, en hiver",
         },
       ],
     },
@@ -114,7 +114,7 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/suisse/xp-glacier-aletsch-1.webp",
-          alt: "Hélicoptère posé sur la neige du glacier d’Aletsch au lever du jour",
+          alt: "Le glacier d’Aletsch serpentant entre les sommets du Valais",
         },
         right: {
           src: "/destination/suisse/xp-glacier-aletsch-2.webp",
@@ -235,7 +235,7 @@ export const destination: Destination = {
             "Carte d’un itinéraire sur mesure entre les vallées suisses",
             "Ruelle d’un village de l’Oberland bernois aux façades de bois",
             "Suite de chalet ouverte sur un massif enneigé",
-            "Concierge coordonnant un transfert privé en Suisse",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Table dressée sur une terrasse d’altitude au crépuscule",
           ][i],
         },
@@ -298,7 +298,7 @@ export const destination: Destination = {
             "Un pont de bois couvert, une vieille ville restée intacte, et un lac dont les bras s’enfoncent chacun dans une montagne. Les bateaux à vapeur y naviguent encore.",
           image: {
             src: "/destination/suisse/map-lucerne.webp",
-            alt: "Bateau à vapeur sur le lac des Quatre-Cantons devant Lucerne",
+            alt: "Pont de la Chapelle et sa tour d'eau, à Lucerne",
           },
           coordinates: { lat: 47.0502, lng: 8.3093 }, // TODO: verify coords
         },
@@ -308,7 +308,7 @@ export const destination: Destination = {
             "Ici, la Suisse parle italien. Les façades sont ocre, les palmiers bordent la promenade du lac Majeur, et les terrasses restent ouvertes tard.",
           image: {
             src: "/destination/suisse/map-ascona.webp",
-            alt: "Promenade et façades ocre d’Ascona au bord du lac Majeur, Tessin",
+            alt: "Bateau sur le lac Majeur au crépuscule, près d'Ascona",
           },
           coordinates: { lat: 46.1547, lng: 8.7739 }, // TODO: verify coords
         },

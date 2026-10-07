@@ -29,3 +29,10 @@ Each generated image in `public/destination/suisse/` was produced by feeding the
 | `map-lavaux.png`                | `map-lavaux-ref.jpg`                | TODO       | TODO    |
 | `map-lucerne.png`               | `map-lucerne-ref.jpg`               | TODO       | TODO    |
 | `map-ascona.png`                | `map-ascona-ref.jpg`                | TODO       | TODO    |
+| `split-1.webp` (v2) | Silsersee, Sils-Segl Maria and Sils-Segl Baselgia.jpg, vraie photo (vue de la réf. sils.ch, non libre), passée en automne par IA (https://commons.wikimedia.org/wiki/File:Silsersee,_Sils-Segl_Maria_and_Sils-Segl_Baselgia.jpg) | CC BY-SA 4.0, Capricorn4049 (crédit obligatoire) |
+| `split-2.webp` (v2) | Sils im Engadin 4.jpg, vraie photo (vue de la réf. yonder.fr, non libre) (https://commons.wikimedia.org/wiki/File:Sils_im_Engadin_4.jpg) | CC BY-SA 4.0, Tiia Monto (crédit obligatoire) |
+| `hero-1.webp` (v2) | 2016-08-30 18-39-08 367.7 Switzerland Kanton Schaffhausen Neuhausen Rheinfall.JPG, vraie photo (vue de la réf. cloudfront, non libre) (https://commons.wikimedia.org/wiki/File:2016-08-30_18-39-08_367.7_Switzerland_Kanton_Schaffhausen_Neuhausen_Rheinfall.JPG) | CC BY-SA 4.0, Hansueli Krapf  This   file was uploaded (crédit obligatoire) |
+| `hero-3.webp` (v2) | Château de Chillon with the paddle steamer Italie, Veytaux, Vaud.jpg, vraie photo (vue de la réf. generationvoyage.fr, non libre), lumière retouchée par IA (https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chillon_with_the_paddle_steamer_Italie,_Veytaux,_Vaud.jpg) | CC BY-SA 4.0, Christian David (crédit obligatoire) |
+| `hero-1.webp` (v3) | Même photo libre des chutes du Rhin, recomposée par IA (vue plus haute) à la demande de Thea | CC BY-SA 4.0 (crédit obligatoire) |
+| `split-2.webp` (v3) | IA d'après `split-2-ref2.jpg` (mairdumont.de, non libre, non publiée) | Image IA |
+| `split-2.webp` (v4) | IA d'après `split-2-ref3.jpg` (lemonde.fr, non libre, non publiée) | Image IA |
