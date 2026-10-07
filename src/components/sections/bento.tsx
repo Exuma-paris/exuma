@@ -226,7 +226,7 @@ export function BentoSection({
         <div className="flex justify-center">
           <Link
             href={cta.href}
-            className={cn(buttonVariants({ variant: "secondary" }))}
+            className={cn(buttonVariants(), "bg-foreground text-background")}
           >
             {cta.label}
           </Link>

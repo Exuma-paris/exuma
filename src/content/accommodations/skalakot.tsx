@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["islande", "skalakot", "hvolsvollur", "chevaux", "eyjafjallajokull"],
   heroImage: {
     src: "/destination/islande/hotel-skalakot.webp",
-    alt: "Manoir de Skálakot et chevaux islandais au pied de l'Eyjafjallajökull",
+    alt: "Manoir de Skálakot sous les aurores boréales",
   },
   destinationSlugs: ["islande"],
   sections: [],

@@ -20,29 +20,31 @@ export const destination: Destination = {
     "thorsmork",
     "heimaey",
     "aurores boreales",
+    "landmannalaugar",
+    "grotte de glace",
   ],
   metaTitle: "Islande, voyage sur mesure",
   metaDescription:
-    "Voyage en Islande sur mesure : côte sud, glaciers du Vatnajökull, grottes de glace et plages noires. Itinéraire écrit par votre travel designer Exuma.",
+    "Voyage en Islande sur mesure : aurores boréales et grottes de glace en hiver, Landmannalaugar et Jökulsárlón en été. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Islande",
-      heading: "Le sable est noir et l'eau sort chaude du sol",
+      heading: "L'Islande, où le sable est noir et l'eau sort chaude du sol",
       description:
-        "En Islande, la terre est encore en activité. Dans une grande partie du pays, l'eau qui sort du sol est naturellement chaude et sert à chauffer les maisons. Sur la côte sud, le sable des plages est noir. Il vient de la lave, broyée par la mer. En juin, il ne fait jamais complètement nuit.",
+        "En Islande, la terre est encore en activité. Dans une grande partie du pays, l'eau qui sort du sol est naturellement chaude et sert à chauffer les maisons. Sur la côte sud, le sable des plages est noir. Il vient de la lave, broyée par la mer. En juin, il ne fait jamais complètement nuit. En hiver, le ciel s'allume d'aurores.",
       images: [
         {
           src: "/destination/islande/hero-1.webp",
-          alt: "Plage de sable noir et blocs de glace échoués sur la côte sud de l'Islande",
+          alt: "Collines de rhyolite couvertes de mousse dans les Hautes Terres d'Islande",
         },
         {
           src: "/destination/islande/hero-2.webp",
-          alt: "Langue glaciaire descendant du Vatnajökull vers la plaine",
+          alt: "Iceberg bleu dérivant sur le lagon glaciaire de Jökulsárlón",
         },
         {
           src: "/destination/islande/hero-3.webp",
-          alt: "Maison isolée au pied d'un volcan couvert de neige",
+          alt: "Cône vert du Mælifell au milieu des sables noirs",
         },
       ],
     },
@@ -115,11 +117,11 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/islande/split-1.webp",
-          alt: "Ferme islandaise au pied du volcan Eyjafjallajökull couvert de neige",
+          alt: "Église de Vík et aiguilles de Reynisdrangar au bord de l'Atlantique",
         },
         {
           src: "/destination/islande/split-2.webp",
-          alt: "Maisons de Heimaey devant le cône volcanique de l'Eldfell",
+          alt: "Plage de sable noir et rochers de basalte sur la côte sud",
         },
       ],
     },
@@ -133,11 +135,11 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/islande/xp-motoneige-glacier-2.webp",
-          alt: "Pilote seul en motoneige au bord du glacier, face à la côte noire et à la mer",
+          alt: "Paroi de glace bleue dans une grotte sous le glacier",
         },
       },
       text: {
-        eyebrow: "Notre coup de cœur",
+        eyebrow: "Notre coup de cœur si vous partez en hiver",
         heading: "Une matinée sur le glacier, une heure sous la glace",
         columns: [
           "Le départ se fait en fin de matinée, depuis le bord du Mýrdalsjökull. Un véhicule tout-terrain monte jusqu'au plateau, puis chacun prend une motoneige. En haut, il n'y a plus de repère : ni arbre, ni rocher, ni bâtiment. On roule une heure sur une étendue blanche, avec un guide devant et un guide derrière. Par temps clair, on aperçoit la côte et la mer en contrebas. Le groupe reste privé et l'heure de départ se choisit avec le guide, la veille au soir.", // TODO: verify glacier et opérateur retenus
@@ -149,11 +151,49 @@ export const destination: Destination = {
     {
       type: "entityList",
       kind: "experience",
+      eyebrow: "En hiver, de novembre à mars",
+      heading: "Entre la glace et les aurores",
+      description:
+        "Le jour, on descend sous le glacier dans les grottes de glace bleue. La nuit, on part chercher les aurores loin des lumières, puis l'on dort là où quelqu'un vous réveillera si le ciel se met à bouger.",
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
+      slugs: [
+        "aurores-super-jeep-islande",
+        "grotte-glace-vatnajokull",
+        "lodge-aurores-islande",
+      ],
+    },
+
+    {
+      type: "imageDuoWithText",
+      duo: {
+        left: {
+          src: "/destination/islande/xp-landmannalaugar-1.webp",
+          alt: "Montagnes de rhyolite ocre, rouge et verte de Landmannalaugar",
+        },
+        right: {
+          src: "/destination/islande/xp-landmannalaugar-2.webp",
+          alt: "Baigneurs dans la source chaude naturelle de Landmannalaugar",
+        },
+      },
+      text: {
+        eyebrow: "Notre coup de cœur si vous partez en été",
+        heading: "Une journée à Landmannalaugar, dans les montagnes de couleur",
+        columns: [
+          "La piste des Hautes Terres n'ouvre qu'entre la mi-juin et le début juillet, selon la fonte, et ne se pratique qu'en super jeep. Le départ se fait tôt depuis Hvolsvöllur. On traverse des rivières à gué et des déserts de cendre noire, puis la vallée s'ouvre sur des montagnes de rhyolite striées d'ocre, de rouge, de vert et de bleu. Aucun village, aucune route goudronnée : seulement un refuge et quelques tentes.", // TODO: verify opérateur retenu
+          "On marche ensuite deux ou trois heures avec le guide, entre la coulée d'obsidienne de Laugahraun et les crêtes de Brennisteinsalda, où la terre fume encore. Le retour se fait par la source chaude, au pied du camp : une rivière tiède où un courant chaud rejoint un courant froid, et où l'on se baigne en plein air face aux montagnes. La piste referme à la mi-septembre.",
+        ],
+      },
+    },
+
+    {
+      type: "entityList",
+      kind: "experience",
       background: "bg-white",
-      eyebrow: "Expériences et activités en Islande",
+      eyebrow: "En été, de mai à septembre",
       heading: "Trois sorties qui dépendent de la mer",
       description:
-        "Une traversée vers les îles Vestmann, un kayak entre les blocs de glace dans la vallée de Thorsmörk, une sortie d'observation des baleines. Les trois se font à quelques-uns, avec des équipages du coin.",
+        "Une traversée vers les îles Vestmann et leurs macareux, un kayak entre les blocs de glace du lagon de Jökulsárlón, une sortie d'observation des baleines. Les trois se font à quelques-uns, avec des équipages du coin.",
+      cta: { label: "Créer votre voyage", href: "/votre-projet" },
       slugs: [
         "iles-westman-eldfell",
         "kayak-paddle-thorsmork",
@@ -265,7 +305,7 @@ export const destination: Destination = {
             "Fermes équestres et maisons de campagne, choisies pour leur emplacement sur la route et pour la distance qui les sépare du premier lampadaire.",
           image: {
             src: "/destination/islande/bento-hebergements.webp",
-            alt: "Chambre vitrée ouverte sur un champ de lave et un glacier",
+            alt: "Hôtel isolé dans un champ de lave, vu du ciel",
           },
         },
         {
@@ -274,16 +314,16 @@ export const destination: Destination = {
             "Un seul interlocuteur du premier échange jusqu'au retour. Si le ciel se dégage à minuit, on vous prévient pour les aurores. Si la mer est belle plus tôt que prévu, on avance la sortie en bateau.",
           image: {
             src: "/destination/islande/bento-conciergerie.webp",
-            alt: "Conseillère Exuma en conversation téléphonique avec un voyageur",
+            alt: "Conseillère Exuma souriante, casque sur les oreilles",
           },
         },
         {
           title: "Expériences immersives",
           description:
-            "Motoneige sur la calotte glaciaire, grotte de glace avec un guide, kayak entre les blocs de glace de Thorsmörk. Chaque sortie se réserve en direct et en petit groupe.",
+            "Motoneige sur la calotte glaciaire, grotte de glace avec un guide, kayak entre les blocs de glace de Jökulsárlón. Chaque sortie se réserve en direct et en petit groupe.",
           image: {
             src: "/destination/islande/bento-experiences.webp",
-            alt: "Kayak passant entre des blocs de glace dans la vallée de Thorsmörk",
+            alt: "Aurores boréales au-dessus des aiguilles de Reynisdrangar, côte sud",
           },
         },
       ],
@@ -293,9 +333,9 @@ export const destination: Destination = {
       type: "placesMap",
       background: "bg-background-soft",
       eyebrow: "Les grandes étapes en Islande",
-      heading: "Six lieux autour desquels s'organisent nos itinéraires",
+      heading: "Sept lieux autour desquels s'organisent nos itinéraires",
       description:
-        "Tous se trouvent sur la côte sud ou juste au large. La plupart de nos voyages se construisent en deux bases, l'une autour de Hvolsvöllur, l'autre au pied du Vatnajökull.",
+        "Tous se trouvent sur la côte sud ou juste au large, sauf Landmannalaugar, au cœur des Hautes Terres. La plupart de nos voyages se construisent en deux bases, l'une autour de Hvolsvöllur, l'autre au pied du Vatnajökull.",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 6,
       places: [
@@ -335,7 +375,7 @@ export const destination: Destination = {
             "Cette ancienne réserve est aujourd'hui rattachée au parc national du Vatnajökull. C'est le point de départ des marches sur glacier. Vingt minutes de marche facile depuis le parking mènent au pied du Skaftafellsjökull.",
           image: {
             src: "/destination/islande/map-skaftafell.webp",
-            alt: "Langue glaciaire du Vatnajökull vue depuis Skaftafell",
+            alt: "Cascade de Svartifoss et ses orgues basaltiques, Skaftafell",
           },
           coordinates: { lat: 64.0166, lng: -16.9666 },
         },
@@ -348,6 +388,16 @@ export const destination: Destination = {
             alt: "Blocs de glace flottant sur le lagon de Jökulsárlón en Islande",
           },
           coordinates: { lat: 64.0784, lng: -16.2306 },
+        },
+        {
+          title: "Landmannalaugar",
+          description:
+            "Au cœur des Hautes Terres, les montagnes de rhyolite se teintent d'ocre, de rouge et de vert, et une source chaude coule au pied du camp. La piste n'ouvre que de la fin juin à la mi-septembre, et seulement en super jeep.",
+          image: {
+            src: "/destination/islande/map-landmannalaugar.webp",
+            alt: "Crêtes de rhyolite colorées et vallée de Landmannalaugar",
+          },
+          coordinates: { lat: 63.9909, lng: -19.0606 },
         },
         {
           title: "Heimaey et les îles Vestmann",
