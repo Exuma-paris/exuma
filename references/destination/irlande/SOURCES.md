@@ -29,3 +29,17 @@ Each generated image in `public/destination/irlande/` was produced by feeding th
 | `map-dingle.webp` | `map-dingle-ref.png` | TODO | TODO |
 | `map-kinsale.webp` | `map-kinsale-ref.png` | TODO | TODO |
 | `map-ardmore.webp` | `map-ardmore-ref.png` | TODO | TODO |
+
+## Reprise du 07/10/2026 (validée par Thea)
+
+| Fichier | Modification |
+|---|---|
+| `hero-1`, `hero-3`, `split-2`, `map-moher`, `xp-midleton` | Bandes blanches intégrées retirées, recadrage carré, étalonnage local |
+| `split-1`, `map-connemara`, `map-kinsale`, `bento-adresses`, `hotel-adare-manor` | Saturation ramenée vers la DA Exuma |
+| `hero-3`, `map-moher`, `xp-helicoptere-2`, `xp-old-head-golf` | Réchauffées (trop grises) |
+| `xp-fauconnerie` | Régénérée par IA (Gemini) : buse de Harris au lieu d'un aigle royal. Image IA, aucun crédit |
+| `hotel-cliff-house` | Recadrée pour garder la personne dans la piscine. Photo officielle, autorisation d'usage à obtenir |
+| `bento-map` | Carte vectorielle Natural Earth (île entière), `geo/build-bento-map.mjs`. Domaine public |
+| `bento-conciergerie` | Photo d'équipe Exuma habituelle. Interne |
+
+Versions précédentes dans `archives/`.

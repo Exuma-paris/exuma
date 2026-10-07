@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["irlande", "kinsale", "cork", "golf", "links"],
   heroImage: {
     src: "/destination/irlande/xp-old-head-golf.webp",
-    alt: "Green en bord de falaise du links d'Old Head of Kinsale face à l'Atlantique",
+    alt: "Le promontoire d'Old Head of Kinsale, ses links et son phare face à l'Atlantique",
   },
   destinationSlugs: ["irlande"],
   sections: [],
