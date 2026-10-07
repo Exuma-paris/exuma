@@ -37,15 +37,15 @@ export const destination: Destination = {
         "Les Bouches de Kotor s'enfoncent sur 28 kilomètres entre les Alpes dinariques, jusqu'à un village-hôtel qui n'existe qu'au bout d'une jetée. Plus au nord, le canyon de la Tara creuse 1 300 mètres sous le plateau du Durmitor. Un seul pays, deux échelles qui ne se répondent jamais.",
       images: [
         {
-          src: "/destination/montenegro/hero-1.png",
-          alt: "Vue aérienne de la baie de Kotor au Monténégro entre les Alpes dinariques",
+          src: "/destination/montenegro/hero-1.webp",
+          alt: "Îlot de Saint-Georges et Notre-Dame-du-Rocher vus du ciel, baie de Kotor",
         },
         {
-          src: "/destination/montenegro/hero-2.png",
+          src: "/destination/montenegro/hero-2.webp",
           alt: "Village-hôtel de Sveti Stefan relié à la côte par une jetée",
         },
         {
-          src: "/destination/montenegro/hero-3.png",
+          src: "/destination/montenegro/hero-3.webp",
           alt: "Voilier privé mouillé face aux remparts de Kotor au lever du jour",
         },
       ],
@@ -82,8 +82,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/montenegro/full-image.png",
-        alt: "Vue aérienne de la baie de Kotor et des Alpes dinariques au Monténégro",
+        src: "/destination/montenegro/full-image.webp",
+        alt: "Lac glaciaire et forêt de sapins sous un sommet du Durmitor",
       },
       height: 600,
     },
@@ -99,11 +99,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/montenegro/split-1.png",
+          src: "/destination/montenegro/split-1.webp",
           alt: "Cave d'affinage traditionnelle du prosciutto de Njeguši",
         },
         {
-          src: "/destination/montenegro/split-2.png",
+          src: "/destination/montenegro/split-2.webp",
           alt: "Voilier mouillé dans une crique discrète de la baie de Kotor",
         },
       ],
@@ -113,12 +113,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/montenegro/xp-croisiere-kotor-1.png",
+          src: "/destination/montenegro/xp-croisiere-kotor-1.webp",
           alt: "Voilier privé quittant Kotor à l'aube dans la brume",
         },
         right: {
-          src: "/destination/montenegro/xp-croisiere-kotor-2.png",
-          alt: "Îlot de Notre-Dame-du-Rocher vu depuis un voilier près de Perast",
+          src: "/destination/montenegro/xp-croisiere-kotor-2.webp",
+          alt: "Îlots de Saint-Georges et de Notre-Dame-du-Rocher vus depuis un voilier près de Perast",
         },
       },
       text: {
@@ -231,12 +231,12 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/montenegro/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/montenegro/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé au Monténégro",
             "Adresse confidentielle dans la vieille ville de Kotor",
             "Villa privée face à la baie de Kotor",
-            "Concierge Exuma sur la marina de Porto Montenegro",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Dégustation de vranac chez un vigneron de la Crmnica",
           ][i],
         },
@@ -258,7 +258,7 @@ export const destination: Destination = {
           description:
             "Cité vénitienne enfermée dans ses remparts au pied du mont Vrmac, porte d'entrée de la baie la plus refermée de l'Adriatique.",
           image: {
-            src: "/destination/montenegro/map-kotor.png",
+            src: "/destination/montenegro/map-kotor.webp",
             alt: "Remparts et vieille ville de Kotor",
           },
           // TODO: verify coords
@@ -269,8 +269,8 @@ export const destination: Destination = {
           description:
             "Dix-sept palais baroques alignés face à l'îlot de Notre-Dame-du-Rocher, bâti par des marins depuis 1452.",
           image: {
-            src: "/destination/montenegro/map-perast.png",
-            alt: "Palais baroques de Perast face à l'îlot de Notre-Dame-du-Rocher",
+            src: "/destination/montenegro/map-perast.webp",
+            alt: "Village de Perast et ses palais au bord de la baie de Kotor",
           },
           // TODO: verify coords
           coordinates: { lat: 42.4864, lng: 18.6975 },
@@ -280,7 +280,7 @@ export const destination: Destination = {
           description:
             "Village de pêcheurs du XVe siècle relié à la côte par une seule jetée, aujourd'hui réservé aux hôtes de l'îlot.",
           image: {
-            src: "/destination/montenegro/map-sveti-stefan.png",
+            src: "/destination/montenegro/map-sveti-stefan.webp",
             alt: "Îlot de Sveti Stefan relié à la côte par une jetée",
           },
           // TODO: verify coords
@@ -291,7 +291,7 @@ export const destination: Destination = {
           description:
             "Citadelle méditerranéenne parmi les plus anciennes de la côte, plages de sable en éventail tout autour.",
           image: {
-            src: "/destination/montenegro/map-budva.png",
+            src: "/destination/montenegro/map-budva.webp",
             alt: "Citadelle et vieille ville de Budva sur la côte adriatique",
           },
           // TODO: verify coords
@@ -302,8 +302,8 @@ export const destination: Destination = {
           description:
             "Ancienne capitale royale posée sur son plateau, monastères orthodoxes et palais de la dynastie Petrović-Njegoš.",
           image: {
-            src: "/destination/montenegro/map-cetinje.png",
-            alt: "Palais royal et monastère de Cetinje",
+            src: "/destination/montenegro/map-cetinje.webp",
+            alt: "Monastère de Cetinje et son clocher",
           },
           // TODO: verify coords
           coordinates: { lat: 42.3906, lng: 18.9219 },
@@ -313,8 +313,8 @@ export const destination: Destination = {
           description:
             "Plateau calcaire à plus de 2 000 mètres, dix-huit lacs glaciaires et le canyon de la Tara qui le borde au nord.",
           image: {
-            src: "/destination/montenegro/map-durmitor.png",
-            alt: "Plateau du Durmitor et lac glaciaire au Monténégro",
+            src: "/destination/montenegro/map-durmitor.webp",
+            alt: "Lac Noir et sommets du Durmitor au Monténégro",
           },
           // TODO: verify coords
           coordinates: { lat: 43.1547, lng: 19.1224 },
@@ -554,7 +554,7 @@ export const destination: Destination = {
           quote:
             "Nous ne connaissions le Monténégro que par la baie de Kotor sur les photos. La croisière en voilier à l'aube, la nuit à Sveti Stefan, la route jusqu'au Durmitor : on a eu l'impression de traverser trois pays en une semaine.",
           image: {
-            src: "/destination/montenegro/hero-1.png",
+            src: "/destination/montenegro/hero-1.webp",
             alt: "Portrait de Camille et Antoine", // TODO: verify
           },
           name: "Camille & Antoine", // TODO: verify
@@ -565,7 +565,7 @@ export const destination: Destination = {
           quote:
             "Notre travel designer nous a évité Budva en pleine saison et nous a envoyés à Perast à la place. Le déjeuner chez le vigneron de la Crmnica reste le meilleur souvenir du voyage.",
           image: {
-            src: "/destination/montenegro/hero-2.png",
+            src: "/destination/montenegro/hero-2.webp",
             alt: "Portrait de Marc", // TODO: verify
           },
           name: "Marc", // TODO: verify
@@ -576,7 +576,7 @@ export const destination: Destination = {
           quote:
             "Ce qui nous a marqués, c'est le contraste : la baie le matin, le canyon de la Tara l'après-midi. Aucun autre pays ne tient ça en une seule journée sans que ça paraisse forcé.",
           image: {
-            src: "/destination/montenegro/hero-3.png",
+            src: "/destination/montenegro/hero-3.webp",
             alt: "Portrait de Sophie", // TODO: verify
           },
           name: "Sophie", // TODO: verify
