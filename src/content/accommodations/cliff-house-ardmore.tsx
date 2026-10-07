@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["irlande", "ardmore", "waterford", "falaise", "cote sud"],
   heroImage: {
     src: "/destination/irlande/hotel-cliff-house.webp",
-    alt: "Chambres du Cliff House Hotel accrochées dans la falaise face à la baie d'Ardmore",
+    alt: "Piscine intérieure du Cliff House Hotel ouverte sur la baie d'Ardmore",
   },
   destinationSlugs: ["irlande"],
   sections: [],

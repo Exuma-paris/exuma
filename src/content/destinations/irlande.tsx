@@ -40,7 +40,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/irlande/hero-2.webp",
-          alt: "Tours d'Ashford Castle au bord du Lough Corrib, comté de Mayo",
+          alt: "Moutons au coucher du soleil sur les lacs du Connemara",
         },
         {
           src: "/destination/irlande/hero-3.webp",
@@ -230,8 +230,8 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Irlande, de Dublin à la côte sud",
             "Adresses confidentielles en Irlande : chais fermés au public et maisons de famille",
             "Hébergements en Irlande : château au bord du Lough Corrib et manoir du Limerick",
-            "Conciergerie privée 24/7 pour un voyage en Irlande",
-            "Expériences en Irlande : fauconnerie, hélicoptère au-dessus de Moher et links d'Old Head",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Bains d'algues chauds face à l'Atlantique, sur la côte ouest irlandaise",
           ][i],
         },
       })),
@@ -264,7 +264,7 @@ export const destination: Destination = {
             "Des murets de pierre sèche, des tourbières et des lacs jusqu'à l'océan. Sur la rive du Lough Corrib, Ashford Castle garde ses bois, ses bateaux et son école de fauconnerie.",
           image: {
             src: "/destination/irlande/map-connemara.webp",
-            alt: "Lacs et tourbières du Connemara au bord du Lough Corrib",
+            alt: "Abbaye de Kylemore au bord de son lac, dans le Connemara",
           },
           // TODO: verify coords
           coordinates: { lat: 53.5395, lng: -9.2847 },
