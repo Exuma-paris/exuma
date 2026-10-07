@@ -35,15 +35,15 @@ export const destination: Destination = {
         "Le Portugal se découvre lentement. Lisbonne se laisse apprivoiser par ses collines et ses tramways jaunes. Au nord, les grands domaines viticoles vous reçoivent comme des amis, au-dessus d'un fleuve qui serpente entre les coteaux. Au sud, la pinède de Comporta s'ouvre sur l'océan, et le soleil s'y couche dans la mer.",
       images: [
         {
-          src: "/destination/portugal/hero-1.png",
+          src: "/destination/portugal/hero-1.webp",
           alt: "Toits d'azulejos de l'Alfama et le Tage en contrebas, à Lisbonne au Portugal",
         },
         {
-          src: "/destination/portugal/hero-2.png",
+          src: "/destination/portugal/hero-2.webp",
           alt: "Terrasses de vignes du Douro descendant vers le fleuve au-dessus de Pinhão",
         },
         {
-          src: "/destination/portugal/hero-3.png",
+          src: "/destination/portugal/hero-3.webp",
           alt: "Longue plage de sable bordée de pins à Comporta, au sud de Lisbonne",
         },
       ],
@@ -80,7 +80,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/portugal/full-image.png",
+        src: "/destination/portugal/full-image.webp",
         alt: "Falaises et arches de grès de la côte de l'Algarve, au sud du Portugal",
       },
       height: 600,
@@ -98,11 +98,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/portugal/split-1.png",
+          src: "/destination/portugal/split-1.webp",
           alt: "Murs de pierre et rangs de vigne en terrasses au-dessus du Douro",
         },
         {
-          src: "/destination/portugal/split-2.png",
+          src: "/destination/portugal/split-2.webp",
           alt: "Table dressée dehors dans une quinta du Douro à la fin du jour",
         },
       ],
@@ -112,11 +112,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/portugal/xp-croisiere-douro-1.png",
+          src: "/destination/portugal/xp-croisiere-douro-1.webp",
           alt: "Bateau privé glissant sur le Douro au coucher du soleil entre les coteaux",
         },
         right: {
-          src: "/destination/portugal/xp-croisiere-douro-2.png",
+          src: "/destination/portugal/xp-croisiere-douro-2.webp",
           alt: "Table dressée sur le pont d'un bateau privé au fil du Douro",
         },
       },
@@ -232,12 +232,12 @@ export const destination: Destination = {
         image: {
           src: `/destination/portugal/bento-${
             ["map", "adresses", "hebergements", "conciergerie", "experiences"][i]
-          }.png`,
+          }.webp`,
           alt: [
             "Carte d'un itinéraire sur mesure au Portugal",
             "Ruelle pavée et façades d'azulejos dans un quartier ancien de Lisbonne",
             "Terrasse d'une quinta du Douro ouverte sur les vignes",
-            "Concierge coordonnant un transfert privé entre Lisbonne et l'Alentejo",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Table dressée face à l'Atlantique sur la côte de l'Alentejo",
           ][i],
         },
@@ -259,7 +259,7 @@ export const destination: Destination = {
           description:
             "Lisbonne se découvre en montant. L'Alfama a gardé ses ruelles étroites et son linge aux fenêtres, et chaque terrasse s'ouvre sur le fleuve. On s'y perd volontiers, puis on redescend en tramway.",
           image: {
-            src: "/destination/portugal/map-lisbonne.png",
+            src: "/destination/portugal/map-lisbonne.webp",
             alt: "Ruelles de l'Alfama et le Tage vus depuis un mirador de Lisbonne",
           },
           coordinates: { lat: 38.7139, lng: -9.1292 }, // TODO: verify coords
@@ -269,7 +269,7 @@ export const destination: Destination = {
           description:
             "À quelques kilomètres de Lisbonne, une montagne boisée que la brume garde verte toute l'année. Les rois y passaient l'été et leurs palais se cachent encore dans la végétation. Le jardin de la Quinta da Regaleira se visite comme un conte.",
           image: {
-            src: "/destination/portugal/map-sintra.png",
+            src: "/destination/portugal/map-sintra.webp",
             alt: "Palais de Pena émergeant de la brume sur les hauteurs de Sintra",
           },
           coordinates: { lat: 38.7876, lng: -9.3904 }, // TODO: verify coords
@@ -279,7 +279,7 @@ export const destination: Destination = {
           description:
             "Le cœur de la vallée, là où les vignes tombent le plus raide vers l'eau. La petite gare de Pinhão raconte la vendange sur ses murs d'azulejos. D'une quinta à l'autre, on se déplace en bateau plutôt qu'en voiture.",
           image: {
-            src: "/destination/portugal/map-douro.png",
+            src: "/destination/portugal/map-douro.webp",
             alt: "Méandre du Douro entre les vignes en terrasses près de Pinhão",
           },
           coordinates: { lat: 41.1897, lng: -7.5433 }, // TODO: verify coords
@@ -289,7 +289,7 @@ export const destination: Destination = {
           description:
             "Une ville de granit posée sur son estuaire, où l'on dîne presque les pieds dans l'eau. Les maisons de porto vieillissent sur l'autre rive, à Vila Nova de Gaia, et leurs caves sentent le bois et le sucre.",
           image: {
-            src: "/destination/portugal/map-porto.png",
+            src: "/destination/portugal/map-porto.webp",
             alt: "Quais de la Ribeira à Porto et les caves de Vila Nova de Gaia",
           },
           coordinates: { lat: 41.1405, lng: -8.6132 }, // TODO: verify coords
@@ -299,7 +299,7 @@ export const destination: Destination = {
           description:
             "À une heure de Lisbonne, les rizières laissent place aux pins, puis au sable. Rien n'y dépasse la hauteur des arbres. Des dauphins vivent à l'année dans l'estuaire du Sado et l'on part parfois les voir au lever du jour.",
           image: {
-            src: "/destination/portugal/map-comporta.png",
+            src: "/destination/portugal/map-comporta.webp",
             alt: "Cabanes de pêcheurs et rizières près de la plage de Comporta",
           },
           coordinates: { lat: 38.3833, lng: -8.7833 }, // TODO: verify coords
@@ -309,7 +309,7 @@ export const destination: Destination = {
           description:
             "La côte se creuse en falaises ocre et en petites criques que l'on rejoint par la mer. Sagres ferme le pays au sud-ouest : c'est de là que partaient les navigateurs, et l'on comprend pourquoi en regardant l'horizon.",
           image: {
-            src: "/destination/portugal/map-algarve.png",
+            src: "/destination/portugal/map-algarve.webp",
             alt: "Arches de grès et criques de la côte de l'Algarve près de Lagos",
           },
           coordinates: { lat: 37.1028, lng: -8.6742 }, // TODO: verify coords
@@ -531,7 +531,7 @@ export const destination: Destination = {
           quote:
             "Nous voulions voir le Douro, et nous avons vendangé. Deux heures dans la cuve, puis le dîner avec ceux qui avaient travaillé la journée. Je ne pensais plus avoir de première fois comme celle-là.",
           image: {
-            src: "/destination/portugal/hero-1.png",
+            src: "/destination/portugal/hero-1.webp",
             alt: "Portrait de Bernard", // TODO: verify
           },
           name: "Bernard", // TODO: verify
@@ -542,7 +542,7 @@ export const destination: Destination = {
           quote:
             "Trois enfants, dont un petit qui n'entre pas dans l'eau froide. Carole a mis la mer du côté de la Ria Formosa et gardé Lisbonne pour la fin. Personne ne s'est plaint de marcher, ce qui n'arrive jamais chez nous.",
           image: {
-            src: "/destination/portugal/hero-2.png",
+            src: "/destination/portugal/hero-2.webp",
             alt: "Portrait de Constance", // TODO: verify
           },
           name: "Constance", // TODO: verify
@@ -553,7 +553,7 @@ export const destination: Destination = {
           quote:
             "Une semaine sans ouvrir une carte ni choisir un restaurant. La maison de Comporta était à quelques minutes de la plage et le chauffeur savait où aller sans que j'aie à le dire. C'est exactement ce que je cherchais.",
           image: {
-            src: "/destination/portugal/hero-3.png",
+            src: "/destination/portugal/hero-3.webp",
             alt: "Portrait de Frédéric", // TODO: verify
           },
           name: "Frédéric", // TODO: verify
