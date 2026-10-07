@@ -493,6 +493,7 @@ import { accommodation as fourSeasonsAmman } from "@/content/accommodations/four
 import { accommodation as fourSeasonsAnguilla } from "@/content/accommodations/four-seasons-anguilla";
 import { accommodation as holmenLofoten } from "@/content/accommodations/holmen-lofoten";
 import { accommodation as juvetLandskapshotell } from "@/content/accommodations/juvet-landskapshotell";
+import { accommodation as unionOye } from "@/content/accommodations/union-oye";
 import { accommodation as umiHotel } from "@/content/accommodations/umi-hotel";
 import { accommodation as skalakot } from "@/content/accommodations/skalakot";
 import { accommodation as hotelJokulsarlon } from "@/content/accommodations/hotel-jokulsarlon";
@@ -1226,6 +1227,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   jacksCamp,
   jKPlaceRoma,
   juvetLandskapshotell,
+  unionOye,
   kempinskiIshtarDeadSea,
   konaVillageRosewood,
   gangteyLodge,

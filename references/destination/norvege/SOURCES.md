@@ -38,3 +38,6 @@ En attente d'ouverture, hors page pour l'instant :
 | `hotel-svart.webp` | MANQUANTE | à fournir | à fournir |
 
 Les portraits de la section témoignages réutilisent `hero-1.webp`, `hero-2.webp` et `hero-3.webp`.
+
+| `hotel-union-oye.webp` | `hotel-union-oye-ref.jpg` | Photo officielle de l'Hotel Union Øye transmise par Thea (cdn.sanity.io) | **Autorisation d'usage à obtenir** |
+| `hotel-holmen-lofoten.webp` (v2) | `hotel-holmen-lofoten-ref.jpg` | Vue aérienne transmise par Thea (rexby.com, 1080 px) | **Autorisation d'usage à obtenir** |
