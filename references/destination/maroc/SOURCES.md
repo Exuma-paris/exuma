@@ -16,3 +16,9 @@ Images générées par IA (Gemini 3 Pro Image, mode `--inspire` de `gen-images.m
 | `xp-detroit-gibraltar.webp` | `xp-detroit-gibraltar-ref.jpg` | visitmorocco (CDN), phare du cap Spartel |
 
 Saturation ramenée à ~95-100. Cartes d'expériences recadrées en carré.
+
+## Hébergements (photos officielles)
+
+| Image | Source | Autorisation |
+| --- | --- | --- |
+| `hotel-karawan-riad.webp` | Photo de l'hôtel (a.otcdn.com, fiche Karawan Riad), fournie par Thea le 08/10/2026 | À confirmer avec l'hôtel |
