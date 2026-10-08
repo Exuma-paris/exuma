@@ -13,3 +13,5 @@ Images générées par IA (Gemini 3 Pro Image, mode `--inspire` de `gen-images.m
 | `xp-campement-desert-1.webp` | `xp-campement-desert-1-ref.jpg` | auberge-africa.com, erg Chebbi |
 
 Saturation ramenée à ~100 (sable du désert), 2752 × 1536.
+| `xp-sagesse-soufie.webp` | `xp-sagesse-soufie-ref.jpg` | dunesdeserts.com, thé |
+| `xp-vallee-des-roses.webp` | `xp-vallee-des-roses-ref.jpg` | trekatlassahara.com, cueillette des roses |
