@@ -13,5 +13,6 @@ Images générées par IA (Gemini 3 Pro Image, mode `--inspire` de `gen-images.m
 | `xp-campement-desert-1.webp` | `xp-campement-desert-1-ref.jpg` | auberge-africa.com, erg Chebbi |
 | `xp-sagesse-soufie.webp` | `xp-sagesse-soufie-ref.jpg` | dunesdeserts.com, thé |
 | `xp-vallee-des-roses.webp` | `xp-vallee-des-roses-ref.jpg` | trekatlassahara.com, cueillette des roses |
+| `xp-detroit-gibraltar.webp` | `xp-detroit-gibraltar-ref.jpg` | visitmorocco (CDN), phare du cap Spartel |
 
 Saturation ramenée à ~95-100. Cartes d'expériences recadrées en carré.

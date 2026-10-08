@@ -13,7 +13,7 @@ export const experience: Experience = {
     "atlantique",
   ],
   heroImage: {
-    src: "/destination/maroc/xp-detroit-gibraltar.png",
+    src: "/destination/maroc/xp-detroit-gibraltar.webp",
     alt: "Navigation privée dans le détroit de Gibraltar au départ de Tanger",
   },
   destinationSlugs: ["maroc"],
