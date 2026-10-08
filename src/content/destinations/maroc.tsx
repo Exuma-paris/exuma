@@ -36,15 +36,15 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/maroc/hero-1.webp",
-          alt: "Ruelle de la médina de Fès au Maroc à la lumière du matin",
+          alt: "Remparts et porte monumentale de la médina de Fès dans la lumière du matin",
         },
         {
           src: "/destination/maroc/hero-2.webp",
-          alt: "Sommets enneigés du Haut Atlas vus depuis la vallée de l'Ourika",
+          alt: "Sommets enneigés du Haut Atlas derrière une palmeraie et un mur de pisé",
         },
         {
           src: "/destination/maroc/hero-3.webp",
-          alt: "Palmeraie et kasbah de terre dans la vallée du Dadès",
+          alt: "Palmeraie et ksar de terre au pied des falaises ocre du sud marocain",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/maroc/full-image.png",
-        alt: "Vallée du Dadès au Maroc, kasbahs de terre et palmeraie en fin de journée",
+        src: "/destination/maroc/full-image.webp",
+        alt: "Ksar de terre au-dessus de la rivière et de la palmeraie, sud du Maroc, en fin de journée",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/maroc/split-1.png",
-          alt: "Artisan relieur au travail dans son atelier de la médina de Fès",
+          src: "/destination/maroc/split-1.webp",
+          alt: "Dinandier martelant un plateau de cuivre dans son échoppe de la médina de Fès",
         },
         {
-          src: "/destination/maroc/split-2.png",
-          alt: "Plateaux de cuivre martelés dans l'atelier d'un dinandier à Fès",
+          src: "/destination/maroc/split-2.webp",
+          alt: "Théières, plateaux et lanternes ciselés dans un souk de la médina de Fès",
         },
       ],
     },
@@ -111,7 +111,7 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/maroc/xp-campement-desert-1.png",
+          src: "/destination/maroc/xp-campement-desert-1.webp",
           alt: "Campement privé dressé au creux des dunes de l'erg Chebbi au crépuscule",
         },
         right: {

@@ -1,9 +1,15 @@
 # Sources des images — Maroc
 
-| Image | Source | Auteur / licence |
-| --- | --- | --- |
-| `hero-1.webp` | [Street in the Medina of Fes](https://commons.wikimedia.org/wiki/File:Street_in_the_Medina_of_Fes.jpg), Wikimedia Commons | CC BY-SA 4.0 |
-| `hero-2.webp` | [AtlasMfromOurika.JPG](https://commons.wikimedia.org/wiki/File:AtlasMfromOurika.JPG), Wikimedia Commons | CC BY-SA 3.0 |
-| `hero-3.webp` | Photo de l'ancien site exuma.paris (`pameraie-dades-1024x683.jpg`), fournie par Thea le 08/10/2026 | Exuma |
+Images générées par IA (Gemini 3 Pro Image, mode `--inspire` de `gen-images.mjs`) : la référence sert de brief d'ambiance, l'image produite est une composition nouvelle. Références choisies par Thea le 08/10/2026.
 
-Recadrage carré 1200 px et étalonnage chaud.
+| Image | Référence (brief) | Source de la référence |
+| --- | --- | --- |
+| `hero-1.webp` | `hero-1-ref.jpg` | barcelo.com, guide médina de Fès |
+| `hero-2.webp` | `hero-2-ref.jpg` | les-voyageuses.net, Atlas sous la neige |
+| `hero-3.webp` | `hero-3-ref.jpg` | ancien site exuma.paris, palmeraie |
+| `full-image.webp` | `full-image-ref.jpg` | marrakech-desert-trips.com, Aït Ben Haddou |
+| `split-1.webp` | `split-1-ref.jpg` | Google Images, dinandier |
+| `split-2.webp` | `split-2-ref.jpg` | Google Images, théières en laiton |
+| `xp-campement-desert-1.webp` | `xp-campement-desert-1-ref.jpg` | auberge-africa.com, erg Chebbi |
+
+Saturation ramenée à ~100 (sable du désert), 2752 × 1536.
