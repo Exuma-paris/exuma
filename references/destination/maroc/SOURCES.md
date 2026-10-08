@@ -23,3 +23,4 @@ Saturation ramenée à ~95-100. Cartes d'expériences recadrées en carré.
 | --- | --- | --- |
 | `hotel-karawan-riad.webp` | Photo de l'hôtel (a.otcdn.com, fiche Karawan Riad), fournie par Thea le 08/10/2026 | À confirmer avec l'hôtel |
 | `hotel-dar-ahlam.webp` (dossier `marrakech/`) | Photo de l'hôtel (miniature Google Images), fournie par Thea le 08/10/2026, agrandie fidèlement par IA | À confirmer avec l'hôtel |
+| `hotel-kasbah-tamadot.webp` | Photo de l'hôtel (blog youshouldgohere.com), fournie par Thea le 08/10/2026 ; turquoise de la piscine adouci | À confirmer avec l'hôtel ou l'auteur |
