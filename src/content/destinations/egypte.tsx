@@ -72,9 +72,8 @@ export const destination: Destination = {
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Égypte se lit du nord au sud, à contre-courant. Le Caire d'abord, Gizeh et le Grand Egyptian Museum. Louxor ensuite, à une heure de vol. Assouan enfin, puis Abou Simbel, à quarante kilomètres de la frontière soudanaise. Le fleuve descend dans l'autre sens : c'est lui qui a fixé cet ordre il y a cinq mille ans.",
-        "Le plateau de Gizeh se tient à la lisière de la ville. Depuis 2025, le Grand Egyptian Museum lui fait face avec la collection complète de Toutânkhamon, cinq mille quatre cents objets réunis pour la première fois au même endroit. La chambre funéraire n'avait jamais été montrée dans son entier.", // TODO: verify nombre d'objets et date d'ouverture complète du GEM
-        "Louxor coupe la journée en deux. Sur la rive est, Karnak et le temple de Louxor, les vivants. Sur la rive ouest, la Vallée des Rois, la Vallée des Reines et Deir el-Bahari, les morts. On traverse le fleuve à midi, et c'est le seul trajet du voyage qui a un sens rituel.",
-        "Trois maisons portent l'itinéraire. L'Old Cataract ouvre sur la première cataracte et l'île Éléphantine, à Assouan. Al Moudira se tient sur la rive ouest de Louxor, à l'écart des quais. Une dahabieh privatisée relie les deux, à la voile, quatre à six cabines et un équipage complet pour une seule famille.",
+        "Le plateau de Gizeh se tient à la lisière de la ville. Depuis 2025, le Grand Egyptian Museum lui fait face avec la collection complète de Toutânkhamon, cinq mille quatre cents objets réunis pour la première fois au même endroit. La chambre funéraire n'avait jamais été montrée dans son entier.",
+        "Louxor coupe la journée en deux : Karnak sur la rive est, les vivants ; la Vallée des Rois et Deir el-Bahari sur la rive ouest, les morts. On dort à Al Moudira, à l'écart des quais. Puis une dahabieh privatisée remonte le fleuve à la voile jusqu'à Assouan et l'Old Cataract, face à l'île Éléphantine.",
       ],
     },
 
@@ -239,7 +238,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Égypte, du plateau de Gizeh à l'oasis de Siwa",
             "Adresses confidentielles en Égypte : tombes fermées et visites hors horaires",
             "Hébergements en Égypte : Old Cataract d'Assouan et dahabieh privatisée",
-            "Conciergerie privée 24/7 pour un voyage en Égypte",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Expériences immersives en Égypte : Vallée des Rois, Nil et désert de Siwa",
           ][i],
         },
@@ -660,8 +659,8 @@ export const destination: Destination = {
       eyebrow: "Inspirations",
       heading: "Destinations similaires",
       description:
-        "Une autre ville où l'histoire se lit dans la pierre et où les ruelles se traversent avant la chaleur. La Jordanie et Oman rejoindront bientôt cette sélection.",
-      slugs: ["marrakech"],
+        "D'autres déserts où l'histoire se lit dans la pierre. Pétra et le Wadi Rum en Jordanie, les tombeaux nabatéens de Hegra en Arabie saoudite, les kasbahs et les médinas du Maroc.",
+      slugs: ["jordanie", "arabie-saoudite", "maroc"],
     },
   ],
 };
