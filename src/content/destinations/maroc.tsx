@@ -35,15 +35,15 @@ export const destination: Destination = {
         "Le Maroc change de visage à chaque étape. À Fès, les artisans travaillent dans les mêmes ruelles que leurs grands-pères et l'appel du muezzin donne l'heure mieux qu'une montre. Plus au sud, les palmeraies du Dadès s'endorment tôt, et dans le Haut Atlas les bergers montent avec leurs bêtes dès que la neige libère les pâturages. C'est ce Maroc-là que nous vous ouvrons, avec ceux qui y travaillent et qui savent en parler.",
       images: [
         {
-          src: "/destination/maroc/hero-1.png",
+          src: "/destination/maroc/hero-1.webp",
           alt: "Ruelle de la médina de Fès au Maroc à la lumière du matin",
         },
         {
-          src: "/destination/maroc/hero-2.png",
-          alt: "Sommets enneigés du Haut Atlas vus depuis la vallée d'Asni",
+          src: "/destination/maroc/hero-2.webp",
+          alt: "Sommets enneigés du Haut Atlas vus depuis la vallée de l'Ourika",
         },
         {
-          src: "/destination/maroc/hero-3.png",
+          src: "/destination/maroc/hero-3.webp",
           alt: "Palmeraie et kasbah de terre dans la vallée du Dadès",
         },
       ],
@@ -614,7 +614,7 @@ export const destination: Destination = {
           quote:
             "Notre guide à Fès nous a fait entrer dans des ateliers où nous n'aurions jamais osé pousser la porte. Nous sommes restés deux heures chez un maroquinier, et c'est de lui que nous parlons encore.",
           image: {
-            src: "/destination/maroc/hero-1.png",
+            src: "/destination/maroc/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -625,7 +625,7 @@ export const destination: Destination = {
           quote:
             "La nuit dans les dunes restera le souvenir du voyage. Nous avons regardé le ciel jusqu'à une heure impossible, et personne n'avait envie d'aller se coucher.",
           image: {
-            src: "/destination/maroc/hero-2.png",
+            src: "/destination/maroc/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -636,7 +636,7 @@ export const destination: Destination = {
           quote:
             "À Dar Ahlam, personne ne nous a jamais demandé à quelle heure nous voulions dîner, et chaque repas nous attendait dans un endroit différent. Nous avons cessé de regarder l'heure au bout d'une journée.",
           image: {
-            src: "/destination/maroc/hero-3.png",
+            src: "/destination/maroc/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
