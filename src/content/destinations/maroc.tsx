@@ -225,13 +225,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/maroc/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/maroc/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Maroc entre Fès, le Haut Atlas et la vallée du Dadès",
-            "Adresses confidentielles au Maroc : ateliers d'artisans et maisons privées",
-            "Hébergements au Maroc : Karawan Riad, Dar Ahlam et Kasbah Tamadot",
-            "Conciergerie privée 24/7 pour un voyage au Maroc",
-            "Expériences immersives au Maroc : nuit dans le désert et vallée des Roses",
+            "Adresses confidentielles au Maroc : un atelier d'artisan caché dans la médina de Fès",
+            "Hébergements au Maroc : la kasbah Dar Ahlam dans la palmeraie de Skoura",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Expériences immersives au Maroc : caravane au lever du soleil sur les dunes de l'erg Chebbi",
           ][i],
         },
       })),
