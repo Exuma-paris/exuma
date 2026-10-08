@@ -112,11 +112,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/maroc/xp-campement-desert-1.webp",
-          alt: "Campement privé dressé au creux des dunes de l'erg Chebbi au crépuscule",
+          alt: "Dunes de l'erg Chebbi dans la lumière de fin d'après-midi",
         },
         right: {
-          src: "/destination/maroc/xp-campement-desert-2.png",
-          alt: "Table dressée sur le sable devant un campement privé du désert marocain",
+          src: "/destination/maroc/xp-campement-desert-2.webp",
+          alt: "Dîner pour deux sur le sable, face aux dunes de l'erg Chebbi",
         },
       },
       text: {
@@ -252,7 +252,7 @@ export const destination: Destination = {
           description:
             "La médina se transmet de main en main, entre les tanneurs, les tisserands et les selliers installés là depuis des générations. On y marche avec quelqu'un qui y est né, sinon la ville garde ses portes fermées.",
           image: {
-            src: "/destination/maroc/map-fes.png",
+            src: "/destination/maroc/map-fes.webp",
             alt: "Toits et minarets de la médina de Fès au Maroc vus depuis une terrasse",
           },
           // TODO: verify coords
@@ -263,7 +263,7 @@ export const destination: Destination = {
           description:
             "Les villages de pierre s'accrochent au-dessus des vergers, et les sentiers de mules montent vers le plus haut sommet d'Afrique du Nord. Le printemps y libère les pâturages, et les bergers remontent avec leurs troupeaux.",
           image: {
-            src: "/destination/maroc/map-haut-atlas.png",
+            src: "/destination/maroc/map-haut-atlas.webp",
             alt: "Village berbère et sommets du Haut Atlas au-dessus de la vallée d'Imlil",
           },
           // TODO: verify coords
@@ -274,7 +274,7 @@ export const destination: Destination = {
           description:
             "La ville tient ensemble une médina qui ne dort jamais tout à fait et des jardins où l'on n'entend plus rien. On y revient surtout pour ses maisons et pour ses tables.",
           image: {
-            src: "/destination/maroc/map-marrakech.png",
+            src: "/destination/maroc/map-marrakech.webp",
             alt: "Jardin d'un riad de la médina de Marrakech avec bassin et orangers",
           },
           // TODO: verify coords
@@ -285,7 +285,7 @@ export const destination: Destination = {
           description:
             "Les kasbahs de terre suivent la rivière entre les palmeraies, et le soir tombe d'un coup derrière les gorges. C'est ici que le voyage ralentit, souvent au bon moment.",
           image: {
-            src: "/destination/maroc/map-dades.png",
+            src: "/destination/maroc/map-dades.webp",
             alt: "Kasbahs de terre et palmeraie le long de la rivière dans la vallée du Dadès",
           },
           // TODO: verify coords
@@ -296,7 +296,7 @@ export const destination: Destination = {
           description:
             "Les dunes se lèvent d'un coup au bout de la piste, hautes comme des collines, et changent de couleur toute la journée. C'est ici que l'on dort dehors, et que la nuit devient l'événement du voyage.",
           image: {
-            src: "/destination/maroc/map-erg-chebbi.png",
+            src: "/destination/maroc/map-erg-chebbi.webp",
             alt: "Dunes de l'erg Chebbi près de Merzouga au lever du jour dans le Sahara marocain",
           },
           // TODO: verify coords
@@ -307,7 +307,7 @@ export const destination: Destination = {
           description:
             "La ville regarde l'Espagne depuis ses collines, et le trafic des cargos ne s'arrête jamais dans le détroit. Les cafés de la falaise ont vu passer assez d'écrivains pour que l'on comprenne ce qui les retenait.",
           image: {
-            src: "/destination/maroc/map-tanger.png",
+            src: "/destination/maroc/map-tanger.webp",
             alt: "Baie de Tanger et détroit de Gibraltar vus depuis les hauteurs de la ville",
           },
           // TODO: verify coords

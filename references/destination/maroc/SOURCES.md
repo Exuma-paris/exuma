@@ -10,7 +10,8 @@ Images générées par IA (Gemini 3 Pro Image, mode `--inspire` de `gen-images.m
 | `full-image.webp` | `full-image-ref.jpg` | marrakech-desert-trips.com, Aït Ben Haddou |
 | `split-1.webp` | `split-1-ref.jpg` | Google Images, dinandier |
 | `split-2.webp` | `split-2-ref.jpg` | Google Images, théières en laiton |
-| `xp-campement-desert-1.webp` | `xp-campement-desert-1-ref.jpg` | auberge-africa.com, erg Chebbi |
+| `xp-campement-desert-1.webp` | aucune (génération texte, demande de Thea : dunes seules) | |
+| `xp-campement-desert-2.webp` | aucune (génération texte : table pour deux, deux personnes de dos) | |
 | `xp-sagesse-soufie.webp` | `xp-sagesse-soufie-ref.jpg` | dunesdeserts.com, thé |
 | `xp-vallee-des-roses.webp` | `xp-vallee-des-roses-ref.jpg` | trekatlassahara.com, cueillette des roses |
 | `xp-detroit-gibraltar.webp` | `xp-detroit-gibraltar-ref.jpg` | visitmorocco (CDN), phare du cap Spartel |
@@ -24,3 +25,4 @@ Saturation ramenée à ~95-100. Cartes d'expériences recadrées en carré.
 | `hotel-karawan-riad.webp` | Photo de l'hôtel (a.otcdn.com, fiche Karawan Riad), fournie par Thea le 08/10/2026 | À confirmer avec l'hôtel |
 | `hotel-dar-ahlam.webp` (dossier `marrakech/`) | Photo de l'hôtel (miniature Google Images), fournie par Thea le 08/10/2026, agrandie fidèlement par IA | À confirmer avec l'hôtel |
 | `hotel-kasbah-tamadot.webp` | Photo de l'hôtel (blog youshouldgohere.com), fournie par Thea le 08/10/2026 ; turquoise de la piscine adouci | À confirmer avec l'hôtel ou l'auteur |
+| `map-*.webp` (6 lieux de la carte) | aucune (génération texte d'après les légendes) | |
