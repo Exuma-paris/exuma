@@ -29,3 +29,5 @@ Each generated image in `public/destination/marrakech/` was produced by feeding 
 | `map-kik.png`              | `map-kik-ref.jpg`           | TODO       | TODO    |
 | `map-agdal.png`            | `map-agdal-ref.jpg`         | TODO       | TODO    |
 | `map-skoura.png`           | `map-skoura-ref.jpg`        | TODO       | TODO    |
+
+| `hotel-dar-ahlam.webp` | `hotel-dar-ahlam-ref.jpg` : photo de l'hôtel (miniature Google Images), fournie par Thea le 08/10/2026, agrandie fidèlement par IA (Gemini) | Autorisation à confirmer avec l'hôtel |
