@@ -11,7 +11,7 @@ Images générées par IA (Gemini 3 Pro Image, mode `--inspire` de `gen-images.m
 | `split-1.webp` | `split-1-ref.jpg` | Google Images, dinandier |
 | `split-2.webp` | `split-2-ref.jpg` | Google Images, théières en laiton |
 | `xp-campement-desert-1.webp` | `xp-campement-desert-1-ref.jpg` | auberge-africa.com, erg Chebbi |
-
-Saturation ramenée à ~100 (sable du désert), 2752 × 1536.
 | `xp-sagesse-soufie.webp` | `xp-sagesse-soufie-ref.jpg` | dunesdeserts.com, thé |
 | `xp-vallee-des-roses.webp` | `xp-vallee-des-roses-ref.jpg` | trekatlassahara.com, cueillette des roses |
+
+Saturation ramenée à ~95-100. Cartes d'expériences recadrées en carré.
