@@ -42,3 +42,5 @@ Quatre visuels n'ont pas suivi le traitement standard :
 | `xp-namib-naukluft.webp` | Photo non libre de droit. Régénérée avec appareil plus bas sur la crête, cadrage plus large et marcheur vu de dos, pour ne pas reproduire l'original. |
 | `bento-conciergerie.webp` | Photo appartenant à l'agence. Reprise à l'exactitude, filtre Exuma appliqué en local, aucun passage par le modèle. |
 | `bento-map.webp` | Composée localement à partir d'un contour au trait de la Namibie, dans le langage graphique de la Polynésie : fond anthracite, pays en crème, étapes de l'itinéraire numérotées en ocre reliées par un pointillé. Script : `.claude/skills/destination-generator/tmp/build-bento-map.mjs`. |
+
+| `hero-3.webp` | Photo de Thea (IMG_0340), fournie le 09/10/2026, recadrée en carré et légèrement réchauffée | Exuma |

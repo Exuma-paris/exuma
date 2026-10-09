@@ -44,7 +44,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/namibie/hero-3.webp",
-          alt: "Lion traversant un point d'eau d'Etosha entre girafes, gnous et springboks",
+          alt: "Rhinocéros blanc dans les herbes sèches, derrière les branches d'un buisson épineux, Namibie",
         },
       ],
     },
