@@ -112,11 +112,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/namibie/xp-kalahari-1.webp",
-          alt: "Dunes rouges du Kalahari striées d'herbes sèches en fin de journée, Namibie",
+          alt: "Dune de sable rouge du Kalahari et acacias sous un ciel nuageux, Namibie",
         },
         right: {
           src: "/destination/namibie/xp-kalahari-2.webp",
-          alt: "Girafe traversant la brousse du Kalahari dans la lumière du soir",
+          alt: "Oryx traversant la steppe dorée du Kalahari devant une dune rouge, Namibie",
         },
       },
       text: {
