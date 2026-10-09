@@ -97,7 +97,7 @@ export const serviceCategory: ServiceCategory = {
         {
           title: "Personnel dédié",
           paragraphs: [
-            "Nounou anglophone, chef à demeure, majordome, professeur de ski, skipper. Nous choisissons la personne, vérifions ses références et ses habilitations, et vous la présentons avant le départ.",
+            "Nounou anglophone, chef à demeure, majordome, coach sportif, professeur de ski, skipper. Nous choisissons la personne, vérifions ses références et ses habilitations, et vous la présentons avant le départ.",
             "Vous ne recevez pas un profil au hasard. Nous tenons compte de l'âge des enfants, des langues parlées chez vous, des allergies, et de ce qui vous met à l'aise ou non dans une maison.",
             "Sur les séjours longs, la même personne reste du premier au dernier jour, et nous restons son interlocuteur. Vous n'avez ni planning à tenir, ni salaire à gérer.",
           ],

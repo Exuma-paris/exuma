@@ -305,8 +305,8 @@ export const sections: Section[] = [
     // volontairement, la colonne de texte est décalée et se charge vite.
     paragraphs: [
       "Un vol supprimé un dimanche soir ne remonte pas jusqu'à vous. Il remonte jusqu'à nous, et votre collaborateur repart.",
-      "Vous ne perdez plus de temps à réserver, à relancer, à vérifier une note de frais. Vous décidez qui part et pourquoi, nous tenons le reste.",
-      "Voyages d'affaires, séminaires, déplacements de groupe : depuis Paris, nous prenons la gestion des déplacements de vos équipes. Que la demande vienne de vous, de votre assistante de direction ou du voyageur lui-même, elle arrive chez un interlocuteur qui connaît vos règles.",
+      "Vous décidez qui part et pourquoi, nous tenons le reste.",
+      "Voyages d'affaires, séminaires, déplacements de groupe : depuis Paris, nous gérons les déplacements de vos équipes, avec un interlocuteur qui connaît vos règles.",
     ],
     images: [
       {

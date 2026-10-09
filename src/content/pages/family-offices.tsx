@@ -296,7 +296,7 @@ export const sections: Section[] = [
     // court volontairement, la colonne de texte est décalée et se charge vite.
     paragraphs: [
       "Votre client ne saura pas qui a rattrapé le vol annulé un dimanche soir. Il saura que vous vous en êtes occupée.",
-      "Nous restons en retrait : nous ne prenons pas la relation, nous la servons. Vous restez son interlocuteur, nous restons le dispositif derrière vous.",
+      "Vous restez son interlocuteur, nous restons en retrait, derrière vous.",
       "Family officer, assistante personnelle ou de direction : depuis Paris, nous prenons la gestion des déplacements de vos clients, voyages d'affaires comme séjours privés. Votre nom passe devant le nôtre.",
     ],
     images: [

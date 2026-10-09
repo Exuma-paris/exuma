@@ -152,9 +152,8 @@ export const serviceCategory: ServiceCategory = {
       eyebrow: "Un jour de départ",
       heading: "Ce qui se passe pendant que vous faites votre valise",
       paragraphs: [
-        "La veille, votre conseiller vérifie une dernière fois les éléments qui peuvent encore bouger : l'état du vol, la météo à l'arrivée, la validité des documents de chaque voyageur, l'heure réelle à laquelle la voiture doit être devant chez vous.",
-        "Le matin, il sait que vous êtes parti avant que vous ne l'appeliez. Le chauffeur a confirmé la prise en charge, l'agent d'accueil a votre numéro de vol, l'hôtel sait à quelle heure vous arrivez et prépare la chambre en conséquence.",
-        "Si quelque chose se déplace en cours de route, vous l'apprenez de nous, avec ce que nous avons déjà mis en place. C'est la seule différence qui compte : vous n'êtes jamais celui qui doit appeler.",
+        "La veille, votre conseiller vérifie ce qui peut encore bouger : le vol, la météo à l'arrivée, les documents de chaque voyageur, l'heure du chauffeur.",
+        "Le jour du départ, le chauffeur a confirmé, l'accueil a votre numéro de vol et l'hôtel prépare la chambre pour votre arrivée. Si quelque chose change en route, c'est nous qui vous appelons, avec la solution déjà en place.",
       ],
       // La paire joue les deux lieux à la même heure, ce que le titre promet :
       // chez nous le dossier se vérifie, chez vous la valise se fait.
