@@ -49,3 +49,6 @@ Quatre visuels n'ont pas suivi le traitement standard :
 | `xp-kalahari-1.webp` | IA d'après `xp-kalahari-1-ref.jpg` (doublesens.fr), référence choisie par Thea le 09/10/2026 | |
 | `xp-kalahari-2.webp` | IA d'après `xp-kalahari-2-ref.jpg` (stockfood.com, oryx), recadrée en portrait | |
 | `xp-skeleton-coast.webp` | IA d'après `xp-skeleton-coast-ref.jpg` (webflow CDN), recadrée en carré | |
+| `xp-sossusvlei.webp` | IA d'après `xp-sossusvlei-ref.jpg` (generationvoyage.fr, Deadvlei), recadrée en carré | |
+| `xp-ongava.webp` | Photo de Thea (IMG_0342, rhinocéros à Ongava), recadrée en carré ; bord de chapeau flou ajouté par IA au premier plan à sa demande | Exuma |
+| `bento-map.webp` | Carte existante réduite et placée en haut à droite (09/10/2026) | |

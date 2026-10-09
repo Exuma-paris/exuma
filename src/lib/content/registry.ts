@@ -193,6 +193,7 @@ import { experience as marcheBushmenSan } from "@/content/experiences/marche-bus
 import { experience as safariNocturneProjecteur } from "@/content/experiences/safari-nocturne-projecteur";
 import { experience as echappeeSkeletonCoast } from "@/content/experiences/echappee-skeleton-coast";
 import { experience as parcNamibNaukluft } from "@/content/experiences/parc-namib-naukluft";
+import { experience as ongavaPistageRhinoceros } from "@/content/experiences/ongava-pistage-rhinoceros";
 import { experience as sossusvleiDeadvlei } from "@/content/experiences/sossusvlei-deadvlei";
 import { experience as valleeRoisTombesFermees } from "@/content/experiences/vallee-rois-tombes-fermees";
 import { experience as montgolfiereNecropoleThebaine } from "@/content/experiences/montgolfiere-necropole-thebaine";
@@ -994,6 +995,7 @@ export const experiences: Record<string, Experience> = toMap([
   observationEtoilesWadiRum,
   olduvaiPaleoanthropologue,
   parcNamibNaukluft,
+  ongavaPistageRhinoceros,
   pecheMoorea,
   pecheMoucheSkye,
   rizieresIfugao,

@@ -137,10 +137,10 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en Namibie",
       heading: "Trois terrains inscrits à l'itinéraire",
       description:
-        "Trois sorties portent le voyage. On part d'abord vers la Skeleton Coast, en avion léger puis en 4x4 par la vallée de la Hoanib. On traverse ensuite le Namib-Naukluft, des sommets du Naukluft aux plaines de galets. On monte enfin sur les dunes de Sossusvlei, avant la marche jusqu'à Deadvlei.",
+        "Trois sorties portent le voyage. On part d'abord vers la Skeleton Coast, en avion léger puis en 4x4 par la vallée de la Hoanib. On piste ensuite les rhinocéros à pied dans la réserve d'Ongava, en bordure d'Etosha. On monte enfin sur les dunes de Sossusvlei, avant la marche jusqu'à Deadvlei.",
       slugs: [
         "echappee-skeleton-coast",
-        "parc-namib-naukluft",
+        "ongava-pistage-rhinoceros",
         "sossusvlei-deadvlei",
       ],
     },
