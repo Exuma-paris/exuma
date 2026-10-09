@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["zanzibar", "paje", "villa privee", "piscine", "famille", "kitesurf"],
   heroImage: {
     src: "/destination/zanzibar/hotel-white-sand.webp",
-    alt: "Villa avec piscine privée ouverte sur la plage de Paje, côte sud-est de Zanzibar",
+    alt: "Villa et piscine privée dans les palmiers, vues du ciel, à Paje, côte sud-est de Zanzibar",
   },
   destinationSlugs: ["zanzibar"],
   sections: [],
