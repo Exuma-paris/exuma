@@ -10,3 +10,4 @@
 | `split-2.webp` | IA, génération texte (charpentiers de boutres à Nungwi) | |
 | `split-2.webp` | IA d'après `split-2-ref.jpg` (dreamstime, coque en bois), avec la mer visible à la demande de Thea | |
 | `xp-corail-mnemba-1.webp` | Photo de référence elle-même, sans IA, à la demande de Thea : Coral Gardeners, Myles McGuinness pour Tahiti Tourisme (tahititourisme.pf). Recadrée. Prise en Polynésie, pas à Mnemba. | Droits à confirmer avant publication |
+| `xp-corail-mnemba-2.webp` | Photo de référence elle-même (vivreazanzibar.fr, atoll de Mnemba), recadrée, turquoise adouci | Droits à confirmer avant publication |

@@ -116,7 +116,7 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/zanzibar/xp-corail-mnemba-2.webp",
-          alt: "Récif corallien et poissons tropicaux dans la réserve marine de Mnemba, Zanzibar",
+          alt: "L'atoll de Mnemba vu du ciel, sa plage blanche et son récif, Zanzibar",
         },
       },
       text: {
