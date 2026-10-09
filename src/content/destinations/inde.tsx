@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "L'Inde a cette générosité de laisser plusieurs voyages tenir dans un seul. On remonte le Gange à l'heure où Varanasi s'éveille, on dîne quelques jours plus tard à la table d'une famille qui habite son fort depuis des générations, et l'on se réveille enfin dans une vallée du Rajasthan que rien ne vient troubler. J'aime la faire découvrir par ses maisons autant que par ses monuments, car ce sont elles qui décident du souvenir que l'on rapporte.",
+          "En Inde, plusieurs voyages tiennent dans un seul. On navigue sur le Gange au réveil de Varanasi, on dîne chez une famille qui habite son fort depuis des générations, puis on se réveille dans une vallée calme du Rajasthan. Je fais découvrir le pays par ses maisons autant que par ses monuments : ce sont elles qui marquent le plus.",
         role: "Travel Designer · Inde",
       },
       features: defaultSpotlightFeatures,

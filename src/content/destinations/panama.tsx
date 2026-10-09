@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Tainà porte déjà le Costa Rica et la Colombie)
         // TODO: verify quote attribution — à faire valider par Tainà avant mise en ligne
         quote:
-          "Le Panama se lit côte par côte. Le Pacifique et la caraïbe n'ont pas la même saison sèche, pas les mêmes adresses, pas le même rapport au visiteur : un itinéraire qui ignore ce décalage manque la moitié du pays. Les lieux qui font le voyage se demandent un par un : aux communautés guna pour leurs îles, au parc national de Coiba pour la réserve marine, au propriétaire de la finca pour son café.",
+          "Au Panama, la côte Pacifique et la côte caraïbe n'ont ni la même saison sèche, ni les mêmes adresses : un bon itinéraire tient compte de ce décalage. L'accès aux plus beaux lieux se demande un par un : aux communautés guna pour leurs îles, au parc national de Coiba pour la réserve marine, à un producteur pour sa finca de café.",
         role: "Travel Designer · Panama",
       },
       features: defaultSpotlightFeatures,

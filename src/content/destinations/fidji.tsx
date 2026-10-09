@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Il y a toujours, dans un voyage aux Fidji, un moment où l'on cesse de compter les jours, et c'est presque toujours le soir où l'on se retrouve assis sur une natte, dans un village dont on ignorait le nom le matin même. Je construis chaque séjour autour de ce basculement : d'abord le lagon et son silence, puis la terre et ceux qui attendent qu'on vienne s'asseoir.",
+          "Aux Fidji, il y a toujours un moment où l'on cesse de compter les jours : souvent le soir où l'on se retrouve assis sur une natte, dans un village dont on ignorait le nom le matin même. Je construis chaque séjour en deux temps : d'abord le lagon et son calme, puis la terre et les villages qui vous accueillent.",
         role: "Travel Designer · Fidji",
       },
       features: defaultSpotlightFeatures,

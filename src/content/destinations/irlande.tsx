@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "L'Irlande est le pays qui me surprend encore. On croit y aller pour les paysages, et ce sont les gens dont on parle en rentrant : on entre dans un pub pour un verre, quelqu'un se met à raconter, et la soirée est faite. Ma région préférée reste l'ouest, entre le Connemara et le Kerry, là où la pierre, l'eau et l'herbe se partagent tout. Et j'aime que le pays ne cherche jamais à impressionner : les plus belles maisons y sont des maisons de famille, et l'on y dîne comme chez des amis qui auraient un lac au fond du jardin.",
+          "En Irlande, on vient pour les paysages et l'on rentre en parlant des gens : on entre dans un pub pour un verre, quelqu'un se met à raconter, et la soirée est faite. Ma région préférée est l'ouest, entre le Connemara et le Kerry. Les plus belles adresses y sont des maisons de famille, où l'on dîne comme chez des amis.",
         role: "Travel Designer · Irlande",
       },
       features: defaultSpotlightFeatures,

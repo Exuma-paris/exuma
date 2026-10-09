@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Le Chili se traverse dans le sens de la longueur, et c'est là que tout se joue. Trois jours de trop dans le désert et l'on arrive fatigué en Patagonie, où le vent ne pardonne rien. Je construis les itinéraires avec des guides que je connais depuis dix ans, à San Pedro comme à Puerto Natales, et ce sont eux qui ouvrent les estancias et les caves qui ne reçoivent personne.",
+          "Le Chili se parcourt du nord au sud, et tout se joue dans le dosage des étapes : trois jours de trop dans le désert, et l'on arrive fatigué en Patagonie, où le vent est rude. Je travaille avec des guides que je connais depuis dix ans, à San Pedro comme à Puerto Natales. Ils nous ouvrent des estancias et des caves fermées au public.",
         role: "Travel Designer · Chili",
       },
       features: defaultSpotlightFeatures,

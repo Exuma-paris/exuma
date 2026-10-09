@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "On me demande souvent si une journée suffit pour Pétra. Elle ne suffit pas, et je le dis avant même de parler du reste du voyage. Le site est immense, et la plupart des visiteurs s'arrêtent au Khazneh alors que les vallées derrière sont vides. Je réserve donc toujours deux nuits à Wadi Musa, et j'entre le second matin par le chemin de Little Petra, celui qui arrive au Monastère par le haut. Mon autre consigne concerne le désert : une nuit au campement ne suffit pas non plus, parce que la première se passe à s'habituer au froid et au silence. C'est la seconde nuit dont les voyageurs me reparlent.",
+          "À Pétra, une journée ne suffit pas. La plupart des visiteurs s'arrêtent au Khazneh, alors que les vallées derrière sont presque vides. Je prévois donc deux nuits à Wadi Musa, avec une entrée le second matin par Little Petra, qui mène au Monastère par le haut. Dans le désert, je conseille aussi deux nuits au campement plutôt qu'une.",
         role: "Travel Designer · Jordanie",
       },
       features: defaultSpotlightFeatures,

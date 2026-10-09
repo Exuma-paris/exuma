@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "On croit connaître l’Autriche parce qu’on a vu Vienne un week-end. Puis quelqu’un vous fait entrer au Musikverein un matin de répétition, un vigneron de Dürnstein remonte un vieux millésime de sa cave, et le pays change de dimension. Ces portes-là ne s’ouvrent pas depuis un site de réservation. Elles s’ouvrent parce qu’on a téléphoné la veille, et parce qu’on téléphone depuis dix ans.",
+          "On croit connaître l’Autriche après un week-end à Vienne. Puis on entre au Musikverein un matin de répétition, un vigneron de Dürnstein ouvre pour vous un vieux millésime, et le pays prend une autre dimension. Ces accès ne se réservent pas en ligne : ils s’obtiennent par un appel la veille, à des contacts que je connais depuis dix ans.",
         role: "Travel Designer · Autriche",
       },
       features: defaultSpotlightFeatures,

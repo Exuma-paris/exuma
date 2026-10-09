@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Madagascar est le seul pays où je ne reconnais rien de ce que je connais ailleurs. Les arbres, les animaux, la couleur de la terre : tout y est particulier, et cela commence dès le hublot de l'avion. Ma région préférée est le Nord, autour d'Antsiranana, pour ses collines rouges et sa lumière de fin de journée. Mais ce dont mes voyageurs me parlent au retour, ce sont les gens. On leur explique, on prend le temps de répondre, on les invite à s'asseoir. Ils rentrent avec des prénoms en tête.",
+          "À Madagascar, rien ne ressemble à ce que l'on connaît ailleurs : les arbres, les animaux, la couleur de la terre. Ma région préférée est le Nord, autour d'Antsiranana, pour ses collines rouges et sa lumière du soir. Mais au retour, mes voyageurs me parlent surtout des gens, qui prennent le temps d'expliquer et les invitent à s'asseoir.",
         role: "Travel Designer · Madagascar",
       },
       features: defaultSpotlightFeatures,

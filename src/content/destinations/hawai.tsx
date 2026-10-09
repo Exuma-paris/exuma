@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime à Hawaï, c'est que l'archipel ne se laisse jamais résumer à une seule île. On croit partir pour des plages, et l'on rentre en parlant d'un sommet glacé au-dessus des nuages, d'une vallée où une famille vous a reçus, d'un ranch où l'on monte à cheval comme il y a un siècle. Ces contrastes ne s'improvisent pas sur place : tout mon travail consiste à les mettre dans le bon ordre, pour que chaque île vous surprenne à son tour.",
+          "À Hawaï, chaque île offre une expérience différente. On croit partir pour des plages, et l'on rentre en parlant d'un sommet glacé au-dessus des nuages, d'une vallée où une famille vous a reçus, d'un ranch où l'on monte à cheval comme autrefois. Mon travail consiste à enchaîner les îles dans le bon ordre, pour que chacune vous surprenne.",
         role: "Travel Designer · Hawaï",
       },
       features: defaultSpotlightFeatures,

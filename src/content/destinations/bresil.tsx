@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "J'aime le Brésil pour ses paysages, et encore davantage pour ceux qui y vivent. Ici, on vous prend par le bras, on vous fait goûter, on vous raconte, et une journée prévue pour deux heures en dure six. Le pilote de 4×4 du Maranhão, la cuisinière de Salvador, le pisteur du Pantanal : chacun a sa façon de vous ouvrir sa région. Je passe l'essentiel de mon temps à choisir ces personnes-là, parce que ce sont elles qui font le voyage.",
+          "J'aime le Brésil pour ses paysages, et plus encore pour ses habitants. On vous prend par le bras, on vous fait goûter, on vous raconte, et une visite prévue pour deux heures en dure six. Le pilote de 4×4 du Maranhão, la cuisinière de Salvador, le pisteur du Pantanal : je choisis ces personnes, car ce sont elles qui font le voyage.",
         role: "Travel Designer · Brésil",
       },
       features: defaultSpotlightFeatures,

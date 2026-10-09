@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Il existe peu d'îles où l'on puisse regarder les fresques de Sigiriya au lever du jour, s'endormir le soir dans un bungalow de planteur au milieu des théiers, et suivre la trace d'un léopard le surlendemain. Le Sri Lanka autorise ce déroulé, et c'est précisément lui que nous prenons le temps d'écrire, étape après étape. Un voyage qui s'enchaîne, plutôt qu'une succession de visites.",
+          "Au Sri Lanka, on peut voir les fresques de Sigiriya au lever du jour, dormir le soir dans un bungalow de planteur au milieu des théiers, puis suivre la trace d'un léopard le surlendemain. Peu d'îles permettent un tel enchaînement. Je construis ce parcours étape par étape, pour un voyage fluide plutôt qu'une suite de visites.",
         role: "Travel Designer · Sri Lanka",
       },
       features: defaultSpotlightFeatures,

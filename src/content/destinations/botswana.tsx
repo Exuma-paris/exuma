@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Le Botswana se découvre à travers plusieurs camps. L'intérêt du voyage tient au passage d'un milieu à l'autre : les eaux du delta, les plaines de la Gomoti, puis les étendues salines du Makgadikgadi. En dix jours, l'itinéraire traverse trois écosystèmes. Chacun propose une approche différente, du bateau à la marche. Le pays limite le nombre de lits sur chaque concession. Cela explique la faible présence de véhicules pendant les safaris. C'est la seule destination de safari où je construis un itinéraire dense, sans avoir à composer avec la foule.",
+          "Au Botswana, on voyage de camp en camp à travers trois milieux : les eaux du delta de l'Okavango, les plaines de la Gomoti, puis les étendues salines du Makgadikgadi, en bateau comme à pied. Le pays limite le nombre de lits sur chaque concession, donc on croise très peu de véhicules. C'est un safari riche, sans la foule.",
         role: "Travel Designer · Botswana",
       },
       features: defaultSpotlightFeatures,

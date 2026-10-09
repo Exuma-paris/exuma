@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: reformulation du compte rendu d'éductour de Tainà (30 avril au 8 mai) — à faire valider par elle avant mise en ligne
         quote:
-          "Ici, le haut de gamme ne se mesure pas au marbre de la salle de bains, mais à l'accès à la nature. Les meilleures adresses sont des écolodges posés dans leur environnement, avec une terrasse ouverte sur la canopée, un sentier privé vers une cascade et un guide naturaliste attaché à la maison. Elles comptent peu de chambres, et les plus belles se réservent longtemps à l'avance. Je construis ces voyages sur quinze jours, avec de vraies journées sans transfert : c'est ce qui sépare voir le Costa Rica de le vivre.",
+          "Au Costa Rica, le luxe se mesure à l'accès à la nature plus qu'au marbre de la salle de bains. Les meilleures adresses sont des écolodges de peu de chambres, avec une terrasse sur la canopée, un sentier privé vers une cascade et un guide naturaliste attitré. Je prévois quinze jours, avec de vraies journées sans transfert.",
         role: "Travel Designer · Costa Rica",
       },
       features: defaultSpotlightFeatures,

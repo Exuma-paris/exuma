@@ -56,7 +56,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La Croatie se lit par la mer, pas par la route. Un voilier avec skipper change complètement la façon dont on découvre la côte dalmate : les Kornati, invisibles depuis la terre, deviennent le cœur du voyage plutôt qu'une excursion d'une journée. Je construis toujours l'itinéraire autour d'une base fixe, Dubrovnik ou Split, et je laisse la météo du jour décider du mouillage.",
+          "En Croatie, je conseille de découvrir la côte dalmate par la mer. En voilier avec skipper, les îles Kornati, inaccessibles par la route, deviennent le cœur du voyage et non une simple excursion à la journée. Je construis l'itinéraire autour d'une base fixe, Dubrovnik ou Split, et c'est la météo du jour qui décide du mouillage.",
       },
       features: defaultSpotlightFeatures,
     },

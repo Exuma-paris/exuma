@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Le pays n'accueille des voyageurs que depuis 2019, et cela s'entend dans la façon dont on est reçu. On est encore une curiosité : on vous invite à vous asseoir, et le café à la cardamome se ressert jusqu'à ce que vous secouiez la tasse. À AlUla, je fais toujours entrer à Hegra en début de matinée, quand les tombeaux sont encore dans l'ombre et que le guide de la vallée a le temps de tout expliquer. C'est une destination que je conseille souvent à deux générations qui partent ensemble : chaque pierre s'y raconte, et les journées restent courtes.",
+          "L'Arabie saoudite n'accueille des voyageurs que depuis 2019, et on y est encore reçu avec curiosité : on vous invite à vous asseoir, on vous ressert du café à la cardamome. À AlUla, je fais entrer à Hegra tôt le matin, quand les tombeaux sont à l'ombre et que le guide a le temps de tout expliquer. Idéal pour un voyage à deux générations.",
         role: "Travel Designer · Arabie Saoudite",
       },
       features: defaultSpotlightFeatures,

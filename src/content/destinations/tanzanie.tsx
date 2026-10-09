@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Le Serengeti est largement proposé. Sa partie occidentale l'est beaucoup moins. Cette zone repose sur une concession opérée par un acteur unique. La migration y séjourne environ six semaines avant de rejoindre le Kenya. L'expérience reste la même, mais se vit plus tôt dans la saison. Elle se déroule aussi dans un environnement bien moins fréquenté. C'est cette lecture plus confidentielle du Serengeti que je souhaite construire ici.",
+          "Le Serengeti est très demandé, mais sa partie occidentale reste peu fréquentée. On y séjourne sur une concession gérée par un seul opérateur. La migration y passe plusieurs semaines avant de rejoindre le Kenya : on vit le même spectacle, plus tôt dans la saison et avec bien moins de véhicules. C'est ce Serengeti plus calme que je propose.",
         role: "Travel Designer · Tanzanie",
       },
       features: defaultSpotlightFeatures,

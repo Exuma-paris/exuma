@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "À l'île Maurice, chaque côte révèle une expérience différente. Le nord de Grand Baie ne ressemble pas au sud du Morne. L'est de Belle Mare offre encore une autre atmosphère. Une famille avec trois enfants et un couple qui souhaite simplement se retrouver n'attendent pas le même séjour. Notre rôle consiste à identifier la région qui correspond réellement à chaque voyageur.",
+          "À l'île Maurice, chaque côte offre un séjour différent. Le nord, autour de Grand Baie, ne ressemble pas au sud et au Morne, et l'est, vers Belle Mare, a encore une autre atmosphère. Une famille avec trois enfants et un couple qui veut se retrouver n'attendent pas la même chose. Mon rôle est de trouver la région qui vous correspond.",
         role: "Travel Designer · Île Maurice",
       },
       features: [

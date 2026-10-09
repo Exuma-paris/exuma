@@ -55,7 +55,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La Malaisie surprend toujours ceux qui pensent la connaître par la Thaïlande ou le Vietnam voisins. On quitte Kuala Lumpur un matin, et le soir même on remonte la rivière Kinabatangan de nuit, lampe torche à la main, à la recherche des yeux rouges des crocodiles sur la berge. C'est un pays de contrastes nets : une capitale qui rivalise avec Singapour, et à quelques heures d'avion, une des dernières forêts primaires d'Asie où l'on croise encore l'orang-outan en liberté.",
+          "La Malaisie surprend ceux qui pensent la connaître par la Thaïlande ou le Vietnam. On quitte Kuala Lumpur le matin et, le soir même, on remonte la rivière Kinabatangan à la lampe torche pour repérer les crocodiles. D'un côté une capitale très moderne, de l'autre l'une des dernières forêts primaires d'Asie, où vit encore l'orang-outan.",
         role: "Travel Designer · Malaisie",
       },
       features: defaultSpotlightFeatures,

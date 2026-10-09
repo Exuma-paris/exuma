@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La première fois que j'ai découvert Koh Yao Noi, c'était un après-midi de février. Après quelques minutes en bateau depuis Phuket, le décor change : les routes deviennent calmes, les maisons s'ouvrent sur la végétation. C'est cette Thaïlande que j'aime faire découvrir, des îles préservées, des rencontres locales et des expériences loin des itinéraires classiques. Mais aussi un Bangkok plus intime, entre temples au lever du jour et marchés accompagnés d'un chef. Ce sont ces moments qui rendent un voyage inoubliable.",
+          "J'ai découvert Koh Yao Noi un après-midi de février. Après une courte traversée depuis Phuket, le décor change : routes calmes, maisons ouvertes sur la végétation. C'est cette Thaïlande que j'aime montrer, îles préservées et rencontres locales, mais aussi un Bangkok plus intime : temples au lever du jour et marchés avec un chef.",
         role: "Travel Designer · Thaïlande",
       },
       features: defaultSpotlightFeatures,

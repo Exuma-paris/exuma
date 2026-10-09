@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "On me demande souvent trois jours à Amsterdam. Je conseille d'y ajouter deux nuits ailleurs, parce que tout est à une heure de train. La Veluwe est une grande forêt de plaine, et le musée Kröller-Müller y conserve la deuxième collection de Van Gogh au monde. Plus au sud, le Limbourg a des collines et des vergers, ce que personne n'imagine en pensant aux Pays-Bas. Ensuite, ma façon de découper les journées tient en une phrase : les musées le matin, avant l'arrivée du public, et l'après-midi dehors, à vélo ou sur l'eau.", // TODO: verify le rang de la collection Van Gogh du Kröller-Müller
+          "On me demande souvent trois jours à Amsterdam. Je conseille d'y ajouter deux nuits ailleurs, car tout est à une heure de train : la Veluwe, forêt où le musée Kröller-Müller expose des Van Gogh, ou le Limbourg, avec ses collines et ses vergers. Je place les musées le matin, avant l'affluence, et l'après-midi dehors, à vélo ou sur l'eau.",
         role: "Travel Designer · Pays-Bas",
       },
       features: defaultSpotlightFeatures,

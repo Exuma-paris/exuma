@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Taïna suit déjà la Norvège)
         // TODO: verify quote attribution
         quote:
-          "L'Islande tient sur une seule route, et c'est ce qui la rend si agréable à parcourir. On marche sur un glacier le matin, on se baigne dans une source chaude l'après-midi, et le soir on dîne à vingt minutes de là. En hiver, les grottes de glace s'ouvrent sous le glacier et le ciel devient assez sombre pour les aurores. En été, les pistes de l'intérieur se libèrent et les nuits restent claires. C'est le seul pays que je connaisse où l'on peut revenir une deuxième fois et avoir l'impression de découvrir un autre endroit.",
+          "L'Islande se parcourt sur une seule route, ce qui rend le voyage très simple. On marche sur un glacier le matin et on se baigne dans une source chaude l'après-midi. En hiver, on visite les grottes de glace et on guette les aurores. En été, les pistes de l'intérieur s'ouvrent et les nuits restent claires. Chaque saison donne un autre pays.",
         role: "Travel Designer · Islande",
       },
       features: [

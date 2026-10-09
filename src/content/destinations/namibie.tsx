@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "La Namibie ne se raconte pas par sa faune. Elle se raconte par ses sols. En douze jours, on passe de l'argile blanche de Deadvlei aux galets noirs du Kaokoland, puis au sable rouge du Kalahari. Chaque étape change la lumière, et donc les heures où l'on sort. Les camps comptent huit à dix tentes, jamais davantage, et les concessions se comptent en centaines de milliers d'hectares. C'est le seul pays où je construis un itinéraire dans lequel on ne croise personne pendant trois jours sans que ce soit un exploit logistique.",
+          "En Namibie, on traverse en douze jours des paysages très différents : l'argile blanche de Deadvlei, les galets noirs du Kaokoland, le sable rouge du Kalahari. Les camps n'ont que huit à dix tentes sur d'immenses concessions privées. C'est le pays où l'on peut rouler trois jours sans croiser personne.",
         role: "Travel Designer · Namibie",
       },
       features: defaultSpotlightFeatures,

@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La première fois que je suis descendu dans la tombe de Séti Ier, le gardien m'a tendu sa lampe et m'a laissé seul un moment. Les bleus du plafond astronomique n'ont jamais été repeints. C'est le pigment d'origine, posé il y a trente-trois siècles, et il est plus vif que tout ce que j'avais vu en vitrine. Depuis, je garde toujours la rive ouest de Louxor pour la fin du séjour. Il faut avoir traversé Karnak et sa démesure pour mesurer ce que les mêmes bâtisseurs ont fait sous terre, là où personne ne devait entrer. Mon second conseil tient en deux nuits : celles qu'on laisse vides sur le fleuve, entre Edfou et Assouan, sans rien au programme. Ce sont celles dont on me reparle un an après.",
+          "La première fois que je suis descendu dans la tombe de Séti Ier, les bleus du plafond m'ont frappé : ce sont les couleurs d'origine, plus vives que tout ce que j'avais vu en musée. Je garde la rive ouest de Louxor pour la fin, après Karnak. Sur le Nil, je laisse deux nuits libres entre Edfou et Assouan : ce sont celles dont on me reparle.",
         role: "Travel Designer · Égypte",
       },
       features: defaultSpotlightFeatures,

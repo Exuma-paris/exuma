@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "La plupart des voyageurs m'appellent pour un safari. L'Afrique du Sud en propose d'excellents, mais ce n'est pas ce qui la rend intéressante. Ce qui la rend intéressante, c'est de pouvoir enchaîner en treize à quinze jours une ville de bord de mer, une montagne couverte de peintures rupestres et une réserve sans clôture. Je construis presque toujours dans le même ordre. Le Cap au début, parce qu'on y récupère du vol de nuit sans rien manquer. Le Cederberg ensuite, à quelques heures de route vers le nord, pour l'art rupestre et le silence. Le bush à la fin, parce qu'on quitte plus facilement un lodge qu'une ville. La seule étape que je refuse de raccourcir, c'est le Cederberg. Il faut y rester trois nuits pour voir plus d'un site peint.",
+          "En Afrique du Sud, on enchaîne en deux semaines une ville de bord de mer, une montagne couverte de peintures rupestres et une réserve sans clôture. Je commence par Le Cap pour récupérer du vol de nuit, puis le Cederberg, au nord, pour l'art rupestre et le silence. Le safari vient à la fin : on quitte plus facilement un lodge qu'une ville.",
         role: "Travel Designer · Afrique du Sud",
       },
       features: defaultSpotlightFeatures,

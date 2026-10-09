@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Le Royaume-Uni se donne à qui connaît les bonnes portes. Une maison de famille du Deeside n'a pas d'enseigne, un tailleur de Savile Row ne reçoit pas sans être présenté, et le meilleur beat de la Spey se loue longtemps à l'avance. C'est là que se joue mon travail : obtenir que l'on vous ouvre, et que l'on vous reçoive comme des proches plutôt que comme des visiteurs.",
+          "Au Royaume-Uni, les plus belles adresses passent par une recommandation. Une maison de famille du Deeside n'a pas d'enseigne, certains tailleurs de Savile Row reçoivent sur présentation, et les meilleurs parcours de pêche de la Spey se réservent tôt. Mon travail est d'obtenir ces accès, et que l'on vous y reçoive comme des proches.",
         role: "Travel Designer · Royaume-Uni",
       },
       features: defaultSpotlightFeatures,

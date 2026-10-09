@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "La Grenade est l'île que je propose à ceux qui connaissent déjà les Antilles et qui cherchent autre chose. Il n'y a pas de front de mer construit, pas de file devant les sites, et les maisons se comptent sur les doigts d'une main. Mes voyageurs partent pour la plage et me rappellent au retour en me parlant de la muscade, du charpentier de Carriacou et des statues posées au fond de la baie de Molinière. Je garde toujours deux jours pour les îles du nord, parce que c'est là que le voyage bascule.",
+          "Je propose la Grenade à ceux qui connaissent déjà les Antilles et cherchent une île peu construite, sans file d'attente devant les sites. Mes voyageurs partent pour la plage et me parlent au retour de la muscade, du charpentier de Carriacou et des statues sous-marines de Molinière. Je garde toujours deux jours pour les îles du nord.",
         role: "Travel Designer · La Grenade",
       },
       features: defaultSpotlightFeatures,

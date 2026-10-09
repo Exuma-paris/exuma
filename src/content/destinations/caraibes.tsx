@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime dans les Caraïbes, c'est que chaque île y garde son caractère. À Saint-Barthélemy, on retrouve les mêmes visages d'une année sur l'autre et les patrons de restaurant reconnaissent leurs habitués. Dans les Grenadines, le capitaine propose une baie au petit matin et la journée s'invente à partir de là. À Sainte-Lucie, un guide du village raconte sa montagne comme il raconterait sa famille. Je construis ces voyages par la mer, pour que le passage d'une île à l'autre reste un plaisir plutôt qu'un trajet.",
+          "Dans les Caraïbes, chaque île garde son caractère. À Saint-Barthélemy, les restaurateurs reconnaissent leurs habitués. Dans les Grenadines, le capitaine choisit une baie au petit matin. À Sainte-Lucie, un guide du village vous fait découvrir sa montagne. Je relie les îles par la mer, pour que chaque traversée reste un plaisir.",
         role: "Travel Designer · Caraïbes",
       },
       features: defaultSpotlightFeatures,

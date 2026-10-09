@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime en Écosse, c'est la distance entre deux étapes. On roule une heure et demie et l'on change complètement de pays : la vallée de la Tweed n'a rien à voir avec le Speyside, qui n'a rien à voir avec Skye. Je conseille toujours de rester trois nuits au même endroit plutôt que de tout enchaîner. C'est là que les portes s'ouvrent, qu'un propriétaire propose de montrer sa bibliothèque ou son jardin, et que le voyage devient le vôtre.",
+          "En Écosse, une heure et demie de route suffit pour changer complètement de paysage : la vallée de la Tweed, le Speyside et l'île de Skye ne se ressemblent en rien. Je conseille toujours de rester trois nuits au même endroit plutôt que de tout enchaîner. C'est là qu'un propriétaire vous propose de visiter sa bibliothèque ou son jardin.",
         role: "Travel Designer · Écosse",
       },
       features: defaultSpotlightFeatures,

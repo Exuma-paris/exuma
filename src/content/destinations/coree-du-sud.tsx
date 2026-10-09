@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution : à faire valider par Stéphane avant mise en ligne
         quote:
-          "La Corée est le pays qui dément le plus vite la première impression. On arrive à Séoul, on voit une ville de verre, et le lendemain on dort dans une maison de bois avec le sol chaud sous les pieds. Ma région préférée reste le sud, autour de Gyeongju : c'est là que le pays ralentit vraiment. Et ce dont les voyageurs me parlent au retour, ce n'est presque jamais un monument, c'est un repas.",
+          "La Corée du Sud surprend vite. On arrive à Séoul, une ville de verre, et le lendemain on dort dans une maison traditionnelle en bois, avec le sol chauffé sous les pieds. Ma région préférée est le sud, autour de Gyeongju, où le rythme ralentit vraiment. Au retour, mes voyageurs me parlent rarement d'un monument : ils me parlent d'un repas.",
         role: "Travel Designer · Corée du Sud",
       },
       features: defaultSpotlightFeatures,

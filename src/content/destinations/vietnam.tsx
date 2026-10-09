@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Le Vietnam se referme vite si l'on reste sur la route principale. Entre Hanoï et Hué, il y a toute une autre histoire : celle des jonques qui dorment dans une crique de la baie de Lan Ha, celle d'une cour impériale que peu de voyageurs prennent le temps de comprendre. Mon travail, c'est d'inscrire ces heures-là dans l'itinéraire, avant qu'elles ne disparaissent.",
+          "Au Vietnam, la route principale ne montre qu'une partie du pays. Entre Hanoï et Hué, je prévois du temps pour une nuit en jonque dans une crique de la baie de Lan Ha, puis pour la cité impériale de Hué, que peu de voyageurs prennent le temps de comprendre. Mon travail est d'inscrire ces moments dans l'itinéraire.",
         role: "Travel Designer · Vietnam",
       },
       features: [
