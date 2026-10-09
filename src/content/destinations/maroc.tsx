@@ -32,7 +32,7 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe au Maroc",
       heading: "Le Maroc, de la médina de Fès aux sommets du Haut Atlas",
       description:
-        "Le Maroc change de visage à chaque étape. À Fès, les artisans travaillent dans les mêmes ruelles que leurs grands-pères et l'appel du muezzin donne l'heure mieux qu'une montre. Plus au sud, les palmeraies du Dadès s'endorment tôt, et dans le Haut Atlas les bergers montent avec leurs bêtes dès que la neige libère les pâturages. C'est ce Maroc-là que nous vous ouvrons, avec ceux qui y travaillent et qui savent en parler.",
+        "Le Maroc change de visage à chaque étape. À Fès, les artisans travaillent dans les ruelles de leurs grands-pères. Plus au sud, les palmeraies du Dadès s'endorment tôt, et dans le Haut Atlas les bergers montent dès que la neige fond. C'est ce Maroc-là que nous vous ouvrons.",
       images: [
         {
           src: "/destination/maroc/hero-1.webp",
