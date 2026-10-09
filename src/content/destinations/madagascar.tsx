@@ -230,7 +230,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure à Madagascar, du Nord à la côte ouest et à la forêt de l'Est",
             "Adresses confidentielles à Madagascar : îles privées et lodges de forêt",
             "Hébergements à Madagascar : île privée du Nord, îlot des Mitsio et presqu'île d'Anjajavy",
-            "Conseillère Exuma au casque, conciergerie privée 24/7 pendant le voyage",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Expériences à Madagascar : Tsingy Rouges, allée des baobabs et baleines de Sainte-Marie",
           ][i],
         },
