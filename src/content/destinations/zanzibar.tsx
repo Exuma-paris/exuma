@@ -81,7 +81,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/zanzibar/full-image.webp",
-        alt: "Vue aérienne de la côte de Zanzibar, de ses eaux turquoise et de ses bancs de sable",
+        alt: "Rue de Stone Town, porte sculptée cloutée de laiton, vannière et grillades sous un grand arbre, Zanzibar",
       },
       height: 600,
     },
