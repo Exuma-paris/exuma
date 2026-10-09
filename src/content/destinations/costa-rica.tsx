@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Costa Rica : canopée et eaux chaudes",
-      heading: "La canopée le matin, les sources thermales le soir",
+      heading: "La forêt le matin, les sources chaudes le soir",
       theme: "light",
       paragraphs: [
-        "Les ponts suspendus de La Fortuna se marchent à hauteur de cimes, une trentaine de mètres au-dessus du sol. C'est de là que la forêt se laisse voir : toucans, singes hurleurs, paresseux accrochés à une branche que personne ne remarque depuis le sentier. À Guanacaste, les tyroliennes du Skyline Tour traversent la forêt sèche d'un versant à l'autre. Au nord de la vallée centrale, les sentiers du parc national du volcan Poás mènent au bord d'un cratère en activité.", // TODO: verify hauteur des ponts suspendus de La Fortuna
-        "Le soir, le pays change de registre. À Tabacón, l'eau chaude descend naturellement des flancs de l'Arenal et alimente des bassins étagés sous la forêt. Les lodges tiennent le même fil : piscines thermales privées, spa, yoga, potagers et sentiers menant à leurs propres cascades. Une matinée dans la canopée et une fin de journée dans l'eau chaude, sans quitter la même vallée.",
+        "À La Fortuna, des ponts suspendus traversent la forêt à hauteur des cimes, où l'on observe toucans, singes hurleurs et paresseux. À Guanacaste, des tyroliennes relient les versants de la forêt sèche, et le parc du volcan Poás mène au bord d'un cratère en activité.",
+        "Le soir, à Tabacón, l'eau chaude descend des flancs du volcan Arenal et alimente des bassins naturels sous la forêt. Les lodges de la région proposent aussi piscines thermales privées, spa et sentiers vers leurs propres cascades.",
       ],
       images: [
         {

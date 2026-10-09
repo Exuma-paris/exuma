@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Cusco, avant que la ville ne s'éveille",
-      heading: "Le matin où les pierres incas appartiennent encore à la ville",
+      heading: "Cusco au petit matin",
       theme: "light",
       paragraphs: [
-        "À Cusco, la Plaza de Armas se traverse à six heures du matin sans un touriste. Les pierres incas de Sacsayhuamán, taillées sans mortier avec une précision qui déjoue encore les ingénieurs, gardent la fraîcheur de la nuit. Un guide raconte comment les Espagnols ont bâti leurs églises directement sur les fondations incas, pierre sur pierre, sans jamais réussir à les remplacer entièrement.",
-        "Plus haut, vers le Cristo Blanco, la ville entière apparaît dans la cuvette de la vallée, les toits de tuile rouge encadrés par des sommets encore dans l'ombre. Le marché de San Pedro ouvre à la même heure : les vendeuses de fromage de brebis et de maïs géant du Cusco s'installent avant les premiers cars de visiteurs.",
+        "À Cusco, la Plaza de Armas se traverse au petit matin presque sans visiteurs. Au-dessus de la ville, les murs incas de Sacsayhuamán assemblent sans mortier des blocs ajustés avec une précision remarquable. Dans le centre, les Espagnols ont bâti leurs églises sur les fondations incas.",
+        "Depuis le Cristo Blanco, on voit toute la ville et ses toits de tuile rouge au creux de la vallée, entourée de sommets. Au marché de San Pedro, les vendeuses de fromage et de maïs géant s'installent dès l'aube.",
       ],
       images: [
         {

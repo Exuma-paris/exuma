@@ -91,14 +91,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Afrique du Sud : la montagne et la vigne",
-      heading: "Ce que le fynbos a laissé pousser à côté de lui",
+      heading: "Le fynbos et les vignobles du Cap",
       theme: "light",
       paragraphs: [
-        "Autour du Cap pousse une végétation qu'on ne trouve nulle part ailleurs. Elle porte un nom afrikaans, le fynbos, qui signifie « fin buisson ». C'est un maquis de plantes basses, dures, adaptées au vent et aux incendies réguliers.",
-        "La région du Cap forme à elle seule l'un des six royaumes floraux de la planète, et de très loin le plus petit. On y recense environ 9 000 espèces de plantes, dont les deux tiers ne poussent nulle part ailleurs dans le monde. L'ensemble est classé au patrimoine mondial de l'UNESCO depuis 2004.", // TODO: verify nombre d'espèces, part d'endémiques et date de classement
-        "La vigne, elle, est arrivée par bateau. Les premiers plants sont plantés au Cap en 1655 par les Hollandais. Trente ans plus tard, le domaine de Constantia produit un vin liquoreux que l'Europe s'arrache pendant deux siècles.", // TODO: verify dates de 1655 et de la fondation de Constantia
-        "Franschhoek doit son nom et ses vignes à un autre groupe. Des huguenots français, chassés de France après 1685, s'y installent et y apportent leur savoir-faire. Le nom de la vallée signifie littéralement « le coin des Français ».",
-        "Aujourd'hui, les vignobles de Stellenbosch et de Franschhoek se visitent en une journée depuis Le Cap. Les domaines se trouvent à moins de quarante minutes les uns des autres.",
+        "Autour du Cap pousse le fynbos, un maquis de plantes basses et coriaces, adaptées au vent et aux incendies. Cette végétation, qu'on ne trouve nulle part ailleurs, fait de la région l'un des six royaumes floraux de la planète, et de loin le plus petit.",
+        "La vigne est arrivée avec les Hollandais au XVIIe siècle, puis avec les huguenots français, qui ont donné son nom à Franschhoek, « le coin des Français ». Les domaines de Stellenbosch et de Franschhoek se visitent en une journée depuis Le Cap.",
       ],
       images: [
         {

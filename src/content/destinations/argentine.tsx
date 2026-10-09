@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Le Nord-Ouest andin",
-      heading: "Les vallées colorées de Purmamarca et de Cafayate",
+      heading: "Les vallées colorées du Nord-Ouest",
       theme: "light",
       paragraphs: [
-        "À Purmamarca, la montagne se couvre de bandes ocre, roses et vertes que l'on distingue à l'œil nu. La Quebrada de Humahuaca s'ouvre là, entre les villages de Tilcara et de Humahuaca, sur une terre où seuls les cactus poussent. La route monte encore jusqu'au sommet de l'Hornocal, où les couleurs se déplacent au fil de la matinée.",
-        "Plus au sud, la vallée Calchaquí déroule ses vignobles jusqu'aux portes du désert. À Cafayate, le torrontés donne un blanc sec et floral qui ne ressemble à aucun autre, et les bodegas y sont restées familiales : on entre en frappant à la porte, et c'est le vigneron qui vous sert.",
-        "Le soir, la lumière s'adoucit d'un coup et l'on dîne dehors, un manteau sur les épaules, dans une odeur de terre encore chaude.",
+        "À Purmamarca, la montagne se couvre de bandes ocre, roses et vertes visibles à l'œil nu. C'est l'entrée de la Quebrada de Humahuaca, une vallée aride plantée de cactus et jalonnée de villages comme Tilcara. Plus haut, le site de l'Hornocal dévoile des sommets striés de couleurs.",
+        "Plus au sud, la vallée Calchaquí mène à Cafayate, entourée de vignobles en bordure du désert. On y visite des bodegas familiales et l'on goûte le torrontés, un vin blanc sec et floral typique de la région.",
       ],
       images: [
         {

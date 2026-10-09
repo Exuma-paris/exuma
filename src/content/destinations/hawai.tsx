@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Hawaï : la navigation hawaïenne",
-      heading: "La pirogue Hokulea et l'art de naviguer aux étoiles",
+      heading: "Hokulea, naviguer aux étoiles",
       theme: "light",
       paragraphs: [
-        "La pirogue Hokulea a été construite pour prouver une chose : les ancêtres hawaïens savaient traverser le Pacifique sans le moindre instrument. Elle a rallié Tahiti sans compas, sans carte et sans montre, guidée par un navigateur venu de Micronésie qui lisait la houle sous la coque, les étoiles à leur lever et le vol des oiseaux au crépuscule. Quand elle est entrée dans la passe de Papeete, la moitié de l'île l'attendait sur le quai.",
-        "Ce voyage a réveillé toute une culture. La langue hawaïenne, effacée des écoles pendant près d'un siècle, est redevenue officielle et s'apprend aujourd'hui dès la maternelle. Le hula a retrouvé ses chants anciens et se danse à Hilo devant des salles pleines. Nous vous ouvrons les portes de ce renouveau, auprès de ceux qui le font vivre.",
+        "La pirogue Hokulea a relié Hawaï à Tahiti sans compas ni carte, guidée par un navigateur micronésien qui lisait la houle, les étoiles et le vol des oiseaux. Ce voyage a prouvé que les anciens Hawaïens savaient traverser le Pacifique.",
+        "Il a aussi accompagné un véritable renouveau culturel. La langue hawaïenne, longtemps bannie des écoles, est redevenue officielle et s'enseigne de nouveau, et le hula a retrouvé ses chants anciens. Nous vous faisons rencontrer ceux qui font vivre cette culture.",
       ],
       images: [
         {

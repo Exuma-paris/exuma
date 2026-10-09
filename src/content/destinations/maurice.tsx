@@ -108,11 +108,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Le Morne Brabant",
-      heading: "Une histoire avant d'être un panorama",
+      heading: "Le Morne, montagne et lieu de mémoire",
       theme: "light",
       paragraphs: [
-        "Le Morne Brabant se voit depuis toute la côte sud-ouest. Ce bloc de basalte s'élève à 556 mètres et tombe directement dans le lagon. Au début du dix-neuvième siècle, des esclaves en fuite se réfugiaient sur ses corniches, inaccessibles depuis la plaine. La tradition orale raconte qu'une expédition monta un jour leur annoncer l'abolition. Ils crurent à une capture et se jetèrent dans le vide. L'UNESCO a classé la montagne en 2008 pour cette raison précise. Il s'agit d'un paysage culturel, et non d'un simple point de vue.",
-        "L'ascension se fait tôt le matin, accompagnée d'un guide agréé. Elle demande environ deux heures et demie. La seconde partie du sentier traverse des dalles de basalte où l'adhérence compte davantage que l'endurance. La vue s'ouvre ensuite d'un seul coup sur la presqu'île, l'île aux Bénitiers et la passe. En contrebas, les kitesurfeurs travaillent la vague de One Eye. Le sommet lui-même reste fermé au public : le sentier s'arrête sur un plateau, à mi-hauteur.", // TODO: verify altitude d'arrêt du sentier
+        "Le Morne Brabant, bloc de basalte de 556 mètres, domine le lagon au sud-ouest de l'île. Au dix-neuvième siècle, des esclaves en fuite se réfugiaient sur ses corniches, et c'est cette histoire qui a valu à la montagne son inscription au patrimoine mondial de l'UNESCO en 2008.",
+        "L'ascension se fait tôt le matin avec un guide agréé, en deux heures et demie environ. En haut du sentier, la vue s'ouvre sur la presqu'île, l'île aux Bénitiers et les kitesurfeurs de One Eye.",
       ],
       images: [
         {

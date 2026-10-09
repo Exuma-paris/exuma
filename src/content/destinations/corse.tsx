@@ -105,11 +105,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Corse, Le luxe et l'exclusif",
-      heading: "L'essence secrète de l'île de beauté",
+      heading: "Une Corse confidentielle",
       theme: "light",
       paragraphs: [
-        "Notre sélection vous ouvre les portes d'une Corse confidentielle. Nous choisissons nos adresses pour leur singularité absolue. Des bergeries restaurées dans le maquis du Sartenais. Des villas en pierre sèche cachées au-dessus de la baie de Rondinara. Chaque lieu est pensé pour vous offrir un horizon dégagé et une déconnexion totale. L'exception devient un privilège. Un bateau privé vous emporte depuis Bonifacio jusqu'aux îles Lavezzi, mouillage à l'écart, déjeuner à bord.",
-        "À terre, le luxe prend tout son sens. Nous vous confions à des artisans et des gardiens d'une mémoire vivante. Un berger du Niolu vous accueille dans sa bergerie pour une dégustation de brocciu et de figatellu. Un maître de chai du Sartenais vous fait goûter ses vermentinos sur les terrasses de granit. De ces instants naissent des souvenirs d'une rareté absolue. C'est l'essence même du voyage d'Exuma.",
+        "Nous sélectionnons des adresses rares : bergeries restaurées dans le maquis du Sartenais, villas en pierre sèche au-dessus de la baie de Rondinara. Depuis Bonifacio, un bateau privé vous emmène aux îles Lavezzi pour un mouillage à l'écart et un déjeuner à bord.",
+        "À terre, un berger du Niolu vous reçoit dans sa bergerie pour goûter le brocciu et le figatellu. Dans le Sartenais, un vigneron vous fait déguster ses vermentinos sur des terrasses de granit.",
       ],
       images: [
         {

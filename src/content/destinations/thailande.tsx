@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Thaïlande : la baie de Phang Nga",
-      heading: "Ce que l'on gagne à traverser la baie",
+      heading: "La baie de Phang Nga en bateau privé",
       theme: "light",
       paragraphs: [
-        "Le bateau part de la marina de Phuket et met environ quarante minutes. Koh Yao Noi apparaît plate, couverte d'hévéas et de rizières. Aucun grand complexe hôtelier sur l'île, des villages de pêcheurs, des buffles sur la route qui la traverse. Depuis la côte est, on voit la ligne des pitons calcaires de la baie sans en partager la fréquentation.",
-        "La différence tient à l'heure de départ. Les excursions collectives quittent Phuket vers neuf heures et arrivent groupées sur les mêmes sites, James Bond Island en tête. Un bateau privé part à six heures, entre dans les lagons intérieurs de Koh Hong à marée haute et en ressort avant l'arrivée des premiers groupes. Trois heures d'avance suffisent à voir ces lagons vides.",
+        "Depuis Phuket, environ quarante minutes de bateau mènent à Koh Yao Noi, une île plate couverte d'hévéas et de rizières, sans grand complexe hôtelier. Depuis sa côte est, on voit les pitons calcaires qui se dressent dans la baie.",
+        "Les excursions collectives partent de Phuket vers neuf heures et se retrouvent sur les mêmes sites, comme James Bond Island. En partant à l'aube en bateau privé, on visite les lagons intérieurs de Koh Hong avant l'arrivée des groupes.",
       ],
       images: [
         {

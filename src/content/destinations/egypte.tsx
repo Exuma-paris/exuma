@@ -89,14 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Égypte : le fleuve et le désert",
-      heading: "Ce que la crue a rendu possible",
+      heading: "Le Nil et sa crue",
       theme: "light",
       paragraphs: [
-        "Chaque été, avant le barrage, le Nil montait de sept mètres et couvrait la vallée de limon noir. Les Égyptiens appelaient leur pays Kemet, la terre noire, par opposition à Decheret, la terre rouge du désert.",
-        "La crue était mesurée. Les nilomètres d'Éléphantine et de Roda comptaient les coudées, et l'impôt de l'année se fixait sur ce chiffre. Trop bas, c'était la famine. Trop haut, les digues cédaient.",
-        "Cette régularité a libéré des mois entiers de main-d'œuvre agricole. Les chantiers de Gizeh et de Karnak se sont bâtis pendant les crues, quand les champs étaient sous l'eau et les blocs de pierre flottables jusqu'au pied du chantier.", // TODO: verify le lien crue / calendrier des chantiers
-        "Le haut barrage d'Assouan a mis fin à la crue en 1970. Le limon s'arrête désormais au fond du lac Nasser, et les paysans achètent l'engrais que le fleuve leur livrait.",
-        "La terre noire s'est arrêtée. Ce qu'elle a permis de construire tient toujours debout.",
+        "Avant la construction du barrage, le Nil montait chaque été et couvrait la vallée d'un limon noir très fertile. Les Égyptiens appelaient d'ailleurs leur pays Kemet, la terre noire, par opposition à la terre rouge du désert.",
+        "Le niveau de la crue était relevé par des nilomètres, comme ceux d'Éléphantine et de Roda, et servait à fixer l'impôt de l'année. Le haut barrage d'Assouan a mis fin à ce cycle en 1970 : le limon se dépose désormais au fond du lac Nasser.",
       ],
       images: [
         {

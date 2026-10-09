@@ -89,12 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Le vignoble",
-      heading: "Le Douro, quand le vin se boit face aux vignes",
+      heading: "La vallée du Douro",
       theme: "light",
       paragraphs: [
-        "Le Douro est le plus beau détour du voyage. Le fleuve creuse le nord du pays et les coteaux plongent jusqu'à lui, plantés en terrasses que des générations ont retenues par des murets de pierre. C'est ici que naît le porto, dans la plus ancienne région viticole du monde.",
-        "On y vit au rythme des quintas, ces domaines de famille où l'on vous reçoit comme chez des amis. La vendange se fait encore au panier, parce que rien ne roule sur des pentes aussi raides. Le soir, la table se dresse dehors et le vigneron descend chercher quelques bouteilles à la cave.",
-        "On y goûte d'abord les rouges de la maison. Le porto arrive à la fin, quand la nuit tombe sur la vallée.",
+        "Au nord du Portugal, le Douro serpente entre des coteaux plantés de vignes en terrasses, retenues par des murets de pierre. C'est ici que naît le porto, dans l'une des plus anciennes régions viticoles délimitées au monde.",
+        "On séjourne dans des quintas, des domaines familiaux où l'on est reçu comme des amis. Sur ces pentes raides, la vendange se fait encore au panier. Le soir, on dîne dehors face aux vignes, en goûtant les rouges du domaine, puis le porto.",
       ],
       images: [
         {

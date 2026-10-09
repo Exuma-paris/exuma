@@ -88,11 +88,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Carthagène, la mémoire des Caraïbes",
-      heading: "Ce que les remparts ont gardé",
+      heading: "Carthagène des Indes, ville fortifiée",
       theme: "light",
       paragraphs: [
-        "Fondée en 1533, Carthagène des Indes a résisté à cinq sièges avant que les Espagnols n'achèvent, en 1656, onze kilomètres de remparts pour protéger l'or qui partait vers Séville. La vieille ville, classée à l'UNESCO depuis 1984, garde ses balcons de bois ouvragé et ses façades ocre dans le quartier de Getsemaní, ancien faubourg des artisans et des esclaves affranchis. À la nuit tombée, les arepas de huevo se vendent à même la rue, sur la Plaza de la Trinidad.",
-        "Un guide historien, formé à l'université de Carthagène, ouvre certaines cours privées du quartier San Diego et raconte l'histoire de Benkos Biohó, chef marron qui a fondé San Basilio de Palenque, premier village libre d'Amérique à l'époque coloniale, à une heure de route. La visite se termine sur les remparts, au bastion de Santo Domingo, quand la lumière rase la baie et que les vendeurs de fruits rentrent pour la nuit.",
+        "Fondée en 1533, Carthagène s'est entourée de onze kilomètres de remparts pour protéger l'or qui partait vers l'Espagne. Sa vieille ville, classée à l'UNESCO, aligne balcons de bois et façades colorées jusqu'au quartier populaire de Getsemaní.",
+        "Un guide historien ouvre certaines cours privées du quartier San Diego et raconte l'histoire de Benkos Biohó, fondateur de San Basilio de Palenque, premier village libre d'Amérique. La visite s'achève sur les remparts, au coucher du soleil.",
       ],
       images: [
         {

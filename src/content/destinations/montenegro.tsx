@@ -91,11 +91,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Monténégro, le luxe et l'exclusif",
-      heading: "Une baie fermée, une poignée d'adresses qui la comprennent",
+      heading: "Les grandes adresses du Monténégro",
       theme: "light",
       paragraphs: [
-        "Notre sélection s'ouvre sur un Monténégro que la plupart des visiteurs de Kotor ne voient jamais. Un village de pêcheurs du XVe siècle reconstruit îlot par îlot, accessible uniquement en golfette. Une marina de superyachts où l'on descend du bateau directement dans le hall de l'hôtel. Des propriétés qui se comptent sur les doigts d'une main, et qui suffisent à couvrir l'ensemble de la baie.",
-        "À terre, le pays se raconte par ses artisans. Un vigneron de la Crmnica sort son vranac sur les rives du lac de Skadar. Un producteur de Njeguši affine son prosciutto et son fromage de brebis dans une cave ouverte aux courants d'air de la montagne, une technique inchangée depuis des générations. Ces rencontres, plus que les plages, sont ce qui reste d'un voyage au Monténégro.",
+        "Notre sélection montre un Monténégro que la plupart des visiteurs de Kotor ne voient pas : un village de pêcheurs du XVe siècle devenu hôtel, accessible seulement en voiturette, ou une marina de superyachts où l'on passe du bateau à l'hôtel.",
+        "Dans l'arrière-pays, on rencontre les artisans : un vigneron de Crmnica qui produit le vranac près du lac de Skadar, ou un producteur de Njeguši qui affine jambon et fromage de brebis selon une méthode traditionnelle.",
       ],
       images: [
         {

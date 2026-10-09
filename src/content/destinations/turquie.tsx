@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Derinkuyu, la ville sous la Cappadoce",
-      heading: "Derinkuyu, une ville entière cachée sous la Cappadoce",
+      heading: "Une ville creusée sous terre",
       theme: "light",
       paragraphs: [
-        "Sous un champ de Cappadoce, un escalier s'enfonce dans la roche tendre et l'on descend dans Derinkuyu. La ville souterraine se déploie niveau après niveau, avec ses écuries, ses réfectoires, ses chapelles et jusqu'à une salle d'école. Les habitants de la région s'y installaient des semaines entières lorsque les cavaliers traversaient le plateau.",
-        "L'air y reste frais toute l'année, ce qui explique les jarres de vin retrouvées au fond des galeries. De grandes meules de pierre fermaient les couloirs depuis l'intérieur, et l'on peut encore les faire tourner du doigt. Le silence, lui, ne ressemble à aucun autre.",
-        "On remonte vers la lumière, et le plateau paraît soudain plus habité.",
+        "En Cappadoce, sous le village de Derinkuyu, une ville entière a été creusée dans la roche tendre. Elle se déploie sur plusieurs niveaux, avec écuries, réfectoires, chapelles et même une salle d'école. Les habitants de la région s'y réfugiaient des semaines entières en cas d'invasion.",
+        "L'air y reste frais toute l'année, ce qui permettait d'y conserver vivres et vin. De grandes meules de pierre fermaient les couloirs depuis l'intérieur, et on les voit encore en place.",
       ],
       images: [
         {

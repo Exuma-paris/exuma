@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Île de Pâques : ce que nous vous ouvrons",
-      heading: "L'île que les familles rapanui acceptent de montrer",
+      heading: "L'île avec les familles rapanui",
       theme: "light",
       paragraphs: [
-        "Tout le monde visite les mêmes sites, dans le même sens, aux mêmes heures. Ce qui change une journée sur cette île, ce n'est donc pas l'endroit où l'on va, c'est le moment où l'on y arrive et la personne qui vous accompagne. Nous choisissons l'un et l'autre.",
-        "Nous travaillons avec des familles rapanui qui gardent des terres privées, une grotte dont l'entrée ne se devine pas du sentier, un jardin où le four enterré cuit encore sous les pierres chaudes. Un archéologue du programme de fouilles nous accompagne dans la carrière de Rano Raraku, avant l'arrivée des groupes. Ces accès ne s'achètent pas, ils se construisent avec le temps, et nous les ouvrons pour vous seuls.",
+        "Sur l'île de Pâques, tous les visiteurs voient les mêmes sites, souvent aux mêmes heures. Ce qui fait la différence, c'est le moment de la visite et la personne qui vous accompagne.",
+        "Nous travaillons avec des familles rapanui qui ouvrent leurs terres privées, une grotte cachée ou un jardin où l'on cuit encore les plats dans un four enterré. Un archéologue vous guide dans la carrière de Rano Raraku, où furent taillés les moaï, avant l'arrivée des groupes.",
       ],
       images: [
         {

@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "La Serra de Tramuntana",
-      heading: "Majorque, les oliviers en terrasses au-dessus de la mer",
+      heading: "Les terrasses d'oliviers de Majorque",
       theme: "light",
       paragraphs: [
-        "Sur la côte nord de Majorque, la montagne descend jusqu'à la mer en larges terrasses plantées d'oliviers. Ces murets de pierre sèche ont été montés à la main, génération après génération, pour retenir la terre sur la pente. Le paysage tout entier est l'œuvre de ceux qui y ont vécu, et l'UNESCO l'a distingué pour cette raison.",
-        "La route de corniche qui la traverse relie des villages où l'on a envie de s'arrêter. Banyalbufar et ses vignes suspendues au-dessus de l'eau, Deià où Robert Graves a passé sa vie, Valldemossa où Chopin est venu chercher la douceur d'un hiver espagnol. Hors saison, on n'y croise que des cyclistes et quelques chèvres.",
-        "À la fin de l'hiver, les amandiers fleurissent avant tout le reste et la montagne se couvre de blanc.",
+        "Sur la côte nord de Majorque, la Serra de Tramuntana descend jusqu'à la mer en terrasses plantées d'oliviers. Ces murets de pierre sèche, montés à la main au fil des siècles, ont valu au massif son inscription au patrimoine mondial de l'UNESCO.",
+        "Une route de corniche relie ses villages : Banyalbufar et ses vignes au-dessus de l'eau, Deià où vécut Robert Graves, Valldemossa où Chopin passa un hiver. À la fin de l'hiver, les amandiers en fleur couvrent la montagne de blanc.",
       ],
       images: [
         {

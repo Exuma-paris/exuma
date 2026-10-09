@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Caraïbes : navigation privée et plages désertes",
-      heading: "Les journées où l'on choisit sa plage en arrivant",
+      heading: "D'une plage à l'autre en bateau",
       theme: "light",
       paragraphs: [
-        "Le bateau quitte le mouillage avant que la chaleur ne s'installe. L'équipage sait où l'eau sera calme, quelle anse restera à l'abri, et à quel moment les autres voiliers repartiront. On se baigne d'abord, on déjeune ensuite sur le pont, et l'après-midi passe à l'ombre du taud pendant que l'île défile.",
-        "À terre, on retrouve la même liberté. Certaines plages ne s'atteignent qu'à pied ou par la mer, et cela suffit à les garder pour ceux qui font l'effort d'y venir. On y déjeune les pieds dans le sable, avec des poissons apportés du village et grillés sur place, et l'on comprend en repartant que la baie n'a été qu'à nous jusqu'au soir.",
+        "En bateau privé, on part tôt le matin avec un équipage qui connaît les eaux calmes et les anses abritées. La journée alterne baignades, déjeuner sur le pont et après-midi à l'ombre, pendant que les îles défilent.",
+        "À terre, certaines plages ne sont accessibles qu'à pied ou par la mer, ce qui les garde presque désertes. On y déjeune les pieds dans le sable, autour de poissons achetés au village et grillés sur place, et l'on garde souvent la baie pour soi jusqu'au soir.",
       ],
       images: [
         {

@@ -89,12 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Salvador, la ville haute et la ville basse",
-      heading: "L'or des églises et les tambours du soir",
+      heading: "Salvador, l'ancienne capitale",
       theme: "light",
       paragraphs: [
-        "Salvador a été la capitale du pays bien avant Rio et Brasília, et elle en a gardé les manières. La ville se déploie sur deux niveaux, le port en bas, la vieille ville en haut, reliés par un ascenseur public que tout le monde emprunte. On débouche en haut sur les façades colorées du Pelourinho.",
-        "Dans l'église São Francisco, le bois sculpté disparaît sous l'or à la feuille, du sol jusqu'au plafond. Un peu plus loin, une baiana en robe blanche fait frire des acarajés à l'huile de palme, à la place qu'occupait sa mère avant elle. Quand le soir tombe, les répétitions de percussions démarrent dans les ruelles et se prolongent une bonne partie de la nuit.",
-        "On repart d'ici avec ce rythme dans la tête.",
+        "Salvador a été la capitale du Brésil bien avant Rio et Brasília. La ville s'étage sur deux niveaux, le port en bas et la vieille ville en haut, reliés par un ascenseur public. En haut s'étendent les façades colorées du Pelourinho.",
+        "Dans l'église São Francisco, le bois sculpté est couvert d'or à la feuille du sol au plafond. Dans les rues, les baianas en robe blanche font frire des acarajés à l'huile de palme, et le soir, les répétitions de percussions animent les ruelles.",
       ],
       images: [
         {

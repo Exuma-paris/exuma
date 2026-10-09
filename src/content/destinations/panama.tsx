@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Panama : hauts plateaux et Pacifique",
-      heading: "Le café le matin à Boquete, l'océan l'après-midi",
+      heading: "Café à Boquete, océan à Chiriquí",
       theme: "light",
       paragraphs: [
-        "À Boquete, les caféiers poussent sur les pentes du Barú, dans un air qui reste frais toute l'année. C'est là que les fincas de Chiriquí ont fait connaître le geisha, une variété qui bat régulièrement les records de prix aux enchères mondiales. La dégustation se fait sur place, au milieu des rangs, avec ceux qui trient les cerises à la main. Sur le Sendero los Quetzales, le quetzal resplendissant s'observe une partie de l'année, autour des arbres à avocats sauvages.", // TODO: verify saison d'observation du quetzal sur le Sendero los Quetzales
-        "Une heure de route plus bas, le golfe de Chiriquí change tout. La mer y est chaude, les îles inhabitées, et l'archipel des Islas Secas ne compte qu'une seule île aménagée. À une heure de bateau, le parc national de Coiba, inscrit au patrimoine mondial depuis 2005, abrite un singe hurleur qui n'existe nulle part ailleurs. Le même jour peut commencer dans la brume des caféiers et finir masque sur le visage.",
+        "À Boquete, les caféiers poussent sur les pentes du volcan Barú, dans un climat frais toute l'année. Les fincas de la région ont fait connaître le geisha, une variété qui bat des records de prix aux enchères. On le déguste sur place, au milieu des plantations.",
+        "Plus bas, le golfe de Chiriquí offre une mer chaude et des îles presque désertes, comme l'archipel des Islas Secas. Au large, le parc national de Coiba, inscrit au patrimoine mondial depuis 2005, abrite un singe hurleur endémique.",
       ],
       images: [
         {

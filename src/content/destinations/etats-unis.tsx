@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Big Sur, 140 kilomètres sans une ville",
-      heading: "Une côte où le brouillard arrive à heure fixe",
+      heading: "La route côtière de Big Sur",
       theme: "light",
       paragraphs: [
-        "La route de Big Sur suit le Pacifique entre Carmel et San Simeon, et elle traverse une côte que personne n'a bâtie. Elle longe la falaise, franchit le pont de Bixby Creek, puis redescend vers les criques de Piedras Blancas où les éléphants de mer viennent mettre bas en hiver.",
-        "Le brouillard, ici, est un horaire. Il monte du large en fin de matinée, voile la montagne, puis se retire au milieu de l'après-midi. Les séquoias de la vallée y puisent l'eau qui leur manque l'été : ils la boivent par les aiguilles.",
-        "Le soir, la route se vide. Il ne reste que le bruit de l'océan, en dessous, dans le noir.",
+        "Entre Carmel et San Simeon, la route de Big Sur longe le Pacifique sur une côte restée presque sauvage. Elle suit les falaises, franchit le célèbre pont de Bixby Creek et rejoint les plages de Piedras Blancas, où les éléphants de mer mettent bas en hiver.",
+        "En fin de matinée, le brouillard monte souvent du large et voile les montagnes avant de se retirer l'après-midi. Les séquoias de la région y puisent une partie de l'eau dont ils ont besoin pendant l'été.",
       ],
       images: [
         {

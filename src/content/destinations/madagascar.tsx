@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les hauts plateaux",
-      heading: "Le vert des rizières, le rouge des maisons",
+      heading: "Rizières et maisons des hauts plateaux",
       theme: "light",
       paragraphs: [
-        "Au centre de l'île, la route monte et l'air se rafraîchit. Les rizières remplissent le fond des vallées, puis grimpent en terrasses jusqu'aux crêtes. Elles changent de couleur avec les mois : vert tendre après la plantation, or à la récolte, et miroir d'eau le reste du temps, où le ciel se reflète en entier. Le matin, la brume reste au creux des vallons jusqu'au premier soleil.",
-        "Les maisons ont deux étages, des murs de brique et des balcons de bois ouverts sur la vallée. Elles sont de la même couleur que la terre dont elles sont faites. En fin de journée, la lumière passe à l'orange et les façades la gardent longtemps. On s'arrête pour une nuit à Antsirabe, on pousse la porte des ateliers de pierres dures et de soie sauvage, et l'on repart vers le sud au petit matin.",
+        "Au centre de Madagascar, la route monte vers les hauts plateaux. Les rizières occupent le fond des vallées puis grimpent en terrasses jusqu'aux crêtes. Leur couleur change avec les mois : vert tendre après la plantation, doré à la récolte.",
+        "Les maisons de brique, à deux étages et balcons de bois, ont la couleur de la terre dont elles sont faites. On fait étape à Antsirabe pour visiter les ateliers de pierres dures et de soie sauvage, avant de repartir vers le sud.",
       ],
       images: [
         {

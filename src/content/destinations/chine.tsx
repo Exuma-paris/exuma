@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "La Chine à table",
-      heading: "Il n'y a pas une cuisine chinoise, il y en a huit",
+      heading: "Les huit cuisines de la Chine",
       theme: "light",
       paragraphs: [
-        "Ces huit cuisines n'ont presque rien en commun. Le canard laqué de Pékin se prépare sur deux jours et se découpe devant la table. À Chengdu, le poivre du Sichuan engourdit la bouche avant que le piment n'arrive. À Canton, on juge un cuisinier sur un poisson cuit à la vapeur, sans rien pour masquer.",
-        "Le thé suit la même logique. Sur les collines de Longjing, au-dessus du lac de l'Ouest, la cueillette de printemps ne dure que quelques semaines et se fait à la main, feuille par feuille. Les meilleurs lots ne quittent jamais la province.",
+        "La cuisine chinoise se divise traditionnellement en huit grandes cuisines régionales, très différentes. Le canard laqué de Pékin se prépare sur deux jours et se découpe devant la table. À Chengdu, le poivre du Sichuan engourdit la bouche avant le piment. À Canton, on juge un cuisinier sur un simple poisson à la vapeur.",
+        "Le thé est tout aussi varié. Sur les collines de Longjing, au-dessus du lac de l'Ouest à Hangzhou, la cueillette de printemps ne dure que quelques semaines et se fait à la main.",
       ],
       images: [
         {

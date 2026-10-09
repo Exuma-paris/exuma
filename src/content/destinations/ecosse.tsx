@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Écosse : les maisons et leur histoire",
-      heading: "Des châteaux que l'on habite encore",
+      heading: "Des châteaux encore habités",
       theme: "light",
       paragraphs: [
-        "En Écosse, un château n'est pas toujours un monument. Beaucoup sont restés des maisons de famille, transmises depuis dix ou douze générations, et cela s'entend dès l'entrée : il y a des chiens, du courrier sur la console, des photographies récentes à côté des portraits anciens. Floors, bâti en 1721 pour le premier duc de Roxburghe puis agrandi un siècle plus tard, se visite ainsi. Les tapisseries et les tableaux sont accrochés là où la famille les a mis.",
-        "La vallée de la Tweed en compte plusieurs autres, à moins d'une heure les unes des autres. Abbotsford, la maison que Walter Scott s'est fait construire au bord de la rivière, garde sa bibliothèque et son cabinet d'armes dans l'état où il les a laissés. Melrose et Dryburgh dressent encore leurs arches au-dessus des prés. On finit par mesurer les distances en maisons plutôt qu'en kilomètres.",
+        "En Écosse, beaucoup de châteaux sont restés des maisons de famille, transmises depuis des générations. Floors Castle, construit en 1721 pour le premier duc de Roxburghe, se visite ainsi, avec ses tableaux et ses tapisseries accrochés là où la famille les a placés.",
+        "Dans la vallée de la Tweed, d'autres demeures se trouvent à moins d'une heure de route. Abbotsford, la maison de Walter Scott au bord de la rivière, conserve sa bibliothèque et sa collection d'armes. Tout près, les abbayes de Melrose et de Dryburgh dressent encore leurs arches.",
       ],
       images: [
         {

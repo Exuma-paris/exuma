@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "New York, quartier par quartier",
-      heading: "Le Village à sept heures",
+      heading: "Trois quartiers de Manhattan",
       theme: "light",
       paragraphs: [
-        "Le West Village échappe au plan en damier du reste de Manhattan. Les rues s'y croisent de travers, les immeubles font quatre étages, et les tables sortent sur le trottoir dès que la lumière baisse. Sur Bleecker et sur Cornelia, quelques maisons se partagent le quartier depuis des décennies, et les meilleures n'ont qu'une dizaine de couverts. On y dîne tôt, puis on remonte à pied.", // TODO: verify l'ancienneté des adresses de Bleecker et de Cornelia
-        "Plus au sud, Tribeca fonctionne autrement : anciens entrepôts, trottoirs larges, façades en fonte, et des salles qui ne cherchent pas à se faire voir. Plus au nord, Harlem s'écoute, entre l'Apollo et les chorales du dimanche matin. Trois quartiers, trois heures différentes, et vingt minutes de métro entre chacun.",
+        "Le West Village échappe au plan en damier du reste de Manhattan : rues qui se croisent de travers, immeubles bas et tables installées sur le trottoir. Autour de Bleecker Street et de Cornelia Street, on dîne dans de petites adresses de quartier, avant de rentrer à pied.",
+        "Plus au sud, Tribeca aligne anciens entrepôts, trottoirs larges et façades en fonte. Plus au nord, Harlem se découvre par la musique, entre l'Apollo Theater et les chorales gospel du dimanche matin.",
       ],
       images: [
         {

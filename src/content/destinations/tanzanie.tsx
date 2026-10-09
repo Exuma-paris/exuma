@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Tanzanie : le corridor de Grumeti",
-      heading: "Ce que la concession privée autorise",
+      heading: "Safari privé à Grumeti",
       theme: "light",
       paragraphs: [
-        "Le départ se fait avant le lever du jour. Dans la concession de Grumeti, aucun autre véhicule ne circule. Le guide descend, lit le sol et relève l'empreinte laissée par un léopard pendant la nuit. Il en déduit la direction prise et l'heure approximative du passage.",
-        "La différence avec le parc national tient aux autorisations. Dans le Serengeti, les pistes sont tracées et le hors-piste est interdit. La marche guidée y existe, mais encadrée et limitée à des secteurs définis. Dans la concession, elle se pratique librement, et les sorties de nuit sont permises : les projecteurs à filtre rouge y révèlent les civettes et les genettes, invisibles de jour. Il ne s'agit pas d'un supplément de confort, mais d'une autre façon d'aborder le même territoire.",
+        "Dans la concession privée de Grumeti, en bordure du Serengeti, les safaris partent avant l'aube et l'on ne croise aucun autre véhicule. Les guides lisent les traces laissées pendant la nuit, comme celles d'un léopard, et en déduisent la direction prise par l'animal.",
+        "Contrairement au parc national, où la marche est très encadrée, la concession permet les marches guidées et les sorties de nuit. Les projecteurs à filtre rouge révèlent alors les civettes et les genettes, invisibles le jour.",
       ],
       images: [
         {

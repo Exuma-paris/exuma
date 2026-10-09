@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Anguilla : les cayes et les tables",
-      heading: "On déjeune de langouste sur un îlot sans électricité",
+      heading: "Langouste sur un îlot de sable",
       theme: "light",
       paragraphs: [
-        "Sandy Island tient en un banc de sable, quelques cocotiers et une paillote. Vingt minutes de bateau depuis Sandy Ground, et il n'y a plus rien autour. La langouste sort du vivier au moment de la commande, elle est grillée au feu de bois et servie sur une table posée dans le sable.",
-        "La réputation de l'île à table étonne pour sa taille. Des chefs s'y sont installés à demeure, et les cartes tournent autour de ce qui a été pêché le matin même : langouste, vivaneau, conque. Le soir venu, la plupart des tables ont les pieds dans le sable et une seule série de couverts.",
+        "Sandy Island, au large d'Anguilla, se résume à un banc de sable, quelques cocotiers et une paillote, à vingt minutes de bateau de Sandy Ground. La langouste y est sortie du vivier à la commande, grillée au feu de bois et servie sur une table posée dans le sable.",
+        "L'île a une réputation gastronomique étonnante pour sa taille. Des chefs s'y sont installés à demeure et leurs cartes suivent la pêche du jour : langouste, vivaneau, conque. Le soir, beaucoup de restaurants dressent leurs tables sur la plage.",
       ],
       images: [
         {

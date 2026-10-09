@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Sri Lanka : le pays du thé",
-      heading: "Le matin où la brume se lève sur Bogawantalawa",
+      heading: "Les plantations de thé des hautes terres",
       theme: "light",
       paragraphs: [
-        "La cueillette commence à sept heures dans la vallée de Bogawantalawa, à 1 200 mètres. Les femmes avancent par rangs : deux feuilles et un bourgeon, le sac retenu par une sangle au front. Un théier vit cent ans. Certains buissons plantés par les Écossais dans les années 1880 produisent encore.",
-        "À Dambatenne, l'usine construite par Thomas Lipton en 1890 tourne avec ses machines d'origine. Le flétrissage dure douze heures, le roulage vingt minutes, l'oxydation se juge à l'odeur. Le contremaître goûte quarante tasses dans la matinée et recrache. Ce n'est pas une démonstration pour visiteurs : c'est la production du jour, celle qui partira aux enchères de Colombo le mardi suivant.",
+        "Dans la vallée de Bogawantalawa, en altitude, la cueillette commence tôt le matin. Les cueilleuses avancent rang par rang et ne prélèvent que deux feuilles et un bourgeon. Certains théiers plantés par les Écossais à la fin du XIXe siècle produisent encore.",
+        "À Dambatenne, l'usine construite par Thomas Lipton en 1890 tourne toujours avec ses machines d'origine. On y suit le flétrissage, le roulage et l'oxydation, puis la dégustation, avant que le thé ne parte aux enchères de Colombo.",
       ],
       images: [
         {

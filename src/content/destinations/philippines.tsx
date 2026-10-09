@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Philippines : l'archipel hors circuit",
-      heading: "Plonger sur les épaves de Coron, entre corail et acier",
+      heading: "Les épaves et les lacs de Coron",
       theme: "light",
       paragraphs: [
-        "Des navires japonais reposent au fond de la baie de Coron depuis la guerre. Le corail mou les a recouverts, les bancs de poissons y ont pris leurs habitudes, et l'on descend dans les coursives comme on visiterait une maison abandonnée. Un guide qui connaît chaque cloison vous précède, lampe à la main.",
-        "L'île de Coron, juste en face, cache des lacs d'eau claire entre ses parois. On y accède par un escalier d'une centaine de marches taillé dans la roche, et l'on nage dans une eau qui tiédit à mesure que l'on descend, jusqu'à devenir presque chaude. Les Tagbanua veillent sur ces lacs et les ferment certains jours pour leurs cérémonies. Nous vous y conduisons quand ils sont ouverts, et tôt le matin.",
+        "Au fond de la baie de Coron reposent des navires japonais coulés pendant la Seconde Guerre mondiale. Couverts de corail et peuplés de poissons, ils forment un site de plongée réputé, que l'on explore avec un guide qui en connaît chaque recoin.",
+        "En face, l'île de Coron cache des lacs d'eau claire entre ses falaises calcaires, accessibles par un escalier taillé dans la roche. Le peuple tagbanua veille sur ces lacs et les ferme certains jours pour ses cérémonies.",
       ],
       images: [
         {

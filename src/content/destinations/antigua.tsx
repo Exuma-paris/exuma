@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Antigua, hors des mouillages de croisière",
-      heading: "Une baie pour soi, à une heure de la marina la plus animée",
+      heading: "Les baies tranquilles d'Antigua",
       theme: "light",
       paragraphs: [
-        "Les paquebots s'arrêtent à St. John's, déposent leurs passagers pour la journée et repartent au coucher du soleil. Le reste de l'île continue son rythme sans eux : une villa sur Galley Bay, une crique sans nom sur la côte nord, un ponton privé sur Nonsuch Bay où le bateau attend, moteur coupé.",
-        "Jumby Bay occupe sa propre île, à cinq minutes de navette du continent et sans une seule voiture. Hermitage Bay, sur la côte ouest, s'étend sur des cottages disséminés dans la colline, sans réception visible depuis la plage. Ce n'est pas un supplément d'options. C'est une autre manière d'occuper l'espace.",
+        "Les paquebots font escale à St. John's pour la journée, mais le reste de l'île garde un rythme paisible. On séjourne dans une villa sur Galley Bay, on rejoint en bateau une crique de la côte nord ou un ponton privé sur Nonsuch Bay, sur la côte est.",
+        "Jumby Bay occupe sa propre île, sans voitures, que l'on parcourt à vélo, à cinq minutes de navette d'Antigua. Sur la côte ouest, Hermitage Bay disperse ses cottages à flanc de colline, au-dessus d'une plage préservée.",
       ],
       images: [
         {

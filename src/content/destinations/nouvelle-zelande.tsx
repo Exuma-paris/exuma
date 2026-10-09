@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Nouvelle-Zélande : les lodges du bout du monde",
-      heading: "Une piste d'atterrissage privée, et le lac en contrebas",
+      heading: "Les grands lodges néo-zélandais",
       theme: "light",
       paragraphs: [
-        "Les meilleures adresses néo-zélandaises ne sont pas en ville. Blanket Bay occupe une presqu'île sur le lac Wakatipu, à Glenorchy, aux portes du Fiordland : hélicoptère privé jusqu'aux sommets environnants, dîner devant un feu de cheminée en pierre, silence complet passé dix-neuf heures.",
-        "Sur l'île du Nord, Huka Lodge s'est installé au bord de la rivière Waikato, juste en amont des chutes de Huka, en 1924. La maison a reçu la reine Élisabeth II et plusieurs chefs d'État sans jamais publier une seule photo de ses hôtes. C'est encore la règle aujourd'hui.", // TODO: verify history details
+        "En Nouvelle-Zélande, les plus belles adresses se trouvent loin des villes. Sur l'île du Sud, Blanket Bay borde le lac Wakatipu, près de Glenorchy : excursions en hélicoptère vers les sommets voisins, dîners devant une grande cheminée de pierre, calme absolu le soir.",
+        "Sur l'île du Nord, Huka Lodge s'étend au bord de la rivière Waikato, juste en amont des chutes de Huka. Cette maison historique, réputée pour sa discrétion, reçoit depuis des décennies des voyageurs exigeants.",
       ],
       images: [
         {

@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Le Salzkammergut",
-      heading: "Le Salzkammergut, les lacs où l’empereur passait ses étés",
+      heading: "Les lacs du Salzkammergut",
       theme: "light",
       paragraphs: [
-        "François-Joseph venait à Bad Ischl chaque été pendant plus de soixante ans. Il s’y était fiancé à Élisabeth en 1853, et la Kaiservilla appartient encore à ses descendants. La ville a gardé ses façades jaune impérial et ses pâtisseries au marbre usé. On y prend le café à la même heure qu’à Vienne, mais les fenêtres donnent sur des sapins.",
-        "Autour, les lacs se suivent sans se ressembler. Le Wolfgangsee est large et clair, le Fuschlsee reste sombre sous les arbres, le Hallstättersee s’enfonce entre deux parois. À Hallstatt, on remonte le sel de la montagne depuis plus de trois mille ans, ce qui en fait la plus ancienne mine du monde encore en activité. Le village se visite avant neuf heures, quand les cars sont encore sur la route.",
-        "À Fuschl, les barques de bois se louent toujours à l’heure. Personne ne vérifie l’heure.",
+        "François-Joseph a passé ses étés à Bad Ischl pendant plus de soixante ans. Il s’y était fiancé à Élisabeth en 1853, et la Kaiservilla appartient toujours à ses descendants. La ville a gardé ses façades jaune impérial et ses pâtisseries à la viennoise.",
+        "Autour, les lacs se succèdent : le Wolfgangsee, large et clair, le Fuschlsee bordé de forêts, le Hallstättersee encaissé entre deux parois. À Hallstatt, on extrait le sel de la montagne depuis plus de trois mille ans. Le village se visite tôt, avant l’arrivée des cars.",
       ],
       images: [
         {

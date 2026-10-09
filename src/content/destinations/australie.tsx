@@ -88,11 +88,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Australie : la mer et la vigne",
-      heading: "Les vignes de la Barossa comptent parmi les plus vieilles du monde",
+      heading: "Vignes et huîtres du sud de l'Australie",
       theme: "light",
       paragraphs: [
-        "À l'intérieur des terres, les vignobles occupent le fond des vallées. Dans la Barossa, des familles allemandes ont planté des pieds de shiraz au dix-neuvième siècle, et ces vignes produisent toujours. Les caves se visitent sans rendez-vous, et c'est souvent le vigneron lui-même qui sert.",
-        "Sur la côte sud, ce sont les parcs à huîtres qui bordent la route. On s'arrête devant un ponton, on achète une douzaine d'huîtres ouvertes le matin même, et on les mange assis sur la jetée, face à l'eau d'où elles sortent. Ces mêmes producteurs fournissent les tables de Sydney et d'Adélaïde.",
+        "Dans la vallée de la Barossa, des familles allemandes ont planté des pieds de shiraz au XIXe siècle, et ces vieilles vignes produisent toujours. Les caves se visitent sans rendez-vous, et c'est souvent le vigneron lui-même qui sert la dégustation.",
+        "Sur la côte sud, la route longe les parcs à huîtres. On s'arrête chez un producteur, on achète une douzaine d'huîtres ouvertes le matin même et on les déguste sur la jetée, face à l'eau d'où elles sortent.",
       ],
       images: [
         {

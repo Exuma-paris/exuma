@@ -108,11 +108,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Gotland",
-      heading: "Une île calcaire au milieu de la Baltique",
+      heading: "Gotland, une île calcaire de la Baltique",
       theme: "light",
       paragraphs: [
-        "Gotland se trouve à quatre-vingt-dix kilomètres des côtes suédoises, au milieu de la mer Baltique. Visby, sa capitale, a conservé son enceinte fortifiée du treizième siècle et figure au patrimoine mondial de l'UNESCO depuis 1995. Plus au nord, l'île de Fårö attire depuis les années 1960 les amateurs de cinéma : le réalisateur Ingmar Bergman y a vécu et tourné une partie de son œuvre, entre les rochers de calcaire appelés raukar, façonnés par la mer depuis la dernière glaciation.",
-        "Sur la péninsule de Furillen, au nord-est de l'île, une ancienne carrière de calcaire a fermé dans les années 1970. Il ne reste qu'un phare, une usine désaffectée et un paysage minéral presque sans arbres. Ce sont ces terrains délaissés que quelques photographes et hôteliers ont commencé à réinvestir, sans jamais chercher à en corriger l'aspect brut.",
+        "Gotland se trouve à environ quatre-vingt-dix kilomètres des côtes suédoises. Sa capitale, Visby, a gardé son enceinte du treizième siècle et est inscrite au patrimoine mondial de l'UNESCO. Au nord, l'île de Fårö, où vécut Ingmar Bergman, est connue pour ses raukar, des piliers de calcaire sculptés par la mer.",
+        "Au nord-est, la péninsule de Furillen est une ancienne carrière de calcaire : un phare, une usine désaffectée et un paysage minéral presque sans arbres, aujourd'hui réinvesti par quelques photographes et hôteliers.",
       ],
       images: [
         {

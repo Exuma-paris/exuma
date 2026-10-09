@@ -91,11 +91,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Galápagos, hors des sentiers de croisière",
-      heading: "Le matin où Puerto Ayora appartient encore aux pêcheurs",
+      heading: "Puerto Ayora et la station Charles Darwin",
       theme: "light",
       paragraphs: [
-        "À Puerto Ayora, sur Santa Cruz, les pêcheurs déchargent leur prise sur le quai municipal chaque matin avant huit heures. Des pélicans bruns et des otaries attendent à quelques mètres, immobiles, habitués au rituel. Aucune barrière ne les sépare des acheteurs qui négocient le thon et le mérou du jour.",
-        "Plus loin, la station de recherche Charles Darwin élève depuis 1965 des tortues géantes destinées à repeupler les îles où l'espèce avait disparu. Le programme a déjà relâché plus de dix mille individus. On y croise autant de scientifiques que de tortues centenaires.",
+        "À Puerto Ayora, sur l'île de Santa Cruz, les pêcheurs déchargent chaque matin leur prise sur le quai municipal. Pélicans bruns et otaries attendent à quelques mètres, sans aucune barrière entre eux et les acheteurs venus pour le thon et le mérou du jour.",
+        "Tout près, la station de recherche Charles Darwin élève depuis 1965 des tortues géantes destinées à repeupler les îles où l'espèce avait disparu. On y découvre de près ces tortues et le travail des scientifiques.",
       ],
       images: [
         {

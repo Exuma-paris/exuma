@@ -104,11 +104,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Bornholm et Ærø",
-      heading: "Deux îles, deux Danemark",
+      heading: "Deux îles au caractère bien distinct",
       theme: "light",
       paragraphs: [
-        "Bornholm se trouve au cœur de la mer Baltique, à l'est du reste du Danemark. L'île conserve quatre églises rondes fortifiées médiévales, construites aux douzième et treizième siècles à la fois comme lieux de culte et ouvrages défensifs. À Svaneke, les fumoirs perpétuent la tradition du hareng fumé, tandis que l'île entretient une importante tradition de céramique et de verrerie artisanales.",
-        "Ærø, au sud de Fionie, ne compte qu'une poignée de villages. Ærøskøbing aligne ses maisons à colombages, certaines datant des dix-septième et dix-huitième siècles, dans un ensemble historique remarquablement préservé. L'île se relie à Als par Ellen, le premier ferry cent pour cent électrique au monde, mis en service en 2019. Il relie Søby, sur Ærø, à Fynshav, sur Als, en environ une heure.",
+        "Isolée au cœur de la Baltique, Bornholm conserve quatre églises rondes médiévales, à la fois lieux de culte et forteresses. À Svaneke, les fumoirs perpétuent la tradition du hareng fumé, et l'île compte de nombreux ateliers de céramique et de verre.",
+        "Au sud de Fionie, Ærø ne compte que quelques villages. À Ærøskøbing, les maisons à colombages des XVIIe et XVIIIe siècles forment un ensemble remarquablement préservé. L'île est reliée à Als par Ellen, un ferry entièrement électrique.",
       ],
       images: [
         {

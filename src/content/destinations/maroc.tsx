@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Maroc : les artisans de Fès",
-      heading: "Les matins de Fès, chez ceux qui font encore tout à la main",
+      heading: "Les artisans de la médina de Fès",
       theme: "light",
       paragraphs: [
-        "L'atelier ouvre avant les boutiques, quand la médina appartient encore aux livreurs et aux mules. Le relieur cousait déjà des corans quand son père tenait la même échoppe, et il explique la dorure en la faisant, sans jamais s'interrompre. Un peu plus loin, un dinandier martèle un plateau de cuivre et le bruit se répercute dans toute la ruelle. On repart avec les gestes en tête plus qu'avec des explications.",
-        "Fès se visite avec quelqu'un qui y est né, sinon la ville se referme. Notre guide raconte sa médina comme il raconterait sa famille : il salue les commerçants, ouvre des portes que rien ne signale, et fait monter sur une terrasse au moment où la lumière passe sur les tanneries. La matinée se termine autour d'un thé, et l'on comprend enfin pourquoi personne ici ne se presse.",
+        "Dans la médina de Fès, les ateliers ouvrent tôt, avant les boutiques. Les dinandiers y martèlent à la main de grands plateaux de cuivre, et le bruit résonne dans toute la ruelle. Dans les souks voisins, théières et plateaux ciselés s'empilent sur les étals.",
+        "Nous vous faisons découvrir la médina avec un guide né à Fès, qui connaît les artisans et ouvre des portes que rien ne signale. La visite passe par une terrasse avec vue sur les tanneries et se termine autour d'un thé.",
       ],
       images: [
         {

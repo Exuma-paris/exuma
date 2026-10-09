@@ -88,12 +88,12 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Chili : les grands espaces et l'accès rare",
-      heading: "Ce que le Chili ne montre pas de lui-même",
+      eyebrow: "Chili : des accès privilégiés",
+      heading: "Le Chili hors des circuits classiques",
       theme: "light",
       paragraphs: [
-        "Le Chili n'a jamais eu besoin de se rendre spectaculaire : il l'est par sa géographie. Le revers, c'est que l'on peut le traverser sans jamais quitter la file. Les mêmes miradors, les mêmes horaires, les mêmes bus au pied des Torres. La différence tient à qui vous ouvre la barrière.",
-        "Nous travaillons avec des estancias qui ne reçoivent pas de public, des équipages de Puerto Natales qui connaissent les mouillages des fjords Kawésqar, des vignerons de Millahue qui sortent les millésimes de leur cave personnelle. À Rapa Nui, un guide de l'île ouvre Ahu Tongariki avant le lever du jour. Ce n'est pas un privilège de brochure : c'est un carnet d'adresses que l'on met dix ans à constituer.",
+        "Le Chili impressionne par sa géographie, mais ses sites les plus connus, comme les Torres del Paine, attirent aussi beaucoup de visiteurs aux mêmes points de vue et aux mêmes horaires. Pour les découvrir autrement, tout dépend des accès dont on dispose.",
+        "Nous travaillons avec des estancias fermées au public, des équipages de Puerto Natales qui connaissent les mouillages des fjords et des vignerons de la vallée de Millahue. À Rapa Nui, un guide de l'île ouvre le site d'Ahu Tongariki avant le lever du jour.",
       ],
       images: [
         {

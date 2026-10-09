@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Inde : l'art de recevoir",
-      heading: "Des palais encore habités, et des maisons qui reçoivent",
+      heading: "Des palais encore habités",
       theme: "light",
       paragraphs: [
-        "En Inde, beaucoup de grandes demeures n'ont jamais cessé d'être des maisons. À Maheshwar, le fort qui domine la Narmada appartient toujours aux descendants d'Ahilyabai Holkar, et l'on y dîne à la table de la famille. À Jaipur comme à Hyderabad, des palais ouvrent quelques chambres et gardent le reste pour eux. La différence se sent au premier soir : on est reçu, pas enregistré.",
-        "Cela change la nature des rencontres. Un maître tisserand de Varanasi sort ses soies parce qu'un ami commun l'a demandé. Une famille d'Udaipur montre les pochoirs du Jal Sanjhi qu'elle conserve depuis des générations. À Kochi, des descendants de la lignée royale reçoivent pour le thé dans leur quartier. Ce ne sont pas des visites au programme, ce sont des portes que quelqu'un a fait ouvrir.",
+        "En Inde, beaucoup de grandes demeures sont restées des maisons de famille. À Maheshwar, le fort qui domine la Narmada appartient toujours aux descendants d'Ahilyabai Holkar, qui y reçoivent leurs hôtes. À Jaipur comme à Hyderabad, des palais ouvrent quelques chambres aux voyageurs.",
+        "Ces séjours mènent aussi à des rencontres : un maître tisserand de Varanasi qui présente ses soies, une famille d'Udaipur qui conserve des pochoirs anciens, des descendants de la lignée royale de Kochi qui reçoivent pour le thé.",
       ],
       images: [
         {

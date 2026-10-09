@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Le Vieux San Juan, avant les paquebots",
-      heading: "Le matin où les balcons bleus appartiennent encore aux habitants",
+      heading: "Le Vieux San Juan au petit matin",
       theme: "light",
       paragraphs: [
-        "Dans le Vieux San Juan, la Calle Fortaleza se traverse à sept heures du matin sans un croisiériste. Les façades pastel et les balcons en fer forgé gardent la fraîcheur de la nuit, avant que la chaleur ne monte sur l'adoquín, ce pavé bleuté importé d'Angleterre comme lest des navires espagnols au XIXe siècle. Un guide raconte comment le fort San Felipe del Morro, achevé en 1783 après deux siècles de travaux, n'a jamais cédé à un assaut venu de la mer.",
-        "Plus loin, la Capilla del Cristo referme la vieille ville sur une légende de cavalier sauvé in extremis. Le marché de la Plaza del Mercado de Santurce ouvre à la même heure : les vendeurs de mofongo et de jus de corossol s'installent avant les premiers groupes venus des paquebots.",
+        "Tôt le matin, avant l'arrivée des croisiéristes, on parcourt tranquillement le Vieux San Juan. Le long de la Calle Fortaleza, les façades colorées et les balcons en fer forgé bordent des rues pavées de pierres bleutées, les adoquines.",
+        "La visite mène ensuite au fort San Felipe del Morro, bâti par les Espagnols pour défendre l'entrée de la baie et qui offre une large vue sur l'océan, puis à la petite Capilla del Cristo, nichée au bout de la vieille ville.",
       ],
       images: [
         {

@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Hydra, l'île sans voitures",
-      heading: "Une île où l'on entend ses propres pas",
+      heading: "Une île au rythme des mules",
       theme: "light",
       paragraphs: [
-        "À Hydra, il n'y a pas une seule voiture. La loi l'interdit depuis des décennies. On débarque sur un port en fer à cheval, bordé de maisons de capitaines en pierre grise, et le premier bruit qui monte n'est pas un moteur : c'est le sabot des mules qui montent les bagages vers les hauteurs. La ville s'étage au-dessus de l'eau, sans une enseigne clignotante.",
-        "La lumière d'Hydra a retenu des peintres pendant tout le vingtième siècle. Elle est nette, sans halo, elle découpe les ombres au couteau. Le soir, les cafés du port se remplissent d'un brouhaha bas, et le dernier ferry parti, l'île se referme sur elle-même.",
-        "On y dort mal la première nuit. Le silence est trop grand.",
+        "À Hydra, les voitures sont interdites. On débarque dans un port en fer à cheval bordé de maisons de capitaines en pierre grise, et ce sont des mules qui montent les bagages vers les hauteurs. La ville s'étage au-dessus de l'eau, sans enseigne lumineuse.",
+        "Sa lumière nette, aux ombres très marquées, a attiré des peintres tout au long du vingtième siècle. Le soir, les cafés du port s'animent, puis l'île retrouve son calme après le départ du dernier ferry.",
       ],
       images: [
         {

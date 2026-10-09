@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Oman : la montagne et le sable",
-      heading: "Le matin où la montagne sent la rose",
+      heading: "Le plateau de Saiq et le désert",
       theme: "light",
       paragraphs: [
-        "Sur le plateau de Saiq, les terrasses de pierre s'accrochent au flanc de la montagne. On y cultive la rose depuis toujours. La cueillette se fait à l'aube, avant que la chaleur ne fasse tomber le parfum. Les villages tiennent au bord du vide, reliés par un mince canal d'eau qui court le long de la roche.", // TODO: verify la cueillette à l'aube au printemps
-        "Plus bas, le désert n'offre ni chemin ni repère. Le campement se monte le matin, s'occupe une nuit, se démonte le lendemain. Au réveil suivant, il ne reste rien sur le sable.",
+        "Dans le Djebel Akhdar, le plateau de Saiq est couvert de terrasses de pierre accrochées à la montagne, où l'on cultive la rose pour en distiller l'eau de rose. Les villages bordent le vide, reliés par un mince canal d'irrigation qui court le long de la roche.",
+        "Plus bas, le désert s'étend à perte de vue, sans route ni repère, entre de hautes dunes. On y passe une nuit dans un campement monté pour l'occasion, puis démonté le lendemain sans laisser de trace sur le sable.",
       ],
       images: [
         {

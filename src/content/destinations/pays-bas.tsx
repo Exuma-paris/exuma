@@ -89,13 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Pays-Bas : la vie au bord de l'eau",
-      heading: "Une journée sur l'eau, une journée sur les digues",
+      heading: "En voilier et à vélo",
       theme: "light",
       paragraphs: [
-        "Sur l'IJsselmeer, l'eau est plate et il n'y a pas de houle. On embarque à Hoorn sur un voilier en acier des années 1900. L'équipage hisse la grand-voile à la main, et le port disparaît derrière la digue. Le déjeuner se prend à bord, au mouillage.",
-        "Le lendemain, on longe les digues à vélo. Les villages du Waterland ont des maisons de bois vertes et des jardins qui descendent jusqu'au canal. On s'arrête dans une ferme du Beemster pour goûter un fromage affiné trois ans, coupé devant nous.",
-        "Ces terres ont été prises à la mer, et cela se voit encore : la route passe plus haut que les champs, et l'horizon est dégagé dans toutes les directions. On voit arriver la lumière de très loin.",
-        "À vélo comme en bateau, on avance toujours au niveau de l'eau.",
+        "Sur l'IJsselmeer, une vaste étendue d'eau calme et sans houle, on embarque à Hoorn sur un voilier en acier des années 1900. L'équipage hisse les voiles à la main et le déjeuner se prend à bord, au mouillage.",
+        "Le lendemain, on longe les digues à vélo. Les villages du Waterland alignent leurs maisons de bois vertes au bord des canaux, et une ferme du Beemster fait goûter son fromage affiné. Sur ces terres gagnées sur la mer, la route passe plus haut que les champs.",
       ],
       images: [
         {

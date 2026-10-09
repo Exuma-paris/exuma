@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Bahamas, l'île pour soi",
-      heading: "Prendre une île entière, du ponton au dernier banc de sable",
+      heading: "Une île privée aux Bahamas",
       theme: "light",
       paragraphs: [
-        "Ici, l'île privée n'est pas une figure de style. Une quarantaine de cayes se louent en entier, avec leur équipage, leur cuisine et leurs bateaux, et l'on y arrive par hydravion ou par le pont d'un yacht. Musha Cay, dans le sud des Exumas, compte cinq maisons pour vingt-quatre personnes et quarante plages.",
-        "Le reste du temps, la discrétion se joue autrement. À Andros, la troisième barrière de corail du monde longe la côte est et tombe d'un coup dans la Tongue of the Ocean, à plus de mille mètres de fond. On plonge le matin, on pêche l'après-midi, et le soir personne ne demande ce que l'on fait dans la vie.",
+        "Aux Bahamas, une quarantaine de cayes se louent en entier, avec équipage, cuisine et bateaux. On y arrive en hydravion ou à bord d'un yacht. Musha Cay, dans le sud des Exumas, compte cinq maisons pour vingt-quatre personnes et quarante plages.",
+        "À Andros, la troisième barrière de corail du monde longe la côte est avant de plonger dans la Tongue of the Ocean, une fosse sous-marine de plus de mille mètres de fond. On y plonge le matin et l'on pêche l'après-midi.",
       ],
       images: [
         {

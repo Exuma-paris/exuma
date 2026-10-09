@@ -92,8 +92,8 @@ export const destination: Destination = {
       heading: "Le lagon de Jambiani et les boutres de Nungwi",
       theme: "light",
       paragraphs: [
-        "À Jambiani, la mer se retire tôt le matin et le lagon devient un plateau de sable clair que l'on traverse pieds nus. Les femmes du village y entrent pour relever les cordes d'algues qu'elles cultivent depuis des générations. On les accompagne, on les écoute, et l'eau revient avant le déjeuner rendre à la baie sa couleur turquoise.",
-        "À l'autre bout de l'île, à Nungwi, les charpentiers construisent encore les boutres à la main, sans plan, à l'œil. Le chantier est ouvert sur la plage, l'odeur du bois se mêle à celle du sel, et personne ne cherche à vous vendre quoi que ce soit. Nous vous y conduisons en fin d'après-midi, quand la lumière descend sur les coques et que les pêcheurs rentrent.",
+        "À Jambiani, la mer se retire le matin et laisse un vaste lagon de sable clair que l'on traverse à pied. Les femmes du village y cultivent des algues sur des cordes, et l'on peut les accompagner pendant la récolte avant le retour de l'eau turquoise.",
+        "Au nord de l'île, à Nungwi, les charpentiers construisent encore les boutres à la main, sans plan, directement sur la plage. Nous vous y emmenons en fin d'après-midi, au moment où les pêcheurs rentrent.",
       ],
       images: [
         {

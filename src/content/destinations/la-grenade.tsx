@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les épices et la forêt",
-      heading: "Les matins où l'odeur de muscade suit la route",
+      heading: "La muscade et la forêt du Grand Étang",
       theme: "light",
       paragraphs: [
-        "La muscade se ramasse à la main, une par une, et le reste du travail se fait à l'ombre. Dans la station de Gouyave, les femmes trient les noix par calibre sur des tables de bois, du bout des doigts, à la vitesse de la conversation. Le bâtiment est ouvert sur la rue, le sol est en planches, et l'odeur porte jusqu'au marché. Personne ne s'arrête de travailler quand on entre.",
-        "Au-dessus, la forêt du Grand Étang garde l'eau de l'île. Les fougères arborescentes referment le sentier, les cascades des Seven Sisters tombent dans des bassins où l'on se baigne, et l'on entend les singes bien avant de les voir. On redescend vers la mer en fin de matinée, la peau encore fraîche, et l'on comprend pourquoi les Grenadiens parlent de leur île comme d'un jardin.",
+        "La Grenade est l'île de la muscade. À Gouyave, dans la station de traitement, les femmes trient les noix par calibre, à la main, sur de grandes tables en bois, dans un bâtiment ouvert sur la rue où l'odeur d'épices porte jusqu'au marché.",
+        "Dans les hauteurs, la forêt du Grand Étang garde l'eau de l'île. Un sentier bordé de fougères arborescentes mène aux cascades des Seven Sisters, où l'on peut se baigner, et l'on y entend souvent les singes avant de les apercevoir.",
       ],
       images: [
         {

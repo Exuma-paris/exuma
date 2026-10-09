@@ -86,11 +86,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Croatie, le luxe et l'exclusif",
-      heading: "Une côte qui se lit autrement, une poignée d'adresses qui la comprennent",
+      heading: "La Dalmatie loin des foules",
       theme: "light",
       paragraphs: [
-        "Notre sélection s'ouvre sur une Croatie que la plupart des visiteurs de Dubrovnik ne voient jamais. Un voilier avec skipper qui remonte la côte dalmate mouillage après mouillage, loin des ferries. Une villa nichée dans les collines de Konavle, à dix minutes des remparts mais hors de portée des foules du Stradun. Des propriétés qui se comptent sur les doigts d'une main, et qui suffisent à couvrir toute la Dalmatie.",
-        "À terre, le pays se raconte par ses artisans. Un vigneron du Pelješac descend dans sa cave creusée à même la roche du Dingač pour faire goûter trois millésimes de plavac mali côte à côte. Un trabucante d'Istrie remonte la piste de sa truffière sous les chênes de Motovun, chien en tête. Ces rencontres, plus que les plages, sont ce qui reste d'un voyage en Croatie.",
+        "Loin de l'affluence de Dubrovnik, on découvre la côte dalmate en voilier avec skipper, de mouillage en mouillage, ou depuis une villa dans les collines de Konavle, à dix minutes des remparts mais à l'écart des foules du Stradun.",
+        "À terre, la Croatie se découvre aussi par ses artisans. Sur la presqu'île de Pelješac, un vigneron fait goûter son plavac mali dans une cave creusée dans la roche du Dingač. En Istrie, près de Motovun, un chercheur de truffes part en forêt avec son chien.",
       ],
       images: [
         {

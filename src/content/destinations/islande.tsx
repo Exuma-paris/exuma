@@ -108,11 +108,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "La côte sud",
-      heading: "Des volcans encore en activité, sous la glace",
+      heading: "Volcans et glaciers de la côte sud",
       theme: "light",
       paragraphs: [
-        "En islandais, le mot jökull veut dire glacier. Il revient dans presque tous les noms de la région, parce que plusieurs volcans du sud sont recouverts d'une calotte de glace. C'est le cas de l'Eyjafjallajökull. Son éruption de 2010 a projeté une grande quantité de cendres dans l'atmosphère et interrompu le trafic aérien européen pendant plusieurs jours. Les fermes situées au pied du volcan ont été recouvertes de cendre. Elles sont toujours exploitées aujourd'hui, et certaines racontent cet épisode aux visiteurs.",
-        "Au large de cette côte se trouve un petit archipel, les îles Vestmann. La principale s'appelle Heimaey. Dans la nuit du 23 janvier 1973, une fissure s'est ouverte à la sortie du village. Les habitants ont été évacués en quelques heures par la flotte de pêche, qui se trouvait au port ce soir-là à cause d'une tempête. La lave a enseveli plusieurs centaines de maisons et menacé d'obstruer l'entrée du port. Les Islandais l'ont arrosée d'eau de mer pendant des semaines pour la refroidir et la ralentir. Le port fonctionne encore.",
+        "Sur la côte sud, plusieurs volcans sont recouverts d'une calotte glaciaire, d'où le mot jökull, glacier, dans leur nom. En 2010, l'éruption de l'Eyjafjallajökull a paralysé le trafic aérien européen. Les fermes au pied du volcan, couvertes de cendres, sont toujours exploitées.",
+        "Au large, l'île de Heimaey, dans l'archipel des Vestmann, a connu une éruption en 1973. La lave a enseveli des centaines de maisons. Les habitants, évacués par la flotte de pêche, l'ont arrosée d'eau de mer pour sauver leur port.",
       ],
       images: [
         {

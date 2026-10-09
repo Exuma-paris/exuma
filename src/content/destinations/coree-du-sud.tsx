@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "La Corée du Sud à table",
-      heading: "On mange autour de la table, et tout arrive en même temps",
+      heading: "Le repas coréen et le kimchi",
       theme: "light",
       paragraphs: [
-        "Un repas coréen n'a ni entrée ni plat principal. Tout arrive ensemble au centre de la table : le riz, la soupe, la viande que l'on grille soi-même, et une série de petits bols appelés banchan. On se sert dans les mêmes plats, et l'on remplit le bol du voisin avant le sien.",
-        "Le kimchi accompagne tout. C'est du chou fermenté avec du piment, de l'ail et du gingembre. Les familles le préparent en grande quantité à l'automne, pour l'année entière. Chaque maison a sa recette, et le goût change de l'une à l'autre.",
+        "Un repas coréen n'a ni entrée ni plat principal. Tout arrive ensemble au centre de la table : le riz, la soupe, la viande que l'on grille soi-même et une série de petits bols appelés banchan. On se sert dans les plats communs, en servant les autres avant soi.",
+        "Le kimchi accompagne tout. C'est du chou fermenté avec du piment, de l'ail et du gingembre. Les familles le préparent en grande quantité à l'automne, pour toute l'année, et chaque maison a sa propre recette.",
       ],
       images: [
         {

@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Jordanie : la pierre et le désert",
-      heading: "La faille se traverse à pied, dans l'ombre",
+      heading: "Le Siq, l'entrée de Pétra",
       theme: "light",
       paragraphs: [
-        "L'entrée de Pétra ne se voit pas depuis la vallée. Il faut d'abord descendre dans le Siq, une faille étroite que l'eau a ouverte dans la montagne. Les parois montent très haut et se rapprochent par endroits, jusqu'à ne laisser qu'une bande de ciel. L'air y reste frais même en plein été. Sur la roche, on distingue encore les canaux que les Nabatéens avaient taillés pour conduire l'eau des crues vers la cité.",
-        "Puis la faille débouche d'un seul coup sur le Khazneh, la façade sculptée à même la falaise. Elle prend sa couleur la plus forte en fin de matinée, quand le soleil finit par entrer dans le cirque.",
+        "Pour atteindre Pétra, on descend à pied dans le Siq, une faille étroite que l'eau a ouverte dans la montagne. Ses hautes parois se resserrent par endroits jusqu'à ne laisser qu'une bande de ciel, et l'air y reste frais en plein été. On y voit encore les canaux taillés par les Nabatéens pour conduire l'eau vers la cité.",
+        "Au bout de la faille apparaît le Khazneh, la célèbre façade sculptée dans la falaise, dont la couleur est la plus intense en fin de matinée.",
       ],
       images: [
         {

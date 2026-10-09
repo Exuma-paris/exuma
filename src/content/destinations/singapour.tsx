@@ -88,11 +88,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Singapour, le luxe et l'exclusif",
-      heading: "Ce que la ville ne montre pas depuis Marina Bay",
+      heading: "Un Singapour plus confidentiel",
       theme: "light",
       paragraphs: [
-        "Notre sélection révèle un Singapour que l'on découvre loin des rooftops et des adresses standardisées. Entre Alexandra Park et Sentosa, les bungalows noir et blanc de l'époque coloniale, autrefois réservés aux officiers britanniques, restent aujourd'hui des adresses rares, souvent accessibles dans un cercle restreint. À Somerset, un club confidentiel installé dans une ancienne demeure ne se découvre que sur recommandation. Quant au paddock club du Grand Prix de Singapour, il ne se réserve pas en ligne : l'accès se mérite.", // TODO: verify club name
-        "À Singapour, le privilège tient souvent à ce que l'on peut découvrir avant les autres. Un conservateur du Singapore Botanic Gardens ouvre les portes du National Orchid Garden avant l'arrivée du public. Un armateur privé prend le large en sampan jusqu'aux eaux paisibles de Kusu Island, loin des circuits touristiques. Ce ne sont pas de simples expériences ajoutées à un itinéraire : ce sont ces accès rares qui donnent envie de revenir à Singapour une deuxième fois.",
+        "Loin des rooftops de Marina Bay, Singapour cache des adresses plus rares. Entre Alexandra Park et Sentosa, les bungalows noir et blanc de l'époque coloniale, autrefois réservés aux officiers britanniques, comptent parmi les demeures les plus recherchées de la ville.",
+        "Nous organisons aussi des accès privilégiés : la visite du National Orchid Garden, au cœur du jardin botanique, avant l'arrivée du public, ou une sortie en bateau privé jusqu'aux eaux calmes de Kusu Island.",
       ],
       images: [
         {

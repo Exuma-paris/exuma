@@ -89,12 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Zimbabwe : la marche et la pierre",
-      heading: "À Mana Pools, on avance à pied sous les albidas",
+      heading: "Safari à pied à Mana Pools",
       theme: "light",
       paragraphs: [
-        "L'acacia albida de Mana Pools fait l'inverse des autres arbres : il perd ses feuilles à la saison des pluies et les garde à la saison sèche. Le résultat est une forêt claire, sans sous-bois, où le regard porte loin. C'est ce qui rend la marche possible ici, et presque nulle part ailleurs.",
-        // TODO: verify (éléphants dressés sur les pattes arrière de la vallée du Zambèze)
-        "Le guide passe devant, s'arrête, pose la main à plat. On s'arrête aussi. Devant, un éléphant se dresse sur ses pattes arrière pour attraper les gousses en hauteur : dans cette vallée, ils sont une poignée à savoir le faire, et les guides les appellent par leur nom.",
+        "À Mana Pools, dans la vallée du Zambèze, l'acacia albida perd ses feuilles à la saison des pluies et les garde à la saison sèche. Il forme une forêt claire, sans sous-bois, où la vue porte loin. C'est ce qui rend possibles ici les safaris à pied.",
+        "On avance en petit groupe derrière un guide, qui s'arrête dès qu'un animal se présente. Les éléphants viennent se nourrir des gousses de ces arbres, et on les observe à pied, sans véhicule entre eux et nous.",
       ],
       images: [
         {

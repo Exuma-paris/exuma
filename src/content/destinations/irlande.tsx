@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Irlande : la côte et la table",
-      heading: "Ce que l'Atlantique dépose sur la table",
+      heading: "Huîtres, fromages et whiskey",
       theme: "light",
       paragraphs: [
-        "Dans la baie de Galway, les huîtres plates poussent encore dans des bancs sauvages : c'est la seule baie d'Irlande où on les ramasse ainsi. Le producteur ouvre la première sur place et la tend, sans citron. Elle a le goût de l'eau froide. La saison va de septembre à avril. Un peu plus au sud, les fermes font des fromages qu'elles affinent elles-mêmes, et le saumon se fume au bois de chêne.",
-        "Le whiskey, lui, se boit là où il se fait. À Midleton, la plus grande maison du pays, le maître-distillateur ouvre un chai que les visiteurs ne voient jamais. Il prélève dans un fût, sert, et raconte ce que le bois a fait au whiskey pendant vingt ans. On repart avec une bouteille tirée devant soi.",
+        "Dans la baie de Galway, les huîtres plates poussent encore dans des bancs sauvages, et le producteur ouvre la première sur place. La saison va de septembre à avril. Plus au sud, des fermes affinent leurs propres fromages et le saumon est fumé au bois de chêne.",
+        "Le whiskey se découvre là où il se fait. À Midleton, la plus grande distillerie du pays, le maître-distillateur ouvre un chai fermé au public, sert directement au fût et explique ce que le bois apporte au whiskey au fil des années.",
       ],
       images: [
         {

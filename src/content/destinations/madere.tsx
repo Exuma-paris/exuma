@@ -89,12 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les levadas",
-      heading: "Des chemins d'eau qui traversent toute l'île",
+      heading: "Marcher le long des levadas",
       theme: "light",
       paragraphs: [
-        "Les levadas sont nées d'un besoin simple : conduire l'eau des montagnes du nord vers les cultures du sud. Cinq siècles plus tard, elles dessinent les plus belles promenades de l'île. On marche à plat, au bord de l'eau, dans une forêt qui n'a pas changé.",
-        "Celle du Caldeirão Verde part de Queimadas, sous des hêtres couverts de mousse. Le chemin file entre les fougères, traverse quelques tunnels, puis s'ouvre sur une cascade qui tombe dans un cirque fermé. Trois heures de marche, le bruit de l'eau à côté du pied.",
-        "On y croise plus de fougères que de marcheurs.",
+        "Les levadas sont des canaux construits pour conduire l'eau des montagnes du nord vers les cultures du sud de Madère. Cinq siècles plus tard, elles offrent les plus belles promenades de l'île : on marche presque à plat, au bord de l'eau, à travers la forêt.",
+        "La levada du Caldeirão Verde part de Queimadas, sous des arbres couverts de mousse. Le chemin passe entre les fougères et par quelques tunnels, puis aboutit à une cascade qui tombe dans un cirque. Comptez environ trois heures de marche.",
       ],
       images: [
         {

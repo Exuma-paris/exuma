@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "La côte du Pacifique",
-      heading: "L'ours esprit, une rencontre au bord des rivières à saumons",
+      heading: "L'ours esprit de la forêt du Grand Ours",
       theme: "light",
       paragraphs: [
-        "Sur la côte de la Colombie-Britannique, la forêt du Grand Ours descend jusqu'à l'eau salée et ne s'interrompt jamais vraiment. Les cèdres y poussent depuis des siècles, couverts de mousse jusqu'aux branches hautes, et les saumons remontent le courant à l'automne. C'est la seule forêt du monde où vive l'ours esprit, reconnaissable à son pelage crème, que les Premières Nations protègent de longue date.",
-        "On y va en bateau, avec un gardien du territoire qui connaît les rivières et les nomme une par une. L'attente se fait sur une plateforme de bois, à voix basse, pendant que la marée descend et que la forêt s'éveille autour. L'animal arrive quand il l'a décidé, et les guides le reconnaissent d'une année sur l'autre.",
-        "Cette forêt reste en mémoire longtemps après le retour.",
+        "Sur la côte de la Colombie-Britannique, la forêt du Grand Ours s'étend jusqu'à la mer. Ses cèdres centenaires sont couverts de mousse et, à l'automne, les saumons remontent ses rivières. C'est ici que vit l'ours esprit, un ours noir au pelage crème, protégé de longue date par les Premières Nations.",
+        "On s'y rend en bateau avec un gardien du territoire qui connaît chaque rivière. L'observation se fait en silence depuis une plateforme en bois, au bord de l'eau où l'ours vient pêcher.",
       ],
       images: [
         {

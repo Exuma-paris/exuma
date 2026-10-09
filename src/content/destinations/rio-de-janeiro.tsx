@@ -88,11 +88,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "L'aube sur le Corcovado",
-      heading: "L'heure où la ville se montre entière",
+      heading: "Le Corcovado au lever du jour",
       theme: "light",
       paragraphs: [
-        "Le sentier de Paineiras part à six heures du matin. Quarante minutes de marche dans la forêt de Tijuca avant que le sommet ne soit ouvert au public. Les singes capucins traversent au-dessus du chemin, on les entend avant de les voir. Le guide marche en tête. Pas de carte, pas de balisage : il connaît le sentier depuis vingt ans.",
-        "À sept heures, on arrive sous la statue du Christ Rédempteur. Personne. Le brouillard se déchire sous les pieds, et la baie de Guanabara apparaît par fragments : Pain de Sucre, baie de Botafogo, Niterói en arrière-plan. La ville s'étend entre les sept montagnes. C'est cette heure-là, et seulement cette heure-là, qu'on voit Rio en entier.",
+        "Tôt le matin, on monte au Corcovado à pied par le sentier de Paineiras, à travers la forêt de Tijuca, l'une des plus grandes forêts urbaines du monde. La marche dure environ quarante minutes avec un guide qui connaît bien le chemin, et l'on croise souvent des singes dans les arbres.",
+        "On arrive au pied du Christ Rédempteur avant l'affluence. La vue embrasse toute la baie de Guanabara : le Pain de Sucre, la baie de Botafogo et, au loin, Niterói, avec la ville qui s'étend entre mer et montagnes.",
       ],
       images: [
         {

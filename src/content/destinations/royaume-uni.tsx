@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Royaume-Uni : les Highlands",
-      heading: "Le Deeside en septembre, quand la bruyère vire au pourpre",
+      heading: "Les Highlands en septembre",
       theme: "light",
       paragraphs: [
-        "En août, les routes du nord appartiennent aux vacanciers britanniques et les villages du Deeside vivent au rythme des Highland Games. En septembre, tout se retire. La bruyère se couvre de pourpre sur les collines, les cerfs redescendent vers les vallées, et les maisons acceptent volontiers de n'ouvrir que pour vous. C'est la période que nous préférons.",
-        "Plus à l'ouest, les Hébrides se rejoignent par le ferry ou par un petit avion depuis Glasgow. Sur Islay, les entrepôts de whisky donnent directement sur la mer et l'air sent la tourbe dès le port. À Harris, les plages de sable blanc n'ont personne dessus au mois de septembre, et l'eau y reste trop froide pour que cela change un jour.",
+        "En août, les Highlands accueillent de nombreux vacanciers et les villages du Deeside vivent au rythme des Highland Games. En septembre, la foule se retire : la bruyère fleurit en pourpre sur les collines et les cerfs redescendent vers les vallées.",
+        "Plus à l'ouest, les Hébrides se rejoignent en ferry ou en petit avion depuis Glasgow. Sur Islay, les distilleries de whisky bordent la mer. À Harris, les grandes plages de sable blanc sont presque désertes en septembre.",
       ],
       images: [
         {

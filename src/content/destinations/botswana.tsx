@@ -90,14 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Botswana : le jour et la nuit",
-      heading: "Ce que le hors-piste et la nuit changent",
+      heading: "Safari de jour, safari de nuit",
       theme: "light",
       paragraphs: [
-        "Dans la réserve de Moremi, les pistes sont tracées et le hors-piste reste interdit. Les portes ferment au coucher du soleil. C'est la règle d'un territoire protégé depuis 1963.",
-        "La journée y suit donc un rythme précis : deux sorties, l'une avant le lever du jour, l'autre jusqu'aux dernières lueurs.",
-        "La nuit se découvre ailleurs, dans les réserves privées du Makgadikgadi. Le projecteur à filtre rouge y est autorisé. Il ouvre l'observation à d'autres espèces.",
-        "Oryctérope, hyène brune, otocyon : aucune ne se rencontre à midi. Le guide coupe alors le moteur, balaie la bordure du pan, puis s'arrête sur deux points lumineux, à trente mètres.",
-        "C'est cette complémentarité entre le jour et la nuit qui détermine l'ordre des étapes.",
+        "Dans la réserve de Moremi, protégée depuis 1963, le hors-piste est interdit et les portes ferment au coucher du soleil. Les journées s'organisent donc en deux sorties : l'une dès l'aube, l'autre jusqu'aux dernières lueurs.",
+        "La nuit se découvre dans les réserves privées du Makgadikgadi, où les sorties au projecteur sont autorisées. On y observe des espèces nocturnes qu'on ne voit pas de jour, comme l'oryctérope, la hyène brune ou l'otocyon. Les deux expériences se complètent au fil du voyage.",
       ],
       images: [
         {

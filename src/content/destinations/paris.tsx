@@ -104,12 +104,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les passages, IIe arrondissement",
-      heading: "Sous la verrière, la ville s'arrête",
+      heading: "Les passages couverts",
       theme: "light",
       paragraphs: [
-        "Entre la Bourse et le Palais-Royal, des galeries couvertes ont été ouvertes au début du XIXe siècle pour permettre aux Parisiens de marcher à l'abri de la pluie et de la boue. La plupart ont disparu. Une vingtaine subsistent. Le passage des Panoramas, le plus ancien (1799), a gardé ses devantures, ses imprimeurs, ses cartophiles, son odeur de papier vieilli.",
-        "Le passage Choiseul s'étire sur cent quatre-vingt-dix mètres, parallèle à la rue de la Banque. Lucarne ouvrante, parquet en bois, librairies anciennes. Vers dix-sept heures, quand le soleil descend, la verrière prend une couleur qu'on ne soupçonne pas. À pied, sans haste, comptez une heure entre les Panoramas et le Vivienne, et un café au Bistrot Vivienne, qu'aucun guide ne mentionne, et où il y a toujours une table en fin d'après-midi.",
-        "C'est la même ville, à dix mètres des grands boulevards. Personne ne crie. Aucune sirène.",
+        "Entre la Bourse et le Palais-Royal, des galeries couvertes ont été ouvertes, pour la plupart au début du XIXe siècle, afin de flâner à l'abri de la pluie et de la boue. Une vingtaine subsistent. Le passage des Panoramas a gardé ses devantures anciennes, ses graveurs et ses marchands de cartes postales.",
+        "Du passage Choiseul à la galerie Vivienne, on les parcourt à pied en une heure environ, entre librairies anciennes et cafés. En fin d'après-midi, la lumière sous les verrières est particulièrement belle.",
       ],
       images: [
         {

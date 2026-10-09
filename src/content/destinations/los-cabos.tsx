@@ -107,8 +107,8 @@ export const destination: Destination = {
       heading: "Deux mers, deux rythmes",
       theme: "light",
       paragraphs: [
-        "La mer de Cortez que Cousteau appelait « l'aquarium du monde » tient cette réputation. Cabo Pulmo, réserve marine nationale, abrite le seul récif corallien vivant de la côte est du Pacifique nord. On y plonge avec des raies-aigles, des barracudas en bancs de plusieurs centaines, des tortues imbriquées. Les bateaux collectifs n'y entrent pas à certaines heures. Les nôtres, si.",
-        "La côte Pacifique est différente. Plus sauvage, plus exposée au vent, avec des vagues qui viennent du large. C'est ici que les baleines à bosse hivernent de décembre à avril. Plus au nord, vers La Paz, les baleines grises laissent leurs petits dans les lagunes protégées. Et sur les contreforts de la Sierra de Juárez, les vignerons du Valle de Guadalupe cultivent nebbiolo et tempranillo dans un sol que l'aridité a rendu singulier.",
+        "Côté mer de Cortez, que Cousteau surnommait « l'aquarium du monde », la réserve marine de Cabo Pulmo protège un récif corallien remarquable. On y plonge parmi les raies, les bancs de barracudas et les tortues de mer.",
+        "Côté Pacifique, la côte est plus sauvage, plus exposée au vent et aux vagues du large. Les baleines à bosse y passent l'hiver, de décembre à avril, et plus au nord, les baleines grises mettent bas dans les lagunes protégées de la péninsule.",
       ],
       images: [
         {
