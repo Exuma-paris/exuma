@@ -15,3 +15,8 @@
 | `hotel-mnemba.webp` | Photo officielle andBeyond Mnemba Island (cloudfront), fournie par Thea le 09/10/2026 | Autorisation à confirmer avec l'hôtel |
 | `hotel-white-sand.webp` | Photo de l'hôtel (miniature Google Images), fournie par Thea le 09/10/2026, recadrée en carré et agrandie fidèlement par IA | Autorisation à confirmer avec l'hôtel |
 | `hotel-zuri.webp` | Photo du Zuri Zanzibar (hosteltur.com), fournie par Thea le 09/10/2026, recadrée en carré sans le logo | Autorisation à confirmer avec l'hôtel |
+| `bento-map.webp` | Carte vectorielle (Zanzibar et Pemba, world-atlas) | |
+| `bento-adresses.webp`, `bento-experiences.webp`, `map-pemba.webp` | IA, génération texte | |
+| `bento-hebergements.webp` | Même photo officielle que `hotel-mnemba.webp` | Autorisation à confirmer |
+| `bento-conciergerie.webp` | Photo d'équipe Exuma | Exuma |
+| `map-mnemba.webp` | Même photo que `xp-corail-mnemba-2.webp` (vivreazanzibar.fr) | Droits à confirmer |
