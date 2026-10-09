@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime au Bhoutan, c'est que rien ne s'y obtient par la porte principale. Les plus beaux moments arrivent parce qu'un moine accepte d'ouvrir une salle avant le jour, ou parce qu'une famille du Bumthang met un couvert de plus à sa table. Je construis les voyages avec les gens que je connais là-bas, pour que ces portes s'ouvrent au bon moment.",
+          "Au Bhoutan, les plus beaux moments passent par les gens : un moine qui ouvre une salle du monastère avant le jour, une famille du Bumthang qui vous reçoit à sa table. Je construis les voyages avec mes contacts sur place, pour que ces rencontres aient lieu.",
         role: "Travel Designer · Bhoutan",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Bhoutan : l'art de vivre bouddhiste",
-      heading: "Le pays qui a choisi de préserver ce qui le rend heureux",
+      heading: "Un royaume fidèle à ses traditions",
       theme: "light",
       paragraphs: [
-        "Le Bhoutan mesure sa réussite au bonheur de ses habitants plutôt qu'à sa richesse. L'idée a l'air d'une jolie formule, et pourtant elle se voit partout : dans les forêts que le royaume protège, dans les maisons neuves qui gardent leurs fenêtres peintes et leurs toits de bois, dans la lenteur avec laquelle le pays s'est ouvert au voyage.",
-        "Cela donne un royaume où les gestes anciens n'ont pas disparu. Les charpentiers assemblent toujours le pin bleu sans clou apparent, les peintres broient leurs pigments à la main, et les moulins à prières tournent au fil des rivières. On traverse les vallées sans croiser une enseigne lumineuse, et l'on comprend assez vite que c'est un choix.",
+        "Le Bhoutan mesure sa réussite au bonheur de ses habitants plutôt qu'à sa seule richesse. Ce choix se voit partout : dans les forêts que le royaume protège, dans les maisons neuves qui gardent leurs fenêtres peintes et leurs toits de bois, et dans l'ouverture mesurée du pays au tourisme.",
+        "Les savoir-faire anciens y restent bien vivants. Les charpentiers assemblent le bois sans clou apparent, les peintres préparent leurs pigments à la main, et des moulins à prières tournent au fil des rivières.",
       ],
       images: [
         {

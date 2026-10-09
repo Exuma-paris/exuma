@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "La Suisse a la réputation d’être facile. Elle l’est, jusqu’au jour où l’on veut autre chose que ce qui se réserve en ligne. Une maison au bout d’une route de montagne, un atelier d’horloger qui ouvre pour vous seuls, une cabane d’altitude gardée pour une seule famille. Ces adresses-là se transmettent, et c’est notre métier de les connaître.",
+          "La Suisse a la réputation d’être facile, jusqu’au jour où l’on veut autre chose que ce qui se réserve en ligne : une maison au bout d’une route de montagne, un atelier d’horloger ouvert pour vous seuls, une cabane d’altitude gardée pour une seule famille.",
         role: "Travel Designer · Suisse",
       },
       features: defaultSpotlightFeatures,
@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "L’Engadine",
-      heading: "L’Engadine, l’automne le plus doré de Suisse",
+      heading: "L’Engadine, la vallée des lacs",
       theme: "light",
       paragraphs: [
-        "L’Engadine se mérite un peu. La route s’élève longtemps avant d’ouvrir sur une vallée large, posée en altitude, où les lacs se suivent comme un collier. Les maisons y sont blanches, décorées de motifs gravés dans l’enduit. Certaines portent une phrase en romanche, la langue que l’on parle encore ici.",
-        "En octobre, les mélèzes jaunissent tous en même temps et la vallée s’embrase pour une quinzaine de jours. C’est le moment que préfèrent ceux qui la connaissent bien. L’hiver, les lacs gèlent et l’on marche dessus d’une rive à l’autre, sur une glace noire qui craque sans céder.",
-        "Sils Maria tient en trois rues au bord de l’eau. Nietzsche y passait ses étés.",
+        "Dans les Grisons, l’Engadine est une large vallée d’altitude où les lacs se succèdent. Ses villages sont faits de maisons blanches ornées de motifs gravés dans l’enduit, certaines portant des inscriptions en romanche, la langue encore parlée ici.",
+        "En octobre, les mélèzes jaunissent et dorent toute la vallée pendant une quinzaine de jours. L’hiver, les lacs gèlent et l’on peut marcher dessus d’une rive à l’autre. À Sils Maria, au bord de l’eau, Nietzsche venait passer ses étés.",
       ],
       images: [
         {

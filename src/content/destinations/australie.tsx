@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Australie",
-      heading: "Le silence du désert avant le lever du jour",
+      heading: "L'Australie, le silence du désert avant le lever du jour",
       description:
         "À Uluru, on se lève à cinq heures pour cela. Puis le pays s'ouvre : trois mille kilomètres jusqu'à Darwin, une forêt tropicale plus ancienne que l'Amazonie, des plaines qui s'inondent chaque année et un récif au bout.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: replace with a real verbatim from Tainà
         quote:
-          "L'Australie surprend ceux qui croient la connaître par ses images. Ce qui reste, ce n'est pas l'opéra de Sydney, c'est le froid du désert à cinq heures du matin et la voix d'un guide anangu qui raconte sa terre. Le pays demande du temps, et il le rend à ceux qui acceptent de ralentir.",
+          "L'Australie surprend ceux qui croient la connaître par ses images. Ce qui reste, c'est le froid du désert à cinq heures du matin et la voix d'un guide anangu qui raconte sa terre. Le pays demande du temps, alors je construis des voyages sans précipitation.",
       },
       features: defaultSpotlightFeatures,
     },
@@ -88,11 +88,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Australie : la mer et la vigne",
-      heading: "Les vignes de la Barossa comptent parmi les plus vieilles du monde",
+      heading: "Vignes et huîtres du sud de l'Australie",
       theme: "light",
       paragraphs: [
-        "À l'intérieur des terres, les vignobles occupent le fond des vallées. Dans la Barossa, des familles allemandes ont planté des pieds de shiraz au dix-neuvième siècle, et ces vignes produisent toujours. Les caves se visitent sans rendez-vous, et c'est souvent le vigneron lui-même qui sert.",
-        "Sur la côte sud, ce sont les parcs à huîtres qui bordent la route. On s'arrête devant un ponton, on achète une douzaine d'huîtres ouvertes le matin même, et on les mange assis sur la jetée, face à l'eau d'où elles sortent. Ces mêmes producteurs fournissent les tables de Sydney et d'Adélaïde.",
+        "Dans la vallée de la Barossa, des familles allemandes ont planté des pieds de shiraz au XIXe siècle, et ces vieilles vignes produisent toujours. Les caves se visitent sans rendez-vous, et c'est souvent le vigneron lui-même qui sert la dégustation.",
+        "Sur la côte sud, la route longe les parcs à huîtres. On s'arrête chez un producteur, on achète une douzaine d'huîtres ouvertes le matin même et on les déguste sur la jetée, face à l'eau d'où elles sortent.",
       ],
       images: [
         {

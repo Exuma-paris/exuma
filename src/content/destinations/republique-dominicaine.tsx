@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "La plupart des voyageurs ne voient que la côte est, celle des resorts. Il y a une autre République dominicaine, une heure plus au nord : la baie de Samaná, les mangroves de Los Haitises, une plantation de cacao qu'on visite encore à l'ancienne. Mon travail, c'est de faire tenir les deux côtes dans un même itinéraire, sans que l'un efface l'autre.",
+          "La plupart des voyageurs ne voient que la côte est et ses resorts. Plus au nord, il y a la baie de Samaná, les mangroves de Los Haitises et une plantation de cacao qu'on visite encore à l'ancienne. Je fais tenir les deux côtes dans un même itinéraire.",
         role: "Travel Designer · République dominicaine",
       },
       features: [
@@ -109,11 +109,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Samaná, la baie qui attend les baleines",
-      heading: "Ce que la mangrove garde",
+      heading: "Baleines et mangroves à Samaná",
       theme: "light",
       paragraphs: [
-        "Entre janvier et mars, la baie de Samaná devient l'une des zones de reproduction les plus denses de baleines à bosse de l'Atlantique Nord. Elles remontent depuis les eaux froides du Groenland et de l'Islande, un trajet de plus de six mille kilomètres, pour mettre bas dans une eau à 26 degrés. Certains matins, le souffle se voit avant le corps.",
-        "Plus à l'est, le parc national Los Haitises ne s'atteint que par l'eau. Un bateau glisse entre des dômes karstiques recouverts de mangrove, jusqu'à des grottes où des pictogrammes taïnos, vieux de plusieurs siècles, restent visibles à marée basse. Aucune route ne traverse le parc. C'est ce qui l'a préservé.",
+        "De janvier à mars, les baleines à bosse viennent en nombre se reproduire et mettre bas dans la baie de Samaná, après un long voyage depuis les eaux froides du Groenland et de l'Islande. On part les observer en bateau dans une eau à 26 degrés.",
+        "De l'autre côté de la baie, le parc national Los Haitises se visite en bateau. On y navigue entre des îlots karstiques couverts de végétation et des mangroves, jusqu'à des grottes ornées de pictogrammes taïnos. Aucune route ne traverse le parc.",
       ],
       images: [
         {

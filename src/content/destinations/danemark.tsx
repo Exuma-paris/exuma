@@ -54,7 +54,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Le Danemark se découvre souvent à travers Copenhague, mais le pays ne s'arrête pas aux portes de la capitale. Bornholm et Ærø offrent un autre rythme, plus insulaire et contemplatif, tandis qu'une table chez Noma se réserve plusieurs mois à l'avance. Je commence toujours par définir le tempo du voyage avant de choisir les îles qui lui correspondent.",
+          "Au Danemark, on commence souvent par Copenhague, mais le pays ne s'arrête pas à la capitale. Les îles de Bornholm et d'Ærø offrent un rythme plus calme, plus insulaire. Je définis d'abord le tempo du voyage, puis je choisis les îles qui lui correspondent.",
         role: "Travel Designer · Danemark",
       },
       features: [
@@ -104,11 +104,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Bornholm et Ærø",
-      heading: "Deux îles, deux Danemark",
+      heading: "Deux îles au caractère bien distinct",
       theme: "light",
       paragraphs: [
-        "Bornholm se trouve au cœur de la mer Baltique, à l'est du reste du Danemark. L'île conserve quatre églises rondes fortifiées médiévales, construites aux douzième et treizième siècles à la fois comme lieux de culte et ouvrages défensifs. À Svaneke, les fumoirs perpétuent la tradition du hareng fumé, tandis que l'île entretient une importante tradition de céramique et de verrerie artisanales.",
-        "Ærø, au sud de Fionie, ne compte qu'une poignée de villages. Ærøskøbing aligne ses maisons à colombages, certaines datant des dix-septième et dix-huitième siècles, dans un ensemble historique remarquablement préservé. L'île se relie à Als par Ellen, le premier ferry cent pour cent électrique au monde, mis en service en 2019. Il relie Søby, sur Ærø, à Fynshav, sur Als, en environ une heure.",
+        "Isolée au cœur de la Baltique, Bornholm conserve quatre églises rondes médiévales, à la fois lieux de culte et forteresses. À Svaneke, les fumoirs perpétuent la tradition du hareng fumé, et l'île compte de nombreux ateliers de céramique et de verre.",
+        "Au sud de Fionie, Ærø ne compte que quelques villages. À Ærøskøbing, les maisons à colombages des XVIIe et XVIIIe siècles forment un ensemble remarquablement préservé. L'île est reliée à Als par Ellen, un ferry entièrement électrique.",
       ],
       images: [
         {

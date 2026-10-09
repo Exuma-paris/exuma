@@ -60,7 +60,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Bali concentre l'essentiel de la demande, et le sud de l'île en souffre. Je commence donc par Java, pour ses volcans, et je reprends Bali par l'intérieur, du côté d'Ubud. Komodo se découvre ensuite en bateau. Le phinisi est un voilier traditionnel construit à Sulawesi selon des méthodes transmises de génération en génération : deux nuits à bord remplacent une semaine de trajets. Sumba ferme le voyage. C'est l'île la moins visitée des quatre, et souvent celle dont mes clients reparlent au retour.",
+          "En Indonésie, je commence par Java et ses volcans, puis je fais découvrir Bali par l'intérieur, autour d'Ubud, loin du sud saturé. Komodo se visite en phinisi, un voilier traditionnel, deux nuits à bord. On termine à Sumba, l'île la moins visitée.",
         role: "Travel Designer · Indonésie",
       },
       features: defaultSpotlightFeatures,
@@ -91,11 +91,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Indonésie : l'ouest de Sumba",
-      heading: "Sumba, l'île la moins parcourue de l'archipel",
+      heading: "Sumba, une île à part",
       theme: "light",
       paragraphs: [
-        "Sumba se trouve à une heure de vol de Bali, mais l'île suit une tout autre culture. Les villages y sont organisés par une religion ancestrale, le marapu, autour de maisons à toit pointu et de tombes de pierre. Dans l'ouest de l'île, les tisserandes perpétuent l'art de l'ikat. Les fils sont teints avant d'être tissés, notamment à l'indigo et au morinda. Chaque pièce demande plusieurs mois de travail et reflète un savoir-faire transmis depuis des générations.",
-        "Plus au nord, près de Pero, le lagon de Weekuri offre un décor spectaculaire. Séparé de l'océan Indien par une barrière naturelle de calcaire, il reste étonnamment calme et limpide. Accessible par une piste, le site conserve une atmosphère sauvage et préservée.",
+        "À une heure de vol de Bali, Sumba vit selon une tout autre culture. Les villages suivent une religion ancestrale, le marapu, autour de maisons à toit pointu et de tombes de pierre. Dans l'ouest, les tisserandes pratiquent l'ikat : les fils sont teints avant le tissage, et chaque pièce demande des mois de travail.",
+        "Au nord, près de Pero, le lagon de Weekuri est séparé de l'océan Indien par une barrière de calcaire. Son eau reste calme et limpide, dans un cadre resté sauvage.",
       ],
       images: [
         {

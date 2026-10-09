@@ -29,7 +29,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Norvège",
-      heading: "Un pays de fjords, d'îles et de longues journées",
+      heading: "La Norvège, un pays de fjords, d'îles et de longues journées",
       description:
         "Un fjord est un bras de mer qui entre dans les terres, entre deux parois de plusieurs centaines de mètres. On y navigue comme dans un couloir, avec la montagne des deux côtés. En juin, dans les Lofoten, il fait jour toute la nuit.",
       images: [
@@ -57,7 +57,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Taïna choisie par le client, spécialité Norvège à confirmer)
         // TODO: verify quote attribution
         quote:
-          "En Norvège, tout dépend de la date. Les mêmes fjords ne donnent pas la même chose en février et en juin. La lumière change, les routes ouvrent ou ferment, les bateaux sortent ou restent à quai. Je commence donc toujours par les dates, jamais par la carte. Ensuite seulement, je choisis entre l'ouest et le nord.",
+          "En Norvège, tout dépend de la date. Les fjords ne donnent pas la même chose en février et en juin : la lumière change, des routes ferment, des bateaux restent à quai. Je commence donc toujours par les dates, puis je choisis entre l'ouest et le nord.",
         role: "Travel Designer · Norvège",
       },
       features: [
@@ -107,11 +107,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les Lofoten",
-      heading: "Des îles montagneuses au-delà du cercle polaire",
+      heading: "Les Lofoten et la pêche au skrei",
       theme: "light",
       paragraphs: [
-        "Les Lofoten se situent au-delà du cercle polaire, à la même latitude que le nord du Groenland. On imagine donc de la banquise, mais il n'y en a pas : le Gulf Stream, un courant marin chaud, longe la côte norvégienne et empêche la mer de geler. En février, la température à Reine tourne souvent autour de zéro degré. C'est ce qui permet d'habiter ces îles toute l'année, et c'est aussi ce qui attire le poisson.",
-        "Ce poisson s'appelle le skrei. C'est un cabillaud qui vit dans la mer de Barents et qui descend chaque hiver se reproduire dans les eaux un peu plus douces du Vestfjord. Les bateaux sortent tous les matins de janvier à avril. Sur les quais, de grands séchoirs en bois appelés hjell se remplissent de morues suspendues par la queue : le poisson sèche au vent, sans sel, de février à juin. Les Lofoten exportent ce poisson séché depuis près de mille ans. L'Italie y a pris goût après le naufrage du marchand vénitien Pietro Querini sur l'île de Røst, en 1432, et elle en reste aujourd'hui l'un des premiers acheteurs. À Sørvågen, ce n'est pas une démonstration pour visiteurs, c'est le travail du village.",
+        "Les Lofoten se trouvent au-delà du cercle polaire, mais le Gulf Stream, un courant marin chaud, empêche la mer de geler. L'hiver y reste doux pour la latitude, ce qui permet d'habiter ces îles toute l'année.",
+        "Chaque hiver, le skrei, un cabillaud de la mer de Barents, vient se reproduire dans le Vestfjord. De janvier à avril, les bateaux sortent chaque matin, et sur les quais, les morues sèchent au vent sur de grands séchoirs en bois. Ce poisson séché s'exporte depuis près de mille ans, notamment vers l'Italie.",
       ],
       images: [
         {

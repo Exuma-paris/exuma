@@ -70,11 +70,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Marrakech, l'artisanat et le geste",
-      heading: "Ce qui se fabrique encore à la main",
+      heading: "L'artisanat de Marrakech",
       theme: "light",
       paragraphs: [
-        "Dans le souk des teinturiers, le cuir trempe dans des cuves de chaux depuis le XIe siècle. Le procédé n'a pas changé. Les peaux montent sur les terrasses pour sécher au soleil, et l'odeur, âcre et minérale, signale le quartier avant qu'on ne le voie. Plus loin, rue Amesfah, un maître zelligeur découpe les tesselles à l'œil, sans gabarit. Chaque pièce est un losange irrégulier qui trouvera sa place dans un motif géométrique de huit mille fragments.",
-        "Le geste artisanal à Marrakech n'est pas une mise en scène pour visiteurs. C'est une économie. Les ateliers de dinanderie, de marqueterie de thuya, de broderie fassi emploient des familles entières. On y entre par une porte sans enseigne, on s'assoit, on regarde. Le bruit du marteau sur le cuivre est le même depuis quatre siècles.",
+        "Dans le quartier des tanneurs, les peaux trempent dans des cuves selon un procédé presque inchangé depuis des siècles, puis sèchent au soleil sur les terrasses. Ailleurs dans la médina, des maîtres zelligeurs taillent à la main les petites pièces de céramique qui composent les mosaïques.",
+        "Dinanderie, marqueterie de thuya, broderie : ces ateliers font vivre des familles entières. On y entre par une porte souvent sans enseigne, pour observer les artisans au travail.",
       ],
       images: [
         {

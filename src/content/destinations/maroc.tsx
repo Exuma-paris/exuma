@@ -32,19 +32,19 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe au Maroc",
       heading: "Le Maroc, de la médina de Fès aux sommets du Haut Atlas",
       description:
-        "Le Maroc change de visage à chaque étape. À Fès, les artisans travaillent dans les mêmes ruelles que leurs grands-pères et l'appel du muezzin donne l'heure mieux qu'une montre. Plus au sud, les palmeraies du Dadès s'endorment tôt, et dans le Haut Atlas les bergers montent avec leurs bêtes dès que la neige libère les pâturages. C'est ce Maroc-là que nous vous ouvrons, avec ceux qui y travaillent et qui savent en parler.",
+        "Le Maroc change de visage à chaque étape. À Fès, les artisans travaillent dans les ruelles de leurs grands-pères. Plus au sud, les palmeraies du Dadès s'endorment tôt, et dans le Haut Atlas les bergers montent dès que la neige fond. C'est ce Maroc-là que nous vous ouvrons.",
       images: [
         {
-          src: "/destination/maroc/hero-1.png",
-          alt: "Ruelle de la médina de Fès au Maroc à la lumière du matin",
+          src: "/destination/maroc/hero-1.webp",
+          alt: "Remparts et porte monumentale de la médina de Fès dans la lumière du matin",
         },
         {
-          src: "/destination/maroc/hero-2.png",
-          alt: "Sommets enneigés du Haut Atlas vus depuis la vallée d'Asni",
+          src: "/destination/maroc/hero-2.webp",
+          alt: "Sommets enneigés du Haut Atlas derrière une palmeraie et un mur de pisé",
         },
         {
-          src: "/destination/maroc/hero-3.png",
-          alt: "Palmeraie et kasbah de terre dans la vallée du Dadès",
+          src: "/destination/maroc/hero-3.webp",
+          alt: "Palmeraie et ksar de terre au pied des falaises ocre du sud marocain",
         },
       ],
     },
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime au Maroc, c'est qu'on y est attendu. On pousse une porte qui ne dit rien depuis la rue, et il y a déjà du thé, une conversation, quelqu'un qui prend le temps. À Fès, un brodeur m'a montré ses outils comme on montre des photographies de famille. Je construis les voyages autour de ces gens-là, parce que ce sont eux que l'on raconte en rentrant.",
+          "Au Maroc, on est attendu. On pousse une porte anonyme dans la rue, et il y a déjà du thé et quelqu'un qui prend le temps. À Fès, un brodeur m'a montré ses outils comme des photos de famille. Je construis les voyages autour de ces rencontres.",
         role: "Travel Designer · Maroc",
       },
       features: defaultSpotlightFeatures,
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/maroc/full-image.png",
-        alt: "Vallée du Dadès au Maroc, kasbahs de terre et palmeraie en fin de journée",
+        src: "/destination/maroc/full-image.webp",
+        alt: "Ksar de terre au-dessus de la rivière et de la palmeraie, sud du Maroc, en fin de journée",
       },
       height: 600,
     },
@@ -89,20 +89,20 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Maroc : les artisans de Fès",
-      heading: "Les matins de Fès, chez ceux qui font encore tout à la main",
+      heading: "Les artisans de la médina de Fès",
       theme: "light",
       paragraphs: [
-        "L'atelier ouvre avant les boutiques, quand la médina appartient encore aux livreurs et aux mules. Le relieur cousait déjà des corans quand son père tenait la même échoppe, et il explique la dorure en la faisant, sans jamais s'interrompre. Un peu plus loin, un dinandier martèle un plateau de cuivre et le bruit se répercute dans toute la ruelle. On repart avec les gestes en tête plus qu'avec des explications.",
-        "Fès se visite avec quelqu'un qui y est né, sinon la ville se referme. Notre guide raconte sa médina comme il raconterait sa famille : il salue les commerçants, ouvre des portes que rien ne signale, et fait monter sur une terrasse au moment où la lumière passe sur les tanneries. La matinée se termine autour d'un thé, et l'on comprend enfin pourquoi personne ici ne se presse.",
+        "Dans la médina de Fès, les ateliers ouvrent tôt, avant les boutiques. Les dinandiers y martèlent à la main de grands plateaux de cuivre, et le bruit résonne dans toute la ruelle. Dans les souks voisins, théières et plateaux ciselés s'empilent sur les étals.",
+        "Nous vous faisons découvrir la médina avec un guide né à Fès, qui connaît les artisans et ouvre des portes que rien ne signale. La visite passe par une terrasse avec vue sur les tanneries et se termine autour d'un thé.",
       ],
       images: [
         {
-          src: "/destination/maroc/split-1.png",
-          alt: "Artisan relieur au travail dans son atelier de la médina de Fès",
+          src: "/destination/maroc/split-1.webp",
+          alt: "Dinandier martelant un plateau de cuivre dans son échoppe de la médina de Fès",
         },
         {
-          src: "/destination/maroc/split-2.png",
-          alt: "Plateaux de cuivre martelés dans l'atelier d'un dinandier à Fès",
+          src: "/destination/maroc/split-2.webp",
+          alt: "Théières, plateaux et lanternes ciselés dans un souk de la médina de Fès",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/maroc/xp-campement-desert-1.png",
-          alt: "Campement privé dressé au creux des dunes de l'erg Chebbi au crépuscule",
+          src: "/destination/maroc/xp-campement-desert-1.webp",
+          alt: "Dunes de l'erg Chebbi dans la lumière de fin d'après-midi",
         },
         right: {
-          src: "/destination/maroc/xp-campement-desert-2.png",
-          alt: "Table dressée sur le sable devant un campement privé du désert marocain",
+          src: "/destination/maroc/xp-campement-desert-2.webp",
+          alt: "Dîner pour deux sur le sable, face aux dunes de l'erg Chebbi",
         },
       },
       text: {
@@ -225,13 +225,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/maroc/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/maroc/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Maroc entre Fès, le Haut Atlas et la vallée du Dadès",
-            "Adresses confidentielles au Maroc : ateliers d'artisans et maisons privées",
-            "Hébergements au Maroc : Karawan Riad, Dar Ahlam et Kasbah Tamadot",
-            "Conciergerie privée 24/7 pour un voyage au Maroc",
-            "Expériences immersives au Maroc : nuit dans le désert et vallée des Roses",
+            "Adresses confidentielles au Maroc : un atelier d'artisan caché dans la médina de Fès",
+            "Hébergements au Maroc : la kasbah Dar Ahlam dans la palmeraie de Skoura",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Expériences immersives au Maroc : caravane au lever du soleil sur les dunes de l'erg Chebbi",
           ][i],
         },
       })),
@@ -252,7 +252,7 @@ export const destination: Destination = {
           description:
             "La médina se transmet de main en main, entre les tanneurs, les tisserands et les selliers installés là depuis des générations. On y marche avec quelqu'un qui y est né, sinon la ville garde ses portes fermées.",
           image: {
-            src: "/destination/maroc/map-fes.png",
+            src: "/destination/maroc/map-fes.webp",
             alt: "Toits et minarets de la médina de Fès au Maroc vus depuis une terrasse",
           },
           // TODO: verify coords
@@ -263,7 +263,7 @@ export const destination: Destination = {
           description:
             "Les villages de pierre s'accrochent au-dessus des vergers, et les sentiers de mules montent vers le plus haut sommet d'Afrique du Nord. Le printemps y libère les pâturages, et les bergers remontent avec leurs troupeaux.",
           image: {
-            src: "/destination/maroc/map-haut-atlas.png",
+            src: "/destination/maroc/map-haut-atlas.webp",
             alt: "Village berbère et sommets du Haut Atlas au-dessus de la vallée d'Imlil",
           },
           // TODO: verify coords
@@ -274,7 +274,7 @@ export const destination: Destination = {
           description:
             "La ville tient ensemble une médina qui ne dort jamais tout à fait et des jardins où l'on n'entend plus rien. On y revient surtout pour ses maisons et pour ses tables.",
           image: {
-            src: "/destination/maroc/map-marrakech.png",
+            src: "/destination/maroc/map-marrakech.webp",
             alt: "Jardin d'un riad de la médina de Marrakech avec bassin et orangers",
           },
           // TODO: verify coords
@@ -285,7 +285,7 @@ export const destination: Destination = {
           description:
             "Les kasbahs de terre suivent la rivière entre les palmeraies, et le soir tombe d'un coup derrière les gorges. C'est ici que le voyage ralentit, souvent au bon moment.",
           image: {
-            src: "/destination/maroc/map-dades.png",
+            src: "/destination/maroc/map-dades.webp",
             alt: "Kasbahs de terre et palmeraie le long de la rivière dans la vallée du Dadès",
           },
           // TODO: verify coords
@@ -296,7 +296,7 @@ export const destination: Destination = {
           description:
             "Les dunes se lèvent d'un coup au bout de la piste, hautes comme des collines, et changent de couleur toute la journée. C'est ici que l'on dort dehors, et que la nuit devient l'événement du voyage.",
           image: {
-            src: "/destination/maroc/map-erg-chebbi.png",
+            src: "/destination/maroc/map-erg-chebbi.webp",
             alt: "Dunes de l'erg Chebbi près de Merzouga au lever du jour dans le Sahara marocain",
           },
           // TODO: verify coords
@@ -307,7 +307,7 @@ export const destination: Destination = {
           description:
             "La ville regarde l'Espagne depuis ses collines, et le trafic des cargos ne s'arrête jamais dans le détroit. Les cafés de la falaise ont vu passer assez d'écrivains pour que l'on comprenne ce qui les retenait.",
           image: {
-            src: "/destination/maroc/map-tanger.png",
+            src: "/destination/maroc/map-tanger.webp",
             alt: "Baie de Tanger et détroit de Gibraltar vus depuis les hauteurs de la ville",
           },
           // TODO: verify coords
@@ -614,7 +614,7 @@ export const destination: Destination = {
           quote:
             "Notre guide à Fès nous a fait entrer dans des ateliers où nous n'aurions jamais osé pousser la porte. Nous sommes restés deux heures chez un maroquinier, et c'est de lui que nous parlons encore.",
           image: {
-            src: "/destination/maroc/hero-1.png",
+            src: "/destination/maroc/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -625,7 +625,7 @@ export const destination: Destination = {
           quote:
             "La nuit dans les dunes restera le souvenir du voyage. Nous avons regardé le ciel jusqu'à une heure impossible, et personne n'avait envie d'aller se coucher.",
           image: {
-            src: "/destination/maroc/hero-2.png",
+            src: "/destination/maroc/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -636,7 +636,7 @@ export const destination: Destination = {
           quote:
             "À Dar Ahlam, personne ne nous a jamais demandé à quelle heure nous voulions dîner, et chaque repas nous attendait dans un endroit différent. Nous avons cessé de regarder l'heure au bout d'une journée.",
           image: {
-            src: "/destination/maroc/hero-3.png",
+            src: "/destination/maroc/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

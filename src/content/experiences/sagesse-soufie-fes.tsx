@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Un maître soufi reçoit chez lui, dans un palais de la médina de Fès, et parle de sagesse sans jamais faire la leçon. Le thé passe de main en main, la conversation prend son temps, et l'on ressort avec des questions plutôt que des réponses.",
   keywords: ["maroc", "fes", "soufisme", "medina", "rencontre privee"],
   heroImage: {
-    src: "/destination/maroc/xp-sagesse-soufie.png",
+    src: "/destination/maroc/xp-sagesse-soufie.webp",
     alt: "Salon d'un palais de la médina de Fès préparé pour une rencontre autour du thé",
   },
   destinationSlugs: ["maroc"],

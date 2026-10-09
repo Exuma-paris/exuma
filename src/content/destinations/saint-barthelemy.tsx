@@ -60,7 +60,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Saint-Barth est une île qu'on finit par appeler la sienne. En quelques jours, on a sa plage du matin, sa table du soir, et son coin d'ombre pour la sieste. Les voyageurs me redemandent souvent les mêmes dates l'année suivante, simplement pour retrouver ça. J'écris les séjours de façon à ce que ces habitudes aient le temps de naître.",
+          "Saint-Barth est une île qu'on finit par appeler la sienne. En quelques jours, on a sa plage du matin, sa table du soir et son coin d'ombre pour la sieste. Beaucoup de voyageurs me redemandent les mêmes dates l'année suivante, pour retrouver ces habitudes.",
         role: "Travel Designer · Saint-Barthélemy",
       },
       features: defaultSpotlightFeatures,
@@ -91,12 +91,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Saint-Barthélemy à table",
-      heading:
-        "Les dîners qui commencent au coucher du soleil et finissent tard",
+      heading: "Bonnes tables et dîners face au couchant",
       theme: "light",
       paragraphs: [
-        "L'île mange bien, et cela se sait depuis longtemps. À Gustavia, des chefs français installés là depuis des années travaillent le poisson pêché le matin et les légumes qui arrivent par bateau. À Saline, on déjeune sous les raisiniers, pieds dans le sable, sans changer de tenue entre la baignade et la table. Le soir, à Pointe Milou, les terrasses regardent le soleil descendre derrière Saint-Martin.",
-        "Ces soirées se ressemblent sans jamais lasser. Le patron finit par garder votre place dès qu'il vous a vu deux fois, on redemande le poisson livré le matin par le pêcheur de Corossol, et l'on termine la soirée là où on l'avait terminée la veille. C'est ce qui donne envie de rester une semaine de plus.",
+        "Saint-Barthélemy est réputée pour sa cuisine. À Gustavia, des chefs français installés sur l'île travaillent le poisson pêché le matin et les produits arrivés par bateau. À Saline, on déjeune sous les raisiniers, les pieds dans le sable, sans quitter sa tenue de plage.",
+        "Le soir, à Pointe Milou, les terrasses regardent le soleil se coucher derrière Saint-Martin. On revient volontiers aux mêmes adresses, où les restaurateurs reconnaissent vite leurs habitués.",
       ],
       images: [
         {

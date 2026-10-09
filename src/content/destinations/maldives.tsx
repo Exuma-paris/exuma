@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Aux Maldives, tout le monde montre la même photo. Le vrai sujet, c'est le corail qui borde l'île et l'heure à laquelle l'hydravion se pose. C'est ce qui fait la différence entre un joli lagon et une semaine dont on parle encore des années après. Je passe l'essentiel de mon temps à choisir les îles qui tiennent cette promesse, et je les connais une par une.",
+          "Aux Maldives, tout le monde montre la même photo. Ce qui compte vraiment, c'est le corail qui borde l'île et l'heure à laquelle l'hydravion se pose. Je passe l'essentiel de mon temps à choisir les îles qui tiennent cette promesse, et je les connais une à une.",
         role: "Travel Designer · Maldives",
       },
       features: defaultSpotlightFeatures,
@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Atoll de Laamu",
-      heading: "Un atoll pour un seul hôtel, et le lagon pour soi",
+      heading: "Laamu, un atoll et un seul hôtel",
       theme: "light",
       paragraphs: [
-        "Laamu est l'un des atolls les plus au sud de l'archipel, et un seul hôtel l'occupe. Cela se sent dès l'arrivée : le lagon reste calme d'un bout de la journée à l'autre, les allées sont en bois, le sable est resté du sable et personne ne porte de chaussures. Sur la pointe est, une vague droite casse sur le récif de juin à septembre. Elle s'appelle Yin Yang et les surfeurs se la partagent entre eux.",
-        "Le laboratoire marin se visite le matin. Les biologistes veillent sur les herbiers et sur le corail, suivent les raies manta et soignent les tortues prises dans les filets. Rien n'est mis en scène : on regarde, on pose ses questions, et l'on repart avec le nom d'un récif à aller voir. Le soir, la lumière tombe d'un coup et l'on dîne les pieds dans le sable, avec le bruit du lagon pour seul fond.",
+        "Laamu, l'un des atolls les plus au sud des Maldives, n'accueille qu'un seul hôtel. Le lagon y reste calme et peu fréquenté toute la journée. De juin à septembre, une vague de récif appelée Yin Yang attire les surfeurs sur la pointe est.",
+        "Le matin, on peut visiter le laboratoire marin de l'hôtel. Les biologistes y suivent les herbiers, le corail et les raies manta, soignent les tortues prises dans les filets et répondent aux questions des visiteurs.",
       ],
       images: [
         {

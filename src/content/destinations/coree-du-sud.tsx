@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Corée du Sud",
-      heading: "Séoul, les temples de Gyeongju et l'île de Jeju",
+      heading: "La Corée du Sud, de Séoul aux temples de Gyeongju et à Jeju",
       description:
         "Le matin, les toits de tuiles de Bukchon dépassent à peine des murs de pierre. Le soir, les néons de Jongno éclairent les mêmes ruelles. Séoul passe d'un monde à l'autre en quelques rues, et le reste du pays fait pareil.",
       images: [
@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution : à faire valider par Stéphane avant mise en ligne
         quote:
-          "La Corée est le pays qui dément le plus vite la première impression. On arrive à Séoul, on voit une ville de verre, et le lendemain on dort dans une maison de bois avec le sol chaud sous les pieds. Ma région préférée reste le sud, autour de Gyeongju : c'est là que le pays ralentit vraiment. Et ce dont les voyageurs me parlent au retour, ce n'est presque jamais un monument, c'est un repas.",
+          "La Corée du Sud surprend vite. On arrive à Séoul, ville de verre, et le lendemain on dort dans une maison traditionnelle en bois, le sol chauffé sous les pieds. Au retour, mes voyageurs me parlent rarement d'un monument : ils me parlent d'un repas.",
         role: "Travel Designer · Corée du Sud",
       },
       features: defaultSpotlightFeatures,
@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "La Corée du Sud à table",
-      heading: "On mange autour de la table, et tout arrive en même temps",
+      heading: "Le repas coréen et le kimchi",
       theme: "light",
       paragraphs: [
-        "Un repas coréen n'a ni entrée ni plat principal. Tout arrive ensemble au centre de la table : le riz, la soupe, la viande que l'on grille soi-même, et une série de petits bols appelés banchan. On se sert dans les mêmes plats, et l'on remplit le bol du voisin avant le sien.",
-        "Le kimchi accompagne tout. C'est du chou fermenté avec du piment, de l'ail et du gingembre. Les familles le préparent en grande quantité à l'automne, pour l'année entière. Chaque maison a sa recette, et le goût change de l'une à l'autre.",
+        "Un repas coréen n'a ni entrée ni plat principal. Tout arrive ensemble au centre de la table : le riz, la soupe, la viande que l'on grille soi-même et une série de petits bols appelés banchan. On se sert dans les plats communs, en servant les autres avant soi.",
+        "Le kimchi accompagne tout. C'est du chou fermenté avec du piment, de l'ail et du gingembre. Les familles le préparent en grande quantité à l'automne, pour toute l'année, et chaque maison a sa propre recette.",
       ],
       images: [
         {

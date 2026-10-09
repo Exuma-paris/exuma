@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina", // TODO: replace with a real verbatim from Tainà (was Élise placeholder)
         // TODO: verify quote attribution
         quote:
-          "Rome se trompe d'effet. La première fois, tout le monde court : Sixtine, Colisée, Trevi, Trevi encore. Ce qui marque vraiment, c'est ce qu'on voit la deuxième fois, en marchant sans rien chercher. C'est cette deuxième Rome qu'on essaie d'inscrire au premier voyage.",
+          "À Rome, la première fois, tout le monde court : chapelle Sixtine, Colisée, fontaine de Trevi. Ce qui marque vraiment, c'est la ville que l'on découvre en marchant sans rien chercher. J'essaie de faire une place à cette Rome-là dès le premier voyage.",
         role: "Travel Designer · Italie", // TODO: verify
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Le silence de la Villa Borghèse",
-      heading: "Le matin où le marbre respire",
+      heading: "La Galerie Borghèse avant l'ouverture",
       theme: "light",
       paragraphs: [
-        "La Galerie Borghèse ouvre à neuf heures. Une heure avant l'ouverture, la lumière entre par les hautes fenêtres et tombe directement sur le marbre des Bernini. Le gardien éteint les climatiseurs. Le silence n'est pas mis en scène. Il appartient à la maison, restituée par la famille Borghèse au début du XIXe siècle.",
-        "À cette heure-là, Apollon et Daphné sont seuls dans leur salle. On les regarde tourner sur eux-mêmes : Bernini avait vingt-quatre ans quand il a sculpté la transformation. Personne ne demande à passer plus vite. Le guide-historien parle bas. C'est le marbre qui mène la conversation.",
+        "La Galerie Borghèse, au cœur du parc de la Villa Borghèse, ouvre au public à neuf heures. Une heure plus tôt, la lumière entre par les hautes fenêtres et éclaire les marbres du Bernin dans des salles encore vides et silencieuses.",
+        "On découvre ainsi seul Apollon et Daphné, la célèbre sculpture que le Bernin a réalisée alors qu'il n'avait pas vingt-cinq ans. Un guide historien accompagne la visite et présente les chefs-d'œuvre de la collection sans la foule habituelle.",
       ],
       images: [
         {

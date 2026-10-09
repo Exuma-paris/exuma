@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à New York",
-      heading: "La ville avance vite, on choisit où s'y arrêter",
+      heading: "New York avance vite, à vous de choisir où vous arrêter",
       description:
         "À dix heures du soir, la 8e Avenue se remplit d'un coup : les théâtres viennent de vider leurs salles et les tables du quartier tournent une deuxième fois. La ville a ce rythme partout, et il change d'heure à chaque quartier. Tout l'exercice consiste à savoir où être, et quand.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "New York est la ville sur laquelle j'ai le plus changé d'avis. Longtemps je l'ai trouvée trop bruyante, et j'ai mis du temps à comprendre que le bruit était le sujet. On n'y va pas pour se reposer, on y va pour être dedans. Ce que je travaille, ce sont les heures : le moment où un quartier vaut le détour, et celui où il ne vaut plus rien. C'est aussi une des rares grandes villes où trois générations trouvent chacune leur compte sans jamais se quitter.",
+          "New York est la ville sur laquelle j'ai le plus changé d'avis. Je la trouvais trop bruyante, avant de comprendre que cette énergie fait partie du voyage. Je travaille surtout les horaires : à quelle heure chaque quartier vaut le détour, pour toute la famille.",
         role: "Travel Designer · New York",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "New York, quartier par quartier",
-      heading: "Le Village à sept heures",
+      heading: "Trois quartiers de Manhattan",
       theme: "light",
       paragraphs: [
-        "Le West Village échappe au plan en damier du reste de Manhattan. Les rues s'y croisent de travers, les immeubles font quatre étages, et les tables sortent sur le trottoir dès que la lumière baisse. Sur Bleecker et sur Cornelia, quelques maisons se partagent le quartier depuis des décennies, et les meilleures n'ont qu'une dizaine de couverts. On y dîne tôt, puis on remonte à pied.", // TODO: verify l'ancienneté des adresses de Bleecker et de Cornelia
-        "Plus au sud, Tribeca fonctionne autrement : anciens entrepôts, trottoirs larges, façades en fonte, et des salles qui ne cherchent pas à se faire voir. Plus au nord, Harlem s'écoute, entre l'Apollo et les chorales du dimanche matin. Trois quartiers, trois heures différentes, et vingt minutes de métro entre chacun.",
+        "Le West Village échappe au plan en damier du reste de Manhattan : rues qui se croisent de travers, immeubles bas et tables installées sur le trottoir. Autour de Bleecker Street et de Cornelia Street, on dîne dans de petites adresses de quartier, avant de rentrer à pied.",
+        "Plus au sud, Tribeca aligne anciens entrepôts, trottoirs larges et façades en fonte. Plus au nord, Harlem se découvre par la musique, entre l'Apollo Theater et les chorales gospel du dimanche matin.",
       ],
       images: [
         {

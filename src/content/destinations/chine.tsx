@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Chine",
-      heading: "De la Cité interdite aux villages du Yunnan",
+      heading: "La Chine, de la Cité interdite aux villages du Yunnan",
       description:
         "Au petit matin, la Grande Muraille sort de la brume et suit la crête jusqu'à disparaître. Le soir, Shanghai s'allume sur ses deux rives. Plus loin vers le sud-ouest, les vallées gardent leurs rizières en terrasses et leurs maisons de bois.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution : à faire valider par Stéphane avant mise en ligne
         quote:
-          "La Chine change de visage tous les trois jours. On dîne dans une maison de brique de Shanghai, et la semaine suivante on partage le repas d'une famille dong sur une crête du Guizhou. Ce que je propose presque toujours, c'est l'axe du nord, Pékin et Xi'an, puis une descente vers le sud-ouest. C'est là que le voyage devient une histoire à raconter.",
+          "La Chine change de visage tous les trois jours. On dîne dans une maison de brique de Shanghai, puis on partage le repas d'une famille dong dans les montagnes du Guizhou. Je propose souvent Pékin et Xi'an au nord, puis une descente vers le sud-ouest.",
         role: "Travel Designer · Chine",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "La Chine à table",
-      heading: "Il n'y a pas une cuisine chinoise, il y en a huit",
+      heading: "Les huit cuisines de la Chine",
       theme: "light",
       paragraphs: [
-        "Ces huit cuisines n'ont presque rien en commun. Le canard laqué de Pékin se prépare sur deux jours et se découpe devant la table. À Chengdu, le poivre du Sichuan engourdit la bouche avant que le piment n'arrive. À Canton, on juge un cuisinier sur un poisson cuit à la vapeur, sans rien pour masquer.",
-        "Le thé suit la même logique. Sur les collines de Longjing, au-dessus du lac de l'Ouest, la cueillette de printemps ne dure que quelques semaines et se fait à la main, feuille par feuille. Les meilleurs lots ne quittent jamais la province.",
+        "La cuisine chinoise se divise traditionnellement en huit grandes cuisines régionales, très différentes. Le canard laqué de Pékin se prépare sur deux jours et se découpe devant la table. À Chengdu, le poivre du Sichuan engourdit la bouche avant le piment. À Canton, on juge un cuisinier sur un simple poisson à la vapeur.",
+        "Le thé est tout aussi varié. Sur les collines de Longjing, au-dessus du lac de l'Ouest à Hangzhou, la cueillette de printemps ne dure que quelques semaines et se fait à la main.",
       ],
       images: [
         {

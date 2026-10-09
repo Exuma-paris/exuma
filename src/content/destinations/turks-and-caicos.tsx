@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ici, on ne suit pas un programme, on suit la mer. Je laisse trois options par journée et le capitaine tranche le matin selon le vent : le tombant de West Caicos si c'est calme, les hauts-fonds du nord sinon. Ceux qui aiment cette destination sont ceux qui acceptent de ne pas savoir la veille.",
+          "Ici, on suit la mer plus qu'un programme. Je prévois trois options par journée et le capitaine choisit le matin selon le vent : le tombant de West Caicos si c'est calme, les hauts-fonds du nord sinon. Il faut aimer ne pas savoir la veille ce que l'on fera.",
         role: "Travel Designer · Turks and Caicos",
       },
       features: defaultSpotlightFeatures,
@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les Turks and Caicos sous la surface",
-      heading: "Le plateau de corail s'arrête, et le fond tombe à deux mille mètres",
+      heading: "Plongée le long des tombants",
       theme: "light",
       paragraphs: [
-        "On se met à l'eau au-dessus d'un plateau de corail par douze mètres de fond. On longe une arête, et le bleu passe d'un coup du turquoise au marine : derrière l'arête, il y a deux mille mètres. C'est cette rupture qui fait la réputation de Northwest Point, de West Caicos et de French Cay, trois sites inhabités où l'on ne croise presque jamais d'autre bateau.",
-        "Les raies aigles passent en groupe le long du tombant, les tortues broutent l'herbier au-dessus, et les requins de récif tiennent le bord du plateau sans s'approcher. Personne ne remonte en comptant les espèces vues. On remonte en parlant du moment où le fond s'est ouvert.",
+        "Autour des îles, un plateau de corail peu profond s'arrête net sur un tombant qui plonge à plus de deux mille mètres. L'eau passe alors du turquoise au bleu marine. Northwest Point, West Caicos et French Cay sont réputés pour ces tombants, et l'on y croise rarement d'autres bateaux.",
+        "Le long de la paroi, on rencontre des raies aigles qui passent en groupe, des tortues qui broutent les herbiers et des requins de récif qui restent au bord du plateau, sans s'approcher des plongeurs.",
       ],
       images: [
         {

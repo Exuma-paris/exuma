@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: reformulation du compte rendu d'éductour de Tainà (30 avril au 8 mai) — à faire valider par elle avant mise en ligne
         quote:
-          "Ici, le haut de gamme ne se mesure pas au marbre de la salle de bains, mais à l'accès à la nature. Les meilleures adresses sont des écolodges posés dans leur environnement, avec une terrasse ouverte sur la canopée, un sentier privé vers une cascade et un guide naturaliste attaché à la maison. Elles comptent peu de chambres, et les plus belles se réservent longtemps à l'avance. Je construis ces voyages sur quinze jours, avec de vraies journées sans transfert : c'est ce qui sépare voir le Costa Rica de le vivre.",
+          "Au Costa Rica, le luxe, c'est l'accès à la nature. J'aime les écolodges de peu de chambres, avec une terrasse sur la canopée, un sentier privé vers une cascade et un guide naturaliste. Je prévois quinze jours, avec de vraies journées sans transfert.",
         role: "Travel Designer · Costa Rica",
       },
       features: defaultSpotlightFeatures,
@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Costa Rica : canopée et eaux chaudes",
-      heading: "La canopée le matin, les sources thermales le soir",
+      heading: "La forêt le matin, les sources chaudes le soir",
       theme: "light",
       paragraphs: [
-        "Les ponts suspendus de La Fortuna se marchent à hauteur de cimes, une trentaine de mètres au-dessus du sol. C'est de là que la forêt se laisse voir : toucans, singes hurleurs, paresseux accrochés à une branche que personne ne remarque depuis le sentier. À Guanacaste, les tyroliennes du Skyline Tour traversent la forêt sèche d'un versant à l'autre. Au nord de la vallée centrale, les sentiers du parc national du volcan Poás mènent au bord d'un cratère en activité.", // TODO: verify hauteur des ponts suspendus de La Fortuna
-        "Le soir, le pays change de registre. À Tabacón, l'eau chaude descend naturellement des flancs de l'Arenal et alimente des bassins étagés sous la forêt. Les lodges tiennent le même fil : piscines thermales privées, spa, yoga, potagers et sentiers menant à leurs propres cascades. Une matinée dans la canopée et une fin de journée dans l'eau chaude, sans quitter la même vallée.",
+        "À La Fortuna, des ponts suspendus traversent la forêt à hauteur des cimes, où l'on observe toucans, singes hurleurs et paresseux. À Guanacaste, des tyroliennes relient les versants de la forêt sèche, et le parc du volcan Poás mène au bord d'un cratère en activité.",
+        "Le soir, à Tabacón, l'eau chaude descend des flancs du volcan Arenal et alimente des bassins naturels sous la forêt. Les lodges de la région proposent aussi piscines thermales privées, spa et sentiers vers leurs propres cascades.",
       ],
       images: [
         {

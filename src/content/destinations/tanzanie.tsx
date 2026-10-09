@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Tanzanie",
-      heading: "Le Serengeti occidental, à l'écart des circuits habituels",
+      heading: "En Tanzanie, le Serengeti occidental à l'écart des circuits habituels",
       description:
         "Le Serengeti couvre 14 763 km². Sa partie occidentale, la concession de Grumeti, est opérée par un acteur unique et reste peu fréquentée. La migration y franchit la rivière avant de rejoindre le Kenya. Nous travaillons ce secteur depuis dix ans.", // TODO: verify surface de la concession de Grumeti
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Le Serengeti est largement proposé. Sa partie occidentale l'est beaucoup moins. Cette zone repose sur une concession opérée par un acteur unique. La migration y séjourne environ six semaines avant de rejoindre le Kenya. L'expérience reste la même, mais se vit plus tôt dans la saison. Elle se déroule aussi dans un environnement bien moins fréquenté. C'est cette lecture plus confidentielle du Serengeti que je souhaite construire ici.",
+          "Le Serengeti est très demandé, mais sa partie ouest reste peu fréquentée. La migration y passe plusieurs semaines : on vit le même spectacle avec bien moins de véhicules. C'est ce Serengeti plus calme que je propose, sur une concession privée.",
         role: "Travel Designer · Tanzanie",
       },
       features: defaultSpotlightFeatures,
@@ -71,9 +71,9 @@ export const destination: Destination = {
       heading: "Le Serengeti et sa partie occidentale",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
-        "Un voyage en Tanzanie passe presque toujours par le Serengeti, qui s'étend sur 14 763 km². Sa partie occidentale est nettement moins proposée. Le corridor de Grumeti et la réserve d'Ikorongo y prolongent le parc vers le lac Victoria. Les droits de safari y sont détenus par un acteur unique.",
-        "La migration ne suit pas de calendrier fixe. Elle dépend de la pousse de l'herbe et du rythme des pluies. Entre fin mai et juillet, le troupeau quitte les plaines du sud, remonte par l'ouest et atteint la rivière Grumeti. Le passage y est moins photographié que celui de la Mara, en août, côté kenyan. Il est aussi moins fréquenté.",
-        "Trois maisons structurent cet itinéraire. Laba Mama Simba ouvre le voyage à trente-cinq minutes de l'aéroport du Kilimandjaro, au cœur des 700 hectares de North Dolly, où les élands et les zèbres circulent librement autour de la maison. Le Grumeti Serengeti River Lodge se tient ensuite dans l'extrémité ouest du parc, sur la berge d'un affluent occupé par les hippopotames, où le dîner se prend dans un boma à ciel ouvert. Singita Sasakwa occupe la colline, côté concession, dans un registre plus classique.",
+        "Un voyage en Tanzanie commence souvent près d'Arusha, à Laba Mama Simba, au cœur des 700 hectares de North Dolly où élands et zèbres circulent autour de la maison. Puis on rejoint le Serengeti, et surtout sa partie occidentale, moins fréquentée, où le corridor de Grumeti prolonge le parc vers le lac Victoria.",
+        "La migration ne suit pas de calendrier fixe : elle dépend de l'herbe et des pluies. Entre fin mai et juillet, le troupeau remonte par l'ouest et atteint la rivière Grumeti. Le passage y est moins photographié et moins fréquenté que celui de la Mara, côté kenyan, en août.",
+        "Dans l'ouest du Serengeti, le Grumeti Serengeti River Lodge borde un affluent peuplé d'hippopotames, et le dîner se prend dans un boma à ciel ouvert. Sur la colline voisine, Singita Sasakwa offre un registre plus classique, avec la vue sur toute la concession.",
       ],
     },
 
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Tanzanie : le corridor de Grumeti",
-      heading: "Ce que la concession privée autorise",
+      heading: "Safari privé à Grumeti",
       theme: "light",
       paragraphs: [
-        "Le départ se fait avant le lever du jour. Dans la concession de Grumeti, aucun autre véhicule ne circule. Le guide descend, lit le sol et relève l'empreinte laissée par un léopard pendant la nuit. Il en déduit la direction prise et l'heure approximative du passage.",
-        "La différence avec le parc national tient aux autorisations. Dans le Serengeti, les pistes sont tracées et le hors-piste est interdit. La marche guidée y existe, mais encadrée et limitée à des secteurs définis. Dans la concession, elle se pratique librement, et les sorties de nuit sont permises : les projecteurs à filtre rouge y révèlent les civettes et les genettes, invisibles de jour. Il ne s'agit pas d'un supplément de confort, mais d'une autre façon d'aborder le même territoire.",
+        "Dans la concession privée de Grumeti, en bordure du Serengeti, les safaris partent avant l'aube et l'on ne croise aucun autre véhicule. Les guides lisent les traces laissées pendant la nuit, comme celles d'un léopard, et en déduisent la direction prise par l'animal.",
+        "Contrairement au parc national, où la marche est très encadrée, la concession permet les marches guidées et les sorties de nuit. Les projecteurs à filtre rouge révèlent alors les civettes et les genettes, invisibles le jour.",
       ],
       images: [
         {
@@ -234,7 +234,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Tanzanie entre Arusha, Grumeti et le Ngorongoro",
             "Adresses confidentielles en Tanzanie : camps privés et concessions fermées",
             "Hébergements en Tanzanie : Singita Sasakwa et Grumeti Serengeti River Lodge",
-            "Conciergerie privée 24/7 pour un voyage en Tanzanie",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Expériences immersives en Tanzanie : Olduvai, Hadzabe et fly-camp",
           ][i],
         },
@@ -653,10 +653,8 @@ export const destination: Destination = {
       eyebrow: "Inspirations",
       heading: "Destinations similaires",
       description:
-        "Le même écosystème vu depuis le Kenya, les deltas d'Afrique australe, les dunes de l'Atlantique. Trois prolongements possibles après un premier safari.",
-      // TODO: les pages botswana et namibie n'existent pas encore. Le rendu filtre
-      // les slugs inconnus, elles apparaîtront automatiquement à leur création.
-      slugs: ["kenya", "botswana", "namibie"],
+        "Les plages de Zanzibar, à une heure de vol, les deltas d'Afrique australe, les dunes de l'Atlantique. Trois prolongements possibles après un premier safari.",
+      slugs: ["zanzibar", "botswana", "namibie"],
     },
   ],
 };

@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime au Cambodge, c'est que le pays ne se donne jamais tout de suite. Il faut être là quand le jour se lève, laisser le guide raconter, accepter de revenir au même temple pour qu'il finisse par s'ouvrir. Je construis les voyages de façon à ce que ces moments-là arrivent.",
+          "Au Cambodge, il faut être aux temples quand le jour se lève, laisser le guide raconter et parfois revenir au même endroit pour vraiment le comprendre. Je construis les voyages pour que ces moments arrivent, en prenant le temps à chaque étape.",
         role: "Travel Designer · Cambodge",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Cambodge : Phnom Penh hors circuit",
-      heading: "Phnom Penh, la ville où l'on s'attarde plus que prévu",
+      heading: "Phnom Penh, la capitale khmère",
       theme: "light",
       paragraphs: [
-        "La capitale se tient au confluent des fleuves, et l'on comprend vite pourquoi les rois s'y sont installés. Le Palais royal et la pagode d'Argent occupent la matinée, avec leurs toits dorés et leur sol pavé de métal précieux. Le Musée national, juste à côté, garde les plus belles pièces khmères sorties d'Angkor, et l'on y reste toujours plus longtemps qu'on ne l'avait prévu.",
-        "L'après-midi appartient à la ville elle-même. On longe les quais lorsque la chaleur retombe, on s'arrête à une table où la cuisine khmère se réinvente, et l'on flâne dans les rues du vieux quartier français. Ceux qui souhaitent comprendre les années Khmers rouges le font avec un guide qui a vécu cette période, et nous laissons alors le reste de la journée libre.",
+        "Phnom Penh s'étend au confluent du Mékong et du Tonlé Sap. La matinée se passe au Palais royal et à la pagode d'Argent, aux toits dorés et au sol pavé d'argent. Juste à côté, le Musée national expose les plus belles pièces khmères venues d'Angkor.",
+        "L'après-midi, on longe les quais quand la chaleur retombe, on goûte une cuisine khmère revisitée et l'on flâne dans le vieux quartier français. Pour comprendre les années Khmers rouges, un guide ayant vécu cette période vous accompagne.",
       ],
       images: [
         {

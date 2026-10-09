@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à Madagascar",
-      heading: "Rien de ce qui vit ici ne vit ailleurs",
+      heading: "Rien de ce qui vit à Madagascar ne vit ailleurs",
       description:
         "Le matin, à Anjajavy, un lémurien blanc traverse la pelouse et s'arrête à trois mètres de la terrasse. La forêt sèche commence juste derrière, et la mer est de l'autre côté. Le soir, l'eau du canal du Mozambique passe au rose, puis au gris.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Madagascar est le seul pays où je ne reconnais rien de ce que je connais ailleurs. Les arbres, les animaux, la couleur de la terre : tout y est particulier, et cela commence dès le hublot de l'avion. Ma région préférée est le Nord, autour d'Antsiranana, pour ses collines rouges et sa lumière de fin de journée. Mais ce dont mes voyageurs me parlent au retour, ce sont les gens. On leur explique, on prend le temps de répondre, on les invite à s'asseoir. Ils rentrent avec des prénoms en tête.",
+          "À Madagascar, rien ne ressemble à ce que l'on connaît : les arbres, les animaux, la couleur de la terre. J'aime surtout le Nord, autour d'Antsiranana, pour ses collines rouges. Au retour, mes voyageurs me parlent surtout des gens et de leur accueil.",
         role: "Travel Designer · Madagascar",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les hauts plateaux",
-      heading: "Le vert des rizières, le rouge des maisons",
+      heading: "Rizières et maisons des hauts plateaux",
       theme: "light",
       paragraphs: [
-        "Au centre de l'île, la route monte et l'air se rafraîchit. Les rizières remplissent le fond des vallées, puis grimpent en terrasses jusqu'aux crêtes. Elles changent de couleur avec les mois : vert tendre après la plantation, or à la récolte, et miroir d'eau le reste du temps, où le ciel se reflète en entier. Le matin, la brume reste au creux des vallons jusqu'au premier soleil.",
-        "Les maisons ont deux étages, des murs de brique et des balcons de bois ouverts sur la vallée. Elles sont de la même couleur que la terre dont elles sont faites. En fin de journée, la lumière passe à l'orange et les façades la gardent longtemps. On s'arrête pour une nuit à Antsirabe, on pousse la porte des ateliers de pierres dures et de soie sauvage, et l'on repart vers le sud au petit matin.",
+        "Au centre de Madagascar, la route monte vers les hauts plateaux. Les rizières occupent le fond des vallées puis grimpent en terrasses jusqu'aux crêtes. Leur couleur change avec les mois : vert tendre après la plantation, doré à la récolte.",
+        "Les maisons de brique, à deux étages et balcons de bois, ont la couleur de la terre dont elles sont faites. On fait étape à Antsirabe pour visiter les ateliers de pierres dures et de soie sauvage, avant de repartir vers le sud.",
       ],
       images: [
         {
@@ -230,7 +230,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure à Madagascar, du Nord à la côte ouest et à la forêt de l'Est",
             "Adresses confidentielles à Madagascar : îles privées et lodges de forêt",
             "Hébergements à Madagascar : île privée du Nord, îlot des Mitsio et presqu'île d'Anjajavy",
-            "Conseillère Exuma au casque, conciergerie privée 24/7 pendant le voyage",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Expériences à Madagascar : Tsingy Rouges, allée des baobabs et baleines de Sainte-Marie",
           ][i],
         },

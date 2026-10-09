@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Jamaïque",
-      heading: "Le sable est en bas, la brume commence à mille mètres",
+      heading: "La Jamaïque, du sable de la côte à la brume des sommets",
       description:
         "Le matin, la brume passe dans les caféiers au-dessus de Kingston. L'après-midi, on nage dans une crique où une rivière rejoint la mer. C'est la même île, et c'est le même jour.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Tainà porte déjà le Panama, le Costa Rica et la Colombie)
         // TODO: verify quote attribution — à faire valider par Tainà avant mise en ligne
         quote:
-          "Ce que je conseille toujours, c'est de commencer par les hauteurs. Deux nuits dans les Blue Mountains avant de descendre à la mer : on dort sous une couverture, on se réveille dans la brume, et la plage qui suit n'a plus le même goût. Presque personne ne fait le voyage dans cet ordre.",
+          "En Jamaïque, je conseille toujours de commencer par les hauteurs : deux nuits dans les Blue Mountains avant de descendre à la mer. On dort sous une couverture, on se réveille dans la brume, et la plage qui suit n'a plus du tout le même goût.",
         role: "Travel Designer · Jamaïque",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Jamaïque : les hauteurs et la côte est",
-      heading: "Le café le matin à Irish Town, la rivière l'après-midi",
+      heading: "Des Blue Mountains au Blue Lagoon",
       theme: "light",
       paragraphs: [
-        "À Irish Town, la brume passe deux fois par jour et le café pousse plus haut encore. La cueillette se fait cerise par cerise, à la main, sur des pentes trop raides pour une machine. On goûte le café là, à la table de tri, avec ceux qui trient.",
-        "Deux heures de route plus bas, la côte n'a plus rien du même pays. Le Blue Lagoon mélange l'eau de source et l'eau de mer, et la température change d'un mètre à l'autre. On y entre en fin de journée, quand la couleur tourne au vert sombre.",
+        "Dans les hauteurs d'Irish Town, au cœur des Blue Mountains, le café pousse sur des pentes très raides, souvent dans la brume. La cueillette se fait à la main, cerise par cerise, et l'on goûte le café sur place avec ceux qui le trient.",
+        "À environ deux heures de route, sur la côte est, le Blue Lagoon mêle eau de source et eau de mer, si bien que la température change d'un endroit à l'autre. La baignade y est particulièrement belle en fin de journée, quand l'eau prend une teinte vert sombre.",
       ],
       images: [
         {

@@ -1,31 +1,22 @@
-# Reference images — Zanzibar
+# Sources des images — Zanzibar
 
-Each generated image in `public/destination/zanzibar/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
-
-| Output                     | Reference file                 | Source URL | License |
-| -------------------------- | ------------------------------ | ---------- | ------- |
-| `hero-1.png`               | `hero-1-ref.jpg`               | TODO       | TODO    |
-| `hero-2.png`               | `hero-2-ref.jpg`               | TODO       | TODO    |
-| `hero-3.png`               | `hero-3-ref.jpg`               | TODO       | TODO    |
-| `full-image.png`           | `full-image-ref.jpg`           | TODO       | TODO    |
-| `split-1.png`              | `split-1-ref.jpg`              | TODO       | TODO    |
-| `split-2.png`              | `split-2-ref.jpg`              | TODO       | TODO    |
-| `xp-corail-mnemba-1.png`   | `xp-corail-mnemba-1-ref.jpg`   | TODO       | TODO    |
-| `xp-corail-mnemba-2.png`   | `xp-corail-mnemba-2-ref.jpg`   | TODO       | TODO    |
-| `xp-safari-bleu.png`       | `xp-safari-bleu-ref.jpg`       | TODO       | TODO    |
-| `xp-stone-town.png`        | `xp-stone-town-ref.jpg`        | TODO       | TODO    |
-| `xp-epices-kidichi.png`    | `xp-epices-kidichi-ref.jpg`    | TODO       | TODO    |
-| `hotel-mnemba.png`         | `hotel-mnemba-ref.jpg`         | TODO       | TODO    |
-| `hotel-park-hyatt.png`     | `hotel-park-hyatt-ref.jpg`     | TODO       | TODO    |
-| `hotel-white-sand.png`     | `hotel-white-sand-ref.jpg`     | TODO       | TODO    |
-| `bento-map.png`            | `bento-map-ref.jpg`            | TODO       | TODO    |
-| `bento-adresses.png`       | `bento-adresses-ref.jpg`       | TODO       | TODO    |
-| `bento-hebergements.png`   | `bento-hebergements-ref.jpg`   | TODO       | TODO    |
-| `bento-conciergerie.png`   | `bento-conciergerie-ref.jpg`   | TODO       | TODO    |
-| `bento-experiences.png`    | `bento-experiences-ref.jpg`    | TODO       | TODO    |
-| `map-stone-town.png`       | `map-stone-town-ref.jpg`       | TODO       | TODO    |
-| `map-mnemba.png`           | `map-mnemba-ref.jpg`           | TODO       | TODO    |
-| `map-matemwe.png`          | `map-matemwe-ref.jpg`          | TODO       | TODO    |
-| `map-jozani.png`           | `map-jozani-ref.jpg`           | TODO       | TODO    |
-| `map-paje.png`             | `map-paje-ref.jpg`             | TODO       | TODO    |
-| `map-pemba.png`            | `map-pemba-ref.jpg`            | TODO       | TODO    |
+| Image | Source | |
+| --- | --- | --- |
+| `hero-1.webp` | IA d'après `hero-1-ref.jpg` (GetYourGuide), choisie par Thea le 09/10/2026 | |
+| `hero-2.webp` | Photo de Thea (The Rock), fournie le 09/10/2026, recadrée et réchauffée | Exuma |
+| `hero-3.webp` | IA d'après `hero-3-ref.jpg` (cloudfront), choisie par Thea le 09/10/2026 | |
+| `full-image.webp` | IA mêlant `full-image-ref.jpg` (exploretanzania.nl, porte de Stone Town) et `full-image-ref2.jpg` (étal de rue), choisies par Thea | |
+| `split-1.webp` | IA d'après `split-1-ref.jpg` (endallah.org, cultivatrice d'algues) | |
+| `split-2.webp` | IA, génération texte (charpentiers de boutres à Nungwi) | |
+| `split-2.webp` | IA d'après `split-2-ref.jpg` (dreamstime, coque en bois), avec la mer visible à la demande de Thea | |
+| `xp-corail-mnemba-1.webp` | Photo de référence elle-même, sans IA, à la demande de Thea : Coral Gardeners, Myles McGuinness pour Tahiti Tourisme (tahititourisme.pf). Recadrée. Prise en Polynésie, pas à Mnemba. | Droits à confirmer avant publication |
+| `xp-corail-mnemba-2.webp` | Photo de référence elle-même (vivreazanzibar.fr, atoll de Mnemba), recadrée, turquoise adouci | Droits à confirmer avant publication |
+| `xp-epices-kidichi.webp` | Photo de référence elle-même (tanzaniaspecialist.fr), recadrée en carré, saturation adoucie | Droits à confirmer avant publication |
+| `hotel-mnemba.webp` | Photo officielle andBeyond Mnemba Island (cloudfront), fournie par Thea le 09/10/2026 | Autorisation à confirmer avec l'hôtel |
+| `hotel-white-sand.webp` | Photo de l'hôtel (miniature Google Images), fournie par Thea le 09/10/2026, recadrée en carré et agrandie fidèlement par IA | Autorisation à confirmer avec l'hôtel |
+| `hotel-zuri.webp` | Photo du Zuri Zanzibar (hosteltur.com), fournie par Thea le 09/10/2026, recadrée en carré sans le logo | Autorisation à confirmer avec l'hôtel |
+| `bento-map.webp` | Carte vectorielle (Zanzibar et Pemba, world-atlas) | |
+| `bento-adresses.webp`, `bento-experiences.webp`, `map-pemba.webp` | IA, génération texte | |
+| `bento-hebergements.webp` | Même photo officielle que `hotel-mnemba.webp` | Autorisation à confirmer |
+| `bento-conciergerie.webp` | Photo d'équipe Exuma | Exuma |
+| `map-mnemba.webp` | Même photo que `xp-corail-mnemba-2.webp` (vivreazanzibar.fr) | Droits à confirmer |

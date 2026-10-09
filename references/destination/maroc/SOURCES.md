@@ -1,35 +1,28 @@
-# Reference images — Maroc
+# Sources des images — Maroc
 
-Each generated image in `public/destination/maroc/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
+Images générées par IA (Gemini 3 Pro Image, mode `--inspire` de `gen-images.mjs`) : la référence sert de brief d'ambiance, l'image produite est une composition nouvelle. Références choisies par Thea le 08/10/2026.
 
-| Output                        | Reference file                     | Source URL | License |
-| ----------------------------- | ---------------------------------- | ---------- | ------- |
-| `hero-1.png`                  | `hero-1-ref.jpg`                   | TODO       | TODO    |
-| `hero-2.png`                  | `hero-2-ref.jpg`                   | TODO       | TODO    |
-| `hero-3.png`                  | `hero-3-ref.jpg`                   | TODO       | TODO    |
-| `full-image.png`              | `full-image-ref.jpg`               | TODO       | TODO    |
-| `split-1.png`                 | `split-1-ref.jpg`                  | TODO       | TODO    |
-| `split-2.png`                 | `split-2-ref.jpg`                  | TODO       | TODO    |
-| `xp-campement-desert-1.png`   | `xp-campement-desert-1-ref.jpg`    | TODO       | TODO    |
-| `xp-campement-desert-2.png`   | `xp-campement-desert-2-ref.jpg`    | TODO       | TODO    |
-| `xp-sagesse-soufie.png`       | `xp-sagesse-soufie-ref.jpg`        | TODO       | TODO    |
-| `xp-vallee-des-roses.png`     | `xp-vallee-des-roses-ref.jpg`      | TODO       | TODO    |
-| `xp-detroit-gibraltar.png`    | `xp-detroit-gibraltar-ref.jpg`     | TODO       | TODO    |
-| `hotel-karawan-riad.png`      | `hotel-karawan-riad-ref.jpg`       | TODO       | TODO    |
-| `hotel-kasbah-tamadot.png`    | `hotel-kasbah-tamadot-ref.jpg`     | TODO       | TODO    |
-| `bento-map.png`               | `bento-map-ref.jpg`                | TODO       | TODO    |
-| `bento-adresses.png`          | `bento-adresses-ref.jpg`           | TODO       | TODO    |
-| `bento-hebergements.png`      | `bento-hebergements-ref.jpg`       | TODO       | TODO    |
-| `bento-conciergerie.png`      | `bento-conciergerie-ref.jpg`       | TODO       | TODO    |
-| `bento-experiences.png`       | `bento-experiences-ref.jpg`        | TODO       | TODO    |
-| `map-fes.png`                 | `map-fes-ref.jpg`                  | TODO       | TODO    |
-| `map-haut-atlas.png`          | `map-haut-atlas-ref.jpg`           | TODO       | TODO    |
-| `map-marrakech.png`           | `map-marrakech-ref.jpg`            | TODO       | TODO    |
-| `map-dades.png`               | `map-dades-ref.jpg`                | TODO       | TODO    |
-| `map-erg-chebbi.png`          | `map-erg-chebbi-ref.jpg`           | TODO       | TODO    |
-| `map-tanger.png`              | `map-tanger-ref.jpg`               | TODO       | TODO    |
+| Image | Référence (brief) | Source de la référence |
+| --- | --- | --- |
+| `hero-1.webp` | `hero-1-ref.jpg` | barcelo.com, guide médina de Fès |
+| `hero-2.webp` | `hero-2-ref.jpg` | les-voyageuses.net, Atlas sous la neige |
+| `hero-3.webp` | `hero-3-ref.jpg` | ancien site exuma.paris, palmeraie |
+| `full-image.webp` | `full-image-ref.jpg` | marrakech-desert-trips.com, Aït Ben Haddou |
+| `split-1.webp` | `split-1-ref.jpg` | Google Images, dinandier |
+| `split-2.webp` | `split-2-ref.jpg` | Google Images, théières en laiton |
+| `xp-campement-desert-1.webp` | aucune (génération texte, demande de Thea : dunes seules) | |
+| `xp-campement-desert-2.webp` | aucune (génération texte : table pour deux, deux personnes de dos) | |
+| `xp-sagesse-soufie.webp` | `xp-sagesse-soufie-ref.jpg` | dunesdeserts.com, thé |
+| `xp-vallee-des-roses.webp` | `xp-vallee-des-roses-ref.jpg` | trekatlassahara.com, cueillette des roses |
+| `xp-detroit-gibraltar.webp` | `xp-detroit-gibraltar-ref.jpg` | visitmorocco (CDN), phare du cap Spartel |
 
-Notes :
+Saturation ramenée à ~95-100. Cartes d'expériences recadrées en carré.
 
-- `hotel-dar-ahlam.png` n'apparaît pas dans cette liste : la fiche Dar Ahlam existait déjà et conserve son image sous `public/destination/marrakech/`.
-- Les portraits de la section témoignages réutilisent `hero-1/2/3.png`, aucun fichier supplémentaire n'est nécessaire.
+## Hébergements (photos officielles)
+
+| Image | Source | Autorisation |
+| --- | --- | --- |
+| `hotel-karawan-riad.webp` | Photo de l'hôtel (a.otcdn.com, fiche Karawan Riad), fournie par Thea le 08/10/2026 | À confirmer avec l'hôtel |
+| `hotel-dar-ahlam.webp` (dossier `marrakech/`) | Photo de l'hôtel (miniature Google Images), fournie par Thea le 08/10/2026, agrandie fidèlement par IA | À confirmer avec l'hôtel |
+| `hotel-kasbah-tamadot.webp` | Photo de l'hôtel (blog youshouldgohere.com), fournie par Thea le 08/10/2026 ; turquoise de la piscine adouci | À confirmer avec l'hôtel ou l'auteur |
+| `map-*.webp` (6 lieux de la carte) | aucune (génération texte d'après les légendes) | |

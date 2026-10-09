@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Il y a toujours, dans un voyage aux Fidji, un moment où l'on cesse de compter les jours, et c'est presque toujours le soir où l'on se retrouve assis sur une natte, dans un village dont on ignorait le nom le matin même. Je construis chaque séjour autour de ce basculement : d'abord le lagon et son silence, puis la terre et ceux qui attendent qu'on vienne s'asseoir.",
+          "Aux Fidji, le moment qui reste, c'est souvent le soir où l'on se retrouve assis sur une natte, dans un village découvert le matin même. Je construis chaque séjour en deux temps : d'abord le lagon et son calme, puis la terre et les villages qui accueillent.",
         role: "Travel Designer · Fidji",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Le récif et les villages",
-      heading: "Ce que l'on trouve sous la surface, et à terre",
+      heading: "Plongée et vie de village aux Fidji",
       theme: "light",
       paragraphs: [
-        "Le corail des Fidji se porte mieux que la moyenne du Pacifique, et cela se voit dès la première plongée. Dans le détroit de Somosomo, le Great White Wall se couvre de coraux mous pâles sur des dizaines de mètres de tombant. Au large de Kadavu, les mantas passent dans les canaux du Great Astrolabe Reef. À Beqa, huit espèces de requins viennent sur le même site, dans une réserve née d'un accord avec les villages qui en détenaient les droits de pêche.",
-        "À terre, le rythme est autre. Le kokoda, poisson cru mariné au citron vert et au lait de coco, se prépare le matin. Le four enterré du lovo se ferme à midi et s'ouvre en fin d'après-midi. La coupe de kava circule le soir, dans l'ordre des rangs, et l'on frappe trois fois dans ses mains après avoir bu. On repart de ces journées avec le sentiment d'avoir été reçu plutôt que servi.",
+        "Les récifs des Fidji comptent parmi les mieux préservés du Pacifique. Dans le détroit de Somosomo, le Great White Wall est couvert de coraux mous pâles. Au large de Kadavu, on croise les raies manta du Great Astrolabe Reef, et à Beqa, huit espèces de requins fréquentent une réserve créée avec les villages voisins.",
+        "À terre, on découvre la vie des villages : le kokoda, poisson cru au citron vert et au lait de coco, le lovo, repas cuit dans un four enterré, et le soir, la cérémonie du kava.",
       ],
       images: [
         {

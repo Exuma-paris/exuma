@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "On croit connaître l’Autriche parce qu’on a vu Vienne un week-end. Puis quelqu’un vous fait entrer au Musikverein un matin de répétition, un vigneron de Dürnstein remonte un vieux millésime de sa cave, et le pays change de dimension. Ces portes-là ne s’ouvrent pas depuis un site de réservation. Elles s’ouvrent parce qu’on a téléphoné la veille, et parce qu’on téléphone depuis dix ans.",
+          "On croit connaître l’Autriche après un week-end à Vienne. Puis on assiste à une répétition au Musikverein, un vigneron de Dürnstein vous ouvre un vieux millésime, et tout change. Ces accès ne se réservent pas en ligne : je les obtiens par mes contacts.",
         role: "Travel Designer · Autriche",
       },
       features: defaultSpotlightFeatures,
@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Le Salzkammergut",
-      heading: "Le Salzkammergut, les lacs où l’empereur passait ses étés",
+      heading: "Les lacs du Salzkammergut",
       theme: "light",
       paragraphs: [
-        "François-Joseph venait à Bad Ischl chaque été pendant plus de soixante ans. Il s’y était fiancé à Élisabeth en 1853, et la Kaiservilla appartient encore à ses descendants. La ville a gardé ses façades jaune impérial et ses pâtisseries au marbre usé. On y prend le café à la même heure qu’à Vienne, mais les fenêtres donnent sur des sapins.",
-        "Autour, les lacs se suivent sans se ressembler. Le Wolfgangsee est large et clair, le Fuschlsee reste sombre sous les arbres, le Hallstättersee s’enfonce entre deux parois. À Hallstatt, on remonte le sel de la montagne depuis plus de trois mille ans, ce qui en fait la plus ancienne mine du monde encore en activité. Le village se visite avant neuf heures, quand les cars sont encore sur la route.",
-        "À Fuschl, les barques de bois se louent toujours à l’heure. Personne ne vérifie l’heure.",
+        "François-Joseph a passé ses étés à Bad Ischl pendant plus de soixante ans. Il s’y était fiancé à Élisabeth en 1853, et la Kaiservilla appartient toujours à ses descendants. La ville a gardé ses façades jaune impérial et ses pâtisseries à la viennoise.",
+        "Autour, les lacs se succèdent : le Wolfgangsee, large et clair, le Fuschlsee bordé de forêts, le Hallstättersee encaissé entre deux parois. À Hallstatt, on extrait le sel de la montagne depuis plus de trois mille ans. Le village se visite tôt, avant l’arrivée des cars.",
       ],
       images: [
         {

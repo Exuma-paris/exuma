@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime aux Philippines, c'est qu'on n'y arrive jamais tout à fait par hasard. Il faut vouloir cette île-là, prendre le petit avion qui s'y pose, monter dans le bateau qui attend au bout de la plage, et c'est précisément ce chemin qui rend l'arrivée si douce. Je construis les voyages pour que ce moment-là existe, à chaque étape.",
+          "Aux Philippines, on n'arrive jamais sur une île par hasard. On prend un petit avion, puis le bateau qui attend au bout de la plage, et c'est ce chemin qui rend l'arrivée si douce. J'organise chaque étape pour que ces trajets fassent partie du voyage.",
         role: "Travel Designer · Philippines",
       },
       features: defaultSpotlightFeatures,
@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Philippines : l'archipel hors circuit",
-      heading: "Plonger sur les épaves de Coron, entre corail et acier",
+      heading: "Les épaves et les lacs de Coron",
       theme: "light",
       paragraphs: [
-        "Des navires japonais reposent au fond de la baie de Coron depuis la guerre. Le corail mou les a recouverts, les bancs de poissons y ont pris leurs habitudes, et l'on descend dans les coursives comme on visiterait une maison abandonnée. Un guide qui connaît chaque cloison vous précède, lampe à la main.",
-        "L'île de Coron, juste en face, cache des lacs d'eau claire entre ses parois. On y accède par un escalier d'une centaine de marches taillé dans la roche, et l'on nage dans une eau qui tiédit à mesure que l'on descend, jusqu'à devenir presque chaude. Les Tagbanua veillent sur ces lacs et les ferment certains jours pour leurs cérémonies. Nous vous y conduisons quand ils sont ouverts, et tôt le matin.",
+        "Au fond de la baie de Coron reposent des navires japonais coulés pendant la Seconde Guerre mondiale. Couverts de corail et peuplés de poissons, ils forment un site de plongée réputé, que l'on explore avec un guide qui en connaît chaque recoin.",
+        "En face, l'île de Coron cache des lacs d'eau claire entre ses falaises calcaires, accessibles par un escalier taillé dans la roche. Le peuple tagbanua veille sur ces lacs et les ferme certains jours pour ses cérémonies.",
       ],
       images: [
         {

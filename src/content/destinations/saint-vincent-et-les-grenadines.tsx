@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "On vient rarement ici pour une seule île. Les traversées durent une heure, parfois moins, et l'on finit par vivre au rythme du bateau plutôt qu'à celui des journées. Je construis les séjours autour de ce mouvement : une maison où revenir le soir, et des îles que l'on va chercher le matin. C'est ce qui fait que personne ne compte plus les jours.",
+          "On vient rarement ici pour une seule île. Les traversées durent une heure, parfois moins, et l'on vit vite au rythme du bateau. Je construis les séjours autour de ce mouvement : une maison où revenir le soir, et des îles que l'on va découvrir le matin.",
         role: "Travel Designer · Saint-Vincent-et-les-Grenadines",
       },
       features: defaultSpotlightFeatures,
@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les Grenadines vues du bateau",
-      heading: "Les journées où l'on lève l'ancre après le petit-déjeuner",
+      heading: "Les Grenadines en bateau",
       theme: "light",
       paragraphs: [
-        "Le bateau n'est pas une excursion, c'est le moyen de transport. On quitte Admiralty Bay au matin, on déjeune au mouillage de Salt Whistle Bay à Mayreau, et l'on remonte vers Chatham Bay pour la fin d'après-midi. Les distances sont si courtes que rien ne se décide la veille : on regarde le vent en sortant, et l'équipage propose l'île qui ira le mieux ce jour-là.",
-        "Ce qui frappe, c'est le peu de monde. Quelques bateaux se partagent chaque mouillage, les plages n'ont ni parasol ni vendeur, et l'on aborde des îlots où personne ne vit. Le soir, on rentre dîner à terre, et l'on repart le lendemain dans l'autre sens.",
+        "Dans les Grenadines, le bateau sert de moyen de transport. On quitte Admiralty Bay le matin, on déjeune au mouillage de Salt Whistle Bay, à Mayreau, et l'on rejoint Chatham Bay en fin d'après-midi. Les distances étant courtes, l'équipage choisit l'île du jour selon le vent.",
+        "On y croise peu de monde : quelques bateaux par mouillage, des plages sans parasols ni vendeurs, des îlots inhabités. Le soir, on dîne à terre avant de repartir le lendemain vers d'autres mouillages.",
       ],
       images: [
         {

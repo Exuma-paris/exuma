@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Le Japon se refuse à qui va vite. On peut visiter Tokyo, Kyoto et le Mont Fuji en dix jours et n'avoir rien vu du pays. Mon travail commence là où s'arrête le guide touristique : la porte du sous-temple qui n'ouvre que sur présentation, l'écurie de sumo qui n'accepte aucune visite sans introduction. C'est cette porte-là qui change le voyage.",
+          "On peut voir Tokyo, Kyoto et le mont Fuji en dix jours sans vraiment découvrir le Japon. J'aime ouvrir les portes fermées aux visiteurs pressés : un sous-temple qui n'ouvre que sur présentation, une écurie de sumo qu'on visite seulement sur introduction.",
         role: "Travel Designer · Japon",
       },
       features: [
@@ -107,12 +107,12 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Kyoto, quand la lenteur devient un art",
-      heading: "Ce qui se transmet loin des regards",
+      eyebrow: "Japon : les arts traditionnels",
+      heading: "Sumo et cérémonie du thé",
       theme: "light",
       paragraphs: [
-        "Cinq heures et demie. Tokyo dort encore lorsque les portes d'une écurie de sumo s'ouvrent. Sur la terre battue, les lutteurs commencent leur entraînement pieds nus. Les corps se heurtent, les pas résonnent, puis le silence reprend sa place. Quelques bancs de bois, quelques privilégiés admis par l'écurie : rien n'est mis en scène.",
-        "Ailleurs, un maître de thé verse l'eau avec une précision presque imperceptible. La température, le choix du bol, la lumière du jour : chaque détail compte. Vingt minutes pour préparer trois bols. Un geste transmis depuis des siècles, répété aujourd'hui avec la même attention.\n\nCe sont ces instants que l'on vient chercher au Japon. Des gestes qui existaient avant nous, qui continueront après nous, et qui ne changent pas parce qu'on les regarde.",
+        "À Tokyo, certaines écuries de sumo ouvrent leurs portes tôt le matin à quelques invités. Assis sur un banc de bois, on assiste à l'entraînement des lutteurs sur la terre battue. Rien n'est mis en scène : c'est leur travail quotidien.",
+        "Autre tradition, la cérémonie du thé repose sur une grande précision : température de l'eau, choix du bol, lumière de la pièce. Ces gestes se transmettent depuis des siècles, et c'est ce Japon des savoir-faire que l'on vient découvrir.",
       ],
       images: [
         {

@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Jordanie",
-      heading: "Une faille dans la montagne, et Pétra derrière",
+      heading: "La Jordanie, une faille dans la montagne et Pétra derrière",
       description:
         "Le matin, la roche de Pétra passe du brun au rose. Plus au sud, le sable du Wadi Rum garde la chaleur de la veille et les nuits y sont froides. À l'ouest, la mer Morte ne fait aucun bruit. La Jordanie se traverse lentement, même si elle est petite.",
       images: [
@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "On me demande souvent si une journée suffit pour Pétra. Elle ne suffit pas, et je le dis avant même de parler du reste du voyage. Le site est immense, et la plupart des visiteurs s'arrêtent au Khazneh alors que les vallées derrière sont vides. Je réserve donc toujours deux nuits à Wadi Musa, et j'entre le second matin par le chemin de Little Petra, celui qui arrive au Monastère par le haut. Mon autre consigne concerne le désert : une nuit au campement ne suffit pas non plus, parce que la première se passe à s'habituer au froid et au silence. C'est la seconde nuit dont les voyageurs me reparlent.",
+          "À Pétra, une journée ne suffit pas. La plupart des visiteurs s'arrêtent au Khazneh, alors que les vallées derrière sont presque vides. Je prévois deux nuits à Wadi Musa, avec une entrée le second matin par Little Petra, qui mène au Monastère par le haut.",
         role: "Travel Designer · Jordanie",
       },
       features: defaultSpotlightFeatures,
@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Jordanie : la pierre et le désert",
-      heading: "La faille se traverse à pied, dans l'ombre",
+      heading: "Le Siq, l'entrée de Pétra",
       theme: "light",
       paragraphs: [
-        "L'entrée de Pétra ne se voit pas depuis la vallée. Il faut d'abord descendre dans le Siq, une faille étroite que l'eau a ouverte dans la montagne. Les parois montent très haut et se rapprochent par endroits, jusqu'à ne laisser qu'une bande de ciel. L'air y reste frais même en plein été. Sur la roche, on distingue encore les canaux que les Nabatéens avaient taillés pour conduire l'eau des crues vers la cité.",
-        "Puis la faille débouche d'un seul coup sur le Khazneh, la façade sculptée à même la falaise. Elle prend sa couleur la plus forte en fin de matinée, quand le soleil finit par entrer dans le cirque.",
+        "Pour atteindre Pétra, on descend à pied dans le Siq, une faille étroite que l'eau a ouverte dans la montagne. Ses hautes parois se resserrent par endroits jusqu'à ne laisser qu'une bande de ciel, et l'air y reste frais en plein été. On y voit encore les canaux taillés par les Nabatéens pour conduire l'eau vers la cité.",
+        "Au bout de la faille apparaît le Khazneh, la célèbre façade sculptée dans la falaise, dont la couleur est la plus intense en fin de matinée.",
       ],
       images: [
         {

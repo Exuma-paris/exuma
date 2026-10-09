@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Le Mexique gagne à être pris sans hâte. On peut enchaîner une pyramide, une plage et une baignade en quelques jours, et rentrer sans avoir rien goûté de ce qui fait ce pays. Je préfère choisir trois régions et les laisser respirer. C'est là qu'on le rencontre vraiment, dans une cuisine d'Oaxaca ou sous les arcades d'une hacienda du Yucatán.",
+          "Le Mexique gagne à être pris sans hâte. Plutôt que d'enchaîner pyramide, plage et baignade en quelques jours, je choisis trois régions et je les laisse respirer. On rencontre alors le pays, dans une cuisine d'Oaxaca ou une hacienda du Yucatán.",
         role: "Travel Designer · Mexique",
       },
       features: defaultSpotlightFeatures,
@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les cénotes du Yucatán",
-      heading: "Une baignade dans l'eau douce, au cœur de la forêt",
+      heading: "Se baigner dans un cénote",
       theme: "light",
       paragraphs: [
-        "Sous la forêt du Yucatán court une eau douce et claire, retenue par la roche. Là où la voûte s'est ouverte, elle apparaît au grand jour et forme un cénote. Les Mayas y voyaient un passage vers le monde des dieux et venaient y déposer des offrandes. On y descend aujourd'hui par une échelle de bois pour s'y baigner, dans une eau tiède toute l'année.",
-        "Les plus connus reçoivent beaucoup de monde. D'autres se cachent au fond d'une propriété, derrière une barrière que le propriétaire n'ouvre qu'à ceux qu'il connaît. Nous vous y conduisons au calme, avant que la chaleur ne monte.",
-        "La lumière tombe par l'ouverture et se pose au milieu de l'eau.",
+        "Sous la forêt du Yucatán s'étend un vaste réseau d'eau douce souterraine. Là où la roche s'est effondrée, cette eau apparaît à l'air libre et forme un cénote. Les Mayas y voyaient une porte vers le monde des dieux et y déposaient des offrandes.",
+        "On y descend aujourd'hui pour se baigner dans une eau d'une grande clarté. Les plus connus attirent beaucoup de monde, mais d'autres se cachent sur des propriétés privées. Nous vous y emmenons au calme, tôt le matin.",
       ],
       images: [
         {

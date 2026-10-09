@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "J'aime l'Italie pour ses habitants autant que pour ses monuments. Un vigneron qui ouvre une bouteille de votre année de naissance, un conservateur qui vous laisse seuls dans une salle : ce sont eux qui font le voyage. Mon travail consiste à vous asseoir à leur table.",
+          "J'aime l'Italie pour ses habitants autant que pour ses monuments. Un vigneron qui ouvre une bouteille de votre année de naissance, un conservateur qui vous laisse seuls dans une salle : ce sont eux qui font le voyage. Je vous fais asseoir à leur table.",
         role: "Travel Designer · Italie",
       },
       features: defaultSpotlightFeatures,
@@ -89,12 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "À table",
-      heading: "La table italienne change à chaque vallée",
+      heading: "Une cuisine propre à chaque région",
       theme: "light",
       paragraphs: [
-        "À Venise, le repas commence par les cicchetti, ces petites bouchées que l'on prend debout au comptoir avec un verre de vin blanc. En Toscane, tout s'organise autour de la bistecca fiorentina, saisie sur les braises et servie épaisse. Dans le Piémont, la pâte fine des tajarin reçoit la truffe blanche dès les premiers jours d'automne.",
-        "Ces recettes ne voyagent pas. Elles restent dans leur vallée, transmises dans les familles, et c'est pour cela qu'elles sont si bonnes sur place. Nous réservons les tables de village qui ne prennent pas de réservation en ligne, et nous organisons des déjeuners chez des vignerons du Chianti ou des Langhe, à leur propre table.",
-        "Le café se boit debout, et il se boit vite.",
+        "À Venise, le repas commence par les cicchetti, petites bouchées servies au comptoir avec un verre de vin blanc. En Toscane, la bistecca fiorentina est grillée sur les braises et servie épaisse. Dans le Piémont, les tajarin, des pâtes fines, se servent avec la truffe blanche à l'automne.",
+        "Ces recettes restent attachées à leur région et se transmettent dans les familles. Nous réservons des tables de village et organisons des déjeuners chez des vignerons du Chianti ou des Langhe, à leur table.",
       ],
       images: [
         {

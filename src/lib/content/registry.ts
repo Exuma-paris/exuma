@@ -193,6 +193,7 @@ import { experience as marcheBushmenSan } from "@/content/experiences/marche-bus
 import { experience as safariNocturneProjecteur } from "@/content/experiences/safari-nocturne-projecteur";
 import { experience as echappeeSkeletonCoast } from "@/content/experiences/echappee-skeleton-coast";
 import { experience as parcNamibNaukluft } from "@/content/experiences/parc-namib-naukluft";
+import { experience as ongavaPistageRhinoceros } from "@/content/experiences/ongava-pistage-rhinoceros";
 import { experience as sossusvleiDeadvlei } from "@/content/experiences/sossusvlei-deadvlei";
 import { experience as valleeRoisTombesFermees } from "@/content/experiences/vallee-rois-tombes-fermees";
 import { experience as montgolfiereNecropoleThebaine } from "@/content/experiences/montgolfiere-necropole-thebaine";
@@ -684,7 +685,7 @@ import { accommodation as amanbagh } from "@/content/accommodations/amanbagh";
 import { accommodation as tajMahalPalaceMumbai } from "@/content/accommodations/taj-mahal-palace-mumbai";
 import { accommodation as ahilyaFort } from "@/content/accommodations/ahilya-fort";
 import { accommodation as mnembaIslandLodge } from "@/content/accommodations/mnemba-island-lodge";
-import { accommodation as parkHyattZanzibar } from "@/content/accommodations/park-hyatt-zanzibar";
+import { accommodation as zuriZanzibar } from "@/content/accommodations/zuri-zanzibar";
 import { accommodation as zanzibarWhiteSand } from "@/content/accommodations/zanzibar-white-sand";
 
 import { collaborateur as aurore } from "@/content/collaborateurs/aurore";
@@ -994,6 +995,7 @@ export const experiences: Record<string, Experience> = toMap([
   observationEtoilesWadiRum,
   olduvaiPaleoanthropologue,
   parcNamibNaukluft,
+  ongavaPistageRhinoceros,
   pecheMoorea,
   pecheMoucheSkye,
   rizieresIfugao,
@@ -1147,7 +1149,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   tajMahalPalaceMumbai,
   ahilyaFort,
   mnembaIslandLodge,
-  parkHyattZanzibar,
+  zuriZanzibar,
   zanzibarWhiteSand,
   bamurruPlains,
   longitude131,

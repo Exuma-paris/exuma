@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Arabie Saoudite",
-      heading: "Deux royaumes ont disparu, leurs écritures sont restées",
+      heading: "En Arabie saoudite, deux royaumes ont disparu, leurs écritures sont restées",
       description:
         "À AlUla, une vallée de grès rouge traverse le désert du nord-ouest. Les Nabatéens y ont taillé cent onze tombeaux dans la falaise, signés par leurs sculpteurs. Avant eux, deux royaumes ont gravé leurs prières sur une paroi que l'on appelle aujourd'hui la bibliothèque à ciel ouvert. En bas, l'oasis de palmiers est encore cultivée.", // TODO: verify le nombre de tombeaux monumentaux de Hegra
       images: [
@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Le pays n'accueille des voyageurs que depuis 2019, et cela s'entend dans la façon dont on est reçu. On est encore une curiosité : on vous invite à vous asseoir, et le café à la cardamome se ressert jusqu'à ce que vous secouiez la tasse. À AlUla, je fais toujours entrer à Hegra en début de matinée, quand les tombeaux sont encore dans l'ombre et que le guide de la vallée a le temps de tout expliquer. C'est une destination que je conseille souvent à deux générations qui partent ensemble : chaque pierre s'y raconte, et les journées restent courtes.",
+          "L'Arabie saoudite n'accueille des voyageurs que depuis 2019, et on y est reçu avec curiosité, autour d'un café à la cardamome. À AlUla, j'organise l'entrée à Hegra tôt le matin, quand les tombeaux sont à l'ombre et que le guide a le temps de tout expliquer.",
         role: "Travel Designer · Arabie Saoudite",
       },
       features: defaultSpotlightFeatures,
@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Arabie Saoudite : ce que les pierres racontent",
-      heading: "Une écriture avant l'arabe",
+      heading: "Les inscriptions et les tombeaux d'AlUla",
       theme: "light",
       paragraphs: [
-        "À trois kilomètres de la vieille ville d'AlUla, une falaise porte des centaines d'inscriptions taillées à même le grès. C'est Jabal Ikmah. Les habitants des royaumes de Dadan puis de Lihyan y ont gravé leurs offrandes, leurs noms et leurs dettes, dans une écriture qui a disparu avec eux. L'UNESCO a inscrit l'ensemble au registre Mémoire du monde en 2023. On lit encore les lettres à l'œil nu, en fin de journée, quand la lumière rase la paroi.", // TODO: verify la date d'inscription au registre Mémoire du monde
-        "Les Nabatéens sont arrivés plus tard et ont travaillé autrement. À Hegra, ils ont taillé des façades de vingt mètres dans des blocs isolés, avec des frontons, des aigles et des escaliers qui ne montent nulle part. Certains tombeaux portent le nom du commanditaire et la date des travaux. Qasr al-Farid, resté inachevé, montre la méthode : on attaquait la roche par le haut. La marque du ciseau s'arrête à mi-hauteur.",
+        "Près de la vieille ville d'AlUla, la falaise de Jabal Ikmah porte des centaines d'inscriptions gravées dans le grès. Les habitants des royaumes de Dadan puis de Lihyan y ont laissé leurs noms et leurs offrandes, dans une écriture aujourd'hui disparue.",
+        "Plus tard, à Hegra, les Nabatéens ont taillé de grandes façades funéraires dans des blocs de roche isolés, ornées de frontons et d'aigles. Le tombeau de Qasr al-Farid, resté inachevé, montre que l'on creusait la pierre du haut vers le bas.",
       ],
       images: [
         {

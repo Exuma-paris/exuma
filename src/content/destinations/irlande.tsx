@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Irlande",
-      heading: "La lumière arrive de l'océan et tout s'éclaire",
+      heading: "En Irlande, la lumière arrive de l'océan et tout s'éclaire",
       description:
         "En Irlande, le vert n'a pas la même couleur qu'ailleurs : la lande, les prés, la mousse sur les murets de pierre. On marche dans les bois d'un château posé au bord d'un lac. Le soir, à Dingle, trois musiciens s'installent au fond du pub et jouent pour la salle.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "L'Irlande est le pays qui me surprend encore. On croit y aller pour les paysages, et ce sont les gens dont on parle en rentrant : on entre dans un pub pour un verre, quelqu'un se met à raconter, et la soirée est faite. Ma région préférée reste l'ouest, entre le Connemara et le Kerry, là où la pierre, l'eau et l'herbe se partagent tout. Et j'aime que le pays ne cherche jamais à impressionner : les plus belles maisons y sont des maisons de famille, et l'on y dîne comme chez des amis qui auraient un lac au fond du jardin.",
+          "En Irlande, on vient pour les paysages et l'on rentre en parlant des gens : on entre au pub pour un verre, quelqu'un se met à raconter, et la soirée est faite. Je préfère l'ouest, du Connemara au Kerry, où les belles adresses sont des maisons de famille.",
         role: "Travel Designer · Irlande",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Irlande : la côte et la table",
-      heading: "Ce que l'Atlantique dépose sur la table",
+      heading: "Huîtres, fromages et whiskey",
       theme: "light",
       paragraphs: [
-        "Dans la baie de Galway, les huîtres plates poussent encore dans des bancs sauvages : c'est la seule baie d'Irlande où on les ramasse ainsi. Le producteur ouvre la première sur place et la tend, sans citron. Elle a le goût de l'eau froide. La saison va de septembre à avril. Un peu plus au sud, les fermes font des fromages qu'elles affinent elles-mêmes, et le saumon se fume au bois de chêne.",
-        "Le whiskey, lui, se boit là où il se fait. À Midleton, la plus grande maison du pays, le maître-distillateur ouvre un chai que les visiteurs ne voient jamais. Il prélève dans un fût, sert, et raconte ce que le bois a fait au whiskey pendant vingt ans. On repart avec une bouteille tirée devant soi.",
+        "Dans la baie de Galway, les huîtres plates poussent encore dans des bancs sauvages, et le producteur ouvre la première sur place. La saison va de septembre à avril. Plus au sud, des fermes affinent leurs propres fromages et le saumon est fumé au bois de chêne.",
+        "Le whiskey se découvre là où il se fait. À Midleton, la plus grande distillerie du pays, le maître-distillateur ouvre un chai fermé au public, sert directement au fût et explique ce que le bois apporte au whiskey au fil des années.",
       ],
       images: [
         {

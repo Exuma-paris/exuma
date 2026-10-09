@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe au Panama",
-      heading: "Le pays où l'on change d'océan en une heure d'avion",
+      heading: "Le Panama, où l'on change d'océan en une heure d'avion",
       description:
         "Guna Yala aligne trois cent soixante-cinq îles sur la côte caraïbe, dont une cinquantaine seulement sont habitées. Coiba abrite le deuxième plus grand récif corallien du Pacifique oriental. Entre les deux, une capitale, sa vieille ville espagnole et le canal. Nous écrivons ces itinéraires étape par étape.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Tainà porte déjà le Costa Rica et la Colombie)
         // TODO: verify quote attribution — à faire valider par Tainà avant mise en ligne
         quote:
-          "Le Panama se lit côte par côte. Le Pacifique et la caraïbe n'ont pas la même saison sèche, pas les mêmes adresses, pas le même rapport au visiteur : un itinéraire qui ignore ce décalage manque la moitié du pays. Les lieux qui font le voyage se demandent un par un : aux communautés guna pour leurs îles, au parc national de Coiba pour la réserve marine, au propriétaire de la finca pour son café.",
+          "Au Panama, les côtes Pacifique et caraïbe n'ont pas la même saison sèche, et l'itinéraire en tient compte. Les plus beaux lieux se demandent un par un : aux communautés guna pour leurs îles, au parc national de Coiba, à un producteur pour sa finca de café.",
         role: "Travel Designer · Panama",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Panama : hauts plateaux et Pacifique",
-      heading: "Le café le matin à Boquete, l'océan l'après-midi",
+      heading: "Café à Boquete, océan à Chiriquí",
       theme: "light",
       paragraphs: [
-        "À Boquete, les caféiers poussent sur les pentes du Barú, dans un air qui reste frais toute l'année. C'est là que les fincas de Chiriquí ont fait connaître le geisha, une variété qui bat régulièrement les records de prix aux enchères mondiales. La dégustation se fait sur place, au milieu des rangs, avec ceux qui trient les cerises à la main. Sur le Sendero los Quetzales, le quetzal resplendissant s'observe une partie de l'année, autour des arbres à avocats sauvages.", // TODO: verify saison d'observation du quetzal sur le Sendero los Quetzales
-        "Une heure de route plus bas, le golfe de Chiriquí change tout. La mer y est chaude, les îles inhabitées, et l'archipel des Islas Secas ne compte qu'une seule île aménagée. À une heure de bateau, le parc national de Coiba, inscrit au patrimoine mondial depuis 2005, abrite un singe hurleur qui n'existe nulle part ailleurs. Le même jour peut commencer dans la brume des caféiers et finir masque sur le visage.",
+        "À Boquete, les caféiers poussent sur les pentes du volcan Barú, dans un climat frais toute l'année. Les fincas de la région ont fait connaître le geisha, une variété qui bat des records de prix aux enchères. On le déguste sur place, au milieu des plantations.",
+        "Plus bas, le golfe de Chiriquí offre une mer chaude et des îles presque désertes, comme l'archipel des Islas Secas. Au large, le parc national de Coiba, inscrit au patrimoine mondial depuis 2005, abrite un singe hurleur endémique.",
       ],
       images: [
         {

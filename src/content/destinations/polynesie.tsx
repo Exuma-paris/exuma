@@ -154,7 +154,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Il y a des voyages qu'on construit en quelques échanges parce que tout s'aligne vite. Et d'autres où il faut une heure de conversation pour comprendre ce que la personne cherche vraiment, pas ce qu'elle demande. La Polynésie, c'est souvent le deuxième cas. Et c'est là que le voyage devient intéressant.",
+          "En Polynésie, il faut souvent une heure de conversation pour comprendre ce que la personne cherche vraiment, au-delà de ce qu'elle demande. C'est à partir de là que je choisis les îles et les adresses, maisons ou lodges familiaux, qui feront tout le voyage.",
         role: "Travel Designer · Polynésie française",
       },
       features: [
@@ -204,12 +204,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les étoiles du Pacifique, Bora Bora",
-      heading: "Le soir où le ciel change de sens",
+      heading: "Les étoiles de Bora Bora",
       theme: "light",
       paragraphs: [
-        "Le bateau quitte Bora Bora au moment précis où le ciel commence à changer de couleur. Pas au coucher du soleil officiel. Avant. Quand le bleu se teinte d'orange sur le bord et que le lagon prend la couleur qu'il ne montrera jamais en plein jour.",
-        "Le guide parle peu pendant la traversée. Il montre. La main tendue vers les étoiles qui apparaissent une à une, il explique comment les navigateurs polynésiens lisaient le ciel avant que les cartes n'existent. Tupaia, le navigateur qui accompagna Cook en 1769, connaissait de mémoire la position de soixante-quatorze îles dans l'ensemble du Pacifique. Il les cartographiait par les étoiles. Le guide tend la main vers Arcturus. C'est celle-là qu'on suivait pour revenir de Tahiti.",
-        "On accoste sur le motu à la nuit tombée. Il n'y a aucune lumière artificielle visible depuis la plage. Le ciel en Polynésie, loin des côtes, n'est pas le même ciel qu'ailleurs. Les enfants s'allongent dans le sable. Les adultes aussi.",
+        "À Bora Bora, une sortie en bateau part juste avant le coucher du soleil, quand le lagon prend ses couleurs du soir. Pendant la traversée, le guide montre les étoiles et explique comment les navigateurs polynésiens se repéraient dans le ciel, bien avant les cartes.",
+        "Tupaia, qui accompagna James Cook en 1769, connaissait ainsi la position de dizaines d'îles du Pacifique. La soirée se termine sur un motu sans aucun éclairage, où l'on observe le ciel allongé sur le sable.",
       ],
       images: [
         {

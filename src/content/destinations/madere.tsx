@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à Madère",
-      heading: "L'île aux chemins d'eau",
+      heading: "Madère, l'île aux chemins d'eau",
       description:
         "Traversez l'île du sud au nord. Funchal d'abord, ses jardins et ses caves à vin. Puis le sable noir et les piscines de lave que l'Atlantique remplit à chaque marée. Entre les deux, des sommets que la brume ne quitte qu'en milieu de matinée.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Madère surprend toujours. On vient pour la douceur du climat, on repart avec le souvenir d'un matin dans la brume, d'un sentier au-dessus des nuages, d'une table dressée au milieu des vignes. Mon travail consiste à placer ces moments au bon endroit, au bon moment.",
+          "Madère surprend toujours. On vient pour la douceur du climat, on repart avec le souvenir d'un matin dans la brume, d'un sentier au-dessus des nuages, d'une table dressée au milieu des vignes. Mon travail consiste à placer ces moments au bon endroit du séjour.",
         role: "Travel Designer · Madère",
       },
       features: defaultSpotlightFeatures,
@@ -89,12 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les levadas",
-      heading: "Des chemins d'eau qui traversent toute l'île",
+      heading: "Marcher le long des levadas",
       theme: "light",
       paragraphs: [
-        "Les levadas sont nées d'un besoin simple : conduire l'eau des montagnes du nord vers les cultures du sud. Cinq siècles plus tard, elles dessinent les plus belles promenades de l'île. On marche à plat, au bord de l'eau, dans une forêt qui n'a pas changé.",
-        "Celle du Caldeirão Verde part de Queimadas, sous des hêtres couverts de mousse. Le chemin file entre les fougères, traverse quelques tunnels, puis s'ouvre sur une cascade qui tombe dans un cirque fermé. Trois heures de marche, le bruit de l'eau à côté du pied.",
-        "On y croise plus de fougères que de marcheurs.",
+        "Les levadas sont des canaux construits pour conduire l'eau des montagnes du nord vers les cultures du sud de Madère. Cinq siècles plus tard, elles offrent les plus belles promenades de l'île : on marche presque à plat, au bord de l'eau, à travers la forêt.",
+        "La levada du Caldeirão Verde part de Queimadas, sous des arbres couverts de mousse. Le chemin passe entre les fougères et par quelques tunnels, puis aboutit à une cascade qui tombe dans un cirque. Comptez environ trois heures de marche.",
       ],
       images: [
         {

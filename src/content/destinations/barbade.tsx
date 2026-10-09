@@ -31,7 +31,7 @@ export const destination: Destination = {
       type: "hero",
       eyebrow: "Voyage de luxe à la Barbade",
       heading:
-        "Une île qui tourne le dos à l'Atlantique pour regarder les Caraïbes",
+        "La Barbade, une île qui tourne le dos à l'Atlantique pour regarder les Caraïbes",
       description:
         "À l'est, l'Atlantique frappe les falaises de corail de Bathsheba sans relâche. À l'ouest, à peine trente kilomètres plus loin, la Platinum Coast s'étend sur une mer plate, à peine ridée par le passage des voiliers. Bridgetown et sa Garrison historique, classées à l'UNESCO en 2011, occupent l'angle sud entre les deux. Nous construisons chaque itinéraire à partir de ce contraste, pas en dépit de lui.",
       images: [
@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "La Barbade, hors des paquebots de Bridgetown",
-      heading: "Le matin où Holetown appartient encore aux pêcheurs",
+      heading: "Holetown et Speightstown, côte ouest",
       theme: "light",
       paragraphs: [
-        "Les paquebots accostent à Bridgetown avant huit heures et repartent au coucher du soleil. Plus haut sur la côte, à Holetown, les pêcheurs sortent leurs barques colorées avant le lever du jour, remontent le mahi-mahi et le vivaneau, et vendent directement sur le sable avant que les premiers baigneurs n'arrivent. Le nom du village rappelle le premier point de débarquement anglais sur l'île, en 1627.",
-        "Speightstown, plus au nord, garde ses façades de bois colonial et son marché du samedi sans jamais figurer sur l'itinéraire des croisières. Le silence qui suit le départ des paquebots n'est pas un silence vide. C'est celui d'une île qui reprend son rythme.",
+        "Sur la côte ouest de la Barbade, loin des paquebots qui accostent à Bridgetown, Holetown commence sa journée avec les pêcheurs. Ils sortent leurs barques colorées avant l'aube et vendent mahi-mahi et vivaneau directement sur la plage. C'est ici que les Anglais ont débarqué pour la première fois sur l'île, en 1627.",
+        "Plus au nord, Speightstown a gardé ses façades coloniales en bois et son marché du samedi. Absente des itinéraires de croisière, la ville montre la Barbade au rythme de ses habitants.",
       ],
       images: [
         {

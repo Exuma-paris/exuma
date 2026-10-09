@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Suède",
-      heading: "Trente mille îles au sud, la nuit polaire au nord",
+      heading: "La Suède, trente mille îles au sud et la nuit polaire au nord",
       description:
         "L'archipel de Stockholm compte environ trente mille îles, îlots et rochers, entre lesquels on navigue plutôt que l'on ne circule. Mille kilomètres plus au nord, au-delà du cercle polaire, la Laponie suédoise bascule en hiver dans une nuit qui dure plusieurs semaines. Ce sont deux Suède, reliées par un seul vol intérieur.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "La Suède n'est pas un pays qui se visite d'un bloc. L'archipel de Stockholm se découvre en bateau, l'été, quand les jours ne finissent presque pas. La Laponie se découvre en hiver, en traîneau, quand la nuit ne finit pas non plus. Je commence toujours par vous demander laquelle des deux vous appelle, avant de construire l'itinéraire.",
+          "La Suède ne se visite pas d'un bloc. L'archipel de Stockholm se découvre en bateau, l'été, quand les jours ne finissent presque pas. La Laponie se découvre en hiver, en traîneau. Je commence toujours par vous demander laquelle des deux vous attire.",
         role: "Travel Designer · Suède",
       },
       features: [
@@ -108,11 +108,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Gotland",
-      heading: "Une île calcaire au milieu de la Baltique",
+      heading: "Gotland, une île calcaire de la Baltique",
       theme: "light",
       paragraphs: [
-        "Gotland se trouve à quatre-vingt-dix kilomètres des côtes suédoises, au milieu de la mer Baltique. Visby, sa capitale, a conservé son enceinte fortifiée du treizième siècle et figure au patrimoine mondial de l'UNESCO depuis 1995. Plus au nord, l'île de Fårö attire depuis les années 1960 les amateurs de cinéma : le réalisateur Ingmar Bergman y a vécu et tourné une partie de son œuvre, entre les rochers de calcaire appelés raukar, façonnés par la mer depuis la dernière glaciation.",
-        "Sur la péninsule de Furillen, au nord-est de l'île, une ancienne carrière de calcaire a fermé dans les années 1970. Il ne reste qu'un phare, une usine désaffectée et un paysage minéral presque sans arbres. Ce sont ces terrains délaissés que quelques photographes et hôteliers ont commencé à réinvestir, sans jamais chercher à en corriger l'aspect brut.",
+        "Gotland se trouve à environ quatre-vingt-dix kilomètres des côtes suédoises. Sa capitale, Visby, a gardé son enceinte du treizième siècle et est inscrite au patrimoine mondial de l'UNESCO. Au nord, l'île de Fårö, où vécut Ingmar Bergman, est connue pour ses raukar, des piliers de calcaire sculptés par la mer.",
+        "Au nord-est, la péninsule de Furillen est une ancienne carrière de calcaire : un phare, une usine désaffectée et un paysage minéral presque sans arbres, aujourd'hui réinvesti par quelques photographes et hôteliers.",
       ],
       images: [
         {

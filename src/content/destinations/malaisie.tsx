@@ -27,7 +27,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Malaisie",
-      heading: "Le pays où la forêt a cent trente millions d'années",
+      heading: "La Malaisie, où la forêt a cent trente millions d'années",
       description:
         "Les forêts de Bornéo comptent parmi les plus anciennes de la planète, plus vieilles que l'Amazonie. Quatre-vingt-dix-neuf îles composent l'archipel de Langkawi, à l'autre bout du pays. Entre les deux, Kuala Lumpur et George Town rappellent que la Malaisie s'est construite au carrefour de trois cultures.",
       images: [
@@ -55,7 +55,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La Malaisie surprend toujours ceux qui pensent la connaître par la Thaïlande ou le Vietnam voisins. On quitte Kuala Lumpur un matin, et le soir même on remonte la rivière Kinabatangan de nuit, lampe torche à la main, à la recherche des yeux rouges des crocodiles sur la berge. C'est un pays de contrastes nets : une capitale qui rivalise avec Singapour, et à quelques heures d'avion, une des dernières forêts primaires d'Asie où l'on croise encore l'orang-outan en liberté.",
+          "La Malaisie surprend ceux qui la connaissent par la Thaïlande ou le Vietnam. On quitte Kuala Lumpur, capitale très moderne, puis on remonte la Kinabatangan à la lampe torche, à Bornéo, dans l'une des dernières forêts primaires d'Asie, où vit l'orang-outan.",
         role: "Travel Designer · Malaisie",
       },
       features: defaultSpotlightFeatures,
@@ -86,11 +86,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Malaisie, le parc de Kilim",
-      heading: "Ce que l'on gagne à pagayer avant l'aube",
+      heading: "Les mangroves de Kilim en kayak",
       theme: "light",
       paragraphs: [
-        "Le kayak part d'un ponton discret sur la côte est de Langkawi, avant sept heures. Le parc géologique de Kilim, réserve de mangroves classée en 2007, se referme rapidement en un tunnel de racines et de calcaire noirci par les marées. À cette heure, les pygargues à ventre blanc chassent encore bas au-dessus de l'eau : c'est le rapace qui a donné son nom à l'île, Langkawi signifiant approximativement « aigle rougeâtre » en malais ancien.",
-        "Les excursions collectives quittent la jetée principale vers dix heures, en bateau à moteur, quand la chaleur a déjà fait remonter les aigles en altitude. Un guide privé part plus tôt, en kayak silencieux, et entre dans les grottes de calcaire à marée basse. On y croise des varans suspendus aux racines des palétuviers, et le silence n'est interrompu que par le bruit de la pagaie.",
+        "Sur la côte est de Langkawi, le parc géologique de Kilim mêle mangroves et falaises calcaires. On l'explore en kayak au petit matin, quand les pygargues à ventre blanc chassent encore au ras de l'eau. Ce rapace aurait donné son nom à l'île.",
+        "Les excursions en bateau à moteur partent vers dix heures, quand la chaleur s'installe. Avec un guide privé, on part plus tôt et en silence, pour entrer dans les grottes calcaires à marée basse et observer les varans dans les racines des palétuviers.",
       ],
       images: [
         {

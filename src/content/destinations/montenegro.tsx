@@ -31,7 +31,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe au Monténégro",
-      heading: "Là où l'Adriatique se referme sur elle-même",
+      heading: "Le Monténégro, où l'Adriatique s'enfonce dans la baie de Kotor",
       // TODO: verify bay length and canyon depth
       description:
         "Les Bouches de Kotor s'enfoncent sur 28 kilomètres entre les Alpes dinariques, jusqu'à un village-hôtel qui n'existe qu'au bout d'une jetée. Plus au nord, le canyon de la Tara creuse 1 300 mètres sous le plateau du Durmitor. Un seul pays, deux échelles qui ne se répondent jamais.",
@@ -61,7 +61,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Si je devais vous conseiller une chose au Monténégro, ce serait de ne pas chercher à tout voir trop vite. La baie de Kotor peut se découvrir en une journée, mais je vous recommande de lui consacrer davantage de temps : prendre la route, s'arrêter dans un village, déjeuner face à la baie, puis poursuivre jusqu'aux montagnes. C'est en prenant ce rythme que le Monténégro révèle toute sa beauté.",
+          "Au Monténégro, je conseille de ne pas aller trop vite. La baie de Kotor se visite en une journée, mais elle mérite plus : prendre la route, s'arrêter dans un village, déjeuner face à la baie, puis monter vers les montagnes. C'est là que le pays se révèle.",
       },
       features: defaultSpotlightFeatures,
     },
@@ -91,11 +91,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Monténégro, le luxe et l'exclusif",
-      heading: "Une baie fermée, une poignée d'adresses qui la comprennent",
+      heading: "Les grandes adresses du Monténégro",
       theme: "light",
       paragraphs: [
-        "Notre sélection s'ouvre sur un Monténégro que la plupart des visiteurs de Kotor ne voient jamais. Un village de pêcheurs du XVe siècle reconstruit îlot par îlot, accessible uniquement en golfette. Une marina de superyachts où l'on descend du bateau directement dans le hall de l'hôtel. Des propriétés qui se comptent sur les doigts d'une main, et qui suffisent à couvrir l'ensemble de la baie.",
-        "À terre, le pays se raconte par ses artisans. Un vigneron de la Crmnica sort son vranac sur les rives du lac de Skadar. Un producteur de Njeguši affine son prosciutto et son fromage de brebis dans une cave ouverte aux courants d'air de la montagne, une technique inchangée depuis des générations. Ces rencontres, plus que les plages, sont ce qui reste d'un voyage au Monténégro.",
+        "Notre sélection montre un Monténégro que la plupart des visiteurs de Kotor ne voient pas : un village de pêcheurs du XVe siècle devenu hôtel, accessible seulement en voiturette, ou une marina de superyachts où l'on passe du bateau à l'hôtel.",
+        "Dans l'arrière-pays, on rencontre les artisans : un vigneron de Crmnica qui produit le vranac près du lac de Skadar, ou un producteur de Njeguši qui affine jambon et fromage de brebis selon une méthode traditionnelle.",
       ],
       images: [
         {

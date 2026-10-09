@@ -64,7 +64,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Le Kenya, c'est l'un des rares pays où un même voyage peut commencer dans une concession privée du Masaï Mara, sans un autre camp visible à l'horizon, et se terminer sur une plage de l'océan Indien en moins d'une heure de vol domestique. Ce que nous construisons ici, c'est cette continuité. Pas une juxtaposition de destinations.",
+          "Au Kenya, un même voyage peut commencer dans une concession privée du Masaï Mara, sans autre camp visible à l'horizon, et se terminer sur une plage de l'océan Indien. Un vol intérieur relie la savane à la mer, et je construis le voyage sur cette continuité.",
         role: "Travel Designer · Kenya",
       },
       features: defaultSpotlightFeatures,
@@ -95,11 +95,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Kenya : Safari en concession privée",
-      heading: "Le matin où la savane change de registre",
+      heading: "Safari dans une concession privée",
       theme: "light",
       paragraphs: [
-        "Le 4x4 quitte le camp avant l'aube. Il n'y a pas d'autres véhicules dans la concession privée Oare Orok à cette heure. La savane n'est pas encore allumée. Les lions quittent leurs positions nocturnes, les éléphants reviennent vers le point d'eau. Le guide coupe le moteur.",
-        "La différence entre une concession privée et le parc national se lit ici. Dans le parc, une piste délimite ce que les véhicules peuvent faire. Dans la concession, le guide sort du 4x4, lit le sol, suit un animal à pied. Ce n'est pas une option supplémentaire. C'est une façon différente de comprendre ce qu'est la savane.",
+        "Le 4x4 quitte le camp avant l'aube, dans une concession privée où l'on ne croise aucun autre véhicule. À cette heure, les lions quittent leurs positions de la nuit et les éléphants reviennent vers le point d'eau.",
+        "Dans le parc national, les véhicules doivent rester sur les pistes. La concession privée offre bien plus de liberté : le guide peut descendre du 4x4, lire les traces au sol et suivre un animal à pied, pour une approche plus proche de la savane.",
       ],
       images: [
         {

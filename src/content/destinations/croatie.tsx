@@ -27,7 +27,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Croatie",
-      heading: "Un archipel de mille îles, une poignée qui se laissent approcher",
+      heading: "La Croatie, mille îles dont une poignée se laissent approcher",
       // TODO: verify island count
       description:
         "Mille deux cent quarante-quatre îles bordent la côte dalmate ; une cinquantaine sont habitées. Entre elles, Dubrovnik referme ses remparts sur l'Adriatique, Split vit encore à l'intérieur du palais que l'empereur Dioclétien s'était fait construire pour sa retraite, et les Kornati n'existent que pour les voiliers qui savent où mouiller. La Croatie ne se traverse pas. Elle se navigue.",
@@ -56,7 +56,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La Croatie se lit par la mer, pas par la route. Un voilier avec skipper change complètement la façon dont on découvre la côte dalmate : les Kornati, invisibles depuis la terre, deviennent le cœur du voyage plutôt qu'une excursion d'une journée. Je construis toujours l'itinéraire autour d'une base fixe, Dubrovnik ou Split, et je laisse la météo du jour décider du mouillage.",
+          "En Croatie, je conseille de découvrir la côte dalmate par la mer. En voilier avec skipper, les îles Kornati deviennent le cœur du voyage, et non une simple excursion à la journée. On part d'un port fixe, et c'est la météo du jour qui décide du mouillage.",
       },
       features: defaultSpotlightFeatures,
     },
@@ -86,11 +86,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Croatie, le luxe et l'exclusif",
-      heading: "Une côte qui se lit autrement, une poignée d'adresses qui la comprennent",
+      heading: "La Dalmatie loin des foules",
       theme: "light",
       paragraphs: [
-        "Notre sélection s'ouvre sur une Croatie que la plupart des visiteurs de Dubrovnik ne voient jamais. Un voilier avec skipper qui remonte la côte dalmate mouillage après mouillage, loin des ferries. Une villa nichée dans les collines de Konavle, à dix minutes des remparts mais hors de portée des foules du Stradun. Des propriétés qui se comptent sur les doigts d'une main, et qui suffisent à couvrir toute la Dalmatie.",
-        "À terre, le pays se raconte par ses artisans. Un vigneron du Pelješac descend dans sa cave creusée à même la roche du Dingač pour faire goûter trois millésimes de plavac mali côte à côte. Un trabucante d'Istrie remonte la piste de sa truffière sous les chênes de Motovun, chien en tête. Ces rencontres, plus que les plages, sont ce qui reste d'un voyage en Croatie.",
+        "Loin de l'affluence de Dubrovnik, on découvre la côte dalmate en voilier avec skipper, de mouillage en mouillage, ou depuis une villa dans les collines de Konavle, à dix minutes des remparts mais à l'écart des foules du Stradun.",
+        "À terre, la Croatie se découvre aussi par ses artisans. Sur la presqu'île de Pelješac, un vigneron fait goûter son plavac mali dans une cave creusée dans la roche du Dingač. En Istrie, près de Motovun, un chercheur de truffes part en forêt avec son chien.",
       ],
       images: [
         {

@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime en Uruguay, c'est cette façon qu'a le pays de ne rien précipiter. Le feu de midi rassemble la maison, le mate passe de main en main, et l'on finit par adopter ce rythme sans même y penser. Je veille surtout à ce que les plus belles adresses vous soient ouvertes en dehors des heures, comme si vous étiez reçus chez des amis.",
+          "Ce que j'aime en Uruguay, c'est que rien n'y est précipité. Le feu de midi rassemble la maison, le mate passe de main en main, et l'on adopte ce rythme sans y penser. Je fais en sorte que les plus belles adresses vous reçoivent comme chez des amis.",
         role: "Travel Designer · Uruguay",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Uruguay : la côte de Rocha",
-      heading: "La côte de Rocha, quand l'été s'attarde en mars",
+      heading: "La côte de Rocha, hors saison",
       theme: "light",
       paragraphs: [
-        "En janvier, la côte appartient aux familles argentines qui descendent en vacances, et l'ambiance y est joyeuse. En mars, tout se calme. L'eau reste chaude jusqu'à la fin du mois, les barques des pêcheurs rentrent dans la matinée, et les villages redeviennent eux-mêmes. C'est la période que nous préférons.",
-        "Plus à l'est, la côte de Rocha se parcourt entre les dunes et les lagunes classées par l'Unesco. La Pedrera, Punta del Diablo et Aguas Dulces s'atteignent par des chemins de sable, au bout desquels on ne trouve que le bruit de l'océan. À Cabo Polonio, l'électricité n'est jamais arrivée, et personne là-bas ne s'en plaint.",
+        "En janvier, la côte uruguayenne accueille de nombreuses familles argentines en vacances. En mars, l'ambiance se fait plus calme : l'eau reste agréable, les pêcheurs rentrent au port dans la matinée et les villages retrouvent leur rythme.",
+        "Plus à l'est, la côte de Rocha alterne dunes et lagunes classées par l'Unesco. On rejoint La Pedrera, Punta del Diablo ou Aguas Dulces par des chemins de sable. À Cabo Polonio, le village n'a jamais été raccordé au réseau électrique.",
       ],
       images: [
         {

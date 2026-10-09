@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Les Émirats se révèlent quand on prend le temps de les regarder autrement. Une réserve de désert où seuls les hôtes entrent, un musée que l'on traverse avant l'arrivée du public, un fauconnier qui vous reçoit chez lui. Ce sont ces portes-là que nous ouvrons, et elles font tout le voyage.",
+          "Aux Émirats, le voyage change quand on sort des circuits habituels : une réserve de désert réservée aux hôtes, un musée visité avant l'arrivée du public, un fauconnier qui vous reçoit chez lui. Ce sont ces accès privilégiés que j'organise pour vous.",
         role: "Travel Designer · Émirats arabes unis",
       },
       features: defaultSpotlightFeatures,
@@ -90,12 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Sharjah, l'émirat des perliers",
-      heading: "Sharjah, l'émirat où le temps ralentit",
+      heading: "Le vieux Sharjah",
       theme: "light",
       paragraphs: [
-        "À Sharjah, les maisons des marchands de perles ont été relevées une à une, dans la pierre de corail et le plâtre de chaux d'autrefois. Elles s'ouvrent sur des cours plantées, où l'ombre et un filet d'air suffisent à rafraîchir la journée. Les tours à vent qui coiffent les toits captent la brise et la font descendre dans les pièces, comme elles le faisaient bien avant le pétrole.",
-        "L'émirat a conservé ses ateliers d'orfèvres et ses portes en teck rapportées d'Inde. Le musée de la civilisation islamique occupe un ancien marché couvert d'un dôme doré, et l'on y déambule dans un silence de bibliothèque. Le soir, le quartier du Cœur de Sharjah se remplit d'odeurs de cardamome et de pain chaud.",
-        "On en repart avec le sentiment d'avoir vu le pays d'avant.",
+        "À Sharjah, les anciennes maisons des marchands de perles ont été restaurées en pierre de corail et en plâtre de chaux. Elles s'ouvrent sur des cours ombragées, et leurs tours à vent captent la brise pour rafraîchir les pièces, comme avant l'ère du pétrole.",
+        "L'émirat a conservé ses ateliers d'orfèvres et ses portes en teck venues d'Inde. Le musée de la civilisation islamique occupe un ancien marché coiffé d'un dôme doré. Le soir, le quartier du Cœur de Sharjah sent la cardamome et le pain chaud.",
       ],
       images: [
         {

@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à Antigua",
-      heading: "Trois cent soixante-cinq plages, une par jour, jamais la même",
+      heading: "Antigua, une plage pour chaque jour de l'année",
       description:
         "L'île compte deux cent quatre-vingts kilomètres carrés et une plage pour chaque jour de l'année, un chiffre que les habitants citent avant même le nom d'English Harbour. Au large, Barbuda garde ses dix-sept kilomètres de sable rose pour trois fois moins de monde qu'Antigua. Entre les deux, une heure de bateau et un changement de rythme complet.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Antigua se prête à un jeu simple : on choisit une baie et on ne la quitte plus, ou on prend le bateau pour Barbuda et on change complètement de décor. Je construis toujours les deux temps dans le même voyage, parce qu'ils ne racontent pas la même île. Et je réserve la traversée avant l'hôtel, jamais l'inverse.",
+          "Antigua se vit en deux temps. On choisit une baie pour se poser quelques jours, puis on prend le bateau pour Barbuda et on change complètement de décor. Je prévois toujours les deux dans le même voyage, et je réserve la traversée avant l'hôtel.",
         role: "Travel Designer · Antigua",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Antigua, hors des mouillages de croisière",
-      heading: "Une baie pour soi, à une heure de la marina la plus animée",
+      heading: "Les baies tranquilles d'Antigua",
       theme: "light",
       paragraphs: [
-        "Les paquebots s'arrêtent à St. John's, déposent leurs passagers pour la journée et repartent au coucher du soleil. Le reste de l'île continue son rythme sans eux : une villa sur Galley Bay, une crique sans nom sur la côte nord, un ponton privé sur Nonsuch Bay où le bateau attend, moteur coupé.",
-        "Jumby Bay occupe sa propre île, à cinq minutes de navette du continent et sans une seule voiture. Hermitage Bay, sur la côte ouest, s'étend sur des cottages disséminés dans la colline, sans réception visible depuis la plage. Ce n'est pas un supplément d'options. C'est une autre manière d'occuper l'espace.",
+        "Les paquebots font escale à St. John's pour la journée, mais le reste de l'île garde un rythme paisible. On séjourne dans une villa sur Galley Bay, on rejoint en bateau une crique de la côte nord ou un ponton privé sur Nonsuch Bay, sur la côte est.",
+        "Jumby Bay occupe sa propre île, sans voitures, que l'on parcourt à vélo, à cinq minutes de navette d'Antigua. Sur la côte ouest, Hermitage Bay disperse ses cottages à flanc de colline, au-dessus d'une plage préservée.",
       ],
       images: [
         {

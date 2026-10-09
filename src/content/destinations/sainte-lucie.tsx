@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Sainte-Lucie ne ressemble pas à l'idée qu'on se fait des Antilles. Mes voyageurs partent pour la mer et me rappellent au retour en me parlant de la forêt, des sources chaudes et du guide qui les a emmenés au Gros Piton avant le jour. Je garde toujours une matinée dans la montagne et l'après-midi dans l'eau, parce que c'est là que l'île est la plus belle.",
+          "Sainte-Lucie ne ressemble pas à l'idée qu'on se fait des Antilles. Mes voyageurs partent pour la mer et me parlent au retour de la forêt, des sources chaudes et de la montée au Gros Piton avant le jour. Je prévois toujours une matinée en montagne.",
         role: "Travel Designer · Sainte-Lucie",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "La forêt et les sources chaudes",
-      heading: "Les matins où l'on monte vers la forêt de Soufrière",
+      heading: "La forêt et les sources de Soufrière",
       theme: "light",
       paragraphs: [
-        "La forêt commence là où les jardins finissent, et il suffit de monter un peu au-dessus de Soufrière pour y entrer. Les cacaoyers poussent à l'ombre des grands arbres, les colibris passent d'une fleur à l'autre, et l'on entend l'eau bien avant de voir la cascade. Les sources chaudes qui sortent au pied du volcan sentent le soufre et fument dans la lumière du matin.",
-        "On redescend en fin de matinée, la peau encore tiède, pour déjeuner face à la mer et passer l'après-midi dans l'eau. Et le soir, quand la pluie se met à tomber sur les feuilles pendant qu'on est encore à table, on comprend pourquoi les voyageurs quittent cette île à regret.",
+        "Au-dessus de Soufrière, la forêt tropicale commence là où s'arrêtent les jardins. Les cacaoyers poussent à l'ombre des grands arbres, les colibris passent de fleur en fleur, et un sentier mène jusqu'à une cascade que l'on entend bien avant de la voir.",
+        "Au pied du volcan, des sources chaudes chargées de soufre jaillissent de terre, et l'on peut s'y baigner. On redescend en fin de matinée pour déjeuner face à la mer, puis profiter de la plage l'après-midi.",
       ],
       images: [
         {

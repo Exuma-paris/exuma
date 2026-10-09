@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Afrique du Sud",
-      heading: "Trois heures de route, et le pays a changé de climat",
+      heading: "En Afrique du Sud, trois heures de route suffisent pour changer de climat",
       description:
         "L'Afrique du Sud tient dans un seul voyage ce que d'autres pays répartissent sur trois. Une ville posée entre une montagne et deux océans. Des massifs de grès couverts de peintures vieilles de plusieurs milliers d'années. Des réserves privées sans clôture avec le parc Kruger. On passe de l'une à l'autre en quelques heures.",
       images: [
@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "La plupart des voyageurs m'appellent pour un safari. L'Afrique du Sud en propose d'excellents, mais ce n'est pas ce qui la rend intéressante. Ce qui la rend intéressante, c'est de pouvoir enchaîner en treize à quinze jours une ville de bord de mer, une montagne couverte de peintures rupestres et une réserve sans clôture. Je construis presque toujours dans le même ordre. Le Cap au début, parce qu'on y récupère du vol de nuit sans rien manquer. Le Cederberg ensuite, à quelques heures de route vers le nord, pour l'art rupestre et le silence. Le bush à la fin, parce qu'on quitte plus facilement un lodge qu'une ville. La seule étape que je refuse de raccourcir, c'est le Cederberg. Il faut y rester trois nuits pour voir plus d'un site peint.",
+          "En deux semaines, on enchaîne Le Cap au bord de l'océan, les peintures rupestres et le silence du Cederberg, puis une réserve sans clôture. Je commence par Le Cap pour récupérer du vol de nuit, et je garde le safari pour la fin du voyage.",
         role: "Travel Designer · Afrique du Sud",
       },
       features: defaultSpotlightFeatures,
@@ -91,14 +91,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Afrique du Sud : la montagne et la vigne",
-      heading: "Ce que le fynbos a laissé pousser à côté de lui",
+      heading: "Le fynbos et les vignobles du Cap",
       theme: "light",
       paragraphs: [
-        "Autour du Cap pousse une végétation qu'on ne trouve nulle part ailleurs. Elle porte un nom afrikaans, le fynbos, qui signifie « fin buisson ». C'est un maquis de plantes basses, dures, adaptées au vent et aux incendies réguliers.",
-        "La région du Cap forme à elle seule l'un des six royaumes floraux de la planète, et de très loin le plus petit. On y recense environ 9 000 espèces de plantes, dont les deux tiers ne poussent nulle part ailleurs dans le monde. L'ensemble est classé au patrimoine mondial de l'UNESCO depuis 2004.", // TODO: verify nombre d'espèces, part d'endémiques et date de classement
-        "La vigne, elle, est arrivée par bateau. Les premiers plants sont plantés au Cap en 1655 par les Hollandais. Trente ans plus tard, le domaine de Constantia produit un vin liquoreux que l'Europe s'arrache pendant deux siècles.", // TODO: verify dates de 1655 et de la fondation de Constantia
-        "Franschhoek doit son nom et ses vignes à un autre groupe. Des huguenots français, chassés de France après 1685, s'y installent et y apportent leur savoir-faire. Le nom de la vallée signifie littéralement « le coin des Français ».",
-        "Aujourd'hui, les vignobles de Stellenbosch et de Franschhoek se visitent en une journée depuis Le Cap. Les domaines se trouvent à moins de quarante minutes les uns des autres.",
+        "Autour du Cap pousse le fynbos, un maquis de plantes basses et coriaces, adaptées au vent et aux incendies. Cette végétation, qu'on ne trouve nulle part ailleurs, fait de la région l'un des six royaumes floraux de la planète, et de loin le plus petit.",
+        "La vigne est arrivée avec les Hollandais au XVIIe siècle, puis avec les huguenots français, qui ont donné son nom à Franschhoek, « le coin des Français ». Les domaines de Stellenbosch et de Franschhoek se visitent en une journée depuis Le Cap.",
       ],
       images: [
         {

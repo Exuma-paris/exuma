@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime à Hawaï, c'est que l'archipel ne se laisse jamais résumer à une seule île. On croit partir pour des plages, et l'on rentre en parlant d'un sommet glacé au-dessus des nuages, d'une vallée où une famille vous a reçus, d'un ranch où l'on monte à cheval comme il y a un siècle. Ces contrastes ne s'improvisent pas sur place : tout mon travail consiste à les mettre dans le bon ordre, pour que chaque île vous surprenne à son tour.",
+          "À Hawaï, chaque île offre une expérience différente. On part pour les plages, et l'on rentre en parlant d'un sommet au-dessus des nuages, d'une famille qui vous a reçus dans sa vallée, d'un ranch où l'on monte à cheval. J'enchaîne les îles dans le bon ordre.",
         role: "Travel Designer · Hawaï",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Hawaï : la navigation hawaïenne",
-      heading: "La pirogue Hokulea et l'art de naviguer aux étoiles",
+      heading: "Hokulea, naviguer aux étoiles",
       theme: "light",
       paragraphs: [
-        "La pirogue Hokulea a été construite pour prouver une chose : les ancêtres hawaïens savaient traverser le Pacifique sans le moindre instrument. Elle a rallié Tahiti sans compas, sans carte et sans montre, guidée par un navigateur venu de Micronésie qui lisait la houle sous la coque, les étoiles à leur lever et le vol des oiseaux au crépuscule. Quand elle est entrée dans la passe de Papeete, la moitié de l'île l'attendait sur le quai.",
-        "Ce voyage a réveillé toute une culture. La langue hawaïenne, effacée des écoles pendant près d'un siècle, est redevenue officielle et s'apprend aujourd'hui dès la maternelle. Le hula a retrouvé ses chants anciens et se danse à Hilo devant des salles pleines. Nous vous ouvrons les portes de ce renouveau, auprès de ceux qui le font vivre.",
+        "La pirogue Hokulea a relié Hawaï à Tahiti sans compas ni carte, guidée par un navigateur micronésien qui lisait la houle, les étoiles et le vol des oiseaux. Ce voyage a prouvé que les anciens Hawaïens savaient traverser le Pacifique.",
+        "Il a aussi accompagné un véritable renouveau culturel. La langue hawaïenne, longtemps bannie des écoles, est redevenue officielle et s'enseigne de nouveau, et le hula a retrouvé ses chants anciens. Nous vous faisons rencontrer ceux qui font vivre cette culture.",
       ],
       images: [
         {

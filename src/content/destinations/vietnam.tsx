@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Le Vietnam se referme vite si l'on reste sur la route principale. Entre Hanoï et Hué, il y a toute une autre histoire : celle des jonques qui dorment dans une crique de la baie de Lan Ha, celle d'une cour impériale que peu de voyageurs prennent le temps de comprendre. Mon travail, c'est d'inscrire ces heures-là dans l'itinéraire, avant qu'elles ne disparaissent.",
+          "Au Vietnam, la route principale ne montre qu'une partie du pays. Entre Hanoï et Hué, je prévois une nuit en jonque dans une crique de la baie de Lan Ha, puis du temps pour la cité impériale de Hué, que peu de voyageurs prennent le temps de comprendre.",
         role: "Travel Designer · Vietnam",
       },
       features: [
@@ -108,11 +108,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Hué, la mémoire d'une cour impériale",
-      heading: "Ce que la rivière des Parfums a gardé",
+      heading: "Hué et la Cité impériale",
       theme: "light",
       paragraphs: [
-        "À l'aube, la rivière des Parfums est couverte d'une brume qui ne se lève qu'après huit heures. La Cité impériale, fondée en 1804 par l'empereur Gia Long, s'ouvre par la porte Ngọ Môn, celle que seul l'empereur pouvait franchir en son centre. Treize empereurs de la dynastie Nguyễn se sont succédé ici jusqu'en 1945. Certains pavillons ont été détruits pendant la guerre du Vietnam ; d'autres, restaurés pierre par pierre, gardent encore leurs toits de tuiles vernissées.",
-        "Un historien de la cour, descendant d'une famille de mandarins, ouvre certains pavillons fermés au public et raconte les rituels du culte des ancêtres impériaux, la hiérarchie des concubines, la construction du tombeau de Tự Đức, que l'empereur a lui-même conçu comme un jardin avant d'y être enterré loin de l'endroit prévu. La visite se termine sur le fleuve, à bord d'un bateau-dragon, quand la lumière rase les tombeaux.",
+        "À Hué, la Cité impériale borde la rivière des Parfums. Fondée en 1804 par l'empereur Gia Long, elle fut le siège des treize empereurs de la dynastie Nguyễn jusqu'en 1945. Certains pavillons ont été détruits pendant la guerre, d'autres restaurés avec leurs toits de tuiles vernissées.",
+        "Un historien issu d'une famille de mandarins ouvre des pavillons fermés au public et raconte la vie de la cour. La visite se termine en bateau-dragon sur la rivière, en fin de journée.",
       ],
       images: [
         {

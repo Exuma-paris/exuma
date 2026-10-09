@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe aux Pays-Bas",
-      heading: "La lumière que les peintres sont venus chercher",
+      heading: "Les Pays-Bas, la lumière que les peintres sont venus chercher",
       description:
         "Le ciel occupe la moitié du paysage et la lumière change plusieurs fois par heure. Elle éclaire des choses très concrètes. Une salle de musée encore vide à huit heures du matin. Un canal remonté en bateau à l'heure de l'apéritif. Un chemin de sable en forêt, à vélo, jusqu'aux Van Gogh. Le tout à une heure de train l'un de l'autre.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "On me demande souvent trois jours à Amsterdam. Je conseille d'y ajouter deux nuits ailleurs, parce que tout est à une heure de train. La Veluwe est une grande forêt de plaine, et le musée Kröller-Müller y conserve la deuxième collection de Van Gogh au monde. Plus au sud, le Limbourg a des collines et des vergers, ce que personne n'imagine en pensant aux Pays-Bas. Ensuite, ma façon de découper les journées tient en une phrase : les musées le matin, avant l'arrivée du public, et l'après-midi dehors, à vélo ou sur l'eau.", // TODO: verify le rang de la collection Van Gogh du Kröller-Müller
+          "On me demande souvent trois jours à Amsterdam. J'ajoute deux nuits ailleurs, à une heure de train : la Veluwe, où le musée Kröller-Müller expose des Van Gogh, ou les collines du Limbourg. Les musées le matin, avant la foule, l'après-midi à vélo ou sur l'eau.",
         role: "Travel Designer · Pays-Bas",
       },
       features: defaultSpotlightFeatures,
@@ -89,13 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Pays-Bas : la vie au bord de l'eau",
-      heading: "Une journée sur l'eau, une journée sur les digues",
+      heading: "En voilier et à vélo",
       theme: "light",
       paragraphs: [
-        "Sur l'IJsselmeer, l'eau est plate et il n'y a pas de houle. On embarque à Hoorn sur un voilier en acier des années 1900. L'équipage hisse la grand-voile à la main, et le port disparaît derrière la digue. Le déjeuner se prend à bord, au mouillage.",
-        "Le lendemain, on longe les digues à vélo. Les villages du Waterland ont des maisons de bois vertes et des jardins qui descendent jusqu'au canal. On s'arrête dans une ferme du Beemster pour goûter un fromage affiné trois ans, coupé devant nous.",
-        "Ces terres ont été prises à la mer, et cela se voit encore : la route passe plus haut que les champs, et l'horizon est dégagé dans toutes les directions. On voit arriver la lumière de très loin.",
-        "À vélo comme en bateau, on avance toujours au niveau de l'eau.",
+        "Sur l'IJsselmeer, une vaste étendue d'eau calme et sans houle, on embarque à Hoorn sur un voilier en acier des années 1900. L'équipage hisse les voiles à la main et le déjeuner se prend à bord, au mouillage.",
+        "Le lendemain, on longe les digues à vélo. Les villages du Waterland alignent leurs maisons de bois vertes au bord des canaux, et une ferme du Beemster fait goûter son fromage affiné. Sur ces terres gagnées sur la mer, la route passe plus haut que les champs.",
       ],
       images: [
         {

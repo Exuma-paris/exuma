@@ -31,7 +31,7 @@ export const destination: Destination = {
       type: "hero",
       eyebrow: "Voyage de luxe aux Galápagos",
       heading:
-        "Treize îles qui n'ont jamais rien emprunté au reste du monde",
+        "Les Galápagos, treize îles où vivent des espèces uniques au monde",
       description:
         "À mille kilomètres des côtes de l'Équateur, treize îles principales et plus de cent vingt îlots concentrent des espèces qui n'existent nulle part ailleurs : iguane marin, tortue géante, albatros des Galápagos. Charles Darwin y a passé cinq semaines en 1835. Chaque itinéraire se construit autour d'un yacht et d'un nombre de visiteurs strictement limité par le parc national.",
       images: [
@@ -60,7 +60,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Aux Galápagos, le bateau n'est pas un hébergement, c'est l'itinéraire. Je choisis l'embarcation et l'ordre des îles avant tout le reste, parce que le nombre de sites autorisés par jour est fixe et ne se négocie pas. Une fois ce squelette posé, tout le confort vient se greffer autour.",
+          "Aux Galápagos, le bateau, c'est l'itinéraire. Je choisis l'embarcation et l'ordre des îles avant tout le reste, car les sites visités chaque jour sont fixés par le parc et ne se négocient pas. Le confort vient ensuite se greffer autour de ce choix.",
         role: "Travel Designer · Galápagos",
       },
       features: defaultSpotlightFeatures,
@@ -91,11 +91,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Galápagos, hors des sentiers de croisière",
-      heading: "Le matin où Puerto Ayora appartient encore aux pêcheurs",
+      heading: "Puerto Ayora et la station Charles Darwin",
       theme: "light",
       paragraphs: [
-        "À Puerto Ayora, sur Santa Cruz, les pêcheurs déchargent leur prise sur le quai municipal chaque matin avant huit heures. Des pélicans bruns et des otaries attendent à quelques mètres, immobiles, habitués au rituel. Aucune barrière ne les sépare des acheteurs qui négocient le thon et le mérou du jour.",
-        "Plus loin, la station de recherche Charles Darwin élève depuis 1965 des tortues géantes destinées à repeupler les îles où l'espèce avait disparu. Le programme a déjà relâché plus de dix mille individus. On y croise autant de scientifiques que de tortues centenaires.",
+        "À Puerto Ayora, sur l'île de Santa Cruz, les pêcheurs déchargent chaque matin leur prise sur le quai municipal. Pélicans bruns et otaries attendent à quelques mètres, sans aucune barrière entre eux et les acheteurs venus pour le thon et le mérou du jour.",
+        "Tout près, la station de recherche Charles Darwin élève depuis 1965 des tortues géantes destinées à repeupler les îles où l'espèce avait disparu. On y découvre de près ces tortues et le travail des scientifiques.",
       ],
       images: [
         {

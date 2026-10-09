@@ -36,15 +36,15 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/zanzibar/hero-1.webp",
-          alt: "Boutre traditionnel à voile au large de la côte de Zanzibar au coucher du soleil",
+          alt: "Banc de sable blanc et boutres au mouillage sur la côte de Zanzibar, vue du ciel",
         },
         {
           src: "/destination/zanzibar/hero-2.webp",
-          alt: "Ruelle de Stone Town et porte sculptée en bois de teck, Zanzibar",
+          alt: "Le restaurant The Rock posé sur son rocher dans l'océan Indien, Zanzibar",
         },
         {
           src: "/destination/zanzibar/hero-3.webp",
-          alt: "Plage de sable blanc et eaux calmes près de l'île de Mnemba, Zanzibar",
+          alt: "Boutres à voile échoués sur une plage de sable blanc à marée basse, Zanzibar",
         },
       ],
     },
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La plupart de mes voyageurs arrivent à Zanzibar après un safari, encore pleins d'images et de poussière. L'île les accueille en douceur, avec une maison ouverte sur l'océan, un boutre au coucher du soleil et un dîner les pieds dans le sable. J'aime construire ces derniers jours, parce que ce sont souvent ceux dont on me reparle des mois plus tard.",
+          "La plupart de mes voyageurs arrivent à Zanzibar après un safari. L'île les accueille en douceur : une maison ouverte sur l'océan, un boutre au coucher du soleil, un dîner les pieds dans le sable. Ce sont souvent les jours dont on me reparle le plus.",
         role: "Travel Designer · Zanzibar",
       },
       features: defaultSpotlightFeatures,
@@ -81,7 +81,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/zanzibar/full-image.webp",
-        alt: "Vue aérienne de la côte de Zanzibar, de ses eaux turquoise et de ses bancs de sable",
+        alt: "Rue de Stone Town, porte sculptée cloutée de laiton, vannière et grillades sous un grand arbre, Zanzibar",
       },
       height: 600,
     },
@@ -92,8 +92,8 @@ export const destination: Destination = {
       heading: "Le lagon de Jambiani et les boutres de Nungwi",
       theme: "light",
       paragraphs: [
-        "À Jambiani, la mer se retire tôt le matin et le lagon devient un plateau de sable clair que l'on traverse pieds nus. Les femmes du village y entrent pour relever les cordes d'algues qu'elles cultivent depuis des générations. On les accompagne, on les écoute, et l'eau revient avant le déjeuner rendre à la baie sa couleur turquoise.",
-        "À l'autre bout de l'île, à Nungwi, les charpentiers construisent encore les boutres à la main, sans plan, à l'œil. Le chantier est ouvert sur la plage, l'odeur du bois se mêle à celle du sel, et personne ne cherche à vous vendre quoi que ce soit. Nous vous y conduisons en fin d'après-midi, quand la lumière descend sur les coques et que les pêcheurs rentrent.",
+        "À Jambiani, la mer se retire le matin et laisse un vaste lagon de sable clair que l'on traverse à pied. Les femmes du village y cultivent des algues sur des cordes, et l'on peut les accompagner pendant la récolte avant le retour de l'eau turquoise.",
+        "Au nord de l'île, à Nungwi, les charpentiers construisent encore les boutres à la main, sans plan, directement sur la plage. Nous vous y emmenons en fin d'après-midi, au moment où les pêcheurs rentrent.",
       ],
       images: [
         {
@@ -112,11 +112,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/zanzibar/xp-corail-mnemba-1.webp",
-          alt: "Plongeur fixant des fragments de corail sur une structure immergée au large de Mnemba",
+          alt: "Nageurs fixant des boutures de corail sur une table de culture du récif",
         },
         right: {
           src: "/destination/zanzibar/xp-corail-mnemba-2.webp",
-          alt: "Récif corallien et poissons tropicaux dans la réserve marine de Mnemba, Zanzibar",
+          alt: "L'atoll de Mnemba vu du ciel, sa plage blanche et son récif, Zanzibar",
         },
       },
       text: {
@@ -151,8 +151,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Où dormir à Zanzibar",
       description:
-        "Une île privée où l'on dîne les pieds dans le sable, une demeure omanaise sur le front de mer de Stone Town, des villas avec piscine et personnel dédié face au lagon de Paje.",
-      slugs: ["mnemba-island-lodge", "park-hyatt-zanzibar", "zanzibar-white-sand"],
+        "Une île privée où l'on dîne les pieds dans le sable, des bungalows dans un jardin d'épices sur la plage de Kendwa, des villas avec piscine et personnel dédié face au lagon de Paje.",
+      slugs: ["mnemba-island-lodge", "zuri-zanzibar", "zanzibar-white-sand"],
     },
 
     {
@@ -228,10 +228,10 @@ export const destination: Destination = {
           src: `/destination/zanzibar/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Zanzibar entre Stone Town, Mnemba et la côte est",
-            "Adresses confidentielles à Zanzibar : maisons swahilies et villas hors circuit",
-            "Hébergements à Zanzibar : île privée de Mnemba et villas de Paje",
-            "Conciergerie privée 24/7 pour un voyage à Zanzibar",
-            "Expériences immersives à Zanzibar : boutre, récifs et route des épices",
+            "Adresses confidentielles à Zanzibar : terrasse d'une maison swahilie sur les toits de Stone Town",
+            "Hébergements à Zanzibar : banda du Mnemba Island Lodge au crépuscule",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Expériences immersives à Zanzibar : navigation en boutre le long d'un banc de sable",
           ][i],
         },
       })),

@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe aux Bahamas",
-      heading: "Là où la mer change de bleu à chaque banc de sable",
+      heading: "Les Bahamas, où la mer change de bleu à chaque banc de sable",
       description:
         "L'archipel compte sept cents îles et quelques milliers de cayes, dont une trentaine seulement sont habitées. Depuis l'avion, on lit le fond des bancs de sable à travers l'eau avant même d'avoir atterri. Le reste appartient aux bateaux, aux oiseaux et à ceux qui savent où aller.",
       images: [
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime aux Bahamas, c'est qu'on y change d'île comme on change de pièce. Miami est à une heure de vol, et pourtant, sur une caye des Exumas, il ne reste que le vent et la lumière. Je construis ces voyages autour de ce contraste, et je choisis les bateaux avant les hôtels.",
+          "Aux Bahamas, on change d'île comme on change de pièce. Miami est à une heure de vol, et pourtant, sur une caye des Exumas, il ne reste que le vent et la lumière. Je construis ces voyages autour de ce contraste, en choisissant les bateaux avant les hôtels.",
         role: "Travel Designer · Bahamas",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Bahamas, l'île pour soi",
-      heading: "Prendre une île entière, du ponton au dernier banc de sable",
+      heading: "Une île privée aux Bahamas",
       theme: "light",
       paragraphs: [
-        "Ici, l'île privée n'est pas une figure de style. Une quarantaine de cayes se louent en entier, avec leur équipage, leur cuisine et leurs bateaux, et l'on y arrive par hydravion ou par le pont d'un yacht. Musha Cay, dans le sud des Exumas, compte cinq maisons pour vingt-quatre personnes et quarante plages.",
-        "Le reste du temps, la discrétion se joue autrement. À Andros, la troisième barrière de corail du monde longe la côte est et tombe d'un coup dans la Tongue of the Ocean, à plus de mille mètres de fond. On plonge le matin, on pêche l'après-midi, et le soir personne ne demande ce que l'on fait dans la vie.",
+        "Aux Bahamas, une quarantaine de cayes se louent en entier, avec équipage, cuisine et bateaux. On y arrive en hydravion ou à bord d'un yacht. Musha Cay, dans le sud des Exumas, compte cinq maisons pour vingt-quatre personnes et quarante plages.",
+        "À Andros, la troisième barrière de corail du monde longe la côte est avant de plonger dans la Tongue of the Ocean, une fosse sous-marine de plus de mille mètres de fond. On y plonge le matin et l'on pêche l'après-midi.",
       ],
       images: [
         {

@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Aux Seychelles, la difficulté n'est pas de trouver une belle plage. Elles le sont toutes. La difficulté, c'est de savoir laquelle correspond à qui voyage, et dans quel ordre relier les îles pour que rien ne se ressemble. Une famille avec des enfants ne vit pas Praslin comme un couple qui vient se taire. C'est ce travail-là que je fais.",
+          "Aux Seychelles, toutes les plages sont belles. Mon travail, c'est de savoir laquelle correspond à chaque voyageur, et dans quel ordre relier les îles. Une famille avec des enfants ne vit pas Praslin comme un couple en quête de calme.",
         role: "Travel Designer · Seychelles",
       },
       features: [
@@ -109,11 +109,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "La Digue, Anse Source d'Argent",
-      heading: "La plage que l'on rejoint à vélo",
+      heading: "Anse Source d'Argent à vélo",
       theme: "light",
       paragraphs: [
-        "Sur La Digue, il n'y a presque pas de voitures. On loue un vélo au débarcadère de La Passe et on roule vers le sud, à plat, entre les takamakas et les murs de corail. La route s'arrête au domaine de L'Union, ancienne plantation de vanille et de coprah. Anse Source d'Argent commence juste derrière, et l'on comprend en arrivant pourquoi c'est la plage la plus photographiée de l'océan Indien : les blocs de granit y forment des couloirs d'eau peu profonde, et la marée basse découvre un sable que rien ne dérange.",
-        "Le matin tôt, avant les navettes de Praslin, la plage est presque vide. Une tortue terrestre traverse le sentier sans se presser. Le guide montre, sans expliquer trop : les bassins entre les rochers, l'endroit où l'eau reste tiède, le passage qui mène à la crique suivante quand la première se remplit. À midi, le déjeuner se prend chez un habitant, à l'ombre, poisson grillé et chutney de fruit à pain. L'après-midi appartient à ceux qui restent.",
+        "Sur l'île de La Digue, où l'on circule surtout à vélo, une route plate mène du port de La Passe au domaine de L'Union, ancienne plantation de vanille et de coprah. Juste derrière s'étend Anse Source d'Argent, l'une des plages les plus photographiées de l'océan Indien.",
+        "Ses rochers de granit forment des bassins d'eau peu profonde où l'on se baigne à marée basse. Tôt le matin, avant les visiteurs venus de Praslin, la plage est presque vide, et l'on croise parfois une tortue terrestre sur le sentier.",
       ],
       images: [
         {

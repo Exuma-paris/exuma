@@ -13,7 +13,7 @@ export const experience: Experience = {
     "distillation",
   ],
   heroImage: {
-    src: "/destination/maroc/xp-vallee-des-roses.png",
+    src: "/destination/maroc/xp-vallee-des-roses.webp",
     alt: "Cueillette des roses de Damas au petit matin dans la vallée des Roses au Maroc",
   },
   destinationSlugs: ["maroc"],

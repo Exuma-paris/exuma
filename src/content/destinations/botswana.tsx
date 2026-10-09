@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Le Botswana se découvre à travers plusieurs camps. L'intérêt du voyage tient au passage d'un milieu à l'autre : les eaux du delta, les plaines de la Gomoti, puis les étendues salines du Makgadikgadi. En dix jours, l'itinéraire traverse trois écosystèmes. Chacun propose une approche différente, du bateau à la marche. Le pays limite le nombre de lits sur chaque concession. Cela explique la faible présence de véhicules pendant les safaris. C'est la seule destination de safari où je construis un itinéraire dense, sans avoir à composer avec la foule.",
+          "Au Botswana, on va de camp en camp entre les eaux du delta de l'Okavango et les étendues salines du Makgadikgadi, en bateau comme à pied. Le pays limite le nombre de lits par concession, donc on croise très peu de véhicules : un safari riche, sans la foule.",
         role: "Travel Designer · Botswana",
       },
       features: defaultSpotlightFeatures,
@@ -90,14 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Botswana : le jour et la nuit",
-      heading: "Ce que le hors-piste et la nuit changent",
+      heading: "Safari de jour, safari de nuit",
       theme: "light",
       paragraphs: [
-        "Dans la réserve de Moremi, les pistes sont tracées et le hors-piste reste interdit. Les portes ferment au coucher du soleil. C'est la règle d'un territoire protégé depuis 1963.",
-        "La journée y suit donc un rythme précis : deux sorties, l'une avant le lever du jour, l'autre jusqu'aux dernières lueurs.",
-        "La nuit se découvre ailleurs, dans les réserves privées du Makgadikgadi. Le projecteur à filtre rouge y est autorisé. Il ouvre l'observation à d'autres espèces.",
-        "Oryctérope, hyène brune, otocyon : aucune ne se rencontre à midi. Le guide coupe alors le moteur, balaie la bordure du pan, puis s'arrête sur deux points lumineux, à trente mètres.",
-        "C'est cette complémentarité entre le jour et la nuit qui détermine l'ordre des étapes.",
+        "Dans la réserve de Moremi, protégée depuis 1963, le hors-piste est interdit et les portes ferment au coucher du soleil. Les journées s'organisent donc en deux sorties : l'une dès l'aube, l'autre jusqu'aux dernières lueurs.",
+        "La nuit se découvre dans les réserves privées du Makgadikgadi, où les sorties au projecteur sont autorisées. On y observe des espèces nocturnes qu'on ne voit pas de jour, comme l'oryctérope, la hyène brune ou l'otocyon. Les deux expériences se complètent au fil du voyage.",
       ],
       images: [
         {

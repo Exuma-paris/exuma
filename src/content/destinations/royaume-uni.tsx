@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Le Royaume-Uni se donne à qui connaît les bonnes portes. Une maison de famille du Deeside n'a pas d'enseigne, un tailleur de Savile Row ne reçoit pas sans être présenté, et le meilleur beat de la Spey se loue longtemps à l'avance. C'est là que se joue mon travail : obtenir que l'on vous ouvre, et que l'on vous reçoive comme des proches plutôt que comme des visiteurs.",
+          "Au Royaume-Uni, les plus belles adresses passent par une recommandation : une maison de famille du Deeside sans enseigne, un tailleur de Savile Row qui reçoit sur présentation, un parcours de pêche sur la Spey. J'obtiens ces accès pour vous.",
         role: "Travel Designer · Royaume-Uni",
       },
       features: defaultSpotlightFeatures,
@@ -89,11 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Royaume-Uni : les Highlands",
-      heading: "Le Deeside en septembre, quand la bruyère vire au pourpre",
+      heading: "Les Highlands en septembre",
       theme: "light",
       paragraphs: [
-        "En août, les routes du nord appartiennent aux vacanciers britanniques et les villages du Deeside vivent au rythme des Highland Games. En septembre, tout se retire. La bruyère se couvre de pourpre sur les collines, les cerfs redescendent vers les vallées, et les maisons acceptent volontiers de n'ouvrir que pour vous. C'est la période que nous préférons.",
-        "Plus à l'ouest, les Hébrides se rejoignent par le ferry ou par un petit avion depuis Glasgow. Sur Islay, les entrepôts de whisky donnent directement sur la mer et l'air sent la tourbe dès le port. À Harris, les plages de sable blanc n'ont personne dessus au mois de septembre, et l'eau y reste trop froide pour que cela change un jour.",
+        "En août, les Highlands accueillent de nombreux vacanciers et les villages du Deeside vivent au rythme des Highland Games. En septembre, la foule se retire : la bruyère fleurit en pourpre sur les collines et les cerfs redescendent vers les vallées.",
+        "Plus à l'ouest, les Hébrides se rejoignent en ferry ou en petit avion depuis Glasgow. Sur Islay, les distilleries de whisky bordent la mer. À Harris, les grandes plages de sable blanc sont presque désertes en septembre.",
       ],
       images: [
         {

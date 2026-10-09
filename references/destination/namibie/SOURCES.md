@@ -42,3 +42,13 @@ Quatre visuels n'ont pas suivi le traitement standard :
 | `xp-namib-naukluft.webp` | Photo non libre de droit. Régénérée avec appareil plus bas sur la crête, cadrage plus large et marcheur vu de dos, pour ne pas reproduire l'original. |
 | `bento-conciergerie.webp` | Photo appartenant à l'agence. Reprise à l'exactitude, filtre Exuma appliqué en local, aucun passage par le modèle. |
 | `bento-map.webp` | Composée localement à partir d'un contour au trait de la Namibie, dans le langage graphique de la Polynésie : fond anthracite, pays en crème, étapes de l'itinéraire numérotées en ocre reliées par un pointillé. Script : `.claude/skills/destination-generator/tmp/build-bento-map.mjs`. |
+
+| `hero-3.webp` | Photo de Thea (IMG_0340), fournie le 09/10/2026, recadrée en carré et légèrement réchauffée | Exuma |
+| `split-2.webp` | Photo de Thea (IMG_9643), fournie le 09/10/2026, recadrée en carré et passée au beau temps par IA (Gemini), sans autre changement | Exuma |
+| `split-1.webp` | Photo de Thea (épave sur la Skeleton Coast), fournie le 09/10/2026, légèrement réchauffée | Exuma |
+| `xp-kalahari-1.webp` | IA d'après `xp-kalahari-1-ref.jpg` (doublesens.fr), référence choisie par Thea le 09/10/2026 | |
+| `xp-kalahari-2.webp` | IA d'après `xp-kalahari-2-ref.jpg` (stockfood.com, oryx), recadrée en portrait | |
+| `xp-skeleton-coast.webp` | IA d'après `xp-skeleton-coast-ref.jpg` (webflow CDN), recadrée en carré | |
+| `xp-sossusvlei.webp` | IA d'après `xp-sossusvlei-ref.jpg` (generationvoyage.fr, Deadvlei), recadrée en carré | |
+| `xp-ongava.webp` | Photo de Thea (IMG_0342, rhinocéros à Ongava), recadrée en carré ; bord de chapeau flou ajouté par IA au premier plan à sa demande | Exuma |
+| `bento-map.webp` | Carte existante réduite et placée en haut à droite (09/10/2026) | |

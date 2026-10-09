@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Mes clients ont souvent fait le tour du monde avant de voyager en France. Et puis un matin, ils s’arrêtent devant un château qui sort de la brume ou devant une table dressée au milieu des vignes, et je vois quelque chose se dénouer chez eux. C’est ce moment-là que je cherche à chaque fois. Tout le reste du voyage vient s’organiser autour.",
+          "Mes clients ont souvent fait le tour du monde avant de voyager en France. Puis un matin, ils découvrent un château qui sort de la brume ou une table dressée dans les vignes, et je les vois se détendre. C’est ce moment que je cherche à chaque voyage.",
         role: "Travel Designer · France",
       },
       features: defaultSpotlightFeatures,
@@ -89,12 +89,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Les régions",
-      heading: "Chacune a son air, ses parfums et sa façon de vivre",
+      heading: "Des régions aux caractères bien différents",
       theme: "light",
       paragraphs: [
-        "La Normandie offre des ciels immenses et une odeur de sel qui ne quitte plus les vêtements. La Champagne garde sa fraîcheur sous terre, dans le blanc de la craie, même au plus fort de l’été. Le Luberon sent le thym et la pierre chaude jusque tard dans la soirée. Et à Chamonix, l’air devient si clair que l’on croit pouvoir toucher la montagne du doigt.",
-        "Alors on ralentit, et c’est souvent là que le voyage commence. On reste deux ou trois nuits au même endroit, assez pour reconnaître le boulanger et savoir à quelle heure la place se remplit. On prend les petites routes, celles qui longent les vignes et passent sous les platanes, parce qu’on n’a plus tellement envie d’arriver.",
-        "Le reste attendra. Il y aura toujours un prochain voyage.",
+        "La Normandie offre ses grands ciels et l’air salé de ses côtes. La Champagne garde ses caves creusées dans la craie, fraîches même en été. Le Luberon sent le thym et la pierre chaude, et à Chamonix, l’air limpide laisse voir les sommets du massif du Mont-Blanc.",
+        "Nous conseillons de rester deux ou trois nuits au même endroit, le temps de connaître le village et ses commerçants, puis de circuler par les petites routes, entre vignes et platanes, pour découvrir chaque région à son rythme.",
       ],
       images: [
         {

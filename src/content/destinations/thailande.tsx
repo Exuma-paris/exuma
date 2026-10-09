@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Thaïlande",
-      heading: "Le pays où l'on choisit sa côte selon le mois",
+      heading: "La Thaïlande, le pays où l'on choisit sa côte selon le mois",
       description:
         "La Thaïlande possède deux façades maritimes dont les saisons s'inversent. La mer d'Andaman se visite de novembre à mars, le golfe de Thaïlande de février à septembre. Le calendrier commande l'itinéraire, jamais l'inverse.",
       images: [
@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La première fois que j'ai découvert Koh Yao Noi, c'était un après-midi de février. Après quelques minutes en bateau depuis Phuket, le décor change : les routes deviennent calmes, les maisons s'ouvrent sur la végétation. C'est cette Thaïlande que j'aime faire découvrir, des îles préservées, des rencontres locales et des expériences loin des itinéraires classiques. Mais aussi un Bangkok plus intime, entre temples au lever du jour et marchés accompagnés d'un chef. Ce sont ces moments qui rendent un voyage inoubliable.",
+          "J'ai découvert Koh Yao Noi un après-midi de février, à une courte traversée de Phuket : routes calmes, maisons ouvertes sur la végétation. C'est cette Thaïlande que j'aime montrer, avec un Bangkok plus intime : temples à l'aube et marchés avec un chef.",
         role: "Travel Designer · Thaïlande",
       },
       features: defaultSpotlightFeatures,
@@ -90,11 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Thaïlande : la baie de Phang Nga",
-      heading: "Ce que l'on gagne à traverser la baie",
+      heading: "La baie de Phang Nga en bateau privé",
       theme: "light",
       paragraphs: [
-        "Le bateau part de la marina de Phuket et met environ quarante minutes. Koh Yao Noi apparaît plate, couverte d'hévéas et de rizières. Aucun grand complexe hôtelier sur l'île, des villages de pêcheurs, des buffles sur la route qui la traverse. Depuis la côte est, on voit la ligne des pitons calcaires de la baie sans en partager la fréquentation.",
-        "La différence tient à l'heure de départ. Les excursions collectives quittent Phuket vers neuf heures et arrivent groupées sur les mêmes sites, James Bond Island en tête. Un bateau privé part à six heures, entre dans les lagons intérieurs de Koh Hong à marée haute et en ressort avant l'arrivée des premiers groupes. Trois heures d'avance suffisent à voir ces lagons vides.",
+        "Depuis Phuket, environ quarante minutes de bateau mènent à Koh Yao Noi, une île plate couverte d'hévéas et de rizières, sans grand complexe hôtelier. Depuis sa côte est, on voit les pitons calcaires qui se dressent dans la baie.",
+        "Les excursions collectives partent de Phuket vers neuf heures et se retrouvent sur les mêmes sites, comme James Bond Island. En partant à l'aube en bateau privé, on visite les lagons intérieurs de Koh Hong avant l'arrivée des groupes.",
       ],
       images: [
         {

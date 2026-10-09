@@ -44,7 +44,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/namibie/hero-3.webp",
-          alt: "Lion traversant un point d'eau d'Etosha entre girafes, gnous et springboks",
+          alt: "Rhinocéros blanc dans les herbes sèches, derrière les branches d'un buisson épineux, Namibie",
         },
       ],
     },
@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "La Namibie ne se raconte pas par sa faune. Elle se raconte par ses sols. En douze jours, on passe de l'argile blanche de Deadvlei aux galets noirs du Kaokoland, puis au sable rouge du Kalahari. Chaque étape change la lumière, et donc les heures où l'on sort. Les camps comptent huit à dix tentes, jamais davantage, et les concessions se comptent en centaines de milliers d'hectares. C'est le seul pays où je construis un itinéraire dans lequel on ne croise personne pendant trois jours sans que ce soit un exploit logistique.",
+          "En douze jours, on passe de l'argile blanche de Deadvlei aux galets noirs du Kaokoland et au sable rouge du Kalahari. Les camps n'ont que huit à dix tentes, sur d'immenses concessions. On peut rouler trois jours sans croiser personne.",
         role: "Travel Designer · Namibie",
       },
       features: defaultSpotlightFeatures,
@@ -71,10 +71,9 @@ export const destination: Destination = {
       heading: "Ce que le vide donne à voir",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
-        "Un voyage en Namibie commence presque toujours à Sesriem, à la porte du parc du Namib-Naukluft. La route file ensuite vers l'ouest sur une soixantaine de kilomètres, entre les contreforts du Naukluft et les premières crêtes de sable.", // TODO: verify distance Sesriem-Sossusvlei (source client : 50 km)
-        "Dune 45 se gravit avant la chaleur. Deadvlei se rejoint à pied, dans le dernier kilomètre de sable. La cuvette d'argile y est restée blanche, les acacias y sont morts debout depuis plusieurs siècles, et l'ombre qu'ils portent au sol est la seule chose qui bouge de la matinée.", // TODO: verify ancienneté des acacias de Deadvlei
-        "Le nord change complètement de grammaire. Dans la vallée de la Hoanib, l'eau ne coule qu'en surface quelques jours par an. Les éléphants du désert y creusent le lit de la rivière pour l'atteindre. Plus loin, la Skeleton Coast aligne des coques rouillées, des colonies d'otaries et un brouillard qui monte de l'Atlantique presque tous les matins.",
-        "Trois maisons structurent l'itinéraire. Sossusvlei Desert Lodge ouvre le voyage dans la réserve du NamibRand, avec dix suites et une verrière au-dessus du lit. Sonop s'installe ensuite sur des blocs de granit du Karas, dans le décor d'une expédition des années vingt. Hoanib Skeleton Coast Camp ferme la boucle au nord, à une heure de vol de la première route goudronnée.", // TODO: verify nombre de suites et distances
+        "Un voyage en Namibie commence presque toujours à Sesriem, à la porte du parc du Namib-Naukluft. On dort au Sossusvlei Desert Lodge, dans la réserve du NamibRand, sous une verrière ouverte sur les étoiles. Plus au sud, Sonop s'installe sur des blocs de granit du Karas, dans le décor d'une expédition des années vingt.",
+        "Dune 45 se gravit avant la chaleur. Deadvlei se rejoint à pied, dans le dernier kilomètre de sable. La cuvette d'argile y est restée blanche, les acacias y sont morts debout depuis plusieurs siècles, et l'ombre qu'ils portent au sol est la seule chose qui bouge de la matinée.",
+        "Le nord change de grammaire. Dans la vallée de la Hoanib, les éléphants du désert creusent le lit de la rivière pour atteindre l'eau. La Skeleton Coast aligne des coques rouillées et des otaries. Le Hoanib Skeleton Coast Camp ferme la boucle, à une heure de vol de la première route goudronnée.",
       ],
     },
 
@@ -89,24 +88,21 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Namibie : le sable et le brouillard",
-      heading: "Ce que le courant de Benguela fabrique",
+      eyebrow: "Namibie : le désert du Namib",
+      heading: "Un désert né de l'océan",
       theme: "light",
       paragraphs: [
-        "Le long de la côte, un courant froid remonte de l'Atlantique sud. Il refroidit l'air, bloque la pluie et fabrique du brouillard. Depuis des millions d'années, c'est la seule eau douce que reçoive le Namib.",
-        "Toute la vie du désert s'est organisée autour de cette humidité-là. Le ténébrion se dresse sur la crête, tête en bas. La brume se condense sur son dos, puis descend le long de ses élytres jusqu'à ce qu'il la boive.",
-        "La welwitschia, elle, ne produit que deux feuilles dans sa vie et les laisse s'effilocher pendant mille ans. Les plus vieux pieds du Damaraland sont contemporains des premières cathédrales.", // TODO: verify longévité des welwitschias
-        "Les mêmes gouttes expliquent les épaves. Un navire qui longe la côte dans la brume ne voit ni la terre ni les bancs de sable jusqu'au moment où il les touche.",
-        "Le brouillard nourrit et il perd. C'est la même mécanique.",
+        "Sur la côte namibienne, un courant froid venu de l'Atlantique empêche presque toute pluie. Il apporte en revanche un brouillard épais, qui roule chaque matin sur les dunes et suffit à faire vivre les insectes, les lichens et les plantes du Namib.",
+        "C'est aussi ce brouillard qui a fait échouer tant de navires sur la Skeleton Coast, où leurs épaves reposent encore sur le sable. Il nourrit enfin la welwitschia, plante nationale de la Namibie, qui pousse dans le Damaraland et peut vivre plus de mille ans.",
       ],
       images: [
         {
           src: "/destination/namibie/split-1.webp",
-          alt: "Éléphant remontant seul une piste de gravier dans le parc d'Etosha",
+          alt: "Épave d'un chalutier échoué dans les vagues de la Skeleton Coast, Namibie",
         },
         {
           src: "/destination/namibie/split-2.webp",
-          alt: "Piste de sable rouge traversant les plaines herbeuses du NamibRand",
+          alt: "Colonie d'otaries à fourrure sur une plage de la côte namibienne",
         },
       ],
     },
@@ -116,11 +112,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/namibie/xp-kalahari-1.webp",
-          alt: "Dunes rouges du Kalahari striées d'herbes sèches en fin de journée, Namibie",
+          alt: "Dune de sable rouge du Kalahari et acacias sous un ciel nuageux, Namibie",
         },
         right: {
           src: "/destination/namibie/xp-kalahari-2.webp",
-          alt: "Girafe traversant la brousse du Kalahari dans la lumière du soir",
+          alt: "Oryx traversant la steppe dorée du Kalahari devant une dune rouge, Namibie",
         },
       },
       text: {
@@ -141,10 +137,10 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en Namibie",
       heading: "Trois terrains inscrits à l'itinéraire",
       description:
-        "Trois sorties portent le voyage. On part d'abord vers la Skeleton Coast, en avion léger puis en 4x4 par la vallée de la Hoanib. On traverse ensuite le Namib-Naukluft, des sommets du Naukluft aux plaines de galets. On monte enfin sur les dunes de Sossusvlei, avant la marche jusqu'à Deadvlei.",
+        "Trois sorties portent le voyage. On part d'abord vers la Skeleton Coast, en avion léger puis en 4x4 par la vallée de la Hoanib. On piste ensuite les rhinocéros à pied dans la réserve d'Ongava, en bordure d'Etosha. On monte enfin sur les dunes de Sossusvlei, avant la marche jusqu'à Deadvlei.",
       slugs: [
         "echappee-skeleton-coast",
-        "parc-namib-naukluft",
+        "ongava-pistage-rhinoceros",
         "sossusvlei-deadvlei",
       ],
     },
