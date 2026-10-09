@@ -36,15 +36,15 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/zanzibar/hero-1.webp",
-          alt: "Boutre traditionnel à voile au large de la côte de Zanzibar au coucher du soleil",
+          alt: "Banc de sable blanc et boutres au mouillage sur la côte de Zanzibar, vue du ciel",
         },
         {
           src: "/destination/zanzibar/hero-2.webp",
-          alt: "Ruelle de Stone Town et porte sculptée en bois de teck, Zanzibar",
+          alt: "Le restaurant The Rock posé sur son rocher dans l'océan Indien, Zanzibar",
         },
         {
           src: "/destination/zanzibar/hero-3.webp",
-          alt: "Plage de sable blanc et eaux calmes près de l'île de Mnemba, Zanzibar",
+          alt: "Boutres à voile échoués sur une plage de sable blanc à marée basse, Zanzibar",
         },
       ],
     },
