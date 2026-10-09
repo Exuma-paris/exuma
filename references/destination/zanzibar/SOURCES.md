@@ -8,3 +8,5 @@
 | `full-image.webp` | IA mêlant `full-image-ref.jpg` (exploretanzania.nl, porte de Stone Town) et `full-image-ref2.jpg` (étal de rue), choisies par Thea | |
 | `split-1.webp` | IA d'après `split-1-ref.jpg` (endallah.org, cultivatrice d'algues) | |
 | `split-2.webp` | IA, génération texte (charpentiers de boutres à Nungwi) | |
+| `split-2.webp` | IA d'après `split-2-ref.jpg` (dreamstime, coque en bois), avec la mer visible à la demande de Thea | |
+| `xp-corail-mnemba-1.webp` | IA d'après `xp-corail-mnemba-1-ref.jpg` (tahititourisme.pf, Coral Gardeners) | |
