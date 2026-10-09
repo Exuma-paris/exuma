@@ -45,3 +45,4 @@ Quatre visuels n'ont pas suivi le traitement standard :
 
 | `hero-3.webp` | Photo de Thea (IMG_0340), fournie le 09/10/2026, recadrée en carré et légèrement réchauffée | Exuma |
 | `split-2.webp` | Photo de Thea (IMG_9643), fournie le 09/10/2026, recadrée en carré et passée au beau temps par IA (Gemini), sans autre changement | Exuma |
+| `split-1.webp` | Photo de Thea (épave sur la Skeleton Coast), fournie le 09/10/2026, légèrement réchauffée | Exuma |

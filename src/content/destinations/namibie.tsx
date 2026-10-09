@@ -98,7 +98,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/namibie/split-1.webp",
-          alt: "Éléphant remontant seul une piste de gravier dans le parc d'Etosha",
+          alt: "Épave d'un chalutier échoué dans les vagues de la Skeleton Coast, Namibie",
         },
         {
           src: "/destination/namibie/split-2.webp",
