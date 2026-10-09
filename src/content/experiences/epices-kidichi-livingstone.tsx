@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["zanzibar", "epices", "kidichi", "livingstone", "maruhubi", "girofle"],
   heroImage: {
     src: "/destination/zanzibar/xp-epices-kidichi.webp",
-    alt: "Épices fraîches et gousses de vanille dans une plantation du centre de Zanzibar",
+    alt: "Badiane, piments et épices en poudre de la route des épices de Zanzibar",
   },
   destinationSlugs: ["zanzibar"],
   sections: [],
