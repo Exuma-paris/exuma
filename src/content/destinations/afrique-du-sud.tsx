@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "En Afrique du Sud, on enchaîne en deux semaines une ville de bord de mer, une montagne couverte de peintures rupestres et une réserve sans clôture. Je commence par Le Cap pour récupérer du vol de nuit, puis le Cederberg, au nord, pour l'art rupestre et le silence. Le safari vient à la fin : on quitte plus facilement un lodge qu'une ville.",
+          "En deux semaines, on enchaîne Le Cap au bord de l'océan, les peintures rupestres et le silence du Cederberg, puis une réserve sans clôture. Je commence par Le Cap pour récupérer du vol de nuit, et je garde le safari pour la fin du voyage.",
         role: "Travel Designer · Afrique du Sud",
       },
       features: defaultSpotlightFeatures,

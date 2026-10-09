@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "À Madagascar, rien ne ressemble à ce que l'on connaît ailleurs : les arbres, les animaux, la couleur de la terre. Ma région préférée est le Nord, autour d'Antsiranana, pour ses collines rouges et sa lumière du soir. Mais au retour, mes voyageurs me parlent surtout des gens, qui prennent le temps d'expliquer et les invitent à s'asseoir.",
+          "À Madagascar, rien ne ressemble à ce que l'on connaît : les arbres, les animaux, la couleur de la terre. J'aime surtout le Nord, autour d'Antsiranana, pour ses collines rouges. Au retour, mes voyageurs me parlent surtout des gens et de leur accueil.",
         role: "Travel Designer · Madagascar",
       },
       features: defaultSpotlightFeatures,

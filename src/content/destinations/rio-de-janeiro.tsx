@@ -57,7 +57,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane", // TODO: verify collaborateurSlug — pas de spécialiste Brésil dédié
         // TODO: verify quote attribution
         quote:
-          "Rio change deux fois par jour. Le matin, les plages se remplissent par couches sociales : une famille à six heures, un coureur à sept, l'enseignant à huit. Le soir, après dix-sept heures, c'est tout l'inverse. La logique du voyage commence là : choisir les bonnes heures pour les bons quartiers.",
+          "Rio change deux fois par jour. Le matin, les plages se remplissent peu à peu, des familles matinales aux coureurs. Le soir, après dix-sept heures, l'ambiance s'inverse. Mon travail consiste à choisir les bonnes heures pour chaque quartier et chaque plage.",
         role: "Travel Designer · Brésil", // TODO: verify
       },
       features: defaultSpotlightFeatures,

@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "À Pétra, une journée ne suffit pas. La plupart des visiteurs s'arrêtent au Khazneh, alors que les vallées derrière sont presque vides. Je prévois donc deux nuits à Wadi Musa, avec une entrée le second matin par Little Petra, qui mène au Monastère par le haut. Dans le désert, je conseille aussi deux nuits au campement plutôt qu'une.",
+          "À Pétra, une journée ne suffit pas. La plupart des visiteurs s'arrêtent au Khazneh, alors que les vallées derrière sont presque vides. Je prévois deux nuits à Wadi Musa, avec une entrée le second matin par Little Petra, qui mène au Monastère par le haut.",
         role: "Travel Designer · Jordanie",
       },
       features: defaultSpotlightFeatures,

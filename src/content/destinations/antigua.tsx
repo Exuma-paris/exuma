@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Antigua se prête à un jeu simple : on choisit une baie et on ne la quitte plus, ou on prend le bateau pour Barbuda et on change complètement de décor. Je construis toujours les deux temps dans le même voyage, parce qu'ils ne racontent pas la même île. Et je réserve la traversée avant l'hôtel, jamais l'inverse.",
+          "Antigua se vit en deux temps. On choisit une baie pour se poser quelques jours, puis on prend le bateau pour Barbuda et on change complètement de décor. Je prévois toujours les deux dans le même voyage, et je réserve la traversée avant l'hôtel.",
         role: "Travel Designer · Antigua",
       },
       features: defaultSpotlightFeatures,

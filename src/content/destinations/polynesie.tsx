@@ -154,7 +154,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Il y a des voyages qu'on construit en quelques échanges parce que tout s'aligne vite. Et d'autres où il faut une heure de conversation pour comprendre ce que la personne cherche vraiment, pas ce qu'elle demande. La Polynésie, c'est souvent le deuxième cas. Et c'est là que le voyage devient intéressant.",
+          "En Polynésie, il faut souvent une heure de conversation pour comprendre ce que la personne cherche vraiment, au-delà de ce qu'elle demande. C'est à partir de là que je choisis les îles et les adresses, maisons ou lodges familiaux, qui feront tout le voyage.",
         role: "Travel Designer · Polynésie française",
       },
       features: [

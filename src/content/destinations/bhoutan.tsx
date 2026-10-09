@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime au Bhoutan, c'est que rien ne s'y obtient par la porte principale. Les plus beaux moments arrivent parce qu'un moine accepte d'ouvrir une salle avant le jour, ou parce qu'une famille du Bumthang met un couvert de plus à sa table. Je construis les voyages avec les gens que je connais là-bas, pour que ces portes s'ouvrent au bon moment.",
+          "Au Bhoutan, les plus beaux moments passent par les gens : un moine qui ouvre une salle du monastère avant le jour, une famille du Bumthang qui vous reçoit à sa table. Je construis les voyages avec mes contacts sur place, pour que ces rencontres aient lieu.",
         role: "Travel Designer · Bhoutan",
       },
       features: defaultSpotlightFeatures,

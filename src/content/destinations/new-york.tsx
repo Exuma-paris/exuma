@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "New York est la ville sur laquelle j'ai le plus changé d'avis. Longtemps, je l'ai trouvée trop bruyante, avant de comprendre que cette énergie fait partie du voyage. Mon travail porte sur les horaires : savoir à quelle heure chaque quartier vaut le détour. C'est l'une des rares grandes villes où trois générations trouvent leur compte.",
+          "New York est la ville sur laquelle j'ai le plus changé d'avis. Je la trouvais trop bruyante, avant de comprendre que cette énergie fait partie du voyage. Je travaille surtout les horaires : à quelle heure chaque quartier vaut le détour, pour toute la famille.",
         role: "Travel Designer · New York",
       },
       features: defaultSpotlightFeatures,

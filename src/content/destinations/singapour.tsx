@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Singapour mérite mieux qu'une escale entre deux vols. Le meilleur de la ville passe par des adresses difficiles à réserver en ligne : une table chez un chef étoilé, un jardin d'orchidées avant l'ouverture au public, un accès paddock le soir du Grand Prix. Mon rôle est d'organiser ces accès avant votre arrivée, pour que tout soit prêt.",
+          "Singapour mérite mieux qu'une escale. Le meilleur de la ville passe par des adresses difficiles à réserver en ligne : la table d'un chef étoilé, un jardin d'orchidées avant l'ouverture, l'accès paddock le soir du Grand Prix. Je les organise avant l'arrivée.",
       },
       features: defaultSpotlightFeatures,
     },

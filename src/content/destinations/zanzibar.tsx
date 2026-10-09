@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La plupart de mes voyageurs arrivent à Zanzibar après un safari, encore pleins d'images et de poussière. L'île les accueille en douceur, avec une maison ouverte sur l'océan, un boutre au coucher du soleil et un dîner les pieds dans le sable. J'aime construire ces derniers jours, parce que ce sont souvent ceux dont on me reparle des mois plus tard.",
+          "La plupart de mes voyageurs arrivent à Zanzibar après un safari. L'île les accueille en douceur : une maison ouverte sur l'océan, un boutre au coucher du soleil, un dîner les pieds dans le sable. Ce sont souvent les jours dont on me reparle le plus.",
         role: "Travel Designer · Zanzibar",
       },
       features: defaultSpotlightFeatures,

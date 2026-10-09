@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime aux Bahamas, c'est qu'on y change d'île comme on change de pièce. Miami est à une heure de vol, et pourtant, sur une caye des Exumas, il ne reste que le vent et la lumière. Je construis ces voyages autour de ce contraste, et je choisis les bateaux avant les hôtels.",
+          "Aux Bahamas, on change d'île comme on change de pièce. Miami est à une heure de vol, et pourtant, sur une caye des Exumas, il ne reste que le vent et la lumière. Je construis ces voyages autour de ce contraste, en choisissant les bateaux avant les hôtels.",
         role: "Travel Designer · Bahamas",
       },
       features: defaultSpotlightFeatures,

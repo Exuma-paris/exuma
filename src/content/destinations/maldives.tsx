@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Aux Maldives, tout le monde montre la même photo. Le vrai sujet, c'est le corail qui borde l'île et l'heure à laquelle l'hydravion se pose. C'est ce qui fait la différence entre un joli lagon et une semaine dont on parle encore des années après. Je passe l'essentiel de mon temps à choisir les îles qui tiennent cette promesse, et je les connais une par une.",
+          "Aux Maldives, tout le monde montre la même photo. Ce qui compte vraiment, c'est le corail qui borde l'île et l'heure à laquelle l'hydravion se pose. Je passe l'essentiel de mon temps à choisir les îles qui tiennent cette promesse, et je les connais une à une.",
         role: "Travel Designer · Maldives",
       },
       features: defaultSpotlightFeatures,

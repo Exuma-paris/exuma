@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Le Japon se refuse à qui va vite. On peut visiter Tokyo, Kyoto et le Mont Fuji en dix jours et n'avoir rien vu du pays. Mon travail commence là où s'arrête le guide touristique : la porte du sous-temple qui n'ouvre que sur présentation, l'écurie de sumo qui n'accepte aucune visite sans introduction. C'est cette porte-là qui change le voyage.",
+          "On peut voir Tokyo, Kyoto et le mont Fuji en dix jours sans vraiment découvrir le Japon. J'aime ouvrir les portes fermées aux visiteurs pressés : un sous-temple qui n'ouvre que sur présentation, une écurie de sumo qu'on visite seulement sur introduction.",
         role: "Travel Designer · Japon",
       },
       features: [

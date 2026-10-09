@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "J'ai découvert Koh Yao Noi un après-midi de février. Après une courte traversée depuis Phuket, le décor change : routes calmes, maisons ouvertes sur la végétation. C'est cette Thaïlande que j'aime montrer, îles préservées et rencontres locales, mais aussi un Bangkok plus intime : temples au lever du jour et marchés avec un chef.",
+          "J'ai découvert Koh Yao Noi un après-midi de février, à une courte traversée de Phuket : routes calmes, maisons ouvertes sur la végétation. C'est cette Thaïlande que j'aime montrer, avec un Bangkok plus intime : temples à l'aube et marchés avec un chef.",
         role: "Travel Designer · Thaïlande",
       },
       features: defaultSpotlightFeatures,

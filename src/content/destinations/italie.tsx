@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "J'aime l'Italie pour ses habitants autant que pour ses monuments. Un vigneron qui ouvre une bouteille de votre année de naissance, un conservateur qui vous laisse seuls dans une salle : ce sont eux qui font le voyage. Mon travail consiste à vous asseoir à leur table.",
+          "J'aime l'Italie pour ses habitants autant que pour ses monuments. Un vigneron qui ouvre une bouteille de votre année de naissance, un conservateur qui vous laisse seuls dans une salle : ce sont eux qui font le voyage. Je vous fais asseoir à leur table.",
         role: "Travel Designer · Italie",
       },
       features: defaultSpotlightFeatures,

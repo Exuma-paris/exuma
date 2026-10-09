@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina", // TODO: replace with a real verbatim from Tainà (was Élise placeholder)
         // TODO: verify quote attribution
         quote:
-          "Rome se trompe d'effet. La première fois, tout le monde court : Sixtine, Colisée, Trevi, Trevi encore. Ce qui marque vraiment, c'est ce qu'on voit la deuxième fois, en marchant sans rien chercher. C'est cette deuxième Rome qu'on essaie d'inscrire au premier voyage.",
+          "À Rome, la première fois, tout le monde court : chapelle Sixtine, Colisée, fontaine de Trevi. Ce qui marque vraiment, c'est la ville que l'on découvre en marchant sans rien chercher. J'essaie de faire une place à cette Rome-là dès le premier voyage.",
         role: "Travel Designer · Italie", // TODO: verify
       },
       features: defaultSpotlightFeatures,

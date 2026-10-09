@@ -60,7 +60,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Saint-Barth est une île qu'on finit par appeler la sienne. En quelques jours, on a sa plage du matin, sa table du soir, et son coin d'ombre pour la sieste. Les voyageurs me redemandent souvent les mêmes dates l'année suivante, simplement pour retrouver ça. J'écris les séjours de façon à ce que ces habitudes aient le temps de naître.",
+          "Saint-Barth est une île qu'on finit par appeler la sienne. En quelques jours, on a sa plage du matin, sa table du soir et son coin d'ombre pour la sieste. Beaucoup de voyageurs me redemandent les mêmes dates l'année suivante, pour retrouver ces habitudes.",
         role: "Travel Designer · Saint-Barthélemy",
       },
       features: defaultSpotlightFeatures,

@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: faire valider ce verbatim par Carole Galvier avant publication
         quote:
-          "Aux États-Unis, je préfère organiser les moments que l'on ne peut pas réserver soi-même : un canyon navajo ouvert pour vous seuls au lever du jour, un chai de la Napa où le vigneron vous reçoit, une galerie du Metropolitan Museum avant l'arrivée du public. Le reste du voyage se construit autour de ces rendez-vous privés.",
+          "Aux États-Unis, j'organise les moments que l'on ne peut pas réserver soi-même : un canyon navajo au lever du jour pour vous seuls, un chai de la Napa où le vigneron vous reçoit, le Metropolitan Museum avant l'ouverture. Le reste du voyage se construit autour.",
         role: "Travel Designer · États-Unis",
       },
       features: defaultSpotlightFeatures,

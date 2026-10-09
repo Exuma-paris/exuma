@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "L'Arabie saoudite n'accueille des voyageurs que depuis 2019, et on y est encore reçu avec curiosité : on vous invite à vous asseoir, on vous ressert du café à la cardamome. À AlUla, je fais entrer à Hegra tôt le matin, quand les tombeaux sont à l'ombre et que le guide a le temps de tout expliquer. Idéal pour un voyage à deux générations.",
+          "L'Arabie saoudite n'accueille des voyageurs que depuis 2019, et on y est reçu avec curiosité, autour d'un café à la cardamome. À AlUla, j'organise l'entrée à Hegra tôt le matin, quand les tombeaux sont à l'ombre et que le guide a le temps de tout expliquer.",
         role: "Travel Designer · Arabie Saoudite",
       },
       features: defaultSpotlightFeatures,

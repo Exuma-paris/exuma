@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La première fois que je suis descendu dans la tombe de Séti Ier, les bleus du plafond m'ont frappé : ce sont les couleurs d'origine, plus vives que tout ce que j'avais vu en musée. Je garde la rive ouest de Louxor pour la fin, après Karnak. Sur le Nil, je laisse deux nuits libres entre Edfou et Assouan : ce sont celles dont on me reparle.",
+          "Dans la tombe de Séti Ier, les bleus du plafond m'ont frappé : ce sont les couleurs d'origine, plus vives que tout ce que j'avais vu en musée. Je garde la rive ouest de Louxor pour après Karnak. Sur le Nil, je laisse deux nuits libres entre Edfou et Assouan.",
         role: "Travel Designer · Égypte",
       },
       features: defaultSpotlightFeatures,

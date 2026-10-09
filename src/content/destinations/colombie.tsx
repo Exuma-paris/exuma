@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "La Colombie ne se raconte pas avec une seule image de Carthagène. Il y a la cordillère, le Pacifique, l'Amazonie qui commence à Leticia : trois mondes que l'on ne relie qu'en connaissant les bons vols intérieurs et les bons contacts sur place. Mon travail, c'est de construire cette logique avant qu'elle ne devienne un inventaire de villes.",
+          "La Colombie ne se résume pas à Carthagène. Il y a la cordillère, la côte Pacifique et l'Amazonie autour de Leticia : trois mondes très différents, que je relie grâce aux bons vols intérieurs et aux bons contacts sur place, pour construire un voyage cohérent.",
       },
       features: defaultSpotlightFeatures,
     },

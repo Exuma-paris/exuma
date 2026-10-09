@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Le Chili se parcourt du nord au sud, et tout se joue dans le dosage des étapes : trois jours de trop dans le désert, et l'on arrive fatigué en Patagonie, où le vent est rude. Je travaille avec des guides que je connais depuis dix ans, à San Pedro comme à Puerto Natales. Ils nous ouvrent des estancias et des caves fermées au public.",
+          "Le Chili se parcourt du nord au sud, et tout se joue dans le dosage des étapes : trop de jours dans le désert, et l'on arrive fatigué en Patagonie. Mes guides, à San Pedro comme à Puerto Natales, nous ouvrent des estancias et des caves fermées au public.",
         role: "Travel Designer · Chili",
       },
       features: defaultSpotlightFeatures,

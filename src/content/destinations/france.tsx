@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Mes clients ont souvent fait le tour du monde avant de voyager en France. Et puis un matin, ils s’arrêtent devant un château qui sort de la brume ou devant une table dressée au milieu des vignes, et je vois quelque chose se dénouer chez eux. C’est ce moment-là que je cherche à chaque fois. Tout le reste du voyage vient s’organiser autour.",
+          "Mes clients ont souvent fait le tour du monde avant de voyager en France. Puis un matin, ils découvrent un château qui sort de la brume ou une table dressée dans les vignes, et je les vois se détendre. C’est ce moment que je cherche à chaque voyage.",
         role: "Travel Designer · France",
       },
       features: defaultSpotlightFeatures,

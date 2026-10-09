@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Dans les Caraïbes, chaque île garde son caractère. À Saint-Barthélemy, les restaurateurs reconnaissent leurs habitués. Dans les Grenadines, le capitaine choisit une baie au petit matin. À Sainte-Lucie, un guide du village vous fait découvrir sa montagne. Je relie les îles par la mer, pour que chaque traversée reste un plaisir.",
+          "Dans les Caraïbes, chaque île garde son caractère. Dans les Grenadines, le capitaine choisit une baie au petit matin. À Sainte-Lucie, un guide du village vous fait découvrir sa montagne. Je relie les îles par la mer, et chaque traversée devient un plaisir.",
         role: "Travel Designer · Caraïbes",
       },
       features: defaultSpotlightFeatures,

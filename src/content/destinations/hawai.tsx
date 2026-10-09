@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "À Hawaï, chaque île offre une expérience différente. On croit partir pour des plages, et l'on rentre en parlant d'un sommet glacé au-dessus des nuages, d'une vallée où une famille vous a reçus, d'un ranch où l'on monte à cheval comme autrefois. Mon travail consiste à enchaîner les îles dans le bon ordre, pour que chacune vous surprenne.",
+          "À Hawaï, chaque île offre une expérience différente. On part pour les plages, et l'on rentre en parlant d'un sommet au-dessus des nuages, d'une famille qui vous a reçus dans sa vallée, d'un ranch où l'on monte à cheval. J'enchaîne les îles dans le bon ordre.",
         role: "Travel Designer · Hawaï",
       },
       features: defaultSpotlightFeatures,

@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "J'aime le Portugal pour sa douceur. On passe d'une ville à un vignoble, puis à une plage, sans jamais avoir l'impression de courir. Les gens vous accueillent simplement, et c'est souvent de cela que l'on se souvient en rentrant. Mon travail consiste à choisir le bon moment pour chaque étape.",
+          "J'aime le Portugal pour sa douceur. On passe d'une ville à un vignoble, puis à une plage, sans jamais avoir l'impression de courir. Les gens vous accueillent simplement, et c'est souvent ce dont on se souvient. Je choisis le bon moment pour chaque étape.",
         role: "Travel Designer · Portugal",
       },
       features: defaultSpotlightFeatures,

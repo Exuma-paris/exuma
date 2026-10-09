@@ -55,7 +55,7 @@ export const destination: Destination = {
         collaborateurSlug: "ludivine",
         // TODO: replace with a real verbatim from Ludivine (was Élise placeholder)
         quote:
-          "Paris se traverse trois fois avant de commencer à comprendre. Mon rôle, c'est d'écrire la première traversée, les bonnes heures, les bons quartiers, les portes qui ne s'ouvrent pas pour tout le monde. Et de laisser la deuxième et la troisième pour les fois suivantes.",
+          "Paris ne se comprend pas en une seule visite. Mon rôle est de préparer la première : les bonnes heures, les bons quartiers et quelques portes qui ne s'ouvrent pas pour tout le monde. Le reste, on le garde pour les séjours suivants.",
       },
       features: [
         {

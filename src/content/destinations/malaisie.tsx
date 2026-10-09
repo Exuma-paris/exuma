@@ -55,7 +55,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La Malaisie surprend ceux qui pensent la connaître par la Thaïlande ou le Vietnam. On quitte Kuala Lumpur le matin et, le soir même, on remonte la rivière Kinabatangan à la lampe torche pour repérer les crocodiles. D'un côté une capitale très moderne, de l'autre l'une des dernières forêts primaires d'Asie, où vit encore l'orang-outan.",
+          "La Malaisie surprend ceux qui la connaissent par la Thaïlande ou le Vietnam. On quitte Kuala Lumpur, capitale très moderne, puis on remonte la Kinabatangan à la lampe torche, à Bornéo, dans l'une des dernières forêts primaires d'Asie, où vit l'orang-outan.",
         role: "Travel Designer · Malaisie",
       },
       features: defaultSpotlightFeatures,

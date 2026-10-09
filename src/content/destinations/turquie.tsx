@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: replace with a real verbatim from Stéphane
         quote:
-          "La Turquie demande qu'on lui laisse du temps. Istanbul a besoin de quelques jours pour cesser d'être une image et devenir une ville familière. La Cappadoce se donne au lever du jour, et la côte lycienne se savoure depuis un bateau. Mon travail consiste à mettre ces moments dans le bon ordre, et à vous ouvrir les portes au moment où personne d'autre n'est là.",
+          "La Turquie demande du temps. Istanbul a besoin de quelques jours pour devenir familière, la Cappadoce se découvre au lever du jour et la côte lycienne depuis un bateau. Je mets ces étapes dans le bon ordre, avec des visites aux heures calmes.",
         role: "Travel Designer · Turquie",
       },
       features: defaultSpotlightFeatures,

@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "La plupart des voyageurs ne voient que la côte est, celle des resorts. Il y a une autre République dominicaine, une heure plus au nord : la baie de Samaná, les mangroves de Los Haitises, une plantation de cacao qu'on visite encore à l'ancienne. Mon travail, c'est de faire tenir les deux côtes dans un même itinéraire, sans que l'un efface l'autre.",
+          "La plupart des voyageurs ne voient que la côte est et ses resorts. Plus au nord, il y a la baie de Samaná, les mangroves de Los Haitises et une plantation de cacao qu'on visite encore à l'ancienne. Je fais tenir les deux côtes dans un même itinéraire.",
         role: "Travel Designer · République dominicaine",
       },
       features: [

@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "En Irlande, on vient pour les paysages et l'on rentre en parlant des gens : on entre dans un pub pour un verre, quelqu'un se met à raconter, et la soirée est faite. Ma région préférée est l'ouest, entre le Connemara et le Kerry. Les plus belles adresses y sont des maisons de famille, où l'on dîne comme chez des amis.",
+          "En Irlande, on vient pour les paysages et l'on rentre en parlant des gens : on entre au pub pour un verre, quelqu'un se met à raconter, et la soirée est faite. Je préfère l'ouest, du Connemara au Kerry, où les belles adresses sont des maisons de famille.",
         role: "Travel Designer · Irlande",
       },
       features: defaultSpotlightFeatures,

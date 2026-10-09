@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Au Botswana, on voyage de camp en camp à travers trois milieux : les eaux du delta de l'Okavango, les plaines de la Gomoti, puis les étendues salines du Makgadikgadi, en bateau comme à pied. Le pays limite le nombre de lits sur chaque concession, donc on croise très peu de véhicules. C'est un safari riche, sans la foule.",
+          "Au Botswana, on va de camp en camp entre les eaux du delta de l'Okavango et les étendues salines du Makgadikgadi, en bateau comme à pied. Le pays limite le nombre de lits par concession, donc on croise très peu de véhicules : un safari riche, sans la foule.",
         role: "Travel Designer · Botswana",
       },
       features: defaultSpotlightFeatures,

@@ -60,7 +60,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "En Indonésie, Bali concentre la demande, et le sud de l'île en souffre. Je commence par Java et ses volcans, puis je reprends Bali par l'intérieur, autour d'Ubud. Komodo se découvre en phinisi, un voilier traditionnel de Sulawesi : deux nuits à bord évitent une semaine de trajets. On termine à Sumba, l'île la moins visitée des quatre.",
+          "En Indonésie, je commence par Java et ses volcans, puis je fais découvrir Bali par l'intérieur, autour d'Ubud, loin du sud saturé. Komodo se visite en phinisi, un voilier traditionnel, deux nuits à bord. On termine à Sumba, l'île la moins visitée.",
         role: "Travel Designer · Indonésie",
       },
       features: defaultSpotlightFeatures,

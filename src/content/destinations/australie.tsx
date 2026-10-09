@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: replace with a real verbatim from Tainà
         quote:
-          "L'Australie surprend ceux qui croient la connaître par ses images. Ce qui reste, ce n'est pas l'opéra de Sydney, c'est le froid du désert à cinq heures du matin et la voix d'un guide anangu qui raconte sa terre. Le pays demande du temps, et il le rend à ceux qui acceptent de ralentir.",
+          "L'Australie surprend ceux qui croient la connaître par ses images. Ce qui reste, c'est le froid du désert à cinq heures du matin et la voix d'un guide anangu qui raconte sa terre. Le pays demande du temps, alors je construis des voyages sans précipitation.",
       },
       features: defaultSpotlightFeatures,
     },

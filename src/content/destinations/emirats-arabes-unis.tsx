@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Les Émirats se révèlent quand on prend le temps de les regarder autrement. Une réserve de désert où seuls les hôtes entrent, un musée que l'on traverse avant l'arrivée du public, un fauconnier qui vous reçoit chez lui. Ce sont ces portes-là que nous ouvrons, et elles font tout le voyage.",
+          "Aux Émirats, le voyage change quand on sort des circuits habituels : une réserve de désert réservée aux hôtes, un musée visité avant l'arrivée du public, un fauconnier qui vous reçoit chez lui. Ce sont ces accès privilégiés que j'organise pour vous.",
         role: "Travel Designer · Émirats arabes unis",
       },
       features: defaultSpotlightFeatures,

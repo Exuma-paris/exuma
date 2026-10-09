@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Le Pérou se découvre à son rythme. À Cusco, les premiers jours d'acclimatation font pleinement partie du voyage : ils permettent de prendre le temps de s'adapter à l'altitude, de profiter pleinement de chaque étape et de savourer ce qui suit, jusqu'au premier matin devant le Machu Picchu.",
+          "Au Pérou, je commence toujours par quelques jours à Cusco. Ils font partie du voyage : on s'adapte à l'altitude, puis on profite pleinement de chaque étape, jusqu'au premier matin devant le Machu Picchu. C'est le rythme que je conseille à tous mes voyageurs.",
         role: "Travel Designer · Pérou",
       },
       features: defaultSpotlightFeatures,

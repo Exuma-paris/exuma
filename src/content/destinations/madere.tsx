@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Madère surprend toujours. On vient pour la douceur du climat, on repart avec le souvenir d'un matin dans la brume, d'un sentier au-dessus des nuages, d'une table dressée au milieu des vignes. Mon travail consiste à placer ces moments au bon endroit, au bon moment.",
+          "Madère surprend toujours. On vient pour la douceur du climat, on repart avec le souvenir d'un matin dans la brume, d'un sentier au-dessus des nuages, d'une table dressée au milieu des vignes. Mon travail consiste à placer ces moments au bon endroit du séjour.",
         role: "Travel Designer · Madère",
       },
       features: defaultSpotlightFeatures,

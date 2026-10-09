@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Oman n'a jamais couru après le voyageur. C'est ce qui le rend précieux aujourd'hui. On peut encore y dresser un campement dans les dunes pour une seule famille, dormir au bord d'une gorge sans apercevoir une autre terrasse, traverser un souk sans que personne ne vous appelle. Ce pays se donne à ceux qui prennent le temps.",
+          "Oman n'a jamais couru après le voyageur, et c'est ce qui le rend précieux. On peut y dresser un campement dans les dunes pour une seule famille, dormir au bord d'une gorge sans voir une autre terrasse, traverser un souk sans que personne ne vous interpelle.",
         role: "Travel Designer · Oman",
       },
       features: defaultSpotlightFeatures,

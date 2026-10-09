@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime aux Philippines, c'est qu'on n'y arrive jamais tout à fait par hasard. Il faut vouloir cette île-là, prendre le petit avion qui s'y pose, monter dans le bateau qui attend au bout de la plage, et c'est précisément ce chemin qui rend l'arrivée si douce. Je construis les voyages pour que ce moment-là existe, à chaque étape.",
+          "Aux Philippines, on n'arrive jamais sur une île par hasard. On prend un petit avion, puis le bateau qui attend au bout de la plage, et c'est ce chemin qui rend l'arrivée si douce. J'organise chaque étape pour que ces trajets fassent partie du voyage.",
         role: "Travel Designer · Philippines",
       },
       features: defaultSpotlightFeatures,

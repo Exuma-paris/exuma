@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Tainà porte déjà le Panama, le Costa Rica et la Colombie)
         // TODO: verify quote attribution — à faire valider par Tainà avant mise en ligne
         quote:
-          "Ce que je conseille toujours, c'est de commencer par les hauteurs. Deux nuits dans les Blue Mountains avant de descendre à la mer : on dort sous une couverture, on se réveille dans la brume, et la plage qui suit n'a plus le même goût. Presque personne ne fait le voyage dans cet ordre.",
+          "En Jamaïque, je conseille toujours de commencer par les hauteurs : deux nuits dans les Blue Mountains avant de descendre à la mer. On dort sous une couverture, on se réveille dans la brume, et la plage qui suit n'a plus du tout le même goût.",
         role: "Travel Designer · Jamaïque",
       },
       features: defaultSpotlightFeatures,

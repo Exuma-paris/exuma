@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime au Cambodge, c'est que le pays ne se donne jamais tout de suite. Il faut être là quand le jour se lève, laisser le guide raconter, accepter de revenir au même temple pour qu'il finisse par s'ouvrir. Je construis les voyages de façon à ce que ces moments-là arrivent.",
+          "Au Cambodge, il faut être aux temples quand le jour se lève, laisser le guide raconter et parfois revenir au même endroit pour vraiment le comprendre. Je construis les voyages pour que ces moments arrivent, en prenant le temps à chaque étape.",
         role: "Travel Designer · Cambodge",
       },
       features: defaultSpotlightFeatures,

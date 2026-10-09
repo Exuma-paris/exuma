@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Sainte-Lucie ne ressemble pas à l'idée qu'on se fait des Antilles. Mes voyageurs partent pour la mer et me rappellent au retour en me parlant de la forêt, des sources chaudes et du guide qui les a emmenés au Gros Piton avant le jour. Je garde toujours une matinée dans la montagne et l'après-midi dans l'eau, parce que c'est là que l'île est la plus belle.",
+          "Sainte-Lucie ne ressemble pas à l'idée qu'on se fait des Antilles. Mes voyageurs partent pour la mer et me parlent au retour de la forêt, des sources chaudes et de la montée au Gros Piton avant le jour. Je prévois toujours une matinée en montagne.",
         role: "Travel Designer · Sainte-Lucie",
       },
       features: defaultSpotlightFeatures,

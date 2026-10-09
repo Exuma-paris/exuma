@@ -56,7 +56,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: replace with a real verbatim from Stéphane (was Antoine placeholder)
         quote:
-          "La Corse ne se visite pas en quatre jours. Elle se traverse, du Cap Corse au Sartenais, dans le rythme des bergeries et des passes. Mon travail, c'est d'inscrire les bonnes heures dans cet itinéraire, celle où la lumière tombe sur Bonifacio, celle où le vigneron sort sa cuvée d'avant.",
+          "La Corse ne se visite pas en quatre jours, elle se traverse, du Cap Corse au Sartenais, au rythme des bergeries et des cols. J'organise l'itinéraire pour être au bon endroit au bon moment : Bonifacio en fin de journée, une dégustation chez un vigneron.",
       },
       features: [
         {

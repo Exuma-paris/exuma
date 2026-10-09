@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Au Royaume-Uni, les plus belles adresses passent par une recommandation. Une maison de famille du Deeside n'a pas d'enseigne, certains tailleurs de Savile Row reçoivent sur présentation, et les meilleurs parcours de pêche de la Spey se réservent tôt. Mon travail est d'obtenir ces accès, et que l'on vous y reçoive comme des proches.",
+          "Au Royaume-Uni, les plus belles adresses passent par une recommandation : une maison de famille du Deeside sans enseigne, un tailleur de Savile Row qui reçoit sur présentation, un parcours de pêche sur la Spey. J'obtiens ces accès pour vous.",
         role: "Travel Designer · Royaume-Uni",
       },
       features: defaultSpotlightFeatures,

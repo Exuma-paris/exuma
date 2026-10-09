@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "En Écosse, une heure et demie de route suffit pour changer complètement de paysage : la vallée de la Tweed, le Speyside et l'île de Skye ne se ressemblent en rien. Je conseille toujours de rester trois nuits au même endroit plutôt que de tout enchaîner. C'est là qu'un propriétaire vous propose de visiter sa bibliothèque ou son jardin.",
+          "En Écosse, une heure et demie de route suffit pour changer de paysage : la vallée de la Tweed, le Speyside et l'île de Skye ne se ressemblent en rien. Je conseille trois nuits au même endroit. Un propriétaire finit alors par vous ouvrir sa bibliothèque.",
         role: "Travel Designer · Écosse",
       },
       features: defaultSpotlightFeatures,

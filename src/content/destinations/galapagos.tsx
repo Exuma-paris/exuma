@@ -60,7 +60,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Aux Galápagos, le bateau n'est pas un hébergement, c'est l'itinéraire. Je choisis l'embarcation et l'ordre des îles avant tout le reste, parce que le nombre de sites autorisés par jour est fixe et ne se négocie pas. Une fois ce squelette posé, tout le confort vient se greffer autour.",
+          "Aux Galápagos, le bateau, c'est l'itinéraire. Je choisis l'embarcation et l'ordre des îles avant tout le reste, car les sites visités chaque jour sont fixés par le parc et ne se négocient pas. Le confort vient ensuite se greffer autour de ce choix.",
         role: "Travel Designer · Galápagos",
       },
       features: defaultSpotlightFeatures,

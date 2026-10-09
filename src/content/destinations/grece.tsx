@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "La Grèce, tout le monde croit la connaître avant d'y aller. L'Acropole, une île blanche, un coucher de soleil. Le voyage commence quand on remplace ces images par un ordre : quelle île avant quelle autre, à quelle heure on entre sur un site, où l'on dîne le soir où l'on ne veut voir personne. C'est ce travail-là que nous faisons.",
+          "La Grèce, tout le monde croit la connaître, avec l'Acropole, une île blanche et un coucher de soleil. Mon travail est de mettre le voyage dans le bon ordre : quelle île avant quelle autre, à quelle heure entrer sur un site, où dîner tranquillement le soir.",
         role: "Travel Designer · Grèce",
       },
       features: defaultSpotlightFeatures,

@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "La Suisse a la réputation d’être facile. Elle l’est, jusqu’au jour où l’on veut autre chose que ce qui se réserve en ligne. Une maison au bout d’une route de montagne, un atelier d’horloger qui ouvre pour vous seuls, une cabane d’altitude gardée pour une seule famille. Ces adresses-là se transmettent, et c’est notre métier de les connaître.",
+          "La Suisse a la réputation d’être facile, jusqu’au jour où l’on veut autre chose que ce qui se réserve en ligne : une maison au bout d’une route de montagne, un atelier d’horloger ouvert pour vous seuls, une cabane d’altitude gardée pour une seule famille.",
         role: "Travel Designer · Suisse",
       },
       features: defaultSpotlightFeatures,

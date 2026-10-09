@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Le Serengeti est très demandé, mais sa partie occidentale reste peu fréquentée. On y séjourne sur une concession gérée par un seul opérateur. La migration y passe plusieurs semaines avant de rejoindre le Kenya : on vit le même spectacle, plus tôt dans la saison et avec bien moins de véhicules. C'est ce Serengeti plus calme que je propose.",
+          "Le Serengeti est très demandé, mais sa partie ouest reste peu fréquentée. La migration y passe plusieurs semaines : on vit le même spectacle avec bien moins de véhicules. C'est ce Serengeti plus calme que je propose, sur une concession privée.",
         role: "Travel Designer · Tanzanie",
       },
       features: defaultSpotlightFeatures,

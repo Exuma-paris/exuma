@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "La Suède n'est pas un pays qui se visite d'un bloc. L'archipel de Stockholm se découvre en bateau, l'été, quand les jours ne finissent presque pas. La Laponie se découvre en hiver, en traîneau, quand la nuit ne finit pas non plus. Je commence toujours par vous demander laquelle des deux vous appelle, avant de construire l'itinéraire.",
+          "La Suède ne se visite pas d'un bloc. L'archipel de Stockholm se découvre en bateau, l'été, quand les jours ne finissent presque pas. La Laponie se découvre en hiver, en traîneau. Je commence toujours par vous demander laquelle des deux vous attire.",
         role: "Travel Designer · Suède",
       },
       features: [

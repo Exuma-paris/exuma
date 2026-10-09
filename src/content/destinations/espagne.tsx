@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "On croit connaître l'Espagne parce qu'on y est déjà allé, un week-end à Barcelone ou un été au bord de la mer. Le voyage commence vraiment quand on accepte de ralentir et de n'en garder que quelques régions : le nord pour la table, l'Andalousie pour les palais, une île pour finir. Tout le reste, ce sont des portes que l'on fait ouvrir pour vous.",
+          "On croit connaître l'Espagne après un week-end à Barcelone ou un été à la mer. Le vrai voyage commence quand on ralentit et qu'on choisit quelques régions : le nord pour la table, l'Andalousie pour les palais, une île pour finir.",
         role: "Travel Designer · Espagne",
       },
       features: defaultSpotlightFeatures,

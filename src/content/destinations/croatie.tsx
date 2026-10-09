@@ -56,7 +56,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "En Croatie, je conseille de découvrir la côte dalmate par la mer. En voilier avec skipper, les îles Kornati, inaccessibles par la route, deviennent le cœur du voyage et non une simple excursion à la journée. Je construis l'itinéraire autour d'une base fixe, Dubrovnik ou Split, et c'est la météo du jour qui décide du mouillage.",
+          "En Croatie, je conseille de découvrir la côte dalmate par la mer. En voilier avec skipper, les îles Kornati deviennent le cœur du voyage, et non une simple excursion à la journée. On part d'un port fixe, et c'est la météo du jour qui décide du mouillage.",
       },
       features: defaultSpotlightFeatures,
     },

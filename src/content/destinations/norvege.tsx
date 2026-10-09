@@ -57,7 +57,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Taïna choisie par le client, spécialité Norvège à confirmer)
         // TODO: verify quote attribution
         quote:
-          "En Norvège, tout dépend de la date. Les mêmes fjords ne donnent pas la même chose en février et en juin. La lumière change, les routes ouvrent ou ferment, les bateaux sortent ou restent à quai. Je commence donc toujours par les dates, jamais par la carte. Ensuite seulement, je choisis entre l'ouest et le nord.",
+          "En Norvège, tout dépend de la date. Les fjords ne donnent pas la même chose en février et en juin : la lumière change, des routes ferment, des bateaux restent à quai. Je commence donc toujours par les dates, puis je choisis entre l'ouest et le nord.",
         role: "Travel Designer · Norvège",
       },
       features: [

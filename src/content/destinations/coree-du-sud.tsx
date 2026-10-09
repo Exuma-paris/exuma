@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution : à faire valider par Stéphane avant mise en ligne
         quote:
-          "La Corée du Sud surprend vite. On arrive à Séoul, une ville de verre, et le lendemain on dort dans une maison traditionnelle en bois, avec le sol chauffé sous les pieds. Ma région préférée est le sud, autour de Gyeongju, où le rythme ralentit vraiment. Au retour, mes voyageurs me parlent rarement d'un monument : ils me parlent d'un repas.",
+          "La Corée du Sud surprend vite. On arrive à Séoul, ville de verre, et le lendemain on dort dans une maison traditionnelle en bois, le sol chauffé sous les pieds. Au retour, mes voyageurs me parlent rarement d'un monument : ils me parlent d'un repas.",
         role: "Travel Designer · Corée du Sud",
       },
       features: defaultSpotlightFeatures,

@@ -61,7 +61,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Au Monténégro, mon premier conseil est de ne pas chercher à tout voir trop vite. On peut découvrir la baie de Kotor en une journée, mais je recommande d'y passer plus de temps : prendre la route, s'arrêter dans un village, déjeuner face à la baie, puis monter vers les montagnes. C'est à ce rythme que le pays se révèle vraiment.",
+          "Au Monténégro, je conseille de ne pas aller trop vite. La baie de Kotor se visite en une journée, mais elle mérite plus : prendre la route, s'arrêter dans un village, déjeuner face à la baie, puis monter vers les montagnes. C'est là que le pays se révèle.",
       },
       features: defaultSpotlightFeatures,
     },

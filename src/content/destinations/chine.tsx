@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution : à faire valider par Stéphane avant mise en ligne
         quote:
-          "La Chine change de visage tous les trois jours. On dîne dans une maison de brique de Shanghai, et la semaine suivante on partage le repas d'une famille dong sur une crête du Guizhou. Ce que je propose presque toujours, c'est l'axe du nord, Pékin et Xi'an, puis une descente vers le sud-ouest. C'est là que le voyage devient une histoire à raconter.",
+          "La Chine change de visage tous les trois jours. On dîne dans une maison de brique de Shanghai, puis on partage le repas d'une famille dong dans les montagnes du Guizhou. Je propose souvent Pékin et Xi'an au nord, puis une descente vers le sud-ouest.",
         role: "Travel Designer · Chine",
       },
       features: defaultSpotlightFeatures,

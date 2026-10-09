@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Le Mexique gagne à être pris sans hâte. On peut enchaîner une pyramide, une plage et une baignade en quelques jours, et rentrer sans avoir rien goûté de ce qui fait ce pays. Je préfère choisir trois régions et les laisser respirer. C'est là qu'on le rencontre vraiment, dans une cuisine d'Oaxaca ou sous les arcades d'une hacienda du Yucatán.",
+          "Le Mexique gagne à être pris sans hâte. Plutôt que d'enchaîner pyramide, plage et baignade en quelques jours, je choisis trois régions et je les laisse respirer. On rencontre alors le pays, dans une cuisine d'Oaxaca ou une hacienda du Yucatán.",
         role: "Travel Designer · Mexique",
       },
       features: defaultSpotlightFeatures,

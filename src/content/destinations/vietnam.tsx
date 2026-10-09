@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Au Vietnam, la route principale ne montre qu'une partie du pays. Entre Hanoï et Hué, je prévois du temps pour une nuit en jonque dans une crique de la baie de Lan Ha, puis pour la cité impériale de Hué, que peu de voyageurs prennent le temps de comprendre. Mon travail est d'inscrire ces moments dans l'itinéraire.",
+          "Au Vietnam, la route principale ne montre qu'une partie du pays. Entre Hanoï et Hué, je prévois une nuit en jonque dans une crique de la baie de Lan Ha, puis du temps pour la cité impériale de Hué, que peu de voyageurs prennent le temps de comprendre.",
         role: "Travel Designer · Vietnam",
       },
       features: [

@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Rapa Nui ne ressemble à aucune autre étape chilienne : on y parle une langue polynésienne, on y mange le poisson sorti de terre, et l'océan tient tout autour sans jamais laisser voir autre chose. Je place cette étape en fin de voyage, quand on est prêt à ralentir. C'est là qu'elle fait son effet.",
+          "Rapa Nui ne ressemble à aucune autre étape chilienne : on y parle une langue polynésienne, on y vit au rythme de l'île, et l'océan est partout autour. Je place cette étape en fin de voyage, quand on est prêt à ralentir. C'est là qu'elle fait le plus d'effet.",
         role: "Travel Designer · Île de Pâques",
       },
       features: defaultSpotlightFeatures,

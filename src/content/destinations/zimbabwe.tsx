@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution — à faire valider par Carole avant mise en ligne
         quote:
-          "Le Zimbabwe a l'école de guides la plus exigeante d'Afrique, et ça change tout sur le terrain. Un guide professionnel y passe des années d'examens avant d'avoir le droit de marcher devant des clients. On ne regarde pas les animaux de la même façon quand on est à pied, avec quelqu'un de ce niveau.",
+          "Le Zimbabwe forme des guides parmi les plus exigeants d'Afrique. Un guide professionnel passe des années d'examens avant de pouvoir marcher devant des clients. À pied, avec quelqu'un de ce niveau, on ne regarde plus les animaux de la même façon.",
         role: "Travel Designer · Zimbabwe",
       },
       features: defaultSpotlightFeatures,

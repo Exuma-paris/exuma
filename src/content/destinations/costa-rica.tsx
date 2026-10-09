@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: reformulation du compte rendu d'éductour de Tainà (30 avril au 8 mai) — à faire valider par elle avant mise en ligne
         quote:
-          "Au Costa Rica, le luxe se mesure à l'accès à la nature plus qu'au marbre de la salle de bains. Les meilleures adresses sont des écolodges de peu de chambres, avec une terrasse sur la canopée, un sentier privé vers une cascade et un guide naturaliste attitré. Je prévois quinze jours, avec de vraies journées sans transfert.",
+          "Au Costa Rica, le luxe, c'est l'accès à la nature. J'aime les écolodges de peu de chambres, avec une terrasse sur la canopée, un sentier privé vers une cascade et un guide naturaliste. Je prévois quinze jours, avec de vraies journées sans transfert.",
         role: "Travel Designer · Costa Rica",
       },
       features: defaultSpotlightFeatures,

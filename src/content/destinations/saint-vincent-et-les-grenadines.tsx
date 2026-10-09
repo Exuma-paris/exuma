@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "On vient rarement ici pour une seule île. Les traversées durent une heure, parfois moins, et l'on finit par vivre au rythme du bateau plutôt qu'à celui des journées. Je construis les séjours autour de ce mouvement : une maison où revenir le soir, et des îles que l'on va chercher le matin. C'est ce qui fait que personne ne compte plus les jours.",
+          "On vient rarement ici pour une seule île. Les traversées durent une heure, parfois moins, et l'on vit vite au rythme du bateau. Je construis les séjours autour de ce mouvement : une maison où revenir le soir, et des îles que l'on va découvrir le matin.",
         role: "Travel Designer · Saint-Vincent-et-les-Grenadines",
       },
       features: defaultSpotlightFeatures,

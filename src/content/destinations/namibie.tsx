@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "En Namibie, on traverse en douze jours des paysages très différents : l'argile blanche de Deadvlei, les galets noirs du Kaokoland, le sable rouge du Kalahari. Les camps n'ont que huit à dix tentes sur d'immenses concessions privées. C'est le pays où l'on peut rouler trois jours sans croiser personne.",
+          "En douze jours, on passe de l'argile blanche de Deadvlei aux galets noirs du Kaokoland et au sable rouge du Kalahari. Les camps n'ont que huit à dix tentes, sur d'immenses concessions. On peut rouler trois jours sans croiser personne.",
         role: "Travel Designer · Namibie",
       },
       features: defaultSpotlightFeatures,

@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime en Argentine, c'est que rien ne s'y laisse survoler. Il faut consentir aux distances, accepter que le vent de Patagonie décide parfois à votre place, et ce sont précisément ces heures-là que l'on garde en rentrant. Je construis les voyages de façon à ce qu'elles arrivent.",
+          "En Argentine, les distances sont immenses et je ne cherche pas à les survoler. En Patagonie, c'est parfois le vent qui décide du programme de la journée. Ce sont souvent ces heures sur la route que l'on garde en rentrant, alors je leur laisse de la place.",
         role: "Travel Designer · Argentine",
       },
       features: defaultSpotlightFeatures,

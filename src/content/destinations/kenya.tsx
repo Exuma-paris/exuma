@@ -64,7 +64,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Le Kenya, c'est l'un des rares pays où un même voyage peut commencer dans une concession privée du Masaï Mara, sans un autre camp visible à l'horizon, et se terminer sur une plage de l'océan Indien en moins d'une heure de vol domestique. Ce que nous construisons ici, c'est cette continuité. Pas une juxtaposition de destinations.",
+          "Au Kenya, un même voyage peut commencer dans une concession privée du Masaï Mara, sans autre camp visible à l'horizon, et se terminer sur une plage de l'océan Indien. Un vol intérieur relie la savane à la mer, et je construis le voyage sur cette continuité.",
         role: "Travel Designer · Kenya",
       },
       features: defaultSpotlightFeatures,

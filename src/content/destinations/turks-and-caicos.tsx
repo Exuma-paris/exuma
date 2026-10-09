@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ici, on ne suit pas un programme, on suit la mer. Je laisse trois options par journée et le capitaine tranche le matin selon le vent : le tombant de West Caicos si c'est calme, les hauts-fonds du nord sinon. Ceux qui aiment cette destination sont ceux qui acceptent de ne pas savoir la veille.",
+          "Ici, on suit la mer plus qu'un programme. Je prévois trois options par journée et le capitaine choisit le matin selon le vent : le tombant de West Caicos si c'est calme, les hauts-fonds du nord sinon. Il faut aimer ne pas savoir la veille ce que l'on fera.",
         role: "Travel Designer · Turks and Caicos",
       },
       features: defaultSpotlightFeatures,

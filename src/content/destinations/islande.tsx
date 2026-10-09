@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Taïna suit déjà la Norvège)
         // TODO: verify quote attribution
         quote:
-          "L'Islande se parcourt sur une seule route, ce qui rend le voyage très simple. On marche sur un glacier le matin et on se baigne dans une source chaude l'après-midi. En hiver, on visite les grottes de glace et on guette les aurores. En été, les pistes de l'intérieur s'ouvrent et les nuits restent claires. Chaque saison donne un autre pays.",
+          "L'Islande se parcourt sur une seule route. On marche sur un glacier le matin et on se baigne dans une source chaude l'après-midi. L'hiver, on visite les grottes de glace et on guette les aurores. L'été, les pistes de l'intérieur s'ouvrent.",
         role: "Travel Designer · Islande",
       },
       features: [

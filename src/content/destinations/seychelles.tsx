@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Aux Seychelles, la difficulté n'est pas de trouver une belle plage. Elles le sont toutes. La difficulté, c'est de savoir laquelle correspond à qui voyage, et dans quel ordre relier les îles pour que rien ne se ressemble. Une famille avec des enfants ne vit pas Praslin comme un couple qui vient se taire. C'est ce travail-là que je fais.",
+          "Aux Seychelles, toutes les plages sont belles. Mon travail, c'est de savoir laquelle correspond à chaque voyageur, et dans quel ordre relier les îles. Une famille avec des enfants ne vit pas Praslin comme un couple en quête de calme.",
         role: "Travel Designer · Seychelles",
       },
       features: [

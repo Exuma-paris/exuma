@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime en Uruguay, c'est cette façon qu'a le pays de ne rien précipiter. Le feu de midi rassemble la maison, le mate passe de main en main, et l'on finit par adopter ce rythme sans même y penser. Je veille surtout à ce que les plus belles adresses vous soient ouvertes en dehors des heures, comme si vous étiez reçus chez des amis.",
+          "Ce que j'aime en Uruguay, c'est que rien n'y est précipité. Le feu de midi rassemble la maison, le mate passe de main en main, et l'on adopte ce rythme sans y penser. Je fais en sorte que les plus belles adresses vous reçoivent comme chez des amis.",
         role: "Travel Designer · Uruguay",
       },
       features: defaultSpotlightFeatures,

@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "stephane",
         // TODO: verify quote attribution
         quote:
-          "Ce que j'aime au Maroc, c'est qu'on y est attendu. On pousse une porte qui ne dit rien depuis la rue, et il y a déjà du thé, une conversation, quelqu'un qui prend le temps. À Fès, un brodeur m'a montré ses outils comme on montre des photographies de famille. Je construis les voyages autour de ces gens-là, parce que ce sont eux que l'on raconte en rentrant.",
+          "Au Maroc, on est attendu. On pousse une porte anonyme dans la rue, et il y a déjà du thé et quelqu'un qui prend le temps. À Fès, un brodeur m'a montré ses outils comme des photos de famille. Je construis les voyages autour de ces rencontres.",
         role: "Travel Designer · Maroc",
       },
       features: defaultSpotlightFeatures,

@@ -54,7 +54,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "Le Danemark se découvre souvent à travers Copenhague, mais le pays ne s'arrête pas aux portes de la capitale. Bornholm et Ærø offrent un autre rythme, plus insulaire et contemplatif, tandis qu'une table chez Noma se réserve plusieurs mois à l'avance. Je commence toujours par définir le tempo du voyage avant de choisir les îles qui lui correspondent.",
+          "Au Danemark, on commence souvent par Copenhague, mais le pays ne s'arrête pas à la capitale. Les îles de Bornholm et d'Ærø offrent un rythme plus calme, plus insulaire. Je définis d'abord le tempo du voyage, puis je choisis les îles qui lui correspondent.",
         role: "Travel Designer · Danemark",
       },
       features: [

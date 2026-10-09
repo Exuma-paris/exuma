@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "taina",
         // TODO: verify quote attribution
         quote:
-          "La Nouvelle-Zélande punit l'itinéraire pressé. Ce qui reste, ce n'est pas la route entre deux glaciers, c'est le silence d'un fjord avant que le moteur du bateau ne reparte, et la voix d'un guide māori qui raconte sa terre autrement qu'un dépliant. Le pays se traverse lentement, île par île, saison par saison.",
+          "En Nouvelle-Zélande, ce qui reste, ce n'est pas la route entre deux glaciers, c'est le silence d'un fjord quand le moteur du bateau s'arrête et la voix d'un guide māori qui raconte sa terre. Je construis des voyages lents, île par île.",
       },
       features: defaultSpotlightFeatures,
     },

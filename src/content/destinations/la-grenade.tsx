@@ -58,7 +58,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "Je propose la Grenade à ceux qui connaissent déjà les Antilles et cherchent une île peu construite, sans file d'attente devant les sites. Mes voyageurs partent pour la plage et me parlent au retour de la muscade, du charpentier de Carriacou et des statues sous-marines de Molinière. Je garde toujours deux jours pour les îles du nord.",
+          "Je propose la Grenade à ceux qui connaissent déjà les Antilles et cherchent une île peu construite. Mes voyageurs partent pour la plage et me parlent au retour de la muscade, du charpentier de Carriacou et des statues sous-marines de Molinière.",
         role: "Travel Designer · La Grenade",
       },
       features: defaultSpotlightFeatures,
