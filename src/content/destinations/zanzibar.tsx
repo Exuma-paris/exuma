@@ -151,8 +151,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Où dormir à Zanzibar",
       description:
-        "Une île privée où l'on dîne les pieds dans le sable, une demeure omanaise sur le front de mer de Stone Town, des villas avec piscine et personnel dédié face au lagon de Paje.",
-      slugs: ["mnemba-island-lodge", "park-hyatt-zanzibar", "zanzibar-white-sand"],
+        "Une île privée où l'on dîne les pieds dans le sable, des bungalows dans un jardin d'épices sur la plage de Kendwa, des villas avec piscine et personnel dédié face au lagon de Paje.",
+      slugs: ["mnemba-island-lodge", "zuri-zanzibar", "zanzibar-white-sand"],
     },
 
     {

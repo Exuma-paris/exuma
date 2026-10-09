@@ -14,3 +14,4 @@
 | `xp-epices-kidichi.webp` | Photo de référence elle-même (tanzaniaspecialist.fr), recadrée en carré, saturation adoucie | Droits à confirmer avant publication |
 | `hotel-mnemba.webp` | Photo officielle andBeyond Mnemba Island (cloudfront), fournie par Thea le 09/10/2026 | Autorisation à confirmer avec l'hôtel |
 | `hotel-white-sand.webp` | Photo de l'hôtel (miniature Google Images), fournie par Thea le 09/10/2026, recadrée en carré et agrandie fidèlement par IA | Autorisation à confirmer avec l'hôtel |
+| `hotel-zuri.webp` | Photo du Zuri Zanzibar (hosteltur.com), fournie par Thea le 09/10/2026, recadrée en carré sans le logo | Autorisation à confirmer avec l'hôtel |
