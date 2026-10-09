@@ -73,7 +73,7 @@ export const destination: Destination = {
       columns: [
         "Un voyage en Namibie commence presque toujours à Sesriem, à la porte du parc du Namib-Naukluft. On dort au Sossusvlei Desert Lodge, dans la réserve du NamibRand, sous une verrière ouverte sur les étoiles. Plus au sud, Sonop s'installe sur des blocs de granit du Karas, dans le décor d'une expédition des années vingt.",
         "Dune 45 se gravit avant la chaleur. Deadvlei se rejoint à pied, dans le dernier kilomètre de sable. La cuvette d'argile y est restée blanche, les acacias y sont morts debout depuis plusieurs siècles, et l'ombre qu'ils portent au sol est la seule chose qui bouge de la matinée.",
-        "Le nord change complètement de grammaire. Dans la vallée de la Hoanib, les éléphants du désert creusent le lit de la rivière pour atteindre l'eau. Plus loin, la Skeleton Coast aligne des coques rouillées et des colonies d'otaries. Le Hoanib Skeleton Coast Camp ferme la boucle, à une heure de vol de la première route goudronnée.",
+        "Le nord change de grammaire. Dans la vallée de la Hoanib, les éléphants du désert creusent le lit de la rivière pour atteindre l'eau. La Skeleton Coast aligne des coques rouillées et des otaries. Le Hoanib Skeleton Coast Camp ferme la boucle, à une heure de vol de la première route goudronnée.",
       ],
     },
 
