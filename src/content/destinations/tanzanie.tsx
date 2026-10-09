@@ -653,10 +653,8 @@ export const destination: Destination = {
       eyebrow: "Inspirations",
       heading: "Destinations similaires",
       description:
-        "Le même écosystème vu depuis le Kenya, les deltas d'Afrique australe, les dunes de l'Atlantique. Trois prolongements possibles après un premier safari.",
-      // TODO: les pages botswana et namibie n'existent pas encore. Le rendu filtre
-      // les slugs inconnus, elles apparaîtront automatiquement à leur création.
-      slugs: ["kenya", "botswana", "namibie"],
+        "Les plages de Zanzibar, à une heure de vol, les deltas d'Afrique australe, les dunes de l'Atlantique. Trois prolongements possibles après un premier safari.",
+      slugs: ["zanzibar", "botswana", "namibie"],
     },
   ],
 };
