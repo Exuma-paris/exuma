@@ -102,7 +102,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/namibie/split-2.webp",
-          alt: "Piste de sable rouge traversant les plaines herbeuses du NamibRand",
+          alt: "Colonie d'otaries à fourrure sur une plage de la côte namibienne",
         },
       ],
     },
