@@ -40,6 +40,20 @@ export const textColumnsMeta = {
   },
 } as const satisfies SectionMeta;
 
+/** Met en gras les passages entourés de `**`. La colonne reste une chaîne
+ * simple dans le contenu, donc sérialisable telle quelle vers Sanity. */
+function renderEmphasis(text: string) {
+  return text.split(/\*\*(.+?)\*\*/g).map((part, i) =>
+    i % 2 === 1 ? (
+      <strong key={i} className="font-medium text-foreground">
+        {part}
+      </strong>
+    ) : (
+      part
+    ),
+  );
+}
+
 export function TextColumnsSection({
   eyebrow,
   heading,
@@ -70,7 +84,7 @@ export function TextColumnsSection({
         <div className="grid gap-6 md:grid-cols-3">
           {columns.map((text, i) => (
             <p key={i} className="text-secondary-foreground">
-              {text}
+              {renderEmphasis(text)}
             </p>
           ))}
         </div>

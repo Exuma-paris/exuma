@@ -41,7 +41,7 @@ export function FinalCtaSection({
         {eyebrow ? (
           <p className="text-eyebrow text-primary">{eyebrow}</p>
         ) : null}
-        <h2 className="font-heading text-[clamp(1.5rem,3vw,2.25rem)] font-light italic leading-[1.3] text-secondary-foreground max-w-xl">
+        <h2 className="font-heading text-[clamp(1.5rem,3vw,2.25rem)] font-light italic leading-[1.3] text-secondary-foreground max-w-xl whitespace-pre-line">
           {heading}
         </h2>
         <div className="flex flex-col items-center gap-3">
