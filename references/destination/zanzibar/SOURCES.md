@@ -12,3 +12,4 @@
 | `xp-corail-mnemba-1.webp` | Photo de référence elle-même, sans IA, à la demande de Thea : Coral Gardeners, Myles McGuinness pour Tahiti Tourisme (tahititourisme.pf). Recadrée. Prise en Polynésie, pas à Mnemba. | Droits à confirmer avant publication |
 | `xp-corail-mnemba-2.webp` | Photo de référence elle-même (vivreazanzibar.fr, atoll de Mnemba), recadrée, turquoise adouci | Droits à confirmer avant publication |
 | `xp-epices-kidichi.webp` | Photo de référence elle-même (tanzaniaspecialist.fr), recadrée en carré, saturation adoucie | Droits à confirmer avant publication |
+| `hotel-mnemba.webp` | Photo officielle andBeyond Mnemba Island (cloudfront), fournie par Thea le 09/10/2026 | Autorisation à confirmer avec l'hôtel |

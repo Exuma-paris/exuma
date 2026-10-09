@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["zanzibar", "mnemba", "ile privee", "matemwe", "recif", "andbeyond"],
   heroImage: {
     src: "/destination/zanzibar/hotel-mnemba.webp",
-    alt: "Banda de plage et palmiers de l'île privée de Mnemba, au large de Zanzibar",
+    alt: "Banda au toit de palme du Mnemba Island Lodge éclairé au crépuscule, au large de Zanzibar",
   },
   destinationSlugs: ["zanzibar"],
   sections: [],
