@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe au Panama",
-      heading: "Le pays où l'on change d'océan en une heure d'avion",
+      heading: "Le Panama, où l'on change d'océan en une heure d'avion",
       description:
         "Guna Yala aligne trois cent soixante-cinq îles sur la côte caraïbe, dont une cinquantaine seulement sont habitées. Coiba abrite le deuxième plus grand récif corallien du Pacifique oriental. Entre les deux, une capitale, sa vieille ville espagnole et le canal. Nous écrivons ces itinéraires étape par étape.",
       images: [

@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Corée du Sud",
-      heading: "Séoul, les temples de Gyeongju et l'île de Jeju",
+      heading: "La Corée du Sud, de Séoul aux temples de Gyeongju et à Jeju",
       description:
         "Le matin, les toits de tuiles de Bukchon dépassent à peine des murs de pierre. Le soir, les néons de Jongno éclairent les mêmes ruelles. Séoul passe d'un monde à l'autre en quelques rues, et le reste du pays fait pareil.",
       images: [

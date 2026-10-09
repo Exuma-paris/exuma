@@ -27,7 +27,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Croatie",
-      heading: "Un archipel de mille îles, une poignée qui se laissent approcher",
+      heading: "La Croatie, mille îles dont une poignée se laissent approcher",
       // TODO: verify island count
       description:
         "Mille deux cent quarante-quatre îles bordent la côte dalmate ; une cinquantaine sont habitées. Entre elles, Dubrovnik referme ses remparts sur l'Adriatique, Split vit encore à l'intérieur du palais que l'empereur Dioclétien s'était fait construire pour sa retraite, et les Kornati n'existent que pour les voiliers qui savent où mouiller. La Croatie ne se traverse pas. Elle se navigue.",

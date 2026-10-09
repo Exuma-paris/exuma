@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Thaïlande",
-      heading: "Le pays où l'on choisit sa côte selon le mois",
+      heading: "La Thaïlande, le pays où l'on choisit sa côte selon le mois",
       description:
         "La Thaïlande possède deux façades maritimes dont les saisons s'inversent. La mer d'Andaman se visite de novembre à mars, le golfe de Thaïlande de février à septembre. Le calendrier commande l'itinéraire, jamais l'inverse.",
       images: [

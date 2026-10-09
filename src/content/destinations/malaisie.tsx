@@ -27,7 +27,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Malaisie",
-      heading: "Le pays où la forêt a cent trente millions d'années",
+      heading: "La Malaisie, où la forêt a cent trente millions d'années",
       description:
         "Les forêts de Bornéo comptent parmi les plus anciennes de la planète, plus vieilles que l'Amazonie. Quatre-vingt-dix-neuf îles composent l'archipel de Langkawi, à l'autre bout du pays. Entre les deux, Kuala Lumpur et George Town rappellent que la Malaisie s'est construite au carrefour de trois cultures.",
       images: [

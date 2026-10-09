@@ -31,7 +31,7 @@ export const destination: Destination = {
       type: "hero",
       eyebrow: "Voyage de luxe à la Barbade",
       heading:
-        "Une île qui tourne le dos à l'Atlantique pour regarder les Caraïbes",
+        "La Barbade, une île qui tourne le dos à l'Atlantique pour regarder les Caraïbes",
       description:
         "À l'est, l'Atlantique frappe les falaises de corail de Bathsheba sans relâche. À l'ouest, à peine trente kilomètres plus loin, la Platinum Coast s'étend sur une mer plate, à peine ridée par le passage des voiliers. Bridgetown et sa Garrison historique, classées à l'UNESCO en 2011, occupent l'angle sud entre les deux. Nous construisons chaque itinéraire à partir de ce contraste, pas en dépit de lui.",
       images: [

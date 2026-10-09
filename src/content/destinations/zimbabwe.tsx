@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe au Zimbabwe",
-      heading: "On entend le fleuve bien avant de le voir",
+      heading: "Zimbabwe, on entend les chutes Victoria bien avant de les voir",
       description:
         "Le grondement des chutes porte à des kilomètres et la brume d'eau se repère depuis l'avion. Plus au sud, Hwange, Matobo et Malilangwe ne font aucun bruit. C'est le même pays, et presque personne n'y va.",
       images: [

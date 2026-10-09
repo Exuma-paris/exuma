@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Suède",
-      heading: "Trente mille îles au sud, la nuit polaire au nord",
+      heading: "La Suède, trente mille îles au sud et la nuit polaire au nord",
       description:
         "L'archipel de Stockholm compte environ trente mille îles, îlots et rochers, entre lesquels on navigue plutôt que l'on ne circule. Mille kilomètres plus au nord, au-delà du cercle polaire, la Laponie suédoise bascule en hiver dans une nuit qui dure plusieurs semaines. Ce sont deux Suède, reliées par un seul vol intérieur.",
       images: [

@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Afrique du Sud",
-      heading: "Trois heures de route, et le pays a changé de climat",
+      heading: "En Afrique du Sud, trois heures de route suffisent pour changer de climat",
       description:
         "L'Afrique du Sud tient dans un seul voyage ce que d'autres pays répartissent sur trois. Une ville posée entre une montagne et deux océans. Des massifs de grès couverts de peintures vieilles de plusieurs milliers d'années. Des réserves privées sans clôture avec le parc Kruger. On passe de l'une à l'autre en quelques heures.",
       images: [

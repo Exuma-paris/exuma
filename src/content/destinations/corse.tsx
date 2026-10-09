@@ -27,7 +27,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Corse",
-      heading: "L'île de beauté, dans son silence le plus rare",
+      heading: "La Corse, l'île de beauté dans son silence le plus rare",
       description:
         "Une montagne plongée dans la mer. Des criques que l'on rejoint en bateau privé, des bergeries préservées au cœur du maquis, des tables confidentielles où la cuisine raconte une mémoire insulaire. Chaque étape est pensée pour vous laisser respirer.",
       images: [

@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à Oman",
-      heading: "Le désert commence là où la montagne s'arrête",
+      heading: "Oman, là où le désert commence au pied de la montagne",
       description:
         "Le sable des Wahiba change de couleur avec l'heure. Plus haut, sur les terrasses du Jebel Akhdar, l'air sent la rose et les nuits sont froides. Entre les deux, des forts de terre et des villages accrochés au vide. Oman se traverse lentement.",
       images: [

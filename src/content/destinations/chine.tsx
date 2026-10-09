@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Chine",
-      heading: "De la Cité interdite aux villages du Yunnan",
+      heading: "La Chine, de la Cité interdite aux villages du Yunnan",
       description:
         "Au petit matin, la Grande Muraille sort de la brume et suit la crête jusqu'à disparaître. Le soir, Shanghai s'allume sur ses deux rives. Plus loin vers le sud-ouest, les vallées gardent leurs rizières en terrasses et leurs maisons de bois.",
       images: [

@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à Antigua",
-      heading: "Trois cent soixante-cinq plages, une par jour, jamais la même",
+      heading: "Antigua, une plage pour chaque jour de l'année",
       description:
         "L'île compte deux cent quatre-vingts kilomètres carrés et une plage pour chaque jour de l'année, un chiffre que les habitants citent avant même le nom d'English Harbour. Au large, Barbuda garde ses dix-sept kilomètres de sable rose pour trois fois moins de monde qu'Antigua. Entre les deux, une heure de bateau et un changement de rythme complet.",
       images: [

@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe aux Bahamas",
-      heading: "Là où la mer change de bleu à chaque banc de sable",
+      heading: "Les Bahamas, où la mer change de bleu à chaque banc de sable",
       description:
         "L'archipel compte sept cents îles et quelques milliers de cayes, dont une trentaine seulement sont habitées. Depuis l'avion, on lit le fond des bancs de sable à travers l'eau avant même d'avoir atterri. Le reste appartient aux bateaux, aux oiseaux et à ceux qui savent où aller.",
       images: [

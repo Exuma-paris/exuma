@@ -29,7 +29,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Norvège",
-      heading: "Un pays de fjords, d'îles et de longues journées",
+      heading: "La Norvège, un pays de fjords, d'îles et de longues journées",
       description:
         "Un fjord est un bras de mer qui entre dans les terres, entre deux parois de plusieurs centaines de mètres. On y navigue comme dans un couloir, avec la montagne des deux côtés. En juin, dans les Lofoten, il fait jour toute la nuit.",
       images: [

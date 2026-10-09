@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à New York",
-      heading: "La ville avance vite, on choisit où s'y arrêter",
+      heading: "New York avance vite, à vous de choisir où vous arrêter",
       description:
         "À dix heures du soir, la 8e Avenue se remplit d'un coup : les théâtres viennent de vider leurs salles et les tables du quartier tournent une deuxième fois. La ville a ce rythme partout, et il change d'heure à chaque quartier. Tout l'exercice consiste à savoir où être, et quand.",
       images: [

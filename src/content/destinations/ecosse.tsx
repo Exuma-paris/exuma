@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Écosse",
-      heading: "En été, la nuit ne tombe jamais vraiment",
+      heading: "En Écosse, l'été, la nuit ne tombe jamais vraiment",
       description:
         "En juin, à Édimbourg, il fait encore jour à vingt-deux heures trente, et plus longtemps encore en montant vers le nord. Le matin, on se promène dans le parc d'un château que la même famille habite depuis trois siècles. Le soir, un whisky se sert avec le nom de la rivière qui l'a fait.",
       images: [

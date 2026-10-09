@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à Madère",
-      heading: "L'île aux chemins d'eau",
+      heading: "Madère, l'île aux chemins d'eau",
       description:
         "Traversez l'île du sud au nord. Funchal d'abord, ses jardins et ses caves à vin. Puis le sable noir et les piscines de lave que l'Atlantique remplit à chaque marée. Entre les deux, des sommets que la brume ne quitte qu'en milieu de matinée.",
       images: [

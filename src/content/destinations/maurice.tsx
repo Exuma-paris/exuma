@@ -29,7 +29,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à l'île Maurice",
-      heading: "Une île entière enfermée dans son anneau de corail",
+      heading: "Maurice, une île entière enfermée dans son anneau de corail",
       description:
         "L'île mesure environ 67 kilomètres du nord au sud et 46 kilomètres de large. Un récif corallien l'entoure presque entièrement et protège un lagon aux eaux calmes. Le Morne, Chamarel, Grand Baie, les gorges de Rivière Noire : chaque région possède son propre visage.",
       images: [

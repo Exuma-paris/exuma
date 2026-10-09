@@ -31,7 +31,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe au Monténégro",
-      heading: "Là où l'Adriatique se referme sur elle-même",
+      heading: "Le Monténégro, où l'Adriatique s'enfonce dans la baie de Kotor",
       // TODO: verify bay length and canyon depth
       description:
         "Les Bouches de Kotor s'enfoncent sur 28 kilomètres entre les Alpes dinariques, jusqu'à un village-hôtel qui n'existe qu'au bout d'une jetée. Plus au nord, le canyon de la Tara creuse 1 300 mètres sous le plateau du Durmitor. Un seul pays, deux échelles qui ne se répondent jamais.",

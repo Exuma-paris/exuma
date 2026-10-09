@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à Singapour",
-      heading: "L'art de faire ville avec la nature",
+      heading: "Singapour, l'art de faire ville avec la nature",
       description:
         "Cinq millions et demi d'habitants sur sept cent trente kilomètres carrés, entre Marina Bay, Chinatown et Kampong Glam. Les Supertrees de Gardens by the Bay culminent à seize mètres, la voûte végétale de Jewel Changi grimpe sur sept étages autour de la plus haute cascade intérieure du monde. On y atterrit pour deux jours d'escale. On y reste, en général, pour une semaine entière.", // TODO: verify population and area figures
       images: [

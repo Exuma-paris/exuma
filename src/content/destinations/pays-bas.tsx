@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe aux Pays-Bas",
-      heading: "La lumière que les peintres sont venus chercher",
+      heading: "Les Pays-Bas, la lumière que les peintres sont venus chercher",
       description:
         "Le ciel occupe la moitié du paysage et la lumière change plusieurs fois par heure. Elle éclaire des choses très concrètes. Une salle de musée encore vide à huit heures du matin. Un canal remonté en bateau à l'heure de l'apéritif. Un chemin de sable en forêt, à vélo, jusqu'aux Van Gogh. Le tout à une heure de train l'un de l'autre.",
       images: [

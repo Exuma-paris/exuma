@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Irlande",
-      heading: "La lumière arrive de l'océan et tout s'éclaire",
+      heading: "En Irlande, la lumière arrive de l'océan et tout s'éclaire",
       description:
         "En Irlande, le vert n'a pas la même couleur qu'ailleurs : la lande, les prés, la mousse sur les murets de pierre. On marche dans les bois d'un château posé au bord d'un lac. Le soir, à Dingle, trois musiciens s'installent au fond du pub et jouent pour la salle.",
       images: [

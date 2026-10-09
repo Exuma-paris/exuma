@@ -31,7 +31,7 @@ export const destination: Destination = {
       type: "hero",
       eyebrow: "Voyage de luxe aux Galápagos",
       heading:
-        "Treize îles qui n'ont jamais rien emprunté au reste du monde",
+        "Les Galápagos, treize îles où vivent des espèces uniques au monde",
       description:
         "À mille kilomètres des côtes de l'Équateur, treize îles principales et plus de cent vingt îlots concentrent des espèces qui n'existent nulle part ailleurs : iguane marin, tortue géante, albatros des Galápagos. Charles Darwin y a passé cinq semaines en 1835. Chaque itinéraire se construit autour d'un yacht et d'un nombre de visiteurs strictement limité par le parc national.",
       images: [

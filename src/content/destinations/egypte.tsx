@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Égypte",
-      heading: "Tout le pays tient dans la largeur du Nil",
+      heading: "Toute l'Égypte tient dans la largeur du Nil",
       description:
         "Quatre-vingt-quinze pour cent des Égyptiens vivent sur quatre pour cent du territoire, le long d'un fleuve qui n'excède parfois pas un kilomètre de large. Le reste est désert. De Gizeh à Abou Simbel, les sites ne sont pas des monuments isolés : ils sont alignés sur cette bande d'eau, dans l'ordre où on les a bâtis.", // TODO: verify répartition population / surface habitée
       images: [

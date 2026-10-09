@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Arabie Saoudite",
-      heading: "Deux royaumes ont disparu, leurs écritures sont restées",
+      heading: "En Arabie saoudite, deux royaumes ont disparu, leurs écritures sont restées",
       description:
         "À AlUla, une vallée de grès rouge traverse le désert du nord-ouest. Les Nabatéens y ont taillé cent onze tombeaux dans la falaise, signés par leurs sculpteurs. Avant eux, deux royaumes ont gravé leurs prières sur une paroi que l'on appelle aujourd'hui la bibliothèque à ciel ouvert. En bas, l'oasis de palmiers est encore cultivée.", // TODO: verify le nombre de tombeaux monumentaux de Hegra
       images: [

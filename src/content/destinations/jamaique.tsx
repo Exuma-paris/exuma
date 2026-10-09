@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Jamaïque",
-      heading: "Le sable est en bas, la brume commence à mille mètres",
+      heading: "La Jamaïque, du sable de la côte à la brume des sommets",
       description:
         "Le matin, la brume passe dans les caféiers au-dessus de Kingston. L'après-midi, on nage dans une crique où une rivière rejoint la mer. C'est la même île, et c'est le même jour.",
       images: [

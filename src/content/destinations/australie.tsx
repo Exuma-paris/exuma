@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Australie",
-      heading: "Le silence du désert avant le lever du jour",
+      heading: "L'Australie, le silence du désert avant le lever du jour",
       description:
         "À Uluru, on se lève à cinq heures pour cela. Puis le pays s'ouvre : trois mille kilomètres jusqu'à Darwin, une forêt tropicale plus ancienne que l'Amazonie, des plaines qui s'inondent chaque année et un récif au bout.",
       images: [

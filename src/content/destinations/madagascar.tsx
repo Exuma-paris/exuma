@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à Madagascar",
-      heading: "Rien de ce qui vit ici ne vit ailleurs",
+      heading: "Rien de ce qui vit à Madagascar ne vit ailleurs",
       description:
         "Le matin, à Anjajavy, un lémurien blanc traverse la pelouse et s'arrête à trois mètres de la terrasse. La forêt sèche commence juste derrière, et la mer est de l'autre côté. Le soir, l'eau du canal du Mozambique passe au rose, puis au gris.",
       images: [

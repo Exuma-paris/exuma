@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe à Anguilla",
-      heading: "Une île basse, sans relief, où l'eau fait tout le travail",
+      heading: "Anguilla, une île basse où l'eau fait tout le travail",
       description:
         "Ici rien ne dépasse. L'île est plate, sèche, couverte de buissons bas. Toute l'attention va à l'eau, qui passe du turquoise au vert selon l'heure et le banc de sable qu'elle recouvre.",
       images: [

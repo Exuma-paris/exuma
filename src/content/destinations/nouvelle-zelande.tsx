@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Nouvelle-Zélande",
-      heading: "Là où les Alpes plongent dans le Pacifique",
+      heading: "La Nouvelle-Zélande, où les Alpes plongent dans le Pacifique",
       description:
         "Deux îles séparées par un détroit de vingt-deux kilomètres, une faille alpine qui court sur plus de six cents kilomètres, quinze fjords creusés par les glaciers dans le Fiordland. Au nord, les geysers de Rotorua et les baies tièdes du Pacifique ; au sud, les Alpes et leurs glaciers qui descendent presque jusqu'à la mer.", // TODO: verify figures
       images: [

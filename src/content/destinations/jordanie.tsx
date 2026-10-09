@@ -30,7 +30,7 @@ export const destination: Destination = {
     {
       type: "hero",
       eyebrow: "Voyage de luxe en Jordanie",
-      heading: "Une faille dans la montagne, et Pétra derrière",
+      heading: "La Jordanie, une faille dans la montagne et Pétra derrière",
       description:
         "Le matin, la roche de Pétra passe du brun au rose. Plus au sud, le sable du Wadi Rum garde la chaleur de la veille et les nuits y sont froides. À l'ouest, la mer Morte ne fait aucun bruit. La Jordanie se traverse lentement, même si elle est petite.",
       images: [
