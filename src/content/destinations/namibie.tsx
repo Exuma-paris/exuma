@@ -71,10 +71,9 @@ export const destination: Destination = {
       heading: "Ce que le vide donne à voir",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
-        "Un voyage en Namibie commence presque toujours à Sesriem, à la porte du parc du Namib-Naukluft. La route file ensuite vers l'ouest sur une soixantaine de kilomètres, entre les contreforts du Naukluft et les premières crêtes de sable.", // TODO: verify distance Sesriem-Sossusvlei (source client : 50 km)
-        "Dune 45 se gravit avant la chaleur. Deadvlei se rejoint à pied, dans le dernier kilomètre de sable. La cuvette d'argile y est restée blanche, les acacias y sont morts debout depuis plusieurs siècles, et l'ombre qu'ils portent au sol est la seule chose qui bouge de la matinée.", // TODO: verify ancienneté des acacias de Deadvlei
-        "Le nord change complètement de grammaire. Dans la vallée de la Hoanib, l'eau ne coule qu'en surface quelques jours par an. Les éléphants du désert y creusent le lit de la rivière pour l'atteindre. Plus loin, la Skeleton Coast aligne des coques rouillées, des colonies d'otaries et un brouillard qui monte de l'Atlantique presque tous les matins.",
-        "Trois maisons structurent l'itinéraire. Sossusvlei Desert Lodge ouvre le voyage dans la réserve du NamibRand, avec dix suites et une verrière au-dessus du lit. Sonop s'installe ensuite sur des blocs de granit du Karas, dans le décor d'une expédition des années vingt. Hoanib Skeleton Coast Camp ferme la boucle au nord, à une heure de vol de la première route goudronnée.", // TODO: verify nombre de suites et distances
+        "Un voyage en Namibie commence presque toujours à Sesriem, à la porte du parc du Namib-Naukluft. On dort au Sossusvlei Desert Lodge, dans la réserve du NamibRand, sous une verrière ouverte sur les étoiles. Plus au sud, Sonop s'installe sur des blocs de granit du Karas, dans le décor d'une expédition des années vingt.",
+        "Dune 45 se gravit avant la chaleur. Deadvlei se rejoint à pied, dans le dernier kilomètre de sable. La cuvette d'argile y est restée blanche, les acacias y sont morts debout depuis plusieurs siècles, et l'ombre qu'ils portent au sol est la seule chose qui bouge de la matinée.",
+        "Le nord change complètement de grammaire. Dans la vallée de la Hoanib, les éléphants du désert creusent le lit de la rivière pour atteindre l'eau. Plus loin, la Skeleton Coast aligne des coques rouillées et des colonies d'otaries. Le Hoanib Skeleton Coast Camp ferme la boucle, à une heure de vol de la première route goudronnée.",
       ],
     },
 
