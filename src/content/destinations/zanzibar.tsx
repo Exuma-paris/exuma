@@ -112,7 +112,7 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/zanzibar/xp-corail-mnemba-1.webp",
-          alt: "Un parent et un adolescent fixent des boutures de corail sur une table de culture au large de Mnemba",
+          alt: "Nageurs fixant des boutures de corail sur une table de culture du récif",
         },
         right: {
           src: "/destination/zanzibar/xp-corail-mnemba-2.webp",
