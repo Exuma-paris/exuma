@@ -93,7 +93,7 @@ export const destination: Destination = {
       theme: "light",
       paragraphs: [
         "Sur la côte namibienne, un courant froid venu de l'Atlantique empêche presque toute pluie. Il apporte en revanche un brouillard épais, qui roule chaque matin sur les dunes et suffit à faire vivre les insectes, les lichens et les plantes du Namib.",
-        "C'est aussi ce brouillard qui a fait échouer tant de navires sur la Skeleton Coast, où leurs épaves reposent encore sur le sable. Et c'est lui qui nourrit la welwitschia, une plante du Damaraland capable de vivre plus de mille ans.",
+        "C'est aussi ce brouillard qui a fait échouer tant de navires sur la Skeleton Coast, où leurs épaves reposent encore sur le sable. Il nourrit enfin la welwitschia, plante nationale de la Namibie, qui pousse dans le Damaraland et peut vivre plus de mille ans.",
       ],
       images: [
         {
