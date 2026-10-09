@@ -88,15 +88,12 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Namibie : le sable et le brouillard",
-      heading: "Ce que le courant de Benguela fabrique",
+      eyebrow: "Namibie : le désert du Namib",
+      heading: "Un désert né de l'océan",
       theme: "light",
       paragraphs: [
-        "Le long de la côte, un courant froid remonte de l'Atlantique sud. Il refroidit l'air, bloque la pluie et fabrique du brouillard. Depuis des millions d'années, c'est la seule eau douce que reçoive le Namib.",
-        "Toute la vie du désert s'est organisée autour de cette humidité-là. Le ténébrion se dresse sur la crête, tête en bas. La brume se condense sur son dos, puis descend le long de ses élytres jusqu'à ce qu'il la boive.",
-        "La welwitschia, elle, ne produit que deux feuilles dans sa vie et les laisse s'effilocher pendant mille ans. Les plus vieux pieds du Damaraland sont contemporains des premières cathédrales.", // TODO: verify longévité des welwitschias
-        "Les mêmes gouttes expliquent les épaves. Un navire qui longe la côte dans la brume ne voit ni la terre ni les bancs de sable jusqu'au moment où il les touche.",
-        "Le brouillard nourrit et il perd. C'est la même mécanique.",
+        "Sur la côte namibienne, un courant froid venu de l'Atlantique empêche presque toute pluie. Il apporte en revanche un brouillard épais, qui roule chaque matin sur les dunes et suffit à faire vivre les insectes, les lichens et les plantes du Namib.",
+        "C'est aussi ce brouillard qui a fait échouer tant de navires sur la Skeleton Coast, où leurs épaves reposent encore sur le sable. Et c'est lui qui nourrit la welwitschia, une plante du Damaraland capable de vivre plus de mille ans.",
       ],
       images: [
         {
