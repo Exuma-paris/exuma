@@ -226,13 +226,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/inde/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/inde/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Inde entre Delhi, le Rajasthan, Varanasi et le Kerala",
-            "Adresses confidentielles en Inde : ateliers d'artisans et demeures de famille",
-            "Hébergements en Inde : palais habités, forts de famille et grandes maisons de ville",
-            "Conciergerie privée 24/7 pour un voyage en Inde",
-            "Expériences immersives en Inde : le Gange à l'aube et les ateliers de Jaipur",
+            "Adresses confidentielles en Inde : un atelier d'impression au bloc de bois à Jaipur",
+            "Hébergements en Inde : le Taj Lake Palace sur le lac Pichola",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Expériences immersives en Inde : le Gange à l'aube depuis une barque privée",
           ][i],
         },
       })),
@@ -254,8 +254,8 @@ export const destination: Destination = {
           description:
             "Deux villes se touchent ici. Shahjahanabad garde ses ruelles d'épices et ses marchands qui hèlent, tandis que New Delhi étire ses avenues bordées d'arbres. C'est là que les Begums de l'empire moghol ont laissé le plus de traces, et l'on met un moment à s'en apercevoir.",
           image: {
-            src: "/destination/inde/map-delhi.png",
-            alt: "Ruelles du marché de Chandni Chowk à Old Delhi au petit matin",
+            src: "/destination/inde/map-delhi.webp",
+            alt: "Rue animée du marché de Chandni Chowk, Old Delhi",
           },
           // TODO: verify coords
           coordinates: { lat: 28.6139, lng: 77.209 },
@@ -265,8 +265,8 @@ export const destination: Destination = {
           description:
             "Le mausolée tient toutes ses promesses, surtout quand on arrive tôt ou qu'on le regarde depuis l'autre rive de la Yamuna. Juste en amont, le fort d'Agra raconte la fin de l'histoire : Shah Jahan y a passé ses dernières années face à ce qu'il avait fait construire.",
           image: {
-            src: "/destination/inde/map-agra.png",
-            alt: "Le Taj Mahal d'Agra vu depuis les jardins de Mehtab Bagh au lever du jour",
+            src: "/destination/inde/map-agra.webp",
+            alt: "Le Taj Mahal et son reflet dans un bassin, Agra",
           },
           // TODO: verify coords
           coordinates: { lat: 27.1751, lng: 78.0421 },
@@ -276,8 +276,8 @@ export const destination: Destination = {
           description:
             "La ville s'est dessinée d'un seul trait au début du XVIIIe siècle, et ses rues bien droites en gardent la trace. Dans les faubourgs, les ateliers d'impression sur bois et de poterie bleue travaillent toujours à la main, et le Raj Mandir projette ses films sous des lustres immenses.",
           image: {
-            src: "/destination/inde/map-jaipur.png",
-            alt: "Façades ocre de la vieille ville de Jaipur et passants au petit matin",
+            src: "/destination/inde/map-jaipur.webp",
+            alt: "Porte rose de la vieille ville de Jaipur et circulation du matin",
           },
           // TODO: verify coords
           coordinates: { lat: 26.9124, lng: 75.7873 },
@@ -287,8 +287,8 @@ export const destination: Destination = {
           description:
             "Les lacs ont été creusés de main d'homme et les palais semblent flotter dessus. Dans les ruelles au-dessus, les peintres de miniatures travaillent au pinceau fin, et une famille y garde la tradition du Jal Sanjhi, cette peinture qui se compose sur l'eau avant de s'en aller avec elle.",
           image: {
-            src: "/destination/inde/map-udaipur.png",
-            alt: "Palais et ghats d'Udaipur reflétés dans le lac Pichola en fin de journée",
+            src: "/destination/inde/map-udaipur.webp",
+            alt: "Le City Palace d'Udaipur au-dessus du lac Pichola",
           },
           // TODO: verify coords
           coordinates: { lat: 24.5854, lng: 73.7125 },
@@ -298,8 +298,8 @@ export const destination: Destination = {
           description:
             "L'une des plus anciennes villes habitées du monde, où les marches descendent vers le fleuve sur des kilomètres. Tout s'y joue au petit matin, entre les bains, les saluts au soleil, les lutteurs qui s'entraînent sur l'argile des akhara et le thé que l'on boit assis sur une marche.",
           image: {
-            src: "/destination/inde/map-varanasi.png",
-            alt: "Ghats de Varanasi et pèlerins descendant vers le Gange dans la brume du matin",
+            src: "/destination/inde/map-varanasi.webp",
+            alt: "Ghats colorés de Varanasi et barques sur le Gange au matin",
           },
           // TODO: verify coords
           coordinates: { lat: 25.3176, lng: 82.9739 },
@@ -309,8 +309,8 @@ export const destination: Destination = {
           description:
             "Le poivre a fait venir ici les Portugais, les Hollandais puis les Anglais, et chacun a laissé une façade derrière lui. Sur la pointe de Fort Kochi, les pêcheurs relèvent encore leurs filets à la main, et les canaux du Kerala commencent juste derrière.",
           image: {
-            src: "/destination/inde/map-kochi.png",
-            alt: "Filets de pêche relevés à la main sur la pointe de Fort Kochi au Kerala",
+            src: "/destination/inde/map-kochi.webp",
+            alt: "Filets de pêche chinois de Fort Kochi au coucher du soleil, Kerala",
           },
           // TODO: verify coords
           coordinates: { lat: 9.9312, lng: 76.2673 },

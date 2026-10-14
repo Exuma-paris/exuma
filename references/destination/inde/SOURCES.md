@@ -17,3 +17,12 @@
 | `xp-begums-delhi.webp` | Wikimedia Commons, « JAMA MASJID Sunset » | CC BY-SA 4.0 |
 | `xp-ayurveda-kerala.webp` | IA, génération texte (véranda d'un palais du Kerala) | |
 | `hotel-taj-lake-palace.webp` | Photo officielle IHCL (Taj), fournie par Thea le 14/10/2026, recadrée en carré | Autorisation à confirmer |
+| `map-delhi.webp` | Commons, « Chandni Chowk, 2008 (12) » | CC BY-SA 3.0 |
+| `map-agra.webp` | Commons, « Aks The Reflection Taj Mahal » | CC BY-SA 4.0 |
+| `map-jaipur.webp` | Commons, « India - Jaipur2 - 030 » | CC BY 2.0 |
+| `map-udaipur.webp` | Commons, « Backside view of City palace (Lake Pichola, Udaipur) » | CC BY-SA 4.0 |
+| `map-varanasi.webp` | Commons, « Morning at the Varanasi Ghats, India - October 2014 » | CC BY-SA 4.0 |
+| `map-kochi.webp` | Commons, « Chinese fishingnet kochi » | CC BY-SA 2.0 |
+| `bento-adresses.webp`, `bento-experiences.webp` | IA, génération texte | |
+| `bento-hebergements.webp` | Même photo que `hotel-taj-lake-palace.webp` | À confirmer |
+| `bento-conciergerie.webp` | Photo d'équipe Exuma | Exuma |
