@@ -31,3 +31,4 @@ Each generated image in `public/destination/indonesie/` was produced by feeding 
 | `map-sumba.webp`                    | `map-sumba-ref.jpg`                     | TODO       | TODO    |
 
 Les portraits de la section témoignages réutilisent `hero-1`, `hero-2` et `hero-3`.
+| `xp-yoga-ubud.webp` | Photo d'hôtel (atmos.id), fournie par Thea le 14/10/2026, recadrée en carré | Autorisation à confirmer |

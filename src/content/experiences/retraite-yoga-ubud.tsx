@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Le premier cours commence à six heures, quand la vallée est encore dans la brume et que les coqs couvrent le reste. Deux séances par jour, huit personnes au maximum, un professeur balinais formé à Mysore. Le reste de la journée n'est pas organisé.",
   keywords: ["indonesie", "bali", "ubud", "yoga", "retraite"],
   heroImage: {
-    src: "/destination/indonesie/xp-yoga-ubud.png",
-    alt: "Plateforme de bois ouverte sur les rizières d'Ubud au petit matin, brume dans la vallée",
+    src: "/destination/indonesie/xp-yoga-ubud.webp",
+    alt: "Pavillon de yoga en bambou ouvert sur la jungle d'Ubud, deux personnes en posture",
   },
   destinationSlugs: ["indonesie"],
   sections: [],
