@@ -31,16 +31,16 @@ export const destination: Destination = {
         "Médina millénaire, contreforts de l'Atlas à quarante minutes, palmeraie silencieuse au nord. Trois registres de voyage dans un rayon de trente kilomètres. Nous organisons le passage de l'un à l'autre depuis plus de huit ans.",
       images: [
         {
-          src: "/destination/marrakech/hero-1.png",
-          alt: "Cour intérieure d'un riad dans la médina de Marrakech",
+          src: "/destination/marrakech/hero-1.webp",
+          alt: "Porte festonnée et étals de tapis et d'étoffes dans les souks de la médina de Marrakech",
         },
         {
-          src: "/destination/marrakech/hero-2.png",
-          alt: "Vue sur l'Atlas enneigé depuis la palmeraie de Marrakech",
+          src: "/destination/marrakech/hero-2.webp",
+          alt: "Minaret de la Koutoubia devant les sommets enneigés du Haut Atlas, Marrakech",
         },
         {
-          src: "/destination/marrakech/hero-3.png",
-          alt: "Bassin et jardin d'un palais dans la médina",
+          src: "/destination/marrakech/hero-3.webp",
+          alt: "Villa bleu Majorelle, bassin et cactus du jardin Majorelle, Marrakech",
         },
       ],
     },
@@ -61,8 +61,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/marrakech/full-image.png",
-        alt: "Toits-terrasses de la médina de Marrakech au crépuscule",
+        src: "/destination/marrakech/full-image.webp",
+        alt: "Terrasse sur les toits face au minaret de la Koutoubia au crépuscule, Marrakech",
       },
       height: 600,
     },
@@ -431,7 +431,7 @@ export const destination: Destination = {
           quote:
             "On a passé trois jours dans la médina sans croiser un seul groupe organisé. Notre guide connaissait chaque porte, chaque artisan par son prénom. Le dernier soir, un dîner sur un toit-terrasse qu'aucun guide ne mentionne.",
           image: {
-            src: "/destination/marrakech/hero-1.png",
+            src: "/destination/marrakech/hero-1.webp",
             alt: "Portrait",
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -442,7 +442,7 @@ export const destination: Destination = {
           quote:
             "Le passage de la ville à l'Atlas s'est fait sans transition visible. Un matin on était dans les souks, l'après-midi sur un plateau à 2 000 mètres avec un berger qui nous a montré comment il lit le ciel pour prévoir la météo du lendemain.",
           image: {
-            src: "/destination/marrakech/hero-2.png",
+            src: "/destination/marrakech/hero-2.webp",
             alt: "Portrait",
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -453,7 +453,7 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marqué : le hammam privé à sept heures du matin, le silence total, la vapeur, la lumière par les moucharabiehs. Trente minutes qui ont changé le rythme de toute la journée.",
           image: {
-            src: "/destination/marrakech/hero-3.png",
+            src: "/destination/marrakech/hero-3.webp",
             alt: "Portrait",
           },
           name: "TODO", // TODO: replace with real testimonial
