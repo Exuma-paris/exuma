@@ -158,7 +158,7 @@ import { experience as keikoSumoTokyo } from "@/content/experiences/keiko-sumo-t
 import { experience as ceremonieTheNanzenji } from "@/content/experiences/ceremonie-the-nanzenji";
 import { experience as kaisekiGeishaGion } from "@/content/experiences/kaiseki-geisha-gion";
 import { experience as lagonMoorea } from "@/content/experiences/lagon-moorea";
-import { experience as cuisinePalaisBahia } from "@/content/experiences/cuisine-palais-bahia";
+import { experience as cuisineMaisonArabe } from "@/content/experiences/cuisine-maison-arabe";
 import { experience as gr20 } from "@/content/experiences/gr20";
 import { experience as lavezzi } from "@/content/experiences/lavezzi";
 import { experience as vinCorse } from "@/content/experiences/vin-corse";
@@ -906,7 +906,7 @@ export const experiences: Record<string, Experience> = toMap([
   crieeAalsmeerAube,
   croisiereIlotBenitiers,
   croisierePriveeVoilierManhattan,
-  cuisinePalaisBahia,
+  cuisineMaisonArabe,
   decouverteIlesBateauSeychelles,
   dinerLadyLisbeth,
   echappeeSkeletonCoast,
