@@ -32,8 +32,8 @@ export const destination: Destination = {
         "Les forêts de Bornéo comptent parmi les plus anciennes de la planète, plus vieilles que l'Amazonie. Quatre-vingt-dix-neuf îles composent l'archipel de Langkawi, à l'autre bout du pays. Entre les deux, Kuala Lumpur et George Town rappellent que la Malaisie s'est construite au carrefour de trois cultures.",
       images: [
         {
-          src: "/destination/malaisie/hero-1.png",
-          alt: "Tours Petronas de Kuala Lumpur éclairées au crépuscule, voyage en Malaisie",
+          src: "/destination/malaisie/hero-1.webp",
+          alt: "Tours Petronas et leur passerelle vues d'en bas entre les palmiers, Kuala Lumpur, voyage en Malaisie",
         },
         {
           src: "/destination/malaisie/hero-2.png",
