@@ -163,7 +163,7 @@ import { experience as gr20 } from "@/content/experiences/gr20";
 import { experience as lavezzi } from "@/content/experiences/lavezzi";
 import { experience as vinCorse } from "@/content/experiences/vin-corse";
 import { experience as rungisChef } from "@/content/experiences/rungis-chef";
-import { experience as survolAtlasBiplan } from "@/content/experiences/survol-atlas-biplan";
+import { experience as survolAtlasHelicoptere } from "@/content/experiences/survol-atlas-helicoptere";
 import { experience as atelierLesage } from "@/content/experiences/atelier-lesage";
 import { experience as louvrePriveNocturne } from "@/content/experiences/louvre-prive-nocturne";
 import { experience as galerieBorghesePrive } from "@/content/experiences/galerie-borghese-prive";
@@ -1014,7 +1014,7 @@ export const experiences: Record<string, Experience> = toMap([
   soireeJazzCafeCarlyle,
   sommetMaunaKeaAstronome,
   sossusvleiDeadvlei,
-  survolAtlasBiplan,
+  survolAtlasHelicoptere,
   tirtaEmpulForetSinges,
   tsingyRouges,
   valleeRoisTombesFermees,
