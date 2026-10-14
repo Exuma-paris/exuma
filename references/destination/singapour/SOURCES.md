@@ -16,3 +16,4 @@ Références fournies par Thea le 14/10/2026.
 | `hotel-raffles-singapore.webp` | Tablet Hotels (photo de l'hôtel) | Autorisation à confirmer |
 | `hotel-six-senses-duxton.webp` | Expedia (photo de l'hôtel), recadrée en carré | Autorisation à confirmer |
 | `xp-diner-candlenut.webp` | The Infatuation (photo presse de Candlenut), recadrée en carré | À confirmer |
+| `xp-jardins-botaniques.webp` | Miniature Google Images (arches d'orchidées), personnes remplacées par IA, agrandie, filtre chaud | À confirmer |

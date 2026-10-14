@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["singapour", "jardins botaniques", "orchidees", "unesco", "nature"],
   heroImage: {
     src: "/destination/singapour/xp-jardins-botaniques.webp",
-    alt: "Allée du National Orchid Garden au petit matin, Singapore Botanic Gardens",
+    alt: "Un guide botaniste et un couple sous les arches d'orchidées dorées du National Orchid Garden, Singapour",
   },
   destinationSlugs: ["singapour"],
   sections: [],
