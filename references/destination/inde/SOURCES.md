@@ -12,3 +12,7 @@
 | `xp-gange-2.webp` | IA (mode --inspire) d'après `xp-gange-2-ref.jpg` (Alamy, sadhu) | |
 | `hotel-amanbagh.webp` | yonder.fr (photo officielle Aman), recadrée en carré | Autorisation à confirmer |
 | `hotel-taj-mahal-palace.webp` | Miniature Google Images (photo de l'hôtel), agrandie fidèlement | Autorisation à confirmer |
+| `xp-house-boat-kerala.webp` | Wikimedia Commons, « Kerala backwaters, Houseboats 2, India » | CC BY 4.0 |
+| `xp-jag-mandir.webp` | Wikimedia Commons, « Udaipur, India, Statue of elephant, Jag Mandir Palace » | CC BY 4.0 |
+| `xp-begums-delhi.webp` | Wikimedia Commons, « JAMA MASJID Sunset » | CC BY-SA 4.0 |
+| `xp-ayurveda-kerala.webp` | IA, génération texte (véranda d'un palais du Kerala) | |

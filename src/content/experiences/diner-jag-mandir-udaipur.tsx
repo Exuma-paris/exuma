@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["inde", "udaipur", "lac pichola", "jag mandir", "dîner privé"],
   heroImage: {
     src: "/destination/inde/xp-jag-mandir.webp",
-    alt: "Palais de l'île de Jag Mandir illuminé sur le lac Pichola à la tombée de la nuit, Udaipur",
+    alt: "Éléphant de pierre de Jag Mandir face au City Palace, de l'autre côté du lac Pichola, Udaipur",
   },
   destinationSlugs: ["inde"],
   sections: [],

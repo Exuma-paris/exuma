@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["inde", "kerala", "ayurveda", "cure", "kalari kovilakom"],
   heroImage: {
     src: "/destination/inde/xp-ayurveda-kerala.webp",
-    alt: "Cour et vérandas du palais de Kalari Kovilakom, retraite ayurvédique au Kerala",
+    alt: "Véranda d'un palais du Kerala préparée pour un soin ayurvédique",
   },
   destinationSlugs: ["inde"],
   sections: [],

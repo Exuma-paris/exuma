@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["inde", "delhi", "old delhi", "moghol", "haveli dharampura"],
   heroImage: {
     src: "/destination/inde/xp-begums-delhi.webp",
-    alt: "Coupoles et minarets de la Jama Masjid vus depuis le toit de Haveli Dharampura au coucher du soleil, Old Delhi",
+    alt: "Cour et coupoles de la Jama Masjid au coucher du soleil, Old Delhi",
   },
   destinationSlugs: ["inde"],
   sections: [],
