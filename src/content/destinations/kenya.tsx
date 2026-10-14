@@ -45,12 +45,12 @@ export const destination: Destination = {
           alt: "Troupeau de gnous traversant la rivière Mara au Kenya au moment de la Grande Migration",
         },
         {
-          src: "/destination/kenya/hero-2.png",
-          alt: "Femmes Masaï en tenue traditionnelle dans les plaines de la savane kenyane",
-        },
-        {
           src: "/destination/kenya/hero-3.png",
           alt: "Plage de sable blanc de Galu Beach sur la côte sud du Kenya",
+        },
+        {
+          src: "/destination/kenya/hero-2.png",
+          alt: "Femmes Masaï en tenue traditionnelle dans les plaines de la savane kenyane",
         },
       ],
     },
@@ -79,7 +79,7 @@ export const destination: Destination = {
       columns: [
         "Un voyage au Kenya ne se résume pas à la savane. Le Masaï Mara couvre moins de deux pour cent du territoire. Autour de lui, le Laikipia, les contreforts du mont Kenya, les plaines de l'Amboseli et la côte swahilie composent des Kenya distincts que la plupart des itinéraires ne réunissent jamais. Nous les réunissons.",
         "La Grande Migration est réelle, vérifiable au mètre : entre juillet et octobre, un million et demi de gnous traversent la rivière Mara depuis la Tanzanie. Les crocodiles attendent depuis trois mois. Le guide arrête le moteur sur la rive. Ce moment ne s'organise pas. Il se prépare, avec les bonnes personnes, depuis le bon côté de la rivière.",
-        "Richard's River Camp est niché dans la réserve privée Oare Orok, fondée par Richard Roberts. Chale Island Resort occupe une petite île au large de la côte sud, face à Diani. Entre les deux, il y a un vol domestique d'une heure et une logique de voyage que nous écrivons pour chaque dossier.",
+        "Richard's River Camp est niché dans la réserve privée Olare Orok, fondée par Richard Roberts. Chale Island Resort occupe une petite île au large de la côte sud, face à Diani. Entre les deux, il y a un vol domestique d'une heure et une logique de voyage que nous écrivons pour chaque dossier.",
       ],
     },
 
@@ -157,7 +157,7 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Où séjourner au Kenya",
       description:
-        "Un camp de tentes dans la réserve privée Oare Orok, une propriété sur la plage de Galu Beach, une maison à Nairobi où les girafes de Rothschild passent la tête par les fenêtres du petit déjeuner.",
+        "Un camp de tentes dans la réserve privée Olare Orok, une propriété sur la plage de Galu Beach, une maison à Nairobi où les girafes de Rothschild passent la tête par les fenêtres du petit déjeuner.",
       slugs: ["richards-river-camp", "chale-island-resort", "giraffe-manor"],
     },
 
@@ -236,7 +236,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure au Kenya entre Masaï Mara, Laikipia et côte",
             "Dîner au feu de bois dans la savane au crépuscule, une lanterne apportée à table",
             "Salon sous tente d'un camp de safari ouvert sur la brousse, canapés blancs et tapis anciens",
-            "Mains sur un clavier, téléphone et carnet posés sur une table en marbre",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Observation d'un groupe d'hippopotames depuis les rochers d'une rivière, accompagné de guides masaï",
           ][i],
         },
@@ -256,7 +256,7 @@ export const destination: Destination = {
         {
           title: "Masaï Mara, la savane des savanes",
           description:
-            "La réserve nationale couvre 1 510 km². Les concessions privées autour d'elle, comme Oare Orok, offrent des safaris à pied impossibles dans le parc.",
+            "La réserve nationale couvre 1 510 km². Les concessions privées autour d'elle, comme Olare Orok, offrent des safaris à pied impossibles dans le parc.",
           image: {
             src: "/destination/kenya/map-masai-mara.webp",
             alt: "Plaines dorées du Masaï Mara avec troupeaux de gnous et ciel africain",
@@ -314,7 +314,7 @@ export const destination: Destination = {
             "La forêt de Ngare Ndare borde les contreforts nord du mont Kenya. Les bassins naturels sous la cascade sont alimentés par les neiges du sommet à 5 199 mètres.",
           image: {
             src: "/destination/kenya/map-mont-kenya.webp",
-            alt: "Cascade et bassins turquoise de la forêt de Ngare Ndare au pied du mont Kenya",
+            alt: "Sommet du mont Kenya embrasé par le soleil couchant",
           },
           // TODO: verify coords
           coordinates: { lat: -0.1521, lng: 37.3084 },
@@ -357,7 +357,7 @@ export const destination: Destination = {
               <p>
                 Nous plaçons nos clients dans des camps dont les guides
                 connaissent les mouvements du troupeau plusieurs jours à
-                l'avance. La concession privée Oare Orok offre un accès
+                l'avance. La concession privée Olare Orok offre un accès
                 exclusif à une section de la rivière Mara.
               </p>
             </div>
@@ -377,7 +377,7 @@ export const destination: Destination = {
                 véhicules peuvent converger sur le même animal en haute saison.
               </p>
               <p>
-                Les concessions privées adjacentes, comme Oare Orok, fonctionnent
+                Les concessions privées adjacentes, comme Olare Orok, fonctionnent
                 différemment : un seul opérateur par zone, des safaris à pied
                 autorisés, aucune piste imposée. Le guide suit les traces là où
                 les véhicules du parc ne peuvent pas aller. La rencontre avec
@@ -548,7 +548,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "La concession privée Oare Orok, c'est une autre dimension. Pas un autre véhicule en vue, un guide qui suit les traces à pied, et un crossing de gnous qu'on a attendu deux heures sur la rive. Ces deux heures, on en parle encore.",
+            "La concession privée Olare Orok, c'est une autre dimension. Pas un autre véhicule en vue, un guide qui suit les traces à pied, et un crossing de gnous qu'on a attendu deux heures sur la rive. Ces deux heures, on en parle encore.",
           image: {
             src: "/destination/kenya/hero-1.png",
             alt: "Portrait", // TODO: verify
