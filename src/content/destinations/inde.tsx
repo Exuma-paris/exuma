@@ -35,8 +35,8 @@ export const destination: Destination = {
         "L'Inde ne se traverse pas d'un bloc, et c'est tant mieux. On y suit un fil, celui des cours intérieures du Rajasthan, des marches de Varanasi où le fleuve donne l'heure, des canaux du Kerala et de cette façade de Mumbai qui regarde la mer d'Arabie. Entre deux étapes, il y a toujours un atelier qui entrouvre sa porte, une famille qui met un couvert de plus, un palais que ses propriétaires habitent encore et qu'ils vous montrent eux-mêmes. C'est cette Inde qui reçoit que nous vous faisons découvrir, étape par étape.",
       images: [
         {
-          src: "/destination/inde/hero-1.png",
-          alt: "Ghats de Varanasi et barques sur le Gange au lever du jour, voyage en Inde",
+          src: "/destination/inde/hero-1.webp",
+          alt: "Barque et house-boat sur les backwaters du Kerala au soleil couchant, voyage en Inde",
         },
         {
           src: "/destination/inde/hero-2.png",
@@ -563,7 +563,7 @@ export const destination: Destination = {
           quote:
             "Nous étions seuls sur la barque, avec un joueur de tabla à l'avant, et la ville dormait encore. Une heure plus tard les marches étaient noires de monde. Nous n'avons jamais oublié cet écart.",
           image: {
-            src: "/destination/inde/hero-1.png",
+            src: "/destination/inde/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
