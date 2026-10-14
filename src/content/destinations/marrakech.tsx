@@ -79,7 +79,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/marrakech/split-1.webp",
-          alt: "Artisan zelligeur découpant des tesselles dans un atelier de la médina",
+          alt: "Deux zelligeurs taillant les pièces de céramique dans un atelier de la médina",
         },
         {
           src: "/destination/marrakech/split-2.webp",
