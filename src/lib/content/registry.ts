@@ -153,7 +153,7 @@ import { experience as rizieresIfugao } from "@/content/experiences/rizieres-ifu
 import { experience as palawanHydravionPrive } from "@/content/experiences/palawan-hydravion-prive";
 import { experience as pecheMoorea } from "@/content/experiences/peche-moorea";
 import { experience as nickTetautiare } from "@/content/experiences/nick-tetautiare";
-import { experience as hammamDarElBacha } from "@/content/experiences/hammam-dar-el-bacha";
+import { experience as hammamMamounia } from "@/content/experiences/hammam-mamounia";
 import { experience as keikoSumoTokyo } from "@/content/experiences/keiko-sumo-tokyo";
 import { experience as ceremonieTheNanzenji } from "@/content/experiences/ceremonie-the-nanzenji";
 import { experience as kaisekiGeishaGion } from "@/content/experiences/kaiseki-geisha-gion";
@@ -931,7 +931,7 @@ export const experiences: Record<string, Experience> = toMap([
   gr20,
   grottesPontaDaPiedade,
   gruesPhobjikhaOrnithologue,
-  hammamDarElBacha,
+  hammamMamounia,
   icebergsBaleinesTerreNeuve,
   ilesCagarrasPecheur,
   ilesDaymaniyatSnorkeling,

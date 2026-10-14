@@ -119,7 +119,7 @@ export const destination: Destination = {
       description:
         "Des accès négociés, des personnes nommées. Ni circuit organisé, ni improvisation : une logique construite sur place depuis des années.",
       cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
-      slugs: ["hammam-dar-el-bacha", "cuisine-palais-bahia", "survol-atlas-biplan"],
+      slugs: ["hammam-mamounia", "cuisine-palais-bahia", "survol-atlas-biplan"],
     },
 
     {
