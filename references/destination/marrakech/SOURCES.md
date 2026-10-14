@@ -14,3 +14,4 @@ Photos de référence choisies par Thea le 14/10/2026, utilisées telles quelles
 | `zellige.webp` | routard.com, cour de la medersa Ben Youssef (filtre chaud) | À confirmer |
 | `medersa-patio.webp` | riad-selouane.net, étage de la medersa Ben Youssef (agrandie fidèlement, filtre chaud) | À confirmer |
 | `xp-hammam.webp` | Photo officielle de La Mamounia (mamounia.com), agrandie fidèlement, recadrée en carré | Autorisation à confirmer avec l'hôtel |
+| `xp-cuisine.webp` | Photo fournie par Thea le 14/10/2026 (dada de La Maison Arabe, tablier brodé au logo), recadrée en carré | Autorisation à confirmer avec La Maison Arabe |
