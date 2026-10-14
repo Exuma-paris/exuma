@@ -683,7 +683,7 @@ import { accommodation as nayaraHangaroa } from "@/content/accommodations/nayara
 import { accommodation as altiplanicoRapaNui } from "@/content/accommodations/altiplanico-rapa-nui";
 import { accommodation as amanbagh } from "@/content/accommodations/amanbagh";
 import { accommodation as tajMahalPalaceMumbai } from "@/content/accommodations/taj-mahal-palace-mumbai";
-import { accommodation as ahilyaFort } from "@/content/accommodations/ahilya-fort";
+import { accommodation as tajLakePalace } from "@/content/accommodations/taj-lake-palace";
 import { accommodation as mnembaIslandLodge } from "@/content/accommodations/mnemba-island-lodge";
 import { accommodation as zuriZanzibar } from "@/content/accommodations/zuri-zanzibar";
 import { accommodation as zanzibarWhiteSand } from "@/content/accommodations/zanzibar-white-sand";
@@ -1147,7 +1147,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   altiplanicoRapaNui,
   amanbagh,
   tajMahalPalaceMumbai,
-  ahilyaFort,
+  tajLakePalace,
   mnembaIslandLodge,
   zuriZanzibar,
   zanzibarWhiteSand,

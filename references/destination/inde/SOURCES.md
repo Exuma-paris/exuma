@@ -16,3 +16,4 @@
 | `xp-jag-mandir.webp` | Wikimedia Commons, « Udaipur, India, Statue of elephant, Jag Mandir Palace » | CC BY 4.0 |
 | `xp-begums-delhi.webp` | Wikimedia Commons, « JAMA MASJID Sunset » | CC BY-SA 4.0 |
 | `xp-ayurveda-kerala.webp` | IA, génération texte (véranda d'un palais du Kerala) | |
+| `hotel-taj-lake-palace.webp` | Photo officielle IHCL (Taj), fournie par Thea le 14/10/2026, recadrée en carré | Autorisation à confirmer |

@@ -152,8 +152,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Trois maisons, trois Indes",
       description:
-        "Un domaine de pierre posé au fond d'une vallée du Rajasthan, une grande maison de Mumbai qui regarde passer les bateaux, et un fort où la famille dîne encore avec ses hôtes, au bord de la Narmada.",
-      slugs: ["amanbagh", "taj-mahal-palace-mumbai", "ahilya-fort"],
+        "Un domaine de pierre posé au fond d'une vallée du Rajasthan, une grande maison de Mumbai qui regarde passer les bateaux, et un palais de marbre blanc posé au milieu du lac Pichola, à Udaipur.",
+      slugs: ["amanbagh", "taj-mahal-palace-mumbai", "taj-lake-palace"],
     },
 
     {
