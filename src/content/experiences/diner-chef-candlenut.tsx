@@ -2,13 +2,13 @@ import type { Experience } from "@/lib/content/types";
 
 export const experience: Experience = {
   slug: "diner-chef-candlenut",
-  name: "Dîner privé chez le chef Malcolm Lee, Candlenut",
+  name: "Dîner privé chez Candlenut, le peranakan étoilé de Malcolm Lee",
   blurb:
-    "Malcolm Lee a fait de Candlenut la première table peranakan étoilée au monde. Le dîner privé se prend en cuisine, entre le wok et le mortier à épices, sur les recettes de sa grand-mère.",
+    "Candlenut, la table du chef Malcolm Lee, est le premier restaurant peranakan étoilé au monde. Nous réservons son salon privé pour un menu composé sur mesure, entre recettes de famille et cuisine d'aujourd'hui.",
   keywords: ["singapour", "candlenut", "peranakan", "gastronomie", "malcolm lee"],
   heroImage: {
     src: "/destination/singapour/xp-diner-candlenut.png",
-    alt: "Dîner privé en cuisine chez le chef Malcolm Lee au restaurant Candlenut, Singapour",
+    alt: "Salon privé du restaurant Candlenut dressé pour un dîner peranakan, Singapour",
   },
   destinationSlugs: ["singapour"],
   sections: [],
