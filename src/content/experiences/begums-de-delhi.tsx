@@ -2,13 +2,13 @@ import type { Experience } from "@/lib/content/types";
 
 export const experience: Experience = {
   slug: "begums-de-delhi",
-  name: "Les Begums de Delhi, sur les traces des femmes mogholes",
+  name: "Old Delhi en privé, des Begums mogholes à Haveli Dharampura",
   blurb:
-    "Une promenade dans Shahjahanabad, la vieille ville de Delhi, sur les traces des femmes de la cour moghole. Jahanara Begum, fille de Shah Jahan, a dessiné Chandni Chowk ; d'autres princesses ont fait construire mosquées, jardins et caravansérails.",
-  keywords: ["inde", "delhi", "moghol", "begums", "shahjahanabad"],
+    "Un historien vous guide seul dans Shahjahanabad, sur les traces des princesses mogholes : Jahanara Begum, fille de Shah Jahan, a dessiné Chandni Chowk. La journée s'achève au coucher du soleil sur le toit de Haveli Dharampura, face aux coupoles de la Jama Masjid, avant un dîner moghol.",
+  keywords: ["inde", "delhi", "old delhi", "moghol", "haveli dharampura"],
   heroImage: {
-    src: "/destination/inde/xp-begums-delhi.png",
-    alt: "Jardin et mosquée de Shahjahanabad à Old Delhi dans la lumière du matin",
+    src: "/destination/inde/xp-begums-delhi.webp",
+    alt: "Coupoles et minarets de la Jama Masjid vus depuis le toit de Haveli Dharampura au coucher du soleil, Old Delhi",
   },
   destinationSlugs: ["inde"],
   sections: [],

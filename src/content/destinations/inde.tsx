@@ -136,10 +136,10 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en Inde",
       heading: "Quatre portes que l'on ouvre pour vous",
       description:
-        "Chez les descendants de la famille royale de Cochin, on prend le thé au salon. À Udaipur, une famille montre comment naît une peinture posée sur l'eau. Et à Delhi, ce sont les femmes de l'empire moghol qui racontent la ville.",
+        "Un house-boat privé sur les backwaters du Kerala, un dîner sur l'île de Jag Mandir à Udaipur, Old Delhi avec un historien puis sur les toits de Haveli Dharampura, et une cure dans un palais ayurvédique.",
       slugs: [
-        "high-tea-famille-royale-cochin",
-        "jal-sanjhi-udaipur",
+        "croisiere-house-boat-kerala",
+        "diner-jag-mandir-udaipur",
         "begums-de-delhi",
         "cure-ayurvedique-kerala",
       ],

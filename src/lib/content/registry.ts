@@ -414,8 +414,8 @@ import { experience as tourCulinaireGrenade } from "@/content/experiences/tour-c
 import { experience as tongarikiLeverSoleil } from "@/content/experiences/tongariki-lever-soleil";
 import { experience as terevakaChevalRapaNui } from "@/content/experiences/terevaka-cheval-rapa-nui";
 import { experience as umuRapaNuiFamille } from "@/content/experiences/umu-rapa-nui-famille";
-import { experience as highTeaFamilleRoyaleCochin } from "@/content/experiences/high-tea-famille-royale-cochin";
-import { experience as jalSanjhiUdaipur } from "@/content/experiences/jal-sanjhi-udaipur";
+import { experience as croisiereHouseBoatKerala } from "@/content/experiences/croisiere-house-boat-kerala";
+import { experience as dinerJagMandirUdaipur } from "@/content/experiences/diner-jag-mandir-udaipur";
 import { experience as cureAyurvediqueKerala } from "@/content/experiences/cure-ayurvedique-kerala";
 import { experience as cureAyurvediqueCoteSud } from "@/content/experiences/cure-ayurvedique-cote-sud";
 import { experience as retraiteYogaUbud } from "@/content/experiences/retraite-yoga-ubud";
@@ -859,8 +859,8 @@ export const experiences: Record<string, Experience> = toMap([
   tongarikiLeverSoleil,
   terevakaChevalRapaNui,
   umuRapaNuiFamille,
-  highTeaFamilleRoyaleCochin,
-  jalSanjhiUdaipur,
+  croisiereHouseBoatKerala,
+  dinerJagMandirUdaipur,
   begumsDeDelhi,
   safariBleuBoutre,
   stoneTownVisitePrivee,

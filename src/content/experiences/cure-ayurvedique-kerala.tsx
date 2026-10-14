@@ -2,13 +2,13 @@ import type { Experience } from "@/lib/content/types";
 
 export const experience: Experience = {
   slug: "cure-ayurvedique-kerala",
-  name: "Une cure ayurvédique dans les backwaters du Kerala",
+  name: "Une cure ayurvédique au palais de Kalari Kovilakom",
   blurb:
-    "Dans une maison de soins au bord des backwaters, un médecin ayurvédique établit votre programme dès le premier jour : massages aux huiles chaudes, alimentation adaptée, rythme calme. Une cure complète dure en général deux semaines, face à l'eau et aux cocotiers.",
-  keywords: ["inde", "kerala", "ayurveda", "cure", "backwaters"],
+    "Dans un palais du XIXe siècle de l'ancien royaume de Vengunad, au nord du Kerala, la cure ayurvédique suit la tradition. Un médecin établit votre programme dès l'arrivée : soins aux huiles, yoga, cuisine végétarienne. Elle dure au moins quatorze nuits, sans télévision ni alcool.",
+  keywords: ["inde", "kerala", "ayurveda", "cure", "kalari kovilakom"],
   heroImage: {
-    src: "/destination/inde/xp-ayurveda-kerala.png",
-    alt: "Table de soin en bois sous une véranda ouverte sur les backwaters du Kerala",
+    src: "/destination/inde/xp-ayurveda-kerala.webp",
+    alt: "Cour et vérandas du palais de Kalari Kovilakom, retraite ayurvédique au Kerala",
   },
   destinationSlugs: ["inde"],
   sections: [],
