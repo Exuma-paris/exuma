@@ -43,8 +43,8 @@ export const destination: Destination = {
           alt: "Cour intérieure d'un fort du Rajasthan dans la lumière de fin d'après-midi",
         },
         {
-          src: "/destination/inde/hero-3.png",
-          alt: "Femmes en sari traversant une ruelle de la vieille ville de Jaipur au petit matin",
+          src: "/destination/inde/hero-3.webp",
+          alt: "Femmes en sari portant des cruches de laiton sur les marches d'un puits à degrés près de Jaipur",
         },
       ],
     },
@@ -585,7 +585,7 @@ export const destination: Destination = {
           quote:
             "Trois étapes en douze jours au lieu des six que nous imaginions, et c'était le bon conseil. Le fort au bord de la Narmada, où l'on dîne avec la famille, reste le souvenir le plus fort du séjour.",
           image: {
-            src: "/destination/inde/hero-3.png",
+            src: "/destination/inde/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
