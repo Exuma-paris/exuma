@@ -10,3 +10,5 @@
 | `split-2.webp` | adityabirla.com, tisserande au métier (agrandie fidèlement, filtre chaud) | À confirmer |
 | `xp-gange-1.webp` | voyagesurmesureeninde.com, Munshi Ghat (recadrée, agrandie fidèlement, filtre chaud) | À confirmer |
 | `xp-gange-2.webp` | IA (mode --inspire) d'après `xp-gange-2-ref.jpg` (Alamy, sadhu) | |
+| `hotel-amanbagh.webp` | yonder.fr (photo officielle Aman), recadrée en carré | Autorisation à confirmer |
+| `hotel-taj-mahal-palace.webp` | Miniature Google Images (photo de l'hôtel), agrandie fidèlement | Autorisation à confirmer |
