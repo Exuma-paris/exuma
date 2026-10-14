@@ -13,8 +13,8 @@ export const experience: Experience = {
     "elephant pygmee",
   ],
   heroImage: {
-    src: "/destination/malaisie/xp-kinabatangan.png",
-    alt: "Croisière nocturne sur la rivière Kinabatangan à la recherche de la faune de Sabah",
+    src: "/destination/malaisie/xp-kinabatangan.webp",
+    alt: "Hibou pêcheur de Bornéo éclairé à la lampe lors d'une sortie de nuit sur la Kinabatangan, Sabah",
   },
   destinationSlugs: ["malaisie"],
   sections: [],

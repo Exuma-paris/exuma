@@ -1,33 +1,28 @@
-# Reference images — Inde
+# Sources des images — Inde
 
-Each generated image in `public/destination/inde/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
-
-| Output                            | Reference file                        | Source URL | License |
-| --------------------------------- | ------------------------------------- | ---------- | ------- |
-| `hero-1.png`                      | `hero-1-ref.jpg`                      | TODO       | TODO    |
-| `hero-2.png`                      | `hero-2-ref.jpg`                      | TODO       | TODO    |
-| `hero-3.png`                      | `hero-3-ref.jpg`                      | TODO       | TODO    |
-| `full-image.png`                  | `full-image-ref.jpg`                  | TODO       | TODO    |
-| `split-1.png`                     | `split-1-ref.jpg`                     | TODO       | TODO    |
-| `split-2.png`                     | `split-2-ref.jpg`                     | TODO       | TODO    |
-| `xp-gange-1.png`                  | `xp-gange-1-ref.jpg`                  | TODO       | TODO    |
-| `xp-gange-2.png`                  | `xp-gange-2-ref.jpg`                  | TODO       | TODO    |
-| `xp-cochin-famille-royale.png`    | `xp-cochin-famille-royale-ref.jpg`    | TODO       | TODO    |
-| `xp-jal-sanjhi.png`               | `xp-jal-sanjhi-ref.jpg`               | TODO       | TODO    |
-| `xp-begums-delhi.png`             | `xp-begums-delhi-ref.jpg`             | TODO       | TODO    |
-| `hotel-amanbagh.png`              | `hotel-amanbagh-ref.jpg`              | TODO       | TODO    |
-| `hotel-taj-mahal-palace.png`      | `hotel-taj-mahal-palace-ref.jpg`      | TODO       | TODO    |
-| `hotel-ahilya-fort.png`           | `hotel-ahilya-fort-ref.jpg`           | TODO       | TODO    |
-| `bento-map.png`                   | `bento-map-ref.jpg`                   | TODO       | TODO    |
-| `bento-adresses.png`              | `bento-adresses-ref.jpg`              | TODO       | TODO    |
-| `bento-hebergements.png`          | `bento-hebergements-ref.jpg`          | TODO       | TODO    |
-| `bento-conciergerie.png`          | `bento-conciergerie-ref.jpg`          | TODO       | TODO    |
-| `bento-experiences.png`           | `bento-experiences-ref.jpg`           | TODO       | TODO    |
-| `map-delhi.png`                   | `map-delhi-ref.jpg`                   | TODO       | TODO    |
-| `map-agra.png`                    | `map-agra-ref.jpg`                    | TODO       | TODO    |
-| `map-jaipur.png`                  | `map-jaipur-ref.jpg`                  | TODO       | TODO    |
-| `map-udaipur.png`                 | `map-udaipur-ref.jpg`                 | TODO       | TODO    |
-| `map-varanasi.png`                | `map-varanasi-ref.jpg`                | TODO       | TODO    |
-| `map-kochi.png`                   | `map-kochi-ref.jpg`                   | TODO       | TODO    |
-
-Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`.
+| Image | Source | Droits |
+| --- | --- | --- |
+| `hero-1.webp` | IA (mode --inspire) d'après `hero-1-ref.jpg` (Adobe Stock, backwaters), pour éviter la licence | |
+| `hero-2.webp` | IA (mode --inspire) d'après `hero-2-ref.jpg` (Getty, cour de fort), pour éviter la licence | |
+| `hero-3.webp` | IA (mode --inspire) d'après `hero-3-ref.jpg` (Getty, femmes au puits près de Jaipur), référence fournie par Thea le 14/10/2026 | |
+| `full-image.webp` | Photo hébergée par Nomadays (supabase), fournie par Thea le 14/10/2026, filtre chaud | À confirmer |
+| `split-1.webp` | Miniature Google Images, Hawa Mahal (agrandie fidèlement, filtre chaud) | À confirmer |
+| `split-2.webp` | adityabirla.com, tisserande au métier (agrandie fidèlement, filtre chaud) | À confirmer |
+| `xp-gange-1.webp` | voyagesurmesureeninde.com, Munshi Ghat (recadrée, agrandie fidèlement, filtre chaud) | À confirmer |
+| `xp-gange-2.webp` | IA (mode --inspire) d'après `xp-gange-2-ref.jpg` (Alamy, sadhu) | |
+| `hotel-amanbagh.webp` | yonder.fr (photo officielle Aman), recadrée en carré | Autorisation à confirmer |
+| `hotel-taj-mahal-palace.webp` | Miniature Google Images (photo de l'hôtel), agrandie fidèlement | Autorisation à confirmer |
+| `xp-house-boat-kerala.webp` | Wikimedia Commons, « Kerala backwaters, Houseboats 2, India » | CC BY 4.0 |
+| `xp-jag-mandir.webp` | Wikimedia Commons, « Udaipur, India, Statue of elephant, Jag Mandir Palace » | CC BY 4.0 |
+| `xp-begums-delhi.webp` | Wikimedia Commons, « JAMA MASJID Sunset » | CC BY-SA 4.0 |
+| `xp-ayurveda-kerala.webp` | IA, génération texte (véranda d'un palais du Kerala) | |
+| `hotel-taj-lake-palace.webp` | Photo officielle IHCL (Taj), fournie par Thea le 14/10/2026, recadrée en carré | Autorisation à confirmer |
+| `map-delhi.webp` | Commons, « Chandni Chowk, 2008 (12) » | CC BY-SA 3.0 |
+| `map-agra.webp` | Commons, « Aks The Reflection Taj Mahal » | CC BY-SA 4.0 |
+| `map-jaipur.webp` | Commons, « India - Jaipur2 - 030 » | CC BY 2.0 |
+| `map-udaipur.webp` | Commons, « Backside view of City palace (Lake Pichola, Udaipur) » | CC BY-SA 4.0 |
+| `map-varanasi.webp` | Commons, « Morning at the Varanasi Ghats, India - October 2014 » | CC BY-SA 4.0 |
+| `map-kochi.webp` | Commons, « Chinese fishingnet kochi » | CC BY-SA 2.0 |
+| `bento-adresses.webp`, `bento-experiences.webp` | IA, génération texte | |
+| `bento-hebergements.webp` | Même photo que `hotel-taj-lake-palace.webp` | À confirmer |
+| `bento-conciergerie.webp` | Photo d'équipe Exuma | Exuma |

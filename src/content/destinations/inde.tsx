@@ -35,16 +35,16 @@ export const destination: Destination = {
         "L'Inde ne se traverse pas d'un bloc, et c'est tant mieux. On y suit un fil, celui des cours intérieures du Rajasthan, des marches de Varanasi où le fleuve donne l'heure, des canaux du Kerala et de cette façade de Mumbai qui regarde la mer d'Arabie. Entre deux étapes, il y a toujours un atelier qui entrouvre sa porte, une famille qui met un couvert de plus, un palais que ses propriétaires habitent encore et qu'ils vous montrent eux-mêmes. C'est cette Inde qui reçoit que nous vous faisons découvrir, étape par étape.",
       images: [
         {
-          src: "/destination/inde/hero-1.png",
-          alt: "Ghats de Varanasi et barques sur le Gange au lever du jour, voyage en Inde",
+          src: "/destination/inde/hero-1.webp",
+          alt: "Pirogue et house-boat sur les backwaters du Kerala au soleil couchant, voyage en Inde",
         },
         {
-          src: "/destination/inde/hero-2.png",
+          src: "/destination/inde/hero-2.webp",
           alt: "Cour intérieure d'un fort du Rajasthan dans la lumière de fin d'après-midi",
         },
         {
-          src: "/destination/inde/hero-3.png",
-          alt: "Femmes en sari traversant une ruelle de la vieille ville de Jaipur au petit matin",
+          src: "/destination/inde/hero-3.webp",
+          alt: "Femmes en sari portant des cruches de laiton sur les marches d'un puits à degrés près de Jaipur",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/inde/full-image.png",
-        alt: "Le Taj Mahal vu depuis la rive de la Yamuna au lever du jour, voyage en Inde",
+        src: "/destination/inde/full-image.webp",
+        alt: "Le Taj Mahal encadré par l'arche sculptée de la mosquée voisine, Agra, voyage en Inde",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/inde/split-1.png",
-          alt: "Maître tisserand de Varanasi au travail sur son métier à tisser la soie",
+          src: "/destination/inde/split-1.webp",
+          alt: "Façade rose du Hawa Mahal, le palais des Vents, à Jaipur",
         },
         {
-          src: "/destination/inde/split-2.png",
-          alt: "Table dressée dans la cour d'un fort au bord de la Narmada à Maheshwar",
+          src: "/destination/inde/split-2.webp",
+          alt: "Mains d'une tisserande tendant les fils de soie colorés sur son métier",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/inde/xp-gange-1.png",
-          alt: "Barque privée glissant devant les ghats de Varanasi à l'aube",
+          src: "/destination/inde/xp-gange-1.webp",
+          alt: "Barques sur le Gange devant le Munshi Ghat de Varanasi au lever du jour",
         },
         right: {
-          src: "/destination/inde/xp-gange-2.png",
-          alt: "Joueur de tabla assis à l'avant d'une barque sur le Gange au lever du soleil",
+          src: "/destination/inde/xp-gange-2.webp",
+          alt: "Sadhu en robe safran assis sur les marches d'un ghat de Varanasi",
         },
       },
       text: {
@@ -136,10 +136,10 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en Inde",
       heading: "Quatre portes que l'on ouvre pour vous",
       description:
-        "Chez les descendants de la famille royale de Cochin, on prend le thé au salon. À Udaipur, une famille montre comment naît une peinture posée sur l'eau. Et à Delhi, ce sont les femmes de l'empire moghol qui racontent la ville.",
+        "Un house-boat privé sur les backwaters du Kerala, un dîner sur l'île de Jag Mandir à Udaipur, Old Delhi avec un historien puis sur les toits de Haveli Dharampura, et une cure dans un palais ayurvédique.",
       slugs: [
-        "high-tea-famille-royale-cochin",
-        "jal-sanjhi-udaipur",
+        "croisiere-house-boat-kerala",
+        "diner-jag-mandir-udaipur",
         "begums-de-delhi",
         "cure-ayurvedique-kerala",
       ],
@@ -152,8 +152,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Trois maisons, trois Indes",
       description:
-        "Un domaine de pierre posé au fond d'une vallée du Rajasthan, une grande maison de Mumbai qui regarde passer les bateaux, et un fort où la famille dîne encore avec ses hôtes, au bord de la Narmada.",
-      slugs: ["amanbagh", "taj-mahal-palace-mumbai", "ahilya-fort"],
+        "Un domaine de pierre posé au fond d'une vallée du Rajasthan, une grande maison de Mumbai qui regarde passer les bateaux, et un palais de marbre blanc posé au milieu du lac Pichola, à Udaipur.",
+      slugs: ["amanbagh", "taj-mahal-palace-mumbai", "taj-lake-palace"],
     },
 
     {
@@ -226,13 +226,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/inde/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/inde/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Inde entre Delhi, le Rajasthan, Varanasi et le Kerala",
-            "Adresses confidentielles en Inde : ateliers d'artisans et demeures de famille",
-            "Hébergements en Inde : palais habités, forts de famille et grandes maisons de ville",
-            "Conciergerie privée 24/7 pour un voyage en Inde",
-            "Expériences immersives en Inde : le Gange à l'aube et les ateliers de Jaipur",
+            "Adresses confidentielles en Inde : un atelier d'impression au bloc de bois à Jaipur",
+            "Hébergements en Inde : le Taj Lake Palace sur le lac Pichola",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Expériences immersives en Inde : le Gange à l'aube depuis une barque privée",
           ][i],
         },
       })),
@@ -254,8 +254,8 @@ export const destination: Destination = {
           description:
             "Deux villes se touchent ici. Shahjahanabad garde ses ruelles d'épices et ses marchands qui hèlent, tandis que New Delhi étire ses avenues bordées d'arbres. C'est là que les Begums de l'empire moghol ont laissé le plus de traces, et l'on met un moment à s'en apercevoir.",
           image: {
-            src: "/destination/inde/map-delhi.png",
-            alt: "Ruelles du marché de Chandni Chowk à Old Delhi au petit matin",
+            src: "/destination/inde/map-delhi.webp",
+            alt: "Rue animée du marché de Chandni Chowk, Old Delhi",
           },
           // TODO: verify coords
           coordinates: { lat: 28.6139, lng: 77.209 },
@@ -265,8 +265,8 @@ export const destination: Destination = {
           description:
             "Le mausolée tient toutes ses promesses, surtout quand on arrive tôt ou qu'on le regarde depuis l'autre rive de la Yamuna. Juste en amont, le fort d'Agra raconte la fin de l'histoire : Shah Jahan y a passé ses dernières années face à ce qu'il avait fait construire.",
           image: {
-            src: "/destination/inde/map-agra.png",
-            alt: "Le Taj Mahal d'Agra vu depuis les jardins de Mehtab Bagh au lever du jour",
+            src: "/destination/inde/map-agra.webp",
+            alt: "Le Taj Mahal et son reflet dans un bassin, Agra",
           },
           // TODO: verify coords
           coordinates: { lat: 27.1751, lng: 78.0421 },
@@ -276,8 +276,8 @@ export const destination: Destination = {
           description:
             "La ville s'est dessinée d'un seul trait au début du XVIIIe siècle, et ses rues bien droites en gardent la trace. Dans les faubourgs, les ateliers d'impression sur bois et de poterie bleue travaillent toujours à la main, et le Raj Mandir projette ses films sous des lustres immenses.",
           image: {
-            src: "/destination/inde/map-jaipur.png",
-            alt: "Façades ocre de la vieille ville de Jaipur et passants au petit matin",
+            src: "/destination/inde/map-jaipur.webp",
+            alt: "Porte rose de la vieille ville de Jaipur et circulation du matin",
           },
           // TODO: verify coords
           coordinates: { lat: 26.9124, lng: 75.7873 },
@@ -287,8 +287,8 @@ export const destination: Destination = {
           description:
             "Les lacs ont été creusés de main d'homme et les palais semblent flotter dessus. Dans les ruelles au-dessus, les peintres de miniatures travaillent au pinceau fin, et une famille y garde la tradition du Jal Sanjhi, cette peinture qui se compose sur l'eau avant de s'en aller avec elle.",
           image: {
-            src: "/destination/inde/map-udaipur.png",
-            alt: "Palais et ghats d'Udaipur reflétés dans le lac Pichola en fin de journée",
+            src: "/destination/inde/map-udaipur.webp",
+            alt: "Le City Palace d'Udaipur au-dessus du lac Pichola",
           },
           // TODO: verify coords
           coordinates: { lat: 24.5854, lng: 73.7125 },
@@ -298,8 +298,8 @@ export const destination: Destination = {
           description:
             "L'une des plus anciennes villes habitées du monde, où les marches descendent vers le fleuve sur des kilomètres. Tout s'y joue au petit matin, entre les bains, les saluts au soleil, les lutteurs qui s'entraînent sur l'argile des akhara et le thé que l'on boit assis sur une marche.",
           image: {
-            src: "/destination/inde/map-varanasi.png",
-            alt: "Ghats de Varanasi et pèlerins descendant vers le Gange dans la brume du matin",
+            src: "/destination/inde/map-varanasi.webp",
+            alt: "Ghats colorés de Varanasi et barques sur le Gange au matin",
           },
           // TODO: verify coords
           coordinates: { lat: 25.3176, lng: 82.9739 },
@@ -309,8 +309,8 @@ export const destination: Destination = {
           description:
             "Le poivre a fait venir ici les Portugais, les Hollandais puis les Anglais, et chacun a laissé une façade derrière lui. Sur la pointe de Fort Kochi, les pêcheurs relèvent encore leurs filets à la main, et les canaux du Kerala commencent juste derrière.",
           image: {
-            src: "/destination/inde/map-kochi.png",
-            alt: "Filets de pêche relevés à la main sur la pointe de Fort Kochi au Kerala",
+            src: "/destination/inde/map-kochi.webp",
+            alt: "Filets de pêche chinois de Fort Kochi au coucher du soleil, Kerala",
           },
           // TODO: verify coords
           coordinates: { lat: 9.9312, lng: 76.2673 },
@@ -563,7 +563,7 @@ export const destination: Destination = {
           quote:
             "Nous étions seuls sur la barque, avec un joueur de tabla à l'avant, et la ville dormait encore. Une heure plus tard les marches étaient noires de monde. Nous n'avons jamais oublié cet écart.",
           image: {
-            src: "/destination/inde/hero-1.png",
+            src: "/destination/inde/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -574,7 +574,7 @@ export const destination: Destination = {
           quote:
             "Le thé chez les descendants de la famille de Cochin, dans leur maison, avec leurs photos aux murs. Nos petits-enfants ont posé des questions pendant deux heures. Ce n'était pas une visite, c'était une rencontre.",
           image: {
-            src: "/destination/inde/hero-2.png",
+            src: "/destination/inde/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -585,7 +585,7 @@ export const destination: Destination = {
           quote:
             "Trois étapes en douze jours au lieu des six que nous imaginions, et c'était le bon conseil. Le fort au bord de la Narmada, où l'on dîne avec la famille, reste le souvenir le plus fort du séjour.",
           image: {
-            src: "/destination/inde/hero-3.png",
+            src: "/destination/inde/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

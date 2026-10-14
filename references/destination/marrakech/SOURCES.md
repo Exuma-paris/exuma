@@ -1,33 +1,28 @@
-# Reference images — Marrakech
+# Sources des images — Marrakech
 
-Each generated image in `public/destination/marrakech/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 2.5 Flash Image alongside the corresponding reference photograph below.
+Photos de référence choisies par Thea le 14/10/2026, utilisées telles quelles (recadrage, léger réchauffement ; agrandissement fidèle par IA pour les petites images). Droits à confirmer avant publication.
 
-| Output                     | Reference file              | Source URL | License |
-| -------------------------- | --------------------------- | ---------- | ------- |
-| `hero-1.png`               | `hero-1-ref.jpg`            | TODO       | TODO    |
-| `hero-2.png`               | `hero-2-ref.jpg`            | TODO       | TODO    |
-| `hero-3.png`               | `hero-3-ref.jpg`            | TODO       | TODO    |
-| `full-image.png`           | `full-image-ref.jpg`        | TODO       | TODO    |
-| `split-1.png`              | `split-1-ref.jpg`           | TODO       | TODO    |
-| `split-2.png`              | `split-2-ref.jpg`           | TODO       | TODO    |
-| `xp-hammam.png`            | `xp-hammam-ref.jpg`         | TODO       | TODO    |
-| `xp-cuisine.png`           | `xp-cuisine-ref.jpg`        | TODO       | TODO    |
-| `xp-biplan.png`            | `xp-biplan-ref.jpg`         | TODO       | TODO    |
-| `zellige.png`              | `zellige-ref.jpg`           | TODO       | TODO    |
-| `jardinier.png`            | `jardinier-ref.jpg`         | TODO       | TODO    |
-| `hotel-royal-mansour.png`  | `hotel-royal-mansour-ref.jpg` | TODO     | TODO    |
-| `hotel-amanjena.png`       | `hotel-amanjena-ref.jpg`    | TODO       | TODO    |
-| `hotel-dar-ahlam.png`      | `hotel-dar-ahlam-ref.jpg`   | TODO       | TODO    |
-| `bento-map.png`            | `bento-map-ref.jpg`         | TODO       | TODO    |
-| `bento-adresses.png`       | `bento-adresses-ref.jpg`    | TODO       | TODO    |
-| `bento-aerien.png`         | `bento-aerien-ref.jpg`      | TODO       | TODO    |
-| `bento-conciergerie.png`   | `bento-conciergerie-ref.jpg` | TODO      | TODO    |
-| `bento-experience.png`     | `bento-experience-ref.jpg`  | TODO       | TODO    |
-| `map-medersa.png`          | `map-medersa-ref.jpg`       | TODO       | TODO    |
-| `map-ourika.png`           | `map-ourika-ref.jpg`        | TODO       | TODO    |
-| `map-bahia.png`            | `map-bahia-ref.jpg`         | TODO       | TODO    |
-| `map-kik.png`              | `map-kik-ref.jpg`           | TODO       | TODO    |
-| `map-agdal.png`            | `map-agdal-ref.jpg`         | TODO       | TODO    |
-| `map-skoura.png`           | `map-skoura-ref.jpg`        | TODO       | TODO    |
-
-| `hotel-dar-ahlam.webp` | `hotel-dar-ahlam-ref.jpg` : photo de l'hôtel (miniature Google Images), fournie par Thea le 08/10/2026, agrandie fidèlement par IA (Gemini) | Autorisation à confirmer avec l'hôtel |
+| Image | Source | Droits |
+| --- | --- | --- |
+| `hero-1.webp` | generationvoyage.fr, souks de la médina | À confirmer |
+| `hero-2.webp` | Miniature Google Images, Koutoubia et Atlas (agrandie) | À confirmer |
+| `hero-3.webp` | villatajmarrakech.com, jardin Majorelle | À confirmer |
+| `full-image.webp` | theturquoisecollection.com, terrasse face à la Koutoubia (El Fenn) | À confirmer |
+| `hotel-dar-ahlam.webp` | Photo de l'hôtel, voir plus bas | À confirmer |
+| `split-1.webp` | le360.ma, atelier de zelligeurs (recadré en portrait, agrandi fidèlement, filtre chaud) | À confirmer |
+| `split-2.webp` | klairarno.com, quartier des tanneurs (recadré en carré, agrandi fidèlement, filtre chaud) | À confirmer |
+| `zellige.webp` | routard.com, cour de la medersa Ben Youssef (filtre chaud) | À confirmer |
+| `medersa-patio.webp` | riad-selouane.net, étage de la medersa Ben Youssef (agrandie fidèlement, filtre chaud) | À confirmer |
+| `xp-hammam.webp` | Photo officielle de La Mamounia (mamounia.com), agrandie fidèlement, recadrée en carré | Autorisation à confirmer avec l'hôtel |
+| `xp-cuisine.webp` | Photo fournie par Thea le 14/10/2026 (dada de La Maison Arabe, tablier brodé au logo), recadrée en carré | Autorisation à confirmer avec La Maison Arabe |
+| `xp-helicoptere.webp` | IA, génération texte (hélicoptère au-dessus du Haut Atlas) | |
+| `hotel-royal-mansour.webp` | Photo officielle (royalmansour.com), fournie par Thea le 14/10/2026, recadrée en carré | Autorisation à confirmer avec l'hôtel |
+| `hotel-amanjena.webp` | Photo Tripadvisor fournie par Thea le 14/10/2026, recadrée en carré | Autorisation à confirmer avec l'hôtel |
+| `map-bahia.webp` | Wikimedia Commons, « Bahia Palace large court » | CC BY-SA 4.0 |
+| `map-skoura.webp` | Wikimedia Commons, « Skoura ruined kasbahs DSCF6901 » | CC BY-SA 4.0 |
+| `map-ourika.webp` | Wikimedia Commons, « Ourika Valley in autumn (11278077005) » | CC BY-SA 2.0 |
+| `map-medersa.webp` | Même photo que `zellige.webp` (routard.com) | À confirmer |
+| `map-kik.webp`, `map-agdal.webp`, `bento-adresses.webp`, `bento-experience.webp` | IA, génération texte | |
+| `bento-aerien.webp` | Même photo que `hotel-amanjena.webp` | À confirmer |
+| `bento-conciergerie.webp` | Photo d'équipe Exuma | Exuma |
+| `bento-map.webp` | Carte vectorielle (contour du Maroc, world-atlas) | |

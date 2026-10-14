@@ -44,3 +44,5 @@ La carte `bento-map.webp` se reconstruit par :
     node .claude/skills/destination-generator/tmp/build-bento-map-chine.mjs <scratchpad>/countries-10m.json
 
 Les six pastilles numérotent les étapes du `placesMap` de la page, dans son ordre. Hangzhou est à environ 170 km de Shanghai : à l'échelle du pays entier les deux pastilles se recouvrent, la quatrième est donc décalée vers le sud-ouest et le trait d'itinéraire suit le décalage.
+
+| `xp-dejeuner-grande-muraille-1.webp` | IA (mode --inspire) d'après `xp-dejeuner-grande-muraille-1-ref.jpg`, référence fournie par Thea le 14/10/2026, sans personne | |
