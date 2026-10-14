@@ -92,8 +92,8 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/marrakech/zellige.png",
-          alt: "Mosaïque zellige dans une fontaine de la medersa Ben Youssef",
+          src: "/destination/marrakech/zellige.webp",
+          alt: "Cour de la medersa Ben Youssef, son bassin, ses zelliges et ses boiseries de cèdre, Marrakech",
         },
         right: {
           src: "/destination/marrakech/jardinier.png",
