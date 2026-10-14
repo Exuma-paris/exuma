@@ -13,3 +13,5 @@
 | `xp-danum-valley.webp` | IA (mode --inspire) d'après `xp-danum-valley-ref.jpg` (Dreamstime, passerelle de canopée) | |
 | `xp-george-town.webp` | Miniature Google Images (rue de George Town), agrandie fidèlement, filtre chaud | À confirmer |
 | `hotel-the-datai-langkawi.webp` | Photo officielle (thedatai.com), recadrée en carré | Autorisation à confirmer |
+| `hotel-gaya-island-resort.webp` | audleytravel.com (photo de l'hôtel), recadrée en carré | Autorisation à confirmer |
+| `hotel-borneo-rainforest-lodge.webp` | Miniature Google Images (photo de l'hôtel), agrandie fidèlement | Autorisation à confirmer |

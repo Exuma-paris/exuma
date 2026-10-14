@@ -667,8 +667,8 @@ import { accommodation as hotelExcelsiorDubrovnik } from "@/content/accommodatio
 import { accommodation as maslinaResort } from "@/content/accommodations/maslina-resort";
 import { accommodation as villaSheherezade } from "@/content/accommodations/villa-sheherezade";
 import { accommodation as theDataiLangkawi } from "@/content/accommodations/the-datai-langkawi";
-import { accommodation as bungaRayaIslandResort } from "@/content/accommodations/bunga-raya-island-resort";
-import { accommodation as sukauRainforestLodge } from "@/content/accommodations/sukau-rainforest-lodge";
+import { accommodation as gayaIslandResort } from "@/content/accommodations/gaya-island-resort";
+import { accommodation as borneoRainforestLodge } from "@/content/accommodations/borneo-rainforest-lodge";
 import { accommodation as dragsholmSlot } from "@/content/accommodations/dragsholm-slot";
 import { accommodation as nimbHotelCopenhague } from "@/content/accommodations/nimb-hotel-copenhague";
 import { accommodation as hotelSanders } from "@/content/accommodations/hotel-sanders";
@@ -1383,8 +1383,8 @@ export const accommodations: Record<string, Accommodation> = toMap([
   maslinaResort,
   villaSheherezade,
   theDataiLangkawi,
-  bungaRayaIslandResort,
-  sukauRainforestLodge,
+  gayaIslandResort,
+  borneoRainforestLodge,
   dragsholmSlot,
   nimbHotelCopenhague,
   hotelSanders,

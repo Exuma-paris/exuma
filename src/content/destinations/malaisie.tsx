@@ -148,8 +148,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Où séjourner en Malaisie",
       description:
-        "Un pavillon niché dans une jungle de dix millions d'années à Langkawi. Une île privée au large de Kota Kinabalu. Un lodge accessible uniquement par la rivière, au cœur du corridor faunique de la Kinabatangan. Trois façons d'habiter la Malaisie.",
-      slugs: ["the-datai-langkawi", "bunga-raya-island-resort", "sukau-rainforest-lodge"],
+        "Un pavillon niché dans une jungle de dix millions d'années à Langkawi. Des villas dans la forêt de Gaya Island, au large de Kota Kinabalu. Un lodge au cœur de la forêt primaire de la Danum Valley. Trois façons d'habiter la Malaisie.",
+      slugs: ["the-datai-langkawi", "gaya-island-resort", "borneo-rainforest-lodge"],
     },
 
     {
@@ -226,7 +226,7 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure en Malaisie entre Kuala Lumpur, Bornéo et Langkawi",
             "Adresses confidentielles en Malaisie : tables de rue et lodges peu fréquentés",
-            "Hébergements en Malaisie : Datai Langkawi et Sukau Rainforest Lodge",
+            "Hébergements en Malaisie : The Datai Langkawi et le Borneo Rainforest Lodge",
             "Conciergerie privée 24/7 pour un voyage en Malaisie",
             "Expériences immersives en Malaisie : Sipadan, Danum Valley et Kinabatangan",
           ][i],
