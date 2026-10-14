@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/inde/xp-gange-1.png",
-          alt: "Barque privée glissant devant les ghats de Varanasi à l'aube",
+          src: "/destination/inde/xp-gange-1.webp",
+          alt: "Barques sur le Gange devant le Munshi Ghat de Varanasi au lever du jour",
         },
         right: {
-          src: "/destination/inde/xp-gange-2.png",
-          alt: "Joueur de tabla assis à l'avant d'une barque sur le Gange au lever du soleil",
+          src: "/destination/inde/xp-gange-2.webp",
+          alt: "Sadhu en robe safran assis sur les marches d'un ghat de Varanasi",
         },
       },
       text: {

@@ -8,3 +8,5 @@
 | `full-image.webp` | Photo hébergée par Nomadays (supabase), fournie par Thea le 14/10/2026, filtre chaud | À confirmer |
 | `split-1.webp` | Miniature Google Images, Hawa Mahal (agrandie fidèlement, filtre chaud) | À confirmer |
 | `split-2.webp` | adityabirla.com, tisserande au métier (agrandie fidèlement, filtre chaud) | À confirmer |
+| `xp-gange-1.webp` | voyagesurmesureeninde.com, Munshi Ghat (recadrée, agrandie fidèlement, filtre chaud) | À confirmer |
+| `xp-gange-2.webp` | IA (mode --inspire) d'après `xp-gange-2-ref.jpg` (Alamy, sadhu) | |
