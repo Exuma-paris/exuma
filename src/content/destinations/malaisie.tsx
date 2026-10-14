@@ -94,7 +94,7 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/malaisie/split-1.png",
+          src: "/destination/malaisie/split-1.webp",
           alt: "Kayak glissant entre les mangroves du parc géologique de Kilim à Langkawi",
         },
         {
