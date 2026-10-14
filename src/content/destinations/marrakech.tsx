@@ -78,11 +78,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/marrakech/split-1.png",
+          src: "/destination/marrakech/split-1.webp",
           alt: "Artisan zelligeur découpant des tesselles dans un atelier de la médina",
         },
         {
-          src: "/destination/marrakech/split-2.png",
+          src: "/destination/marrakech/split-2.webp",
           alt: "Cuves de teinture dans les tanneries de Marrakech",
         },
       ],

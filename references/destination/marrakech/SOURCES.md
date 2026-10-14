@@ -9,3 +9,5 @@ Photos de référence choisies par Thea le 14/10/2026, utilisées telles quelles
 | `hero-3.webp` | villatajmarrakech.com, jardin Majorelle | À confirmer |
 | `full-image.webp` | theturquoisecollection.com, terrasse face à la Koutoubia (El Fenn) | À confirmer |
 | `hotel-dar-ahlam.webp` | Photo de l'hôtel, voir plus bas | À confirmer |
+| `split-1.webp` | le360.ma, atelier de zelligeurs (recadré en portrait, agrandi fidèlement, filtre chaud) | À confirmer |
+| `split-2.webp` | klairarno.com, quartier des tanneurs (recadré en carré, agrandi fidèlement, filtre chaud) | À confirmer |
