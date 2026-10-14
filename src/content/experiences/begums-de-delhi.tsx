@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "begums-de-delhi",
   name: "Les Begums de Delhi, sur les traces des femmes mogholes",
   blurb:
-    "Petit-déjeuner dans Old Delhi, puis Shahjahanabad par ses mosquées et ses jardins, tous commandés par des femmes. De Nur Jahan à Mumtaz Mahal, l'empire raconté par celles que l'on ne cite jamais.",
+    "Une promenade dans Shahjahanabad, la vieille ville de Delhi, sur les traces des femmes de la cour moghole. Jahanara Begum, fille de Shah Jahan, a dessiné Chandni Chowk ; d'autres princesses ont fait construire mosquées, jardins et caravansérails.",
   keywords: ["inde", "delhi", "moghol", "begums", "shahjahanabad"],
   heroImage: {
     src: "/destination/inde/xp-begums-delhi.png",

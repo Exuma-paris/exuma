@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "high-tea-famille-royale-cochin",
   name: "Le patrimoine royal de Cochin, thé chez les descendants",
   blurb:
-    "Le Hill Palace d'abord, ancien bastion de la lignée de Cochin, puis le quartier où la famille vit toujours. Le thé se prend avec ses descendants, dans leur salon, sous leurs propres photographies.",
+    "On visite d'abord le Hill Palace de Tripunithura, ancienne résidence des rois de Cochin devenue le plus grand musée du Kerala. Puis on prend le thé chez des descendants de la famille royale, dans leur maison, autour des photographies de leurs ancêtres.",
   keywords: ["inde", "kochi", "kerala", "cochin", "famille royale"],
   heroImage: {
     src: "/destination/inde/xp-cochin-famille-royale.png",

@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "cure-ayurvedique-kerala",
   name: "Une cure ayurvédique dans les backwaters du Kerala",
   blurb:
-    "Le médecin prend le pouls à trois doigts avant d'écrire quoi que ce soit. La cure tient quatorze jours au minimum, sinon elle ne sert à rien : huiles chaudes le matin, régime établi le premier jour, coucher à vingt et une heures. Les backwaters passent derrière la véranda.",
+    "Dans une maison de soins au bord des backwaters, un médecin ayurvédique établit votre programme dès le premier jour : massages aux huiles chaudes, alimentation adaptée, rythme calme. Une cure complète dure en général deux semaines, face à l'eau et aux cocotiers.",
   keywords: ["inde", "kerala", "ayurveda", "cure", "backwaters"],
   heroImage: {
     src: "/destination/inde/xp-ayurveda-kerala.png",

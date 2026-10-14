@@ -2,9 +2,9 @@ import type { Experience } from "@/lib/content/types";
 
 export const experience: Experience = {
   slug: "jal-sanjhi-udaipur",
-  name: "L'atelier de peinture Jal Sanjhi à Udaipur",
+  name: "La peinture Jal Sanjhi à Udaipur",
   blurb:
-    "Une seule famille d'Udaipur pratique encore le Jal Sanjhi, cet art dédié à Krishna. Les pigments passent au travers des pochoirs et composent une image qui flotte à la surface de l'eau, puis s'en va.",
+    "Le Jal Sanjhi est un art rare d'Udaipur dédié à Krishna, transmis dans la famille de Rajesh Vaishnav depuis dix-huit générations. On assiste à la démonstration : les pigments passent à travers des pochoirs et composent une image qui flotte à la surface de l'eau.",
   keywords: ["inde", "udaipur", "rajasthan", "jal sanjhi", "artisanat"],
   heroImage: {
     src: "/destination/inde/xp-jal-sanjhi.png",
