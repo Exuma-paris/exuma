@@ -90,8 +90,8 @@ export const destination: Destination = {
       heading: "Un pays qui change de visage à chaque étape",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
-        "Du nord au sud, le Vietnam s’étire sur plus de 1 600 kilomètres, du delta du fleuve Rouge aux mangroves du Mékong. En janvier, on porte une veste à Hanoï quand Hô-Chi-Minh-Ville approche les 30 °C. Cette diversité de climats donne son rythme au voyage.",
-        "La baie de Lan Ha, plus discrète que sa voisine d’Halong, se découvre depuis l’eau, entre criques et îlots. Au centre, Hué conserve les palais et les tombeaux des empereurs Nguyễn, le long de la rivière des Parfums.",
+        "Du nord au sud, le Vietnam s’étire sur plus de 1 600 kilomètres, du delta du fleuve Rouge aux mangroves du Mékong. En janvier, on porte une veste à Hanoï quand Hô-Chi-Minh-Ville approche les 30 °C. Ces écarts de climat donnent son rythme au voyage.",
+        "La baie de Lan Ha, plus discrète que sa voisine d’Halong, se découvre depuis l’eau, entre ses criques secrètes et ses îlots couverts de jungle. Au centre, Hué conserve les palais et les tombeaux des empereurs Nguyễn, le long de la rivière des Parfums.",
         "Au nord-ouest, les rizières en terrasses de Sa Pa passent du vert tendre aux nuances dorées selon la saison. Nous composons l’itinéraire pour que chaque étape apporte quelque chose à la suivante, en prenant le temps de s’arrêter.",
       ],
     },
