@@ -39,7 +39,7 @@ export const destination: Destination = {
           alt: "Barque et house-boat sur les backwaters du Kerala au soleil couchant, voyage en Inde",
         },
         {
-          src: "/destination/inde/hero-2.png",
+          src: "/destination/inde/hero-2.webp",
           alt: "Cour intérieure d'un fort du Rajasthan dans la lumière de fin d'après-midi",
         },
         {
@@ -574,7 +574,7 @@ export const destination: Destination = {
           quote:
             "Le thé chez les descendants de la famille de Cochin, dans leur maison, avec leurs photos aux murs. Nos petits-enfants ont posé des questions pendant deux heures. Ce n'était pas une visite, c'était une rencontre.",
           image: {
-            src: "/destination/inde/hero-2.png",
+            src: "/destination/inde/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial

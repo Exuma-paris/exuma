@@ -3,3 +3,4 @@
 | Image | Source | Droits |
 | --- | --- | --- |
 | `hero-1.webp` | Photo Adobe Stock (vue sur altai-travel.com), fournie par Thea le 14/10/2026, recadrée en carré | Licence Adobe Stock à acheter avant publication |
+| `hero-2.webp` | Photo Getty Images (vue sur en-vols.com), fournie par Thea le 14/10/2026, recadrée en carré, filtre chaud | Licence Getty à acheter avant publication |
