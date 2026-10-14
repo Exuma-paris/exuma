@@ -98,8 +98,8 @@ export const destination: Destination = {
           alt: "Kayak glissant entre les mangroves du parc géologique de Kilim à Langkawi",
         },
         {
-          src: "/destination/malaisie/split-2.png",
-          alt: "Pygargue à ventre blanc survolant les eaux calmes de Langkawi au lever du jour",
+          src: "/destination/malaisie/split-2.webp",
+          alt: "Pygargue à ventre blanc posé sur une branche au-dessus de la mangrove de Langkawi au lever du jour",
         },
       ],
     },
@@ -108,11 +108,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/malaisie/xp-plongee-sipadan-1.png",
-          alt: "Tombant corallien vertical au large de l'île de Sipadan, Sabah",
+          src: "/destination/malaisie/xp-plongee-sipadan-1.webp",
+          alt: "Récif de coraux tabulaires au bord de l'île de Sipadan, Sabah",
         },
         right: {
-          src: "/destination/malaisie/xp-plongee-sipadan-2.png",
+          src: "/destination/malaisie/xp-plongee-sipadan-2.webp",
           alt: "Tornade de barracudas au-dessus du récif de Sipadan, mer de Célèbes",
         },
       },
