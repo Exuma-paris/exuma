@@ -45,12 +45,12 @@ export const destination: Destination = {
           alt: "Troupeau de gnous traversant la rivière Mara au Kenya au moment de la Grande Migration",
         },
         {
-          src: "/destination/kenya/hero-2.png",
-          alt: "Femmes Masaï en tenue traditionnelle dans les plaines de la savane kenyane",
-        },
-        {
           src: "/destination/kenya/hero-3.png",
           alt: "Plage de sable blanc de Galu Beach sur la côte sud du Kenya",
+        },
+        {
+          src: "/destination/kenya/hero-2.png",
+          alt: "Femmes Masaï en tenue traditionnelle dans les plaines de la savane kenyane",
         },
       ],
     },
