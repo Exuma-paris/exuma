@@ -12,3 +12,4 @@ Photos de référence choisies par Thea le 14/10/2026, utilisées telles quelles
 | `split-1.webp` | le360.ma, atelier de zelligeurs (recadré en portrait, agrandi fidèlement, filtre chaud) | À confirmer |
 | `split-2.webp` | klairarno.com, quartier des tanneurs (recadré en carré, agrandi fidèlement, filtre chaud) | À confirmer |
 | `zellige.webp` | routard.com, cour de la medersa Ben Youssef (filtre chaud) | À confirmer |
+| `medersa-patio.webp` | riad-selouane.net, étage de la medersa Ben Youssef (agrandie fidèlement, filtre chaud) | À confirmer |

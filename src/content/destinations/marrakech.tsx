@@ -96,8 +96,8 @@ export const destination: Destination = {
           alt: "Cour de la medersa Ben Youssef, son bassin, ses zelliges et ses boiseries de cèdre, Marrakech",
         },
         right: {
-          src: "/destination/marrakech/jardinier.png",
-          alt: "Jardinier taillant un oranger dans un riad de la médina",
+          src: "/destination/marrakech/medersa-patio.webp",
+          alt: "Arcade de l'étage de la medersa Ben Youssef ouvrant sur un patio aux moucharabiehs de cèdre, Marrakech",
         },
       },
       text: {
