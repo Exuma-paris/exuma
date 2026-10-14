@@ -36,8 +36,8 @@ export const destination: Destination = {
           alt: "Tours Petronas et leur passerelle vues d'en bas entre les palmiers, Kuala Lumpur, voyage en Malaisie",
         },
         {
-          src: "/destination/malaisie/hero-2.png",
-          alt: "Pitons calcaires du parc géologique de Kilim à Langkawi, mer d'Andaman",
+          src: "/destination/malaisie/hero-2.webp",
+          alt: "Rocher calcaire et crique de sable dans l'archipel de Langkawi, mer d'Andaman",
         },
         {
           src: "/destination/malaisie/hero-3.png",
