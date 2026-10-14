@@ -14,3 +14,4 @@ Références fournies par Thea le 14/10/2026.
 | `xp-paddock-f1-2.webp` | IA (mode --inspire) d'après une photo McLaren ; sans logo ni pilote identifiable | |
 | `hotel-capella-singapore.webp` | Photo officielle (capellahotels.com), agrandie fidèlement | Autorisation à confirmer |
 | `hotel-raffles-singapore.webp` | Tablet Hotels (photo de l'hôtel) | Autorisation à confirmer |
+| `hotel-six-senses-duxton.webp` | Expedia (photo de l'hôtel), recadrée en carré | Autorisation à confirmer |

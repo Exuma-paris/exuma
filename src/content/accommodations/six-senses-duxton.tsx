@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["singapour", "tanjong pagar", "shophouse", "boutique", "duxton hill"],
   heroImage: {
     src: "/destination/singapour/hotel-six-senses-duxton.webp",
-    alt: "Façade de shophouse restaurée de l'hôtel Six Senses Duxton à Tanjong Pagar",
+    alt: "Chambre à baldaquin noir et or du Six Senses Duxton, dessinée par Anouska Hempel, Singapour",
   },
   destinationSlugs: ["singapour"],
   sections: [],
