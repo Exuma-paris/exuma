@@ -137,11 +137,12 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités aux Philippines",
       heading: "Plonger, marcher dans les rizières, survoler les lagons",
       description:
-        "Un récif immense au large de Mindoro, des terrasses de riz que les familles entretiennent à la main, et un vol au ras des lagons de Palawan. Trois façons d'entrer dans l'archipel, et nous les organisons de bout en bout.",
+        "Un récif immense au large de Mindoro, des terrasses de riz que les familles entretiennent à la main, un vol au ras des lagons de Palawan et une baignade aux côtés des requins-baleines de Donsol. Quatre façons d'entrer dans l'archipel, et nous les organisons de bout en bout.",
       slugs: [
         "apo-reef-plongee-privee",
         "rizieres-ifugao",
         "palawan-hydravion-prive",
+        "requins-baleines-donsol",
       ],
     },
 

@@ -149,6 +149,7 @@ import { serviceCategory as securite } from "@/content/service-categories/securi
 import { serviceCategory as ingenierie } from "@/content/service-categories/ingenierie";
 
 import { experience as apoReefPlongeePrivee } from "@/content/experiences/apo-reef-plongee-privee";
+import { experience as requinsBaleinesDonsol } from "@/content/experiences/requins-baleines-donsol";
 import { experience as rizieresIfugao } from "@/content/experiences/rizieres-ifugao";
 import { experience as palawanHydravionPrive } from "@/content/experiences/palawan-hydravion-prive";
 import { experience as pecheMoorea } from "@/content/experiences/peche-moorea";
@@ -880,6 +881,7 @@ export const experiences: Record<string, Experience> = toMap([
   chevauxSkokiBanff,
   acropoleHorsHeures,
   apoReefPlongeePrivee,
+  requinsBaleinesDonsol,
   arlbergPeauDePhoque,
   atacamaAstrophysicien,
   atelierCorailBiologiste,
