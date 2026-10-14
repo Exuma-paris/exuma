@@ -17,3 +17,4 @@ Photos de référence choisies par Thea le 14/10/2026, utilisées telles quelles
 | `xp-cuisine.webp` | Photo fournie par Thea le 14/10/2026 (dada de La Maison Arabe, tablier brodé au logo), recadrée en carré | Autorisation à confirmer avec La Maison Arabe |
 | `xp-helicoptere.webp` | IA, génération texte (hélicoptère au-dessus du Haut Atlas) | |
 | `hotel-royal-mansour.webp` | Photo officielle (royalmansour.com), fournie par Thea le 14/10/2026, recadrée en carré | Autorisation à confirmer avec l'hôtel |
+| `hotel-amanjena.webp` | Photo Tripadvisor fournie par Thea le 14/10/2026, recadrée en carré | Autorisation à confirmer avec l'hôtel |
