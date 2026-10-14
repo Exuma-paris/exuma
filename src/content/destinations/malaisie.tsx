@@ -40,8 +40,8 @@ export const destination: Destination = {
           alt: "Rocher calcaire et crique de sable dans l'archipel de Langkawi, mer d'Andaman",
         },
         {
-          src: "/destination/malaisie/hero-3.png",
-          alt: "Canopée de la forêt primaire de Danum Valley à Sabah, Bornéo malaisien",
+          src: "/destination/malaisie/hero-3.webp",
+          alt: "Forêt primaire de Bornéo dans la brume au lever du soleil, Sabah, Malaisie",
         },
       ],
     },
