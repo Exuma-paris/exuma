@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/inde/full-image.png",
-        alt: "Le Taj Mahal vu depuis la rive de la Yamuna au lever du jour, voyage en Inde",
+        src: "/destination/inde/full-image.webp",
+        alt: "Le Taj Mahal encadré par l'arche sculptée de la mosquée voisine, Agra, voyage en Inde",
       },
       height: 600,
     },
