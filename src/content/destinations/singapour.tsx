@@ -226,10 +226,10 @@ export const destination: Destination = {
           src: `/destination/singapour/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé à Singapour",
-            "Ruelle de shophouses de Tanjong Pagar, adresse confidentielle à Singapour",
-            "Chambre d'un hôtel confidentiel à Singapour",
-            "Concierge Exuma à Marina Bay, Singapour",
-            "Dîner privé chez un chef à Singapour",
+            "Bar confidentiel dans une shophouse de Tanjong Pagar, Singapour",
+            "Manoir colonial du Capella Singapore à Sentosa",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Dîner privé sur un toit face à Marina Bay, Singapour",
           ][i],
         },
       })),
@@ -251,7 +251,7 @@ export const destination: Destination = {
             "Le front de mer construit sur des terres gagnées sur l'eau, entre Marina Bay Sands, l'Esplanade et les Supertrees de Gardens by the Bay. Le skyline se regarde surtout après la tombée de la nuit.",
           image: {
             src: "/destination/singapour/map-marina-bay.webp",
-            alt: "Skyline de Marina Bay de nuit à Singapour",
+            alt: "Marina Bay Sands et la skyline de Singapour au coucher du soleil",
           },
           // TODO: verify coords
           coordinates: { lat: 1.2836, lng: 103.8607 },
@@ -262,7 +262,7 @@ export const destination: Destination = {
             "Shophouses restaurées, temple hindou Sri Mariamman et temple bouddhiste de la Relique de la Dent de Bouddha se côtoient sur quelques rues. Le marché de nuit s'installe dès 18 heures.",
           image: {
             src: "/destination/singapour/map-chinatown.webp",
-            alt: "Shophouses de Chinatown à Singapour",
+            alt: "Rue de Chinatown et ses lanternes rouges, Singapour",
           },
           // TODO: verify coords
           coordinates: { lat: 1.2831, lng: 103.8442 },
@@ -273,7 +273,7 @@ export const destination: Destination = {
             "L'île-resort au sud de la ville principale, plages, forts coloniaux (Fort Siloso) et clubs de plage. On y accède par câble aérien ou par une chaussée de moins d'un kilomètre.",
           image: {
             src: "/destination/singapour/map-sentosa.webp",
-            alt: "Plage et front de mer de l'île de Sentosa",
+            alt: "Plage de sable blanc et lagon de Sentosa vus du ciel",
           },
           // TODO: verify coords
           coordinates: { lat: 1.2494, lng: 103.8303 },
@@ -284,7 +284,7 @@ export const destination: Destination = {
             "Cent une hectares de jardins futuristes, Supertrees et deux dômes climatisés (Flower Dome, Cloud Forest) qui recréent des climats méditerranéen et tropical de montagne.", // TODO: verify area
           image: {
             src: "/destination/singapour/map-gardens-by-the-bay.webp",
-            alt: "Supertrees de Gardens by the Bay illuminés à Singapour",
+            alt: "Supertrees illuminés de Gardens by the Bay et Marina Bay Sands, Singapour",
           },
           // TODO: verify coords
           coordinates: { lat: 1.2816, lng: 103.8636 },
@@ -295,7 +295,7 @@ export const destination: Destination = {
             "Ancien quartier des docks devenu le cœur discret de la ville, shophouses de Duxton Hill reconverties en bars à cocktails et boutique-hôtels, à distance du bruit d'Orchard Road.",
           image: {
             src: "/destination/singapour/map-tanjong-pagar.webp",
-            alt: "Shophouses de Duxton Hill à Tanjong Pagar, Singapour",
+            alt: "Rangée de shophouses colorées de Tanjong Pagar, Singapour",
           },
           // TODO: verify coords
           coordinates: { lat: 1.2762, lng: 103.846 },

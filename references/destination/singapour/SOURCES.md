@@ -18,3 +18,10 @@ Références fournies par Thea le 14/10/2026.
 | `xp-diner-candlenut.webp` | The Infatuation (photo presse de Candlenut), recadrée en carré | À confirmer |
 | `xp-jardins-botaniques.webp` | Miniature Google Images (arches d'orchidées), personnes remplacées par IA, agrandie, filtre chaud | À confirmer |
 | `xp-croisiere-iles-sud.webp` | Miniature Google Images (île des îles du Sud), yacht ajouté par IA, agrandie, filtre chaud | À confirmer |
+| `map-tanjong-pagar.webp` | Commons, « Tanjong Pagar Road 4 » | CC BY 2.5 |
+| `map-katong.webp` | Commons, « Colorful shophouses in Koon Seng Road, Singapore » | CC BY-SA 4.0 |
+| `map-gardens-by-the-bay.webp` | Commons, « Gardens by the Bay, Marina Bay, Singapur, 2023-08-19, DD 29-31 HDR » | CC BY-SA 4.0 |
+| `map-marina-bay`, `map-chinatown`, `map-sentosa` | Recadrages de hero-1, hero-2, hero-3 | voir plus haut |
+| `bento-adresses.webp`, `bento-experiences.webp` | IA, génération texte | |
+| `bento-hebergements.webp` | Même photo que `hotel-capella-singapore.webp` | À confirmer |
+| `bento-conciergerie.webp` | Photo d'équipe Exuma | Exuma |
