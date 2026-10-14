@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["singapour", "candlenut", "peranakan", "gastronomie", "malcolm lee"],
   heroImage: {
     src: "/destination/singapour/xp-diner-candlenut.webp",
-    alt: "Salon privé du restaurant Candlenut dressé pour un dîner peranakan, Singapour",
+    alt: "Plats peranakan de Candlenut servis sur une table de marbre vert, Singapour",
   },
   destinationSlugs: ["singapour"],
   sections: [],
