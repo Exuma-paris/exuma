@@ -236,7 +236,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure au Kenya entre Masaï Mara, Laikipia et côte",
             "Dîner au feu de bois dans la savane au crépuscule, une lanterne apportée à table",
             "Salon sous tente d'un camp de safari ouvert sur la brousse, canapés blancs et tapis anciens",
-            "Mains sur un clavier, téléphone et carnet posés sur une table en marbre",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Observation d'un groupe d'hippopotames depuis les rochers d'une rivière, accompagné de guides masaï",
           ][i],
         },
@@ -314,7 +314,7 @@ export const destination: Destination = {
             "La forêt de Ngare Ndare borde les contreforts nord du mont Kenya. Les bassins naturels sous la cascade sont alimentés par les neiges du sommet à 5 199 mètres.",
           image: {
             src: "/destination/kenya/map-mont-kenya.webp",
-            alt: "Cascade et bassins turquoise de la forêt de Ngare Ndare au pied du mont Kenya",
+            alt: "Sommet du mont Kenya embrasé par le soleil couchant",
           },
           // TODO: verify coords
           coordinates: { lat: -0.1521, lng: 37.3084 },
