@@ -222,13 +222,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/malaisie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/malaisie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Malaisie entre Kuala Lumpur, Bornéo et Langkawi",
-            "Adresses confidentielles en Malaisie : tables de rue et lodges peu fréquentés",
+            "Adresses confidentielles en Malaisie : un kopitiam familial de George Town au petit-déjeuner",
             "Hébergements en Malaisie : The Datai Langkawi et le Borneo Rainforest Lodge",
-            "Conciergerie privée 24/7 pour un voyage en Malaisie",
-            "Expériences immersives en Malaisie : Sipadan, Danum Valley et Kinabatangan",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Expériences immersives en Malaisie : la Kinabatangan à l'aube en petit bateau",
           ][i],
         },
       })),
@@ -249,8 +249,8 @@ export const destination: Destination = {
           description:
             "La capitale s'est construite au confluent de deux rivières, d'où son nom, « confluent boueux ». Les tours Petronas, quatre cent cinquante et un mètres, restent les plus hautes tours jumelles du monde depuis 1998.",
           image: {
-            src: "/destination/malaisie/map-kuala-lumpur.png",
-            alt: "Tours Petronas et skyline de Kuala Lumpur au crépuscule",
+            src: "/destination/malaisie/map-kuala-lumpur.webp",
+            alt: "Tours Petronas et gratte-ciel de Kuala Lumpur au crépuscule",
           },
           // TODO: verify coords
           coordinates: { lat: 3.139, lng: 101.6869 },
@@ -260,8 +260,8 @@ export const destination: Destination = {
           description:
             "Archipel de quatre-vingt-dix-neuf îles au large du Kedah, classé géoparc mondial par l'Unesco en 2007. Le parc de Kilim protège l'une des dernières mangroves intactes de la côte ouest.",
           image: {
-            src: "/destination/malaisie/map-langkawi.png",
-            alt: "Îles calcaires et mangroves de l'archipel de Langkawi",
+            src: "/destination/malaisie/map-langkawi.webp",
+            alt: "Rocher calcaire et crique dans l'archipel de Langkawi",
           },
           // TODO: verify coords
           coordinates: { lat: 6.35, lng: 99.8 },
@@ -271,8 +271,8 @@ export const destination: Destination = {
           description:
             "Centre historique inscrit au patrimoine mondial de l'Unesco en 2008. Les shophouses des clans chinois côtoient les fresques murales et les stands de rue ouverts jusqu'à minuit.",
           image: {
-            src: "/destination/malaisie/map-george-town.png",
-            alt: "Shophouses coloniales et street art de George Town, Penang",
+            src: "/destination/malaisie/map-george-town.webp",
+            alt: "Shophouses coloniales de la vieille ville de George Town, Penang",
           },
           // TODO: verify coords
           coordinates: { lat: 5.4141, lng: 100.3288 },
@@ -282,8 +282,8 @@ export const destination: Destination = {
           description:
             "Quatre cent trente-huit kilomètres carrés de forêt primaire à Sabah, sans aucun village permanent depuis les années 1980. L'une des plus fortes densités d'orangs-outans sauvages de Malaisie.",
           image: {
-            src: "/destination/malaisie/map-danum-valley.png",
-            alt: "Forêt primaire et canopée de la Danum Valley Conservation Area, Sabah",
+            src: "/destination/malaisie/map-danum-valley.webp",
+            alt: "Passerelle de canopée dans la forêt primaire de la Danum Valley, Sabah",
           },
           // TODO: verify coords
           coordinates: { lat: 4.9667, lng: 117.8 },
@@ -293,8 +293,8 @@ export const destination: Destination = {
           description:
             "Plus long fleuve de Sabah, corridor faunique entre forêts fragmentées et plantations de palmiers. Éléphants pygmées, singes proboscis et varans se croisent sur ses berges au lever du jour.",
           image: {
-            src: "/destination/malaisie/map-kinabatangan.png",
-            alt: "Croisière au lever du jour sur la rivière Kinabatangan à Sabah",
+            src: "/destination/malaisie/map-kinabatangan.webp",
+            alt: "Rivière Kinabatangan et forêt riveraine dans la brume du matin, Sabah",
           },
           // TODO: verify coords
           coordinates: { lat: 5.5, lng: 118.3667 },
@@ -304,8 +304,8 @@ export const destination: Destination = {
           description:
             "Seule île océanique de Malaisie, protégée depuis 2004 et sans aucun hébergement sur place. L'accès en plongée est limité à cent vingt permis par jour depuis Semporna.",
           image: {
-            src: "/destination/malaisie/map-sipadan.png",
-            alt: "Île de Sipadan et récif corallien au large de Semporna, Sabah",
+            src: "/destination/malaisie/map-sipadan.webp",
+            alt: "Récif corallien et île de Sipadan, au large de Semporna, Sabah",
           },
           // TODO: verify coords
           coordinates: { lat: 4.115, lng: 118.629 },

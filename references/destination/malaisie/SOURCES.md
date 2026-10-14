@@ -15,3 +15,9 @@
 | `hotel-the-datai-langkawi.webp` | Photo officielle (thedatai.com), recadrée en carré | Autorisation à confirmer |
 | `hotel-gaya-island-resort.webp` | audleytravel.com (photo de l'hôtel), recadrée en carré | Autorisation à confirmer |
 | `hotel-borneo-rainforest-lodge.webp` | Miniature Google Images (photo de l'hôtel), agrandie fidèlement | Autorisation à confirmer |
+| `map-kuala-lumpur.webp` | Commons, « The Twins SE Asia 2019 (49171985716) » | CC BY 2.0 |
+| `map-george-town.webp` | Commons, « Penang Malaysia Old-House-in-Jalan-Masjid-Kapitan-Keling-01 » | CC BY-SA 3.0 |
+| `map-kinabatangan.webp` | Commons, « Kinabatangan River (14154417142) » | CC BY 2.0 |
+| `map-langkawi`, `map-danum-valley`, `map-sipadan` | Recadrages des images hero-2, full-image et xp-plongee-sipadan-1 | voir plus haut |
+| `bento-adresses.webp`, `bento-experiences.webp` | IA, génération texte | |
+| `bento-hebergements.webp` | Même photo que `hotel-the-datai-langkawi.webp` | À confirmer |
