@@ -18,3 +18,11 @@ Photos de référence choisies par Thea le 14/10/2026, utilisées telles quelles
 | `xp-helicoptere.webp` | IA, génération texte (hélicoptère au-dessus du Haut Atlas) | |
 | `hotel-royal-mansour.webp` | Photo officielle (royalmansour.com), fournie par Thea le 14/10/2026, recadrée en carré | Autorisation à confirmer avec l'hôtel |
 | `hotel-amanjena.webp` | Photo Tripadvisor fournie par Thea le 14/10/2026, recadrée en carré | Autorisation à confirmer avec l'hôtel |
+| `map-bahia.webp` | Wikimedia Commons, « Bahia Palace large court » | CC BY-SA 4.0 |
+| `map-skoura.webp` | Wikimedia Commons, « Skoura ruined kasbahs DSCF6901 » | CC BY-SA 4.0 |
+| `map-ourika.webp` | Wikimedia Commons, « Ourika Valley in autumn (11278077005) » | CC BY-SA 2.0 |
+| `map-medersa.webp` | Même photo que `zellige.webp` (routard.com) | À confirmer |
+| `map-kik.webp`, `map-agdal.webp`, `bento-adresses.webp`, `bento-experience.webp` | IA, génération texte | |
+| `bento-aerien.webp` | Même photo que `hotel-amanjena.webp` | À confirmer |
+| `bento-conciergerie.webp` | Photo d'équipe Exuma | Exuma |
+| `bento-map.webp` | Carte vectorielle (contour du Maroc, world-atlas) | |

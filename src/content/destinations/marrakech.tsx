@@ -194,7 +194,7 @@ export const destination: Destination = {
           description:
             "Nous assemblons les deux registres, ville et montagne, dans une logique de rythme, pas de distance.",
           image: {
-            src: "/destination/marrakech/bento-map.png",
+            src: "/destination/marrakech/bento-map.webp",
             alt: "Carte d'itinéraire personnalisé Marrakech et Atlas",
           },
           tone: "dark",
@@ -204,7 +204,7 @@ export const destination: Destination = {
           description:
             "Riads sans enseigne, tables de famille, ateliers fermés au public. Des portes qui ne s'ouvrent pas seules.",
           image: {
-            src: "/destination/marrakech/bento-adresses.png",
+            src: "/destination/marrakech/bento-adresses.webp",
             alt: "Porte sculptée dans un derb de la médina",
           },
         },
@@ -213,8 +213,8 @@ export const destination: Destination = {
           description:
             "Palais restauré, domaine en palmeraie, kasbah dans la vallée. Chaque adresse a une raison d'être dans l'itinéraire.",
           image: {
-            src: "/destination/marrakech/bento-aerien.png",
-            alt: "Vue aérienne de la palmeraie de Marrakech",
+            src: "/destination/marrakech/bento-aerien.webp",
+            alt: "Pavillons en pisé rose de l'Amanjena se reflétant dans le grand bassin",
           },
         },
         {
@@ -222,8 +222,8 @@ export const destination: Destination = {
           description:
             "Transferts privés, réservations de dernière minute, ajustements en temps réel. Réponse sous une heure.",
           image: {
-            src: "/destination/marrakech/bento-conciergerie.png",
-            alt: "Voiture privée devant un riad de Marrakech",
+            src: "/destination/marrakech/bento-conciergerie.webp",
+            alt: "Conseillère Exuma souriante, casque sur les oreilles",
           },
         },
         {
@@ -231,7 +231,7 @@ export const destination: Destination = {
           description:
             "Guides diplômés, conservateurs, artisans, familles. Des personnes qui connaissent la ville pour y vivre.",
           image: {
-            src: "/destination/marrakech/bento-experience.png",
+            src: "/destination/marrakech/bento-experience.webp",
             alt: "Guide et visiteurs dans un fondouk restauré",
           },
         },
@@ -253,8 +253,8 @@ export const destination: Destination = {
           description:
             "Fondée au XIVe siècle, restaurée en 1565 sous les Saadiens. Cent trente-deux chambres d'étudiants organisées autour d'un bassin rectangulaire. Le décor de stuc, zellige et bois de cèdre est intact.",
           image: {
-            src: "/destination/marrakech/map-medersa.png",
-            alt: "Patio de la medersa Ben Youssef",
+            src: "/destination/marrakech/map-medersa.webp",
+            alt: "Cour et bassin de la medersa Ben Youssef",
           },
           coordinates: { lat: 31.6317, lng: -7.9867 }, // TODO: verify coords
         },
@@ -263,8 +263,8 @@ export const destination: Destination = {
           description:
             "Quarante minutes de route vers le sud. Les terrasses de culture berbère grimpent entre les noyers jusqu'aux cascades de Setti Fatma. Le marché du lundi rassemble les villages de la vallée.",
           image: {
-            src: "/destination/marrakech/map-ourika.png",
-            alt: "Terrasses cultivées dans la vallée de l'Ourika",
+            src: "/destination/marrakech/map-ourika.webp",
+            alt: "Village et vergers de la vallée de l'Ourika au pied de l'Atlas",
           },
           coordinates: { lat: 31.3667, lng: -7.8000 }, // TODO: verify coords
         },
@@ -273,8 +273,8 @@ export const destination: Destination = {
           description:
             "Huit hectares de cours, de jardins et de salons construits à la fin du XIXe siècle pour le grand vizir Ba Ahmed. Les plafonds peints en bois de cèdre sont d'origine.",
           image: {
-            src: "/destination/marrakech/map-bahia.png",
-            alt: "Cour intérieure du palais Bahia",
+            src: "/destination/marrakech/map-bahia.webp",
+            alt: "Grande cour pavée et galeries peintes du palais Bahia",
           },
           coordinates: { lat: 31.6216, lng: -7.9833 }, // TODO: verify coords
         },
@@ -283,7 +283,7 @@ export const destination: Destination = {
           description:
             "À une heure de route. Un plateau à 1 800 mètres d'altitude face à la chaîne du Toubkal. Pas de tourisme organisé. Un berger, des troupeaux, un silence de montagne.",
           image: {
-            src: "/destination/marrakech/map-kik.png",
+            src: "/destination/marrakech/map-kik.webp",
             alt: "Plateau du Kik avec vue sur le Toubkal enneigé",
           },
           coordinates: { lat: 31.2500, lng: -8.1000 }, // TODO: verify coords
@@ -293,7 +293,7 @@ export const destination: Destination = {
           description:
             "Créés au XIIe siècle par les Almohades, irrigués par des khettaras souterraines depuis huit cents ans. Douze hectares d'oliviers et d'agrumes ceints de murs en pisé. Ouverts le vendredi et le dimanche uniquement.",
           image: {
-            src: "/destination/marrakech/map-agdal.png",
+            src: "/destination/marrakech/map-agdal.webp",
             alt: "Bassin et oliviers des jardins de l'Agdal",
           },
           coordinates: { lat: 31.6100, lng: -7.9850 }, // TODO: verify coords
@@ -303,8 +303,8 @@ export const destination: Destination = {
           description:
             "Deux heures trente de route vers l'est. Une palmeraie traversée de kasbahs en terre, dont celle d'Amridil. Le rythme change : on passe de la ville rouge au silence ocre du pré-Sahara.",
           image: {
-            src: "/destination/marrakech/map-skoura.png",
-            alt: "Kasbah en pisé dans la palmeraie de Skoura",
+            src: "/destination/marrakech/map-skoura.webp",
+            alt: "Kasbahs en pisé entre les palmiers de l'oasis de Skoura",
           },
           coordinates: { lat: 31.0631, lng: -6.5553 }, // TODO: verify coords
         },
