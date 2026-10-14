@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/inde/split-1.png",
-          alt: "Maître tisserand de Varanasi au travail sur son métier à tisser la soie",
+          src: "/destination/inde/split-1.webp",
+          alt: "Façade rose du Hawa Mahal, le palais des Vents, à Jaipur",
         },
         {
-          src: "/destination/inde/split-2.png",
-          alt: "Table dressée dans la cour d'un fort au bord de la Narmada à Maheshwar",
+          src: "/destination/inde/split-2.webp",
+          alt: "Mains d'une tisserande tendant les fils de soie colorés sur son métier",
         },
       ],
     },
