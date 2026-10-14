@@ -77,8 +77,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/malaisie/full-image.png",
-        alt: "Voyage en Malaisie : brume matinale sur la canopée de la forêt primaire de Danum Valley",
+        src: "/destination/malaisie/full-image.webp",
+        alt: "Voyage en Malaisie : passerelle de canopée dans la brume de la forêt primaire de Danum Valley",
       },
       height: 600,
     },
