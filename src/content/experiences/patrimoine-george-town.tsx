@@ -13,8 +13,8 @@ export const experience: Experience = {
     "street art",
   ],
   heroImage: {
-    src: "/destination/malaisie/xp-george-town.png",
-    alt: "Ruelle historique de George Town et ses shophouses coloniales, Penang",
+    src: "/destination/malaisie/xp-george-town.webp",
+    alt: "Shophouses colorées et lanternes rouges dans une rue de George Town, Penang",
   },
   destinationSlugs: ["malaisie"],
   sections: [],

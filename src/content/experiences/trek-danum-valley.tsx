@@ -13,7 +13,7 @@ export const experience: Experience = {
     "foret primaire",
   ],
   heroImage: {
-    src: "/destination/malaisie/xp-danum-valley.png",
+    src: "/destination/malaisie/xp-danum-valley.webp",
     alt: "Trek sur le pont de canopée de la Danum Valley Conservation Area, Sabah",
   },
   destinationSlugs: ["malaisie"],
