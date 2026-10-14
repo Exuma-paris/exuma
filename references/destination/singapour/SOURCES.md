@@ -17,3 +17,4 @@ Références fournies par Thea le 14/10/2026.
 | `hotel-six-senses-duxton.webp` | Expedia (photo de l'hôtel), recadrée en carré | Autorisation à confirmer |
 | `xp-diner-candlenut.webp` | The Infatuation (photo presse de Candlenut), recadrée en carré | À confirmer |
 | `xp-jardins-botaniques.webp` | Miniature Google Images (arches d'orchidées), personnes remplacées par IA, agrandie, filtre chaud | À confirmer |
+| `xp-croisiere-iles-sud.webp` | Miniature Google Images (île des îles du Sud), yacht ajouté par IA, agrandie, filtre chaud | À confirmer |

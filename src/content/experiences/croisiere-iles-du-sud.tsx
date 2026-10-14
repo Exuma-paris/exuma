@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["singapour", "kusu island", "lazarus island", "iles du sud", "croisiere privee"],
   heroImage: {
     src: "/destination/singapour/xp-croisiere-iles-sud.webp",
-    alt: "Bateau privé au mouillage devant l'île de Lazarus au sud de Singapour",
+    alt: "Yacht privé au mouillage devant une île boisée des îles du Sud, Singapour",
   },
   destinationSlugs: ["singapour"],
   sections: [],
