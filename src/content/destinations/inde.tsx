@@ -36,7 +36,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/inde/hero-1.webp",
-          alt: "Barque et house-boat sur les backwaters du Kerala au soleil couchant, voyage en Inde",
+          alt: "Pirogue et house-boat sur les backwaters du Kerala au soleil couchant, voyage en Inde",
         },
         {
           src: "/destination/inde/hero-2.webp",
