@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
-import { continents, serviceCategories, themes } from "@/lib/content/registry";
+import { getServiceLineup } from "@/lib/content/service-lineup";
+import { continents, themes } from "@/lib/content/registry";
 
 export type MenuGroupKey = "continents" | "themes" | "conciergerie" | "agence";
 
@@ -67,13 +68,12 @@ export function getMenuGroups(): MenuGroup[] {
         text: "Ce qui réussit un voyage tient rarement à l'itinéraire, mais à tout ce qui l'entoure. Nos pôles de services couvrent ce périmètre, de la préparation au retour.",
         cta: { label: "Voir tous nos services", href: "/services" },
       },
-      items: Object.values(serviceCategories)
-        .filter((s) => !s.proOnly)
-        .map((s) => ({
-          label: s.name,
-          href: `/services/${s.slug}`,
-          description: s.blurb,
-        })),
+      // Même liste et même ordre que la grille /services.
+      items: getServiceLineup().map((s) => ({
+        label: s.name,
+        href: s.href,
+        description: s.description,
+      })),
     },
     {
       key: "agence",

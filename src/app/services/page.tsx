@@ -4,9 +4,9 @@ import { Phone } from "@untitledui/icons";
 import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { FeatureCardsSection } from "@/components/sections/feature-cards";
-import { serviceCategories } from "@/lib/content/registry";
+import { getServiceLineup } from "@/lib/content/service-lineup";
 import { EXUMA_TEL_HREF } from "@/lib/exuma";
-import type { ImageRef, Section } from "@/lib/content/types";
+import type { Section } from "@/lib/content/types";
 
 export const metadata: Metadata = {
   title: "Nos services",
@@ -15,58 +15,19 @@ export const metadata: Metadata = {
   alternates: { canonical: "/services" },
 };
 
-/**
- * Ordre d'affichage des cartes, sur deux colonnes : le même que le carrousel
- * « Ce que nous prenons en charge » du hub Professionnels, Reporting en tête.
- * Une catégorie absente de cette liste ne s'affiche pas ici.
- */
-const ORDER = [
-  "reporting",
-  "mobilite",
-  "conciergerie",
-  "securite",
-  "ingenierie",
-  "lifestyle",
-] as const;
-
-/**
- * L'image de chaque carte est celle du hero de la catégorie, lue dans son
- * propre fichier de contenu. Aucune donnée n'est recopiée ici : changer le hero
- * d'une catégorie met la grille à jour toute seule.
- */
-function heroImageOf(slug: string): ImageRef | null {
-  const first = serviceCategories[slug]?.sections[0];
-  if (first?.type === "hero" && first.images.length > 0) return first.images[0];
-  return null;
-}
-
-function asText(value: unknown): string {
-  return typeof value === "string" ? value : "";
-}
-
-/**
- * Image de carte imposée quand elle doit différer du hero de la catégorie :
- * Reporting & pilotage garde ici la photo du clavier, comme sur le hub
- * Professionnels (choix de la dirigeante), son hero étant le tableau de bord.
- */
-const CARD_IMAGE: Partial<Record<(typeof ORDER)[number], ImageRef>> = {
-  reporting: {
-    src: "/professionnels/clavier.jpg",
-    alt: "Les mains d'un conseiller Exuma sur son clavier",
-  },
-};
-
-const cards = ORDER.map((slug) => {
-  const category = serviceCategories[slug];
-  const image = CARD_IMAGE[slug] ?? heroImageOf(slug);
-  if (!category || !image) return null;
-  return {
-    title: category.name,
-    description: asText(category.blurb),
-    image,
-    link: { label: `Découvrir ${category.name}`, href: `/services/${slug}` },
-  };
-}).filter((card): card is NonNullable<typeof card> => card !== null);
+// Ordre et contenu des cartes : `getServiceLineup()`, partagé avec le menu.
+const cards = getServiceLineup().flatMap((item) =>
+  item.image
+    ? [
+        {
+          title: item.name,
+          description: item.description,
+          image: item.image,
+          link: { label: `Découvrir ${item.name}`, href: item.href },
+        },
+      ]
+    : [],
+);
 
 const hero: Section = {
   type: "hero",
