@@ -167,7 +167,7 @@ export function HeroImageGallery({
   }, [hasCarousel, autoScrollInterval, images.length]);
 
   return (
-    <section className="flex flex-col gap-10 pt-32 pb-6 md:pt-40 md:pb-16">
+    <section className="flex flex-col gap-10 pt-32 pb-6 md:pt-40">
       <div className="section-px mx-auto flex w-full max-w-layout flex-col items-center">
         <TextBlock
           align="center"

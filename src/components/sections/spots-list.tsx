@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -14,6 +15,8 @@ export type SpotsListSectionProps = {
   description?: string;
   cta?: { label: string; href: string };
   spots: SpotsListItem[];
+  /** Logo posé à droite de l'en-tête (partenaire, éditeur). */
+  logo?: { src: string; alt: string };
   background?: string;
 };
 
@@ -66,6 +69,7 @@ export function SpotsListSection({
   description,
   cta,
   spots,
+  logo,
   background,
 }: SpotsListSectionProps) {
   return (
@@ -81,6 +85,15 @@ export function SpotsListSection({
               <p className="max-w-120 text-secondary-foreground">{description}</p>
             ) : null}
           </div>
+          {logo ? (
+            <Image
+              src={logo.src}
+              alt={logo.alt}
+              width={300}
+              height={64}
+              className="h-10 w-auto md:h-12"
+            />
+          ) : null}
           {cta ? (
             <Link href={cta.href} className={cn(buttonVariants())}>
               {cta.label}

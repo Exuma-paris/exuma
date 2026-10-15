@@ -147,6 +147,7 @@ import { serviceCategory as lifestyle } from "@/content/service-categories/lifes
 import { serviceCategory as conciergerie } from "@/content/service-categories/conciergerie";
 import { serviceCategory as securite } from "@/content/service-categories/securite";
 import { serviceCategory as ingenierie } from "@/content/service-categories/ingenierie";
+import { serviceCategory as reporting } from "@/content/service-categories/reporting";
 
 import { experience as apoReefPlongeePrivee } from "@/content/experiences/apo-reef-plongee-privee";
 import { experience as rizieresIfugao } from "@/content/experiences/rizieres-ifugao";
@@ -1125,6 +1126,7 @@ export const serviceCategories: Record<string, ServiceCategory> = toMap([
   conciergerie,
   securite,
   ingenierie,
+  reporting,
 ]);
 
 export const services: Record<string, Service> = toMap([]);

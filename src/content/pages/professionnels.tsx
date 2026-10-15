@@ -28,9 +28,9 @@ export const sections: Section[] = [
     type: "hero",
     eyebrow: "Exuma · Professionnels",
     heading:
-      "Déléguez l'organisation de vos voyages, gardez un seul interlocuteur",
+      "Déléguez l'organisation des déplacements, gardez un seul interlocuteur",
     description:
-      "Depuis 1991, nous prenons en charge vos déplacements professionnels et privés. Un partenaire de conciergerie, joignable et réactif.",
+      "Depuis 1991, nous pilotons les déplacements des entreprises, des family offices et de leurs dirigeants. Un référent dédié, une exécution rigoureuse, une discrétion totale.",
     images: [
       {
         src: "/professionnels/hero-1.png",
@@ -127,6 +127,77 @@ export const sections: Section[] = [
   },
 
   {
+    type: "featureCards",
+    eyebrow: "Le service",
+    heading: "Ce que nous prenons en charge",
+    description:
+      "Le voyage n'est que la partie visible. Voici les métiers que nous coordonnons, sous un seul interlocuteur.",
+    cards: [
+      {
+        // Seule carte propre aux professionnels, d'où la première place.
+        title: "Suivi des dépenses & reporting",
+        description:
+          "Facture unique, reporting mensuel, pilotage des budgets et vision consolidée de vos déplacements.",
+        image: {
+          src: "/professionnels/clavier.jpg",
+          alt: "Les mains d'un conseiller Exuma sur son clavier",
+        },
+        link: { label: "Découvrir", href: "/services/reporting" },
+      },
+      {
+        title: "Mobilité & accès privilégié",
+        description:
+          "Jets privés, transferts, fast-track aéroport et bagages sensibles.",
+        image: {
+          src: "/service/mobilite/hero-1.png",
+          alt: "Jet privé prêt à l'embarquement sur le tarmac",
+        },
+        link: { label: "Découvrir", href: "/services/mobilite" },
+      },
+      {
+        title: "Conciergerie privée & VIP",
+        description:
+          "Moments d'exception, personnel dédié, réservations de dernière minute.",
+        image: {
+          src: "/service/conciergerie/hero-1.png",
+          alt: "Remise de clé à la réception d'un hôtel",
+        },
+        link: { label: "Découvrir", href: "/services/conciergerie" },
+      },
+      {
+        title: "Sécurité & sérénité",
+        description:
+          "Gestion des imprévus, assistance pendant le voyage, veille sanitaire.",
+        image: {
+          src: "/service/securite/hero-1.png",
+          alt: "Prise en charge en berline avec chauffeur",
+        },
+        link: { label: "Découvrir", href: "/services/securite" },
+      },
+      {
+        title: "Ingénierie du voyage & support global",
+        description:
+          "Visas, assurances, optimisation des privilèges, coordination complète.",
+        image: {
+          src: "/service/ingenierie/hero-1.jpg",
+          alt: "Coordination d'un déplacement depuis le bureau",
+        },
+        link: { label: "Découvrir", href: "/services/ingenierie" },
+      },
+      {
+        title: "Expériences & lifestyle",
+        description:
+          "Accès réservés, tables confidentielles, excursions privées, yachts.",
+        image: {
+          src: "/service/lifestyle/hero-1.png",
+          alt: "Table dressée dans une salle privée",
+        },
+        link: { label: "Découvrir", href: "/services/lifestyle" },
+      },
+    ],
+  },
+
+  {
     type: "infoGrid",
     eyebrow: "Le socle",
     heading: "Ce qui ne change pas d'un dossier à l'autre",
@@ -176,66 +247,6 @@ export const sections: Section[] = [
       "En interne, l'information circule au strict nécessaire : votre référent, son suppléant, et personne d'autre.",
     ],
     cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement" },
-  },
-
-  {
-    type: "featureCards",
-    eyebrow: "Le service",
-    heading: "Ce que nous prenons en charge",
-    description:
-      "Le voyage n'est que la partie visible. Voici les métiers que nous coordonnons, sous un seul interlocuteur.",
-    cards: [
-      {
-        title: "Conciergerie privée & VIP",
-        description:
-          "Moments d'exception, personnel dédié, réservations de dernière minute.",
-        image: {
-          src: "/service/conciergerie/hero-1.png",
-          alt: "Remise de clé à la réception d'un hôtel",
-        },
-        link: { label: "Découvrir", href: "/services/conciergerie" },
-      },
-      {
-        title: "Mobilité & accès privilégié",
-        description:
-          "Jets privés, transferts, fast-track aéroport et bagages sensibles.",
-        image: {
-          src: "/service/mobilite/hero-1.png",
-          alt: "Jet privé prêt à l'embarquement sur le tarmac",
-        },
-        link: { label: "Découvrir", href: "/services/mobilite" },
-      },
-      {
-        title: "Sécurité & sérénité",
-        description:
-          "Gestion des imprévus, assistance pendant le voyage, veille sanitaire.",
-        image: {
-          src: "/service/securite/hero-1.png",
-          alt: "Prise en charge en berline avec chauffeur",
-        },
-        link: { label: "Découvrir", href: "/services/securite" },
-      },
-      {
-        title: "Ingénierie du voyage & support global",
-        description:
-          "Visas, assurances, optimisation des privilèges, coordination complète.",
-        image: {
-          src: "/service/ingenierie/hero-1.jpg",
-          alt: "Coordination d'un déplacement depuis le bureau",
-        },
-        link: { label: "Découvrir", href: "/services/ingenierie" },
-      },
-      {
-        title: "Expériences & lifestyle",
-        description:
-          "Accès réservés, tables confidentielles, excursions privées, yachts.",
-        image: {
-          src: "/service/lifestyle/hero-1.png",
-          alt: "Table dressée dans une salle privée",
-        },
-        link: { label: "Découvrir", href: "/services/lifestyle" },
-      },
-    ],
   },
 
   {

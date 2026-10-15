@@ -55,8 +55,9 @@ export type Section =
       type: "textImagesSplit";
       eyebrow?: string;
       heading: string;
-      paragraphs: string[];
-      images: [ImageRef, ImageRef];
+      paragraphs: (string | { label: string; text: string })[];
+      images: [ImageRef, ImageRef] | [ImageRef];
+      cta?: Cta;
       theme?: "light" | "dark";
       background?: string;
     }
@@ -165,6 +166,8 @@ export type Section =
       description?: string;
       cta?: Cta;
       spots: { title: string; description: string }[];
+      /** Logo optionnel posé à droite de l'en-tête (partenaire, éditeur). */
+      logo?: ImageRef;
       background?: string;
     }
   | {

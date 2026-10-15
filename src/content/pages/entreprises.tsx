@@ -44,9 +44,9 @@ export const sections: Section[] = [
     type: "heroImageBackground",
     eyebrow: "Exuma · Entreprises & cabinets",
     heading:
-      "Vos équipes partent, votre responsabilité les suit. Nous la tenons avec vous",
+      "Vos déplacements professionnels, organisés comme vous travaillez",
     description:
-      "Déplacements individuels, séminaires, voyages de groupe. Agence de voyages immatriculée à Paris, interlocuteur dédié, assistance pendant le voyage, une seule facture.",
+      "Un référent qui prend tout en charge, une plateforme pour réserver en ligne, ou les deux selon le déplacement. Voyages d'affaires, séminaires et déplacements de groupe, depuis Paris et depuis 1991 : une seule équipe, une seule facture.",
     images: [
       {
         // Photo réelle des bureaux (shooting marque employeur, Jules Despretz,
@@ -54,6 +54,46 @@ export const sections: Section[] = [
         // le voile uniforme du gabarit ne suffit pas sur un mur clair.
         src: "/professionnels/entreprises/hero.jpg",
         alt: "L'équipe d'Exuma à son poste, en train de suivre des déplacements en cours",
+      },
+    ],
+  },
+
+  {
+    // Cœur de la page (refonte du 2026-10-14) : les deux voies de passage,
+    // hors ligne et en ligne, ne sont jamais nommées comme telles. On montre
+    // trois façons de travailler, et ce qui ne change pas entre elles.
+    type: "featureCards",
+    eyebrow: "À votre façon",
+    heading: "Trois façons de travailler avec nous, une seule équipe",
+    description:
+      "Dans les trois cas : le même référent, votre politique voyages appliquée, une seule facture. Et vous changez de façon de faire quand vous voulez.",
+    cards: [
+      {
+        title: "Tout confier à votre référent",
+        description:
+          "Un appel ou un message suffit. Votre référent réserve, ajuste et suit chaque déplacement, sans que vous ayez à vous en occuper.",
+        image: {
+          src: "/professionnels/family-offices/poste-travail.jpg",
+          alt: "Un conseiller Exuma à son poste, dans les bureaux de l'agence",
+        },
+      },
+      {
+        title: "Réserver en ligne",
+        description:
+          "Vos collaborateurs réservent eux-mêmes sur notre plateforme, sans formation, avec les meilleurs tarifs disponibles.",
+        image: {
+          src: "/professionnels/hero-1.png",
+          alt: "Une voyageuse consulte son itinéraire sur son ordinateur",
+        },
+      },
+      {
+        title: "Combiner les deux",
+        description:
+          "En ligne pour l'aller-retour simple, votre référent pour le déplacement qui demande du soin. Tout est centralisé au même endroit.",
+        image: {
+          src: "/professionnels/family-offices/poignee-de-main.jpg",
+          alt: "Une poignée de main dans un bureau parisien",
+        },
       },
     ],
   },
@@ -96,6 +136,111 @@ export const sections: Section[] = [
     ],
   },
 
+  {
+    // Offre Corporate Mobility, liste transmise par la dirigeante
+    // (2026-10-14). Ses neuf services tiennent en cinq tuiles illustrées ; la
+    // ligne d'introduction est la sienne, au mot près.
+    type: "bento",
+    eyebrow: "Corporate Mobility",
+    heading: "Vos déplacements, pilotés de bout en bout",
+    description:
+      "Chaque déplacement est maîtrisé, sécurisé et aligné avec vos enjeux stratégiques.",
+    cta: { label: "Découvrir tous nos services", href: "/services" },
+    cards: [
+      {
+        title: "Pilotage des dépenses",
+        description:
+          "Optimisation continue des budgets, analyse des comportements de réservation et ajustement de votre politique voyages.",
+        image: {
+          src: "/professionnels/entreprises/reunion.jpg",
+          alt: "Un point budgétaire autour d'un ordinateur, dans les bureaux d'Exuma",
+        },
+      },
+      {
+        title: "Reporting exécutif",
+        description:
+          "Une vision consolidée de tous vos flux de déplacement, analyse carbone comprise, prête pour votre direction.",
+        image: {
+          // Image générée (2026-10-14) : tableau de bord aux couleurs de la
+          // maison, sans texte ni chiffre lisible à l'écran.
+          src: "/professionnels/entreprises/reporting.png",
+          alt: "Un tableau de bord de reporting des déplacements, sur un ordinateur portable",
+        },
+      },
+      {
+        // Pas de « 24/7 » : l'astreinte existe mais ses contours ne sont pas
+        // fixés (arbitrage de la dirigeante, 2026-10-15).
+        title: "Veille & astreinte",
+        description:
+          "Une équipe d'astreinte et une reprotection immédiate en cas d'imprévu : le service est le cœur de notre métier.",
+        image: {
+          src: "/service/securite/imprevus-3x4.png",
+          alt: "Un conseiller d'Exuma suit un déplacement en cours",
+        },
+      },
+      {
+        title: "Formalités & sécurité",
+        description:
+          "Visas, formalités et traçabilité des voyageurs. Chauffeurs, sécurité et aviation privée si nécessaire.",
+        image: {
+          src: "/professionnels/family-offices/passeports-bureau.jpg",
+          alt: "Des passeports préparés sur un bureau",
+        },
+      },
+      {
+        title: "Accès & privilèges",
+        description:
+          "Salons, fast track et coordination VIP, sièges et cabines stratégiques, statuts fidélité et miles.",
+        image: {
+          // Image générée (2026-10-14) : grand terminal européen, sans
+          // logo ni signalétique lisible.
+          src: "/professionnels/entreprises/acces-aeroport.png",
+          alt: "Deux voyageurs d'affaires accompagnés vers un accès prioritaire, dans un grand terminal européen",
+        },
+      },
+    ],
+  },
+
+  {
+    // Plateforme de réservation (outil SBT). Facultative : elle accompagne le
+    // référent, elle ne le remplace pas. Version courte, en points, sur fond
+    // sombre (voir `dark` dans le gabarit de la page).
+    type: "textImagesSplit",
+    eyebrow: "Plateforme de réservation",
+    heading: "Vos équipes réservent en ligne, votre référent reste là",
+    paragraphs: [
+      "Un outil d'achat de voyages à votre disposition, jamais imposé. Il accompagne le service, il ne le remplace pas.",
+      {
+        label: "Prise en main immédiate",
+        text: "Sans formation, accessible partout. Réservations en ligne et confiées au référent, centralisées en temps réel.",
+      },
+      {
+        label: "Le meilleur tarif",
+        text: "NDC, GDS Sabre et Amadeus, rail européen, SNCF et Ouigo, hôtellerie multisourcée, location de voitures.",
+      },
+      {
+        label: "Modifications en ligne",
+        text: "Annulation ou changement en quelques clics. Dès que ça se complique, votre référent reprend la main.",
+      },
+      {
+        label: "Facturation sur mesure",
+        text: "Par entité, service, code projet, centre de coût ou bon de commande, à la fréquence de votre choix.",
+      },
+    ],
+    cta: {
+      label: "Découvrir la plateforme",
+      href: "/professionnels/plateforme",
+    },
+    // Une seule image : l'interface de la plateforme, redessinée d'après
+    // celle de l'éditeur WonderMiles (sans l'assistant), qui rejoue le geste du
+    // voyageur. Source HTML dans references/professionnels/entreprises/.
+    images: [
+      {
+        src: "/professionnels/entreprises/plateforme-reservation.png",
+        alt: "La plateforme de réservation : vols Paris-Genève triés selon la politique voyages, offre recommandée réservée en un clic, confirmation envoyée au référent",
+      },
+    ],
+  },
   {
     type: "featureShowcase",
     background: "bg-background-soft",
@@ -149,68 +294,6 @@ export const sections: Section[] = [
   },
 
   {
-    type: "featureCards",
-    // Blanc franc, comme les blocs Confidentialité et Prendre contact.
-    background: "bg-background",
-    eyebrow: "Le périmètre",
-    heading: "Vous transmettez une demande, nous tenons le reste",
-    description:
-      "Un départ, une équipe entière, un séminaire à l'autre bout du monde. Ce qui suit se traite ici, sous un seul interlocuteur.",
-    cards: [
-      {
-        title: "Mobilité & accès privilégié",
-        description:
-          "Vols, chauffeurs, accueil en aéroport, transferts de groupe. Vos équipes voyagent sans avoir à s'occuper de la logistique.",
-        image: {
-          src: "/service/mobilite/hero-1.png",
-          alt: "Jet privé prêt à l'embarquement sur le tarmac",
-        },
-        link: { label: "Voir le détail", href: "/services/mobilite" },
-      },
-      {
-        title: "Ingénierie du voyage & support global",
-        description:
-          "Visas, autorisations, assurances, coordination des départs multiples. Les formalités ne remontent plus jusqu'à vous.",
-        image: {
-          src: "/service/ingenierie/hero-1.jpg",
-          alt: "Coordination d'un déplacement depuis le bureau",
-        },
-        link: { label: "Voir le détail", href: "/services/ingenierie" },
-      },
-      {
-        title: "Sécurité & sérénité",
-        description:
-          "Veille sanitaire et sécuritaire, suivi des voyageurs, assistance pendant le déplacement. Votre devoir de protection est instrumenté.",
-        image: {
-          src: "/service/securite/hero-1.png",
-          alt: "Prise en charge en berline avec chauffeur",
-        },
-        link: { label: "Voir le détail", href: "/services/securite" },
-      },
-      {
-        title: "Conciergerie privée & VIP",
-        description:
-          "Réservations de dernière minute, demandes hors cadre, prise en charge de vos invités et de vos clients.",
-        image: {
-          src: "/service/conciergerie/hero-1.png",
-          alt: "Remise de clé à la réception d'un hôtel",
-        },
-        link: { label: "Voir le détail", href: "/services/conciergerie" },
-      },
-      {
-        title: "Expériences & lifestyle",
-        description:
-          "Tables, accès réservés, soirées et activités. Ce qui transforme un déplacement collectif en moment dont on reparle.",
-        image: {
-          src: "/service/lifestyle/hero-1.png",
-          alt: "Table dressée dans une salle privée",
-        },
-        link: { label: "Voir le détail", href: "/services/lifestyle" },
-      },
-    ],
-  },
-
-  {
     // Bloc propre à cette porte : les séminaires et les déplacements de groupe
     // sont dans le périmètre, décision du 2026-08-24.
     type: "imageDuoWithText",
@@ -230,7 +313,7 @@ export const sections: Section[] = [
     },
     text: {
       eyebrow: "Séminaires & déplacements de groupe",
-      heading: "Partir à quarante demande le même soin qu'à un",
+      heading: "Partir à 40 demande le même soin qu'à 1",
       columns: [
         "Séminaire de direction, convention, incentive, déplacement d'une équipe entière sur un même site : nous prenons l'ensemble, des vols au dernier transfert, avec un interlocuteur unique du premier devis au retour.",
         "Les listes de participants changent jusqu'au dernier moment, les contraintes alimentaires et médicales aussi. Nous les tenons à jour, nous suivons chaque arrivée, et nous restons présents pendant l'événement.",
@@ -293,31 +376,6 @@ export const sections: Section[] = [
       "En interne, l'information circule au strict nécessaire : votre interlocuteur, son suppléant, et personne d'autre. Ce que prépare votre direction ne se devine pas depuis un carnet de réservations.",
     ],
     cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement?profil=entreprise" },
-  },
-
-  {
-    type: "textImagesSplit",
-    background: "bg-background-soft",
-    eyebrow: "Ce que vous n'arbitrez plus",
-    heading: "Vos équipes voyagent, vos journées ne s'en ressentent pas",
-    // Le troisième paragraphe porte le vocabulaire réellement tapé : voyages
-    // d'affaires, gestion des déplacements, séminaire, Paris. Court
-    // volontairement, la colonne de texte est décalée et se charge vite.
-    paragraphs: [
-      "Un vol supprimé un dimanche soir ne remonte pas jusqu'à vous. Il remonte jusqu'à nous, et votre collaborateur repart.",
-      "Vous décidez qui part et pourquoi, nous tenons le reste.",
-      "Voyages d'affaires, séminaires, déplacements de groupe : depuis Paris, nous gérons les déplacements de vos équipes, avec un interlocuteur qui connaît vos règles.",
-    ],
-    images: [
-      {
-        src: "/professionnels/entreprises/reunion.jpg",
-        alt: "Un point de travail dans les bureaux d'Exuma",
-      },
-      {
-        src: "/professionnels/entreprises/bureau.jpg",
-        alt: "Un poste de travail d'Exuma en cours de journée",
-      },
-    ],
   },
 
   {
@@ -385,6 +443,11 @@ export const sections: Section[] = [
       suffix: ", nous répondons directement.",
     },
     items: [
+      {
+        question: "Pouvons-nous réserver nous-mêmes, ou tout vous confier ?",
+        answer:
+          "Les deux, et vous n'avez pas à choisir une fois pour toutes. Vos collaborateurs peuvent réserver sur notre plateforme, qui se prend en main sans formation, ou tout confier à votre référent par téléphone ou par message. Beaucoup combinent : en ligne pour les trajets simples, le référent pour ce qui demande du soin. Toutes les réservations sont centralisées, et votre référent reprend la main dès qu'un déplacement se complique.",
+      },
       {
         // Fusion de trois questions qui tournaient autour du même sujet : qui
         // nous sollicite, à quelle heure, et ce qui se passe quand ça dérape.
