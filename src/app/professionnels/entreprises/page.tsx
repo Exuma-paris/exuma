@@ -89,7 +89,11 @@ function faqJsonLd() {
 }
 
 export default function Page() {
-  const [hero, ...rest] = applyBackgroundRhythm(sections, { dark: ["infoGrid"] });
+  const [hero, ...rest] = applyBackgroundRhythm(sections, {
+    // La plateforme de réservation (seul `textImagesSplit` de la page) passe
+    // en sombre, comme les garanties.
+    dark: ["infoGrid", "textImagesSplit"],
+  });
   // Même convention que les pages Expérience : le titre est posé sur l'image
   // plein cadre, l'en-tête passe donc en thème sombre pour rester lisible.
   const headerTheme = hero?.type === "heroImageBackground" ? "dark" : "light";

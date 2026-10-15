@@ -11,21 +11,22 @@ import type { ImageRef, Section } from "@/lib/content/types";
 export const metadata: Metadata = {
   title: "Nos services",
   description:
-    "Mobilité, conciergerie, expériences, sécurité et ingénierie du voyage : les cinq métiers qu'Exuma prend en charge pour vous.",
+    "Reporting et pilotage, mobilité, conciergerie, sécurité, ingénierie du voyage et expériences : les métiers qu'Exuma prend en charge pour vous.",
   alternates: { canonical: "/services" },
 };
 
 /**
- * Ordre d'affichage des cartes, sur deux colonnes. Conciergerie et mobilité
- * ouvrent la grille : ce sont les deux métiers les plus emblématiques de la
- * maison.
+ * Ordre d'affichage des cartes, sur deux colonnes : le même que le carrousel
+ * « Ce que nous prenons en charge » du hub Professionnels, Reporting en tête.
+ * Une catégorie absente de cette liste ne s'affiche pas ici.
  */
 const ORDER = [
-  "conciergerie",
+  "reporting",
   "mobilite",
-  "lifestyle",
+  "conciergerie",
   "securite",
   "ingenierie",
+  "lifestyle",
 ] as const;
 
 /**
@@ -43,9 +44,21 @@ function asText(value: unknown): string {
   return typeof value === "string" ? value : "";
 }
 
+/**
+ * Image de carte imposée quand elle doit différer du hero de la catégorie :
+ * Reporting & pilotage garde ici la photo du clavier, comme sur le hub
+ * Professionnels (choix de la dirigeante), son hero étant le tableau de bord.
+ */
+const CARD_IMAGE: Partial<Record<(typeof ORDER)[number], ImageRef>> = {
+  reporting: {
+    src: "/professionnels/clavier.jpg",
+    alt: "Les mains d'un conseiller Exuma sur son clavier",
+  },
+};
+
 const cards = ORDER.map((slug) => {
   const category = serviceCategories[slug];
-  const image = heroImageOf(slug);
+  const image = CARD_IMAGE[slug] ?? heroImageOf(slug);
   if (!category || !image) return null;
   return {
     title: category.name,
@@ -60,7 +73,7 @@ const hero: Section = {
   eyebrow: "Services",
   heading: "Le service est ce qui nous distingue, pas la destination",
   description:
-    "Nous emmenons nos clients aux quatre coins du monde, avec une seule préoccupation : que le voyage se passe bien. Cinq métiers s'en chargent, et vous n'avez qu'un interlocuteur.",
+    "Nous emmenons nos clients aux quatre coins du monde, avec une seule préoccupation : que le voyage se passe bien. Nos métiers s'en chargent, et vous n'avez qu'un interlocuteur.",
   images: [
     {
       // Shooting Jules Despretz n°12, bande 21:9 prise sous le filigrane, puis
@@ -76,10 +89,10 @@ const hero: Section = {
 };
 
 /**
- * Cinq cartes sur deux colonnes laissent une cellule vide. L'appel à contact
- * vient l'occuper, ce qui remplace le `finalCta` que portaient les versions
- * précédentes de cette page : une seule invitation, à l'endroit où le lecteur
- * finit sa lecture.
+ * L'appel à contact prend la dernière cellule de la grille (seul sur sa
+ * ligne depuis l'ajout de la carte Reporting & pilotage). Il remplace le
+ * `finalCta` des versions précédentes de cette page : une seule invitation,
+ * à l'endroit où le lecteur finit sa lecture.
  */
 function ContactSlot() {
   return (
@@ -122,7 +135,7 @@ export default function Page() {
       <FeatureCardsSection
         layout="grid"
         background="bg-background-soft"
-        eyebrow="Nos cinq métiers"
+        eyebrow="Nos métiers"
         heading="Ce que nous prenons en charge"
         description="Aucun ne se choisit à l'avance. Nous composons le dispositif après vous avoir écouté, et vous n'avez qu'un dossier et qu'une facture."
         cards={cards}

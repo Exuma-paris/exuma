@@ -27,7 +27,7 @@ import type { Section } from "@/lib/content/types";
 export const meta = {
   title: "Pourquoi Exuma",
   description:
-    "Exuma est une maison privée de conseils dédiée au déplacement. Un interlocuteur de référence, une discrétion sans exception, et une seule mesure du succès : votre tranquillité.",
+    "Exuma est une maison de conseils privée dédiée aux déplacements. Un interlocuteur de référence, une discrétion sans exception, et une seule mesure du succès : votre tranquillité.",
 };
 
 export const sections: Section[] = [
@@ -51,9 +51,9 @@ export const sections: Section[] = [
   {
     type: "textColumns",
     eyebrow: "Notre métier",
-    heading: "Une maison privée de conseils dédiée au déplacement",
+    heading: "Une maison de conseils privée dédiée aux déplacements",
     columns: [
-      "Exuma n'est pas une agence de voyage de luxe. **Nous sommes une maison privée de conseils** : un partenaire qui pense et qui se soucie, au quotidien, des déplacements de ses clients, quelles que soient leur taille et leur destination. **Un aller-retour en train compte autant qu'un tour du monde.**",
+      "Exuma n'est pas une agence de voyage de luxe. **Nous sommes une maison de conseils privée** : un partenaire qui pense et qui se soucie, au quotidien, des déplacements de ses clients, quelles que soient leur taille et leur destination. **Un aller-retour en train compte autant qu'un tour du monde.**",
       "Notre métier, c'est de prendre en charge. Entièrement. Durablement. Avec la certitude que ce qui a été dit sera fait, exactement comme convenu. Notre rôle est toujours le même : être ceux qui gèrent, pour que vous soyez celui qui décide, ou celui qui profite.",
     ],
   },
@@ -231,7 +231,7 @@ export const sections: Section[] = [
           "Les meilleures décisions sont parfois celles qu'on vous soumet. Exuma construit la proposition avant que vous ayez à la demander. Vous validez, nous gérons tout le reste. On se laisse convaincre, et l'on rentre en voulant recommencer.",
         image: {
           src: "/professionnels/porte-b.png",
-          alt: "Un dirigeant relit un document entre deux rendez-vous",
+          alt: "Un dirigeant travaille sur son ordinateur pendant un trajet en train",
         },
         link: {
           label: "Exuma pour les dirigeants",

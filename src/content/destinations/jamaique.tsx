@@ -168,49 +168,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Pas de vol direct depuis Paris. Une escale à Londres, Miami ou Toronto, et une quinzaine d'heures de trajet total jusqu'à Montego Bay (MBJ) ou Kingston (KIN). Les deux aéroports sont séparés par trois à quatre heures de route : le choix de l'arrivée dépend de l'itinéraire."
+            "Pas de vol direct depuis Paris : escale à Londres, Miami ou Toronto, une quinzaine d'heures jusqu'à Montego Bay (MBJ) ou Kingston (KIN)."
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Sept heures de retard sur Paris en été, six en hiver. L'île ne pratique pas le changement d'heure. Le décalage se digère bien à l'aller, moins au retour.",
+            "Sept heures de retard sur Paris en été, six en hiver. L'île ne pratique pas le changement d'heure.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar jamaïcain. Le dollar américain est accepté dans les hôtels et sur les excursions, souvent à un taux moins favorable qu'un retrait sur place. Prévoir des espèces en petites coupures pour les marchés, les bars de plage et les pourboires.",
+            "Le dollar jamaïcain. Le dollar américain est accepté, à un taux souvent moins favorable ; prévoir des petites coupures pour les pourboires.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa pour les ressortissants français en séjour touristique de moins de 30 jours. Passeport valide pour toute la durée du séjour. Le formulaire d'immigration et de douane C5 est à remplir en ligne sur enterjamaica.com avant l'arrivée : le service est gratuit."
+            "Pas de visa sous 30 jours, passeport valide tout le séjour. Le formulaire C5 se remplit en ligne, gratuitement, sur enterjamaica.com."
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination obligatoire depuis l'Europe. Les hépatites A et B et la typhoïde sont recommandées. Le certificat de fièvre jaune n'est exigé qu'en provenance d'un pays où la maladie circule.",
+            "Aucun vaccin obligatoire depuis l'Europe. Hépatites A et B et typhoïde recommandées ; fièvre jaune exigée depuis un pays à risque.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mi-décembre à mi-avril pour la saison sèche, la plus stable sur les deux côtes. La saison cyclonique court de juin à novembre, avec un pic en septembre et octobre. Mai et début juin restent une belle fenêtre, avec des averses courtes en fin de journée.",
+            "De mi-décembre à mi-avril pour la saison sèche. Saison cyclonique de juin à novembre, avec un pic en septembre et octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais est la langue officielle. Le patwa, le patois jamaïcain, est ce que l'on entend dans la rue, sur les marchés et dans la musique. Un guide francophone accompagne l'ensemble de l'itinéraire.",
+            "L'anglais est la langue officielle, le patwa celle de la rue. Un guide francophone accompagne l'ensemble de l'itinéraire.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Tropical, de 25 à 32 °C sur les côtes toute l'année. Dans les Blue Mountains, comptez dix à quinze degrés de moins et de la brume presque tous les jours au-dessus de mille mètres. La paroisse de Portland, à l'est, est la plus arrosée de l'île.",
+            "Tropical, de 25 à 32 °C sur les côtes toute l'année. Dans les Blue Mountains, dix à quinze degrés de moins et de la brume.",
         },
       ],
     },
@@ -230,7 +230,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Jamaïque entre les Blue Mountains, Portland et Hanover",
             "Verre de rhum jamaïcain sur une planche de bois, citron vert et feuilles fraîches",
             "Vérandas et terrasse fleurie d'une maison de bois blanche, en Jamaïque",
-            "Conciergerie privée 24/7 pour un voyage en Jamaïque",
+            "Conciergerie privée pour un voyage en Jamaïque",
             "Cascade tombant dans un bassin turquoise entouré de végétation tropicale",
           ][i],
         },
@@ -578,10 +578,10 @@ export const destination: Destination = {
             "Le radeau sur le Rio Grande, c'est ce dont on parle encore. Deux heures et demie sans un bruit de moteur, et un raftsman qui raconte la rivière comme on raconte sa rue. On a fini les pieds dans l'eau à St Margaret's Bay.",
           image: {
             src: "/destination/jamaique/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage en Jamaïque : cocotiers en bord de plage devant les collines boisées"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Portland et Blue Mountains, février 2026", // TODO: replace with real testimonial
+          role: "Portland et Blue Mountains, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -589,10 +589,10 @@ export const destination: Destination = {
             "La villa de Hanover avec son équipe, c'était le bon choix avec les enfants. Le chef s'adaptait à leurs horaires, et on a pu partir en bateau une journée sans avoir rien à organiser.",
           image: {
             src: "/destination/jamaique/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Eaux turquoise d'une rivière bordée de végétation dense, côte est de la Jamaïque"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Jamaïque en famille, janvier 2026", // TODO: replace with real testimonial
+          role: "Jamaïque en famille, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -600,10 +600,10 @@ export const destination: Destination = {
             "Deux nuits dans les Blue Mountains avant de redescendre sur la côte. La récolte au domaine avec le planteur valait à elle seule le détour. On n'imaginait pas qu'il puisse faire douze degrés en Jamaïque.",
           image: {
             src: "/destination/jamaique/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Façade de pierre à arcades d'une ancienne demeure coloniale jamaïcaine"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Blue Mountains et côte sud, mars 2025", // TODO: replace with real testimonial
+          role: "Blue Mountains et côte sud, mars 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

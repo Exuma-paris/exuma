@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = {
   title: "Conditions générales de vente — Exuma",
   description:
-    "Conditions générales de vente d'Exuma, agence de voyage de luxe : réservation, paiement, modification, annulation, responsabilité.",
+    "Conditions générales de vente d'Exuma, maison de conseils privée dédiée aux déplacements : réservation, paiement, modification, annulation, responsabilité.",
   alternates: { canonical: "/cgv" },
 };
 

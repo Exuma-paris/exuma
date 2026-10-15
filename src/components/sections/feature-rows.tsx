@@ -30,8 +30,10 @@ export type FeatureRowsSectionProps = {
   items: {
     title: string;
     paragraphs: string[];
-    image: { src: string; alt: string };
+    image: { src: string; alt: string; position?: string };
   }[];
+  /** false retire le numéro 01, 02… au-dessus de chaque titre. */
+  numbered?: boolean;
   background?: string;
 };
 
@@ -93,6 +95,7 @@ export function FeatureRowsSection({
   description,
   cta,
   items,
+  numbered = true,
   background,
 }: FeatureRowsSectionProps) {
   return (
@@ -138,6 +141,11 @@ export function FeatureRowsSection({
                     // so half the viewport on desktop and the full width below.
                     sizes="(min-width: 768px) 50vw, 100vw"
                     className="object-cover"
+                    style={
+                      item.image.position
+                        ? { objectPosition: item.image.position }
+                        : undefined
+                    }
                   />
                 </div>
 
@@ -147,9 +155,11 @@ export function FeatureRowsSection({
                     mirrored && "md:order-1",
                   )}
                 >
-                  <p className="text-eyebrow text-primary">
-                    {String(i + 1).padStart(2, "0")}
-                  </p>
+                  {numbered ? (
+                    <p className="text-eyebrow text-primary">
+                      {String(i + 1).padStart(2, "0")}
+                    </p>
+                  ) : null}
                   <h3 className="text-h3 max-w-120">{item.title}</h3>
                   <div className="flex flex-col gap-4 text-secondary-foreground">
                     {item.paragraphs.map((paragraph, j) => (

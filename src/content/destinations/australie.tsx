@@ -167,49 +167,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Aucun vol direct depuis la France. Paris rejoint Sydney en une escale, pour vingt-deux à vingt-cinq heures de trajet total selon la correspondance : Singapour avec Singapore Airlines, Doha avec Qatar Airways, Dubaï avec Emirates. Une nuit d'escale à l'aller ou au retour coupe utilement le voyage.",
+            "Pas de vol direct : Paris rejoint Sydney en une escale, par Singapour, Doha ou Dubaï, en vingt-deux à vingt-cinq heures de trajet.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Sydney vit avec huit heures d'avance sur Paris en été, dix en hiver. Le Territoire du Nord, Uluru et Darwin compris, garde trente minutes de retard sur Sydney et ne change jamais d'heure. Le décalage se digère mieux au retour qu'à l'aller.",
+            "Sydney a huit heures d'avance sur Paris en été, dix en hiver. Le Territoire du Nord garde trente minutes de retard sur Sydney.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar australien, autour de 1,65 dollar pour un euro. La carte passe partout, jusque dans les cafés de village et les stations-service du désert. Les espèces ne servent qu'aux marchés et aux petits transferts, et le pourboire n'est pas d'usage.",
+            "Le dollar australien, autour de 1,65 pour un euro. La carte passe partout, même dans le désert, et le pourboire n'est pas d'usage.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "L'eVisitor, sous-classe 651, est gratuit pour les ressortissants français. Il se demande en ligne, autorise des séjours de trois mois et reste valable douze mois. Le passeport doit couvrir toute la durée du séjour, et l'autorisation s'obtient avant l'embarquement.",
+            "L'eVisitor, gratuit, se demande en ligne avant le départ : séjours de trois mois, valable douze mois. Passeport valide tout le séjour.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin exigé pour un voyageur venant de France. Le certificat de fièvre jaune n'est demandé qu'en provenance d'un pays où la maladie circule. Le Quai d'Orsay recommande d'être à jour du calendrier vaccinal français, diphtérie-tétanos-poliomyélite, coqueluche et rougeole. Pas de paludisme sur le continent, et pas d'accord de sécurité sociale entre la France et l'Australie : l'assurance santé et rapatriement compte autant que le vaccin.",
+            "Aucun vaccin exigé, calendrier à jour recommandé, pas de paludisme. Sans accord de sécurité sociale, l'assurance rapatriement s'impose.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mai à octobre pour le désert et le nord : c'est la saison sèche, celle des journées claires à Uluru et des pistes ouvertes dans le Kakadu. La Grande Barrière suit le même calendrier. Le sud, Sydney et Kangaroo Island, donne son meilleur d'octobre à avril. Mai, septembre et octobre sont les mois qui permettent de tout enchaîner.",
+            "De mai à octobre pour Uluru, le Kakadu et la Grande Barrière, d'octobre à avril pour le sud. Mai, septembre et octobre conviennent à tout.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais, avec un accent qui se prend en deux jours. Cent vingt-trois langues aborigènes et du détroit de Torres sont encore parlées, douze seulement transmises aux enfants, surtout dans le Territoire du Nord et le désert de l'Ouest. Les guides francophones existent à Sydney, Cairns et Darwin, et se réservent longtemps à l'avance.",
+            "L'anglais, et cent vingt-trois langues aborigènes et du détroit de Torres. Les guides francophones se réservent longtemps à l'avance.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Quatre climats dans un seul pays. Sydney oscille entre 9 °C la nuit en juillet et 26 °C en journée en janvier. Uluru descend à 4 °C avant l'aube en juillet et dépasse 38 °C en janvier. Darwin tient entre 32 et 35 °C de maximum toute l'année et coupe le calendrier en deux : saison sèche de mai à octobre, saison humide de novembre à avril.",
+            "Sydney entre 9 °C en juillet et 26 °C en janvier, Uluru de 4 à plus de 38 °C. Darwin, entre 32 et 35 °C, est sec de mai à octobre.",
         },
       ],
     },
@@ -229,7 +229,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Australie entre Sydney, Uluru et le Top End",
             "Adresses confidentielles en Australie : tables de chefs et stations isolées du bush",
             "Hébergements en Australie : tentes face à Uluru et lodges de Kangaroo Island",
-            "Conciergerie privée 24/7 pour un voyage en Australie",
+            "Conciergerie privée pour un voyage en Australie",
             "Expériences en Australie : marche à Kata Tjuta, airboat et Grande Barrière",
           ][i],
         },
@@ -564,10 +564,10 @@ export const destination: Destination = {
             "La marche du matin à Kata Tjuta avec notre guide anangu reste le moment que nous racontons le plus. Nous n'avions pas imaginé qu'un paysage puisse arriver avec une histoire aussi ancienne.",
           image: {
             src: "/destination/australie/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage en Australie : le monolithe d'Uluru au lever du jour, dans le Territoire du Nord"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Australie à deux, juin 2026", // TODO: replace with real testimonial
+          role: "Australie à deux, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -575,10 +575,10 @@ export const destination: Destination = {
             "Trois semaines, quatre étapes, aucun trajet à organiser nous-mêmes. À chaque atterrissage, quelqu'un nous attendait avec notre nom sur une pancarte.",
           image: {
             src: "/destination/australie/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Falaises et eucalyptus de la côte sauvage de Kangaroo Island"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Australie, septembre 2025", // TODO: replace with real testimonial
+          role: "Australie, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -586,10 +586,10 @@ export const destination: Destination = {
             "Deux nuits sans réseau dans le bush du Top End. Les sorties en airboat au lever du jour, et le soir personne à qui parler d'autre que nous deux. C'était le but.",
           image: {
             src: "/destination/australie/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Récif corallien et eau claire de la Grande Barrière, au large de Port Douglas"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Australie, mai 2025", // TODO: replace with real testimonial
+          role: "Australie, mai 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

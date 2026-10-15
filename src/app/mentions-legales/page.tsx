@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = {
   title: "Mentions légales — Exuma",
   description:
-    "Mentions légales d'Exuma, agence de voyage de luxe : éditeur, hébergeur, propriété intellectuelle.",
+    "Mentions légales d'Exuma, maison de conseils privée dédiée aux déplacements : éditeur, hébergeur, propriété intellectuelle.",
   alternates: { canonical: "/mentions-legales" },
 };
 

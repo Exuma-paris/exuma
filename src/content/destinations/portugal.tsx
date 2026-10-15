@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Portugal : Voyage sur mesure",
   metaDescription:
-    "Voyage au Portugal sur mesure : Lisbonne, vignobles du Douro, plages de Comporta et Algarve. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage au Portugal sur mesure : Lisbonne, vignobles du Douro, plages de Comporta et Algarve. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -531,7 +531,7 @@ export const destination: Destination = {
             "Nous voulions voir le Douro, et nous avons vendangé. Deux heures dans la cuve, puis le dîner avec ceux qui avaient travaillé la journée. Je ne pensais plus avoir de première fois comme celle-là.",
           image: {
             src: "/destination/portugal/hero-1.webp",
-            alt: "Portrait de Bernard", // TODO: verify
+            alt: "Toits de l'Alfama, monastère de São Vicente de Fora et coupole du Panthéon, à Lisbonne",
           },
           name: "Bernard", // TODO: verify
           role: "Voyage en couple, septembre 2025", // TODO: verify
@@ -542,7 +542,7 @@ export const destination: Destination = {
             "Trois enfants, dont un petit qui n'entre pas dans l'eau froide. Carole a mis la mer du côté de la Ria Formosa et gardé Lisbonne pour la fin. Personne ne s'est plaint de marcher, ce qui n'arrive jamais chez nous.",
           image: {
             src: "/destination/portugal/hero-2.webp",
-            alt: "Portrait de Constance", // TODO: verify
+            alt: "Quinta et sa chapelle au milieu des vignes en terrasses, au-dessus du Douro",
           },
           name: "Constance", // TODO: verify
           role: "Voyage en famille, juin 2026", // TODO: verify
@@ -553,7 +553,7 @@ export const destination: Destination = {
             "Une semaine sans ouvrir une carte ni choisir un restaurant. La maison de Comporta était à quelques minutes de la plage et le chauffeur savait où aller sans que j'aie à le dire. C'est exactement ce que je cherchais.",
           image: {
             src: "/destination/portugal/hero-3.webp",
-            alt: "Portrait de Frédéric", // TODO: verify
+            alt: "Longue plage de sable bordée de pins à Comporta, au sud de Lisbonne",
           },
           name: "Frédéric", // TODO: verify
           role: "Séjour en famille, juillet 2025", // TODO: verify

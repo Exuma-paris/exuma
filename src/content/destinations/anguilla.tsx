@@ -168,7 +168,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Air France relie Paris à Saint-Martin (SXM) sans escale, en 9 h 15 environ, cinq fois par semaine. De là, Anguilla se rejoint en vingt-cinq minutes de ferry entre Marigot et Blowing Point, ou en moins de dix minutes de vol jusqu'à l'aéroport Clayton J. Lloyd (AXA).",
+            "Air France relie Paris à Saint-Martin sans escale en 9 h 15 environ. Anguilla est ensuite à vingt-cinq minutes de ferry ou dix de vol.",
         },
         {
           iconName: "clock",
@@ -180,37 +180,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar des Caraïbes orientales, indexé sur le dollar américain à taux fixe depuis 1976, à 2,70 pour un dollar. Le dollar américain est accepté partout, et beaucoup de cartes affichent les deux monnaies. Prévoir des espèces en petites coupures pour les cayes, les bars de Sandy Ground et les pourboires.",
+            "Le dollar des Caraïbes orientales, fixé à 2,70 pour un dollar américain, accepté partout. Prévoir des petites coupures pour les pourboires.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Anguilla est un territoire britannique d'outre-mer. Pas de visa pour un séjour touristique jusqu'à 90 jours. Le passeport doit rester valide toute la durée du séjour, et un billet de retour ou de continuation est demandé à l'arrivée.",
+            "Territoire britannique d'outre-mer, sans visa jusqu'à 90 jours. Passeport valide tout le séjour et billet de retour demandé à l'arrivée.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun certificat de vaccination n'est exigé à l'entrée, y compris pour la fièvre jaune. Les autorités sanitaires britanniques recommandent d'être à jour du tétanos, et les hépatites A et B selon le profil du voyage. Pas de paludisme sur l'île.",
+            "Aucun vaccin exigé, fièvre jaune comprise, et pas de paludisme. Tétanos à jour recommandé, hépatites A et B selon le profil du voyage.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De décembre à avril pour la saison sèche, la plus stable et la plus demandée. Février et mars sont les mois les plus secs de l'année. Mai et juin gardent la même eau avec beaucoup moins de monde. La saison cyclonique court de juin à novembre, avec un pic en août, septembre et octobre.",
+            "Saison sèche de décembre à avril, plus calme en mai et juin. Les cyclones courent de juin à novembre, avec un pic d'août à octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais est la langue officielle. Dans la rue, on entend surtout le créole anguillan, une langue à base anglaise. Un guide francophone accompagne les journées qui le demandent, en mer comme à terre.",
+            "L'anglais est la langue officielle, le créole anguillan celle de la rue. Un guide francophone accompagne les journées qui le demandent.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "De 28 à 31 °C en journée toute l'année, de 23 à 26 °C la nuit, avec l'alizé qui souffle en permanence sur la côte nord. Sans relief pour retenir les nuages, l'île reçoit environ un mètre de pluie par an, l'un des totaux les plus faibles des Petites Antilles.",
+            "De 28 à 31 °C le jour toute l'année, alizé permanent sur la côte nord. Environ un mètre de pluie par an, l'un des plus bas des Antilles.",
         },
       ],
     },
@@ -564,10 +564,10 @@ export const destination: Destination = {
             "La journée de plongée en bateau privé a réconcilié tout le monde. Mon mari et moi sur les épaves, les enfants au masque et tuba au-dessus du récif, et tout le monde à table sur Sandy Island à midi.",
           image: {
             src: "/destination/anguilla/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage à Anguilla : sable blanc et eau turquoise de Shoal Bay East"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Anguilla en famille, mars 2026", // TODO: replace with real testimonial
+          role: "Anguilla en famille, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -575,10 +575,10 @@ export const destination: Destination = {
             "Sept nuits sur Maundays Bay sans reprendre la voiture plus de trois fois. C'est la première fois qu'on ne cherche pas à occuper les journées.",
           image: {
             src: "/destination/anguilla/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Bateaux de pêche colorés amarrés dans la baie de Sandy Ground"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Anguilla à deux, janvier 2026", // TODO: replace with real testimonial
+          role: "Anguilla à deux, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -586,10 +586,10 @@ export const destination: Destination = {
             "Le voilier de fin de journée, à six, sans personne d'autre à bord. On est rentrés à Sandy Ground de nuit et on a dîné sur la plage en descendant du bateau.",
           image: {
             src: "/destination/anguilla/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Banc de sable désert de Sandy Island au large d'Anguilla"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Anguilla, février 2025", // TODO: replace with real testimonial
+          role: "Anguilla, février 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

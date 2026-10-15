@@ -172,49 +172,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Pas de vol direct depuis Paris. Une escale à Addis-Abeba, Nairobi, Doha ou Johannesburg, et de quatorze à vingt heures de trajet total selon la correspondance, jusqu'à Victoria Falls (VFA) ou Harare (HRE). Les charters relient ensuite Hwange, Mana Pools et le sud-est en moins d'une heure de vol.",
+            "Pas de vol direct : 14 à 20 heures via Addis-Abeba, Nairobi, Doha ou Johannesburg. Puis charters de moins d'une heure vers les parcs.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Une heure d'avance sur Paris en hiver, aucune en été. Le pays ne change pas d'heure. Autant dire qu'il n'y a rien à récupérer à l'arrivée, ce qui est rare sur un long-courrier.",
+            "Une heure d'avance sur Paris en hiver, aucune en été, le pays ne changeant pas d'heure.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le pays vit en double monnaie. Le dollar américain reste utilisé pour l'essentiel des transactions, dont les camps, les parcs et les transferts ; le ZiG, monnaie nationale introduite en 2024, sert surtout aux dépenses courantes. Prévoir des espèces en petites coupures et en bon état.",
+            "Dollar américain pour l'essentiel (camps, parcs, transferts), ZiG pour les dépenses courantes. Espèces en petites coupures en bon état.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Visa obligatoire pour les ressortissants français, délivré à l'arrivée ou en ligne sur evisa.gov.zw, ce pré-enregistrement étant recommandé. Le KAZA UniVisa couvre le Zimbabwe et la Zambie pendant trente jours et autorise les allers-retours par le pont de Victoria Falls. Passeport valide six mois après le voyage, avec deux pages vierges.",
+            "Visa à l'arrivée ou sur evisa.gov.zw ; le KAZA UniVisa couvre aussi la Zambie 30 jours. Passeport valide six mois, deux pages vierges.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination obligatoire depuis l'Europe. Le certificat de fièvre jaune n'est exigé qu'en provenance d'un pays où la maladie circule. Le paludisme est présent dans la vallée du Zambèze et à Hwange : le traitement préventif se décide avec son médecin avant le départ.",
+            "Aucun vaccin obligatoire depuis l'Europe. Paludisme dans la vallée du Zambèze et à Hwange : traitement préventif à voir avec son médecin.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mai à octobre pour la saison sèche. Août à octobre concentre les meilleures observations, quand la brousse s'éclaircit et que les animaux se rassemblent aux points d'eau. Les chutes sont à leur plus fort débit de février à mai, et les plus lisibles d'août à décembre.",
+            "Saison sèche de mai à octobre, meilleures observations d'août à octobre. Chutes à leur plus fort débit de février à mai.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais est la langue de travail, le shona et le ndebele les deux langues les plus parlées. La Constitution en reconnaît seize. Les guides professionnels travaillent en anglais ; un accompagnateur francophone se prévoit sur demande.",
+            "L'anglais est la langue de travail, le shona et le ndebele les plus parlées. Accompagnateur francophone sur demande.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Sec et lumineux de mai à octobre, de 25 à 30 °C l'après-midi. Les matins de juin et juillet descendent près de zéro en brousse : il faut une polaire pour le départ en véhicule. Octobre est le mois chaud, jusqu'à 40 °C dans la vallée du Zambèze, avant les pluies de novembre à mars.",
+            "Sec de mai à octobre, 25 à 30 °C l'après-midi, matins près de zéro en juin et juillet. Jusqu'à 40 °C en octobre, pluies de novembre à mars.",
         },
       ],
     },
@@ -234,7 +234,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure au Zimbabwe entre le Zambèze, Hwange et le sud-est",
             "Adresses confidentielles au Zimbabwe : concessions privées et réserves fermées au public",
             "Hébergements au Zimbabwe : camp de tentes de Hwange et maison de la vallée du Zambèze",
-            "Conciergerie privée 24/7 pour un voyage au Zimbabwe",
+            "Conciergerie privée pour un voyage au Zimbabwe",
             "Expériences immersives au Zimbabwe : marche à Mana Pools, chutes Victoria et peintures San",
           ][i],
         },
@@ -565,10 +565,10 @@ export const destination: Destination = {
             "La marche à Mana Pools, c'est ce dont on parle encore. Notre guide s'arrêtait, levait la main, et on comprenait sans un mot. On est repartis en silence, sans avoir croisé un seul véhicule de la matinée.",
           image: {
             src: "/destination/zimbabwe/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage au Zimbabwe : les chutes Victoria et leur brume d'eau vues depuis la rive zimbabwéenne"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Zambèze et Mana Pools, septembre 2025", // TODO: replace with real testimonial
+          role: "Zambèze et Mana Pools, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -576,10 +576,10 @@ export const destination: Destination = {
             "Nous cherchions une destination que nos enfants ne connaissaient pas, et c'était réussi. Great Zimbabwe avec un archéologue le matin, les collines de Matobo l'après-midi : personne n'a regardé son téléphone de la journée.",
           image: {
             src: "/destination/zimbabwe/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Troupeau d'éléphants autour d'un point d'eau du parc de Hwange en fin de journée"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Matobo et Great Zimbabwe, août 2025", // TODO: replace with real testimonial
+          role: "Matobo et Great Zimbabwe, août 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -587,10 +587,10 @@ export const destination: Destination = {
             "Trois nuits dans une concession privée de Hwange, sans croiser un autre véhicule. Le point d'eau se regardait depuis la tente. On avait fait l'Afrique de l'Est avant : ça n'a rien à voir.",
           image: {
             src: "/destination/zimbabwe/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Rhinocéros dans les hautes herbes au lever du jour, au Zimbabwe"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Victoria Falls et Hwange, octobre 2024", // TODO: replace with real testimonial
+          role: "Victoria Falls et Hwange, octobre 2024", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

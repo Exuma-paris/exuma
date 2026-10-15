@@ -169,49 +169,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Air France et China Eastern relient Paris à Shanghai et à Pékin sans escale, en une dizaine d'heures à l'aller. Cathay Pacific descend jusqu'à Hong Kong en douze heures. À l'intérieur du pays, le train à grande vitesse et les vols intérieurs remplacent la route sur presque tous les trajets.",
+            "Paris rejoint sans escale Shanghai et Pékin en dix heures, vers Hong Kong en douze. Sur place, train à grande vitesse et vols intérieurs.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Six heures d'avance sur Paris en été, sept en hiver. Toute la Chine vit sur le fuseau de Pékin, y compris le Yunnan où le soleil se lève donc près de deux heures plus tard. Le décalage se digère mieux à l'aller qu'au retour.",
+            "Six heures d'avance sur Paris en été, sept en hiver. Tout le pays vit à l'heure de Pékin, y compris le Yunnan, où le soleil se lève tard.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le yuan, aussi appelé renminbi. Le paiement se fait presque partout par téléphone, via Alipay ou WeChat Pay, et les deux applications acceptent désormais les cartes bancaires étrangères. Prévoir un peu d'espèces pour les villages de montagne.",
+            "Le yuan, ou renminbi. On paie presque partout par téléphone via Alipay ou WeChat Pay, ouverts aux cartes étrangères.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "TODO: à revérifier avant chaque départ, la mesure étant reconduite période après période. Les voyageurs français bénéficient d'une exemption de visa pour les séjours touristiques de moins de trente jours. Le passeport doit rester valide six mois après le retour. Hong Kong et Macao relèvent de régimes d'entrée distincts.",
+            "à revérifier avant chaque départ. Pas de visa sous trente jours de séjour touristique, passeport valide six mois après le retour.", // TODO: à vérifier
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est exigé à l'entrée. Il est conseillé d'être à jour du DTP, de la coqueluche et de la rougeole, et l'hépatite A est recommandée au-delà de deux semaines. L'encéphalite japonaise ne concerne que les séjours ruraux prolongés dans le sud, en saison humide.",
+            "Aucun vaccin exigé. DTP, coqueluche et rougeole à jour, hépatite A au-delà de deux semaines, encéphalite japonaise en long séjour rural.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Deux fenêtres. Avril et mai d'abord, quand les jardins de Suzhou et de Hangzhou sont en fleur et que l'air reste doux. Puis de fin septembre à début novembre, la plus belle saison au nord, avec un ciel dégagé sur la Muraille et des couleurs sur les collines. Les dates se calent juste après la première semaine d'octobre, quand le pays a fini de voyager pour la fête nationale.",
+            "Avril et mai pour les jardins de Suzhou et Hangzhou, de fin septembre à début novembre au nord, en évitant la première semaine d'octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le mandarin, écrit en caractères simplifiés sur le continent. Le cantonais domine à Canton et à Hong Kong, où les caractères restent traditionnels. L'anglais se parle dans les grands hôtels de Shanghai et de Pékin. Partout ailleurs, un guide francophone accompagne les journées et ouvre les conversations.",
+            "Le mandarin, et le cantonais à Canton et Hong Kong. L'anglais se limite aux grands hôtels, ailleurs un guide francophone accompagne.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Trois climats dans un seul pays. Pékin a des hivers secs autour de zéro degré et des étés chauds, jusqu'à trente-cinq. Shanghai reste humide toute l'année, avec une saison des pluies en juin. Le Yunnan, en altitude, tourne autour de vingt degrés une bonne partie de l'année, ce qui lui a valu son surnom de province du printemps éternel.",
+            "Pékin entre zéro degré l'hiver et trente-cinq l'été, Shanghai humide, pluvieuse en juin. Le Yunnan d'altitude tourne autour de vingt degrés.",
         },
       ],
     },
@@ -231,7 +231,7 @@ export const destination: Destination = {
             "Carte de l'itinéraire en Chine, de Pékin à Xi'an, Shanghai et aux montagnes du Sud-Ouest",
             "Adresses confidentielles en Chine : une table dressée face aux neiges du Jade Dragon",
             "Hébergements en Chine : galeries de bois et lanternes d'un salon d'hôtel",
-            "Conciergerie privée 24/7 pour un voyage en Chine : une travel designer à son bureau",
+            "Conciergerie privée pour un voyage en Chine : une travel designer à son bureau",
             "Expériences en Chine : un pavillon privatisé et sa table dressée au-dessus des toits",
           ][i],
         },
@@ -568,10 +568,10 @@ export const destination: Destination = {
             "Le déjeuner sur la Muraille, nous en parlons encore. Nous étions seuls sur la section, la table était dressée quand nous sommes arrivés, et personne n'est passé de toute la matinée.",
           image: {
             src: "/destination/chine/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage en Chine : la Grande Muraille suivant une crête boisée, au lever du jour"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Chine à deux, octobre 2025", // TODO: replace with real testimonial
+          role: "Chine à deux, octobre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -579,10 +579,10 @@ export const destination: Destination = {
             "Nous appréhendions les distances. Le train a tout réglé, et le même guide nous a suivis de Pékin jusqu'à Hangzhou. Nous n'avons jamais eu à chercher notre chemin.",
           image: {
             src: "/destination/chine/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Avant-toits sculptés et laqués d'un pavillon chinois traditionnel"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Chine en famille, avril 2026", // TODO: replace with real testimonial
+          role: "Chine en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -590,10 +590,10 @@ export const destination: Destination = {
             "Ce sont les villages du Guizhou qui nous ont marqués, pas les grandes villes. On nous a reçus dans une maison de bois, on a mangé avec la famille, et il n'y avait aucun autre voyageur.",
           image: {
             src: "/destination/chine/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Rangées de guerriers de l'armée de terre cuite dans leur fosse, près de Xi'an"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Chine, novembre 2025", // TODO: replace with real testimonial
+          role: "Chine, novembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

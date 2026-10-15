@@ -1,9 +1,26 @@
+import type { Metadata } from "next";
+import { entityMetadata } from "@/lib/content/seo";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { serviceCategories, services } from "@/lib/content/registry";
 import { getServicesByCategory } from "@/lib/content/queries";
 import { createBackgroundRhythm } from "@/lib/content/background-rhythm";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const entity = serviceCategories[slug] ?? services[slug];
+  if (!entity) return {};
+  return entityMetadata(
+    entity,
+    `/services/${slug}`,
+    `${entity.name} : un service Exuma pris en charge de bout en bout, avec un interlocuteur unique.`,
+  );
+}
 
 export function generateStaticParams() {
   return [

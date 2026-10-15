@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Italie : Voyage sur mesure",
   metaDescription:
-    "Voyage en Italie sur mesure : Florence, Venise, la Toscane, les Dolomites et Pompéi. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en Italie sur mesure : Florence, Venise, la Toscane, les Dolomites et Pompéi. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -530,7 +530,7 @@ export const destination: Destination = {
             "Nous avons traversé le Corridor de Vasari tous les deux, avec un historien, à l'heure où Florence commençait à s'éclairer. Nos petits-enfants ont eu droit au récit complet au retour. Ils réclament l'Italie pour l'an prochain.",
           image: {
             src: "/destination/italie/hero-1.webp",
-            alt: "Portrait de Bernard", // TODO: verify
+            alt: "Collines de Toscane plantées de cyprès au lever du jour, en Italie",
           },
           name: "Bernard", // TODO: verify
           role: "Voyage en couple, mai 2026", // TODO: verify
@@ -541,7 +541,7 @@ export const destination: Destination = {
             "Trois enfants, trois régions, et pas une journée de trop. Le four du verrier à Murano les a occupés une matinée entière, ce que je n'aurais jamais obtenu dans un musée.",
           image: {
             src: "/destination/italie/hero-2.webp",
-            alt: "Portrait de Constance", // TODO: verify
+            alt: "Palais du Grand Canal et gondole amarrée au petit matin à Venise",
           },
           name: "Constance", // TODO: verify
           role: "Voyage en famille, avril 2026", // TODO: verify
@@ -552,7 +552,7 @@ export const destination: Destination = {
             "Pompéi après la fermeture, avec l'archéologue qui fouille sur place. Nous étions six dans les rues, et personne d'autre. C'est exactement ce que je ne savais pas comment organiser moi-même.",
           image: {
             src: "/destination/italie/hero-3.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Sommets des Dolomites au-dessus des prés du Trentin en fin de journée",
           },
           name: "Édouard", // TODO: verify
           role: "Voyage anniversaire, octobre 2025", // TODO: verify

@@ -25,7 +25,9 @@ export function FeatureCard({
   className,
 }: FeatureCardProps) {
   return (
-    <article className={cn("flex flex-col gap-4 pb-4", className)}>
+    // h-full + mt-auto : dans une rangée de cartes, les liens « Découvrir »
+    // s'alignent en bas quelle que soit la longueur des descriptions.
+    <article className={cn("flex h-full flex-col gap-4 pb-4", className)}>
       <div className={cn("relative w-full overflow-hidden bg-muted", ratio)}>
         <Image
           src={image.src}
@@ -42,7 +44,7 @@ export function FeatureCard({
       {link ? (
         <Link
           href={link.href}
-          className={cn(buttonVariants({ variant: "link" }), "mt-2 self-start")}
+          className={cn(buttonVariants({ variant: "link" }), "mt-auto self-start pt-2")}
         >
           {link.label}
         </Link>

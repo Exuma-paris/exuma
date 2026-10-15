@@ -24,7 +24,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Vietnam : Voyage sur mesure",
   metaDescription:
-    "Voyage sur mesure au Vietnam : Hanoï, Hué, baie de Lan Ha, rizières de Sa Pa. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage sur mesure au Vietnam : Hanoï, Hué, baie de Lan Ha, rizières de Sa Pa. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -199,7 +199,7 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Dong vietnamien (VND). 1 € ≈ 27 000 dongs (à titre indicatif). Les cartes bancaires sont acceptées dans les hôtels et restaurants haut de gamme ; prévoir des espèces pour les marchés et petites adresses.",
+            "Dong (VND), environ 27 000 dongs pour 1 €. Cartes acceptées dans les adresses haut de gamme ; espèces pour marchés et petites adresses.",
         },
         {
           iconName: "fileText",
@@ -211,25 +211,25 @@ export const destination: Destination = {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est obligatoire pour un voyage touristique. Les vaccinations universelles doivent être à jour ; un traitement préventif peut être recommandé selon les régions visitées.",
+            "Aucun vaccin obligatoire, vaccinations universelles à jour. Un traitement préventif peut être recommandé selon les régions.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Février à avril et octobre à décembre offrent de belles conditions pour découvrir le pays. Le Sud est particulièrement agréable de décembre à avril.",
+            "Février à avril et octobre à décembre pour l'ensemble du pays. Le Sud est particulièrement agréable de décembre à avril.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le vietnamien est la langue officielle. L'anglais est présent dans les grandes villes et les hôtels, mais reste plus discret dans les régions rurales.",
+            "Le vietnamien est la langue officielle. L'anglais se parle dans les grandes villes et les hôtels, plus rarement à la campagne.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le Vietnam connaît de forts contrastes climatiques du nord au sud. Hanoï offre des hivers plus frais, le Sud reste chaud toute l'année, tandis que le littoral central connaît une saison des pluies plus marquée à l'automne.",
+            "Forts contrastes du nord au sud : hivers frais à Hanoï, chaleur toute l'année au Sud, pluies d'automne sur le littoral central.",
         },
       ],
     },
@@ -571,7 +571,7 @@ export const destination: Destination = {
             "Le Vietnam avec Exuma n'a rien eu d'un circuit organisé. La nuit sur la jonque dans la baie de Lan Ha, sans un autre bateau en vue, restera notre plus beau souvenir.",
           image: {
             src: "/destination/vietnam/hero-1.webp",
-            alt: "Portrait de Nathalie et Bertrand", // TODO: verify
+            alt: "Femme au chapeau conique disposant des bottes d'encens rouges à sécher, Vietnam",
           },
           name: "Nathalie & Bertrand", // TODO: verify
           role: "Voyage de noces, novembre 2025", // TODO: verify
@@ -582,7 +582,7 @@ export const destination: Destination = {
             "L'historien qui nous a fait visiter Hué en dehors des heures d'ouverture nous a raconté la cour impériale comme personne. Nos parents, en voyage de transmission avec nous, en parlent encore.",
           image: {
             src: "/destination/vietnam/hero-2.webp",
-            alt: "Portrait de Michel", // TODO: verify
+            alt: "Rivière serpentant entre les rizières et les pitons karstiques de Ninh Binh, Vietnam",
           },
           name: "Michel", // TODO: verify
           role: "Voyage intergénérationnel, octobre 2025", // TODO: verify
@@ -593,7 +593,7 @@ export const destination: Destination = {
             "Ce qui m'a frappée, c'est la cohérence de l'itinéraire malgré la taille du pays. Jamais un déplacement qui n'avait pas sa raison, du nord jusqu'au delta.",
           image: {
             src: "/destination/vietnam/hero-3.webp",
-            alt: "Portrait de Sophie", // TODO: verify
+            alt: "Jonque aux voiles ocre devant les pitons karstiques au coucher du soleil, Vietnam",
           },
           name: "Sophie", // TODO: verify
           role: "Voyage solo, mars 2025", // TODO: verify

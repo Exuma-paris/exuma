@@ -168,49 +168,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Zanzibar se rejoint généralement avec une correspondance depuis Paris, par Doha, Dubaï, Istanbul, Addis-Abeba ou Nairobi, pour un trajet d'environ douze à quinze heures selon la compagnie et l'escale retenues. Air France dessert par ailleurs la Tanzanie via Kilimandjaro et Zanzibar, selon un programme qui évolue avec les saisons.",
+            "12 à 15 heures avec correspondance par Doha, Dubaï, Istanbul, Addis-Abeba ou Nairobi. Air France dessert aussi l'île selon les saisons.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "L'archipel vit à l'heure de l'Afrique de l'Est, soit deux heures de plus qu'en France en hiver et une heure de plus en été. Le décalage se ressent peu à l'arrivée.",
+            "Heure de l'Afrique de l'Est : deux heures de plus qu'en France en hiver, une heure de plus en été.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie locale est le shilling tanzanien. Le dollar américain est largement accepté dans les hôtels et pour les excursions, de préférence en billets récents, et il reste utile de conserver un peu d'espèces pour les marchés et les pourboires.",
+            "Shilling tanzanien. Dollar américain largement accepté, en billets récents ; espèces utiles pour les marchés et les pourboires.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français doivent obtenir un visa pour la Tanzanie, à demander de préférence en ligne sur le portail officiel de l'immigration, ou à l'arrivée à Zanzibar. Le passeport doit dépasser six mois de validité à la date d'arrivée. Zanzibar impose également une assurance voyage ZIC obligatoire, à souscrire en ligne avant l'arrivée : elle coûte actuellement 44 USD par adulte, couvre jusqu'à 90 jours et reste exigée même si vous disposez déjà d'une assurance personnelle.",
+            "Visa obligatoire, en ligne ou à l'arrivée ; passeport valide plus de six mois. Assurance ZIC obligatoire en ligne, 44 USD par adulte.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est présenté comme obligatoire pour un séjour touristique classique, sauf la fièvre jaune : elle est exigée des voyageurs venant d'un pays où la maladie circule, y compris en cas de transit de plus de douze heures dans un tel pays, et les contrôles peuvent être appliqués largement. L'Institut Pasteur recommande d'être à jour du calendrier vaccinal et conseille systématiquement la vaccination contre l'hépatite A. Le paludisme se transmet toute l'année sur l'archipel : une protection contre les moustiques et une chimioprophylaxie adaptée sont recommandées, à définir avec un médecin avant le départ.",
+            "Fièvre jaune exigée si l'on vient d'un pays à risque, transit de plus de 12 h compris. Paludisme toute l'année : prophylaxie conseillée.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Nous privilégions les mois de juin à octobre, secs et ventés, ainsi que janvier et février, plus chauds et plus lumineux. Décembre est déjà très agréable, avec encore quelques averses possibles. Les mois d'épaule restent plaisants, et les grandes pluies d'avril et de mai sont les seules que nous déconseillons vraiment.",
+            "Nous privilégions juin à octobre, sec et venté, ainsi que janvier et février. Les grandes pluies d'avril et de mai sont à éviter.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le swahili est né sur cette côte et reste la langue de tous les jours. L'anglais est l'autre langue officielle de Tanzanie et se pratique dans les hôtels comme pendant les excursions. L'arabe garde une place à Stone Town.",
+            "Le swahili est la langue de tous les jours. L'anglais, autre langue officielle, se pratique à l'hôtel et en excursion.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tropical et chaud toute l'année, adouci par les alizés. Deux moussons rythment l'archipel : le kaskazi, de décembre à mars, plus chaud et plus calme, et le kusi, de juin à septembre, plus sec et plus venté.",
+            "Tropical et chaud, adouci par les alizés. Kaskazi chaud et calme de décembre à mars, kusi sec et venté de juin à septembre.",
         },
       ],
     },
@@ -544,10 +544,10 @@ export const destination: Destination = {
             "Nous arrivions du Serengeti, couverts de poussière, et nous nous sommes retrouvés le soir même sur la plage de Mnemba. Le contraste est ce qui rend ce voyage inoubliable. Nous n'avons partagé l'îlot avec personne.",
           image: {
             src: "/destination/zanzibar/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Banc de sable blanc et boutres au mouillage sur la côte de Zanzibar, vue du ciel"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Tanzanie et Zanzibar, 2025", // TODO: replace with real testimonial
+          role: "Tanzanie et Zanzibar, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -555,10 +555,10 @@ export const destination: Destination = {
             "Notre guide francophone connaissait les familles derrière les portes sculptées de Stone Town, et il nous a fait entrer chez elles. Nos enfants ont retenu cette matinée mieux que n'importe quel cours d'histoire.",
           image: {
             src: "/destination/zanzibar/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Le restaurant The Rock posé sur son rocher dans l'océan Indien, Zanzibar"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Zanzibar en famille, 2025", // TODO: replace with real testimonial
+          role: "Zanzibar en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -566,10 +566,10 @@ export const destination: Destination = {
             "Nous pensions que replanter du corail serait une animation d'hôtel. Nous recevons encore des nouvelles de notre structure, et c'est devenu le souvenir dont nous parlons le plus depuis le retour.",
           image: {
             src: "/destination/zanzibar/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Boutres à voile échoués sur une plage de sable blanc à marée basse, Zanzibar"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Zanzibar, avril 2025", // TODO: replace with real testimonial
+          role: "Zanzibar, avril 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

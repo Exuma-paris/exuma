@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Barbade : Voyage sur mesure",
   metaDescription:
-    "Voyage à la Barbade sur mesure : Platinum Coast, villas privées, rhum de Mount Gay. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage à la Barbade sur mesure : Platinum Coast, villas privées, rhum de Mount Gay. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -171,19 +171,19 @@ export const destination: Destination = {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "5 heures de moins qu'en France en hiver et 6 heures en été. La Barbade est à l'heure de l'Atlantique (UTC−4) toute l'année et ne change pas d'heure.",
+            "5 heures de moins qu'en France en hiver, 6 en été. La Barbade reste en UTC−4 toute l'année, sans changement d'heure.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar barbadien (BBD) est la monnaie officielle, avec un taux fixe de 2 BBD pour 1 USD. Le dollar américain est largement accepté sur l'île.",
+            "Le dollar barbadien (BBD), à taux fixe de 2 BBD pour 1 USD. Le dollar américain est largement accepté sur l'île.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Aucun visa n'est requis pour un séjour touristique de courte durée. Le passeport doit être valable pendant toute la durée du séjour. Un billet de retour ou de continuation peut être demandé à l'arrivée.",
+            "Pas de visa pour un court séjour touristique. Passeport valable tout le séjour, billet de retour ou de continuation parfois demandé.",
         },
         {
           iconName: "syringe",
@@ -195,7 +195,7 @@ export const destination: Destination = {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De décembre à avril, pendant la saison sèche, avec un climat généralement ensoleillé et des précipitations plus limitées. La saison cyclonique s'étend officiellement de juin à novembre, même si la Barbade est relativement moins exposée aux passages directs des ouragans que certaines autres îles des Caraïbes.",
+            "De décembre à avril, en saison sèche. Cyclones de juin à novembre, l'île étant moins exposée aux ouragans que d'autres îles des Caraïbes.",
         },
         {
           iconName: "languages",
@@ -207,7 +207,7 @@ export const destination: Destination = {
           iconName: "sun",
           title: "Climat",
           description:
-            "Climat tropical toute l'année, avec des températures généralement comprises entre 24 et 31 °C. La saison sèche s'étend de décembre à avril, tandis que la saison humide, de juin à novembre, se caractérise par des averses souvent brèves et ponctuelles.",
+            "Tropical, entre 24 et 31 °C toute l'année. Saison sèche de décembre à avril, saison humide de juin à novembre aux averses brèves.",
         },
       ],
     },
@@ -524,7 +524,7 @@ export const destination: Destination = {
             "Nous avons nagé au-dessus de l'épave du Berwyn avec deux tortues qui ne se sont pas laissées perturber une seconde. Le catamaran privé, sans un autre bateau autour, a changé toute la matinée.",
           image: {
             src: "/destination/barbade/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Villas et mer plate de la Platinum Coast lors d'un voyage à la Barbade"
           },
           name: "", // TODO: replace with real testimonial
           role: "Barbade en famille, Platinum Coast, 2025", // TODO: replace with real testimonial
@@ -535,7 +535,7 @@ export const destination: Destination = {
             "Le dîner au Cliff Restaurant reste le souvenir le plus net du séjour : une table sur la falaise, les vagues juste en dessous, et une carte différente chaque soir. Notre travel designer l'avait réservée dès la confirmation.",
           image: {
             src: "/destination/barbade/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voiliers mouillés dans la baie de Carlisle Bay à la Barbade"
           },
           name: "", // TODO: replace with real testimonial
           role: "Voyage de noces, 2025", // TODO: replace with real testimonial
@@ -546,7 +546,7 @@ export const destination: Destination = {
             "Personne ne nous avait dit que la côte est ressemblait si peu à la côte ouest. Bathsheba et ses rochers de corail, après trois jours de Platinum Coast, ont donné au voyage une autre dimension.",
           image: {
             src: "/destination/barbade/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Falaises de corail battues par l'Atlantique à Bathsheba, Barbade"
           },
           name: "", // TODO: replace with real testimonial
           role: "Escapade en couple, 2025", // TODO: replace with real testimonial

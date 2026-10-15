@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Porto Rico : Voyage sur mesure",
   metaDescription:
-    "Voyage à Porto Rico : Vieux San Juan, El Yunque, baie bioluminescente de Vieques. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage à Porto Rico : Vieux San Juan, El Yunque, baie bioluminescente de Vieques. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -172,49 +172,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 13 à 14 heures pour un vol direct saisonnier entre Paris-CDG et San Juan. Avec une escale, prévoyez généralement 13 à 18 heures de voyage, selon l'itinéraire, la compagnie et la période.",
+            "Environ 13 à 14 heures en vol direct saisonnier entre Paris-CDG et San Juan, 13 à 18 heures avec escale selon l'itinéraire.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Porto Rico a 5 heures de moins que la France en hiver et 6 heures de moins en été. L'île reste toute l'année à l'heure de l'Atlantique (AST), sans changement d'heure saisonnier.",
+            "5 heures de moins que la France en hiver, 6 en été. L'île reste à l'heure de l'Atlantique (AST), sans changement d'heure.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar américain (USD) est la monnaie officielle. Les cartes bancaires sont largement acceptées, y compris en dehors des principales zones touristiques, et les distributeurs sont facilement accessibles dans les villes et zones fréquentées.",
+            "Le dollar américain (USD). Cartes largement acceptées, même hors des zones touristiques, et distributeurs faciles à trouver en ville.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français peuvent séjourner jusqu'à 90 jours à Porto Rico sans visa dans le cadre du Visa Waiver Program. Un passeport électronique ou biométrique ainsi qu'une autorisation ESTA obtenue avant le départ sont requis.",
+            "Pas de visa jusqu'à 90 jours (Visa Waiver Program). Passeport électronique ou biométrique et ESTA obtenue avant le départ requis.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est obligatoire pour les voyageurs arrivant directement de France. Il est néanmoins recommandé d'être à jour des vaccinations habituelles avant le départ.",
+            "Aucun vaccin obligatoire depuis la France. Il est recommandé d'être à jour des vaccinations habituelles avant le départ.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De décembre à avril, la période est généralement la plus agréable, avec un climat plus sec et des températures légèrement plus douces. La saison des ouragans s'étend officiellement de juin à novembre, avec un risque plus marqué en septembre et octobre.",
+            "De décembre à avril, climat plus sec et plus doux. Saison des ouragans de juin à novembre, risque accru en septembre et octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'espagnol et l'anglais sont les deux langues officielles de Porto Rico. L'espagnol domine dans la vie quotidienne, tandis que l'anglais est largement parlé dans les hôtels, les sites touristiques et les principales zones fréquentées par les voyageurs.",
+            "Espagnol et anglais sont officiels. L'espagnol domine au quotidien, l'anglais est courant dans les hôtels et les sites touristiques.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Porto Rico bénéficie d'un climat tropical toute l'année, avec des températures généralement comprises entre 21 et 32°C. Les pluies sont plus fréquentes d'avril à novembre, particulièrement entre août et octobre. Les zones montagneuses et la forêt tropicale d'El Yunque sont naturellement plus humides que les régions côtières.",
+            "Tropical, entre 21 et 32°C. Pluies plus fréquentes d'avril à novembre, surtout d'août à octobre, El Yunque et les montagnes plus humides.",
         },
       ],
     },
@@ -523,7 +523,7 @@ export const destination: Destination = {
             "Nous ne nous attendions pas à une forêt tropicale à quarante minutes d'une ville coloniale espagnole. El Yunque après le Vieux San Juan a changé notre lecture de l'île, et Vieques en clôture restait le souvenir le plus fort du séjour.",
           image: {
             src: "/destination/porto-rico/hero-1.png",
-            alt: "Portrait de Claire et Thomas", // TODO: verify
+            alt: "Façades colorées et remparts espagnols du Vieux San Juan à Porto Rico",
           },
           name: "Claire & Thomas", // TODO: verify
           role: "Voyage en famille, avril 2025", // TODO: verify
@@ -534,7 +534,7 @@ export const destination: Destination = {
             "La nuit en kayak sur Mosquito Bay reste incomparable : l'eau s'allumait à chaque coup de pagaie. Notre travel designer avait choisi une nuit sans lune, ce qu'on n'aurait jamais su faire seuls.",
           image: {
             src: "/destination/porto-rico/hero-2.png",
-            alt: "Portrait de Julien", // TODO: verify
+            alt: "Canopée et cascades de la forêt tropicale d'El Yunque",
           },
           name: "Julien", // TODO: verify
           role: "Voyage de noces, février 2025", // TODO: verify
@@ -545,7 +545,7 @@ export const destination: Destination = {
             "Ce qui m'a marquée, c'est le contraste entre le Vieux San Juan et Dorado : une même île, deux rythmes complètement différents. Notre suite donnait sur la réserve naturelle, les enfants n'ont pas voulu repartir.",
           image: {
             src: "/destination/porto-rico/hero-3.png",
-            alt: "Portrait de Sophie", // TODO: verify
+            alt: "Kayak sur la baie bioluminescente de Mosquito Bay à Vieques",
           },
           name: "Sophie", // TODO: verify
           role: "Voyage en famille, mars 2025", // TODO: verify

@@ -24,7 +24,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Seychelles, voyage sur mesure",
   metaDescription:
-    "Voyage aux Seychelles sur mesure : Mahé, Praslin, La Digue, îles privées et lagons de granit. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage aux Seychelles sur mesure : Mahé, Praslin, La Digue, îles privées et lagons de granit. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -65,7 +65,7 @@ export const destination: Destination = {
       features: [
         {
           iconName: "badgeCheck",
-          title: "Îles privées et adresses hors réseaux",
+          title: "Îles privées",
           description:
             "North Island, Frégate, Petite Anse : des îles entières ou des criques que les moteurs de réservation ne montrent pas.",
         },
@@ -189,7 +189,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 10 heures en vol direct depuis Paris vers l'aéroport international de Mahé. Liaisons régulières via les compagnies du Golfe en option. Sauts inter-îles en avion ou hélicoptère.", // TODO: verify
+            "Environ 10 heures en vol direct depuis Paris jusqu'à Mahé, ou via le Golfe. Sauts inter-îles en avion ou hélicoptère.", // TODO: verify
         },
         {
           iconName: "clock",
@@ -201,25 +201,25 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Roupie seychelloise (SCR). 1 € ≈ 15 SCR. L'euro et la carte sont acceptés dans les hôtels ; un peu d'espèces utile pour les marchés et les bateaux.", // TODO: verify taux
+            "Roupie seychelloise (SCR), 1 € ≈ 15 SCR. Euro et carte acceptés dans les hôtels ; espèces utiles pour marchés et bateaux.", // TODO: verify taux
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa pour un séjour touristique, mais une autorisation de voyage électronique (Seychelles Travel Authorisation) est à obtenir en ligne avant le départ. Passeport valide requis.", // TODO: verify
+            "Pas de visa, mais une autorisation électronique (Seychelles Travel Authorisation) à obtenir en ligne avant le départ. Passeport valide.", // TODO: verify
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination obligatoire pour les voyageurs en provenance d'Europe. Les vaccins universels à jour suffisent. Pas de paludisme sur les îles intérieures.", // TODO: verify
+            "Aucune vaccination obligatoire depuis l'Europe, vaccins universels à jour. Pas de paludisme sur les îles intérieures.", // TODO: verify
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Avril–mai et octobre–novembre, aux intersaisons : mer calme, vents faibles, lumière nette. De mai à septembre, l'alizé du sud-est rafraîchit ; de décembre à mars, plus humide.", // TODO: verify
+            "Avril, mai, octobre et novembre : mer calme, vents faibles. Alizé frais de mai à septembre, temps plus humide de décembre à mars.", // TODO: verify
         },
         {
           iconName: "languages",
@@ -231,7 +231,7 @@ export const destination: Destination = {
           iconName: "sun",
           title: "Climat",
           description:
-            "Tropical toute l'année, entre 24 et 32 °C. Les Seychelles sont hors de la ceinture cyclonique : pas de saison à éviter, seulement des nuances de vent et de pluie.", // TODO: verify
+            "Tropical toute l'année, entre 24 et 32 °C. Hors de la ceinture cyclonique : pas de saison à éviter.", // TODO: verify
         },
       ],
     },
@@ -273,7 +273,7 @@ export const destination: Destination = {
           },
         },
         {
-          title: "Conciergerie 24/7",
+          title: "Conciergerie privée",
           description:
             "Un seul interlocuteur, du premier échange jusqu'au retour. Réponse sous 24h. Les ajustements de dernière minute, gérés. Les transferts, privés.",
           image: {
@@ -493,7 +493,7 @@ export const destination: Destination = {
             "Trois îles en douze jours, et l'impression de n'avoir jamais couru. Carole avait calé chaque transfert au bon moment. Le coucher de soleil sur le granit, à deux, restera notre meilleur souvenir.",
           image: {
             src: "/destination/seychelles/hero-1.png",
-            alt: "Portrait de Hélène et Thomas", // TODO: verify
+            alt: "Plage de granit rose et eau turquoise à Anse Source d'Argent, La Digue, Seychelles",
           },
           name: "Hélène & Thomas", // TODO: verify
           role: "Voyage en couple, mai 2025", // TODO: verify
@@ -504,7 +504,7 @@ export const destination: Destination = {
             "Avec deux enfants, on redoutait la logistique. Tout était fluide, et l'éclosion des tortues les a marqués pour de bon. On a vu des choses qu'on n'aurait jamais trouvées seuls.",
           image: {
             src: "/destination/seychelles/hero-2.png",
-            alt: "Portrait de la famille Rivière", // TODO: verify
+            alt: "Forêt de cocotiers de la Vallée de Mai sur l'île de Praslin",
           },
           name: "Famille Rivière", // TODO: verify
           role: "Séjour en famille, octobre 2025", // TODO: verify
@@ -515,7 +515,7 @@ export const destination: Destination = {
             "Ce qui m'a marquée, c'est la qualité de l'accompagnement. Un seul interlocuteur, du premier appel au retour. La journée sur Curieuse, avant les groupes, valait le voyage à elle seule.",
           image: {
             src: "/destination/seychelles/hero-3.png",
-            alt: "Portrait de Nathalie", // TODO: verify
+            alt: "Lagon turquoise et blocs de granit vus du ciel aux Seychelles",
           },
           name: "Nathalie", // TODO: verify
           role: "Escapade nature, avril 2025", // TODO: verify

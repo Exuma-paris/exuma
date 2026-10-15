@@ -170,49 +170,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "TODO: Il n'existe pas de vol direct depuis Paris. Le trajet dure 16 à 18 heures, le plus souvent via Johannesburg. Un second vol d'une heure quarante rejoint ensuite Maun (MUB) ou Kasane (BBK).",
+            "Pas de vol direct : 16 à 18 heures de trajet, le plus souvent via Johannesburg, puis une heure quarante de vol jusqu'à Maun ou Kasane.", // TODO: à vérifier
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "TODO: Le Botswana vit toute l'année en UTC+2. Il n'y a donc aucun décalage avec Paris en été, et une heure d'avance en hiver. Les départs d'avant l'aube s'en trouvent facilités.",
+            "UTC+2 toute l'année : aucun décalage avec Paris en été, une heure d'avance en hiver. Les départs d'avant l'aube s'en trouvent facilités.", // TODO: à vérifier
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "TODO: La monnaie locale est le pula (BWP), autour de 15 BWP pour un euro. Les camps facturent toutefois en dollars américains. Il faut prévoir des espèces en petites coupures pour les pourboires.",
+            "Le pula (BWP), autour de 15 pour un euro, mais les camps facturent en dollars américains. Prévoir des petites coupures pour les pourboires.", // TODO: à vérifier
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "TODO: Aucun visa n'est demandé aux ressortissants français pour un séjour de moins de quatre-vingt-dix jours. Le passeport doit rester valide six mois après le retour et comporter deux pages vierges. Une autorisation en ligne et une taxe de séjour d'environ 30 dollars s'ajoutent avant le départ.",
+            "Sans visa sous 90 jours, passeport valide six mois après le retour, deux pages vierges, autorisation en ligne et taxe d'environ 30 dollars.", // TODO: à vérifier
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "TODO: Aucune vaccination n'est obligatoire, sauf la fièvre jaune en cas d'arrivée depuis un pays endémique. Un traitement antipaludique reste recommandé pour le delta et la rivière Chobe, de novembre à juin.",
+            "Fièvre jaune exigée seulement en provenance d'un pays endémique. Antipaludique recommandé pour le delta et la Chobe, de novembre à juin.", // TODO: à vérifier
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: De mai à octobre, le delta est en crue et la faune se concentre. De juillet à septembre, les températures restent les plus douces. De décembre à mars, les salines se remettent en eau et les zèbres descendent sur Nxai Pan.",
+            "De mai à octobre, delta en crue et faune concentrée, plus doux de juillet à septembre. De décembre à mars, les zèbres gagnent Nxai Pan.", // TODO: à vérifier
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "TODO: Le setswana est la langue nationale, l'anglais la langue officielle. L'anglais suffit partout, dans les camps comme sur les concessions.",
+            "Le setswana est la langue nationale, l'anglais la langue officielle. L'anglais suffit partout, dans les camps comme sur les concessions.", // TODO: à vérifier
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "TODO: Les matins de juin et juillet descendent vers 5 °C, tandis qu'octobre dépasse souvent 38 °C. Les orages tombent de décembre à mars, le reste de l'année demeure sec. Le delta, lui, est en crue de mai à août, à contretemps des pluies locales.",
+            "Matins vers 5 °C en juin et juillet, souvent plus de 38 °C en octobre, orages de décembre à mars. Le delta est en crue de mai à août.", // TODO: à vérifier
         },
       ],
     },
@@ -571,10 +571,10 @@ export const destination: Destination = {
             "Nous sommes restés assis dans le sel pendant une heure, à un mètre des terriers. Un jeune suricate est ensuite monté sur l'épaule de mon fils pour regarder le ciel. Personne ne lui avait rien demandé.",
           image: {
             src: "/destination/botswana/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Mokoro glissant entre les papyrus du delta de l'Okavango, voyage au Botswana"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Okavango et Makgadikgadi, juillet 2024", // TODO: replace with real testimonial
+          role: "Okavango et Makgadikgadi, juillet 2024", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -582,10 +582,10 @@ export const destination: Destination = {
             "Trois camps en dix jours, et trois pays différents en réalité. L'eau, puis la forêt, puis le sel. Sur la Gomoti, nous n'avons croisé aucun autre véhicule en trois jours.",
           image: {
             src: "/destination/botswana/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Éléphant et son petit dans un bras d'eau du delta de l'Okavango"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Botswana et chutes Victoria, septembre 2025", // TODO: replace with real testimonial
+          role: "Botswana et chutes Victoria, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -593,10 +593,10 @@ export const destination: Destination = {
             "Le safari de nuit a été la vraie surprise du voyage. Pas les lions du matin, mais l'oryctérope repéré à trente mètres dans le faisceau rouge. Personne ne l'aurait vu de jour.",
           image: {
             src: "/destination/botswana/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Baobabs de Baines au bord du pan blanc de Nxai, en saison sèche"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Moremi et Makgadikgadi, juin 2026", // TODO: replace with real testimonial
+          role: "Moremi et Makgadikgadi, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

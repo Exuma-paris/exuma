@@ -171,49 +171,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "TODO: Il n'existe pas de vol direct depuis Paris. Comptez 16 à 19 heures jusqu'à Jakarta ou Denpasar, avec une escale à Doha, Dubaï, Singapour ou Istanbul. À l'intérieur du pays, Surabaya, Denpasar, Labuan Bajo et Sumba se relient par des vols d'une à deux heures.",
+            "Pas de vol direct depuis Paris : 16 à 19 heures jusqu'à Jakarta ou Denpasar, avec escale à Doha, Dubaï, Singapour ou Istanbul.", // TODO: à vérifier
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "TODO: Bali, Komodo et Sumba ont sept heures d'avance sur Paris en hiver, six en été. Java et Jakarta comptent une heure de moins.",
+            "Bali, Komodo et Sumba ont sept heures d'avance sur Paris en hiver, six en été. Java et Jakarta comptent une heure de moins.", // TODO: à vérifier
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "TODO: La monnaie est la roupie indonésienne, environ 17 000 roupies pour un euro. Les cartes bancaires passent dans les hôtels et à Ubud, beaucoup moins à Sumba et à Flores. Prévoyez des espèces pour les villages et les pourboires.",
+            "La roupie indonésienne, environ 17 000 pour un euro. Cartes acceptées dans les hôtels, moins à Sumba et Flores : prévoyez des espèces.", // TODO: à vérifier
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français voyagent avec l'e-VOA, le visa électronique à l'arrivée, qui se demande en ligne avant le départ. Il autorise un séjour touristique de 30 jours, prolongeable une fois jusqu'à 60 jours. Le passeport doit être valide au moins six mois à l'arrivée, et un billet retour ou de continuation est demandé.",
+            "L'e-VOA se demande en ligne avant le départ : 30 jours, prolongeable une fois. Passeport valide six mois à l'arrivée, billet retour demandé.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "TODO: Aucun vaccin n'est obligatoire au départ de France. Les vaccins contre l'hépatite A et la typhoïde sont recommandés. Le risque de paludisme est négligeable à Bali, mais réel dans l'est de l'archipel.",
+            "Aucun vaccin obligatoire ; hépatite A et typhoïde recommandées. Paludisme négligeable à Bali, mais réel dans l'est de l'archipel.", // TODO: à vérifier
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: La saison sèche s'étend d'avril à octobre. Mai, juin et septembre offrent le meilleur compromis : mer calme pour la navigation à Komodo et fréquentation encore mesurée. Juillet et août sont les mois les plus chargés à Bali.",
+            "Saison sèche d'avril à octobre. Mai, juin et septembre allient mer calme à Komodo et fréquentation mesurée.", // TODO: à vérifier
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "TODO: L'indonésien est la langue officielle. Le balinais reste parlé à Bali, et plusieurs langues locales à Sumba. L'anglais suffit dans les hôtels et à bord des bateaux.",
+            "L'indonésien, avec le balinais à Bali et plusieurs langues locales à Sumba. L'anglais suffit dans les hôtels et à bord.", // TODO: à vérifier
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "TODO: Le climat est équatorial, entre 26 et 32 °C toute l'année sur la côte. La saison des pluies va de novembre à mars, avec des averses courtes en fin de journée. Sur les hauteurs du mont Bromo, il fait entre 5 et 10 °C avant le lever du soleil.",
+            "Équatorial, de 26 à 32 °C toute l'année sur la côte. Pluies de novembre à mars, en averses courtes ; 5 à 10 °C à l'aube au Bromo.", // TODO: à vérifier
         },
       ],
     },
@@ -233,7 +233,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Indonésie entre Java, Bali, Komodo et Sumba",
             "Adresses confidentielles en Indonésie : villages de Sumba et ateliers d'Ubud",
             "Hébergements en Indonésie : Amankila, NIHI Sumba et Four Seasons Jakarta",
-            "Conciergerie privée 24/7 pour un voyage en Indonésie",
+            "Conciergerie privée pour un voyage en Indonésie",
             "Expériences immersives en Indonésie : mont Bromo, Tirta Empul et croisière en phinisi",
           ][i],
         },
@@ -591,10 +591,10 @@ export const destination: Destination = {
             "Deux nuits à bord de l'Amandira, et le bateau change de mouillage pendant qu'on dort. Au réveil, le paysage n'est plus le même. Nos deux adolescents ont passé la traversée sur le pont avant, ce qui n'était pas gagné.",
           image: {
             src: "/destination/indonesie/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Rizières en terrasses au-dessus de la gorge de l'Ayung près d'Ubud, Bali, Indonésie"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bali et Komodo en famille, juillet 2025", // TODO: replace with real testimonial
+          role: "Bali et Komodo en famille, juillet 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -602,10 +602,10 @@ export const destination: Destination = {
             "Le Bromo à 4 heures du matin, dans le noir et dans le froid. Une fois au belvédère, on s'est assis et personne n'a parlé pendant vingt minutes. C'est le seul moment du voyage où j'ai oublié de prendre une photo.",
           image: {
             src: "/destination/indonesie/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Phinisi à voiles carguées mouillé devant les collines sèches du parc national de Komodo"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Indonésie, mai 2025", // TODO: replace with real testimonial
+          role: "Indonésie, mai 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -613,10 +613,10 @@ export const destination: Destination = {
             "Nous n'avions jamais entendu parler de Sumba avant que Stéphane l'ajoute à l'itinéraire. C'est l'étape dont nos enfants reparlent, un an après. Pas la plage : les villages.",
           image: {
             src: "/destination/indonesie/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Cavalier sumbanais sur la plage de Nihiwatu, côte ouest de Sumba au petit matin"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bali et Sumba, septembre 2024", // TODO: replace with real testimonial
+          role: "Bali et Sumba, septembre 2024", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Sri Lanka : Voyage sur mesure",
   metaDescription:
-    "Voyage au Sri Lanka sur mesure : Sigiriya, pays du thé, léopards de Yala, remparts de Galle. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage au Sri Lanka sur mesure : Sigiriya, pays du thé, léopards de Yala, remparts de Galle. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -169,7 +169,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Aucune liaison directe régulière depuis Paris. Comptez 13 à 15h de trajet avec escale, via Dubaï, Doha ou Istanbul, jusqu'à Colombo-Bandaranaike (CMB).",
+            "Pas de vol direct depuis Paris. Comptez 13 à 15h avec escale à Dubaï, Doha ou Istanbul, jusqu'à Colombo (CMB).",
         },
         {
           iconName: "clock",
@@ -181,25 +181,25 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Roupie srilankaise (LKR). 1 € vaut environ 385 LKR en août 2026. Les hôtels acceptent les cartes ; prévoir du cash pour les temples, les pourboires et les marchés.",
+            "Roupie srilankaise (LKR), environ 385 LKR pour 1 € en août 2026. Cartes acceptées à l'hôtel, cash pour temples, pourboires et marchés.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Passeport valable au moins six mois après l'entrée au Sri Lanka. Pour les ressortissants français, le visa touristique de 30 jours est actuellement gratuit. Les formalités ETA sont à effectuer avant le voyage.",
+            "Passeport valable six mois après l'entrée. Visa touristique de 30 jours gratuit pour les Français, ETA à obtenir avant le voyage.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination systématiquement obligatoire pour un séjour classique depuis la France. Hépatite A et typhoïde peuvent être recommandées selon le parcours. L'île est certifiée exempte de paludisme depuis 2016, mais la protection contre les moustiques reste essentielle (dengue, chikungunya).",
+            "Aucun vaccin obligatoire ; hépatite A et typhoïde selon le parcours. Pas de paludisme depuis 2016, mais dengue et chikungunya circulent.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Décembre à mars pour le sud-ouest, les hautes terres et le triangle culturel. Mai à septembre pour l'est et le nord-est. Les moussons décalées rendent impossible une seule meilleure saison nationale.",
+            "Décembre à mars pour le sud-ouest, les hautes terres et le triangle culturel. Mai à septembre pour l'est et le nord-est.",
         },
         {
           iconName: "languages",
@@ -211,7 +211,7 @@ export const destination: Destination = {
           iconName: "sun",
           title: "Climat",
           description:
-            "Tropical et chaud sur les côtes, 27 à 32°C toute l'année. Nettement plus frais sur les hauts plateaux, 15 à 22°C à Nuwara Eliya et Bogawantalawa, avec des nuits froides. Plusieurs régimes de mousson selon le versant.",
+            "27 à 32°C toute l'année sur les côtes. Plus frais sur les hauts plateaux, 15 à 22°C à Nuwara Eliya, avec des nuits froides.",
         },
       ],
     },
@@ -231,7 +231,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure au Sri Lanka entre triangle culturel, pays du thé et côte sud",
             "Danseurs kandyens et joueurs de tambour lors d'une représentation au Sri Lanka",
             "Piscine bordée de transats et de palmiers dans un hébergement du Sri Lanka",
-            "Conciergerie privée 24/7 pour un voyage au Sri Lanka",
+            "Conciergerie privée pour un voyage au Sri Lanka",
             "Moines en robe safran devant un bouddha sous un surplomb rocheux éclairé de bougies",
           ][i],
         },
@@ -553,7 +553,7 @@ export const destination: Destination = {
             alt: "Le rocher de Sigiriya émergeant d'une mer de nuages au lever du jour au Sri Lanka", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sri Lanka, triangle culturel et pays du thé, 2025", // TODO: replace with real testimonial
+          role: "Sri Lanka, triangle culturel et pays du thé, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -564,7 +564,7 @@ export const destination: Destination = {
             alt: "Troupeau d'éléphants traversant une rivière bordée de jungle au Sri Lanka", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sri Lanka en famille, 2025", // TODO: replace with real testimonial
+          role: "Sri Lanka en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -575,7 +575,7 @@ export const destination: Destination = {
             alt: "Mains d'un cultivateur srilankais tenant des feuilles et des noix fraîchement cueillies", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sri Lanka, Yala et côte sud, 2025", // TODO: replace with real testimonial
+          role: "Sri Lanka, Yala et côte sud, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

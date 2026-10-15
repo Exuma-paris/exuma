@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Pérou : Voyage sur mesure",
   metaDescription:
-    "Voyage au Pérou sur mesure : Machu Picchu, Vallée Sacrée, Amazonie et lac Titicaca. Itinéraire conçu par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage au Pérou sur mesure : Machu Picchu, Vallée Sacrée, Amazonie et lac Titicaca. Itinéraire conçu par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -173,7 +173,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 12h30 de vol direct depuis Paris-CDG avec Air France, ou 13 à 16 heures avec une escale via Madrid, Amsterdam ou Bogotá selon la compagnie choisie.",
+            "Environ 12h30 de vol direct depuis Paris-CDG avec Air France, ou 13 à 16 heures avec escale via Madrid, Amsterdam ou Bogotá.",
         },
         {
           iconName: "clock",
@@ -185,37 +185,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Sol péruvien (PEN). Les cartes sont largement acceptées à Lima et Cusco, mais prévoyez également des espèces, notamment dans les petites villes et les zones rurales.",
+            "Sol péruvien (PEN). Cartes largement acceptées à Lima et Cusco, espèces utiles dans les petites villes et les zones rurales.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Passeport valable au moins 6 mois à compter de l'arrivée au Pérou. Aucun visa requis pour les ressortissants français pour un séjour touristique de moins de 90 jours.",
+            "Pas de visa pour un séjour touristique de moins de 90 jours. Passeport valable au moins 6 mois à compter de l'arrivée.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "La fièvre jaune est vivement recommandée en cas de séjour en Amazonie, notamment dans la région de Tambopata et de Puerto Maldonado. Elle n'est pas recommandée pour Cusco ou le Machu Picchu. Aucun vaccin n'est obligatoire pour entrer au Pérou depuis la France.",
+            "Aucun vaccin obligatoire. Fièvre jaune vivement recommandée pour l'Amazonie (Tambopata, Puerto Maldonado), pas pour Cusco.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mai à septembre pour Cusco, la Vallée Sacrée et le Machu Picchu, pendant la saison sèche en altitude. L'Amazonie se visite toute l'année, avec une période plus sèche de mai à octobre.",
+            "De mai à septembre pour Cusco, la Vallée Sacrée et le Machu Picchu, en saison sèche. L'Amazonie est plus sèche de mai à octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Espagnol, quechua et aymara selon les régions. Dans les zones touristiques, l'anglais est généralement compris dans les hôtels et établissements haut de gamme, mais reste moins courant ailleurs.",
+            "Espagnol, quechua et aymara selon les régions. L'anglais est compris dans les hôtels haut de gamme, moins courant ailleurs.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Cusco et la Vallée Sacrée bénéficient d'un climat frais en altitude, avec des journées douces et des nuits fraîches, voire froides pendant la saison sèche. Lima connaît un climat doux et très humide, souvent couvert de mai à octobre. En Amazonie, le climat est chaud et humide toute l'année, avec une saison plus sèche de mai à octobre.",
+            "Frais en altitude à Cusco, nuits froides en saison sèche. Lima douce et souvent couverte de mai à octobre, Amazonie chaude et humide.",
         },
       ],
     },
@@ -534,7 +534,7 @@ export const destination: Destination = {
             "Notre voyage au Pérou avec Exuma a suivi une logique qu'on n'aurait jamais construite seuls : deux jours à Cusco avant de bouger, puis la Vallée Sacrée, puis le Machu Picchu à l'aube. Chaque étape avait un sens.",
           image: {
             src: "/destination/perou/hero-1.png",
-            alt: "Portrait de Sophie et Marc", // TODO: verify
+            alt: "Citadelle du Machu Picchu entourée de sommets andins au Pérou",
           },
           name: "Sophie & Marc", // TODO: verify
           role: "Voyage de noces, mai 2025", // TODO: verify
@@ -545,7 +545,7 @@ export const destination: Destination = {
             "La nuit au Sanctuary Lodge et l'entrée au Machu Picchu avant les premiers trains restent le souvenir le plus fort du voyage. Notre travel designer avait tout anticipé, jusqu'à l'acclimatation à Cusco.",
           image: {
             src: "/destination/perou/hero-2.png",
-            alt: "Portrait de Laurent", // TODO: verify
+            alt: "Terrasses agricoles incas de Moray dans la Vallée Sacrée du Pérou",
           },
           name: "Laurent", // TODO: verify
           role: "Voyage en famille, juillet 2025", // TODO: verify
@@ -556,7 +556,7 @@ export const destination: Destination = {
             "Ce qui m'a marquée, c'est l'Amazonie après les Andes : deux pays dans un seul voyage. La réserve de Tambopata, un naturaliste dédié, un rythme qui n'a rien de touristique.",
           image: {
             src: "/destination/perou/hero-3.png",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "Îles flottantes des Uros sur le lac Titicaca au coucher du soleil",
           },
           name: "Claire", // TODO: verify
           role: "Escapade solo, septembre 2025", // TODO: verify
