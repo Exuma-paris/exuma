@@ -11,3 +11,7 @@ Interface redessinée le 2026-10-14 d'après la capture de la plateforme de l'é
 ## acces-aeroport.png
 
 Image générée le 2026-10-14 (Gemini 3 Pro Image, mode « inspire ») à partir de `public/service/mobilite/accueil-aeroport.png` pris comme ambiance. Consigne : grand terminal d'aéroport européen, deux voyageurs d'affaires en costume sombre accompagnés vers un accès prioritaire, visages non reconnaissables, aucune signalétique ni logo lisible. Tuile « Accès & privilèges » de la page Entreprises.
+
+## /service/reporting/hero-account.png
+
+Retouche le 2026-10-15 (Gemini 3 Pro Image, mode édition) de `public/service/ingenierie/hero-poste.png`, photo réelle des bureaux : ajout d'une cliente office manager à côté de la conseillère (inchangée), statistiques abstraites sans texte ni chiffre sur l'écran du premier plan. Hero de la page Reporting & pilotage.

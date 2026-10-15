@@ -50,10 +50,12 @@ export const serviceCategory: ServiceCategory = {
         "Une facture unique, un reporting mensuel selon vos propres axes, et une politique voyages ajustée à partir de ce que vos équipes réservent vraiment.",
       images: [
         {
-          // Image générée (2026-10-14) : tableau de bord aux couleurs de la
-          // maison, sans texte ni chiffre lisible à l'écran.
-          src: "/professionnels/entreprises/reporting.png",
-          alt: "Un tableau de bord de reporting des déplacements, sur un ordinateur portable",
+          // Photo des bureaux (même prise de vue que le hero Ingénierie),
+          // retouchée le 2026-10-15 : une cliente office manager est ajoutée
+          // à côté de la conseillère, et l'écran du premier plan montre des
+          // statistiques sans rien de lisible. Illustre l'account management.
+          src: "/service/reporting/hero-account.png",
+          alt: "Une conseillère Exuma et une cliente passent en revue des statistiques de déplacement à l'écran",
         },
       ],
     },
