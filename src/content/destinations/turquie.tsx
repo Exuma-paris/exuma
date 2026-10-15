@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Turquie : Voyage sur mesure",
   metaDescription:
-    "Voyage en Turquie sur mesure : Istanbul, Cappadoce, Éphèse et côte lycienne. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage en Turquie sur mesure : Istanbul, Cappadoce, Éphèse et côte lycienne. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -170,7 +170,7 @@ export const destination: Destination = {
           title: "Temps de vol",
           // TODO: verify auprès de Turkish Airlines et Air France
           description:
-            "Comptez environ 3 heures 30 en vol direct de Paris à Istanbul, selon les compagnies et les périodes. La Cappadoce, Izmir et la côte se rejoignent ensuite par un vol intérieur au départ d'Istanbul.",
+            "Environ 3 heures 30 de vol direct entre Paris et Istanbul. La Cappadoce, Izmir et la côte se rejoignent ensuite en vol intérieur.",
         },
         {
           iconName: "clock",
@@ -182,38 +182,38 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est la livre turque. Les cartes bancaires sont très largement acceptées dans les hôtels et les restaurants, mais il reste utile de conserver un peu d'espèces pour les bazars, les taxis et les villages. Le change se fait généralement sur place.",
+            "Livre turque. Cartes très largement acceptées ; espèces utiles pour les bazars, les taxis et les villages, change sur place.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           // TODO: verify sur France Diplomatie avant publication
           description:
-            "Les ressortissants français sont dispensés de visa pour un séjour touristique de 90 jours maximum sur une période de 180 jours. Les autorités turques demandent un passeport valable au moins 150 jours après la date d'entrée.",
+            "Pas de visa jusqu'à 90 jours sur 180. Passeport valable au moins 150 jours après la date d'entrée.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin spécifique n'est présenté comme obligatoire pour un voyage touristique classique. L'Institut Pasteur recommande d'être à jour du calendrier vaccinal et conseille systématiquement la vaccination contre l'hépatite A. Celles contre l'hépatite B, la typhoïde et la rage se discutent ensuite selon la durée et les conditions du séjour.",
+            "Aucun vaccin obligatoire. Calendrier à jour et hépatite A conseillés ; hépatite B, typhoïde et rage selon le séjour.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Nous privilégions avril, mai et juin, puis septembre et octobre : la lumière est belle, les sites se visitent sans hâte et la mer reste agréable sur l'Égée à l'automne. Juillet et août sont chauds sur la côte, avec des soirées très douces.",
+            "Nous privilégions avril à juin, puis septembre et octobre, quand la mer reste agréable sur l'Égée. Juillet et août sont chauds.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le turc est la seule langue officielle. Le kurde et l'arabe sont parlés par d'importantes communautés, surtout dans l'est et le sud-est du pays. L'anglais est généralement pratiqué dans les hôtels et par les guides des régions touristiques.",
+            "Le turc est la seule langue officielle ; kurde et arabe se parlent dans l'est et le sud-est. L'anglais se pratique à l'hôtel.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Les côtes égéenne et méditerranéenne connaissent un climat méditerranéen, avec des étés chauds et secs. Le plateau anatolien est plus continental et la Cappadoce peut recevoir de la neige en hiver. Istanbul, plus humide, est souvent ventée.",
+            "Méditerranéen sur les côtes, aux étés chauds et secs. Plateau anatolien plus continental, neige possible en Cappadoce l'hiver.",
         },
       ],
     },
@@ -536,7 +536,7 @@ export const destination: Destination = {
             "Nous n'avions fait qu'une escale à Istanbul, autrefois. Cette fois nous avons pris le temps, avec un guide qui nous a fait entrer à Sainte-Sophie avant tout le monde. Et puis il y a eu la Cappadoce, et cette montgolfière rien que pour nous. Nos petits-enfants nous en parlent encore.",
           image: {
             src: "/destination/turquie/hero-1.webp",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
+            alt: "Montgolfières au-dessus des reliefs de tuf de la Cappadoce au lever du jour",
           },
           name: "Bernard & Michèle", // TODO: verify
           role: "Voyage de transmission, mai 2026", // TODO: verify
@@ -547,7 +547,7 @@ export const destination: Destination = {
             "Éphèse après la fermeture, avec l'archéologue qui a fouillé les maisons en terrasses. Nous avions le site pour nous, et il nous a raconté chaque mosaïque. Je ne pensais pas qu'une chose pareille se négociait encore.",
           image: {
             src: "/destination/turquie/hero-2.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Coupole et médaillons calligraphiés de Sainte-Sophie à Istanbul",
           },
           name: "Édouard", // TODO: verify
           role: "Séjour en couple, avril 2026", // TODO: verify
@@ -558,7 +558,7 @@ export const destination: Destination = {
             "Une semaine de goélette le long de la côte lycienne, avec un équipage qui savait exactement où mouiller le soir. On se baignait au-dessus des ruines avant le petit-déjeuner. Je n'avais pas décroché comme cela depuis des années.",
           image: {
             src: "/destination/turquie/hero-3.webp",
-            alt: "Portrait de Frédéric", // TODO: verify
+            alt: "Sommet de la tour de Galata et sa galerie panoramique, à Istanbul",
           },
           name: "Frédéric", // TODO: verify
           role: "Croisière privée, septembre 2025", // TODO: verify

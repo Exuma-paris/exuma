@@ -92,9 +92,9 @@ export const serviceCategory: ServiceCategory = {
         "Quatre prestations qui se combinent selon le voyage. Vous n'en choisissez aucune à l'avance : nous composons le dispositif après vous avoir écouté.",
       items: [
         {
-          title: "Jets privés et aviation d'affaires",
+          title: "Jets privés, hélicoptères et aviation d'affaires",
           paragraphs: [
-            "Nous affrétons l'appareil qui correspond au trajet : un léger pour un aller-retour européen dans la journée, un long courrier quand il faut traverser sans escale, un turbopropulseur pour une piste courte que les jets ne prennent pas.",
+            "Un jet ou un hélicoptère s'organise en quelques heures si nécessaire. Nous affrétons l'appareil qui correspond au trajet : un léger pour un aller-retour européen dans la journée, un long courrier quand il faut traverser sans escale, un turbopropulseur pour une piste courte que les jets ne prennent pas.",
             "Nous ne travaillons qu'avec des opérateurs certifiés, et nous vérifions leur certification et leur historique avant de vous proposer un appareil. Vous recevez le nom de l'appareil, celui de l'équipage et l'attestation d'assurance avant de confirmer.",
             "L'appareil est prêt avant que vous n'y montiez : l'aéroport le plus proche de votre adresse plutôt que le plus connu, l'heure de décollage calée sur votre rendez-vous et non l'inverse, la restauration que vous aimez à bord, les bagages hors format annoncés à l'équipage la veille.",
           ],
@@ -104,9 +104,9 @@ export const serviceCategory: ServiceCategory = {
           },
         },
         {
-          title: "Transferts et chauffeurs dédiés",
+          title: "Transferts premium et chauffeurs dédiés",
           paragraphs: [
-            "Une voiture et un chauffeur vous attendent à chaque point du parcours, du départ de chez vous jusqu'à la porte de l'hôtel. Le chauffeur suit votre vol : s'il a deux heures de retard, il est là deux heures plus tard.",
+            "Un greeter dédié vous accueille, un chauffeur privé vous attend dans un véhicule de prestige à chaque point du parcours, du départ de chez vous jusqu'à la porte de l'hôtel. Le chauffeur suit votre vol : s'il a deux heures de retard, il est là deux heures plus tard.",
             "Sur les séjours longs, nous mettons un chauffeur à votre disposition sur toute la durée. Il connaît vos horaires, parle votre langue, et devient l'un des repères du voyage.",
             "Sièges enfants installés à l'avance, véhicule adapté à une mobilité réduite, second véhicule quand le groupe et les bagages ne tiennent pas dans un seul.",
           ],
@@ -154,6 +154,7 @@ export const serviceCategory: ServiceCategory = {
       paragraphs: [
         "La veille, votre conseiller vérifie ce qui peut encore bouger : le vol, la météo à l'arrivée, les documents de chaque voyageur, l'heure du chauffeur.",
         "Le jour du départ, le chauffeur a confirmé, l'accueil a votre numéro de vol et l'hôtel prépare la chambre pour votre arrivée. Si quelque chose change en route, c'est nous qui vous appelons, avec la solution déjà en place.",
+        "À l'arrivée, il n'y a rien à chercher : le chauffeur vous attend à la sortie, les bagages sont pris en charge et la chambre est prête. Vous recevez la suite du programme au moment où vous en avez besoin, pas avant.",
       ],
       // La paire joue les deux lieux à la même heure, ce que le titre promet :
       // chez nous le dossier se vérifie, chez vous la valise se fait.

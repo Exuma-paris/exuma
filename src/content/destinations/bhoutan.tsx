@@ -168,7 +168,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Paro se rejoint avec une correspondance en Asie, le plus souvent par Delhi, Katmandou, Bangkok ou Singapour, sur Drukair ou Bhutan Airlines. Comptez environ 18 à 24 heures de trajet selon la correspondance et la durée de l'escale.",
+            "Paro se rejoint via Delhi, Katmandou, Bangkok ou Singapour, sur Drukair ou Bhutan Airlines. Comptez 18 à 24 heures selon l'escale.",
         },
         {
           iconName: "clock",
@@ -180,37 +180,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le ngultrum (BTN), indexé sur la roupie indienne, qui circule également dans le pays. Les cartes étrangères sont acceptées dans les hôtels de Paro et de Thimphu, plus rarement ailleurs : il reste utile de conserver des espèces.",
+            "Le ngultrum, indexé sur la roupie indienne qui circule aussi. Cartes acceptées dans les hôtels de Paro et Thimphu, espèces utiles ailleurs.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Le visa est obligatoire pour les ressortissants français. Il se demande en ligne avant le départ, sur le portail officiel bhoutanais, et s'obtient avec la confirmation du séjour. Le passeport doit être valable au moins six mois au-delà du séjour prévu. S'y ajoute la redevance de développement durable, due pour chaque nuit passée dans le pays, dont le montant en vigueur figure sur votre devis.",
+            "Visa obligatoire en ligne, passeport valide six mois au-delà du séjour. S'y ajoute une redevance due par nuit, chiffrée sur votre devis.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Depuis la France, aucune vaccination spécifique n'est systématiquement exigée. L'Institut Pasteur recommande d'être à jour du calendrier vaccinal et conseille l'hépatite A. La typhoïde et la rage se discutent ensuite selon la durée et les conditions du séjour.",
+            "Aucun vaccin exigé depuis la France. Calendrier à jour et hépatite A conseillés, typhoïde et rage selon la durée et les conditions.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Les saisons favorables vont de mars à mai et d'octobre à novembre. Nous privilégions le printemps pour les rhododendrons en fleur et les grands festivals, et l'automne pour la clarté de l'air sur l'Himalaya. La mousson occupe l'été, et l'hiver reste lumineux dans les basses vallées.",
+            "De mars à mai pour les rhododendrons et les festivals, d'octobre à novembre pour l'air clair sur l'Himalaya. La mousson occupe l'été.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le dzongkha est la langue officielle, aux côtés de nombreuses langues régionales, dont le sharchop dans l'est et le népali dans le sud. L'anglais est la langue d'enseignement et se parle très largement, y compris dans les villages.",
+            "Le dzongkha est officiel, avec le sharchop à l'est et le népali au sud. L'anglais, langue d'enseignement, se parle jusque dans les villages.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Un climat de montagne, très différent d'une vallée à l'autre. Doux et sec à Punakha, plus frais à Paro et Thimphu, franchement froid la nuit à Phobjikha en hiver. Les cols peuvent être enneigés de décembre à février.",
+            "Montagnard et variable selon la vallée, doux à Punakha, froid la nuit à Phobjikha l'hiver. Cols parfois enneigés de décembre à février.",
         },
       ],
     },
@@ -230,7 +230,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure au Bhoutan entre Paro, Punakha, Phobjikha et Bumthang",
             "Repas bhoutanais préparé à la main dans une maison de famille, épices et piments dans leurs bols",
             "Baignoire de pierre devant une fenêtre de bois dans un lodge bhoutanais",
-            "Conciergerie privée 24/7 pour un voyage au Bhoutan",
+            "Conciergerie privée pour un voyage au Bhoutan",
             "Danseurs masqués d'un festival cham sous les pins au Bhoutan",
           ][i],
         },
@@ -561,7 +561,7 @@ export const destination: Destination = {
             alt: "Le monastère du Nid du Tigre accroché à la falaise au-dessus de la vallée de Paro"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bhoutan, Paro et Punakha, 2025", // TODO: replace with real testimonial
+          role: "Bhoutan, Paro et Punakha, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -572,7 +572,7 @@ export const destination: Destination = {
             alt: "Moine en robe grenat devant la façade peinte d'un temple bhoutanais"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bhoutan en famille, trois générations, 2025", // TODO: replace with real testimonial
+          role: "Bhoutan en famille, trois générations, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -583,7 +583,7 @@ export const destination: Destination = {
             alt: "Toiture dorée et bois sculpté d'un temple bhoutanais devant la montagne"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bhoutan, Phobjikha et Bumthang, 2025", // TODO: replace with real testimonial
+          role: "Bhoutan, Phobjikha et Bumthang, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

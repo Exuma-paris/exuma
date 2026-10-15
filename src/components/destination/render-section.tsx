@@ -122,6 +122,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           description={section.description}
           cta={section.cta}
           items={section.items}
+          numbered={section.numbered}
           background={section.background}
         />
       );

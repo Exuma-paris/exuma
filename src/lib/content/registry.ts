@@ -1121,11 +1121,12 @@ export const experiences: Record<string, Experience> = toMap([
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
+  // Ordre d'affichage de l'accueil et du menu Conciergerie.
   mobilite,
-  lifestyle,
   conciergerie,
   securite,
   ingenierie,
+  lifestyle,
   reporting,
 ]);
 

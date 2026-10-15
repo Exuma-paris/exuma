@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Turks and Caicos : Voyage sur mesure",
   metaDescription:
-    "Voyage aux Turks and Caicos sur mesure : Grace Bay, Parrot Cay, le mur de West Caicos. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage aux Turks and Caicos sur mesure : Grace Bay, Parrot Cay, le mur de West Caicos. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -170,49 +170,49 @@ export const destination: Destination = {
           title: "Temps de vol",
           // TODO: revérifier avant publication, les rotations British Airways changent de saison en saison
           description:
-            "Il n'existe pas de vol direct depuis Paris. Les itinéraires passent par Londres, d'où British Airways rejoint Providenciales, certaines rotations marquant une escale à Nassau, ou par un hub nord-américain : Miami est à un peu moins de deux heures de l'archipel, New York à trois heures et demie, Toronto à quatre heures. Comptez une journée complète de trajet depuis Paris. Providenciales concentre les vols internationaux ; Grand Turk et South Caicos se rejoignent ensuite par un vol domestique, Ambergris Cay par un transfert aérien privé, North Caicos par le ferry, puis Middle Caicos par la route qui relie les deux îles.",
+            "Pas de vol direct : une journée de trajet via Londres ou un hub nord-américain, Miami étant à moins de deux heures de l'archipel.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "L'archipel change d'heure aux mêmes dates que la côte est américaine, et la France à des dates différentes. Le décalage est donc de six heures de retard la plus grande partie de l'année, et de cinq heures pendant deux courtes périodes de bascule, en mars et autour de la fin octobre. En 2026, l'archipel change le 8 mars et le 1er novembre.",
+            "Six heures de retard sur la France la plus grande partie de l'année, cinq heures pendant deux courtes périodes en mars et fin octobre.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie officielle est le dollar américain, ce qui évite tout change sur place. Les cartes sont largement acceptées, surtout à Providenciales, dans les hôtels comme dans les restaurants. On garde des espèces pour les taxis, les bateaux et les petites adresses de Blue Hills ou de Middle Caicos. Une taxe touristique de 12 % s'applique aux hébergements, et les hôtels comme leurs restaurants ajoutent le plus souvent 10 % de service.",
+            "Dollar américain, cartes largement acceptées. Taxe touristique de 12 % sur l'hébergement, et le plus souvent 10 % de service.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Aucun visa n'est demandé aux ressortissants français, dont le séjour touristique est autorisé jusqu'à quatre-vingt-dix jours. Le Border Force local demande en revanche un passeport valable au moins six mois, et un billet de retour est demandé à l'entrée. Si l'itinéraire passe par les États-Unis, l'autorisation ESTA est obligatoire, y compris en simple transit. En cas de correspondance à Londres, l'autorisation britannique ETA n'est pas nécessaire tant que l'on reste en zone de transit ; elle le devient dès que l'on franchit la frontière.",
+            "Pas de visa jusqu'à 90 jours. Passeport valable six mois et billet retour exigés ; ESTA obligatoire en cas de transit aux États-Unis.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est exigé à l'entrée. Les vaccinations du calendrier français doivent être à jour, et le vaccin contre l'hépatite A est recommandé aux voyageurs qui ne l'ont pas encore reçu. La dengue circule dans les Antilles selon les années : les moustiques qui la transmettent piquent aussi en pleine journée, une protection régulière vaut donc mieux qu'une simple précaution du soir.",
+            "Aucun vaccin exigé, hépatite A recommandée. La dengue circule et ses moustiques piquent en journée : protégez-vous régulièrement.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison la plus sèche court de janvier à avril, avec un alizé régulier et une humidité basse. Nous privilégions février et mars, quand l'eau est la plus claire et que les baleines à bosse traversent le passage des Turks, leur pic se situant de la fin janvier au début du mois de mars. Mai et le début du mois de juin restent une fenêtre possible, plus chaude, avec davantage de pluie certaines années. La saison cyclonique s'ouvre officiellement le 1er juin et se ferme fin novembre, avec un cœur d'activité en août, septembre et octobre.",
+            "Saison sèche de janvier à avril ; nous privilégions février et mars, eau claire et baleines. Cyclones de juin à fin novembre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais est la langue officielle et celle de la vie quotidienne, dans les hôtels comme sur les bateaux. Le créole haïtien est également présent, parlé par une partie de la population.",
+            "L'anglais est la langue officielle et du quotidien. Le créole haïtien est également parlé par une partie de la population.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tropical et sec, l'un des plus secs des Caraïbes : Providenciales reçoit peu de pluie et le soleil domine presque toute l'année. Les températures varient peu, autour de vingt-sept degrés en moyenne, avec des maximales proches de trente-deux degrés en été. L'alizé souffle presque en continu et tempère la chaleur sur les côtes au vent.",
+            "Tropical et sec, l'un des plus secs des Caraïbes. Environ 27 degrés en moyenne, jusqu'à 32 en été, tempérés par l'alizé.",
         },
       ],
     },
@@ -232,7 +232,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure aux Turks and Caicos entre Providenciales, les cays et Middle Caicos",
             "Adresses confidentielles aux Turks and Caicos : plages sans accès et tables de Blue Hills",
             "Hébergements aux Turks and Caicos : Amanyara, COMO Parrot Cay et Ambergris Cay",
-            "Conciergerie privée 24/7 pour un séjour aux Turks and Caicos",
+            "Conciergerie privée pour un séjour aux Turks and Caicos",
             "Expériences aux Turks and Caicos : apnée, plongée sur le mur et navigation à la voile",
           ][i],
         },
@@ -585,10 +585,10 @@ export const destination: Destination = {
             "Nous avons plongé le mur de West Caicos le deuxième matin et je n'ai rien vu de comparable ailleurs. Le reste de la semaine, personne ne nous a demandé quoi que ce soit.",
           image: {
             src: "/destination/turks-and-caicos/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage aux Turks and Caicos : la longue plage de Grace Bay à Providenciales au petit matin"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Providenciales, mars 2026", // TODO: replace with real testimonial
+          role: "Providenciales, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -596,10 +596,10 @@ export const destination: Destination = {
             "Une île pour nous, un bateau qui venait nous chercher quand on le demandait, et la même personne au téléphone du premier échange au retour. C'est exactement ce que nous cherchions.",
           image: {
             src: "/destination/turks-and-caicos/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Le tombant du récif et l'eau claire au large de West Caicos"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Parrot Cay, février 2026", // TODO: replace with real testimonial
+          role: "Parrot Cay, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -607,10 +607,10 @@ export const destination: Destination = {
             "La séance d'apnée a changé la semaine. Nos filles ont voulu y retourner deux fois, et elles parlent encore du moment où l'on n'entend plus rien.",
           image: {
             src: "/destination/turks-and-caicos/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Les falaises de Mudjin Harbour à Middle Caicos en fin de journée"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Les Turks and Caicos en famille, avril 2026", // TODO: replace with real testimonial
+          role: "Les Turks and Caicos en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

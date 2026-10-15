@@ -171,49 +171,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "TODO: Il existe des vols directs depuis Paris vers Le Cap et vers Johannesburg, en onze à douze heures. Les vols partent le soir et arrivent le lendemain matin. Un vol intérieur de deux heures relie ensuite Le Cap à Hoedspruit, la porte d'entrée des réserves du Lowveld.",
+            "Vols directs de nuit de Paris vers Le Cap et Johannesburg, en onze à douze heures. Le Cap rejoint Hoedspruit, porte du Lowveld, en 2 h.", // TODO: à vérifier
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "TODO: L'Afrique du Sud vit toute l'année en UTC+2 et ne change pas d'heure. De fin mars à fin octobre, il est la même heure qu'à Paris. Le reste de l'année, quand il est 16 h à Paris, il est 17 h au Cap.",
+            "UTC+2 toute l'année, sans changement d'heure. Même heure qu'à Paris de fin mars à fin octobre, une heure de plus le reste de l'année.", // TODO: à vérifier
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "TODO: La monnaie est le rand sud-africain (ZAR). La carte bancaire est acceptée partout, y compris dans les lodges. Les pourboires aux guides et aux pisteurs se règlent en espèces, en rands, et se remettent en fin de séjour.",
+            "Le rand sud-africain (ZAR). La carte passe partout, lodges compris, mais les pourboires aux guides et pisteurs se règlent en espèces.", // TODO: à vérifier
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "TODO: Aucun visa n'est demandé aux ressortissants français pour un séjour touristique de moins de quatre-vingt-dix jours. Le passeport doit rester valide au moins trente jours après la date de retour et comporter deux pages vierges face à face. En revanche, la Customs Online Traveller Declaration est obligatoire, à l'entrée comme à la sortie du territoire.",
+            "Pas de visa sous 90 jours. Passeport valide 30 jours après le retour, deux pages vierges face à face, déclaration douanière en ligne exigée.", // TODO: à vérifier
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "TODO: Aucune vaccination n'est obligatoire, sauf la fièvre jaune en cas d'arrivée depuis un pays où la maladie circule. Le Cap et le Cederberg ne présentent aucun risque de paludisme. Dans le Lowveld, le risque est faible et saisonnier, de novembre à avril.",
+            "Aucun vaccin obligatoire, sauf fièvre jaune selon la provenance. Pas de paludisme au Cap, risque faible dans le Lowveld de novembre à avril.", // TODO: à vérifier
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: Les deux régions n'ont pas la même bonne saison. Le Cap est au mieux de novembre à mars, pendant l'été austral. Le bush est au mieux de mai à septembre, quand la végétation est basse et la faune concentrée sur les points d'eau. Mars, avril et octobre conviennent aux deux.",
+            "Le Cap de novembre à mars, le bush de mai à septembre, quand la faune se masse aux points d'eau. Mars, avril et octobre valent pour tout.", // TODO: à vérifier
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "TODO: Le pays compte douze langues officielles, dont l'anglais, l'afrikaans, l'isiZulu et l'isiXhosa. L'anglais est parlé partout et suffit dans les hôtels, les restaurants et les réserves. Le français n'est pratiquement pas pratiqué.",
+            "Douze langues officielles, dont l'anglais, l'afrikaans, l'isiZulu et l'isiXhosa. L'anglais suffit partout, le français est presque absent.", // TODO: à vérifier
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "TODO: Deux climats se partagent le pays. Au Cap, l'été est sec et venté, entre 25 et 30 °C, et la pluie tombe en hiver, de juin à août. Dans le Lowveld, c'est l'inverse : les orages arrivent l'été, de novembre à mars, et l'hiver est sec, avec des matinées autour de 8 °C.",
+            "Au Cap, été sec et venté entre 25 et 30 °C, pluie de juin à août. Dans le Lowveld, orages de novembre à mars et hiver sec, matins vers 8 °C.", // TODO: à vérifier
         },
       ],
     },
@@ -602,10 +602,10 @@ export const destination: Destination = {
             "Nous étions partis pour le safari. Ce dont nous parlons en rentrant, c'est du Cederberg. Marcher deux heures le matin pour arriver devant une paroi peinte il y a dix mille ans, avec personne d'autre autour, cela ne ressemble à rien de ce que nous connaissions.",
           image: {
             src: "/destination/afrique-du-sud/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Table Mountain au-dessus de la baie du Cap au lever du jour, voyage en Afrique du Sud"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Le Cap, Cederberg et Thornybush, avril 2025", // TODO: replace with real testimonial
+          role: "Le Cap, Cederberg et Thornybush, avril 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -613,10 +613,10 @@ export const destination: Destination = {
             "Nous voulions tout faire en voiture. On nous a expliqué qu'il fallait deux jours de route pour rejoindre le Kruger depuis Le Cap, et on nous a mis dans un avion de deux heures. Nous avons gagné trois journées entières sur un séjour de deux semaines.",
           image: {
             src: "/destination/afrique-du-sud/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Léopard sur une branche dans la réserve privée de Thornybush, Afrique du Sud"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Le Cap et Lowveld, septembre 2025", // TODO: replace with real testimonial
+          role: "Le Cap et Lowveld, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -624,10 +624,10 @@ export const destination: Destination = {
             "À Ellerman House, les tableaux accrochés dans les salons ne sont pas de la décoration d'hôtel. C'est une collection d'art sud-africain, et quelqu'un prend le temps de vous la commenter. Nous y avons compris l'histoire du pays mieux que dans un musée.",
           image: {
             src: "/destination/afrique-du-sud/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Vue aérienne du Cap entre Table Mountain et l'océan à la tombée du jour"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Le Cap et Winelands, février 2026", // TODO: replace with real testimonial
+          role: "Le Cap et Winelands, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

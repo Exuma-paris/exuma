@@ -569,10 +569,10 @@ export const destination: Destination = {
             "Je pensais qu'il fallait marcher des heures pour voir un lémurien. Le premier est passé devant la terrasse pendant le petit déjeuner, puis un deuxième. Ils habitent la forêt qui touche l'hôtel, et ils passent tous les matins à la même heure.",
           image: {
             src: "/destination/madagascar/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Lémurien sifaka dans la forêt sèche d'Anjajavy, voyage à Madagascar"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Anjajavy, septembre 2025", // TODO: replace with real testimonial
+          role: "Anjajavy, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -580,10 +580,10 @@ export const destination: Destination = {
             "La marche de nuit, on l'a faite sans trop y croire. En une heure, le pisteur nous a montré trois caméléons endormis sur des branches à hauteur d'yeux, puis un lémurien de la taille d'une pomme. Il les repérait à la lampe avant nous, chaque fois.",
           image: {
             src: "/destination/madagascar/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Les cirques de latérite des Tsingy Rouges dans la vallée de l'Irodo, au nord d'Antsiranana"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Andasibe, octobre 2025", // TODO: replace with real testimonial
+          role: "Andasibe, octobre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -591,10 +591,10 @@ export const destination: Destination = {
             "L'hélicoptère s'est posé sur la plage, puis il est reparti. Nous étions huit sur l'île. Le soir, on marchait jusqu'à la pointe sans croiser personne, et le matin l'équipe savait déjà à quelle heure nous voulions le café.",
           image: {
             src: "/destination/madagascar/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Plage et barrière de corail de Nosy Ankao, au large du nord-est malgache"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Nosy Ankao, juin 2026", // TODO: replace with real testimonial
+          role: "Nosy Ankao, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

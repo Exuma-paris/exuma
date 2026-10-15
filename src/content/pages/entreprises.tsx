@@ -34,7 +34,7 @@ export const meta = {
   // Repris dans le fil d'Ariane, où le titre complet serait trop long.
   shortTitle: "Entreprises & cabinets",
   description:
-    "Exuma gère les déplacements de vos collaborateurs, vos séminaires et vos voyages de groupe. Agence de voyages immatriculée à Paris, interlocuteur dédié, assistance pendant le voyage, facturation centralisée.",
+    "Exuma gère les déplacements de vos collaborateurs, vos séminaires et vos voyages de groupe. Maison de conseils privée dédiée aux déplacements, immatriculée à Paris, interlocuteur dédié, assistance pendant le voyage, facturation centralisée.",
 };
 
 export const sections: Section[] = [
@@ -125,7 +125,7 @@ export const sections: Section[] = [
         iconName: "phone",
         title: "Vos voyageurs nous joignent directement",
         description:
-          "Ils appellent, nous traitons. Quel que soit le conseiller qui décroche, il a votre compte sous les yeux et n'a pas besoin qu'on lui rappelle vos règles.",
+          "Ils appellent leur référent dédié. S'il est indisponible, le conseiller qui prend le relais a votre compte sous les yeux et n'a pas besoin qu'on lui rappelle vos règles.",
       },
       {
         iconName: "fileText",
@@ -312,13 +312,13 @@ export const sections: Section[] = [
       },
     },
     text: {
-      eyebrow: "Séminaires & déplacements de groupe",
+      eyebrow: "Séminaires, conventions & team building",
       heading: "Partir à 40 demande le même soin qu'à 1",
       columns: [
-        "Séminaire de direction, convention, incentive, déplacement d'une équipe entière sur un même site : nous prenons l'ensemble, des vols au dernier transfert, avec un interlocuteur unique du premier devis au retour.",
+        "Convention, séminaire de direction, team building, incentive ou déplacement d'une équipe entière : nous concevons, coordonnons et exécutons l'ensemble, sur mesure de A à Z, avec un interlocuteur unique du premier devis au retour.",
         "Les listes de participants changent jusqu'au dernier moment, les contraintes alimentaires et médicales aussi. Nous les tenons à jour, nous suivons chaque arrivée, et nous restons présents pendant l'événement.",
       ],
-      cta: { label: "Parler d'un projet de groupe", href: "/professionnels/groupes" },
+      cta: { label: "Découvrir nos séminaires & events", href: "/professionnels/seminaires" },
     },
   },
 
@@ -373,7 +373,7 @@ export const sections: Section[] = [
       "La confidentialité n'est pas une option que l'on active à votre demande, c'est un principe de fonctionnement. Elle couvre vos projets autant que les déplacements individuels de vos équipes, dès le premier échange.",
       "Les données de vos voyageurs servent à organiser et à sécuriser leurs déplacements, rien d'autre. Nous signons votre accord de confidentialité si vous en avez un, et nous vous transmettons le nôtre si vous n'en avez pas.",
       // Formulation à faire valider par Ludivine (règle interne).
-      "En interne, l'information circule au strict nécessaire : votre interlocuteur, son suppléant, et personne d'autre. Ce que prépare votre direction ne se devine pas depuis un carnet de réservations.",
+      "En interne, l'information circule au strict nécessaire : votre référent dédié en priorité, et s'il est indisponible, les seules personnes de l'équipe qui prennent le relais sur votre dossier. Ce que prépare votre direction ne se devine pas depuis un carnet de réservations.",
     ],
     cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement?profil=entreprise" },
   },

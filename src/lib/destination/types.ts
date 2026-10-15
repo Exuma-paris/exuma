@@ -290,6 +290,8 @@ export type Section =
         paragraphs: string[];
         image: ImageRef;
       }[];
+      /** false retire le numéro 01, 02… au-dessus de chaque titre. */
+      numbered?: boolean;
       background?: string;
     }
   | {

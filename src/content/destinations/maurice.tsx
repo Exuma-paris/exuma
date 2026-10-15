@@ -24,7 +24,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Île Maurice, voyage sur mesure",
   metaDescription:
-    "Voyage à l'île Maurice sur mesure : Le Morne, Grand Baie, Chamarel et le lagon. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage à l'île Maurice sur mesure : Le Morne, Grand Baie, Chamarel et le lagon. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -187,49 +187,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 11 heures de vol direct depuis Paris. L'aéroport Sir Seewoosagur Ramgoolam se situe au sud-est de l'île. Il faut ensuite prévoir de trente minutes à une heure trente de route selon la côte choisie.", // TODO: verify
+            "Environ 11 heures de vol direct depuis Paris. De l'aéroport, au sud-est, comptez trente minutes à une heure trente de route selon la côte.", // TODO: verify
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "L'île Maurice est en avance de 3 heures sur la France en hiver et de 2 heures en été. Elle ne pratique pas de changement d'heure saisonnier. L'acclimatation est donc immédiate.", // TODO: verify
+            "3 heures d'avance sur la France en hiver, 2 heures en été. Pas de changement d'heure saisonnier, l'acclimatation est immédiate.", // TODO: verify
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie locale est la roupie mauricienne. Un euro équivaut à environ 48 roupies. La carte bancaire est acceptée dans les hôtels et les restaurants. Prévoyez des espèces pour les marchés et les taxis.", // TODO: verify taux
+            "Roupie mauricienne, environ 48 pour un euro. Carte acceptée dans les hôtels et restaurants, espèces pour les marchés et les taxis.", // TODO: verify taux
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Aucun visa n'est nécessaire pour les ressortissants français. Un permis de séjour touristique est délivré à l'arrivée. Un passeport valide, un billet de sortie et un justificatif d'hébergement sont demandés.", // TODO: verify
+            "Pas de visa, permis de séjour délivré à l'arrivée. Passeport valide, billet de sortie et justificatif d'hébergement sont demandés.", // TODO: verify
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination n'est obligatoire pour les voyageurs venant d'Europe. L'île n'est pas touchée par le paludisme. Les vaccins universels à jour suffisent.", // TODO: verify
+            "Aucune vaccination obligatoire depuis l'Europe et pas de paludisme sur l'île. Les vaccins universels à jour suffisent.", // TODO: verify
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La période de mai à décembre correspond à l'hiver austral. L'air y est sec et les températures tournent autour de 25 °C. De janvier à mars, le climat devient chaud, humide et exposé aux cyclones.", // TODO: verify
+            "De mai à décembre, l'hiver austral : air sec et environ 25 °C. De janvier à mars, climat chaud, humide et exposé aux cyclones.", // TODO: verify
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le créole mauricien se parle au quotidien. Le français domine dans les médias et les hôtels, l'anglais dans l'administration. Vous vous ferez comprendre partout en français.",
+            "Créole mauricien au quotidien, français dans les médias et les hôtels, anglais dans l'administration. Le français passe partout.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat reste tropical toute l'année, entre 20 et 30 °C. Le sud et l'est reçoivent l'alizé et davantage de pluie. Le nord et l'ouest demeurent plus secs et plus chauds.", // TODO: verify
+            "Tropical toute l'année, entre 20 et 30 °C. Le sud et l'est, sous l'alizé, sont plus arrosés ; le nord et l'ouest, plus secs et plus chauds.", // TODO: verify
         },
       ],
     },
@@ -271,7 +271,7 @@ export const destination: Destination = {
           },
         },
         {
-          title: "Conciergerie 24/7",
+          title: "Conciergerie privée",
           description:
             "Un seul interlocuteur du premier échange jusqu'au retour. Réponse sous 24 heures, transferts privés, et ajustements de dernière minute pris en charge.",
           image: {
@@ -593,7 +593,7 @@ export const destination: Destination = {
             "Nous avons partagé nos dix jours entre deux côtes, comme Carole nous l'avait proposé. Le nord pour les enfants, le Morne pour nous. Le survol en hélicoptère reste ce dont ils parlent encore.",
           image: {
             src: "/destination/maurice/hero-1.png",
-            alt: "Portrait de la famille Delaunay", // TODO: verify
+            alt: "Le Morne Brabant et le lagon turquoise au sud-ouest de l'île Maurice",
           },
           name: "Famille Delaunay", // TODO: verify
           role: "Séjour en famille, août 2025", // TODO: verify
@@ -604,7 +604,7 @@ export const destination: Destination = {
             "Nous ne voulions rien avoir à organiser. Tout était prévu : les transferts, les départs de golf, jusqu'au dîner à bord du bateau. Notre seule décision quotidienne concernait l'heure du réveil.",
           image: {
             src: "/destination/maurice/hero-2.png",
-            alt: "Portrait de Jean-Marc", // TODO: verify
+            alt: "Terres colorées et forêt de Chamarel dans les hauteurs mauriciennes",
           },
           name: "Jean-Marc", // TODO: verify
           role: "Voyage en couple, septembre 2025", // TODO: verify
@@ -615,7 +615,7 @@ export const destination: Destination = {
             "Nous avons monté le Morne au lever du jour, avec un guide qui raconte l'histoire du lieu plutôt que de compter les mètres. Cette matinée justifiait à elle seule le voyage.",
           image: {
             src: "/destination/maurice/hero-3.png",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "Ligne d'écume d'un récif corallien vue à la verticale, océan et platier",
           },
           name: "Claire", // TODO: verify
           role: "Escapade nature, juin 2025", // TODO: verify

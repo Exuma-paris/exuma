@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import { entityMetadata } from "@/lib/content/seo";
 import { notFound } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Header } from "@/components/sections/header";
@@ -8,6 +10,33 @@ import { continents } from "@/lib/content/registry";
 import { getDestinationFinderIndex } from "@/lib/content/destination-finder";
 import type { Section } from "@/lib/content/types";
 import { createBackgroundRhythm } from "@/lib/content/background-rhythm";
+
+/** « en Europe », mais « aux Caraïbes », « dans les Amériques »… */
+const CONTINENT_LOCATIVE: Record<string, string> = {
+  afrique: "en Afrique",
+  asie: "en Asie",
+  ameriques: "dans les Amériques",
+  caraibes: "aux Caraïbes",
+  europe: "en Europe",
+  "proche-orient": "au Proche et au Moyen-Orient",
+  "iles-oceanie": "dans les îles et en Océanie",
+};
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const continent = continents[slug];
+  if (!continent) return {};
+  const where = CONTINENT_LOCATIVE[slug] ?? `en ${continent.name}`;
+  return entityMetadata(
+    { ...continent, metaTitle: `Voyage sur mesure ${where}` },
+    `/continents/${slug}`,
+    `Voyages sur mesure ${where} avec Exuma : destinations choisies, hébergements confidentiels et un travel designer dédié.`,
+  );
+}
 
 export function generateStaticParams() {
   return Object.keys(continents).map((slug) => ({ slug }));

@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Oman : Voyage sur mesure",
   metaDescription:
-    "Voyage à Oman sur mesure : Jebel Akhdar, désert des Wahiba, forts de Nizwa. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage à Oman sur mesure : Jebel Akhdar, désert des Wahiba, forts de Nizwa. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -172,7 +172,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 7h en vol direct depuis Paris vers Mascate (MCT), avec Oman Air. Les fréquences varient selon les dates. Avec escale, on passe par Doha, Dubaï ou Istanbul.",
+            "Environ 7h de vol direct Paris-Mascate (MCT) avec Oman Air, fréquences variables. Avec escale, via Doha, Dubaï ou Istanbul.",
         },
         {
           iconName: "clock",
@@ -184,37 +184,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Rial omanais (OMR), une monnaie de très forte valeur : 1 OMR vaut environ 2,25 €. Cartes largement acceptées, mais gardez des espèces pour les souks et les zones rurales.",
+            "Rial omanais (OMR), de très forte valeur : 1 OMR ≈ 2,25 €. Cartes largement acceptées, espèces pour les souks et les zones rurales.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Jusqu'à 14 jours, un visa gratuit est délivré à l'arrivée, tamponné sur le passeport. Au-delà, visa touristique en ligne. Passeport valable plus de 6 mois après la sortie d'Oman.",
+            "Visa gratuit à l'arrivée jusqu'à 14 jours, visa en ligne au-delà. Passeport valable plus de 6 mois après la sortie d'Oman.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin obligatoire. Calendrier français à jour, hépatite A et typhoïde selon la durée du séjour. Des cas sporadiques de paludisme existent : se protéger des moustiques.",
+            "Aucun vaccin obligatoire. Hépatite A et typhoïde selon la durée du séjour ; paludisme sporadique, se protéger des moustiques.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "D'octobre à avril pour Mascate, les montagnes et le désert. Au sud, le khareef verdit la région de Salalah de mi-juin à septembre, avec des températures plus douces.",
+            "D'octobre à avril pour Mascate, les montagnes et le désert. De mi-juin à septembre, le khareef verdit et rafraîchit Salalah.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'arabe est la langue officielle, l'anglais très utilisé dans le tourisme. Nous travaillons avec des chauffeurs-guides francophones sur l'ensemble du parcours.",
+            "L'arabe est la langue officielle, l'anglais très utilisé dans le tourisme. Nos chauffeurs-guides sont francophones sur tout le parcours.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Climat aride. Environ 26°C de moyenne à Mascate l'hiver, 35 à 45°C dans les plaines l'été. Le Jebel Akhdar et le Jebel Shams sont jusqu'à 15°C plus frais.",
+            "Aride : environ 26°C à Mascate l'hiver, 35 à 45°C dans les plaines l'été. Les Jebel Akhdar et Shams sont jusqu'à 15°C plus frais.",
         },
       ],
     },
@@ -234,7 +234,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure à Oman entre Mascate, Nizwa et les Wahiba",
             "Adresses confidentielles à Oman : maisons de montagne et campements hors piste",
             "Hébergements à Oman : maison de montagne au Jebel Akhdar et campement privé dans les dunes",
-            "Conciergerie privée 24/7 pour un voyage à Oman",
+            "Conciergerie privée pour un voyage à Oman",
             "Expériences immersives à Oman : culture bédouine et forts du Dakhiliyah",
           ][i],
         },
@@ -564,10 +564,10 @@ export const destination: Destination = {
             "La journée chez la famille bédouine est ce qu'on raconte en rentrant. Le café servi trois fois, le pain sur la plaque, et le père qui explique où trouver l'eau sous la dune. Rien d'arrangé, on était les seuls sur place.",
           image: {
             src: "/destination/oman/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Dunes des Wahiba Sands au lever du jour lors d'un voyage à Oman"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Oman, désert et montagne, 2026", // TODO: replace with real testimonial
+          role: "Oman, désert et montagne, 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -575,10 +575,10 @@ export const destination: Destination = {
             "Le Jebel Akhdar en février, personne sur les sentiers entre les villages, et le canyon juste derrière la terrasse. On avait prévu deux nuits, on en a passé quatre.",
           image: {
             src: "/destination/oman/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Terrasses de pierre sèche du plateau de Saiq sur le Jebel Akhdar"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Oman, Jebel Akhdar et Nizwa, 2026", // TODO: replace with real testimonial
+          role: "Oman, Jebel Akhdar et Nizwa, 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -586,10 +586,10 @@ export const destination: Destination = {
             "Les Daymaniyat en bateau privé au départ de Mascate : tortues dès la première mise à l'eau, et aucun autre bateau à l'ancre. Le retour longe la côte au moment où la lumière tombe.",
           image: {
             src: "/destination/oman/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Tours de terre du fort de Nizwa dominant la palmeraie omanaise"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Oman, côte et intérieur, 2026", // TODO: replace with real testimonial
+          role: "Oman, côte et intérieur, 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },
@@ -634,7 +634,7 @@ export const destination: Destination = {
         {
           question: "Quel budget prévoir pour un voyage à Oman ?",
           answer:
-            "TODO: à valider. Un voyage à Oman sur mesure avec Exuma, incluant les maisons du Jebel Akhdar, un campement privé dans les Wahiba et les chauffeurs-guides francophones, se situe généralement entre 4 000 et 9 000 € par personne pour 10 jours, hors vols internationaux, selon les hébergements et la saison.",
+            "à valider. Un voyage à Oman sur mesure avec Exuma, incluant les maisons du Jebel Akhdar, un campement privé dans les Wahiba et les chauffeurs-guides francophones, se situe généralement entre 4 000 et 9 000 € par personne pour 10 jours, hors vols internationaux, selon les hébergements et la saison.", // TODO: à vérifier
         },
       ],
     },

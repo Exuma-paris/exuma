@@ -172,49 +172,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Pas de vol direct depuis Paris. Une escale à Madrid ou Amsterdam, environ onze heures de vol et douze à quatorze heures de trajet total jusqu'à Panama City (PTY). Compter ensuite un vol intérieur d'une heure pour Bocas del Toro ou David.",
+            "Pas de vol direct : escale à Madrid ou Amsterdam, douze à quatorze heures jusqu'à Panama City (PTY), puis une heure vers Bocas ou David.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Sept heures de retard sur Paris en été, six en hiver. Le pays ne pratique pas le changement d'heure. Le décalage se digère bien à l'aller, moins au retour.",
+            "Sept heures de retard sur Paris en été, six en hiver. Le pays ne pratique pas le changement d'heure.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le balboa est à parité avec le dollar américain, et il n'existe pas de billet panaméen : les coupures en circulation sont des dollars, les pièces sont panaméennes. Prévoir des espèces en petites coupures pour Guna Yala et les villages, où la carte n'est pas acceptée.",
+            "Le balboa est à parité avec le dollar, seuls billets en circulation. Espèces en petites coupures pour Guna Yala et les villages, sans carte.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa pour les ressortissants français en séjour de moins de 90 jours. La loi panaméenne exige un passeport valide trois mois à l'arrivée, six mois étant vivement conseillés. Un billet de sortie du territoire peut être demandé au contrôle.",
+            "Pas de visa sous 90 jours. Passeport valide trois mois à l'arrivée, six conseillés ; un billet de sortie peut être demandé.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination obligatoire depuis l'Europe. La fièvre jaune est recommandée pour les zones continentales à l'est du canal, dont le Darién. Un traitement préventif contre le paludisme est recommandé pour le Darién et pour Guna Yala.",
+            "Aucun vaccin obligatoire depuis l'Europe. Fièvre jaune recommandée à l'est du canal, antipaludique pour le Darién et Guna Yala.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mi-décembre à avril pour la saison sèche, la plus stable côté Pacifique et sur les îles. Bocas del Toro suit son propre calendrier : les mois les plus secs y sont septembre et octobre, puis février et mars.",
+            "De mi-décembre à avril pour la saison sèche. À Bocas del Toro, les mois les plus secs sont septembre-octobre et février-mars.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Espagnol. L'anglais est compris à Panama City, à Bocas del Toro et dans les établissements haut de gamme, beaucoup moins ailleurs. Un guide francophone accompagne l'ensemble de l'itinéraire.",
+            "Espagnol, l'anglais étant compris à Panama City, à Bocas del Toro et dans le haut de gamme. Un guide francophone accompagne l'itinéraire.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Tropical, de 24 à 32 °C sur les deux côtes toute l'année. Boquete, à 1 200 mètres, reste entre 15 et 25 °C, souvent dans la brume. Saison des pluies de mai à novembre, averses en fin de journée.",
+            "Tropical, de 24 à 32 °C sur les côtes, 15 à 25 °C à Boquete (1 200 m). Saison des pluies de mai à novembre, averses en fin de journée.",
         },
       ],
     },
@@ -234,7 +234,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure au Panama entre Guna Yala, Boquete et le golfe de Chiriquí",
             "Adresses confidentielles au Panama : fincas de café et îles privées",
             "Hébergements au Panama : maison coloniale du Casco Viejo et archipel privé",
-            "Conciergerie privée 24/7 pour un voyage au Panama",
+            "Conciergerie privée pour un voyage au Panama",
             "Expériences immersives au Panama : cacao ngöbe, Coiba et bioluminescence",
           ][i],
         },
@@ -592,10 +592,10 @@ export const destination: Destination = {
             "L'atelier cacao dans le village ngöbe est ce dont nos enfants parlent encore. Ils ont ouvert les cabosses, broyé les fèves et repris deux fois du déjeuner. On est repartis avec trois tablettes emballées dans du papier.",
           image: {
             src: "/destination/panama/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Îles de l'archipel de Guna Yala au Panama vues depuis la mer"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Panama en famille, février 2026", // TODO: replace with real testimonial
+          role: "Panama en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -603,10 +603,10 @@ export const destination: Destination = {
             "Coiba au premier créneau du matin, avec un guide pour nous seuls. Requins-baleines le deuxième jour. Le soir, on dînait à quatre sur une île où il n'y avait personne d'autre.",
           image: {
             src: "/destination/panama/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Façades colorées et clochers du Casco Viejo devant les tours de Panama City"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Islas Secas et Coiba, mars 2025", // TODO: replace with real testimonial
+          role: "Islas Secas et Coiba, mars 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -614,10 +614,10 @@ export const destination: Destination = {
             "Deux nuits à Guna Yala, puis Boquete et le café. Le passage d'un monde à l'autre a été organisé sans que nous ayons un seul transfert à gérer.",
           image: {
             src: "/destination/panama/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Caféiers en terrasses sur les pentes du volcan Barú à Boquete"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Guna Yala et Chiriquí, janvier 2026", // TODO: replace with real testimonial
+          role: "Guna Yala et Chiriquí, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

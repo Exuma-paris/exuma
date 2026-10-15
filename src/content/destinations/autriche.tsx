@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Autriche : Voyage sur mesure",
   metaDescription:
-    "Voyage en Autriche sur mesure : Vienne, Salzbourg, la Wachau et l’Arlberg. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage en Autriche sur mesure : Vienne, Salzbourg, la Wachau et l’Arlberg. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -170,7 +170,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 1 h 55 de vol direct depuis Paris vers Vienne. Salzbourg et Innsbruck ne sont pas desservies en direct : on y arrive avec une correspondance, ou en train depuis Vienne. Un train de nuit relie également Paris à Vienne sans changement.",
+            "Environ 1 h 55 de vol direct de Paris à Vienne, puis le train vers Salzbourg et Innsbruck. Un train de nuit relie aussi Paris à Vienne.",
         },
         {
           iconName: "clock",
@@ -182,37 +182,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "L’euro. Les cartes sont acceptées presque partout, mais les cafés viennois et les auberges de vallée restent nombreux à préférer les espèces.",
+            "L’euro. Les cartes passent presque partout, mais beaucoup de cafés viennois et d’auberges de vallée préfèrent encore les espèces.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "L’Autriche appartient à l’Union européenne et à l’espace Schengen. Pour les ressortissants français, une carte nationale d’identité ou un passeport en cours de validité suffit.",
+            "Membre de l’Union européenne et de Schengen. Une carte nationale d’identité ou un passeport en cours de validité suffit.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin obligatoire. L’encéphalite à tiques circule dans les zones boisées du pays : la vaccination se discute avec votre médecin pour un séjour en forêt ou en alpage au printemps et en été.",
+            "Aucun vaccin obligatoire. L’encéphalite à tiques circule en zone boisée : à voir avec votre médecin pour un séjour en forêt ou en alpage.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De décembre à mars pour la neige du Vorarlberg et du Tyrol. De mai à juin et en septembre pour Vienne, la Wachau et les lacs, quand la lumière est belle et les villes moins fréquentées.",
+            "De décembre à mars pour la neige du Vorarlberg et du Tyrol. Mai, juin et septembre pour Vienne, la Wachau et les lacs, moins fréquentés.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L’allemand, avec des dialectes très marqués d’une vallée à l’autre. L’anglais est couramment parlé à Vienne, à Salzbourg et dans les stations de l’ouest.",
+            "L’allemand, aux dialectes très marqués d’une vallée à l’autre. L’anglais est courant à Vienne, à Salzbourg et dans les stations de l’ouest.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Continental à l’est : étés chauds à Vienne et dans la Wachau, hivers secs et froids. À l’ouest, le relief commande, avec de la neige tenue en altitude de décembre à avril et des étés frais en montagne.",
+            "Continental à l’est, avec étés chauds et hivers secs et froids. À l’ouest, neige en altitude de décembre à avril et étés frais en montagne.",
         },
       ],
     },
@@ -527,7 +527,7 @@ export const destination: Destination = {
             "La répétition du matin au Musikverein restera le souvenir du séjour. Nous étions une trentaine dans la salle. Le soir, nous y sommes revenus pour le concert, et ce n’était plus du tout la même chose.",
           image: {
             src: "/destination/autriche/hero-1.webp",
-            alt: "Portrait de Bernard", // TODO: verify
+            alt: "Le village de Hallstatt et son clocher au bord du lac, dans la brume, voyage en Autriche",
           },
           name: "Bernard", // TODO: verify
           role: "Séjour en couple, mai 2026", // TODO: verify
@@ -538,7 +538,7 @@ export const destination: Destination = {
             "Vienne, puis la Wachau, puis les lacs. Dix jours et jamais l’impression de courir. Le vigneron de Dürnstein nous a fait descendre à la cave et remonter des bouteilles de 1997, ce n’était pas au programme.",
           image: {
             src: "/destination/autriche/hero-2.webp",
-            alt: "Portrait de Michèle", // TODO: verify
+            alt: "Prés et forêts d’une vallée autrichienne au pied des montagnes",
           },
           name: "Michèle", // TODO: verify
           role: "Voyage anniversaire, septembre 2025", // TODO: verify
@@ -549,7 +549,7 @@ export const destination: Destination = {
             "Une semaine à Lech en février, avec un guide le matin et rien d’imposé l’après-midi. Nous sommes montés en peau de phoque avant l’ouverture des remontées et redescendus dans une neige que personne n’avait touchée.",
           image: {
             src: "/destination/autriche/hero-3.webp",
-            alt: "Portrait de Frédéric", // TODO: verify
+            alt: "Façades colorées d’Innsbruck au bord de l’Inn devant les sommets enneigés du Tyrol",
           },
           name: "Frédéric", // TODO: verify
           role: "Séjour en famille, février 2026", // TODO: verify

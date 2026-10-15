@@ -46,7 +46,7 @@ export default function Home() {
               sur les pages Professionnels et Expérience. */}
           <Header theme="dark" />
           <HeroImageBackground
-            eyebrow="Conciergerie de voyage · depuis 1991"
+            eyebrow="Maison de conseils privée · depuis 1991"
             // Copie volontaire de l'image de Madère plutôt qu'un lien vers
             // /destination/madere/ : ré-illustrer la page destination ne doit
             // pas changer la première image du site.

@@ -32,7 +32,7 @@ export const meta = {
   // Repris tel quel dans le fil d'Ariane, où le titre complet serait trop long.
   shortTitle: "Family offices & assistantes",
   description:
-    "Exuma prend en charge les voyages de vos clients, professionnels comme privés. Agence de voyages immatriculée à Paris, référent désigné, garanties écrites, confidentialité acquise.",
+    "Exuma prend en charge les voyages de vos clients, professionnels comme privés. Maison de conseils privée dédiée aux déplacements, immatriculée à Paris, référent désigné, garanties écrites, confidentialité acquise.",
 };
 
 export const sections: Section[] = [
@@ -46,7 +46,7 @@ export const sections: Section[] = [
     heading:
       "Vous nous confiez les voyages de vos clients, nous les exécutons en votre nom",
     description:
-      "Agence de voyages immatriculée et garantie, référent désigné, confidentialité acquise. Vous restez leur interlocuteur, nous tenons l'exécution.",
+      "Maison de conseils privée, immatriculée et garantie, référent désigné, confidentialité acquise. Vous restez leur interlocuteur, nous tenons l'exécution.",
     images: [
       {
         // Photo réelle des bureaux (shooting marque employeur, Jules Despretz,
@@ -280,7 +280,7 @@ export const sections: Section[] = [
       "La confidentialité n'est pas une option que l'on active à votre demande, c'est un principe de fonctionnement. Elle s'applique dès le premier échange, avant même qu'un dossier existe, et sans que vous ayez à le réclamer.",
       "Aucun de nos clients n'est cité publiquement sans son accord préalable, ni sur ce site, ni ailleurs. Nous signons votre accord de confidentialité si vous en avez un, et nous vous transmettons le nôtre si vous n'en avez pas.",
       // Formulation à faire valider par Ludivine (règle interne, pas une promesse chiffrée).
-      "En interne, l'information circule au strict nécessaire : votre référent, son suppléant, et personne d'autre. Les voyages privés suivent exactement les mêmes règles que les professionnels.",
+      "En interne, l'information circule au strict nécessaire : votre référent dédié en priorité, et s'il est indisponible, les seules personnes de l'équipe qui prennent le relais. Les voyages privés suivent exactement les mêmes règles que les professionnels.",
     ],
     cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement?profil=family-office" },
   },
@@ -295,8 +295,8 @@ export const sections: Section[] = [
     // direction, gestion des déplacements, voyages d'affaires, Paris. Il reste
     // court volontairement, la colonne de texte est décalée et se charge vite.
     paragraphs: [
-      "Votre client ne saura pas qui a rattrapé le vol annulé un dimanche soir. Il saura que vous vous en êtes occupée.",
-      "Vous restez son interlocuteur, nous restons en retrait, derrière vous.",
+      "Votre client ne saura pas qui a rattrapé le vol annulé un dimanche soir. Il saura que c'est vous qui avez veillé sur son voyage.",
+      "Vous restez son interlocuteur, nous restons en retrait, derrière vous. Vous choisissez ce qui lui parvient directement et ce qui passe d'abord par vous.",
       "Family officer, assistante personnelle ou de direction : depuis Paris, nous prenons la gestion des déplacements de vos clients, voyages d'affaires comme séjours privés. Votre nom passe devant le nôtre.",
     ],
     images: [

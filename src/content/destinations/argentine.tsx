@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Argentine : Voyage sur mesure",
   metaDescription:
-    "Voyage en Argentine sur mesure : Buenos Aires, Mendoza, Patagonie et Esteros del Iberá. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en Argentine sur mesure : Buenos Aires, Mendoza, Patagonie et Esteros del Iberá. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -169,7 +169,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Buenos Aires se rejoint en vol direct depuis Paris, en environ 14 heures selon les compagnies et les périodes. Les étapes de Mendoza, d'El Calafate ou d'Iguazú se rejoignent ensuite par un vol intérieur.",
+            "Environ 14 heures de vol direct de Paris à Buenos Aires. Mendoza, El Calafate et Iguazú se rejoignent ensuite par un vol intérieur.",
         },
         {
           iconName: "clock",
@@ -181,37 +181,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le peso argentin. L'inflation et les taux de change évoluent rapidement : les paiements par carte étrangère sont très largement acceptés, mais il reste utile de conserver un peu d'espèces pour les petites adresses.",
+            "Le peso argentin, à l'inflation et au change mouvants. La carte étrangère est largement acceptée, des espèces servent aux petites adresses.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français sont dispensés de visa pour un séjour touristique de moins de 90 jours. Le passeport doit être valide pendant toute la durée du séjour.",
+            "Pas de visa pour les Français sous 90 jours de séjour touristique. Le passeport doit être valide pendant toute la durée du séjour.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est obligatoire pour un séjour touristique classique. L'Institut Pasteur recommande d'être à jour du calendrier vaccinal et conseille l'hépatite A. La vaccination contre la fièvre jaune est recommandée dans certaines régions, notamment Misiones et Corrientes.",
+            "Aucun vaccin obligatoire. Calendrier à jour et hépatite A conseillés, fièvre jaune recommandée notamment à Misiones et Corrientes.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Nous privilégions octobre à avril pour découvrir la Patagonie. À Mendoza, les vendanges animent les vignobles entre février et avril. Les Esteros del Iberá se découvrent idéalement de mars à novembre.",
+            "D'octobre à avril pour la Patagonie, de février à avril pour les vendanges de Mendoza, de mars à novembre pour les Esteros del Iberá.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'espagnol, avec plusieurs variantes régionales. Le rioplatense, chantant et plein d'italianismes, s'entend surtout à Buenos Aires et dans le centre-est du pays. Plusieurs langues indigènes, dont le guaraní et le quechua, restent parlées selon les provinces. L'anglais est largement pratiqué dans l'hôtellerie.",
+            "L'espagnol, dont le rioplatense de Buenos Aires, et des langues indigènes, guaraní et quechua. L'anglais se parle dans l'hôtellerie.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Les saisons sont inversées. Le nord d'Iguazú et de Corrientes est subtropical, Mendoza sèche et ensoleillée, Buenos Aires tempérée, et la Patagonie australe fraîche et ventée, y compris en été.",
+            "Saisons inversées. Nord subtropical, Mendoza sèche et ensoleillée, Buenos Aires tempérée, Patagonie fraîche et ventée même en été.",
         },
       ],
     },
@@ -536,7 +536,7 @@ export const destination: Destination = {
             "Buenos Aires pour commencer, les vignes de Uco ensuite, puis le sud, et à chaque fois nous arrivions avant que la lumière ne tombe. C'est ce genre de détail que l'on n'organise pas soi-même.",
           image: {
             src: "/destination/argentine/hero-1.webp",
-            alt: "Portrait de Philippe et Anne", // TODO: verify
+            alt: "Route de Patagonie serpentant vers les sommets enneigés du Fitz Roy",
           },
           name: "Philippe & Anne", // TODO: verify
           role: "Voyage anniversaire, novembre 2025", // TODO: verify
@@ -547,7 +547,7 @@ export const destination: Destination = {
             "Iberá restera le souvenir du voyage. Nous n'avons pas vu de jaguar et cela n'a rien changé, tant les journées passées auprès des biologistes du programme nous ont appris de choses que nous ignorions.",
           image: {
             src: "/destination/argentine/hero-2.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Rideau de chutes d'Iguazú au milieu de la forêt subtropicale",
           },
           name: "Édouard", // TODO: verify
           role: "Séjour en famille, mars 2025", // TODO: verify
@@ -558,7 +558,7 @@ export const destination: Destination = {
             "La milonga dans ce patio de San Telmo nous a appris davantage sur le pays qu'une semaine de visites. Il n'y avait personne d'autre que nous et les danseurs, et nous avons fini par nous lever aussi.",
           image: {
             src: "/destination/argentine/hero-3.webp",
-            alt: "Portrait de Marie-Hélène", // TODO: verify
+            alt: "Allée entre les rangs de vigne d'un domaine de Mendoza, les Andes enneigées au fond",
           },
           name: "Marie-Hélène", // TODO: verify
           role: "Voyage en couple, avril 2025", // TODO: verify

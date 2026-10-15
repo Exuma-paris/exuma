@@ -140,7 +140,7 @@ export const serviceCategory: ServiceCategory = {
             // voyage relié posé sur une table avec un billet, aucun texte
             // lisible. Cadrage CARRÉ.
             src: "/professionnels/porte-b.png",
-            alt: "Carnet de voyage remis avant le départ",
+            alt: "Un voyageur d'affaires travaille sur son ordinateur pendant un trajet en train",
           },
         },
       ],

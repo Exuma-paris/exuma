@@ -168,49 +168,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Il n'existe pas actuellement de liaison directe entre Paris et Montevideo. L'aéroport de Carrasco (MVD), à l'est de la capitale, est desservi directement depuis Madrid, São Paulo et Buenos Aires. Comptez environ 15 à 18 heures de trajet selon la correspondance, le passage par Buenos Aires pouvant se révéler moins fluide selon les aéroports utilisés.",
+            "Pas de vol direct depuis Paris : 15 à 18 heures de trajet via Madrid, São Paulo ou Buenos Aires jusqu'à Montevideo-Carrasco (MVD).",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "L'Uruguay ne change pas d'heure, le pays ayant supprimé l'heure d'été. Comptez quatre heures de retard sur la France en hiver, et cinq heures en été.",
+            "Pas de changement d'heure : quatre heures de retard sur la France en hiver, cinq heures en été.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie du pays est le peso uruguayen (UYU). Les cartes étrangères sont très largement acceptées à Montevideo, à Punta del Este et sur la côte de Maldonado. Il reste utile de conserver des espèces pour les villages de la côte de Rocha et pour Cabo Polonio.",
+            "Peso uruguayen (UYU). Cartes largement acceptées à Montevideo et Punta del Este ; espèces utiles à Rocha et Cabo Polonio.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français sont dispensés de visa pour un séjour touristique jusqu'à 90 jours inclus. France Diplomatie demande simplement un passeport en cours de validité.",
+            "Pas de visa pour un séjour touristique jusqu'à 90 jours. Un passeport en cours de validité suffit.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin spécifique n'est présenté comme obligatoire pour un voyage touristique classique. Les vaccinations du calendrier français doivent être à jour. France Diplomatie mentionne l'hépatite A et la typhoïde selon les conditions et la durée du séjour, l'hépatite B et la rage relevant ensuite du profil du voyage. Une vigilance concernant la dengue est par ailleurs en cours, y compris à Montevideo.",
+            "Aucun vaccin obligatoire, calendrier à jour. Hépatite A et typhoïde selon le séjour ; vigilance dengue, y compris à Montevideo.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison favorable s'étend de novembre à avril, la grande saison estivale allant de décembre à mars. Nous privilégions le début du mois de décembre et la seconde quinzaine de mars, pour les températures agréables et une fréquentation plus douce. Janvier reste très animé, ce qui convient à qui recherche l'ambiance des vacances australes.",
+            "De novembre à avril, haute saison de décembre à mars. Nous privilégions début décembre et la seconde quinzaine de mars.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'espagnol est la seule langue officielle. L'accent rioplatense s'entend surtout à Montevideo et sur la côte, l'espagnol uruguayen connaissant plusieurs variantes régionales. Le portuñol se pratique le long de la frontière brésilienne.",
+            "L'espagnol est la seule langue officielle, à l'accent rioplatense à Montevideo. Le portuñol se pratique à la frontière brésilienne.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tempéré, avec quatre saisons marquées. L'été austral, de décembre à mars, est chaud et lumineux sur toute la côte. L'hiver reste doux dans la journée et frais la nuit, en particulier à l'intérieur du pays. Le pampero, vent venu du sud-ouest, peut rafraîchir l'air en quelques heures.",
+            "Tempéré, avec quatre saisons. Été austral chaud de décembre à mars, hiver doux le jour et frais la nuit.",
         },
       ],
     },
@@ -230,7 +230,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Uruguay entre Montevideo, Garzón et la côte de Rocha",
             "Adresses confidentielles en Uruguay : estancias en activité et tables de village",
             "Hébergements en Uruguay : Estancia Vik et Sacromonte Landscape Hotel",
-            "Conciergerie privée 24/7 pour un voyage en Uruguay",
+            "Conciergerie privée pour un voyage en Uruguay",
             "Expériences immersives en Uruguay : feux de Garzón et cavaliers des estancias",
           ][i],
         },
@@ -533,10 +533,10 @@ export const destination: Destination = {
             "Le déjeuner au feu à Garzón, puis les vignes dans l'après-midi avec l'œnologue, dans la même journée. On ne savait pas ce qu'on allait manger en s'asseyant, et c'était très bien comme ça. C'est le souvenir qui nous reste le plus nettement.",
           image: {
             src: "/destination/uruguay/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Plage de José Ignacio au coucher du soleil sur la côte atlantique de l'Uruguay"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Uruguay, Montevideo, Garzón et la côte, 2025", // TODO: replace with real testimonial
+          role: "Uruguay, Montevideo, Garzón et la côte, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -544,10 +544,10 @@ export const destination: Destination = {
             "Partir à cheval au petit matin avec les gauchos, puis la viande sur les braises du corral à midi. Personne ne jouait un rôle pour nous : ils travaillaient, et on suivait. Je ne pensais pas que cela existait encore ainsi.",
           image: {
             src: "/destination/uruguay/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Gaucho rassemblant le bétail à cheval dans une estancia du centre de l'Uruguay"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Uruguay, estancias du centre-nord, 2025", // TODO: replace with real testimonial
+          role: "Uruguay, estancias du centre-nord, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -555,10 +555,10 @@ export const destination: Destination = {
             "Une nuit à Cabo Polonio, sans électricité et sans lune. On entendait les otaries depuis la plage et on voyait la voie lactée à l'œil nu. En mars, la côte était pour nous : c'était exactement ce que nous cherchions.",
           image: {
             src: "/destination/uruguay/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Dunes du parc national de Cabo Polonio au bord de l'Atlantique"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Uruguay, côte de Rocha, mars 2026", // TODO: replace with real testimonial
+          role: "Uruguay, côte de Rocha, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

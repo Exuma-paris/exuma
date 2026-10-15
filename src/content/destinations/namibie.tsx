@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Namibie : Voyage sur mesure",
   metaDescription:
-    "Voyage en Namibie sur mesure : Sossusvlei, Deadvlei, Skeleton Coast et Kalahari. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en Namibie sur mesure : Sossusvlei, Deadvlei, Skeleton Coast et Kalahari. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -173,49 +173,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "TODO: Il n'existe pas de vol direct depuis Paris. Le trajet dure 14 à 16 heures, le plus souvent via Francfort, Johannesburg ou Addis-Abeba. L'arrivée se fait à Windhoek (WDH), d'où les avions légers rejoignent les pistes des camps.",
+            "Pas de vol direct depuis Paris : 14 à 16 heures via Francfort, Johannesburg ou Addis-Abeba jusqu'à Windhoek (WDH).", // TODO: à vérifier
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "TODO: La Namibie vit toute l'année en UTC+2, sans changement d'heure depuis 2017. Il n'y a donc aucun décalage avec Paris en été, et une heure d'avance en hiver. Les départs d'avant l'aube s'en trouvent facilités.",
+            "UTC+2 toute l'année depuis 2017 : aucun décalage avec Paris en été, une heure d'avance en hiver.", // TODO: à vérifier
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "TODO: La monnaie est le dollar namibien (NAD), indexé à parité sur le rand sud-africain, autour de 20 NAD pour un euro. Le rand circule partout. Les camps facturent souvent en dollars américains et les pourboires se règlent en espèces.",
+            "Dollar namibien (NAD), à parité avec le rand, environ 20 NAD pour un euro. Les camps facturent souvent en dollars américains.", // TODO: à vérifier
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "TODO: Depuis avril 2025, les ressortissants français doivent obtenir un visa, en ligne avant le départ ou à l'arrivée, pour un séjour touristique de moins de quatre-vingt-dix jours. Le passeport doit rester valide six mois après le retour et comporter deux pages vierges.",
+            "Visa obligatoire depuis avril 2025, en ligne ou à l'arrivée. Passeport valide six mois après le retour, avec deux pages vierges.", // TODO: à vérifier
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "TODO: Aucune vaccination n'est obligatoire, sauf la fièvre jaune en cas d'arrivée depuis un pays endémique. Un traitement antipaludique est recommandé pour le nord du pays, de novembre à juin. Le Namib et le Kalahari ne présentent pas de risque.",
+            "Aucun vaccin obligatoire, sauf fièvre jaune selon provenance. Antipaludique conseillé dans le nord, de novembre à juin.", // TODO: à vérifier
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: De mai à octobre, le ciel reste sec et les matinées fraîches. D'août à octobre, la faune se concentre sur les points d'eau d'Etosha. De décembre à mars, les orages verdissent les plaines et la lumière se charge, mais la chaleur dépasse souvent 38 °C.",
+            "De mai à octobre, saison sèche aux matinées fraîches. D'août à octobre, la faune se concentre aux points d'eau d'Etosha.", // TODO: à vérifier
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "TODO: L'anglais est la seule langue officielle. L'afrikaans, l'allemand, l'oshiwambo et l'otjiherero se parlent au quotidien selon les régions. L'anglais suffit partout, dans les camps comme sur les concessions.",
+            "L'anglais, seule langue officielle, suffit partout. Afrikaans, allemand, oshiwambo et otjiherero se parlent selon les régions.", // TODO: à vérifier
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "TODO: L'amplitude est la règle. À Sossusvlei, les matins d'hiver approchent 0 °C quand les après-midi dépassent 25 °C. L'été monte au-delà de 38 °C. Sur la côte, le courant froid maintient 15 à 20 °C toute l'année, sous un brouillard fréquent le matin.",
+            "Forte amplitude : près de 0 °C les matins d'hiver à Sossusvlei, plus de 38 °C l'été. Sur la côte, 15 à 20 °C toute l'année.", // TODO: à vérifier
         },
       ],
     },
@@ -235,7 +235,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Namibie entre le Namib, la Skeleton Coast et le Kalahari",
             "Terrasse privée et télescope au crépuscule dans le désert namibien",
             "Piscine et transats face aux montagnes du désert namibien",
-            "Conciergerie privée 24/7 pour un voyage en Namibie",
+            "Conciergerie privée pour un voyage en Namibie",
             "4x4 sur une crête de dune au-dessus de l'Atlantique, Sandwich Harbour",
           ][i],
         },
@@ -573,10 +573,10 @@ export const destination: Destination = {
             "Nous sommes montés sur Dune 45 avant le soleil, seuls. À dix heures, en redescendant, il y avait quarante véhicules au pied. Partir de l'intérieur du parc change tout le voyage.",
           image: {
             src: "/destination/namibie/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Marcheurs entre les acacias morts de Deadvlei au pied d'une grande dune ocre, voyage en Namibie"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Namib et Kalahari, juin 2025", // TODO: replace with real testimonial
+          role: "Namib et Kalahari, juin 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -584,10 +584,10 @@ export const destination: Destination = {
             "Le vol vers la Skeleton Coast dure quarante minutes et on ne voit pas une route en dessous. Le pilote s'est posé sur du gravier. Il n'y avait que le 4x4 qui nous attendait.",
           image: {
             src: "/destination/namibie/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Deux montgolfières au-dessus des plaines du Namib au lever du jour"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Hoanib et Skeleton Coast, septembre 2024", // TODO: replace with real testimonial
+          role: "Hoanib et Skeleton Coast, septembre 2024", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -595,10 +595,10 @@ export const destination: Destination = {
             "Nous avions demandé un voyage avec nos petits-enfants. Ce sont eux qui parlent encore du ciel du NamibRand, pas des animaux. Ils n'avaient jamais vu la Voie lactée.",
           image: {
             src: "/destination/namibie/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Rhinocéros blanc dans les herbes sèches, derrière les branches d'un buisson épineux, Namibie"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: NamibRand et Damaraland, mai 2026", // TODO: replace with real testimonial
+          role: "NamibRand et Damaraland, mai 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

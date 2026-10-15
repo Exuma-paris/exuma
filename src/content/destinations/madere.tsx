@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Madère : Voyage sur mesure",
   metaDescription:
-    "Voyage à Madère sur mesure : levadas, forêt de Fanal, Funchal et vins de Malvasia. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage à Madère sur mesure : levadas, forêt de Fanal, Funchal et vins de Malvasia. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -531,7 +531,7 @@ export const destination: Destination = {
             "Nous sommes partis pour marcher. Nous avons eu Fanal à sept heures du matin, seuls dans la brume. Ma femme n'a rien dit pendant vingt minutes. C'est le moment dont nous reparlons encore.",
           image: {
             src: "/destination/madere/hero-1.png",
-            alt: "Portrait de Frédéric", // TODO: verify
+            alt: "Sommets volcaniques de Madère au-dessus d'une mer de nuages au lever du jour",
           },
           name: "Frédéric", // TODO: verify
           role: "Séjour en couple, mai 2026", // TODO: verify
@@ -542,7 +542,7 @@ export const destination: Destination = {
             "Deux adolescents et un petit de huit ans, je voyais mal comment faire. Carole a choisi des levadas plates et des journées courtes. Le marché de Funchal a même intéressé les grands, ce qui n'était pas gagné.",
           image: {
             src: "/destination/madere/hero-2.webp",
-            alt: "Portrait de Constance", // TODO: verify
+            alt: "Cascade tombant d'une paroi couverte de mousse et de fougères, à Madère",
           },
           name: "Constance", // TODO: verify
           role: "Voyage en famille, avril 2026", // TODO: verify
@@ -553,7 +553,7 @@ export const destination: Destination = {
             "Le lever du jour au Pico do Arieiro, puis la traversée à pied vers le Pico Ruivo pendant que la voiture nous attendait à l'autre bout. C'est exactement ce que je ne voulais pas avoir à organiser.",
           image: {
             src: "/destination/madere/hero-3.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Maison triangulaire au toit de chaume et aux volets bleus, typique de Santana",
           },
           name: "Édouard", // TODO: verify
           role: "Voyage anniversaire, octobre 2025", // TODO: verify

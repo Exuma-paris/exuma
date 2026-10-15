@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Rome : Voyage sur mesure",
   metaDescription:
-    "Voyage à Rome sur mesure : Galerie Borghèse hors horaires, Trastevere, Via Appia. Adresses confidentielles, accès privés au Vatican, conciergerie 24/7.",
+    "Voyage à Rome sur mesure : Galerie Borghèse hors horaires, Trastevere, Via Appia. Adresses confidentielles, accès privés au Vatican, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -588,7 +588,7 @@ export const destination: Destination = {
             "Le moment où on entre dans la Galerie Borghèse vide, à huit heures, on comprend pourquoi on a fait ce voyage. Notre guide a parlé de Bernini comme s'il l'avait connu personnellement.",
           image: {
             src: "/destination/rome/hero-1.webp",
-            alt: "Portrait de voyageur (TODO)", // TODO: verify
+            alt: "Toits et dômes de Rome au coucher du soleil, le Vittoriano à l'horizon",
           },
           name: "TODO", // TODO: verify
           role: "Voyage en couple, mai 2025", // TODO: verify
@@ -599,7 +599,7 @@ export const destination: Destination = {
             "La logique de quartier proposée par Tainà a tout changé. On a marché sans courir, on a vu plus, on a profité de chaque dîner. Chambre au J.K. Place : parfaite.",
           image: {
             src: "/destination/rome/hero-2.webp",
-            alt: "Portrait de voyageur (TODO)", // TODO: verify
+            alt: "Piazza di Santa Maria in Trastevere et sa fontaine, Rome",
           },
           name: "TODO", // TODO: verify
           role: "Premier voyage en Italie, septembre 2025", // TODO: verify
@@ -610,7 +610,7 @@ export const destination: Destination = {
             "Trois nuits à Rome c'était trop court ; six aurait été le bon nombre. Mais la Vespa sur la Via Appia à sept heures du matin restera. Et la nonna à Trastevere.",
           image: {
             src: "/destination/rome/hero-3.webp",
-            alt: "Portrait de voyageur (TODO)", // TODO: verify
+            alt: "Fontaine de Trevi au petit matin, avant l'arrivée des visiteurs",
           },
           name: "TODO", // TODO: verify
           role: "Anniversaire de mariage, juin 2025", // TODO: verify

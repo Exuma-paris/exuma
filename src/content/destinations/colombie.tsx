@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Colombie : Voyage sur mesure",
   metaDescription:
-    "Voyage sur mesure en Colombie : Carthagène, Sierra Nevada, Zone Café, Amazonie. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage sur mesure en Colombie : Carthagène, Sierra Nevada, Zone Café, Amazonie. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -167,7 +167,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 11 heures de vol direct depuis Paris vers Bogotá. Des itinéraires avec escale sont également possibles, notamment via Madrid ou Amsterdam.",
+            "Environ 11 heures de vol direct de Paris à Bogotá. Des itinéraires avec escale existent aussi, notamment via Madrid ou Amsterdam.",
         },
         {
           iconName: "clock",
@@ -179,37 +179,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le peso colombien (COP) est la monnaie officielle. À titre indicatif, 1 € ≈ 4 400 COP, selon le taux de change. Les cartes bancaires sont largement acceptées dans les grandes villes et les établissements touristiques ; prévoir des espèces pour les zones rurales et certains déplacements en Amazonie.",
+            "Le peso colombien (COP), environ 4 400 pour 1 €. Carte acceptée en ville et lieux touristiques, espèces en zone rurale et en Amazonie.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français n'ont pas besoin de visa pour un séjour touristique jusqu'à 90 jours. Un passeport en cours de validité est requis.",
+            "Pas de visa pour les Français jusqu'à 90 jours de séjour touristique. Un passeport en cours de validité est requis.",
         },
         {
           iconName: "syringe",
           title: "Vaccins",
           description:
-            "Aucun vaccin n'est systématiquement exigé pour un voyage en Colombie depuis la France. Les vaccinations habituelles doivent être à jour. La vaccination contre la fièvre jaune est recommandée pour certains séjours en Amazonie et dans les zones de forêt tropicale, et peut être exigée pour accéder à certains parcs nationaux. Elle doit être réalisée au moins 10 jours avant le départ.",
+            "Aucun vaccin exigé, vaccins habituels à jour. Fièvre jaune recommandée en Amazonie, exigée dans certains parcs, à faire 10 jours avant.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La Colombie se voyage toute l'année, mais décembre à mars et juillet-août correspondent généralement aux périodes les plus sèches dans de nombreuses régions. Le climat varie toutefois fortement selon les territoires : la côte Caraïbe, les Andes et l'Amazonie ont chacune leur propre rythme.",
+            "Toute l'année, mais décembre à mars et juillet-août sont souvent les plus secs. Côte Caraïbe, Andes et Amazonie ont chacune leur rythme.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'espagnol est la langue officielle. De nombreuses langues autochtones sont également parlées dans les communautés indigènes, notamment en Amazonie et dans la Sierra Nevada de Santa Marta.",
+            "L'espagnol est officiel, avec de nombreuses langues autochtones, notamment en Amazonie et dans la Sierra Nevada de Santa Marta.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "La Colombie ne connaît pas les quatre saisons classiques : l'altitude et la géographie déterminent largement le climat. Chaud et tropical sur les côtes et en Amazonie, plus tempéré dans les Andes, avec un climat plus frais à Bogotá. Le Pacifique, lui, compte parmi les régions les plus pluvieuses du pays.",
+            "L'altitude fait le climat : chaud sur les côtes et en Amazonie, tempéré dans les Andes, plus frais à Bogotá. Le Pacifique est très pluvieux.",
         },
       ],
     },
@@ -551,7 +551,7 @@ export const destination: Destination = {
             "Quatre jours de marche jusqu'à la Ciudad Perdida, sans un autre groupe croisé sur le sentier : c'est exactement ce que nous cherchions, et Exuma a tout verrouillé des mois avant notre départ.",
           image: {
             src: "/destination/colombie/hero-1.png",
-            alt: "Portrait de Marion et Thomas", // TODO: verify
+            alt: "Terrasses de pierre de la Ciudad Perdida au sommet de la Sierra Nevada de Santa Marta, Colombie",
           },
           name: "Marion & Thomas", // TODO: verify
           role: "Voyage en couple, août 2025", // TODO: verify
@@ -562,7 +562,7 @@ export const destination: Destination = {
             "Notre travel designer nous a fait dormir dans une hacienda caféière du Quindío où la famille récolte encore le café à la main. Nos enfants s'en souviennent encore plus que de Carthagène.",
           image: {
             src: "/destination/colombie/hero-2.png",
-            alt: "Portrait de Frédéric", // TODO: verify
+            alt: "Balcons fleuris et façades colorées de la vieille ville de Carthagène des Indes, Colombie",
           },
           name: "Frédéric", // TODO: verify
           role: "Voyage en famille, décembre 2025", // TODO: verify
@@ -573,7 +573,7 @@ export const destination: Destination = {
             "Ce qui m'a marquée, c'est la cohérence de l'itinéraire malgré la diversité du pays. De Carthagène à l'Amazonie, chaque étape avait sa raison d'être.",
           image: {
             src: "/destination/colombie/hero-3.png",
-            alt: "Portrait de Camille", // TODO: verify
+            alt: "Rangs de caféiers en terrasse dans la Zone Café colombienne au lever du jour",
           },
           name: "Camille", // TODO: verify
           role: "Voyage solo, juillet 2025", // TODO: verify

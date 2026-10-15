@@ -145,6 +145,17 @@ export const sections: Section[] = [
         link: { label: "Découvrir", href: "/services/reporting" },
       },
       {
+        // Propre aux professionnels, comme la carte reporting : en tête.
+        title: "Séminaires, conventions & team building",
+        description:
+          "Conçus, coordonnés et exécutés de A à Z, avec un interlocuteur unique du premier devis au retour.",
+        image: {
+          src: "/professionnels/entreprises/salle-seminaire.jpg",
+          alt: "Une salle de séminaire en session, autour d'une table en U",
+        },
+        link: { label: "Découvrir", href: "/professionnels/seminaires" },
+      },
+      {
         title: "Mobilité & accès privilégié",
         description:
           "Jets privés, transferts, fast-track aéroport et bagages sensibles.",
@@ -244,7 +255,7 @@ export const sections: Section[] = [
       "La confidentialité n'est pas une option que l'on active à votre demande, c'est un principe de fonctionnement. Elle s'applique dès le premier échange, avant même qu'un dossier existe, et sans que vous ayez à le réclamer.",
       "Aucun de nos clients n'est cité publiquement sans son accord préalable, ni sur ce site, ni ailleurs. Et par principe, les témoignages que vous lirez plus bas restent anonymisés.",
       // Formulation à faire valider par Ludivine (règle interne, pas une promesse chiffrée).
-      "En interne, l'information circule au strict nécessaire : votre référent, son suppléant, et personne d'autre.",
+      "En interne, l'information circule au strict nécessaire : votre référent dédié en priorité, et s'il est indisponible, les seules personnes de l'équipe qui prennent le relais.",
     ],
     cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement" },
   },
@@ -263,7 +274,7 @@ export const sections: Section[] = [
         image: {
           // TODO image : visuel neutre, surtout pas un portrait identifiable.
           src: "/destination/polynesie/full-image.png",
-          alt: "Témoignage anonymisé",
+          alt: "Vue panoramique d'un atoll polynésien",
         },
         name: "Directeur",
         role: "Family office",
@@ -275,7 +286,7 @@ export const sections: Section[] = [
           "Nos associés voyagent beaucoup, souvent en dernière minute. La réactivité est réelle, y compris le week-end.",
         image: {
           src: "/destination/polynesie/bento-huahine.png",
-          alt: "Témoignage anonymisé",
+          alt: "Végétation luxuriante de Huahine",
         },
         name: "Office manager",
         role: "Cabinet d'avocats",
@@ -287,7 +298,7 @@ export const sections: Section[] = [
           "Je délègue mes voyages comme je délègue au bureau. Je dis où et quand, le reste se règle sans moi.",
         image: {
           src: "/destination/polynesie/bento-homme.png",
-          alt: "Témoignage anonymisé",
+          alt: "Habitant polynésien dans son environnement",
         },
         name: "Dirigeant",
         role: "Groupe industriel",

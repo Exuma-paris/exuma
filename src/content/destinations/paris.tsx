@@ -60,7 +60,7 @@ export const destination: Destination = {
       features: [
         {
           iconName: "badgeCheck",
-          title: "Conciergerie 24/7",
+          title: "Conciergerie privée",
           description:
             "Réservations de dernière minute, transferts privés, accès rapide à l'Opéra et aux ventes Drouot.",
         },
@@ -181,13 +181,13 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "TODO: 1h depuis Londres, 2h depuis Madrid, 7h depuis New York. Aéroports CDG (international, 35 km nord-est) et Orly (15 km sud).",
+            "1h depuis Londres, 2h depuis Madrid, 7h depuis New York. Aéroports CDG (international, 35 km nord-est) et Orly (15 km sud).", // TODO: à vérifier
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "TODO: Aucun depuis l'Europe occidentale. -6h depuis New York, +6h depuis Tokyo, +9h depuis Los Angeles.",
+            "Aucun depuis l'Europe occidentale. -6h depuis New York, +6h depuis Tokyo, +9h depuis Los Angeles.", // TODO: à vérifier
         },
         {
           iconName: "euro",
@@ -209,7 +209,7 @@ export const destination: Destination = {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: Mai à juin et septembre à mi-octobre, lumière douce, terrasses ouvertes, fréquentation modérée. Juillet-août animés mais certains commerces ferment.",
+            "Mai à juin et septembre à mi-octobre, lumière douce, terrasses ouvertes, fréquentation modérée. Juillet-août animés mais certains commerces ferment.", // TODO: à vérifier
         },
         {
           iconName: "languages",
@@ -257,7 +257,7 @@ export const destination: Destination = {
           },
         },
         {
-          title: "Conciergerie 24/7",
+          title: "Conciergerie privée",
           description:
             "Réservations de dernière minute, transferts privés, accès rapide à l'Opéra Garnier ou aux ventes Drouot.",
           image: {
@@ -484,7 +484,7 @@ export const destination: Destination = {
             "Quatre jours à Paris organisés par Exuma. La visite du Louvre après fermeture, l'atelier Lesage à Aubervilliers, le déjeuner au Bristol, chaque moment était à sa juste place. On n'a pas eu une seule décision logistique à prendre.",
           image: {
             src: "/destination/paris/hero-1.webp",
-            alt: "Portrait de Sophie et Marc", // TODO: verify
+            alt: "La tour Eiffel au-dessus de la Seine et de ses péniches, en fin de journée",
           },
           name: "Sophie & Marc", // TODO: verify
           role: "Anniversaire de mariage, juin 2026", // TODO: verify
@@ -495,7 +495,7 @@ export const destination: Destination = {
             "Notre travel designer a obtenu un rendez-vous chez un ébéniste du Faubourg que je cherchais à rencontrer depuis trois ans. Une heure de conversation, une vraie. C'est ce que je viens chercher dans un voyage à Paris.",
           image: {
             src: "/destination/paris/hero-2.webp",
-            alt: "Portrait de Laurent", // TODO: verify
+            alt: "Bouquinistes des quais de Seine en fin d'après-midi",
           },
           name: "Laurent", // TODO: verify
           role: "Séjour en solo, octobre 2025", // TODO: verify
@@ -506,7 +506,7 @@ export const destination: Destination = {
             "Ce qui m'a marquée, c'est la qualité du choix. Trois adresses très différentes, un palace, un hôtel quai du Louvre, un boutique rive gauche, et chacune a fait sens à son moment du séjour. Tout fluide, du premier appel jusqu'au retour.",
           image: {
             src: "/destination/paris/hero-3.webp",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "Les fontaines de la cour Napoléon et le palais du Louvre",
           },
           name: "Claire", // TODO: verify
           role: "Escapade culturelle, mars 2026", // TODO: verify
@@ -550,7 +550,7 @@ export const destination: Destination = {
         {
           question: "Quel budget prévoir ?",
           answer:
-            "TODO: Nos voyages sur mesure à Paris démarrent à partir de 3 500 € par personne pour un séjour de quatre nuits. Le budget varie selon le choix de l'hébergement, des expériences artisanales et des tables réservées.",
+            "Nos voyages sur mesure à Paris démarrent à partir de 3 500 € par personne pour un séjour de quatre nuits. Le budget varie selon le choix de l'hébergement, des expériences artisanales et des tables réservées.", // TODO: à vérifier
         },
       ],
     },

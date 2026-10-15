@@ -21,7 +21,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Danemark : Voyage sur mesure",
   metaDescription:
-    "Voyage au Danemark sur mesure : Copenhague, châteaux royaux et gastronomie New Nordic. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage au Danemark sur mesure : Copenhague, châteaux royaux et gastronomie New Nordic. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -60,7 +60,7 @@ export const destination: Destination = {
       features: [
         {
           iconName: "badgeCheck",
-          title: "Copenhague à vélo, pas en autocar",
+          title: "Copenhague à vélo",
           description:
             "Un vélo électrique et un guide privé pour décrypter le design urbain de Nordhavn ou de Christianshavn, loin des circuits organisés en groupe.",
         },
@@ -68,7 +68,7 @@ export const destination: Destination = {
           iconName: "sparkles",
           title: "Le calendrier avant la carte",
           description:
-            "Skagen se visite pour sa lumière rasante d'automne, Bornholm pour l'arrivée des harengs dans les fumoirs de Svaneke. Nous choisissons la saison avant l'itinéraire.",
+            "Skagen pour sa lumière d'automne, Bornholm pour les harengs des fumoirs de Svaneke : la saison passe avant l'itinéraire.",
         },
         {
           iconName: "star",
@@ -195,25 +195,25 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est la couronne danoise (DKK), dont le cours est maintenu très stable autour de 7,46 DKK pour 1 euro. Le paiement par carte est très largement accepté, y compris pour les petites dépenses.",
+            "La couronne danoise (DKK), stable autour de 7,46 DKK pour 1 euro. La carte est très largement acceptée, y compris pour les petites dépenses.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Le Danemark est membre de l'Union européenne et de l'espace Schengen. Aucun visa n'est nécessaire pour les ressortissants français. Une carte nationale d'identité ou un passeport en cours de validité suffit pour un court séjour.",
+            "Le Danemark est dans l'Union européenne et l'espace Schengen : pas de visa, carte d'identité ou passeport en cours de validité.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination spécifique n'est exigée pour entrer au Danemark depuis la France. Il est recommandé d'être à jour des vaccinations du calendrier français. Selon les activités et les régions visitées, notamment en zone rurale ou forestière, une vaccination contre l'encéphalite à tiques peut être recommandée.",
+            "Aucun vaccin exigé, calendrier français à jour recommandé. L'encéphalite à tiques peut être conseillée en zone rurale ou forestière.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mai à septembre pour profiter des longues journées, de Copenhague, de l'archipel de Fionie et des îles du sud. En décembre, les marchés de Noël et l'ambiance hygge de Tivoli offrent un registre différent.",
+            "De mai à septembre pour les longues journées, Copenhague et les îles. En décembre, marchés de Noël et ambiance hygge de Tivoli.",
         },
         {
           iconName: "languages",
@@ -225,7 +225,7 @@ export const destination: Destination = {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le Danemark bénéficie d'un climat maritime tempéré, avec des étés doux et des hivers frais. Les températures moyennes atteignent environ 16 °C en août, le mois le plus chaud, et autour de 0 °C en février, le plus froid. L'automne est généralement plus humide et couvert, tandis que les journées sont particulièrement courtes en hiver.",
+            "Maritime tempéré : environ 16 °C en août, le mois le plus chaud, autour de 0 °C en février. Automne humide, journées très courtes en hiver.",
         },
       ],
     },

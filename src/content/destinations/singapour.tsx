@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Singapour, voyage sur mesure",
   metaDescription:
-    "Voyage à Singapour sur mesure : Marina Bay, hawkers étoilés, îles du Sud. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage à Singapour sur mesure : Marina Bay, hawkers étoilés, îles du Sud. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -178,25 +178,25 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Dollar de Singapour (SGD). Les cartes bancaires internationales sont largement acceptées, mais quelques espèces peuvent être utiles dans certaines petites adresses.",
+            "Dollar de Singapour (SGD). Cartes internationales largement acceptées, quelques espèces utiles dans les petites adresses.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français n'ont pas besoin de visa pour un séjour touristique de courte durée. Le passeport doit être valable au moins 6 mois après la date prévue de départ de Singapour. La SG Arrival Card doit être remplie en ligne dans les 3 jours précédant l'arrivée.",
+            "Pas de visa pour un court séjour. Passeport valable 6 mois après le départ ; SG Arrival Card en ligne dans les 3 jours avant l'arrivée.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin spécifique n'est requis depuis la France. Les vaccins courants sont néanmoins recommandés à jour. Un certificat de vaccination contre la fièvre jaune est exigé en cas de séjour ou de transit de plus de 12 heures dans un pays à risque.",
+            "Aucun vaccin requis depuis la France. Fièvre jaune exigée après un séjour ou transit de plus de 12 heures dans un pays à risque.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Toute l'année, avec une préférence pour février à avril, période généralement plus sèche. Le climat reste chaud, humide et ponctué d'averses quelle que soit la saison.",
+            "Toute l'année, avec une préférence pour février à avril, plus sec. Chaud, humide et ponctué d'averses en toute saison.",
         },
         {
           iconName: "languages",
@@ -523,7 +523,7 @@ export const destination: Destination = {
             "Trois jours à Singapour organisés en marge d'un voyage d'affaires, et pourtant rien n'a eu l'air improvisé. Le dîner chez Candlenut, l'accès paddock le soir de la course, tout s'est enchaîné sans un seul temps mort.",
           image: {
             src: "/destination/singapour/hero-1.png",
-            alt: "Portrait de Nicolas", // TODO: verify
+            alt: "Skyline de Marina Bay et Supertrees de Gardens by the Bay à Singapour",
           },
           name: "Nicolas", // TODO: verify
           role: "Escale d'affaires prolongée, septembre 2025", // TODO: verify
@@ -534,7 +534,7 @@ export const destination: Destination = {
             "Nous cherchions autre chose qu'une simple escale entre deux vols. Notre travel designer nous a fait découvrir un autre visage de Singapour : le jardin d'orchidées à l'aube, encore désert, une nuit à Sentosa loin de l'agitation.",
           image: {
             src: "/destination/singapour/hero-2.png",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "Ruelle de shophouses colorées à Chinatown, Singapour",
           },
           name: "Claire", // TODO: verify
           role: "Voyage en couple, mars 2025", // TODO: verify
@@ -545,7 +545,7 @@ export const destination: Destination = {
             "Ce qui m'a marqué, c'est la fluidité entre les mondes : Chinatown le matin, un club confidentiel le soir, jamais l'impression de changer d'interlocuteur ni de registre.",
           image: {
             src: "/destination/singapour/hero-3.png",
-            alt: "Portrait de Marc", // TODO: verify
+            alt: "Plage et jungle de l'île de Sentosa au sud de Singapour",
           },
           name: "Marc", // TODO: verify
           role: "Voyage solo, novembre 2025", // TODO: verify
