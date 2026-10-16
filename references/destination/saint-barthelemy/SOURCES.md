@@ -29,3 +29,12 @@ Deux visuels de la page ne figurent pas dans ce tableau : la carte du déjeuner 
 | `map-colombier.png`             | `map-colombier-ref.jpg`             | TODO       | TODO    |
 | `map-saline-gouverneur.png`     | `map-saline-gouverneur-ref.jpg`     | TODO       | TODO    |
 | `map-ile-fourchue.png`          | `map-ile-fourchue-ref.jpg`          | TODO       | TODO    |
+| `map-gustavia.webp` | Wikimedia Commons : File:Gustavia, St. Barthelemy, Guadeloupe, French West Indies (32865406365).jpg | CC BY-SA 2.0 |
+| `map-saint-jean.webp` | Wikimedia Commons : File:Eden Rock Hotel, St Jean Beach, St Barths, Oct 2014 (15531970870).jpg | CC BY-SA 2.0 |
+| `map-corossol.webp` | Wikimedia Commons : File:The fisherman's village of Corrosol, Saint-Barthélemy FWI - panoramio.jpg | CC BY 3.0 |
+| `map-colombier.webp` | Wikimedia Commons : File:Réserve Naturelle Nationale de Saint Barth.jpg | CC BY-SA 4.0 |
+| `map-saline-gouverneur.webp` | Wikimedia Commons : File:Beach at the Anse de Grande Saline on St. Barthelemy, French West Indies - panoramio.jpg | CC BY 3.0 |
+| `map-ile-fourchue.webp` | Wikimedia Commons : File:Île Fourchue.jpg | CC0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
