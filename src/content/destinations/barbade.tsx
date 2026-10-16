@@ -36,16 +36,16 @@ export const destination: Destination = {
         "À l'est, l'Atlantique frappe les falaises de corail de Bathsheba sans relâche. À l'ouest, à peine trente kilomètres plus loin, la Platinum Coast s'étend sur une mer plate, à peine ridée par le passage des voiliers. Bridgetown et sa Garrison historique, classées à l'UNESCO en 2011, occupent l'angle sud entre les deux. Nous construisons chaque itinéraire à partir de ce contraste, pas en dépit de lui.",
       images: [
         {
-          src: "/destination/barbade/hero-1.png",
-          alt: "Villas et mer plate de la Platinum Coast lors d'un voyage à la Barbade",
+          src: "/destination/barbade/hero-1.webp",
+          alt: "Plage de sable clair bordée d’arbres sur la Platinum Coast, Barbade",
         },
         {
           src: "/destination/barbade/hero-2.png",
           alt: "Voiliers mouillés dans la baie de Carlisle Bay à la Barbade",
         },
         {
-          src: "/destination/barbade/hero-3.png",
-          alt: "Falaises de corail battues par l'Atlantique à Bathsheba, Barbade",
+          src: "/destination/barbade/hero-3.webp",
+          alt: "Rocher en champignon de Bathsheba face aux vagues de l’Atlantique, Barbade",
         },
       ],
     },
@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/barbade/full-image.png",
-        alt: "Vue aérienne de la Platinum Coast et de ses villas privées, Barbade",
+        src: "/destination/barbade/full-image.webp",
+        alt: "Vue aérienne d’un hôtel et de sa plage sur la Platinum Coast, Barbade",
       },
       height: 600,
     },
@@ -98,12 +98,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/barbade/split-1.png",
-          alt: "Pêcheurs déchargeant leur prise à Holetown au petit matin, Barbade",
+          src: "/destination/barbade/split-1.webp",
+          alt: "Pêcheurs déchargeant leur prise d’une barque en bois sur la plage de Holetown, Barbade",
         },
         {
-          src: "/destination/barbade/split-2.png",
-          alt: "Façades coloniales en bois du marché de Speightstown, Barbade",
+          src: "/destination/barbade/split-2.webp",
+          alt: "Rue de Speightstown bordée de façades coloniales et de maisons colorées, Barbade",
         },
       ],
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/barbade/xp-catamaran-tortues-1.png",
-          alt: "Catamaran privé mouillé au-dessus d'une épave à Carlisle Bay, Barbade",
+          src: "/destination/barbade/xp-catamaran-tortues-1.webp",
+          alt: "Catamaran privé au mouillage au-dessus des épaves de Carlisle Bay, vu du ciel, Barbade",
         },
         right: {
-          src: "/destination/barbade/xp-catamaran-tortues-2.png",
-          alt: "Tortue imbriquée nageant près d'une épave à Carlisle Bay, Barbade",
+          src: "/destination/barbade/xp-catamaran-tortues-2.webp",
+          alt: "Tortue de mer nageant au-dessus du corail, une épave au loin, Carlisle Bay, Barbade",
         },
       },
       text: {
@@ -523,7 +523,7 @@ export const destination: Destination = {
           quote:
             "Nous avons nagé au-dessus de l'épave du Berwyn avec deux tortues qui ne se sont pas laissées perturber une seconde. Le catamaran privé, sans un autre bateau autour, a changé toute la matinée.",
           image: {
-            src: "/destination/barbade/hero-1.png",
+            src: "/destination/barbade/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "", // TODO: replace with real testimonial
@@ -545,7 +545,7 @@ export const destination: Destination = {
           quote:
             "Personne ne nous avait dit que la côte est ressemblait si peu à la côte ouest. Bathsheba et ses rochers de corail, après trois jours de Platinum Coast, ont donné au voyage une autre dimension.",
           image: {
-            src: "/destination/barbade/hero-3.png",
+            src: "/destination/barbade/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "", // TODO: replace with real testimonial
