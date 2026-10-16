@@ -233,7 +233,7 @@ export const destination: Destination = {
             "Carte d'un itinéraire sur mesure en Turquie",
             "Salle voûtée d'un restaurant aux tables dressées à la bougie en Turquie",
             "Hôtel en bord de mer Égée vu du ciel, avec ses piscines et sa plage",
-            "Concierge coordonnant un transfert privé sur le Bosphore",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Bassin antique aux colonnes immergées et montgolfières à l'horizon",
           ][i],
         },

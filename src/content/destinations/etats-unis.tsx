@@ -235,7 +235,7 @@ export const destination: Destination = {
             "Carte d'un itinéraire sur mesure aux États-Unis",
             "Table dressée dans une salle à manger de l'Upper East Side",
             "Pavillon de désert ouvert sur les falaises de grès de l'Utah",
-            "Concierge coordonnant un transfert privé aux États-Unis",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Marcheurs dans un canyon en fente du plateau du Colorado",
           ][i],
         },
