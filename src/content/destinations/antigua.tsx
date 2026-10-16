@@ -151,7 +151,7 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Où séjourner à Antigua",
       description:
-        "Une île privée sans voiture, des cottages disséminés sur une colline sans réception visible, un arc de suites sur une plage de sable noir. Trois échelles, trois façons de disparaître.",
+        "Une île privée sans voiture, des cottages disséminés sur une colline sans réception visible, un arc de suites sur une plage de sable blanc. Trois échelles, trois façons de disparaître.",
       slugs: ["jumby-bay-island", "hermitage-bay", "carlisle-bay"],
     },
 
