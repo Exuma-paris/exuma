@@ -230,13 +230,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/perou/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/perou/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé au Pérou",
-            "Ruelle du centre historique de Cusco",
-            "Suite avec vue sur la Vallée Sacrée du Pérou",
-            "Concierge Exuma coordonnant un transfert privé au Pérou",
-            "Guide privé commentant les terrasses incas de Moray",
+            "Ruelle pavée de Cusco entre murs incas et balcons coloniaux",
+            "Chambre ouverte sur les terrasses et les sommets de la Vallée Sacrée, Pérou",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Guide privé expliquant les terrasses circulaires de Moray à deux voyageurs",
           ][i],
         },
       })),
@@ -257,7 +257,7 @@ export const destination: Destination = {
           description:
             "La ville s'organise autour de la Plaza de Armas, bâtie sur les fondations du Qorikancha, le temple du Soleil. Capitale de l'empire jusqu'en 1533.",
           image: {
-            src: "/destination/perou/map-cusco.png",
+            src: "/destination/perou/map-cusco.webp",
             alt: "Plaza de Armas de Cusco entourée de sommets andins",
           },
           coordinates: { lat: -13.5319, lng: -71.9675 },
@@ -267,7 +267,7 @@ export const destination: Destination = {
           description:
             "Cité inca du XVe siècle, redécouverte par l'explorateur Hiram Bingham en 1911. Perchée à 2 430 mètres, invisible depuis la vallée en contrebas.",
           image: {
-            src: "/destination/perou/map-machu-picchu.png",
+            src: "/destination/perou/map-machu-picchu.webp",
             alt: "Citadelle du Machu Picchu et le Huayna Picchu en arrière-plan",
           },
           coordinates: { lat: -13.1631, lng: -72.545 },
@@ -277,7 +277,7 @@ export const destination: Destination = {
           description:
             "Les terrasses circulaires de Moray servaient de laboratoire agricole inca. À quelques kilomètres, les salines de Maras sont exploitées depuis le XVe siècle.",
           image: {
-            src: "/destination/perou/map-vallee-sacree.png",
+            src: "/destination/perou/map-vallee-sacree.webp",
             alt: "Terrasses agricoles circulaires de Moray dans la Vallée Sacrée",
           },
           coordinates: { lat: -13.33, lng: -72.19 }, // TODO: verify coords
@@ -287,7 +287,7 @@ export const destination: Destination = {
           description:
             "À 3 812 mètres d'altitude, le lac partagé avec la Bolivie abrite les Uros, qui vivent sur des îles flottantes tissées en roseau totora.",
           image: {
-            src: "/destination/perou/map-titicaca.png",
+            src: "/destination/perou/map-titicaca.webp",
             alt: "Île flottante des Uros sur le lac Titicaca",
           },
           coordinates: { lat: -15.8402, lng: -69.335 }, // TODO: verify coords
@@ -297,7 +297,7 @@ export const destination: Destination = {
           description:
             "À moins de deux heures de vol de Lima, la réserve nationale de Tambopata concentre l'une des plus grandes biodiversités de la planète.",
           image: {
-            src: "/destination/perou/map-amazonie.png",
+            src: "/destination/perou/map-amazonie.webp",
             alt: "Canopée de la réserve de Tambopata en Amazonie péruvienne",
           },
           coordinates: { lat: -12.8333, lng: -69.2833 }, // TODO: verify coords
@@ -307,8 +307,8 @@ export const destination: Destination = {
           description:
             "Le quartier de Barranco, bohème et colonial, borde le Pacifique. La capitale concentre une partie de la gastronomie la plus reconnue d'Amérique du Sud.",
           image: {
-            src: "/destination/perou/map-lima.png",
-            alt: "Falaises de Barranco surplombant le Pacifique à Lima",
+            src: "/destination/perou/map-lima.webp",
+            alt: "Falaises de la côte de Lima plongeant dans le Pacifique",
           },
           coordinates: { lat: -12.0464, lng: -77.0428 },
         },

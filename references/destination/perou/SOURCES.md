@@ -31,3 +31,13 @@ Each generated image in `public/destination/perou/` was produced by feeding the 
 | `map-lima.png`                   | `map-lima-ref.jpg`                     | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.png` / `hero-2.png` / `hero-3.png` — no separate files.
+| `map-cusco.webp` | Wikimedia Commons : File:Iglesia de la Compañía de Jesús, Plaza de Armas, Cusco, Perú, 2015-07-31, DD 75.JPG | CC BY-SA 4.0 |
+| `map-machu-picchu.webp` | Wikimedia Commons : File:Machu Picchu, Perú, 2015-07-30, DD 60.JPG | CC BY-SA 4.0 |
+| `map-vallee-sacree.webp` | Wikimedia Commons : File:Agricultural terraces of Moray, Sacred Valley, Peru. - panoramio.jpg | CC BY-SA 3.0 |
+| `map-titicaca.webp` | Wikimedia Commons : File:Islas flotantes de los Uros, Lago Titicaca, Perú, 2015-08-01, DD 29.JPG | CC BY-SA 4.0 |
+| `map-amazonie.webp` | Wikimedia Commons : File:7 - Itahuania - Août 2008.JPG | CC BY-SA 3.0 |
+| `map-lima.webp` | Wikimedia Commons : File:Lima, Peru - Barranco Skyline.jpg | CC BY 2.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+| `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |
