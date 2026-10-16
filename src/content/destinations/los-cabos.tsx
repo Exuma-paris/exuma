@@ -244,7 +244,7 @@ export const destination: Destination = {
           description:
             "L'Arco, Land's End, la marina. L'entrée iconique dans Los Cabos, l'endroit où les deux mers se lisent depuis le pont d'un bateau.",
           image: {
-            src: "/destination/los-cabos/map-cabo-san-lucas.png",
+            src: "/destination/los-cabos/map-cabo-san-lucas.webp",
             alt: "L'Arco de Cabo San Lucas vu depuis la mer",
           },
           // TODO: verify coords
@@ -255,8 +255,8 @@ export const destination: Destination = {
           description:
             "Le district des galeries, les rues du XVIIIe siècle, les restaurants de cuisine Baja. La ville qui existe indépendamment du tourisme balnéaire.",
           image: {
-            src: "/destination/los-cabos/map-san-jose-del-cabo.png",
-            alt: "Rues coloniales de San José del Cabo au crépuscule",
+            src: "/destination/los-cabos/map-san-jose-del-cabo.webp",
+            alt: "Place et église de San José del Cabo, Baja California Sur",
           },
           // TODO: verify coords
           coordinates: { lat: 23.0629, lng: -109.7018 },
@@ -266,8 +266,8 @@ export const destination: Destination = {
           description:
             "Réserve marine nationale, seul récif corallien vivant de la côte Pacifique nord. Les plongeurs qui y accèdent en dehors des horaires collectifs voient quelque chose de différent.",
           image: {
-            src: "/destination/los-cabos/map-cabo-pulmo.png",
-            alt: "Récif corallien de Cabo Pulmo, mer de Cortez",
+            src: "/destination/los-cabos/map-cabo-pulmo.webp",
+            alt: "Corail orangé du récif de Cabo Pulmo, mer de Cortez",
           },
           // TODO: verify coords
           coordinates: { lat: 23.4483, lng: -109.4178 },
@@ -277,8 +277,8 @@ export const destination: Destination = {
           description:
             "Pueblo Mágico à 80 km de Cabo, sur la côte Pacifique. Des artistes y ont ouvert des ateliers depuis les années 1980. Punta Lobos, la falaise au-dessus de l'océan, ne figure dans aucun guide.",
           image: {
-            src: "/destination/los-cabos/map-todos-santos.png",
-            alt: "Atelier d'artiste à Todos Santos, Pueblo Mágico de Baja California Sur",
+            src: "/destination/los-cabos/map-todos-santos.webp",
+            alt: "Arcades de l'Hotel California à Todos Santos, Baja California Sur",
           },
           // TODO: verify coords
           coordinates: { lat: 23.4469, lng: -110.2256 },
@@ -288,7 +288,7 @@ export const destination: Destination = {
           description:
             "Capitale de l'état, malecón sur le front de mer, port d'embarquement pour Isla Espiritu Santo. Moins construite que Los Cabos, elle garde un registre que le corridor a perdu.",
           image: {
-            src: "/destination/los-cabos/map-la-paz.png",
+            src: "/destination/los-cabos/map-la-paz.webp",
             alt: "Malecón de La Paz au coucher du soleil, Baja California Sur",
           },
           // TODO: verify coords
@@ -299,8 +299,8 @@ export const destination: Destination = {
           description:
             "Île protégée UNESCO à 25 minutes de La Paz en bateau. Une colonie de 400 otaries vit à Los Islotes, à la pointe nord de l'île. On s'y approche en snorkeling.",
           image: {
-            src: "/destination/los-cabos/map-isla-espiritu-santo.png",
-            alt: "Isla Espiritu Santo vue depuis un bateau, La Paz, Baja California Sur",
+            src: "/destination/los-cabos/map-isla-espiritu-santo.webp",
+            alt: "Falaises rouges et eau turquoise de l'Isla Espíritu Santo, Baja California Sur",
           },
           // TODO: verify coords
           coordinates: { lat: 24.4167, lng: -110.35 },
