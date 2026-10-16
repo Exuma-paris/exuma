@@ -230,9 +230,9 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure à l'île de Pâques entre Rano Raraku, Orongo et Anakena",
             "Adresses confidentielles à Rapa Nui : terres privées et grottes de familles rapanui",
-            "Hébergements à l'île de Pâques : lodge du plateau sud et maisons de Hanga Roa",
-            "Conciergerie privée 24/7 pour un voyage à l'île de Pâques",
-            "Expériences immersives à Rapa Nui : carrière de Rano Raraku et umu pae en famille",
+            "Toits d'herbe de Nayara Hangaroa vus du ciel, au-dessus de Hanga Roa",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Guide rapanui présentant les moai de Rano Raraku à un couple de voyageurs",
           ][i],
         },
       })),
