@@ -35,7 +35,7 @@ export const destination: Destination = {
         "L'île compte deux cent quatre-vingts kilomètres carrés et une plage pour chaque jour de l'année, un chiffre que les habitants citent avant même le nom d'English Harbour. Au large, Barbuda garde ses dix-sept kilomètres de sable rose pour trois fois moins de monde qu'Antigua. Entre les deux, une heure de bateau et un changement de rythme complet.",
       images: [
         {
-          src: "/destination/antigua/hero-1.png",
+          src: "/destination/antigua/hero-1.webp",
           alt: "Plage de sable blanc et eaux turquoise lors d'un voyage à Antigua",
         },
         {
@@ -522,7 +522,7 @@ export const destination: Destination = {
           quote:
             "Nous sommes partis un matin pour Barbuda et nous avons eu la plage rose quasiment pour nous. Le bateau nous attendait pour le retour au moment exact où la lumière a changé.",
           image: {
-            src: "/destination/antigua/hero-1.png",
+            src: "/destination/antigua/hero-1.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "", // TODO: replace with real testimonial
