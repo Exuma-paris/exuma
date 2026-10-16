@@ -225,13 +225,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/antigua/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/antigua/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Antigua entre English Harbour et Barbuda",
-            "Adresses confidentielles à Antigua : criques et pontons privés",
-            "Hébergements à Antigua : Jumby Bay Island et Hermitage Bay",
-            "Conciergerie privée 24/7 pour un voyage à Antigua",
-            "Expériences immersives à Antigua : Cades Reef et Barbuda",
+            "Adresses confidentielles à Antigua : une table pour deux au bout d'un ponton privé",
+            "Hébergements à Antigua : l'île privée de Jumby Bay vue du ciel",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Expériences immersives à Antigua : snorkeling depuis un catamaran privé à Cades Reef",
           ][i],
         },
       })),
@@ -252,8 +252,8 @@ export const destination: Destination = {
           description:
             "La capitale garde ses entrepôts de brique convertis en boutiques et son marché du samedi matin. On y passe la matinée d'arrivée avant de rejoindre la côte sud.",
           image: {
-            src: "/destination/antigua/map-st-johns.png",
-            alt: "Entrepôts de brique de Redcliffe Quay à St. John's, Antigua",
+            src: "/destination/antigua/map-st-johns.webp",
+            alt: "Maisons colorées et voilier jaune sur le front de mer de St. John's, Antigua",
           },
           // TODO: verify coords
           coordinates: { lat: 17.1274, lng: -61.8468 },
@@ -263,8 +263,8 @@ export const destination: Destination = {
           description:
             "Le seul chantier naval georgien encore en activité au monde, classé à l'UNESCO en 2016. Les voiliers de compétition y mouillent toujours pendant l'Antigua Sailing Week.",
           image: {
-            src: "/destination/antigua/map-english-harbour.png",
-            alt: "Voiliers amarrés à Nelson's Dockyard dans English Harbour, Antigua",
+            src: "/destination/antigua/map-english-harbour.webp",
+            alt: "Bâtiments georgiens de Nelson's Dockyard au bord de l'eau, English Harbour, Antigua",
           },
           // TODO: verify coords
           coordinates: { lat: 17.0, lng: -61.7667 },
@@ -274,7 +274,7 @@ export const destination: Destination = {
           description:
             "Un fort du XVIIIe siècle perché au-dessus d'English Harbour, avec la meilleure vue de l'île sur le coucher de soleil. Un groupe de steel drum y joue le dimanche.",
           image: {
-            src: "/destination/antigua/map-shirley-heights.png",
+            src: "/destination/antigua/map-shirley-heights.webp",
             alt: "Vue depuis le fort de Shirley Heights sur English Harbour, Antigua",
           },
           // TODO: verify coords
@@ -285,8 +285,8 @@ export const destination: Destination = {
           description:
             "Dix-sept kilomètres de sable rose et une lagune qui abrite près de cinq mille couples de frégates, la plus grande colonie de l'hémisphère occidental.",
           image: {
-            src: "/destination/antigua/map-barbuda.png",
-            alt: "Lagune de Codrington et réserve de frégates à Barbuda",
+            src: "/destination/antigua/map-barbuda.webp",
+            alt: "Frégate mâle face à la lagune de Codrington, Barbuda",
           },
           // TODO: verify coords
           coordinates: { lat: 17.6167, lng: -61.8167 },
@@ -296,8 +296,8 @@ export const destination: Destination = {
           description:
             "Une arche de calcaire sculptée par l'Atlantique sur la côte est, et une baie en croissant qu'aucune route directe ne dessert vraiment facilement.",
           image: {
-            src: "/destination/antigua/map-devils-bridge.png",
-            alt: "Arche naturelle de Devil's Bridge sur la côte est d'Antigua",
+            src: "/destination/antigua/map-devils-bridge.webp",
+            alt: "Arche naturelle de Devil's Bridge battue par les vagues, côte est d'Antigua",
           },
           // TODO: verify coords
           coordinates: { lat: 17.0864, lng: -61.6772 },
@@ -307,8 +307,8 @@ export const destination: Destination = {
           description:
             "Les vestiges d'une plantation de canne à sucre du XVIIe siècle d'un côté, la route forestière la plus verte de l'île de l'autre.",
           image: {
-            src: "/destination/antigua/map-bettys-hope.png",
-            alt: "Moulins à vent de la plantation historique de Betty's Hope, Antigua",
+            src: "/destination/antigua/map-bettys-hope.webp",
+            alt: "Moulins à sucre en pierre de la plantation de Betty's Hope, Antigua",
           },
           // TODO: verify coords
           coordinates: { lat: 17.0817, lng: -61.7394 },

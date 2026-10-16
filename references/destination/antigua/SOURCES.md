@@ -18,3 +18,11 @@ Références fournies par Thea le 16/10/2026.
 | `hotel-jumby-bay.webp` | swifttravel.com (vue aérienne de Jumby Bay), recadrée | Autorisation à confirmer |
 | `hotel-hermitage-bay.webp` | Photo officielle (hermitagebay.com), recadrée | Autorisation à confirmer |
 | `hotel-carlisle-bay.webp` | Photo officielle (carlisle-bay), recadrée, agrandie fidèlement | Autorisation à confirmer |
+| `map-st-johns.webp` | Commons, « St. John's Antigua Cruise Port 1 » | CC BY 4.0 |
+| `map-devils-bridge.webp` | Commons, « Devils Bridge, Antigua » | CC BY-SA 3.0 |
+| `map-bettys-hope.webp` | Commons, « Bettys Hope Sugart Plantation Antigua 9124 » | CC BY-SA 4.0 |
+| `map-english-harbour.webp` | Commons, « Nelson's Dockyard Antigua » | CC BY-SA 4.0 |
+| `map-shirley-heights`, `map-barbuda` | Recadrages de full-image et xp-barbuda-2 | voir plus haut |
+| `bento-adresses.webp`, `bento-experiences.webp` | IA, génération texte | |
+| `bento-hebergements.webp` | Même photo que `hotel-jumby-bay.webp` | À confirmer |
+| `bento-conciergerie.webp` | Photo d'équipe Exuma | Exuma |
