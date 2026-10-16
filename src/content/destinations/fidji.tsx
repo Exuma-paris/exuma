@@ -226,13 +226,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/fidji/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/fidji/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure aux Fidji entre les Mamanuca, les Yasawa et Kadavu",
-            "Adresses confidentielles aux Fidji : villages des hautes terres et tables de chefs",
+            "Table de chef dressée sur une plage des Fidji, entre lanternes et torches",
             "Hébergements aux Fidji : Laucala Island, Kokomo Private Island et Six Senses Fiji",
-            "Conciergerie privée 24/7 pour un séjour aux Fidji",
-            "Expériences aux Fidji : plongée sur le Great Astrolabe Reef et grottes de Sawa-i-Lau",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Plongeur au-dessus des coraux du Great Astrolabe Reef, une raie manta au loin, Fidji",
           ][i],
         },
       })),
@@ -253,8 +253,8 @@ export const destination: Destination = {
           description:
             "L'archipel le plus proche de Nadi, atteint en vingt minutes de bateau rapide. Malolo, Monuriki et leurs voisines alignent des plages abritées et un récif franchissable à la nage. C'est là que se posent les séjours courts et les arrivées de nuit.",
           image: {
-            src: "/destination/fidji/map-mamanuca.png",
-            alt: "L'île de Malolo et son lagon dans l'archipel des Mamanuca aux Fidji",
+            src: "/destination/fidji/map-mamanuca.webp",
+            alt: "Plage et lagon d’une île des Mamanuca aux Fidji",
           },
           // TODO: verify coords
           coordinates: { lat: -17.7667, lng: 177.1667 },
@@ -264,7 +264,7 @@ export const destination: Destination = {
           description:
             "Une chaîne d'îles volcaniques qui remonte vers le nord-ouest, sèche et découpée. On nage dans les grottes de Sawa-i-Lau, et le passage de Drawaqa voit remonter les raies manta de mai à octobre, à quelques mètres du rivage.",
           image: {
-            src: "/destination/fidji/map-yasawa.png",
+            src: "/destination/fidji/map-yasawa.webp",
             alt: "Les crêtes et les plages de l'archipel des Yasawa aux Fidji",
           },
           // TODO: verify coords
@@ -275,8 +275,8 @@ export const destination: Destination = {
           description:
             "L'île-jardin du pays, couverte de forêt et traversée de cascades, dont celles de Bouma. Le détroit de Somosomo qui la sépare de Vanua Levu abrite le Rainbow Reef et le Great White Wall, un tombant tapissé de coraux mous pâles.",
           image: {
-            src: "/destination/fidji/map-taveuni.png",
-            alt: "La cascade de Bouma dans la forêt de Taveuni aux Fidji",
+            src: "/destination/fidji/map-taveuni.webp",
+            alt: "Jardin fleuri au-dessus de la mer sur l’île de Taveuni aux Fidji",
           },
           // TODO: verify coords
           coordinates: { lat: -16.85, lng: 179.97 },
@@ -286,8 +286,8 @@ export const destination: Destination = {
           description:
             "L'île se rejoint en avion ou en hydravion, et la route s'arrête vite : on circule ensuite en bateau. Le Great Astrolabe Reef la ceinture sur des dizaines de kilomètres, avec ses canaux où passent les mantas et ses pentes de corail dur.",
           image: {
-            src: "/destination/fidji/map-kadavu.png",
-            alt: "Le Great Astrolabe Reef au large de Kadavu aux Fidji",
+            src: "/destination/fidji/map-kadavu.webp",
+            alt: "Îlot boisé au large de Kadavu aux Fidji",
           },
           // TODO: verify coords
           coordinates: { lat: -19.05, lng: 178.2 },
@@ -297,8 +297,8 @@ export const destination: Destination = {
           description:
             "Une île volcanique au sud de Viti Levu, connue pour deux choses : la marche sur le feu des Sawau, et la réserve marine où huit espèces de requins se croisent sur un seul site. Les villages ont cédé leurs droits de pêche pour la créer.",
           image: {
-            src: "/destination/fidji/map-beqa.png",
-            alt: "Le lagon de Beqa et son récif au sud de Viti Levu aux Fidji",
+            src: "/destination/fidji/map-beqa.webp",
+            alt: "Plage et récif affleurant du lagon de Beqa aux Fidji",
           },
           // TODO: verify coords
           coordinates: { lat: -18.4, lng: 178.13 },
@@ -308,8 +308,8 @@ export const destination: Destination = {
           description:
             "L'archipel le plus oriental et le moins fréquenté du pays, à deux jours de mer de Savusavu. Vanua Balavu et sa baie de Bavatu, les îlots de calcaire de Fulaga, les sculpteurs de Kabara : on n'y accède qu'en bateau, sur autorisation.",
           image: {
-            src: "/destination/fidji/map-lau.png",
-            alt: "Le lagon et les îlots de calcaire de Fulaga dans les îles Lau aux Fidji",
+            src: "/destination/fidji/map-lau.webp",
+            alt: "Îlots et lagon de Vanua Balavu dans les îles Lau aux Fidji",
           },
           // TODO: verify coords
           coordinates: { lat: -17.2, lng: -178.95 },
