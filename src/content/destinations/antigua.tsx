@@ -39,7 +39,7 @@ export const destination: Destination = {
           alt: "Plage de sable blanc et eaux turquoise lors d'un voyage à Antigua",
         },
         {
-          src: "/destination/antigua/hero-2.png",
+          src: "/destination/antigua/hero-2.webp",
           alt: "Voiliers mouillés dans la baie d'English Harbour à Antigua",
         },
         {
@@ -532,7 +532,7 @@ export const destination: Destination = {
           quote:
             "Une île entière pour nous six, sans une voiture, avec une navette qui passait toutes les vingt minutes. Les enfants ont fini par reconnaître chaque plage. Le dîner sous les étoiles restera le souvenir de ce voyage.",
           image: {
-            src: "/destination/antigua/hero-2.png",
+            src: "/destination/antigua/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "", // TODO: replace with real testimonial
