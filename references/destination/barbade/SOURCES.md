@@ -17,3 +17,13 @@
 | `xp-st-nicholas-abbey.webp` | cestee.com (portail de St Nicholas Abbey), recadrée carrée, guide et trois voyageurs ajoutés par IA | À confirmer |
 | `xp-cliff-restaurant.webp` | Tripadvisor (The Cliff), agrandie fidèlement | À confirmer |
 | `xp-polo.webp` | sportingbarbados.com (match de polo), recadrée carrée, agrandie fidèlement | À confirmer |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+| `bento-hebergements.webp` | Recadrage de hotel-cobblers-cove | |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `map-bridgetown.webp` | Wikimedia Commons : File:Garrison Savannah, sitio donde se declaró la Independencia de Barbados en 1966.jpg | CC BY-SA 4.0 |
+| `map-holetown.webp` | Wikimedia Commons : File:Paynes Bay Barbados.jpg | CC BY-SA 4.0 |
+| `map-carlisle-bay.webp` | Wikimedia Commons : File:Carlisle Bay, Barbados.jpg | CC0 |
+| `map-harrisons-cave.webp` | Wikimedia Commons : File:Harrisons Cave (6835262484).jpg | CC BY 2.0 |
+| `map-bathsheba.webp` | Wikimedia Commons : File:Bathsheba, Barbados 08.jpg | CC BY-SA 3.0 |
+| `map-animal-flower-cave.webp` | Wikimedia Commons : File:ANIMAL FLOWER CAVE - BARBADOS.jpg | CC BY-SA 3.0 |
