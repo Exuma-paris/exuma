@@ -10,3 +10,5 @@ Références fournies par Thea le 16/10/2026.
 | `split-1.webp` | Tablet Hotels (plage et kayak), recadrée en portrait | À confirmer |
 | `split-2.webp` | The Hotel Guru (pavillon sur la plage), recadrée en carré | À confirmer |
 | `hero-3.webp` | beachatlas (plage de sable rose de Barbuda), recadrée, agrandie fidèlement, turquoise adouci | À confirmer |
+| `xp-barbuda-1.webp` | static-rmg.be (sable rose), recadrée | À confirmer |
+| `xp-barbuda-2.webp` | IA (mode --inspire) d'après une photo Alamy à filigrane, fond de mer à la demande de Thea | |

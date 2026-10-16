@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/antigua/xp-barbuda-1.png",
-          alt: "Plage de sable rose déserte sur l'île de Barbuda",
+          src: "/destination/antigua/xp-barbuda-1.webp",
+          alt: "Vague sur le sable rose d'une plage déserte de Barbuda",
         },
         right: {
-          src: "/destination/antigua/xp-barbuda-2.png",
-          alt: "Colonie de frégates dans la réserve ornithologique de Barbuda",
+          src: "/destination/antigua/xp-barbuda-2.webp",
+          alt: "Frégate mâle, poche rouge gonflée, sur une branche de palétuvier face à la lagune de Barbuda",
         },
       },
       text: {
