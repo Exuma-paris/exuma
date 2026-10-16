@@ -43,8 +43,8 @@ export const destination: Destination = {
           alt: "Voiliers mouillés dans la baie d'English Harbour à Antigua",
         },
         {
-          src: "/destination/antigua/hero-3.png",
-          alt: "Sable rose et frégates au-dessus de la lagune de Barbuda",
+          src: "/destination/antigua/hero-3.webp",
+          alt: "Plage de sable rose de Barbuda et mer turquoise",
         },
       ],
     },
@@ -543,7 +543,7 @@ export const destination: Destination = {
           quote:
             "Trois jours à Hermitage Bay sans croiser plus de dix personnes en dehors du personnel. La visite de Nelson's Dockyard tôt le matin, avant les groupes de croisiéristes, a changé notre regard sur l'île entière.",
           image: {
-            src: "/destination/antigua/hero-3.png",
+            src: "/destination/antigua/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "", // TODO: replace with real testimonial
