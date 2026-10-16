@@ -14,7 +14,7 @@ Références fournies par Thea le 16/10/2026.
 | `xp-barbuda-2.webp` | IA (mode --inspire) d'après une photo Alamy à filigrane, fond de mer à la demande de Thea | |
 | `xp-catamaran-cades-reef.webp` | Miniature Google Images (récif), catamaran ajouté par IA | À confirmer |
 | `xp-cheval-plage.webp` | IA (mode --inspire) d'après une photo de la Vendée, adaptée à une plage d'Antigua | |
-| `xp-helicoptere-montserrat.webp` | IA (mode --inspire) : la photo fournie montrait le Montserrat d'Espagne (Catalogne), l'image montre le volcan de la Soufrière Hills (Caraïbes) | |
+| `xp-helicoptere-montserrat.webp` | Miniature Google Images (volcan de Montserrat), hélicoptère ajouté et poteau retiré par IA, filtre chaud | À confirmer |
 | `hotel-jumby-bay.webp` | swifttravel.com (vue aérienne de Jumby Bay), recadrée | Autorisation à confirmer |
 | `hotel-hermitage-bay.webp` | Photo officielle (hermitagebay.com), recadrée | Autorisation à confirmer |
 | `hotel-carlisle-bay.webp` | Photo officielle (carlisle-bay), recadrée, agrandie fidèlement | Autorisation à confirmer |
