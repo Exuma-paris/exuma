@@ -27,7 +27,15 @@ Each generated image in `public/destination/la-grenade/` was produced by feeding
 | `map-grand-anse.png`                  | `map-grand-anse-ref.jpg`                   | TODO       | TODO    |
 | `map-molinere.png`                    | `map-molinere-ref.jpg`                     | TODO       | TODO    |
 | `map-grand-etang.png`                 | `map-grand-etang-ref.jpg`                  | TODO       | TODO    |
-| `map-gouyave.png`                     | `map-gouyave-ref.jpg`                      | TODO       | TODO    |
 | `map-carriacou.png`                   | `map-carriacou-ref.jpg`                    | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`. The Belmont Estate cacao experience keeps its existing image under `public/destination/caraibes/xp-cacao-grenade.png`.
+| `map-saint-georges.webp` | Wikimedia Commons : File:The Carenage C IMG 0472.JPG | CC BY-SA 3.0 |
+| `map-grand-anse.webp` | Wikimedia Commons : File:Grenada (Grand Anse Beach) 2.JPG | CC BY-SA 3.0 |
+| `map-molinere.webp` | Wikimedia Commons : File:Vicissitudes, Grenada Underwater Sculptures (SunCat) - Flickr.jpg | CC BY 2.0 |
+| `map-grand-etang.webp` | Wikimedia Commons : File:Grand Etang Lake.jpg | CC BY-SA 4.0 |
+| `map-carriacou.webp` | Wikimedia Commons : File:SandyIsland2018.jpg | CC BY-SA 4.0 |
+| `map-gouyave.webp` | Wikimedia Commons : File:NutmegsGrenada10.jpg | CC0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
