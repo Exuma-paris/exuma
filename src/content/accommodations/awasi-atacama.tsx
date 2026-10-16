@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["chili", "atacama", "san pedro de atacama", "awasi", "desert", "relais & chateaux"],
   heroImage: {
     src: "/destination/chili/hotel-awasi-atacama.webp",
-    alt: "Maisons de pisé et patio de l'hôtel Awasi Atacama à San Pedro de Atacama",
+    alt: "Piscine et parasols de paille entre les murs de pisé d'Awasi Atacama, San Pedro de Atacama",
   },
   destinationSlugs: ["chili"],
   sections: [],

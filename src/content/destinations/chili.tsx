@@ -233,9 +233,9 @@ export const destination: Destination = {
           src: `/destination/chili/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Chili entre Atacama, Colchagua, Chiloé et la Patagonie",
-            "Adresses confidentielles au Chili : estancias fermées au public et caves de vignerons",
-            "Hébergements au Chili : villas face au massif du Paine et maisons du désert d'Atacama",
-            "Conciergerie privée 24/7 pour un voyage au Chili",
+            "Cave d'un vigneron de Colchagua, table de dégustation ouverte sur les vignes, Chili",
+            "Chambre en bois d'Awasi Patagonia ouverte sur la steppe, Chili",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Expériences immersives au Chili : navigation dans les fjords Kawésqar et ciel de l'altiplano",
           ][i],
         },

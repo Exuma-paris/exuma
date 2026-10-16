@@ -31,3 +31,10 @@ Each generated image in `public/destination/chili/` was produced by feeding the 
 | `map-rapa-nui.webp`                   | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
 
 Testimonial portraits reuse `hero-1.webp`, `hero-2.webp` and `hero-3.webp` — no separate files.
+| `hotel-awasi-patagonia.webp` | Tablet Hotels (chambre Awasi Patagonia), agrandie fidèlement | À confirmer |
+| `hotel-awasi-atacama.webp` | Tripadvisor (piscine Awasi Atacama, 550 px), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-vik-chile.webp` | Wines of Chile, photo Robert Michael Poole (VIK vu du ciel), recadrée carrée, agrandie fidèlement | À confirmer |
+| `bento-adresses.webp` | Générée par IA (gen_text) | image générée |
+| `bento-hebergements.webp` | Recadrage de hotel-awasi-patagonia | |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
