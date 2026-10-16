@@ -31,3 +31,13 @@ Each generated image in `public/destination/colombie/` was produced by feeding t
 | `map-bahia-solano.png`           | `map-bahia-solano-ref.jpg`         | TODO       | TODO    |
 
 Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); this file is tracked.
+| `map-carthagene.webp` | Wikimedia Commons : File:Bartizan in Baluarte de Santiago, Cartagena 01.jpg | CC BY-SA 4.0 |
+| `map-sierra-nevada.webp` | Wikimedia Commons : File:Lost City Ruins.jpg | CC BY 2.0 |
+| `map-salento.webp` | Wikimedia Commons : File:Calle 5, Salento 03.jpg | CC BY-SA 4.0 |
+| `map-cano-cristales.webp` | Wikimedia Commons : File:Cascadas Manto de La Virgen - Caño Cristales - La Macarena - Meta - Colombia.jpg | CC BY-SA 4.0 |
+| `map-leticia.webp` | Wikimedia Commons : File:Amazon River, Colombia (26748354339).jpg | CC BY-SA 2.0 |
+| `map-bahia-solano.webp` | Wikimedia Commons : File:20250813 Bahía Solano modernización del aeródromo-Juan Tamayo-MinTrasporte (2).jpg | Public domain |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+| `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |

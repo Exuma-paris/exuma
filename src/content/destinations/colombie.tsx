@@ -224,12 +224,12 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/colombie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/colombie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé pour un voyage en Colombie",
             "Ruelle colorée du quartier Getsemaní à Carthagène des Indes",
             "Hacienda caféière traditionnelle dans le Quindío, Colombie",
-            "Concierge Exuma organisant un transfert privé à Bogotá",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Guide indigène Wiwa sur le chemin de la Ciudad Perdida",
           ][i],
         },
@@ -251,8 +251,8 @@ export const destination: Destination = {
           description:
             "Cité fortifiée du XVIe siècle sur la mer des Caraïbes, onze kilomètres de remparts et le quartier coloré de Getsemaní.",
           image: {
-            src: "/destination/colombie/map-carthagene.png",
-            alt: "Remparts et façades colorées de Carthagène des Indes, Colombie",
+            src: "/destination/colombie/map-carthagene.webp",
+            alt: "Guérite de pierre et canon sur les remparts de Carthagène des Indes, Colombie",
           },
           coordinates: { lat: 10.391, lng: -75.4794 },
         },
@@ -261,7 +261,7 @@ export const destination: Destination = {
           description:
             "Massif côtier qui grimpe de la mer à cinq mille huit cents mètres en quarante kilomètres. La Ciudad Perdida des Tayrona s'y cache depuis plus de mille deux cents ans.",
           image: {
-            src: "/destination/colombie/map-sierra-nevada.png",
+            src: "/destination/colombie/map-sierra-nevada.webp",
             alt: "Terrasses de pierre de la Ciudad Perdida dans la Sierra Nevada de Santa Marta",
           },
           // TODO: verify coords
@@ -272,7 +272,7 @@ export const destination: Destination = {
           description:
             "Village coloré au cœur du Quindío, porte d'entrée des fincas caféières et de la vallée de Cocora, où poussent les plus hauts palmiers à cire du monde.",
           image: {
-            src: "/destination/colombie/map-salento.png",
+            src: "/destination/colombie/map-salento.webp",
             alt: "Rue colorée de Salento au cœur de la Zone Café colombienne",
           },
           coordinates: { lat: 4.6438, lng: -75.573 },
@@ -282,7 +282,7 @@ export const destination: Destination = {
           description:
             "Rivière qui se teinte de rouge, de jaune et de vert entre juillet et novembre, sous l'effet d'une algue endémique. Accessible uniquement par vol privé depuis La Macarena.",
           image: {
-            src: "/destination/colombie/map-cano-cristales.png",
+            src: "/destination/colombie/map-cano-cristales.webp",
             alt: "Rivière multicolore de Caño Cristales dans la région de la Macarena, Colombie",
           },
           // TODO: verify coords
@@ -293,8 +293,8 @@ export const destination: Destination = {
           description:
             "Porte d'entrée de l'Amazonie colombienne, au confluent des frontières avec le Brésil et le Pérou. Le fleuve y fait la loi, pas la route.",
           image: {
-            src: "/destination/colombie/map-leticia.png",
-            alt: "Fleuve Amazone vu depuis Leticia, à la frontière du Brésil et du Pérou",
+            src: "/destination/colombie/map-leticia.webp",
+            alt: "Coucher de soleil sur l’Amazone près de Leticia, Colombie",
           },
           coordinates: { lat: -4.2153, lng: -69.9406 },
         },
@@ -303,8 +303,8 @@ export const destination: Destination = {
           description:
             "Village de pêcheurs du Chocó, un des rares points au monde où les baleines à bosse viennent mettre bas, entre juillet et octobre.",
           image: {
-            src: "/destination/colombie/map-bahia-solano.png",
-            alt: "Côte Pacifique et jungle du Chocó près de Bahía Solano, Colombie",
+            src: "/destination/colombie/map-bahia-solano.webp",
+            alt: "Jungle du Chocó plongeant dans le Pacifique près de Bahía Solano, Colombie",
           },
           // TODO: verify coords
           coordinates: { lat: 6.2229, lng: -77.4022 },
