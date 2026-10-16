@@ -14,3 +14,4 @@ Références fournies par Thea le 16/10/2026.
 | `xp-barbuda-2.webp` | IA (mode --inspire) d'après une photo Alamy à filigrane, fond de mer à la demande de Thea | |
 | `xp-catamaran-cades-reef.webp` | Miniature Google Images (récif), catamaran ajouté par IA | À confirmer |
 | `xp-cheval-plage.webp` | IA (mode --inspire) d'après une photo de la Vendée, adaptée à une plage d'Antigua | |
+| `xp-helicoptere-montserrat.webp` | IA (mode --inspire) : la photo fournie montrait le Montserrat d'Espagne (Catalogne), l'image montre le volcan de la Soufrière Hills (Caraïbes) | |

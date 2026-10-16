@@ -378,7 +378,7 @@ import { experience as yachtPriveChefMontegoBay } from "@/content/experiences/ya
 import { experience as appletonEstateRhums } from "@/content/experiences/appleton-estate-rhums";
 import { experience as catamaranPriveCadesReef } from "@/content/experiences/catamaran-prive-cades-reef";
 import { experience as randonneeEquestrePlage } from "@/content/experiences/randonnee-equestre-plage";
-import { experience as visiteNelsonsDockyard } from "@/content/experiences/visite-nelsons-dockyard";
+import { experience as helicoptereVolcanMontserrat } from "@/content/experiences/helicoptere-volcan-montserrat";
 import { experience as degustationMountGay } from "@/content/experiences/degustation-mount-gay";
 import { experience as dinerTheCliff } from "@/content/experiences/diner-the-cliff";
 import { experience as harrisonsCave } from "@/content/experiences/harrisons-cave";
@@ -1091,7 +1091,7 @@ export const experiences: Record<string, Experience> = toMap([
   appletonEstateRhums,
   catamaranPriveCadesReef,
   randonneeEquestrePlage,
-  visiteNelsonsDockyard,
+  helicoptereVolcanMontserrat,
   degustationMountGay,
   dinerTheCliff,
   harrisonsCave,

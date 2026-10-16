@@ -72,7 +72,7 @@ export const destination: Destination = {
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Antigua se lit à la carte marine autant qu'à la carte routière. L'île mesure vingt-deux kilomètres sur seize, ce qui permet de dormir dans une seule baie et de rayonner en une heure de voiture vers n'importe quel point de la côte, de Jolly Harbour à Half Moon Bay.",
-        "English Harbour et Nelson's Dockyard occupent le sud-est depuis 1725. Le chantier naval, classé à l'UNESCO en 2016, garde ses ateliers de pierre et de bois, et sert toujours de mouillage aux voiliers de compétition pendant l'Antigua Sailing Week, fin avril.",
+        "English Harbour et Nelson's Dockyard occupent le sud-est depuis 1725. Le chantier naval, classé à l'UNESCO en 2016, garde ses entrepôts georgiens de brique et de bois, et sert toujours de mouillage aux voiliers de compétition pendant l'Antigua Sailing Week, fin avril.",
         "Barbuda relève d'un autre ordre. Moins de deux mille habitants, aucune route vers Antigua, une réserve de frégates qui abrite la plus grande colonie de l'hémisphère occidental. On y va pour une journée, on en revient en ayant vu une île différente de celle qu'on a quittée.",
       ],
     },
@@ -136,11 +136,11 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités à Antigua",
       heading: "Cades Reef, un cheval sur la plage, un chantier naval du XVIIIe",
       description:
-        "Un catamaran privé jusqu'à la barrière de corail de Cades Reef, une sortie à cheval au lever du jour, une visite de Nelson's Dockyard avant l'arrivée des groupes. Trois façons d'entrer dans l'île, que nous réservons avant votre arrivée.",
+        "Un catamaran privé jusqu'à la barrière de corail de Cades Reef, une sortie à cheval au lever du jour, un survol en hélicoptère du volcan de Montserrat. Trois façons d'entrer dans l'île, que nous réservons avant votre arrivée.",
       slugs: [
         "catamaran-prive-cades-reef",
         "randonnee-equestre-plage",
-        "visite-nelsons-dockyard",
+        "helicoptere-volcan-montserrat",
       ],
     },
 
