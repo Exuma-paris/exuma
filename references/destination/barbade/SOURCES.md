@@ -11,3 +11,6 @@
 | `xp-catamaran-tortues-2.webp` | Cloudinary « manawa » (tortue sur le récif), recadrée portrait, épave ajoutée au loin par IA | À confirmer |
 | `hero-2-ref-PAS-BARBADE.jpg` | Référence écartée : relief montagneux, pas la Barbade | |
 | `hero-2.webp` | barbadosboatcruise.com (catamaran devant la côte ouest), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-sandy-lane.webp` | The Hotel Guru (terrasse sous les arches), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-coral-reef-club.webp` | British Airways Holidays (vue aérienne, 480 px), complétée en carré et agrandie par IA | À confirmer, hôtel à vérifier |
+| `hotel-cobblers-cove.webp` | Boat International (piscine de Cobblers Cove), recadrée carrée, agrandie fidèlement | À confirmer |
