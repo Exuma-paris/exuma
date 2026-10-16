@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Des cottages disséminés sur la colline et la plage, sans réception visible depuis le sable. Aucune signalétique de resort, juste la mer et la colline.",
   keywords: ["antigua", "hermitage bay", "cottage", "adults only"],
   heroImage: {
-    src: "/destination/antigua/hotel-hermitage-bay.png",
-    alt: "Cottage privé sur la colline dominant la plage d'Hermitage Bay, Antigua",
+    src: "/destination/antigua/hotel-hermitage-bay.webp",
+    alt: "Cottages d'Hermitage Bay étagés sur la colline au-dessus de la plage, Antigua",
   },
   destinationSlugs: ["antigua"],
   sections: [],
