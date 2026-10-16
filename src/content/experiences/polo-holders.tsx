@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["barbade", "polo", "holders", "apes hill", "saint james"],
   heroImage: {
     src: "/destination/barbade/xp-polo.webp",
-    alt: "Cavaliers de polo au galop sur la pelouse de Holders, Barbade",
+    alt: "Joueurs de polo au galop sur la pelouse, entre les palmiers, Barbade",
   },
   destinationSlugs: ["barbade"],
   sections: [],

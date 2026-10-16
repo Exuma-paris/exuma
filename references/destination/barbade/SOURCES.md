@@ -14,3 +14,6 @@
 | `hotel-sandy-lane.webp` | The Hotel Guru (terrasse sous les arches), recadrée carrée, agrandie fidèlement | À confirmer |
 | `hotel-coral-reef-club.webp` | British Airways Holidays (vue aérienne, 480 px), complétée en carré et agrandie par IA | À confirmer, hôtel à vérifier |
 | `hotel-cobblers-cove.webp` | Boat International (piscine de Cobblers Cove), recadrée carrée, agrandie fidèlement | À confirmer |
+| `xp-st-nicholas-abbey.webp` | cestee.com (portail de St Nicholas Abbey), recadrée carrée, guide et trois voyageurs ajoutés par IA | À confirmer |
+| `xp-cliff-restaurant.webp` | Tripadvisor (The Cliff), agrandie fidèlement | À confirmer |
+| `xp-polo.webp` | sportingbarbados.com (match de polo), recadrée carrée, agrandie fidèlement | À confirmer |

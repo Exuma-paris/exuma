@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["barbade", "st nicholas abbey", "rhum", "saint peter", "cherry tree hill", "plantation"],
   heroImage: {
     src: "/destination/barbade/xp-st-nicholas-abbey.webp",
-    alt: "Façade jacobéenne de St Nicholas Abbey entre les palmiers, Barbade",
+    alt: "Guide et voyageurs franchissant le portail rouge de St Nicholas Abbey, Barbade",
   },
   destinationSlugs: ["barbade"],
   sections: [],
