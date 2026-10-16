@@ -112,11 +112,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/bahamas/xp-harbour-island-1.webp",
-          alt: "Sable rose de Pink Sands Beach à Harbour Island au lever du jour",
+          alt: "Sable rose de Pink Sands Beach et eau claire, vus du ciel, Harbour Island",
         },
         right: {
           src: "/destination/bahamas/xp-harbour-island-2.webp",
-          alt: "Longue plage de sable rose de Harbour Island et bateau au mouillage, vus du ciel",
+          alt: "Banc de sable rose serpentant dans le lagon turquoise, Bahamas",
         },
       },
       text: {

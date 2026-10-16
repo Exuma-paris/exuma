@@ -39,3 +39,5 @@ Les fichiers de référence sont arrivés en double extension (`hero-1.png.png`)
 | `map-andros.webp`              | `map-andros-ref.png`                | Gemini `--inspire` — image neuve | image générée |
 | `map-abacos.webp`              | `map-abacos-ref.png`                | Gemini `--inspire` — image neuve | image générée |
 | `map-long-island.webp`         | `map-long-island-ref.png`           | Gemini `--inspire` — image neuve | image générée |
+| `xp-harbour-island-1.webp` | IA (mode --inspire) d'après une miniature Google Images (sable rose vu du ciel), refaite le 16/10/2026 | |
+| `xp-harbour-island-2.webp` | Miniature Google Images (banc de sable rose), agrandie fidèlement, saturation adoucie ; aspect possiblement retouché à l'origine | À confirmer |
