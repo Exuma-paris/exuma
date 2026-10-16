@@ -12,3 +12,5 @@ Références fournies par Thea le 16/10/2026.
 | `hero-3.webp` | beachatlas (plage de sable rose de Barbuda), recadrée, agrandie fidèlement, turquoise adouci | À confirmer |
 | `xp-barbuda-1.webp` | static-rmg.be (sable rose), recadrée | À confirmer |
 | `xp-barbuda-2.webp` | IA (mode --inspire) d'après une photo Alamy à filigrane, fond de mer à la demande de Thea | |
+| `xp-catamaran-cades-reef.webp` | Miniature Google Images (récif), catamaran ajouté par IA | À confirmer |
+| `xp-cheval-plage.webp` | IA (mode --inspire) d'après une photo de la Vendée, adaptée à une plage d'Antigua | |
