@@ -151,8 +151,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Trois maisons, trois Chili",
       description:
-        "Une villa avec son guide et son 4x4 face au massif du Paine, une maison basse à la sortie de San Pedro, et un vignoble de Millahue confié à des artistes.",
-      slugs: ["awasi-patagonia", "explora-atacama", "vik-chile"],
+        "Une villa avec son guide et son 4x4 face au massif du Paine, des maisons de pisé au cœur de San Pedro, et un vignoble de Millahue confié à des artistes.",
+      slugs: ["awasi-patagonia", "awasi-atacama", "vik-chile"],
     },
 
     {

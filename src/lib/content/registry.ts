@@ -597,7 +597,7 @@ import { accommodation as amankora } from "@/content/accommodations/amankora";
 import { accommodation as sixSensesBhutan } from "@/content/accommodations/six-senses-bhutan";
 import { accommodation as gangteyLodge } from "@/content/accommodations/gangtey-lodge";
 import { accommodation as awasiPatagonia } from "@/content/accommodations/awasi-patagonia";
-import { accommodation as exploraAtacama } from "@/content/accommodations/explora-atacama";
+import { accommodation as awasiAtacama } from "@/content/accommodations/awasi-atacama";
 import { accommodation as vikChile } from "@/content/accommodations/vik-chile";
 import { accommodation as chilenoBayAuberge } from "@/content/accommodations/chileno-bay-auberge";
 import { accommodation as fourSeasonsLosCabos } from "@/content/accommodations/four-seasons-los-cabos";
@@ -1212,7 +1212,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   casaVelhaDoPalheiro,
   castelloDelSoleAscona,
   chableYucatan,
-  exploraAtacama,
+  awasiAtacama,
   chevalBlancRandheli,
   eoloPatagonia,
   fasanoSalvador,
