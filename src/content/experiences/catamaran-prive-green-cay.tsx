@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["bahamas", "green cay", "nassau", "catamaran", "tortues"],
   heroImage: {
     src: "/destination/bahamas/xp-catamaran-green-cay.webp",
-    alt: "Catamaran privé au mouillage devant une caye déserte, aux Bahamas",
+    alt: "Nageuse aux côtés d'une tortue verte dans l'eau claire de Green Cay, Bahamas",
   },
   destinationSlugs: ["bahamas"],
   sections: [],
