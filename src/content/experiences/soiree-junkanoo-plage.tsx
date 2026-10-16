@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["bahamas", "junkanoo", "nassau", "musique", "fete"],
   heroImage: {
     src: "/destination/bahamas/xp-junkanoo.webp",
-    alt: "Tambour et costume de plumes d'un danseur de Junkanoo dans une rue de Nassau",
+    alt: "Danseurs de Junkanoo en costumes de franges et de plumes sur la plage, devant la table du dîner au coucher du soleil, Bahamas",
   },
   destinationSlugs: ["bahamas"],
   sections: [],
