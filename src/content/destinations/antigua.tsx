@@ -40,7 +40,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/antigua/hero-2.webp",
-          alt: "Voiliers mouillés dans la baie d'English Harbour à Antigua",
+          alt: "Voilier au mouillage dans une baie abritée de la côte ouest d'Antigua",
         },
         {
           src: "/destination/antigua/hero-3.webp",
@@ -80,7 +80,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/antigua/full-image.png",
+        src: "/destination/antigua/full-image.webp",
         alt: "Baie d'English Harbour vue du fort Shirley Heights lors d'un voyage à Antigua",
       },
       height: 600,
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/antigua/split-1.png",
-          alt: "Cottage privé sur une colline dominant une plage d'Antigua",
+          src: "/destination/antigua/split-1.webp",
+          alt: "Kayak sur le lagon turquoise devant une longue plage bordée de palmiers, Antigua",
         },
         {
-          src: "/destination/antigua/split-2.png",
-          alt: "Ponton en bois sur une crique isolée de la côte nord d'Antigua",
+          src: "/destination/antigua/split-2.webp",
+          alt: "Pavillon de bois sur pilotis entre les cocotiers d'une plage d'Antigua",
         },
       ],
     },
