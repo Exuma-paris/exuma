@@ -181,13 +181,13 @@ export const sections: Section[] = [
         },
       },
       {
-        // TODO : portrait et nom complet à venir.
+        // TODO : nom complet à venir.
         title: "Hélène",
         description:
           "Travel Designer",
         image: {
-          src: "/collaborateurs/portrait-attente.png",
-          alt: "Portrait à venir de Hélène",
+          src: "/collaborateurs/helene-chair-hd.jpg",
+          alt: "Portrait de Hélène, Exuma",
         },
       },
       {
