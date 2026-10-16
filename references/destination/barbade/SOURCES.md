@@ -10,3 +10,4 @@
 | `xp-catamaran-tortues-1.webp` | Tripadvisor (catamaran au-dessus des épaves), agrandie fidèlement | À confirmer |
 | `xp-catamaran-tortues-2.webp` | Cloudinary « manawa » (tortue sur le récif), recadrée portrait, épave ajoutée au loin par IA | À confirmer |
 | `hero-2-ref-PAS-BARBADE.jpg` | Référence écartée : relief montagneux, pas la Barbade | |
+| `hero-2.webp` | barbadosboatcruise.com (catamaran devant la côte ouest), recadrée carrée, agrandie fidèlement | À confirmer |

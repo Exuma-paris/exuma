@@ -40,8 +40,8 @@ export const destination: Destination = {
           alt: "Plage de sable clair bordée d’arbres sur la Platinum Coast, Barbade",
         },
         {
-          src: "/destination/barbade/hero-2.png",
-          alt: "Voiliers mouillés dans la baie de Carlisle Bay à la Barbade",
+          src: "/destination/barbade/hero-2.webp",
+          alt: "Catamaran privé au mouillage devant une plage de la côte ouest, nageurs autour, Barbade",
         },
         {
           src: "/destination/barbade/hero-3.webp",
@@ -135,10 +135,10 @@ export const destination: Destination = {
       kind: "experience",
       background: "bg-white",
       eyebrow: "Expériences et activités à la Barbade",
-      heading: "Mount Gay, une table sur la falaise, une grotte sous les collines",
+      heading: "Une abbaye de planteurs, une table sur la falaise, un match de polo",
       description:
-        "Une dégustation à la plus ancienne distillerie de rhum du monde, un dîner au-dessus des vagues à St. James, une descente en tram sous les collines calcaires du centre de l'île. Trois façons d'entrer dans l'île, que nous réservons avant votre arrivée.",
-      slugs: ["degustation-mount-gay", "diner-the-cliff", "harrisons-cave"],
+        "Une visite privée de St Nicholas Abbey et de sa distillerie, un dîner au-dessus des vagues à St. James, un dimanche de polo sur la côte ouest. Trois façons d'entrer dans l'île, que nous réservons avant votre arrivée.",
+      slugs: ["visite-privee-st-nicholas-abbey", "diner-the-cliff", "polo-holders"],
     },
 
     {
@@ -228,7 +228,7 @@ export const destination: Destination = {
             "Adresses confidentielles à la Barbade : criques et tables discrètes",
             "Suite avec vue sur la mer à la Barbade",
             "Concierge Exuma coordonnant un transfert privé à la Barbade",
-            "Guide privé commentant la distillerie Mount Gay à la Barbade",
+            "Guide privé commentant la distillerie de St Nicholas Abbey à la Barbade",
           ][i],
         },
       })),
@@ -534,7 +534,7 @@ export const destination: Destination = {
           quote:
             "Le dîner au Cliff Restaurant reste le souvenir le plus net du séjour : une table sur la falaise, les vagues juste en dessous, et une carte différente chaque soir. Notre travel designer l'avait réservée dès la confirmation.",
           image: {
-            src: "/destination/barbade/hero-2.png",
+            src: "/destination/barbade/hero-2.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "", // TODO: replace with real testimonial
@@ -589,7 +589,7 @@ export const destination: Destination = {
         {
           question: "Que faire à la Barbade en une semaine ?",
           answer:
-            "Une semaine permet de combiner la Platinum Coast, une matinée à Bridgetown et sa Garrison classée à l'UNESCO, une dégustation à la distillerie Mount Gay, une sortie en catamaran à Carlisle Bay et une excursion côté Atlantique à Bathsheba, sans jamais courir d'un point à l'autre.",
+            "Une semaine permet de combiner la Platinum Coast, une matinée à Bridgetown et sa Garrison classée à l'UNESCO, une visite privée de St Nicholas Abbey, une sortie en catamaran à Carlisle Bay et une excursion côté Atlantique à Bathsheba, sans jamais courir d'un point à l'autre.",
         },
         {
           question: "Quel budget prévoir pour un voyage à la Barbade ?",
