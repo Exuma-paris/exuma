@@ -1,33 +1,27 @@
-# Reference images — Singapour
+# Sources des images — Singapour
 
-Each generated image in `public/destination/singapour/` is produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
+Références fournies par Thea le 14/10/2026.
 
-| Output                              | Reference file                        | Source URL | License |
-| ------------------------------------ | -------------------------------------- | ---------- | ------- |
-| `hero-1.png`                         | `hero-1-ref.jpg`                       | TODO       | TODO    |
-| `hero-2.png`                         | `hero-2-ref.jpg`                       | TODO       | TODO    |
-| `hero-3.png`                         | `hero-3-ref.jpg`                       | TODO       | TODO    |
-| `full-image.png`                     | `full-image-ref.jpg`                   | TODO       | TODO    |
-| `split-1.png`                        | `split-1-ref.jpg`                      | TODO       | TODO    |
-| `split-2.png`                        | `split-2-ref.jpg`                      | TODO       | TODO    |
-| `xp-paddock-f1-1.png`                | `xp-paddock-f1-1-ref.jpg`               | TODO       | TODO    |
-| `xp-paddock-f1-2.png`                | `xp-paddock-f1-2-ref.jpg`               | TODO       | TODO    |
-| `xp-diner-candlenut.png`             | `xp-diner-candlenut-ref.jpg`            | TODO       | TODO    |
-| `xp-jardins-botaniques.png`          | `xp-jardins-botaniques-ref.jpg`         | TODO       | TODO    |
-| `xp-croisiere-iles-sud.png`          | `xp-croisiere-iles-sud-ref.jpg`         | TODO       | TODO    |
-| `hotel-capella-singapore.png`        | `hotel-capella-singapore-ref.jpg`       | TODO       | TODO    |
-| `hotel-raffles-singapore.png`        | `hotel-raffles-singapore-ref.jpg`       | TODO       | TODO    |
-| `hotel-six-senses-duxton.png`        | `hotel-six-senses-duxton-ref.jpg`       | TODO       | TODO    |
-| `bento-map.png`                      | `bento-map-ref.jpg`                    | TODO       | TODO    |
-| `bento-adresses.png`                 | `bento-adresses-ref.jpg`                | TODO       | TODO    |
-| `bento-hebergements.png`             | `bento-hebergements-ref.jpg`            | TODO       | TODO    |
-| `bento-conciergerie.png`             | `bento-conciergerie-ref.jpg`            | TODO       | TODO    |
-| `bento-experiences.png`              | `bento-experiences-ref.jpg`             | TODO       | TODO    |
-| `map-marina-bay.png`                 | `map-marina-bay-ref.jpg`                | TODO       | TODO    |
-| `map-chinatown.png`                  | `map-chinatown-ref.jpg`                 | TODO       | TODO    |
-| `map-sentosa.png`                    | `map-sentosa-ref.jpg`                   | TODO       | TODO    |
-| `map-gardens-by-the-bay.png`         | `map-gardens-by-the-bay-ref.jpg`        | TODO       | TODO    |
-| `map-tanjong-pagar.png`              | `map-tanjong-pagar-ref.jpg`             | TODO       | TODO    |
-| `map-katong.png`                     | `map-katong-ref.jpg`                    | TODO       | TODO    |
-
-Testimonial portraits reuse `hero-1.png` / `hero-2.png` / `hero-3.png` — no separate files.
+| Image | Source | Droits |
+| --- | --- | --- |
+| `hero-1.webp` | Wikimedia Commons, « Singapore skyline at sunset viewed from Gardens by the Bay East - 20120426 » | Licence Commons (CC BY-SA), crédit à indiquer |
+| `hero-2.webp` | ctfassets (Chinatown), ciel repassé en bleu par IA | À confirmer |
+| `hero-3.webp` | beachatlas (Sentosa), agrandie fidèlement | À confirmer |
+| `full-image.webp` | IA (mode --inspire) d'après une photo Adobe Stock à filigrane | |
+| `split-1.webp` | IA (mode --inspire) d'après une couverture de livre (Black and White, The Singapore House) | |
+| `split-2.webp` | Ramboll (Cloud Forest, Gardens by the Bay) | À confirmer |
+| `xp-paddock-f1-1.webp` | motorsinside.com, logo retiré par IA | À confirmer |
+| `xp-paddock-f1-2.webp` | IA (mode --inspire) d'après une photo McLaren ; sans logo ni pilote identifiable | |
+| `hotel-capella-singapore.webp` | Photo officielle (capellahotels.com), agrandie fidèlement | Autorisation à confirmer |
+| `hotel-raffles-singapore.webp` | Tablet Hotels (photo de l'hôtel) | Autorisation à confirmer |
+| `hotel-six-senses-duxton.webp` | Expedia (photo de l'hôtel), recadrée en carré | Autorisation à confirmer |
+| `xp-diner-candlenut.webp` | The Infatuation (photo presse de Candlenut), recadrée en carré | À confirmer |
+| `xp-jardins-botaniques.webp` | Miniature Google Images (arches d'orchidées), personnes remplacées par IA, agrandie, filtre chaud | À confirmer |
+| `xp-croisiere-iles-sud.webp` | Miniature Google Images (île des îles du Sud), yacht ajouté par IA, agrandie, filtre chaud | À confirmer |
+| `map-tanjong-pagar.webp` | Commons, « Tanjong Pagar Road 4 » | CC BY 2.5 |
+| `map-katong.webp` | Commons, « Colorful shophouses in Koon Seng Road, Singapore » | CC BY-SA 4.0 |
+| `map-gardens-by-the-bay.webp` | Commons, « Gardens by the Bay, Marina Bay, Singapur, 2023-08-19, DD 29-31 HDR » | CC BY-SA 4.0 |
+| `map-marina-bay`, `map-chinatown`, `map-sentosa` | Recadrages de hero-1, hero-2, hero-3 | voir plus haut |
+| `bento-adresses.webp`, `bento-experiences.webp` | IA, génération texte | |
+| `bento-hebergements.webp` | Même photo que `hotel-capella-singapore.webp` | À confirmer |
+| `bento-conciergerie.webp` | Photo d'équipe Exuma | Exuma |

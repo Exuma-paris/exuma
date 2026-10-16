@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Cinq millions et demi d'habitants sur sept cent trente kilomètres carrés, entre Marina Bay, Chinatown et Kampong Glam. Les Supertrees de Gardens by the Bay culminent à seize mètres, la voûte végétale de Jewel Changi grimpe sur sept étages autour de la plus haute cascade intérieure du monde. On y atterrit pour deux jours d'escale. On y reste, en général, pour une semaine entière.", // TODO: verify population and area figures
       images: [
         {
-          src: "/destination/singapour/hero-1.png",
-          alt: "Skyline de Marina Bay et Supertrees de Gardens by the Bay à Singapour",
+          src: "/destination/singapour/hero-1.webp",
+          alt: "Marina Bay Sands, la grande roue et la skyline de Singapour au coucher du soleil",
         },
         {
-          src: "/destination/singapour/hero-2.png",
-          alt: "Ruelle de shophouses colorées à Chinatown, Singapour",
+          src: "/destination/singapour/hero-2.webp",
+          alt: "Shophouses colorées et lanternes rouges d'une rue de Chinatown, Singapour",
         },
         {
-          src: "/destination/singapour/hero-3.png",
-          alt: "Plage et jungle de l'île de Sentosa au sud de Singapour",
+          src: "/destination/singapour/hero-3.webp",
+          alt: "Plage de sable blanc et lagon de l'île de Sentosa vus du ciel, Singapour",
         },
       ],
     },
@@ -79,8 +79,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/singapour/full-image.png",
-        alt: "Vue aérienne de Marina Bay Sands et du quartier des affaires de Singapour au crépuscule",
+        src: "/destination/singapour/full-image.webp",
+        alt: "Vue aérienne de Marina Bay Sands et des dômes de Gardens by the Bay au coucher du soleil",
       },
       height: 600,
     },
@@ -96,12 +96,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/singapour/split-1.png",
+          src: "/destination/singapour/split-1.webp",
           alt: "Bungalow colonial noir et blanc caché dans la verdure de Singapour",
         },
         {
-          src: "/destination/singapour/split-2.png",
-          alt: "Salon d'un club privé confidentiel à Singapour",
+          src: "/destination/singapour/split-2.webp",
+          alt: "Passerelle dans la brume du Cloud Forest de Gardens by the Bay, Singapour",
         },
       ],
     },
@@ -110,12 +110,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/singapour/xp-paddock-f1-1.png",
-          alt: "Vue du circuit de Marina Bay depuis le paddock club du Grand Prix de Singapour",
+          src: "/destination/singapour/xp-paddock-f1-1.webp",
+          alt: "Le circuit de Marina Bay illuminé la nuit du Grand Prix, vu d'en haut",
         },
         right: {
-          src: "/destination/singapour/xp-paddock-f1-2.png",
-          alt: "Monoplaces de Formule 1 sous les projecteurs du circuit de Marina Bay",
+          src: "/destination/singapour/xp-paddock-f1-2.webp",
+          alt: "Monoplace de Formule 1 sous les projecteurs du circuit de Marina Bay",
         },
       },
       text: {
@@ -123,7 +123,7 @@ export const destination: Destination = {
         heading: "La seule nuit de l'année où la F1 roule sous les étoiles",
         columns: [
           "Depuis 2008, le Grand Prix de Singapour est la première course de nuit de l'histoire de la Formule 1. Le Marina Bay Street Circuit trace vingt-trois virages entre le Padang, l'Esplanade et le pont Anderson, sous des milliers de projecteurs installés le long de cinq kilomètres de tracé. La ville ferme ses rues pendant trois jours pour laisser passer les monoplaces à quelques dizaines de mètres des terrasses de Boat Quay.", // TODO: verify projector count
-          "Le paddock club donne accès aux stands, aux garages d'écurie et aux terrasses réservées aux invités des équipes, un accès qui ne s'obtient normalement que par une écurie ou un sponsor. On y suit les qualifications à quelques mètres des mécaniciens, on y dîne avant que la piste ne s'illumine. Ce n'est pas un billet VIP standard, c'est l'un des accès les plus difficiles à obtenir du calendrier sportif mondial.", // TODO: verify paddock club access details
+          "Nous réservons le Paddock Club, l'hospitalité officielle de la Formule 1 : des salons climatisés et des terrasses juste au-dessus des garages des écuries, face à la ligne droite des stands. On y dîne pendant que la piste s'illumine, avec les mécaniciens au travail quelques mètres plus bas. Les places se réservent plusieurs mois à l'avance.",
         ],
       },
     },
@@ -223,13 +223,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/singapour/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/singapour/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé à Singapour",
-            "Ruelle de shophouses de Tanjong Pagar, adresse confidentielle à Singapour",
-            "Chambre d'un hôtel confidentiel à Singapour",
-            "Concierge Exuma à Marina Bay, Singapour",
-            "Dîner privé chez un chef à Singapour",
+            "Bar confidentiel dans une shophouse de Tanjong Pagar, Singapour",
+            "Manoir colonial du Capella Singapore à Sentosa",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Dîner privé sur un toit face à Marina Bay, Singapour",
           ][i],
         },
       })),
@@ -250,8 +250,8 @@ export const destination: Destination = {
           description:
             "Le front de mer construit sur des terres gagnées sur l'eau, entre Marina Bay Sands, l'Esplanade et les Supertrees de Gardens by the Bay. Le skyline se regarde surtout après la tombée de la nuit.",
           image: {
-            src: "/destination/singapour/map-marina-bay.png",
-            alt: "Skyline de Marina Bay de nuit à Singapour",
+            src: "/destination/singapour/map-marina-bay.webp",
+            alt: "Marina Bay Sands et la skyline de Singapour au coucher du soleil",
           },
           // TODO: verify coords
           coordinates: { lat: 1.2836, lng: 103.8607 },
@@ -261,8 +261,8 @@ export const destination: Destination = {
           description:
             "Shophouses restaurées, temple hindou Sri Mariamman et temple bouddhiste de la Relique de la Dent de Bouddha se côtoient sur quelques rues. Le marché de nuit s'installe dès 18 heures.",
           image: {
-            src: "/destination/singapour/map-chinatown.png",
-            alt: "Shophouses de Chinatown à Singapour",
+            src: "/destination/singapour/map-chinatown.webp",
+            alt: "Rue de Chinatown et ses lanternes rouges, Singapour",
           },
           // TODO: verify coords
           coordinates: { lat: 1.2831, lng: 103.8442 },
@@ -272,8 +272,8 @@ export const destination: Destination = {
           description:
             "L'île-resort au sud de la ville principale, plages, forts coloniaux (Fort Siloso) et clubs de plage. On y accède par câble aérien ou par une chaussée de moins d'un kilomètre.",
           image: {
-            src: "/destination/singapour/map-sentosa.png",
-            alt: "Plage et front de mer de l'île de Sentosa",
+            src: "/destination/singapour/map-sentosa.webp",
+            alt: "Plage de sable blanc et lagon de Sentosa vus du ciel",
           },
           // TODO: verify coords
           coordinates: { lat: 1.2494, lng: 103.8303 },
@@ -283,8 +283,8 @@ export const destination: Destination = {
           description:
             "Cent une hectares de jardins futuristes, Supertrees et deux dômes climatisés (Flower Dome, Cloud Forest) qui recréent des climats méditerranéen et tropical de montagne.", // TODO: verify area
           image: {
-            src: "/destination/singapour/map-gardens-by-the-bay.png",
-            alt: "Supertrees de Gardens by the Bay illuminés à Singapour",
+            src: "/destination/singapour/map-gardens-by-the-bay.webp",
+            alt: "Supertrees illuminés de Gardens by the Bay et Marina Bay Sands, Singapour",
           },
           // TODO: verify coords
           coordinates: { lat: 1.2816, lng: 103.8636 },
@@ -294,8 +294,8 @@ export const destination: Destination = {
           description:
             "Ancien quartier des docks devenu le cœur discret de la ville, shophouses de Duxton Hill reconverties en bars à cocktails et boutique-hôtels, à distance du bruit d'Orchard Road.",
           image: {
-            src: "/destination/singapour/map-tanjong-pagar.png",
-            alt: "Shophouses de Duxton Hill à Tanjong Pagar, Singapour",
+            src: "/destination/singapour/map-tanjong-pagar.webp",
+            alt: "Rangée de shophouses colorées de Tanjong Pagar, Singapour",
           },
           // TODO: verify coords
           coordinates: { lat: 1.2762, lng: 103.846 },
@@ -305,7 +305,7 @@ export const destination: Destination = {
           description:
             "Le quartier peranakan par excellence, façades pastel de Koon Seng Road, laksa de Katong et boutiques de perles cousues main sur Joo Chiat Road.",
           image: {
-            src: "/destination/singapour/map-katong.png",
+            src: "/destination/singapour/map-katong.webp",
             alt: "Façades peranakan colorées de Koon Seng Road à Katong, Singapour",
           },
           // TODO: verify coords
@@ -522,7 +522,7 @@ export const destination: Destination = {
           quote:
             "Trois jours à Singapour organisés en marge d'un voyage d'affaires, et pourtant rien n'a eu l'air improvisé. Le dîner chez Candlenut, l'accès paddock le soir de la course, tout s'est enchaîné sans un seul temps mort.",
           image: {
-            src: "/destination/singapour/hero-1.png",
+            src: "/destination/singapour/hero-1.webp",
             alt: "Portrait de Nicolas", // TODO: verify
           },
           name: "Nicolas", // TODO: verify
@@ -533,7 +533,7 @@ export const destination: Destination = {
           quote:
             "Nous cherchions autre chose qu'une simple escale entre deux vols. Notre travel designer nous a fait découvrir un autre visage de Singapour : le jardin d'orchidées à l'aube, encore désert, une nuit à Sentosa loin de l'agitation.",
           image: {
-            src: "/destination/singapour/hero-2.png",
+            src: "/destination/singapour/hero-2.webp",
             alt: "Portrait de Claire", // TODO: verify
           },
           name: "Claire", // TODO: verify
@@ -544,7 +544,7 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marqué, c'est la fluidité entre les mondes : Chinatown le matin, un club confidentiel le soir, jamais l'impression de changer d'interlocuteur ni de registre.",
           image: {
-            src: "/destination/singapour/hero-3.png",
+            src: "/destination/singapour/hero-3.webp",
             alt: "Portrait de Marc", // TODO: verify
           },
           name: "Marc", // TODO: verify
