@@ -29,3 +29,13 @@ Each generated image in `public/destination/galapagos/` was produced by feeding 
 | `map-punta-suarez.png`               | `map-punta-suarez-ref.jpg`             | TODO       | TODO    |
 | `map-post-office-bay.png`            | `map-post-office-bay-ref.jpg`         | TODO       | TODO    |
 | `map-leon-dormido.png`               | `map-leon-dormido-ref.jpg`             | TODO       | TODO    |
+| `map-puerto-ayora.webp` | Wikimedia Commons : File:Water taxi in Puerto Ayora on the Island of Santa Cruz in the Galapagos photo by Alvaro Sevilla Design.JPG | CC BY-SA 3.0 |
+| `map-bartolome.webp` | Wikimedia Commons : File:Pinnacle Rock (33906996938).jpg | CC BY-SA 2.0 |
+| `map-sierra-negra.webp` | Wikimedia Commons : File:Sierra Negra volcano Isabela Island Galápagos Ecuador DSC00328 ad.JPG | CC BY-SA 4.0 |
+| `map-punta-suarez.webp` | Wikimedia Commons : File:Waved Albatross (Phoebastria irrorata) -Espanola -Punta Suarez3.jpg | CC BY-SA 2.0 |
+| `map-post-office-bay.webp` | Wikimedia Commons : File:Post office-Floreana.jpg | CC BY-SA 3.0 |
+| `map-leon-dormido.webp` | Wikimedia Commons : File:León Dormido (Kicker Rock).JPG | CC BY-SA 3.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+| `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |

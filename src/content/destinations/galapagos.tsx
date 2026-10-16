@@ -227,13 +227,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/galapagos/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/galapagos/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure aux Galápagos, île par île",
-            "Adresses confidentielles aux Galápagos, loin des croisières de masse",
-            "Suite avec vue sur l'océan aux Galápagos",
-            "Concierge Exuma coordonnant un transfert privé aux Galápagos",
-            "Guide naturaliste commentant la faune endémique des Galápagos",
+            "Petit yacht privé seul dans une crique de lave aux Galápagos",
+            "Suite ouverte sur l’océan et la côte de lave aux Galápagos",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Guide naturaliste montrant une tortue géante à deux voyageurs, Galápagos",
           ][i],
         },
       })),
@@ -254,8 +254,8 @@ export const destination: Destination = {
           description:
             "Le port principal de l'archipel, sur Santa Cruz. La station de recherche élève des tortues géantes depuis 1965 pour repeupler les îles où l'espèce avait disparu.",
           image: {
-            src: "/destination/galapagos/map-puerto-ayora.png",
-            alt: "Quai de Puerto Ayora et pélicans bruns, Santa Cruz, Galápagos",
+            src: "/destination/galapagos/map-puerto-ayora.webp",
+            alt: "Bateaux au mouillage dans la baie de Puerto Ayora, Santa Cruz, Galápagos",
           },
           // TODO: verify coords
           coordinates: { lat: -0.7393, lng: -90.3518 },
@@ -265,7 +265,7 @@ export const destination: Destination = {
           description:
             "Un paysage volcanique quasi lunaire, dominé par un piton de tuf érodé. Les manchots des Galápagos, seuls manchots à vivre sous l'équateur, nagent au pied du rocher.",
           image: {
-            src: "/destination/galapagos/map-bartolome.png",
+            src: "/destination/galapagos/map-bartolome.webp",
             alt: "Pinnacle Rock et paysage volcanique de l'île Bartolomé, Galápagos",
           },
           // TODO: verify coords
@@ -276,7 +276,7 @@ export const destination: Destination = {
           description:
             "L'une des plus vastes caldeiras actives au monde, environ dix kilomètres de diamètre. La dernière éruption remonte à 2018, encore visible dans les coulées de lave noire.",
           image: {
-            src: "/destination/galapagos/map-sierra-negra.png",
+            src: "/destination/galapagos/map-sierra-negra.webp",
             alt: "Caldeira du volcan Sierra Negra sur l'île Isabela, Galápagos",
           },
           // TODO: verify coords
@@ -287,7 +287,7 @@ export const destination: Destination = {
           description:
             "L'unique site de nidification au monde de l'albatros des Galápagos. Le parc national limite le nombre de visiteurs par jour sur ce sentier de moins de trois kilomètres.",
           image: {
-            src: "/destination/galapagos/map-punta-suarez.png",
+            src: "/destination/galapagos/map-punta-suarez.webp",
             alt: "Albatros des Galápagos à Punta Suárez, île d'Española",
           },
           // TODO: verify coords
@@ -298,8 +298,8 @@ export const destination: Destination = {
           description:
             "Un tonneau en bois sert de boîte aux lettres officieuse depuis 1793 : on y dépose des cartes postales à charge pour un futur visiteur de les livrer en main propre.",
           image: {
-            src: "/destination/galapagos/map-post-office-bay.png",
-            alt: "Tonneau postal historique de Post Office Bay, île de Floreana, Galápagos",
+            src: "/destination/galapagos/map-post-office-bay.webp",
+            alt: "Tonneau postal et panneaux laissés par les marins à Post Office Bay, Floreana, Galápagos",
           },
           // TODO: verify coords
           coordinates: { lat: -1.22, lng: -90.43 },
@@ -309,7 +309,7 @@ export const destination: Destination = {
           description:
             "Deux pitons rocheux fendus en deux par l'érosion, qui émergent de l'océan comme un lion couché. Une faille étroite entre les deux blocs se plonge en pleine mer.",
           image: {
-            src: "/destination/galapagos/map-leon-dormido.png",
+            src: "/destination/galapagos/map-leon-dormido.webp",
             alt: "Formation rocheuse de León Dormido (Kicker Rock), San Cristóbal, Galápagos",
           },
           // TODO: verify coords
