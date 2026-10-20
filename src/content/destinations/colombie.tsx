@@ -96,12 +96,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/colombie/split-1.png",
-          alt: "Balcons de bois fleuris dans les ruelles de la vieille ville de Carthagène des Indes",
+          src: "/destination/colombie/split-1.webp",
+          alt: "Rue fleurie de bougainvilliers menant à la cathédrale de Carthagène des Indes",
         },
         {
-          src: "/destination/colombie/split-2.png",
-          alt: "Remparts historiques de Carthagène au coucher du soleil sur la mer des Caraïbes",
+          src: "/destination/colombie/split-2.webp",
+          alt: "Deux promeneurs assis sur les remparts de Carthagène au coucher du soleil",
         },
       ],
     },
