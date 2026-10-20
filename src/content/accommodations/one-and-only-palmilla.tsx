@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "one-and-only",
   ],
   heroImage: {
-    src: "/destination/los-cabos/hotel-one-and-only-palmilla.png",
-    alt: "One&Only Palmilla sur le promontoire de la mer de Cortez, Los Cabos",
+    src: "/destination/los-cabos/hotel-one-and-only-palmilla.webp",
+    alt: "Transats et bassin sous les palmiers devant une maison blanche à arches du One&Only Palmilla",
   },
   destinationSlugs: ["los-cabos"],
   sections: [],

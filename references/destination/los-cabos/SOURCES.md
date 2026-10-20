@@ -17,3 +17,6 @@
 | `bento-adresses.webp`, `bento-experience.webp` | Générées par IA (gen_text) | image générée |
 | `split-1.webp` | Miniature Google Images (raie-aigle vue du ciel), recadrée 3:4, agrandie fidèlement | À confirmer |
 | `split-2.webp` | Reddit i.redd.it (rue de San José del Cabo), recadrée carrée, masques retirés par IA | À confirmer |
+| `hotel-four-seasons.webp` | Condé Nast Traveler (crédit Four Seasons, villa), recadrée carrée | À confirmer |
+| `hotel-one-and-only-palmilla.webp` | Miniature Google Images (piscine du Palmilla), recadrée carrée, agrandie par IA | À confirmer |
+| `hotel-chileno-bay.webp` | Expedia (suite face à la mer), recadrée carrée, agrandie fidèlement | À confirmer |
