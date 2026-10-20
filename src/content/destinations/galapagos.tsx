@@ -36,16 +36,16 @@ export const destination: Destination = {
         "À mille kilomètres des côtes de l'Équateur, treize îles principales et plus de cent vingt îlots concentrent des espèces qui n'existent nulle part ailleurs : iguane marin, tortue géante, albatros des Galápagos. Charles Darwin y a passé cinq semaines en 1835. Chaque itinéraire se construit autour d'un yacht et d'un nombre de visiteurs strictement limité par le parc national.",
       images: [
         {
-          src: "/destination/galapagos/hero-1.png",
-          alt: "Iguanes marins sur les rochers volcaniques des Galápagos",
+          src: "/destination/galapagos/hero-1.webp",
+          alt: "Iguane marin et son petit sur la roche volcanique face à l'océan, Galápagos",
         },
         {
-          src: "/destination/galapagos/hero-2.png",
-          alt: "Yacht d'expédition mouillé au large d'une île des Galápagos",
+          src: "/destination/galapagos/hero-2.webp",
+          alt: "Yacht d'expédition au mouillage devant León Dormido, San Cristóbal, Galápagos",
         },
         {
-          src: "/destination/galapagos/hero-3.png",
-          alt: "Tortue géante des Galápagos dans les hauts plateaux de Santa Cruz",
+          src: "/destination/galapagos/hero-3.webp",
+          alt: "Tortue géante et héron garde-bœufs dans les herbes des hauts plateaux de Santa Cruz",
         },
       ],
     },
@@ -82,8 +82,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/galapagos/full-image.png",
-        alt: "Vue aérienne de la caldeira du volcan Sierra Negra sur l'île Isabela, Galápagos",
+        src: "/destination/galapagos/full-image.webp",
+        alt: "Caldeira du volcan Sierra Negra et sa lave noire bordée de crêtes vertes, île Isabela, Galápagos",
       },
       height: 600,
     },
@@ -99,8 +99,8 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/galapagos/split-1.png",
-          alt: "Pêcheurs déchargeant leur prise au quai de Puerto Ayora, Galápagos",
+          src: "/destination/galapagos/split-1.webp",
+          alt: "Barques de pêcheurs et pélicans dans la baie de Puerto Ayora, Santa Cruz, Galápagos",
         },
         {
           src: "/destination/galapagos/split-2.png",

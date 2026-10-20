@@ -39,3 +39,9 @@ Each generated image in `public/destination/galapagos/` was produced by feeding 
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
 | `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |
+| `hero-1.webp` | iStock 145053763 (aperçu), recadrée carrée, agrandie fidèlement | Licence iStock à acheter |
+| `hero-2.webp` | incatrek-ecuador.com (yacht devant Kicker Rock), recadrée carrée, ciel bleu par IA | À confirmer |
+| `hero-3.webp` | civitatis.com (tortue et héron, El Chato), recadrée carrée, agrandie fidèlement | À confirmer |
+| `full-image.webp` | civitatis.com (caldeira Sierra Negra), recadrée 16:9, agrandie fidèlement | À confirmer |
+| `split-1.webp` | lookoom.home.blog (baie de Puerto Ayora), recadrée 3:4 sans la signature, agrandie fidèlement | À confirmer |
+| `xp-tortues-santa-cruz.webp` | venturatravel.org (tortue géante, Santa Cruz), recadrée carrée | À confirmer |
