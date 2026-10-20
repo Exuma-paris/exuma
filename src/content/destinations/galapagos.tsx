@@ -285,7 +285,7 @@ export const destination: Destination = {
         {
           title: "Punta Suárez, Española",
           description:
-            "L'unique site de nidification au monde de l'albatros des Galápagos. Le parc national limite le nombre de visiteurs par jour sur ce sentier de moins de trois kilomètres.",
+            "Le site où niche la quasi-totalité des albatros des Galápagos, d'avril à décembre. Le parc national limite le nombre de visiteurs par jour sur ce sentier de moins de trois kilomètres.",
           image: {
             src: "/destination/galapagos/map-punta-suarez.webp",
             alt: "Albatros des Galápagos à Punta Suárez, île d'Española",
