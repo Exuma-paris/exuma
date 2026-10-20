@@ -41,3 +41,7 @@ Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); this 
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
 | `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |
+| `hero-1.webp` | Miniature Google Images (Ciudad Perdida), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hero-2.webp` | colombie-autrement.com (photo Jorge Ivan, Carthagène), recadrée carrée | À confirmer |
+| `hero-3.webp` | onsefait-lama-lle.fr (vallée de Cocora), recadrée carrée, agrandie fidèlement | À confirmer |
+| `full-image.webp` | World Monuments Fund (Ciudad Perdida vue du ciel), recadrée 16:9 | À confirmer |

@@ -35,16 +35,16 @@ export const destination: Destination = {
         "De Carthagène à l'Amazonie, la Colombie change de mer, de climat et d'altitude en quelques heures de vol intérieur. Les trois cordillères des Andes séparent des mondes qui semblent appartenir à des pays différents : la Zone Café à mille cinq cents mètres, le Pacifique humide du Chocó, l'Amazonie qui commence à Leticia. Chaque étape est pensée pour respecter cette diversité, sans jamais la simplifier.",
       images: [
         {
-          src: "/destination/colombie/hero-1.png",
-          alt: "Terrasses de pierre de la Ciudad Perdida au sommet de la Sierra Nevada de Santa Marta, Colombie",
+          src: "/destination/colombie/hero-1.webp",
+          alt: "Terrasses de pierre de la Ciudad Perdida dans la forêt de la Sierra Nevada de Santa Marta, Colombie",
         },
         {
-          src: "/destination/colombie/hero-2.png",
-          alt: "Balcons fleuris et façades colorées de la vieille ville de Carthagène des Indes, Colombie",
+          src: "/destination/colombie/hero-2.webp",
+          alt: "Balcons de bois peints et façades colorées de la vieille ville de Carthagène des Indes, Colombie",
         },
         {
-          src: "/destination/colombie/hero-3.png",
-          alt: "Rangs de caféiers en terrasse dans la Zone Café colombienne au lever du jour",
+          src: "/destination/colombie/hero-3.webp",
+          alt: "Palmiers à cire de la vallée de Cocora sous les nuages, Zone Café colombienne",
         },
       ],
     },
@@ -79,8 +79,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/colombie/full-image.png",
-        alt: "Vue aérienne de la Ciudad Perdida entourée de jungle dans la Sierra Nevada de Santa Marta, Colombie",
+        src: "/destination/colombie/full-image.webp",
+        alt: "Terrasses circulaires de la Ciudad Perdida vues du ciel, au milieu de la jungle de la Sierra Nevada de Santa Marta, Colombie",
       },
       height: 600,
     },
@@ -550,7 +550,7 @@ export const destination: Destination = {
           quote:
             "Quatre jours de marche jusqu'à la Ciudad Perdida, sans un autre groupe croisé sur le sentier : c'est exactement ce que nous cherchions, et Exuma a tout verrouillé des mois avant notre départ.",
           image: {
-            src: "/destination/colombie/hero-1.png",
+            src: "/destination/colombie/hero-1.webp",
             alt: "Portrait de Marion et Thomas", // TODO: verify
           },
           name: "Marion & Thomas", // TODO: verify
@@ -561,7 +561,7 @@ export const destination: Destination = {
           quote:
             "Notre travel designer nous a fait dormir dans une hacienda caféière du Quindío où la famille récolte encore le café à la main. Nos enfants s'en souviennent encore plus que de Carthagène.",
           image: {
-            src: "/destination/colombie/hero-2.png",
+            src: "/destination/colombie/hero-2.webp",
             alt: "Portrait de Frédéric", // TODO: verify
           },
           name: "Frédéric", // TODO: verify
@@ -572,7 +572,7 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marquée, c'est la cohérence de l'itinéraire malgré la diversité du pays. De Carthagène à l'Amazonie, chaque étape avait sa raison d'être.",
           image: {
-            src: "/destination/colombie/hero-3.png",
+            src: "/destination/colombie/hero-3.webp",
             alt: "Portrait de Camille", // TODO: verify
           },
           name: "Camille", // TODO: verify
