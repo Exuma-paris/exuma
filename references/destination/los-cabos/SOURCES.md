@@ -15,3 +15,5 @@
 | `bento-map.webp` | mkmap.py (contour OpenStreetMap) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experience.webp` | Générées par IA (gen_text) | image générée |
+| `split-1.webp` | Miniature Google Images (raie-aigle vue du ciel), recadrée 3:4, agrandie fidèlement | À confirmer |
+| `split-2.webp` | Reddit i.redd.it (rue de San José del Cabo), recadrée carrée, masques retirés par IA | À confirmer |

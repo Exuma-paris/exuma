@@ -112,12 +112,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/los-cabos/split-1.png",
-          alt: "Raie-aigle dans les eaux de Cabo Pulmo, mer de Cortez",
+          src: "/destination/los-cabos/split-1.webp",
+          alt: "Raie-aigle léopard vue du ciel au-dessus des fonds clairs de Cabo Pulmo, mer de Cortez",
         },
         {
-          src: "/destination/los-cabos/split-2.png",
-          alt: "San José del Cabo, district des galeries au crépuscule",
+          src: "/destination/los-cabos/split-2.webp",
+          alt: "Façades rose et bleue d'une boutique d'artisanat dans le quartier historique de San José del Cabo",
         },
       ],
     },
