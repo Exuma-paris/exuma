@@ -44,6 +44,6 @@ Each generated image in `public/destination/galapagos/` was produced by feeding 
 | `hero-3.webp` | civitatis.com (tortue et héron, El Chato), recadrée carrée, agrandie fidèlement | À confirmer |
 | `full-image.webp` | civitatis.com (caldeira Sierra Negra), recadrée 16:9, agrandie fidèlement | À confirmer |
 | `split-1.webp` | lookoom.home.blog (baie de Puerto Ayora), recadrée 3:4 sans la signature, agrandie fidèlement | À confirmer |
-| `xp-tortues-santa-cruz.webp` | venturatravel.org (tortue géante, Santa Cruz), recadrée carrée | À confirmer |
+| `split-2.webp` | venturatravel.org (tortue géante, Santa Cruz), recadrée carrée | À confirmer |
 | `xp-darwin-wolf-1.webp` | seacrush.com (bateau au pied de l'île Wolf, vue drone) | À confirmer |
 | `xp-darwin-wolf-2.webp` | happygringo.com (banc de requins-marteaux), recadrée 3:4, agrandie fidèlement | À confirmer |

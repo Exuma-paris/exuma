@@ -103,8 +103,8 @@ export const destination: Destination = {
           alt: "Barques de pêcheurs et pélicans dans la baie de Puerto Ayora, Santa Cruz, Galápagos",
         },
         {
-          src: "/destination/galapagos/split-2.png",
-          alt: "Tortues géantes juvéniles à la station de recherche Charles Darwin, Galápagos",
+          src: "/destination/galapagos/split-2.webp",
+          alt: "Tortue géante broutant entre les feuillages, île de Santa Cruz, Galápagos",
         },
       ],
     },
