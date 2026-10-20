@@ -117,16 +117,16 @@ export const destination: Destination = {
           alt: "Bateau au mouillage au pied des falaises de l'île Wolf, Galápagos",
         },
         right: {
-          src: "/destination/galapagos/xp-darwin-wolf-2.png",
-          alt: "Plongeur au mouillage isolé de l'île Darwin, Galápagos",
+          src: "/destination/galapagos/xp-darwin-wolf-2.webp",
+          alt: "Banc de requins-marteaux dans le bleu, au large de Darwin et Wolf, Galápagos",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
         heading: "Le mur où les requins-marteaux se comptent par centaines",
         columns: [
-          "Darwin et Wolf sont les deux îles les plus septentrionales de l'archipel, à plus de seize heures de navigation de Santa Cruz. On ne les rejoint qu'en croisière de plongée, jamais à la journée. Entre juin et novembre, des bancs de plusieurs centaines de requins-marteaux tournent le long du mur volcanique, parfois accompagnés de requins-baleines.",
-          "Le parc national limite l'accès à un quota de licences par an, réservées aux seuls opérateurs de plongée certifiés. Il n'y a ni plage ni village sur ces deux îles : seulement une paroi de basalte qui plonge droit dans le courant de Humboldt, et le silence d'un mouillage sans autre bateau visible.",
+          "Darwin et Wolf sont les deux îles les plus septentrionales de l'archipel, à une nuit de navigation au nord du reste de l'archipel. On ne les rejoint qu'en croisière de plongée, jamais à la journée. Entre juin et novembre, des bancs de plusieurs centaines de requins-marteaux tournent le long du mur volcanique, parfois accompagnés de requins-baleines.",
+          "Seuls quelques bateaux de plongée autorisés s'y rendent, et la croisière s'adresse aux plongeurs confirmés, à l'aise dans le courant. Il n'y a ni plage ni village sur ces deux îles : seulement une paroi de basalte qui plonge droit dans le courant de Humboldt, et le silence d'un mouillage sans autre bateau visible.",
         ],
       },
     },
