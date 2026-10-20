@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["galapagos", "santa cruz", "tortue geante", "hauts plateaux"],
   heroImage: {
     src: "/destination/galapagos/xp-tortues-santa-cruz.webp",
-    alt: "Tortue géante en liberté dans les hauts plateaux de Santa Cruz, Galápagos",
+    alt: "Voyageurs derrière une tortue géante dans une prairie des hauts plateaux de Santa Cruz, Galápagos",
   },
   destinationSlugs: ["galapagos"],
   sections: [],
