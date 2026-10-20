@@ -681,7 +681,7 @@ import { accommodation as sixSensesFiji } from "@/content/accommodations/six-sen
 import { accommodation as sixSensesLaSagesse } from "@/content/accommodations/six-senses-la-sagesse";
 import { accommodation as exploraRapaNui } from "@/content/accommodations/explora-rapa-nui";
 import { accommodation as nayaraHangaroa } from "@/content/accommodations/nayara-hangaroa";
-import { accommodation as altiplanicoRapaNui } from "@/content/accommodations/altiplanico-rapa-nui";
+import { accommodation as hareUta } from "@/content/accommodations/hare-uta";
 import { accommodation as amanbagh } from "@/content/accommodations/amanbagh";
 import { accommodation as tajMahalPalaceMumbai } from "@/content/accommodations/taj-mahal-palace-mumbai";
 import { accommodation as tajLakePalace } from "@/content/accommodations/taj-lake-palace";
@@ -1146,7 +1146,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   sugarBeachViceroy,
   exploraRapaNui,
   nayaraHangaroa,
-  altiplanicoRapaNui,
+  hareUta,
   amanbagh,
   tajMahalPalaceMumbai,
   tajLakePalace,
