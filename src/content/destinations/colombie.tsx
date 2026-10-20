@@ -110,12 +110,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/colombie/xp-cite-perdue-1.png",
-          alt: "Hélicoptère survolant les terrasses de la Ciudad Perdida dans la jungle",
+          src: "/destination/colombie/xp-cite-perdue-1.webp",
+          alt: "Village kogi aux huttes rondes vu du ciel, Sierra Nevada de Santa Marta",
         },
         right: {
-          src: "/destination/colombie/xp-cite-perdue-2.png",
-          alt: "Membre de la communauté kogi devant les huttes de son village, Sierra Nevada",
+          src: "/destination/colombie/xp-cite-perdue-2.webp",
+          alt: "Hélicoptère posé sur une terrasse de la Ciudad Perdida, au milieu de la jungle",
         },
       },
       text: {
