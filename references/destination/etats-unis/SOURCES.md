@@ -38,3 +38,4 @@ Testimonial portraits reuse `hero-1.webp`, `hero-2.webp` and `hero-3.webp` — n
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp` | Générée par IA (gen_text) | image générée |
 | `bento-hebergements.webp` | Recadrage de hotel-amangiri | |
+| `hotel-post-ranch-inn.webp` | The Hotel Guru (terrasse face au Pacifique), recadrée carrée | À confirmer |
