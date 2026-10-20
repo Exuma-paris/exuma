@@ -27,7 +27,6 @@ Each generated image in `public/destination/colombie/` was produced by feeding t
 | `map-sierra-nevada.png`          | `map-sierra-nevada-ref.jpg`        | TODO       | TODO    |
 | `map-salento.png`                | `map-salento-ref.jpg`              | TODO       | TODO    |
 | `map-cano-cristales.png`         | `map-cano-cristales-ref.jpg`       | TODO       | TODO    |
-| `map-leticia.png`                | `map-leticia-ref.jpg`              | TODO       | TODO    |
 | `map-bahia-solano.png`           | `map-bahia-solano-ref.jpg`         | TODO       | TODO    |
 
 Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); this file is tracked.
@@ -35,7 +34,6 @@ Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); this 
 | `map-sierra-nevada.webp` | Wikimedia Commons : File:Lost City Ruins.jpg | CC BY 2.0 |
 | `map-salento.webp` | Wikimedia Commons : File:Calle 5, Salento 03.jpg | CC BY-SA 4.0 |
 | `map-cano-cristales.webp` | Wikimedia Commons : File:Cascadas Manto de La Virgen - Caño Cristales - La Macarena - Meta - Colombia.jpg | CC BY-SA 4.0 |
-| `map-leticia.webp` | Wikimedia Commons : File:Amazon River, Colombia (26748354339).jpg | CC BY-SA 2.0 |
 | `map-bahia-solano.webp` | Wikimedia Commons : File:20250813 Bahía Solano modernización del aeródromo-Juan Tamayo-MinTrasporte (2).jpg | Public domain |
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
@@ -47,3 +45,7 @@ Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); this 
 | `full-image.webp` | World Monuments Fund (Ciudad Perdida vue du ciel), recadrée 16:9 | À confirmer |
 | `split-1.webp` | ohmyprints.net (rue de Carthagène et cathédrale), recadrée 3:4, agrandie fidèlement | À confirmer |
 | `split-2.webp` | lesglobeblogueurs.com (guérite des remparts de Carthagène), recadrée carrée | À confirmer |
+| `map-islas-rosario.webp` | Wikimedia Commons : File:Cocolise Isla Resort, Islas del Rosario (23938766464).jpg | CC BY-SA 2.0 |
+| `hotel-casa-san-agustin.webp` | planetblueadventure.com (patio et piscine), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-sazagua.webp` | sazagua.com (terrasse et bain), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-four-seasons-cartagena.webp` | Miniature Google Images (hall du Four Seasons Cartagena), recadrée carrée, agrandie fidèlement | À confirmer |

@@ -535,8 +535,8 @@ import { accommodation as amanera } from "@/content/accommodations/amanera";
 import { accommodation as tortugaBay } from "@/content/accommodations/tortuga-bay";
 import { accommodation as casaDeCampo } from "@/content/accommodations/casa-de-campo";
 import { accommodation as casaSanAgustin } from "@/content/accommodations/casa-san-agustin";
-import { accommodation as haciendaSanJose } from "@/content/accommodations/hacienda-san-jose";
-import { accommodation as reservaNaturalPalmari } from "@/content/accommodations/reserva-natural-palmari";
+import { accommodation as sazagua } from "@/content/accommodations/sazagua";
+import { accommodation as fourSeasonsCartagena } from "@/content/accommodations/four-seasons-cartagena";
 import { accommodation as belmondReidsPalace } from "@/content/accommodations/belmond-reids-palace";
 import { accommodation as casaVelhaDoPalheiro } from "@/content/accommodations/casa-velha-do-palheiro";
 import { accommodation as savoyPalace } from "@/content/accommodations/savoy-palace";
@@ -1314,8 +1314,8 @@ export const accommodations: Record<string, Accommodation> = toMap([
   tortugaBay,
   casaDeCampo,
   casaSanAgustin,
-  haciendaSanJose,
-  reservaNaturalPalmari,
+  sazagua,
+  fourSeasonsCartagena,
   ceylonTeaTrails,
   wildCoastTentedLodge,
   amangalla,
