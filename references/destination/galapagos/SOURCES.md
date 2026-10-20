@@ -50,3 +50,6 @@ Each generated image in `public/destination/galapagos/` was produced by feeding 
 | `xp-tortues-santa-cruz.webp` | venturatravel.org (photo de voyageurs avec une tortue géante), recadrée carrée, ciel ensoleillé par IA | À confirmer, personnes reconnaissables |
 | `xp-albatros-punta-suarez.webp` | happygringo.com (couple d'albatros), recadrée carrée, agrandie fidèlement | À confirmer |
 | `xp-otaries-espanola.webp` | Générée par IA, inspirée d'une photo Getty (andBeyond) | image générée |
+| `hotel-aqua-mare.webp` | liveaboard.com (salon et pont arrière), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-pikaia-lodge.webp` | blog.makila.fr (façade du lodge), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-theory.webp` | Robb Report (pont soleil du Theory), recadrée carrée, agrandie fidèlement | À confirmer |
