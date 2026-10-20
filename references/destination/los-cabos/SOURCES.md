@@ -8,3 +8,10 @@
 | `map-todos-santos.webp` | Wikimedia Commons : File:Hotel California en pueblo mágico Todos Santos, La Paz, Baja California Sur.jpg | CC BY-SA 4.0 |
 | `map-la-paz.webp` | Wikimedia Commons : File:La Paz malecon 1702 p2.jpg | CC BY-SA 4.0 |
 | `map-isla-espiritu-santo.webp` | Wikimedia Commons : File:Espiritu Santo Island.JPG | CC BY-SA 4.0 |
+| `hero-1.webp` | GetYourGuide (Arco au coucher du soleil), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hero-2.webp` | mexicotraveladventure.com (plongée à Cabo Pulmo), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hero-3.webp` | Texas Monthly (piste de Todos Santos), recadrée carrée | À confirmer |
+| `full-image.webp`, `bento-aerien.webp` | Unsplash photo-1654082982630 (Land's End vu du ciel) | Licence Unsplash |
+| `bento-map.webp` | mkmap.py (contour OpenStreetMap) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experience.webp` | Générées par IA (gen_text) | image générée |

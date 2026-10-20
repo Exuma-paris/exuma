@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Une péninsule de désert suspendue entre deux mers. Cabo San Lucas, San José del Cabo, Cabo Pulmo : trois visages d'un même bout du monde.",
       images: [
         {
-          src: "/destination/los-cabos/hero-1.png",
-          alt: "L'Arco de Cabo San Lucas au lever du soleil, Baja California Sur",
+          src: "/destination/los-cabos/hero-1.webp",
+          alt: "L'Arco de Cabo San Lucas en contre-jour au coucher du soleil, Baja California Sur",
         },
         {
-          src: "/destination/los-cabos/hero-2.png",
-          alt: "Plongée sur le récif de Cabo Pulmo, mer de Cortez",
+          src: "/destination/los-cabos/hero-2.webp",
+          alt: "Plongeur face à un banc de carangues sur le récif de Cabo Pulmo, mer de Cortez",
         },
         {
-          src: "/destination/los-cabos/hero-3.png",
-          alt: "Vignobles du Valle de Guadalupe au coucher du soleil, Baja California",
+          src: "/destination/los-cabos/hero-3.webp",
+          alt: "Piste entre les cactus cardón du désert, près de Todos Santos, Baja California Sur",
         },
       ],
     },
@@ -96,8 +96,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/los-cabos/full-image.png",
-        alt: "Vue aérienne de Land's End et de l'Arco, Cabo San Lucas, Mexique",
+        src: "/destination/los-cabos/full-image.webp",
+        alt: "Land's End et ses rochers de granit entre Pacifique et mer de Cortez, vus du ciel, Cabo San Lucas",
       },
       height: 600,
     },
@@ -186,7 +186,7 @@ export const destination: Destination = {
           description:
             "Los Cabos, La Paz, Isla Espiritu Santo, Valle de Guadalupe : la logique du circuit Baja, construite dans le bon ordre.",
           image: {
-            src: "/destination/los-cabos/bento-map.png",
+            src: "/destination/los-cabos/bento-map.webp",
             alt: "Carte de la péninsule de Baja California Sur",
           },
           tone: "dark",
@@ -196,8 +196,8 @@ export const destination: Destination = {
           description:
             "Les restaurants de San José del Cabo que ne référencent pas les guides. Les domaines du Valle qui n'ouvrent pas leurs portes au public.",
           image: {
-            src: "/destination/los-cabos/bento-adresses.png",
-            alt: "District des galeries de San José del Cabo au crépuscule",
+            src: "/destination/los-cabos/bento-adresses.webp",
+            alt: "Galerie d'art éclairée dans une rue coloniale de San José del Cabo au crépuscule",
           },
         },
         {
@@ -205,8 +205,8 @@ export const destination: Destination = {
           description:
             "One&Only Palmilla, Four Seasons Costa Palmas, Chileno Bay : les meilleures suites face à la mer de Cortez.",
           image: {
-            src: "/destination/los-cabos/bento-aerien.png",
-            alt: "Vue aérienne du corridor de Los Cabos entre Pacifique et mer de Cortez",
+            src: "/destination/los-cabos/bento-aerien.webp",
+            alt: "Rochers de Land's End et bateaux sur l'eau turquoise, vus du ciel, Cabo San Lucas",
           },
         },
         {
@@ -214,8 +214,8 @@ export const destination: Destination = {
           description:
             "Un contact Exuma disponible tout au long du séjour. Du transfert à l'aéroport à la table de dernière minute.",
           image: {
-            src: "/destination/los-cabos/bento-conciergerie.png",
-            alt: "Marina de Cabo San Lucas au lever du soleil",
+            src: "/destination/los-cabos/bento-conciergerie.webp",
+            alt: "Conseillère Exuma souriante, casque sur les oreilles",
           },
         },
         {
@@ -223,8 +223,8 @@ export const destination: Destination = {
           description:
             "Cabo Pulmo avant l'ouverture officielle. Les vignes du Valle de Guadalupe hors saison touristique. Les otaries d'Isla Espiritu Santo en bateau privé.",
           image: {
-            src: "/destination/los-cabos/bento-experience.png",
-            alt: "Snorkeling avec des otaries à Isla Espiritu Santo, La Paz",
+            src: "/destination/los-cabos/bento-experience.webp",
+            alt: "Nageur entouré d'otaries près des îlots d'Espíritu Santo, La Paz",
           },
         },
       ],
