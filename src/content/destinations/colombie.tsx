@@ -101,7 +101,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/colombie/split-2.webp",
-          alt: "Deux promeneurs assis sur les remparts de Carthagène au coucher du soleil",
+          alt: "Guérite de pierre et canons sur les remparts de Carthagène, les tours de Bocagrande au loin",
         },
       ],
     },

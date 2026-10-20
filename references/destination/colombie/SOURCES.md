@@ -45,5 +45,5 @@ Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); this 
 | `hero-2.webp` | colombie-autrement.com (photo Jorge Ivan, Carthagène), recadrée carrée | À confirmer |
 | `hero-3.webp` | onsefait-lama-lle.fr (vallée de Cocora), recadrée carrée, agrandie fidèlement | À confirmer |
 | `full-image.webp` | World Monuments Fund (Ciudad Perdida vue du ciel), recadrée 16:9 | À confirmer |
-| `split-2.webp` | Wikimedia Commons : File:Atardecer CTG 11 2019 9832.jpg | CC BY-SA 4.0 |
 | `split-1.webp` | ohmyprints.net (rue de Carthagène et cathédrale), recadrée 3:4, agrandie fidèlement | À confirmer |
+| `split-2.webp` | lesglobeblogueurs.com (guérite des remparts de Carthagène), recadrée carrée | À confirmer |
