@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["chili", "patagonie", "kawesqar", "puerto natales", "navigation"],
   heroImage: {
     src: "/destination/chili/xp-fjords-kawesqar.webp",
-    alt: "Voilier privé au mouillage devant le glacier Serrano, Patagonie chilienne",
+    alt: "Voilier privé au mouillage entre les glaces flottantes, face au glacier Serrano, Patagonie chilienne",
   },
   destinationSlugs: ["chili"],
   sections: [],

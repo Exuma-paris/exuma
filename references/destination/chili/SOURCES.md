@@ -14,7 +14,7 @@ Each generated image in `public/destination/chili/` was produced by feeding the 
 | `xp-tongariki-aube-2.webp`            | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
 | `xp-torres-paine-baqueanos.webp`      | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
 | `xp-atacama-astrophysicien.webp`      | `xp-atacama-astrophysicien-ref.png`        | Photo fournie par le client (bibliothèque Ezus), télescope ajouté à la génération | À compléter |
-| `xp-fjords-kawesqar.webp`             | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
+| `xp-fjords-kawesqar.webp` | Wikimedia Commons : File:Serrano Glacier 2018-11-17 - 2.jpg, recadrée carrée, voilier ajouté par IA | CC BY-SA 3.0 |
 | `hotel-awasi-patagonia.png`           | `hotel-awasi-patagonia-ref.jpg`            | TODO       | TODO    |
 | `hotel-explora-atacama.png`           | `hotel-explora-atacama-ref.jpg`            | TODO       | TODO    |
 | `hotel-vik-chile.png`                 | `hotel-vik-chile-ref.jpg`                  | TODO       | TODO    |
