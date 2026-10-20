@@ -51,3 +51,6 @@ Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); this 
 | `hotel-four-seasons-cartagena.webp` | Miniature Google Images (hall du Four Seasons Cartagena), recadrée carrée, agrandie fidèlement | À confirmer |
 | `xp-cite-perdue-1.webp` | unmondesansfiltre.fr (village kogi vu du drone), tournée à l'horizontale, recadrée 3:2 | À confirmer |
 | `xp-cite-perdue-2.webp` | Miniature Google Images (hélicoptère sur la Ciudad Perdida), recadrée 3:4, agrandie fidèlement | À confirmer |
+| `xp-baleines.webp` | voyage-colombie.com (baleine au coucher du soleil), recadrée carrée, agrandie fidèlement | À confirmer |
+| `xp-cafe.webp` | travelofemotions.com (vallée de Cocora), recadrée carrée, cheval et deux cavaliers ajoutés par IA | À confirmer |
+| `xp-tayrona.webp` | Tripadvisor (Cabo San Juan vu du ciel), recadrée carrée, bateau ajouté par IA | À confirmer |
