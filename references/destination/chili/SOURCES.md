@@ -5,7 +5,7 @@ Each generated image in `public/destination/chili/` was produced by feeding the 
 | Output                                | Reference file                             | Source URL | License |
 | ------------------------------------- | ------------------------------------------ | ---------- | ------- |
 | `hero-1.webp`                         | `hero-1-ref.png`                           | Photo fournie par le client (bibliothèque Ezus), filtre Exuma appliqué sans recomposition | À compléter |
-| `hero-2.webp`                         | `hero-2-ref.png`                           | Photo fournie par le client (bibliothèque Ezus), filtre Exuma appliqué sans recomposition | À compléter |
+| `hero-2.webp`                         | `hero-2-ref.png`                           | Photo fournie par le client (bibliothèque Ezus), filtre Exuma appliqué sans recomposition lune (ajout d'origine) retirée du ciel par IA le 20/10 | À compléter |
 | `hero-3.webp`                         | `hero-3-ref.png`                           | Photo fournie par le client (bibliothèque Ezus), filtre Exuma appliqué sans recomposition | À compléter |
 | `full-image.webp`                     | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
 | `split-1.webp`                        | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
