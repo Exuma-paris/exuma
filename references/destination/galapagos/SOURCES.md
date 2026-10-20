@@ -45,3 +45,4 @@ Each generated image in `public/destination/galapagos/` was produced by feeding 
 | `full-image.webp` | civitatis.com (caldeira Sierra Negra), recadrée 16:9, agrandie fidèlement | À confirmer |
 | `split-1.webp` | lookoom.home.blog (baie de Puerto Ayora), recadrée 3:4 sans la signature, agrandie fidèlement | À confirmer |
 | `xp-tortues-santa-cruz.webp` | venturatravel.org (tortue géante, Santa Cruz), recadrée carrée | À confirmer |
+| `xp-darwin-wolf-1.webp` | seacrush.com (bateau au pied de l'île Wolf, vue drone) | À confirmer |

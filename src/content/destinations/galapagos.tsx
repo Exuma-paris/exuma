@@ -113,8 +113,8 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/galapagos/xp-darwin-wolf-1.png",
-          alt: "Banc de requins-marteaux le long du mur volcanique de Wolf, Galápagos",
+          src: "/destination/galapagos/xp-darwin-wolf-1.webp",
+          alt: "Bateau au mouillage au pied des falaises de l'île Wolf, Galápagos",
         },
         right: {
           src: "/destination/galapagos/xp-darwin-wolf-2.png",
