@@ -93,7 +93,7 @@ export const destination: Destination = {
       theme: "light",
       paragraphs: [
         "Le Chili impressionne par sa géographie, mais ses sites les plus connus, comme les Torres del Paine, attirent aussi beaucoup de visiteurs aux mêmes points de vue et aux mêmes horaires. Pour les découvrir autrement, tout dépend des accès dont on dispose.",
-        "Nous travaillons avec des estancias fermées au public, des équipages de Puerto Natales qui connaissent les mouillages des fjords et des vignerons de la vallée de Millahue. À Rapa Nui, un guide de l'île ouvre le site d'Ahu Tongariki avant le lever du jour.",
+        "Nous travaillons avec des estancias privées, des équipages de Puerto Natales qui connaissent les mouillages des fjords et des vignerons de la vallée de Millahue. À Rapa Nui, un guide de l'île ouvre le site d'Ahu Tongariki avant le lever du jour.",
       ],
       images: [
         {
@@ -121,10 +121,10 @@ export const destination: Destination = {
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "L'aube à Ahu Tongariki, avant que l'île se réveille",
+        heading: "L'aube à Ahu Tongariki, avec un guide rapanui",
         columns: [
-          "On quitte Hanga Roa dans le noir, une demi-heure de route sur la côte est. Quinze moai se tiennent là, en ligne, dos à l'océan, remis debout il y a trente ans après qu'un raz-de-marée les avait couchés. Le site est encore fermé et l'on y entre seuls. Le ciel passe du gris au rouge derrière les statues, et pendant vingt minutes leurs silhouettes n'ont plus de visage.",
-          "Un guide rapanui reste avec nous tout ce temps. Il explique lesquels de ces quinze ont été relevés, lesquels dorment encore ailleurs sur l'île, et pourquoi ses ancêtres les ont dressés face aux villages plutôt que vers la mer. Le vent vient du Pacifique, il n'y a pas d'autre bruit. Quand les premiers véhicules arrivent sur la piste, on repart déjeuner chez lui.",
+          "On quitte Hanga Roa dans le noir avec un guide rapanui, une demi-heure de route sur la côte est. Quinze moai se tiennent là, en ligne, dos à l'océan, remis debout il y a trente ans après qu'un raz-de-marée les avait couchés. On arrive avant l'aube, quand la côte est encore dans le noir. Le ciel passe du gris au rouge derrière les statues, et pendant vingt minutes leurs silhouettes n'ont plus de visage.",
+          "Le guide reste avec nous tout ce temps. Il explique lesquels de ces quinze ont été relevés, lesquels dorment encore ailleurs sur l'île, et pourquoi ses ancêtres les ont dressés face aux villages plutôt que vers la mer. Le vent vient du Pacifique, il n'y a pas d'autre bruit. Une fois le soleil levé, on repart déjeuner chez lui.",
         ],
       },
     },
@@ -136,7 +136,7 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités au Chili",
       heading: "Les moments que l'on garde en rentrant",
       description:
-        "Une traversée à cheval avec les baqueanos du Paine, le ciel de l'altiplano lu par un astrophysicien, et cinq jours de navigation dans les fjords Kawésqar.",
+        "Une traversée à cheval avec les baqueanos du Paine, le ciel de l'altiplano lu par un astronome, et cinq jours de navigation dans les fjords de Patagonie.",
       slugs: [
         "torres-paine-baqueanos",
         "atacama-astrophysicien",
@@ -236,7 +236,7 @@ export const destination: Destination = {
             "Cave d'un vigneron de Colchagua, table de dégustation ouverte sur les vignes, Chili",
             "Chambre en bois d'Awasi Patagonia ouverte sur la steppe, Chili",
             "Conseillère Exuma souriante, casque sur les oreilles",
-            "Expériences immersives au Chili : navigation dans les fjords Kawésqar et ciel de l'altiplano",
+            "Expériences immersives au Chili : navigation dans les fjords de Patagonie et ciel de l'altiplano",
           ][i],
         },
       })),
@@ -556,7 +556,7 @@ export const destination: Destination = {
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Chili, Patagonie et fjords Kawésqar, 2025", // TODO: replace with real testimonial
+          role: "TODO: Chili, Patagonie et fjords, 2025", // TODO: replace with real testimonial
         },
         {
           // TODO: replace with real testimonial
@@ -572,7 +572,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "L'astrophysicien a réglé son télescope et nous a montré les Nuages de Magellan. Il faisait froid, le désert était noir. Trois jours plus tard nous déjeunions dans une cave de Millahue avec le vigneron. Tout s'enchaînait sans que nous ayons rien à demander.",
+            "L'astronome a réglé son télescope et nous a montré les Nuages de Magellan. Il faisait froid, le désert était noir. Trois jours plus tard nous déjeunions dans une cave de Millahue avec le vigneron. Tout s'enchaînait sans que nous ayons rien à demander.",
           image: {
             src: "/destination/chili/hero-3.webp",
             alt: "Portrait", // TODO: verify
