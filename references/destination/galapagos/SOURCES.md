@@ -48,3 +48,5 @@ Each generated image in `public/destination/galapagos/` was produced by feeding 
 | `xp-darwin-wolf-1.webp` | seacrush.com (bateau au pied de l'île Wolf, vue drone) | À confirmer |
 | `xp-darwin-wolf-2.webp` | happygringo.com (banc de requins-marteaux), recadrée 3:4, agrandie fidèlement | À confirmer |
 | `xp-tortues-santa-cruz.webp` | venturatravel.org (photo de voyageurs avec une tortue géante), recadrée carrée, ciel ensoleillé par IA | À confirmer, personnes reconnaissables |
+| `xp-albatros-punta-suarez.webp` | happygringo.com (couple d'albatros), recadrée carrée, agrandie fidèlement | À confirmer |
+| `xp-otaries-espanola.webp` | Générée par IA, inspirée d'une photo Getty (andBeyond) | image générée |
