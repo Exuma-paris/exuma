@@ -112,7 +112,7 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/chili/xp-tongariki-aube-1.webp",
-          alt: "Les quinze moai d'Ahu Tongariki en contre-jour au lever du soleil sur l'île de Pâques",
+          alt: "Les quinze moai d’Ahu Tongariki en contre-jour, le soleil se levant derrière eux sur l’île de Pâques",
         },
         right: {
           src: "/destination/chili/xp-tongariki-aube-2.webp",

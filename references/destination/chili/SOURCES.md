@@ -10,7 +10,7 @@ Each generated image in `public/destination/chili/` was produced by feeding the 
 | `full-image.webp`                     | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
 | `split-1.webp`                        | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
 | `split-2.webp`                        | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
-| `xp-tongariki-aube-1.webp`            | aucune — image réutilisée                  | Copie de `public/destination/ile-de-paques/xp-tongariki-lever-soleil.webp` | Originale, produite pour Exuma |
+| `xp-tongariki-aube-1.webp` | imaginarapanui.com (aube à Tongariki), agrandie fidèlement | À confirmer |
 | `xp-tongariki-aube-2.webp`            | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
 | `xp-torres-paine-baqueanos.webp`      | aucune — brief écrit                       | Aucune photo source : image composée à partir d'un brief texte | Originale, produite pour Exuma |
 | `xp-atacama-astrophysicien.webp`      | `xp-atacama-astrophysicien-ref.png`        | Photo fournie par le client (bibliothèque Ezus), télescope ajouté à la génération | À compléter |
