@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/perou/full-image.png",
-        alt: "Vue aérienne de la citadelle du Machu Picchu au lever du jour, Pérou",
+        src: "/destination/perou/full-image.webp",
+        alt: "Citadelle du Machu Picchu dans la brume du matin, au pied du Huayna Picchu, Pérou",
       },
       height: 600,
     },
@@ -98,12 +98,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/perou/split-1.png",
-          alt: "Ruelle pavée de pierres incas dans le centre historique de Cusco",
+          src: "/destination/perou/split-1.webp",
+          alt: "Femme en tenue andine et son lama longeant un mur inca dans une ruelle de Cusco",
         },
         {
-          src: "/destination/perou/split-2.png",
-          alt: "Marché de San Pedro à Cusco au petit matin",
+          src: "/destination/perou/split-2.webp",
+          alt: "Marchande en chapeau devant ses étals de fruits au marché de San Pedro, Cusco",
         },
       ],
     },

@@ -44,3 +44,6 @@ Testimonial portraits reuse `hero-1.png` / `hero-2.png` / `hero-3.png` — no se
 | `hero-1.webp` | National Geographic (Machu Picchu), recadrée carrée | À confirmer |
 | `hero-2.webp` | Klook (îles des Uros), recadrée carrée sans le filigrane, agrandie fidèlement | À confirmer |
 | `hero-3.webp` | Miniature Google Images (Moray vu du ciel), agrandie fidèlement | À confirmer |
+| `full-image.webp` | voyage-perou.com (Machu Picchu dans la brume), recadrée 16:9, agrandie fidèlement | À confirmer |
+| `split-1.webp` | histoire-a-sac-a-dos.com (ruelle inca de Cusco), recadrée 3:4, agrandie fidèlement | À confirmer |
+| `split-2.webp` | Tripadvisor (marché de San Pedro), recadrée carrée, agrandie fidèlement | À confirmer |
