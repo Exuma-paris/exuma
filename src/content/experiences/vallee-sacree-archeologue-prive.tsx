@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "vallee-sacree-archeologue-prive",
   name: "Vallée Sacrée avec un archéologue privé",
   blurb:
-    "Un archéologue accompagne la visite des terrasses circulaires de Moray et des salines de Maras, hors des groupes. Il lit les pierres avant de les montrer.",
+    "Un archéologue accompagne la journée, en voiture privée depuis Cusco. À Moray, il explique comment les Incas ont pu se servir de ces terrasses circulaires pour tester leurs cultures à différentes températures. Aux salines de Maras, des milliers de bassins blancs accrochés à la montagne sont encore exploités par les familles du village, qui récoltent le sel à la main comme avant les Incas.",
   keywords: ["perou", "vallee sacree", "moray", "maras", "archeologie"],
   heroImage: {
     src: "/destination/perou/xp-vallee-sacree.webp",

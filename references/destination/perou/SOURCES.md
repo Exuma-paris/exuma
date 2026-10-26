@@ -51,3 +51,8 @@ Testimonial portraits reuse `hero-1.png` / `hero-2.png` / `hero-3.png` — no se
 | `xp-vallee-sacree.webp` | ulysses.travel (terrasses de Moray), recadrée carrée, guide et deux voyageurs ajoutés par IA | À confirmer |
 | `xp-machu-picchu-aube-1.webp` | espaces.ca (porte du Soleil), agrandie fidèlement | À confirmer |
 | `xp-machu-picchu-aube-2.webp` | augoutdemma.be (citadelle du Machu Picchu), agrandie fidèlement | À confirmer |
+| `hotel-sanctuary-lodge.webp` | annees-de-pelerinage.com (bain chaud face au Huayna Picchu), recadrée carrée, baigneur remplacé par une voyageuse par IA | À confirmer |
+| `hotel-palacio-nazarenas.webp` | Trip.com (cloître et piscine), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-reserva-amazonica.webp` | Tripadvisor (spa), recadrée carrée, agrandie fidèlement | À confirmer |
+| `xp-amazonie-naturaliste.webp` | Générée par IA (gen_text) | image générée |
+| `xp-machu-picchu-aube-2.webp` | Miniature Google Images (citadelle), recadrée 3:4, agrandie fidèlement (remplace augoutdemma.be) | À confirmer |

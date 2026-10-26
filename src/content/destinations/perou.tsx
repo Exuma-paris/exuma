@@ -117,7 +117,7 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/perou/xp-machu-picchu-aube-2.webp",
-          alt: "Murs et terrasses de la citadelle du Machu Picchu face au Huayna Picchu",
+          alt: "Maisons de pierre et terrasses de la citadelle du Machu Picchu sous le Huayna Picchu",
         },
       },
       text: {
@@ -134,8 +134,8 @@ export const destination: Destination = {
       type: "entityList",
       kind: "experience",
       background: "bg-white",
-      eyebrow: "Expériences et activités en Pérou",
-      heading: "Nos coups de cœur en Pérou",
+      eyebrow: "Expériences et activités au Pérou",
+      heading: "Nos coups de cœur au Pérou",
       description:
         "Trois expériences qui prennent vie dans des lieux et des rencontres singulières : un chef d'altitude à Lima, un archéologue dans la Vallée Sacrée, un naturaliste en Amazonie. Aucune n'est démonstrative.",
       slugs: [
