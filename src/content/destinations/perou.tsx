@@ -36,16 +36,16 @@ export const destination: Destination = {
         "Lima au niveau de la mer, Cusco à 3 400 mètres, le col d'Abra Málaga à plus de 4 300 mètres avant la descente vers la jungle. Le Machu Picchu, redécouvert par Hiram Bingham en 1911, la Vallée Sacrée, le lac Titicaca, le plus haut lac navigable du monde : chaque étape répond à une logique d'altitude. Nous construisons cette logique depuis le premier échange.",
       images: [
         {
-          src: "/destination/perou/hero-1.png",
-          alt: "Citadelle du Machu Picchu entourée de sommets andins au Pérou",
+          src: "/destination/perou/hero-1.webp",
+          alt: "Citadelle du Machu Picchu et le Huayna Picchu dans les nuages, Pérou",
         },
         {
-          src: "/destination/perou/hero-2.png",
-          alt: "Terrasses agricoles incas de Moray dans la Vallée Sacrée du Pérou",
+          src: "/destination/perou/hero-2.webp",
+          alt: "Barque de roseaux et maisons des îles flottantes des Uros sur le lac Titicaca",
         },
         {
-          src: "/destination/perou/hero-3.png",
-          alt: "Îles flottantes des Uros sur le lac Titicaca au coucher du soleil",
+          src: "/destination/perou/hero-3.webp",
+          alt: "Terrasses circulaires incas de Moray vues du ciel, Vallée Sacrée du Pérou",
         },
       ],
     },
@@ -533,7 +533,7 @@ export const destination: Destination = {
           quote:
             "Notre voyage au Pérou avec Exuma a suivi une logique qu'on n'aurait jamais construite seuls : deux jours à Cusco avant de bouger, puis la Vallée Sacrée, puis le Machu Picchu à l'aube. Chaque étape avait un sens.",
           image: {
-            src: "/destination/perou/hero-1.png",
+            src: "/destination/perou/hero-1.webp",
             alt: "Portrait de Sophie et Marc", // TODO: verify
           },
           name: "Sophie & Marc", // TODO: verify
@@ -544,7 +544,7 @@ export const destination: Destination = {
           quote:
             "La nuit au Sanctuary Lodge et l'entrée au Machu Picchu avant les premiers trains restent le souvenir le plus fort du voyage. Notre travel designer avait tout anticipé, jusqu'à l'acclimatation à Cusco.",
           image: {
-            src: "/destination/perou/hero-2.png",
+            src: "/destination/perou/hero-2.webp",
             alt: "Portrait de Laurent", // TODO: verify
           },
           name: "Laurent", // TODO: verify
@@ -555,7 +555,7 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marquée, c'est l'Amazonie après les Andes : deux pays dans un seul voyage. La réserve de Tambopata, un naturaliste dédié, un rythme qui n'a rien de touristique.",
           image: {
-            src: "/destination/perou/hero-3.png",
+            src: "/destination/perou/hero-3.webp",
             alt: "Portrait de Claire", // TODO: verify
           },
           name: "Claire", // TODO: verify

@@ -41,3 +41,6 @@ Testimonial portraits reuse `hero-1.png` / `hero-2.png` / `hero-3.png` — no se
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
 | `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |
+|  | National Geographic (Machu Picchu), recadrée carrée | À confirmer |
+|  | Klook (îles des Uros), recadrée carrée sans le filigrane, agrandie fidèlement | À confirmer |
+|  | Miniature Google Images (Moray vu du ciel), agrandie fidèlement | À confirmer |
