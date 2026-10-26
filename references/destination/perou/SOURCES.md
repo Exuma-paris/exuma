@@ -49,3 +49,5 @@ Testimonial portraits reuse `hero-1.png` / `hero-2.png` / `hero-3.png` — no se
 | `split-2.webp` | Tripadvisor (marché de San Pedro), recadrée carrée, agrandie fidèlement | À confirmer |
 | `xp-table-central-lima.webp` | peruviptravel.com (cuisine de Central), recadrée carrée, agrandie fidèlement | À confirmer |
 | `xp-vallee-sacree.webp` | ulysses.travel (terrasses de Moray), recadrée carrée, guide et deux voyageurs ajoutés par IA | À confirmer |
+| `xp-machu-picchu-aube-1.webp` | espaces.ca (porte du Soleil), agrandie fidèlement | À confirmer |
+| `xp-machu-picchu-aube-2.webp` | augoutdemma.be (citadelle du Machu Picchu), agrandie fidèlement | À confirmer |

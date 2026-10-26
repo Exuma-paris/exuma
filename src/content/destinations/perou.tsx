@@ -112,12 +112,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/perou/xp-machu-picchu-aube-1.png",
-          alt: "Première lumière sur la citadelle du Machu Picchu avant l'arrivée des visiteurs",
+          src: "/destination/perou/xp-machu-picchu-aube-1.webp",
+          alt: "Voyageur sous la porte de pierre inca d'Inti Punku, face aux sommets enneigés des Andes",
         },
         right: {
-          src: "/destination/perou/xp-machu-picchu-aube-2.png",
-          alt: "Escalier inca menant vers la Porte du Soleil au Machu Picchu",
+          src: "/destination/perou/xp-machu-picchu-aube-2.webp",
+          alt: "Murs et terrasses de la citadelle du Machu Picchu face au Huayna Picchu",
         },
       },
       text: {
