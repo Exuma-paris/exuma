@@ -47,3 +47,5 @@ Testimonial portraits reuse `hero-1.png` / `hero-2.png` / `hero-3.png` — no se
 | `full-image.webp` | voyage-perou.com (Machu Picchu dans la brume), recadrée 16:9, agrandie fidèlement | À confirmer |
 | `split-1.webp` | histoire-a-sac-a-dos.com (ruelle inca de Cusco), recadrée 3:4, agrandie fidèlement | À confirmer |
 | `split-2.webp` | Tripadvisor (marché de San Pedro), recadrée carrée, agrandie fidèlement | À confirmer |
+| `xp-table-central-lima.webp` | peruviptravel.com (cuisine de Central), recadrée carrée, agrandie fidèlement | À confirmer |
+| `xp-vallee-sacree.webp` | ulysses.travel (terrasses de Moray), recadrée carrée, guide et deux voyageurs ajoutés par IA | À confirmer |
