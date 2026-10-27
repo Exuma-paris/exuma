@@ -50,3 +50,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `split-2.webp` : Turismo Excellence — https://www.turismoexcellence.com/wp-content/uploads/2021/03/la-pedrera-rocha-uruguay2.jpg (La Pedrera) — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
 - `xp-garzon-mallmann-1.webp` : Tangol — https://www.tangol.com/Fotos/Tours/clase-de-cocina-en-bodega-garzon_6634_202009291309532.Mobile.JPG (feu de la Bodega Garzón) — recadré 3/2, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
 - `xp-garzon-mallmann-2.webp` : vignette Google (portrait de Francis Mallmann) — agrandissement fidèle (Gemini). ⚠ droits à vérifier, et droit à l'image de Francis Mallmann.
+- `xp-candombe-montevideo.webp` : Courrier international — https://www.courrierinternational.com/focus/2022/02/11/6a80ddb7ae647101f6cb9fd8be65087a991ed7f5.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
