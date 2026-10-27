@@ -24,7 +24,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Los Cabos, voyage sur mesure",
   metaDescription:
-    "Voyage à Los Cabos sur mesure : Cabo Pulmo, Todos Santos, Valle de Guadalupe, One&Only Palmilla. Itinéraire signé par votre travel designer Exuma.",
+    "Voyage à Los Cabos sur mesure : Cabo Pulmo, Todos Santos, Isla Espiritu Santo, One&Only Palmilla. Itinéraire signé par votre travel designer Exuma.",
   sections: [
     {
       type: "hero",
@@ -71,7 +71,7 @@ export const destination: Destination = {
           iconName: "sparkles",
           title: "Expériences hors programme",
           description:
-            "Cabo Pulmo à l'aube avant les bateaux collectifs, Todos Santos avec un artiste local, vignes du Valle de Guadalupe avec un œnologue.",
+            "Cabo Pulmo à l'aube avant les bateaux collectifs, Todos Santos avec un artiste local, les otaries d'Isla Espiritu Santo en bateau privé.",
         },
         {
           iconName: "star",
@@ -128,33 +128,32 @@ export const destination: Destination = {
       eyebrow: "Expériences & activités à Los Cabos",
       heading: "Nos coups de cœur à Los Cabos",
       description:
-        "Cabo Pulmo à l'aube, les otaries d'Isla Espiritu Santo, Todos Santos avec un guide qui connaît les artistes, les vignes du Valle de Guadalupe avec un œnologue privé : quatre expériences choisies pour leur accès, pas pour leur notoriété.",
+        "Le récif de Cabo Pulmo avec un guide privé, les otaries d'Isla Espiritu Santo, Todos Santos avec un guide qui connaît les artistes : trois expériences choisies pour leur accès, pas pour leur notoriété.",
       cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
       slugs: [
         "plongee-cabo-pulmo",
         "escapade-todos-santos",
         "snorkeling-lions-mer-espiritu-santo",
-        "wine-oclock-valle-guadalupe",
       ],
     },
     {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/los-cabos/xp-wine-vigne.png",
-          alt: "Vignes du Valle de Guadalupe au lever du soleil, Baja California",
+          src: "/destination/los-cabos/xp-pulmo-1.webp",
+          alt: "Plongeur face à un tourbillon de carangues, Cabo Pulmo, mer de Cortez",
         },
         right: {
-          src: "/destination/los-cabos/xp-wine-degustation.png",
-          alt: "Dégustation de vins avec un œnologue privé dans un domaine de Baja California",
+          src: "/destination/los-cabos/xp-pulmo-2.webp",
+          alt: "Requin-bouledogue en eau profonde au large de Cabo Pulmo",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Le vigneron, la vigne, et le meilleur repas de Baja",
+        heading: "Cabo Pulmo, le récif que les pêcheurs ont sauvé",
         columns: [
-          "Le Valle de Guadalupe produit certains des meilleurs vins de l'hémisphère nord. À une heure d'Ensenada, sur les contreforts de la Sierra de Juárez, une soixantaine de domaines cultivent nebbiolo, tempranillo, chardonnay dans un sol aride que les vignes habitent depuis les années 1920. Ce n'est pas une région émergente. C'est une région que le monde vient de découvrir.",
-          "L'expérience qu'on construit ici ne ressemble pas à une dégustation touristique. Un œnologue privé guide la visite de trois domaines choisis pour leur singularité. Le repas qui suit est servi dans l'un des restaurants dont les chefs font des kilomètres depuis Mexico City pour cuisiner avec les légumes du matin.",
+          "Dans les années 1990, les familles de pêcheurs de Cabo Pulmo ont choisi d'arrêter de pêcher pour protéger leur récif. Le parc national créé en 1995 est devenu l'une des réserves marines les plus réussies au monde : la vie marine y a été multipliée par plus de quatre. Carangues en bancs serrés, raies, mérous géants, et en hiver des requins-bouledogues.",
+          "On part tôt du corridor avec un guide privé, pour être dans l'eau avant les groupes. Deux plongées sur les sites les plus riches, ou du snorkeling pour ceux qui ne plongent pas, puis un déjeuner de poisson sur la plage du village. Le retour se fait par la piste de la côte Est, l'une des dernières côtes sauvages de Baja.",
         ],
       },
     },
@@ -178,13 +177,13 @@ export const destination: Destination = {
       eyebrow: "Exuma",
       heading: "Voyage sur mesure à Los Cabos",
       description:
-        "De l'Arco de Cabo San Lucas aux vignes du Valle de Guadalupe, chaque étape est construite pour ne rien laisser au hasard.",
+        "De l'Arco de Cabo San Lucas au récif de Cabo Pulmo, chaque étape est construite pour ne rien laisser au hasard.",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Création d'itinéraires",
           description:
-            "Los Cabos, La Paz, Isla Espiritu Santo, Valle de Guadalupe : la logique du circuit Baja, construite dans le bon ordre.",
+            "Los Cabos, Todos Santos, La Paz, Isla Espiritu Santo : la logique du circuit Baja, construite dans le bon ordre.",
           image: {
             src: "/destination/los-cabos/bento-map.webp",
             alt: "Carte de la péninsule de Baja California Sur",
@@ -221,7 +220,7 @@ export const destination: Destination = {
         {
           title: "Expériences sur accès",
           description:
-            "Cabo Pulmo avant l'ouverture officielle. Les vignes du Valle de Guadalupe hors saison touristique. Les otaries d'Isla Espiritu Santo en bateau privé.",
+            "Cabo Pulmo avant l'arrivée des groupes. Todos Santos avec un guide qui connaît les artistes. Les otaries d'Isla Espiritu Santo en bateau privé.",
           image: {
             src: "/destination/los-cabos/bento-experience.webp",
             alt: "Nageur entouré d'otaries près des îlots d'Espíritu Santo, La Paz",
@@ -329,7 +328,7 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Pour Cabo Pulmo et La Paz :</h4>
               <p>
-                Un masque et un tuba personnels sont recommandés pour le snorkeling (meilleure hygiène, meilleure vision). Les chaussures de randonnée légères sont utiles à Todos Santos et sur les sentiers côtiers. Pour le Valle de Guadalupe, une veste suffit le soir, les nuits en altitude sont fraîches.
+                Un masque et un tuba personnels sont recommandés pour le snorkeling (meilleure hygiène, meilleure vision). Les chaussures de randonnée légères sont utiles à Todos Santos et sur les sentiers côtiers.
               </p>
             </div>
           ),
@@ -420,7 +419,7 @@ export const destination: Destination = {
         {
           question: "Que faire à Los Cabos en 8 jours ?",
           answer:
-            "Un circuit cohérent sur 8 jours peut inclure 3 nuits sur le corridor (Cabo San Lucas + San José del Cabo), 1 journée à Cabo Pulmo, 1 nuit à Todos Santos, 2 nuits à La Paz avec une sortie à Isla Espiritu Santo, et une excursion au Valle de Guadalupe. Exuma construit la séquence en fonction de la saison et de vos préférences.",
+            "Un circuit cohérent sur 8 jours peut inclure 3 nuits sur le corridor (Cabo San Lucas + San José del Cabo), 1 journée à Cabo Pulmo, 1 nuit à Todos Santos, et 2 nuits à La Paz avec une sortie à Isla Espiritu Santo. Exuma construit la séquence en fonction de la saison et de vos préférences.",
         },
         {
           question: "Los Cabos est-il adapté aux enfants ?",

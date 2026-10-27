@@ -39,3 +39,13 @@ filtre, ce qui donne des masters carrés — même parti que l'Égypte et Anguil
 | `map-dubai-creek.webp`        | `map-dubai-creek-ref.png`          | TODO       | Libre de droit   |
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+
+## Liens fournis par Thea (27/10)
+- `xp-montgolfiere-faucon.webp` : NYT — https://static01.nyt.com/images/2017/12/17/travel/24dubaiballoon2/24dubaiballoon2-articleLarge.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `split-1.webp` : https://www.lepetitexplorateur.com/wp-content/uploads/2018/12/decouvrir-sharjah-3.jpg — recadré portrait, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `xp-louvre-abu-dhabi-1.webp` : Archello — https://archello.s3.eu-central-1.amazonaws.com/images/2018/01/31/DSCF973774mxl.1517367082.1389.jpg — redimensionné 1500×1000. ⚠ droits à vérifier.
+- `xp-louvre-abu-dhabi-1.webp` (remplace Archello) : https://cloudfront-eu-central-1.images.arcpublishing.com/infopro/XQJIEAAEM5JGREKKPVALGBZBII.jpg — recadré 1500×1000. ⚠ droits à vérifier.
+- `xp-louvre-abu-dhabi-2.webp` : vignette Google (encrypted-tbn0.gstatic.com) — agrandissement fidèle (Gemini) depuis 368 px, qualité limitée. ⚠ droits à vérifier.
+- `xp-perles-suwaidi.webp` : L'Express — https://www.lexpress.fr/resizer/v2/KAJIDB3ZJNDGLJPWB56Q4UQVCQ.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `xp-bivouac-rub-al-khali.webp` : content4travel (camp du Rub al-Khali côté Oman, Salalah) — https://i.content4travel.com/seeplaces/temp/rub-al-khali-desert-tour---overnight-at-magic-camp-empty-quarter-salalah-oman-3Eb4d2Z62k6yrX_bZOqipw.webp — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `xp-montgolfiere-faucon.webp` : montgolfière lointaine ajoutée par retouche IA (Gemini) à la demande de Thea.

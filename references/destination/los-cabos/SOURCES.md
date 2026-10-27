@@ -20,3 +20,11 @@
 | `hotel-four-seasons.webp` | Condé Nast Traveler (crédit Four Seasons, villa), recadrée carrée | À confirmer |
 | `hotel-one-and-only-palmilla.webp` | Miniature Google Images (piscine du Palmilla), recadrée carrée, agrandie par IA | À confirmer |
 | `hotel-chileno-bay.webp` | Expedia (suite face à la mer), recadrée carrée, agrandie fidèlement | À confirmer |
+
+## Expériences (27/10)
+- `xp-pulmo-1.webp` : Unsplash, « plongeur sous-marin observant l'école de poissons » — https://unsplash.com/photos/gcG_b9ijyqU (licence Unsplash), recadré 1500×1000.
+- `xp-pulmo-2.webp` : Unsplash, requin-bouledogue — https://unsplash.com/photos/rnecIhTxFwQ (licence Unsplash), recadré portrait 1200×1600, éclairci.
+- `xp-plongee-cabo-pulmo.webp` : Unsplash, raie et carangues — https://unsplash.com/photos/7q5r9wCeXQk (licence Unsplash), recadré carré.
+- `xp-todos-santos.webp` : référence fournie par Thea — https://www.livelikeitstheweekend.com/wp-content/uploads/2023/11/things-to-do-in-Todos-Santos-34.jpg, recadré carré. ⚠ droits à vérifier.
+- `xp-snorkeling-otaries.webp` : référence fournie par Thea — https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0e/00/31/f1.jpg, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- Expérience « Wine O'Clock au Valle de Guadalupe » supprimée (région à 1 500 km de Los Cabos).

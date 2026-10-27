@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "montgolfiere-faucon-al-marmoom",
   name: "Montgolfière et fauconnerie au lever du jour",
   blurb:
-    "Le ballon s'élève au-dessus des dunes d'Al Marmoom au lever du jour, quand l'air est encore frais. Un fauconnier vous accompagne, lâche son oiseau depuis la nacelle et le rappelle au leurre. On atterrit pour le petit-déjeuner.",
+    "Le ballon s'élève au-dessus des dunes d'Al Marmoom au lever du jour, quand l'air est encore frais. À l'atterrissage, un fauconnier fait voler son oiseau au-dessus des dunes et le rappelle au gant, puis le petit-déjeuner est servi dans le désert.",
   keywords: [
     "emirats-arabes-unis",
     "al marmoom",
@@ -14,7 +14,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/emirats-arabes-unis/xp-montgolfiere-faucon.webp",
-    alt: "Montgolfière au-dessus des dunes de la réserve d'Al Marmoom au lever du jour",
+    alt: "Faucon se posant sur le gant de son fauconnier, une montgolfière au loin au-dessus d'Al Marmoom",
   },
   destinationSlugs: ["emirats-arabes-unis"],
   sections: [],

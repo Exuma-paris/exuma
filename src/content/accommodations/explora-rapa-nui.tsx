@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["ile de paques", "rapa nui", "explora", "hanga roa", "lodge"],
   heroImage: {
     src: "/destination/ile-de-paques/hotel-explora-rapa-nui.webp",
-    alt: "Lodge Explora Rapa Nui posé sur sa colline au sud-ouest de l'île de Pâques",
+    alt: "Lodge Explora Rapa Nui au milieu des prairies, face au Pacifique, île de Pâques",
   },
   destinationSlugs: ["ile-de-paques"],
   sections: [],
