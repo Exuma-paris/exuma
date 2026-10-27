@@ -52,3 +52,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `xp-garzon-mallmann-2.webp` : vignette Google (portrait de Francis Mallmann) — agrandissement fidèle (Gemini). ⚠ droits à vérifier, et droit à l'image de Francis Mallmann.
 - `xp-candombe-montevideo.webp` : Courrier international — https://www.courrierinternational.com/focus/2022/02/11/6a80ddb7ae647101f6cb9fd8be65087a991ed7f5.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
 - `xp-gauchos-tacuarembo.webp` : Bradt Guides — https://www.bradtguides.com/wp-content/uploads/wysiwyg/destinations/central-and-south-america/uruguay/image11_1.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `xp-cabo-polonio.webp` : Global National Parks — https://www.globalnationalparks.com/wp-content/uploads/Cabo-Polonio-National-Park.jpg — recadré carré. ⚠ droits à vérifier.
