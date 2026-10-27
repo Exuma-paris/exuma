@@ -552,7 +552,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Une nuit à Cabo Polonio, sans électricité et sans lune. On entendait les otaries depuis la plage et on voyait la voie lactée à l'œil nu. En mars, la côte était pour nous : c'était exactement ce que nous cherchions.",
+            "Une nuit à Cabo Polonio, presque sans lumière et sans lune. On entendait les otaries depuis la plage et on voyait la voie lactée à l'œil nu. En mars, la côte était pour nous : c'était exactement ce que nous cherchions.",
           image: {
             src: "/destination/uruguay/hero-3.webp",
             alt: "Sentier de sable entre les dunes, au bord de l'Atlantique sur la côte de Rocha"
