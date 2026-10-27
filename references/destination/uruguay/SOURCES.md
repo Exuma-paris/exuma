@@ -55,3 +55,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `xp-cabo-polonio.webp` : Global National Parks — https://www.globalnationalparks.com/wp-content/uploads/Cabo-Polonio-National-Park.jpg — recadré carré. ⚠ droits à vérifier.
 - `hotel-estancia-vik.webp`, `bento-hebergements.webp` : site officiel Estancia Vik — https://www.estanciavik.com/wp-content/uploads/2021/06/EstanciaVik-0313.jpg — deux cadrages. ⚠ droits à vérifier.
 - `hotel-sacromonte.webp` : Adventure Life — https://cdn.adventure-life.com/38/95/37/Hotel_Sacromonte_-_Horizon_Refuge/1300x820.webp — recadré carré. ⚠ droits à vérifier.
+- `hotel-playa-vik.webp` : site officiel Playa Vik — https://www.playavik.com/wp-content/uploads/2021/03/326d4cddfe1ad2950934b0ba3c2e0e6e81c027b3.jpeg — recadré carré. ⚠ droits à vérifier.
