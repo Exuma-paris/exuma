@@ -4,7 +4,7 @@ export const accommodation: Accommodation = {
   slug: "amanera",
   name: "Amanera, Río San Juan",
   blurb:
-    "Amanera occupe une falaise de la côte nord, face à l'Atlantique. Les casitas s'ouvrent sur un parcours signé Robert Trent Jones Jr. et sur une plage que seul un sentier atteint.",
+    "Amanera occupe une falaise de la côte nord, face à l'Atlantique. Les casitas donnent sur le golf de Playa Grande, dessiné par Robert Trent Jones Sr. et rénové par son fils Rees Jones, et l'hôtel a son club de plage sur Playa Grande.",
   keywords: [
     "republique-dominicaine",
     "amanera",

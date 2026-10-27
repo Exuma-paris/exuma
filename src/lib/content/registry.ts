@@ -260,9 +260,9 @@ import { experience as delphesGuideArcheologue } from "@/content/experiences/del
 import { experience as tableSantorinVigneron } from "@/content/experiences/table-santorin-vigneron";
 import { experience as citeImperialeHueHistorien } from "@/content/experiences/cite-imperiale-hue-historien";
 import { experience as trekkingRizieresSapa } from "@/content/experiences/trekking-rizieres-sapa";
-import { experience as baleinesSamana } from "@/content/experiences/baleines-samana";
+import { experience as baleinesSilverBank } from "@/content/experiences/baleines-silver-bank";
 import { experience as losHaitisesBateau } from "@/content/experiences/los-haitises-bateau";
-import { experience as cacaoHaciendaElvesia } from "@/content/experiences/cacao-hacienda-elvesia";
+import { experience as cigaresLaRomana } from "@/content/experiences/cigares-la-romana";
 import { experience as dinerChefHanoi } from "@/content/experiences/diner-chef-hanoi";
 import { experience as baleinesPacifiqueChoco } from "@/content/experiences/baleines-pacifique-choco";
 import { experience as fincaCafeQuindio } from "@/content/experiences/finca-cafe-quindio";
@@ -533,7 +533,7 @@ import { accommodation as laResidenceHue } from "@/content/accommodations/la-res
 import { accommodation as sixSensesNinhVanBay } from "@/content/accommodations/six-senses-ninh-van-bay";
 import { accommodation as amanera } from "@/content/accommodations/amanera";
 import { accommodation as tortugaBay } from "@/content/accommodations/tortuga-bay";
-import { accommodation as casaDeCampo } from "@/content/accommodations/casa-de-campo";
+import { accommodation as edenRocCapCana } from "@/content/accommodations/eden-roc-cap-cana";
 import { accommodation as casaSanAgustin } from "@/content/accommodations/casa-san-agustin";
 import { accommodation as sazagua } from "@/content/accommodations/sazagua";
 import { accommodation as fourSeasonsCartagena } from "@/content/accommodations/four-seasons-cartagena";
@@ -1035,9 +1035,9 @@ export const experiences: Record<string, Experience> = toMap([
   vinsClairsChampagne,
   visiteSamburuOlMalo,
   trekkingRizieresSapa,
-  baleinesSamana,
+  baleinesSilverBank,
   losHaitisesBateau,
-  cacaoHaciendaElvesia,
+  cigaresLaRomana,
   torresPaineBaqueanos,
   trainKandyEllaWagonPrive,
   pistageLeopardsYala,
@@ -1313,7 +1313,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   richardsRiverCamp,
   amanera,
   tortugaBay,
-  casaDeCampo,
+  edenRocCapCana,
   casaSanAgustin,
   sazagua,
   fourSeasonsCartagena,

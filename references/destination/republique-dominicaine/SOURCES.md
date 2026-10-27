@@ -40,3 +40,10 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png`, `hero-3.png` — no sepa
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+
+## Images placées le 27/10 (liens fournis par Thea)
+- `hero-1.webp` : Palladium Hotel Group — https://www.palladiumhotelgroup.com/content/dam/palladium/images/guias-destino/republica-dominicana/punta-cana/slider/slider-punta-cana-playas.jpg — recadré carré. ⚠ droits à vérifier.
+- `hero-2.webp` : Flora Tours — https://flora-tours.com/wp-content/uploads/baleine-samana.jpg — recadré carré. ⚠ droits à vérifier.
+- `hero-3.webp` : Casa de Campo — https://www.casadecampo.com.do/wp-content/uploads/2025/06/Stay-Villa.jpg — recadré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `full-image.webp` : Expedia — https://images.trvl-media.com/lodging/1000000/690000/687400/687339/c459d469.jpg — recadré 16/9. ⚠ droits à vérifier.
+- `split-1.webp` : vignette Google (359 px) — redessinée en haute définition et prolongée en portrait par IA (Gemini). ⚠ droits à vérifier.
