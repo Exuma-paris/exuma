@@ -14,7 +14,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/republique-dominicaine/xp-baleines-silver-bank.webp",
-    alt: "Nageur face à une baleine à bosse dans le sanctuaire du Silver Bank",
+    alt: "Baleine à bosse et son baleineau observés à distance par un nageur, Silver Bank",
   },
   destinationSlugs: ["republique-dominicaine"],
   sections: [],

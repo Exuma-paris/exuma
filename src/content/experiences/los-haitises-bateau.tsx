@@ -13,8 +13,8 @@ export const experience: Experience = {
     "samana",
   ],
   heroImage: {
-    src: "/destination/republique-dominicaine/xp-los-haitises-bateau.png",
-    alt: "Formations karstiques et mangroves du parc national Los Haitises, République dominicaine",
+    src: "/destination/republique-dominicaine/xp-los-haitises-bateau.webp",
+    alt: "Bateau privé devant le Cayo de los Pájaros, parc national Los Haitises",
   },
   destinationSlugs: ["republique-dominicaine"],
   sections: [],

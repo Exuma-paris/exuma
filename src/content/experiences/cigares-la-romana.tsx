@@ -14,7 +14,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/republique-dominicaine/xp-cigares-la-romana.webp",
-    alt: "Torcedor roulant un cigare à la main dans une manufacture de La Romana",
+    alt: "Cigares roulés à la main rangés par centaines, manufacture Tabacalera de García, La Romana",
   },
   destinationSlugs: ["republique-dominicaine"],
   sections: [],
