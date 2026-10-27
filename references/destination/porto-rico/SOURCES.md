@@ -54,3 +54,4 @@ Each generated image in `public/destination/porto-rico/` was produced by feeding
 - `xp-catamaran-culebra.webp` : vignette Google (encrypted-tbn0.gstatic.com, 259 px) — redessinée en haute définition par IA (Gemini) sur la même composition. ⚠ droits à vérifier.
 - `hotel-dorado-beach.webp` : Tripadvisor https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e9/15/08/dorado-beach-a-ritz-carlton.jpg — recadré carré. ⚠ droits à vérifier.
 - `hotel-st-regis-bahia-beach.webp` : Kenneth Cobonpue (projet St. Regis Bahia Beach) — https://api.kennethcobonpue.com/storage/uploads/project/2024-05-27/2024-05-27_14-35-24-890835.webp — recadré carré, saturation réduite. ⚠ droits à vérifier.
+- `hotel-villa-vieques.webp` : Airbnb https://a0.muscache.com/im/pictures/3f14081e-d9d4-4bdf-b4ef-1c691515011f.jpg — recadré carré. ⚠ droits à vérifier.

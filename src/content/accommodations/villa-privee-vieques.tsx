@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["porto rico", "vieques", "villa privee", "mer des caraibes", "baie bioluminescente"],
   heroImage: {
     src: "/destination/porto-rico/hotel-villa-vieques.webp",
-    alt: "Villa privée et sa piscine à débordement face à la mer des Caraïbes, Vieques",
+    alt: "Villa privée blanche et sa piscine à débordement au milieu de la végétation, Vieques",
   },
   destinationSlugs: ["porto-rico"],
   sections: [],
