@@ -14,7 +14,7 @@ export const accommodation: Accommodation = {
   ],
   heroImage: {
     src: "/destination/republique-dominicaine/hotel-eden-roc-cap-cana.webp",
-    alt: "Suite avec piscine privée face à la plage d'Eden Roc, Cap Cana",
+    alt: "Massage en duo au bord d'un cénote, spa d'Eden Roc Cap Cana",
   },
   destinationSlugs: ["republique-dominicaine"],
   sections: [],

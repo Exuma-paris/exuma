@@ -55,3 +55,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png`, `hero-3.png` — no sepa
 - `xp-cigares-la-romana.webp` : Wikimedia Commons, Mstyslav Chernov, CC BY-SA 3.0 — « Handmade cigar production, process. Tabacalera de Garcia Factory. Casa de Campo, La Romana (9) » — recadré carré.
 - `hotel-amanera.webp` : Aman (site officiel), version grand format de la photo fournie par Thea — https://www.aman.com/sites/default/files/2024-05/amanera_dominican_republic_-resort-casa-grande-exterior-3893-srgb.webp — recadré carré. ⚠ droits à vérifier.
 - `hotel-tortuga-bay.webp` : Luxury Lifestyle Awards — https://luxurylifestyleawards.com/wp-content/uploads/2024/08/14-2.jpg — recadré carré. ⚠ droits à vérifier.
+- `hotel-eden-roc-cap-cana.webp` : Expedia — https://images.trvl-media.com/lodging/5000000/4430000/4423900/4423875/054931cc.jpg — recadré carré. ⚠ droits à vérifier.
