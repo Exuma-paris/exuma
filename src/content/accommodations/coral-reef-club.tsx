@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "La famille Ward dirige ce domaine de la Platinum Coast depuis son ouverture en 1956, entre cottages et jardins tropicaux. Les enfants y grandissent souvent avec le même personnel que leurs parents.",
   keywords: ["barbade", "coral reef club", "st james", "famille", "platinum coast"],
   heroImage: {
-    src: "/destination/barbade/hotel-coral-reef-club.png",
-    alt: "Cottages et jardins tropicaux du Coral Reef Club, Barbade",
+    src: "/destination/barbade/hotel-coral-reef-club.webp",
+    alt: "Jardins tropicaux, parasols verts et plage du Coral Reef Club vus du ciel, Barbade",
   },
   destinationSlugs: ["barbade"],
   sections: [],

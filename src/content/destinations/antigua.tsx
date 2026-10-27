@@ -35,16 +35,16 @@ export const destination: Destination = {
         "L'île compte deux cent quatre-vingts kilomètres carrés et une plage pour chaque jour de l'année, un chiffre que les habitants citent avant même le nom d'English Harbour. Au large, Barbuda garde ses dix-sept kilomètres de sable rose pour trois fois moins de monde qu'Antigua. Entre les deux, une heure de bateau et un changement de rythme complet.",
       images: [
         {
-          src: "/destination/antigua/hero-1.png",
+          src: "/destination/antigua/hero-1.webp",
           alt: "Plage de sable blanc et eaux turquoise lors d'un voyage à Antigua",
         },
         {
-          src: "/destination/antigua/hero-2.png",
-          alt: "Voiliers mouillés dans la baie d'English Harbour à Antigua",
+          src: "/destination/antigua/hero-2.webp",
+          alt: "Voilier au mouillage dans une baie abritée de la côte ouest d'Antigua",
         },
         {
-          src: "/destination/antigua/hero-3.png",
-          alt: "Sable rose et frégates au-dessus de la lagune de Barbuda",
+          src: "/destination/antigua/hero-3.webp",
+          alt: "Plage de sable rose de Barbuda et mer turquoise",
         },
       ],
     },
@@ -72,7 +72,7 @@ export const destination: Destination = {
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Antigua se lit à la carte marine autant qu'à la carte routière. L'île mesure vingt-deux kilomètres sur seize, ce qui permet de dormir dans une seule baie et de rayonner en une heure de voiture vers n'importe quel point de la côte, de Jolly Harbour à Half Moon Bay.",
-        "English Harbour et Nelson's Dockyard occupent le sud-est depuis 1725. Le chantier naval, classé à l'UNESCO en 2016, garde ses ateliers de pierre et de bois, et sert toujours de mouillage aux voiliers de compétition pendant l'Antigua Sailing Week, fin avril.",
+        "English Harbour et Nelson's Dockyard occupent le sud-est depuis 1725. Le chantier naval, classé à l'UNESCO en 2016, garde ses entrepôts georgiens de brique et de bois, et sert toujours de mouillage aux voiliers de compétition pendant l'Antigua Sailing Week, fin avril.",
         "Barbuda relève d'un autre ordre. Moins de deux mille habitants, aucune route vers Antigua, une réserve de frégates qui abrite la plus grande colonie de l'hémisphère occidental. On y va pour une journée, on en revient en ayant vu une île différente de celle qu'on a quittée.",
       ],
     },
@@ -80,7 +80,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/antigua/full-image.png",
+        src: "/destination/antigua/full-image.webp",
         alt: "Baie d'English Harbour vue du fort Shirley Heights lors d'un voyage à Antigua",
       },
       height: 600,
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/antigua/split-1.png",
-          alt: "Cottage privé sur une colline dominant une plage d'Antigua",
+          src: "/destination/antigua/split-1.webp",
+          alt: "Kayak sur le lagon turquoise devant une longue plage bordée de palmiers, Antigua",
         },
         {
-          src: "/destination/antigua/split-2.png",
-          alt: "Ponton en bois sur une crique isolée de la côte nord d'Antigua",
+          src: "/destination/antigua/split-2.webp",
+          alt: "Pavillon de bois sur pilotis entre les cocotiers d'une plage d'Antigua",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/antigua/xp-barbuda-1.png",
-          alt: "Plage de sable rose déserte sur l'île de Barbuda",
+          src: "/destination/antigua/xp-barbuda-1.webp",
+          alt: "Vague sur le sable rose d'une plage déserte de Barbuda",
         },
         right: {
-          src: "/destination/antigua/xp-barbuda-2.png",
-          alt: "Colonie de frégates dans la réserve ornithologique de Barbuda",
+          src: "/destination/antigua/xp-barbuda-2.webp",
+          alt: "Frégate mâle, poche rouge gonflée, sur une branche de palétuvier face à la lagune de Barbuda",
         },
       },
       text: {
@@ -136,11 +136,11 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités à Antigua",
       heading: "Cades Reef, un cheval sur la plage, un chantier naval du XVIIIe",
       description:
-        "Un catamaran privé jusqu'à la barrière de corail de Cades Reef, une sortie à cheval au lever du jour, une visite de Nelson's Dockyard avant l'arrivée des groupes. Trois façons d'entrer dans l'île, que nous réservons avant votre arrivée.",
+        "Un catamaran privé jusqu'à la barrière de corail de Cades Reef, une sortie à cheval au lever du jour, un survol en hélicoptère du volcan de Montserrat. Trois façons d'entrer dans l'île, que nous réservons avant votre arrivée.",
       slugs: [
         "catamaran-prive-cades-reef",
         "randonnee-equestre-plage",
-        "visite-nelsons-dockyard",
+        "helicoptere-volcan-montserrat",
       ],
     },
 
@@ -151,7 +151,7 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Où séjourner à Antigua",
       description:
-        "Une île privée sans voiture, des cottages disséminés sur une colline sans réception visible, un arc de suites sur une plage de sable noir. Trois échelles, trois façons de disparaître.",
+        "Une île privée sans voiture, des cottages disséminés sur une colline sans réception visible, un arc de suites sur une plage de sable blanc. Trois échelles, trois façons de disparaître.",
       slugs: ["jumby-bay-island", "hermitage-bay", "carlisle-bay"],
     },
 
@@ -225,13 +225,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/antigua/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/antigua/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Antigua entre English Harbour et Barbuda",
-            "Adresses confidentielles à Antigua : criques et pontons privés",
-            "Hébergements à Antigua : Jumby Bay Island et Hermitage Bay",
-            "Conciergerie privée pour un voyage à Antigua",
-            "Expériences immersives à Antigua : Cades Reef et Barbuda",
+            "Adresses confidentielles à Antigua : une table pour deux au bout d'un ponton privé",
+            "Hébergements à Antigua : l'île privée de Jumby Bay vue du ciel",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Expériences immersives à Antigua : snorkeling depuis un catamaran privé à Cades Reef",
           ][i],
         },
       })),
@@ -252,8 +252,8 @@ export const destination: Destination = {
           description:
             "La capitale garde ses entrepôts de brique convertis en boutiques et son marché du samedi matin. On y passe la matinée d'arrivée avant de rejoindre la côte sud.",
           image: {
-            src: "/destination/antigua/map-st-johns.png",
-            alt: "Entrepôts de brique de Redcliffe Quay à St. John's, Antigua",
+            src: "/destination/antigua/map-st-johns.webp",
+            alt: "Maisons colorées et voilier jaune sur le front de mer de St. John's, Antigua",
           },
           // TODO: verify coords
           coordinates: { lat: 17.1274, lng: -61.8468 },
@@ -263,8 +263,8 @@ export const destination: Destination = {
           description:
             "Le seul chantier naval georgien encore en activité au monde, classé à l'UNESCO en 2016. Les voiliers de compétition y mouillent toujours pendant l'Antigua Sailing Week.",
           image: {
-            src: "/destination/antigua/map-english-harbour.png",
-            alt: "Voiliers amarrés à Nelson's Dockyard dans English Harbour, Antigua",
+            src: "/destination/antigua/map-english-harbour.webp",
+            alt: "Bâtiments georgiens de Nelson's Dockyard au bord de l'eau, English Harbour, Antigua",
           },
           // TODO: verify coords
           coordinates: { lat: 17.0, lng: -61.7667 },
@@ -274,7 +274,7 @@ export const destination: Destination = {
           description:
             "Un fort du XVIIIe siècle perché au-dessus d'English Harbour, avec la meilleure vue de l'île sur le coucher de soleil. Un groupe de steel drum y joue le dimanche.",
           image: {
-            src: "/destination/antigua/map-shirley-heights.png",
+            src: "/destination/antigua/map-shirley-heights.webp",
             alt: "Vue depuis le fort de Shirley Heights sur English Harbour, Antigua",
           },
           // TODO: verify coords
@@ -285,8 +285,8 @@ export const destination: Destination = {
           description:
             "Dix-sept kilomètres de sable rose et une lagune qui abrite près de cinq mille couples de frégates, la plus grande colonie de l'hémisphère occidental.",
           image: {
-            src: "/destination/antigua/map-barbuda.png",
-            alt: "Lagune de Codrington et réserve de frégates à Barbuda",
+            src: "/destination/antigua/map-barbuda.webp",
+            alt: "Frégate mâle face à la lagune de Codrington, Barbuda",
           },
           // TODO: verify coords
           coordinates: { lat: 17.6167, lng: -61.8167 },
@@ -296,8 +296,8 @@ export const destination: Destination = {
           description:
             "Une arche de calcaire sculptée par l'Atlantique sur la côte est, et une baie en croissant qu'aucune route directe ne dessert vraiment facilement.",
           image: {
-            src: "/destination/antigua/map-devils-bridge.png",
-            alt: "Arche naturelle de Devil's Bridge sur la côte est d'Antigua",
+            src: "/destination/antigua/map-devils-bridge.webp",
+            alt: "Arche naturelle de Devil's Bridge battue par les vagues, côte est d'Antigua",
           },
           // TODO: verify coords
           coordinates: { lat: 17.0864, lng: -61.6772 },
@@ -307,8 +307,8 @@ export const destination: Destination = {
           description:
             "Les vestiges d'une plantation de canne à sucre du XVIIe siècle d'un côté, la route forestière la plus verte de l'île de l'autre.",
           image: {
-            src: "/destination/antigua/map-bettys-hope.png",
-            alt: "Moulins à vent de la plantation historique de Betty's Hope, Antigua",
+            src: "/destination/antigua/map-bettys-hope.webp",
+            alt: "Moulins à sucre en pierre de la plantation de Betty's Hope, Antigua",
           },
           // TODO: verify coords
           coordinates: { lat: 17.0817, lng: -61.7394 },
@@ -522,8 +522,8 @@ export const destination: Destination = {
           quote:
             "Nous sommes partis un matin pour Barbuda et nous avons eu la plage rose quasiment pour nous. Le bateau nous attendait pour le retour au moment exact où la lumière a changé.",
           image: {
-            src: "/destination/antigua/hero-1.png",
-            alt: "Plage de sable blanc et eaux turquoise lors d'un voyage à Antigua"
+            src: "/destination/antigua/hero-1.webp",
+            alt: "Plage de sable blanc et eaux turquoise lors d'un voyage à Antigua",
           },
           name: "", // TODO: replace with real testimonial
         },
@@ -532,8 +532,8 @@ export const destination: Destination = {
           quote:
             "Une île entière pour nous six, sans une voiture, avec une navette qui passait toutes les vingt minutes. Les enfants ont fini par reconnaître chaque plage. Le dîner sous les étoiles restera le souvenir de ce voyage.",
           image: {
-            src: "/destination/antigua/hero-2.png",
-            alt: "Voiliers mouillés dans la baie d'English Harbour à Antigua"
+            src: "/destination/antigua/hero-2.webp",
+            alt: "Voilier au mouillage dans une baie abritée de la côte ouest d'Antigua",
           },
           name: "", // TODO: replace with real testimonial
           role: "Antigua en famille, Jumby Bay, 2025", // TODO: replace with real testimonial
@@ -543,8 +543,8 @@ export const destination: Destination = {
           quote:
             "Trois jours à Hermitage Bay sans croiser plus de dix personnes en dehors du personnel. La visite de Nelson's Dockyard tôt le matin, avant les groupes de croisiéristes, a changé notre regard sur l'île entière.",
           image: {
-            src: "/destination/antigua/hero-3.png",
-            alt: "Sable rose et frégates au-dessus de la lagune de Barbuda"
+            src: "/destination/antigua/hero-3.webp",
+            alt: "Plage de sable rose de Barbuda et mer turquoise",
           },
           name: "", // TODO: replace with real testimonial
           role: "Antigua, English Harbour, 2025", // TODO: replace with real testimonial

@@ -90,9 +90,9 @@ export const destination: Destination = {
       heading: "Un pays qui change de visage à chaque étape",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
-        "Du nord au sud, le Vietnam compose un voyage de contrastes. Sur plus de 1 600 kilomètres, le pays s’étire du delta du fleuve Rouge aux mangroves du Mékong. À Hanoï, en janvier, on porte une veste. Le même jour, à Hô-Chi-Minh-Ville, le thermomètre approche les 30 °C. Cette diversité climatique donne son rythme au voyage.",
-        "La baie de Lan Ha, plus discrète que sa voisine d’Halong, dévoile ses criques et ses îlots depuis l’eau. Plus au centre, Hué conserve les palais et les tombeaux des empereurs Nguyễn, le long de la rivière des Parfums. Dans les montagnes du nord-ouest, les rizières en terrasses de Sa Pa changent de teinte au fil des saisons, du vert tendre aux nuances dorées. C’est cette succession de paysages et de rythmes qui guide nos itinéraires : chaque déplacement a sa raison, chaque étape apporte quelque chose à la suivante.",
-        "« Il y a le Vietnam que l’on traverse en dix jours entre Hanoï et Hô-Chi-Minh-Ville, et celui que l’on découvre en prenant le temps de s’arrêter. Entre les deux, il y a tout le voyage. »",
+        "Du nord au sud, le Vietnam s’étire sur plus de 1 600 kilomètres, du delta du fleuve Rouge aux mangroves du Mékong. En janvier, on porte une veste à Hanoï quand Hô-Chi-Minh-Ville approche les 30 °C. Ces écarts de climat donnent son rythme au voyage.",
+        "La baie de Lan Ha, plus discrète que sa voisine d’Halong, se découvre depuis l’eau, entre ses criques secrètes et ses îlots couverts de jungle. Au centre, Hué conserve les palais et les tombeaux des empereurs Nguyễn, le long de la rivière des Parfums.",
+        "Au nord-ouest, les rizières en terrasses de Sa Pa passent du vert tendre aux nuances dorées selon la saison. Nous composons l’itinéraire pour que chaque étape apporte quelque chose à la suivante, en prenant le temps de s’arrêter.",
       ],
     },
 

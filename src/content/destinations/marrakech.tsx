@@ -31,16 +31,16 @@ export const destination: Destination = {
         "Médina millénaire, contreforts de l'Atlas à quarante minutes, palmeraie silencieuse au nord. Trois registres de voyage dans un rayon de trente kilomètres. Nous organisons le passage de l'un à l'autre depuis plus de huit ans.",
       images: [
         {
-          src: "/destination/marrakech/hero-1.png",
-          alt: "Cour intérieure d'un riad dans la médina de Marrakech",
+          src: "/destination/marrakech/hero-1.webp",
+          alt: "Porte festonnée et étals de tapis et d'étoffes dans les souks de la médina de Marrakech",
         },
         {
-          src: "/destination/marrakech/hero-2.png",
-          alt: "Vue sur l'Atlas enneigé depuis la palmeraie de Marrakech",
+          src: "/destination/marrakech/hero-2.webp",
+          alt: "Minaret de la Koutoubia devant les sommets enneigés du Haut Atlas, Marrakech",
         },
         {
-          src: "/destination/marrakech/hero-3.png",
-          alt: "Bassin et jardin d'un palais dans la médina",
+          src: "/destination/marrakech/hero-3.webp",
+          alt: "Villa bleu Majorelle, bassin et cactus du jardin Majorelle, Marrakech",
         },
       ],
     },
@@ -61,8 +61,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/marrakech/full-image.png",
-        alt: "Toits-terrasses de la médina de Marrakech au crépuscule",
+        src: "/destination/marrakech/full-image.webp",
+        alt: "Terrasse sur les toits face au minaret de la Koutoubia au crépuscule, Marrakech",
       },
       height: 600,
     },
@@ -78,11 +78,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/marrakech/split-1.png",
-          alt: "Artisan zelligeur découpant des tesselles dans un atelier de la médina",
+          src: "/destination/marrakech/split-1.webp",
+          alt: "Deux zelligeurs taillant les pièces de céramique dans un atelier de la médina",
         },
         {
-          src: "/destination/marrakech/split-2.png",
+          src: "/destination/marrakech/split-2.webp",
           alt: "Cuves de teinture dans les tanneries de Marrakech",
         },
       ],
@@ -92,12 +92,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/marrakech/zellige.png",
-          alt: "Mosaïque zellige dans une fontaine de la medersa Ben Youssef",
+          src: "/destination/marrakech/zellige.webp",
+          alt: "Cour de la medersa Ben Youssef, son bassin, ses zelliges et ses boiseries de cèdre, Marrakech",
         },
         right: {
-          src: "/destination/marrakech/jardinier.png",
-          alt: "Jardinier taillant un oranger dans un riad de la médina",
+          src: "/destination/marrakech/medersa-patio.webp",
+          alt: "Arcade de l'étage de la medersa Ben Youssef ouvrant sur un patio aux moucharabiehs de cèdre, Marrakech",
         },
       },
       text: {
@@ -119,7 +119,7 @@ export const destination: Destination = {
       description:
         "Des accès négociés, des personnes nommées. Ni circuit organisé, ni improvisation : une logique construite sur place depuis des années.",
       cta: { label: "Voir tous les coups de cœur", href: "/experiences" },
-      slugs: ["hammam-dar-el-bacha", "cuisine-palais-bahia", "survol-atlas-biplan"],
+      slugs: ["hammam-mamounia", "cuisine-maison-arabe", "survol-atlas-helicoptere"],
     },
 
     {
@@ -194,7 +194,7 @@ export const destination: Destination = {
           description:
             "Nous assemblons les deux registres, ville et montagne, dans une logique de rythme, pas de distance.",
           image: {
-            src: "/destination/marrakech/bento-map.png",
+            src: "/destination/marrakech/bento-map.webp",
             alt: "Carte d'itinéraire personnalisé Marrakech et Atlas",
           },
           tone: "dark",
@@ -204,7 +204,7 @@ export const destination: Destination = {
           description:
             "Riads sans enseigne, tables de famille, ateliers fermés au public. Des portes qui ne s'ouvrent pas seules.",
           image: {
-            src: "/destination/marrakech/bento-adresses.png",
+            src: "/destination/marrakech/bento-adresses.webp",
             alt: "Porte sculptée dans un derb de la médina",
           },
         },
@@ -213,8 +213,8 @@ export const destination: Destination = {
           description:
             "Palais restauré, domaine en palmeraie, kasbah dans la vallée. Chaque adresse a une raison d'être dans l'itinéraire.",
           image: {
-            src: "/destination/marrakech/bento-aerien.png",
-            alt: "Vue aérienne de la palmeraie de Marrakech",
+            src: "/destination/marrakech/bento-aerien.webp",
+            alt: "Pavillons en pisé rose de l'Amanjena se reflétant dans le grand bassin",
           },
         },
         {
@@ -222,8 +222,8 @@ export const destination: Destination = {
           description:
             "Transferts privés, réservations de dernière minute, ajustements en temps réel. Réponse sous une heure.",
           image: {
-            src: "/destination/marrakech/bento-conciergerie.png",
-            alt: "Voiture privée devant un riad de Marrakech",
+            src: "/destination/marrakech/bento-conciergerie.webp",
+            alt: "Conseillère Exuma souriante, casque sur les oreilles",
           },
         },
         {
@@ -231,7 +231,7 @@ export const destination: Destination = {
           description:
             "Guides diplômés, conservateurs, artisans, familles. Des personnes qui connaissent la ville pour y vivre.",
           image: {
-            src: "/destination/marrakech/bento-experience.png",
+            src: "/destination/marrakech/bento-experience.webp",
             alt: "Guide et visiteurs dans un fondouk restauré",
           },
         },
@@ -253,8 +253,8 @@ export const destination: Destination = {
           description:
             "Fondée au XIVe siècle, restaurée en 1565 sous les Saadiens. Cent trente-deux chambres d'étudiants organisées autour d'un bassin rectangulaire. Le décor de stuc, zellige et bois de cèdre est intact.",
           image: {
-            src: "/destination/marrakech/map-medersa.png",
-            alt: "Patio de la medersa Ben Youssef",
+            src: "/destination/marrakech/map-medersa.webp",
+            alt: "Cour et bassin de la medersa Ben Youssef",
           },
           coordinates: { lat: 31.6317, lng: -7.9867 }, // TODO: verify coords
         },
@@ -263,8 +263,8 @@ export const destination: Destination = {
           description:
             "Quarante minutes de route vers le sud. Les terrasses de culture berbère grimpent entre les noyers jusqu'aux cascades de Setti Fatma. Le marché du lundi rassemble les villages de la vallée.",
           image: {
-            src: "/destination/marrakech/map-ourika.png",
-            alt: "Terrasses cultivées dans la vallée de l'Ourika",
+            src: "/destination/marrakech/map-ourika.webp",
+            alt: "Village et vergers de la vallée de l'Ourika au pied de l'Atlas",
           },
           coordinates: { lat: 31.3667, lng: -7.8000 }, // TODO: verify coords
         },
@@ -273,8 +273,8 @@ export const destination: Destination = {
           description:
             "Huit hectares de cours, de jardins et de salons construits à la fin du XIXe siècle pour le grand vizir Ba Ahmed. Les plafonds peints en bois de cèdre sont d'origine.",
           image: {
-            src: "/destination/marrakech/map-bahia.png",
-            alt: "Cour intérieure du palais Bahia",
+            src: "/destination/marrakech/map-bahia.webp",
+            alt: "Grande cour pavée et galeries peintes du palais Bahia",
           },
           coordinates: { lat: 31.6216, lng: -7.9833 }, // TODO: verify coords
         },
@@ -283,7 +283,7 @@ export const destination: Destination = {
           description:
             "À une heure de route. Un plateau à 1 800 mètres d'altitude face à la chaîne du Toubkal. Pas de tourisme organisé. Un berger, des troupeaux, un silence de montagne.",
           image: {
-            src: "/destination/marrakech/map-kik.png",
+            src: "/destination/marrakech/map-kik.webp",
             alt: "Plateau du Kik avec vue sur le Toubkal enneigé",
           },
           coordinates: { lat: 31.2500, lng: -8.1000 }, // TODO: verify coords
@@ -293,7 +293,7 @@ export const destination: Destination = {
           description:
             "Créés au XIIe siècle par les Almohades, irrigués par des khettaras souterraines depuis huit cents ans. Douze hectares d'oliviers et d'agrumes ceints de murs en pisé. Ouverts le vendredi et le dimanche uniquement.",
           image: {
-            src: "/destination/marrakech/map-agdal.png",
+            src: "/destination/marrakech/map-agdal.webp",
             alt: "Bassin et oliviers des jardins de l'Agdal",
           },
           coordinates: { lat: 31.6100, lng: -7.9850 }, // TODO: verify coords
@@ -303,8 +303,8 @@ export const destination: Destination = {
           description:
             "Deux heures trente de route vers l'est. Une palmeraie traversée de kasbahs en terre, dont celle d'Amridil. Le rythme change : on passe de la ville rouge au silence ocre du pré-Sahara.",
           image: {
-            src: "/destination/marrakech/map-skoura.png",
-            alt: "Kasbah en pisé dans la palmeraie de Skoura",
+            src: "/destination/marrakech/map-skoura.webp",
+            alt: "Kasbahs en pisé entre les palmiers de l'oasis de Skoura",
           },
           coordinates: { lat: 31.0631, lng: -6.5553 }, // TODO: verify coords
         },
@@ -431,8 +431,8 @@ export const destination: Destination = {
           quote:
             "On a passé trois jours dans la médina sans croiser un seul groupe organisé. Notre guide connaissait chaque porte, chaque artisan par son prénom. Le dernier soir, un dîner sur un toit-terrasse qu'aucun guide ne mentionne.",
           image: {
-            src: "/destination/marrakech/hero-1.png",
-            alt: "Cour intérieure d'un riad dans la médina de Marrakech",
+            src: "/destination/marrakech/hero-1.webp",
+            alt: "Porte festonnée et étals de tapis et d'étoffes dans les souks de la médina de Marrakech",
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Séjour en couple, mars 2025", // TODO: à vérifier (replace with real testimonial)
@@ -442,8 +442,8 @@ export const destination: Destination = {
           quote:
             "Le passage de la ville à l'Atlas s'est fait sans transition visible. Un matin on était dans les souks, l'après-midi sur un plateau à 2 000 mètres avec un berger qui nous a montré comment il lit le ciel pour prévoir la météo du lendemain.",
           image: {
-            src: "/destination/marrakech/hero-2.png",
-            alt: "Vue sur l'Atlas enneigé depuis la palmeraie de Marrakech",
+            src: "/destination/marrakech/hero-2.webp",
+            alt: "Minaret de la Koutoubia devant les sommets enneigés du Haut Atlas, Marrakech",
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Voyage en famille, avril 2025", // TODO: à vérifier (replace with real testimonial)
@@ -453,8 +453,8 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marqué : le hammam privé à sept heures du matin, le silence total, la vapeur, la lumière par les moucharabiehs. Trente minutes qui ont changé le rythme de toute la journée.",
           image: {
-            src: "/destination/marrakech/hero-3.png",
-            alt: "Bassin et jardin d'un palais dans la médina",
+            src: "/destination/marrakech/hero-3.webp",
+            alt: "Villa bleu Majorelle, bassin et cactus du jardin Majorelle, Marrakech",
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Escapade solo, novembre 2024", // TODO: à vérifier (replace with real testimonial)

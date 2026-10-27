@@ -228,13 +228,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/la-grenade/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/la-grenade/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à la Grenade entre Saint-Georges, le Grand Étang et Carriacou",
-            "Adresses confidentielles à la Grenade : plantations de muscade et tables de village",
+            "Table de déjeuner dressée sous les muscadiers d’une plantation de la Grenade",
             "Hébergements à la Grenade : Silversands Grand Anse, Calabash et Six Senses La Sagesse",
-            "Conciergerie privée pour un séjour à la Grenade",
-            "Expériences à la Grenade : voilier en bois et parc de sculptures sous-marines",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Voilier en bois de Carriacou naviguant entre les îles de la Grenade",
           ][i],
         },
       })),
@@ -255,8 +255,8 @@ export const destination: Destination = {
           description:
             "La capitale ferme son port sur un ancien cratère, et les maisons à toits de tuile rouge montent en gradins jusqu'au fort. Sur le Carénage, les entrepôts d'épices ouvrent encore sur le quai, et le marché du samedi remplit toute la place de muscade, de cannelle et de cacao.",
           image: {
-            src: "/destination/la-grenade/map-saint-georges.png",
-            alt: "Le port du Carénage à Saint-Georges et ses maisons à toits rouges, à la Grenade",
+            src: "/destination/la-grenade/map-saint-georges.webp",
+            alt: "Voilier amarré dans le port du Carénage, à Saint-Georges, à la Grenade",
           },
           // TODO: verify coords
           coordinates: { lat: 12.0561, lng: -61.7486 },
@@ -266,7 +266,7 @@ export const destination: Destination = {
           description:
             "Trois kilomètres de sable clair en courbe, avec Saint-Georges au bout et la mer des Caraïbes en face. L'eau y reste calme et peu profonde près du bord, et la plage est restée publique sur toute sa longueur : les pêcheurs y tirent leurs barques entre les parasols.",
           image: {
-            src: "/destination/la-grenade/map-grand-anse.png",
+            src: "/destination/la-grenade/map-grand-anse.webp",
             alt: "La courbe de sable de la Grand Anse avec Saint-Georges au fond, à la Grenade",
           },
           // TODO: verify coords
@@ -277,8 +277,8 @@ export const destination: Destination = {
           description:
             "Le premier musée sous-marin au monde a été immergé dans cette baie en 2006, dans une aire marine protégée. Les figures de Jason deCaires Taylor reposent à quelques mètres de fond, et le corail les a colonisées année après année : elles se découvrent au masque, sans bouteille.",
           image: {
-            src: "/destination/la-grenade/map-molinere.png",
-            alt: "Sculptures immergées et corail dans la baie de Molinière à la Grenade",
+            src: "/destination/la-grenade/map-molinere.webp",
+            alt: "Cercle de sculptures immergées dans la baie de Molinière à la Grenade",
           },
           // TODO: verify coords
           coordinates: { lat: 12.0906, lng: -61.7628 },
@@ -288,7 +288,7 @@ export const destination: Destination = {
           description:
             "La route grimpe au centre de l'île jusqu'à un lac de cratère posé dans la forêt, à plus de cinq cents mètres. Les sentiers partent de là vers le mont Qua Qua et les cascades des Seven Sisters, et les singes traversent la route au petit matin.",
           image: {
-            src: "/destination/la-grenade/map-grand-etang.png",
+            src: "/destination/la-grenade/map-grand-etang.webp",
             alt: "Le lac de cratère du Grand Étang entouré de forêt tropicale à la Grenade",
           },
           // TODO: verify coords
@@ -299,8 +299,8 @@ export const destination: Destination = {
           description:
             "Le village de pêcheurs abrite la plus grande station de muscade de l'île, un bâtiment de bois ouvert sur la rue où les noix sont triées à la main. Plus au nord, le cacao de Belmont Estate fermente sous des couvercles de bois et la distillerie River Antoine broie la canne à la roue à aubes depuis 1785.",
           image: {
-            src: "/destination/la-grenade/map-gouyave.png",
-            alt: "Séchage des noix de muscade à la station de Gouyave, sur la côte ouest de la Grenade",
+            src: "/destination/la-grenade/map-gouyave.webp",
+            alt: "Trieuse de noix de muscade à la station de Gouyave, sur la côte ouest de la Grenade",
           },
           // TODO: verify coords
           coordinates: { lat: 12.1656, lng: -61.7325 },
@@ -310,7 +310,7 @@ export const destination: Destination = {
           description:
             "L'île sœur se rejoint en avion en quinze minutes ou par la mer, et l'on y construit encore les voiliers en bois sur la plage de Windward. En face de Hillsborough, Sandy Island n'est qu'un banc de sable planté de quelques cocotiers, cerné d'eau claire, avec un récif à quelques mètres du bord.",
           image: {
-            src: "/destination/la-grenade/map-carriacou.png",
+            src: "/destination/la-grenade/map-carriacou.webp",
             alt: "Le banc de sable de Sandy Island au large de Carriacou, à la Grenade",
           },
           // TODO: verify coords

@@ -113,11 +113,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/canada/xp-heliski-bugaboos-1.webp",
-          alt: "Hélicoptère posé sur un glacier au pied des tours de granit des Bugaboos",
+          alt: "Hélicoptère posé sur la neige au milieu des séracs, skieurs autour, Bugaboos",
         },
         right: {
           src: "/destination/canada/xp-heliski-bugaboos-2.webp",
-          alt: "Skieur dans une pente de neige vierge au-dessus d'un glacier des Bugaboos",
+          alt: "Trois skieurs dans une pente vierge sous les séracs d'un glacier, Bugaboos",
         },
       },
       text: {
@@ -237,7 +237,7 @@ export const destination: Destination = {
             "Carte d'un itinéraire sur mesure au Canada",
             "Salle à manger dont la fenêtre voûtée ouvre sur le lac Louise",
             "Grand hôtel des Rocheuses illuminé au bord du lac, sous la neige",
-            "Concierge organisant un vol en hydravion vers un lodge canadien",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Deux skieurs de fond dans une vallée enneigée des Rocheuses",
           ][i],
         },
@@ -270,7 +270,7 @@ export const destination: Destination = {
             "La route relie Banff à Jasper en longeant les champs de glace. On s'arrête au lac Peyto, on marche jusqu'au pied d'un glacier, et l'on croise plus de wapitis que de voitures au petit matin.",
           image: {
             src: "/destination/canada/map-promenade-glaciers.webp",
-            alt: "Route de la promenade des Glaciers longeant les sommets enneigés des Rocheuses",
+            alt: "Route de la promenade des Glaciers filant vers les sommets enneigés des Rocheuses",
           },
           coordinates: { lat: 52.22, lng: -117.2255 }, // TODO: verify coords
         },

@@ -29,3 +29,13 @@ Each generated image in `public/destination/porto-rico/` was produced by feeding
 | `map-culebra.png`                    | `map-culebra-ref.jpg`                     | TODO       | TODO    |
 | `map-dorado.png`                     | `map-dorado-ref.jpg`                      | TODO       | TODO    |
 | `map-ponce.png`                      | `map-ponce-ref.jpg`                       | TODO       | TODO    |
+| `map-vieux-san-juan.webp` | Wikimedia Commons : File:El Morro - Walls 1.jpg | CC BY-SA 4.0 |
+| `map-el-yunque.webp` | Wikimedia Commons : File:Waterfall in El Yunque.jpg | CC BY 2.0 |
+| `map-vieques.webp` | Wikimedia Commons : File:Playa La Chiva Vieques Puerto Rico 2021-08-05 12-11-26 1.jpg | CC BY 4.0 |
+| `map-culebra.webp` | Wikimedia Commons : File:Stormy Flamenco Beach, Culebra Island.jpg | Public domain |
+| `map-dorado.webp` | Wikimedia Commons : File:Dorado Beach TPC Dorado Beach.jpg | CC BY-SA 4.0 |
+| `map-ponce.webp` | Wikimedia Commons : File:Parque de Bombas - Ponce Puerto Rico.jpg | CC BY-SA 4.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+| `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |

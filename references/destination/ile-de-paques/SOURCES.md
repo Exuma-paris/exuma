@@ -33,3 +33,11 @@ Each generated image in `public/destination/ile-de-paques/` was produced by feed
 Testimonial portraits reuse `hero-1.webp`, `hero-2.webp`, `hero-3.webp` — no separate files.
 
 `split-2.webp` n'a pas de photo de référence : elle a été composée à partir d'un brief textuel documenté (umu pae, four circulaire de pierres volcaniques d'environ 80 cm, jardin de Hanga Roa), sans reprendre aucune photographie existante. Il en va de même pour `xp-rano-raraku-2.webp` (traces de toki dans le tuf de la carrière, affleurement banal et érodé).
+| `map-hanga-roa.webp` | Wikimedia Commons : File:Fishing boats in Hanga Roa Harbor.jpg | CC BY 4.0 |
+| `map-orongo.webp` | Wikimedia Commons : File:Orongo 1.jpg | CC BY-SA 4.0 |
+| `map-ahu-akivi.webp` | Wikimedia Commons : File:Ahu Akivi - panoramio - LANOEL.jpg | CC BY-SA 3.0 |
+| `map-anakena.webp` | Wikimedia Commons : File:Anakena 1.jpg | CC BY-SA 4.0 |
+| `bento-experiences.webp` | Générée par IA (gen_text), guide écarté des moai par IA | image générée |
+| `bento-hebergements.webp` | Recadrage de hotel-nayara-hangaroa | |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |

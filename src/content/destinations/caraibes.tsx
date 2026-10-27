@@ -235,13 +235,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/caraibes/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/caraibes/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure dans les Caraïbes entre Saint-Barthélemy, Anguilla et les Grenadines",
-            "Adresses confidentielles dans les Caraïbes : plages privées et îles fermées au public",
+            "Plage privée d'un îlot des Grenadines, transats sous la paillote et barque en bois",
             "Hébergements dans les Caraïbes : Cheval Blanc St-Barth, Belmond Cap Juluca et Cotton House",
-            "Conciergerie privée pour un voyage dans les Caraïbes",
-            "Expériences immersives dans les Caraïbes : goélette privée dans les Grenadines et cacao de Grenade",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Goélette en bois sous voiles entre les îles des Grenadines",
           ][i],
         },
       })),
@@ -262,8 +262,8 @@ export const destination: Destination = {
           description:
             "L'île tient dans une poignée d'anses et vit tournée vers la mer. On y dîne très bien, on se baigne à Colombier ou à Gouverneur, et l'on croise à Gustavia les équipages qui préparent la saison.",
           image: {
-            src: "/destination/caraibes/map-saint-barthelemy.png",
-            alt: "Port de Gustavia à Saint-Barthélemy et anses environnantes",
+            src: "/destination/caraibes/map-saint-barthelemy.webp",
+            alt: "Voiliers amarrés dans le port de Gustavia au crépuscule, Saint-Barthélemy",
           },
           // TODO: verify coords
           coordinates: { lat: 17.9, lng: -62.83 },
@@ -273,8 +273,8 @@ export const destination: Destination = {
           description:
             "L'île est plate, blanche et discrète, avec des plages qui s'étirent sans fin. On y vient pour le silence du matin, pour les tables de plage tenues par des familles du cru, et pour la mer qui reste calme presque toute la journée.",
           image: {
-            src: "/destination/caraibes/map-anguilla.png",
-            alt: "Longue plage blanche de Maundays Bay à Anguilla",
+            src: "/destination/caraibes/map-anguilla.webp",
+            alt: "Longue plage de sable blanc et eau turquoise à Anguilla",
           },
           // TODO: verify coords
           coordinates: { lat: 18.22, lng: -63.06 },
@@ -284,8 +284,8 @@ export const destination: Destination = {
           description:
             "L'île entière appartient à une compagnie privée qui décide de tout, du nombre de maisons à l'entretien des chemins. On s'y déplace en voiturette, on choisit une plage selon l'humeur, et l'on ne rencontre que ceux qui séjournent là.",
           image: {
-            src: "/destination/caraibes/map-mustique.png",
-            alt: "Maison privée surplombant une plage de Mustique dans les Grenadines",
+            src: "/destination/caraibes/map-mustique.webp",
+            alt: "Baie de Mustique et voiliers au mouillage, Grenadines",
           },
           // TODO: verify coords
           coordinates: { lat: 12.88, lng: -61.19 },
@@ -295,7 +295,7 @@ export const destination: Destination = {
           description:
             "Cinq îlots inhabités protégés par un récif en fer à cheval, où l'eau passe du turquoise au vert selon le fond. Les tortues y broutent l'herbier toute la journée, et les bateaux repartent avant le soir pour les mouillages voisins.",
           image: {
-            src: "/destination/caraibes/map-tobago-cays.png",
+            src: "/destination/caraibes/map-tobago-cays.webp",
             alt: "Lagon des Tobago Cays protégé par le récif Horseshoe, Grenadines",
           },
           // TODO: verify coords
@@ -306,7 +306,7 @@ export const destination: Destination = {
           description:
             "Les Pitons sortent de la forêt et tombent droit dans la mer, ce qui donne à la côte ouest une allure que l'on n'oublie pas. Soufrière garde ses maisons de bois, ses sources chaudes et ses jardins où poussent le cacao et la muscade.",
           image: {
-            src: "/destination/caraibes/map-sainte-lucie.png",
+            src: "/destination/caraibes/map-sainte-lucie.webp",
             alt: "Les Pitons de Sainte-Lucie plongeant dans la mer près de Soufrière",
           },
           // TODO: verify coords
@@ -317,8 +317,8 @@ export const destination: Destination = {
           description:
             "On appelle la Grenade l'île aux épices, et l'odeur de la muscade se sent sur les routes de l'intérieur. Les plantations de cacao travaillent encore à l'ancienne, et le marché de Saint-Georges se tient sous les toits de tôle colorée.",
           image: {
-            src: "/destination/caraibes/map-grenade.png",
-            alt: "Port de Saint-Georges à la Grenade et collines plantées de cacaoyers",
+            src: "/destination/caraibes/map-grenade.webp",
+            alt: "Maisons de Saint-Georges étagées au-dessus du port, à la Grenade",
           },
           // TODO: verify coords
           coordinates: { lat: 12.05, lng: -61.75 },

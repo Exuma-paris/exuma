@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Entre juillet et octobre, les baleines à bosse remontent du Pacifique Sud jusqu'aux eaux calmes de Bahía Solano pour mettre bas. Le bateau coupe le moteur à cent mètres, et le souffle se fait entendre avant qu'on ne voie l'aileron.",
   keywords: ["colombie", "choco", "baleines", "pacifique", "bahia solano"],
   heroImage: {
-    src: "/destination/colombie/xp-baleines.png",
-    alt: "Baleine à bosse et son baleineau dans les eaux du Pacifique colombien, Chocó",
+    src: "/destination/colombie/xp-baleines.webp",
+    alt: "Baleine à bosse jaillissant hors de l'eau au coucher du soleil, Pacifique du Chocó",
   },
   destinationSlugs: ["colombie"],
   sections: [],

@@ -31,3 +31,12 @@ Each generated image in `public/destination/caraibes/` was produced by feeding t
 | `map-grenade.png`                 | `map-grenade-ref.jpg`                 | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no separate files.
+| `map-saint-barthelemy.webp` | Wikimedia Commons : File:Gustavia, St. Barthelemy, Guadeloupe, French West Indies (32865406365).jpg | CC BY-SA 2.0 |
+| `map-anguilla.webp` | Wikimedia Commons : File:Cap Juluca - Anguilla.jpg | CC BY 2.0 |
+| `map-mustique.webp` | Wikimedia Commons : File:Mustique - panoramio.jpg | CC BY 3.0 |
+| `map-tobago-cays.webp` | Wikimedia Commons : File:Tobagocays2018.jpg | CC BY-SA 4.0 |
+| `map-sainte-lucie.webp` | Wikimedia Commons : File:Pitonpair.JPG | CC BY-SA 3.0 |
+| `map-grenade.webp` | Wikimedia Commons : File:The Carenage C IM0448.JPG | CC BY-SA 3.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |

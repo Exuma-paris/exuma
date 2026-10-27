@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Une péninsule de désert suspendue entre deux mers. Cabo San Lucas, San José del Cabo, Cabo Pulmo : trois visages d'un même bout du monde.",
       images: [
         {
-          src: "/destination/los-cabos/hero-1.png",
-          alt: "L'Arco de Cabo San Lucas au lever du soleil, Baja California Sur",
+          src: "/destination/los-cabos/hero-1.webp",
+          alt: "L'Arco de Cabo San Lucas en contre-jour au coucher du soleil, Baja California Sur",
         },
         {
-          src: "/destination/los-cabos/hero-2.png",
-          alt: "Plongée sur le récif de Cabo Pulmo, mer de Cortez",
+          src: "/destination/los-cabos/hero-2.webp",
+          alt: "Plongeur face à un banc de carangues sur le récif de Cabo Pulmo, mer de Cortez",
         },
         {
-          src: "/destination/los-cabos/hero-3.png",
-          alt: "Vignobles du Valle de Guadalupe au coucher du soleil, Baja California",
+          src: "/destination/los-cabos/hero-3.webp",
+          alt: "Piste entre les cactus cardón du désert, près de Todos Santos, Baja California Sur",
         },
       ],
     },
@@ -96,8 +96,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/los-cabos/full-image.png",
-        alt: "Vue aérienne de Land's End et de l'Arco, Cabo San Lucas, Mexique",
+        src: "/destination/los-cabos/full-image.webp",
+        alt: "Land's End et ses rochers de granit entre Pacifique et mer de Cortez, vus du ciel, Cabo San Lucas",
       },
       height: 600,
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/los-cabos/split-1.png",
-          alt: "Raie-aigle dans les eaux de Cabo Pulmo, mer de Cortez",
+          src: "/destination/los-cabos/split-1.webp",
+          alt: "Raie-aigle léopard vue du ciel au-dessus des fonds clairs de Cabo Pulmo, mer de Cortez",
         },
         {
-          src: "/destination/los-cabos/split-2.png",
-          alt: "San José del Cabo, district des galeries au crépuscule",
+          src: "/destination/los-cabos/split-2.webp",
+          alt: "Façades rose et bleue d'une boutique d'artisanat dans le quartier historique de San José del Cabo",
         },
       ],
     },
@@ -186,7 +186,7 @@ export const destination: Destination = {
           description:
             "Los Cabos, La Paz, Isla Espiritu Santo, Valle de Guadalupe : la logique du circuit Baja, construite dans le bon ordre.",
           image: {
-            src: "/destination/los-cabos/bento-map.png",
+            src: "/destination/los-cabos/bento-map.webp",
             alt: "Carte de la péninsule de Baja California Sur",
           },
           tone: "dark",
@@ -196,8 +196,8 @@ export const destination: Destination = {
           description:
             "Les restaurants de San José del Cabo que ne référencent pas les guides. Les domaines du Valle qui n'ouvrent pas leurs portes au public.",
           image: {
-            src: "/destination/los-cabos/bento-adresses.png",
-            alt: "District des galeries de San José del Cabo au crépuscule",
+            src: "/destination/los-cabos/bento-adresses.webp",
+            alt: "Galerie d'art éclairée dans une rue coloniale de San José del Cabo au crépuscule",
           },
         },
         {
@@ -205,8 +205,8 @@ export const destination: Destination = {
           description:
             "One&Only Palmilla, Four Seasons Costa Palmas, Chileno Bay : les meilleures suites face à la mer de Cortez.",
           image: {
-            src: "/destination/los-cabos/bento-aerien.png",
-            alt: "Vue aérienne du corridor de Los Cabos entre Pacifique et mer de Cortez",
+            src: "/destination/los-cabos/bento-aerien.webp",
+            alt: "Rochers de Land's End et bateaux sur l'eau turquoise, vus du ciel, Cabo San Lucas",
           },
         },
         {
@@ -214,8 +214,8 @@ export const destination: Destination = {
           description:
             "Un contact Exuma disponible tout au long du séjour. Du transfert à l'aéroport à la table de dernière minute.",
           image: {
-            src: "/destination/los-cabos/bento-conciergerie.png",
-            alt: "Marina de Cabo San Lucas au lever du soleil",
+            src: "/destination/los-cabos/bento-conciergerie.webp",
+            alt: "Conseillère Exuma souriante, casque sur les oreilles",
           },
         },
         {
@@ -223,8 +223,8 @@ export const destination: Destination = {
           description:
             "Cabo Pulmo avant l'ouverture officielle. Les vignes du Valle de Guadalupe hors saison touristique. Les otaries d'Isla Espiritu Santo en bateau privé.",
           image: {
-            src: "/destination/los-cabos/bento-experience.png",
-            alt: "Snorkeling avec des otaries à Isla Espiritu Santo, La Paz",
+            src: "/destination/los-cabos/bento-experience.webp",
+            alt: "Nageur entouré d'otaries près des îlots d'Espíritu Santo, La Paz",
           },
         },
       ],
@@ -244,7 +244,7 @@ export const destination: Destination = {
           description:
             "L'Arco, Land's End, la marina. L'entrée iconique dans Los Cabos, l'endroit où les deux mers se lisent depuis le pont d'un bateau.",
           image: {
-            src: "/destination/los-cabos/map-cabo-san-lucas.png",
+            src: "/destination/los-cabos/map-cabo-san-lucas.webp",
             alt: "L'Arco de Cabo San Lucas vu depuis la mer",
           },
           // TODO: verify coords
@@ -255,8 +255,8 @@ export const destination: Destination = {
           description:
             "Le district des galeries, les rues du XVIIIe siècle, les restaurants de cuisine Baja. La ville qui existe indépendamment du tourisme balnéaire.",
           image: {
-            src: "/destination/los-cabos/map-san-jose-del-cabo.png",
-            alt: "Rues coloniales de San José del Cabo au crépuscule",
+            src: "/destination/los-cabos/map-san-jose-del-cabo.webp",
+            alt: "Place et église de San José del Cabo, Baja California Sur",
           },
           // TODO: verify coords
           coordinates: { lat: 23.0629, lng: -109.7018 },
@@ -266,8 +266,8 @@ export const destination: Destination = {
           description:
             "Réserve marine nationale, seul récif corallien vivant de la côte Pacifique nord. Les plongeurs qui y accèdent en dehors des horaires collectifs voient quelque chose de différent.",
           image: {
-            src: "/destination/los-cabos/map-cabo-pulmo.png",
-            alt: "Récif corallien de Cabo Pulmo, mer de Cortez",
+            src: "/destination/los-cabos/map-cabo-pulmo.webp",
+            alt: "Corail orangé du récif de Cabo Pulmo, mer de Cortez",
           },
           // TODO: verify coords
           coordinates: { lat: 23.4483, lng: -109.4178 },
@@ -277,8 +277,8 @@ export const destination: Destination = {
           description:
             "Pueblo Mágico à 80 km de Cabo, sur la côte Pacifique. Des artistes y ont ouvert des ateliers depuis les années 1980. Punta Lobos, la falaise au-dessus de l'océan, ne figure dans aucun guide.",
           image: {
-            src: "/destination/los-cabos/map-todos-santos.png",
-            alt: "Atelier d'artiste à Todos Santos, Pueblo Mágico de Baja California Sur",
+            src: "/destination/los-cabos/map-todos-santos.webp",
+            alt: "Arcades de l'Hotel California à Todos Santos, Baja California Sur",
           },
           // TODO: verify coords
           coordinates: { lat: 23.4469, lng: -110.2256 },
@@ -288,7 +288,7 @@ export const destination: Destination = {
           description:
             "Capitale de l'état, malecón sur le front de mer, port d'embarquement pour Isla Espiritu Santo. Moins construite que Los Cabos, elle garde un registre que le corridor a perdu.",
           image: {
-            src: "/destination/los-cabos/map-la-paz.png",
+            src: "/destination/los-cabos/map-la-paz.webp",
             alt: "Malecón de La Paz au coucher du soleil, Baja California Sur",
           },
           // TODO: verify coords
@@ -299,8 +299,8 @@ export const destination: Destination = {
           description:
             "Île protégée UNESCO à 25 minutes de La Paz en bateau. Une colonie de 400 otaries vit à Los Islotes, à la pointe nord de l'île. On s'y approche en snorkeling.",
           image: {
-            src: "/destination/los-cabos/map-isla-espiritu-santo.png",
-            alt: "Isla Espiritu Santo vue depuis un bateau, La Paz, Baja California Sur",
+            src: "/destination/los-cabos/map-isla-espiritu-santo.webp",
+            alt: "Falaises rouges et eau turquoise de l'Isla Espíritu Santo, Baja California Sur",
           },
           // TODO: verify coords
           coordinates: { lat: 24.4167, lng: -110.35 },

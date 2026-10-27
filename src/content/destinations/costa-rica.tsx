@@ -82,7 +82,7 @@ export const destination: Destination = {
       type: "fullImage",
       image: {
         src: "/destination/costa-rica/full-image.webp",
-        alt: "Cascade tombant dans la forêt tropicale dense du Costa Rica, vue de la canopée",
+        alt: "Jardins fleuris et église de La Fortuna au pied du volcan Arenal, Costa Rica",
       },
       height: 600,
     },
@@ -99,7 +99,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/costa-rica/split-1.webp",
-          alt: "Canopée de forêt tropicale et volcan noyé dans la brume près de La Fortuna, Costa Rica",
+          alt: "Volcan Arenal au-dessus de la canopée et pont suspendu dans la forêt, La Fortuna, Costa Rica",
         },
         {
           src: "/destination/costa-rica/split-2.webp",

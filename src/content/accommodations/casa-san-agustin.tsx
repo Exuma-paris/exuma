@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Un couvent du XVIIe siècle transformé en maison particulière, au cœur de la vieille ville de Carthagène. Deux piscines occupent les anciens patios, sous des plafonds à poutres qui ont vu passer quatre siècles avant les premiers clients.",
   keywords: ["colombie", "carthagene", "hotel", "vieille ville", "boutique"],
   heroImage: {
-    src: "/destination/colombie/hotel-casa-san-agustin.png",
-    alt: "Patio à piscine de la Casa San Agustín dans la vieille ville de Carthagène",
+    src: "/destination/colombie/hotel-casa-san-agustin.webp",
+    alt: "Piscine du patio de la Casa San Agustín au pied d'un mur ancien, Carthagène",
   },
   destinationSlugs: ["colombie"],
   sections: [],

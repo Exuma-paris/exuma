@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Une île entière à cinq minutes de navette du continent, sans une seule voiture. On y arrive par bateau et on n'entend plus rien de l'île voisine.",
   keywords: ["antigua", "jumby bay", "ile privee", "famille"],
   heroImage: {
-    src: "/destination/antigua/hotel-jumby-bay.png",
-    alt: "Vue aérienne de l'île privée de Jumby Bay au large d'Antigua",
+    src: "/destination/antigua/hotel-jumby-bay.webp",
+    alt: "Villa et piscine au bord de l'eau sur l'île privée de Jumby Bay, vue du ciel, Antigua",
   },
   destinationSlugs: ["antigua"],
   sections: [],

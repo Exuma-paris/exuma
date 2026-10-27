@@ -35,3 +35,4 @@ Les fichiers de référence sont arrivés en double extension (`hero-1.png.png`)
 | `map-banaue.webp`                 | `map-banaue.png.png`                | fournie par Exuma, libre de droit | interne |
 
 Les portraits de témoignage réutilisent `hero-1.webp`, `hero-2.webp` et `hero-3.webp` — pas de fichiers séparés.
+| `xp-requins-baleines-donsol.webp` | IA, génération texte (requin-baleine et nageur, baie de Donsol) | |

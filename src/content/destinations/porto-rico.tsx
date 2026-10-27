@@ -229,13 +229,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/porto-rico/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/porto-rico/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé à Porto Rico",
-            "Ruelle colorée du Vieux San Juan",
-            "Suite avec vue sur la baie à Porto Rico",
-            "Concierge Exuma coordonnant un transfert privé à Porto Rico",
-            "Guide privé commentant la canopée d'El Yunque",
+            "Rue pavée de bleu entre les façades colorées du Vieux San Juan",
+            "Suite et piscine privée ouvertes sur une baie de la côte nord, Porto Rico",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Guide privé montrant les fougères arborescentes d’El Yunque à deux voyageuses",
           ][i],
         },
       })),
@@ -256,7 +256,7 @@ export const destination: Destination = {
           description:
             "Fondée en 1521, la vieille ville garde sept blocs de remparts espagnols et le fort San Felipe del Morro, achevé en 1783. Classée au patrimoine mondial depuis 1983.",
           image: {
-            src: "/destination/porto-rico/map-vieux-san-juan.png",
+            src: "/destination/porto-rico/map-vieux-san-juan.webp",
             alt: "Remparts espagnols du Vieux San Juan surplombant l'Atlantique",
           },
           coordinates: { lat: 18.4663, lng: -66.1057 }, // TODO: verify coords
@@ -266,7 +266,7 @@ export const destination: Destination = {
           description:
             "Huit mille hectares gérés par le service forestier des États-Unis. Les cascades de La Mina et de Juan Diego coulent toute l'année, alimentées par plus de quatre mètres de pluie annuelle.",
           image: {
-            src: "/destination/porto-rico/map-el-yunque.png",
+            src: "/destination/porto-rico/map-el-yunque.webp",
             alt: "Cascade de La Mina dans la forêt tropicale d'El Yunque",
           },
           coordinates: { lat: 18.293, lng: -65.7833 }, // TODO: verify coords
@@ -276,8 +276,8 @@ export const destination: Destination = {
           description:
             "Ancien terrain d'essai de la marine américaine, rendu à l'île en 2003. Mosquito Bay y concentre la bioluminescence la plus intense recensée au monde.",
           image: {
-            src: "/destination/porto-rico/map-vieques.png",
-            alt: "Baie bioluminescente de Mosquito Bay à Vieques de nuit",
+            src: "/destination/porto-rico/map-vieques.webp",
+            alt: "Plage de Vieques et sa baie bordée de végétation",
           },
           coordinates: { lat: 18.0967, lng: -65.4438 }, // TODO: verify coords
         },
@@ -286,7 +286,7 @@ export const destination: Destination = {
           description:
             "Classée à plusieurs reprises parmi les plus belles plages du monde par des guides internationaux. Aucun grand hôtel n'y a jamais été construit.",
           image: {
-            src: "/destination/porto-rico/map-culebra.png",
+            src: "/destination/porto-rico/map-culebra.webp",
             alt: "Plage de Flamenco Beach aux eaux turquoise sur l'île de Culebra",
           },
           coordinates: { lat: 18.3286, lng: -65.3196 }, // TODO: verify coords
@@ -296,7 +296,7 @@ export const destination: Destination = {
           description:
             "Ancienne plantation d'ananas transformée en réserve naturelle privée dans les années 1950. Deux terrains de golf signés Robert Trent Jones y bordent l'Atlantique.",
           image: {
-            src: "/destination/porto-rico/map-dorado.png",
+            src: "/destination/porto-rico/map-dorado.webp",
             alt: "Côte de Dorado bordée de palmiers sur la rive nord de Porto Rico",
           },
           coordinates: { lat: 18.4589, lng: -66.2678 }, // TODO: verify coords
@@ -306,7 +306,7 @@ export const destination: Destination = {
           description:
             "Architecture néoclassique et Art déco autour de la Plaza Las Delicias. La caserne de pompiers Parque de Bombas, rayée de rouge et noir, reste l'image la plus reproduite de la ville.",
           image: {
-            src: "/destination/porto-rico/map-ponce.png",
+            src: "/destination/porto-rico/map-ponce.webp",
             alt: "Parque de Bombas rayé rouge et noir sur la Plaza Las Delicias à Ponce",
           },
           coordinates: { lat: 18.0111, lng: -66.6141 }, // TODO: verify coords

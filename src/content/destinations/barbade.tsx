@@ -36,16 +36,16 @@ export const destination: Destination = {
         "À l'est, l'Atlantique frappe les falaises de corail de Bathsheba sans relâche. À l'ouest, à peine trente kilomètres plus loin, la Platinum Coast s'étend sur une mer plate, à peine ridée par le passage des voiliers. Bridgetown et sa Garrison historique, classées à l'UNESCO en 2011, occupent l'angle sud entre les deux. Nous construisons chaque itinéraire à partir de ce contraste, pas en dépit de lui.",
       images: [
         {
-          src: "/destination/barbade/hero-1.png",
-          alt: "Villas et mer plate de la Platinum Coast lors d'un voyage à la Barbade",
+          src: "/destination/barbade/hero-1.webp",
+          alt: "Plage de sable clair bordée d’arbres sur la Platinum Coast, Barbade",
         },
         {
-          src: "/destination/barbade/hero-2.png",
-          alt: "Voiliers mouillés dans la baie de Carlisle Bay à la Barbade",
+          src: "/destination/barbade/hero-2.webp",
+          alt: "Catamaran privé au mouillage devant une plage de la côte ouest, nageurs autour, Barbade",
         },
         {
-          src: "/destination/barbade/hero-3.png",
-          alt: "Falaises de corail battues par l'Atlantique à Bathsheba, Barbade",
+          src: "/destination/barbade/hero-3.webp",
+          alt: "Rocher en champignon de Bathsheba face aux vagues de l’Atlantique, Barbade",
         },
       ],
     },
@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/barbade/full-image.png",
-        alt: "Vue aérienne de la Platinum Coast et de ses villas privées, Barbade",
+        src: "/destination/barbade/full-image.webp",
+        alt: "Vue aérienne d’un hôtel et de sa plage sur la Platinum Coast, Barbade",
       },
       height: 600,
     },
@@ -98,12 +98,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/barbade/split-1.png",
-          alt: "Pêcheurs déchargeant leur prise à Holetown au petit matin, Barbade",
+          src: "/destination/barbade/split-1.webp",
+          alt: "Pêcheurs déchargeant leur prise d’une barque en bois sur la plage de Holetown, Barbade",
         },
         {
-          src: "/destination/barbade/split-2.png",
-          alt: "Façades coloniales en bois du marché de Speightstown, Barbade",
+          src: "/destination/barbade/split-2.webp",
+          alt: "Rue de Speightstown bordée de façades coloniales et de maisons colorées, Barbade",
         },
       ],
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/barbade/xp-catamaran-tortues-1.png",
-          alt: "Catamaran privé mouillé au-dessus d'une épave à Carlisle Bay, Barbade",
+          src: "/destination/barbade/xp-catamaran-tortues-1.webp",
+          alt: "Catamaran privé au mouillage au-dessus des épaves de Carlisle Bay, vu du ciel, Barbade",
         },
         right: {
-          src: "/destination/barbade/xp-catamaran-tortues-2.png",
-          alt: "Tortue imbriquée nageant près d'une épave à Carlisle Bay, Barbade",
+          src: "/destination/barbade/xp-catamaran-tortues-2.webp",
+          alt: "Tortue de mer nageant au-dessus du corail, une épave au loin, Carlisle Bay, Barbade",
         },
       },
       text: {
@@ -135,10 +135,10 @@ export const destination: Destination = {
       kind: "experience",
       background: "bg-white",
       eyebrow: "Expériences et activités à la Barbade",
-      heading: "Mount Gay, une table sur la falaise, une grotte sous les collines",
+      heading: "Une abbaye de planteurs, une table sur la falaise, un match de polo",
       description:
-        "Une dégustation à la plus ancienne distillerie de rhum du monde, un dîner au-dessus des vagues à St. James, une descente en tram sous les collines calcaires du centre de l'île. Trois façons d'entrer dans l'île, que nous réservons avant votre arrivée.",
-      slugs: ["degustation-mount-gay", "diner-the-cliff", "harrisons-cave"],
+        "Une visite privée de St Nicholas Abbey et de sa distillerie, un dîner au-dessus des vagues à St. James, un dimanche de polo sur la côte ouest. Trois façons d'entrer dans l'île, que nous réservons avant votre arrivée.",
+      slugs: ["visite-privee-st-nicholas-abbey", "diner-the-cliff", "polo-holders"],
     },
 
     {
@@ -222,13 +222,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/barbade/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/barbade/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à la Barbade entre Platinum Coast et côte est",
-            "Adresses confidentielles à la Barbade : criques et tables discrètes",
-            "Suite avec vue sur la mer à la Barbade",
-            "Concierge Exuma coordonnant un transfert privé à la Barbade",
-            "Guide privé commentant la distillerie Mount Gay à la Barbade",
+            "Table pour deux dressée sur le sable d'une crique de la côte ouest, Barbade",
+            "Parasols rayés de rose au bord de la piscine de Cobblers Cove, Barbade",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Guide privé commentant la distillerie de St Nicholas Abbey à la Barbade",
           ][i],
         },
       })),
@@ -249,8 +249,8 @@ export const destination: Destination = {
           description:
             "La ville et son ensemble militaire du XVIIe siècle sont classés à l'UNESCO depuis 2011. Le marché du Cheapside s'anime le samedi matin, avant l'arrivée des paquebots.",
           image: {
-            src: "/destination/barbade/map-bridgetown.png",
-            alt: "Garrison historique de Bridgetown classée à l'UNESCO, Barbade",
+            src: "/destination/barbade/map-bridgetown.webp",
+            alt: "Tour de l'horloge et piste de la Garrison Savannah, Bridgetown, Barbade",
           },
           // TODO: verify coords
           coordinates: { lat: 13.0969, lng: -59.6145 },
@@ -260,8 +260,8 @@ export const destination: Destination = {
           description:
             "Premier point de débarquement anglais sur l'île, en 1627. La côte s'étend ensuite sur près de vingt kilomètres de mer plate jusqu'à Speightstown.",
           image: {
-            src: "/destination/barbade/map-holetown.png",
-            alt: "Plage de la Platinum Coast à Holetown, Barbade",
+            src: "/destination/barbade/map-holetown.webp",
+            alt: "Plage de Paynes Bay près de Holetown, Barbade",
           },
           // TODO: verify coords
           coordinates: { lat: 13.1875, lng: -59.6367 },
@@ -271,8 +271,8 @@ export const destination: Destination = {
           description:
             "Six épaves reposent à moins de dix mètres de fond, dont le Berwyn, coulé en 1919. Les tortues imbriquées s'y nourrissent toute l'année.",
           image: {
-            src: "/destination/barbade/map-carlisle-bay.png",
-            alt: "Voiliers mouillés à Carlisle Bay près de Bridgetown, Barbade",
+            src: "/destination/barbade/map-carlisle-bay.webp",
+            alt: "Voiliers au mouillage dans Carlisle Bay vus des hauteurs, Barbade",
           },
           // TODO: verify coords
           coordinates: { lat: 13.0782, lng: -59.6198 },
@@ -282,8 +282,8 @@ export const destination: Destination = {
           description:
             "Un tram électrique descend dans une grotte façonnée par l'eau depuis des millions d'années, à moins de trente minutes de la côte.",
           image: {
-            src: "/destination/barbade/map-harrisons-cave.png",
-            alt: "Stalactites et bassin souterrain à Harrison's Cave, Barbade",
+            src: "/destination/barbade/map-harrisons-cave.webp",
+            alt: "Bassin souterrain sous les concrétions d'Harrison's Cave, Barbade",
           },
           // TODO: verify coords
           coordinates: { lat: 13.1936, lng: -59.5561 },
@@ -293,8 +293,8 @@ export const destination: Destination = {
           description:
             "L'Atlantique frappe des rochers de corail isolés sur le sable, et forme la vague la plus réputée des Caraïbes orientales chez les surfeurs.",
           image: {
-            src: "/destination/barbade/map-bathsheba.png",
-            alt: "Rochers de corail et vagues de l'Atlantique à Bathsheba, Barbade",
+            src: "/destination/barbade/map-bathsheba.webp",
+            alt: "Côte atlantique et rochers de Bathsheba vus des hauteurs, Barbade",
           },
           // TODO: verify coords
           coordinates: { lat: 13.2167, lng: -59.5167 },
@@ -304,7 +304,7 @@ export const destination: Destination = {
           description:
             "Une grotte marine ouverte sur l'Atlantique, à l'endroit où l'île se termine en falaise. Les anémones qui lui donnent son nom se referment au moindre contact.",
           image: {
-            src: "/destination/barbade/map-animal-flower-cave.png",
+            src: "/destination/barbade/map-animal-flower-cave.webp",
             alt: "Grotte marine ouverte sur l'Atlantique à Animal Flower Cave, Barbade",
           },
           // TODO: verify coords
@@ -523,8 +523,8 @@ export const destination: Destination = {
           quote:
             "Nous avons nagé au-dessus de l'épave du Berwyn avec deux tortues qui ne se sont pas laissées perturber une seconde. Le catamaran privé, sans un autre bateau autour, a changé toute la matinée.",
           image: {
-            src: "/destination/barbade/hero-1.png",
-            alt: "Villas et mer plate de la Platinum Coast lors d'un voyage à la Barbade"
+            src: "/destination/barbade/hero-1.webp",
+            alt: "Plage de sable clair bordée d’arbres sur la Platinum Coast, Barbade",
           },
           name: "", // TODO: replace with real testimonial
           role: "Barbade en famille, Platinum Coast, 2025", // TODO: replace with real testimonial
@@ -534,8 +534,8 @@ export const destination: Destination = {
           quote:
             "Le dîner au Cliff Restaurant reste le souvenir le plus net du séjour : une table sur la falaise, les vagues juste en dessous, et une carte différente chaque soir. Notre travel designer l'avait réservée dès la confirmation.",
           image: {
-            src: "/destination/barbade/hero-2.png",
-            alt: "Voiliers mouillés dans la baie de Carlisle Bay à la Barbade"
+            src: "/destination/barbade/hero-2.webp",
+            alt: "Catamaran privé au mouillage devant une plage de la côte ouest, nageurs autour, Barbade",
           },
           name: "", // TODO: replace with real testimonial
           role: "Voyage de noces, 2025", // TODO: replace with real testimonial
@@ -545,8 +545,8 @@ export const destination: Destination = {
           quote:
             "Personne ne nous avait dit que la côte est ressemblait si peu à la côte ouest. Bathsheba et ses rochers de corail, après trois jours de Platinum Coast, ont donné au voyage une autre dimension.",
           image: {
-            src: "/destination/barbade/hero-3.png",
-            alt: "Falaises de corail battues par l'Atlantique à Bathsheba, Barbade"
+            src: "/destination/barbade/hero-3.webp",
+            alt: "Rocher en champignon de Bathsheba face aux vagues de l’Atlantique, Barbade",
           },
           name: "", // TODO: replace with real testimonial
           role: "Escapade en couple, 2025", // TODO: replace with real testimonial
@@ -589,7 +589,7 @@ export const destination: Destination = {
         {
           question: "Que faire à la Barbade en une semaine ?",
           answer:
-            "Une semaine permet de combiner la Platinum Coast, une matinée à Bridgetown et sa Garrison classée à l'UNESCO, une dégustation à la distillerie Mount Gay, une sortie en catamaran à Carlisle Bay et une excursion côté Atlantique à Bathsheba, sans jamais courir d'un point à l'autre.",
+            "Une semaine permet de combiner la Platinum Coast, une matinée à Bridgetown et sa Garrison classée à l'UNESCO, une visite privée de St Nicholas Abbey, une sortie en catamaran à Carlisle Bay et une excursion côté Atlantique à Bathsheba, sans jamais courir d'un point à l'autre.",
         },
         {
           question: "Quel budget prévoir pour un voyage à la Barbade ?",

@@ -2,13 +2,13 @@ import type { Experience } from "@/lib/content/types";
 
 export const experience: Experience = {
   slug: "croisiere-iles-du-sud",
-  name: "Croisière privée vers les îles du Sud, Kusu et Lazarus",
+  name: "Croisière en yacht privé vers les îles du Sud",
   blurb:
-    "Un bateau privé quitte Marina South Pier pour Kusu, puis Lazarus, où le sable reste blanc et le lagon vide de ferries. Le déjeuner se prend à bord, au mouillage, loin de Sentosa.",
+    "Un yacht privatisé quitte la marina de Sentosa pour les îles du Sud. On longe Kusu et Saint-Jean, puis on jette l'ancre devant la plage de Lazarus, l'une des rares où les bateaux privés peuvent mouiller. Baignade, paddle et déjeuner à bord.",
   keywords: ["singapour", "kusu island", "lazarus island", "iles du sud", "croisiere privee"],
   heroImage: {
-    src: "/destination/singapour/xp-croisiere-iles-sud.png",
-    alt: "Bateau privé au mouillage devant l'île de Lazarus au sud de Singapour",
+    src: "/destination/singapour/xp-croisiere-iles-sud.webp",
+    alt: "Yacht privé au mouillage devant une île boisée des îles du Sud, Singapour",
   },
   destinationSlugs: ["singapour"],
   sections: [],

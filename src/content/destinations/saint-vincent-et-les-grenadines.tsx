@@ -230,13 +230,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/saint-vincent-et-les-grenadines/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/saint-vincent-et-les-grenadines/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure dans les Grenadines entre Bequia, Mustique et Canouan",
-            "Adresses confidentielles dans les Grenadines : mouillages déserts et tables de Bequia",
+            "Table sur la plage de Bequia face aux voiliers d’Admiralty Bay",
             "Hébergements dans les Grenadines : Cotton House, Petit St. Vincent et Canouan Estate",
-            "Conciergerie privée pour un séjour dans les Grenadines",
-            "Expériences dans les Grenadines : snorkeling aux Tobago Cays et navigation à la voile",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Nageurs et tortue verte dans le lagon des Tobago Cays, un catamaran au mouillage",
           ][i],
         },
       })),
@@ -257,8 +257,8 @@ export const destination: Destination = {
           description:
             "L'île est gérée par une compagnie que se partagent les propriétaires de ses maisons, et l'on n'y débarque pas par hasard. Une centaine de villas se cachent dans la végétation, on circule en voiturette, et tout le monde finit par se retrouver au Basil's Bar, posé sur pilotis au-dessus de l'eau.",
           image: {
-            src: "/destination/saint-vincent-et-les-grenadines/map-mustique.png",
-            alt: "Voiturette sur un chemin de Mustique entre les villas et la végétation",
+            src: "/destination/saint-vincent-et-les-grenadines/map-mustique.webp",
+            alt: "Baie de Mustique et voiliers au mouillage vus des hauteurs",
           },
           // TODO: verify coords
           coordinates: { lat: 12.8833, lng: -61.1833 },
@@ -268,7 +268,7 @@ export const destination: Destination = {
           description:
             "C'est l'île des constructeurs de bateaux, et cela se voit dès Port Elizabeth : les coques attendent sur le sable, en chantier ou en réparation. Les voiliers de passage mouillent dans Admiralty Bay, et l'on rejoint Princess Margaret Beach à pied par le sentier qui longe la côte.",
           image: {
-            src: "/destination/saint-vincent-et-les-grenadines/map-bequia.png",
+            src: "/destination/saint-vincent-et-les-grenadines/map-bequia.webp",
             alt: "Port Elizabeth à Bequia et les bateaux au mouillage dans Admiralty Bay",
           },
           // TODO: verify coords
@@ -279,8 +279,8 @@ export const destination: Destination = {
           description:
             "Cinq îlots classés en parc marin, séparés par un lagon peu profond où l'eau reste claire toute la journée. On mouille devant Baradal pour nager, on déjeune sur un banc de sable, et l'on ne trouve à terre ni bâtiment ni route.",
           image: {
-            src: "/destination/saint-vincent-et-les-grenadines/map-tobago-cays.png",
-            alt: "Les cinq îlots des Tobago Cays et le récif Horseshoe vus du ciel",
+            src: "/destination/saint-vincent-et-les-grenadines/map-tobago-cays.webp",
+            alt: "Voiliers au mouillage devant une plage des Tobago Cays",
           },
           // TODO: verify coords
           coordinates: { lat: 12.6333, lng: -61.35 },
@@ -290,8 +290,8 @@ export const destination: Destination = {
           description:
             "L'île du milieu, plus verte et plus large que ses voisines, avec une longue plage abritée sur sa côte sous le vent. C'est l'étape que l'on choisit quand on préfère une base confortable à un mouillage différent chaque soir.",
           image: {
-            src: "/destination/saint-vincent-et-les-grenadines/map-canouan.png",
-            alt: "La baie de Carenage à Canouan et ses collines vertes",
+            src: "/destination/saint-vincent-et-les-grenadines/map-canouan.webp",
+            alt: "Ferry à quai dans une baie de Canouan, sous les collines vertes",
           },
           // TODO: verify coords
           coordinates: { lat: 12.7, lng: -61.3333 },
@@ -301,8 +301,8 @@ export const destination: Destination = {
           description:
             "Tout au sud, Petit St. Vincent tient son île à elle seule, à un quart d'heure de bateau de sa voisine. Union garde le mouillage sauvage de Chatham Bay et l'animation du port de Clifton, d'où partent la plupart des sorties vers le parc marin.",
           image: {
-            src: "/destination/saint-vincent-et-les-grenadines/map-petit-saint-vincent.png",
-            alt: "Cottage isolé au bord de la plage sur l'île de Petit St. Vincent",
+            src: "/destination/saint-vincent-et-les-grenadines/map-petit-saint-vincent.webp",
+            alt: "Petit St. Vincent et sa plage vus du ciel, au milieu du lagon",
           },
           // TODO: verify coords
           coordinates: { lat: 12.5333, lng: -61.3833 },
@@ -312,7 +312,7 @@ export const destination: Destination = {
           description:
             "La grande île tient le nord de l'archipel, montagneuse et cultivée, dominée par le volcan de la Soufrière. Le jardin botanique de Kingstown est l'un des plus anciens du continent américain, et l'on y montre encore un arbre à pain issu de ceux que Bligh rapporta du Pacifique.",
           image: {
-            src: "/destination/saint-vincent-et-les-grenadines/map-saint-vincent.png",
+            src: "/destination/saint-vincent-et-les-grenadines/map-saint-vincent.webp",
             alt: "Les reliefs verts de Saint-Vincent au-dessus de la côte caraïbe",
           },
           // TODO: verify coords

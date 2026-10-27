@@ -226,13 +226,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/sainte-lucie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/sainte-lucie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Sainte-Lucie entre Soufrière, Marigot et la baie de Rodney",
-            "Adresses confidentielles à Sainte-Lucie : tables de chefs et plantations de cacao",
+            "Table de déjeuner sous les cacaoyers d’un domaine, face aux Pitons",
             "Hébergements à Sainte-Lucie : Jade Mountain, Sugar Beach et Ladera",
-            "Conciergerie privée pour un séjour à Sainte-Lucie",
-            "Expériences à Sainte-Lucie : croisière devant les Pitons et montée du Gros Piton",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Catamaran privé longeant les Pitons de Sainte-Lucie en fin de journée",
           ][i],
         },
       })),
@@ -253,8 +253,8 @@ export const destination: Destination = {
           description:
             "Le village est posé au fond d'une baie que ferment le Gros Piton et le Petit Piton, classés au patrimoine mondial. Les maisons de bois descendent jusqu'au quai, le marché ouvre tôt, et les deux montagnes changent de couleur à chaque heure de la journée.",
           image: {
-            src: "/destination/sainte-lucie/map-soufriere-pitons.png",
-            alt: "Le village de Soufrière au pied du Petit Piton à Sainte-Lucie",
+            src: "/destination/sainte-lucie/map-soufriere-pitons.webp",
+            alt: "Le village de Soufrière et sa baie vus des hauteurs, Sainte-Lucie",
           },
           // TODO: verify coords
           coordinates: { lat: 13.8566, lng: -61.0564 },
@@ -264,7 +264,7 @@ export const destination: Destination = {
           description:
             "Une langue de sable plantée de cocotiers referme presque entièrement la baie, si bien qu'on ne la devine pas depuis la route. Les voiliers viennent s'y abriter, l'eau y reste immobile, et les tables du bord se remplissent au coucher du soleil.",
           image: {
-            src: "/destination/sainte-lucie/map-marigot.png",
+            src: "/destination/sainte-lucie/map-marigot.webp",
             alt: "La baie de Marigot et ses voiliers abrités derrière la langue de sable",
           },
           // TODO: verify coords
@@ -275,8 +275,8 @@ export const destination: Destination = {
           description:
             "La plage est bordée de forêt et le récif commence à quelques mètres du rivage, ce qui en fait le plus beau spot de plongée de l'île. On y nage sans bateau, au-dessus des coraux, et l'on remonte déjeuner à l'ombre des grands arbres.",
           image: {
-            src: "/destination/sainte-lucie/map-anse-chastanet.png",
-            alt: "La plage de l'Anse Chastanet et sa forêt à Sainte-Lucie",
+            src: "/destination/sainte-lucie/map-anse-chastanet.webp",
+            alt: "Barque dans l’anse vue depuis une terrasse, près d’Anse Chastanet, Sainte-Lucie",
           },
           // TODO: verify coords
           coordinates: { lat: 13.8747, lng: -61.0714 },
@@ -286,7 +286,7 @@ export const destination: Destination = {
           description:
             "On entre en voiture dans le cratère du volcan, au milieu des fumerolles et des bassins qui bouillonnent. Un peu plus bas, les sources chaudes forment des bains où l'on s'enduit de boue grise avant de se rincer sous la cascade.",
           image: {
-            src: "/destination/sainte-lucie/map-sources-soufre.png",
+            src: "/destination/sainte-lucie/map-sources-soufre.webp",
             alt: "Fumerolles et bassins bouillonnants des sources de soufre de Soufrière",
           },
           // TODO: verify coords
@@ -297,8 +297,8 @@ export const destination: Destination = {
           description:
             "La capitale s'organise autour de son port et de son marché couvert, où l'on trouve les épices, le cacao et les paniers tressés. Au-dessus, les hauteurs du morne Fortune gardent les traces des batailles entre Français et Anglais, avec la vue sur toute la baie.",
           image: {
-            src: "/destination/sainte-lucie/map-castries.png",
-            alt: "Le marché couvert de Castries et son port à Sainte-Lucie",
+            src: "/destination/sainte-lucie/map-castries.webp",
+            alt: "Entrée du marché central de Castries, Sainte-Lucie",
           },
           // TODO: verify coords
           coordinates: { lat: 14.0101, lng: -60.9875 },
@@ -308,7 +308,7 @@ export const destination: Destination = {
           description:
             "L'ancienne île fortifiée est rattachée à la côte par une digue, et l'on monte à pied jusqu'aux ruines du fort. De là-haut, la baie de Rodney s'ouvre en entier, avec la Martinique qui se dessine au loin par temps clair.",
           image: {
-            src: "/destination/sainte-lucie/map-pigeon-island.png",
+            src: "/destination/sainte-lucie/map-pigeon-island.webp",
             alt: "Les ruines du fort de Pigeon Island au-dessus de la baie de Rodney",
           },
           // TODO: verify coords

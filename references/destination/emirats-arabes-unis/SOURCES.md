@@ -37,3 +37,5 @@ filtre, ce qui donne des masters carrés — même parti que l'Égypte et Anguil
 | `map-reserve-dubai.webp`      | `map-reserve-dubai-ref.png`        | TODO       | Libre de droit   |
 | `map-jebel-jais.webp`         | `map-jebel-jais-ref.png`           | TODO       | Libre de droit   |
 | `map-dubai-creek.webp`        | `map-dubai-creek-ref.png`          | TODO       | Libre de droit   |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |

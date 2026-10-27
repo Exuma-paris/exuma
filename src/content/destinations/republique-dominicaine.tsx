@@ -245,13 +245,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/republique-dominicaine/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/republique-dominicaine/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé pour un voyage en République dominicaine",
-            "Terrasse privée d'une villa isolée à La Romana",
+            "Terrasse fleurie et piscine d’une villa isolée face à la mer, près de La Romana",
             "Casita d'Amanera surplombant la côte atlantique",
-            "Concierge Exuma organisant un transfert privé à Punta Cana",
-            "Bateau glissant dans les mangroves du parc Los Haitises",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Barque glissant entre les mangroves du parc Los Haitises",
           ][i],
         },
       })),
@@ -272,8 +272,8 @@ export const destination: Destination = {
           description:
             "De janvier à mars, plusieurs milliers de baleines à bosse viennent y mettre bas. Le reste de l'année, la péninsule garde ses plages sans nom.",
           image: {
-            src: "/destination/republique-dominicaine/map-samana.png",
-            alt: "Péninsule de Samaná vue depuis la baie, République dominicaine",
+            src: "/destination/republique-dominicaine/map-samana.webp",
+            alt: "Plage et îlots reliés par une passerelle dans la baie de Samaná, République dominicaine",
           },
           // TODO: verify coords
           coordinates: { lat: 19.2085, lng: -69.3345 },
@@ -283,8 +283,8 @@ export const destination: Destination = {
           description:
             "Un parc qui ne se visite qu'en bateau, entre mangroves et grottes aux pictogrammes taïnos. Aucune route ne le traverse.",
           image: {
-            src: "/destination/republique-dominicaine/map-los-haitises.png",
-            alt: "Mangroves et dômes karstiques du parc national Los Haitises",
+            src: "/destination/republique-dominicaine/map-los-haitises.webp",
+            alt: "Dômes karstiques couverts de forêt du parc national Los Haitises",
           },
           // TODO: verify coords
           coordinates: { lat: 19.0667, lng: -69.6667 },
@@ -294,7 +294,7 @@ export const destination: Destination = {
           description:
             "Trente-deux kilomètres de plage continue sur la côte est. La densité y est réelle ; elle se contourne par les propriétés privées.",
           image: {
-            src: "/destination/republique-dominicaine/map-punta-cana.png",
+            src: "/destination/republique-dominicaine/map-punta-cana.webp",
             alt: "Plage de Punta Cana bordée de palmiers, République dominicaine",
           },
           coordinates: { lat: 18.5601, lng: -68.3725 },
@@ -304,7 +304,7 @@ export const destination: Destination = {
           description:
             "Un village d'artiste reconstitué dans les années 1970 au-dessus de la rivière Chavón. Casa de Campo occupe les terres alentour.",
           image: {
-            src: "/destination/republique-dominicaine/map-altos-de-chavon.png",
+            src: "/destination/republique-dominicaine/map-altos-de-chavon.webp",
             alt: "Village d'Altos de Chavón surplombant la rivière Chavón, La Romana",
           },
           coordinates: { lat: 18.4227, lng: -68.9068 },
@@ -314,8 +314,8 @@ export const destination: Destination = {
           description:
             "Playa Grande s'étend sur près d'un kilomètre sans une seule construction visible depuis le sable. Amanera occupe la falaise au-dessus.",
           image: {
-            src: "/destination/republique-dominicaine/map-rio-san-juan.png",
-            alt: "Falaise de Río San Juan surplombant Playa Grande, République dominicaine",
+            src: "/destination/republique-dominicaine/map-rio-san-juan.webp",
+            alt: "Plage et cocotiers près de Río San Juan, côte nord de la République dominicaine",
           },
           // TODO: verify coords
           coordinates: { lat: 19.6167, lng: -70.0167 },
@@ -325,7 +325,7 @@ export const destination: Destination = {
           description:
             "La Zona Colonial garde la première cathédrale et la première rue pavée du Nouveau Monde, fondées au début du XVIe siècle. Classée à l'UNESCO.",
           image: {
-            src: "/destination/republique-dominicaine/map-santo-domingo.png",
+            src: "/destination/republique-dominicaine/map-santo-domingo.webp",
             alt: "Rue pavée de la Zona Colonial à Santo Domingo, République dominicaine",
           },
           coordinates: { lat: 18.4747, lng: -69.8927 },

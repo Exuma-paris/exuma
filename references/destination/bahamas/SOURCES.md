@@ -39,3 +39,8 @@ Les fichiers de référence sont arrivés en double extension (`hero-1.png.png`)
 | `map-andros.webp`              | `map-andros-ref.png`                | Gemini `--inspire` — image neuve | image générée |
 | `map-abacos.webp`              | `map-abacos-ref.png`                | Gemini `--inspire` — image neuve | image générée |
 | `map-long-island.webp`         | `map-long-island-ref.png`           | Gemini `--inspire` — image neuve | image générée |
+| `xp-harbour-island-1.webp` | Miniature Google Images (banc de sable rose vu du ciel), tournée à l’horizontale, voilier ajouté par IA | À confirmer |
+| `xp-harbour-island-2.webp` | Miniature Google Images (banc de sable rose), agrandie fidèlement, saturation adoucie ; aspect possiblement retouché à l'origine | À confirmer |
+| `xp-bonefish.webp` | Recadrée sur le pêcheur, eau prolongée à gauche par IA | |
+| `xp-catamaran-green-cay.webp` | GetYourGuide (tortue verte et nageuse en masque), agrandie fidèlement, saturation adoucie | À confirmer |
+| `xp-junkanoo.webp` | IA (mode --inspire) d'après bahamahealth.com, transposée sur une plage près d’un restaurant, lumière de coucher de soleil par IA | |

@@ -1,33 +1,23 @@
-# Reference images — Malaisie
+# Sources des images — Malaisie
 
-Each generated image in `public/destination/malaisie/` was produced by feeding the prompt baked into `.claude/skills/destination-generator/gen-images.py` to Gemini 3 Pro Image (Nano Banana Pro) alongside the corresponding reference photograph below.
-
-| Output                                   | Reference file                             | Source URL | License |
-| ----------------------------------------- | ------------------------------------------- | ---------- | ------- |
-| `hero-1.png`                              | `hero-1-ref.jpg`                           | TODO       | TODO    |
-| `hero-2.png`                              | `hero-2-ref.jpg`                           | TODO       | TODO    |
-| `hero-3.png`                              | `hero-3-ref.jpg`                           | TODO       | TODO    |
-| `full-image.png`                          | `full-image-ref.jpg`                       | TODO       | TODO    |
-| `split-1.png`                             | `split-1-ref.jpg`                          | TODO       | TODO    |
-| `split-2.png`                             | `split-2-ref.jpg`                          | TODO       | TODO    |
-| `xp-plongee-sipadan-1.png`                | `xp-plongee-sipadan-1-ref.jpg`             | TODO       | TODO    |
-| `xp-plongee-sipadan-2.png`                | `xp-plongee-sipadan-2-ref.jpg`             | TODO       | TODO    |
-| `xp-kinabatangan.png`                     | `xp-kinabatangan-ref.jpg`                  | TODO       | TODO    |
-| `xp-danum-valley.png`                     | `xp-danum-valley-ref.jpg`                  | TODO       | TODO    |
-| `xp-george-town.png`                      | `xp-george-town-ref.jpg`                   | TODO       | TODO    |
-| `hotel-the-datai-langkawi.png`            | `hotel-the-datai-langkawi-ref.jpg`         | TODO       | TODO    |
-| `hotel-bunga-raya-island-resort.png`      | `hotel-bunga-raya-island-resort-ref.jpg`   | TODO       | TODO    |
-| `hotel-sukau-rainforest-lodge.png`        | `hotel-sukau-rainforest-lodge-ref.jpg`     | TODO       | TODO    |
-| `bento-map.png`                           | `bento-map-ref.jpg`                        | TODO       | TODO    |
-| `bento-adresses.png`                      | `bento-adresses-ref.jpg`                   | TODO       | TODO    |
-| `bento-hebergements.png`                  | `bento-hebergements-ref.jpg`               | TODO       | TODO    |
-| `bento-conciergerie.png`                  | `bento-conciergerie-ref.jpg`               | TODO       | TODO    |
-| `bento-experiences.png`                   | `bento-experiences-ref.jpg`                | TODO       | TODO    |
-| `map-kuala-lumpur.png`                    | `map-kuala-lumpur-ref.jpg`                 | TODO       | TODO    |
-| `map-langkawi.png`                        | `map-langkawi-ref.jpg`                     | TODO       | TODO    |
-| `map-george-town.png`                     | `map-george-town-ref.jpg`                  | TODO       | TODO    |
-| `map-danum-valley.png`                    | `map-danum-valley-ref.jpg`                 | TODO       | TODO    |
-| `map-kinabatangan.png`                    | `map-kinabatangan-ref.jpg`                 | TODO       | TODO    |
-| `map-sipadan.png`                         | `map-sipadan-ref.jpg`                      | TODO       | TODO    |
-
-Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); this file is tracked.
+| Image | Source | Droits |
+| --- | --- | --- |
+| `hero-1.webp` | Miniature Google Images (tours Petronas), fournie par Thea le 14/10/2026, agrandie fidèlement, filtre chaud | À confirmer |
+| `hero-2.webp` | Photo GetYourGuide (Langkawi), fournie par Thea le 14/10/2026, recadrée, agrandie fidèlement, turquoise adouci | À confirmer |
+| `hero-3.webp` | hotelsfortrees.com (forêt de Bornéo), fournie par Thea le 14/10/2026, recadrée, agrandie fidèlement | À confirmer |
+| `full-image.webp` | asiakingtravel.fr (passerelle de Danum Valley), recadrée, agrandie fidèlement, filtre chaud | À confirmer |
+| `split-1.webp` | langkawigotours.com (kayak dans la mangrove), recadrée sans le logo, agrandie fidèlement, filtre chaud | À confirmer |
+| `split-2.webp` | IA (mode --inspire) d'après `split-2-ref.jpg` ; espèce corrigée en pygargue à ventre blanc (la référence montrait un pygargue africain) | |
+| `xp-plongee-sipadan-1.webp`, `xp-plongee-sipadan-2.webp` | IA (mode --inspire) d'après les références de Thea (Dreamstime, Google Images) | |
+| `xp-kinabatangan.webp` | bouger-voyager.com (sortie de nuit sur la Kinabatangan), recadrée, agrandie fidèlement | À confirmer |
+| `xp-danum-valley.webp` | IA (mode --inspire) d'après `xp-danum-valley-ref.jpg` (Dreamstime, passerelle de canopée) | |
+| `xp-george-town.webp` | Miniature Google Images (rue de George Town), agrandie fidèlement, filtre chaud | À confirmer |
+| `hotel-the-datai-langkawi.webp` | Photo officielle (thedatai.com), recadrée en carré | Autorisation à confirmer |
+| `hotel-gaya-island-resort.webp` | audleytravel.com (photo de l'hôtel), recadrée en carré | Autorisation à confirmer |
+| `hotel-borneo-rainforest-lodge.webp` | Miniature Google Images (photo de l'hôtel), agrandie fidèlement | Autorisation à confirmer |
+| `map-kuala-lumpur.webp` | Commons, « The Twins SE Asia 2019 (49171985716) » | CC BY 2.0 |
+| `map-george-town.webp` | Commons, « Penang Malaysia Old-House-in-Jalan-Masjid-Kapitan-Keling-01 » | CC BY-SA 3.0 |
+| `map-kinabatangan.webp` | Commons, « Kinabatangan River (14154417142) » | CC BY 2.0 |
+| `map-langkawi`, `map-danum-valley`, `map-sipadan` | Recadrages des images hero-2, full-image et xp-plongee-sipadan-1 | voir plus haut |
+| `bento-adresses.webp`, `bento-experiences.webp` | IA, génération texte | |
+| `bento-hebergements.webp` | Même photo que `hotel-the-datai-langkawi.webp` | À confirmer |

@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Au lever du jour, les chevaux entrent dans l'eau jusqu'au poitrail sur une plage encore vide. Le centre équestre local mène la sortie au pas, puis au galop court sur le sable ferme.",
   keywords: ["antigua", "cheval", "plage", "famille", "aube"],
   heroImage: {
-    src: "/destination/antigua/xp-cheval-plage.png",
-    alt: "Randonnée à cheval sur une plage déserte d'Antigua au lever du jour",
+    src: "/destination/antigua/xp-cheval-plage.webp",
+    alt: "Entre les oreilles d'un cheval, au pas dans l'eau claire le long d'une plage d'Antigua au lever du jour",
   },
   destinationSlugs: ["antigua"],
   sections: [],

@@ -29,3 +29,5 @@ Ces images ont été **fournies par l'utilisateur** comme photographies libres d
 | `map-pamukkale.webp`              | `map-pamukkale-ref.png`                 | TODO       | Libre de droit   |
 | `map-kekova.webp`                 | `map-kekova-ref.png`                    | TODO       | Libre de droit   |
 | `map-bodrum.webp`                 | `map-bodrum-ref.png`                    | TODO       | Libre de droit   |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
