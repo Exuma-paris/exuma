@@ -44,7 +44,7 @@ export const defaultBento = {
         "Maisons d'hôtes, palais transformés, hôtels de famille. Le niveau se lit dans le choix des matériaux, des cuisiniers, des matins.",
     },
     {
-      title: "Conciergerie 24/7",
+      title: "Conciergerie privée",
       description:
         "Réponse sous 24h. Les ajustements de dernière minute, gérés. Les transferts, privés. Ce que nous mettons en place, vous n'avez pas à le vérifier.",
     },

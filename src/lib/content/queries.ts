@@ -358,6 +358,9 @@ export function getServiceCategoryCards(): {
   href: string;
 }[] {
   return Object.values(serviceCategories).flatMap((category) => {
+    // Mosaïque de l'accueil, côté particuliers : pas de catégorie réservée
+    // aux professionnels.
+    if (category.proOnly) return [];
     const hero = category.sections.find((s) => s.type === "hero");
     const image = hero?.images?.[0];
     // Blurbs are authored as plain strings; anything richer has no place on a

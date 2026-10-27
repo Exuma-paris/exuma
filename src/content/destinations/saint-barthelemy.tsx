@@ -176,7 +176,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Air France, Air Caraïbes et Corsair desservent Sint Maarten en direct depuis Paris selon les périodes et les compagnies, pour environ 8h30 de vol. Pointe-à-Pitre et Fort-de-France sont également desservies en direct, pour une durée comparable. Saint-Barthélemy se rejoint ensuite en petit avion depuis Saint-Martin ou depuis la Guadeloupe, avec Winair, St Barth Commuter ou Tradewind Aviation selon les périodes, ou par la mer depuis Saint-Martin. La piste de l'aérodrome de Saint-Jean est très courte : seuls de petits appareils s'y posent, les vols n'ont pas lieu de nuit et la franchise de bagages y est plus limitée que sur un long-courrier.",
+            "8h30 environ vers Sint Maarten ou la Guadeloupe, puis petit avion, ou bateau depuis Saint-Martin. Bagages limités, pas de vol de nuit.",
         },
         {
           iconName: "clock",
@@ -188,37 +188,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Saint-Barthélemy est une collectivité française et utilise l'euro. Le dollar américain est largement accepté sur l'île, à un taux fixé par le commerçant. Les cartes bancaires passent très largement dans les hôtels, les restaurants et les boutiques, et il reste utile de garder un peu d'espèces pour les taxis et les petites tables de plage.",
+            "Euro. Le dollar américain est largement accepté et les cartes passent très largement ; gardez un peu d'espèces pour taxis et plages.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Saint-Barthélemy est une collectivité d'outre-mer française : pour les ressortissants français, une carte nationale d'identité ou un passeport en cours de validité suffisent. La plupart des itinéraires transitent toutefois par Sint Maarten, du côté néerlandais, qui ne relève pas de l'espace Schengen : le passeport y est fortement recommandé et peut être exigé selon la compagnie et les conditions d'entrée en vigueur. Une carte d'arrivée en ligne peut également être demandée par Sint Maarten, selon les règles applicables au moment du voyage. Si l'itinéraire comprend une escale aux États-Unis, l'autorisation ESTA est obligatoire, s'obtient en ligne avant le départ et reste généralement valable deux ans ou jusqu'à l'expiration du passeport.",
+            "Carte d'identité ou passeport. Via Sint Maarten, hors Schengen, le passeport est fortement recommandé ; ESTA si escale aux États-Unis.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin spécifique n'est obligatoire pour un séjour touristique à Saint-Barthélemy. Il est recommandé d'être à jour des vaccinations prévues au calendrier vaccinal français, celle contre l'hépatite A se discutant selon la durée et les conditions du séjour. La dengue et le chikungunya circulent dans les Antilles selon les années : une protection contre les moustiques reste la précaution la plus utile, en journée comme en fin d'après-midi.",
+            "Aucun vaccin obligatoire, calendrier français à jour. Dengue et chikungunya circulent selon les années : protégez-vous des moustiques.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison sèche s'étend de décembre à avril, avec un alizé régulier et peu de pluie. Nous privilégions la fin janvier à la mi-avril, quand la mer est belle et que l'île retrouve son calme après les fêtes. Mai et le début du mois de juin restent agréables et plus tranquilles encore. La saison cyclonique court officiellement de juin à novembre, avec un cœur d'activité en août, septembre et octobre.",
+            "Saison sèche de décembre à avril ; nous privilégions fin janvier à mi-avril. Cyclones de juin à novembre, surtout d'août à octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le français est la langue officielle et celle de la vie quotidienne. L'anglais est largement parlé dans les hôtels, les restaurants et les boutiques. Un parler traditionnel saint-barth, d'origine normande et française ancienne, subsiste encore chez certaines familles, notamment à Corossol et à Colombier.",
+            "Le français est la langue officielle et du quotidien. L'anglais est largement parlé dans les hôtels, les restaurants et les boutiques.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tropical et chaud toute l'année, avec des températures qui varient peu, généralement entre vingt-cinq et trente et un degrés. L'alizé souffle presque en continu et rend la chaleur supportable, surtout sur les côtes exposées à l'est. La période la plus humide s'étend d'août à novembre, sans qu'il s'agisse d'une saison des pluies continue : les averses sont tropicales et brèves, le plus souvent en fin de journée.",
+            "Tropical, entre 25 et 31 degrés toute l'année, tempéré par l'alizé. Plus humide d'août à novembre, avec des averses brèves.",
         },
       ],
     },
@@ -597,10 +597,10 @@ export const destination: Destination = {
             "Nous sommes partis pour l'Île Fourchue le deuxième jour et nous y sommes retournés avant de rentrer. Le skipper nous attendait chaque matin avec une idée différente.",
           image: {
             src: "/destination/saint-barthelemy/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage à Saint-Barthélemy : l'anse de Colombier vue depuis le sentier de la pointe"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Saint-Barthélemy, février 2026", // TODO: replace with real testimonial
+          role: "Saint-Barthélemy, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -608,10 +608,10 @@ export const destination: Destination = {
             "Nos enfants ont passé la semaine dans le lagon et nous avons dîné le soir sans jamais nous occuper des réservations. Nous sommes rentrés reposés, ce qui ne nous arrive jamais.",
           image: {
             src: "/destination/saint-barthelemy/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "La baie de Saint-Jean et son rocher en fin d'après-midi"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Saint-Barthélemy en famille, avril 2026", // TODO: replace with real testimonial
+          role: "Saint-Barthélemy en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -619,10 +619,10 @@ export const destination: Destination = {
             "Le déjeuner à Colombier restera notre meilleur souvenir. La table était dressée à l'ombre quand nous sommes arrivés par la mer, et personne n'est venu de tout l'après-midi.",
           image: {
             src: "/destination/saint-barthelemy/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voiliers au mouillage devant le port de Gustavia"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Saint-Barthélemy, mars 2026", // TODO: replace with real testimonial
+          role: "Saint-Barthélemy, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

@@ -168,49 +168,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Royal Air Maroc et Air France desservent Casablanca, Marrakech et Fès en direct depuis Paris, et d'autres compagnies relient plusieurs villes marocaines selon les saisons. Comptez environ 3 heures pour Fès, 3 h 10 pour Casablanca et 3 h 20 pour Marrakech. Tanger et Essaouira se rejoignent également en direct selon les périodes et les compagnies.",
+            "Vols directs depuis Paris vers Casablanca, Marrakech et Fès, avec Royal Air Maroc et Air France. Comptez 3 h à 3 h 20 selon la ville.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Le Maroc fonctionne généralement à l'heure GMT+1, avec un retour temporaire à l'heure GMT pendant le mois du ramadan. En hiver, il est donc la même heure qu'en France, et en été le pays a une heure de retard : quand il est quatorze heures à Paris en juillet, il est treize heures à Marrakech.",
+            "GMT+1 en général, GMT pendant le ramadan. Même heure qu'en France en hiver, une heure de retard en été.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dirham marocain est peu exporté et donc peu disponible hors du pays. Il est préférable de changer ou de retirer sur place, où les distributeurs sont nombreux dans les villes. Les cartes bancaires sont acceptées dans les établissements touristiques. Dans les souks, les petits restaurants et les taxis, les espèces restent souvent indispensables.",
+            "Le dirham s'obtient sur place, aux nombreux distributeurs des villes. Cartes en lieu touristique, espèces dans les souks et les taxis.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français sont dispensés de visa pour un séjour touristique jusqu'à 90 jours. Le passeport est obligatoire et doit couvrir toute la durée du séjour, la carte nationale d'identité n'étant pas acceptée pour un voyage individuel. D'autres nationalités peuvent se voir demander une validité plus longue. Les formalités d'entrée peuvent inclure une fiche de renseignements selon les points d'arrivée.",
+            "Pas de visa jusqu'à 90 jours. Passeport valable toute la durée du séjour : la carte d'identité n'est pas acceptée en voyage individuel.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination n'est exigée à l'entrée pour un voyageur arrivant directement de France. L'Institut Pasteur recommande d'être à jour du calendrier vaccinal et conseille la vaccination contre l'hépatite A. Celles contre la typhoïde et la rage se discutent ensuite selon la durée du séjour et les régions parcourues. Le paludisme n'est plus considéré comme présent au Maroc.",
+            "Aucun vaccin exigé depuis la France ; hépatite A conseillée, typhoïde et rage selon le séjour. Le paludisme n'est plus présent au Maroc.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Le printemps, de mars à mai, et l'automne, de septembre à novembre, conviennent à l'ensemble du pays. Nous privilégions le printemps et le début de l'automne pour le Haut Atlas, et le mois d'avril jusqu'au début mai pour la vallée des Roses, dont la floraison ne suit jamais un calendrier tout à fait fixe. L'été reste agréable sur la côte atlantique, à Essaouira ou Oualidia, quand l'intérieur devient très chaud. L'hiver est très agréable en journée à Marrakech et dans les vallées du sud, avec des nuits fraîches.",
+            "Printemps et automne pour tout le pays, avril à début mai pour la vallée des Roses. L'été, préférez la côte atlantique, l'intérieur chauffe.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'arabe et l'amazighe sont les deux langues officielles inscrites dans la Constitution. Au quotidien on parle surtout l'arabe marocain, la darija, et plusieurs variantes de l'amazighe selon les régions. Le français est très présent dans l'administration, les études et le commerce, et l'espagnol s'entend dans le nord du pays.",
+            "Arabe et amazighe sont les langues officielles, la darija celle du quotidien. Le français est très présent, l'espagnol s'entend au nord.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le littoral atlantique reste tempéré, avec des étés doux à Essaouira, où le vent souffle presque en permanence. L'intérieur, autour de Marrakech et de Fès, connaît des étés très chauds et des hivers frais dès la nuit tombée. Le Haut Atlas garde la neige sur les hauteurs de décembre à avril, et parfois plus tard selon les années. Les vallées du sud comme le Dadès sont sèches, chaudes le jour et fraîches aussitôt après le coucher du soleil.",
+            "Côte atlantique tempérée et ventée. Étés très chauds et nuits d'hiver fraîches à Marrakech et Fès, neige sur le Haut Atlas l'hiver.",
         },
       ],
     },
@@ -615,10 +615,10 @@ export const destination: Destination = {
             "Notre guide à Fès nous a fait entrer dans des ateliers où nous n'aurions jamais osé pousser la porte. Nous sommes restés deux heures chez un maroquinier, et c'est de lui que nous parlons encore.",
           image: {
             src: "/destination/maroc/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Remparts et porte monumentale de la médina de Fès dans la lumière du matin"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Fès et Haut Atlas, 2025", // TODO: replace with real testimonial
+          role: "Fès et Haut Atlas, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -626,10 +626,10 @@ export const destination: Destination = {
             "La nuit dans les dunes restera le souvenir du voyage. Nous avons regardé le ciel jusqu'à une heure impossible, et personne n'avait envie d'aller se coucher.",
           image: {
             src: "/destination/maroc/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Sommets enneigés du Haut Atlas derrière une palmeraie et un mur de pisé"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Fès, Dadès et désert, 2025", // TODO: replace with real testimonial
+          role: "Fès, Dadès et désert, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -637,10 +637,10 @@ export const destination: Destination = {
             "À Dar Ahlam, personne ne nous a jamais demandé à quelle heure nous voulions dîner, et chaque repas nous attendait dans un endroit différent. Nous avons cessé de regarder l'heure au bout d'une journée.",
           image: {
             src: "/destination/maroc/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Palmeraie et ksar de terre au pied des falaises ocre du sud marocain"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Vallée du Dadès, 2025", // TODO: replace with real testimonial
+          role: "Vallée du Dadès, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

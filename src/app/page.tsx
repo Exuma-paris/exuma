@@ -17,6 +17,7 @@ import {
 import { VideoSection } from "@/components/sections/video";
 import { FaqSection } from "@/components/sections/faq";
 import { TestimonialsSection } from "@/components/sections/testimonials";
+import { TextImagesSplitSection } from "@/components/sections/text-images-split";
 import { createBackgroundRhythm } from "@/lib/content/background-rhythm";
 
 export default function Home() {
@@ -45,7 +46,7 @@ export default function Home() {
               sur les pages Professionnels et Expérience. */}
           <Header theme="dark" />
           <HeroImageBackground
-            eyebrow="Conciergerie de voyage · depuis 1991"
+            eyebrow="Maison de conseils privée · depuis 1991"
             // Copie volontaire de l'image de Madère plutôt qu'un lien vers
             // /destination/madere/ : ré-illustrer la page destination ne doit
             // pas changer la première image du site.
@@ -105,6 +106,38 @@ export default function Home() {
           // variant drops the gradient the titles rely on, and white text over
           // a bright image is unreadable.
           cards={getServiceCategoryCards()}
+        />
+        {/* Seul bloc foncé de l'accueil, comme l'encart du menu : l'offre
+            professionnelle est un autre public, présenté à égalité avec la
+            conciergerie, juste après elle. Hors rythme des fonds clairs. */}
+        <TextImagesSplitSection
+          theme="dark"
+          eyebrow="Entreprises · Family offices"
+          heading="Vos collaborateurs, vos clients : un seul interlocuteur pour leurs déplacements"
+          paragraphs={[
+            {
+              label: "Entreprises et cabinets",
+              text: "Un référent désigné organise les déplacements de vos collaborateurs dans le respect de votre politique voyages, et vos voyageurs le joignent directement. Une facture unique et un reporting mensuel vous donnent une lecture claire de la dépense.",
+            },
+            {
+              label: "Family offices",
+              text: "Nous prenons en charge les déplacements de vos clients, du transfert à l'hôtel, avec un niveau d'exigence constant. Leurs habitudes sont connues de l'équipe qui les suit, leurs informations ne sortent pas de nos bureaux.",
+            },
+          ]}
+          images={[
+            {
+              src: "/professionnels/family-offices/poste-travail.jpg",
+              alt: "Un conseiller Exuma à son poste de travail, dans les bureaux de l'agence",
+            },
+            {
+              src: "/professionnels/family-offices/temoignage-conseillers.jpg",
+              alt: "Deux conseillères Exuma en ligne avec des voyageurs",
+            },
+          ]}
+          cta={{
+            label: "Découvrir l'offre professionnelle",
+            href: "/professionnels",
+          }}
         />
         <FeatureCardsSection
           background={bg.themes}

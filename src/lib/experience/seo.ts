@@ -40,7 +40,7 @@ export function buildMetaDescription(experience: Experience): string {
   }
   const destName = destinationName(experience);
   const where = destName ? ` à ${destName}` : "";
-  return `${experience.name}${where}. Expérience confidentielle conçue par votre travel designer Exuma : accès privé, guide francophone, conciergerie 24/7.`;
+  return `${experience.name}${where}. Expérience confidentielle conçue par votre travel designer Exuma : accès privé, guide francophone, suivi pendant le séjour.`;
 }
 
 type JsonLd = Record<string, unknown>;

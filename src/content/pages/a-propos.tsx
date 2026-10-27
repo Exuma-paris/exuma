@@ -296,6 +296,7 @@ export const sections: Section[] = [
     paragraphs: [
       `Exuma reçoit ses clients au ${EXUMA_ADDRESS}, dans un immeuble haussmannien entre le parc Monceau et les Champs-Élysées. Les bureaux sont ouverts du lundi au vendredi, de 9 h à 19 h, et les visites se font sur rendez-vous.`,
       "C'est là que travaille toute l'équipe : les travel designers, les conseillers voyages d'affaires et la conciergerie. Quand un nouveau besoin appelle une autre expertise, le dossier passe d'une personne à l'autre sans que le client ait à répéter quoi que ce soit.",
+      "Vous pouvez y passer pour préparer un voyage autour d'une table, avec votre travel designer, ou simplement faire connaissance avec ceux qui s'occuperont de vous.",
     ],
     images: [
       {

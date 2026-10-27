@@ -31,7 +31,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Kenya : Voyage sur mesure",
   metaDescription:
-    "Voyage au Kenya sur mesure : safari au Masaï Mara, côte de Galu Beach, Laikipia. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage au Kenya sur mesure : safari au Masaï Mara, côte de Galu Beach, Laikipia. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -174,49 +174,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "TODO: Environ 9h depuis Paris en vol direct. Kenya Airways et Air France desservent Nairobi-Jomo Kenyatta (NBO).",
+            "Environ 9h depuis Paris en vol direct. Kenya Airways et Air France desservent Nairobi-Jomo Kenyatta (NBO).", // TODO: à vérifier
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "TODO: +2h en hiver, +1h en été par rapport à Paris (fuseau EAT, UTC+3). Favorable pour les sorties safari à l'aube.",
+            "+2h en hiver, +1h en été par rapport à Paris (fuseau EAT, UTC+3). Favorable pour les sorties safari à l'aube.", // TODO: à vérifier
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "TODO: Shilling kenyan (KES). 1 € ≈ 140 KES. Les lodges acceptent les cartes bancaires. Prévoir du cash pour les pourboires.",
+            "Shilling kenyan (KES). 1 € ≈ 140 KES. Les lodges acceptent les cartes bancaires. Prévoir du cash pour les pourboires.", // TODO: à vérifier
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "TODO: L'eTA (Electronic Travel Authorisation) est obligatoire pour les ressortissants français depuis 2024. Demande en ligne sur le portail officiel kenyan, délai 72h.",
+            "eTA obligatoire pour les ressortissants français depuis 2024, à demander en ligne sur le portail officiel kenyan, délai 72h.", // TODO: à vérifier
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "TODO: Fièvre jaune recommandée selon le parcours. Prophylaxie antipaludique fortement conseillée pour toutes les régions, y compris Nairobi.",
+            "Fièvre jaune recommandée selon le parcours. Prophylaxie antipaludique fortement conseillée pour toutes les régions, y compris Nairobi.", // TODO: à vérifier
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: Juillet à octobre pour la Grande Migration au Masaï Mara. Janvier-février, saison sèche courte, pour la côte et le Laikipia.",
+            "Juillet à octobre pour la Grande Migration au Masaï Mara. Janvier-février, saison sèche courte, pour la côte et le Laikipia.", // TODO: à vérifier
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "TODO: Swahili (langue nationale) et anglais (langue officielle). Dans les lodges et réserves privées, l'anglais suffit. Le swahili de politesse est apprécié.",
+            "Swahili (langue nationale) et anglais (officielle). L'anglais suffit dans les lodges, le swahili de politesse est apprécié.", // TODO: à vérifier
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "TODO: Deux saisons des pluies (mars-mai et octobre-novembre). Températures entre 20 et 28°C en savane. Côte plus chaude (25 à 32°C).",
+            "Deux saisons des pluies (mars-mai et octobre-novembre). Températures entre 20 et 28°C en savane. Côte plus chaude (25 à 32°C).", // TODO: à vérifier
         },
       ],
     },
@@ -551,10 +551,10 @@ export const destination: Destination = {
             "La concession privée Olare Orok, c'est une autre dimension. Pas un autre véhicule en vue, un guide qui suit les traces à pied, et un crossing de gnous qu'on a attendu deux heures sur la rive. Ces deux heures, on en parle encore.",
           image: {
             src: "/destination/kenya/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Troupeau de gnous traversant la rivière Mara au Kenya au moment de la Grande Migration"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Safari Kenya, 2025", // TODO: replace with real testimonial
+          role: "Safari Kenya, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -562,10 +562,10 @@ export const destination: Destination = {
             "Le passage de la savane à la plage de Galu Beach en quarante-cinq minutes de vol résume ce qui est unique dans cet itinéraire. Le dîner sur l'île de Chale, les pieds dans le sable, c'est le meilleur repas du voyage.",
           image: {
             src: "/destination/kenya/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Femmes Masaï en tenue traditionnelle dans les plaines de la savane kenyane"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Kenya Masaï Mara et côte, 2025", // TODO: replace with real testimonial
+          role: "Kenya Masaï Mara et côte, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -573,10 +573,10 @@ export const destination: Destination = {
             "L'atelier Karen Blixen et les voitures, c'est le moment du voyage qu'on n'attendait pas. Quatre heures avec le mécanicien, la Packard d'Out of Africa sous une bâche depuis quarante ans. On ne l'aurait jamais trouvé seuls.",
           image: {
             src: "/destination/kenya/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Plage de sable blanc de Galu Beach sur la côte sud du Kenya"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Kenya Culture et Safari, 2025", // TODO: replace with real testimonial
+          role: "Kenya Culture et Safari, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

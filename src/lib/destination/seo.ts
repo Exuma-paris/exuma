@@ -19,7 +19,7 @@ export function buildMetaDescription(destination: Destination): string {
   const where = destination.country
     ? `${destination.name}, ${destination.country}`
     : destination.name;
-  return `${where} sur mesure avec Exuma : adresses confidentielles, conciergerie privée 24/7, itinéraire conçu par un travel designer dédié.`;
+  return `${where} sur mesure avec Exuma : adresses confidentielles, conciergerie privée, itinéraire conçu par un travel designer dédié.`;
 }
 
 export function buildMetaTitle(destination: Destination): string {

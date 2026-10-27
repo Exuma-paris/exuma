@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Maldives, voyage sur mesure",
   metaDescription:
-    "Voyage aux Maldives sur mesure : atolls de Baa, Noonu et Laamu, îles privées, raies manta. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage aux Maldives sur mesure : atolls de Baa, Noonu et Laamu, îles privées, raies manta. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -519,7 +519,7 @@ export const destination: Destination = {
             "Deux atolls en douze jours, et jamais l'impression de faire des transferts. Stéphane avait calé Hanifaru sur la bonne marée. Les mantas sont passées à un mètre, et nous étions le seul bateau.",
           image: {
             src: "/destination/maldives/hero-1.webp",
-            alt: "Portrait de Guillaume et Sophie", // TODO: verify
+            alt: "Lagon turquoise et villas sur pilotis d'un atoll des Maldives",
           },
           name: "Guillaume & Sophie", // TODO: verify
           role: "Voyage en couple, septembre 2025", // TODO: verify
@@ -530,7 +530,7 @@ export const destination: Destination = {
             "Avec trois enfants, on redoutait l'ennui d'une île. Ils ont passé la semaine dans la pépinière de corail avec le biologiste, et ils y retournaient tous les matins avant le petit déjeuner.",
           image: {
             src: "/destination/maldives/hero-2.webp",
-            alt: "Portrait de la famille Lambert", // TODO: verify
+            alt: "Banc de sable découvert à marée basse dans l'atoll de Noonu",
           },
           name: "Famille Lambert", // TODO: verify
           role: "Séjour en famille, février 2025", // TODO: verify
@@ -541,7 +541,7 @@ export const destination: Destination = {
             "Ce que j'ai apprécié, c'est de n'avoir rien à vérifier. Un seul interlocuteur, du premier appel au retour. Le dîner sur le banc de sable, seuls, valait le voyage à lui seul.",
           image: {
             src: "/destination/maldives/hero-3.webp",
-            alt: "Portrait de Nicolas", // TODO: verify
+            alt: "Hydravion amarré au ponton d'une île de l'océan Indien",
           },
           name: "Nicolas", // TODO: verify
           role: "Semaine de décompression, avril 2025", // TODO: verify

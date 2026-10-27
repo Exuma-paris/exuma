@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Jordanie : Voyage sur mesure",
   metaDescription:
-    "Voyage en Jordanie sur mesure : Pétra, désert du Wadi Rum, mer Morte. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage en Jordanie sur mesure : Pétra, désert du Wadi Rum, mer Morte. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -173,49 +173,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 5 heures en vol direct depuis Paris vers Amman (AMM). Royal Jordanian est la seule compagnie à assurer le sans escale, au départ de Roissy. Avec escale, on passe par Istanbul, Doha ou Dubaï.",
+            "Environ 5 heures de vol direct Paris-Amman (AMM) avec Royal Jordanian, seule compagnie sans escale. Sinon via Istanbul, Doha ou Dubaï.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Quand il est 16 h à Paris, il est 17 h à Amman en été et 18 h en hiver. La Jordanie est à UTC+3 toute l'année et ne change plus d'heure depuis octobre 2022.",
+            "UTC+3 toute l'année, sans changement d'heure depuis 2022 : une heure d'avance sur Paris en été, deux heures en hiver.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Dinar jordanien (JOD), une monnaie de forte valeur : 1 dinar vaut environ 1,22 €. Les cartes passent partout à Amman et dans les hôtels. Gardez des espèces pour les souks, les taxis et les villages.",
+            "Dinar jordanien (JOD) : 1 dinar vaut environ 1,22 €. Cartes acceptées à Amman et dans les hôtels, espèces pour souks, taxis et villages.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Un visa est nécessaire. Le Jordan Pass, acheté en ligne avant le départ, dispense des frais de visa et donne accès à 43 sites dont Pétra, à condition de passer au moins trois nuits dans le pays. Passeport valable plus de six mois après l'entrée.",
+            "Visa inclus dans le Jordan Pass (en ligne, 43 sites dont Pétra) dès trois nuits sur place. Passeport valable six mois après l'entrée.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin obligatoire. Calendrier vaccinal français à jour, hépatite A et typhoïde recommandées selon la durée et les conditions du séjour. Les conditions sanitaires du pays sont bonnes.",
+            "Aucun vaccin obligatoire. Calendrier vaccinal à jour, hépatite A et typhoïde recommandées selon la durée et les conditions du séjour.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mars à mai et de septembre à novembre, avec des journées entre 15 et 25°C sur la plus grande partie du pays. Le printemps verdit les plateaux du nord, l'automne donne les nuits les plus douces dans le désert.",
+            "De mars à mai et de septembre à novembre, entre 15 et 25°C. Le printemps verdit le nord, l'automne adoucit les nuits du désert.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'arabe est la langue officielle. L'anglais est très répandu à Amman et sur les sites. Nous travaillons avec des guides francophones sur l'ensemble du parcours.",
+            "L'arabe est la langue officielle, l'anglais très répandu à Amman et sur les sites. Nos guides sont francophones sur tout le parcours.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Amman et Pétra, en altitude, connaissent des hivers frais et pluvieux, avec de la neige certaines années. La mer Morte dépasse 40°C en été et le Wadi Rum monte jusqu'à 45°C. Les nuits du désert restent froides jusqu'au printemps.",
+            "Hivers frais et pluvieux à Amman et Pétra, en altitude. L'été, plus de 40°C à la mer Morte et jusqu'à 45°C au Wadi Rum.",
         },
       ],
     },
@@ -611,10 +611,10 @@ export const destination: Destination = {
             "J'étais persuadé qu'un jour suffisait pour Pétra et j'avais demandé à raccourcir. On m'a expliqué pourquoi, on a gardé les deux nuits, et le second matin on est arrivés au Monastère par le haut sans croiser personne. C'est ce jour-là que j'ai compris la taille du site.",
           image: {
             src: "/destination/jordanie/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Façade du Khazneh à Pétra au sortir du Siq lors d'un voyage en Jordanie"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Jordanie, Pétra et Wadi Rum, 2026", // TODO: replace with real testimonial
+          role: "Jordanie, Pétra et Wadi Rum, 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -622,10 +622,10 @@ export const destination: Destination = {
             "La mer Morte, je la voyais comme une attraction pour photos. On s'est retrouvés seuls sur la rive en fin de journée, avec le sel qui craque sous les pieds et les lumières de l'autre côté de l'eau. On y est restés deux nuits au lieu d'une.",
           image: {
             src: "/destination/jordanie/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Massifs de grès et sable rouge du désert du Wadi Rum en fin de journée"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Jordanie, mer Morte et route des Rois, 2026", // TODO: replace with real testimonial
+          role: "Jordanie, mer Morte et route des Rois, 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -633,10 +633,10 @@ export const destination: Destination = {
             "Notre chauffeur bédouin du Wadi Rum nous a emmenés chez son frère, à l'écart des campements. Le thé, le pain cuit sur la plaque, et les enfants qui nous montraient où grimper dans le rocher. On est rentrés au campement à la nuit tombée.",
           image: {
             src: "/destination/jordanie/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Dépôts de sel et eau immobile sur la rive jordanienne de la mer Morte"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Jordanie, désert et Aqaba, 2026", // TODO: replace with real testimonial
+          role: "Jordanie, désert et Aqaba, 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

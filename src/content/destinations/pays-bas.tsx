@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Pays-Bas : Voyage sur mesure",
   metaDescription:
-    "Voyage aux Pays-Bas sur mesure : Amsterdam, Delft, La Haye et les forêts de la Veluwe. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage aux Pays-Bas sur mesure : Amsterdam, Delft, La Haye et les forêts de la Veluwe. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -173,7 +173,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "TODO: Une heure vingt de vol entre Paris et Amsterdam-Schiphol, avec plusieurs départs par jour. Le train direct depuis Paris-Nord met trois heures vingt et arrive en centre-ville. À l'intérieur du pays, tout se fait en train : cinquante minutes d'Amsterdam à La Haye, deux heures trente jusqu'à Maastricht.",
+            "Une heure vingt de vol Paris-Amsterdam, ou trois heures vingt en train direct depuis Paris-Nord. Dans le pays, tout se fait en train.", // TODO: à vérifier
         },
         {
           iconName: "clock",
@@ -191,31 +191,31 @@ export const destination: Destination = {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "TODO: Aucun visa pour les ressortissants français. La carte nationale d'identité ou le passeport en cours de validité suffit pour entrer et circuler dans le pays.",
+            "Aucun visa pour les ressortissants français. Carte d'identité ou passeport en cours de validité suffit.", // TODO: à vérifier
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "TODO: Aucune vaccination n'est demandée. Le calendrier vaccinal français suffit, et l'eau du robinet se boit partout dans le pays.",
+            "Aucune vaccination n'est demandée. Le calendrier vaccinal français suffit, et l'eau du robinet se boit partout dans le pays.", // TODO: à vérifier
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: D'avril à juin, et en septembre. Les champs de tulipes du Bollenstreek fleurissent de la mi-avril au début mai. En juin, il fait jour jusqu'à vingt-deux heures. Septembre réunit des musées calmes et des terrasses encore ouvertes.",
+            "D'avril à juin, et en septembre. Les tulipes du Bollenstreek fleurissent de la mi-avril au début mai.", // TODO: à vérifier
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "TODO: Le néerlandais est la langue du pays. L'anglais est parlé par presque tout le monde, dans les musées comme dans les villages. Le français est compris dans les hôtels et dans le sud, près de la frontière belge.",
+            "Le néerlandais est la langue du pays, l'anglais parlé par presque tous. Le français est compris dans les hôtels et dans le sud.", // TODO: à vérifier
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "TODO: Climat océanique doux. Amsterdam oscille entre 6 °C en janvier et 22 °C en juillet. Les averses passent vite et laissent derrière elles la lumière que les peintres sont venus chercher. La Veluwe et le Limbourg sont un peu plus secs que la côte.",
+            "Climat océanique doux, de 6 °C en janvier à 22 °C en juillet à Amsterdam. Les averses passent vite.", // TODO: à vérifier
         },
       ],
     },
@@ -235,7 +235,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure aux Pays-Bas, d'Amsterdam aux collines du Limbourg",
             "Adresses confidentielles aux Pays-Bas : musées hors horaires et ateliers de peintres",
             "Hébergements aux Pays-Bas : maison de canal à Amsterdam et domaine du Limbourg",
-            "Conciergerie privée 24/7 pour un voyage aux Pays-Bas",
+            "Conciergerie privée pour un voyage aux Pays-Bas",
             "Expériences aux Pays-Bas : Rijksmuseum, salonboot privé et criée aux fleurs",
           ][i],
         },
@@ -574,10 +574,10 @@ export const destination: Destination = {
             "Nous étions six dans la Galerie d'honneur, à huit heures du matin. Le conservateur nous a montré, sur La Ronde de nuit, l'endroit où la toile avait été coupée au dix-huitième siècle pour entrer dans une autre salle. Je regarde les tableaux différemment depuis.",
           image: {
             src: "/destination/pays-bas/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Anneau de canaux d'Amsterdam au petit matin, voyage aux Pays-Bas"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Amsterdam, La Haye et Delft, avril 2026", // TODO: replace with real testimonial
+          role: "Amsterdam, La Haye et Delft, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -585,10 +585,10 @@ export const destination: Destination = {
             "Nous partions pour trois jours de musées et nous avons passé un après-midi entier à vélo dans la forêt de la Veluwe. Personne ne nous avait dit que les Pays-Bas avaient des forêts pareilles. Nous avons rallongé de deux nuits sur place.",
           image: {
             src: "/destination/pays-bas/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Galerie d'honneur du Rijksmuseum avant l'ouverture au public, Amsterdam"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Amsterdam et la Veluwe, juin 2025", // TODO: replace with real testimonial
+          role: "Amsterdam et la Veluwe, juin 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -596,10 +596,10 @@ export const destination: Destination = {
             "Le bateau est venu nous prendre devant l'hôtel à dix-huit heures. Nous avons remonté les canaux pendant deux heures, avec le skipper pour seule compagnie, puis il nous a déposés au pied du restaurant. C'est la soirée dont mes enfants reparlent.",
           image: {
             src: "/destination/pays-bas/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Allée de sable dans la forêt de la Veluwe traversée à vélo, Gueldre"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Amsterdam et le Limbourg, septembre 2025", // TODO: replace with real testimonial
+          role: "Amsterdam et le Limbourg, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

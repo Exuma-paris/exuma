@@ -169,49 +169,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Il n'existe pas de vol direct depuis Paris. Nadi, la porte d'entrée du pays, se rejoint avec une ou deux escales : Hong Kong et Singapour sont reliées directement à Nadi, comme le sont Los Angeles, San Francisco, Sydney et Auckland. Comptez environ 28 à 34 heures de trajet au total, et davantage sur certaines combinaisons d'escales. Reste ensuite le dernier tronçon vers l'île réservée, en avion régional, en hydravion, en hélicoptère ou en bateau selon l'archipel. Nous laissons une nuit d'escale quand le programme le permet.",
+            "Pas de vol direct depuis Paris : une ou deux escales jusqu'à Nadi, 28 à 34 heures de trajet. Puis avion, hydravion ou bateau vers l'île.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Les Fidji vivent à douze heures d'avance sur le méridien de Greenwich et n'appliquent pas l'heure d'été. Comptez dix heures d'avance sur la France en été et onze heures en hiver : quand il est vingt heures à Paris en juillet, il est six heures du matin le lendemain à Nadi. Le décalage se fait sentir à l'arrivée, et il demande une première journée calme.",
+            "Dix heures d'avance sur la France en été, onze en hiver, sans heure d'été. Prévoir une première journée calme à l'arrivée.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est le dollar fidjien. Comptez environ deux dollars et demi pour un euro. Les cartes bancaires sont largement utilisées dans les zones touristiques, les hôtels et les centres de plongée. Les espèces restent recommandées dans les villages et les zones isolées, où les petits commerces les privilégient souvent : gardez de quoi régler le marché, les taxis, les guides et les dons remis aux villages que l'on visite.",
+            "Le dollar fidjien, environ deux et demi pour un euro. Cartes acceptées dans les hôtels ; espèces utiles dans les villages et au marché.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français sont dispensés de visa préalable : un permis visiteur est délivré à l'arrivée, pour un séjour touristique de quatre mois au maximum. Un billet de retour ou de continuation est demandé, et le passeport doit rester valable au moins six mois après la date prévue de retour. La vigilance porte surtout sur les escales. Un transit par les États-Unis impose l'autorisation ESTA, obtenue en ligne avant le départ. Pour l'Australie, un Français peut transiter sans visa jusqu'à huit heures, à condition de disposer d'un billet confirmé, de rester dans la zone de transit aérien et de ne pas franchir l'immigration : dès qu'il faut récupérer et réenregistrer les bagages, un visa peut devenir nécessaire. Pour la Nouvelle-Zélande, l'autorisation NZeTA est exigée même en simple transit à Auckland.",
+            "Pas de visa : permis visiteur à l'arrivée, passeport valable six mois après le retour. Les escales imposent parfois ESTA ou NZeTA.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination n'est exigée pour entrer aux Fidji depuis la France. Un certificat de vaccination contre la fièvre jaune peut en revanche être demandé selon le pays de provenance, ce qui dépend de l'escale retenue. Il est recommandé d'être à jour du calendrier vaccinal français, l'Institut Pasteur conseillant par ailleurs l'hépatite A ; la typhoïde concerne davantage les séjours prolongés ou dans des conditions d'hygiène précaires. Il n'y a pas de paludisme dans l'archipel. La dengue, elle, circule bien aux Fidji et mérite une vraie vigilance : la protection contre les moustiques reste la précaution la plus utile, en journée comme en fin d'après-midi.",
+            "Aucune vaccination exigée depuis la France ; hépatite A conseillée. Pas de paludisme, mais la dengue circule : protégez-vous des moustiques.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison sèche s'étend de mai à octobre, avec un alizé régulier, un ciel dégagé et une mer lisible pour la plongée. Nous privilégions mai, juin, septembre et octobre : la lumière est belle, les raies manta sont particulièrement présentes au large des Yasawa, et les îles sont moins fréquentées que pendant les vacances australiennes de juillet et d'août. La saison cyclonique court principalement de novembre à avril, avec un pic entre janvier et mars.",
+            "Saison sèche de mai à octobre, idéale en mai, juin, septembre et octobre. Saison cyclonique de novembre à avril, pic de janvier à mars.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le pays compte trois langues officielles principales : l'anglais, l'iTaukei et le Fiji Hindi. L'anglais est largement utilisé dans le tourisme et l'administration, et se parle partout, y compris dans les villages. L'iTaukei reste la langue du quotidien pour une grande partie de la population, le Fiji Hindi celle des descendants des travailleurs venus d'Inde. Deux mots suffisent à ouvrir une conversation : bula pour saluer, vinaka pour remercier.",
+            "Anglais, iTaukei et Fiji Hindi. L'anglais se parle partout, y compris dans les villages ; bula pour saluer, vinaka pour remercier.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tropical et chaud toute l'année, avec des températures qui varient peu, généralement entre vingt-deux et trente et un degrés, et une eau autour de vingt-sept. L'archipel se divise en deux versants : la côte ouest de Viti Levu, celle de Nadi, des Mamanuca et des Yasawa, est généralement plus sèche et ensoleillée, tandis que la côte est et Taveuni reçoivent bien davantage de pluie, ce qui explique la densité de leur forêt. Les pluies de la saison humide ne sont pas toujours brèves : certaines journées restent couvertes du matin au soir.",
+            "Tropical, entre 22 et 31 °C toute l'année, eau autour de 27 °C. La côte ouest de Viti Levu est plus sèche que la côte est et Taveuni.",
         },
       ],
     },
@@ -561,10 +561,10 @@ export const destination: Destination = {
             "Nous étions partis pour le lagon et nous sommes rentrés en parlant du village. La racine de kava, le chef qui nous fait asseoir, les enfants qui chantent : c'est ce dont nous parlons encore.",
           image: {
             src: "/destination/fidji/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage aux Fidji : le lagon des Yasawa et ses îlots vus depuis la hauteur"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Fidji, septembre 2026", // TODO: replace with real testimonial
+          role: "Fidji, septembre 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -572,10 +572,10 @@ export const destination: Destination = {
             "L'hydravion s'est posé devant la plage et l'équipe nous attendait dans l'eau. Nous n'avons pas eu à nous occuper d'un seul transfert en douze jours.",
           image: {
             src: "/destination/fidji/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Bure couverte de chaume au bord de l'eau dans les Mamanuca aux Fidji"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Fidji, îles privées, juin 2026", // TODO: replace with real testimonial
+          role: "Fidji, îles privées, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -583,10 +583,10 @@ export const destination: Destination = {
             "Personne ne nous avait dit ce qu'il y avait derrière la falaise de Sawa-i-Lau. On nage dans le noir quelques secondes, et l'on ressort dans une salle où le jour descend du plafond : nous en parlons encore.",
           image: {
             src: "/destination/fidji/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Pêcheurs poussant leur barque sur le sable au lever du jour à Kadavu"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Fidji, Yasawa, octobre 2026", // TODO: replace with real testimonial
+          role: "Fidji, Yasawa, octobre 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

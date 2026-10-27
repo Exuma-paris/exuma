@@ -22,7 +22,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Croatie : Voyage sur mesure",
   metaDescription:
-    "Voyage en Croatie sur mesure : Dubrovnik, Split, îles Kornati, Hvar. Itinéraire conçu par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage en Croatie sur mesure : Dubrovnik, Split, îles Kornati, Hvar. Itinéraire conçu par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -165,7 +165,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 2 heures de vol direct depuis Paris vers Dubrovnik ou Split. Zagreb est desservie toute l'année, tandis que les liaisons directes vers les principaux aéroports de la côte sont généralement renforcées d'avril à octobre.",
+            "Environ 2 heures de vol direct depuis Paris vers Dubrovnik ou Split. Les liaisons vers la côte sont renforcées d'avril à octobre.",
         },
         {
           iconName: "clock",
@@ -183,31 +183,31 @@ export const destination: Destination = {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Aucun visa n'est nécessaire pour les ressortissants français pour un séjour touristique de moins de 3 mois. La Croatie fait partie de l'espace Schengen depuis le 1er janvier 2023. Une carte nationale d'identité ou un passeport en cours de validité est suffisant pour entrer dans le pays.",
+            "Pas de visa pour un séjour de moins de 3 mois : la Croatie est dans l'espace Schengen. Carte d'identité ou passeport en cours de validité.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est obligatoire pour entrer en Croatie depuis la France. Il est toutefois recommandé d'être à jour des vaccinations du calendrier vaccinal français, notamment contre la diphtérie, le tétanos, la poliomyélite, la coqueluche et la rougeole.",
+            "Aucun vaccin n'est obligatoire pour entrer en Croatie depuis la France. Il est recommandé d'être à jour du calendrier vaccinal français.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mai à juin et de septembre à début octobre, pour profiter d'un climat agréable, d'une mer encore douce et d'une fréquentation plus modérée sur la côte adriatique. Juillet et août sont les mois les plus chauds et les plus fréquentés.",
+            "De mai à juin et de septembre à début octobre : climat agréable, mer douce et côte moins fréquentée. Juillet et août sont les plus chargés.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le croate est la langue officielle. L'anglais est largement parlé dans les zones touristiques, notamment sur la côte. L'italien est également bien compris dans certaines régions, en particulier en Istrie.",
+            "Le croate est la langue officielle. L'anglais est largement parlé dans les zones touristiques, et l'italien bien compris en Istrie.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le littoral adriatique bénéficie d'un climat méditerranéen, avec des étés chauds et secs et des hivers doux. Dans l'intérieur du pays, notamment autour de Zagreb, le climat est davantage continental, avec des hivers plus froids et des écarts de température plus marqués.",
+            "Méditerranéen sur le littoral, avec des étés chauds et secs et des hivers doux. Plus continental à l'intérieur, autour de Zagreb.",
         },
       ],
     },

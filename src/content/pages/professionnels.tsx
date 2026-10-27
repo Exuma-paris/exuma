@@ -28,9 +28,9 @@ export const sections: Section[] = [
     type: "hero",
     eyebrow: "Exuma · Professionnels",
     heading:
-      "Déléguez l'organisation de vos voyages, gardez un seul interlocuteur",
+      "Déléguez l'organisation des déplacements, gardez un seul interlocuteur",
     description:
-      "Depuis 1991, nous prenons en charge vos déplacements professionnels et privés. Un partenaire de conciergerie, joignable et réactif.",
+      "Depuis 1991, nous pilotons les déplacements des entreprises, des family offices et de leurs dirigeants. Un référent dédié, une exécution rigoureuse, une discrétion totale.",
     images: [
       {
         src: "/professionnels/hero-1.png",
@@ -127,6 +127,88 @@ export const sections: Section[] = [
   },
 
   {
+    type: "featureCards",
+    eyebrow: "Le service",
+    heading: "Ce que nous prenons en charge",
+    description:
+      "Le voyage n'est que la partie visible. Voici les métiers que nous coordonnons, sous un seul interlocuteur.",
+    cards: [
+      {
+        // Seule carte propre aux professionnels, d'où la première place.
+        title: "Suivi des dépenses & reporting",
+        description:
+          "Facture unique, reporting mensuel, pilotage des budgets et vision consolidée de vos déplacements.",
+        image: {
+          src: "/professionnels/clavier.jpg",
+          alt: "Les mains d'un conseiller Exuma sur son clavier",
+        },
+        link: { label: "Découvrir", href: "/services/reporting" },
+      },
+      {
+        // Propre aux professionnels, comme la carte reporting : en tête.
+        title: "Séminaires, conventions & team building",
+        description:
+          "Conçus, coordonnés et exécutés de A à Z, avec un interlocuteur unique du premier devis au retour.",
+        image: {
+          src: "/professionnels/entreprises/salle-seminaire.jpg",
+          alt: "Une salle de séminaire en session, autour d'une table en U",
+        },
+        link: { label: "Découvrir", href: "/professionnels/seminaires" },
+      },
+      {
+        title: "Mobilité & accès privilégié",
+        description:
+          "Jets privés, transferts, fast-track aéroport et bagages sensibles.",
+        image: {
+          src: "/service/mobilite/hero-1.png",
+          alt: "Jet privé prêt à l'embarquement sur le tarmac",
+        },
+        link: { label: "Découvrir", href: "/services/mobilite" },
+      },
+      {
+        title: "Conciergerie privée & VIP",
+        description:
+          "Moments d'exception, personnel dédié, réservations de dernière minute.",
+        image: {
+          src: "/service/conciergerie/hero-1.png",
+          alt: "Remise de clé à la réception d'un hôtel",
+        },
+        link: { label: "Découvrir", href: "/services/conciergerie" },
+      },
+      {
+        title: "Sécurité & sérénité",
+        description:
+          "Gestion des imprévus, assistance pendant le voyage, veille sanitaire.",
+        image: {
+          src: "/service/securite/hero-1.png",
+          alt: "Prise en charge en berline avec chauffeur",
+        },
+        link: { label: "Découvrir", href: "/services/securite" },
+      },
+      {
+        title: "Ingénierie du voyage & support global",
+        description:
+          "Visas, assurances, optimisation des privilèges, coordination complète.",
+        image: {
+          src: "/service/ingenierie/hero-1.jpg",
+          alt: "Coordination d'un déplacement depuis le bureau",
+        },
+        link: { label: "Découvrir", href: "/services/ingenierie" },
+      },
+      {
+        title: "Expériences & lifestyle",
+        description:
+          "Accès réservés, tables confidentielles, excursions privées, yachts.",
+        image: {
+          src: "/service/lifestyle/hero-1.png",
+          alt: "Table dressée dans une salle privée",
+        },
+        link: { label: "Découvrir", href: "/services/lifestyle" },
+      },
+    ],
+  },
+
+  {
     type: "infoGrid",
     eyebrow: "Le socle",
     heading: "Ce qui ne change pas d'un dossier à l'autre",
@@ -173,69 +255,9 @@ export const sections: Section[] = [
       "La confidentialité n'est pas une option que l'on active à votre demande, c'est un principe de fonctionnement. Elle s'applique dès le premier échange, avant même qu'un dossier existe, et sans que vous ayez à le réclamer.",
       "Aucun de nos clients n'est cité publiquement sans son accord préalable, ni sur ce site, ni ailleurs. Et par principe, les témoignages que vous lirez plus bas restent anonymisés.",
       // Formulation à faire valider par Ludivine (règle interne, pas une promesse chiffrée).
-      "En interne, l'information circule au strict nécessaire : votre référent, son suppléant, et personne d'autre.",
+      "En interne, l'information circule au strict nécessaire : votre référent dédié en priorité, et s'il est indisponible, les seules personnes de l'équipe qui prennent le relais.",
     ],
     cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement" },
-  },
-
-  {
-    type: "featureCards",
-    eyebrow: "Le service",
-    heading: "Ce que nous prenons en charge",
-    description:
-      "Le voyage n'est que la partie visible. Voici les métiers que nous coordonnons, sous un seul interlocuteur.",
-    cards: [
-      {
-        title: "Conciergerie privée & VIP",
-        description:
-          "Moments d'exception, personnel dédié, réservations de dernière minute.",
-        image: {
-          src: "/service/conciergerie/hero-1.png",
-          alt: "Remise de clé à la réception d'un hôtel",
-        },
-        link: { label: "Découvrir", href: "/services/conciergerie" },
-      },
-      {
-        title: "Mobilité & accès privilégié",
-        description:
-          "Jets privés, transferts, fast-track aéroport et bagages sensibles.",
-        image: {
-          src: "/service/mobilite/hero-1.png",
-          alt: "Jet privé prêt à l'embarquement sur le tarmac",
-        },
-        link: { label: "Découvrir", href: "/services/mobilite" },
-      },
-      {
-        title: "Sécurité & sérénité",
-        description:
-          "Gestion des imprévus, assistance pendant le voyage, veille sanitaire.",
-        image: {
-          src: "/service/securite/hero-1.png",
-          alt: "Prise en charge en berline avec chauffeur",
-        },
-        link: { label: "Découvrir", href: "/services/securite" },
-      },
-      {
-        title: "Ingénierie du voyage & support global",
-        description:
-          "Visas, assurances, optimisation des privilèges, coordination complète.",
-        image: {
-          src: "/service/ingenierie/hero-1.jpg",
-          alt: "Coordination d'un déplacement depuis le bureau",
-        },
-        link: { label: "Découvrir", href: "/services/ingenierie" },
-      },
-      {
-        title: "Expériences & lifestyle",
-        description:
-          "Accès réservés, tables confidentielles, excursions privées, yachts.",
-        image: {
-          src: "/service/lifestyle/hero-1.png",
-          alt: "Table dressée dans une salle privée",
-        },
-        link: { label: "Découvrir", href: "/services/lifestyle" },
-      },
-    ],
   },
 
   {
@@ -252,7 +274,7 @@ export const sections: Section[] = [
         image: {
           // TODO image : visuel neutre, surtout pas un portrait identifiable.
           src: "/destination/polynesie/full-image.png",
-          alt: "Témoignage anonymisé",
+          alt: "Vue panoramique d'un atoll polynésien",
         },
         name: "Directeur",
         role: "Family office",
@@ -264,7 +286,7 @@ export const sections: Section[] = [
           "Nos associés voyagent beaucoup, souvent en dernière minute. La réactivité est réelle, y compris le week-end.",
         image: {
           src: "/destination/polynesie/bento-huahine.png",
-          alt: "Témoignage anonymisé",
+          alt: "Végétation luxuriante de Huahine",
         },
         name: "Office manager",
         role: "Cabinet d'avocats",
@@ -276,7 +298,7 @@ export const sections: Section[] = [
           "Je délègue mes voyages comme je délègue au bureau. Je dis où et quand, le reste se règle sans moi.",
         image: {
           src: "/destination/polynesie/bento-homme.png",
-          alt: "Témoignage anonymisé",
+          alt: "Habitant polynésien dans son environnement",
         },
         name: "Dirigeant",
         role: "Groupe industriel",

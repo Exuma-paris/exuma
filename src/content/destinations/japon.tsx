@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Japon : Voyage sur mesure",
   metaDescription:
-    "Voyage sur mesure au Japon : Tokyo, Kyoto, Mont Fuji, ryokans et artisans. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage sur mesure au Japon : Tokyo, Kyoto, Mont Fuji, ryokans et artisans. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -183,7 +183,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 13h à 14h de vol direct depuis Paris vers Tokyo (Haneda principalement, parfois Narita selon les programmes), avec Air France ou ANA.",
+            "Environ 13h à 14h de vol direct depuis Paris vers Tokyo (Haneda, parfois Narita), avec Air France ou ANA.",
         },
         {
           iconName: "clock",
@@ -195,7 +195,7 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Yen japonais (JPY). 1 € ≈ 160 yens (à titre indicatif, selon le taux de change en vigueur). Si le Japon reste historiquement attaché aux paiements en espèces, les cartes bancaires et paiements sans contact sont désormais largement acceptés dans les grandes villes, les hôtels et les établissements haut de gamme.",
+            "Yen japonais (JPY), 1 € ≈ 160 yens à titre indicatif. Cartes et sans contact sont largement acceptés en ville et dans les hôtels.",
         },
         {
           iconName: "fileText",
@@ -212,19 +212,19 @@ export const destination: Destination = {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Mars-avril pour admirer les cerisiers en fleurs, octobre-novembre pour les couleurs flamboyantes des érables. Juin correspond à la saison des pluies dans une grande partie du pays ; les randonnées peuvent être moins favorables, même si certaines régions restent agréables.",
+            "Mars-avril pour les cerisiers en fleurs, octobre-novembre pour les érables. Juin est la saison des pluies dans une grande partie du pays.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le japonais est la langue principale. L'anglais reste parfois limité en dehors des grandes villes, mais les hôtels de luxe et nos partenaires locaux permettent un accompagnement fluide tout au long du voyage.",
+            "Le japonais est la langue principale. L'anglais reste limité hors des grandes villes, mais hôtels et partenaires locaux assurent le relais.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le Japon connaît quatre saisons bien marquées. Les étés sont chauds et humides, les hivers secs et froids dans le centre du pays, tandis que Hokkaido offre des paysages enneigés exceptionnels. Le climat varie fortement selon les régions, de l'archipel subtropical d'Okinawa aux montagnes du nord.",
+            "Quatre saisons marquées : étés chauds et humides, hivers secs et froids au centre. Fortes variations, d'Okinawa subtropicale à Hokkaido.",
         },
       ],
     },
@@ -577,7 +577,7 @@ export const destination: Destination = {
             "Le Japon avec Exuma n'a rien eu d'un circuit organisé. La cérémonie du thé dans ce sous-temple de Kyoto, personne ne nous l'aurait ouverte seuls.",
           image: {
             src: "/destination/japon/hero-1.png",
-            alt: "Portrait d'Isabelle et Marc", // TODO: verify
+            alt: "Tokyo illuminé la nuit, vue depuis un gratte-ciel du quartier d'Otemachi, Japon",
           },
           name: "Isabelle & Marc", // TODO: verify
           role: "Voyage de noces, avril 2025", // TODO: verify
@@ -588,7 +588,7 @@ export const destination: Destination = {
             "Notre fils de seize ans qui ne voulait entendre parler que de jeux vidéo est reparti fasciné par un maître céramiste rencontré à Kanazawa. C'est rare, un voyage qui marque toute une famille comme ça.",
           image: {
             src: "/destination/japon/hero-2.png",
-            alt: "Portrait de Frédéric", // TODO: verify
+            alt: "Temple en bois du Kyoto historique entouré d'érables à l'automne, Japon",
           },
           name: "Frédéric", // TODO: verify
           role: "Séjour en famille, novembre 2025", // TODO: verify
@@ -599,7 +599,7 @@ export const destination: Destination = {
             "Ce qui m'a frappée, c'est la précision. Chaque transfert, chaque réservation de table, chaque horaire de train : rien n'a jamais glissé d'une minute.",
           image: {
             src: "/destination/japon/hero-3.png",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "Mont Fuji enneigé vu depuis les rives du lac Kawaguchiko, Japon",
           },
           name: "Claire", // TODO: verify
           role: "Voyage solo, octobre 2025", // TODO: verify

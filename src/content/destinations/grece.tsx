@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Grèce : Voyage sur mesure",
   metaDescription:
-    "Voyage en Grèce sur mesure : Athènes, Delphes, Cyclades et Péloponnèse. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage en Grèce sur mesure : Athènes, Delphes, Cyclades et Péloponnèse. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -170,7 +170,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "TODO: environ 3h15 en vol direct depuis Paris vers Athènes. Comptez une correspondance ou un vol intérieur pour rejoindre les îles.",
+            "environ 3h15 en vol direct depuis Paris vers Athènes. Comptez une correspondance ou un vol intérieur pour rejoindre les îles.", // TODO: à vérifier
         },
         {
           iconName: "clock",
@@ -525,7 +525,7 @@ export const destination: Destination = {
             "Notre voyage en Grèce a mêlé l'histoire et la mer sans jamais courir. L'Acropole avant l'ouverture, une journée de navigation dans les Cyclades, et ce dîner chez un vigneron de Santorin. Tout s'enchaînait naturellement.",
           image: {
             src: "/destination/grece/hero-1.webp",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
+            alt: "Village blanc aux dômes bleus surplombant la mer Égée en Grèce",
           },
           name: "Bernard & Michèle", // TODO: verify
           role: "Voyage anniversaire, septembre 2025", // TODO: verify
@@ -536,7 +536,7 @@ export const destination: Destination = {
             "Le Péloponnèse a été la révélation du séjour. Épidaure au lever du jour, Nauplie le soir, presque personne. Notre travel designer avait tout ordonné pour que rien ne se croise.",
           image: {
             src: "/destination/grece/hero-2.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Colonnes du Parthénon au-dessus des fleurs jaunes, lumière dorée du soir",
           },
           name: "Édouard", // TODO: verify
           role: "Voyage en famille, juin 2025", // TODO: verify
@@ -547,7 +547,7 @@ export const destination: Destination = {
             "La croisière privée dans les Cyclades restera le souvenir marquant. On lève l'ancre avant tout le monde, on nage dans une crique déserte, on déjeune à bord. Un rythme qu'on n'aurait jamais trouvé seuls.",
           image: {
             src: "/destination/grece/hero-3.webp",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "Goélette au mouillage dans une crique turquoise sous des falaises dorées",
           },
           name: "Claire", // TODO: verify
           role: "Séjour en couple, mai 2025", // TODO: verify

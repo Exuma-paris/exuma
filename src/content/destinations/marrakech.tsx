@@ -432,10 +432,10 @@ export const destination: Destination = {
             "On a passé trois jours dans la médina sans croiser un seul groupe organisé. Notre guide connaissait chaque porte, chaque artisan par son prénom. Le dernier soir, un dîner sur un toit-terrasse qu'aucun guide ne mentionne.",
           image: {
             src: "/destination/marrakech/hero-1.webp",
-            alt: "Portrait",
+            alt: "Porte festonnée et étals de tapis et d'étoffes dans les souks de la médina de Marrakech",
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Séjour en couple, mars 2025", // TODO: replace with real testimonial
+          role: "Séjour en couple, mars 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -443,10 +443,10 @@ export const destination: Destination = {
             "Le passage de la ville à l'Atlas s'est fait sans transition visible. Un matin on était dans les souks, l'après-midi sur un plateau à 2 000 mètres avec un berger qui nous a montré comment il lit le ciel pour prévoir la météo du lendemain.",
           image: {
             src: "/destination/marrakech/hero-2.webp",
-            alt: "Portrait",
+            alt: "Minaret de la Koutoubia devant les sommets enneigés du Haut Atlas, Marrakech",
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Voyage en famille, avril 2025", // TODO: replace with real testimonial
+          role: "Voyage en famille, avril 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -454,10 +454,10 @@ export const destination: Destination = {
             "Ce qui m'a marqué : le hammam privé à sept heures du matin, le silence total, la vapeur, la lumière par les moucharabiehs. Trente minutes qui ont changé le rythme de toute la journée.",
           image: {
             src: "/destination/marrakech/hero-3.webp",
-            alt: "Portrait",
+            alt: "Villa bleu Majorelle, bassin et cactus du jardin Majorelle, Marrakech",
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Escapade solo, novembre 2024", // TODO: replace with real testimonial
+          role: "Escapade solo, novembre 2024", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

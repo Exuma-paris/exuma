@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "New York : Voyage sur mesure",
   metaDescription:
-    "Voyage à New York sur mesure : coulisses de Broadway, West Village, Rockefeller Center. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage à New York sur mesure : coulisses de Broadway, West Village, Rockefeller Center. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -168,49 +168,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Huit heures quinze à huit heures trente de Paris à New York, en direct et plusieurs fois par jour. Le retour est plus court, sept heures quinze à sept heures trente, porté par le jet-stream. Deux aéroports reçoivent les vols depuis Paris : JFK et Newark. LaGuardia, le troisième, ne prend que les vols intérieurs."
+            "Huit heures quinze à huit heures trente de vol direct, un peu plus de sept heures au retour. Arrivée à JFK ou à Newark."
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Six heures de moins qu'en France. Quand il est 18 h à Paris, il est midi à New York. Les deux pays ne changent pas d'heure aux mêmes dates : l'écart tombe à cinq heures pendant une quinzaine de jours en mars, et autant fin octobre. Au retour, le décalage se rattrape en deux nuits.",
+            "Six heures de moins qu'en France. L'écart tombe à cinq heures une quinzaine de jours en mars et fin octobre.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar américain. La carte bancaire et le paiement sans contact passent partout, y compris dans les taxis et le métro, et les espèces sont devenues rares. Au restaurant, le pourboire attendu va de dix-huit à vingt pour cent du total. Il n'est pas facultatif."
+            "Dollar américain ; carte et sans contact passent partout, métro compris. Au restaurant, le pourboire de dix-huit à vingt pour cent est dû."
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa pour un séjour touristique de moins de quatre-vingt-dix jours, mais une autorisation ESTA à demander en ligne avant le départ. Elle est payante, s'obtient en quelques minutes et vaut deux ans, ou jusqu'à l'expiration du passeport. Celui-ci doit être biométrique et valide pendant tout le séjour."
+            "Pas de visa sous quatre-vingt-dix jours, mais une ESTA payante à demander en ligne. Passeport biométrique valide pendant tout le séjour."
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination n'est demandée. Le calendrier vaccinal français à jour suffit. L'eau du robinet se boit : elle descend des réservoirs des Catskills et de la Delaware, au nord de l'État. Une assurance couvrant les frais médicaux américains est en revanche indispensable.",
+            "Aucune vaccination demandée, l'eau du robinet se boit. Une assurance couvrant les frais médicaux américains est en revanche indispensable.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Mai et juin, puis septembre et octobre : la ville est dehors, les terrasses ouvertes, Central Park à son meilleur. Décembre a son propre argument, avec les vitrines, le sapin du Rockefeller Center et les patinoires. Juillet et août sont chauds et humides.",
+            "Mai-juin et septembre-octobre, quand la ville vit dehors. Décembre pour les vitrines et le sapin du Rockefeller Center.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais, dans une ville où la municipalité recense plus de huit cents langues parlées. Les hôtels et les guides privés travaillent en français sans difficulté, et cela se demande à la réservation."
+            "L'anglais, dans une ville de plus de huit cents langues. Hôtels et guides privés travaillent en français, à demander à la réservation."
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Continental et franc : les saisons se voient. La moyenne annuelle tourne autour de treize degrés, avec des nuits sous zéro en janvier et février et des pointes au-delà de trente degrés en juillet. Il tombe soixante-quinze centimètres de neige par an, presque tous en hiver. Le printemps et l'automne tiennent entre quinze et vingt-cinq degrés."
+            "Continental : nuits sous zéro en janvier-février, plus de trente degrés en juillet. Printemps et automne entre quinze et vingt-cinq degrés."
         },
       ],
     },
@@ -590,10 +590,10 @@ export const destination: Destination = {
             "Nous sommes entrés au Frick un jour de fermeture. Il n'y avait que nous, la conférencière et les Vermeer. Ma fille de quinze ans a passé dix minutes devant un seul tableau, ce qui ne lui était jamais arrivé.",
           image: {
             src: "/destination/new-york/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Le pont de Brooklyn et les tours du sud de Manhattan au soleil couchant, voyage à New York"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: New York, avril 2026", // TODO: replace with real testimonial
+          role: "New York, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -601,10 +601,10 @@ export const destination: Destination = {
             "Après le spectacle, deux comédiens se sont assis à notre table. Ils ont raconté les auditions et les huit représentations par semaine pendant une heure. Les enfants en parlent encore.",
           image: {
             src: "/destination/new-york/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Le pont de Manhattan encadré par les entrepôts de brique de Dumbo, à Brooklyn"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Broadway, décembre 2025", // TODO: replace with real testimonial
+          role: "Broadway, décembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -612,10 +612,10 @@ export const destination: Destination = {
             "La patinoire du Rockefeller nous a été laissée à la fin de la soirée. Nous avons dîné au bord de la glace, puis patiné à cinq, avec les tours allumées au-dessus.",
           image: {
             src: "/destination/new-york/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Enseignes lumineuses des théâtres de Broadway un soir d'hiver, Theater District"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Rockefeller Center, janvier 2026", // TODO: replace with real testimonial
+          role: "Rockefeller Center, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

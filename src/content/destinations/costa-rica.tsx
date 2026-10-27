@@ -165,49 +165,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Paris rejoint San José (SJO) via Amsterdam avec KLM et Air France : 11 h 30 à l'aller, 10 h 30 au retour. Les correspondances fonctionnent aussi depuis la province.",
+            "Paris rejoint San José (SJO) via Amsterdam avec KLM et Air France : 11 h 30 à l'aller, 10 h 30 au retour.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Huit heures de retard sur Paris en été, sept en hiver. Le pays ne pratique pas le changement d'heure. Le décalage se digère bien à l'aller, moins au retour.",
+            "Huit heures de retard sur Paris en été, sept en hiver. Le pays ne pratique pas le changement d'heure.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Colón costaricien (CRC). Le dollar américain est accepté dans la plupart des hôtels, lodges et activités touristiques. Prévoir des espèces en petites coupures pour les pourboires et les villages.",
+            "Colón costaricien (CRC). Le dollar américain est accepté dans la plupart des hôtels et lodges ; prévoir des petites coupures en espèces.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa pour les ressortissants français : le passeport suffit. Il doit être valide pendant toute la durée du séjour, et un billet de sortie du territoire peut être demandé à l'arrivée.", // TODO: verify durée de validité exigée du passeport
+            "Pas de visa pour les Français : le passeport, valide tout le séjour, suffit. Un billet de sortie peut être demandé à l'arrivée.", // TODO: verify durée de validité exigée du passeport
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination obligatoire depuis l'Europe. Le certificat de fièvre jaune est exigé en cas d'arrivée depuis un pays endémique d'Amérique du Sud ou d'Afrique. Vaccins universels à jour recommandés.",
+            "Aucun vaccin obligatoire depuis l'Europe, vaccins universels à jour recommandés. Fièvre jaune exigée si l'on arrive d'un pays endémique.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De décembre à avril pour la saison sèche, la plus stable côté Pacifique. De juillet à octobre pour la ponte des tortues vertes, avec un pic en juillet et août. Mai et juin restent praticables et bien moins fréquentés.",
+            "De décembre à avril pour la saison sèche. De juillet à octobre pour la ponte des tortues vertes, avec un pic en juillet et août.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Espagnol. L'anglais est compris dans les zones touristiques et les établissements haut de gamme, beaucoup moins ailleurs. Un guide francophone accompagne l'ensemble de l'itinéraire.",
+            "Espagnol. L'anglais est compris dans les zones touristiques et les hôtels haut de gamme ; un guide francophone accompagne tout l'itinéraire.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Tropical, de 24 à 32 °C sur les deux côtes toute l'année. Monteverde et les hauteurs restent entre 15 et 22 °C, souvent dans la brume. Saison verte de mai à novembre, averses en fin de journée.",
+            "Tropical, de 24 à 32 °C sur les côtes toute l'année, 15 à 22 °C à Monteverde. Saison verte de mai à novembre, averses en fin de journée.",
         },
       ],
     },
@@ -227,7 +227,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure au Costa Rica entre Tortuguero, Arenal et Nicoya",
             "Déjeuner privé installé au bord d'une rivière encaissée, Costa Rica",
             "Écolodge perché dans la canopée costaricienne au coucher du soleil",
-            "Conciergerie privée 24/7 pour un voyage au Costa Rica",
+            "Conciergerie privée pour un voyage au Costa Rica",
             "Traversée d'un pont suspendu dans la canopée d'une forêt costaricienne",
           ][i],
         },
@@ -575,10 +575,10 @@ export const destination: Destination = {
             "Le premier matin à Tortuguero, le guide a coupé le moteur au milieu d'un canal et nous a montré un paresseux à trente mètres. Nos enfants ne l'auraient jamais repéré seuls. Et pas un transfert à gérer de tout le séjour.",
           image: {
             src: "/destination/costa-rica/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Canaux de Tortuguero bordés de forêt tropicale au Costa Rica"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Costa Rica en famille, février 2026", // TODO: replace with real testimonial
+          role: "Costa Rica en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -586,10 +586,10 @@ export const destination: Destination = {
             "La réserve privée avec les propriétaires reste le moment le plus fort. Nous étions six, ils ont marché avec nous toute la matinée. Le déjeuner était simple et excellent.",
           image: {
             src: "/destination/costa-rica/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Cône du volcan Arenal dégagé au-dessus de la forêt de La Fortuna"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Costa Rica, avril 2025", // TODO: replace with real testimonial
+          role: "Costa Rica, avril 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -597,10 +597,10 @@ export const destination: Destination = {
             "La villa à Santa Teresa est invisible depuis la route, et le chef composait ses menus avec ce que les enfants avaient envie de goûter. On a surfé le matin, marché dans la forêt sèche l'après-midi, dîné les pieds dans le sable.",
           image: {
             src: "/destination/costa-rica/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Plage de Santa Teresa à marée basse sur la péninsule de Nicoya"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Nicoya et Papagayo, janvier 2026", // TODO: replace with real testimonial
+          role: "Nicoya et Papagayo, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Thaïlande : Voyage sur mesure",
   metaDescription:
-    "Voyage en Thaïlande sur mesure : Bangkok, baie de Phang Nga, Phuket, Koh Samui. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en Thaïlande sur mesure : Bangkok, baie de Phang Nga, Phuket, Koh Samui. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -169,37 +169,37 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 11 h 20 en direct de Paris à Bangkok (BKK) avec Air France ou Thai Airways, un peu plus au retour à cause des vents. Les vols avec escale à Doha, Dubaï ou Istanbul demandent 14 à 17 heures. Un vol intérieur d'une heure rejoint ensuite Phuket, Krabi ou Koh Samui.",
+            "Environ 11 h 20 en direct de Paris à Bangkok, 14 à 17 heures avec escale. Puis une heure de vol vers Phuket, Krabi ou Koh Samui.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "La Thaïlande reste à UTC+7 toute l'année, sans changement d'heure : c'est l'heure française qui bouge. L'écart est donc de cinq heures pendant l'heure d'été française, et de six heures pendant l'heure d'hiver. L'arrivée se fait généralement en fin de matinée, ce qui laisse une première journée utilisable.",
+            "Pas de changement d'heure en Thaïlande : cinq heures d'avance pendant l'heure d'été française, six heures en hiver.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Baht thaïlandais (THB), environ 38 bahts pour un euro en août 2026. Les cartes bancaires sont acceptées partout dans les hôtels et les grands restaurants. Prévoir des espèces pour les marchés, les taxis et les bateaux.",
+            "Baht (THB), environ 38 bahts pour un euro en août 2026. Cartes acceptées dans les hôtels ; espèces pour marchés, taxis et bateaux.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa pour un séjour touristique. L'exemption, portée à 60 jours en juillet 2024, repasse à 30 jours pour les Français : la mesure a été approuvée le 19 mai 2026 et prend effet à sa publication au Journal officiel thaïlandais. Une extension de 30 jours reste possible sur place. Passeport valide six mois après le retour. Carte d'arrivée numérique (TDAC) à remplir en ligne entre 72 et 24 heures avant l'arrivée.",
+            "Sans visa 30 jours (au lieu de 60, mesure de mai 2026), extensible sur place. Passeport valide six mois, carte TDAC en ligne.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin obligatoire. Hépatite A, typhoïde et rappel diphtérie-tétanos-polio-coqueluche recommandés, hépatite B et rage selon le séjour. Aucun risque de paludisme à Bangkok, Chiang Mai ni sur les îles : il ne concerne que certaines zones forestières frontalières. La dengue circule dans tout le pays, le répulsif reste la seule protection.",
+            "Aucun vaccin obligatoire, hépatite A et typhoïde recommandées. Pas de paludisme à Bangkok, Chiang Mai ni sur les îles ; dengue partout.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De novembre à mars pour Bangkok, Khao Yai et la côte d'Andaman (Phuket, Phang Nga), avec un risque de pluie en novembre et en mars. De février à septembre pour Koh Samui et le golfe, qui reçoit ses pluies d'octobre à décembre. Novembre est le mois à éviter à Samui. Avril est le plus chaud du pays.",
+            "Novembre à mars pour Bangkok et la côte d'Andaman, février à septembre pour Koh Samui et le golfe. Avril est le mois le plus chaud.",
         },
         {
           iconName: "languages",
@@ -211,7 +211,7 @@ export const destination: Destination = {
           iconName: "sun",
           title: "Climat",
           description:
-            "Tropical, de 24 à 35 °C toute l'année. Saison sèche de novembre à février, chaleur sèche en mars et avril, mousson du sud-ouest de mai à octobre sur la côte d'Andaman. Le golfe reçoit la sienne d'octobre à décembre, ce qui décale les deux calendriers.",
+            "Tropical, de 24 à 35 °C. Mousson de mai à octobre sur la côte d'Andaman, d'octobre à décembre dans le golfe.",
         },
       ],
     },
@@ -231,7 +231,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Thaïlande entre Bangkok, Khao Yai et la mer d'Andaman",
             "Adresses confidentielles en Thaïlande : tables de quartier et îles peu fréquentées",
             "Hébergements en Thaïlande : Amanpuri à Phuket et Six Senses Yao Noi",
-            "Conciergerie privée 24/7 pour un voyage en Thaïlande",
+            "Conciergerie privée pour un voyage en Thaïlande",
             "Expériences immersives en Thaïlande : Wat Pho, Blue Elephant et Khao Yai",
           ][i],
         },
@@ -592,10 +592,10 @@ export const destination: Destination = {
             "Nous avions déjà fait la Thaïlande il y a vingt ans et nous en gardions un souvenir moyen. Le passage par Koh Yao Noi a tout changé. Deux hôtels sur l'île, des buffles sur la route, et la baie en face.",
           image: {
             src: "/destination/thailande/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Pitons calcaires émergeant de la baie de Phang Nga en Thaïlande au lever du jour"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bangkok et mer d'Andaman, février 2025", // TODO: replace with real testimonial
+          role: "Bangkok et mer d'Andaman, février 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -603,10 +603,10 @@ export const destination: Destination = {
             "Nous sommes partis en mer à six heures pour les lagons de Koh Hong, au moment où la lumière est la plus belle. Nous y sommes restés seuls une heure. Les autres bateaux arrivaient quand nous repartions, pour un petit-déjeuner à bord.",
           image: {
             src: "/destination/thailande/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Toits de tuiles vernissées et chedis dorés du temple de Wat Pho à Bangkok"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Thaïlande en famille, décembre 2024", // TODO: replace with real testimonial
+          role: "Thaïlande en famille, décembre 2024", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -614,10 +614,10 @@ export const destination: Destination = {
             "Les enfants ont retenu le cours de cuisine autant que les plages. Le marché le matin avec le chef, puis les fourneaux. Ils refont le curry vert à Paris, avec les épices rapportées dans la valise.",
           image: {
             src: "/destination/thailande/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Troupeau d'éléphants sauvages remontant la route forestière du parc national de Khao Yai en Thaïlande"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bangkok et Koh Samui, juillet 2025", // TODO: replace with real testimonial
+          role: "Bangkok et Koh Samui, juillet 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

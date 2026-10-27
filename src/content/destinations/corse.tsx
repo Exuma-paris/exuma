@@ -61,7 +61,7 @@ export const destination: Destination = {
       features: [
         {
           iconName: "badgeCheck",
-          title: "Conciergerie 24/7",
+          title: "Conciergerie privée",
           description:
             "Assistance discrète, transferts privés, bateau et hélicoptère sur appel.",
         },
@@ -182,7 +182,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "TODO: 1h45 de vol depuis Paris (Ajaccio, Bastia, Calvi, Figari)",
+            "1h45 de vol depuis Paris (Ajaccio, Bastia, Calvi, Figari)", // TODO: à vérifier
         },
         {
           iconName: "clock",
@@ -209,7 +209,7 @@ export const destination: Destination = {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: De mai à juin et de septembre à mi-octobre pour la lumière et la tranquillité",
+            "De mai à juin et de septembre à mi-octobre pour la lumière et la tranquillité", // TODO: à vérifier
         },
         {
           iconName: "languages",
@@ -256,7 +256,7 @@ export const destination: Destination = {
           },
         },
         {
-          title: "Conciergerie 24/7",
+          title: "Conciergerie privée",
           description:
             "Assistance en continu. Bateau privé, chauffeur, dîner privé sur la plage à toute heure.",
           image: {
@@ -493,7 +493,7 @@ export const destination: Destination = {
             "Notre semaine en Corse avec Exuma a été d'une douceur rare. La bergerie restaurée dans le Sartenais, le bateau privé jusqu'aux Lavezzi, le dîner sous les pins de Palombaggia, chaque détail parlait.",
           image: {
             src: "/destination/corse/hero-1.png",
-            alt: "Portrait de Hélène et Pierre", // TODO: verify
+            alt: "Falaises blanches de Bonifacio surplombant la Méditerranée",
           },
           name: "Hélène & Pierre", // TODO: verify
           role: "Anniversaire de mariage, septembre 2025", // TODO: verify
@@ -504,7 +504,7 @@ export const destination: Destination = {
             "Notre travel designer nous a ouvert une Corse qu'on ne pensait pas exister. La rencontre avec un berger du Niolu, une dégustation chez un vigneron du Sartenais, des moments d'une justesse rare.",
           image: {
             src: "/destination/corse/hero-2.webp",
-            alt: "Portrait de Julien", // TODO: verify
+            alt: "Plage de Palombaggia bordée de pins parasols au lever du jour",
           },
           name: "Julien", // TODO: verify
           role: "Séjour en famille, juillet 2025", // TODO: verify
@@ -515,7 +515,7 @@ export const destination: Destination = {
             "Ce qui m'a marquée, c'est la justesse de l'accompagnement. Tout fluide, du premier appel jusqu'au retour. On se sent vraiment prise en charge, sans jamais en faire trop.",
           image: {
             src: "/destination/corse/hero-3.webp",
-            alt: "Portrait de Camille", // TODO: verify
+            alt: "Aiguilles de granit de Bavella et pins laricio, dans les montagnes du sud de la Corse",
           },
           name: "Camille", // TODO: verify
           role: "Escapade solo, juin 2025", // TODO: verify
@@ -538,12 +538,12 @@ export const destination: Destination = {
         {
           question: "Quelle est la meilleure période pour partir ?",
           answer:
-            "TODO: De mai à juin et de septembre à mi-octobre offrent le meilleur compromis : mer chaude, lumière douce et fréquentation faible. Juillet-août restent splendides mais demandent à anticiper sur les hébergements.",
+            "De mai à juin et de septembre à mi-octobre offrent le meilleur compromis : mer chaude, lumière douce et fréquentation faible. Juillet-août restent splendides mais demandent à anticiper sur les hébergements.", // TODO: à vérifier
         },
         {
           question: "Combien de temps dure le vol depuis Paris ?",
           answer:
-            "TODO: Comptez environ 1h45 de vol direct vers Ajaccio, Bastia, Calvi ou Figari. Plusieurs liaisons quotidiennes en haute saison.",
+            "Comptez environ 1h45 de vol direct vers Ajaccio, Bastia, Calvi ou Figari. Plusieurs liaisons quotidiennes en haute saison.", // TODO: à vérifier
         },
         {
           question: "Faut-il un visa pour la Corse ?",
@@ -553,7 +553,7 @@ export const destination: Destination = {
         {
           question: "Combien de régions peut-on visiter en deux semaines ?",
           answer:
-            "TODO: Nous recommandons 2 à 3 bases pour un séjour de 14 jours, par exemple Sartenais, Cap Corse et Balagne, afin de profiter pleinement de chaque étape sans passer trop de temps en route.",
+            "Nous recommandons 2 à 3 bases pour un séjour de 14 jours, par exemple Sartenais, Cap Corse et Balagne, afin de profiter pleinement de chaque étape sans passer trop de temps en route.", // TODO: à vérifier
         },
         {
           question: "Le voyage est-il adapté aux familles ?",
@@ -563,7 +563,7 @@ export const destination: Destination = {
         {
           question: "Quel budget prévoir ?",
           answer:
-            "TODO: Nos voyages sur mesure démarrent à partir de 4 000 € par personne pour deux semaines. Le budget varie selon le choix des hébergements, des expériences et de la saison.",
+            "Nos voyages sur mesure démarrent à partir de 4 000 € par personne pour deux semaines. Le budget varie selon le choix des hébergements, des expériences et de la saison.", // TODO: à vérifier
         },
       ],
     },

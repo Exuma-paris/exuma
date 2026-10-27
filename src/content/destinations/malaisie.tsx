@@ -22,7 +22,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Malaisie : Voyage sur mesure",
   metaDescription:
-    "Voyage en Malaisie sur mesure : Langkawi, jungle de Bornéo, Penang et plongée à Sipadan. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en Malaisie sur mesure : Langkawi, jungle de Bornéo, Penang et plongée à Sipadan. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -165,49 +165,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Un vol direct d'environ 13 heures relie Paris à Kuala Lumpur avec Malaysia Airlines. Depuis Kuala Lumpur, compter environ 2h30 de vol pour rejoindre Kota Kinabalu, porte d'entrée de Sabah.",
+            "Environ 13 heures de vol direct Paris-Kuala Lumpur avec Malaysia Airlines, puis 2h30 pour Kota Kinabalu, porte d'entrée de Sabah.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "La Malaisie reste à UTC+8 toute l'année, sans changement d'heure. L'écart avec la France est de six heures en été et de sept heures en hiver.",
+            "UTC+8 toute l'année, sans changement d'heure : six heures d'écart avec la France en été, sept heures en hiver.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est le ringgit malaisien (MYR), avec environ 4,7 ringgits pour un euro en août 2026. Les cartes bancaires sont largement acceptées dans les hôtels, restaurants et commerces, mais prévoyez des espèces pour les marchés, petits commerces et certaines excursions à Sabah.",
+            "Ringgit malaisien (MYR), environ 4,7 pour un euro en août 2026. Cartes largement acceptées, espèces pour marchés, petits commerces et Sabah.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français n'ont pas besoin de visa pour un séjour touristique de moins de 90 jours en Malaisie péninsulaire et au Sabah. Le passeport doit être valide au moins six mois après la date de fin du séjour. Une déclaration d'arrivée en ligne (MDAC) est également requise avant l'entrée dans le pays.",
+            "Pas de visa sous 90 jours. Passeport valide six mois après la fin du séjour et déclaration d'arrivée en ligne (MDAC) avant l'entrée.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est systématiquement obligatoire pour les voyageurs en provenance de France. Il est recommandé d'être à jour des vaccinations habituelles ; selon l'itinéraire et les conditions de séjour, les vaccins contre l'hépatite A, la typhoïde ou l'encéphalite japonaise peuvent notamment être recommandés. Le paludisme est présent dans certaines zones rurales et forestières de Bornéo, tandis que la dengue circule dans tout le pays.",
+            "Aucun vaccin obligatoire. Hépatite A, typhoïde ou encéphalite japonaise selon l'itinéraire ; paludisme dans certaines zones de Bornéo.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De décembre à février pour Kuala Lumpur, Langkawi et Penang, avec une préférence pour janvier et février. Pour Sabah, la période de février à avril est généralement favorable, même si des pluies peuvent survenir toute l'année.",
+            "De décembre à février, surtout janvier-février, pour Kuala Lumpur, Langkawi et Penang. De février à avril pour Sabah.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le malais est la langue officielle. L'anglais est largement parlé, notamment dans les villes et les zones touristiques. Le mandarin, le cantonais, le hokkien et le tamoul sont également couramment utilisés dans certaines communautés.",
+            "Le malais est la langue officielle, l'anglais largement parlé en ville. Mandarin, cantonais, hokkien et tamoul s'entendent aussi.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "La Malaisie bénéficie d'un climat tropical chaud et humide toute l'année, avec des températures généralement comprises entre 24 et 33 °C. Deux moussons rythment le climat : la mousson de nord-est, de novembre à mars, et celle de sud-ouest, de mai à septembre. Leur influence varie selon les régions et les côtes.",
+            "Tropical, chaud et humide, entre 24 et 33 °C. Mousson de nord-est de novembre à mars, de sud-ouest de mai à septembre, selon les côtes.",
         },
       ],
     },

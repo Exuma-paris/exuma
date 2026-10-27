@@ -27,7 +27,7 @@ export const meta = {
   // Repris dans le fil d'Ariane.
   shortTitle: "Dirigeants",
   description:
-    "Exuma prend en charge vos déplacements professionnels et vos voyages privés. Agence de voyages immatriculée à Paris, interlocuteur unique, habitudes connues, arbitrages en un appel.",
+    "Exuma prend en charge vos déplacements professionnels et vos voyages privés. Maison de conseils privée dédiée aux déplacements, immatriculée à Paris, interlocuteur unique, habitudes connues, arbitrages en un appel.",
 };
 
 export const sections: Section[] = [
@@ -36,7 +36,7 @@ export const sections: Section[] = [
     eyebrow: "Exuma · Dirigeants",
     heading: "Un appel suffit pour partir, décaler ou tout annuler",
     description:
-      "Vos déplacements professionnels et vos voyages privés, pris en charge par quelqu'un qui connaît déjà vos habitudes. Agence de voyages immatriculée à Paris.",
+      "Vos déplacements professionnels et vos voyages privés, pris en charge par quelqu'un qui connaît déjà vos habitudes. Maison de conseils privée dédiée aux déplacements, immatriculée à Paris.",
     images: [
       {
         // TODO image : à produire, un départ tôt le matin, vu de dos. Prévoir le
@@ -106,7 +106,7 @@ export const sections: Section[] = [
       {
         title: "Vous ne redonnez jamais vos préférences",
         detail:
-          "Le siège, l'étage, l'oreiller, la voiture, l'heure du petit-déjeuner : c'est noté et appliqué. Quand un établissement ne suit pas, c'est nous qui le reprenons, pas vous.",
+          "Le siège, la chambre exacte, l'étage et la vue habituels, l'oreiller, la voiture, l'heure du petit-déjeuner : c'est noté, demandé et confirmé avant chaque arrivée. Quand un établissement ne suit pas, c'est nous qui le reprenons, pas vous.",
         image: {
           // TODO image : à produire côté voyageur, une chambre préparée aux
           // habitudes du client. En attendant, le carnet où ces habitudes sont
@@ -250,7 +250,7 @@ export const sections: Section[] = [
       "La confidentialité n'est pas une option que l'on active à votre demande, c'est un principe de fonctionnement. Elle s'applique dès le premier échange, avant même qu'un dossier existe.",
       "Aucun de nos clients n'est cité publiquement sans son accord préalable, ni sur ce site, ni ailleurs. Vos déplacements, vos accompagnants et vos habitudes ne se commentent pas.",
       // Formulation à faire valider par Ludivine (règle interne).
-      "En interne, l'information circule au strict nécessaire : votre interlocuteur, son suppléant, et personne d'autre. Ce que vous préparez ne se devine pas depuis un carnet de réservations.",
+      "En interne, l'information circule au strict nécessaire : votre interlocuteur dédié en priorité, et s'il est indisponible, les seules personnes de l'équipe qui prennent le relais. Ce que vous préparez ne se devine pas depuis un carnet de réservations.",
     ],
     cta: { label: "Recevoir notre engagement écrit", href: "/professionnels/engagement?profil=dirigeant" },
   },
@@ -263,8 +263,8 @@ export const sections: Section[] = [
     // Le troisième paragraphe porte le vocabulaire réellement tapé :
     // conciergerie privée, voyages sur mesure, Paris. Court volontairement.
     paragraphs: [
-      "Trois quarts d'heure par déplacement, à chercher, comparer, rappeler, corriger. Multipliés par le nombre de fois où vous partez dans l'année.",
-      "Ce temps-là ne se rattrape pas, il se délègue. Vous gardez la décision, nous prenons l'exécution.",
+      "Chaque déplacement coûte en moyenne trois quarts d'heure de recherches, de comparaisons et de rappels. Multipliez par le nombre de départs dans l'année : c'est autant de temps pris sur vos rendez-vous, vos équipes ou vos soirées.",
+      "Ce temps-là ne se rattrape pas, il se délègue. Vous gardez la décision, nous prenons l'exécution : les options vous arrivent déjà triées, et un oui suffit pour que tout soit réservé.",
       "Déplacements professionnels, voyages privés, conciergerie au quotidien : depuis Paris, une seule personne connaît vos habitudes et répond quand vous appelez.",
     ],
     images: [

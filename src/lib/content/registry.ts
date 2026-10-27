@@ -147,6 +147,7 @@ import { serviceCategory as lifestyle } from "@/content/service-categories/lifes
 import { serviceCategory as conciergerie } from "@/content/service-categories/conciergerie";
 import { serviceCategory as securite } from "@/content/service-categories/securite";
 import { serviceCategory as ingenierie } from "@/content/service-categories/ingenierie";
+import { serviceCategory as reporting } from "@/content/service-categories/reporting";
 
 import { experience as apoReefPlongeePrivee } from "@/content/experiences/apo-reef-plongee-privee";
 import { experience as requinsBaleinesDonsol } from "@/content/experiences/requins-baleines-donsol";
@@ -1122,11 +1123,13 @@ export const experiences: Record<string, Experience> = toMap([
 ]);
 
 export const serviceCategories: Record<string, ServiceCategory> = toMap([
+  // Ordre d'affichage de l'accueil et du menu Conciergerie.
   mobilite,
-  lifestyle,
   conciergerie,
   securite,
   ingenierie,
+  lifestyle,
+  reporting,
 ]);
 
 export const services: Record<string, Service> = toMap([]);

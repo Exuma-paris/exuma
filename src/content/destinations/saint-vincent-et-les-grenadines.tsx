@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Saint-Vincent-et-les-Grenadines : Voyage sur mesure",
   metaDescription:
-    "Voyage dans les Grenadines sur mesure : Mustique, Bequia, Canouan et les Tobago Cays. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage dans les Grenadines sur mesure : Mustique, Bequia, Canouan et les Tobago Cays. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -173,7 +173,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Il n'existe pas de vol direct depuis Paris. Les itinéraires passent le plus souvent par la Barbade, elle-même rejointe via Londres ou via une escale nord-américaine, puis gagnent l'aéroport international d'Argyle sur Saint-Vincent en environ quarante-cinq minutes de vol. Virgin Atlantic relie également Londres-Heathrow à Saint-Vincent, avec une courte escale technique à la Barbade pendant laquelle les passagers restent à bord. Comptez une journée complète de trajet. Mustique, Canouan, Bequia et Union ont chacune leur aérodrome, mais les liaisons ne sont pas toujours directes : selon l'île et selon les jours, on rejoint sa maison en petit avion, par le ferry ou par un transfert privé.",
+            "Pas de vol direct depuis Paris : une journée de trajet, via la Barbade ou Londres. Les Grenadines se rejoignent en petit avion ou en ferry.",
         },
         {
           iconName: "clock",
@@ -185,37 +185,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est le dollar des Caraïbes orientales, indexé sur le dollar américain au taux officiel de 2,70 pour un dollar. Le dollar américain est très largement accepté, sans l'être partout : les petites structures demandent parfois des espèces, et souvent en monnaie locale. Les cartes passent dans les maisons et les grandes tables ; on garde du liquide pour les taxis, les bateaux-taxis et les petites adresses de Bequia et d'Union.",
+            "Dollar des Caraïbes orientales (2,70 pour 1 USD). Le dollar américain est très accepté ; espèces utiles pour taxis et petites adresses.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Aucun visa n'est demandé aux ressortissants français pour un séjour de moins de six mois. Le passeport doit être valide au moins six mois après la date de retour prévue, et un billet de retour est demandé à l'entrée. Si l'itinéraire comprend une escale aux États-Unis, l'autorisation ESTA est obligatoire, y compris en simple transit, sauf pour les voyageurs déjà titulaires du document américain adéquat. En cas de correspondance à Londres, l'autorisation britannique n'est pas nécessaire tant que l'on reste en zone de transit ; elle le devient dès que l'on franchit la frontière.",
+            "Pas de visa sous six mois. Passeport valide six mois après le retour, billet retour exigé ; ESTA obligatoire en cas d'escale aux États-Unis.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est obligatoire pour un séjour touristique, sauf celui contre la fièvre jaune pour les voyageurs arrivant d'un pays où la maladie circule. Il est recommandé d'être à jour des vaccinations du calendrier français, celle contre l'hépatite A se discutant selon la durée du séjour. La dengue circule dans les Antilles selon les années : une protection contre les moustiques reste la précaution la plus utile.",
+            "Aucun vaccin obligatoire, sauf fièvre jaune en provenance d'un pays à risque. La dengue circule : protégez-vous des moustiques.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison sèche s'étend de décembre à mai, avec un alizé régulier qui rend la navigation facile. Nous privilégions la fin janvier à la mi-avril, quand la lumière est belle et que les îles se parcourent sans contrainte. La houle peut rester forte certains jours, y compris en pleine saison sèche, et c'est elle qui décide de l'île du lendemain. La saison cyclonique court officiellement de juin à novembre, avec un cœur d'activité en août, septembre et octobre.",
+            "Saison sèche de décembre à mai ; nous privilégions fin janvier à mi-avril. Cyclones de juin à novembre, surtout d'août à octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais est la langue officielle et celle de la vie quotidienne, dans les maisons comme dans les restaurants et sur les bateaux. Entre eux, les habitants parlent un créole vincentien, à base anglaise.",
+            "L'anglais est la langue officielle et du quotidien. Entre eux, les habitants parlent un créole vincentien à base anglaise.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tropical et les températures varient peu : la moyenne tourne autour de vingt-sept degrés, et les maximales approchent trente et un degrés. L'alizé souffle presque en continu et tempère la chaleur, en particulier sur les côtes au vent. La saison humide s'étend de juin à novembre, avec des averses tropicales et brèves.",
+            "Tropical, autour de 27 degrés en moyenne et jusqu'à 31, tempéré par l'alizé. Saison humide de juin à novembre, aux averses brèves.",
         },
       ],
     },
@@ -592,10 +592,10 @@ export const destination: Destination = {
             "Nous avons nagé avec les tortues le premier matin et nos filles ont voulu y retourner deux fois. L'équipage arrivait chaque jour avec une île différente à proposer.",
           image: {
             src: "/destination/saint-vincent-et-les-grenadines/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage dans les Grenadines : le mouillage des Tobago Cays derrière le récif Horseshoe"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Les Grenadines en famille, mars 2026", // TODO: replace with real testimonial
+          role: "Les Grenadines en famille, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -603,10 +603,10 @@ export const destination: Destination = {
             "La maison de Mustique était prête, la voiturette devant la porte, et personne ne nous a demandé quoi que ce soit de la semaine. C'est exactement ce que nous cherchions.",
           image: {
             src: "/destination/saint-vincent-et-les-grenadines/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voiliers au mouillage dans Admiralty Bay devant Port Elizabeth à Bequia"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Mustique, février 2026", // TODO: replace with real testimonial
+          role: "Mustique, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -614,10 +614,10 @@ export const destination: Destination = {
             "Trois nuits à Petit St. Vincent après une semaine de bateau. On hisse un fanion quand on veut quelque chose, et le reste du temps on ne voit personne.",
           image: {
             src: "/destination/saint-vincent-et-les-grenadines/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "La plage de Macaroni à Mustique en fin d'après-midi"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Les Grenadines, avril 2026", // TODO: replace with real testimonial
+          role: "Les Grenadines, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

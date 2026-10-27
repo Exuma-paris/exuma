@@ -63,7 +63,7 @@ export const destination: Destination = {
       features: [
         {
           iconName: "badgeCheck",
-          title: "Accès aux meilleures adresses du corridor",
+          title: "Les meilleures adresses",
           description:
             "One&Only Palmilla, Four Seasons, Chileno Bay : des propriétés dont les meilleures suites ne se réservent pas en ligne.",
         },
@@ -75,7 +75,7 @@ export const destination: Destination = {
         },
         {
           iconName: "star",
-          title: "Circuit Baja construit dans l'ordre",
+          title: "Un circuit dans l'ordre",
           description:
             "Los Cabos, La Paz, Isla Espiritu Santo : Stéphane construit la logique de chaque étape et les transferts qui la rendent possible.",
         },
@@ -210,7 +210,7 @@ export const destination: Destination = {
           },
         },
         {
-          title: "Conciergerie 24/7",
+          title: "Conciergerie privée",
           description:
             "Un contact Exuma disponible tout au long du séjour. Du transfert à l'aéroport à la table de dernière minute.",
           image: {

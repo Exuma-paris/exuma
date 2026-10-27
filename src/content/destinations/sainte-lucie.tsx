@@ -168,50 +168,50 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Sainte-Lucie se rejoint généralement avec une correspondance. Par Londres, British Airways dessert l'aéroport international Hewanorra depuis Gatwick et Virgin Atlantic depuis Londres, pour environ 9 heures de vol. Par les Antilles françaises, Air France, Air Caraïbes et Corsair desservent Fort-de-France et Pointe-à-Pitre en direct depuis Paris, pour environ 8h30, l'île se rejoignant ensuite en avion régional ou par la mer. Comptez au total environ 12 à 15 heures de trajet depuis Paris, selon l'escale retenue.",
+            "Pas de vol direct : environ 12 à 15 heures de trajet, via Londres ou via Fort-de-France et Pointe-à-Pitre, puis vol régional ou bateau.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Sainte-Lucie ne change pas d'heure. Comptez six heures de retard sur la France en été et cinq heures en hiver : quand il est quatorze heures à Paris en juillet, il est huit heures à Castries.",
+            "Pas de changement d'heure : six heures de retard sur la France en été, cinq heures en hiver.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est le dollar des Caraïbes orientales, dont la valeur est arrimée au dollar américain. Ce dernier est largement accepté sur l'île, à un taux fixé par le commerçant. Les cartes bancaires passent très largement dans les hôtels, les restaurants et les boutiques, et il reste utile de garder un peu d'espèces pour les taxis, le marché et les petites tables de plage.",
+            "Dollar des Caraïbes orientales, arrimé au dollar américain, lui-même largement accepté. Gardez des espèces pour taxis, marché et plage.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           // TODO: verify la durée du séjour sans visa et les conditions de la déclaration en ligne
           description:
-            "Les ressortissants français sont dispensés de visa pour un séjour touristique à Sainte-Lucie, dans la limite de quarante-deux jours, soit six semaines. Les voyageurs arrivant par avion sont invités à remplir le formulaire d'immigration et de douane en ligne, jusqu'à trois jours avant le départ ou à l'arrivée : c'est la formalité que l'on oublie le plus souvent. Le passeport doit être valide pendant toute la durée du séjour. Les Français arrivant directement de France, de Martinique ou de Guadeloupe peuvent entrer avec une carte nationale d'identité en cours de validité, mais le passeport reste conseillé dès que l'itinéraire comporte une correspondance internationale. Si l'itinéraire passe par le Royaume-Uni, l'autorisation électronique ETA peut être requise et s'obtient en ligne avant le départ, les passagers restant en transit sans passer l'immigration pouvant en être dispensés. S'il transite par les États-Unis, l'autorisation ESTA est obligatoire, s'obtient également en ligne et reste généralement valable deux ans ou jusqu'à l'expiration du passeport.",
+            "Pas de visa jusqu'à 42 jours, passeport valide tout le séjour. Formulaire d'immigration en ligne, jusqu'à trois jours avant le départ.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Depuis la France, aucune vaccination spécifique n'est exigée pour un séjour touristique à Sainte-Lucie. Il est recommandé d'être à jour des vaccinations prévues au calendrier vaccinal français, l'Institut Pasteur recommandant par ailleurs l'hépatite A. Un certificat de vaccination contre la fièvre jaune peut être demandé aux voyageurs arrivant d'un pays où la maladie circule. La dengue et le chikungunya circulent dans les Antilles selon les années : une protection contre les moustiques reste la précaution la plus utile, en journée comme en fin d'après-midi.",
+            "Aucun vaccin exigé, hépatite A recommandée. Fièvre jaune si arrivée d'un pays à risque ; contre dengue et chikungunya, anti-moustiques.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison la plus sèche s'étend de décembre à avril, avec un alizé régulier et peu de pluie. Nous privilégions février à avril, quand la mer est belle sur la côte ouest et que la forêt garde encore sa fraîcheur. Mai reste intéressant, avec moins de monde sur l'île, mais il marque la transition vers la saison humide. Celle-ci s'accompagne de la saison cyclonique, de juin à novembre, avec un cœur d'activité en août, septembre et octobre.",
+            "Saison sèche de décembre à avril ; nous privilégions février à avril. Cyclones de juin à novembre, surtout d'août à octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais est la langue officielle et celle de l'administration. Le kwéyòl, créole à base lexicale française, se parle au quotidien dans une grande partie de l'île, en particulier dans les villages de la côte et de l'intérieur. Les noms de lieux gardent la trace des deux histoires, française et britannique.",
+            "L'anglais est la langue officielle. Le kwéyòl, créole à base française, se parle au quotidien dans une grande partie de l'île.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tropical et chaud toute l'année, avec des températures qui varient peu, généralement entre vingt-trois et trente et un degrés. L'alizé souffle presque en continu et rend la chaleur supportable, surtout sur la côte au vent. La période la plus humide s'étend de juin à novembre, sans qu'il s'agisse d'une pluie continue : les averses sont tropicales et brèves. L'intérieur montagneux reçoit davantage de pluie que les côtes, et c'est ce qui explique la densité de la forêt.",
+            "Tropical, entre 23 et 31 degrés toute l'année, tempéré par l'alizé. Plus humide de juin à novembre, avec des averses brèves.",
         },
       ],
     },
@@ -550,10 +550,10 @@ export const destination: Destination = {
             "Nous avons fait la sortie en bateau devant les Pitons le premier soir, et nous l'avons refaite la veille du départ. Le skipper nous attendait chaque matin avec une idée différente.",
           image: {
             src: "/destination/sainte-lucie/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton vus depuis la mer"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sainte-Lucie, mars 2026", // TODO: replace with real testimonial
+          role: "Sainte-Lucie, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -561,10 +561,10 @@ export const destination: Destination = {
             "Les enfants ont passé la semaine entre la plage et le récif, et ils sont rentrés avec les tablettes de chocolat qu'ils avaient fabriquées eux-mêmes. Nous n'avons eu à nous occuper de rien.",
           image: {
             src: "/destination/sainte-lucie/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "La baie de Marigot et sa langue de sable plantée de cocotiers"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sainte-Lucie en famille, février 2026", // TODO: replace with real testimonial
+          role: "Sainte-Lucie en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -572,10 +572,10 @@ export const destination: Destination = {
             "La montée du Gros Piton au lever du jour restera notre meilleur souvenir. Nous avons pris le petit déjeuner à Soufrière en redescendant, et la journée n'avait pas encore commencé pour les autres.",
           image: {
             src: "/destination/sainte-lucie/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Barques de pêche tirées sur le sable devant le village de Soufrière"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sainte-Lucie, avril 2026", // TODO: replace with real testimonial
+          role: "Sainte-Lucie, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

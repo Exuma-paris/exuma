@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Galápagos : Voyage sur mesure",
   metaDescription:
-    "Voyage aux Galápagos sur mesure : yacht d'expédition, faune endémique, accès régulé par le parc national. Itinéraire et conciergerie privée Exuma, 24/7.",
+    "Voyage aux Galápagos sur mesure : yacht d'expédition, faune endémique, accès régulé par le parc national. Itinéraire et conciergerie privée Exuma.",
   sections: [
     {
       type: "hero",
@@ -170,49 +170,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 18 à 20 heures de trajet depuis Paris, avec une correspondance, notamment via Madrid ou Amsterdam, jusqu'à Quito ou Guayaquil. Il faut ensuite prévoir environ 2 heures de vol intérieur jusqu'à Baltra ou San Cristóbal.",
+            "18 à 20 heures depuis Paris avec une correspondance jusqu'à Quito ou Guayaquil, puis environ 2 heures de vol vers Baltra ou San Cristóbal.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Les Galápagos ont 7 heures de moins que Paris en hiver et 8 heures en été. L'archipel possède son propre fuseau horaire, une heure derrière l'Équateur continental, et ne change pas d'heure au cours de l'année.",
+            "7 heures de moins que Paris en hiver, 8 en été. L'archipel est une heure derrière l'Équateur continental et ne change pas d'heure.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar américain (USD) est la monnaie officielle de l'Équateur, y compris aux Galápagos. Les cartes bancaires sont largement acceptées dans les hôtels, restaurants et à bord des bateaux, mais quelques espèces restent utiles pour les petites dépenses à terre.",
+            "Le dollar américain (USD). Cartes largement acceptées dans les hôtels et à bord ; quelques espèces restent utiles à terre.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pour les ressortissants français, aucun visa n'est nécessaire pour un séjour touristique de 90 jours maximum sur une période de douze mois glissants. Le passeport doit être valide plus de six mois après la date prévue de sortie du territoire.\n\nPour accéder aux Galápagos, une Carte de contrôle de transit (TCT) est obligatoire. Elle coûte 20 USD et doit être obtenue avant le départ vers l'archipel. À l'arrivée, les voyageurs étrangers de plus de 12 ans doivent également s'acquitter d'un droit d'entrée de 200 USD pour les espaces protégés des Galápagos.",
+            "Pas de visa sous 90 jours, passeport valide 6 mois après la sortie. Carte TCT (20 USD) avant le départ, entrée du parc à 200 USD sur place.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est obligatoire pour les voyageurs arrivant directement de France. La vaccination contre la fièvre jaune est toutefois recommandée selon l'itinéraire, notamment pour certaines zones de l'Équateur continental situées à l'est des Andes. Un certificat de vaccination est exigé pour les voyageurs arrivant de certains pays à risque, notamment le Brésil, la République démocratique du Congo et l'Ouganda.",
+            "Aucun vaccin obligatoire depuis la France. La fièvre jaune est recommandée selon l'itinéraire sur le continent, à l'est des Andes.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Les Galápagos se visitent toute l'année, avec deux saisons aux caractéristiques bien distinctes. De juin à novembre, les eaux plus froides et riches en nutriments favorisent une importante activité marine et l'observation de nombreuses espèces. De décembre à mai, les températures sont plus chaudes, la mer généralement plus calme et les conditions particulièrement agréables pour le snorkeling.",
+            "Toute l'année. De juin à novembre, eaux froides et riches en vie marine ; de décembre à mai, mer plus chaude et calme pour le snorkeling.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'espagnol est la langue officielle. Dans les hôtels, à bord des yachts et lors des excursions, les guides naturalistes parlent généralement anglais ; certains proposent également des visites en français.",
+            "L'espagnol. Les guides naturalistes parlent généralement anglais, et certains proposent des visites en français.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat des Galápagos est marqué par le courant froid de Humboldt, qui influence fortement les températures et la vie marine. De juin à novembre, la saison fraîche et sèche, dite garúa, apporte des températures plus douces, des vents et des bruines fréquentes dans les hauteurs. De décembre à mai, la saison chaude est plus ensoleillée, plus humide et ponctuée d'averses, avec des températures autour de 25 à 30 °C selon les zones.",
+            "Saison fraîche et sèche (garúa) de juin à novembre, avec bruines en altitude. De décembre à mai, plus chaud et ensoleillé, de 25 à 30 °C.",
         },
       ],
     },

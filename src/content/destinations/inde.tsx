@@ -169,49 +169,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Delhi et Mumbai se rejoignent sans escale depuis Paris, en 8 à 9 heures de vol. Les autres villes se desservent par un vol intérieur de une à trois heures, ou par une correspondance dans le Golfe.",
+            "Delhi et Mumbai sans escale depuis Paris, en 8 à 9 heures. Les autres villes par un vol intérieur de une à trois heures.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "L'Inde vit sur un fuseau unique et ne change pas d'heure. Comptez trois heures trente d'avance sur la France en été, quatre heures trente en hiver.",
+            "Fuseau unique, sans changement d'heure : trois heures trente d'avance sur la France en été, quatre heures trente en hiver.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La roupie indienne (INR) est peu disponible hors d'Inde : il est préférable de retirer ou de changer sur place. Les cartes étrangères passent partout en ville et dans les hôtels ; il reste utile de garder des espèces pour les ateliers, les temples et les pourboires.",
+            "La roupie (INR) se retire sur place. Les cartes passent en ville et dans les hôtels ; espèces utiles pour ateliers, temples et pourboires.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Le visa est obligatoire pour les ressortissants français. L'e-Visa touristique se demande sur le portail officiel indien, au plus tard quatre jours avant l'arrivée. Depuis le 1er octobre 2025, une e-Arrival Card doit également être remplie en ligne dans les 72 heures qui précèdent l'arrivée. Le passeport doit être valable au moins six mois au-delà du séjour prévu et comporter deux pages vierges.",
+            "E-Visa obligatoire, quatre jours avant l'arrivée au plus tard, et e-Arrival Card sous 72 h. Passeport valable six mois, deux pages vierges.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination n'est exigée pour un voyageur arrivant directement de France. La fièvre jaune peut en revanche être obligatoire selon le pays de provenance ou de transit. L'Institut Pasteur recommande le calendrier vaccinal à jour et systématiquement l'hépatite A ; la typhoïde concerne surtout les séjours prolongés ou les conditions d'hygiène plus précaires.",
+            "Aucun vaccin exigé depuis la France, la fièvre jaune selon le pays de transit. Calendrier à jour et hépatite A recommandés.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "D'octobre à mars pour le Nord, le Rajasthan et les grandes villes : l'air est sec et les journées lumineuses. Le Kerala se visite plutôt d'octobre à février. Les mois d'avril à juin sont les plus chauds dans le Nord, et la mousson occupe l'été.",
+            "D'octobre à mars pour le Nord et le Rajasthan, d'octobre à février pour le Kerala. D'avril à juin, forte chaleur ; la mousson occupe l'été.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'hindi est langue officielle de l'Union et l'anglais reste employé pour les usages officiels : l'Inde n'a pas de langue nationale. La Constitution en reconnaît 22, dont le bengali, le tamoul et le marathi. L'anglais se parle largement dans les villes, les hôtels et les administrations.",
+            "L'hindi et l'anglais pour les usages officiels, et 22 langues reconnues. L'anglais se parle largement en ville et dans les hôtels.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Une saison fraîche d'octobre à mars, une saison chaude d'avril à juin, puis la mousson, dont les dates changent beaucoup d'une région à l'autre : elle atteint le Kerala dès juin et remonte ensuite vers le nord, tandis que le Tamil Nadu reçoit sa pluie en fin d'année. Les nuits du désert du Thar restent froides en janvier.",
+            "Saison fraîche d'octobre à mars, chaude d'avril à juin, puis la mousson, dès juin au Kerala. Le Tamil Nadu reçoit sa pluie en fin d'année.",
         },
       ],
     },
@@ -564,10 +564,10 @@ export const destination: Destination = {
             "Nous étions seuls sur la barque, avec un joueur de tabla à l'avant, et la ville dormait encore. Une heure plus tard les marches étaient noires de monde. Nous n'avons jamais oublié cet écart.",
           image: {
             src: "/destination/inde/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Pirogue et house-boat sur les backwaters du Kerala au soleil couchant, voyage en Inde",
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Inde, Delhi, Varanasi et Agra, 2025", // TODO: replace with real testimonial
+          role: "Inde, Delhi, Varanasi et Agra, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -575,10 +575,10 @@ export const destination: Destination = {
             "Le thé chez les descendants de la famille de Cochin, dans leur maison, avec leurs photos aux murs. Nos petits-enfants ont posé des questions pendant deux heures. Ce n'était pas une visite, c'était une rencontre.",
           image: {
             src: "/destination/inde/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Cour intérieure d'un fort du Rajasthan dans la lumière de fin d'après-midi",
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Inde du Sud en famille, trois générations, 2025", // TODO: replace with real testimonial
+          role: "Inde du Sud en famille, trois générations, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -586,10 +586,10 @@ export const destination: Destination = {
             "Trois étapes en douze jours au lieu des six que nous imaginions, et c'était le bon conseil. Le fort au bord de la Narmada, où l'on dîne avec la famille, reste le souvenir le plus fort du séjour.",
           image: {
             src: "/destination/inde/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Femmes en sari portant des cruches de laiton sur les marches d'un puits à degrés près de Jaipur",
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Inde, Rajasthan et vallée de la Narmada, 2025", // TODO: replace with real testimonial
+          role: "Inde, Rajasthan et vallée de la Narmada, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

@@ -1,9 +1,26 @@
+import type { Metadata } from "next";
+import { entityMetadata } from "@/lib/content/seo";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { EntityStubPage } from "@/components/destination/entity-stub-page";
 import { accommodations } from "@/lib/content/registry";
 import { applyBackgroundRhythm } from "@/lib/content/background-rhythm";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const accommodation = accommodations[slug];
+  if (!accommodation) return {};
+  return entityMetadata(
+    accommodation,
+    `/hebergements/${slug}`,
+    `${accommodation.name}, sélectionné par Exuma : séjour réservé et suivi par votre travel designer, avec les attentions qui font la différence.`,
+  );
+}
 
 export function generateStaticParams() {
   return Object.keys(accommodations).map((slug) => ({ slug }));
