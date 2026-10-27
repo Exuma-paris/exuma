@@ -229,7 +229,7 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure en Uruguay entre Montevideo, Garzón et la côte de Rocha",
             "Adresses confidentielles en Uruguay : estancias en activité et tables de village",
-            "Hébergements en Uruguay : Estancia Vik et Sacromonte Landscape Hotel",
+            "Entrée de l'Estancia Vik, José Ignacio, au crépuscule",
             "Conseillère Exuma souriante, casque sur les oreilles",
             "Expériences immersives en Uruguay : feux de Garzón et cavaliers des estancias",
           ][i],
