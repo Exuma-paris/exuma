@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["rio", "theatro municipal", "opera", "ballet", "centro"],
   heroImage: {
     src: "/destination/rio-de-janeiro/xp-theatro-municipal.webp",
-    alt: "Salle du Theatro Municipal de Rio de Janeiro vue depuis une loge",
+    alt: "Façade Belle Époque du Theatro Municipal de Rio de Janeiro, place Floriano",
   },
   destinationSlugs: ["rio-de-janeiro"],
   sections: [],
