@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/uruguay/split-1.png",
-          alt: "Barque de pêcheur tirée sur le sable devant un village de la côte uruguayenne",
+          src: "/destination/uruguay/split-1.webp",
+          alt: "Barques de pêcheurs tirées sur le sable à Punta del Diablo, côte de Rocha",
         },
         {
-          src: "/destination/uruguay/split-2.png",
-          alt: "Chemin de sable longeant les lagunes de la côte de Rocha en Uruguay",
+          src: "/destination/uruguay/split-2.webp",
+          alt: "Plage et herbes de la pampa à La Pedrera, côte de Rocha",
         },
       ],
     },
