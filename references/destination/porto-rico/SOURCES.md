@@ -50,3 +50,6 @@ Each generated image in `public/destination/porto-rico/` was produced by feeding
 - `xp-baie-bioluminescente-vieques-1.webp` : générée par IA (Gemini), à la demande de Thea.
 - `xp-baie-bioluminescente-vieques-2.webp` : vignette Google (encrypted-tbn0.gstatic.com) — agrandissement fidèle (Gemini). ⚠ droits à vérifier.
 - `xp-el-yunque.webp` : Tripadvisor https://media.tacdn.com/media/attractions-splice-spp-674x446/15/46/2d/11.jpg — agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `xp-ron-del-barrilito.webp` : Tripadvisor https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/47/23/b8.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `xp-catamaran-culebra.webp` : vignette Google (encrypted-tbn0.gstatic.com, 259 px) — redessinée en haute définition par IA (Gemini) sur la même composition. ⚠ droits à vérifier.
+- `hotel-dorado-beach.webp` : Tripadvisor https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e9/15/08/dorado-beach-a-ritz-carlton.jpg — recadré carré. ⚠ droits à vérifier.

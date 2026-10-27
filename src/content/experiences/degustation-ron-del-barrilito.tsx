@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["porto rico", "rhum", "bayamon", "hacienda", "vieux san juan"],
   heroImage: {
     src: "/destination/porto-rico/xp-ron-del-barrilito.webp",
-    alt: "Fûts de rhum dans les chais de l'Hacienda Santa Ana, Ron del Barrilito",
+    alt: "Salle de dégustation de Ron del Barrilito et ses murs de fûts, Hacienda Santa Ana",
   },
   destinationSlugs: ["porto-rico"],
   sections: [],
