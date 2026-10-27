@@ -4,11 +4,11 @@ export const experience: Experience = {
   slug: "plongee-cabo-pulmo",
   name: "Plongée à Cabo Pulmo",
   blurb:
-    "Cabo Pulmo abrite le seul récif corallien vivant de la côte Pacifique nord. En dehors des horaires collectifs, on descend avec des raies-aigles, des bancs de barracudas et des tortues imbriquées dans une eau à 25°C.",
+    "À deux heures de route du corridor, Cabo Pulmo protège l'un des rares récifs coralliens vivants du Pacifique nord-américain. Avec un guide privé, hors des horaires collectifs, on plonge au milieu des tourbillons de carangues, des raies et, en saison, des requins-bouledogues.",
   keywords: ["los-cabos", "mexique", "plongee", "mer-de-cortez", "cabo-pulmo"],
   heroImage: {
-    src: "/destination/los-cabos/xp-plongee-cabo-pulmo.png",
-    alt: "Plongeur sur le récif corallien de Cabo Pulmo, mer de Cortez, Mexique",
+    src: "/destination/los-cabos/xp-plongee-cabo-pulmo.webp",
+    alt: "Raie posée sur le sable sous un banc de carangues, Cabo Pulmo, mer de Cortez",
   },
   destinationSlugs: ["los-cabos"],
   sections: [],

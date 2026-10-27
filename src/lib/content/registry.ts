@@ -336,7 +336,6 @@ import { experience as fjordsKawesqarGoelette } from "@/content/experiences/fjor
 import { experience as escapadeTodosSantos } from "@/content/experiences/escapade-todos-santos";
 import { experience as plongeeCaboPulmo } from "@/content/experiences/plongee-cabo-pulmo";
 import { experience as snorkelingLionsMerEspirituSanto } from "@/content/experiences/snorkeling-lions-mer-espiritu-santo";
-import { experience as wineOclockValleGuadalupe } from "@/content/experiences/wine-oclock-valle-guadalupe";
 import { experience as safariVehiculeHwange } from "@/content/experiences/safari-vehicule-hwange";
 import { experience as croisierePremiumZambeze } from "@/content/experiences/croisiere-premium-zambeze";
 import { experience as helicoptereChutesVictoria } from "@/content/experiences/helicoptere-chutes-victoria";
@@ -1056,7 +1055,6 @@ export const experiences: Record<string, Experience> = toMap([
   escapadeTodosSantos,
   plongeeCaboPulmo,
   snorkelingLionsMerEspirituSanto,
-  wineOclockValleGuadalupe,
   safariVehiculeHwange,
   croisierePremiumZambeze,
   helicoptereChutesVictoria,
