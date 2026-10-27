@@ -112,7 +112,7 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/panama/xp-chocolat-ngobe-1.webp",
-          alt: "Cabosses de cacao ouvertes sur une table de bois dans un village ngöbe",
+          alt: "Femme ngäbe montrant les cabosses de cacao de sa finca, Bocas del Toro",
         },
         right: {
           src: "/destination/panama/xp-chocolat-ngobe-2.webp",
