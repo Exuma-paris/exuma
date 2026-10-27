@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/uruguay/xp-garzon-mallmann-1.png",
-          alt: "Agneau cuit à la croix devant un feu ouvert dans la cour de la table de Garzón",
+          src: "/destination/uruguay/xp-garzon-mallmann-1.webp",
+          alt: "Légumes, fruits et viandes suspendus au-dessus du feu, cuisine au feu à Garzón",
         },
         right: {
-          src: "/destination/uruguay/xp-garzon-mallmann-2.png",
-          alt: "Rangs de tannat sur les collines de granit des vignobles de Garzón",
+          src: "/destination/uruguay/xp-garzon-mallmann-2.webp",
+          alt: "Francis Mallmann dressant un plat dans sa cuisine de Garzón",
         },
       },
       text: {
