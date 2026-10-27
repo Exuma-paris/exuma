@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["turquie", "cote lycienne", "kekova", "goelette", "kas"],
   heroImage: {
     src: "/destination/turquie/xp-goelette-lycienne.webp",
-    alt: "Goélette turque au mouillage dans une crique de la côte lycienne",
+    alt: "Goélette au mouillage devant une grotte marine, côte lycienne",
   },
   destinationSlugs: ["turquie"],
   sections: [],

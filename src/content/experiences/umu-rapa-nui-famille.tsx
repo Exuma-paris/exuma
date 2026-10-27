@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["ile de paques", "rapa nui", "umu pae", "hanga roa", "cuisine"],
   heroImage: {
     src: "/destination/ile-de-paques/xp-umu-rapa-nui.webp",
-    alt: "Four enterré umu pae que l'on ouvre dans un jardin de Hanga Roa à Rapa Nui",
+    alt: "Préparation d'un umu : feuilles de bananier posées sur les pierres chaudes, Rapa Nui",
   },
   destinationSlugs: ["ile-de-paques"],
   sections: [],

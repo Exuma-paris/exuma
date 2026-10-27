@@ -41,3 +41,8 @@ Testimonial portraits reuse `hero-1.webp`, `hero-2.webp`, `hero-3.webp` — no s
 | `bento-hebergements.webp` | Recadrage de hotel-nayara-hangaroa | |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+
+## Hôtels et umu (27/10, liens fournis par Thea)
+- `hotel-explora-rapa-nui.webp` : https://assets.waybird.com/lodge_images/images/000/101/349/original/explora.jpg — recadré carré. ⚠ droits à vérifier.
+- `hotel-hare-uta.webp` : https://cdn.atrsafari.com/.../012HUT-IM0201-hotel-hare-uta.jpg — recadré carré, saturation réduite. ⚠ droits à vérifier.
+- `xp-umu-rapa-nui.webp` : https://imaginarapanui.com (umu-rapa-nui-nourriture-typique) — recadré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
