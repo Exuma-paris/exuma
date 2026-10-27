@@ -32,7 +32,7 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe à Porto Rico",
       heading: "Porto Rico se lit en climats, pas en kilomètres",
       description:
-        "El Yunque, huit mille hectares de forêt tropicale et seule forêt du réseau forestier national des États-Unis, à moins d'une heure du Vieux San Juan, fondé en 1521 et toujours cerné par ses remparts espagnols. À quarante minutes d'avion, la baie bioluminescente de Mosquito Bay, à Vieques, reste la plus intense recensée par le Guinness World Records. Trois visages d'une même île, à combiner sans les opposer.",
+        "El Yunque, onze mille hectares de forêt et seule forêt tropicale du réseau forestier national des États-Unis, à moins d'une heure du Vieux San Juan, fondé en 1521 et toujours cerné par ses remparts espagnols. À quarante minutes d'avion, la baie bioluminescente de Mosquito Bay, à Vieques, reste la plus intense recensée par le Guinness World Records. Trois visages d'une même île, à combiner sans les opposer.",
       images: [
         {
           src: "/destination/porto-rico/hero-1.png",
@@ -133,13 +133,13 @@ export const destination: Destination = {
       type: "entityList",
       kind: "experience",
       background: "bg-white",
-      eyebrow: "Expériences et activités en Porto Rico",
+      eyebrow: "Expériences et activités à Porto Rico",
       heading: "Nos coups de cœur à Porto Rico",
       description:
-        "Trois expériences ancrées dans trois Porto Rico différents : la canopée d'El Yunque, les ruelles coloniales du Vieux San Juan, le large vers Culebra. Aucune n'est démonstrative.",
+        "Trois expériences ancrées dans trois Porto Rico différents : la canopée d'El Yunque, les chais d'une hacienda de rhum de 1880, le large vers Culebra. Aucune n'est démonstrative.",
       slugs: [
         "randonnee-cascades-el-yunque",
-        "immersion-vieux-san-juan",
+        "degustation-ron-del-barrilito",
         "catamaran-prive-culebra",
       ],
     },
@@ -151,10 +151,10 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Où séjourner",
       description:
-        "Trois adresses choisies pour ce qu'elles permettent, pas pour ce qu'elles affichent : une réserve naturelle privée à Dorado, un couvent du XVIIe siècle au cœur du Vieux San Juan, une plage protégée aux portes d'El Yunque.",
+        "Trois adresses choisies pour ce qu'elles permettent, pas pour ce qu'elles affichent : une réserve naturelle privée à Dorado, un palace de 1919 face à l'Atlantique, à dix minutes du Vieux San Juan, une plage protégée aux portes d'El Yunque.",
       slugs: [
         "dorado-beach-ritz-carlton-reserve",
-        "fairmont-el-convento",
+        "condado-vanderbilt",
         "st-regis-bahia-beach",
       ],
     },
@@ -264,7 +264,7 @@ export const destination: Destination = {
         {
           title: "El Yunque, l'unique forêt tropicale du réseau américain",
           description:
-            "Huit mille hectares gérés par le service forestier des États-Unis. Les cascades de La Mina et de Juan Diego coulent toute l'année, alimentées par plus de quatre mètres de pluie annuelle.",
+            "Onze mille hectares gérés par le service forestier des États-Unis. Les cascades de La Mina et de Juan Diego coulent toute l'année, alimentées par plus de quatre mètres de pluie annuelle.",
           image: {
             src: "/destination/porto-rico/map-el-yunque.webp",
             alt: "Cascade de La Mina dans la forêt tropicale d'El Yunque",
@@ -294,7 +294,7 @@ export const destination: Destination = {
         {
           title: "Dorado, la côte nord",
           description:
-            "Ancienne plantation d'ananas transformée en réserve naturelle privée dans les années 1950. Deux terrains de golf signés Robert Trent Jones y bordent l'Atlantique.",
+            "Ancienne plantation de cocotiers et de pamplemousses dont Laurance Rockefeller a fait un hôtel en 1958. Deux terrains de golf signés Robert Trent Jones y bordent l'Atlantique.",
           image: {
             src: "/destination/porto-rico/map-dorado.webp",
             alt: "Côte de Dorado bordée de palmiers sur la rive nord de Porto Rico",

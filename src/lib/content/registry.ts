@@ -383,7 +383,7 @@ import { experience as visitePriveeStNicholasAbbey } from "@/content/experiences
 import { experience as dinerTheCliff } from "@/content/experiences/diner-the-cliff";
 import { experience as poloHolders } from "@/content/experiences/polo-holders";
 import { experience as randonneeCascadesElYunque } from "@/content/experiences/randonnee-cascades-el-yunque";
-import { experience as immersionVieuxSanJuan } from "@/content/experiences/immersion-vieux-san-juan";
+import { experience as degustationRonDelBarrilito } from "@/content/experiences/degustation-ron-del-barrilito";
 import { experience as catamaranPriveCulebra } from "@/content/experiences/catamaran-prive-culebra";
 import { experience as dinerChefCandlenut } from "@/content/experiences/diner-chef-candlenut";
 import { experience as visitePriveeJardinsBotaniques } from "@/content/experiences/visite-privee-jardins-botaniques";
@@ -650,7 +650,7 @@ import { accommodation as sandyLane } from "@/content/accommodations/sandy-lane"
 import { accommodation as cobblersCove } from "@/content/accommodations/cobblers-cove";
 import { accommodation as coralReefClub } from "@/content/accommodations/coral-reef-club";
 import { accommodation as doradoBeachRitzCarltonReserve } from "@/content/accommodations/dorado-beach-ritz-carlton-reserve";
-import { accommodation as fairmontElConvento } from "@/content/accommodations/fairmont-el-convento";
+import { accommodation as condadoVanderbilt } from "@/content/accommodations/condado-vanderbilt";
 import { accommodation as stRegisBahiaBeach } from "@/content/accommodations/st-regis-bahia-beach";
 import { accommodation as capellaSingapore } from "@/content/accommodations/capella-singapore";
 import { accommodation as rafflesSingapore } from "@/content/accommodations/raffles-singapore";
@@ -1095,7 +1095,7 @@ export const experiences: Record<string, Experience> = toMap([
   dinerTheCliff,
   poloHolders,
   randonneeCascadesElYunque,
-  immersionVieuxSanJuan,
+  degustationRonDelBarrilito,
   catamaranPriveCulebra,
   dinerChefCandlenut,
   visitePriveeJardinsBotaniques,
@@ -1368,7 +1368,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   cobblersCove,
   coralReefClub,
   doradoBeachRitzCarltonReserve,
-  fairmontElConvento,
+  condadoVanderbilt,
   stRegisBahiaBeach,
   capellaSingapore,
   rafflesSingapore,
