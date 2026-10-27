@@ -650,7 +650,7 @@ import { accommodation as sandyLane } from "@/content/accommodations/sandy-lane"
 import { accommodation as cobblersCove } from "@/content/accommodations/cobblers-cove";
 import { accommodation as coralReefClub } from "@/content/accommodations/coral-reef-club";
 import { accommodation as doradoBeachRitzCarltonReserve } from "@/content/accommodations/dorado-beach-ritz-carlton-reserve";
-import { accommodation as condadoVanderbilt } from "@/content/accommodations/condado-vanderbilt";
+import { accommodation as villaPriveeVieques } from "@/content/accommodations/villa-privee-vieques";
 import { accommodation as stRegisBahiaBeach } from "@/content/accommodations/st-regis-bahia-beach";
 import { accommodation as capellaSingapore } from "@/content/accommodations/capella-singapore";
 import { accommodation as rafflesSingapore } from "@/content/accommodations/raffles-singapore";
@@ -1368,7 +1368,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   cobblersCove,
   coralReefClub,
   doradoBeachRitzCarltonReserve,
-  condadoVanderbilt,
+  villaPriveeVieques,
   stRegisBahiaBeach,
   capellaSingapore,
   rafflesSingapore,

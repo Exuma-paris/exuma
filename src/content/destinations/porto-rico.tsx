@@ -151,10 +151,10 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Où séjourner",
       description:
-        "Trois adresses choisies pour ce qu'elles permettent, pas pour ce qu'elles affichent : une réserve naturelle privée à Dorado, un palace de 1919 face à l'Atlantique, à dix minutes du Vieux San Juan, une plage protégée aux portes d'El Yunque.",
+        "Trois adresses choisies pour ce qu'elles permettent, pas pour ce qu'elles affichent : une réserve naturelle privée à Dorado, une villa pour vous seuls sur l'île de Vieques, une plage protégée aux portes d'El Yunque.",
       slugs: [
         "dorado-beach-ritz-carlton-reserve",
-        "condado-vanderbilt",
+        "villa-privee-vieques",
         "st-regis-bahia-beach",
       ],
     },
