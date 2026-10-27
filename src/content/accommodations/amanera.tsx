@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "aman",
   ],
   heroImage: {
-    src: "/destination/republique-dominicaine/hotel-amanera.png",
-    alt: "Casita d'Amanera surplombant la côte atlantique de Río San Juan, République dominicaine",
+    src: "/destination/republique-dominicaine/hotel-amanera.webp",
+    alt: "Casa Grande d'Amanera et sa piscine au crépuscule, Río San Juan",
   },
   destinationSlugs: ["republique-dominicaine"],
   sections: [],
