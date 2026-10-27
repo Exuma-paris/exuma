@@ -7,7 +7,7 @@ export const accommodation: Accommodation = {
     "Une réserve naturelle de deux cents hectares au pied d'El Yunque, à Río Grande. Le golf signé Robert Trent Jones II longe une plage où nichent les tortues luths.",
   keywords: ["porto rico", "el yunque", "rio grande", "golf", "reserve naturelle"],
   heroImage: {
-    src: "/destination/porto-rico/hotel-st-regis-bahia-beach.png",
+    src: "/destination/porto-rico/hotel-st-regis-bahia-beach.webp",
     alt: "Plage et palmeraie du St. Regis Bahia Beach Resort près d'El Yunque",
   },
   destinationSlugs: ["porto-rico"],
