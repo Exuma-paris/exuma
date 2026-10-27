@@ -249,7 +249,7 @@ export const destination: Destination = {
           alt: [
             "Carte d'itinéraire personnalisé pour un voyage en République dominicaine",
             "Terrasse fleurie et piscine d’une villa isolée face à la mer, près de La Romana",
-            "Casita d'Amanera surplombant la côte atlantique",
+            "Casa Grande d'Amanera et sa piscine, Río San Juan",
             "Conseillère Exuma souriante, casque sur les oreilles",
             "Barque glissant entre les mangroves du parc Los Haitises",
           ][i],
