@@ -47,3 +47,6 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png`, `hero-3.png` — no sepa
 - `hero-3.webp` : Casa de Campo — https://www.casadecampo.com.do/wp-content/uploads/2025/06/Stay-Villa.jpg — recadré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
 - `full-image.webp` : Expedia — https://images.trvl-media.com/lodging/1000000/690000/687400/687339/c459d469.jpg — recadré 16/9. ⚠ droits à vérifier.
 - `split-1.webp` : vignette Google (359 px) — redessinée en haute définition et prolongée en portrait par IA (Gemini). ⚠ droits à vérifier.
+- `xp-survol-helicoptere-samana-1.webp` : Expedia — https://images.trvl-media.com/place/6046772/e2d4c48c-ec7c-4bf7-9fee-f4a9d694d365.jpg — hélicoptère ajouté par IA (Gemini) à la demande de Thea. ⚠ droits à vérifier.
+- `xp-survol-helicoptere-samana-2.webp` : vignette Google — redessinée en HD par IA (Gemini), texte écrit dans le sable et personnes retirés. ⚠ droits à vérifier.
+- `split-2.webp` : GetYourGuide — https://cdn.getyourguide.com/img/tour/33820293d97de769.png/145.jpg (Cayo de los Pájaros) — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.

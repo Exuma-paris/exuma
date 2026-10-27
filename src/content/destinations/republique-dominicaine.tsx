@@ -121,8 +121,8 @@ export const destination: Destination = {
           alt: "Queue de baleine à bosse émergeant de la baie de Samaná",
         },
         {
-          src: "/destination/republique-dominicaine/split-2.png",
-          alt: "Dômes karstiques couverts de mangrove dans le parc Los Haitises",
+          src: "/destination/republique-dominicaine/split-2.webp",
+          alt: "Cayo de los Pájaros et ses frégates, parc national Los Haitises",
         },
       ],
     },
@@ -131,12 +131,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/republique-dominicaine/xp-survol-helicoptere-samana-1.png",
+          src: "/destination/republique-dominicaine/xp-survol-helicoptere-samana-1.webp",
           alt: "Vue aérienne de la côte de Samaná depuis un hélicoptère",
         },
         right: {
-          src: "/destination/republique-dominicaine/xp-survol-helicoptere-samana-2.png",
-          alt: "Plage isolée vue du ciel entre Samaná et Punta Cana",
+          src: "/destination/republique-dominicaine/xp-survol-helicoptere-samana-2.webp",
+          alt: "Palmiers et plage déserte vus depuis l'hélicoptère, péninsule de Samaná",
         },
       },
       text: {
