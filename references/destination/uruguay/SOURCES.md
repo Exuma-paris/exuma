@@ -54,3 +54,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `xp-gauchos-tacuarembo.webp` : Bradt Guides — https://www.bradtguides.com/wp-content/uploads/wysiwyg/destinations/central-and-south-america/uruguay/image11_1.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
 - `xp-cabo-polonio.webp` : Global National Parks — https://www.globalnationalparks.com/wp-content/uploads/Cabo-Polonio-National-Park.jpg — recadré carré. ⚠ droits à vérifier.
 - `hotel-estancia-vik.webp`, `bento-hebergements.webp` : site officiel Estancia Vik — https://www.estanciavik.com/wp-content/uploads/2021/06/EstanciaVik-0313.jpg — deux cadrages. ⚠ droits à vérifier.
+- `hotel-sacromonte.webp` : Adventure Life — https://cdn.adventure-life.com/38/95/37/Hotel_Sacromonte_-_Horizon_Refuge/1300x820.webp — recadré carré. ⚠ droits à vérifier.
