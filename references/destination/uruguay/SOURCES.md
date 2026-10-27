@@ -40,3 +40,9 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+
+## Images placées le 27/10 (liens fournis par Thea)
+- `hero-1.webp` : vignette Google (phare de José Ignacio) — recadrée, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `hero-2.webp` : https://pub-6288ee11dd4348dcb49db0f1e143a608.r2.dev/projects/promodo-4380/searched/83a489935aa71ddbd237.png — recadrée, agrandie (Gemini). Origine incertaine (peut-être IA).
+- `hero-3.webp` : vignette Google (sentier dans les dunes) — recadrée, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `full-image.webp` : Montecristo Magazine — https://montecristomagazine.com/wp-content/uploads/2017/01/food_and_drink_page_3_image_0004.jpg (Bodega Garzón) — recadré 16/9. ⚠ droits à vérifier.

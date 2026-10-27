@@ -35,16 +35,16 @@ export const destination: Destination = {
         "L'Uruguay s'apprivoise doucement. La côte s'étire de Montevideo jusqu'aux dunes de Cabo Polonio, ponctuée de villages de pêcheurs où les maisons restent basses et où le sable arrive jusqu'aux portes. À l'intérieur, les estancias vivent encore du cheval et du feu, et les collines se couvrent de vignes jusqu'à la sierra de la Ballena. C'est cet Uruguay-là que nous vous montrons.",
       images: [
         {
-          src: "/destination/uruguay/hero-1.png",
-          alt: "Plage de José Ignacio au coucher du soleil sur la côte atlantique de l'Uruguay",
+          src: "/destination/uruguay/hero-1.webp",
+          alt: "Phare de José Ignacio et sa plage vus du ciel, côte atlantique de l'Uruguay",
         },
         {
-          src: "/destination/uruguay/hero-2.png",
-          alt: "Gaucho rassemblant le bétail à cheval dans une estancia du centre de l'Uruguay",
+          src: "/destination/uruguay/hero-2.webp",
+          alt: "Gaucho à cheval face à son troupeau au soleil couchant, estancia de l'Uruguay",
         },
         {
-          src: "/destination/uruguay/hero-3.png",
-          alt: "Dunes du parc national de Cabo Polonio au bord de l'Atlantique",
+          src: "/destination/uruguay/hero-3.webp",
+          alt: "Sentier de sable entre les dunes, au bord de l'Atlantique sur la côte de Rocha",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/uruguay/full-image.png",
-        alt: "Vignobles de tannat sur les collines de Garzón, dans le sud de l'Uruguay",
+        src: "/destination/uruguay/full-image.webp",
+        alt: "Vignes et chai de la Bodega Garzón sur les collines, dans le sud de l'Uruguay",
       },
       height: 600,
     },
@@ -532,8 +532,8 @@ export const destination: Destination = {
           quote:
             "Le déjeuner au feu à Garzón, puis les vignes dans l'après-midi avec l'œnologue, dans la même journée. On ne savait pas ce qu'on allait manger en s'asseyant, et c'était très bien comme ça. C'est le souvenir qui nous reste le plus nettement.",
           image: {
-            src: "/destination/uruguay/hero-1.png",
-            alt: "Plage de José Ignacio au coucher du soleil sur la côte atlantique de l'Uruguay"
+            src: "/destination/uruguay/hero-1.webp",
+            alt: "Phare de José Ignacio et sa plage vus du ciel, côte atlantique de l'Uruguay"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Uruguay, Montevideo, Garzón et la côte, 2025", // TODO: à vérifier (replace with real testimonial)
@@ -543,8 +543,8 @@ export const destination: Destination = {
           quote:
             "Partir à cheval au petit matin avec les gauchos, puis la viande sur les braises du corral à midi. Personne ne jouait un rôle pour nous : ils travaillaient, et on suivait. Je ne pensais pas que cela existait encore ainsi.",
           image: {
-            src: "/destination/uruguay/hero-2.png",
-            alt: "Gaucho rassemblant le bétail à cheval dans une estancia du centre de l'Uruguay"
+            src: "/destination/uruguay/hero-2.webp",
+            alt: "Gaucho à cheval face à son troupeau au soleil couchant, estancia de l'Uruguay"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Uruguay, estancias du centre-nord, 2025", // TODO: à vérifier (replace with real testimonial)
@@ -554,8 +554,8 @@ export const destination: Destination = {
           quote:
             "Une nuit à Cabo Polonio, sans électricité et sans lune. On entendait les otaries depuis la plage et on voyait la voie lactée à l'œil nu. En mars, la côte était pour nous : c'était exactement ce que nous cherchions.",
           image: {
-            src: "/destination/uruguay/hero-3.png",
-            alt: "Dunes du parc national de Cabo Polonio au bord de l'Atlantique"
+            src: "/destination/uruguay/hero-3.webp",
+            alt: "Sentier de sable entre les dunes, au bord de l'Atlantique sur la côte de Rocha"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Uruguay, côte de Rocha, mars 2026", // TODO: à vérifier (replace with real testimonial)
