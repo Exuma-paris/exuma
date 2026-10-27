@@ -308,7 +308,7 @@ export const destination: Destination = {
           description:
             "La grande île et sa capitale, Victoria, l'une des plus petites du monde. Derrière la côte, le parc national du Morne Seychellois monte à 905 mètres dans la forêt.",
           image: {
-            src: "/destination/seychelles/map-mahe.png",
+            src: "/destination/seychelles/map-mahe.webp",
             alt: "Côte et forêt du Morne Seychellois sur l'île de Mahé",
           },
           coordinates: { lat: -4.6796, lng: 55.492 }, // TODO: verify coords
@@ -318,8 +318,8 @@ export const destination: Destination = {
           description:
             "Une forêt primitive de palmiers où pousse le coco de mer, la plus grosse graine du monde. Classée UNESCO, longtemps prise pour le jardin d'Éden.",
           image: {
-            src: "/destination/seychelles/map-praslin.png",
-            alt: "Palmiers et coco de mer de la Vallée de Mai à Praslin",
+            src: "/destination/seychelles/map-praslin.webp",
+            alt: "Sentier sous les palmiers coco de mer de la Vallée de Mai à Praslin",
           },
           coordinates: { lat: -4.3306, lng: 55.7392 }, // TODO: verify coords
         },
@@ -328,7 +328,7 @@ export const destination: Destination = {
           description:
             "Presque pas de voitures, des vélos et des chars à bœufs. La plage de granit la plus photographiée de l'océan Indien, à découvrir à marée basse.",
           image: {
-            src: "/destination/seychelles/map-la-digue.png",
+            src: "/destination/seychelles/map-la-digue.webp",
             alt: "Blocs de granit et eau peu profonde d'Anse Source d'Argent à La Digue",
           },
           coordinates: { lat: -4.3587, lng: 55.8389 }, // TODO: verify coords
@@ -338,7 +338,7 @@ export const destination: Destination = {
           description:
             "Une île-réserve à courte distance de Praslin, refuge de plus de deux cents tortues géantes en liberté. Mangroves, sentier vers Anse St José, barbecue créole sur la plage.",
           image: {
-            src: "/destination/seychelles/map-curieuse.png",
+            src: "/destination/seychelles/map-curieuse.webp",
             alt: "Tortue géante d'Aldabra en liberté sur l'île de Curieuse",
           },
           coordinates: { lat: -4.2833, lng: 55.7333 }, // TODO: verify coords
@@ -348,8 +348,8 @@ export const destination: Destination = {
           description:
             "Une île entièrement protégée, gérée par des conservateurs. On y accoste pieds nus, au milieu des sternes et des tortues marines qui viennent pondre.",
           image: {
-            src: "/destination/seychelles/map-cousin.png",
-            alt: "Colonie de sternes sur la réserve naturelle de l'île Cousin",
+            src: "/destination/seychelles/map-cousin.webp",
+            alt: "Sterne blanche posée sur une branche, réserve naturelle de l'île Cousin",
           },
           coordinates: { lat: -4.3322, lng: 55.6453 }, // TODO: verify coords
         },
@@ -358,8 +358,8 @@ export const destination: Destination = {
           description:
             "Au départ de Praslin, l'île la plus septentrionale des intérieures. Plus d'un million d'oiseaux marins, une flore rare dont le Wright's Gardenia, qui ne pousse nulle part ailleurs.",
           image: {
-            src: "/destination/seychelles/map-aride.png",
-            alt: "Falaises et oiseaux marins de la réserve de l'île Aride",
+            src: "/destination/seychelles/map-aride.webp",
+            alt: "Plage et rochers de granit de la réserve de l'île Aride",
           },
           coordinates: { lat: -4.2122, lng: 55.6694 }, // TODO: verify coords
         },

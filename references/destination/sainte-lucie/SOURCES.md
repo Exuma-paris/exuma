@@ -32,3 +32,12 @@ Each generated image in `public/destination/sainte-lucie/` was produced by feedi
 The experience `gros-piton-aube-soufriere` reuses the existing image `public/destination/caraibes/xp-gros-piton.png` — no new reference needed.
 
 Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`.
+| `map-soufriere-pitons.webp` | Wikimedia Commons : File:Panorámica de Soufrière, segunda ciudad santaluciana en población.jpg | CC BY-SA 4.0 |
+| `map-marigot.webp` | Wikimedia Commons : File:Marigot Bay (6273794000).jpg | CC BY-SA 2.0 |
+| `map-anse-chastanet.webp` | Wikimedia Commons : File:Anse Chastanet, Saint Lucia April 2007.jpg | Public domain |
+| `map-sources-soufre.webp` | Wikimedia Commons : File:Malgretoute, Saint Lucia - panoramio.jpg | CC BY 3.0 |
+| `map-castries.webp` | Wikimedia Commons : File:Castries Market from Jeremie Street.JPG | CC BY-SA 3.0 |
+| `map-pigeon-island.webp` | Wikimedia Commons : File:Fort Rodney, Pigeon Island, St. Lucia 5.jpg | CC BY-SA 4.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |

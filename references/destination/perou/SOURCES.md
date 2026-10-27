@@ -31,3 +31,28 @@ Each generated image in `public/destination/perou/` was produced by feeding the 
 | `map-lima.png`                   | `map-lima-ref.jpg`                     | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.png` / `hero-2.png` / `hero-3.png` — no separate files.
+| `map-cusco.webp` | Wikimedia Commons : File:Iglesia de la Compañía de Jesús, Plaza de Armas, Cusco, Perú, 2015-07-31, DD 75.JPG | CC BY-SA 4.0 |
+| `map-machu-picchu.webp` | Wikimedia Commons : File:Machu Picchu, Perú, 2015-07-30, DD 60.JPG | CC BY-SA 4.0 |
+| `map-vallee-sacree.webp` | Wikimedia Commons : File:Agricultural terraces of Moray, Sacred Valley, Peru. - panoramio.jpg | CC BY-SA 3.0 |
+| `map-titicaca.webp` | Wikimedia Commons : File:Islas flotantes de los Uros, Lago Titicaca, Perú, 2015-08-01, DD 29.JPG | CC BY-SA 4.0 |
+| `map-amazonie.webp` | Wikimedia Commons : File:7 - Itahuania - Août 2008.JPG | CC BY-SA 3.0 |
+| `map-lima.webp` | Wikimedia Commons : File:Lima, Peru - Barranco Skyline.jpg | CC BY 2.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+| `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |
+| `hero-1.webp` | National Geographic (Machu Picchu), recadrée carrée | À confirmer |
+| `hero-2.webp` | Klook (îles des Uros), recadrée carrée sans le filigrane, agrandie fidèlement | À confirmer |
+| `hero-3.webp` | Miniature Google Images (Moray vu du ciel), agrandie fidèlement | À confirmer |
+| `full-image.webp` | voyage-perou.com (Machu Picchu dans la brume), recadrée 16:9, agrandie fidèlement | À confirmer |
+| `split-1.webp` | histoire-a-sac-a-dos.com (ruelle inca de Cusco), recadrée 3:4, agrandie fidèlement | À confirmer |
+| `split-2.webp` | Tripadvisor (marché de San Pedro), recadrée carrée, agrandie fidèlement | À confirmer |
+| `xp-table-central-lima.webp` | peruviptravel.com (cuisine de Central), recadrée carrée, agrandie fidèlement | À confirmer |
+| `xp-vallee-sacree.webp` | ulysses.travel (terrasses de Moray), recadrée carrée, guide et deux voyageurs ajoutés par IA | À confirmer |
+| `xp-machu-picchu-aube-1.webp` | espaces.ca (porte du Soleil), agrandie fidèlement | À confirmer |
+| `xp-machu-picchu-aube-2.webp` | augoutdemma.be (citadelle du Machu Picchu), agrandie fidèlement | À confirmer |
+| `hotel-sanctuary-lodge.webp` | annees-de-pelerinage.com (bain chaud face au Huayna Picchu), recadrée carrée, baigneur remplacé par une voyageuse par IA | À confirmer |
+| `hotel-palacio-nazarenas.webp` | Trip.com (cloître et piscine), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-reserva-amazonica.webp` | Tripadvisor (spa), recadrée carrée, agrandie fidèlement | À confirmer |
+| `xp-amazonie-naturaliste.webp` | Générée par IA (gen_text) | image générée |
+| `xp-machu-picchu-aube-2.webp` | Miniature Google Images (citadelle), recadrée 3:4, agrandie fidèlement (remplace augoutdemma.be) | À confirmer |

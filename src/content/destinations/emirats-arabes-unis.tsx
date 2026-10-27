@@ -233,7 +233,7 @@ export const destination: Destination = {
             "Carte d'un itinéraire sur mesure aux Émirats arabes unis",
             "Dîner dressé sur les tapis dans le désert à la nuit tombée",
             "Lodge de désert vu du ciel, niché entre les dunes",
-            "Concierge coordonnant un transfert privé entre Dubaï et Abu Dhabi",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Fauconnier émirien et son faucon au bord des dunes",
           ][i],
         },

@@ -14,7 +14,7 @@ export const accommodation: Accommodation = {
   ],
   heroImage: {
     src: "/destination/etats-unis/hotel-post-ranch-inn.webp",
-    alt: "Chambre du Post Ranch Inn en surplomb du Pacifique à Big Sur",
+    alt: "Terrasse et chaises longues d’une chambre du Post Ranch Inn au-dessus du Pacifique, Big Sur",
   },
   destinationSlugs: ["etats-unis"],
   sections: [],

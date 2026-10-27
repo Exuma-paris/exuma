@@ -36,16 +36,16 @@ export const destination: Destination = {
         "À mille kilomètres des côtes de l'Équateur, treize îles principales et plus de cent vingt îlots concentrent des espèces qui n'existent nulle part ailleurs : iguane marin, tortue géante, albatros des Galápagos. Charles Darwin y a passé cinq semaines en 1835. Chaque itinéraire se construit autour d'un yacht et d'un nombre de visiteurs strictement limité par le parc national.",
       images: [
         {
-          src: "/destination/galapagos/hero-1.png",
-          alt: "Iguanes marins sur les rochers volcaniques des Galápagos",
+          src: "/destination/galapagos/hero-1.webp",
+          alt: "Iguane marin et son petit sur la roche volcanique face à l'océan, Galápagos",
         },
         {
-          src: "/destination/galapagos/hero-2.png",
-          alt: "Yacht d'expédition mouillé au large d'une île des Galápagos",
+          src: "/destination/galapagos/hero-2.webp",
+          alt: "Yacht d'expédition au mouillage devant León Dormido, San Cristóbal, Galápagos",
         },
         {
-          src: "/destination/galapagos/hero-3.png",
-          alt: "Tortue géante des Galápagos dans les hauts plateaux de Santa Cruz",
+          src: "/destination/galapagos/hero-3.webp",
+          alt: "Tortue géante et héron garde-bœufs dans les herbes des hauts plateaux de Santa Cruz",
         },
       ],
     },
@@ -82,8 +82,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/galapagos/full-image.png",
-        alt: "Vue aérienne de la caldeira du volcan Sierra Negra sur l'île Isabela, Galápagos",
+        src: "/destination/galapagos/full-image.webp",
+        alt: "Caldeira du volcan Sierra Negra et sa lave noire bordée de crêtes vertes, île Isabela, Galápagos",
       },
       height: 600,
     },
@@ -99,12 +99,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/galapagos/split-1.png",
-          alt: "Pêcheurs déchargeant leur prise au quai de Puerto Ayora, Galápagos",
+          src: "/destination/galapagos/split-1.webp",
+          alt: "Barques de pêcheurs et pélicans dans la baie de Puerto Ayora, Santa Cruz, Galápagos",
         },
         {
-          src: "/destination/galapagos/split-2.png",
-          alt: "Tortues géantes juvéniles à la station de recherche Charles Darwin, Galápagos",
+          src: "/destination/galapagos/split-2.webp",
+          alt: "Tortue géante broutant entre les feuillages, île de Santa Cruz, Galápagos",
         },
       ],
     },
@@ -113,20 +113,20 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/galapagos/xp-darwin-wolf-1.png",
-          alt: "Banc de requins-marteaux le long du mur volcanique de Wolf, Galápagos",
+          src: "/destination/galapagos/xp-darwin-wolf-1.webp",
+          alt: "Bateau au mouillage au pied des falaises de l'île Wolf, Galápagos",
         },
         right: {
-          src: "/destination/galapagos/xp-darwin-wolf-2.png",
-          alt: "Plongeur au mouillage isolé de l'île Darwin, Galápagos",
+          src: "/destination/galapagos/xp-darwin-wolf-2.webp",
+          alt: "Banc de requins-marteaux dans le bleu, au large de Darwin et Wolf, Galápagos",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
         heading: "Le mur où les requins-marteaux se comptent par centaines",
         columns: [
-          "Darwin et Wolf sont les deux îles les plus septentrionales de l'archipel, à plus de seize heures de navigation de Santa Cruz. On ne les rejoint qu'en croisière de plongée, jamais à la journée. Entre juin et novembre, des bancs de plusieurs centaines de requins-marteaux tournent le long du mur volcanique, parfois accompagnés de requins-baleines.",
-          "Le parc national limite l'accès à un quota de licences par an, réservées aux seuls opérateurs de plongée certifiés. Il n'y a ni plage ni village sur ces deux îles : seulement une paroi de basalte qui plonge droit dans le courant de Humboldt, et le silence d'un mouillage sans autre bateau visible.",
+          "Darwin et Wolf sont les deux îles les plus septentrionales de l'archipel, à une nuit de navigation au nord du reste de l'archipel. On ne les rejoint qu'en croisière de plongée, jamais à la journée. Entre juin et novembre, des bancs de plusieurs centaines de requins-marteaux tournent le long du mur volcanique, parfois accompagnés de requins-baleines.",
+          "Seuls quelques bateaux de plongée autorisés s'y rendent, et la croisière s'adresse aux plongeurs confirmés, à l'aise dans le courant. Il n'y a ni plage ni village sur ces deux îles : seulement une paroi de basalte qui plonge droit dans le courant de Humboldt, et le silence d'un mouillage sans autre bateau visible.",
         ],
       },
     },
@@ -227,13 +227,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/galapagos/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/galapagos/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure aux Galápagos, île par île",
-            "Adresses confidentielles aux Galápagos, loin des croisières de masse",
-            "Suite avec vue sur l'océan aux Galápagos",
-            "Concierge Exuma coordonnant un transfert privé aux Galápagos",
-            "Guide naturaliste commentant la faune endémique des Galápagos",
+            "Petit yacht privé seul dans une crique de lave aux Galápagos",
+            "Suite ouverte sur l’océan et la côte de lave aux Galápagos",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Guide naturaliste montrant une tortue géante à deux voyageurs, Galápagos",
           ][i],
         },
       })),
@@ -254,8 +254,8 @@ export const destination: Destination = {
           description:
             "Le port principal de l'archipel, sur Santa Cruz. La station de recherche élève des tortues géantes depuis 1965 pour repeupler les îles où l'espèce avait disparu.",
           image: {
-            src: "/destination/galapagos/map-puerto-ayora.png",
-            alt: "Quai de Puerto Ayora et pélicans bruns, Santa Cruz, Galápagos",
+            src: "/destination/galapagos/map-puerto-ayora.webp",
+            alt: "Bateaux au mouillage dans la baie de Puerto Ayora, Santa Cruz, Galápagos",
           },
           // TODO: verify coords
           coordinates: { lat: -0.7393, lng: -90.3518 },
@@ -265,7 +265,7 @@ export const destination: Destination = {
           description:
             "Un paysage volcanique quasi lunaire, dominé par un piton de tuf érodé. Les manchots des Galápagos, seuls manchots à vivre sous l'équateur, nagent au pied du rocher.",
           image: {
-            src: "/destination/galapagos/map-bartolome.png",
+            src: "/destination/galapagos/map-bartolome.webp",
             alt: "Pinnacle Rock et paysage volcanique de l'île Bartolomé, Galápagos",
           },
           // TODO: verify coords
@@ -276,7 +276,7 @@ export const destination: Destination = {
           description:
             "L'une des plus vastes caldeiras actives au monde, environ dix kilomètres de diamètre. La dernière éruption remonte à 2018, encore visible dans les coulées de lave noire.",
           image: {
-            src: "/destination/galapagos/map-sierra-negra.png",
+            src: "/destination/galapagos/map-sierra-negra.webp",
             alt: "Caldeira du volcan Sierra Negra sur l'île Isabela, Galápagos",
           },
           // TODO: verify coords
@@ -285,9 +285,9 @@ export const destination: Destination = {
         {
           title: "Punta Suárez, Española",
           description:
-            "L'unique site de nidification au monde de l'albatros des Galápagos. Le parc national limite le nombre de visiteurs par jour sur ce sentier de moins de trois kilomètres.",
+            "Le site où niche la quasi-totalité des albatros des Galápagos, d'avril à décembre. Le parc national limite le nombre de visiteurs par jour sur ce sentier de moins de trois kilomètres.",
           image: {
-            src: "/destination/galapagos/map-punta-suarez.png",
+            src: "/destination/galapagos/map-punta-suarez.webp",
             alt: "Albatros des Galápagos à Punta Suárez, île d'Española",
           },
           // TODO: verify coords
@@ -298,8 +298,8 @@ export const destination: Destination = {
           description:
             "Un tonneau en bois sert de boîte aux lettres officieuse depuis 1793 : on y dépose des cartes postales à charge pour un futur visiteur de les livrer en main propre.",
           image: {
-            src: "/destination/galapagos/map-post-office-bay.png",
-            alt: "Tonneau postal historique de Post Office Bay, île de Floreana, Galápagos",
+            src: "/destination/galapagos/map-post-office-bay.webp",
+            alt: "Tonneau postal et panneaux laissés par les marins à Post Office Bay, Floreana, Galápagos",
           },
           // TODO: verify coords
           coordinates: { lat: -1.22, lng: -90.43 },
@@ -309,7 +309,7 @@ export const destination: Destination = {
           description:
             "Deux pitons rocheux fendus en deux par l'érosion, qui émergent de l'océan comme un lion couché. Une faille étroite entre les deux blocs se plonge en pleine mer.",
           image: {
-            src: "/destination/galapagos/map-leon-dormido.png",
+            src: "/destination/galapagos/map-leon-dormido.webp",
             alt: "Formation rocheuse de León Dormido (Kicker Rock), San Cristóbal, Galápagos",
           },
           // TODO: verify coords

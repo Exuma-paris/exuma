@@ -4,11 +4,11 @@ export const experience: Experience = {
   slug: "snorkeling-otaries-galapagos",
   name: "Snorkeling avec otaries et iguanes marins à Española",
   blurb:
-    "À Española, les otaries des Galápagos escortent les nageurs sans un geste de recul. Les iguanes marins, uniques au monde, plongent brouter les algues avant de remonter se réchauffer sur la lave noire.",
+    "À Gardner Bay, sur Española, les otaries des Galápagos rejoignent les nageurs dès qu'ils entrent dans l'eau, tournent autour d'eux et repartent jouer dans les vagues. Sur les rochers voisins, les iguanes marins se chauffent au soleil sur la lave noire.",
   keywords: ["galapagos", "espanola", "otarie", "iguane marin", "snorkeling"],
   heroImage: {
-    src: "/destination/galapagos/xp-otaries-espanola.png",
-    alt: "Otarie des Galápagos nageant près d'un snorkeleur à Española",
+    src: "/destination/galapagos/xp-otaries-espanola.webp",
+    alt: "Otarie des Galápagos nageant vers un snorkeleur sous les falaises de Gardner Bay, Española",
   },
   destinationSlugs: ["galapagos"],
   sections: [],

@@ -94,7 +94,7 @@ export const destination: Destination = {
       theme: "light",
       paragraphs: [
         "Sur l'île de Pâques, tous les visiteurs voient les mêmes sites, souvent aux mêmes heures. Ce qui fait la différence, c'est le moment de la visite et la personne qui vous accompagne.",
-        "Nous travaillons avec des familles rapanui qui ouvrent leurs terres privées, une grotte cachée ou un jardin où l'on cuit encore les plats dans un four enterré. Un archéologue vous guide dans la carrière de Rano Raraku, où furent taillés les moaï, avant l'arrivée des groupes.",
+        "Nous travaillons avec des familles rapanui qui ouvrent leurs terres privées, une grotte cachée ou un jardin où l'on cuit encore les plats dans un four enterré. Un guide rapanui accrédité, parfois archéologue de formation, vous fait lire la carrière de Rano Raraku, où furent taillés les moaï.",
       ],
       images: [
         {
@@ -117,15 +117,15 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/ile-de-paques/xp-rano-raraku-2.webp",
-          alt: "Archéologue montrant les traces d'outils dans la pierre de Rano Raraku",
+          alt: "Guide montrant les traces d'outils dans la pierre de Rano Raraku",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Rano Raraku, la carrière des moai avec un archéologue",
+        heading: "Rano Raraku, la carrière des moai lue par un guide rapanui",
         columns: [
           "La carrière occupe le flanc d'un volcan éteint, et c'est là que toutes les statues de l'île ont été taillées. Beaucoup n'en sont jamais parties. Elles se tiennent debout dans l'herbe, enterrées jusqu'aux épaules, ou couchées sur le dos, et la plus grande de toutes n'a jamais été détachée de la roche. On marche entre elles comme dans un atelier que l'on aurait quitté la veille.",
-          "Nous y entrons avant l'ouverture, avec un archéologue du programme de fouilles, en dehors du sentier balisé. Il montre les traces d'outils dans la pierre tendre, les dos sculptés que l'on n'aperçoit jamais du chemin, les gravures retrouvées sous les statues ensevelies. Il dit aussi tout ce que l'on ignore encore, et c'est souvent ce dont on se souvient le mieux en rentrant.",
+          "Nous y entrons à l'ouverture, avec un guide rapanui accrédité, parfois archéologue de formation, qui lit la carrière moai par moai. Il montre les traces d'outils dans la pierre tendre, les dos sculptés que l'on ne remarque pas seul, les gravures retrouvées sous les statues ensevelies. Il dit aussi tout ce que l'on ignore encore, et c'est souvent ce dont on se souvient le mieux en rentrant.",
         ],
       },
     },
@@ -137,7 +137,7 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités à l'île de Pâques",
       heading: "Les matins que l'on ne partage avec personne",
       description:
-        "L'aube devant les moai de Tongariki avant l'ouverture des grilles, les chevaux d'une famille rapanui pour monter jusqu'aux hauteurs du Terevaka, et le four enterré que l'on ouvre à la tombée du jour dans un jardin de Hanga Roa.",
+        "L'aube devant les moai de Tongariki avec un guide rapanui, les chevaux d'une famille rapanui pour monter jusqu'aux hauteurs du Terevaka, et le four enterré que l'on ouvre à la tombée du jour dans un jardin de Hanga Roa.",
       slugs: [
         "tongariki-lever-soleil",
         "terevaka-cheval-rapa-nui",
@@ -152,8 +152,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Dormir au-dessus de l'océan, ou à l'écart du village",
       description:
-        "Un lodge posé sur le plateau du sud, une maison de pierre volcanique en surplomb du Pacifique à la sortie de Hanga Roa, et un jardin de chambres basses au-dessus des moai de Tahai.",
-      slugs: ["explora-rapa-nui", "nayara-hangaroa", "altiplanico-rapa-nui"],
+        "Un lodge posé sur une colline au sud-ouest de l'île, une maison de pierre volcanique en surplomb du Pacifique à la sortie de Hanga Roa, et un petit hôtel contemporain au cœur de Hanga Roa.",
+      slugs: ["explora-rapa-nui", "nayara-hangaroa", "hare-uta"],
     },
 
     {
@@ -230,9 +230,9 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure à l'île de Pâques entre Rano Raraku, Orongo et Anakena",
             "Adresses confidentielles à Rapa Nui : terres privées et grottes de familles rapanui",
-            "Hébergements à l'île de Pâques : lodge du plateau sud et maisons de Hanga Roa",
-            "Conciergerie privée 24/7 pour un voyage à l'île de Pâques",
-            "Expériences immersives à Rapa Nui : carrière de Rano Raraku et umu pae en famille",
+            "Toits d'herbe de Nayara Hangaroa vus du ciel, au-dessus de Hanga Roa",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Guide rapanui présentant les moai de Rano Raraku à un couple de voyageurs",
           ][i],
         },
       })),
@@ -273,7 +273,7 @@ export const destination: Destination = {
         {
           title: "Ahu Tongariki",
           description:
-            "La plus grande plateforme de l'île, relevée après qu'un raz-de-marée avait couché ses moai. Le soleil se lève juste derrière eux. Nous vous y conduisons avant que les grilles n'ouvrent, quand il n'y a encore personne sur le site.",
+            "La plus grande plateforme de l'île, relevée après qu'un raz-de-marée avait couché ses moai. Le soleil se lève juste derrière eux. Nous vous y conduisons avant l'aube, avec un guide rapanui.",
           image: {
             src: "/destination/ile-de-paques/map-tongariki.webp",
             alt: "Moai d'Ahu Tongariki en contre-jour au lever du soleil à Rapa Nui",
@@ -551,8 +551,8 @@ export const destination: Destination = {
               <p>
                 Trois postes font le budget : le vol depuis Santiago, la maison
                 choisie sur l&apos;île, et les accès que nous négocions localement,
-                la carrière avec l&apos;archéologue, Tongariki avant
-                l&apos;ouverture, les terres et les grottes privées. Nous
+                la carrière avec un guide rapanui, Tongariki à
+                l&apos;aube, les terres et les grottes privées. Nous
                 détaillons ces lignes séparément dans le devis, pour que chacun
                 décide où mettre le curseur.
               </p>
@@ -571,7 +571,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Nous sommes entrés dans la carrière au petit matin avec l'archéologue, et il n'y avait personne d'autre. Il nous a montré ce que l'on ne voit jamais depuis le chemin. Quand les premiers visiteurs sont arrivés, nous étions déjà ailleurs sur l'île.",
+            "Nous sommes entrés dans la carrière dès l'ouverture avec notre guide. Il nous a montré ce que l'on ne remarque pas seul, moai par moai. Quand les groupes sont arrivés, nous étions déjà ailleurs sur l'île.",
           image: {
             src: "/destination/ile-de-paques/hero-1.webp",
             alt: "Portrait", // TODO: verify
@@ -645,7 +645,7 @@ export const destination: Destination = {
         {
           question: "Combien coûte un voyage à l'île de Pâques ?",
           answer:
-            "Trois postes font l'essentiel du budget : le vol depuis Santiago, dont la fréquence limitée fait monter les prix en haute saison ; la maison choisie sur l'île, du lodge posé sur le plateau du sud aux chambres basses installées au-dessus des moai de Tahai ; et les accès que nous négocions localement, la carrière de Rano Raraku avec un archéologue, Ahu Tongariki avant l'ouverture, les terres et les grottes de familles rapanui. Nous détaillons ces lignes séparément avant toute réservation, sans engagement.",
+            "Trois postes font l'essentiel du budget : le vol depuis Santiago, dont la fréquence limitée fait monter les prix en haute saison ; la maison choisie sur l'île, du lodge posé sur sa colline du sud-ouest au petit hôtel de Hanga Roa ; et les accès que nous négocions localement, la carrière de Rano Raraku avec un guide rapanui, Ahu Tongariki à l'aube, les terres et les grottes de familles rapanui. Nous détaillons ces lignes séparément avant toute réservation, sans engagement.",
         },
       ],
     },

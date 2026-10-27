@@ -29,3 +29,12 @@ Each generated image in `public/destination/fidji/` was produced by feeding the 
 | `map-kadavu.png`             | `map-kadavu-ref.jpg`              | TODO       | TODO    |
 | `map-beqa.png`               | `map-beqa-ref.jpg`                | TODO       | TODO    |
 | `map-lau.png`                | `map-lau-ref.jpg`                 | TODO       | TODO    |
+| `map-mamanuca.webp` | Wikimedia Commons : File:Mololo Lailai, Fiji.jpg | CC BY 2.0 |
+| `map-yasawa.webp` | Wikimedia Commons : File:Waya Lailai 1.jpg | Public domain |
+| `map-taveuni.webp` | Wikimedia Commons : File:Taveuni, Fiji looking toward Matagi.jpg | CC BY 2.0 |
+| `map-kadavu.webp` | Wikimedia Commons : File:Kadavu and Great Astrolabe Reef.jpg | CC BY-SA 3.0 |
+| `map-beqa.webp` | Wikimedia Commons : File:Beqa Lagoon - Fiji.jpg | CC BY 2.0 |
+| `map-lau.webp` | Wikimedia Commons : File:Yanuyanu from above Lomaloma, Vanua Balavu Fiji.jpg | CC BY-SA 4.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |

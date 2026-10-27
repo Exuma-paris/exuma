@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "tongariki-lever-soleil",
   name: "Les moai de Tongariki au lever du jour",
   blurb:
-    "On quitte Hanga Roa dans la nuit pour arriver devant les statues avant l'ouverture des grilles. Le ciel se colore lentement derrière elles, et pendant un long moment leurs silhouettes n'ont plus de visage. Nous vous y conduisons seuls, avec un guide rapanui.",
+    "On quitte Hanga Roa dans la nuit pour arriver devant les statues avant l'aube. Le ciel se colore lentement derrière elles, et pendant un long moment leurs silhouettes n'ont plus de visage. Nous vous y conduisons en privé, avec un guide rapanui.",
   keywords: [
     "ile de paques",
     "rapa nui",

@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "baja-california-sur",
   ],
   heroImage: {
-    src: "/destination/los-cabos/hotel-four-seasons.png",
-    alt: "Four Seasons Los Cabos at Costa Palmas, mer de Cortez, Mexique",
+    src: "/destination/los-cabos/hotel-four-seasons.webp",
+    alt: "Villa blanche et sa piscine privée bordée de palmiers au Four Seasons Costa Palmas, Los Cabos",
   },
   destinationSlugs: ["los-cabos"],
   sections: [],

@@ -29,3 +29,27 @@ Each generated image in `public/destination/galapagos/` was produced by feeding 
 | `map-punta-suarez.png`               | `map-punta-suarez-ref.jpg`             | TODO       | TODO    |
 | `map-post-office-bay.png`            | `map-post-office-bay-ref.jpg`         | TODO       | TODO    |
 | `map-leon-dormido.png`               | `map-leon-dormido-ref.jpg`             | TODO       | TODO    |
+| `map-puerto-ayora.webp` | Wikimedia Commons : File:Water taxi in Puerto Ayora on the Island of Santa Cruz in the Galapagos photo by Alvaro Sevilla Design.JPG | CC BY-SA 3.0 |
+| `map-bartolome.webp` | Wikimedia Commons : File:Pinnacle Rock (33906996938).jpg | CC BY-SA 2.0 |
+| `map-sierra-negra.webp` | Wikimedia Commons : File:Sierra Negra volcano Isabela Island Galápagos Ecuador DSC00328 ad.JPG | CC BY-SA 4.0 |
+| `map-punta-suarez.webp` | Wikimedia Commons : File:Waved Albatross (Phoebastria irrorata) -Espanola -Punta Suarez3.jpg | CC BY-SA 2.0 |
+| `map-post-office-bay.webp` | Wikimedia Commons : File:Post office-Floreana.jpg | CC BY-SA 3.0 |
+| `map-leon-dormido.webp` | Wikimedia Commons : File:León Dormido (Kicker Rock).JPG | CC BY-SA 3.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+| `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |
+| `hero-1.webp` | iStock 145053763 (aperçu), recadrée carrée, agrandie fidèlement | Licence iStock à acheter |
+| `hero-2.webp` | incatrek-ecuador.com (yacht devant Kicker Rock), recadrée carrée, ciel bleu par IA | À confirmer |
+| `hero-3.webp` | civitatis.com (tortue et héron, El Chato), recadrée carrée, agrandie fidèlement | À confirmer |
+| `full-image.webp` | civitatis.com (caldeira Sierra Negra), recadrée 16:9, agrandie fidèlement | À confirmer |
+| `split-1.webp` | lookoom.home.blog (baie de Puerto Ayora), recadrée 3:4 sans la signature, agrandie fidèlement | À confirmer |
+| `split-2.webp` | venturatravel.org (tortue géante, Santa Cruz), recadrée carrée | À confirmer |
+| `xp-darwin-wolf-1.webp` | seacrush.com (bateau au pied de l'île Wolf, vue drone) | À confirmer |
+| `xp-darwin-wolf-2.webp` | happygringo.com (banc de requins-marteaux), recadrée 3:4, agrandie fidèlement | À confirmer |
+| `xp-tortues-santa-cruz.webp` | venturatravel.org (photo de voyageurs avec une tortue géante), recadrée carrée, ciel ensoleillé par IA | À confirmer, personnes reconnaissables |
+| `xp-albatros-punta-suarez.webp` | happygringo.com (couple d'albatros), recadrée carrée, agrandie fidèlement | À confirmer |
+| `xp-otaries-espanola.webp` | Générée par IA, inspirée d'une photo Getty (andBeyond) | image générée |
+| `hotel-aqua-mare.webp` | liveaboard.com (salon et pont arrière), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-pikaia-lodge.webp` | blog.makila.fr (façade du lodge), recadrée carrée, agrandie fidèlement | À confirmer |
+| `hotel-theory.webp` | Robb Report (pont soleil du Theory), recadrée carrée, agrandie fidèlement | À confirmer |

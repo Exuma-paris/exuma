@@ -33,3 +33,10 @@ Reference binaries are gitignored; this file is tracked.
 | `map-new-york.webp`            | `map-new-york-ref.jpg`             | TODO       | TODO    |             |
 
 Testimonial portraits reuse `hero-1.webp`, `hero-2.webp` and `hero-3.webp` — no separate files.
+| `map-grand-canyon.webp` | Wikimedia Commons : File:Grand Canyon (Arizona, USA), South Rim nahe Tusayan -- 2012 -- 6042.jpg | CC BY-SA 4.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp` | Générée par IA (gen_text) | image générée |
+| `bento-hebergements.webp` | Recadrage de hotel-amangiri | |
+| `hotel-post-ranch-inn.webp` | The Hotel Guru (terrasse face au Pacifique), recadrée carrée | À confirmer |
+| `hotel-the-mark.webp` | Tripadvisor (façade du Mark), recadrée carrée, agrandie fidèlement | À confirmer |

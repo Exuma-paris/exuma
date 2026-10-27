@@ -31,3 +31,12 @@ Each generated image in `public/destination/republique-dominicaine/` is produced
 | `map-santo-domingo.png`                    | `map-santo-domingo-ref.jpg`                  | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.png`, `hero-2.png`, `hero-3.png` — no separate files.
+| `map-samana.webp` | Wikimedia Commons : File:Playa Los Cayos.jpg | CC BY-SA 3.0 |
+| `map-los-haitises.webp` | Wikimedia Commons : File:Los Haitises Park.jpeg | CC BY-SA 3.0 |
+| `map-punta-cana.webp` | Wikimedia Commons : File:Natura Park beach, view towards the southeast, Punta Cana, 2004.jpg | CC0 |
+| `map-altos-de-chavon.webp` | Wikimedia Commons : File:Altos de Chavón.jpg | CC BY-SA 3.0 |
+| `map-rio-san-juan.webp` | Wikimedia Commons : File:Доминиканская Республика - panoramio (3).jpg | CC BY 3.0 |
+| `map-santo-domingo.webp` | Wikimedia Commons : File:Calle las Damas, Santo Domingo, Zona Colonial.jpg | CC0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |

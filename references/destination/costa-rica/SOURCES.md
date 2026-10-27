@@ -70,3 +70,5 @@ Construite par script à partir des frontières administratives réelles, dans l
 Les portraits des témoignages réutilisent `hero-1/2/3.webp` : aucun fichier dédié.
 
 Les binaires de référence sont gitignorés (`references/**/*.{jpg,jpeg,png,webp}`) ; ce `SOURCES.md` et les fichiers `geo/*.geojson` sont suivis par git.
+| `split-1.webp` | misticopark.com (Arenal et pont suspendu, drone), recadrée 3:4, agrandie fidèlement | À confirmer |
+| `full-image.webp` | LinkedIn (place de La Fortuna), logo retiré par IA, agrandie | À confirmer |

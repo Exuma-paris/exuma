@@ -233,13 +233,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/saint-barthelemy/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/saint-barthelemy/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Saint-Barthélemy entre Gustavia, Flamands et Colombier",
-            "Adresses confidentielles à Saint-Barthélemy : tables de chefs et anses sans route",
+            "Table dressée sur le sable d’une anse sans route, Saint-Barthélemy",
             "Hébergements à Saint-Barthélemy : Cheval Blanc, Le Guanahani et Eden Rock",
-            "Conciergerie privée 24/7 pour un séjour à Saint-Barthélemy",
-            "Expériences à Saint-Barthélemy : mouillage de l'Île Fourchue et vannerie de Corossol",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Voilier au mouillage dans la baie de l’Île Fourchue, au large de Saint-Barthélemy",
           ][i],
         },
       })),
@@ -260,8 +260,8 @@ export const destination: Destination = {
           description:
             "Le port occupe le fond d'une baie étroite, et l'on s'y promène le soir entre les voiliers et les vitrines. Les tables de Gustavia sont tenues par des chefs installés là depuis longtemps, et le marché du matin sent la mangue et le poisson.",
           image: {
-            src: "/destination/saint-barthelemy/map-gustavia.png",
-            alt: "Le port de Gustavia à Saint-Barthélemy et ses voiliers au quai",
+            src: "/destination/saint-barthelemy/map-gustavia.webp",
+            alt: "Grands voiliers amarrés au quai de Gustavia au crépuscule, Saint-Barthélemy",
           },
           // TODO: verify coords
           coordinates: { lat: 17.8963, lng: -62.8498 },
@@ -271,7 +271,7 @@ export const destination: Destination = {
           description:
             "C'est la baie la plus vivante de l'île, coupée en deux par le rocher de l'Eden Rock. L'eau y est peu profonde et calme, les boutiques et les tables bordent la plage, et l'on y croise tout le monde au fil de la journée.",
           image: {
-            src: "/destination/saint-barthelemy/map-saint-jean.png",
+            src: "/destination/saint-barthelemy/map-saint-jean.webp",
             alt: "La baie de Saint-Jean et son rocher central vus depuis la plage",
           },
           // TODO: verify coords
@@ -282,8 +282,8 @@ export const destination: Destination = {
           description:
             "C'est le village des vannières, où le lantana sèche au soleil avant d'être tressé en chapeaux et en paniers. Le savoir-faire se transmet de mère en fille depuis des générations, et les femmes le montrent volontiers à qui prend le temps de s'asseoir près d'elles.",
           image: {
-            src: "/destination/saint-barthelemy/map-corossol.png",
-            alt: "Barques de pêche tirées sur le sable du village de Corossol",
+            src: "/destination/saint-barthelemy/map-corossol.webp",
+            alt: "Baie de Corossol et ses voiliers au mouillage, Saint-Barthélemy",
           },
           // TODO: verify coords
           coordinates: { lat: 17.9092, lng: -62.8531 },
@@ -293,7 +293,7 @@ export const destination: Destination = {
           description:
             "Aucune route ne descend jusqu'à Colombier : on y arrive par le sentier de la pointe ou par la mer. Les rochers abritent la baie, l'eau y reste claire quand le vent forcit ailleurs, et les tortues remontent respirer près du bord.",
           image: {
-            src: "/destination/saint-barthelemy/map-colombier.png",
+            src: "/destination/saint-barthelemy/map-colombier.webp",
             alt: "L'anse de Colombier fermée par ses rochers à Saint-Barthélemy",
           },
           // TODO: verify coords
@@ -304,7 +304,7 @@ export const destination: Destination = {
           description:
             "Ce sont les deux grandes plages du sud, sauvages et sans une maison en vue. À Saline, on franchit la dune et la mer apparaît d'un coup. Au Gouverneur, les collines ferment la baie de chaque côté et l'eau vire au vert en fin de journée.",
           image: {
-            src: "/destination/saint-barthelemy/map-saline-gouverneur.png",
+            src: "/destination/saint-barthelemy/map-saline-gouverneur.webp",
             alt: "La plage sauvage de Grande Saline derrière sa dune",
           },
           // TODO: verify coords
@@ -315,11 +315,11 @@ export const destination: Destination = {
           description:
             "L'îlot inhabité se dessine au nord de Saint-Barth, deux bras de terre refermés sur un mouillage abrité. Les chèvres sauvages y vivent seules, les oiseaux de mer nichent dans les rochers, et les bateaux repartent avant le soir.",
           image: {
-            src: "/destination/saint-barthelemy/map-ile-fourchue.png",
+            src: "/destination/saint-barthelemy/map-ile-fourchue.webp",
             alt: "L'Île Fourchue inhabitée et son mouillage abrité au nord de Saint-Barth",
           },
           // TODO: verify coords
-          coordinates: { lat: 17.9797, lng: -62.9139 },
+          coordinates: { lat: 17.958, lng: -62.905 },
         },
       ],
     },

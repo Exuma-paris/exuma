@@ -233,7 +233,7 @@ export const destination: Destination = {
             "Carte d'un itinéraire sur mesure au Mexique",
             "Assiette de mole servie dans une cuisine mexicaine",
             "Salon d'un hôtel mexicain ouvert par une large baie sur la végétation",
-            "Concierge coordonnant un transfert privé au Mexique",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Surfeurs rejoignant l'océan au coucher du soleil sur la côte du Pacifique",
           ][i],
         },
@@ -256,7 +256,7 @@ export const destination: Destination = {
             "Dans le bois de Chapultepec, le musée rassemble les trésors des civilisations du pays, de Teotihuacán aux Mexicas. On y comprend le Mexique avant de le parcourir, et l'on garde ensuite la ville pour ses fresques et ses tables.",
           image: {
             src: "/destination/mexique/map-mexico.webp",
-            alt: "Salle mexica du musée national d'anthropologie de Mexico",
+            alt: "Pierre du Soleil aztèque dans la salle mexica du musée national d'anthropologie de Mexico",
           },
           coordinates: { lat: 19.426, lng: -99.1863 }, // TODO: verify coords
         },

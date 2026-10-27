@@ -36,16 +36,16 @@ export const destination: Destination = {
         "Lima au niveau de la mer, Cusco à 3 400 mètres, le col d'Abra Málaga à plus de 4 300 mètres avant la descente vers la jungle. Le Machu Picchu, redécouvert par Hiram Bingham en 1911, la Vallée Sacrée, le lac Titicaca, le plus haut lac navigable du monde : chaque étape répond à une logique d'altitude. Nous construisons cette logique depuis le premier échange.",
       images: [
         {
-          src: "/destination/perou/hero-1.png",
-          alt: "Citadelle du Machu Picchu entourée de sommets andins au Pérou",
+          src: "/destination/perou/hero-1.webp",
+          alt: "Citadelle du Machu Picchu et le Huayna Picchu dans les nuages, Pérou",
         },
         {
-          src: "/destination/perou/hero-2.png",
-          alt: "Terrasses agricoles incas de Moray dans la Vallée Sacrée du Pérou",
+          src: "/destination/perou/hero-2.webp",
+          alt: "Barque de roseaux et maisons des îles flottantes des Uros sur le lac Titicaca",
         },
         {
-          src: "/destination/perou/hero-3.png",
-          alt: "Îles flottantes des Uros sur le lac Titicaca au coucher du soleil",
+          src: "/destination/perou/hero-3.webp",
+          alt: "Terrasses circulaires incas de Moray vues du ciel, Vallée Sacrée du Pérou",
         },
       ],
     },
@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/perou/full-image.png",
-        alt: "Vue aérienne de la citadelle du Machu Picchu au lever du jour, Pérou",
+        src: "/destination/perou/full-image.webp",
+        alt: "Citadelle du Machu Picchu dans la brume du matin, au pied du Huayna Picchu, Pérou",
       },
       height: 600,
     },
@@ -98,12 +98,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/perou/split-1.png",
-          alt: "Ruelle pavée de pierres incas dans le centre historique de Cusco",
+          src: "/destination/perou/split-1.webp",
+          alt: "Femme en tenue andine et son lama longeant un mur inca dans une ruelle de Cusco",
         },
         {
-          src: "/destination/perou/split-2.png",
-          alt: "Marché de San Pedro à Cusco au petit matin",
+          src: "/destination/perou/split-2.webp",
+          alt: "Marchande en chapeau devant ses étals de fruits au marché de San Pedro, Cusco",
         },
       ],
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/perou/xp-machu-picchu-aube-1.png",
-          alt: "Première lumière sur la citadelle du Machu Picchu avant l'arrivée des visiteurs",
+          src: "/destination/perou/xp-machu-picchu-aube-1.webp",
+          alt: "Voyageur sous la porte de pierre inca d'Inti Punku, face aux sommets enneigés des Andes",
         },
         right: {
-          src: "/destination/perou/xp-machu-picchu-aube-2.png",
-          alt: "Escalier inca menant vers la Porte du Soleil au Machu Picchu",
+          src: "/destination/perou/xp-machu-picchu-aube-2.webp",
+          alt: "Maisons de pierre et terrasses de la citadelle du Machu Picchu sous le Huayna Picchu",
         },
       },
       text: {
@@ -134,8 +134,8 @@ export const destination: Destination = {
       type: "entityList",
       kind: "experience",
       background: "bg-white",
-      eyebrow: "Expériences et activités en Pérou",
-      heading: "Nos coups de cœur en Pérou",
+      eyebrow: "Expériences et activités au Pérou",
+      heading: "Nos coups de cœur au Pérou",
       description:
         "Trois expériences qui prennent vie dans des lieux et des rencontres singulières : un chef d'altitude à Lima, un archéologue dans la Vallée Sacrée, un naturaliste en Amazonie. Aucune n'est démonstrative.",
       slugs: [
@@ -230,13 +230,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/perou/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/perou/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé au Pérou",
-            "Ruelle du centre historique de Cusco",
-            "Suite avec vue sur la Vallée Sacrée du Pérou",
-            "Concierge Exuma coordonnant un transfert privé au Pérou",
-            "Guide privé commentant les terrasses incas de Moray",
+            "Ruelle pavée de Cusco entre murs incas et balcons coloniaux",
+            "Chambre ouverte sur les terrasses et les sommets de la Vallée Sacrée, Pérou",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Guide privé expliquant les terrasses circulaires de Moray à deux voyageurs",
           ][i],
         },
       })),
@@ -257,7 +257,7 @@ export const destination: Destination = {
           description:
             "La ville s'organise autour de la Plaza de Armas, bâtie sur les fondations du Qorikancha, le temple du Soleil. Capitale de l'empire jusqu'en 1533.",
           image: {
-            src: "/destination/perou/map-cusco.png",
+            src: "/destination/perou/map-cusco.webp",
             alt: "Plaza de Armas de Cusco entourée de sommets andins",
           },
           coordinates: { lat: -13.5319, lng: -71.9675 },
@@ -267,7 +267,7 @@ export const destination: Destination = {
           description:
             "Cité inca du XVe siècle, redécouverte par l'explorateur Hiram Bingham en 1911. Perchée à 2 430 mètres, invisible depuis la vallée en contrebas.",
           image: {
-            src: "/destination/perou/map-machu-picchu.png",
+            src: "/destination/perou/map-machu-picchu.webp",
             alt: "Citadelle du Machu Picchu et le Huayna Picchu en arrière-plan",
           },
           coordinates: { lat: -13.1631, lng: -72.545 },
@@ -277,7 +277,7 @@ export const destination: Destination = {
           description:
             "Les terrasses circulaires de Moray servaient de laboratoire agricole inca. À quelques kilomètres, les salines de Maras sont exploitées depuis le XVe siècle.",
           image: {
-            src: "/destination/perou/map-vallee-sacree.png",
+            src: "/destination/perou/map-vallee-sacree.webp",
             alt: "Terrasses agricoles circulaires de Moray dans la Vallée Sacrée",
           },
           coordinates: { lat: -13.33, lng: -72.19 }, // TODO: verify coords
@@ -287,7 +287,7 @@ export const destination: Destination = {
           description:
             "À 3 812 mètres d'altitude, le lac partagé avec la Bolivie abrite les Uros, qui vivent sur des îles flottantes tissées en roseau totora.",
           image: {
-            src: "/destination/perou/map-titicaca.png",
+            src: "/destination/perou/map-titicaca.webp",
             alt: "Île flottante des Uros sur le lac Titicaca",
           },
           coordinates: { lat: -15.8402, lng: -69.335 }, // TODO: verify coords
@@ -297,7 +297,7 @@ export const destination: Destination = {
           description:
             "À moins de deux heures de vol de Lima, la réserve nationale de Tambopata concentre l'une des plus grandes biodiversités de la planète.",
           image: {
-            src: "/destination/perou/map-amazonie.png",
+            src: "/destination/perou/map-amazonie.webp",
             alt: "Canopée de la réserve de Tambopata en Amazonie péruvienne",
           },
           coordinates: { lat: -12.8333, lng: -69.2833 }, // TODO: verify coords
@@ -307,8 +307,8 @@ export const destination: Destination = {
           description:
             "Le quartier de Barranco, bohème et colonial, borde le Pacifique. La capitale concentre une partie de la gastronomie la plus reconnue d'Amérique du Sud.",
           image: {
-            src: "/destination/perou/map-lima.png",
-            alt: "Falaises de Barranco surplombant le Pacifique à Lima",
+            src: "/destination/perou/map-lima.webp",
+            alt: "Falaises de la côte de Lima plongeant dans le Pacifique",
           },
           coordinates: { lat: -12.0464, lng: -77.0428 },
         },
@@ -533,7 +533,7 @@ export const destination: Destination = {
           quote:
             "Notre voyage au Pérou avec Exuma a suivi une logique qu'on n'aurait jamais construite seuls : deux jours à Cusco avant de bouger, puis la Vallée Sacrée, puis le Machu Picchu à l'aube. Chaque étape avait un sens.",
           image: {
-            src: "/destination/perou/hero-1.png",
+            src: "/destination/perou/hero-1.webp",
             alt: "Portrait de Sophie et Marc", // TODO: verify
           },
           name: "Sophie & Marc", // TODO: verify
@@ -544,7 +544,7 @@ export const destination: Destination = {
           quote:
             "La nuit au Sanctuary Lodge et l'entrée au Machu Picchu avant les premiers trains restent le souvenir le plus fort du voyage. Notre travel designer avait tout anticipé, jusqu'à l'acclimatation à Cusco.",
           image: {
-            src: "/destination/perou/hero-2.png",
+            src: "/destination/perou/hero-2.webp",
             alt: "Portrait de Laurent", // TODO: verify
           },
           name: "Laurent", // TODO: verify
@@ -555,7 +555,7 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marquée, c'est l'Amazonie après les Andes : deux pays dans un seul voyage. La réserve de Tambopata, un naturaliste dédié, un rythme qui n'a rien de touristique.",
           image: {
-            src: "/destination/perou/hero-3.png",
+            src: "/destination/perou/hero-3.webp",
             alt: "Portrait de Claire", // TODO: verify
           },
           name: "Claire", // TODO: verify
