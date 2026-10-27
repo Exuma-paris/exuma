@@ -29,3 +29,4 @@ Each generated image in `public/destination/barbade/` was produced by feeding th
 | `map-harrisons-cave.png`         | `map-harrisons-cave-ref.jpg`        | TODO       | TODO    |
 | `map-bathsheba.png`              | `map-bathsheba-ref.jpg`             | TODO       | TODO    |
 | `map-animal-flower-cave.png`     | `map-animal-flower-cave-ref.jpg`    | TODO       | TODO    |
+| `xp-st-nicholas-abbey.webp` | — | Généré par IA (texte seul), évocation du style, pas une photo du lieu | Image originale Exuma |

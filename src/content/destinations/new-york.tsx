@@ -136,9 +136,9 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités à New York",
       heading: "Trois soirées new-yorkaises",
       description:
-        "Trois moments portent le séjour. La patinoire du Rockefeller Center se privatise à la nuit tombée, entre l'igloo chauffé et le dîner au bord de la glace. Un voilier quitte le sud de Manhattan pour deux heures de port. Et au Carlyle, un pianiste joue à trois mètres des tables.",
+        "Trois moments portent le séjour. La patinoire Wollman se privatise à la nuit tombée, au milieu de Central Park. Un voilier quitte le sud de Manhattan pour deux heures de port. Et au Carlyle, un pianiste joue à trois mètres des tables.",
       slugs: [
-        "patinage-vip-rockefeller",
+        "patinoire-privee-wollman",
         "croisiere-privee-voilier-manhattan",
         "soiree-jazz-cafe-carlyle",
       ],
@@ -272,7 +272,7 @@ export const destination: Destination = {
         {
           title: "Le Rockefeller Center",
           description:
-            "Un ensemble de tours des années trente autour d'une place en creux. La place devient patinoire de novembre à mars, sous le sapin, et se privatise en fin de soirée. Le Sea Grill donne directement sur la glace.",
+            "Un ensemble de tours des années trente autour d'une place en creux. La place devient patinoire de novembre à mars, sous le sapin.",
           image: {
             src: "/destination/new-york/map-rockefeller-center.webp",
             alt: "La statue d'Atlas éclairée la nuit, face à la cathédrale Saint-Patrick",
@@ -609,13 +609,13 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "La patinoire du Rockefeller nous a été laissée à la fin de la soirée. Nous avons dîné au bord de la glace, puis patiné à cinq, avec les tours allumées au-dessus.",
+            "La patinoire de Central Park nous a été laissée à la fin de la soirée. Nous avons patiné à cinq, avec les tours allumées au-dessus des arbres.",
           image: {
             src: "/destination/new-york/hero-3.webp",
             alt: "Portrait", // TODO: verify
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Rockefeller Center, janvier 2026", // TODO: replace with real testimonial
+          role: "TODO: Central Park, janvier 2026", // TODO: replace with real testimonial
         },
       ],
     },
@@ -650,7 +650,7 @@ export const destination: Destination = {
         {
           question: "Que faire à New York en 5 jours ?",
           answer:
-            "Cinq nuits suffisent pour tenir la ville sans courir. Une matinée au Frick un jour de fermeture, une soirée dans le West Village, une autre à Broadway avec les comédiens après le rideau, deux heures de voilier dans le port depuis le sud de l'île, et une fin de soirée au Café Carlyle. Central Park se garde pour les matins, Brooklyn et Dumbo pour une demi-journée entière. En hiver, la patinoire du Rockefeller Center remplace la sortie en mer.",
+            "Cinq nuits suffisent pour tenir la ville sans courir. Une matinée au Frick un jour de fermeture, une soirée dans le West Village, une autre à Broadway avec les comédiens après le rideau, deux heures de voilier dans le port depuis le sud de l'île, et une fin de soirée au Café Carlyle. Central Park se garde pour les matins, Brooklyn et Dumbo pour une demi-journée entière. En hiver, la patinoire Wollman remplace la sortie en mer.",
         },
         {
           question: "New York est-il adapté aux familles ?",

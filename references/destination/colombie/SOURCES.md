@@ -29,5 +29,7 @@ Each generated image in `public/destination/colombie/` was produced by feeding t
 | `map-cano-cristales.png`         | `map-cano-cristales-ref.jpg`       | TODO       | TODO    |
 | `map-leticia.png`                | `map-leticia-ref.jpg`              | TODO       | TODO    |
 | `map-bahia-solano.png`           | `map-bahia-solano-ref.jpg`         | TODO       | TODO    |
+| `xp-tayrona.webp` | — | Généré par IA (texte seul) | Image originale Exuma |
+| `hotel-calanoa.webp` | — | Généré par IA (texte seul), paysage sans le bâtiment du lodge | Image originale Exuma |
 
 Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); this file is tracked.

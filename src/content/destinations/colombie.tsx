@@ -150,8 +150,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements en Colombie",
       heading: "Où séjourner",
       description:
-        "Trois adresses qui racontent trois Colombie différentes : un couvent du XVIIe siècle dans la vieille ville de Carthagène, une hacienda caféière toujours en activité dans le Quindío, un lodge amazonien accessible uniquement par bateau, à la frontière du Brésil.",
-      slugs: ["casa-san-agustin", "hacienda-san-jose", "reserva-natural-palmari"],
+        "Trois adresses qui racontent trois Colombie différentes : un couvent du XVIIe siècle dans la vieille ville de Carthagène, une hacienda caféière toujours en activité dans le Quindío, un lodge amazonien accessible uniquement par bateau, en lisière du parc Amacayacu.",
+      slugs: ["casa-san-agustin", "hacienda-san-jose", "calanoa-amazonas"],
     },
 
     {

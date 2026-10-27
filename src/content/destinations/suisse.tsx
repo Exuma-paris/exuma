@@ -117,16 +117,16 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/suisse/xp-glacier-aletsch-2.webp",
-          alt: "Table dressée sur la neige face aux glaces du glacier d’Aletsch",
+          alt: "Vue depuis le cockpit d’un hélicoptère au-dessus des sommets enneigés de l’Oberland",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        // TODO: verify — autorisation de dépose en hélicoptère et point de décollage
-        heading: "Le petit-déjeuner qui vous attend sur le glacier d’Aletsch",
+        // TODO: verify — place d’atterrissage de l’Ebnefluh desservie depuis la région d’Aletsch, et opérateur (Air-Glaciers Lauterbrunnen ou Air Zermatt)
+        heading: "Aletsch vu d’en haut, puis le silence de l’Ebnefluh",
         columns: [
-          "L’hélicoptère décolle du Valais au lever du jour et se pose sur le glacier d’Aletsch, là où quatre glaciers se rejoignent. Le pilote coupe le moteur et le silence tombe d’un coup. On entend seulement l’eau qui circule sous la glace.",
-          "La table est déjà dressée sur la neige : pain de seigle valaisan, abricots du pays, café brûlant. Le glacier descend vers la vallée aussi loin que porte le regard, et pour l’heure il n’appartient qu’à vous. Les premiers marcheurs n’arriveront pas avant midi. Nous vous ramenons bien avant eux.",
+          "L’hélicoptère décolle au lever du jour et remonte le glacier d’Aletsch sur toute sa longueur, jusqu’à la Konkordiaplatz où quatre glaciers se rejoignent. Vu d’en haut, le plus long glacier des Alpes ressemble à une route de glace tracée entre les sommets.",
+          "Le pilote se pose ensuite sur le névé de l’Ebnefluh, l’une des rares places d’atterrissage autorisées en haute montagne. Il coupe le moteur. Un quart d’heure dehors, à près de quatre mille mètres, avec un thermos de café et personne d’autre en vue. Le retour se fait avant que les premiers trains n’atteignent le Jungfraujoch.",
         ],
       },
     },
@@ -539,7 +539,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Le petit-déjeuner sur le glacier restera le souvenir du voyage. Ce moment-là est difficile à raconter. Nous étions redescendus avant même que la vallée ne se réveille.",
+            "Le quart d’heure sur l’Ebnefluh restera le souvenir du voyage. Ce moment-là est difficile à raconter. Nous étions redescendus avant même que la vallée ne se réveille.",
           image: {
             src: "/destination/suisse/hero-3.webp",
             alt: "Portrait de Laurent", // TODO: verify

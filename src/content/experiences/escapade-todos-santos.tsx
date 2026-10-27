@@ -7,7 +7,7 @@ export const experience: Experience = {
     "À 80 km de Cabo San Lucas, Todos Santos tient un registre que le corridor n'a pas. Rues d'artistes, ateliers ouverts, falaise de Punta Lobos au-dessus du Pacifique : une journée construite avec un guide qui connaît les gens, pas les sites.",
   keywords: ["los-cabos", "mexique", "todos-santos", "baja", "art", "culture"],
   heroImage: {
-    src: "/destination/los-cabos/xp-todos-santos.png",
+    src: "/destination/los-cabos/xp-todos-santos.webp",
     alt: "Rue d'artistes de Todos Santos, Pueblo Mágico, Baja California Sur",
   },
   destinationSlugs: ["los-cabos"],

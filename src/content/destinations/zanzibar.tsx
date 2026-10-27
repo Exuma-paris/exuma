@@ -136,9 +136,9 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités à Zanzibar",
       heading: "Ce que nous aimons organiser sur l'île",
       description:
-        "Une journée en boutre jusqu'à un banc de sable, une matinée dans le labyrinthe de Stone Town avec un guide francophone, et l'après-midi des épices, du girofle aux bains de Kidichi.",
+        "Une matinée en ngalawa avec un pêcheur de Matemwe, une autre dans le labyrinthe de Stone Town avec un guide francophone, et l'après-midi des épices, du girofle aux bains de Kidichi.",
       slugs: [
-        "safari-bleu-boutre",
+        "ngalawa-pecheur-matemwe",
         "stone-town-visite-privee",
         "epices-kidichi-livingstone",
       ],

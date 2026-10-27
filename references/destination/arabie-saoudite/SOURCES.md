@@ -29,3 +29,4 @@ Each generated image in `public/destination/arabie-saoudite/` was produced by fe
 | `map-sharaan.png` | `map-sharaan-ref.jpg` | TODO | TODO |
 | `map-diriyah.png` | `map-diriyah-ref.jpg` | TODO | TODO |
 | `map-umluj.png` | `map-umluj-ref.jpg` | TODO | TODO |
+| `xp-hegra.webp` | — | Généré par IA (texte seul) | Image originale Exuma |

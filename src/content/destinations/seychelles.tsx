@@ -139,7 +139,7 @@ export const destination: Destination = {
         "coucher-soleil-granit",
         "vol-helicoptere-seychelles",
         "eclosion-tortues-seychelles",
-        "decouverte-iles-bateau-seychelles",
+        "aride-gardes-reserve",
       ],
     },
 

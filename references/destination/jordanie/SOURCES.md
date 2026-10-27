@@ -14,6 +14,8 @@ Toutes les références ci-dessous ont été fournies par l'utilisateur le 26 ao
 | `split-2.webp`                 | `split-2-ref.png`                  | fournie par l'utilisateur           | libre de droit (déclaré) |
 | `xp-petra-by-night-1.webp`     | `xp-petra-by-night-1-ref.png`      | fournie par l'utilisateur           | libre de droit (déclaré) |
 | `xp-petra-by-night-2.webp`     | `xp-petra-by-night-2-ref.png`      | fournie par l utilisateur           | NON libre de droit : passee par Gemini avec changement d angle |
+| `xp-sentier-monastere.webp`    | `xp-sentier-monastere-ref.jpg`     | https://www.lepetitexplorateur.com/wp-content/uploads/2016/03/marcher-monastere-deir-petra-7.jpg | NON libre de droit : mode inspiration (--inspire), groupe de trois ajouté |
+| `xp-monastere-ad-deir.webp`    | —                                  | Généré par IA (texte seul), tons alignés sur `xp-sentier-monastere` | Interne |
 | `xp-wadi-rum-4x4.webp`         | `xp-wadi-rum-4x4-ref.png`          | fournie par l'utilisateur           | libre de droit (déclaré) |
 | `xp-etoiles-wadi-rum.webp`     | `xp-etoiles-wadi-rum-ref.png`      | fournie par l'utilisateur           | libre de droit (déclaré) |
 | `xp-plongee-aqaba.webp`        | `xp-plongee-aqaba-ref.png`         | fournie par l utilisateur           | NON libre de droit : passee par Gemini avec changement de point de vue |

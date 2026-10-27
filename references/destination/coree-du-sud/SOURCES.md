@@ -29,5 +29,7 @@ Each generated image in `public/destination/coree-du-sud/` was produced by feedi
 | `map-jeonju.png`                | `map-jeonju-ref.jpg`                | TODO                              | TODO                     |
 | `map-busan.png`                 | `map-busan-ref.jpg`                 | TODO                              | TODO                     |
 | `map-jeju.png`                  | `map-jeju-ref.jpg`                  | TODO                              | TODO                     |
+| `xp-balwoo-gongyang.webp` | `xp-balwoo-gongyang-ref.jpg` | Inspire : https://www.cordonbleu.edu/Files/MediaFile/51010.jpg, image neuve composée | Image originale Exuma |
+| `xp-remparts-inwangsan.webp` | — | Généré par IA (texte seul) | Image originale Exuma |
 
 Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no separate files.

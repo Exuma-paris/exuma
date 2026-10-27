@@ -137,9 +137,9 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en Égypte",
       heading: "Trois terrains inscrits à l'itinéraire",
       description:
-        "Trois sorties structurent le voyage. On ouvre des tombes normalement fermées au public, sur autorisation et hors horaires. On décolle avant le jour au-dessus de la nécropole thébaine. On rejoint enfin Siwa, à cinq cent soixante kilomètres du Caire, pour une nuit sous tente dans la Grande Mer de Sable.", // TODO: verify distance Le Caire - Siwa
+        "Trois sorties structurent le voyage. On descend dans les deux tombes que le billet ordinaire ne comprend pas, avec un égyptologue. On décolle avant le jour au-dessus de la nécropole thébaine. On rejoint enfin Siwa, à cinq cent soixante kilomètres du Caire, pour une nuit sous tente dans la Grande Mer de Sable.", // TODO: verify distance Le Caire - Siwa
       slugs: [
-        "vallee-rois-tombes-fermees",
+        "seti-nefertari-egyptologue",
         "montgolfiere-necropole-thebaine",
         "siwa-campement-desert",
       ],

@@ -13,6 +13,7 @@ Each generated image in `public/destination/new-york/` was produced by feeding t
 | `xp-broadway-vip-1.webp` | `xp-broadway-vip-1-ref.jpg` | TODO | TODO |
 | `xp-broadway-vip-2.webp` | `xp-broadway-vip-2-ref.jpg` | TODO | TODO |
 | `xp-patinage-rockefeller.webp` | `xp-patinage-rockefeller-ref.jpg` | TODO | TODO |
+| `xp-patinoire-wollman.webp` | `xp-patinoire-wollman-ref.jpg` | https://dynamic-media.tacdn.com/media/photo-o/34/25/c4/b4/caption.jpg | Tripadvisor (référence) |
 | `xp-voilier-manhattan.webp` | `xp-voilier-manhattan-ref.jpg` | TODO | TODO |
 | `xp-jazz-carlyle.webp` | `xp-jazz-carlyle-ref.jpg` | TODO | TODO |
 | `hotel-aman.webp` | `hotel-aman-ref.jpg` | TODO | TODO |

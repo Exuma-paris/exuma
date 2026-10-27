@@ -137,11 +137,11 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en Arabie Saoudite",
       heading: "Trois journées dans la vallée",
       description:
-        "Trois moments portent le séjour à AlUla. Un ballon décolle avant le soleil au-dessus de Hegra et d'Elephant Rock. Un Land Rover des années soixante-dix ouvre la route de Dadan et de Jabal Ikmah. En fin de journée, Elephant Rock passe au rouge et l'on s'installe au pied de la roche.",
+        "Trois moments portent le séjour à AlUla. Un ballon décolle avant le soleil au-dessus de Hegra et d'Elephant Rock. Un Land Rover des années soixante-dix ouvre la route de Dadan et de Jabal Ikmah. En fin de journée, un archéologue lit les façades de Hegra jusqu'au tombeau de Qasr al-Farid.",
       slugs: [
         "montgolfiere-hegra",
         "land-rover-vintage-dadan",
-        "elephant-rock-heure-doree",
+        "hegra-archeologue",
       ],
     },
 

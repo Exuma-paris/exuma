@@ -133,7 +133,7 @@ export const destination: Destination = {
       type: "entityList",
       kind: "experience",
       background: "bg-white",
-      eyebrow: "Expériences et activités en Porto Rico",
+      eyebrow: "Expériences et activités à Porto Rico",
       heading: "Nos coups de cœur à Porto Rico",
       description:
         "Trois expériences ancrées dans trois Porto Rico différents : la canopée d'El Yunque, les ruelles coloniales du Vieux San Juan, le large vers Culebra. Aucune n'est démonstrative.",

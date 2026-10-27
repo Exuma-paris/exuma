@@ -112,20 +112,21 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/jordanie/xp-petra-by-night-1.webp",
-          alt: "Bougies posées au sol éclairant le Siq de Pétra pendant Petra by Night",
+          src: "/destination/jordanie/xp-sentier-monastere.webp",
+          alt: "Guide bédouin et voyageur sur le sentier de grès rose entre Little Petra et le Monastère",
         },
         right: {
-          src: "/destination/jordanie/xp-petra-by-night-2.webp",
-          alt: "Lanternes allumées au sol dans le Siq de Pétra menant à la façade du Khazneh, la nuit",
+          src: "/destination/jordanie/xp-monastere-ad-deir.webp",
+          alt: "Façade du Monastère de Pétra dans la lumière dorée du matin, presque déserte",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Le Siq éclairé à la bougie, et rien d'autre",
+        // TODO: verify — durée du sentier Little Petra-Monastère et guide bédouin
+        heading: "Pétra par la porte de derrière, de Little Petra au Monastère",
         columns: [
-          "Le lundi, le mercredi et le jeudi, le site rouvre après la fermeture. Le Siq est alors éclairé uniquement par des bougies posées au sol, protégées dans des sacs de papier. On descend la faille sans lampe, en suivant la ligne de flammes jusqu'au bout. Le silence est demandé à l'entrée, et il est plutôt bien respecté.",
-          "L'esplanade du Khazneh est couverte de bougies elle aussi. Des musiciens bédouins jouent du rababa et de la flûte, puis quelqu'un raconte l'histoire du site en quelques minutes. La façade reste dans la pénombre presque tout du long, avant d'être éclairée à la fin. C'est le seul moment de la journée où Pétra se regarde sans foule.",
+          "On part de Little Petra, le Siq al-Barid, où les caravanes faisaient halte, avec un guide bédouin dont la famille a vécu dans ces vallées. Le sentier grimpe à travers la montagne pendant deux à trois heures, entre les genévriers et les bergers, loin de l'entrée principale.",
+          "On arrive au Monastère par le haut, au moment où ceux qui sont entrés par le Siq attaquent encore les huit cents marches. La façade est plus grande que celle du Khazneh, et on la regarde d'abord seuls, avant de redescendre vers la ville nabatéenne.",
         ],
       },
     },
@@ -362,16 +363,16 @@ export const destination: Destination = {
           ),
         },
         {
+          // TODO: verify — jours de Petra by Night (du dimanche au jeudi selon visitpetra.jo)
           title: "Petra by Night ne se joue pas tous les soirs",
           cardEyebrow: "Site",
           modalEyebrow: "Guide pratique",
           shortDescription:
-            "La soirée aux bougies n'a lieu que trois fois par semaine, et elle cale toute l'étape",
+            "La soirée aux bougies n'a pas lieu tous les soirs, et elle cale toute l'étape",
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                Le site rouvre le lundi, le mercredi et le jeudi après la
-                fermeture, et le Siq est alors éclairé uniquement par des
+                Le site rouvre du dimanche au jeudi après la fermeture, et le Siq est alors éclairé uniquement par des
                 bougies, environ mille cinq cents disposées au sol. Le départ se
                 fait du centre des visiteurs à 20h30 et le retour vers 22h30.
               </p>

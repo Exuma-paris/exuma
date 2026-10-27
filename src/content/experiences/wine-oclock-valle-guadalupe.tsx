@@ -17,6 +17,6 @@ export const experience: Experience = {
     src: "/destination/los-cabos/xp-wine-vigne.png",
     alt: "Vignes du Valle de Guadalupe au lever du soleil, Baja California",
   },
-  destinationSlugs: ["los-cabos", "baja-california"],
+  destinationSlugs: ["baja-california"],
   sections: [],
 };

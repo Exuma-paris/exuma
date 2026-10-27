@@ -139,7 +139,7 @@ export const destination: Destination = {
       description:
         "Trois moments ancrés dans un lieu et dans des personnes. Ni démonstration, ni programme : ce qui reste quand on retire le décor.",
       slugs: [
-        "diner-banc-de-sable-noonu",
+        "astronome-soneva-jani",
         "peche-dhoni-coucher-soleil",
         "atelier-corail-biologiste",
       ],
@@ -538,7 +538,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Ce que j'ai apprécié, c'est de n'avoir rien à vérifier. Un seul interlocuteur, du premier appel au retour. Le dîner sur le banc de sable, seuls, valait le voyage à lui seul.",
+            "Ce que j'ai apprécié, c'est de n'avoir rien à vérifier. Un seul interlocuteur, du premier appel au retour. La nuit au télescope avec l'astronome, les enfants s'en souviennent encore.",
           image: {
             src: "/destination/maldives/hero-3.webp",
             alt: "Portrait de Nicolas", // TODO: verify

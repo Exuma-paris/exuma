@@ -2,10 +2,10 @@ import type { Experience } from "@/lib/content/types";
 
 export const experience: Experience = {
   slug: "sables-secrets-rio",
-  name: "Explorez les sables secrets de Rio",
+  name: "Les plages sauvages de l'ouest, puis la mangrove de Guaratiba en paddle",
   blurb:
-    "Explorez les plages sauvages de Rio, comme Macumba, Secreto, Prainha et Grumari et profitez du soleil. À Guaratiba, un instructeur vous guidera en stand-up paddle à travers mangroves et canaux jusqu'à Restinga de Marambaia. Des photos professionnelles immortaliseront ce moment unique.",
-  keywords: ["rio", "plage", "prainha", "grumari", "stand-up paddle", "marambaia"],
+    "Passé la Barra, la ville s'arrête. Prainha et Grumari n'ont ni immeuble ni kiosque, seulement la forêt qui descend jusqu'au sable. L'après-midi, un instructeur vous emmène en paddle dans les canaux de la mangrove de Guaratiba, jusqu'aux abords de la Marambaia.",
+  keywords: ["rio", "plage", "prainha", "grumari", "guaratiba", "mangrove", "stand-up paddle"],
   heroImage: {
     src: "/experience/sables-secrets-rio/hero.png",
     alt: "Plages sauvages de Prainha et Grumari, Rio de Janeiro",

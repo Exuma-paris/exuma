@@ -12,7 +12,7 @@ Each generated image in `public/destination/maldives/` was produced by feeding t
 | `split-2.png`                       | `split-2-ref.jpg`                       | TODO       | TODO    |
 | `xp-hanifaru-1.png`                 | `xp-hanifaru-1-ref.jpg`                 | TODO       | TODO    |
 | `xp-hanifaru-2.png`                 | `xp-hanifaru-2-ref.jpg`                 | TODO       | TODO    |
-| `xp-banc-de-sable.png`              | `xp-banc-de-sable-ref.jpg`              | TODO       | TODO    |
+| `xp-astronome-soneva.webp`          | —                                       | Généré par IA (texte seul) | Interne |
 | `xp-dhoni.png`                      | `xp-dhoni-ref.jpg`                      | TODO       | TODO    |
 | `xp-corail.png`                     | `xp-corail-ref.jpg`                     | TODO       | TODO    |
 | `hotel-soneva-jani.png`             | `hotel-soneva-jani-ref.jpg`             | TODO       | TODO    |

@@ -122,10 +122,10 @@ export const destination: Destination = {
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Changdeokgung en privé, puis le hanbok jusqu'au dîner",
+        heading: "Changdeokgung, puis le hanbok chez un tailleur",
         columns: [
-          "La journée commence à Changdeokgung, le palais royal le mieux conservé de Séoul. Derrière les pavillons, une porte donne sur le Jardin secret : un vallon boisé avec des étangs, des pavillons de lecture et de très vieux arbres. La visite se fait en privé, avec un guide francophone, avant l'arrivée des groupes.",
-          "L'après-midi passe au Korea Furniture Museum, une collection de maisons de bois remontées sur une colline, qui ne se visite que sur rendez-vous. Vient ensuite l'essayage d'un hanbok, la tenue traditionnelle, dans un atelier de Cheongdam, avec un photographe pour la séance. La journée se termine par un dîner de cuisine coréenne contemporaine.",
+          "La journée commence à Changdeokgung, le palais royal le mieux conservé de Séoul, avec un guide francophone qui en connaît l'histoire pavillon par pavillon. Derrière, le Jardin secret ne s'ouvre qu'en visite officielle, à heures fixes : on réserve le premier créneau, quand le vallon, ses étangs et ses pavillons de lecture sont encore calmes.",
+          "L'après-midi passe au Korea Furniture Museum, une collection de maisons de bois remontées sur une colline, qui ne se visite que sur rendez-vous. Vient ensuite un atelier de hanbok à Cheongdam, où la tailleuse montre comment la soie se coupe et se plie. La journée se termine par un dîner de cuisine coréenne contemporaine.",
         ],
       },
     },
@@ -139,8 +139,8 @@ export const destination: Destination = {
       description:
         "Ces trois sorties se calent avant le départ. Les créneaux du soir partent vite, surtout au printemps et à l'automne, quand les Coréens voyagent eux aussi.",
       slugs: [
-        "soiree-seoul-street-food",
-        "n-seoul-tower",
+        "cuisine-temple-balwoo-gongyang",
+        "remparts-seoul-inwangsan",
         "atelier-cuisine-busan",
       ],
     },

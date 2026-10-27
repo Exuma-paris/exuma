@@ -73,7 +73,7 @@ export const destination: Destination = {
       columns: [
         "Un voyage au Sri Lanka change plusieurs fois de climat sans jamais imposer une longue route. Le matin, on gravit un rocher de granit qu'un roi avait transformé en capitale. L'après-midi, on gagne les hautes terres, où l'air se rafraîchit d'un coup et où les théiers couvrent les versants jusqu'à la crête. Le lendemain, la jungle sèche du sud-est et ses pistes de sable.",
         "Le triangle culturel n'est pas une formule d'agence. Anuradhapura, Polonnaruwa et Sigiriya sont trois capitales successives, abandonnées les unes après les autres entre le IVe siècle avant notre ère et le XIIIe. Les figuiers ont poussé dans les palais. Les fresques des demoiselles de Sigiriya ont mille cinq cents ans et gardent leurs pigments.",
-        "Ceylon Tea Trails occupe quatre bungalows de planteurs dans la vallée de Bogawantalawa. Amangalla tient un bâtiment de 1684 à l'intérieur des remparts de Galle. Entre les deux, il y a sept heures de voie unique, un col à Nanu Oya et une logique de voyage que nous écrivons dossier par dossier.",
+        "Ceylon Tea Trails occupe quatre bungalows de planteurs dans la vallée de Bogawantalawa. Amangalla tient un bâtiment de 1684 à l'intérieur des remparts de Galle. Entre les deux, il y a sept heures de voie unique, le col de Pattipola et une logique de voyage que nous écrivons dossier par dossier.",
       ],
     },
 
@@ -361,9 +361,10 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                La ligne date des années 1860 et servait à évacuer le thé des
-                hautes terres. Elle grimpe jusqu'à Nanu Oya, longe les
-                plantations de Haputale et traverse le viaduc de Demodara. Les
+                La ligne a été posée entre les années 1880 et 1920 pour évacuer
+                le thé des hautes terres. Elle passe par la gare de Nanu Oya,
+                franchit le col de Pattipola et longe les plantations de
+                Haputale jusqu'à Ella, à deux pas du viaduc de Demodara. Les
                 fenêtres restent ouvertes. Les vendeurs de vadai montent à
                 chaque arrêt.
               </p>

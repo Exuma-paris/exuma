@@ -17,6 +17,8 @@ Sortie : WebP, 4096x2304 en 16:9 pour les images générées, format natif pour 
 | `split-1.webp` | `split-1-ref.png` | Preserve + grade | À préciser |
 | `split-2.webp` | `split-2-ref.png` | Preserve + grade | À préciser |
 | `xp-dejeuner-grande-muraille-1.webp` | `xp-dejeuner-grande-muraille-1-ref.png` | **Inspire** : référence fournie non libre de droit, image neuve composée | Image originale Exuma |
+| `xp-muraille-gubeikou.webp` | `xp-muraille-gubeikou-ref.jpg` | **Inspire** : référence https://www.gobyava.com/wp-content/uploads/2020/10/muraille1-1024x683.jpg (blog, non libre de droit), image neuve composée | Image originale Exuma |
+| `xp-opera-kunqu.webp` | `xp-opera-kunqu-ref.jpg` | **Inspire** : référence Wikimedia Commons https://upload.wikimedia.org/wikipedia/commons/b/b1/Pekinguniversitykunqu5.jpg, image neuve composée | Image originale Exuma |
 | `xp-dejeuner-grande-muraille-2.webp` | `xp-dejeuner-grande-muraille-2-ref.png` | Preserve + grade | À préciser |
 | `xp-spectacle-era.webp` | `xp-spectacle-era-ref.png` | **Inspire** : référence fournie non libre de droit, image neuve composée | Image originale Exuma |
 | `xp-villages-guizhou.webp` | `xp-villages-guizhou-ref.png` | Preserve + grade | À préciser |

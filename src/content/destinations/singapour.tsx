@@ -122,7 +122,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "La seule nuit de l'année où la F1 roule sous les étoiles",
         columns: [
-          "Depuis 2008, le Grand Prix de Singapour est la première course de nuit de l'histoire de la Formule 1. Le Marina Bay Street Circuit trace vingt-trois virages entre le Padang, l'Esplanade et le pont Anderson, sous des milliers de projecteurs installés le long de cinq kilomètres de tracé. La ville ferme ses rues pendant trois jours pour laisser passer les monoplaces à quelques dizaines de mètres des terrasses de Boat Quay.", // TODO: verify projector count
+          "Depuis 2008, le Grand Prix de Singapour est la première course de nuit de l'histoire de la Formule 1. Le Marina Bay Street Circuit trace dix-neuf virages entre le Padang, l'Esplanade et le pont Anderson, sous des milliers de projecteurs installés le long de cinq kilomètres de tracé. La ville ferme ses rues pendant trois jours pour laisser passer les monoplaces à quelques dizaines de mètres des terrasses de Boat Quay.", // TODO: verify projector count
           "Nous réservons le Paddock Club, l'hospitalité officielle de la Formule 1 : des salons climatisés et des terrasses juste au-dessus des garages des écuries, face à la ligne droite des stands. On y dîne pendant que la piste s'illumine, avec les mécaniciens au travail quelques mètres plus bas. Les places se réservent plusieurs mois à l'avance.",
         ],
       },

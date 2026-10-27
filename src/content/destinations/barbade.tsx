@@ -124,7 +124,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "Le lagon où les tortues n'ont jamais appris à fuir",
         columns: [
-          "Carlisle Bay concentre six épaves dans à peine plus de dix mètres de fond, à la sortie de Bridgetown. Les tortues imbriquées et les tortues vertes s'y nourrissent d'algues sur les coques depuis des décennies, habituées au passage des nageurs. Le catamaran privé mouille au-dessus de l'épave du Berwyn, coulée en 1919, sans un autre bateau à l'horizon.",
+          "Carlisle Bay concentre six épaves dans à peine plus de dix mètres de fond, à la sortie de Bridgetown. Les tortues imbriquées et les tortues vertes s'y nourrissent d'algues sur les coques depuis des décennies, habituées au passage des nageurs. Le catamaran privé part à l'aube et mouille au-dessus de l'épave du Berwyn, coulée en 1919, avant que les bateaux de la journée n'arrivent.",
           "L'équipage coupe le moteur avant d'atteindre le site, pour ne pas effrayer les tortues qui remontent respirer en surface. Les enfants sautent les premiers, masque déjà en place. Le repas se prend ensuite au mouillage, poisson grillé et fruits locaux, avant le retour vers Bridgetown au moment où la lumière rase l'eau.",
         ],
       },
@@ -135,10 +135,10 @@ export const destination: Destination = {
       kind: "experience",
       background: "bg-white",
       eyebrow: "Expériences et activités à la Barbade",
-      heading: "Mount Gay, une table sur la falaise, une grotte sous les collines",
+      heading: "Mount Gay, une table sur la falaise, une demeure de 1658",
       description:
-        "Une dégustation à la plus ancienne distillerie de rhum du monde, un dîner au-dessus des vagues à St. James, une descente en tram sous les collines calcaires du centre de l'île. Trois façons d'entrer dans l'île, que nous réservons avant votre arrivée.",
-      slugs: ["degustation-mount-gay", "diner-the-cliff", "harrisons-cave"],
+        "Une dégustation chez Mount Gay, la plus ancienne marque de rhum du monde, un dîner au-dessus des vagues à St. James, une demeure de planteur et sa distillerie au nord de l'île. Trois façons d'entrer dans l'île, que nous réservons avant votre arrivée.",
+      slugs: ["degustation-mount-gay", "diner-the-cliff", "st-nicholas-abbey"],
     },
 
     {

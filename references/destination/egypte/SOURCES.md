@@ -13,6 +13,7 @@ Each generated image in `public/destination/egypte/` was produced by feeding the
 | `xp-gem-nocturne-1.webp`      | `xp-gem-nocturne-1-ref.jpg`       | TODO       | TODO    |
 | `xp-gem-nocturne-2.webp`      | `xp-gem-nocturne-2-ref.jpg`       | TODO       | TODO    |
 | `xp-vallee-des-rois.webp`     | `xp-vallee-des-rois-ref.jpg`      | TODO       | TODO    |
+| `xp-nefertari.webp`           | `xp-nefertari-ref.webp`           | https://static.nationalgeographic.fr/files/styles/image_3200/public/nef17.webp | National Geographic France |
 | `xp-montgolfiere.webp`        | `xp-montgolfiere-ref.jpg`         | TODO       | TODO    |
 | `xp-siwa.webp`                | `xp-siwa-ref.jpg`                 | TODO       | TODO    |
 | `hotel-old-cataract.webp`     | `hotel-old-cataract-ref.jpg`      | TODO       | TODO    |
