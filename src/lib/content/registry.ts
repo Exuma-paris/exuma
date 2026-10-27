@@ -175,7 +175,7 @@ import { experience as atelierSambaMangueira } from "@/content/experiences/ateli
 import { experience as corcovadoAubePaineiras } from "@/content/experiences/corcovado-aube-paineiras";
 import { experience as ilesCagarrasPecheur } from "@/content/experiences/iles-cagarras-pecheur";
 import { experience as soireeBossaNovaIpanema } from "@/content/experiences/soiree-bossa-nova-ipanema";
-import { experience as sablesSecretsRio } from "@/content/experiences/sables-secrets-rio";
+import { experience as soireeTheatroMunicipal } from "@/content/experiences/soiree-theatro-municipal";
 import { experience as coucherSoleilGranit } from "@/content/experiences/coucher-soleil-granit";
 import { experience as volHelicoptereSeychelles } from "@/content/experiences/vol-helicoptere-seychelles";
 import { experience as eclosionTortuesSeychelles } from "@/content/experiences/eclosion-tortues-seychelles";
@@ -976,7 +976,7 @@ export const experiences: Record<string, Experience> = toMap([
   vegaSiciliaGrandsMillesimes,
   wachauRieslingDurnstein,
   viaFerrataIvanoDibona,
-  sablesSecretsRio,
+  soireeTheatroMunicipal,
   soireeBossaNovaIpanema,
   lagonMoorea,
   lavezzi,
