@@ -99,7 +99,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/emirats-arabes-unis/split-1.webp",
-          alt: "Cour intérieure d'une maison de marchand perlier à Sharjah",
+          alt: "Porte en bois clouté d'une maison ancienne du vieux Sharjah",
         },
         {
           src: "/destination/emirats-arabes-unis/split-2.webp",
@@ -113,19 +113,19 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/emirats-arabes-unis/xp-louvre-abu-dhabi-1.webp",
-          alt: "Dôme ajouré du Louvre Abu Dhabi vu depuis les bassins",
+          alt: "Le Louvre Abu Dhabi et sa coupole posés sur l'eau, île de Saadiyat",
         },
         right: {
           src: "/destination/emirats-arabes-unis/xp-louvre-abu-dhabi-2.webp",
-          alt: "Galerie déserte du Louvre Abu Dhabi avant l'ouverture",
+          alt: "Sous la coupole du Louvre Abu Dhabi, les bassins et la pluie de lumière",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Le Louvre Abu Dhabi, ouvert pour vous avant le public",
+        heading: "Le Louvre Abu Dhabi en visite privée, au calme du matin",
         columns: [
-          "Nous vous conduisons au Louvre Abu Dhabi avant l'ouverture, quand les galeries sont encore vides. Sous la coupole de Jean Nouvel, la lumière traverse les étoiles d'aluminium et se pose au sol en une pluie de taches claires qui se déplace toute la matinée. Le musée est à vous, et l'on entend ses propres pas sur la pierre.",
-          "Un conservateur vous accompagne et suit le fil d'une idée plutôt que l'ordre des salles. Les collections mêlent les civilisations par époques, si bien qu'un bouddha, une Torah manuscrite et un Van Gogh se répondent dans la même galerie. On ressort au moment où les portes s'ouvrent, avec la sensation d'avoir eu le lieu pour soi.",
+          "Nous vous conduisons au Louvre Abu Dhabi dès l'ouverture, quand les galeries sont encore calmes. Sous la coupole de Jean Nouvel, la lumière traverse les étoiles d'aluminium et se pose au sol en une pluie de taches claires qui se déplace toute la matinée. Les groupes ne sont pas encore là, et l'on entend ses propres pas sur la pierre.",
+          "Un conservateur vous accompagne et suit le fil d'une idée plutôt que l'ordre des salles. Les collections mêlent les civilisations par époques, si bien qu'un bouddha, une Torah manuscrite et un Van Gogh se répondent dans la même galerie. On ressort quand les groupes arrivent, avec la sensation d'avoir eu le lieu pour soi.",
         ],
       },
     },
@@ -391,7 +391,7 @@ export const destination: Destination = {
               <h4 className="font-medium">Avec Exuma :</h4>
               <p>
                 Nous prévoyons deux nuits sur place et nous vous faisons entrer
-                au musée avant l'ouverture, accompagné d'un conservateur. Le
+                au musée dès l'ouverture, en visite privée avec un guide conférencier. Le
                 reste se découvre en voiture avec chauffeur, sans horaires à
                 tenir.
               </p>

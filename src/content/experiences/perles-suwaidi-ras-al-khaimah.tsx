@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "perles-suwaidi-ras-al-khaimah",
   name: "Pêche à la perle avec un plongeur d'Al Rams",
   blurb:
-    "Le dhow quitte Al Rams à la rame, comme le faisaient les pêcheurs de perles avant le pétrole. Un plongeur remonte les huîtres au panier et les ouvre devant vous, une à une. La ferme Suwaidi perpétue ce geste.", // TODO: verify statut de la ferme Suwaidi
+    "Un bateau traditionnel quitte le village d'Al Rams pour la ferme perlière de Suwaidi, la seule des Émirats. On y raconte la vie des pêcheurs de perles d'avant le pétrole, puis chacun ouvre lui-même son huître pour y trouver sa perle.",
   keywords: [
     "emirats-arabes-unis",
     "ras al khaimah",
@@ -14,7 +14,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/emirats-arabes-unis/xp-perles-suwaidi.webp",
-    alt: "Plongeur ouvrant une huître perlière sur le pont d'un dhow à Al Rams",
+    alt: "Huître perlière ouverte au couteau, la perle au creux de la nacre, ferme de Suwaidi",
   },
   destinationSlugs: ["emirats-arabes-unis"],
   sections: [],
