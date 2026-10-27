@@ -31,3 +31,12 @@ Each generated image in `public/destination/uruguay/` was produced by feeding th
 | `map-colonia.png`               | `map-colonia-ref.jpg`                | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no separate files.
+| `map-montevideo.webp` | Wikimedia Commons : File:Centro y Ciudad Vieja Montevideo.jpg | CC BY-SA 2.0 |
+| `map-jose-ignacio.webp` | Wikimedia Commons : File:Faro de José Ignacio aérea.jpg | CC BY-SA 2.0 |
+| `map-garzon.webp` | Wikimedia Commons : File:Antigua estación de ferrocarril en Pueblo Garzon.jpg | CC BY-SA 3.0 |
+| `map-cabo-polonio.webp` | Wikimedia Commons : File:Cabo Polonio - 2011 - Niamfrifruli 05.jpg | CC BY-SA 4.0 |
+| `map-tacuarembo.webp` | Wikimedia Commons : File:Fiesta de la Patria Gaucha 2026 - Desfile Gaucho por la ciudad de Tacuarembó. 20.jpg | CC BY-SA 4.0 |
+| `map-colonia.webp` | Wikimedia Commons : File:Calle De Los Suspiros, Colonia del Sacramento.jpg | CC BY-SA 3.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |

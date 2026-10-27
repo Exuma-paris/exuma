@@ -225,12 +225,12 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/uruguay/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/uruguay/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Uruguay entre Montevideo, Garzón et la côte de Rocha",
             "Adresses confidentielles en Uruguay : estancias en activité et tables de village",
             "Hébergements en Uruguay : Estancia Vik et Sacromonte Landscape Hotel",
-            "Conciergerie privée pour un voyage en Uruguay",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Expériences immersives en Uruguay : feux de Garzón et cavaliers des estancias",
           ][i],
         },
@@ -252,7 +252,7 @@ export const destination: Destination = {
           description:
             "La capitale s'est construite autour de son port et de sa longue promenade au bord de l'eau. Le soir, dans le barrio Sur et à Palermo, les tambours du candombe sortent dans la rue et le quartier suit.",
           image: {
-            src: "/destination/uruguay/map-montevideo.png",
+            src: "/destination/uruguay/map-montevideo.webp",
             alt: "Promenade de Montevideo au bord du Río de la Plata en fin de journée",
           },
           // TODO: verify coords
@@ -263,7 +263,7 @@ export const destination: Destination = {
           description:
             "Un phare veille sur la presqu'île, entre la plage Mansa et la plage Brava. On y dîne les pieds dans le sel, et le village a gardé son allure de port de pêche.",
           image: {
-            src: "/destination/uruguay/map-jose-ignacio.png",
+            src: "/destination/uruguay/map-jose-ignacio.webp",
             alt: "Presqu'île et phare de José Ignacio entre les plages Mansa et Brava",
           },
           // TODO: verify coords
@@ -274,7 +274,7 @@ export const destination: Destination = {
           description:
             "Une place, une église, et l'ancienne épicerie devenue la table de Francis Mallmann. Autour du village, les collines de granit se couvrent de tannat et d'albariño.",
           image: {
-            src: "/destination/uruguay/map-garzon.png",
+            src: "/destination/uruguay/map-garzon.webp",
             alt: "Place de Pueblo Garzón et son ancienne épicerie, département de Maldonado",
           },
           // TODO: verify coords
@@ -285,7 +285,7 @@ export const destination: Destination = {
           description:
             "On rejoint le village en véhicule tout-terrain, à travers les dunes du parc national. Les otaries occupent les rochers sous le phare, et la nuit venue le ciel s'ouvre comme nulle part ailleurs dans le pays.",
           image: {
-            src: "/destination/uruguay/map-cabo-polonio.png",
+            src: "/destination/uruguay/map-cabo-polonio.webp",
             alt: "Phare de Cabo Polonio et rochers occupés par les otaries sur la côte de Rocha",
           },
           // TODO: verify coords
@@ -296,7 +296,7 @@ export const destination: Destination = {
           description:
             "Le ministère du Tourisme uruguayen désigne ainsi ce département du centre-nord. Les estancias y travaillent encore le bétail à cheval, et la Fiesta de la Patria Gaucha y rassemble les cavaliers au mois de mars.",
           image: {
-            src: "/destination/uruguay/map-tacuarembo.png",
+            src: "/destination/uruguay/map-tacuarembo.webp",
             alt: "Cavaliers et troupeau dans une estancia de la campagne de Tacuarembó",
           },
           // TODO: verify coords
@@ -307,7 +307,7 @@ export const destination: Destination = {
           description:
             "Fondée par les Portugais et longtemps disputée aux Espagnols, elle a gardé son quartier historique inscrit au patrimoine mondial. On s'y promène sur le pavé d'origine, jusqu'à la calle de los Suspiros.",
           image: {
-            src: "/destination/uruguay/map-colonia.png",
+            src: "/destination/uruguay/map-colonia.webp",
             alt: "Calle de los Suspiros et pavé portugais du quartier historique de Colonia del Sacramento",
           },
           // TODO: verify coords
