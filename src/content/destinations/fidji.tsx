@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/fidji/xp-sawa-i-lau-1.png",
-          alt: "Ouverture de la grotte de Sawa-i-Lau au pied de la paroi de calcaire dans les Yasawa",
+          src: "/destination/fidji/xp-sawa-i-lau-1.webp",
+          alt: "Falaises de calcaire et lagon de Sawa-i-Lau vus du ciel, îles Yasawa",
         },
         right: {
-          src: "/destination/fidji/xp-sawa-i-lau-2.png",
-          alt: "Nageur dans la chambre de calcaire de Sawa-i-Lau éclairée par la fente du plafond, aux Fidji",
+          src: "/destination/fidji/xp-sawa-i-lau-2.webp",
+          alt: "Deux nageurs dans le bassin turquoise de la grotte de Sawa-i-Lau, aux Fidji",
         },
       },
       text: {

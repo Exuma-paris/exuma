@@ -45,3 +45,5 @@ Each generated image in `public/destination/fidji/` was produced by feeding the 
 - `split-1.webp` : Seacrush (croisière Naia) — https://assets.prod.seacrush.com/content/trips/naia_fiji/img/19_naia_fiji_Naia_UW_101_3840__.webp — recadré portrait. ⚠ droits à vérifier.
 - `split-2.webp` : Tripadvisor (Novotel Suva Lami Bay) — https://media-cdn.tripadvisor.com/media/photo-s/03/67/a3/a6/novotel-suva-lami-bay.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
 - `full-image.webp` : Travel + Leisure (Sarah Post) — vue aérienne de Turtle Island — recadré 16/9. ⚠ droits à vérifier.
+- `xp-sawa-i-lau-1.webp` : Blue Lagoon Cruises — https://www.bluelagooncruises.com/library/files/YasawaPrincess/sawa-i-lau.jpg — recadré 3/2. ⚠ droits à vérifier.
+- `xp-sawa-i-lau-2.webp` : vignette Google (intérieur de la grotte) — redessinée en HD et deux nageurs ajoutés par IA (Gemini) à la demande de Thea. ⚠ droits à vérifier.
