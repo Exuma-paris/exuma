@@ -38,3 +38,7 @@ Each generated image in `public/destination/fidji/` was produced by feeding the 
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+| `hero-2.webp` | Wikimedia Commons : File:BureNavala2.jpg | CC BY-SA 3.0 |
+- `hero-1.webp` : Booking.com (photo d'hôtel) — https://cf.bstatic.com/xdata/images/hotel/max1024x768/647511655.webp — recadrée, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `hero-3.webp` : Tripadvisor — https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/68/9b/2a/caption.jpg — ciel remplacé par un ciel bleu (Gemini) à la demande de Thea. ⚠ droits à vérifier.
+- `hero-2.webp` : Wikimedia Commons (voir ligne pickmaps ci-dessus), remplace la photo Dreamstime filigranée proposée.

@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Il faut quelques jours pour comprendre que les Fidji ne se visitent pas comme une île mais comme un pays dont les routes sont des couloirs de mer, et qu'il existe ici des archipels où l'on ne se rend qu'en hydravion, à la voile, ou parce que quelqu'un y attend la visite. C'est ce pays-là que nous vous ouvrons, celui des lagons tout proches comme celui des îles que l'on met deux jours à rejoindre.",
       images: [
         {
-          src: "/destination/fidji/hero-1.png",
-          alt: "Voyage aux Fidji : le lagon des Yasawa et ses îlots vus depuis la hauteur",
+          src: "/destination/fidji/hero-1.webp",
+          alt: "Île des Fidji bordée de sable blanc et de récifs, vue du ciel",
         },
         {
-          src: "/destination/fidji/hero-2.png",
-          alt: "Bure couverte de chaume au bord de l'eau dans les Mamanuca aux Fidji",
+          src: "/destination/fidji/hero-2.webp",
+          alt: "Bures de chaume du village de Navala au pied des hautes terres de Viti Levu",
         },
         {
-          src: "/destination/fidji/hero-3.png",
-          alt: "Pêcheurs poussant leur barque sur le sable au lever du jour à Kadavu",
+          src: "/destination/fidji/hero-3.webp",
+          alt: "Pêcheurs sur leur pirogue à balancier au lever du jour, aux Fidji",
         },
       ],
     },
@@ -560,8 +560,8 @@ export const destination: Destination = {
           quote:
             "Nous étions partis pour le lagon et nous sommes rentrés en parlant du village. La racine de kava, le chef qui nous fait asseoir, les enfants qui chantent : c'est ce dont nous parlons encore.",
           image: {
-            src: "/destination/fidji/hero-1.png",
-            alt: "Voyage aux Fidji : le lagon des Yasawa et ses îlots vus depuis la hauteur"
+            src: "/destination/fidji/hero-1.webp",
+            alt: "Île des Fidji bordée de sable blanc et de récifs, vue du ciel"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Fidji, septembre 2026", // TODO: à vérifier (replace with real testimonial)
@@ -571,8 +571,8 @@ export const destination: Destination = {
           quote:
             "L'hydravion s'est posé devant la plage et l'équipe nous attendait dans l'eau. Nous n'avons pas eu à nous occuper d'un seul transfert en douze jours.",
           image: {
-            src: "/destination/fidji/hero-2.png",
-            alt: "Bure couverte de chaume au bord de l'eau dans les Mamanuca aux Fidji"
+            src: "/destination/fidji/hero-2.webp",
+            alt: "Bures de chaume du village de Navala au pied des hautes terres de Viti Levu"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Fidji, îles privées, juin 2026", // TODO: à vérifier (replace with real testimonial)
@@ -582,8 +582,8 @@ export const destination: Destination = {
           quote:
             "Personne ne nous avait dit ce qu'il y avait derrière la falaise de Sawa-i-Lau. On nage dans le noir quelques secondes, et l'on ressort dans une salle où le jour descend du plafond : nous en parlons encore.",
           image: {
-            src: "/destination/fidji/hero-3.png",
-            alt: "Pêcheurs poussant leur barque sur le sable au lever du jour à Kadavu"
+            src: "/destination/fidji/hero-3.webp",
+            alt: "Pêcheurs sur leur pirogue à balancier au lever du jour, aux Fidji"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Fidji, Yasawa, octobre 2026", // TODO: à vérifier (replace with real testimonial)
