@@ -49,3 +49,4 @@ Each generated image in `public/destination/fidji/` was produced by feeding the 
 - `xp-sawa-i-lau-2.webp` : vignette Google (intérieur de la grotte) — redessinée en HD et deux nageurs ajoutés par IA (Gemini) à la demande de Thea. ⚠ droits à vérifier.
 - `xp-great-astrolabe.webp` : https://www.diveworldwide.com/images/products/south-pacific-fiji-soft-coral-reef-scene-thumbnail.webp (recadrage carré, agrandissement fidèle Gemini).
 - `xp-requins-beqa.webp` : https://diveotion.com/wp-content/uploads/2023/12/beqa-shark-dive-fiji-shutterstock_685058101-2-768x512.jpg (Shutterstock 685058101, recadrage carré, agrandissement fidèle Gemini).
+- `hotel-laucala.webp` : https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1463577.jpg (Tablet Hotels, agrandissement fidèle Gemini).
