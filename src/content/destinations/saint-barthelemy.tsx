@@ -113,8 +113,8 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/saint-barthelemy/xp-ile-fourchue-1.png",
-          alt: "Mouillage de l'Île Fourchue au nord de Saint-Barthélemy vu depuis les hauteurs",
+          src: "/destination/saint-barthelemy/xp-ile-fourchue-1.webp",
+          alt: "Voiliers au mouillage dans la baie en fer à cheval de l'Île Fourchue, vue depuis les rochers des hauteurs",
         },
         right: {
           src: "/destination/saint-barthelemy/xp-ile-fourchue-2.png",
