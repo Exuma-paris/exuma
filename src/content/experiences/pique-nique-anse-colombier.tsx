@@ -13,7 +13,7 @@ export const experience: Experience = {
     "dejeuner prive",
   ],
   heroImage: {
-    src: "/destination/caraibes/xp-colombier.png",
+    src: "/destination/caraibes/xp-colombier.webp",
     alt: "Panier de pique-nique à l'ombre des raisiniers sur la plage de l'anse de Colombier",
   },
   destinationSlugs: ["caraibes", "saint-barthelemy"],
