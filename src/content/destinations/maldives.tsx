@@ -89,13 +89,13 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Atoll de Laamu",
-      heading: "Laamu, l'atoll que l'on garde pour soi",
+      eyebrow: "Atoll de Baa",
+      heading: "Baa, la réserve où l'on replante le corail",
       theme: "light",
       paragraphs: [
-        "Laamu, l'un des atolls les plus au sud des Maldives, est à cinquante minutes de vol intérieur depuis Malé. Il ne compte que deux hôtels pour plus de quatre-vingts îles. Le lagon y reste calme et presque désert toute la journée, et l'on y croise plus souvent des pêcheurs que des bateaux d'excursion.",
-        "De juin à septembre, une vague de récif appelée Yin Yang attire les surfeurs sur la pointe est. Le reste de l'année, on part en dhoni vers les bancs de sable du large, ou l'on plonge avec les raies manta du chenal d'Hithadhoo.",
-        "Le matin, on peut visiter le laboratoire marin de l'hôtel. Les biologistes y suivent les herbiers, le corail et les raies manta, soignent les tortues prises dans les filets et répondent aux questions des visiteurs.",
+        "Baa est classé réserve de biosphère par l'Unesco depuis 2011. Ses récifs comptent parmi les plus riches de l'archipel, et c'est là que les raies manta se rassemblent chaque été dans la baie de Hanifaru. On y arrive en une demi-heure d'hydravion depuis Malé.",
+        "Au Four Seasons Landaa Giraavaru, le centre de biologie marine mène depuis près de vingt ans un programme de bouturage. Les fragments de corail sont fixés sur des structures en métal, puis replantés sur le récif, et chaque structure porte le nom de celui qui l'a parrainée.",
+        "Le matin, on rejoint les biologistes au laboratoire. Ils y soignent des tortues et suivent les raies manta avec l'équipe de la Manta Trust, qui reconnaît chacune aux taches de son ventre.",
       ],
       images: [
         {

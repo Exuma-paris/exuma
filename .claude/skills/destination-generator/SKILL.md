@@ -576,6 +576,8 @@ import { defaultBento } from "@/components/sections/bento";
 
 Canonical card filenames: `bento-map.png`, `bento-adresses.png`, `bento-hebergements.png`, `bento-conciergerie.png`, `bento-experiences.png`.
 
+**Archipelagos (`bento-map`)**: for island destinations (Maldives, Fidji, Seychelles, Polynésie, Caraïbes…) the country outline alone is too small and the map reads as floating pins. Always add the real island/atoll outlines from OpenStreetMap, crop the bounding box to the area of the stops, and enlarge the drawing box, so the islands stay clearly visible behind the itinerary. Reference: `maldives/bento-map.webp`. Land should cover at least 0.5 % of the image.
+
 ### `infoGrid` — exactly 8 items, icons + titles locked
 
 Always ship the 8 canonical cells in this order, with these exact `iconName` + `title` pairs:
