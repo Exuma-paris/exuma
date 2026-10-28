@@ -48,3 +48,4 @@ Deux visuels de la page ne figurent pas dans ce tableau : la carte du déjeuner 
 - `split-1.webp` : https://www.myvillainstbarth.com/uploads/img/cities/saline-y8d2c2.jpg (recadrage portrait, agrandissement fidèle Gemini).
 - `split-2.webp` : https://cdn.sanity.io/images/i6dkdu7j/production/0432732f677a0286c74c3990996ac5156b099baa-1672x941.png (recadrage carré, couleurs adoucies ; visuel d'aspect généré).
 - `xp-ile-fourchue-1.webp` : https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2Dm3kkWV9rzRhBamq9ede3laTZbiojyWoVP7HtG0uAOmu7OjX2shpQmdwVXthk5gim36176MBgBfnRbquA6TWiAUB2UThuAk_EMDy9A1oy19R-85sx7bMfGKBhcjywArkEg5KDemIbkM/s1600/DSC_0502.JPG (blog, recadrage 3/2).
+- `xp-ile-fourchue-2.webp` : image générée par IA (Gemini), palette accordée à xp-ile-fourchue-1.

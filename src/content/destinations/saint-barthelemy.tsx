@@ -117,8 +117,8 @@ export const destination: Destination = {
           alt: "Voiliers au mouillage dans la baie en fer à cheval de l'Île Fourchue, vue depuis les rochers des hauteurs",
         },
         right: {
-          src: "/destination/saint-barthelemy/xp-ile-fourchue-2.png",
-          alt: "Déjeuner servi à bord d'un bateau à l'ancre dans la baie de l'Île Fourchue",
+          src: "/destination/saint-barthelemy/xp-ile-fourchue-2.webp",
+          alt: "Poisson grillé, salade et mangue servis sur le pont d'un voilier à l'ancre, face aux mornes de l'Île Fourchue",
         },
       },
       text: {
