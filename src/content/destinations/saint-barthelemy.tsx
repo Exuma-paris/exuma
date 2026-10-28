@@ -99,12 +99,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/saint-barthelemy/split-1.png",
-          alt: "Table dressée à l'ombre près de la plage de Grande Saline",
+          src: "/destination/saint-barthelemy/split-1.webp",
+          alt: "Le sentier de sable qui traverse les dunes jusqu'à la plage de Grande Saline",
         },
         {
-          src: "/destination/saint-barthelemy/split-2.png",
-          alt: "Terrasse de restaurant à Pointe Milou au moment du coucher du soleil",
+          src: "/destination/saint-barthelemy/split-2.webp",
+          alt: "Table dressée en terrasse au-dessus de la rade de Gustavia, au coucher du soleil",
         },
       ],
     },
