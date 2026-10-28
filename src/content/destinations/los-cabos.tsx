@@ -2,7 +2,7 @@ import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
   slug: "los-cabos",
-  subthemeSlugs: ["plongee-bouteille", "safari-marin", "vignobles-spiritueux"],
+  subthemeSlugs: ["plongee-bouteille", "safari-marin"],
   name: "Los Cabos",
   country: "Mexique",
   genitive: "de Los Cabos",
@@ -24,7 +24,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Los Cabos, voyage sur mesure",
   metaDescription:
-    "Voyage à Los Cabos sur mesure : Cabo Pulmo, Todos Santos, Isla Espiritu Santo, One&Only Palmilla. Itinéraire signé par votre travel designer Exuma.",
+    "Voyage à Los Cabos sur mesure : Cabo Pulmo, Todos Santos, baleines grises de Bahía Magdalena, One&Only Palmilla. Itinéraire signé par votre travel designer Exuma.",
   sections: [
     {
       type: "hero",
@@ -71,7 +71,7 @@ export const destination: Destination = {
           iconName: "sparkles",
           title: "Expériences hors programme",
           description:
-            "Cabo Pulmo à l'aube avant les bateaux collectifs, Todos Santos avec un artiste local, les otaries d'Isla Espiritu Santo en bateau privé.",
+            "Cabo Pulmo à l'aube avant les bateaux collectifs, Todos Santos avec un artiste local, les baleines grises de Bahía Magdalena avec un pêcheur de Puerto San Carlos.",
         },
         {
           iconName: "star",
@@ -140,20 +140,21 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/los-cabos/xp-pulmo-1.webp",
-          alt: "Plongeur face à un tourbillon de carangues, Cabo Pulmo, mer de Cortez",
+          src: "/destination/los-cabos/xp-magdalena-1.webp",
+          alt: "Baleine grise émergeant à côté d'une panga dans les eaux calmes de Bahía Magdalena",
         },
         right: {
-          src: "/destination/los-cabos/xp-pulmo-2.webp",
-          alt: "Requin-bouledogue en eau profonde au large de Cabo Pulmo",
+          src: "/destination/los-cabos/xp-magdalena-2.webp",
+          alt: "Main tendue au-dessus de l'eau vers la tête d'un baleineau gris, Bahía Magdalena",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Cabo Pulmo, le récif que les pêcheurs ont sauvé",
+        // TODO: verify — temps de trajet depuis Los Cabos (route ou avion léger) et dates exactes de la saison
+        heading: "Bahía Magdalena, quand la baleine grise vient à la barque",
         columns: [
-          "Dans les années 1990, les familles de pêcheurs de Cabo Pulmo ont choisi d'arrêter de pêcher pour protéger leur récif. Le parc national créé en 1995 est devenu l'une des réserves marines les plus réussies au monde : la vie marine y a été multipliée par plus de quatre. Carangues en bancs serrés, raies, mérous géants, et en hiver des requins-bouledogues.",
-          "On part tôt du corridor avec un guide privé, pour être dans l'eau avant les groupes. Deux plongées sur les sites les plus riches, ou du snorkeling pour ceux qui ne plongent pas, puis un déjeuner de poisson sur la plage du village. Le retour se fait par la piste de la côte Est, l'une des dernières côtes sauvages de Baja.",
+          "Chaque hiver, les baleines grises quittent l'Arctique et descendent jusqu'aux lagunes de la côte Pacifique de Basse-Californie pour mettre bas. Bahía Magdalena est l'une d'elles. De janvier à mars, les mères et leurs baleineaux y restent à l'abri des eaux calmes.",
+          "On embarque sur une panga avec un pêcheur de Puerto San Carlos. Le moteur se coupe. Souvent, c'est la baleine qui approche, passe sous la coque, puis remonte à portée de main avec son petit. Le retour vers Los Cabos se fait dans l'après-midi.",
         ],
       },
     },
@@ -177,13 +178,13 @@ export const destination: Destination = {
       eyebrow: "Exuma",
       heading: "Voyage sur mesure à Los Cabos",
       description:
-        "De l'Arco de Cabo San Lucas au récif de Cabo Pulmo, chaque étape est construite pour ne rien laisser au hasard.",
+        "De l'Arco de Cabo San Lucas aux lagunes de Bahía Magdalena, chaque étape est construite pour ne rien laisser au hasard.",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       cards: [
         {
           title: "Création d'itinéraires",
           description:
-            "Los Cabos, Todos Santos, La Paz, Isla Espiritu Santo : la logique du circuit Baja, construite dans le bon ordre.",
+            "Los Cabos, La Paz, Isla Espiritu Santo, Bahía Magdalena : la logique du circuit Baja, construite dans le bon ordre.",
           image: {
             src: "/destination/los-cabos/bento-map.webp",
             alt: "Carte de la péninsule de Baja California Sur",
@@ -220,7 +221,7 @@ export const destination: Destination = {
         {
           title: "Expériences sur accès",
           description:
-            "Cabo Pulmo avant l'arrivée des groupes. Todos Santos avec un guide qui connaît les artistes. Les otaries d'Isla Espiritu Santo en bateau privé.",
+            "Cabo Pulmo avant l'arrivée des groupes. Les baleines grises de Bahía Magdalena en panga, avec un pêcheur. Les otaries d'Isla Espiritu Santo en bateau privé.",
           image: {
             src: "/destination/los-cabos/bento-experience.webp",
             alt: "Nageur entouré d'otaries près des îlots d'Espíritu Santo, La Paz",
@@ -328,7 +329,7 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Pour Cabo Pulmo et La Paz :</h4>
               <p>
-                Un masque et un tuba personnels sont recommandés pour le snorkeling (meilleure hygiène, meilleure vision). Les chaussures de randonnée légères sont utiles à Todos Santos et sur les sentiers côtiers.
+                Un masque et un tuba personnels sont recommandés pour le snorkeling (meilleure hygiène, meilleure vision). Les chaussures de randonnée légères sont utiles à Todos Santos et sur les sentiers côtiers. Pour Bahía Magdalena, une veste coupe-vent : le matin sur la lagune est frais en hiver.
               </p>
             </div>
           ),
@@ -419,7 +420,7 @@ export const destination: Destination = {
         {
           question: "Que faire à Los Cabos en 8 jours ?",
           answer:
-            "Un circuit cohérent sur 8 jours peut inclure 3 nuits sur le corridor (Cabo San Lucas + San José del Cabo), 1 journée à Cabo Pulmo, 1 nuit à Todos Santos, et 2 nuits à La Paz avec une sortie à Isla Espiritu Santo. Exuma construit la séquence en fonction de la saison et de vos préférences.",
+            "Un circuit cohérent sur 8 jours peut inclure 3 nuits sur le corridor (Cabo San Lucas + San José del Cabo), 1 journée à Cabo Pulmo, 1 nuit à Todos Santos, 2 nuits à La Paz avec une sortie à Isla Espiritu Santo et, de janvier à mars, une journée à Bahía Magdalena pour les baleines grises. Exuma construit la séquence en fonction de la saison et de vos préférences.",
         },
         {
           question: "Los Cabos est-il adapté aux enfants ?",

@@ -39,8 +39,8 @@ export const destination: Destination = {
           alt: "Bancs de sable et eaux turquoise des Exuma Cays lors d'un voyage aux Bahamas",
         },
         {
-          src: "/destination/bahamas/hero-2.webp",
-          alt: "Cochons nageurs dans les eaux peu profondes de Big Major Cay, aux Exumas",
+          src: "/destination/bahamas/hero-2-exumas.webp",
+          alt: "Bancs de sable et voilier seul au mouillage dans les Exuma Cays, vus du ciel",
         },
         {
           src: "/destination/bahamas/hero-3.webp",
@@ -121,10 +121,11 @@ export const destination: Destination = {
       },
       text: {
         eyebrow: "Notre coup de cœur",
+        // TODO: verify — date et histoire de l'épave de la locomotive du Devil's Backbone
         heading: "Le jour où le sable devient rose",
         columns: [
           "Le bateau quitte Nassau tôt, met le cap au nord-est et traverse deux heures d'eau claire avant de longer Eleuthera. Le sable de Harbour Island doit sa couleur à des foraminifères broyés par la houle, et il faut le voir de près pour y croire : rose franc au bord de l'eau, plus pâle en haut de plage, sur cinq kilomètres de long.",
-          "L'après-midi, on redescend vers les cayes pour la rencontre que tout le monde raconte au retour. Les cochons nageurs viennent au bateau sans qu'on les appelle et repartent aussi vite. Entre les deux, un déjeuner de conque pêchée le matin même sur une plage sans nom, et le moteur coupé assez longtemps pour qu'on entende l'eau.",
+          "L'après-midi, le bateau longe le Devil's Backbone, le récif qui borde le nord d'Eleuthera et a envoyé par le fond des navires pendant trois siècles. Un pilote local connaît les passes. On se met à l'eau au-dessus de l'épave d'une locomotive tombée d'une barge au XIXe siècle, couverte de coraux. Puis un déjeuner de conque pêchée le matin même, sur une plage sans nom, moteur coupé assez longtemps pour qu'on entende l'eau.",
         ],
       },
     },
@@ -272,10 +273,10 @@ export const destination: Destination = {
         {
           title: "Les Exuma Cays",
           description:
-            "Trois cent soixante cayes dont la plupart n'ont pas de nom. Le parc marin y interdit toute pêche depuis 1958, et cela se voit sous la coque du bateau.",
+            "Trois cent soixante cayes dont la plupart n'ont pas de nom. Le parc marin, créé en 1958, y interdit toute pêche depuis 1986, et cela se voit sous la coque du bateau.",
           image: {
-            src: "/destination/bahamas/map-exumas.webp",
-            alt: "Cochon nageur au bord d'une plage des Exumas, aux Bahamas",
+            src: "/destination/bahamas/map-exumas-cayes.webp",
+            alt: "Banc de sable et petite caye boisée dans les eaux claires des Exumas, Bahamas",
           },
           // TODO: verify coords
           coordinates: { lat: 24.1667, lng: -76.4333 },

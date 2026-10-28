@@ -7,7 +7,7 @@ export const subtheme: Subtheme = {
   blockHeading:
     "Le balnéaire de l'océan Indien, avec une histoire à terre",
   blurb:
-    "Le banc de sable de l'atoll de Noonu émerge deux heures par jour, et la table est dressée dessus. Maurice et son golf au pied du Morne, l'éclosion des tortues aux Seychelles, Stone Town et la route des épices. L'île ne se limite pas au lagon.",
+    "Le ciel de l'atoll de Noonu, l'un des plus noirs de l'océan Indien, se lit au télescope avec un astronome. Maurice et son golf au pied du Morne, l'éclosion des tortues aux Seychelles, Stone Town et la route des épices. L'île ne se limite pas au lagon.",
   bandIntent:
     "Un atoll ou un banc de sable vu du ciel, le récif visible autour.",
   thumbnailsIntro:

@@ -114,7 +114,7 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités à Madère",
       heading: "Quatre moments, rien que pour vous",
       description:
-        "Un plateau dans la brume au lever du jour. Une plage de sable noir au pied des falaises. Un marché à l'heure où les étals s'ouvrent. Une cave que l'on ouvre pour vous seuls.",
+        "Un plateau dans la brume au lever du jour. Une plage de sable noir au pied des falaises. Un marché avec un chef, à l'heure où les étals s'ouvrent. Une cave que l'on ouvre pour vous seuls.",
       slugs: [
         "foret-fanal",
         "plage-seixal",

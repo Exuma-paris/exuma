@@ -136,10 +136,10 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités à la Grenade",
       heading: "Descendre au musée sous-marin, ou suivre la cabosse jusqu'à la tablette",
       description:
-        "Nous vous emmenons longer la côte ouest en Zodiac avant la mise à l'eau dans le parc sous-marin, traverser l'île jusqu'à une cascade privée, parcourir les petites tables de l'île aux épices avec un chef, et suivre le cacao de l'arbre à la tablette à Belmont Estate.",
+        "Nous vous emmenons longer la côte ouest en Zodiac avant la mise à l'eau dans le parc sous-marin, marcher du Grand Étang jusqu'aux chutes de Concord, parcourir les petites tables de l'île aux épices avec un chef, et suivre le cacao de l'arbre à la tablette à Belmont Estate.",
       slugs: [
         "snorkeling-zodiac-grenade",
-        "atv-cascade-privee-grenade",
+        "fedon-grand-etang-concord",
         "tour-culinaire-grenade",
         "cacao-belmont-grenade",
       ],

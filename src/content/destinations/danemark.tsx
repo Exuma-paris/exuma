@@ -126,20 +126,21 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/danemark/xp-diner-noma-1.webp",
-          alt: "Les pavillons en bois de Noma dans leur jardin sauvage, à Copenhague",
+          src: "/destination/danemark/xp-velo-architecte.webp",
+          alt: "Un architecte à vélo avec un voyageur sur un pont cyclable du port de Copenhague",
         },
         right: {
-          src: "/destination/danemark/xp-diner-noma-2.webp",
-          alt: "Produits de saison et préparations de Noma disposés sur une table, vus du dessus, Copenhague",
+          src: "/destination/danemark/xp-bain-port.webp",
+          alt: "Baigneurs plongeant dans le bain du port d'Islands Brygge, à Copenhague",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Une table qui ferme ses portes plus souvent qu'elle ne les ouvre",
+        // TODO: verify — architecte guide à trouver via le réceptif
+        heading: "Copenhague à vélo, avec un architecte, jusqu'au bain du port",
         columns: [
-          "Noma a ouvert en 2003 à Christianshavn, sous l'impulsion de René Redzepi, avec une idée alors radicale : construire une cuisine à partir des produits du monde nordique et de ce que chaque saison offre de plus singulier. Le restaurant a depuis fait de la fermentation, de la cueillette et du travail avec les producteurs locaux une partie intégrante de son identité.",
-          "Pour son nouveau chapitre à Copenhague en 2026, Noma abandonne le principe de trois grandes saisons au profit de douze rythmes saisonniers, avec une cuisine qui évolue désormais de mois en mois au fil des ingrédients, du climat et du paysage. Les réservations sont ouvertes par périodes, avec des dates d'ouverture annoncées à l'avance. Nous suivons ces ouvertures pour vous et pouvons anticiper votre demande dès que les prochaines tables sont mises en ligne.",
+          "Un architecte de la ville vous attend devant chez vous, deux vélos prêts. Il vous emmène là où Copenhague s'est réinventée : les ponts cyclables du port, le parc de Superkilen à Nørrebro, les anciens docks devenus logements, la piste de ski posée sur l'usine de CopenHill. Il raconte comment on décide ici de la place de chacun dans la rue.",
+          "La boucle se termine au bain du port d'Islands Brygge, où les Copenhaguois se baignent en plein centre dès les beaux jours. On plonge là où passaient les cargos, avant de rentrer par les quais. En hiver, la boucle se finit au sauna du port.",
         ],
       },
     },
@@ -413,17 +414,17 @@ export const destination: Destination = {
           ),
         },
         {
-          title: "Réserver Noma plusieurs mois à l'avance",
+          title: "Réserver les grandes tables de Copenhague",
           cardEyebrow: "Gastronomie",
           modalEyebrow: "Guide pratique",
           shortDescription:
-            "Les ouvertures de réservation sont annoncées sans calendrier fixe ; nous les suivons pour vous",
+            "Les tables étoilées ouvrent leurs dates des semaines à l'avance ; nous les suivons pour vous",
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                Noma ouvre ses réservations par vagues, une saison à la fois,
-                sans date annoncée à l&apos;avance. Les places partent en
-                quelques heures une fois la fenêtre ouverte.
+                Les tables étoilées de Copenhague, comme Kadeau, Koan ou
+                Geranium, ouvrent leurs réservations des semaines à
+                l&apos;avance, et les meilleures places partent vite.
               </p>
               <h4 className="font-medium">Avec Exuma :</h4>
               <p>
@@ -554,9 +555,9 @@ export const destination: Destination = {
             "Non. Le Danemark appartient à l'Union européenne et à l'espace Schengen. Une carte nationale d'identité ou un passeport en cours de validité suffit pour les ressortissants français. Aucune vaccination n'est exigée.",
         },
         {
-          question: "Comment réserver une table chez Noma ?",
+          question: "Comment réserver une grande table à Copenhague ?",
           answer:
-            "Noma ouvre ses réservations par vagues saisonnières, sans calendrier annoncé à l'avance, et les places partent en quelques heures. Nous suivons ces ouvertures pour nos clients et réservons dès qu'un créneau correspond aux dates du voyage.",
+            "Les tables étoilées de Copenhague, comme Kadeau, Koan ou Geranium, ouvrent leurs réservations des semaines à l'avance, et les meilleures places partent vite. Nous suivons ces ouvertures pour nos clients et réservons dès qu'un créneau correspond aux dates du voyage.",
         },
         {
           question: "Que faire au Danemark en une semaine ?",

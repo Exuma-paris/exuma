@@ -27,7 +27,7 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 - [x] `xp-fanal-1.webp`
 - [x] `xp-fanal-2.webp`
 - [x] `xp-foret-fanal.webp`
-- [x] `xp-mercado-funchal.webp`
+- [x] `xp-mercado-chef.webp`
 - [x] `xp-plage-seixal.webp`
 
 ## Hébergements

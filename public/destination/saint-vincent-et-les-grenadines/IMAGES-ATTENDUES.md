@@ -24,7 +24,7 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 ## Expériences
 
 - [ ] `xp-cheval.png`
-- [ ] `xp-spa.png`
+- [x] `xp-maquettistes-bequia.webp`
 - [ ] `xp-tobago-cays-1.png`
 - [ ] `xp-tobago-cays-2.png`
 - [ ] `xp-voilier.png`

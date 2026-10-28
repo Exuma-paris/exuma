@@ -2,13 +2,13 @@ import type { Experience } from "@/lib/content/types";
 
 export const experience: Experience = {
   slug: "randonnee-cascades-el-yunque",
-  name: "Randonnée privée et cascades à El Yunque",
+  name: "El Yunque avec un naturaliste, jusqu'à la cascade de Juan Diego",
   blurb:
-    "Un guide naturaliste privé ouvre la marche dans la seule forêt tropicale du réseau forestier américain, loin des sentiers les plus fréquentés. La randonnée se termine par une baignade dans les bassins du Río Mameyes.",
-  keywords: ["porto rico", "el yunque", "randonnee", "cascade", "foret tropicale"],
+    "Un naturaliste ouvre la marche dans l'unique forêt tropicale du réseau forestier américain. Il nomme les fougères arborescentes et les coquís qu'on entend sans jamais les voir. Le sentier s'arrête à la cascade de Juan Diego, où l'on se baigne.",
+  keywords: ["porto rico", "el yunque", "randonnee", "cascade", "foret tropicale", "juan diego"],
   heroImage: {
     src: "/destination/porto-rico/xp-el-yunque.webp",
-    alt: "Baigneurs au pied d'une cascade, bassin d'eau verte dans la forêt d'El Yunque",
+    alt: "Baigneurs au pied d'une cascade dans la forêt tropicale d'El Yunque",
   },
   destinationSlugs: ["porto-rico"],
   sections: [],

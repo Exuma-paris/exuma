@@ -24,8 +24,8 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 ## Expériences
 
 - [ ] `xp-arbre-au-chocolat.png`
-- [ ] `xp-croisiere-pitons-1.png`
-- [ ] `xp-croisiere-pitons-2.png`
+- [x] `xp-pecheur-canaries.webp`
+- [x] `xp-sugar-beach-matin.webp`
 - [ ] `xp-helicoptere.png`
 
 ## Hébergements

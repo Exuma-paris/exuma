@@ -52,3 +52,6 @@ Quatre visuels n'ont pas suivi le traitement standard :
 | `xp-sossusvlei.webp` | IA d'après `xp-sossusvlei-ref.jpg` (generationvoyage.fr, Deadvlei), recadrée en carré | |
 | `xp-ongava.webp` | Photo de Thea (IMG_0342, rhinocéros à Ongava), recadrée en carré ; bord de chapeau flou ajouté par IA au premier plan à sa demande | Exuma |
 | `bento-map.webp` | Carte existante réduite et placée en haut à droite (09/10/2026) | |
+| `xp-ongava-pisteur.webp` | `xp-ongava-pisteur-ref.webp` | Généré par IA (--inspire), d'après `xp-ongava.webp` | Interne |
+| `xp-namibrand-nuit.webp` | `xp-namibrand-nuit-ref.webp` | Généré par IA (--inspire), d'après `xp-kalahari-1.webp` | Interne |
+| `hotel-little-ongava.webp` | `hotel-little-ongava-ref.jpg` | https://dpu9z4r46dtyt.cloudfront.net/media/filer_public/78/2f/782fed2e-9ac4-433c-acf8-87a749e305b7/little_ongava__1.jpg | Wilderness (référence) |
