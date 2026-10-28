@@ -40,8 +40,8 @@ export const destination: Destination = {
           alt: "Voyage à Saint-Barthélemy : l'anse de Colombier et ses voiliers au mouillage, vus depuis les rochers du sentier",
         },
         {
-          src: "/destination/saint-barthelemy/hero-2.png",
-          alt: "La baie de Saint-Jean et son rocher en fin d'après-midi",
+          src: "/destination/saint-barthelemy/hero-2.webp",
+          alt: "La plage de Saint-Jean et le rocher de l'Eden Rock avec ses toits rouges, au milieu de la baie",
         },
         {
           src: "/destination/saint-barthelemy/hero-3.webp",
@@ -607,8 +607,8 @@ export const destination: Destination = {
           quote:
             "Nos enfants ont passé la semaine dans le lagon et nous avons dîné le soir sans jamais nous occuper des réservations. Nous sommes rentrés reposés, ce qui ne nous arrive jamais.",
           image: {
-            src: "/destination/saint-barthelemy/hero-2.png",
-            alt: "La baie de Saint-Jean et son rocher en fin d'après-midi"
+            src: "/destination/saint-barthelemy/hero-2.webp",
+            alt: "La plage de Saint-Jean et le rocher de l'Eden Rock avec ses toits rouges, au milieu de la baie"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Saint-Barthélemy en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)

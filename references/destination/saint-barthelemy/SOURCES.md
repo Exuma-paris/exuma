@@ -44,3 +44,4 @@ Deux visuels de la page ne figurent pas dans ce tableau : la carte du déjeuner 
 - `hero-1.webp` : https://cdn.prod.rexby.com/image/a438922278564b1184ae2cef83f23384 (recadrage carré, couleurs adoucies).
 - `hero-3.webp` : https://www.yonder.fr/sites/default/files/styles/mobile_360x484/public/destinations/AdobeStock_294776309.jpg (Adobe Stock via Yonder, recadrage carré, agrandissement fidèle Gemini).
 - `full-image.webp` : https://www.antillesexception.com/var/exv/storage/images/_aliases/hero1920x1280/media/images/guide-touristique-de-saint-barth/plages/plage-des-salines/plage-des-salines/31054463-1-fre-FR/Plage-des-Salines.jpg (recadrage 16/9, couleurs adoucies).
+- `hero-2.webp` : Wikimedia Commons, File:Eden Rock Hotel, St Jean Beach, St Barths, Oct 2014 (15096862114).jpg, CC BY-SA 2.0 (recadrage carré). La photo proposée semblait générée par IA.
