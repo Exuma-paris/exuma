@@ -94,13 +94,13 @@ export const destination: Destination = {
       heading: "Bonnes tables et dîners face au couchant",
       theme: "light",
       paragraphs: [
-        "Saint-Barthélemy est réputée pour sa cuisine. À Gustavia, des chefs français installés sur l'île travaillent le poisson pêché le matin et les produits arrivés par bateau. À Saline, on déjeune sous les raisiniers, les pieds dans le sable, sans quitter sa tenue de plage.",
+        "Saint-Barthélemy est réputée pour sa cuisine. À Gustavia, des chefs français installés sur l'île travaillent le poisson pêché le matin et les produits arrivés par bateau. À Saline, on déjeune à l'ombre, à deux pas de la plage, sans quitter sa tenue de plage.",
         "Le soir, à Pointe Milou, les terrasses regardent le soleil se coucher derrière Saint-Martin. On revient volontiers aux mêmes adresses, où les restaurateurs reconnaissent vite leurs habitués.",
       ],
       images: [
         {
           src: "/destination/saint-barthelemy/split-1.png",
-          alt: "Table dressée sous les raisiniers sur la plage de Grande Saline",
+          alt: "Table dressée à l'ombre près de la plage de Grande Saline",
         },
         {
           src: "/destination/saint-barthelemy/split-2.png",
