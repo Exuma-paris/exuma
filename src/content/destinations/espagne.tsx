@@ -169,49 +169,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 2h05 en vol direct depuis Paris vers Madrid et 1h50 vers Barcelone. Séville, Bilbao, Grenade et Palma de Majorque sont accessibles en vol direct selon les périodes et les compagnies, ou avec correspondance.",
+            "Environ 2h05 de vol direct de Paris à Madrid, 1h50 vers Barcelone. Séville, Bilbao ou Palma sont desservies en direct selon la saison.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Aucun décalage avec la France : l'Espagne continentale et les Baléares vivent sur le même fuseau. Seules les Canaries ont une heure de retard.",
+            "Aucun décalage avec la France, Baléares comprises. Seules les Canaries ont une heure de retard.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "L'euro. Aucune conversion, aucun risque de change. Les cartes bancaires sont très largement acceptées, mais il est utile de conserver un peu d'espèces pour les petits commerces.",
+            "L'euro, sans conversion. Les cartes bancaires sont très largement acceptées ; gardez un peu d'espèces pour les petits commerces.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "L'Espagne est dans l'espace Schengen. Pour les ressortissants français et européens, une carte nationale d'identité ou un passeport en cours de validité suffit, sans visa.",
+            "Espace Schengen : pour les Français et Européens, une carte nationale d'identité ou un passeport en cours de validité suffit, sans visa.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin spécifique n'est généralement requis pour un séjour depuis la France. Il est recommandé d'être à jour des vaccinations habituelles.",
+            "Aucun vaccin spécifique requis depuis la France. Il est recommandé d'être à jour des vaccinations habituelles.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "D'avril à juin et de septembre à octobre pour la plus grande partie du pays. L'Andalousie est déjà chaude dès le mois de juin, tandis que le nord reste frais plus longtemps. Aux Baléares, la mer reste douce jusqu'à la fin de l'automne.",
+            "D'avril à juin et de septembre à octobre. L'Andalousie est chaude dès juin ; aux Baléares, la mer reste douce jusqu'à la fin de l'automne.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le castillan est parlé dans tout le pays. Selon les régions, le catalan et le valencien, le basque, le galicien ou l'aranais ont également un statut officiel. L'anglais est courant dans l'hôtellerie, le français plus rare hors des grandes villes.",
+            "Le castillan partout, avec le catalan, le basque ou le galicien selon les régions. L'anglais est courant dans l'hôtellerie.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Méditerranéen sur la côte est et aux Baléares, océanique et verdoyant sur la côte nord, sec et contrasté sur les plateaux de Castille. Les Canaries, elles, vivent une douceur subtropicale toute l'année.",
+            "Méditerranéen à l'est et aux Baléares, océanique au nord, sec et contrasté en Castille. Douceur subtropicale toute l'année aux Canaries.",
         },
       ],
     },
@@ -529,7 +529,7 @@ export const destination: Destination = {
             "L'Alhambra après la fermeture restera le moment du voyage. Nous étions une poignée dans la cour des Lions, avec un historien qui parlait tout bas. On n'entendait plus que l'eau.",
           image: {
             src: "/destination/espagne/hero-1.webp",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
+            alt: "L'Alhambra de Grenade devant les sommets enneigés de la Sierra Nevada, voyage en Espagne",
           },
           name: "Bernard & Michèle", // TODO: verify
           role: "Voyage anniversaire, mai 2026", // TODO: verify
@@ -540,7 +540,7 @@ export const destination: Destination = {
             "On nous avait conseillé de choisir quelques régions plutôt que de vouloir tout voir, et c'était le bon conseil. L'Andalousie, le Pays basque, puis Majorque pour finir. Nous n'avons jamais eu l'impression de courir.",
           image: {
             src: "/destination/espagne/hero-2.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Crique aux eaux turquoise et fort côtier sur la côte méditerranéenne espagnole",
           },
           name: "Édouard", // TODO: verify
           role: "Voyage en famille, avril 2026", // TODO: verify
@@ -551,7 +551,7 @@ export const destination: Destination = {
             "Le dîner dans un txoko de Saint-Sébastien a enchanté les enfants. On cuisine soi-même, la maison n'est ouverte à personne d'autre, et l'on repart avec le sentiment d'avoir été reçus.",
           image: {
             src: "/destination/espagne/hero-3.webp",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "La cathédrale de Séville vue depuis le patio des Orangers",
           },
           name: "Claire", // TODO: verify
           role: "Séjour en famille, octobre 2025", // TODO: verify

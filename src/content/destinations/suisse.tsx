@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Suisse : Voyage sur mesure",
   metaDescription:
-    "Voyage en Suisse sur mesure : Gstaad, Zermatt, l’Engadine et le Tessin. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage en Suisse sur mesure : Gstaad, Zermatt, l’Engadine et le Tessin. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -182,37 +182,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le franc suisse (CHF). Les cartes sont acceptées partout. L’euro passe dans certains commerces et zones touristiques, mais la monnaie est rendue en francs suisses.",
+            "Franc suisse (CHF), cartes acceptées partout. L’euro passe dans certains commerces, mais la monnaie est rendue en francs.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "La Suisse appartient à l’espace Schengen sans être membre de l’Union européenne. Pour un court séjour, une carte nationale d’identité ou un passeport en cours de validité suffit aux ressortissants français.",
+            "Schengen sans être dans l’UE. Pour un court séjour, carte d’identité ou passeport en cours de validité suffit aux Français.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin obligatoire. Il est recommandé d’être à jour des vaccinations habituelles. Pour un séjour prolongé en zone boisée, la vaccination contre l’encéphalite à tiques peut se discuter avec votre médecin.",
+            "Aucun vaccin obligatoire, vaccinations habituelles à jour. Encéphalite à tiques à discuter pour un long séjour en zone boisée.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "L’hiver pour le ski et les paysages enneigés, l’été pour la randonnée et les lacs. Le printemps et l’automne conviennent aux séjours plus calmes.",
+            "L’hiver pour le ski, l’été pour la randonnée et les lacs. Le printemps et l’automne pour des séjours plus calmes.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L’allemand, le français, l’italien et le romanche sont les quatre langues nationales. On parle français à Genève, à Lausanne et en Valais, italien au Tessin.",
+            "Allemand, français, italien et romanche sont langues nationales. Français à Genève, Lausanne et en Valais, italien au Tessin.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le relief commande tout : air vif et sec en altitude, températures plus douces au bord des lacs. Le Tessin, abrité au sud des Alpes, est la région la plus ensoleillée du pays, mais il connaît aussi l’hiver.",
+            "Air vif et sec en altitude, plus doux au bord des lacs. Le Tessin, au sud des Alpes, est la région la plus ensoleillée.",
         },
       ],
     },
@@ -520,7 +520,7 @@ export const destination: Destination = {
             "Trois vallées, et jamais l’impression de courir. Gstaad, puis les Grisons, puis le Tessin. Nos bagages nous précédaient d’une maison à l’autre, nous n’avons rien porté de tout le séjour.",
           image: {
             src: "/destination/suisse/hero-1.webp",
-            alt: "Portrait de Frédéric", // TODO: verify
+            alt: "Chutes du Rhin et château de Laufen vus du ciel, à Schaffhouse",
           },
           name: "Frédéric", // TODO: verify
           role: "Séjour en couple, février 2026", // TODO: verify
@@ -531,7 +531,7 @@ export const destination: Destination = {
             "Nous étions trois générations et personne n’a attendu personne. Les enfants au ski le matin, mes parents aux thermes, et tout le monde à la même table à midi. C’était exactement ce que j’espérais.",
           image: {
             src: "/destination/suisse/hero-2.webp",
-            alt: "Portrait de Constance", // TODO: verify
+            alt: "Le Cervin se dévoile au-dessus de Zermatt au premier soleil",
           },
           name: "Constance", // TODO: verify
           role: "Voyage en famille, janvier 2026", // TODO: verify
@@ -542,7 +542,7 @@ export const destination: Destination = {
             "Le quart d’heure sur l’Ebnefluh restera le souvenir du voyage. Ce moment-là est difficile à raconter. Nous étions redescendus avant même que la vallée ne se réveille.",
           image: {
             src: "/destination/suisse/hero-3.webp",
-            alt: "Portrait de Laurent", // TODO: verify
+            alt: "Château de Chillon et bateau à vapeur sur le lac Léman au coucher du soleil",
           },
           name: "Laurent", // TODO: verify
           role: "Voyage anniversaire, septembre 2025", // TODO: verify

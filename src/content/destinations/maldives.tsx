@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Maldives, voyage sur mesure",
   metaDescription:
-    "Voyage aux Maldives sur mesure : atolls de Baa, Noonu et Laamu, îles privées, raies manta. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage aux Maldives sur mesure : atolls de Baa, Noonu et Laamu, îles privées, raies manta. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -255,8 +255,8 @@ export const destination: Destination = {
           description:
             "La capitale tient sur une île entièrement bâtie, colorée et vivante. On y voit le marché aux poissons et la vieille mosquée de corail, puis le lagon d'où partent les hydravions.",
           image: {
-            src: "/destination/maldives/map-male.png",
-            alt: "Front de mer et immeubles colorés de Malé, capitale des Maldives",
+            src: "/destination/maldives/map-male.webp",
+            alt: "Malé et ses immeubles colorés vus du ciel, capitale des Maldives",
           },
           coordinates: { lat: 4.1755, lng: 73.5093 }, // TODO: verify coords
         },
@@ -265,8 +265,8 @@ export const destination: Destination = {
           description:
             "Une petite baie classée par l'UNESCO, où le courant rassemble le plancton et attire les raies manta de mai à novembre. On les regarde tourner au masque et au tuba.",
           image: {
-            src: "/destination/maldives/map-baa.png",
-            alt: "Raies manta rassemblées dans la baie de Hanifaru, atoll de Baa",
+            src: "/destination/maldives/map-baa.webp",
+            alt: "Raies manta tournant au-dessus du récif, atoll de Baa",
           },
           coordinates: { lat: 5.2917, lng: 73.15 }, // TODO: verify coords
         },
@@ -275,8 +275,8 @@ export const destination: Destination = {
           description:
             "Les grands lagons du nord, où le bleu s'éclaircit à perte de vue. Des bancs de sable qui se découvrent à marée basse, et les adresses les plus discrètes du pays.",
           image: {
-            src: "/destination/maldives/map-noonu.png",
-            alt: "Lagon clair et banc de sable de l'atoll de Noonu aux Maldives",
+            src: "/destination/maldives/map-noonu.webp",
+            alt: "Île bordée de son lagon turquoise vue du ciel, atoll de Noonu",
           },
           coordinates: { lat: 5.85, lng: 73.35 }, // TODO: verify coords
         },
@@ -285,8 +285,8 @@ export const destination: Destination = {
           description:
             "Loin au sud, un seul hôtel occupe tout l'atoll. Un laboratoire marin, des herbiers protégés, et la vague de Yin Yang qui casse sur le récif de juin à septembre.",
           image: {
-            src: "/destination/maldives/map-laamu.png",
-            alt: "Récif et pointe sableuse de l'atoll de Laamu aux Maldives",
+            src: "/destination/maldives/map-laamu.webp",
+            alt: "Côte de cocotiers et récif de l'atoll de Laamu vus du ciel",
           },
           coordinates: { lat: 1.9333, lng: 73.45 }, // TODO: verify coords
         },
@@ -295,7 +295,7 @@ export const destination: Destination = {
           description:
             "Une aire marine protégée où les requins-baleines longent le récif toute l'année. Ces géants paisibles se croisent au masque et au tuba, depuis un bateau de bois.",
           image: {
-            src: "/destination/maldives/map-ari.png",
+            src: "/destination/maldives/map-ari.webp",
             alt: "Requin-baleine longeant le récif extérieur de l'atoll d'Ari Sud",
           },
           coordinates: { lat: 3.47, lng: 72.84 }, // TODO: verify coords
@@ -305,8 +305,8 @@ export const destination: Destination = {
           description:
             "Le petit atoll que préfèrent les plongeurs, pour ses passes et ses tombants. À Fotteyo, les requins de récif remontent le courant à la tombée du jour.",
           image: {
-            src: "/destination/maldives/map-vaavu.png",
-            alt: "Passe et tombant corallien de l'atoll de Vaavu aux Maldives",
+            src: "/destination/maldives/map-vaavu.webp",
+            alt: "Coraux et poissons du tombant de l'atoll de Vaavu",
           },
           coordinates: { lat: 3.45, lng: 73.5 }, // TODO: verify coords
         },
@@ -519,7 +519,7 @@ export const destination: Destination = {
             "Deux atolls en douze jours, et jamais l'impression de faire des transferts. Stéphane avait calé Hanifaru sur la bonne marée. Les mantas sont passées à un mètre, et nous étions le seul bateau.",
           image: {
             src: "/destination/maldives/hero-1.webp",
-            alt: "Portrait de Guillaume et Sophie", // TODO: verify
+            alt: "Lagon turquoise et villas sur pilotis d'un atoll des Maldives",
           },
           name: "Guillaume & Sophie", // TODO: verify
           role: "Voyage en couple, septembre 2025", // TODO: verify
@@ -530,7 +530,7 @@ export const destination: Destination = {
             "Avec trois enfants, on redoutait l'ennui d'une île. Ils ont passé la semaine dans la pépinière de corail avec le biologiste, et ils y retournaient tous les matins avant le petit déjeuner.",
           image: {
             src: "/destination/maldives/hero-2.webp",
-            alt: "Portrait de la famille Lambert", // TODO: verify
+            alt: "Banc de sable découvert à marée basse dans l'atoll de Noonu",
           },
           name: "Famille Lambert", // TODO: verify
           role: "Séjour en famille, février 2025", // TODO: verify
@@ -541,7 +541,7 @@ export const destination: Destination = {
             "Ce que j'ai apprécié, c'est de n'avoir rien à vérifier. Un seul interlocuteur, du premier appel au retour. La nuit au télescope avec l'astronome, les enfants s'en souviennent encore.",
           image: {
             src: "/destination/maldives/hero-3.webp",
-            alt: "Portrait de Nicolas", // TODO: verify
+            alt: "Hydravion amarré au ponton d'une île de l'océan Indien",
           },
           name: "Nicolas", // TODO: verify
           role: "Semaine de décompression, avril 2025", // TODO: verify

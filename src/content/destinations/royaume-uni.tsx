@@ -168,50 +168,50 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 1 h 20 de vol entre Paris et Londres Heathrow, et 2 h 17 par l'Eurostar entre Paris Nord et Saint-Pancras, centre-ville à centre-ville. Édimbourg et Glasgow se rejoignent en un peu moins de deux heures depuis Paris. Pour les Highlands, Inverness et Aberdeen s'atteignent par une correspondance à Londres ou par le train de nuit Caledonian Sleeper.",
+            "Environ 1 h 20 de vol entre Paris et Londres, 2 h 17 en Eurostar. Édimbourg et Glasgow à un peu moins de deux heures de vol.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Une heure de retard sur la France toute l'année. Le Royaume-Uni suit l'heure d'été aux mêmes dates que le continent, l'écart ne change donc jamais.",
+            "Une heure de retard sur la France toute l'année, le Royaume-Uni changeant d'heure aux mêmes dates que le continent.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est la livre sterling (GBP). Le paiement sans contact est accepté partout, y compris dans les taxis et les petits commerces, et l'on peut traverser le pays sans jamais retirer d'espèces. L'Écosse et l'Irlande du Nord émettent leurs propres billets, valables sur place mais parfois refusés à Londres.",
+            "Livre sterling (GBP). Le sans contact est accepté partout ; les billets écossais et nord-irlandais sont parfois refusés à Londres.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           // TODO: verify tarif et délai de l'ETA auprès de France Diplomatie
           description:
-            "Aucun visa pour un séjour touristique de moins de six mois. Le voyageur français entre avec un passeport en cours de validité et une autorisation électronique de voyage (ETA) demandée en ligne avant le départ. La carte nationale d'identité ne reste acceptée que dans certains cas particuliers, notamment pour les bénéficiaires du statut settled ou pre-settled.",
+            "Pas de visa pour moins de six mois. Passeport en cours de validité et autorisation électronique ETA, demandée en ligne avant le départ.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin spécifique n'est exigé à l'entrée sur le territoire. Les vaccinations habituelles du calendrier français doivent être à jour. La carte européenne d'assurance maladie reste valable au Royaume-Uni : l'Assurance Maladie recommande de l'emporter. Une assurance voyage complémentaire reste néanmoins recommandée.",
+            "Aucun vaccin exigé, vaccinations habituelles à jour. La carte européenne d'assurance maladie reste valable : emportez-la.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mai à septembre pour l'ensemble du pays. Nous privilégions la fin du mois de mai et le mois de juin pour l'Angleterre, quand les jardins sont à leur plein et que les jours n'en finissent pas. Pour l'Écosse, septembre reste notre préférence : les paysages prennent leurs couleurs d'automne et la fréquentation retombe. Les midges, eux, peuvent rester présents jusqu'en octobre.",
+            "De mai à septembre. Nous privilégions fin mai et juin pour l'Angleterre, septembre pour l'Écosse, ses couleurs d'automne et son calme.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais est parlé partout. Le gallois reste vivant au pays de Galles, où il est co-officiel et affiché sur toute la signalisation. Le gaélique écossais se pratique encore dans les Hébrides, et le scots s'entend dans les basses terres et le nord-est.",
+            "L'anglais est parlé partout. Le gallois est co-officiel au pays de Galles, le gaélique écossais se pratique encore dans les Hébrides.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est océanique et changeant, plus doux que la latitude ne le laisse croire. En été, les températures tournent habituellement autour de 18 à 23 degrés dans le sud, quelques degrés de moins en Écosse, sans que rien ne soit jamais acquis. La pluie se répartit sur toute l'année et tombe rarement longtemps. En juin, il fait encore jour à 22 heures dans les Highlands.",
+            "Océanique et changeant. En été, 18 à 23 degrés dans le sud, un peu moins en Écosse ; la pluie, répartie sur l'année, dure rarement.",
         },
       ],
     },
@@ -537,10 +537,10 @@ export const destination: Destination = {
             "Une journée entière sur la Spey avec le ghillie, sans croiser âme qui vive. Il nous a repris le lancer toute la matinée sans jamais s'impatienter. Le saumon est reparti à l'eau, et c'est le souvenir le plus net du voyage.",
           image: {
             src: "/destination/royaume-uni/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Façade de brique rouge et de terre cuite ouvragée d'un immeuble de Mayfair, à Londres"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Royaume-Uni, Speyside et Deeside, septembre 2025", // TODO: replace with real testimonial
+          role: "Royaume-Uni, Speyside et Deeside, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -548,10 +548,10 @@ export const destination: Destination = {
             "On nous a ouvert une maison de famille dans les Highlands, pour nous seuls, avec le dîner servi dans la bibliothèque. Personne ne jouait un rôle : c'était leur maison, et ils nous y recevaient. Je ne pensais pas que cela se faisait encore.",
           image: {
             src: "/destination/royaume-uni/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Torrent descendant entre les collines d'une vallée des Highlands écossaises"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Royaume-Uni, Londres et les Highlands, 2025", // TODO: replace with real testimonial
+          role: "Royaume-Uni, Londres et les Highlands, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -559,10 +559,10 @@ export const destination: Destination = {
             "Les enfants ont adoré la ferme du Hampshire, et nous les jardins. Trois nuits à Londres au début, la campagne ensuite : dans cet ordre, tout le monde y trouvait son compte. Le train nous a évité toute la logistique.",
           image: {
             src: "/destination/royaume-uni/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Cottages de pierre blonde alignés dans un village des Cotswolds, en Angleterre"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Royaume-Uni, Londres, Hampshire et Cotswolds, juin 2026", // TODO: replace with real testimonial
+          role: "Royaume-Uni, Londres, Hampshire et Cotswolds, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

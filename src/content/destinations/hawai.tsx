@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Hawaï : Voyage sur mesure",
   metaDescription:
-    "Voyage à Hawaï sur mesure : volcans de Big Island, vallées de Molokai, falaises de Kauai. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage à Hawaï sur mesure : volcans de Big Island, vallées de Molokai, falaises de Kauai. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -172,49 +172,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Il n'existe actuellement pas de vol direct entre Paris et Honolulu. Une escale est nécessaire, souvent en Amérique du Nord, à Los Angeles, San Francisco ou Seattle, pour environ 19 à 24 heures de voyage selon la correspondance. L'arrivée se fait à Honolulu, sur Oahu, ou directement à Kona, sur Big Island, selon les périodes et les compagnies.",
+            "Pas de vol direct depuis Paris : une escale, souvent à Los Angeles, San Francisco ou Seattle, pour 19 à 24 heures jusqu'à Honolulu ou Kona.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Hawaï ne change pas d'heure au cours de l'année. Comptez onze heures de retard sur la France en hiver, et douze heures en été : le décalage varie parce que c'est la France qui change d'heure, pas l'archipel.",
+            "Onze heures de retard sur la France en hiver, douze en été. Hawaï ne change pas d'heure, c'est la France qui le fait.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar américain. Les cartes étrangères sont très largement acceptées, y compris pour de petits montants, mais il reste utile de garder quelques espèces pour les marchés et les pourboires, d'usage courant dans la restauration.",
+            "Le dollar américain. Les cartes étrangères sont très largement acceptées ; gardez quelques espèces pour les marchés et les pourboires.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Hawaï étant un État américain, les formalités sont celles des États-Unis. Les ressortissants français peuvent séjourner jusqu'à quatre-vingt-dix jours dans le cadre du programme d'exemption de visa, le Visa Waiver Program, à condition d'obtenir une autorisation ESTA avant le départ. Elle est payante et généralement valable deux ans, ou jusqu'à l'expiration du passeport, qui doit être un passeport électronique compatible avec le Visa Waiver Program.",
+            "Formalités des États-Unis : pas de visa jusqu'à 90 jours, mais une autorisation ESTA payante avant le départ et un passeport électronique.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin spécifique n'est obligatoire pour un séjour touristique à Hawaï. Il est recommandé d'être à jour des vaccinations prévues au calendrier vaccinal français.",
+            "Aucun vaccin obligatoire. Il est recommandé d'être à jour des vaccinations prévues au calendrier vaccinal français.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Nous privilégions le printemps, d'avril à juin, et l'automne, de septembre à novembre. Ces périodes conjuguent températures agréables et fréquentation plus douce. De décembre à mai, les baleines à bosse rejoignent les eaux hawaïennes. L'hiver apporte également de puissantes houles sur les côtes nord.",
+            "D'avril à juin et de septembre à novembre, pour la douceur et une fréquentation modérée. Baleines à bosse de décembre à mai.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais et le hawaïen sont les deux langues officielles de l'État. Le hawaïen se réentend grâce aux écoles d'immersion et se lit partout sur les panneaux et les noms de lieux. On entend aussi couramment le créole hawaïen, communément appelé Pidgin, ainsi que le japonais, le tagalog et l'ilocano parlés par les communautés installées dans l'archipel.",
+            "L'anglais et le hawaïen, langues officielles. Le hawaïen se lit partout sur les panneaux ; on entend aussi le Pidgin, le créole local.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat reste doux toute l'année sur les côtes, avec des températures peu variables et des alizés réguliers. Les versants exposés à l'est reçoivent l'essentiel de la pluie, le plus souvent sous forme d'averses brèves, tandis que les côtes ouest, comme celle de Kona, restent sèches et ensoleillées. En altitude, sur le Mauna Kea et le Haleakala, il fait franchement froid et il peut geler la nuit.",
+            "Doux toute l'année sur les côtes. L'est reçoit l'essentiel de la pluie, l'ouest reste sec ; au sommet du Mauna Kea, il peut geler la nuit.",
         },
       ],
     },
@@ -234,7 +234,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure à Hawaï entre Big Island, Maui, Molokai et Kauai",
             "Service du thé sur la terrasse d'une adresse confidentielle à Hawaï",
             "Salon sous charpente de bois d'un hébergement hawaïen",
-            "Conciergerie privée 24/7 pour un voyage à Hawaï",
+            "Conciergerie privée pour un voyage à Hawaï",
             "Pirogue à balancier posée sur une plage de sable noir à Hawaï",
           ][i],
         },
@@ -552,10 +552,10 @@ export const destination: Destination = {
             "Nous avons vu le soleil se coucher sur les nuages au sommet du Mauna Kea, puis un astronome nous a montré le ciel à mi-pente. Il faisait un froid sec et le ciel avait une netteté que je n'avais jamais vue ailleurs. Mes enfants en parlent encore.",
           image: {
             src: "/destination/hawai/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Route bordée de palmiers au pied d'une muraille de falaises vertes à Hawaï"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Hawaï, Big Island et Maui, 2025", // TODO: replace with real testimonial
+          role: "Hawaï, Big Island et Maui, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -563,10 +563,10 @@ export const destination: Destination = {
             "À Halawa, on nous a fait attendre à l'entrée du sentier le temps du chant d'accueil. Ce n'était pas une mise en scène pour visiteurs, on l'a senti tout de suite. La journée a pris une autre couleur après cela.",
           image: {
             src: "/destination/hawai/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Surfeuse vue du ciel sur une vague turquoise à Hawaï"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Hawaï, Molokai et Kauai, 2025", // TODO: replace with real testimonial
+          role: "Hawaï, Molokai et Kauai, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -574,10 +574,10 @@ export const destination: Destination = {
             "Lanai nous a réconciliés avec l'idée de vacances : pas une file d'attente, pas un embouteillage, des pistes rouges et l'océan pour nous seuls. Je ne savais pas qu'il restait un endroit comme celui-là.",
           image: {
             src: "/destination/hawai/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Crêtes vertes d'une côte hawaïenne sous les nuages, vues depuis la mer"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Hawaï, Lanai et Big Island, 2026", // TODO: replace with real testimonial
+          role: "Hawaï, Lanai et Big Island, 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

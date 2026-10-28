@@ -93,7 +93,7 @@ export const destination: Destination = {
       theme: "light",
       paragraphs: [
         "Le Chili impressionne par sa géographie, mais ses sites les plus connus, comme les Torres del Paine, attirent aussi beaucoup de visiteurs aux mêmes points de vue et aux mêmes horaires. Pour les découvrir autrement, tout dépend des accès dont on dispose.",
-        "Nous travaillons avec des estancias fermées au public, des équipages de Puerto Natales qui connaissent les mouillages des fjords et des vignerons de la vallée de Millahue. À Rapa Nui, un guide de l'île ouvre le site d'Ahu Tongariki avant le lever du jour.",
+        "Nous travaillons avec des estancias privées, des équipages de Puerto Natales qui connaissent les mouillages des fjords et des vignerons de la vallée de Millahue. À Rapa Nui, un guide de l'île ouvre le site d'Ahu Tongariki avant le lever du jour.",
       ],
       images: [
         {
@@ -112,7 +112,7 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/chili/xp-tongariki-aube-1.webp",
-          alt: "Les quinze moai d'Ahu Tongariki en contre-jour au lever du soleil sur l'île de Pâques",
+          alt: "Les quinze moai d’Ahu Tongariki en contre-jour, le soleil se levant derrière eux sur l’île de Pâques",
         },
         right: {
           src: "/destination/chili/xp-tongariki-aube-2.webp",
@@ -121,10 +121,10 @@ export const destination: Destination = {
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "L'aube à Ahu Tongariki, avant que l'île se réveille",
+        heading: "L'aube à Ahu Tongariki, avec un guide rapanui",
         columns: [
-          "On quitte Hanga Roa dans le noir, une demi-heure de route sur la côte est. Quinze moai se tiennent là, en ligne, dos à l'océan, remis debout il y a trente ans après qu'un raz-de-marée les avait couchés. Le site est encore fermé et l'on y entre seuls. Le ciel passe du gris au rouge derrière les statues, et pendant vingt minutes leurs silhouettes n'ont plus de visage.",
-          "Un guide rapanui reste avec nous tout ce temps. Il explique lesquels de ces quinze ont été relevés, lesquels dorment encore ailleurs sur l'île, et pourquoi ses ancêtres les ont dressés face aux villages plutôt que vers la mer. Le vent vient du Pacifique, il n'y a pas d'autre bruit. Quand les premiers véhicules arrivent sur la piste, on repart déjeuner chez lui.",
+          "On quitte Hanga Roa dans le noir avec un guide rapanui, une demi-heure de route sur la côte est. Quinze moai se tiennent là, en ligne, dos à l'océan, remis debout il y a trente ans après qu'un raz-de-marée les avait couchés. On arrive avant l'aube, quand la côte est encore dans le noir. Le ciel passe du gris au rouge derrière les statues, et pendant vingt minutes leurs silhouettes n'ont plus de visage.",
+          "Le guide reste avec nous tout ce temps. Il explique lesquels de ces quinze ont été relevés, lesquels dorment encore ailleurs sur l'île, et pourquoi ses ancêtres les ont dressés face aux villages plutôt que vers la mer. Le vent vient du Pacifique, il n'y a pas d'autre bruit. Une fois le soleil levé, on repart déjeuner chez lui.",
         ],
       },
     },
@@ -136,7 +136,7 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités au Chili",
       heading: "Les moments que l'on garde en rentrant",
       description:
-        "Une traversée à cheval avec les baqueanos du Paine, le ciel de l'altiplano lu par un astrophysicien, et cinq jours de navigation dans les fjords Kawésqar.",
+        "Une traversée à cheval avec les baqueanos du Paine, le ciel de l'altiplano lu par un astronome, et cinq jours de navigation dans les fjords de Patagonie.",
       slugs: [
         "torres-paine-baqueanos",
         "atacama-astrophysicien",
@@ -151,8 +151,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Trois maisons, trois Chili",
       description:
-        "Une villa avec son guide et son 4x4 face au massif du Paine, une maison basse à la sortie de San Pedro, et un vignoble de Millahue confié à des artistes.",
-      slugs: ["awasi-patagonia", "explora-atacama", "vik-chile"],
+        "Une villa avec son guide et son 4x4 face au massif du Paine, des maisons de pisé au cœur de San Pedro, et un vignoble de Millahue confié à des artistes.",
+      slugs: ["awasi-patagonia", "awasi-atacama", "vik-chile"],
     },
 
     {
@@ -169,53 +169,53 @@ export const destination: Destination = {
           title: "Temps de vol",
           // TODO: verify durées de vol
           description:
-            "Santiago se rejoint en vol direct depuis Paris, en quatorze heures environ. Les correspondances par Madrid, São Paulo ou Buenos Aires ajoutent quelques heures. Depuis Santiago, comptez deux heures de vol pour Calama et le désert d'Atacama, trois heures trente pour Punta Arenas et la Patagonie, cinq heures trente pour Rapa Nui.",
+            "Environ quatorze heures de vol direct de Paris à Santiago. Puis deux heures vers l'Atacama, 3 h 30 vers la Patagonie, 5 h 30 vers Rapa Nui.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           // TODO: verify
           description:
-            "Quatre à six heures de moins qu'en France selon la saison, les deux pays changeant d'heure en sens inverse. Rapa Nui a deux heures de retard sur le continent chilien.",
+            "Quatre à six heures de moins qu'en France selon la saison. Rapa Nui a deux heures de retard sur le continent chilien.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le peso chilien (CLP). Les cartes étrangères sont acceptées partout dans les villes, les hôtels et les domaines viticoles. En Patagonie et sur l'altiplano, quelques espèces restent utiles pour les péages, les entrées de parc et les pêcheurs.",
+            "Le peso chilien (CLP). Carte acceptée partout en ville, à l'hôtel et dans les domaines, quelques espèces en Patagonie et sur l'altiplano.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           // TODO: verify formalités en vigueur
           description:
-            "Aucun visa pour les ressortissants français en séjour touristique de moins de quatre-vingt-dix jours. Le passeport doit être valable pour toute la durée du séjour. Une déclaration est demandée à l'entrée pour les produits alimentaires, végétaux et animaux, contrôlée sérieusement à l'arrivée comme entre les régions.",
+            "Pas de visa sous 90 jours, passeport valable tout le séjour. Produits alimentaires, végétaux et animaux à déclarer, contrôles stricts.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           // TODO: verify recommandations sanitaires
           description:
-            "Aucune vaccination n'est exigée à l'entrée. L'Institut Pasteur recommande d'être à jour du calendrier vaccinal et conseille l'hépatite A. Rien de particulier pour l'altitude, qui se gère par le rythme et non par un traitement.",
+            "Aucune vaccination exigée. Calendrier à jour et hépatite A conseillés, et l'altitude se gère par le rythme, sans traitement.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "L'été austral, de novembre à mars, pour la Patagonie et les navigations australes. Le désert d'Atacama se visite toute l'année. Nous aimons particulièrement mars et avril : les vendanges à Colchagua, les couleurs qui tournent en Patagonie et beaucoup moins de monde au pied des Torres.",
+            "De novembre à mars pour la Patagonie, l'Atacama toute l'année. Nous aimons mars et avril : vendanges à Colchagua, moins de monde aux Torres.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'espagnol, avec un accent chilien réputé difficile même des hispanophones. Le mapudungun se parle encore dans l'Araucanie, le rapanui sur l'île de Pâques. L'anglais est courant dans les hôtels et chez les guides, plus rare ailleurs : nos accompagnants sont francophones.",
+            "L'espagnol, au fort accent chilien, avec le mapudungun en Araucanie et le rapanui à Pâques. Nos accompagnants sont francophones.",
         },
         {
           iconName: "sun",
           title: "Climat",
           // TODO: verify températures
           description:
-            "Autant de climats que de latitudes. Atacama reste sec toute l'année, avec des journées douces et des nuits proches de zéro. Santiago et Colchagua vivent des étés méditerranéens. En Patagonie, le vent et les quatre saisons peuvent se succéder dans la même journée.",
+            "Atacama sec toute l'année, aux nuits proches de zéro, étés méditerranéens à Santiago et Colchagua. En Patagonie, quatre saisons en un jour.",
         },
       ],
     },
@@ -233,10 +233,10 @@ export const destination: Destination = {
           src: `/destination/chili/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure au Chili entre Atacama, Colchagua, Chiloé et la Patagonie",
-            "Adresses confidentielles au Chili : estancias fermées au public et caves de vignerons",
-            "Hébergements au Chili : villas face au massif du Paine et maisons du désert d'Atacama",
-            "Conciergerie privée 24/7 pour un voyage au Chili",
-            "Expériences immersives au Chili : navigation dans les fjords Kawésqar et ciel de l'altiplano",
+            "Cave d'un vigneron de Colchagua, table de dégustation ouverte sur les vignes, Chili",
+            "Chambre en bois d'Awasi Patagonia ouverte sur la steppe, Chili",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Expériences immersives au Chili : navigation dans les fjords de Patagonie et ciel de l'altiplano",
           ][i],
         },
       })),
@@ -553,10 +553,10 @@ export const destination: Destination = {
             "Cinq jours dans les fjords sans voir un autre bateau. Le matin, le glacier lâchait des blocs et personne ne disait rien. Le cuisinier achetait le crabe aux pêcheurs avant de partir. Je n'ai pas ouvert mon téléphone une seule fois.",
           image: {
             src: "/destination/chili/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Massif des Torres del Paine en Patagonie chilienne au lever du jour"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Chili, Patagonie et fjords Kawésqar, 2025", // TODO: replace with real testimonial
+          role: "Chili, Patagonie et fjords, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -564,21 +564,21 @@ export const destination: Destination = {
             "Nous étions à cheval avec deux baqueanos sur des terres où personne n'entre, les tours en face de nous toute la matinée. Nos petits-enfants ont compris ce jour-là ce que voulait dire la Patagonie.",
           image: {
             src: "/destination/chili/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Vallée de la Lune et cordillère de sel dans le désert d'Atacama"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Chili en famille, trois générations, 2025", // TODO: replace with real testimonial
+          role: "Chili en famille, trois générations, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
           quote:
-            "L'astrophysicien a réglé son télescope et nous a montré les Nuages de Magellan. Il faisait froid, le désert était noir. Trois jours plus tard nous déjeunions dans une cave de Millahue avec le vigneron. Tout s'enchaînait sans que nous ayons rien à demander.",
+            "L'astronome a réglé son télescope et nous a montré les Nuages de Magellan. Il faisait froid, le désert était noir. Trois jours plus tard nous déjeunions dans une cave de Millahue avec le vigneron. Tout s'enchaînait sans que nous ayons rien à demander.",
           image: {
             src: "/destination/chili/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Maisons sur pilotis de Castro sur l'île de Chiloé au Chili"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Chili, Atacama et Colchagua, 2025", // TODO: replace with real testimonial
+          role: "Chili, Atacama et Colchagua, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

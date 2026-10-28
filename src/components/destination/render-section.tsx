@@ -122,6 +122,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           description={section.description}
           cta={section.cta}
           items={section.items}
+          numbered={section.numbered}
           background={section.background}
         />
       );
@@ -155,6 +156,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           heading={section.heading}
           paragraphs={section.paragraphs}
           images={section.images}
+          cta={section.cta}
           theme={section.theme}
           background={section.background}
         />
@@ -270,6 +272,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           description={section.description}
           cta={section.cta}
           spots={section.spots}
+          logo={section.logo}
           background={section.background}
         />
       );

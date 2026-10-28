@@ -1,15 +1,8 @@
 import type { ReactNode } from "react";
-import {
-  continents,
-  serviceCategories,
-  themes,
-} from "@/lib/content/registry";
+import { getServiceLineup } from "@/lib/content/service-lineup";
+import { continents, themes } from "@/lib/content/registry";
 
-export type MenuGroupKey =
-  | "continents"
-  | "themes"
-  | "conciergerie"
-  | "agence";
+export type MenuGroupKey = "continents" | "themes" | "conciergerie" | "agence";
 
 export type MenuItem = {
   label: string;
@@ -32,12 +25,15 @@ const companyLinks: MenuItem[] = [
   { label: "FAQ", href: "/#faq" },
 ];
 
-/** Discreet B2B entry, pinned under a rule at the root of the menu. It is a
- * distinct audience, not a category of the B2C catalogue, so it never sits as
- * a peer of Destinations / Expériences. */
-export const proLink: MenuItem = {
+/** B2B entry, pinned at the root of the menu as a dark card. It is a distinct
+ * audience, not a category of the B2C catalogue, so it sits apart from
+ * Destinations / Expériences, but with the same weight. */
+export const proLink: MenuItem & { eyebrow: string } = {
+  eyebrow: "Espace dédié",
   label: "Professionnels & family offices",
   href: "/professionnels",
+  description:
+    "Entreprises, dirigeants et family offices : un interlocuteur unique pour tous vos déplacements.",
 };
 
 /** Pinned in the menu footer: the header CTAs are `hidden md:inline-flex`,
@@ -72,10 +68,11 @@ export function getMenuGroups(): MenuGroup[] {
         text: "Ce qui réussit un voyage tient rarement à l'itinéraire, mais à tout ce qui l'entoure. Nos pôles de services couvrent ce périmètre, de la préparation au retour.",
         cta: { label: "Voir tous nos services", href: "/services" },
       },
-      items: Object.values(serviceCategories).map((s) => ({
+      // Même liste et même ordre que la grille /services.
+      items: getServiceLineup().map((s) => ({
         label: s.name,
-        href: `/services/${s.slug}`,
-        description: s.blurb,
+        href: s.href,
+        description: s.description,
       })),
     },
     {

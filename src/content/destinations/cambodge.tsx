@@ -168,7 +168,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Depuis Paris, Phnom Penh et Siem Reap sont accessibles avec une correspondance. Comptez généralement 13 à 18 heures de voyage, selon l'itinéraire.",
+            "Phnom Penh et Siem Reap se rejoignent depuis Paris avec une correspondance, en 13 à 18 heures de voyage selon l'itinéraire.",
         },
         {
           iconName: "clock",
@@ -180,25 +180,25 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le riel est la monnaie officielle et le dollar américain circule encore très largement. Les cartes étrangères sont acceptées dans les hôtels, et il reste utile de garder des espèces.",
+            "Le riel, mais le dollar américain circule très largement. Cartes étrangères acceptées dans les hôtels, et des espèces restent utiles.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Un visa touristique est obligatoire. L'e-visa s'obtient en ligne avant le départ ; le visa peut aussi être délivré à l'arrivée. La Cambodia e-Arrival doit également être complétée avant une arrivée par avion. Passeport valable au moins six mois.",
+            "Visa obligatoire, en e-visa ou à l'arrivée, et Cambodia e-Arrival à remplir avant un vol. Passeport valable au moins six mois.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Depuis la France, aucune vaccination n'est exigée dans le cas général ; la fièvre jaune devient obligatoire en provenance d'une zone d'endémie. L'Institut Pasteur recommande le calendrier vaccinal à jour et l'hépatite A ; la typhoïde et la rage se discutent selon le séjour.",
+            "Aucun vaccin exigé, sauf fièvre jaune depuis une zone d'endémie. Calendrier à jour et hépatite A conseillés, typhoïde et rage selon le cas.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison sèche court de novembre à avril. Nous privilégions décembre à février, quand l'air reste sec et la chaleur supportable dans les temples.",
+            "Saison sèche de novembre à avril. Nous privilégions décembre à février, quand l'air reste sec et la chaleur supportable aux temples.",
         },
         {
           iconName: "languages",
@@ -210,7 +210,7 @@ export const destination: Destination = {
           iconName: "sun",
           title: "Climat",
           description:
-            "Climat tropical de mousson, chaud toute l'année. Les pluies s'installent de mai à octobre, souvent en fin de journée, et avril est généralement le mois le plus chaud.",
+            "Tropical de mousson, chaud toute l'année. Pluies de mai à octobre, souvent en fin de journée, et avril est le mois le plus chaud.",
         },
       ],
     },
@@ -230,7 +230,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure au Cambodge entre Angkor, le Mekong et les Cardamomes",
             "Adresses confidentielles au Cambodge : temples reculés et villages du fleuve",
             "Hébergements au Cambodge : Amansara à Siem Reap et Shinta Mani Wild",
-            "Conciergerie privée 24/7 pour un voyage au Cambodge",
+            "Conciergerie privée pour un voyage au Cambodge",
             "Expériences immersives au Cambodge : Angkor à l'aube et le Tonlé Sap",
           ][i],
         },
@@ -556,10 +556,10 @@ export const destination: Destination = {
             "Entrer dans le parc avant le jour, c'est ce qui a tout changé. Nous avons eu la chaussée d'Angkor Vat pour nous, dans un silence complet. L'archéologue qui nous accompagnait nous a montré des détails que nous n'aurions jamais remarqués, et nous étions repartis quand les cars sont arrivés.",
           image: {
             src: "/destination/cambodge/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Deux jeunes moines en robe safran assis dans l'embrasure d'un temple d'Angkor"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Cambodge, Angkor et Phnom Penh, 2025", // TODO: replace with real testimonial
+          role: "Cambodge, Angkor et Phnom Penh, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -567,10 +567,10 @@ export const destination: Destination = {
             "Nous avons dormi sous tente à Banteay Chhmar, dans un temple que personne n'a restauré. Le village avait préparé le dîner et, au matin, la brume tenait encore entre les pierres. C'est le souvenir que nos petits-enfants racontent encore.",
           image: {
             src: "/destination/cambodge/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Silhouette d'un éléphant et de son cornac dans la lumière du couchant, au Cambodge"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Cambodge en famille, 2025", // TODO: replace with real testimonial
+          role: "Cambodge en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -578,10 +578,10 @@ export const destination: Destination = {
             "Après les temples, nous ne pensions pas que ce serait la forêt qui resterait. Une rivière, un campement suspendu dans les arbres, et deux gardes qui nous ont emmenés relever des pièges toute une matinée. Nous sommes restés plus longtemps que prévu.",
           image: {
             src: "/destination/cambodge/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Les tours d'Angkor Vat reflétées dans le bassin aux nénuphars, près de Siem Reap"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Cambodge, Angkor et Cardamomes, 2025", // TODO: replace with real testimonial
+          role: "Cambodge, Angkor et Cardamomes, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

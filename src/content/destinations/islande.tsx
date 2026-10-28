@@ -225,49 +225,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 3 heures 30 de vol direct entre Paris et Keflavík. L'aéroport se trouve à 50 kilomètres de Reykjavík, soit trois quarts d'heure de route. Nos premières étapes de la côte sud sont ensuite à deux heures de voiture.",
+            "Environ 3 heures 30 de vol direct entre Paris et Keflavík, à 50 kilomètres de Reykjavík, soit trois quarts d'heure de route.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "L'Islande vit à l'heure GMT toute l'année et ne change jamais d'heure. Le décalage avec la France est donc de deux heures en été et d'une heure en hiver. La fatigue de voyage reste nulle.",
+            "L'heure GMT toute l'année, sans changement d'heure : deux heures de décalage avec la France en été, une heure en hiver.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est la couronne islandaise. La question du change ne se pose presque jamais : la carte bancaire est acceptée partout, jusque dans les piscines de village et les stations-service automatiques. Il est inutile d'emporter des espèces.",
+            "La couronne islandaise. La carte bancaire est acceptée partout, jusqu'aux stations-service automatiques : inutile d'emporter des espèces.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "L'Islande appartient à l'espace Schengen sans être membre de l'Union européenne. Aucun visa n'est nécessaire pour les ressortissants français. Une carte nationale d'identité en cours de validité suffit.",
+            "L'Islande est dans l'espace Schengen, hors Union européenne. Pas de visa : une carte nationale d'identité en cours de validité suffit.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination n'est exigée et les vaccins universels à jour suffisent. L'eau du robinet est excellente et se boit partout. L'eau chaude sent légèrement le soufre : elle arrive directement des nappes géothermiques, sans avoir besoin d'être chauffée.",
+            "Aucune vaccination exigée, vaccins universels à jour suffisants. L'eau du robinet est excellente ; l'eau chaude sent légèrement le soufre.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De juin à août pour la lumière continue, les hautes terres et les sorties en mer. De novembre à mars pour les grottes de glace et les aurores boréales. Mai et septembre réunissent de longues journées et des sites très calmes, les hautes terres s'ouvrant à partir de la mi-juin.",
+            "De juin à août pour la lumière continue et les hautes terres, de novembre à mars pour les grottes de glace et les aurores boréales.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'islandais est la langue officielle. L'anglais se parle couramment dans tout le pays, y compris chez les guides de glacier et les patrons de bateau. Le français reste rare en dehors de Reykjavík.",
+            "L'islandais. L'anglais se parle couramment dans tout le pays, y compris chez les guides ; le français reste rare hors de Reykjavík.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le Gulf Stream adoucit l'île malgré la latitude. À Reykjavík, janvier tourne autour de zéro degré et juillet autour de 13 degrés. Le ciel change vite : une averse, une éclaircie par-dessous, puis un arc-en-ciel au-dessus de la plaine. C'est ce qui rend la lumière islandaise si particulière.",
+            "Le Gulf Stream adoucit l'île : à Reykjavík, autour de zéro degré en janvier et de 13 degrés en juillet. Le ciel y change vite.",
         },
       ],
     },
@@ -309,7 +309,7 @@ export const destination: Destination = {
           },
         },
         {
-          title: "Conciergerie 24/7",
+          title: "Conciergerie privée",
           description:
             "Un seul interlocuteur du premier échange jusqu'au retour. Si le ciel se dégage à minuit, on vous prévient pour les aurores. Si la mer est belle plus tôt que prévu, on avance la sortie en bateau.",
           image: {
@@ -663,7 +663,7 @@ export const destination: Destination = {
             "Nous avons marché sur un glacier le matin et nous étions dans une source chaude à seize heures, en plein champ de lave. Je n'avais jamais fait deux choses aussi différentes dans la même journée.",
           image: {
             src: "/destination/islande/hero-1.webp",
-            alt: "Portrait de Vincent", // TODO: verify
+            alt: "Collines de rhyolite couvertes de mousse dans les Hautes Terres d'Islande",
           },
           name: "Vincent", // TODO: verify
           role: "Voyage en couple, mars 2026", // TODO: verify
@@ -674,7 +674,7 @@ export const destination: Destination = {
             "Nous voulions changer d'hôtel tous les soirs pour tout voir. On nous a conseillé l'inverse, trois nuits au même endroit. C'est la seule raison pour laquelle nous avons fini par voir les aurores.",
           image: {
             src: "/destination/islande/hero-2.webp",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "Iceberg bleu dérivant sur le lagon glaciaire de Jökulsárlón",
           },
           name: "Claire", // TODO: verify
           role: "Séjour sur la côte sud, février 2026", // TODO: verify
@@ -685,7 +685,7 @@ export const destination: Destination = {
             "Dans la grotte, la glace est bleue et traversée de bandes noires. Le guide nous a expliqué que chaque bande correspondait à une éruption, et il savait les dater. Je ne m'attendais pas à apprendre quoi que ce soit ce jour-là.",
           image: {
             src: "/destination/islande/hero-3.webp",
-            alt: "Portrait de Marc", // TODO: verify
+            alt: "Maison isolée au pied d'un volcan couvert de neige",
           },
           name: "Marc", // TODO: verify
           role: "Voyage en famille, janvier 2026", // TODO: verify

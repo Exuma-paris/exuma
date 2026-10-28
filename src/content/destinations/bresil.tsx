@@ -169,53 +169,53 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 12 heures en vol direct depuis Paris vers São Paulo, 11 heures vers Rio. Comptez un vol intérieur de 2 à 3 heures pour rejoindre São Luís, Salvador, Iguaçu ou le Pantanal.",
+            "12 heures de vol direct vers São Paulo, 11 vers Rio. Puis 2 à 3 heures de vol intérieur vers São Luís, Salvador, Iguaçu ou le Pantanal",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           // TODO: verify
           description:
-            "4 à 5 heures de retard sur la France selon la saison. Le décalage se rattrape en une journée, et les vols de nuit à l'aller le rendent presque indolore.",
+            "4 à 5 heures de retard sur la France selon la saison. Le décalage se rattrape en une journée, aidé par les vols de nuit à l'aller.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           // TODO: verify
           description:
-            "Le réal brésilien, autour de 6 réaux pour 1 euro. Les cartes passent partout, y compris chez les petits commerçants. L'espèce reste utile à Atins et dans le Pantanal.",
+            "Le réal brésilien, autour de 6 réaux pour 1 euro. Les cartes passent partout, les espèces restent utiles à Atins et dans le Pantanal.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Aucun visa pour les ressortissants français en séjour touristique de moins de 90 jours. Passeport valable pendant toute la durée du séjour et billet de retour demandés à l'entrée.",
+            "Pas de visa pour les Français sous 90 jours de séjour touristique. Passeport valable tout le séjour et billet de retour demandés à l'entrée.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           // TODO: verify
           description:
-            "Aucun vaccin obligatoire depuis la France. La vaccination contre la fièvre jaune est fortement recommandée pour l'Amazonie, le Pantanal et la région d'Iguaçu, à faire au moins dix jours avant le départ.",
+            "Aucun vaccin obligatoire. Fièvre jaune fortement recommandée pour l'Amazonie, le Pantanal et Iguaçu, au moins dix jours avant le départ.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Deux saisons se détachent. De juin à septembre, les lagunes sont pleines et le Pantanal concentre sa faune. En février ou mars, Rio danse pour le carnaval.",
+            "De juin à septembre, les lagunes sont pleines et le Pantanal concentre sa faune. En février ou mars, Rio danse pour le carnaval.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le portugais du Brésil. L'anglais reste peu répandu en dehors de l'hôtellerie et des guides. Nous prévoyons des accompagnants francophones ou anglophones sur chaque étape.",
+            "Le portugais du Brésil, l'anglais restant rare hors hôtellerie et guides. Nous prévoyons des accompagnants francophones ou anglophones.",
         },
         {
           iconName: "sun",
           title: "Climat",
           // TODO: verify
           description:
-            "Tropical sur presque tout le territoire, 25 à 32 degrés toute l'année dans le Nordeste. Saison des pluies de janvier à mai au nord, hivers doux et secs de juin à septembre au sud.",
+            "Tropical presque partout, 25 à 32 degrés toute l'année dans le Nordeste. Pluies de janvier à mai au nord, hivers doux et secs au sud.",
         },
       ],
     },
@@ -530,7 +530,7 @@ export const destination: Destination = {
             "Partir d'Atins avant le jour et se retrouver seuls dans les lagunes restera notre plus beau souvenir de voyage. Nous avons croisé les premiers véhicules en repartant, alors que la matinée était déjà bien avancée.",
           image: {
             src: "/destination/bresil/hero-1.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Dunes blanches et lagunes turquoise des Lençóis Maranhenses au Brésil",
           },
           name: "Édouard", // TODO: verify
           role: "Voyage en couple, juillet 2025", // TODO: verify
@@ -541,7 +541,7 @@ export const destination: Destination = {
             "Trois régions en deux semaines, et pas une correspondance ratée. Le Pantanal nous a offert deux jaguars, dont un tout près de la barque, et nous en parlons encore à nos amis.",
           image: {
             src: "/destination/bresil/hero-2.webp",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
+            alt: "Façades colorées du Pelourinho à Salvador de Bahia en fin de journée",
           },
           name: "Bernard & Michèle", // TODO: verify
           role: "Voyage anniversaire, août 2025", // TODO: verify
@@ -552,7 +552,7 @@ export const destination: Destination = {
             "Salvador avec un guide qui connaissait chaque ruelle du Pelourinho, puis Iguaçu depuis l'hôtel du parc. Les chutes pour nous seuls au petit matin. Nos enfants s'en souviennent encore.",
           image: {
             src: "/destination/bresil/hero-3.webp",
-            alt: "Portrait de Constance", // TODO: verify
+            alt: "Rideau d'eau des chutes d'Iguaçu vu depuis la passerelle brésilienne",
           },
           name: "Constance", // TODO: verify
           role: "Voyage en famille, juillet 2025", // TODO: verify

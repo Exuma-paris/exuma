@@ -31,3 +31,8 @@ Each generated image in `public/destination/canada/` was produced by feeding the
 | `map-fogo.png` | `map-fogo-ref.jpg` | TODO | TODO |
 
 Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`.
+| `xp-heliski-bugaboos-1.webp` | Miniature Google Images (hélicoptère et skieurs dans les séracs), recadrée 3:2, agrandie fidèlement | À confirmer |
+| `xp-heliski-bugaboos-2.webp` | destination-poudreuse.com (photo historique 1981, CMH), recadrée portrait, agrandie fidèlement | À confirmer |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `map-promenade-glaciers.webp` | Wikimedia Commons : File:Drive among giants (Unsplash).jpg | CC0 |

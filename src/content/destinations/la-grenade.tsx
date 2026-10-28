@@ -170,50 +170,50 @@ export const destination: Destination = {
           title: "Temps de vol",
           // TODO: verify les compagnies et les durées, la desserte évoluant selon les saisons
           description:
-            "La Grenade se rejoint toujours avec une correspondance : il n'existe pas de vol direct depuis Paris vers l'aéroport international Maurice Bishop. La route la plus simple passe par Londres, d'où British Airways et Virgin Atlantic desservent l'île, pour environ neuf heures de vol depuis la capitale britannique. Les autres itinéraires passent par la Barbade, par Miami ou par New York, avec un dernier tronçon régional. Comptez au total treize à seize heures de trajet depuis Paris, escale comprise.",
+            "Pas de vol direct depuis Paris : comptez 13 à 16 heures, via Londres le plus souvent, ou via la Barbade, Miami ou New York.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "La Grenade ne change pas d'heure. Comptez six heures de retard sur la France en été et cinq heures en hiver : quand il est quatorze heures à Paris en juillet, il est huit heures à Saint-Georges.",
+            "La Grenade ne change pas d'heure : six heures de retard sur la France en été, cinq heures en hiver.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est le dollar des Caraïbes orientales, arrimé au dollar américain à un taux fixe. Ce dernier est accepté presque partout, à un taux que fixe le commerçant. Les cartes bancaires passent dans les hôtels, les restaurants et les boutiques, et il reste utile de garder des espèces pour le marché de Saint-Georges, les taxis, les stands du bord de route et les pourboires.",
+            "Dollar des Caraïbes orientales, arrimé au dollar américain, lui-même accepté presque partout. Espèces utiles au marché et en taxi.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           // TODO: verify la durée du séjour sans visa et les conditions de la déclaration en ligne
           description:
-            "Les ressortissants français sont dispensés de visa pour un séjour touristique à la Grenade, dans la limite de trois mois. Le passeport doit être valide pendant toute la durée du séjour, et il est conseillé de le garder valable six mois au-delà de la date de retour. Une déclaration d'immigration et de douane se remplit en ligne avant l'arrivée : c'est la formalité que l'on oublie le plus souvent. Attention aux escales. Si l'itinéraire passe par le Royaume-Uni, l'autorisation électronique ETA peut être requise et s'obtient en ligne avant le départ, les passagers restant en transit sans passer l'immigration pouvant en être dispensés. S'il transite par les États-Unis, l'autorisation ESTA est obligatoire, s'obtient également en ligne et reste généralement valable deux ans ou jusqu'à l'expiration du passeport.",
+            "Sans visa jusqu'à trois mois, passeport valable six mois après le retour. Déclaration d'arrivée en ligne, ESTA en cas d'escale aux États-Unis.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Depuis la France, aucune vaccination spécifique n'est exigée pour un séjour touristique à la Grenade. Il est recommandé d'être à jour des vaccinations prévues au calendrier vaccinal français, l'Institut Pasteur recommandant par ailleurs l'hépatite A. Un certificat de vaccination contre la fièvre jaune peut être demandé aux voyageurs arrivant d'un pays où la maladie circule. La dengue et le chikungunya circulent dans les Antilles selon les années : une protection contre les moustiques reste la précaution la plus utile, en journée comme en fin d'après-midi.",
+            "Aucun vaccin exigé depuis la France, hépatite A recommandée. Dengue et chikungunya circulent : se protéger des moustiques.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison sèche s'étend de janvier à mai, avec un alizé régulier et peu de pluie. Nous privilégions février à avril, quand la mer est belle sur la côte ouest et que la forêt du Grand Étang garde encore sa fraîcheur. La saison humide court de juin à décembre, et s'accompagne de la saison cyclonique, de juin à novembre. La Grenade se situe à la limite sud de la ceinture cyclonique, ce qui l'expose nettement moins que les îles du nord, sans pour autant la mettre à l'abri.",
+            "Saison sèche de janvier à mai, idéalement de février à avril. Cyclones possibles de juin à novembre, moins qu'aux îles du nord.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais est la langue officielle et celle de l'administration. Un créole à base anglaise se parle au quotidien dans les villages, avec une intonation qui lui est propre. Le créole français a disparu de la conversation mais il est resté dans les noms de lieux, à Gouyave, à La Sagesse ou au Grand Étang, comme la trace des deux histoires de l'île.",
+            "L'anglais est la langue officielle, un créole à base anglaise celle du quotidien. Le créole français survit dans les noms de lieux.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tropical et chaud toute l'année, avec des températures qui varient peu, généralement entre vingt-quatre et trente et un degrés. L'alizé souffle presque en continu et rend la chaleur supportable, surtout sur la côte au vent. La période la plus humide s'étend de juin à décembre, sans qu'il s'agisse d'une pluie continue : les averses sont tropicales et brèves, le plus souvent en fin de journée. L'intérieur montagneux reçoit beaucoup plus d'eau que les côtes, et c'est ce qui explique la densité de la forêt et le nombre de cascades.",
+            "Tropical toute l'année, entre 24 et 31 degrés, adouci par l'alizé. Saison humide de juin à décembre, en averses brèves de fin de journée.",
         },
       ],
     },
@@ -228,13 +228,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/la-grenade/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/la-grenade/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à la Grenade entre Saint-Georges, le Grand Étang et Carriacou",
-            "Adresses confidentielles à la Grenade : plantations de muscade et tables de village",
+            "Table de déjeuner dressée sous les muscadiers d’une plantation de la Grenade",
             "Hébergements à la Grenade : Silversands Grand Anse, Calabash et Six Senses La Sagesse",
-            "Conciergerie privée 24/7 pour un séjour à la Grenade",
-            "Expériences à la Grenade : voilier en bois et parc de sculptures sous-marines",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Voilier en bois de Carriacou naviguant entre les îles de la Grenade",
           ][i],
         },
       })),
@@ -255,8 +255,8 @@ export const destination: Destination = {
           description:
             "La capitale ferme son port sur un ancien cratère, et les maisons à toits de tuile rouge montent en gradins jusqu'au fort. Sur le Carénage, les entrepôts d'épices ouvrent encore sur le quai, et le marché du samedi remplit toute la place de muscade, de cannelle et de cacao.",
           image: {
-            src: "/destination/la-grenade/map-saint-georges.png",
-            alt: "Le port du Carénage à Saint-Georges et ses maisons à toits rouges, à la Grenade",
+            src: "/destination/la-grenade/map-saint-georges.webp",
+            alt: "Voilier amarré dans le port du Carénage, à Saint-Georges, à la Grenade",
           },
           // TODO: verify coords
           coordinates: { lat: 12.0561, lng: -61.7486 },
@@ -266,7 +266,7 @@ export const destination: Destination = {
           description:
             "Trois kilomètres de sable clair en courbe, avec Saint-Georges au bout et la mer des Caraïbes en face. L'eau y reste calme et peu profonde près du bord, et la plage est restée publique sur toute sa longueur : les pêcheurs y tirent leurs barques entre les parasols.",
           image: {
-            src: "/destination/la-grenade/map-grand-anse.png",
+            src: "/destination/la-grenade/map-grand-anse.webp",
             alt: "La courbe de sable de la Grand Anse avec Saint-Georges au fond, à la Grenade",
           },
           // TODO: verify coords
@@ -277,8 +277,8 @@ export const destination: Destination = {
           description:
             "Le premier musée sous-marin au monde a été immergé dans cette baie en 2006, dans une aire marine protégée. Les figures de Jason deCaires Taylor reposent à quelques mètres de fond, et le corail les a colonisées année après année : elles se découvrent au masque, sans bouteille.",
           image: {
-            src: "/destination/la-grenade/map-molinere.png",
-            alt: "Sculptures immergées et corail dans la baie de Molinière à la Grenade",
+            src: "/destination/la-grenade/map-molinere.webp",
+            alt: "Cercle de sculptures immergées dans la baie de Molinière à la Grenade",
           },
           // TODO: verify coords
           coordinates: { lat: 12.0906, lng: -61.7628 },
@@ -288,7 +288,7 @@ export const destination: Destination = {
           description:
             "La route grimpe au centre de l'île jusqu'à un lac de cratère posé dans la forêt, à plus de cinq cents mètres. Les sentiers partent de là vers le mont Qua Qua et les cascades des Seven Sisters, et les singes traversent la route au petit matin.",
           image: {
-            src: "/destination/la-grenade/map-grand-etang.png",
+            src: "/destination/la-grenade/map-grand-etang.webp",
             alt: "Le lac de cratère du Grand Étang entouré de forêt tropicale à la Grenade",
           },
           // TODO: verify coords
@@ -299,8 +299,8 @@ export const destination: Destination = {
           description:
             "Le village de pêcheurs abrite la plus grande station de muscade de l'île, un bâtiment de bois ouvert sur la rue où les noix sont triées à la main. Plus au nord, le cacao de Belmont Estate fermente sous des couvercles de bois et la distillerie River Antoine broie la canne à la roue à aubes depuis 1785.",
           image: {
-            src: "/destination/la-grenade/map-gouyave.png",
-            alt: "Séchage des noix de muscade à la station de Gouyave, sur la côte ouest de la Grenade",
+            src: "/destination/la-grenade/map-gouyave.webp",
+            alt: "Trieuse de noix de muscade à la station de Gouyave, sur la côte ouest de la Grenade",
           },
           // TODO: verify coords
           coordinates: { lat: 12.1656, lng: -61.7325 },
@@ -310,7 +310,7 @@ export const destination: Destination = {
           description:
             "L'île sœur se rejoint en avion en quinze minutes ou par la mer, et l'on y construit encore les voiliers en bois sur la plage de Windward. En face de Hillsborough, Sandy Island n'est qu'un banc de sable planté de quelques cocotiers, cerné d'eau claire, avec un récif à quelques mètres du bord.",
           image: {
-            src: "/destination/la-grenade/map-carriacou.png",
+            src: "/destination/la-grenade/map-carriacou.webp",
             alt: "Le banc de sable de Sandy Island au large de Carriacou, à la Grenade",
           },
           // TODO: verify coords
@@ -569,10 +569,10 @@ export const destination: Destination = {
             "Nous cherchions une île des Antilles que nous ne connaissions pas, et nous avons trouvé une île où il ne se passe rien de ce que l'on attend. La journée sur le voilier en bois a été le sommet du séjour.",
           image: {
             src: "/destination/la-grenade/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage à la Grenade : le port en fer à cheval de Saint-Georges et ses toits rouges"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: La Grenade, mars 2026", // TODO: replace with real testimonial
+          role: "La Grenade, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -580,10 +580,10 @@ export const destination: Destination = {
             "Les enfants ont passé la semaine entre la Grand Anse et les statues de Molinière, qu'ils ont voulu revoir trois fois. Nous n'avons eu à nous occuper de rien.",
           image: {
             src: "/destination/la-grenade/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "La plage de la Grand Anse et sa courbe de sable clair bordée de cocotiers"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: La Grenade en famille, février 2026", // TODO: replace with real testimonial
+          role: "La Grenade en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -591,10 +591,10 @@ export const destination: Destination = {
             "Les deux nuits à Carriacou n'étaient pas prévues au départ et ce sont celles dont nous parlons encore. Le charpentier nous a montré la coque qu'il finissait, sur la plage.",
           image: {
             src: "/destination/la-grenade/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Noix de muscade ouvertes sur un séchoir de bois dans une plantation grenadienne"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: La Grenade et Carriacou, avril 2026", // TODO: replace with real testimonial
+          role: "La Grenade et Carriacou, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

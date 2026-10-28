@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Suède : Voyage sur mesure",
   metaDescription:
-    "Voyage en Suède sur mesure : archipel de Stockholm, Laponie polaire, Gotland. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage en Suède sur mesure : archipel de Stockholm, Laponie polaire, Gotland. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -66,13 +66,13 @@ export const destination: Destination = {
           iconName: "badgeCheck",
           title: "Un archipel, pas une croisière",
           description:
-            "Un skipper privé, pas un ferry de ligne. Nous réservons des mouillages au-delà de Vaxholm et de Sandhamn, hors des horaires de la navette publique.",
+            "Un skipper privé, pas un ferry de ligne, et des mouillages au-delà de Vaxholm et de Sandhamn, loin des horaires de la navette.",
         },
         {
           iconName: "sparkles",
           title: "Le calendrier avant la carte",
           description:
-            "L'Icehotel de Jukkasjärvi se reconstruit chaque hiver, le soleil de minuit dure de fin mai à début août au nord du cercle polaire. Nous choisissons la région selon vos dates, jamais l'inverse.",
+            "L'Icehotel l'hiver, le soleil de minuit de fin mai à début août : nous choisissons la région selon vos dates, jamais l'inverse.",
         },
         {
           iconName: "star",
@@ -187,7 +187,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 2h30 de vol direct entre Paris et Stockholm. Pour rejoindre la Laponie suédoise, un vol intérieur entre Stockholm et Kiruna dure environ 1h30 à 1h40.",
+            "Environ 2h30 de vol direct entre Paris et Stockholm, puis 1h30 à 1h40 de vol intérieur jusqu'à Kiruna, en Laponie.",
         },
         {
           iconName: "clock",
@@ -199,37 +199,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est la couronne suédoise (SEK). Comptez environ 11 couronnes suédoises pour 1 euro, selon le taux de change. Le paiement par carte est largement privilégié en Suède, y compris pour les petites dépenses ; il est donc conseillé de voyager avec une carte bancaire plutôt qu'avec beaucoup d'espèces.",
+            "Couronne suédoise (SEK), environ 11 SEK pour 1 €. La carte est privilégiée partout, même pour les petites dépenses.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "La Suède est membre de l'Union européenne et de l'espace Schengen. Aucun visa n'est nécessaire pour les ressortissants français. Une carte nationale d'identité ou un passeport en cours de validité suffit pour entrer dans le pays. Les autorités françaises recommandent toutefois de privilégier un passeport valide ou une carte nationale d'identité au format électronique en cours de validité.",
+            "Pas de visa (UE et Schengen). Passeport ou carte d'identité valide, de préférence au format électronique pour cette dernière.",
         },
         {
           iconName: "syringe",
           title: "Vaccins",
           description:
-            "Aucune vaccination particulière n'est exigée pour entrer en Suède. Il est recommandé d'être à jour des vaccinations du calendrier français. Pour les séjours en zone rurale ou boisée, notamment dans le centre et le sud du pays, une vaccination contre l'encéphalite à tiques peut être recommandée selon les conditions du voyage.",
+            "Aucun vaccin exigé, calendrier français à jour. Encéphalite à tiques à envisager pour les zones rurales ou boisées du centre et du sud.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De juin à août pour Stockholm, son archipel et les longues journées d'été. En Laponie, de décembre à mars pour profiter des paysages enneigés, des activités hivernales et de l'Icehotel. Pour les aurores boréales, la saison s'étend généralement de septembre à fin mars, avec des conditions particulièrement favorables pendant les mois les plus sombres de l'hiver.",
+            "Juin à août pour Stockholm et son archipel, décembre à mars pour la Laponie. Aurores boréales de septembre à fin mars.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le suédois est la langue officielle. L'anglais est très largement parlé dans le pays, notamment dans les villes et les principaux lieux touristiques. Dans les régions les plus septentrionales, on peut également entendre les langues sámi. Le français reste peu courant.",
+            "Le suédois est la langue officielle. L'anglais est très largement parlé, les langues sámi s'entendent dans le Grand Nord.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat varie fortement selon les régions. À Stockholm, les étés sont doux, avec des températures généralement comprises entre 14°C et 23°C en juillet. En Laponie, les hivers sont longs, froids et enneigés, avec des températures pouvant descendre bien en dessous de -20°C et parfois sous -30°C. En été, les températures peuvent dépasser 20°C dans le nord. Au-delà du cercle polaire, le soleil ne se couche plus pendant plusieurs semaines autour du solstice d'été.",
+            "14 à 23°C en juillet à Stockholm. En Laponie, hivers longs et enneigés, parfois sous -30°C ; soleil de minuit autour du solstice.",
         },
       ],
     },
@@ -551,7 +551,7 @@ export const destination: Destination = {
             "Nous avons quitté Stockholm à l'aube, sans autre bateau à l'horizon. Le skipper a coupé le moteur près d'une île sans nom et nous avons nagé avant le petit-déjeuner. C'est ce moment-là que je raconte encore.",
           image: {
             src: "/destination/suede/hero-1.webp",
-            alt: "Portrait de Camille et Thomas", // TODO: verify
+            alt: "Voilier au mouillage devant le village de Fjällbacka, sur la côte ouest de la Suède",
           },
           name: "Camille & Thomas", // TODO: verify
           role: "Voyage en couple, juillet 2025", // TODO: verify
@@ -562,7 +562,7 @@ export const destination: Destination = {
             "Le traîneau, le silence, puis les aurores la deuxième nuit alors qu'on ne les attendait plus. Notre guide a su exactement quand nous réveiller.",
           image: {
             src: "/destination/suede/hero-2.webp",
-            alt: "Portrait de Ludovic", // TODO: verify
+            alt: "Deux voyageurs sous les aurores boréales dans une clairière enneigée de Laponie",
           },
           name: "Ludovic", // TODO: verify
           role: "Séjour en Laponie, février 2025", // TODO: verify
@@ -573,7 +573,7 @@ export const destination: Destination = {
             "Nous avons dormi dans une usine de calcaire réhabilitée, à Gotland, sans autre lumière que celle du phare voisin. Ce n'était pas ce que j'imaginais d'un voyage en Suède, et c'est exactement pour ça que c'était juste.",
           image: {
             src: "/destination/suede/hero-3.webp",
-            alt: "Portrait de Delphine", // TODO: verify
+            alt: "Rochers de calcaire de l'île de Fårö, au large de Gotland",
           },
           name: "Delphine", // TODO: verify
           role: "Escapade solo, septembre 2025", // TODO: verify

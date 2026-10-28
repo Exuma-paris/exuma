@@ -196,16 +196,20 @@ function RootView({
         ))}
       </ul>
 
-      <div className="mt-6 border-t border-border pt-6">
-        <Link
-          href={proLink.href}
-          onClick={onNavigate}
-          className="flex items-center gap-2 text-secondary-foreground transition-colors hover:text-foreground"
-        >
+      <Link
+        href={proLink.href}
+        onClick={onNavigate}
+        className="group mt-8 flex flex-col gap-2 bg-foreground p-5 text-background transition-opacity hover:opacity-90"
+      >
+        <span className="text-eyebrow text-background/60">
+          {proLink.eyebrow}
+        </span>
+        <span className="flex items-center justify-between gap-4 font-heading text-h4">
           <span>{proLink.label}</span>
-          <ChevronRight className="size-4 stroke-[1.5]" />
-        </Link>
-      </div>
+          <ChevronRight className="size-6 shrink-0 stroke-[1.5] transition-transform group-hover:translate-x-1" />
+        </span>
+        <span className="text-background/70">{proLink.description}</span>
+      </Link>
     </nav>
   );
 }

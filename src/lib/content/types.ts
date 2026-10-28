@@ -236,6 +236,9 @@ export type Experience = EntityBase & {
 
 export type ServiceCategory = EntityBase & {
   serviceSlugs?: string[];
+  /** Réservée aux professionnels : absente de la mosaïque Conciergerie de
+   * l'accueil et du menu Conciergerie, qui s'adressent aux particuliers. */
+  proOnly?: boolean;
 };
 
 export type Service = EntityBase & {

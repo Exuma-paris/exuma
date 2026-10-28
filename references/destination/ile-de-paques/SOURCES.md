@@ -33,3 +33,16 @@ Each generated image in `public/destination/ile-de-paques/` was produced by feed
 Testimonial portraits reuse `hero-1.webp`, `hero-2.webp`, `hero-3.webp` — no separate files.
 
 `split-2.webp` n'a pas de photo de référence : elle a été composée à partir d'un brief textuel documenté (umu pae, four circulaire de pierres volcaniques d'environ 80 cm, jardin de Hanga Roa), sans reprendre aucune photographie existante. Il en va de même pour `xp-rano-raraku-2.webp` (traces de toki dans le tuf de la carrière, affleurement banal et érodé).
+| `map-hanga-roa.webp` | Wikimedia Commons : File:Fishing boats in Hanga Roa Harbor.jpg | CC BY 4.0 |
+| `map-orongo.webp` | Wikimedia Commons : File:Orongo 1.jpg | CC BY-SA 4.0 |
+| `map-ahu-akivi.webp` | Wikimedia Commons : File:Ahu Akivi - panoramio - LANOEL.jpg | CC BY-SA 3.0 |
+| `map-anakena.webp` | Wikimedia Commons : File:Anakena 1.jpg | CC BY-SA 4.0 |
+| `bento-experiences.webp` | Générée par IA (gen_text), guide écarté des moai par IA | image générée |
+| `bento-hebergements.webp` | Recadrage de hotel-nayara-hangaroa | |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+
+## Hôtels et umu (27/10, liens fournis par Thea)
+- `hotel-explora-rapa-nui.webp` : https://assets.waybird.com/lodge_images/images/000/101/349/original/explora.jpg — recadré carré. ⚠ droits à vérifier.
+- `hotel-hare-uta.webp` : https://cdn.atrsafari.com/.../012HUT-IM0201-hotel-hare-uta.jpg — recadré carré, saturation réduite. ⚠ droits à vérifier.
+- `xp-umu-rapa-nui.webp` : https://imaginarapanui.com (umu-rapa-nui-nourriture-typique) — recadré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.

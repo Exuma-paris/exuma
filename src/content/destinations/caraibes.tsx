@@ -174,7 +174,7 @@ export const destination: Destination = {
           title: "Temps de vol",
           // TODO: verify
           description:
-            "Air France et Corsair desservent Pointe-à-Pitre en Guadeloupe et Fort-de-France en Martinique en direct depuis Paris, pour environ 8h30 à 9h de vol. Saint-Barthélemy se rejoint ensuite en petit avion depuis Saint-Martin, par Grand Case ou Princess Juliana, ou depuis la Guadeloupe, avec Winair, Air Caraïbes ou Air Antilles selon les périodes. Anguilla se rejoint surtout depuis Sint Maarten, par avion ou par ferry. Pour Sainte-Lucie, la Grenade et les Grenadines, comptez généralement une correspondance, par Londres, Miami ou la Barbade, la desserte évoluant selon les saisons et les compagnies.",
+            "Vols directs de Paris vers la Guadeloupe et la Martinique en 8h30 à 9h. Saint-Barthélemy et Anguilla via Saint-Martin, le reste avec escale.",
         },
         {
           iconName: "clock",
@@ -187,40 +187,40 @@ export const destination: Destination = {
           title: "Monnaie et conversion",
           // TODO: verify
           description:
-            "Saint-Barthélemy et les Antilles françaises utilisent l'euro. Anguilla, Sainte-Lucie, la Grenade et Saint-Vincent-et-les-Grenadines utilisent le dollar des Caraïbes orientales, rattaché au dollar américain, lui-même largement accepté. Les cartes bancaires passent dans les hôtels et les restaurants, et il reste utile de garder des espèces pour les marchés, les taxis et les pourboires.",
+            "L'euro à Saint-Barthélemy et aux Antilles françaises, le dollar des Caraïbes orientales ailleurs, et le dollar américain largement accepté.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           // TODO: verify
           description:
-            "Saint-Barthélemy est une collectivité française : une carte nationale d'identité ou un passeport en cours de validité suffisent. Pour Anguilla, Sainte-Lucie, la Grenade et Saint-Vincent-et-les-Grenadines, les ressortissants français sont dispensés de visa pour un séjour touristique court, avec un passeport valable au moins six mois au-delà du séjour prévu. Attention aux escales : un transit par les États-Unis impose une autorisation ESTA, à obtenir en ligne avant le départ et généralement valable deux ans ou jusqu'à l'expiration du passeport. Elle s'applique aussi à certaines escales dans les territoires américains, Porto Rico et les Îles Vierges américaines comprises.",
+            "Carte d'identité à Saint-Barthélemy, ailleurs pas de visa et passeport valable six mois après le séjour. Escale aux États-Unis : ESTA.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           // TODO: verify
           description:
-            "Aucune vaccination n'est exigée à l'entrée pour un voyageur arrivant directement de France. La fièvre jaune peut en revanche être demandée si l'on arrive d'un pays où la maladie circule. L'Institut Pasteur recommande d'être à jour du calendrier vaccinal et conseille l'hépatite A selon la durée et les conditions du séjour. La dengue, le chikungunya et le zika circulent dans la région selon les années : une protection antimoustiques reste la précaution la plus utile, de jour comme en fin de journée.",
+            "Aucun vaccin exigé depuis la France, hépatite A selon le séjour. Dengue, chikungunya et zika circulent : la protection antimoustiques prime.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison sèche s'étend de décembre à avril, avec un alizé régulier et peu de pluie. Nous privilégions la fin janvier à la mi-avril, quand la mer est belle et les îles retrouvent leur calme. Mai et le début du mois de juin restent agréables et plus tranquilles encore. La saison cyclonique court officiellement de juin à novembre, avec un cœur d'activité en août, septembre et octobre.",
+            "Saison sèche de décembre à avril, idéale de fin janvier à mi-avril, mai restant calme. Cyclones de juin à novembre, au pic d'août à octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           // TODO: verify
           description:
-            "Le français est la langue de Saint-Barthélemy, où le créole antillais s'entend aussi. L'anglais est la langue officielle d'Anguilla, de Sainte-Lucie, de la Grenade et de Saint-Vincent-et-les-Grenadines. À Sainte-Lucie, le créole saint-lucien, appelé kwéyòl, reste très vivant dans la conversation courante.",
+            "Le français à Saint-Barthélemy, l'anglais à Anguilla, Sainte-Lucie, la Grenade et Saint-Vincent. Le kwéyòl reste très vivant à Sainte-Lucie.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tropical et chaud toute l'année, avec des températures qui varient peu, généralement entre vingt-cinq et trente et un degrés. L'alizé souffle presque en continu et rend la chaleur supportable, surtout sur les côtes exposées à l'est. La période la plus humide s'étend de juin à novembre, sans qu'il s'agisse d'une saison des pluies continue : les averses sont tropicales et brèves, le plus souvent en fin de journée. Les îles montagneuses comme Sainte-Lucie et la Grenade reçoivent nettement plus de pluie sur leurs versants intérieurs que les îles basses comme Anguilla.",
+            "Tropical, de vingt-cinq à trente et un degrés, adouci par l'alizé. De juin à novembre, averses brèves, fortes sur les îles montagneuses.",
         },
       ],
     },
@@ -235,13 +235,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/caraibes/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/caraibes/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure dans les Caraïbes entre Saint-Barthélemy, Anguilla et les Grenadines",
-            "Adresses confidentielles dans les Caraïbes : plages privées et îles fermées au public",
+            "Plage privée d'un îlot des Grenadines, transats sous la paillote et barque en bois",
             "Hébergements dans les Caraïbes : Cheval Blanc St-Barth, Belmond Cap Juluca et Cotton House",
-            "Conciergerie privée 24/7 pour un voyage dans les Caraïbes",
-            "Expériences immersives dans les Caraïbes : goélette privée dans les Grenadines et cacao de Grenade",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Goélette en bois sous voiles entre les îles des Grenadines",
           ][i],
         },
       })),
@@ -262,8 +262,8 @@ export const destination: Destination = {
           description:
             "L'île tient dans une poignée d'anses et vit tournée vers la mer. On y dîne très bien, on se baigne à Colombier ou à Gouverneur, et l'on croise à Gustavia les équipages qui préparent la saison.",
           image: {
-            src: "/destination/caraibes/map-saint-barthelemy.png",
-            alt: "Port de Gustavia à Saint-Barthélemy et anses environnantes",
+            src: "/destination/caraibes/map-saint-barthelemy.webp",
+            alt: "Voiliers amarrés dans le port de Gustavia au crépuscule, Saint-Barthélemy",
           },
           // TODO: verify coords
           coordinates: { lat: 17.9, lng: -62.83 },
@@ -273,8 +273,8 @@ export const destination: Destination = {
           description:
             "L'île est plate, blanche et discrète, avec des plages qui s'étirent sans fin. On y vient pour le silence du matin, pour les tables de plage tenues par des familles du cru, et pour la mer qui reste calme presque toute la journée.",
           image: {
-            src: "/destination/caraibes/map-anguilla.png",
-            alt: "Longue plage blanche de Maundays Bay à Anguilla",
+            src: "/destination/caraibes/map-anguilla.webp",
+            alt: "Longue plage de sable blanc et eau turquoise à Anguilla",
           },
           // TODO: verify coords
           coordinates: { lat: 18.22, lng: -63.06 },
@@ -284,8 +284,8 @@ export const destination: Destination = {
           description:
             "L'île entière appartient à une compagnie privée qui décide de tout, du nombre de maisons à l'entretien des chemins. On s'y déplace en voiturette, on choisit une plage selon l'humeur, et l'on ne rencontre que ceux qui séjournent là.",
           image: {
-            src: "/destination/caraibes/map-mustique.png",
-            alt: "Maison privée surplombant une plage de Mustique dans les Grenadines",
+            src: "/destination/caraibes/map-mustique.webp",
+            alt: "Baie de Mustique et voiliers au mouillage, Grenadines",
           },
           // TODO: verify coords
           coordinates: { lat: 12.88, lng: -61.19 },
@@ -295,7 +295,7 @@ export const destination: Destination = {
           description:
             "Cinq îlots inhabités protégés par un récif en fer à cheval, où l'eau passe du turquoise au vert selon le fond. Les tortues y broutent l'herbier toute la journée, et les bateaux repartent avant le soir pour les mouillages voisins.",
           image: {
-            src: "/destination/caraibes/map-tobago-cays.png",
+            src: "/destination/caraibes/map-tobago-cays.webp",
             alt: "Lagon des Tobago Cays protégé par le récif Horseshoe, Grenadines",
           },
           // TODO: verify coords
@@ -306,7 +306,7 @@ export const destination: Destination = {
           description:
             "Les Pitons sortent de la forêt et tombent droit dans la mer, ce qui donne à la côte ouest une allure que l'on n'oublie pas. Soufrière garde ses maisons de bois, ses sources chaudes et ses jardins où poussent le cacao et la muscade.",
           image: {
-            src: "/destination/caraibes/map-sainte-lucie.png",
+            src: "/destination/caraibes/map-sainte-lucie.webp",
             alt: "Les Pitons de Sainte-Lucie plongeant dans la mer près de Soufrière",
           },
           // TODO: verify coords
@@ -317,8 +317,8 @@ export const destination: Destination = {
           description:
             "On appelle la Grenade l'île aux épices, et l'odeur de la muscade se sent sur les routes de l'intérieur. Les plantations de cacao travaillent encore à l'ancienne, et le marché de Saint-Georges se tient sous les toits de tôle colorée.",
           image: {
-            src: "/destination/caraibes/map-grenade.png",
-            alt: "Port de Saint-Georges à la Grenade et collines plantées de cacaoyers",
+            src: "/destination/caraibes/map-grenade.webp",
+            alt: "Maisons de Saint-Georges étagées au-dessus du port, à la Grenade",
           },
           // TODO: verify coords
           coordinates: { lat: 12.05, lng: -61.75 },
@@ -558,10 +558,10 @@ export const destination: Destination = {
             "Nous avions prévu une semaine de bateau et nous avons demandé à prolonger dès le troisième jour. Le capitaine trouvait chaque matin une baie que nous n'aurions jamais imaginée.",
           image: {
             src: "/destination/caraibes/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage dans les Caraïbes : goélette au mouillage devant les Tobago Cays dans les Grenadines"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Navigation dans les Grenadines, 2025", // TODO: replace with real testimonial
+          role: "Navigation dans les Grenadines, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -569,10 +569,10 @@ export const destination: Destination = {
             "Nos enfants ont passé leurs journées dans l'eau et nous avons dîné le soir sans jamais penser à l'organisation. C'est la première fois que nous rentrons vraiment reposés.",
           image: {
             src: "/destination/caraibes/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Plage de la baie des Flamands à Saint-Barthélemy en fin de journée"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Saint-Barthélemy et Anguilla en famille, 2025", // TODO: replace with real testimonial
+          role: "Saint-Barthélemy et Anguilla en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -580,10 +580,10 @@ export const destination: Destination = {
             "Le déjeuner sur la plage de Colombier restera notre meilleur souvenir. Nous étions seuls, la table était dressée, et personne n'est venu de toute l'après-midi.",
           image: {
             src: "/destination/caraibes/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Les Pitons de Sainte-Lucie vus depuis la mer au lever du jour"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Saint-Barthélemy, 2025", // TODO: replace with real testimonial
+          role: "Saint-Barthélemy, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

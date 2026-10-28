@@ -40,3 +40,6 @@ rognage des bandes noires des captures 1920x1080. La sortie est en `.webp` dans
 | `bento-map.webp`           | Carte d'un itinéraire sur mesure au Mexique                     |
 | `bento-conciergerie.webp`  | Conciergerie : transfert privé, accueil, coordination sur place |
 | `map-mexico.webp`          | Mexico — vignette de la carte interactive                       |
+| `map-mexico.webp` | Wikimedia Commons : File:Museo Nacional de Antropología - Wiki takes Antropología 121.jpg | CC BY-SA 4.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |

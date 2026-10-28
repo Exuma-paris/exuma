@@ -4,63 +4,37 @@ import { Phone } from "@untitledui/icons";
 import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { FeatureCardsSection } from "@/components/sections/feature-cards";
-import { serviceCategories } from "@/lib/content/registry";
+import { getServiceLineup } from "@/lib/content/service-lineup";
 import { EXUMA_TEL_HREF } from "@/lib/exuma";
-import type { ImageRef, Section } from "@/lib/content/types";
+import type { Section } from "@/lib/content/types";
 
 export const metadata: Metadata = {
   title: "Nos services",
   description:
-    "Mobilité, conciergerie, expériences, sécurité et ingénierie du voyage : les cinq métiers qu'Exuma prend en charge pour vous.",
+    "Reporting et pilotage, mobilité, conciergerie, sécurité, ingénierie du voyage et expériences : les métiers qu'Exuma prend en charge pour vous.",
   alternates: { canonical: "/services" },
 };
 
-/**
- * Ordre d'affichage des cartes, sur deux colonnes. Conciergerie et mobilité
- * ouvrent la grille : ce sont les deux métiers les plus emblématiques de la
- * maison.
- */
-const ORDER = [
-  "conciergerie",
-  "mobilite",
-  "lifestyle",
-  "securite",
-  "ingenierie",
-] as const;
-
-/**
- * L'image de chaque carte est celle du hero de la catégorie, lue dans son
- * propre fichier de contenu. Aucune donnée n'est recopiée ici : changer le hero
- * d'une catégorie met la grille à jour toute seule.
- */
-function heroImageOf(slug: string): ImageRef | null {
-  const first = serviceCategories[slug]?.sections[0];
-  if (first?.type === "hero" && first.images.length > 0) return first.images[0];
-  return null;
-}
-
-function asText(value: unknown): string {
-  return typeof value === "string" ? value : "";
-}
-
-const cards = ORDER.map((slug) => {
-  const category = serviceCategories[slug];
-  const image = heroImageOf(slug);
-  if (!category || !image) return null;
-  return {
-    title: category.name,
-    description: asText(category.blurb),
-    image,
-    link: { label: `Découvrir ${category.name}`, href: `/services/${slug}` },
-  };
-}).filter((card): card is NonNullable<typeof card> => card !== null);
+// Ordre et contenu des cartes : `getServiceLineup()`, partagé avec le menu.
+const cards = getServiceLineup().flatMap((item) =>
+  item.image
+    ? [
+        {
+          title: item.name,
+          description: item.description,
+          image: item.image,
+          link: { label: `Découvrir ${item.name}`, href: item.href },
+        },
+      ]
+    : [],
+);
 
 const hero: Section = {
   type: "hero",
   eyebrow: "Services",
   heading: "Le service est ce qui nous distingue, pas la destination",
   description:
-    "Nous emmenons nos clients aux quatre coins du monde, avec une seule préoccupation : que le voyage se passe bien. Cinq métiers s'en chargent, et vous n'avez qu'un interlocuteur.",
+    "Nous emmenons nos clients aux quatre coins du monde, avec une seule préoccupation : que le voyage se passe bien. Nos métiers s'en chargent, et vous n'avez qu'un interlocuteur.",
   images: [
     {
       // Shooting Jules Despretz n°12, bande 21:9 prise sous le filigrane, puis
@@ -76,10 +50,10 @@ const hero: Section = {
 };
 
 /**
- * Cinq cartes sur deux colonnes laissent une cellule vide. L'appel à contact
- * vient l'occuper, ce qui remplace le `finalCta` que portaient les versions
- * précédentes de cette page : une seule invitation, à l'endroit où le lecteur
- * finit sa lecture.
+ * L'appel à contact prend la dernière cellule de la grille (seul sur sa
+ * ligne depuis l'ajout de la carte Reporting & pilotage). Il remplace le
+ * `finalCta` des versions précédentes de cette page : une seule invitation,
+ * à l'endroit où le lecteur finit sa lecture.
  */
 function ContactSlot() {
   return (
@@ -122,7 +96,7 @@ export default function Page() {
       <FeatureCardsSection
         layout="grid"
         background="bg-background-soft"
-        eyebrow="Nos cinq métiers"
+        eyebrow="Nos métiers"
         heading="Ce que nous prenons en charge"
         description="Aucun ne se choisit à l'avance. Nous composons le dispositif après vous avoir écouté, et vous n'avez qu'un dossier et qu'une facture."
         cards={cards}

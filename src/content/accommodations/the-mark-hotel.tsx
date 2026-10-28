@@ -14,7 +14,7 @@ export const accommodation: Accommodation = {
   ],
   heroImage: {
     src: "/destination/etats-unis/hotel-the-mark.webp",
-    alt: "Façade et auvent du Mark Hotel sur Madison Avenue à New York",
+    alt: "Façade de brique, drapeaux et marquise du Mark Hotel, un taxi jaune filant devant, New York",
   },
   destinationSlugs: ["etats-unis"],
   sections: [],

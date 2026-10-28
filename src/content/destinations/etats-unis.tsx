@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "États-Unis : Voyage sur mesure",
   metaDescription:
-    "Voyage aux États-Unis sur mesure : plateau du Colorado, Big Sur, New York. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage aux États-Unis sur mesure : plateau du Colorado, Big Sur, New York. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -171,37 +171,37 @@ export const destination: Destination = {
           title: "Temps de vol",
           // TODO: verify durées de vol et villes de correspondance
           description:
-            "Environ 8 h en vol direct de Paris à New York, 11 h 30 pour Los Angeles ou San Francisco. Pour rejoindre l'Utah, comptez une correspondance par Salt Lake City, Phoenix ou Las Vegas.",
+            "Environ 8 h en vol direct de Paris à New York, 11 h 30 pour Los Angeles ou San Francisco. L'Utah se rejoint avec une correspondance.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "6 heures de retard sur la France pour la côte Est, 9 heures pour la côte Ouest. Le décalage se remonte plus facilement à l'aller qu'au retour.",
+            "6 heures de retard sur la France pour la côte Est, 9 heures pour la côte Ouest. Le décalage se remonte mieux à l'aller.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar américain. Les cartes passent partout, jusque dans les parcs nationaux, et l'espèce ne sert presque plus. Le pourboire, lui, est attendu partout, entre 18 et 20 %.",
+            "Le dollar américain. Les cartes passent partout, jusque dans les parcs nationaux, et le pourboire est attendu partout, entre 18 et 20 %.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa pour un séjour de moins de 90 jours, mais une autorisation ESTA obligatoire, à demander en ligne avant l'embarquement. Passeport biométrique en cours de validité.",
+            "Pas de visa sous 90 jours, mais une autorisation ESTA obligatoire, à demander en ligne. Passeport biométrique en cours de validité.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin obligatoire, les vaccinations habituelles à jour suffisent. Une assurance santé solide est en revanche indispensable : les soins se facturent très cher.",
+            "Aucun vaccin obligatoire. Une assurance santé solide est en revanche indispensable : les soins se facturent très cher.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mai à juin et de septembre à octobre pour l'Ouest : canyons praticables, chaleur tenable. New York se marche mieux en mai ou en octobre. En juillet et août, le plateau du Colorado dépasse les 40 °C.",
+            "Mai, juin, septembre et octobre pour l'Ouest ; mai ou octobre pour New York. En été, le plateau du Colorado dépasse les 40 °C.",
         },
         {
           iconName: "languages",
@@ -213,7 +213,7 @@ export const destination: Destination = {
           iconName: "sun",
           title: "Climat",
           description:
-            "Presque tous les climats du globe dans un seul pays. Désert sec en Utah, brouillard océanique l'été à Big Sur, continental humide à New York, avec des hivers vifs et des étés lourds.",
+            "Presque tous les climats du globe : désert sec en Utah, brouillard océanique l'été à Big Sur, continental humide à New York.",
         },
       ],
     },
@@ -235,7 +235,7 @@ export const destination: Destination = {
             "Carte d'un itinéraire sur mesure aux États-Unis",
             "Table dressée dans une salle à manger de l'Upper East Side",
             "Pavillon de désert ouvert sur les falaises de grès de l'Utah",
-            "Concierge coordonnant un transfert privé aux États-Unis",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Marcheurs dans un canyon en fente du plateau du Colorado",
           ][i],
         },
@@ -545,7 +545,7 @@ export const destination: Destination = {
             "Nous partions à six, sur trois générations, et je redoutais la logistique. Le canyon au premier départ a réuni tout le monde, ce que je n'attendais pas. Les distances avaient été pensées pour que personne ne subisse la route.",
           image: {
             src: "/destination/etats-unis/hero-1.webp",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
+            alt: "Falaises de grès du plateau du Colorado au lever du jour, dans l'Utah, aux États-Unis",
           },
           name: "Bernard & Michèle", // TODO: verify
           role: "Voyage en famille, mai 2025", // TODO: verify
@@ -556,7 +556,7 @@ export const destination: Destination = {
             "J'avais déjà fait l'Ouest deux fois, en pensant l'avoir vu. Cette fois nous sommes entrés dans un canyon dont je n'avais jamais entendu le nom, avec la famille qui en détient l'accès. C'est exactement ce que je cherchais.",
           image: {
             src: "/destination/etats-unis/hero-2.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Route côtière de Big Sur surplombant le Pacifique en Californie",
           },
           name: "Édouard", // TODO: verify
           role: "Séjour dans l'Ouest, octobre 2025", // TODO: verify
@@ -567,7 +567,7 @@ export const destination: Destination = {
             "Big Sur puis New York, en une semaine chacun. Le contraste faisait tout le voyage. Une seule personne au bout du téléphone d'un bout à l'autre, y compris pour un vol décalé la veille du retour.",
           image: {
             src: "/destination/etats-unis/hero-3.webp",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "Façades de l'Upper East Side bordant Central Park à New York",
           },
           name: "Claire", // TODO: verify
           role: "Voyage en couple, septembre 2025", // TODO: verify

@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Canada : Voyage sur mesure",
   metaDescription:
-    "Voyage au Canada sur mesure : Rocheuses, lac Louise, forêt du Pacifique et Terre-Neuve. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage au Canada sur mesure : Rocheuses, lac Louise, forêt du Pacifique et Terre-Neuve. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -113,11 +113,11 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/canada/xp-heliski-bugaboos-1.webp",
-          alt: "Hélicoptère posé sur un glacier au pied des tours de granit des Bugaboos",
+          alt: "Hélicoptère posé sur la neige au milieu des séracs, skieurs autour, Bugaboos",
         },
         right: {
           src: "/destination/canada/xp-heliski-bugaboos-2.webp",
-          alt: "Skieur dans une pente de neige vierge au-dessus d'un glacier des Bugaboos",
+          alt: "Trois skieurs dans une pente vierge sous les séracs d'un glacier, Bugaboos",
         },
       },
       text: {
@@ -173,49 +173,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 10 heures en vol direct de Paris à Vancouver, et environ 9 heures 30 vers Calgary, selon les compagnies et les périodes. Certaines liaisons vers l'Ouest ne sont assurées qu'en saison. Terre-Neuve se rejoint généralement avec une correspondance. Des vols directs saisonniers peuvent également être proposés depuis Paris.",
+            "Environ 10 heures de vol direct vers Vancouver et 9 h 30 vers Calgary, certaines liaisons en saison. Terre-Neuve, avec une correspondance.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Le Canada s'étend sur six fuseaux horaires. Comptez généralement huit heures de moins qu'en France en Alberta, neuf en Colombie-Britannique, et quatre heures et demie à Terre-Neuve, qui possède son propre fuseau. Les changements d'heure ne tombent pas aux mêmes dates qu'en Europe, ce qui modifie ces écarts pendant quelques semaines par an.",
+            "Six fuseaux : huit heures de moins qu'en France en Alberta, neuf en Colombie-Britannique, quatre et demie à Terre-Neuve.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est le dollar canadien. Les cartes bancaires sont très largement acceptées, y compris pour les petits montants, mais il reste utile de conserver un peu d'espèces pour les traversées, les marchés et les pourboires. Le pourboire est d'usage au restaurant, généralement de quinze à vingt pour cent.",
+            "Le dollar canadien. La carte est très largement acceptée, et le pourboire au restaurant est d'usage, de quinze à vingt pour cent.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français sont dispensés de visa pour un séjour touristique de moins de six mois. Une Autorisation de voyage électronique (AVE) est en revanche nécessaire pour une arrivée par avion : elle s'obtient en ligne et reste valable cinq ans, ou jusqu'à l'expiration du passeport. Celui-ci doit rester valide pendant toute la durée du séjour.",
+            "Pas de visa sous six mois, mais une AVE en ligne, valable cinq ans, est requise par avion. Passeport valide tout le séjour.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin spécifique n'est présenté comme obligatoire pour un voyage touristique classique. L'Institut Pasteur recommande d'être à jour du calendrier vaccinal. La vaccination contre la rage se discute ensuite selon la durée du séjour et le temps passé en pleine nature, et une protection contre les moustiques et les tiques est conseillée en été dans les régions boisées.",
+            "Aucun vaccin obligatoire, calendrier à jour, rage selon le temps passé en nature. Protection contre moustiques et tiques l'été en forêt.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Nous privilégions juin à septembre pour les Rocheuses et la côte du Pacifique : les journées sont longues et les soirées douces. À Terre-Neuve, la saison va de mai à septembre selon ce que l'on vient chercher, les icebergs étant surtout associés au printemps et au début de l'été, tandis que les baleines se laissent observer ensuite. De janvier à mars, la neige et l'hélicoptère prennent le relais dans l'Ouest.",
+            "De juin à septembre pour les Rocheuses et le Pacifique, de mai à septembre à Terre-Neuve. De janvier à mars, neige et héliski dans l'Ouest.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais et le français sont les deux langues officielles du pays. Le français est majoritaire au Québec et bien présent au Nouveau-Brunswick, seule province officiellement bilingue, tandis que l'anglais domine en Alberta, en Colombie-Britannique et à Terre-Neuve. Plusieurs dizaines de langues autochtones sont également parlées, parmi lesquelles le cri, l'inuktitut et l'ojibwé.",
+            "L'anglais et le français sont officiels. Le français domine au Québec, le Nouveau-Brunswick est bilingue, l'anglais l'emporte ailleurs.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est continental sur la majeure partie du pays, avec des hivers froids et des étés chauds. La côte de la Colombie-Britannique, plus océanique, reste douce et pluvieuse une bonne partie de l'année. Dans les Rocheuses, le temps peut changer plusieurs fois dans la journée, et Terre-Neuve connaît des brouillards fréquents au printemps.",
+            "Continental, hivers froids et étés chauds, plus doux et pluvieux sur la côte Pacifique. Météo changeante dans les Rocheuses.",
         },
       ],
     },
@@ -237,7 +237,7 @@ export const destination: Destination = {
             "Carte d'un itinéraire sur mesure au Canada",
             "Salle à manger dont la fenêtre voûtée ouvre sur le lac Louise",
             "Grand hôtel des Rocheuses illuminé au bord du lac, sous la neige",
-            "Concierge organisant un vol en hydravion vers un lodge canadien",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Deux skieurs de fond dans une vallée enneigée des Rocheuses",
           ][i],
         },
@@ -270,7 +270,7 @@ export const destination: Destination = {
             "La route relie Banff à Jasper en longeant les champs de glace. On s'arrête au lac Peyto, on marche jusqu'au pied d'un glacier, et l'on croise plus de wapitis que de voitures au petit matin.",
           image: {
             src: "/destination/canada/map-promenade-glaciers.webp",
-            alt: "Route de la promenade des Glaciers longeant les sommets enneigés des Rocheuses",
+            alt: "Route de la promenade des Glaciers filant vers les sommets enneigés des Rocheuses",
           },
           coordinates: { lat: 52.22, lng: -117.2255 }, // TODO: verify coords
         },
@@ -528,7 +528,7 @@ export const destination: Destination = {
             "Nous étions au bord du lac Moraine avant tout le monde, avec un canoë et du café chaud. Le silence de cette heure-là, je ne l'oublierai pas. Le reste du séjour a tenu la même note, jusqu'au dernier dîner dans les Rocheuses.",
           image: {
             src: "/destination/canada/hero-1.webp",
-            alt: "Portrait de Frédéric", // TODO: verify
+            alt: "Canoës rouges sur l'eau turquoise du lac Louise face au glacier, au Canada",
           },
           name: "Frédéric", // TODO: verify
           role: "Séjour en couple, juillet 2025", // TODO: verify
@@ -539,7 +539,7 @@ export const destination: Destination = {
             "L'hydravion nous a déposés au fond d'un fjord, et nos deux adolescents n'ont plus regardé leur téléphone pendant une semaine. Les chevaux, les ours vus depuis le bateau, le feu le soir : ils en parlent encore à table.",
           image: {
             src: "/destination/canada/hero-2.webp",
-            alt: "Portrait de Constance", // TODO: verify
+            alt: "Chalets sur pilotis au fond d'une baie de Colombie-Britannique",
           },
           name: "Constance", // TODO: verify
           role: "Voyage en famille, août 2025", // TODO: verify
@@ -550,7 +550,7 @@ export const destination: Destination = {
             "Trois jours dans les Bugaboos avec l'hélicoptère pour nous seuls, puis Terre-Neuve et ses icebergs, que je n'attendais pas du tout. Je pensais connaître le Canada. Pas celui-là.",
           image: {
             src: "/destination/canada/hero-3.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Iceberg dérivant au large des maisons de bois de Terre-Neuve",
           },
           name: "Édouard", // TODO: verify
           role: "Voyage sur mesure, février 2026", // TODO: verify

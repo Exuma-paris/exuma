@@ -16,7 +16,7 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
  *      autorités et oriente vers un médecin ou un centre de vaccinations
  *      internationales, sans jamais se substituer à eux.
  *
- * Le stub promettait « assistance 24/7 », standard déjà banni sur
+ * Le stub promettait « assistance pendant le séjour », standard déjà banni sur
  * `/professionnels`, et « protection sur-mesure, disponibilité continue ».
  * L'assistance est désormais décrite comme calibrée et convenue à l'avance.
  *

@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Mexique : Voyage sur mesure",
   metaDescription:
-    "Voyage au Mexique sur mesure : Mexico, Oaxaca, les cités mayas du Yucatán et la côte du Pacifique. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage au Mexique sur mesure : Mexico, Oaxaca, les cités mayas du Yucatán et la côte du Pacifique. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -169,49 +169,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 12 heures en vol direct entre Paris et Mexico, et autour de 11 heures vers Cancún, selon les périodes et les compagnies. Oaxaca, Mérida et Puerto Vallarta se rejoignent ensuite par un vol intérieur.",
+            "Environ 12 heures de vol direct Paris-Mexico, 11 heures vers Cancún. Oaxaca, Mérida et Puerto Vallarta se rejoignent par vol intérieur.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Mexico compte 7 heures de moins que Paris en hiver et 8 heures en été. Le Quintana Roo, qui couvre Cancún et la Riviera Maya, a une heure d'avance sur Mexico. Le pays a supprimé le changement d'heure, sauf dans certaines zones frontalières.",
+            "Mexico : 7 heures de moins que Paris en hiver, 8 en été. Cancún et la Riviera Maya ont une heure d'avance sur Mexico.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est le peso mexicain. Les cartes bancaires sont très largement acceptées dans l'hôtellerie et les restaurants, mais il reste utile de garder un peu d'espèces pour les marchés et les villages.",
+            "Peso mexicain. Cartes très largement acceptées dans les hôtels et restaurants, un peu d'espèces pour les marchés et les villages.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français sont exemptés de visa pour un séjour touristique, dans la limite de 180 jours. Le passeport doit être en cours de validité. À Mexico et à Cancún, l'immigration s'effectue désormais en partie par des portiques automatiques, et un document migratoire électronique peut vous être délivré.",
+            "Pas de visa pour un séjour touristique jusqu'à 180 jours. Passeport en cours de validité, entrée en partie par portiques automatiques.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est exigé à l'entrée sur le territoire. L'Institut Pasteur recommande d'être à jour du calendrier vaccinal et conseille l'hépatite A, ainsi qu'une protection contre les moustiques dans les régions tropicales.",
+            "Aucun vaccin exigé. Calendrier vaccinal à jour, hépatite A conseillée et protection contre les moustiques en zone tropicale.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Nous privilégions les mois de novembre à avril, lorsque le ciel est dégagé et la chaleur agréable. Les mois d'épaule restent très plaisants, et les baleines à bosse s'observent dans la baie de Banderas de décembre à mars.",
+            "De novembre à avril, ciel dégagé et chaleur agréable. Les baleines à bosse s'observent dans la baie de Banderas de décembre à mars.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'espagnol est la langue nationale, aux côtés de nombreuses langues autochtones reconnues, parmi lesquelles le maya yucatèque et le zapotèque. L'anglais est largement pratiqué dans les régions touristiques.",
+            "L'espagnol est la langue nationale, aux côtés de nombreuses langues autochtones. L'anglais est largement pratiqué en zone touristique.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat varie selon les régions : tropical sur les deux côtes, plus tempéré sur les hauts plateaux du centre, où Mexico garde des journées douces toute l'année. La saison des pluies s'étend généralement de juin à octobre, avec des averses de fin d'après-midi.",
+            "Tropical sur les côtes, tempéré sur les hauts plateaux où Mexico reste douce. Pluies de juin à octobre, en averses de fin d'après-midi.",
         },
       ],
     },
@@ -233,7 +233,7 @@ export const destination: Destination = {
             "Carte d'un itinéraire sur mesure au Mexique",
             "Assiette de mole servie dans une cuisine mexicaine",
             "Salon d'un hôtel mexicain ouvert par une large baie sur la végétation",
-            "Concierge coordonnant un transfert privé au Mexique",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Surfeurs rejoignant l'océan au coucher du soleil sur la côte du Pacifique",
           ][i],
         },
@@ -256,7 +256,7 @@ export const destination: Destination = {
             "Dans le bois de Chapultepec, le musée rassemble les trésors des civilisations du pays, de Teotihuacán aux Mexicas. On y comprend le Mexique avant de le parcourir, et l'on garde ensuite la ville pour ses fresques et ses tables.",
           image: {
             src: "/destination/mexique/map-mexico.webp",
-            alt: "Salle mexica du musée national d'anthropologie de Mexico",
+            alt: "Pierre du Soleil aztèque dans la salle mexica du musée national d'anthropologie de Mexico",
           },
           coordinates: { lat: 19.426, lng: -99.1863 }, // TODO: verify coords
         },
@@ -527,7 +527,7 @@ export const destination: Destination = {
             "Chichén Itzá au petit matin restera notre plus beau souvenir. Nous étions seuls devant la pyramide, et l'archéologue qui nous accompagnait nous a raconté ce que chaque escalier signifiait.",
           image: {
             src: "/destination/mexique/hero-1.webp",
-            alt: "Portrait de Bernard et Michèle", // TODO: verify
+            alt: "Pyramide de Kukulcán à Chichén Itzá sous les nuages du Yucatán, Mexique",
           },
           name: "Bernard & Michèle", // TODO: verify
           role: "Voyage anniversaire, février 2026", // TODO: verify
@@ -538,7 +538,7 @@ export const destination: Destination = {
             "Nous avons passé quelques nuits dans une hacienda du Yucatán avant de rejoindre la mer. Le cénote au fond du domaine, ouvert pour nous seuls, valait à lui seul le séjour.",
           image: {
             src: "/destination/mexique/hero-2.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Habitants d'Oaxaca en tenue traditionnelle devant une porte peinte en rouge",
           },
           name: "Édouard", // TODO: verify
           role: "Séjour en famille, janvier 2026", // TODO: verify
@@ -549,7 +549,7 @@ export const destination: Destination = {
             "Oaxaca a été la belle surprise du voyage. Un déjeuner chez une cuisinière, dans sa cuisine, et un après-midi qui passe sans qu'on le voie. Nous n'aurions jamais trouvé cette adresse seuls.",
           image: {
             src: "/destination/mexique/hero-3.webp",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "Cascade tombant dans un cénote du Yucatán entouré de lianes",
           },
           name: "Claire", // TODO: verify
           role: "Voyage en couple, novembre 2025", // TODO: verify

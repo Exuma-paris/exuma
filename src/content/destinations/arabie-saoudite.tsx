@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Arabie Saoudite : Voyage sur mesure",
   metaDescription:
-    "Voyage en Arabie Saoudite sur mesure : AlUla, Hegra, la réserve de Sharaan et la mer Rouge. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en Arabie Saoudite sur mesure : AlUla, Hegra, la réserve de Sharaan et la mer Rouge. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -169,49 +169,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Six heures dix entre Paris et Riyad, en vol direct et quotidien. Djeddah est desservie en direct dans des durées comparables. AlUla se rejoint ensuite en une heure vingt de vol intérieur, et une liaison saisonnière relie parfois Paris directement à la vallée en hiver.", // TODO: verify les durées de vol et l'existence de la liaison saisonnière Paris-AlUla
+            "Six heures dix de vol direct quotidien entre Paris et Riyad, Djeddah aussi en direct. AlUla est ensuite à une heure vingt de vol intérieur.", // TODO: verify les durées de vol et l'existence de la liaison saisonnière Paris-AlUla
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Une heure de plus qu'en France en été, deux heures en hiver. Le royaume ne change pas d'heure : quand il est 14 h à Paris en janvier, il est 16 h à Riyad. Le décalage se rattrape en une nuit.",
+            "Une heure de plus qu'en France en été, deux en hiver, le royaume ne changeant pas d'heure. Le décalage se rattrape en une nuit.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le rial saoudien, indexé sur le dollar depuis 1986, ce qui rend le change stable d'une année sur l'autre. La carte bancaire et le paiement sans contact passent partout, jusque dans les cafés de village. Un peu d'espèces reste utile sur les marchés de dattes.", // TODO: verify la date de l'indexation du rial
+            "Le rial saoudien, indexé sur le dollar, d'où un change stable. Carte et sans contact passent partout, un peu d'espèces sert sur les marchés.", // TODO: verify la date de l'indexation du rial
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Un visa touristique électronique, demandé en ligne en quelques minutes. Il est valable un an, autorise plusieurs entrées et des séjours jusqu'à quatre-vingt-dix jours. Le passeport doit être valide six mois après la date d'arrivée.", // TODO: verify les conditions du e-visa saoudien pour les ressortissants français
+            "E-visa touristique en ligne, valable un an, multi-entrées, séjours jusqu'à 90 jours. Passeport valide six mois après l'arrivée.", // TODO: verify les conditions du e-visa saoudien pour les ressortissants français
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination n'est demandée pour un séjour touristique. Le calendrier vaccinal français à jour suffit. L'eau se boit en bouteille et le pays compte des hôpitaux de très bon niveau à Riyad et à Djeddah.",
+            "Aucune vaccination demandée, le calendrier français à jour suffit. Eau en bouteille, et très bons hôpitaux à Riyad et à Djeddah.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "D'octobre à avril. À AlUla, l'après-midi tourne alors autour de vingt-cinq degrés et les nuits descendent à dix : c'est la saison des dîners dehors et des marches dans les canyons. Décembre et janvier concentrent les festivals de la vallée.", // TODO: verify les températures d'hiver à AlUla
+            "D'octobre à avril, avec à AlUla vingt-cinq degrés l'après-midi et dix la nuit. Décembre et janvier concentrent les festivals de la vallée.", // TODO: verify les températures d'hiver à AlUla
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'arabe, dans sa variante du Golfe. L'anglais est parlé dans les hôtels, par les guides et par une grande partie des moins de quarante ans. Quelques guides d'AlUla travaillent en français, et cela se demande à la réservation.",
+            "L'arabe du Golfe. L'anglais se parle dans les hôtels, chez les guides et les moins de quarante ans, et des guides d'AlUla parlent français.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Désertique et très sec : l'air ne pèse jamais. AlUla dépasse quarante degrés en juillet et redescend à vingt-cinq en janvier, avec un écart de quinze degrés entre le jour et la nuit. Sur la mer Rouge, l'eau reste chaude toute l'année.", // TODO: verify les moyennes de température à AlUla
+            "Désertique et très sec. AlUla dépasse quarante degrés en juillet, vingt-cinq en janvier, et la mer Rouge reste chaude toute l'année.", // TODO: verify les moyennes de température à AlUla
         },
       ],
     },
@@ -231,7 +231,7 @@ export const destination: Destination = {
             "Itinéraire sur mesure en Arabie Saoudite, d'AlUla à Diriyah et à la mer Rouge",
             "Côtelettes d'agneau et légumes grillés servis sur un plateau de laiton, à AlUla",
             "Pavillons de bois posés dans le sable au pied des parois de grès d'AlUla",
-            "Travel designer Exuma à son bureau, conciergerie privée 24/7",
+            "Travel designer Exuma à son bureau, conciergerie privée",
             "Séance de yoga au lever du soleil sur une terrasse de bois, face aux rochers d'AlUla",
           ][i],
         },
@@ -572,10 +572,10 @@ export const destination: Destination = {
             "Nous sommes entrés à Hegra au premier créneau du matin. Il n'y avait que nous et le guide, qui a passé une heure devant un seul tombeau. Nous en sommes ressortis en connaissant le nom de son sculpteur.",
           image: {
             src: "/destination/arabie-saoudite/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Le tombeau de Qasr al-Farid taillé dans un bloc isolé à Hegra, voyage en Arabie Saoudite"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: AlUla, février 2026", // TODO: replace with real testimonial
+          role: "AlUla, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -583,10 +583,10 @@ export const destination: Destination = {
             "Le dîner s'est fait au fond d'un canyon, avec des lampes posées à même le sable. Avant cela, le guide nous avait montré des scorpions fluorescents à la lampe UV. Je n'imaginais pas le désert aussi habité.",
           image: {
             src: "/destination/arabie-saoudite/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Formations de grès de la vallée d'AlUla à contre-jour, en fin de journée"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Réserve de Sharaan, décembre 2025", // TODO: replace with real testimonial
+          role: "Réserve de Sharaan, décembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -594,10 +594,10 @@ export const destination: Destination = {
             "Nous avons dormi dans une maison de terre de la vieille ville, éclairée à la bougie. Le matin, dix minutes de marche suffisaient pour être dans l'oasis, entre les palmiers.",
           image: {
             src: "/destination/arabie-saoudite/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Troupeau de dromadaires au pied des falaises de grès, dans le désert d'AlUla"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Vieille ville d'AlUla, novembre 2025", // TODO: replace with real testimonial
+          role: "Vieille ville d'AlUla, novembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

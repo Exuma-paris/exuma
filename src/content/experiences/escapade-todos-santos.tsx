@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["los-cabos", "mexique", "todos-santos", "baja", "art", "culture"],
   heroImage: {
     src: "/destination/los-cabos/xp-todos-santos.webp",
-    alt: "Rue d'artistes de Todos Santos, Pueblo Mágico, Baja California Sur",
+    alt: "Façade d'artisanat sous les papel picado, Todos Santos, Baja California Sur",
   },
   destinationSlugs: ["los-cabos"],
   sections: [],

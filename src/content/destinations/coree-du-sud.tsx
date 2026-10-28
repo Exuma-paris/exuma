@@ -169,49 +169,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Air France, Korean Air, Asiana et T'way relient Paris à Séoul-Incheon sans escale, avec une quinzaine de vols par semaine. Comptez douze heures à l'aller, et un peu plus de quatorze heures au retour, les vents étant contraires. Depuis Incheon, le centre de Séoul se rejoint en une heure de route ou de train express.",
+            "Vols directs de Paris à Séoul-Incheon, douze heures à l'aller, un peu plus de quatorze au retour. Le centre de Séoul est à une heure.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Sept heures d'avance sur Paris en été, huit en hiver. La Corée ne change pas d'heure dans l'année. Le décalage se digère bien à l'aller et se fait davantage sentir au retour.",
+            "Sept heures d'avance sur Paris en été, huit en hiver, la Corée ne changeant pas d'heure. Le décalage se fait surtout sentir au retour.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le won sud-coréen. La carte bancaire passe partout, y compris dans les taxis et sur la plupart des étals de marché. Prévoir un peu d'espèces pour les petits commerces de province et les marchés de nuit.",
+            "Le won sud-coréen. La carte passe partout, taxis et marchés compris, avec un peu d'espèces pour les petits commerces de province.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa pour un séjour touristique de moins de quatre-vingt-dix jours. Un passeport en cours de validité suffit, sans mois de validité supplémentaire exigé après le retour. L'autorisation électronique K-ETA reste suspendue pour les voyageurs français jusqu'au 31 décembre 2026, et nous vérifions ce point avant chaque départ.",
+            "Pas de visa sous 90 jours, un passeport valide suffit. La K-ETA est suspendue pour les Français jusqu'au 31 décembre 2026.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est exigé à l'entrée. Il est conseillé d'être à jour du DTP, de la coqueluche et de la rougeole, et l'hépatite A est recommandée selon la durée du séjour. Le paludisme ne concerne que quelques zones rurales du nord des provinces de Gyeonggi et de Gangwon, à l'écart des itinéraires.",
+            "Aucun vaccin exigé. DTP, coqueluche et rougeole à jour, hépatite A selon la durée, paludisme limité à quelques zones rurales du nord.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Les cerisiers fleurissent vers la fin mars sur Jeju et dans le sud, et dans les premiers jours d'avril à Séoul. L'automne est la seconde fenêtre, de la mi-octobre à la mi-novembre, avec un pic sur Séoul fin octobre. La mousson, appelée jangma, tombe de fin juin à fin juillet, et le risque de typhon culmine en août.",
+            "Cerisiers fin mars à Jeju, début avril à Séoul, puis automne de mi-octobre à mi-novembre. Mousson fin juin à fin juillet, typhons en août.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le coréen, écrit en hangeul, un alphabet qui se déchiffre en quelques jours. L'anglais est compris dans les hôtels et les grands musées, beaucoup moins ailleurs. Un guide francophone accompagne les journées qui le demandent.",
+            "Le coréen, écrit en hangeul. L'anglais est compris dans les hôtels et les grands musées, et un guide francophone accompagne sur demande.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Quatre saisons franches. À Séoul, janvier tourne autour de moins deux degrés, avec des matinées nettement plus froides, et août autour de vingt-six degrés, avec beaucoup d'humidité. Les pluies se concentrent sur juillet et août. Jeju reste plus douce que le continent toute l'année.",
+            "Quatre saisons franches. À Séoul, environ moins deux degrés en janvier et vingt-six en août, humide, avec des pluies en juillet et août.",
         },
       ],
     },
@@ -568,10 +568,10 @@ export const destination: Destination = {
             "Nous sommes rentrés en parlant des repas. Le guide nous emmenait dans des salles où personne ne parlait anglais, il commandait pour nous, et il nous expliquait chaque bol avant qu'on y touche.",
           image: {
             src: "/destination/coree-du-sud/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage en Corée du Sud : les toits de tuiles du village de hanoks de Bukchon, à Séoul"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Corée du Sud à deux, octobre 2025", // TODO: replace with real testimonial
+          role: "Corée du Sud à deux, octobre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -579,10 +579,10 @@ export const destination: Destination = {
             "Le Jardin secret avant l'ouverture, et ensuite la journée en hanbok. Notre fille a photographié la cour pendant des heures, et c'est elle qui a demandé qu'on prolonge l'après-midi.",
           image: {
             src: "/destination/coree-du-sud/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Pavillon de bois et étang de lotus du Jardin secret de Changdeokgung"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Corée du Sud en famille, avril 2026", // TODO: replace with real testimonial
+          role: "Corée du Sud en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -590,10 +590,10 @@ export const destination: Destination = {
             "Séoul nous a tenus en haleine du matin au soir. Terminer par Jeju était le bon choix : on a marché, on a mangé du poisson à la sortie de l'eau, et on n'a rien eu à organiser pendant quatre jours.",
           image: {
             src: "/destination/coree-du-sud/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Plongeuses haenyeo remontant sur les rochers noirs de l'île de Jeju"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Corée du Sud, novembre 2025", // TODO: replace with real testimonial
+          role: "Corée du Sud, novembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

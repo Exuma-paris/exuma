@@ -555,10 +555,10 @@ export const destination: Destination = {
             "Nous sommes partis de Nassau avant sept heures et nous avons eu la plage de Harbour Island pour nous. Le sable est vraiment rose, personne ne nous croit sur les photos. Le capitaine avait pensé la journée dans cet ordre-là, et cela a tout changé.",
           image: {
             src: "/destination/bahamas/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Bancs de sable et eaux turquoise des Exuma Cays lors d'un voyage aux Bahamas"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bahamas, Eleuthera et Harbour Island, 2025", // TODO: replace with real testimonial
+          role: "Bahamas, Eleuthera et Harbour Island, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -566,10 +566,10 @@ export const destination: Destination = {
             "Une île entière pour nous huit, avec l'équipage et deux bateaux. Les enfants ont fini par connaître les plages mieux que le personnel, et nous n'avons croisé personne en dix jours. Même le transfert en hydravion fait partie du souvenir.",
           image: {
             src: "/destination/bahamas/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Cochons nageurs dans les eaux peu profondes de Big Major Cay, aux Exumas"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bahamas en famille, Exumas, 2025", // TODO: replace with real testimonial
+          role: "Bahamas en famille, Exumas, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -577,10 +577,10 @@ export const destination: Destination = {
             "Trois jours dans les flats d'Andros avec le même guide. Il voyait le poisson dix secondes avant moi, chaque fois. Après cela, les tables de Nassau et le retour au calme de la maison sur la caye nous ont paru presque trop confortables.",
           image: {
             src: "/destination/bahamas/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Maisons de bois blanches et cocotiers d'un village des Bahamas"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Bahamas, Andros, 2025", // TODO: replace with real testimonial
+          role: "Bahamas, Andros, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

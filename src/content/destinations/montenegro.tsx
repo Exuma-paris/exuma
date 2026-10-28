@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Monténégro : Voyage sur mesure",
   metaDescription:
-    "Voyage au Monténégro sur mesure : baie de Kotor, Sveti Stefan, canyon de la Tara. Itinéraire conçu par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage au Monténégro sur mesure : baie de Kotor, Sveti Stefan, canyon de la Tara. Itinéraire conçu par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -174,7 +174,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 2h30 de vol direct depuis Paris-Orly vers Tivat. Des liaisons directes vers Tivat et Podgorica sont proposées au départ de Paris, principalement du printemps à l'automne.",
+            "Environ 2h30 de vol direct de Paris-Orly à Tivat. Des liaisons directes vers Tivat et Podgorica existent surtout du printemps à l'automne.",
         },
         {
           iconName: "clock",
@@ -186,37 +186,37 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est l'euro (€). Le Monténégro utilise l'euro comme monnaie officielle, bien qu'il ne fasse pas partie de la zone euro et n'ait pas de convention monétaire avec l'Union européenne.",
+            "L'euro (€) est la monnaie officielle, bien que le Monténégro ne fasse pas partie de la zone euro.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français n'ont pas besoin de visa pour un séjour de moins de 90 jours. Une carte nationale d'identité en cours de validité suffit pour un séjour inférieur à 30 jours ; au-delà, un passeport en cours de validité est nécessaire.",
+            "Pas de visa sous 90 jours. Carte d'identité valide suffisante jusqu'à 30 jours, passeport en cours de validité au-delà.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin particulier n'est obligatoire pour entrer au Monténégro. Il est toutefois recommandé d'être à jour des vaccinations du calendrier vaccinal français. Selon les conditions du séjour, notamment pour les séjours prolongés ou en milieu rural, certaines vaccinations complémentaires peuvent être recommandées.",
+            "Aucun vaccin obligatoire. Calendrier vaccinal français à jour, compléments possibles pour un séjour long ou en milieu rural.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mai à juin et de septembre à octobre, pour profiter d'un climat agréable, de températures plus douces et d'une fréquentation moindre sur la côte. Juillet et août sont les mois les plus chauds et les plus fréquentés. Pour combiner baignades, visites et découverte des montagnes, le début de l'été et le début de l'automne offrent un excellent équilibre.",
+            "Mai-juin et septembre-octobre, climat doux et côte moins fréquentée. Juillet et août sont les mois les plus chauds et les plus chargés.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "La langue officielle est le monténégrin. Le serbe, le bosnien, l'albanais et le croate sont également couramment parlés. Dans les zones touristiques, notamment sur la côte, l'anglais est largement utilisé.",
+            "Le monténégrin est la langue officielle ; serbe, bosnien, albanais et croate se parlent aussi. L'anglais est courant sur la côte.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le Monténégro présente des climats très contrastés sur un territoire pourtant compact. La côte bénéficie d'un climat méditerranéen, avec des étés chauds et secs et des hivers doux. Dans le centre et le nord, le climat devient progressivement montagnard, avec des hivers froids et enneigés, notamment dans le massif du Durmitor.",
+            "Méditerranéen sur la côte, étés chauds et secs, hivers doux. Montagnard au centre et au nord, hivers froids et enneigés dans le Durmitor.",
         },
       ],
     },
@@ -555,7 +555,7 @@ export const destination: Destination = {
             "Nous ne connaissions le Monténégro que par la baie de Kotor sur les photos. La croisière en voilier à l'aube, la nuit à Sveti Stefan, la route jusqu'au Durmitor : on a eu l'impression de traverser trois pays en une semaine.",
           image: {
             src: "/destination/montenegro/hero-1.webp",
-            alt: "Portrait de Camille et Antoine", // TODO: verify
+            alt: "Îlot de Saint-Georges et Notre-Dame-du-Rocher vus du ciel, baie de Kotor",
           },
           name: "Camille & Antoine", // TODO: verify
           role: "Voyage de noces, juin 2025", // TODO: verify
@@ -566,7 +566,7 @@ export const destination: Destination = {
             "Notre travel designer nous a évité Budva en pleine saison et nous a envoyés à Perast à la place. Le déjeuner chez le vigneron de la Crmnica reste le meilleur souvenir du voyage.",
           image: {
             src: "/destination/montenegro/hero-2.webp",
-            alt: "Portrait de Marc", // TODO: verify
+            alt: "Village-hôtel de Sveti Stefan relié à la côte par une jetée",
           },
           name: "Marc", // TODO: verify
           role: "Séjour en famille, août 2025", // TODO: verify
@@ -577,7 +577,7 @@ export const destination: Destination = {
             "Ce qui nous a marqués, c'est le contraste : la baie le matin, le canyon de la Tara l'après-midi. Aucun autre pays ne tient ça en une seule journée sans que ça paraisse forcé.",
           image: {
             src: "/destination/montenegro/hero-3.webp",
-            alt: "Portrait de Sophie", // TODO: verify
+            alt: "Voilier privé mouillé face aux remparts de Kotor au lever du jour",
           },
           name: "Sophie", // TODO: verify
           role: "Escapade en couple, septembre 2025", // TODO: verify

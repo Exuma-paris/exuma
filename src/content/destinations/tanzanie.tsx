@@ -172,49 +172,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Air France dessert Kilimandjaro (JRO) en direct depuis Paris certains jours de la semaine, en un peu moins de 9 heures. Les autres jours, compter 11 à 14 heures via Amsterdam avec KLM, Doha avec Qatar Airways ou Addis-Abeba avec Ethiopian.",
+            "Air France vole en direct vers Kilimandjaro (JRO) certains jours, en moins de 9 heures. Sinon 11 à 14 heures via Amsterdam ou Doha.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "TODO: Deux heures d'avance sur Paris en hiver, une heure en été (fuseau EAT, UTC+3). Ce décalage facilite les sorties d'avant l'aube.",
+            "Deux heures d'avance sur Paris en hiver, une heure en été (fuseau EAT, UTC+3). Ce décalage facilite les sorties d'avant l'aube.", // TODO: à vérifier
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "TODO: Shilling tanzanien (TZS), environ 2 900 TZS pour un euro. Les camps facturent en dollars américains. Prévoir des petites coupures pour les pourboires.",
+            "Shilling tanzanien (TZS), environ 2 900 pour un euro. Les camps facturent en dollars ; petites coupures pour les pourboires.", // TODO: à vérifier
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Visa touristique obligatoire pour les ressortissants français, y compris pour entrer à Zanzibar. Demande en ligne sur le portail officiel tanzanien, environ 50 dollars, délai d'une dizaine de jours ouvrés. Passeport valide six mois après le retour.",
+            "Visa obligatoire, Zanzibar compris : en ligne, environ 50 dollars, une dizaine de jours ouvrés. Passeport valide six mois après le retour.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "TODO: Fièvre jaune exigée en cas d'arrivée depuis un pays endémique, dont le Kenya. Prophylaxie antipaludique recommandée pour le Serengeti et la côte.",
+            "Fièvre jaune exigée en provenance d'un pays endémique, dont le Kenya. Antipaludique recommandé pour le Serengeti et la côte.", // TODO: à vérifier
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: De fin mai à juillet pour le passage du corridor ouest à Grumeti. De juillet à octobre pour le Serengeti nord. En janvier et février pour la mise à bas dans les plaines du Ndutu.",
+            "Fin mai à juillet pour Grumeti, juillet à octobre pour le Serengeti nord, janvier et février pour la mise à bas au Ndutu.", // TODO: à vérifier
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "TODO: Swahili, langue nationale, et anglais, langue officielle. L'anglais suffit dans les camps et les concessions privées.",
+            "Swahili, langue nationale, et anglais, langue officielle. L'anglais suffit dans les camps et les concessions privées.", // TODO: à vérifier
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "TODO: Grandes pluies de mars à mai, petites pluies en novembre. De 15 à 28 °C dans le Serengeti. Le bord du cratère du Ngorongoro, à 2 300 mètres, descend sous 10 °C au petit matin.",
+            "Grandes pluies de mars à mai, petites en novembre. 15 à 28 °C au Serengeti, sous 10 °C à l'aube au bord du Ngorongoro.", // TODO: à vérifier
         },
       ],
     },
@@ -571,10 +571,10 @@ export const destination: Destination = {
             "Nous avons attendu sur la berge de la Grumeti une matinée entière. Peu de véhicules, tous du même camp. Le passage s'est ensuite engagé d'un coup. C'est le souvenir le plus net du voyage, deux ans après.",
           image: {
             src: "/destination/tanzanie/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Troupeau de gnous massé sur la berge de la rivière Grumeti en Tanzanie"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Safari Serengeti Ouest, juin 2024", // TODO: replace with real testimonial
+          role: "Safari Serengeti Ouest, juin 2024", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -582,10 +582,10 @@ export const destination: Destination = {
             "La première nuit à Laba Mama Simba change le reste du séjour. Nous sommes arrivés au milieu de la nuit, après quatorze heures de trajet. Au réveil, le salon s'ouvre directement sur le mont Meru.",
           image: {
             src: "/destination/tanzanie/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Éléphant traversant les hautes herbes au pied de la colline de Sasakwa, Grumeti"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Tanzanie et Zanzibar, septembre 2025", // TODO: replace with real testimonial
+          role: "Tanzanie et Zanzibar, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -593,10 +593,10 @@ export const destination: Destination = {
             "Les gorges d'Olduvai commentées par un guide qui a fouillé le site, c'est ce que nos enfants ont retenu. Pas les lions. Les strates et ce qu'elles racontent.",
           image: {
             src: "/destination/tanzanie/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Zèbres et gnous en pâture au fond du cratère du Ngorongoro, paroi de la caldeira derrière"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Tanzanie en famille, février 2025", // TODO: replace with real testimonial
+          role: "Tanzanie en famille, février 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

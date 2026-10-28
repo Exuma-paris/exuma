@@ -53,7 +53,7 @@ export const serviceCategory: ServiceCategory = {
       eyebrow: "Conciergerie privée & VIP",
       heading: "Ce que vous n'avez pas le temps de chercher, nous le cherchons",
       description:
-        "Une table un vendredi soir, une nounou anglophone pour dimanche, un anniversaire à monter à l'autre bout du monde. Vous formulez la demande, nous nous occupons du reste.",
+        "Pensée pour ceux qui n'ont pas le temps d'attendre, ni la tolérance pour l'approximation. Une table un vendredi soir, une nounou anglophone pour dimanche, un anniversaire à monter à l'autre bout du monde : ce que vous ne demandez pas encore, nous l'avons déjà anticipé.",
       images: [
         {
           src: "/service/conciergerie/hero-1.png",
@@ -107,9 +107,9 @@ export const serviceCategory: ServiceCategory = {
           },
         },
         {
-          title: "Réservations de dernière minute",
+          title: "Réservations exclusives et de dernière minute",
           paragraphs: [
-            "Une table affichée complète, une loge, un créneau au club, un billet pour ce soir. Nous passons les appels un par un, y compris ceux que vous n'auriez ni le temps ni l'envie de passer.",
+            "Tables fermées, loges privées, événements sur invitation : les adresses qui ne se réservent pas en ligne. Une table affichée complète, un créneau au club, un billet pour ce soir. Nous passons les appels un par un, y compris ceux que vous n'auriez ni le temps ni l'envie de passer.",
             "Nous vous rappelons avec une réponse, pas avec une liste de possibilités à trancher vous-même. Si la première maison ne peut pas, la deuxième a déjà été jointe.",
             "Ces demandes arrivent rarement aux heures ouvrables. C'est précisément pour celles-là que nous convenons avec vous, à l'avance, du numéro à composer et de qui décroche.",
           ],
@@ -267,7 +267,7 @@ export const serviceCategory: ServiceCategory = {
           iconName: "star",
           title: "Vous n'êtes jamais laissé sans réponse",
           description:
-            "Même quand la réponse est non, elle vous parvient, avec ce que nous avons cherché et ce que nous proposons à la place.",
+            "Nous cherchons le oui jusqu'au bout. Et quand la réponse est non, elle vous parvient, avec ce que nous avons cherché et ce que nous proposons à la place.",
         },
         {
           iconName: "clock",

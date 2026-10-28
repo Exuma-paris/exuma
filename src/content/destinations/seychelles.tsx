@@ -24,7 +24,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Seychelles, voyage sur mesure",
   metaDescription:
-    "Voyage aux Seychelles sur mesure : Mahé, Praslin, La Digue, îles privées et lagons de granit. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage aux Seychelles sur mesure : Mahé, Praslin, La Digue, îles privées et lagons de granit. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -65,7 +65,7 @@ export const destination: Destination = {
       features: [
         {
           iconName: "badgeCheck",
-          title: "Îles privées et adresses hors réseaux",
+          title: "Îles privées",
           description:
             "North Island, Frégate, Petite Anse : des îles entières ou des criques que les moteurs de réservation ne montrent pas.",
         },
@@ -189,7 +189,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 10 heures en vol direct depuis Paris vers l'aéroport international de Mahé. Liaisons régulières via les compagnies du Golfe en option. Sauts inter-îles en avion ou hélicoptère.", // TODO: verify
+            "Environ 10 heures en vol direct depuis Paris jusqu'à Mahé, ou via le Golfe. Sauts inter-îles en avion ou hélicoptère.", // TODO: verify
         },
         {
           iconName: "clock",
@@ -201,25 +201,25 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Roupie seychelloise (SCR). 1 € ≈ 15 SCR. L'euro et la carte sont acceptés dans les hôtels ; un peu d'espèces utile pour les marchés et les bateaux.", // TODO: verify taux
+            "Roupie seychelloise (SCR), 1 € ≈ 15 SCR. Euro et carte acceptés dans les hôtels ; espèces utiles pour marchés et bateaux.", // TODO: verify taux
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa pour un séjour touristique, mais une autorisation de voyage électronique (Seychelles Travel Authorisation) est à obtenir en ligne avant le départ. Passeport valide requis.", // TODO: verify
+            "Pas de visa, mais une autorisation électronique (Seychelles Travel Authorisation) à obtenir en ligne avant le départ. Passeport valide.", // TODO: verify
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination obligatoire pour les voyageurs en provenance d'Europe. Les vaccins universels à jour suffisent. Pas de paludisme sur les îles intérieures.", // TODO: verify
+            "Aucune vaccination obligatoire depuis l'Europe, vaccins universels à jour. Pas de paludisme sur les îles intérieures.", // TODO: verify
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Avril–mai et octobre–novembre, aux intersaisons : mer calme, vents faibles, lumière nette. De mai à septembre, l'alizé du sud-est rafraîchit ; de décembre à mars, plus humide.", // TODO: verify
+            "Avril, mai, octobre et novembre : mer calme, vents faibles. Alizé frais de mai à septembre, temps plus humide de décembre à mars.", // TODO: verify
         },
         {
           iconName: "languages",
@@ -231,7 +231,7 @@ export const destination: Destination = {
           iconName: "sun",
           title: "Climat",
           description:
-            "Tropical toute l'année, entre 24 et 32 °C. Les Seychelles sont hors de la ceinture cyclonique : pas de saison à éviter, seulement des nuances de vent et de pluie.", // TODO: verify
+            "Tropical toute l'année, entre 24 et 32 °C. Hors de la ceinture cyclonique : pas de saison à éviter.", // TODO: verify
         },
       ],
     },
@@ -273,7 +273,7 @@ export const destination: Destination = {
           },
         },
         {
-          title: "Conciergerie 24/7",
+          title: "Conciergerie privée",
           description:
             "Un seul interlocuteur, du premier échange jusqu'au retour. Réponse sous 24h. Les ajustements de dernière minute, gérés. Les transferts, privés.",
           image: {
@@ -308,7 +308,7 @@ export const destination: Destination = {
           description:
             "La grande île et sa capitale, Victoria, l'une des plus petites du monde. Derrière la côte, le parc national du Morne Seychellois monte à 905 mètres dans la forêt.",
           image: {
-            src: "/destination/seychelles/map-mahe.png",
+            src: "/destination/seychelles/map-mahe.webp",
             alt: "Côte et forêt du Morne Seychellois sur l'île de Mahé",
           },
           coordinates: { lat: -4.6796, lng: 55.492 }, // TODO: verify coords
@@ -318,8 +318,8 @@ export const destination: Destination = {
           description:
             "Une forêt primitive de palmiers où pousse le coco de mer, la plus grosse graine du monde. Classée UNESCO, longtemps prise pour le jardin d'Éden.",
           image: {
-            src: "/destination/seychelles/map-praslin.png",
-            alt: "Palmiers et coco de mer de la Vallée de Mai à Praslin",
+            src: "/destination/seychelles/map-praslin.webp",
+            alt: "Sentier sous les palmiers coco de mer de la Vallée de Mai à Praslin",
           },
           coordinates: { lat: -4.3306, lng: 55.7392 }, // TODO: verify coords
         },
@@ -328,7 +328,7 @@ export const destination: Destination = {
           description:
             "Presque pas de voitures, des vélos et des chars à bœufs. La plage de granit la plus photographiée de l'océan Indien, à découvrir à marée basse.",
           image: {
-            src: "/destination/seychelles/map-la-digue.png",
+            src: "/destination/seychelles/map-la-digue.webp",
             alt: "Blocs de granit et eau peu profonde d'Anse Source d'Argent à La Digue",
           },
           coordinates: { lat: -4.3587, lng: 55.8389 }, // TODO: verify coords
@@ -338,7 +338,7 @@ export const destination: Destination = {
           description:
             "Une île-réserve à courte distance de Praslin, refuge de plus de deux cents tortues géantes en liberté. Mangroves, sentier vers Anse St José, barbecue créole sur la plage.",
           image: {
-            src: "/destination/seychelles/map-curieuse.png",
+            src: "/destination/seychelles/map-curieuse.webp",
             alt: "Tortue géante d'Aldabra en liberté sur l'île de Curieuse",
           },
           coordinates: { lat: -4.2833, lng: 55.7333 }, // TODO: verify coords
@@ -348,8 +348,8 @@ export const destination: Destination = {
           description:
             "Une île entièrement protégée, gérée par des conservateurs. On y accoste pieds nus, au milieu des sternes et des tortues marines qui viennent pondre.",
           image: {
-            src: "/destination/seychelles/map-cousin.png",
-            alt: "Colonie de sternes sur la réserve naturelle de l'île Cousin",
+            src: "/destination/seychelles/map-cousin.webp",
+            alt: "Sterne blanche posée sur une branche, réserve naturelle de l'île Cousin",
           },
           coordinates: { lat: -4.3322, lng: 55.6453 }, // TODO: verify coords
         },
@@ -358,8 +358,8 @@ export const destination: Destination = {
           description:
             "Au départ de Praslin, l'île la plus septentrionale des intérieures. Plus d'un million d'oiseaux marins, une flore rare dont le Wright's Gardenia, qui ne pousse nulle part ailleurs.",
           image: {
-            src: "/destination/seychelles/map-aride.png",
-            alt: "Falaises et oiseaux marins de la réserve de l'île Aride",
+            src: "/destination/seychelles/map-aride.webp",
+            alt: "Plage et rochers de granit de la réserve de l'île Aride",
           },
           coordinates: { lat: -4.2122, lng: 55.6694 }, // TODO: verify coords
         },
@@ -493,7 +493,7 @@ export const destination: Destination = {
             "Trois îles en douze jours, et l'impression de n'avoir jamais couru. Carole avait calé chaque transfert au bon moment. Le coucher de soleil sur le granit, à deux, restera notre meilleur souvenir.",
           image: {
             src: "/destination/seychelles/hero-1.png",
-            alt: "Portrait de Hélène et Thomas", // TODO: verify
+            alt: "Plage de granit rose et eau turquoise à Anse Source d'Argent, La Digue, Seychelles",
           },
           name: "Hélène & Thomas", // TODO: verify
           role: "Voyage en couple, mai 2025", // TODO: verify
@@ -504,7 +504,7 @@ export const destination: Destination = {
             "Avec deux enfants, on redoutait la logistique. Tout était fluide, et l'éclosion des tortues les a marqués pour de bon. On a vu des choses qu'on n'aurait jamais trouvées seuls.",
           image: {
             src: "/destination/seychelles/hero-2.png",
-            alt: "Portrait de la famille Rivière", // TODO: verify
+            alt: "Forêt de cocotiers de la Vallée de Mai sur l'île de Praslin",
           },
           name: "Famille Rivière", // TODO: verify
           role: "Séjour en famille, octobre 2025", // TODO: verify
@@ -515,7 +515,7 @@ export const destination: Destination = {
             "Ce qui m'a marquée, c'est la qualité de l'accompagnement. Un seul interlocuteur, du premier appel au retour. La journée sur Curieuse, avant les groupes, valait le voyage à elle seule.",
           image: {
             src: "/destination/seychelles/hero-3.png",
-            alt: "Portrait de Nathalie", // TODO: verify
+            alt: "Lagon turquoise et blocs de granit vus du ciel aux Seychelles",
           },
           name: "Nathalie", // TODO: verify
           role: "Escapade nature, avril 2025", // TODO: verify

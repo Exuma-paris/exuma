@@ -26,7 +26,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Émirats arabes unis : Voyage sur mesure",
   metaDescription:
-    "Voyage aux Émirats arabes unis sur mesure : Rub al-Khali, Abu Dhabi, Sharjah. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage aux Émirats arabes unis sur mesure : Rub al-Khali, Abu Dhabi, Sharjah. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -99,7 +99,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/emirats-arabes-unis/split-1.webp",
-          alt: "Cour intérieure d'une maison de marchand perlier à Sharjah",
+          alt: "Porte en bois clouté d'une maison ancienne du vieux Sharjah",
         },
         {
           src: "/destination/emirats-arabes-unis/split-2.webp",
@@ -113,19 +113,19 @@ export const destination: Destination = {
       duo: {
         left: {
           src: "/destination/emirats-arabes-unis/xp-louvre-abu-dhabi-1.webp",
-          alt: "Dôme ajouré du Louvre Abu Dhabi vu depuis les bassins",
+          alt: "Le Louvre Abu Dhabi et sa coupole posés sur l'eau, île de Saadiyat",
         },
         right: {
           src: "/destination/emirats-arabes-unis/xp-louvre-abu-dhabi-2.webp",
-          alt: "Galerie déserte du Louvre Abu Dhabi avant l'ouverture",
+          alt: "Sous la coupole du Louvre Abu Dhabi, les bassins et la pluie de lumière",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Le Louvre Abu Dhabi, ouvert pour vous avant le public",
+        heading: "Le Louvre Abu Dhabi en visite privée, au calme du matin",
         columns: [
-          "Nous vous conduisons au Louvre Abu Dhabi avant l'ouverture, quand les galeries sont encore vides. Sous la coupole de Jean Nouvel, la lumière traverse les étoiles d'aluminium et se pose au sol en une pluie de taches claires qui se déplace toute la matinée. Le musée est à vous, et l'on entend ses propres pas sur la pierre.",
-          "Un conservateur vous accompagne et suit le fil d'une idée plutôt que l'ordre des salles. Les collections mêlent les civilisations par époques, si bien qu'un bouddha, une Torah manuscrite et un Van Gogh se répondent dans la même galerie. On ressort au moment où les portes s'ouvrent, avec la sensation d'avoir eu le lieu pour soi.",
+          "Nous vous conduisons au Louvre Abu Dhabi dès l'ouverture, quand les galeries sont encore calmes. Sous la coupole de Jean Nouvel, la lumière traverse les étoiles d'aluminium et se pose au sol en une pluie de taches claires qui se déplace toute la matinée. Les groupes ne sont pas encore là, et l'on entend ses propres pas sur la pierre.",
+          "Un conservateur vous accompagne et suit le fil d'une idée plutôt que l'ordre des salles. Les collections mêlent les civilisations par époques, si bien qu'un bouddha, une Torah manuscrite et un Van Gogh se répondent dans la même galerie. On ressort quand les groupes arrivent, avec la sensation d'avoir eu le lieu pour soi.",
         ],
       },
     },
@@ -169,49 +169,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez environ 7 heures en vol direct depuis Paris vers Dubaï ou Abu Dhabi. Les deux villes sont reliées entre elles par une autoroute directe.",
+            "Environ 7 heures en vol direct depuis Paris vers Dubaï ou Abu Dhabi. Les deux villes sont reliées par une autoroute directe.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Les Émirats restent à UTC+4 toute l'année, sans changement d'heure. Ils ont donc deux heures d'avance sur la France métropolitaine en été et trois heures en hiver.",
+            "UTC+4 toute l'année, sans changement d'heure : deux heures d'avance sur la France en été, trois en hiver.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dirham des Émirats (AED), dont la parité avec le dollar est fixe. Les cartes sont très largement acceptées, mais il est utile de conserver un peu d'espèces pour les souks et les taxis.",
+            "Le dirham (AED), à parité fixe avec le dollar. Les cartes sont très largement acceptées ; gardez un peu d'espèces pour souks et taxis.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français sont dispensés de visa pour un court séjour. Le passeport doit en revanche être valable au moins six mois à la date d'entrée aux Émirats.",
+            "Pas de visa pour un court séjour. Le passeport doit être valable au moins six mois à la date d'entrée aux Émirats.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin n'est exigé à l'entrée pour un voyageur venant de France. L'Institut Pasteur recommande d'être à jour du calendrier vaccinal et d'y ajouter l'hépatite A, d'autres vaccinations pouvant se justifier selon la durée et les conditions du séjour.",
+            "Aucun vaccin exigé depuis la France. Calendrier vaccinal à jour et hépatite A recommandés par l'Institut Pasteur.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Nous privilégions les mois de novembre à mars, aux journées douces et aux nuits fraîches dans le désert. Avril et octobre sont également agréables. Le cœur de l'été est très chaud, surtout sur la côte où l'humidité est forte.",
+            "De novembre à mars, aux journées douces et aux nuits fraîches dans le désert. Avril et octobre restent agréables, l'été très chaud.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'arabe est la langue officielle du pays. L'anglais y est pratiqué de façon très courante, dans les hôtels comme dans les commerces et les taxis.",
+            "L'arabe est la langue officielle. L'anglais est très courant, dans les hôtels comme dans les commerces et les taxis.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est désertique, avec des hivers doux et secs et des étés très chauds. La côte du Golfe est plus humide, tandis que l'intérieur et les monts Hajar connaissent des nuits nettement plus fraîches. Les pluies sont rares et se concentrent en hiver.",
+            "Désertique, avec des hivers doux et secs et des étés très chauds. La côte du Golfe est plus humide, les pluies rares et hivernales.",
         },
       ],
     },
@@ -233,7 +233,7 @@ export const destination: Destination = {
             "Carte d'un itinéraire sur mesure aux Émirats arabes unis",
             "Dîner dressé sur les tapis dans le désert à la nuit tombée",
             "Lodge de désert vu du ciel, niché entre les dunes",
-            "Concierge coordonnant un transfert privé entre Dubaï et Abu Dhabi",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Fauconnier émirien et son faucon au bord des dunes",
           ][i],
         },
@@ -391,7 +391,7 @@ export const destination: Destination = {
               <h4 className="font-medium">Avec Exuma :</h4>
               <p>
                 Nous prévoyons deux nuits sur place et nous vous faisons entrer
-                au musée avant l'ouverture, accompagné d'un conservateur. Le
+                au musée dès l'ouverture, en visite privée avec un guide conférencier. Le
                 reste se découvre en voiture avec chauffeur, sans horaires à
                 tenir.
               </p>
@@ -537,7 +537,7 @@ export const destination: Destination = {
             "Nous n'attendions pas grand-chose des Émirats, et c'est le désert qui a tout emporté. Les oryx qui passent devant la terrasse au petit matin, puis le musée d'Abu Dhabi que nous avons eu pour nous seuls. Rien ne se croisait, rien n'attendait.",
           image: {
             src: "/destination/emirats-arabes-unis/hero-1.webp",
-            alt: "Portrait de Frédéric", // TODO: verify
+            alt: "Coupole et minaret de la grande mosquée Cheikh Zayed d'Abu Dhabi au-dessus des bassins",
           },
           name: "Frédéric", // TODO: verify
           role: "Séjour en couple, février 2026", // TODO: verify
@@ -548,7 +548,7 @@ export const destination: Destination = {
             "La nuit à Liwa restera notre plus beau souvenir. La tente dressée pour nous seuls, le dîner sur le sable et ce ciel dont on ne voit jamais autant d'étoiles. Notre travel designer nous avait conseillé une veste, nous avons eu tort d'en douter.",
           image: {
             src: "/destination/emirats-arabes-unis/hero-2.webp",
-            alt: "Portrait d'Édouard", // TODO: verify
+            alt: "Tours de Dubaï et Burj Khalifa dans la lumière du matin",
           },
           name: "Édouard", // TODO: verify
           role: "Voyage anniversaire, janvier 2026", // TODO: verify
@@ -559,7 +559,7 @@ export const destination: Destination = {
             "Sharjah était l'étape dont je me passais volontiers, et c'est celle dont je parle encore. Les cours plantées, le dîner à l'ombre, le musée sous son dôme. Le contraste avec Dubaï fait tout le charme du séjour.",
           image: {
             src: "/destination/emirats-arabes-unis/hero-3.webp",
-            alt: "Portrait de Constance", // TODO: verify
+            alt: "Montagnes du Hajar plongeant dans la mer au nord des Émirats",
           },
           name: "Constance", // TODO: verify
           role: "Voyage en famille, décembre 2025", // TODO: verify

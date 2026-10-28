@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Égypte : Voyage sur mesure",
   metaDescription:
-    "Voyage en Égypte sur mesure : Louxor, Assouan, Vallée des Rois et oasis de Siwa. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage en Égypte sur mesure : Louxor, Assouan, Vallée des Rois et oasis de Siwa. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -173,49 +173,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Quatre heures trente en vol direct Paris-Le Caire, plusieurs départs quotidiens. Louxor et Assouan se rejoignent ensuite en une heure de vol intérieur. Marsa Alam et Hurghada sont également desservis en direct depuis Paris en saison.", // TODO: verify les liaisons directes Marsa Alam et Hurghada
+            "Quatre heures trente en vol direct Paris-Le Caire, plusieurs départs par jour. Louxor et Assouan sont ensuite à une heure de vol intérieur.", // TODO: verify les liaisons directes Marsa Alam et Hurghada
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Quand il est 16 h à Paris, il est 17 h au Caire. L'Égypte a rétabli l'heure d'été en 2023, si bien que cette heure d'écart reste la même toute l'année, hiver comme été.", // TODO: verify le rétablissement de l'heure d'été en 2023
+            "Une heure d'avance sur Paris toute l'année, hiver comme été : l'Égypte a rétabli l'heure d'été en 2023.", // TODO: verify le rétablissement de l'heure d'été en 2023
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La livre égyptienne (EGP) s'échange autour de 55 pour un euro depuis la dévaluation de mars 2024. Les hôtels facturent souvent en euros ou en dollars. Les pourboires, systématiques, se règlent en espèces et en monnaie locale.", // TODO: verify la date de la dévaluation
+            "La livre égyptienne (EGP), autour de 55 pour un euro depuis la dévaluation de mars 2024. Pourboires systématiques, en espèces locales.", // TODO: verify la date de la dévaluation
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Le visa touristique est entièrement électronique. La demande se fait en ligne sur le portail officiel avant le départ, et le visa arrive sous forme de QR code à présenter à l'arrivée. Il couvre un séjour de trente jours. Le passeport doit rester valide six mois après la date de retour.",
+            "Visa touristique électronique à demander en ligne avant le départ, valable trente jours. Passeport valide six mois après la date de retour.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "TODO: Aucune vaccination n'est obligatoire, sauf la fièvre jaune en cas d'arrivée depuis un pays endémique. Les vaccins hépatite A et typhoïde sont recommandés. L'eau du robinet ne se boit pas, y compris pour le brossage des dents.",
+            "Aucun vaccin obligatoire, sauf fièvre jaune depuis un pays endémique ; hépatite A et typhoïde recommandées. L'eau du robinet ne se boit pas.", // TODO: à vérifier
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "TODO: D'octobre à avril, avec un pic de confort en novembre et en mars. De mai à septembre, la Haute-Égypte dépasse régulièrement 42 °C et les visites se limitent aux premières heures du jour. Le Caire reste praticable toute l'année.",
+            "D'octobre à avril, avec un pic de confort en novembre et en mars. De mai à septembre, la Haute-Égypte dépasse souvent 42 °C.", // TODO: à vérifier
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "TODO: L'arabe égyptien est la langue du quotidien, l'arabe littéral celle de l'écrit. L'anglais est parlé dans les hôtels et sur les sites. Les guides francophones sont nombreux et diplômés d'égyptologie.",
+            "L'arabe égyptien au quotidien, l'anglais dans les hôtels et sur les sites. Les guides francophones, diplômés d'égyptologie, sont nombreux.", // TODO: à vérifier
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "TODO: Désertique et sec presque partout. Le Caire oscille entre 20 °C en janvier et 35 °C en juillet. Assouan monte de dix degrés au-dessus. Il ne pleut quasiment jamais au sud du Caire, et les nuits du désert descendent près de zéro en janvier.",
+            "Désertique et sec. Le Caire oscille entre 20 °C en janvier et 35 °C en juillet, et il ne pleut quasiment jamais au sud du Caire.", // TODO: à vérifier
         },
       ],
     },
@@ -574,10 +574,10 @@ export const destination: Destination = {
             "Notre guide avait passé quatre saisons sur un chantier de fouilles à Deir el-Bahari. Il ne commentait pas les monuments : il les rattachait à ce qu'on venait de sortir du sable, et à ce que les gens du village en font aujourd'hui. La qualité du guide a plus compté que tout le reste du programme.",
           image: {
             src: "/destination/egypte/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Felouques sur le Nil à Assouan en fin de journée, voyage en Égypte"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Le Caire, Louxor et Assouan, novembre 2025", // TODO: replace with real testimonial
+          role: "Le Caire, Louxor et Assouan, novembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -585,10 +585,10 @@ export const destination: Destination = {
             "On nous avait imposé un ordre : Karnak d'abord, la rive ouest seulement deux jours plus tard. Sur le moment nous n'avons pas compris pourquoi. Dans la Vallée des Rois, c'est devenu évident. On voyait ce que les mêmes équipes avaient fait sous terre, là où plus personne ne les regardait.",
           image: {
             src: "/destination/egypte/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Colonnes de la salle hypostyle de Karnak à contre-jour, Louxor"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Voyage de transmission, mars 2025", // TODO: replace with real testimonial
+          role: "Voyage de transmission, mars 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -596,10 +596,10 @@ export const destination: Destination = {
             "Nous avions demandé une catégorie d'hôtel, on nous a répondu emplacement. Al Moudira se tient sur la rive ouest, à l'écart des quais : nous étions aux tombes en quinze minutes quand les autres traversaient encore le fleuve. C'est ça qui a fait le séjour, pas les équipements de la chambre.",
           image: {
             src: "/destination/egypte/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Baigneuse flottant sur le dos dans un lac salé turquoise de l'oasis de Siwa, Égypte"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Louxor rive ouest et dahabieh, février 2025", // TODO: replace with real testimonial
+          role: "Louxor rive ouest et dahabieh, février 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

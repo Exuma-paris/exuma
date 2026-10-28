@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Irlande : Voyage sur mesure",
   metaDescription:
-    "Voyage en Irlande sur mesure : Dublin, le Connemara, le Kerry et la côte du Cork. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en Irlande sur mesure : Dublin, le Connemara, le Kerry et la côte du Cork. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -168,25 +168,25 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Une heure cinquante entre Paris et Dublin, avec plusieurs départs par jour. Cork et Shannon sont desservis en direct depuis Paris une partie de l'année, ce qui permet d'entrer par l'ouest et de repartir par l'est sans refaire le trajet en sens inverse.",
+            "Une heure cinquante entre Paris et Dublin, plusieurs départs par jour. Cork et Shannon sont desservis en direct une partie de l'année.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Une heure de moins qu'en France, toute l'année. Quand il est 16 h à Paris, il est 15 h à Dublin. Le changement d'heure se fait aux mêmes dates qu'en France.",
+            "Une heure de moins qu'en France, toute l'année. Le changement d'heure se fait aux mêmes dates qu'en France.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "L'euro en république d'Irlande, sans frais de change. La livre sterling s'applique dès que l'on passe en Irlande du Nord. La carte bancaire est acceptée partout, jusque dans les pubs de village.",
+            "L'euro en république d'Irlande, la livre sterling en Irlande du Nord. La carte bancaire est acceptée partout, jusque dans les pubs.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Aucun visa pour les ressortissants français. L'Irlande appartient à l'Union européenne mais pas à l'espace Schengen : une pièce d'identité en cours de validité est contrôlée à l'arrivée.",
+            "Pas de visa. L'Irlande est dans l'Union européenne mais hors Schengen : une pièce d'identité valide est contrôlée à l'arrivée.",
         },
         {
           iconName: "syringe",
@@ -198,19 +198,19 @@ export const destination: Destination = {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mai à septembre. En juin, il fait encore jour à vingt-deux heures trente dans l'ouest. Mai et septembre laissent les routes calmes ; juillet et août concentrent les vacances scolaires irlandaises et britanniques.",
+            "De mai à septembre. Mai et septembre laissent les routes calmes ; juillet et août concentrent les vacances scolaires.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais partout. L'irlandais reste la langue courante dans les Gaeltachtaí de la côte ouest, où les panneaux ne sont pas traduits : Dingle s'y écrit An Daingean.",
+            "L'anglais partout. L'irlandais reste courant dans les Gaeltachtaí de la côte ouest, où les panneaux ne sont pas traduits.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Climat océanique, sans excès. Dublin tourne autour de 6 °C en janvier et de 19 °C l'après-midi en juillet, et il ne gèle presque jamais sur la côte. La pluie arrive par l'ouest, passe vite et laisse derrière elle une lumière très basse.",
+            "Océanique, sans excès : autour de 6 °C en janvier et 19 °C en juillet à Dublin. La pluie arrive par l'ouest et passe vite.",
         },
       ],
     },
@@ -562,10 +562,10 @@ export const destination: Destination = {
             "Nous avons longé les falaises de Moher par la mer, à hauteur des oiseaux, avec un ciel parfaitement dégagé. L'hélicoptère s'est ensuite posé sur une plage où l'on n'arrive pas autrement, et le déjeuner nous attendait sous une tente montée le matin.",
           image: {
             src: "/destination/irlande/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Falaises de Moher battues par l'Atlantique au petit matin, voyage en Irlande"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Clare et Connemara, juin 2025", // TODO: replace with real testimonial
+          role: "Clare et Connemara, juin 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -573,10 +573,10 @@ export const destination: Destination = {
             "Le faucon est parti dans les arbres et il est revenu se poser sur mon gant. Mon fils de onze ans en parle encore. Nous étions sortis du château à huit heures du matin, il n'y avait personne d'autre dans les bois.",
           image: {
             src: "/destination/irlande/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Moutons au coucher du soleil sur les lacs du Connemara"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Ashford Castle et le Connemara, août 2025", // TODO: replace with real testimonial
+          role: "Ashford Castle et le Connemara, août 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -584,10 +584,10 @@ export const destination: Destination = {
             "Nous avons goûté trois fûts uniques dans un chai que personne ne visite, avec le maître-distillateur pour seule compagnie. Il nous a expliqué pourquoi l'orge crue change tout. J'ai rapporté une bouteille tirée devant nous.",
           image: {
             src: "/destination/irlande/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Murets de pierre sèche et tourbières du Connemara sous un ciel changeant"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Cork et Ardmore, septembre 2025", // TODO: replace with real testimonial
+          role: "Cork et Ardmore, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

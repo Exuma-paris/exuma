@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "torres-paine-baqueanos",
   name: "À cheval avec les baqueanos du Paine",
   blurb:
-    "Les chevaux criollos attendent sellés devant l'estancia, dans un vent qui ne tombe jamais tout à fait. On traverse la pampa avec les baqueanos jusqu'au pied des tours, sur des terres fermées au public, et l'on rentre au feu de bois.",
+    "Les chevaux criollos attendent sellés devant l'estancia, dans un vent qui ne tombe jamais tout à fait. On traverse la pampa avec les baqueanos sur les terres privées de l'estancia, face au massif du Paine, et l'on rentre au feu de bois.",
   keywords: ["chili", "patagonie", "torres del paine", "estancia", "baqueanos"],
   heroImage: {
     src: "/destination/chili/xp-torres-paine-baqueanos.webp",

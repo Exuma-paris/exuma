@@ -24,7 +24,7 @@ export const destination: Destination = {
     "lapa",
   ],
   metaDescription:
-    "Voyage à Rio de Janeiro sur mesure : Copacabana, Ipanema, Santa Teresa, Corcovado à l'aube. Adresses confidentielles, accès samba à Mangueira, conciergerie 24/7.",
+    "Voyage à Rio de Janeiro sur mesure : Copacabana, Ipanema, Santa Teresa, Corcovado à l'aube. Adresses confidentielles, accès samba à Mangueira, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -590,8 +590,8 @@ export const destination: Destination = {
           quote:
             "Le Corcovado à six heures du matin avec notre guide naturaliste, c'est ce qui restera. Pas de file, pas de bus. Le silence et la baie qui apparaît en dessous.",
           image: {
-            src: "/destination/rio-de-janeiro/hero-1.png",
-            alt: "Portrait de voyageur (TODO)", // TODO: verify
+            src: "/destination/rio-de-janeiro/hero-1c.png",
+            alt: "Pain de Sucre et baie de Guanabara au lever du jour, Rio de Janeiro",
           },
           name: "TODO", // TODO: verify
           role: "Voyage en couple, août 2025", // TODO: verify
@@ -602,7 +602,7 @@ export const destination: Destination = {
             "L'atelier de samba à Mangueira a complètement changé notre voyage. On a passé deux heures avec un percussionniste qui enseigne aux enfants du quartier. Aucun spectacle n'aurait pu remplacer ça.",
           image: {
             src: "/destination/rio-de-janeiro/hero-2.png",
-            alt: "Portrait de voyageur (TODO)", // TODO: verify
+            alt: "Plage d'Ipanema et pic des Dois Irmãos au coucher du soleil",
           },
           name: "TODO", // TODO: verify
           role: "Voyage en famille, juillet 2025", // TODO: verify
@@ -613,7 +613,7 @@ export const destination: Destination = {
             "Stéphane nous a fait choisir le Hotel Santa Teresa plutôt que Copacabana. C'était la bonne décision. La vue sur la baie depuis la terrasse, le soir, et le tram jaune juste devant la porte.",
           image: {
             src: "/destination/rio-de-janeiro/hero-3.png",
-            alt: "Portrait de voyageur (TODO)", // TODO: verify
+            alt: "Tramway jaune dans les rues pavées de Santa Teresa, Rio",
           },
           name: "TODO", // TODO: verify
           role: "Anniversaire de mariage, octobre 2025", // TODO: verify

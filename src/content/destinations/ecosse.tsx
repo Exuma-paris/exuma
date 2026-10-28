@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Écosse : Voyage sur mesure",
   metaDescription:
-    "Voyage en Écosse sur mesure : Édimbourg, les Borders, les Highlands et l'île de Skye. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en Écosse sur mesure : Édimbourg, les Borders, les Highlands et l'île de Skye. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -164,25 +164,25 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Une heure cinquante entre Paris et Édimbourg, avec plusieurs départs par jour. Glasgow est également desservi en direct, ce qui permet d'entrer par l'est et de repartir par l'ouest sans refaire la route en sens inverse.", // TODO: verify la durée de vol et les liaisons directes depuis Paris
+            "Une heure cinquante entre Paris et Édimbourg, plusieurs départs par jour. Glasgow est également desservi en direct.", // TODO: verify la durée de vol et les liaisons directes depuis Paris
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Une heure de moins qu'en France, toute l'année. Quand il est 16 h à Paris, il est 15 h à Édimbourg. Le changement d'heure se fait aux mêmes dates qu'en France.",
+            "Une heure de moins qu'en France, toute l'année. Le changement d'heure se fait aux mêmes dates qu'en France.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La livre sterling. Trois banques écossaises impriment leurs propres billets, illustrés de ponts, de poètes et d'animaux du pays : ils circulent partout en Écosse et se gardent volontiers en souvenir. La carte bancaire passe jusque dans les pubs de village.",
+            "La livre sterling, dont les billets écossais circulent partout en Écosse. La carte bancaire passe jusque dans les pubs de village.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Aucun visa pour les ressortissants français. Le passeport suffit, accompagné d'une autorisation électronique de voyage, l'ETA, qui se demande en ligne en quelques minutes et couvre plusieurs séjours.", // TODO: verify le tarif et la durée de validité de l'ETA britannique
+            "Pas de visa pour les ressortissants français. Passeport obligatoire, avec l'autorisation électronique de voyage ETA, à demander en ligne.", // TODO: verify le tarif et la durée de validité de l'ETA britannique
         },
         {
           iconName: "syringe",
@@ -194,19 +194,19 @@ export const destination: Destination = {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De mai à septembre. Mai et juin offrent les journées les plus longues : il fait encore jour à vingt-deux heures trente à Édimbourg autour du solstice. En août, la bruyère met les collines au violet. Septembre garde une lumière très basse et des routes calmes.",
+            "De mai à septembre. Mai et juin offrent les journées les plus longues, août la bruyère en fleur, septembre des routes calmes.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais partout. Le scots s'entend encore dans les Borders et le nord-est. Le gaélique reste vivant dans les Hébrides : sur Skye et Harris, les panneaux sont bilingues et les noms de lieux décrivent le paysage.",
+            "L'anglais partout. Le gaélique reste vivant dans les Hébrides : sur Skye et Harris, les panneaux sont bilingues.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Climat océanique, sans excès de chaleur ni de froid : autour de 19 °C l'après-midi en juillet à Édimbourg, et il ne gèle presque jamais au bord de la mer. La côte est, celle d'Édimbourg et d'East Lothian, est la plus ensoleillée du pays.", // TODO: verify les moyennes de température
+            "Océanique, sans excès : autour de 19 °C l'après-midi en juillet à Édimbourg. La côte est, celle d'Édimbourg, est la plus ensoleillée.", // TODO: verify les moyennes de température
         },
       ],
     },
@@ -570,10 +570,10 @@ export const destination: Destination = {
             "Nous avons dormi trois nuits dans le train et nous nous sommes réveillés chaque matin devant un paysage différent. Le soir, on dînait à quai, quelque part dans les Highlands, avec les fenêtres ouvertes sur la vallée.",
           image: {
             src: "/destination/ecosse/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Les flèches de la vieille ville d'Édimbourg au-dessus des arbres d'automne, voyage en Écosse"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Highlands, juin 2026", // TODO: replace with real testimonial
+          role: "Highlands, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -581,10 +581,10 @@ export const destination: Destination = {
             "La visite de Floors s'est faite hors des horaires d'ouverture, il n'y avait personne d'autre dans les salons. On nous a montré le jardin clos, puis les légumes du soir sont arrivés de là.",
           image: {
             src: "/destination/ecosse/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Joueur de cornemuse en tenue de cérémonie devant un mur de pierre, Édimbourg"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Kelso et les Borders, mai 2026", // TODO: replace with real testimonial
+          role: "Kelso et les Borders, mai 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -592,10 +592,10 @@ export const destination: Destination = {
             "Six verres, et à la fin j'étais capable de dire ce que j'aimais et pourquoi. L'expert a passé une heure à nous expliquer ce que la tourbe et le fût changent. Je ne bois plus de whisky de la même façon.",
           image: {
             src: "/destination/ecosse/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Le château d'Édimbourg au-dessus des arbres d'automne des jardins de Princes Street"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Édimbourg, septembre 2025", // TODO: replace with real testimonial
+          role: "Édimbourg, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

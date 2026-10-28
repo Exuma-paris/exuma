@@ -169,50 +169,50 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Sainte-Lucie se rejoint généralement avec une correspondance. Par Londres, British Airways dessert l'aéroport international Hewanorra depuis Gatwick et Virgin Atlantic depuis Londres, pour environ 9 heures de vol. Par les Antilles françaises, Air France, Air Caraïbes et Corsair desservent Fort-de-France et Pointe-à-Pitre en direct depuis Paris, pour environ 8h30, l'île se rejoignant ensuite en avion régional ou par la mer. Comptez au total environ 12 à 15 heures de trajet depuis Paris, selon l'escale retenue.",
+            "Pas de vol direct : environ 12 à 15 heures de trajet, via Londres ou via Fort-de-France et Pointe-à-Pitre, puis vol régional ou bateau.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Sainte-Lucie ne change pas d'heure. Comptez six heures de retard sur la France en été et cinq heures en hiver : quand il est quatorze heures à Paris en juillet, il est huit heures à Castries.",
+            "Pas de changement d'heure : six heures de retard sur la France en été, cinq heures en hiver.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est le dollar des Caraïbes orientales, dont la valeur est arrimée au dollar américain. Ce dernier est largement accepté sur l'île, à un taux fixé par le commerçant. Les cartes bancaires passent très largement dans les hôtels, les restaurants et les boutiques, et il reste utile de garder un peu d'espèces pour les taxis, le marché et les petites tables de plage.",
+            "Dollar des Caraïbes orientales, arrimé au dollar américain, lui-même largement accepté. Gardez des espèces pour taxis, marché et plage.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           // TODO: verify la durée du séjour sans visa et les conditions de la déclaration en ligne
           description:
-            "Les ressortissants français sont dispensés de visa pour un séjour touristique à Sainte-Lucie, dans la limite de quarante-deux jours, soit six semaines. Les voyageurs arrivant par avion sont invités à remplir le formulaire d'immigration et de douane en ligne, jusqu'à trois jours avant le départ ou à l'arrivée : c'est la formalité que l'on oublie le plus souvent. Le passeport doit être valide pendant toute la durée du séjour. Les Français arrivant directement de France, de Martinique ou de Guadeloupe peuvent entrer avec une carte nationale d'identité en cours de validité, mais le passeport reste conseillé dès que l'itinéraire comporte une correspondance internationale. Si l'itinéraire passe par le Royaume-Uni, l'autorisation électronique ETA peut être requise et s'obtient en ligne avant le départ, les passagers restant en transit sans passer l'immigration pouvant en être dispensés. S'il transite par les États-Unis, l'autorisation ESTA est obligatoire, s'obtient également en ligne et reste généralement valable deux ans ou jusqu'à l'expiration du passeport.",
+            "Pas de visa jusqu'à 42 jours, passeport valide tout le séjour. Formulaire d'immigration en ligne, jusqu'à trois jours avant le départ.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Depuis la France, aucune vaccination spécifique n'est exigée pour un séjour touristique à Sainte-Lucie. Il est recommandé d'être à jour des vaccinations prévues au calendrier vaccinal français, l'Institut Pasteur recommandant par ailleurs l'hépatite A. Un certificat de vaccination contre la fièvre jaune peut être demandé aux voyageurs arrivant d'un pays où la maladie circule. La dengue et le chikungunya circulent dans les Antilles selon les années : une protection contre les moustiques reste la précaution la plus utile, en journée comme en fin d'après-midi.",
+            "Aucun vaccin exigé, hépatite A recommandée. Fièvre jaune si arrivée d'un pays à risque ; contre dengue et chikungunya, anti-moustiques.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "La saison la plus sèche s'étend de décembre à avril, avec un alizé régulier et peu de pluie. Nous privilégions février à avril, quand la mer est belle sur la côte ouest et que la forêt garde encore sa fraîcheur. Mai reste intéressant, avec moins de monde sur l'île, mais il marque la transition vers la saison humide. Celle-ci s'accompagne de la saison cyclonique, de juin à novembre, avec un cœur d'activité en août, septembre et octobre.",
+            "Saison sèche de décembre à avril ; nous privilégions février à avril. Cyclones de juin à novembre, surtout d'août à octobre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'anglais est la langue officielle et celle de l'administration. Le kwéyòl, créole à base lexicale française, se parle au quotidien dans une grande partie de l'île, en particulier dans les villages de la côte et de l'intérieur. Les noms de lieux gardent la trace des deux histoires, française et britannique.",
+            "L'anglais est la langue officielle. Le kwéyòl, créole à base française, se parle au quotidien dans une grande partie de l'île.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tropical et chaud toute l'année, avec des températures qui varient peu, généralement entre vingt-trois et trente et un degrés. L'alizé souffle presque en continu et rend la chaleur supportable, surtout sur la côte au vent. La période la plus humide s'étend de juin à novembre, sans qu'il s'agisse d'une pluie continue : les averses sont tropicales et brèves. L'intérieur montagneux reçoit davantage de pluie que les côtes, et c'est ce qui explique la densité de la forêt.",
+            "Tropical, entre 23 et 31 degrés toute l'année, tempéré par l'alizé. Plus humide de juin à novembre, avec des averses brèves.",
         },
       ],
     },
@@ -227,13 +227,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/sainte-lucie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/sainte-lucie/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure à Sainte-Lucie entre Soufrière, Marigot et la baie de Rodney",
-            "Adresses confidentielles à Sainte-Lucie : tables de chefs et plantations de cacao",
+            "Table de déjeuner sous les cacaoyers d’un domaine, face aux Pitons",
             "Hébergements à Sainte-Lucie : Jade Mountain, Sugar Beach et Ladera",
-            "Conciergerie privée 24/7 pour un séjour à Sainte-Lucie",
-            "Expériences à Sainte-Lucie : pirogue d'un pêcheur sous les Pitons et montée du Gros Piton",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Catamaran privé longeant les Pitons de Sainte-Lucie en fin de journée",
           ][i],
         },
       })),
@@ -254,8 +254,8 @@ export const destination: Destination = {
           description:
             "Le village est posé au fond d'une baie que ferment le Gros Piton et le Petit Piton, classés au patrimoine mondial. Les maisons de bois descendent jusqu'au quai, le marché ouvre tôt, et les deux montagnes changent de couleur à chaque heure de la journée.",
           image: {
-            src: "/destination/sainte-lucie/map-soufriere-pitons.png",
-            alt: "Le village de Soufrière au pied du Petit Piton à Sainte-Lucie",
+            src: "/destination/sainte-lucie/map-soufriere-pitons.webp",
+            alt: "Le village de Soufrière et sa baie vus des hauteurs, Sainte-Lucie",
           },
           // TODO: verify coords
           coordinates: { lat: 13.8566, lng: -61.0564 },
@@ -265,7 +265,7 @@ export const destination: Destination = {
           description:
             "Une langue de sable plantée de cocotiers referme presque entièrement la baie, si bien qu'on ne la devine pas depuis la route. Les voiliers viennent s'y abriter, l'eau y reste immobile, et les tables du bord se remplissent au coucher du soleil.",
           image: {
-            src: "/destination/sainte-lucie/map-marigot.png",
+            src: "/destination/sainte-lucie/map-marigot.webp",
             alt: "La baie de Marigot et ses voiliers abrités derrière la langue de sable",
           },
           // TODO: verify coords
@@ -276,8 +276,8 @@ export const destination: Destination = {
           description:
             "La plage est bordée de forêt et le récif commence à quelques mètres du rivage, ce qui en fait le plus beau spot de plongée de l'île. On y nage sans bateau, au-dessus des coraux, et l'on remonte déjeuner à l'ombre des grands arbres.",
           image: {
-            src: "/destination/sainte-lucie/map-anse-chastanet.png",
-            alt: "La plage de l'Anse Chastanet et sa forêt à Sainte-Lucie",
+            src: "/destination/sainte-lucie/map-anse-chastanet.webp",
+            alt: "Barque dans l’anse vue depuis une terrasse, près d’Anse Chastanet, Sainte-Lucie",
           },
           // TODO: verify coords
           coordinates: { lat: 13.8747, lng: -61.0714 },
@@ -287,7 +287,7 @@ export const destination: Destination = {
           description:
             "On entre en voiture dans le cratère du volcan, au milieu des fumerolles et des bassins qui bouillonnent. Un peu plus bas, les sources chaudes forment des bains où l'on s'enduit de boue grise avant de se rincer sous la cascade.",
           image: {
-            src: "/destination/sainte-lucie/map-sources-soufre.png",
+            src: "/destination/sainte-lucie/map-sources-soufre.webp",
             alt: "Fumerolles et bassins bouillonnants des sources de soufre de Soufrière",
           },
           // TODO: verify coords
@@ -298,8 +298,8 @@ export const destination: Destination = {
           description:
             "La capitale s'organise autour de son port et de son marché couvert, où l'on trouve les épices, le cacao et les paniers tressés. Au-dessus, les hauteurs du morne Fortune gardent les traces des batailles entre Français et Anglais, avec la vue sur toute la baie.",
           image: {
-            src: "/destination/sainte-lucie/map-castries.png",
-            alt: "Le marché couvert de Castries et son port à Sainte-Lucie",
+            src: "/destination/sainte-lucie/map-castries.webp",
+            alt: "Entrée du marché central de Castries, Sainte-Lucie",
           },
           // TODO: verify coords
           coordinates: { lat: 14.0101, lng: -60.9875 },
@@ -309,7 +309,7 @@ export const destination: Destination = {
           description:
             "L'ancienne île fortifiée est rattachée à la côte par une digue, et l'on monte à pied jusqu'aux ruines du fort. De là-haut, la baie de Rodney s'ouvre en entier, avec la Martinique qui se dessine au loin par temps clair.",
           image: {
-            src: "/destination/sainte-lucie/map-pigeon-island.png",
+            src: "/destination/sainte-lucie/map-pigeon-island.webp",
             alt: "Les ruines du fort de Pigeon Island au-dessus de la baie de Rodney",
           },
           // TODO: verify coords
@@ -551,10 +551,10 @@ export const destination: Destination = {
             "Nous avons fait la sortie en bateau devant les Pitons le premier soir, et nous l'avons refaite la veille du départ. Le skipper nous attendait chaque matin avec une idée différente.",
           image: {
             src: "/destination/sainte-lucie/hero-1.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton vus depuis la mer"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sainte-Lucie, mars 2026", // TODO: replace with real testimonial
+          role: "Sainte-Lucie, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -562,10 +562,10 @@ export const destination: Destination = {
             "Les enfants ont passé la semaine entre la plage et le récif, et ils sont rentrés avec les tablettes de chocolat qu'ils avaient fabriquées eux-mêmes. Nous n'avons eu à nous occuper de rien.",
           image: {
             src: "/destination/sainte-lucie/hero-2.png",
-            alt: "Portrait", // TODO: verify
+            alt: "La baie de Marigot et sa langue de sable plantée de cocotiers"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sainte-Lucie en famille, février 2026", // TODO: replace with real testimonial
+          role: "Sainte-Lucie en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
           // TODO: replace with real testimonial
@@ -573,10 +573,10 @@ export const destination: Destination = {
             "La montée du Gros Piton au lever du jour restera notre meilleur souvenir. Nous avons pris le petit déjeuner à Soufrière en redescendant, et la journée n'avait pas encore commencé pour les autres.",
           image: {
             src: "/destination/sainte-lucie/hero-3.png",
-            alt: "Portrait", // TODO: verify
+            alt: "Barques de pêche tirées sur le sable devant le village de Soufrière"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "TODO: Sainte-Lucie, avril 2026", // TODO: replace with real testimonial
+          role: "Sainte-Lucie, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },

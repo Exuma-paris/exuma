@@ -24,7 +24,7 @@ export const destination: Destination = {
   ],
   metaTitle: "République dominicaine : Voyage sur mesure",
   metaDescription:
-    "Voyage sur mesure en République dominicaine : Samaná, Punta Cana, Casa de Campo. Itinéraire écrit par votre travel designer Exuma, conciergerie privée 24/7.",
+    "Voyage sur mesure en République dominicaine : Samaná, Punta Cana, Casa de Campo. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -194,43 +194,43 @@ export const destination: Destination = {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "5 heures de moins en hiver et 6 heures de moins en été par rapport à la France. La République dominicaine reste à la même heure toute l'année.",
+            "5 heures de moins en hiver et 6 heures de moins en été par rapport à la France. Pas de changement d'heure sur place.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le peso dominicain (DOP) est la monnaie officielle. À titre indicatif, 1 € ≈ 65 DOP, selon le taux de change. Les dollars américains sont également largement acceptés dans les hôtels, resorts et zones touristiques.",
+            "Peso dominicain (DOP), environ 65 DOP pour 1 €. Le dollar américain est largement accepté dans les hôtels et zones touristiques.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français n'ont pas besoin de visa pour un séjour touristique jusqu'à 30 jours. Un passeport en cours de validité est nécessaire. Avant l'arrivée comme au départ, chaque voyageur doit remplir gratuitement le formulaire e-ticket en ligne et présenter le QR code obtenu.",
+            "Pas de visa jusqu'à 30 jours, passeport en cours de validité. Formulaire e-ticket gratuit à remplir en ligne à l'arrivée comme au départ.",
         },
         {
           iconName: "syringe",
           title: "Vaccins et santé",
           description:
-            "Aucun vaccin n'est obligatoire pour un séjour touristique depuis la France. Les vaccinations habituelles doivent être à jour. Une protection efficace contre les moustiques est recommandée ; le risque de paludisme existe toute l'année, notamment dans certaines provinces de l'ouest du pays.",
+            "Aucun vaccin obligatoire. Paludisme toute l'année dans certaines provinces de l'ouest : protection contre les moustiques recommandée.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De décembre à avril, la période est généralement la plus agréable pour voyager. À Samaná, les baleines à bosse sont présentes de janvier à mars. La saison cyclonique s'étend de juin à novembre, avec une activité généralement plus marquée entre août et octobre.",
+            "De décembre à avril, la période la plus agréable. Baleines à bosse à Samaná de janvier à mars, cyclones possibles de juin à novembre.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'espagnol est la langue officielle. L'anglais est courant dans les hôtels et les principales zones touristiques ; le français est également présent dans certains établissements.",
+            "L'espagnol est la langue officielle. L'anglais est courant dans les hôtels et zones touristiques, le français dans certains établissements.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Climat tropical toute l'année, avec des températures généralement comprises entre 25 et 32 °C. L'humidité et les précipitations sont plus importantes de mai à novembre, avec un risque de phénomènes cycloniques pendant cette période.",
+            "Tropical toute l'année, de 25 à 32 °C. Humidité, pluies et risque cyclonique plus marqués de mai à novembre.",
         },
       ],
     },
@@ -245,13 +245,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/republique-dominicaine/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/republique-dominicaine/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Carte d'itinéraire personnalisé pour un voyage en République dominicaine",
-            "Terrasse privée d'une villa isolée à La Romana",
+            "Terrasse fleurie et piscine d’une villa isolée face à la mer, près de La Romana",
             "Casita d'Amanera surplombant la côte atlantique",
-            "Concierge Exuma organisant un transfert privé à Punta Cana",
-            "Bateau glissant dans les mangroves du parc Los Haitises",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Barque glissant entre les mangroves du parc Los Haitises",
           ][i],
         },
       })),
@@ -272,8 +272,8 @@ export const destination: Destination = {
           description:
             "De janvier à mars, plusieurs milliers de baleines à bosse viennent y mettre bas. Le reste de l'année, la péninsule garde ses plages sans nom.",
           image: {
-            src: "/destination/republique-dominicaine/map-samana.png",
-            alt: "Péninsule de Samaná vue depuis la baie, République dominicaine",
+            src: "/destination/republique-dominicaine/map-samana.webp",
+            alt: "Plage et îlots reliés par une passerelle dans la baie de Samaná, République dominicaine",
           },
           // TODO: verify coords
           coordinates: { lat: 19.2085, lng: -69.3345 },
@@ -283,8 +283,8 @@ export const destination: Destination = {
           description:
             "Un parc qui ne se visite qu'en bateau, entre mangroves et grottes aux pictogrammes taïnos. Aucune route ne le traverse.",
           image: {
-            src: "/destination/republique-dominicaine/map-los-haitises.png",
-            alt: "Mangroves et dômes karstiques du parc national Los Haitises",
+            src: "/destination/republique-dominicaine/map-los-haitises.webp",
+            alt: "Dômes karstiques couverts de forêt du parc national Los Haitises",
           },
           // TODO: verify coords
           coordinates: { lat: 19.0667, lng: -69.6667 },
@@ -294,7 +294,7 @@ export const destination: Destination = {
           description:
             "Trente-deux kilomètres de plage continue sur la côte est. La densité y est réelle ; elle se contourne par les propriétés privées.",
           image: {
-            src: "/destination/republique-dominicaine/map-punta-cana.png",
+            src: "/destination/republique-dominicaine/map-punta-cana.webp",
             alt: "Plage de Punta Cana bordée de palmiers, République dominicaine",
           },
           coordinates: { lat: 18.5601, lng: -68.3725 },
@@ -304,7 +304,7 @@ export const destination: Destination = {
           description:
             "Un village d'artiste reconstitué dans les années 1970 au-dessus de la rivière Chavón. Casa de Campo occupe les terres alentour.",
           image: {
-            src: "/destination/republique-dominicaine/map-altos-de-chavon.png",
+            src: "/destination/republique-dominicaine/map-altos-de-chavon.webp",
             alt: "Village d'Altos de Chavón surplombant la rivière Chavón, La Romana",
           },
           coordinates: { lat: 18.4227, lng: -68.9068 },
@@ -314,8 +314,8 @@ export const destination: Destination = {
           description:
             "Playa Grande s'étend sur près d'un kilomètre sans une seule construction visible depuis le sable. Amanera occupe la falaise au-dessus.",
           image: {
-            src: "/destination/republique-dominicaine/map-rio-san-juan.png",
-            alt: "Falaise de Río San Juan surplombant Playa Grande, République dominicaine",
+            src: "/destination/republique-dominicaine/map-rio-san-juan.webp",
+            alt: "Plage et cocotiers près de Río San Juan, côte nord de la République dominicaine",
           },
           // TODO: verify coords
           coordinates: { lat: 19.6167, lng: -70.0167 },
@@ -325,7 +325,7 @@ export const destination: Destination = {
           description:
             "La Zona Colonial garde la première cathédrale et la première rue pavée du Nouveau Monde, fondées au début du XVIe siècle. Classée à l'UNESCO.",
           image: {
-            src: "/destination/republique-dominicaine/map-santo-domingo.png",
+            src: "/destination/republique-dominicaine/map-santo-domingo.webp",
             alt: "Rue pavée de la Zona Colonial à Santo Domingo, République dominicaine",
           },
           coordinates: { lat: 18.4747, lng: -69.8927 },
@@ -572,7 +572,7 @@ export const destination: Destination = {
             "Nous ne connaissions que Punta Cana par ouïe-dire. Carole nous a fait remonter jusqu'à Samaná pour les baleines, puis redescendre vers Casa de Campo : deux voyages en un, sans une seule journée de trop.",
           image: {
             src: "/destination/republique-dominicaine/hero-1.png",
-            alt: "Portrait de Isabelle et Thomas", // TODO: verify
+            alt: "Plage de sable blanc bordée de cocotiers à Punta Cana, République dominicaine",
           },
           name: "Isabelle & Thomas", // TODO: verify
           role: "Séjour en famille, février 2026", // TODO: verify
@@ -583,7 +583,7 @@ export const destination: Destination = {
             "Le survol en hélicoptère entre Samaná et Punta Cana restera le moment fort du voyage. On a vu l'île entière basculer d'une mer à l'autre en moins d'une heure.",
           image: {
             src: "/destination/republique-dominicaine/hero-2.png",
-            alt: "Portrait de Frédéric", // TODO: verify
+            alt: "Baleine à bosse dans la baie de Samaná, République dominicaine",
           },
           name: "Frédéric", // TODO: verify
           role: "Voyage entre amis, mars 2026", // TODO: verify
@@ -594,7 +594,7 @@ export const destination: Destination = {
             "Ce qui m'a marquée, c'est l'Hacienda Elvesia : une plantation de cacao familiale, loin des circuits organisés. Nos enfants n'ont plus regardé une tablette de chocolat de la même façon.",
           image: {
             src: "/destination/republique-dominicaine/hero-3.png",
-            alt: "Portrait de Constance", // TODO: verify
+            alt: "Villa privée face à l'océan à Casa de Campo, La Romana",
           },
           name: "Constance", // TODO: verify
           role: "Voyage en famille, janvier 2026", // TODO: verify

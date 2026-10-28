@@ -575,7 +575,7 @@ export const destination: Destination = {
             "Notre voyage en Polynésie avec Exuma a été un rêve éveillé. Chaque détail était pensé, chaque île une découverte. Le bungalow sur pilotis à Bora Bora restera gravé dans nos mémoires.",
           image: {
             src: "/destination/polynesie/hero-1.png",
-            alt: "Portrait de Sophie et Marc", // TODO: verify
+            alt: "Plage de sable blanc bordée de cocotiers",
           },
           name: "Sophie & Marc", // TODO: verify
           role: "Voyage de noces, octobre 2025", // TODO: verify
@@ -586,7 +586,7 @@ export const destination: Destination = {
             "Grâce à notre travel designer, nous avons découvert des endroits que nous n'aurions jamais trouvés seuls. La plongée à Fakarava, le dîner sur le motu… des moments magiques.",
           image: {
             src: "/destination/polynesie/hero-2.png",
-            alt: "Portrait de Laurent", // TODO: verify
+            alt: "Bungalows sur pilotis face au mont Otemanu à Bora Bora",
           },
           name: "Laurent", // TODO: verify
           role: "Séjour en famille, août 2025", // TODO: verify
@@ -597,7 +597,7 @@ export const destination: Destination = {
             "Ce qui m'a le plus marquée, c'est la qualité de l'accompagnement. Tout était fluide, du premier appel jusqu'au retour. On se sent véritablement pris en charge.",
           image: {
             src: "/destination/polynesie/hero-3.png",
-            alt: "Portrait de Claire", // TODO: verify
+            alt: "Lagon de Fakarava vu du ciel, archipel des Tuamotu",
           },
           name: "Claire", // TODO: verify
           role: "Escapade solo, mai 2025", // TODO: verify

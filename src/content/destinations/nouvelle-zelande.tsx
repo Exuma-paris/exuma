@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Nouvelle-Zélande : Voyage sur mesure",
   metaDescription:
-    "Voyage en Nouvelle-Zélande sur mesure : fjords du Fiordland, Alpes du Sud, Baie des Îles. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en Nouvelle-Zélande sur mesure : fjords du Fiordland, Alpes du Sud, Baie des Îles. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -168,49 +168,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Aucun vol direct depuis Paris. Comptez vingt-cinq à trente heures de trajet avec une escale, notamment via Singapour, Dubaï ou Los Angeles. Les itinéraires les plus rapides tournent autour de vingt-cinq heures, selon la correspondance.",
+            "Aucun vol direct depuis Paris. Comptez vingt-cinq à trente heures avec une escale, notamment via Singapour, Dubaï ou Los Angeles.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Onze heures d'avance sur Paris pendant l'heure d'été française, douze heures pendant l'heure d'hiver. La Nouvelle-Zélande passe à l'heure d'été de fin septembre à début avril, ce qui explique ce décalage variable au fil de l'année.",
+            "Onze heures d'avance sur Paris pendant l'heure d'été française, douze pendant l'heure d'hiver. L'écart varie au fil de l'année.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar néo-zélandais (NZD). Le taux évolue quotidiennement : comptez environ 1,9 à 2 NZD pour un euro à titre indicatif. Les cartes bancaires sont largement acceptées, même si quelques adresses très isolées préfèrent encore les espèces.",
+            "Dollar néo-zélandais (NZD), environ 1,9 à 2 NZD pour un euro. Cartes largement acceptées, espèces utiles dans quelques adresses isolées.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Les ressortissants français n'ont pas besoin de visa pour un séjour touristique de moins de quatre-vingt-dix jours, mais doivent obtenir une NZeTA avant le départ. L'International Visitor Conservation and Tourism Levy, actuellement de 100 NZD, se règle lors de la même demande. La NZeTA reste valable deux ans et permet plusieurs voyages.",
+            "Pas de visa sous quatre-vingt-dix jours, mais une NZeTA avant le départ, valable deux ans, avec une taxe touristique de 100 NZD.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin spécifique n'est exigé pour un voyageur venant de France. Il est recommandé d'être à jour du calendrier vaccinal français : diphtérie, tétanos, poliomyélite, coqueluche et rougeole.",
+            "Aucun vaccin exigé depuis la France. Calendrier vaccinal à jour recommandé : diphtérie, tétanos, poliomyélite, coqueluche, rougeole.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De décembre à février pour l'été austral, températures agréables et activités de plein air. De juin à août pour le ski dans les Alpes du Sud, autour de Queenstown et Wānaka. De mars à mai, un bon compromis entre nature, randonnée et fréquentation plus modérée.",
+            "Décembre à février pour l'été austral et le plein air, juin à août pour le ski autour de Queenstown, mars à mai pour un bon compromis.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Trois langues officielles : l'anglais, le te reo māori et la langue des signes néo-zélandaise. Le te reo māori a obtenu ce statut en 1987, la langue des signes néo-zélandaise en 2006.",
+            "Trois langues officielles : l'anglais, le te reo māori depuis 1987 et la langue des signes néo-zélandaise depuis 2006.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Climat tempéré océanique, plus subtropical à l'extrême nord et nettement plus alpin au sud. La Baie des Îles reste douce toute l'année ; Queenstown et les Alpes du Sud connaissent des hivers froids et enneigés. Le temps peut changer rapidement en montagne, au cours d'une même journée.",
+            "Tempéré océanique, subtropical au nord, alpin au sud où les hivers sont froids et enneigés. En montagne, le temps change vite.",
         },
       ],
     },
@@ -225,13 +225,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/nouvelle-zelande/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/nouvelle-zelande/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Nouvelle-Zélande entre les deux îles",
-            "Adresses confidentielles en Nouvelle-Zélande : tables et lodges hors des sentiers battus",
-            "Hébergements en Nouvelle-Zélande : lodges du Fiordland et villas de la Baie des Îles",
-            "Conciergerie privée 24/7 pour un voyage en Nouvelle-Zélande",
-            "Expériences en Nouvelle-Zélande : hélicoptère sur les Alpes du Sud et grottes de Waitomo",
+            "Table pour deux sur la terrasse d’un lodge, face à un lac du Sud de la Nouvelle-Zélande",
+            "Lodge de bois et de pierre éclairé au crépuscule dans la forêt du Fiordland",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Hélicoptère posé sur un névé des Alpes du Sud, deux voyageurs face aux glaciers",
           ][i],
         },
       })),
@@ -252,7 +252,7 @@ export const destination: Destination = {
           description:
             "Le fjord le plus célèbre du pays, encadré par les parois du Mitre Peak. L'une des régions les plus arrosées du monde, ce qui donne au Fiordland ses cascades permanentes et son eau à double densité.",
           image: {
-            src: "/destination/nouvelle-zelande/map-milford-sound.png",
+            src: "/destination/nouvelle-zelande/map-milford-sound.webp",
             alt: "Fjord de Milford Sound encadré par les falaises du Fiordland",
           },
           // TODO: verify coords
@@ -263,7 +263,7 @@ export const destination: Destination = {
           description:
             "La base du Fiordland et des Alpes du Sud, posée sur un lac en forme d'éclair au pied des Remarkables. Point de départ des vols hélicoptère et des routes vers Glenorchy.",
           image: {
-            src: "/destination/nouvelle-zelande/map-queenstown.png",
+            src: "/destination/nouvelle-zelande/map-queenstown.webp",
             alt: "Lac Wakatipu et chaîne des Remarkables, près de Queenstown",
           },
           // TODO: verify coords
@@ -274,7 +274,7 @@ export const destination: Destination = {
           description:
             "Le plus haut sommet du pays, trois mille sept cents mètres environ, entouré de dix-neuf autres sommets de plus de trois mille mètres. Les glaciers Tasman et Hooker descendent à ses pieds.", // TODO: verify altitude
           image: {
-            src: "/destination/nouvelle-zelande/map-aoraki.png",
+            src: "/destination/nouvelle-zelande/map-aoraki.webp",
             alt: "Sommet d'Aoraki / Mont Cook et ses glaciers, sur l'île du Sud",
           },
           // TODO: verify coords
@@ -285,8 +285,8 @@ export const destination: Destination = {
           description:
             "Un réseau de grottes calcaires sur l'île du Nord, connu pour ses milliers de vers luisants qui transforment le plafond en voie lactée immobile, visible depuis une barque silencieuse.",
           image: {
-            src: "/destination/nouvelle-zelande/map-waitomo.png",
-            alt: "Grotte de vers luisants de Waitomo, sur l'île du Nord",
+            src: "/destination/nouvelle-zelande/map-waitomo.webp",
+            alt: "Barque glissant sous les vers luisants d’une grotte de Waitomo, sur l’île du Nord",
           },
           // TODO: verify coords
           coordinates: { lat: -38.261, lng: 175.1046 },
@@ -296,7 +296,7 @@ export const destination: Destination = {
           description:
             "Capitale géothermique du pays et cœur culturel māori. Geysers, lacs bouillonnants, marae vivants : la terre y fume littéralement, et l'accueil māori se transmet depuis des générations.",
           image: {
-            src: "/destination/nouvelle-zelande/map-rotorua.png",
+            src: "/destination/nouvelle-zelande/map-rotorua.webp",
             alt: "Geysers et sources géothermiques de Rotorua, sur l'île du Nord",
           },
           // TODO: verify coords
@@ -307,7 +307,7 @@ export const destination: Destination = {
           description:
             "Cent quarante-quatre îlots au nord-est de l'île du Nord, berceau de la nation néo-zélandaise et terrain de jeu pour la voile, la pêche au gros et les dauphins.",
           image: {
-            src: "/destination/nouvelle-zelande/map-baie-des-iles.png",
+            src: "/destination/nouvelle-zelande/map-baie-des-iles.webp",
             alt: "Îlots de la Baie des Îles vus depuis un voilier",
           },
           // TODO: verify coords

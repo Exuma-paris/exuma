@@ -14,8 +14,8 @@ export const accommodation: Accommodation = {
     "snorkeling",
   ],
   heroImage: {
-    src: "/destination/los-cabos/hotel-chileno-bay.png",
-    alt: "Chileno Bay Resort sur la baie de Chileno, corridor de Los Cabos",
+    src: "/destination/los-cabos/hotel-chileno-bay.webp",
+    alt: "Suite ouverte sur la terrasse et la mer de Cortez à Chileno Bay, Los Cabos",
   },
   destinationSlugs: ["los-cabos"],
   sections: [],

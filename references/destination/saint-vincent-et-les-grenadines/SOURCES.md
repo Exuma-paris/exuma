@@ -30,3 +30,12 @@ Each generated image in `public/destination/saint-vincent-et-les-grenadines/` wa
 | `map-saint-vincent.png`            | `map-saint-vincent-ref.jpg`              | TODO       | TODO    |
 
 Note : la Cotton House réutilise `/destination/caraibes/hotel-cotton-house.png`, déjà produite pour la page Caraïbes. Aucune nouvelle image n'est nécessaire pour cet hébergement.
+| `map-mustique.webp` | Wikimedia Commons : File:Britannia Bay, Mustique - panoramio.jpg | CC BY 3.0 |
+| `map-bequia.webp` | Wikimedia Commons : File:Admiralty Bay, Port Elizabeth, Bequia, St Vincent and the Grenadines - panoramio.jpg | CC BY 3.0 |
+| `map-tobago-cays.webp` | Wikimedia Commons : File:Tobago Keys - Grenadines - 02-1989 - panoramio.jpg | CC BY 3.0 |
+| `map-canouan.webp` | Wikimedia Commons : File:2017-04-05 02 MV Gem Star - IMO 8887870 on Mayreau.jpg | CC BY-SA 4.0 |
+| `map-petit-saint-vincent.webp` | Wikimedia Commons : File:Petit St. Vincent Island Resort - The Grenadines, St. Vincent, Caribbean..jpg | CC BY-SA 3.0 |
+| `map-saint-vincent.webp` | Wikimedia Commons : File:Saint-Vincent, near Wallilabou.jpg | CC BY-SA 3.0 |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |

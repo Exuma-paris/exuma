@@ -29,3 +29,8 @@ Ces images ont été **fournies par l'utilisateur** comme photographies libres d
 | `map-pamukkale.webp`              | `map-pamukkale-ref.png`                 | TODO       | Libre de droit   |
 | `map-kekova.webp`                 | `map-kekova-ref.png`                    | TODO       | Libre de droit   |
 | `map-bodrum.webp`                 | `map-bodrum-ref.png`                    | TODO       | Libre de droit   |
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+
+## Goélette (27/10)
+- `xp-goelette-lycienne.webp` : lien fourni par Thea — https://media.filovent.com/photos/coque/19818/jihaycu4.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.

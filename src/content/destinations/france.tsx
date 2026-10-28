@@ -25,7 +25,7 @@ export const destination: Destination = {
   ],
   metaTitle: "France : Voyage sur mesure",
   metaDescription:
-    "Voyage en France sur mesure : châteaux de la Loire, Champagne, Luberon et Mont-Blanc. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en France sur mesure : châteaux de la Loire, Champagne, Luberon et Mont-Blanc. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -172,7 +172,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Rien de long, où que l’on aille. Une heure de vol jusqu’à Nice ou Marseille, un peu moins d’une heure de train pour Reims ou pour la Loire. On part après le petit déjeuner et l’on déjeune sur place.",
+            "Rien de long : une heure de vol jusqu’à Nice ou Marseille, un peu moins d’une heure de train pour Reims ou pour la Loire.",
         },
         {
           iconName: "clock",
@@ -184,13 +184,13 @@ export const destination: Destination = {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "L’euro partout, et les cartes passent sans difficulté. Gardez tout de même quelques billets pour les marchés et pour les auberges de village.",
+            "L’euro partout, et les cartes passent sans difficulté. Gardez quelques billets pour les marchés et les auberges de village.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Rien à prévoir pour les voyageurs français et européens. Pour les autres nationalités, la France relève du visa Schengen court séjour, selon le pays de résidence.",
+            "Rien à prévoir pour les Français et Européens. Les autres nationalités relèvent du visa Schengen court séjour, selon le pays de résidence.",
         },
         {
           iconName: "syringe",
@@ -202,19 +202,19 @@ export const destination: Destination = {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Le printemps et le début de l’automne, quand les journées s’étirent, que les villages respirent et que les belles tables se réservent encore. La lavande fleurit en juillet et les vendanges commencent à la fin de l’été.",
+            "Le printemps et le début de l’automne, quand les journées s’étirent. La lavande fleurit en juillet, les vendanges commencent fin d’été.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le français, bien sûr. L’anglais se parle dans les hôtels et sur la côte, plus rarement dans les villages de l’intérieur, où le sourire fait le reste.",
+            "Le français. L’anglais se parle dans les hôtels et sur la côte, plus rarement dans les villages de l’intérieur.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Quatre douceurs pour un seul pays : les ciels lavés de l’Atlantique, les étés secs du Midi, les automnes dorés de l’Est et l’air léger des Alpes. Il arrive de passer de la chaleur à la fraîcheur dans la même journée.",
+            "Ciels lavés de l’Atlantique, étés secs du Midi, automnes dorés de l’Est, air léger des Alpes. On passe parfois du chaud au frais en un jour.",
         },
       ],
     },
@@ -527,7 +527,7 @@ export const destination: Destination = {
             "J’avais vu Chambord trois fois dans ma vie, toujours en plein après-midi et toujours au milieu de la foule. Le voir sortir de la brume depuis une nacelle, au petit matin, ce n’était plus du tout le même château.",
           image: {
             src: "/destination/france/hero-1.png",
-            alt: "Portrait d’Édouard", // TODO: verify
+            alt: "Village de pierre dorée du Luberon dans la lumière du matin, en France",
           },
           name: "Édouard", // TODO: verify
           role: "Voyage anniversaire, mai 2026", // TODO: verify
@@ -538,7 +538,7 @@ export const destination: Destination = {
             "Nous étions trois générations pendant dix jours, et personne ne s’est plaint des trajets une seule fois. Tainà avait tout posé au bon rythme, les longues étapes en train et les matins réservés aux marchés. Mes parents en parlent encore.",
           image: {
             src: "/destination/france/hero-2.png",
-            alt: "Portrait de Constance", // TODO: verify
+            alt: "Château de Chambord émergeant de la brume de Sologne au lever du jour",
           },
           name: "Constance", // TODO: verify
           role: "Voyage en famille, juin 2026", // TODO: verify
@@ -549,7 +549,7 @@ export const destination: Destination = {
             "Descendre dans la craie avec le chef de cave, goûter ce qui n’est pas encore du champagne, dans le froid et dans le silence. Nous n’avions jamais rien connu de tel, et surtout pas en France.",
           image: {
             src: "/destination/france/hero-3.webp",
-            alt: "Portrait de Bernard", // TODO: verify
+            alt: "Calanque d’En-Vau, ses falaises calcaires et son eau turquoise, près de Cassis",
           },
           name: "Bernard", // TODO: verify
           role: "Séjour en couple, septembre 2025", // TODO: verify

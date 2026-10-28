@@ -28,24 +28,27 @@ export type SpecialistSpotlightProps = {
   background?: string;
 };
 
+// Trois textes de longueur voisine (titre ~20 car., description ~105) : les
+// trois colonnes restent équilibrées. Pas de promesse « 24/7 » (arbitrage du
+// 2026-10-14 : astreinte réelle, mais non affichée en continu).
 export const defaultSpotlightFeatures = [
   {
     iconName: "badgeCheck" as const,
-    title: "Conciergerie 24/7",
+    title: "Suivi pendant le séjour",
     description:
-      "Assistance discrète, transferts privés, accès rapide aux adresses fermées au public.",
+      "Votre travel designer reste joignable pendant le voyage et règle les imprévus avant qu'ils ne vous atteignent.",
   },
   {
     iconName: "sparkles" as const,
-    title: "Sur mesure",
+    title: "Un voyage sur mesure",
     description:
-      "Un travel designer dédié façonne votre voyage selon vos envies.",
+      "Un travel designer dédié construit votre voyage à partir de vos envies, de votre rythme et de vos habitudes.",
   },
   {
     iconName: "star" as const,
-    title: "Exclusif",
+    title: "Des adresses choisies",
     description:
-      "Tables, ateliers, maisons : accès à des adresses qui ne sont pas dans les moteurs de réservation.",
+      "Tables, ateliers, maisons privées : des adresses absentes des moteurs de réservation, qui s'ouvrent sur recommandation.",
   },
 ];
 

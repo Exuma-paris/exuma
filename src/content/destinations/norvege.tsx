@@ -24,7 +24,7 @@ export const destination: Destination = {
   ],
   metaTitle: "Norvège, voyage sur mesure",
   metaDescription:
-    "Voyage en Norvège sur mesure : fjords de Sunnmøre, Lofoten, Geiranger au lever du jour. Itinéraire écrit par votre travel designer Exuma, conciergerie 24/7.",
+    "Voyage en Norvège sur mesure : fjords de Sunnmøre, Lofoten, Geiranger au lever du jour. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -186,49 +186,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez un peu plus de 2 heures de vol direct entre Paris et Oslo. Les Lofoten se rejoignent ensuite par un vol Widerøe vers Leknes ou Svolvær, directement ou via Bodø. Au total, Paris - Lofoten demande environ dix heures de porte à porte.",
+            "Un peu plus de 2 heures de vol direct Paris-Oslo, puis Widerøe vers Leknes ou Svolvær. Environ dix heures de porte à porte pour les Lofoten.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Aucun. La Norvège est sur le même fuseau que la France et applique les mêmes changements d'heure. Vous arrivez sans fatigue de décalage, ce qui permet de partir en excursion dès le premier matin.",
+            "Aucun. Même fuseau que la France et mêmes changements d'heure : vous pouvez partir en excursion dès le premier matin.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La monnaie est la couronne norvégienne. Un euro vaut environ 11 couronnes. Le pays fonctionne presque sans espèces : la carte bancaire est acceptée partout, y compris sur les bateaux et les petits marchés.",
+            "Couronne norvégienne, environ 11 pour un euro. Le pays vit presque sans espèces : la carte passe partout, bateaux et marchés compris.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "La Norvège fait partie de l'espace Schengen sans être membre de l'Union européenne. Aucun visa n'est nécessaire pour les ressortissants français. Une carte nationale d'identité en cours de validité suffit.",
+            "La Norvège est dans l'espace Schengen, hors Union européenne. Pas de visa pour les Français, la carte d'identité valide suffit.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucune vaccination n'est exigée. Les vaccins universels à jour suffisent. Le système de santé est de bon niveau, mais les distances sont longues dans le nord et les secours peuvent demander du temps.",
+            "Aucune vaccination exigée, les vaccins universels suffisent. Bon système de santé, mais les secours peuvent tarder dans le nord.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De juin à août pour les fjords, la lumière continue et les routes de montagne ouvertes. De février à avril pour le ski et la pêche au skrei. De septembre à mars pour les aurores boréales dans les Lofoten.",
+            "Juin à août pour les fjords et la lumière continue, février à avril pour le ski et le skrei, septembre à mars pour les aurores aux Lofoten.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Le norvégien est la langue officielle, sous deux formes écrites. L'anglais se parle couramment partout, y compris chez les patrons de pêche et les guides. Le français reste rare en dehors des grands hôtels.",
+            "Le norvégien est la langue officielle, l'anglais se parle partout, y compris chez les guides. Le français reste rare hors des grands hôtels.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le Gulf Stream adoucit toute la côte. À Reine, février tourne autour de zéro degré malgré la latitude, et juillet autour de 16 degrés en journée. La côte ouest est nettement plus pluvieuse que le nord.",
+            "Le Gulf Stream adoucit la côte : à Reine, environ zéro degré en février et 16 en juillet. La côte ouest est plus pluvieuse que le nord.",
         },
       ],
     },
@@ -270,7 +270,7 @@ export const destination: Destination = {
           },
         },
         {
-          title: "Conciergerie 24/7",
+          title: "Conciergerie privée",
           description:
             "Un seul interlocuteur du premier échange jusqu'au retour. En Norvège, la météo décide souvent : nous réorganisons la journée sans vous en charger.",
           image: {
@@ -597,7 +597,7 @@ export const destination: Destination = {
             "Nous sommes entrés dans le Geirangerfjord à six heures du matin, seuls. Le skipper a coupé le moteur sous la cascade et personne n'a parlé pendant dix minutes. C'est la seule chose dont je parle encore au bureau.",
           image: {
             src: "/destination/norvege/hero-1.webp",
-            alt: "Portrait de Philippe", // TODO: verify
+            alt: "Village de Reine et sommets des Lofoten au bord de l'eau, Norvège",
           },
           name: "Philippe", // TODO: verify
           role: "Voyage en couple, juin 2025", // TODO: verify
@@ -608,7 +608,7 @@ export const destination: Destination = {
             "Je voulais dix jours sans rien avoir à décider. Les vols, les ferries, le bateau de pêche, tout était calé. Le seul choix de la journée portait sur l'heure du petit déjeuner.",
           image: {
             src: "/destination/norvege/hero-2.webp",
-            alt: "Portrait de Marc-Antoine", // TODO: verify
+            alt: "Parois du Geirangerfjord plongeant dans l'eau sombre au lever du jour",
           },
           name: "Marc-Antoine", // TODO: verify
           role: "Séjour dans les Lofoten, février 2025", // TODO: verify
@@ -619,7 +619,7 @@ export const destination: Destination = {
             "Sept chambres, une rivière sous les fenêtres, et pas un bruit après vingt-deux heures. Nous sommes restés quatre nuits à Valldal alors que nous en avions prévu deux.",
           image: {
             src: "/destination/norvege/hero-3.webp",
-            alt: "Portrait de Sylvie", // TODO: verify
+            alt: "Cabane de pêcheur rouge isolée au pied d'une montagne enneigée",
           },
           name: "Sylvie", // TODO: verify
           role: "Escapade dans le Sunnmøre, août 2025", // TODO: verify

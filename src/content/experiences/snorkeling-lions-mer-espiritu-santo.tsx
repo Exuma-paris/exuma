@@ -4,7 +4,7 @@ export const experience: Experience = {
   slug: "snorkeling-lions-mer-espiritu-santo",
   name: "Snorkeling avec les otaries d'Isla Espiritu Santo",
   blurb:
-    "À une heure, une heure et demie de La Paz en bateau privé, Los Islotes abrite une colonie d'otaries de Californie. On nage à la distance que fixent les guides du parc, et ce sont les jeunes qui viennent tourner autour des nageurs.",
+    "À une heure et demie de La Paz en bateau privé, Los Islotes abrite une colonie de plusieurs centaines d'otaries de Californie. On nage à distance de la colonie, et ce sont les jeunes qui viennent d'eux-mêmes tourner autour des nageurs. La Paz est à deux heures de route de Cabo, ou à vingt-cinq minutes en avion privé.",
   keywords: [
     "los-cabos",
     "mexique",
@@ -15,7 +15,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/los-cabos/xp-snorkeling-otaries.webp",
-    alt: "Snorkeling avec les otaries à Los Islotes, Isla Espiritu Santo, La Paz",
+    alt: "Jeune otarie de Californie face à l'objectif, Los Islotes, Isla Espiritu Santo",
   },
   destinationSlugs: ["los-cabos"],
   sections: [],

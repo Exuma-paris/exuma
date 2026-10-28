@@ -168,25 +168,25 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Comptez généralement 10 à 13 heures de voyage depuis Paris avec une correspondance, notamment via Londres, selon l'itinéraire et la compagnie choisis.",
+            "Comptez 10 à 13 heures de voyage depuis Paris avec une correspondance, notamment via Londres, selon l'itinéraire et la compagnie.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "5 heures de moins qu'en France en hiver et 6 heures en été. Antigua-et-Barbuda reste à l'heure standard de l'Atlantique (UTC−4) toute l'année, sans changement d'heure.",
+            "5 heures de moins qu'en France en hiver, 6 en été. Antigua-et-Barbuda reste en UTC−4 toute l'année, sans changement d'heure.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le dollar des Caraïbes orientales (XCD) est la monnaie officielle, à parité fixe avec le dollar américain. Le dollar américain est également accepté dans la plupart des établissements.",
+            "Le dollar des Caraïbes orientales (XCD), à parité fixe avec le dollar américain, lui aussi accepté dans la plupart des établissements.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Aucun visa n'est requis pour les ressortissants français pour un séjour de moins de six mois. Le passeport doit être valable au moins six mois à compter de la date d'entrée et un billet retour est demandé.",
+            "Pas de visa pour les Français sous six mois. Passeport valable au moins six mois à compter de l'entrée et billet retour demandé.",
         },
         {
           iconName: "syringe",
@@ -198,7 +198,7 @@ export const destination: Destination = {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "De décembre à avril, la période est généralement la plus agréable, avec un temps plus sec et ensoleillé. Nous privilégions particulièrement janvier à avril, plus secs, tout en gardant à l'esprit que la saison cyclonique s'étend officiellement de juin à novembre.",
+            "De décembre à avril, plus sec et ensoleillé, avec une préférence pour janvier à avril. La saison cyclonique court de juin à novembre.",
         },
         {
           iconName: "languages",
@@ -210,7 +210,7 @@ export const destination: Destination = {
           iconName: "sun",
           title: "Climat",
           description:
-            "Le climat est tropical et chaud toute l'année, avec des températures généralement comprises entre 24 et 30 °C. La saison humide s'étend principalement de l'été à la fin de l'automne, tandis que la période la plus sèche se situe de janvier à avril. La saison cyclonique s'étend de juin à novembre, avec une activité généralement plus marquée à la fin de l'été et au début de l'automne.",
+            "Tropical, entre 24 et 30 °C toute l'année, plus sec de janvier à avril. Cyclones de juin à novembre, surtout en fin d'été et en automne",
         },
       ],
     },
@@ -523,7 +523,7 @@ export const destination: Destination = {
             "Nous sommes partis un matin pour Barbuda et nous avons eu la plage rose quasiment pour nous. Le bateau nous attendait pour le retour au moment exact où la lumière a changé.",
           image: {
             src: "/destination/antigua/hero-1.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Plage de sable blanc et eaux turquoise lors d'un voyage à Antigua",
           },
           name: "", // TODO: replace with real testimonial
         },
@@ -533,7 +533,7 @@ export const destination: Destination = {
             "Une île entière pour nous six, sans une voiture, avec une navette qui passait toutes les vingt minutes. Les enfants ont fini par reconnaître chaque plage. Le dîner sous les étoiles restera le souvenir de ce voyage.",
           image: {
             src: "/destination/antigua/hero-2.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Voilier au mouillage dans une baie abritée de la côte ouest d'Antigua",
           },
           name: "", // TODO: replace with real testimonial
           role: "Antigua en famille, Jumby Bay, 2025", // TODO: replace with real testimonial
@@ -544,7 +544,7 @@ export const destination: Destination = {
             "Trois jours à Hermitage Bay sans croiser plus de dix personnes en dehors du personnel. La visite de Nelson's Dockyard tôt le matin, avant les groupes de croisiéristes, a changé notre regard sur l'île entière.",
           image: {
             src: "/destination/antigua/hero-3.webp",
-            alt: "Portrait", // TODO: verify
+            alt: "Plage de sable rose de Barbuda et mer turquoise",
           },
           name: "", // TODO: replace with real testimonial
           role: "Antigua, English Harbour, 2025", // TODO: replace with real testimonial
