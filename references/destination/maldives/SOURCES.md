@@ -41,3 +41,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `split-2.webp` : https://www.coralive.org/wp-content/uploads/2024/08/2024-05-03_GH5ii_089-1024x768.jpg (Coralive, recadrage carré, agrandissement fidèle Gemini).
 - `xp-dhoni.webp` : https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/632cccc8f0558.jpg/840x840/fit;c:0,0,1180,1180/80/eda868a270f062f386b89fadd4d2cb99.jpg (COMO Hotels, agrandissement fidèle Gemini).
 - `xp-corail.webp` : image générée par IA (Gemini), inspirée de https://www.radio1.pf/cms/wp-content/uploads/2017/07/20449237_1558394340857478_2095236752804509577_o-782x520.jpg (eau plus bleue, deux personnes seulement).
+- `hotel-soneva-jani.webp` : https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2026/06/03164624/Soneva-Jani-North-Jetty-Water-Retreat-Aerial-1-Large-scaled-e1780490906866.jpg (site officiel Soneva, recadrage carré).
