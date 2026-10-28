@@ -36,8 +36,8 @@ export const destination: Destination = {
         "Saint-Barthélemy a cette douceur des îles où rien ne presse. On passe la matinée dans l'eau, on remonte déjeuner à l'ombre, et l'on redescend vers Gustavia quand la chaleur tombe. Les plus belles plages se gagnent à pied ou par la mer, et l'on y reste toujours plus longtemps que prévu. C'est cette île-là que nous vous ouvrons.",
       images: [
         {
-          src: "/destination/saint-barthelemy/hero-1.png",
-          alt: "Voyage à Saint-Barthélemy : l'anse de Colombier vue depuis le sentier de la pointe",
+          src: "/destination/saint-barthelemy/hero-1.webp",
+          alt: "Voyage à Saint-Barthélemy : l'anse de Colombier et ses voiliers au mouillage, vus depuis les rochers du sentier",
         },
         {
           src: "/destination/saint-barthelemy/hero-2.png",
@@ -596,8 +596,8 @@ export const destination: Destination = {
           quote:
             "Nous sommes partis pour l'Île Fourchue le deuxième jour et nous y sommes retournés avant de rentrer. Le skipper nous attendait chaque matin avec une idée différente.",
           image: {
-            src: "/destination/saint-barthelemy/hero-1.png",
-            alt: "Voyage à Saint-Barthélemy : l'anse de Colombier vue depuis le sentier de la pointe"
+            src: "/destination/saint-barthelemy/hero-1.webp",
+            alt: "Voyage à Saint-Barthélemy : l'anse de Colombier et ses voiliers au mouillage, vus depuis les rochers du sentier"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Saint-Barthélemy, février 2026", // TODO: à vérifier (replace with real testimonial)

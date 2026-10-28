@@ -41,3 +41,4 @@ Deux visuels de la page ne figurent pas dans ce tableau : la carte du déjeuner 
 | Output | Reference file | Source URL | License |
 | --- | --- | --- | --- |
 | `xp-corossol.webp` | — | Généré par IA (texte seul) | Interne |
+- `hero-1.webp` : https://cdn.prod.rexby.com/image/a438922278564b1184ae2cef83f23384 (recadrage carré, couleurs adoucies).
