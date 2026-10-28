@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/fidji/full-image.png",
-        alt: "Voyage aux Fidji : le lagon de Fulaga et ses îlots de calcaire dans les Lau",
+        src: "/destination/fidji/full-image.webp",
+        alt: "Voyage aux Fidji : le lagon de Turtle Island et ses îlots dans les Yasawa, vus du ciel",
       },
       height: 600,
     },
