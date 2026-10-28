@@ -616,7 +616,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Le déjeuner à Colombier restera notre meilleur souvenir. La table était dressée à l'ombre quand nous sommes arrivés par la mer, et personne n'est venu de tout l'après-midi.",
+            "Le pique-nique à Colombier restera notre meilleur souvenir. Le panier nous attendait à bord quand nous sommes partis, et personne n'est venu de tout l'après-midi.",
           image: {
             src: "/destination/saint-barthelemy/hero-3.webp",
             alt: "Le port de Gustavia, ses yachts à quai et ses maisons aux toits rouges"
