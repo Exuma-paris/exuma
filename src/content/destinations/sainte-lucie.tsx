@@ -231,7 +231,7 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure à Sainte-Lucie entre Soufrière, Marigot et la baie de Rodney",
             "Table de déjeuner sous les cacaoyers d’un domaine, face aux Pitons",
-            "Hébergements à Sainte-Lucie : Jade Mountain, Sugar Beach et Ladera",
+            "Jardins tropicaux d'un domaine de cacao sous le Petit Piton, à Soufrière",
             "Conseillère Exuma souriante, casque sur les oreilles",
             "Expériences à Sainte-Lucie : pirogue d'un pêcheur sous les Pitons et montée du Gros Piton",
           ][i],

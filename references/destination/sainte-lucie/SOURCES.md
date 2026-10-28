@@ -52,3 +52,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`.
 - `hotel-jade-mountain.webp` : https://jademountain.com/wp-content/uploads/2026/06/jade-aerial.webp (site officiel, agrandissement fidèle Gemini).
 - `hotel-sugar-beach.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm9w-jfzR5VgKCRbgl8UV_9AcjGJV16hWRh04jDnMb5A), recadrage carré, agrandissement fidèle Gemini.
 - `hotel-ladera.webp` : https://www.ca.kayak.com/rimg/himg/25/d1/19/ice-71683-e52368-247795.jpg (Kayak, photo hôtel), recadrage carré, agrandissement fidèle Gemini.
+- `bento-hebergements.webp` : https://i0.wp.com/stlucia.org/wp-content/uploads/2026/05/petit-piton-rabot-estate-saint-lucia_.jpg.webp (office de tourisme, Rabot Estate), recadrage 4/3.
