@@ -10,8 +10,8 @@ Each generated image in `public/destination/sainte-lucie/` was produced by feedi
 | `full-image.png`                | `full-image-ref.jpg`                 | TODO       | TODO    |
 | `split-1.png`                   | `split-1-ref.jpg`                    | TODO       | TODO    |
 | `split-2.png`                   | `split-2-ref.jpg`                    | TODO       | TODO    |
-| `xp-croisiere-pitons-1.png`     | `xp-croisiere-pitons-1-ref.jpg`      | TODO       | TODO    |
-| `xp-croisiere-pitons-2.png`     | `xp-croisiere-pitons-2-ref.jpg`      | TODO       | TODO    |
+| `xp-pecheur-canaries.webp`      | —                                    | Généré par IA (texte seul) | Interne |
+| `xp-sugar-beach-matin.webp`     | —                                    | Généré par IA (texte seul) | Interne |
 | `xp-arbre-au-chocolat.png`      | `xp-arbre-au-chocolat-ref.jpg`       | TODO       | TODO    |
 | `xp-helicoptere.png`            | `xp-helicoptere-ref.jpg`             | TODO       | TODO    |
 | `hotel-jade-mountain.png`       | `hotel-jade-mountain-ref.jpg`        | TODO       | TODO    |

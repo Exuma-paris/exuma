@@ -23,7 +23,7 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 ## Expériences
 
-- [ ] `xp-banc-de-sable.png`
+- [x] `xp-astronome-soneva.webp`
 - [ ] `xp-corail.png`
 - [ ] `xp-dhoni.png`
 - [x] `xp-hanifaru-1.jpg`

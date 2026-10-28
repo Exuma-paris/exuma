@@ -124,8 +124,8 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "La montgolfière au-dessus des vallées de Göreme",
         columns: [
-          "La montgolfière décolle avant le jour, depuis un champ que le pilote choisit la veille au soir selon le vent. La nacelle est réservée pour vous seuls, et l'on y parle à voix normale. La lumière arrive par le haut : elle touche d'abord les reliefs de tuf, puis descend lentement dans les vallées encore sombres. Le paysage se dévoile dans cet ordre-là, sans bruit.",
-          "Le pilote redescend ensuite jusqu'à effleurer les cheminées de fées de la vallée Rouge, tout près des pigeonniers creusés dans la roche par les paysans d'autrefois. Il reprend un peu d'altitude pour retrouver le courant qui ramène vers Uçhisar, et le ballon se pose dans un champ où le petit-déjeuner attend déjà. Nous vous y conduisons avant que les autres ballons ne s'élèvent.",
+          "La montgolfière décolle avant le jour, depuis un champ que le pilote choisit la veille au soir selon le vent. La nacelle est réservée pour vous seuls, et l'on s'y parle à voix normale entre deux souffles du brûleur. La lumière arrive par le haut : elle touche d'abord les reliefs de tuf, puis descend lentement dans les vallées encore sombres.",
+          "Autour de vous, une centaine de ballons s'élèvent en même temps, et c'est aussi ce qui fait le spectacle. Le pilote redescend jusqu'à effleurer les cheminées de fées de la vallée Rouge, tout près des pigeonniers creusés dans la roche par les paysans d'autrefois, puis reprend le courant qui ramène vers Uçhisar. Le ballon se pose dans un champ où le petit-déjeuner attend déjà.",
         ],
       },
     },

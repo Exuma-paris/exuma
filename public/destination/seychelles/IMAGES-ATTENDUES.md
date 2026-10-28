@@ -24,7 +24,7 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 ## Expériences
 
 - [ ] `xp-coucher-soleil-granit.png`
-- [ ] `xp-decouverte-iles.png`
+- [x] `xp-aride.webp`
 - [ ] `xp-eclosion-tortues.png`
 - [ ] `xp-vol-helicoptere.png`
 

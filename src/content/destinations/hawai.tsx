@@ -136,7 +136,7 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités à Hawaï",
       heading: "Les moments dont on reparle en rentrant",
       description:
-        "Une nuit au sommet du Mauna Kea avec un astronome, un survol des falaises de Na Pali portes ouvertes, une matinée à cheval dans les pâturages de Kohala.",
+        "Le coucher de soleil au Mauna Kea, puis les étoiles avec un astronome, un survol des falaises de Na Pali portes ouvertes, une matinée à cheval dans les pâturages de Kohala.",
       slugs: [
         "sommet-mauna-kea-astronome",
         "napali-helicoptere-kauai",
@@ -549,7 +549,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Nous avons passé la nuit au sommet du Mauna Kea avec un astronome, au-dessus des nuages. Il faisait un froid sec et le ciel avait une netteté que je n'avais jamais vue ailleurs. Mes enfants en parlent encore.",
+            "Nous avons vu le soleil se coucher sur les nuages au sommet du Mauna Kea, puis un astronome nous a montré le ciel à mi-pente. Il faisait un froid sec et le ciel avait une netteté que je n'avais jamais vue ailleurs. Mes enfants en parlent encore.",
           image: {
             src: "/destination/hawai/hero-1.webp",
             alt: "Route bordée de palmiers au pied d'une muraille de falaises vertes à Hawaï"

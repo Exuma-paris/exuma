@@ -28,6 +28,8 @@ Each generated image in `public/destination/colombie/` was produced by feeding t
 | `map-salento.png`                | `map-salento-ref.jpg`              | TODO       | TODO    |
 | `map-cano-cristales.png`         | `map-cano-cristales-ref.jpg`       | TODO       | TODO    |
 | `map-bahia-solano.png`           | `map-bahia-solano-ref.jpg`         | TODO       | TODO    |
+| `xp-tayrona.webp` | — | Généré par IA (texte seul) | Image originale Exuma |
+| `hotel-calanoa.webp` | — | Généré par IA (texte seul), paysage sans le bâtiment du lodge | Image originale Exuma |
 
 Reference binaries are gitignored (`references/**/*.{jpg,jpeg,png,webp}`); this file is tracked.
 | `map-carthagene.webp` | Wikimedia Commons : File:Bartizan in Baluarte de Santiago, Cartagena 01.jpg | CC BY-SA 4.0 |

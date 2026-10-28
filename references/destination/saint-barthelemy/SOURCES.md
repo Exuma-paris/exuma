@@ -38,3 +38,4 @@ Deux visuels de la page ne figurent pas dans ce tableau : la carte du déjeuner 
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+| `xp-corossol.webp` | Généré par IA (texte seul) | Interne |

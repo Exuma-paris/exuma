@@ -124,7 +124,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "Le lagon où les tortues n'ont jamais appris à fuir",
         columns: [
-          "Carlisle Bay concentre six épaves dans à peine plus de dix mètres de fond, à la sortie de Bridgetown. Les tortues imbriquées et les tortues vertes s'y nourrissent d'algues sur les coques depuis des décennies, habituées au passage des nageurs. Le catamaran privé mouille au-dessus de l'épave du Berwyn, coulée en 1919, sans un autre bateau à l'horizon.",
+          "Carlisle Bay concentre six épaves dans à peine plus de dix mètres de fond, à la sortie de Bridgetown. Les tortues imbriquées et les tortues vertes s'y nourrissent d'algues sur les coques depuis des décennies, habituées au passage des nageurs. Le catamaran privé part à l'aube et mouille au-dessus de l'épave du Berwyn, coulée en 1919, avant que les bateaux de la journée n'arrivent.",
           "L'équipage coupe le moteur avant d'atteindre le site, pour ne pas effrayer les tortues qui remontent respirer en surface. Les enfants sautent les premiers, masque déjà en place. Le repas se prend ensuite au mouillage, poisson grillé et fruits locaux, avant le retour vers Bridgetown au moment où la lumière rase l'eau.",
         ],
       },

@@ -144,7 +144,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "La maison de Karen Blixen et ses vingt voitures",
         columns: [
-          "Dans un atelier privé du quartier de Karen, à Nairobi, vingt voitures historiques sont rangées sous des bâches depuis des décennies. Parmi elles, la Packard utilisée sur le tournage d'Out of Africa. L'atelier n'ouvre pas au public. Le chef mécanicien reçoit un groupe à la fois, raconte chaque véhicule comme on raconte une vie. La visite dure quatre heures.",
+          "Dans un atelier privé du quartier de Karen, à Nairobi, vingt voitures historiques sont rangées sous des bâches depuis des décennies. Parmi elles, la Ford T utilisée sur le tournage d'Out of Africa. L'atelier n'ouvre pas au public. Le chef mécanicien reçoit un groupe à la fois, raconte chaque véhicule comme on raconte une vie. La visite dure quatre heures.",
           "Le musée Karen Blixen se trouve à cinq minutes à pied. La maison est celle du roman, celle qu'elle décrit dans les premières pages : la terrasse, la lumière de fin d'après-midi, les collines de Ngong à l'horizon. Pour ceux qui ont lu « La Ferme africaine », c'est le moment du voyage qu'on raconte à table. Un accès qui ne se trouve pas en cherchant.",
         ],
       },
@@ -300,7 +300,7 @@ export const destination: Destination = {
         {
           title: "Watamu, la crique de Mida",
           description:
-            "La crique de Mida est un site Ramsar : sept cents hectares de mangroves et d'herbiers marins classés. On y navigue en boutre au coucher du soleil.",
+            "La crique de Mida fait partie de la réserve de biosphère de Malindi-Watamu, classée par l'UNESCO : des mangroves et des herbiers marins à perte de vue. On y navigue en boutre au coucher du soleil.",
           image: {
             src: "/destination/kenya/map-watamu.webp",
             alt: "Boutre traditionnel voguant sur la crique de Mida à Watamu, côte nord du Kenya",
@@ -570,7 +570,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "L'atelier Karen Blixen et les voitures, c'est le moment du voyage qu'on n'attendait pas. Quatre heures avec le mécanicien, la Packard d'Out of Africa sous une bâche depuis quarante ans. On ne l'aurait jamais trouvé seuls.",
+            "L'atelier Karen Blixen et les voitures, c'est le moment du voyage qu'on n'attendait pas. Quatre heures avec le mécanicien, la Ford T d'Out of Africa sous une bâche depuis quarante ans. On ne l'aurait jamais trouvé seuls.",
           image: {
             src: "/destination/kenya/hero-3.png",
             alt: "Plage de sable blanc de Galu Beach sur la côte sud du Kenya"

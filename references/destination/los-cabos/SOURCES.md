@@ -28,3 +28,4 @@
 - `xp-todos-santos.webp` : référence fournie par Thea — https://www.livelikeitstheweekend.com/wp-content/uploads/2023/11/things-to-do-in-Todos-Santos-34.jpg, recadré carré. ⚠ droits à vérifier.
 - `xp-snorkeling-otaries.webp` : référence fournie par Thea — https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0e/00/31/f1.jpg, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
 - Expérience « Wine O'Clock au Valle de Guadalupe » supprimée (région à 1 500 km de Los Cabos).
+- `xp-magdalena-1.webp`, `xp-magdalena-2.webp` : générées par IA (texte seul), coup de cœur baleines grises de Bahía Magdalena. Interne.

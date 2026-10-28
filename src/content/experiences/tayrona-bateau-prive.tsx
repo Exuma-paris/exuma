@@ -1,14 +1,15 @@
 import type { Experience } from "@/lib/content/types";
 
+// TODO: verify — dates de fermeture du parc Tayrona pour 2027 et accès ouverts (restrictions depuis fin 2025)
 export const experience: Experience = {
   slug: "tayrona-bateau-prive",
-  name: "Criques du parc Tayrona en bateau privé",
+  name: "Tayrona par la mer, jusqu'à Playa Cristal",
   blurb:
-    "Le parc national Tayrona compte des plages que la route n'atteint pas. Un bateau privé longe la côte depuis Santa Marta et dépose son passager sur le sable de Cabo San Juan, avant l'arrivée des groupes. Le parc ferme trois fois par an, deux semaines à chaque fois : nous calons la sortie en dehors.",
-  keywords: ["colombie", "tayrona", "santa marta", "plage", "bateau prive"],
+    "Le parc Tayrona descend de la Sierra Nevada jusqu'à la mer des Caraïbes. Un bateau privé longe la côte au départ de Taganga et entre dans la baie de Neguanje, jusqu'à Playa Cristal, une crique au récif assez clair pour nager au masque. Le parc ferme quelques semaines par an, en février notamment : on construit le voyage autour.",
+  keywords: ["colombie", "tayrona", "playa cristal", "neguanje", "taganga", "bateau prive"],
   heroImage: {
     src: "/destination/colombie/xp-tayrona.webp",
-    alt: "Bateau privé au mouillage devant le Cabo San Juan, parc national Tayrona, vu du ciel",
+    alt: "Crique de Playa Cristal dans la baie de Neguanje, parc national Tayrona, Colombie",
   },
   destinationSlugs: ["colombie"],
   sections: [],

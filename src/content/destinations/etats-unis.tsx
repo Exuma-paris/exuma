@@ -10,7 +10,7 @@ export const destination: Destination = {
   country: "États-Unis",
   genitive: "des États-Unis",
   projectNote:
-    "Ce que nous organisons, ce sont les moments qu'on ne réserve pas soi-même : un canyon navajo ouvert pour vous seuls au lever du jour, un chai de la Napa, une galerie du Metropolitan avant l'heure.",
+    "Ce que nous organisons, ce sont les moments qu'on ne réserve pas soi-même : un canyon navajo avec la famille qui en détient l'accès, un chai de la Napa, une galerie du Metropolitan avant l'heure.",
   continentSlug: "ameriques",
   blurb: "Le plateau du Colorado, Big Sur, New York",
   keywords: [
@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: faire valider ce verbatim par Carole Galvier avant publication
         quote:
-          "Aux États-Unis, j'organise les moments que l'on ne peut pas réserver soi-même : un canyon navajo au lever du jour pour vous seuls, un chai de la Napa où le vigneron vous reçoit, le Metropolitan Museum avant l'ouverture. Le reste du voyage se construit autour.",
+          "Aux États-Unis, j'organise les moments que l'on ne peut pas réserver soi-même : un canyon navajo avec la famille qui en détient l'accès, un chai de la Napa où le vigneron vous reçoit, le Metropolitan Museum avant l'ouverture. Le reste du voyage se construit autour.",
         role: "Travel Designer · États-Unis",
       },
       features: defaultSpotlightFeatures,
@@ -120,13 +120,13 @@ export const destination: Destination = {
           alt: "Guide navajo éclairé par la lumière réfléchie dans un canyon étroit",
         },
       },
-      // TODO: verify accès, opérateur navajo et localisation exacte du canyon
+      // TODO: verify — conditions d'une visite privée et horaire du premier départ avec Taadidiin Tours
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Le matin où le canyon n'appartient à personne",
+        heading: "Antelope Canyon X, avec la famille qui en détient l'accès",
         columns: [
-          "On quitte l'hôtel avant le jour et le 4x4 s'écarte de la route goudronnée pour remonter un lit de rivière à sec. Il s'arrête devant une fente étroite dans la roche, si discrète qu'on passerait devant sans la voir. Ce canyon ne figure sur aucune carte touristique : il appartient aux terres de la nation Navajo, et c'est la famille qui en détient les droits qui vous ouvre la barrière.",
-          "À l'intérieur, la lumière n'entre jamais directement. Elle glisse de paroi en paroi et la pierre la renvoie en orange, puis en violet à mesure que le soleil monte. Le guide montre les traces que les crues ont laissées bien au-dessus des têtes, et raconte comment il lit le ciel avant de descendre. On ressort du canyon avant que quiconque d'autre n'arrive.",
+          "Le 4x4 quitte la route goudronnée et remonte un lit de rivière à sec jusqu'à une fente étroite dans le grès. Antelope Canyon X est sur les terres de la nation Navajo, et c'est la famille diné qui en détient les droits qui vous y conduit. Il reçoit bien moins de monde que ses voisins d'Upper et Lower Antelope.",
+          "À l'intérieur, la lumière n'entre jamais directement. Elle glisse de paroi en paroi et la pierre la renvoie en orange, puis en violet. Nous réservons la visite photo du premier départ : trois heures sur place, en petit groupe, le temps de regarder la lumière bouger. Le guide montre les traces que les crues ont laissées au-dessus des têtes et raconte comment il lit le ciel avant de descendre.",
         ],
       },
     },
@@ -542,7 +542,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Nous partions à six, sur trois générations, et je redoutais la logistique. Le canyon au lever du jour a réuni tout le monde, ce que je n'attendais pas. Les distances avaient été pensées pour que personne ne subisse la route.",
+            "Nous partions à six, sur trois générations, et je redoutais la logistique. Le canyon au premier départ a réuni tout le monde, ce que je n'attendais pas. Les distances avaient été pensées pour que personne ne subisse la route.",
           image: {
             src: "/destination/etats-unis/hero-1.webp",
             alt: "Falaises de grès du plateau du Colorado au lever du jour, dans l'Utah, aux États-Unis",

@@ -23,7 +23,7 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 
 ## Expériences
 
-- [ ] `xp-atv-cascade.png`
+- [x] `xp-fedon-concord.webp`
 - [ ] `xp-snorkeling-zodiac.png`
 - [ ] `xp-tour-culinaire.png`
 - [ ] `xp-voilier-bois-1.png`

@@ -111,21 +111,22 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/namibie/xp-kalahari-1.webp",
-          alt: "Dune de sable rouge du Kalahari et acacias sous un ciel nuageux, Namibie",
+          src: "/destination/namibie/xp-ongava.webp",
+          alt: "Deux rhinocéros blancs dans les herbes sèches d'Ongava, vus à pied derrière le bord d'un chapeau de safari, Namibie",
         },
         right: {
-          src: "/destination/namibie/xp-kalahari-2.webp",
-          alt: "Oryx traversant la steppe dorée du Kalahari devant une dune rouge, Namibie",
+          src: "/destination/namibie/xp-ongava-pisteur.webp",
+          alt: "Pisteur accroupi lisant une empreinte de rhinocéros dans le sable, réserve d'Ongava, Namibie",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Le Kalahari, là où le sable a cessé de bouger",
+        // TODO: verify — nom actuel du lodge d'Ongava (rebaptisé « Encounter by Ongava » en 2026 ?)
+        heading: "À pied derrière le pisteur, jusqu'aux rhinocéros d'Ongava",
         columns: [
-          "Le Kalahari couvre 500 000 km² et se partage entre la Namibie, le Botswana et l'Afrique du Sud. Il tombe cent millimètres d'eau par an. C'est peu, et c'est pourtant assez : les herbes tiennent le sable, les dunes ne se déplacent plus et le rouge du fer reste en surface.", // TODO: verify superficie (le chiffre couramment cité est de 900 000 km²)
-          "Ce n'est donc pas un désert nu. Les acacias erioloba y vivent plusieurs siècles et portent des nids de républicains sociaux qui pèsent jusqu'à une tonne. L'oryx, l'otocyon et la hyène brune s'y croisent sans point d'eau permanent. Chacun tire son eau de ce qu'il mange.", // TODO: verify poids des nids de républicains sociaux
-          "On y marche en fin de journée, quand les crêtes passent de l'ocre au rouge sombre. Le silence n'est pas une image : il n'y a ni route, ni vol commercial, ni village dans le champ visuel. C'est la sensation d'isolement la plus nette du voyage, et elle se ressent à moins d'une heure de vol de Windhoek.",
+          "Ongava est une réserve privée posée contre la frontière sud d'Etosha. Elle a été créée pour protéger les rhinocéros, et une équipe de pisteurs y suit chaque animal au quotidien.",
+          "On part à l'aube, à pied, derrière le pisteur. Il lit le sol : une empreinte à trois doigts, une branche cassée, une bouse encore tiède. Puis il s'arrête et lève la main. Le rhinocéros blanc est là, à quelques dizaines de mètres, et ne sait pas encore qu'on le regarde.",
+          "À pied, on n'approche que les rhinocéros blancs : les noirs, plus nerveux, se regardent depuis le véhicule. La saison sèche, de mai à octobre, est la meilleure, quand l'herbe est basse et les traces lisibles. Dans le parc national voisin, personne n'a le droit de descendre de voiture.",
         ],
       },
     },
@@ -137,10 +138,10 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en Namibie",
       heading: "Trois terrains inscrits à l'itinéraire",
       description:
-        "Trois sorties portent le voyage. On part d'abord vers la Skeleton Coast, en avion léger puis en 4x4 par la vallée de la Hoanib. On piste ensuite les rhinocéros à pied dans la réserve d'Ongava, en bordure d'Etosha. On monte enfin sur les dunes de Sossusvlei, avant la marche jusqu'à Deadvlei.",
+        "Trois sorties portent le voyage. On part d'abord vers la Skeleton Coast, en avion léger puis en 4x4 par la vallée de la Hoanib. On éteint ensuite toutes les lumières dans la réserve du NamibRand, sous l'un des ciels les plus noirs d'Afrique. On monte enfin sur les dunes de Sossusvlei, avant la marche jusqu'à Deadvlei.",
       slugs: [
         "echappee-skeleton-coast",
-        "ongava-pistage-rhinoceros",
+        "nuit-etoilee-namibrand",
         "sossusvlei-deadvlei",
       ],
     },
@@ -152,11 +153,12 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Où séjourner en Namibie",
       description:
-        "Trois maisons jalonnent l'itinéraire. La première ouvre sa toiture sur le ciel du NamibRand. La deuxième s'accroche à des blocs de granit du sud. La dernière se tient seule dans une vallée du Kaokoland, à une heure de vol de la route la plus proche.",
+        "Quatre maisons jalonnent l'itinéraire. La première ouvre sa toiture sur le ciel du NamibRand. La deuxième s'accroche à des blocs de granit du sud. La troisième se tient seule dans une vallée du Kaokoland, à une heure de vol de la route la plus proche. La dernière regarde un point d'eau en bordure d'Etosha.",
       slugs: [
         "sossusvlei-desert-lodge",
         "zannier-sonop",
         "hoanib-skeleton-coast-camp",
+        "little-ongava",
       ],
     },
 

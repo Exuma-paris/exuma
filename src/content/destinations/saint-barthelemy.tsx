@@ -126,7 +126,7 @@ export const destination: Destination = {
         heading: "La journée au mouillage de l'Île Fourchue",
         columns: [
           "L'Île Fourchue se voit depuis le nord de Saint-Barth, posée entre l'île et Saint-Martin. Elle est inhabitée, en forme de fer à cheval, et sa baie abrite un mouillage où l'on arrive souvent seul le matin. Le bateau s'y installe pour la journée, et il ne se passe rien d'autre que ce que l'on décide.",
-          "On nage jusqu'aux rochers où les poissons ne s'écartent pas, on monte à pied jusqu'aux hauteurs pour voir les deux îles en même temps, et l'on redescend déjeuner à bord. Les chèvres sauvages regardent passer les nageurs depuis le haut de la baie. Vers la fin de l'après-midi, quand les autres bateaux sont repartis, on comprend que l'île a été pour nous seuls, et l'on demande souvent à y revenir avant la fin du séjour.",
+          "On nage jusqu'aux rochers où les poissons ne s'écartent pas, on monte à pied jusqu'aux hauteurs pour voir les deux îles en même temps, et l'on redescend déjeuner à bord. Vers la fin de l'après-midi, quand les autres bateaux sont repartis, on comprend que l'île a été pour nous seuls, et l'on demande souvent à y revenir avant la fin du séjour.",
         ],
       },
     },
@@ -142,7 +142,7 @@ export const destination: Destination = {
         "Nous vous emmenons déjeuner à Colombier, sur une anse que la route n'atteint pas, passer une matinée à Corossol auprès des vannières, et prendre la barre d'un voilier de régate au large de Gustavia.",
       slugs: [
         "pique-nique-anse-colombier",
-        "corossol-vannieres-lantana",
+        "corossol-vannieres-latanier",
         "voiles-de-saint-barth-regate",
       ],
     },
@@ -280,7 +280,7 @@ export const destination: Destination = {
         {
           title: "Corossol",
           description:
-            "C'est le village des vannières, où le lantana sèche au soleil avant d'être tressé en chapeaux et en paniers. Le savoir-faire se transmet de mère en fille depuis des générations, et les femmes le montrent volontiers à qui prend le temps de s'asseoir près d'elles.",
+            "C'est le village des vannières, où la palme de latanier sèche au soleil avant d'être tressé en chapeaux et en paniers. Le savoir-faire se transmet de mère en fille depuis des générations, et les femmes le montrent volontiers à qui prend le temps de s'asseoir près d'elles.",
           image: {
             src: "/destination/saint-barthelemy/map-corossol.webp",
             alt: "Baie de Corossol et ses voiliers au mouillage, Saint-Barthélemy",
@@ -313,7 +313,7 @@ export const destination: Destination = {
         {
           title: "L'Île Fourchue",
           description:
-            "L'îlot inhabité se dessine au nord de Saint-Barth, deux bras de terre refermés sur un mouillage abrité. Les chèvres sauvages y vivent seules, les oiseaux de mer nichent dans les rochers, et les bateaux repartent avant le soir.",
+            "L'îlot inhabité se dessine au nord de Saint-Barth, deux bras de terre refermés sur un mouillage abrité. Depuis que les chèvres en ont été retirées, la végétation repousse, les oiseaux de mer nichent dans les rochers, et les bateaux repartent avant le soir.",
           image: {
             src: "/destination/saint-barthelemy/map-ile-fourchue.webp",
             alt: "L'Île Fourchue inhabitée et son mouillage abrité au nord de Saint-Barth",

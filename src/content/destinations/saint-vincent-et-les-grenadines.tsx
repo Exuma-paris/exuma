@@ -4,7 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "saint-vincent-et-les-grenadines",
-  subthemeSlugs: ["voilier", "caraibes-plages", "spa-thalasso"],
+  subthemeSlugs: ["voilier", "caraibes-plages", "savoir-faire"],
   name: "Saint-Vincent-et-les-Grenadines",
   placeKind: "region",
   country: "Caraïbes",
@@ -125,7 +125,7 @@ export const destination: Destination = {
         heading: "La journée de snorkeling aux Tobago Cays",
         columns: [
           "Les Tobago Cays sont cinq îlots inhabités, protégés par le récif Horseshoe qui casse la houle de l'Atlantique. Le bateau privé s'y installe pour la journée, et le masque se met presque en arrivant : le sanctuaire marin commence à la coque.",
-          "Devant Baradal, les tortues vertes et imbriquées broutent l'herbier par deux ou trois mètres de fond. On nage à leur hauteur sans qu'elles s'écartent, et l'on remonte respirer en même temps qu'elles. Le reste de la journée se passe entre les bancs de sable et les rochers de Petit Tabac, où le déjeuner s'installe à l'ombre. Les derniers bateaux repartent avant le soir, et les îlots redeviennent déserts.",
+          "Devant Baradal, les tortues vertes et imbriquées broutent l'herbier par deux ou trois mètres de fond. On nage à leur hauteur sans qu'elles s'écartent, et l'on remonte respirer en même temps qu'elles. Le reste de la journée se passe entre les bancs de sable et les rochers de Petit Tabac, où le déjeuner s'installe à l'ombre.",
         ],
       },
     },
@@ -137,11 +137,11 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités dans les Grenadines",
       heading: "Naviguer d'une île à l'autre, ou monter à cheval sur le sable",
       description:
-        "Nous vous emmenons à la voile de Bequia jusqu'à Petit St. Vincent, sur les sentiers de montagne et les plages désertes à cheval, et jusqu'à une table de soins installée face à l'océan.",
+        "Nous vous emmenons à la voile de Bequia jusqu'à Petit St. Vincent, sur les sentiers de montagne et les plages désertes à cheval, et jusqu'aux ateliers des maquettistes de Bequia.",
       slugs: [
         "voilier-iles-grenadines",
         "cheval-sentiers-plages-grenadines",
-        "voyage-spa-grenadines",
+        "maquettistes-bequia",
       ],
     },
 

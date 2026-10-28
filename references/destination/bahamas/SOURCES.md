@@ -44,3 +44,5 @@ Les fichiers de référence sont arrivés en double extension (`hero-1.png.png`)
 | `xp-bonefish.webp` | Recadrée sur le pêcheur, eau prolongée à gauche par IA | |
 | `xp-catamaran-green-cay.webp` | GetYourGuide (tortue verte et nageuse en masque), agrandie fidèlement, saturation adoucie | À confirmer |
 | `xp-junkanoo.webp` | IA (mode --inspire) d'après bahamahealth.com, transposée sur une plage près d’un restaurant, lumière de coucher de soleil par IA | |
+| `hero-2-exumas.webp` | — | Généré par IA (texte seul), remplace les cochons nageurs | Image originale Exuma |
+| `map-exumas-cayes.webp` | — | Généré par IA (texte seul), remplace les cochons nageurs | Image originale Exuma |

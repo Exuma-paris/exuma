@@ -111,20 +111,21 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/sainte-lucie/xp-croisiere-pitons-1.png",
-          alt: "Voilier au mouillage entre le Gros Piton et le Petit Piton à Sainte-Lucie",
+          src: "/destination/sainte-lucie/xp-pecheur-canaries.webp",
+          alt: "Pêcheur relevant une nasse depuis sa pirogue peinte, le Gros Piton dans la lumière de l'aube",
         },
         right: {
-          src: "/destination/sainte-lucie/xp-croisiere-pitons-2.png",
-          alt: "Baignade au-dessus du récif dans la baie de Sugar Beach au coucher du soleil",
+          src: "/destination/sainte-lucie/xp-sugar-beach-matin.webp",
+          alt: "Baignade au-dessus du récif clair de Sugar Beach le matin, le Petit Piton en arrière-plan",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "La croisière au coucher du soleil devant les Pitons",
+        // TODO: verify — sortie avec un pêcheur de Canaries et déjeuner à Anse Mamin, à confirmer avec le réceptif
+        heading: "À l'aube, dans la pirogue d'un pêcheur de Canaries",
         columns: [
-          "Le bateau quitte la côte en fin d'après-midi, quand la chaleur tombe et que la mer devient lisse. On longe les villages de pêcheurs, on passe devant les cocotiers de l'Anse Chastanet, et les Pitons grandissent peu à peu devant nous. Le mouillage se fait dans la baie de Sugar Beach, entre les deux montagnes.",
-          "On se baigne là, au-dessus du récif protégé, pendant que le soleil descend derrière la pointe. L'eau est claire et le corail commence tout près du bord. Puis on remonte à bord pour regarder la lumière changer sur la baie de Marigot, un verre à la main, avant de rentrer à la nuit tombée. C'est la sortie que nos voyageurs redemandent le plus souvent.",
+          "Canaries est un village de pêcheurs entre Castries et Soufrière, où les pirogues peintes sont tirées sur le sable. Un pêcheur vous prend à bord au lever du jour, et l'on longe les falaises en relevant ses nasses, pendant que les Pitons sortent de l'ombre devant la proue.",
+          "Il vous dépose ensuite dans la baie de Sugar Beach, entre les deux montagnes, avant l'arrivée des bateaux de la journée. On nage au-dessus du récif protégé, où le corail commence tout près du bord. Le poisson du matin est grillé sur la plage d'Anse Mamin pour le déjeuner.",
         ],
       },
     },
@@ -610,7 +611,7 @@ export const destination: Destination = {
         {
           question: "Que faire à Sainte-Lucie en une semaine ?",
           answer:
-            "Une semaine laisse le temps d'alterner la mer et la montagne sans se presser. On garde deux ou trois journées en bateau, dont la croisière du soir devant les Pitons et une matinée de plongée au récif de l'Anse Chastanet. Les autres journées se passent entre la montée du Gros Piton au lever du jour, les bains de soufre et la cascade au-dessus de Soufrière, la plantation de cacao où l'on fabrique sa tablette, et le marché de Castries. Ceux qui veulent voir l'île en entier ajoutent un vol en hélicoptère, qui donne la côte ouest, les Pitons et la forêt en une seule fois.",
+            "Une semaine laisse le temps d'alterner la mer et la montagne sans se presser. On garde deux ou trois journées en bateau, dont la sortie à l'aube en pirogue avec un pêcheur de Canaries et une matinée de plongée au récif de l'Anse Chastanet. Les autres journées se passent entre la montée du Gros Piton au lever du jour, les bains de soufre et la cascade au-dessus de Soufrière, la plantation de cacao où l'on fabrique sa tablette, et le marché de Castries. Ceux qui veulent voir l'île en entier ajoutent un vol en hélicoptère, qui donne la côte ouest, les Pitons et la forêt en une seule fois.",
         },
         {
           question: "Sainte-Lucie est-elle adaptée aux familles ?",

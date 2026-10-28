@@ -25,6 +25,7 @@ listée ci-dessous. Trois traitements coexistent sur cette page :
 | `xp-fanal-2.webp` | `xp-fanal-2-ref.png` | Photo fournie par l'utilisateur | Libre de droit — filtre local |
 | `xp-foret-fanal.webp` | `xp-foret-fanal-ref.png` | Photo fournie par l'utilisateur | Libre de droit — filtre local |
 | `xp-mercado-funchal.webp` | `xp-mercado-funchal-ref.png` | Photo fournie par l'utilisateur | Libre de droit — filtre local |
+| `xp-mercado-chef.webp` | — | Généré par IA (texte seul) | Interne |
 | `xp-plage-seixal.webp` | `xp-plage-seixal-ref.png` | Photo fournie par l'utilisateur | Libre de droit — filtre local |
 | `hotel-reids-palace.webp` | `hotel-reids-palace-ref.jpg` | Photo de l'hôtel fournie par l'utilisateur | Libre de droit — filtre local |
 | `hotel-casa-velha-palheiro.webp` | `hotel-casa-velha-palheiro-ref.png` | Photo de l'hôtel fournie par l'utilisateur | Libre de droit — restylage 4K, cadrage conservé |

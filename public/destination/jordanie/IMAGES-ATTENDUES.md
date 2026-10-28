@@ -24,8 +24,8 @@ Déposez chaque fichier dans ce dossier en respectant exactement le nom ci-desso
 ## Expériences
 
 - [ ] `xp-etoiles-wadi-rum.png`
-- [ ] `xp-petra-by-night-1.png`
-- [ ] `xp-petra-by-night-2.png`
+- [x] `xp-sentier-monastere.webp`
+- [x] `xp-monastere-ad-deir.webp`
 - [ ] `xp-plongee-aqaba.png`
 - [ ] `xp-wadi-rum-4x4.png`
 

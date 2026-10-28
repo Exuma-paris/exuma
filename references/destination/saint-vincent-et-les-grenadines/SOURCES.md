@@ -14,7 +14,7 @@ Each generated image in `public/destination/saint-vincent-et-les-grenadines/` wa
 | `xp-tobago-cays-2.png`             | `xp-tobago-cays-2-ref.jpg`               | TODO       | TODO    |
 | `xp-voilier.png`                   | `xp-voilier-ref.jpg`                     | TODO       | TODO    |
 | `xp-cheval.png`                    | `xp-cheval-ref.jpg`                      | TODO       | TODO    |
-| `xp-spa.png`                       | `xp-spa-ref.jpg`                         | TODO       | TODO    |
+| `xp-maquettistes-bequia.webp`      | —                                        | Généré par IA (texte seul) | Interne |
 | `hotel-petit-saint-vincent.png`    | `hotel-petit-saint-vincent-ref.jpg`      | TODO       | TODO    |
 | `hotel-canouan-estate.png`         | `hotel-canouan-estate-ref.jpg`           | TODO       | TODO    |
 | `bento-map.png`                    | `bento-map-ref.jpg`                      | TODO       | TODO    |

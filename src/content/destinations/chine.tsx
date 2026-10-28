@@ -111,8 +111,8 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/chine/xp-dejeuner-grande-muraille-1.webp",
-          alt: "Table dressée en plein air sur le chemin de ronde de la Grande Muraille, face aux montagnes",
+          src: "/destination/chine/xp-muraille-gubeikou.webp",
+          alt: "Un guide montre la crête à un couple qui monte les marches de la Grande Muraille, tours de guet sur les montagnes vertes",
         },
         right: {
           src: "/destination/chine/xp-dejeuner-grande-muraille-2.webp",
@@ -121,11 +121,11 @@ export const destination: Destination = {
       },
       text: {
         eyebrow: "Notre coup de cœur",
-        heading: "Une table dressée sur la Grande Muraille",
+        // TODO: verify — durée de la marche (4 à 5 h ?) et conditions d'accès actuelles entre Gubeikou et Jinshanling
+        heading: "La Muraille à pied, de Gubeikou à Jinshanling",
         columns: [
-          // TODO: verify : privatisation de la section et déroulé du service à confirmer auprès du prestataire
-          "La section est fermée au public le temps du déjeuner. On monte en fin de matinée, et la table est déjà dressée sur le chemin de ronde : nappe blanche, verres, service en gants blancs. De part et d'autre, la Muraille suit la crête et disparaît derrière la ligne des collines.",
-          "Le repas se déroule en trois services, avec un toast au champagne avant le premier plat. Il n'y a personne d'autre sur cette portion du mur, ni avant, ni après. C'est le genre d'autorisation qui se négocie section par section, plusieurs semaines avant le départ.",
+          "On part de Gubeikou tôt le matin, sur une portion que personne n'a restaurée. Les briques manquent par endroits, les tours de guet sont ouvertes au vent et l'herbe pousse sur le chemin de ronde. Un historien de la Muraille marche devant et lit les inscriptions laissées par les équipes de bâtisseurs Ming.",
+          "La pierre change à mesure qu'on avance. À Jinshanling, la Muraille a été remontée avec soin et serpente sur la crête jusqu'à l'horizon. On déjeune dans une tour de guet, d'un pique-nique simple, puis on redescend avant que la lumière ne tombe.",
         ],
       },
     },
@@ -139,7 +139,7 @@ export const destination: Destination = {
       description:
         "Ces trois sorties se calent avant le départ. Le Guizhou demande deux nuits sur place, et les créneaux d'hélicoptère au-dessus de Victoria Harbor partent vite le week-end.",
       slugs: [
-        "spectacle-era-shanghai",
+        "opera-kunqu-shanghai",
         "villages-ethniques-guizhou",
         "helicoptere-victoria-harbor",
       ],
@@ -565,7 +565,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Le déjeuner sur la Muraille, nous en parlons encore. Nous étions seuls sur la section, la table était dressée quand nous sommes arrivés, et personne n'est passé de toute la matinée.",
+            "La marche sur la Muraille, nous en parlons encore. Pendant des heures, nous n'avons croisé presque personne, et l'historien nous lisait les briques une à une.",
           image: {
             src: "/destination/chine/hero-1.webp",
             alt: "Voyage en Chine : la Grande Muraille suivant une crête boisée, au lever du jour"

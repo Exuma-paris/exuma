@@ -13,7 +13,7 @@ Each generated image in `public/destination/la-grenade/` was produced by feeding
 | `xp-voilier-bois-1.png`               | `xp-voilier-bois-1-ref.jpg`                | TODO       | TODO    |
 | `xp-voilier-bois-2.png`               | `xp-voilier-bois-2-ref.jpg`                | TODO       | TODO    |
 | `xp-snorkeling-zodiac.png`            | `xp-snorkeling-zodiac-ref.jpg`             | TODO       | TODO    |
-| `xp-atv-cascade.png`                  | `xp-atv-cascade-ref.jpg`                   | TODO       | TODO    |
+| `xp-fedon-concord.webp`               | —                                          | Généré par IA (texte seul) | Interne |
 | `xp-tour-culinaire.png`               | `xp-tour-culinaire-ref.jpg`                | TODO       | TODO    |
 | `hotel-silversands.png`               | `hotel-silversands-ref.jpg`                | TODO       | TODO    |
 | `hotel-calabash.png`                  | `hotel-calabash-ref.jpg`                   | TODO       | TODO    |
