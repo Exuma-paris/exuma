@@ -43,8 +43,8 @@ export const destination: Destination = {
           alt: "La baie de Marigot vue du ciel, sa langue de sable plantée de cocotiers et les voiliers au mouillage",
         },
         {
-          src: "/destination/sainte-lucie/hero-3.png",
-          alt: "Barques de pêche tirées sur le sable devant le village de Soufrière",
+          src: "/destination/sainte-lucie/hero-3.webp",
+          alt: "Barques de pêche colorées tirées sur le sable sombre d'une plage de Soufrière",
         },
       ],
     },
@@ -572,8 +572,8 @@ export const destination: Destination = {
           quote:
             "La montée du Gros Piton au lever du jour restera notre meilleur souvenir. Nous avons pris le petit déjeuner à Soufrière en redescendant, et la journée n'avait pas encore commencé pour les autres.",
           image: {
-            src: "/destination/sainte-lucie/hero-3.png",
-            alt: "Barques de pêche tirées sur le sable devant le village de Soufrière"
+            src: "/destination/sainte-lucie/hero-3.webp",
+            alt: "Barques de pêche colorées tirées sur le sable sombre d'une plage de Soufrière"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Sainte-Lucie, avril 2026", // TODO: à vérifier (replace with real testimonial)

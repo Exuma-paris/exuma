@@ -43,3 +43,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`.
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
 - `hero-1.webp` : https://www.sainte-lucie.fr/images/pitons-st.jpg (panorama recadré, ciel et premier plan prolongés par Gemini pour le format carré, Pitons inchangés).
 - `hero-2.webp` : https://cdn.prod.rexby.com/image/d596616a4f08444389e0af042a93f0da (recadrage carré).
+- `hero-3.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjmNYHoVki3mtuCWK0j754NF3i25ZRHUZ1JPITU9t87g), redessinée en HD et prolongée au carré par Gemini. Hero 1 à 3 désaturées (couleurs plus naturelles, demande de Thea).
