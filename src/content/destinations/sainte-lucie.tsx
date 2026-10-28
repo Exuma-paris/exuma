@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/sainte-lucie/full-image.png",
-        alt: "Voyage à Sainte-Lucie : la baie de Soufrière fermée par les deux Pitons",
+        src: "/destination/sainte-lucie/full-image.webp",
+        alt: "Voyage à Sainte-Lucie : l'Anse Chastanet et son récif turquoise, la forêt et les deux Pitons au fond",
       },
       height: 600,
     },
