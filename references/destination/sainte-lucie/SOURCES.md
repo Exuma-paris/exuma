@@ -41,3 +41,5 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`.
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+- `hero-1.webp` : https://www.sainte-lucie.fr/images/pitons-st.jpg (panorama recadré, ciel et premier plan prolongés par Gemini pour le format carré, Pitons inchangés).
+- `hero-2.webp` : https://cdn.prod.rexby.com/image/d596616a4f08444389e0af042a93f0da (recadrage carré).

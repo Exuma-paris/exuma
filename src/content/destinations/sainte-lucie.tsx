@@ -35,12 +35,12 @@ export const destination: Destination = {
         "Sainte-Lucie se reconnaît de loin, à ces deux montagnes qui sortent de la mer au-dessus de Soufrière. L'île est verte jusqu'au bord de l'eau, et la forêt descend si près des baies qu'on l'entend depuis le bateau. On passe la journée au mouillage, on remonte dîner au-dessus de la vallée, et l'on s'endort avec le bruit de la pluie sur les feuilles. C'est cette île-là que nous vous ouvrons.",
       images: [
         {
-          src: "/destination/sainte-lucie/hero-1.png",
-          alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton vus depuis la mer",
+          src: "/destination/sainte-lucie/hero-1.webp",
+          alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton au-dessus de la baie, vus depuis les hauteurs de Soufrière",
         },
         {
-          src: "/destination/sainte-lucie/hero-2.png",
-          alt: "La baie de Marigot et sa langue de sable plantée de cocotiers",
+          src: "/destination/sainte-lucie/hero-2.webp",
+          alt: "La baie de Marigot vue du ciel, sa langue de sable plantée de cocotiers et les voiliers au mouillage",
         },
         {
           src: "/destination/sainte-lucie/hero-3.png",
@@ -550,8 +550,8 @@ export const destination: Destination = {
           quote:
             "Nous avons fait la sortie en bateau devant les Pitons le premier soir, et nous l'avons refaite la veille du départ. Le skipper nous attendait chaque matin avec une idée différente.",
           image: {
-            src: "/destination/sainte-lucie/hero-1.png",
-            alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton vus depuis la mer"
+            src: "/destination/sainte-lucie/hero-1.webp",
+            alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton au-dessus de la baie, vus depuis les hauteurs de Soufrière"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Sainte-Lucie, mars 2026", // TODO: à vérifier (replace with real testimonial)
@@ -561,8 +561,8 @@ export const destination: Destination = {
           quote:
             "Les enfants ont passé la semaine entre la plage et le récif, et ils sont rentrés avec les tablettes de chocolat qu'ils avaient fabriquées eux-mêmes. Nous n'avons eu à nous occuper de rien.",
           image: {
-            src: "/destination/sainte-lucie/hero-2.png",
-            alt: "La baie de Marigot et sa langue de sable plantée de cocotiers"
+            src: "/destination/sainte-lucie/hero-2.webp",
+            alt: "La baie de Marigot vue du ciel, sa langue de sable plantée de cocotiers et les voiliers au mouillage"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Sainte-Lucie en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
