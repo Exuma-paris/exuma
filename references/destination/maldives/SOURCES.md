@@ -39,3 +39,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 | `map-vaavu.webp` | Wikimedia Commons : File:Vaavu Atoll, Maldives - panoramio (28).jpg | CC BY 3.0 |
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 - `split-2.webp` : https://www.coralive.org/wp-content/uploads/2024/08/2024-05-03_GH5ii_089-1024x768.jpg (Coralive, recadrage carré, agrandissement fidèle Gemini).
+- `xp-dhoni.webp` : https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/632cccc8f0558.jpg/840x840/fit;c:0,0,1180,1180/80/eda868a270f062f386b89fadd4d2cb99.jpg (COMO Hotels, agrandissement fidèle Gemini).

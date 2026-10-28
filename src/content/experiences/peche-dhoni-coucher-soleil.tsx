@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Un dhoni de bois privatisé pour vous, avec les pêcheurs d'une île habitée, pour une sortie à la ligne à main. On rentre à la nuit et la prise passe sur le grill, sur la plage.",
   keywords: ["maldives", "dhoni", "peche", "ile habitee", "coucher de soleil"],
   heroImage: {
-    src: "/destination/maldives/xp-dhoni.png",
-    alt: "Pêcheurs maldiviens à la ligne à main sur un dhoni au coucher du soleil",
+    src: "/destination/maldives/xp-dhoni.webp",
+    alt: "Dhoni traditionnel à voile privatisé pour un couple, au coucher du soleil sur l'océan Indien",
   },
   destinationSlugs: ["maldives"],
   sections: [],
