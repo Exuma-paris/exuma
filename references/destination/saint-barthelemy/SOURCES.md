@@ -42,3 +42,4 @@ Deux visuels de la page ne figurent pas dans ce tableau : la carte du déjeuner 
 | --- | --- | --- | --- |
 | `xp-corossol.webp` | — | Généré par IA (texte seul) | Interne |
 - `hero-1.webp` : https://cdn.prod.rexby.com/image/a438922278564b1184ae2cef83f23384 (recadrage carré, couleurs adoucies).
+- `hero-3.webp` : https://www.yonder.fr/sites/default/files/styles/mobile_360x484/public/destinations/AdobeStock_294776309.jpg (Adobe Stock via Yonder, recadrage carré, agrandissement fidèle Gemini).

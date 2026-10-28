@@ -44,8 +44,8 @@ export const destination: Destination = {
           alt: "La baie de Saint-Jean et son rocher en fin d'après-midi",
         },
         {
-          src: "/destination/saint-barthelemy/hero-3.png",
-          alt: "Voiliers au mouillage devant le port de Gustavia",
+          src: "/destination/saint-barthelemy/hero-3.webp",
+          alt: "Le port de Gustavia, ses yachts à quai et ses maisons aux toits rouges",
         },
       ],
     },
@@ -618,8 +618,8 @@ export const destination: Destination = {
           quote:
             "Le déjeuner à Colombier restera notre meilleur souvenir. La table était dressée à l'ombre quand nous sommes arrivés par la mer, et personne n'est venu de tout l'après-midi.",
           image: {
-            src: "/destination/saint-barthelemy/hero-3.png",
-            alt: "Voiliers au mouillage devant le port de Gustavia"
+            src: "/destination/saint-barthelemy/hero-3.webp",
+            alt: "Le port de Gustavia, ses yachts à quai et ses maisons aux toits rouges"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Saint-Barthélemy, mars 2026", // TODO: à vérifier (replace with real testimonial)
