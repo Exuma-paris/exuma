@@ -13,3 +13,13 @@
 | Output          | Reference file | Source URL                 | License |
 | --------------- | -------------- | -------------------------- | ------- |
 | `xp-aride.webp` | —              | Généré par IA (texte seul) | Interne |
+
+## Bento
+
+| Image | Source | Droits |
+|---|---|---|
+| `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+| `bento-adresses.webp` | Wikimedia Commons : File:Beach Anse Georgette, Anse Georgette, Praslin Seychelles islands (25745928388).jpg (https://commons.wikimedia.org/wiki/File:Beach_Anse_Georgette,_Anse_Georgette,_Praslin_Seychelles_islands_(25745928388).jpg) | CC BY 2.0 |
+| `bento-aerien.webp` | Wikimedia Commons : File:Amazing beach Anse Source d'Argent aerial, La Digue Seychelles (38908870524).jpg (https://commons.wikimedia.org/wiki/File:Amazing_beach_Anse_Source_d%27Argent_aerial,_La_Digue_Seychelles_(38908870524).jpg) | CC BY 2.0 |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-experience.webp` | Wikimedia Commons : File:Curieuse Marine National Park Aldabra giant tortoise.JPG (https://commons.wikimedia.org/wiki/File:Curieuse_Marine_National_Park_Aldabra_giant_tortoise.JPG) | CC BY-SA 4.0 |

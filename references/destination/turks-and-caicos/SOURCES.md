@@ -31,3 +31,18 @@ Each generated image in `public/destination/turks-and-caicos/` was produced by f
 | `map-grand-turk.png`          | `map-grand-turk-ref.jpg`           | TODO       | TODO    |
 
 Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no separate files.
+
+## Sources images définitives (webp)
+
+| Image | Source | Droits |
+|---|---|---|
+| `map-providenciales.webp` | Wikimedia Commons : File:Providenciales beach 02.jpg (https://commons.wikimedia.org/wiki/File:Providenciales_beach_02.jpg) | CC BY-SA 4.0, Chrissymad |
+| `map-west-caicos.webp` | Wikimedia Commons : File:ISS015 - View of West Caicos.jpg (https://commons.wikimedia.org/wiki/File:ISS015_-_View_of_West_Caicos.jpg) | Domaine public (NASA) |
+| `map-chalk-sound.webp` | Wikimedia Commons : File:Chalk Sound.jpg (https://commons.wikimedia.org/wiki/File:Chalk_Sound.jpg) | CC BY-SA 2.0 |
+| `map-middle-caicos.webp` | Wikimedia Commons : File:Dragon Cay.jpg (https://commons.wikimedia.org/wiki/File:Dragon_Cay.jpg) | CC BY-SA 2.0 |
+| `map-parrot-cay.webp` | Wikimedia Commons : File:Parrot Cay sunset.JPG (https://commons.wikimedia.org/wiki/File:Parrot_Cay_sunset.JPG), 640×480 agrandie fidèlement par IA (edit_photo.py) | CC BY-SA 3.0, DrooRadley |
+| `map-grand-turk.webp` | Wikimedia Commons : File:TC-grand-turk-cockburn-strand.jpg (https://commons.wikimedia.org/wiki/File:TC-grand-turk-cockburn-strand.jpg) | CC BY-SA 4.0 |
+| `bento-map.webp` | mkmap.py (contours OpenStreetMap / Nominatim) | ODbL |
+| `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
+| `bento-adresses.webp` | Générée par IA (gen_text, Gemini) : table sur la plage de Blue Hills | image générée |
+| `bento-experiences.webp` | Générée par IA (gen_text, Gemini) : voilier classique sur le banc des Caïques | image générée |
