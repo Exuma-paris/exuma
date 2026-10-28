@@ -47,3 +47,5 @@ Each generated image in `public/destination/fidji/` was produced by feeding the 
 - `full-image.webp` : Travel + Leisure (Sarah Post) — vue aérienne de Turtle Island — recadré 16/9. ⚠ droits à vérifier.
 - `xp-sawa-i-lau-1.webp` : Blue Lagoon Cruises — https://www.bluelagooncruises.com/library/files/YasawaPrincess/sawa-i-lau.jpg — recadré 3/2. ⚠ droits à vérifier.
 - `xp-sawa-i-lau-2.webp` : vignette Google (intérieur de la grotte) — redessinée en HD et deux nageurs ajoutés par IA (Gemini) à la demande de Thea. ⚠ droits à vérifier.
+- `xp-great-astrolabe.webp` : https://www.diveworldwide.com/images/products/south-pacific-fiji-soft-coral-reef-scene-thumbnail.webp (recadrage carré, agrandissement fidèle Gemini).
+- `xp-requins-beqa.webp` : https://diveotion.com/wp-content/uploads/2023/12/beqa-shark-dive-fiji-shutterstock_685058101-2-768x512.jpg (Shutterstock 685058101, recadrage carré, agrandissement fidèle Gemini).
