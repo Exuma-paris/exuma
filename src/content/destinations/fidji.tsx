@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/fidji/split-1.png",
-          alt: "Coraux mous du détroit de Somosomo au large de Taveuni aux Fidji",
+          src: "/destination/fidji/split-1.webp",
+          alt: "Coraux mous et éponges du récif des Fidji, au large de Taveuni",
         },
         {
-          src: "/destination/fidji/split-2.png",
-          alt: "Coupe de kava partagée dans un village des hautes terres de Viti Levu",
+          src: "/destination/fidji/split-2.webp",
+          alt: "Préparation du lovo, le repas cuit dans un four enterré, aux Fidji",
         },
       ],
     },

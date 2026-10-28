@@ -42,3 +42,5 @@ Each generated image in `public/destination/fidji/` was produced by feeding the 
 - `hero-1.webp` : Booking.com (photo d'hôtel) — https://cf.bstatic.com/xdata/images/hotel/max1024x768/647511655.webp — recadrée, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
 - `hero-3.webp` : Tripadvisor — https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/68/9b/2a/caption.jpg — ciel remplacé par un ciel bleu (Gemini) à la demande de Thea. ⚠ droits à vérifier.
 - `hero-2.webp` : Wikimedia Commons (voir ligne pickmaps ci-dessus), remplace la photo Dreamstime filigranée proposée.
+- `split-1.webp` : Seacrush (croisière Naia) — https://assets.prod.seacrush.com/content/trips/naia_fiji/img/19_naia_fiji_Naia_UW_101_3840__.webp — recadré portrait. ⚠ droits à vérifier.
+- `split-2.webp` : Tripadvisor (Novotel Suva Lami Bay) — https://media-cdn.tripadvisor.com/media/photo-s/03/67/a3/a6/novotel-suva-lami-bay.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
