@@ -35,7 +35,7 @@ const simplify = (pts, tol) => {
 const simplified = rings.map((r) => simplify(r, 0.0015)).filter((r) => r.length > 4);
 
 // --- projection: equirectangular, longitude corrected for mean latitude ----
-const all = simplified.flat();
+const all = [...simplified.flat(), [73.35,5.85],[73.15,5.2917],[73.5093,4.1755],[73.5,3.45],[72.84,3.47],[73.45,1.9333]];
 const lons = all.map((p) => p[0]), lats = all.map((p) => p[1]);
 const lon0 = Math.min(...lons), lon1 = Math.max(...lons);
 const lat0 = Math.min(...lats), lat1 = Math.max(...lats);
@@ -43,7 +43,7 @@ const kx = Math.cos((((lat0 + lat1) / 2) * Math.PI) / 180);
 
 // The card overlays its title and copy bottom-left, so the landmass is inset to
 // the right — same balance as the Maurice tile.
-const BOX = { x: 1200, y: 20, w: 380, h: 640 };
+const BOX = { x: 1000, y: 20, w: 560, h: 790 };
 const spanX = (lon1 - lon0) * kx, spanY = lat1 - lat0;
 const s = Math.min(BOX.w / spanX, BOX.h / spanY);
 const offX = BOX.x + (BOX.w - spanX * s) / 2;
