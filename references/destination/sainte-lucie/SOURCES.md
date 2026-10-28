@@ -48,3 +48,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`.
 - `split-1.webp` : https://i0.wp.com/stlucia.org/wp-content/uploads/2026/04/toraille-waterfall.jpg (office de tourisme, cascade de Toraille, recadrage portrait).
 - `split-2.webp` : https://images.partir.com/gAevNcaZcyswI61DuDaS_xGhUB8=/550x366/filters:sharpen(0.3,0.3,true)/lieux-interet/sainte-lucie/sainte-lucie-sources-geothermales.jpg (recadrage carré, agrandissement fidèle Gemini).
 - `xp-arbre-au-chocolat.webp` : https://www.fao.org/media/images/newsroomlibraries/stories-images/st-lucia-cocoa-3.jpg (FAO, recadrage carré).
+- `xp-helicoptere.webp` : image générée par IA (Gemini). La photo proposée (Corail Hélicoptères) montrait Takamaka, à La Réunion, avec le logo de l'opérateur.
