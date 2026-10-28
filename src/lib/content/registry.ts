@@ -679,7 +679,7 @@ import { accommodation as calabashHotel } from "@/content/accommodations/calabas
 import { accommodation as kokomoPrivateIsland } from "@/content/accommodations/kokomo-private-island";
 import { accommodation as laucalaIsland } from "@/content/accommodations/laucala-island";
 import { accommodation as silversandsGrandAnse } from "@/content/accommodations/silversands-grand-anse";
-import { accommodation as sixSensesFiji } from "@/content/accommodations/six-senses-fiji";
+import { accommodation as turtleIslandFidji } from "@/content/accommodations/turtle-island-fidji";
 import { accommodation as sixSensesLaSagesse } from "@/content/accommodations/six-senses-la-sagesse";
 import { accommodation as exploraRapaNui } from "@/content/accommodations/explora-rapa-nui";
 import { accommodation as nayaraHangaroa } from "@/content/accommodations/nayara-hangaroa";
@@ -1145,7 +1145,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   ladera,
   laucalaIsland,
   silversandsGrandAnse,
-  sixSensesFiji,
+  turtleIslandFidji,
   sixSensesLaSagesse,
   sugarBeachViceroy,
   exploraRapaNui,

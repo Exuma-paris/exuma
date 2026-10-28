@@ -73,7 +73,7 @@ export const destination: Destination = {
       columns: [
         "Un voyage aux Fidji commence à Nadi, sur la côte sèche de Viti Levu, mais il se décide vraiment le jour où l'on monte dans le bateau qui s'éloigne de la côte. Les Mamanuca apparaissent presque aussitôt, les Yasawa un peu plus loin, avec leurs falaises de calcaire et le passage de Drawaqa où les raies manta remontent le courant de mai à octobre. Plus au sud, Kadavu vit à l'abri du Great Astrolabe Reef, l'une des plus grandes barrières de corail du monde.",
         "Ce qui frappe en arrivant, c'est l'accueil. On dit bula à chaque croisement, et il faut peu de temps pour comprendre que ce n'est pas une formule. Dans les hautes terres de Ba, le village de Navala a gardé ses bures couvertes de chaume, les seules qui subsistent en nombre dans le pays. On y entre en offrant une racine de yaqona au chef, et la cérémonie se prend au sérieux.",
-        "Les maisons où nous vous installons occupent chacune leur île. L'une couvre douze kilomètres carrés au large de Taveuni et se réserve en entier. Une autre s'atteint en hydravion, à quarante-cinq minutes de Nadi, avec le récif qui commence devant la plage. La troisième fonctionne au solaire dans les Mamanuca, à portée de bateau du continent. Nous les choisissons pour leur distance autant que pour leur table.",
+        "Les maisons où nous vous installons occupent chacune leur île. L'une couvre douze kilomètres carrés au large de Taveuni, et l'on peut la privatiser. Une autre s'atteint en hydravion, à quarante-cinq minutes de Nadi, avec le récif qui commence devant la plage. La troisième, dans les Yasawa, ne compte que quatorze bures face au lagon. Nous les choisissons pour leur distance autant que pour leur table.",
       ],
     },
 
@@ -152,8 +152,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Une île entière, ou un récif au bout de la plage",
       description:
-        "Douze kilomètres carrés que l'on peut réserver en entier au large de Taveuni, vingt et une villas posées devant le Great Astrolabe Reef, et une maison solaire dans les Mamanuca. Nous les proposons selon la distance que vous voulez mettre entre vous et le reste.",
-      slugs: ["laucala-island", "kokomo-private-island", "six-senses-fiji"],
+        "Douze kilomètres carrés que l'on peut privatiser au large de Taveuni, vingt et une villas posées devant le Great Astrolabe Reef, et quatorze bures sur une île privée des Yasawa. Nous les proposons selon la distance que vous voulez mettre entre vous et le reste.",
+      slugs: ["laucala-island", "kokomo-private-island", "turtle-island-fidji"],
     },
 
     {
@@ -230,7 +230,7 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure aux Fidji entre les Mamanuca, les Yasawa et Kadavu",
             "Table de chef dressée sur une plage des Fidji, entre lanternes et torches",
-            "Hébergements aux Fidji : Laucala Island, Kokomo Private Island et Six Senses Fiji",
+            "Hébergements aux Fidji : Laucala Island, Kokomo Private Island et Turtle Island",
             "Conseillère Exuma souriante, casque sur les oreilles",
             "Plongeur au-dessus des coraux du Great Astrolabe Reef, une raie manta au loin, Fidji",
           ][i],
@@ -251,7 +251,7 @@ export const destination: Destination = {
         {
           title: "Les Mamanuca",
           description:
-            "L'archipel le plus proche de Nadi, atteint en vingt minutes de bateau rapide. Malolo, Monuriki et leurs voisines alignent des plages abritées et un récif franchissable à la nage. C'est là que se posent les séjours courts et les arrivées de nuit.",
+            "L'archipel le plus proche de Nadi, à trente à cinquante minutes de bateau rapide. Malolo, Monuriki et leurs voisines alignent des plages abritées et un récif franchissable à la nage. C'est là que se posent les séjours courts et les arrivées de nuit.",
           image: {
             src: "/destination/fidji/map-mamanuca.webp",
             alt: "Plage et lagon d’une île des Mamanuca aux Fidji",
@@ -335,8 +335,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                Les Mamanuca sont à vingt minutes de bateau de Nadi, les Yasawa
-                à une heure d&apos;hydravion, Taveuni et Kadavu à un vol
+                Les Mamanuca sont à moins d&apos;une heure de bateau de Nadi, les Yasawa
+                à une demi-heure d&apos;hydravion, Taveuni et Kadavu à un vol
                 régional, les Lau à deux jours de mer. Plus on s&apos;éloigne,
                 moins on croise de monde, et plus il faut consacrer de journées
                 au trajet lui-même.
