@@ -237,7 +237,7 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure à Saint-Barthélemy entre Gustavia, Flamands et Colombier",
             "Table dressée sur le sable d’une anse sans route, Saint-Barthélemy",
-            "Hébergements à Saint-Barthélemy : Cheval Blanc, Le Guanahani et Eden Rock",
+            "Terrasse créole d'une suite avec piscine privée, face à une baie de Saint-Barthélemy",
             "Conseillère Exuma souriante, casque sur les oreilles",
             "Voilier au mouillage dans la baie de l’Île Fourchue, au large de Saint-Barthélemy",
           ][i],

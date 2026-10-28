@@ -14,8 +14,8 @@ export const experience: Experience = {
     "navigation",
   ],
   heroImage: {
-    src: "/destination/saint-barthelemy/xp-regate.png",
-    alt: "Voilier de régate sous grand-voile au large de Gustavia à Saint-Barthélemy",
+    src: "/destination/saint-barthelemy/xp-regate.webp",
+    alt: "Voilier de régate gîtant sous grand-voile au large de Gustavia, l'équipage au rappel et un invité à la barre",
   },
   destinationSlugs: ["saint-barthelemy"],
   sections: [],

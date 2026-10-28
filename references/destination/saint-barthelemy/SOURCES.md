@@ -51,3 +51,5 @@ Deux visuels de la page ne figurent pas dans ce tableau : la carte du déjeuner 
 - `xp-ile-fourchue-2.webp` : image générée par IA (Gemini), palette accordée à xp-ile-fourchue-1.
 - `hotel-guanahani.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzF0xyUAgLgmz3TphRwNx9jh-q8Zoy0LMp73UqGTMChxJin_Z43M2FSCU), recadrage carré, agrandissement fidèle Gemini.
 - `hotel-eden-rock.webp` : https://images.eu.ctfassets.net/og3b0tarlg4b/4hOzUo7hEeAhCJe0tRhf7S/2974563eb012cfaa2ef36578c684550a/ntlguxn5.png (recadrage carré).
+- `xp-regate.webp` : image générée par IA (Gemini), aucune photo libre trouvée sur Commons.
+- `bento-hebergements.webp` : image générée par IA (Gemini), terrasse d'hôtel générique sans adresse nommée.
