@@ -40,3 +40,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+- `xp-gros-piton.webp` : image générée par IA (Gemini), sans référence.
