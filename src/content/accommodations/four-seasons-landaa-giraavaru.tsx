@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["maldives", "baa", "four seasons", "landaa giraavaru", "biologie marine", "manta"],
   heroImage: {
     src: "/destination/maldives/hotel-landaa-giraavaru.webp",
-    alt: "Villas sur pilotis du Four Seasons Landaa Giraavaru dans l'atoll de Baa",
+    alt: "Villa sur pilotis au toit de chaume et sa piscine sur le lagon, Four Seasons Landaa Giraavaru, atoll de Baa",
   },
   destinationSlugs: ["maldives"],
   sections: [],
