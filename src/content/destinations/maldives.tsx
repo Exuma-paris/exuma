@@ -10,7 +10,7 @@ export const destination: Destination = {
   country: "Maldives",
   genitive: "des Maldives",
   projectNote:
-    "L'archipel se choisit atoll par atoll : l'un pour son corail, l'autre pour son silence, l'hydravion relie les deux. À Laamu, un seul hôtel occupe l'atoll entier.",
+    "L'archipel se choisit atoll par atoll : l'un pour son corail, l'autre pour son silence, l'hydravion relie les deux. À Laamu, deux hôtels seulement se partagent l'atoll.",
   continentSlug: "iles-oceanie", // TODO: verify continent (géographiquement Asie, océan Indien) regroupé ici avec les destinations îles/lagon
   blurb: "Baa, Noonu, Laamu, Ari, Vaavu",
   keywords: [
@@ -73,7 +73,7 @@ export const destination: Destination = {
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Maldives commence par le choix d'un atoll. L'archipel s'étire du nord au sud dans l'océan Indien, et chaque atoll y dessine un anneau de corail autour d'un lagon clair. Les îles se traversent en quelques pas, des cocotiers et une plage qui en fait le tour, et l'eau reste agréable toute l'année. C'est un pays qui se vit au ras de la mer, dans une lumière que rien n'arrête.",
-        "Le séjour s'organise ensuite atoll par atoll. On arrive à Malé, puis l'hydravion se pose devant l'île, toujours de jour. Baa abrite la baie de Hanifaru, où les raies manta se rassemblent une partie de l'année sous la protection de la réserve de biosphère. Noonu garde les grands lagons du nord et les adresses les plus discrètes du pays. Plus au sud, Laamu se partage entre un seul hôtel et une équipe de biologistes marins. Chaque étape a sa raison d'être, et c'est elle qui donne au séjour sa couleur.",
+        "Le séjour s'organise ensuite atoll par atoll. On arrive à Malé, puis l'hydravion se pose devant l'île, toujours de jour. Baa abrite la baie de Hanifaru, où les raies manta se rassemblent une partie de l'année sous la protection de la réserve de biosphère. Noonu garde les grands lagons du nord et les adresses les plus discrètes du pays. Plus au sud, Laamu ne compte que deux hôtels, dont l'un abrite une équipe de biologistes marins. Chaque étape a sa raison d'être, et c'est elle qui donne au séjour sa couleur.",
         "« La plus belle question à se poser avant de choisir son île, c'est de savoir ce que l'on verra en entrant dans l'eau depuis la plage. »",
       ],
     },
@@ -90,10 +90,11 @@ export const destination: Destination = {
     {
       type: "textImagesSplit",
       eyebrow: "Atoll de Laamu",
-      heading: "Laamu, un atoll et un seul hôtel",
+      heading: "Laamu, l'atoll que l'on garde pour soi",
       theme: "light",
       paragraphs: [
-        "Laamu, l'un des atolls les plus au sud des Maldives, n'accueille qu'un seul hôtel. Le lagon y reste calme et peu fréquenté toute la journée. De juin à septembre, une vague de récif appelée Yin Yang attire les surfeurs sur la pointe est.",
+        "Laamu, l'un des atolls les plus au sud des Maldives, est à cinquante minutes de vol intérieur depuis Malé. Il ne compte que deux hôtels pour plus de quatre-vingts îles. Le lagon y reste calme et presque désert toute la journée, et l'on y croise plus souvent des pêcheurs que des bateaux d'excursion.",
+        "De juin à septembre, une vague de récif appelée Yin Yang attire les surfeurs sur la pointe est. Le reste de l'année, on part en dhoni vers les bancs de sable du large, ou l'on plonge avec les raies manta du chenal d'Hithadhoo.",
         "Le matin, on peut visiter le laboratoire marin de l'hôtel. Les biologistes y suivent les herbiers, le corail et les raies manta, soignent les tortues prises dans les filets et répondent aux questions des visiteurs.",
       ],
       images: [
@@ -102,8 +103,8 @@ export const destination: Destination = {
           alt: "Ponton de bois et villas sur pilotis de l'atoll de Laamu aux Maldives",
         },
         {
-          src: "/destination/maldives/split-2.png",
-          alt: "Biologiste marin examinant une bouture de corail dans une pépinière",
+          src: "/destination/maldives/split-2.webp",
+          alt: "Deux plongeurs biologistes entretiennent une table de corail dans une pépinière sous-marine des Maldives",
         },
       ],
     },

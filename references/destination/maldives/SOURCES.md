@@ -38,3 +38,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 
 | `map-vaavu.webp` | Wikimedia Commons : File:Vaavu Atoll, Maldives - panoramio (28).jpg | CC BY 3.0 |
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
+- `split-2.webp` : https://www.coralive.org/wp-content/uploads/2024/08/2024-05-03_GH5ii_089-1024x768.jpg (Coralive, recadrage carré, agrandissement fidèle Gemini).
