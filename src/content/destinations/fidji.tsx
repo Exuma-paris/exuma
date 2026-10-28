@@ -230,7 +230,7 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure aux Fidji entre les Mamanuca, les Yasawa et Kadavu",
             "Table de chef dressée sur une plage des Fidji, entre lanternes et torches",
-            "Hébergements aux Fidji : Laucala Island, Kokomo Private Island et Turtle Island",
+            "Bure au toit de chaume et piscine privée face au lagon, sur une île des Fidji",
             "Conseillère Exuma souriante, casque sur les oreilles",
             "Plongeur au-dessus des coraux du Great Astrolabe Reef, une raie manta au loin, Fidji",
           ][i],
