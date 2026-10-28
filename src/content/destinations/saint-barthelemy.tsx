@@ -82,8 +82,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/saint-barthelemy/full-image.png",
-        alt: "Voyage à Saint-Barthélemy : la plage de Grande Saline et les collines qui la ferment",
+        src: "/destination/saint-barthelemy/full-image.webp",
+        alt: "Voyage à Saint-Barthélemy : l'anse de Grande Saline et son eau turquoise, entre les mornes secs du sud de l'île",
       },
       height: 600,
     },
