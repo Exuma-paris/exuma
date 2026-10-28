@@ -51,3 +51,4 @@ Each generated image in `public/destination/fidji/` was produced by feeding the 
 - `xp-requins-beqa.webp` : https://diveotion.com/wp-content/uploads/2023/12/beqa-shark-dive-fiji-shutterstock_685058101-2-768x512.jpg (Shutterstock 685058101, recadrage carré, agrandissement fidèle Gemini).
 - `hotel-laucala.webp` : https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1463577.jpg (Tablet Hotels, agrandissement fidèle Gemini).
 - `hotel-kokomo.webp` : https://hiddendoorwaystravel.com/wp-content/uploads/2021/08/Kokomo-Private-Island-3-Bedroom-Sunset-Villa-.jpg (recadrage carré).
+- `hotel-turtle-island.webp` : https://www.turtlefiji.com/wp-content/uploads/2020/05/Private-Beach-Picnics_Turtle-Island-Fiji-scaled-1.jpg (site officiel, recadrage carré).

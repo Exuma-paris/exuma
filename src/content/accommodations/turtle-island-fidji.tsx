@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["fidji", "yasawa", "ile privee", "bures", "lagon"],
   heroImage: {
     src: "/destination/fidji/hotel-turtle-island.webp",
-    alt: "Bure au toit de chaume face au lagon de Turtle Island, îles Yasawa",
+    alt: "Déjeuner privé sous un pavillon de plage face au lagon de Turtle Island, îles Yasawa",
   },
   destinationSlugs: ["fidji"],
   sections: [],
