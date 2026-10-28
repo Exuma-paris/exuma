@@ -560,7 +560,7 @@ import { accommodation as sublimeComporta } from "@/content/accommodations/subli
 import { accommodation as olissippoLapaPalace } from "@/content/accommodations/olissippo-lapa-palace";
 import { accommodation as sonevaJani } from "@/content/accommodations/soneva-jani";
 import { accommodation as chevalBlancRandheli } from "@/content/accommodations/cheval-blanc-randheli";
-import { accommodation as sixSensesLaamu } from "@/content/accommodations/six-senses-laamu";
+import { accommodation as fourSeasonsLandaaGiraavaru } from "@/content/accommodations/four-seasons-landaa-giraavaru";
 import { accommodation as theAlpinaGstaad } from "@/content/accommodations/the-alpina-gstaad";
 import { accommodation as hotel7132Vals } from "@/content/accommodations/hotel-7132-vals";
 import { accommodation as castelloDelSoleAscona } from "@/content/accommodations/castello-del-sole-ascona";
@@ -1303,7 +1303,7 @@ export const accommodations: Record<string, Accommodation> = toMap([
   sixSensesBhutan,
   sixSensesDouroValley,
   sixSensesKaplankaya,
-  sixSensesLaamu,
+  fourSeasonsLandaaGiraavaru,
   sonBunyola,
   sonevaJani,
   songSaaPrivateIsland,

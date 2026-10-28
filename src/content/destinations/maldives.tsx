@@ -73,7 +73,7 @@ export const destination: Destination = {
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Maldives commence par le choix d'un atoll. L'archipel s'étire du nord au sud dans l'océan Indien, et chaque atoll y dessine un anneau de corail autour d'un lagon clair. Les îles se traversent en quelques pas, des cocotiers et une plage qui en fait le tour, et l'eau reste agréable toute l'année. C'est un pays qui se vit au ras de la mer, dans une lumière que rien n'arrête.",
-        "Le séjour s'organise ensuite atoll par atoll. On arrive à Malé, puis l'hydravion se pose devant l'île, toujours de jour. Baa abrite la baie de Hanifaru, où les raies manta se rassemblent une partie de l'année sous la protection de la réserve de biosphère. Noonu garde les grands lagons du nord et les adresses les plus discrètes du pays. Plus au sud, Laamu ne compte que deux hôtels, dont l'un abrite une équipe de biologistes marins. Chaque étape a sa raison d'être, et c'est elle qui donne au séjour sa couleur.",
+        "Le séjour s'organise ensuite atoll par atoll. On arrive à Malé, puis l'hydravion se pose devant l'île, toujours de jour. Baa abrite la baie de Hanifaru, où les raies manta se rassemblent une partie de l'année sous la protection de la réserve de biosphère. Noonu garde les grands lagons du nord et les adresses les plus discrètes du pays. Plus au sud, Laamu reste l'un des atolls les moins fréquentés du pays. Chaque étape a sa raison d'être, et c'est elle qui donne au séjour sa couleur.",
         "« La plus belle question à se poser avant de choisir son île, c'est de savoir ce que l'on verra en entrant dans l'eau depuis la plage. »",
       ],
     },
@@ -154,7 +154,7 @@ export const destination: Destination = {
       heading: "Où séjourner",
       description:
         "Trois façons d'habiter un atoll : la villa qui s'ouvre sur le ciel, la maison de maître au large, le camp de base marin. Le niveau se lit dans le texte, pas dans les étoiles.",
-      slugs: ["soneva-jani", "cheval-blanc-randheli", "six-senses-laamu"],
+      slugs: ["soneva-jani", "cheval-blanc-randheli", "four-seasons-landaa-giraavaru"],
     },
 
     {
