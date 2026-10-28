@@ -47,3 +47,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`.
 - `full-image.webp` : https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/240968846.jpg (Booking.com, photo hôtel Anse Chastanet), recadrage 16/9, agrandissement fidèle Gemini, désaturée.
 - `split-1.webp` : https://i0.wp.com/stlucia.org/wp-content/uploads/2026/04/toraille-waterfall.jpg (office de tourisme, cascade de Toraille, recadrage portrait).
 - `split-2.webp` : https://images.partir.com/gAevNcaZcyswI61DuDaS_xGhUB8=/550x366/filters:sharpen(0.3,0.3,true)/lieux-interet/sainte-lucie/sainte-lucie-sources-geothermales.jpg (recadrage carré, agrandissement fidèle Gemini).
+- `xp-arbre-au-chocolat.webp` : https://www.fao.org/media/images/newsroomlibraries/stories-images/st-lucia-cocoa-3.jpg (FAO, recadrage carré).
