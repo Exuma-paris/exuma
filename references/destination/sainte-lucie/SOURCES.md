@@ -49,3 +49,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`.
 - `split-2.webp` : https://images.partir.com/gAevNcaZcyswI61DuDaS_xGhUB8=/550x366/filters:sharpen(0.3,0.3,true)/lieux-interet/sainte-lucie/sainte-lucie-sources-geothermales.jpg (recadrage carré, agrandissement fidèle Gemini).
 - `xp-arbre-au-chocolat.webp` : https://www.fao.org/media/images/newsroomlibraries/stories-images/st-lucia-cocoa-3.jpg (FAO, recadrage carré).
 - `xp-helicoptere.webp` : image générée par IA (Gemini). La photo proposée (Corail Hélicoptères) montrait Takamaka, à La Réunion, avec le logo de l'opérateur.
+- `hotel-jade-mountain.webp` : https://jademountain.com/wp-content/uploads/2026/06/jade-aerial.webp (site officiel, agrandissement fidèle Gemini).
