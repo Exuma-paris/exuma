@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/sainte-lucie/split-1.png",
-          alt: "Cascade au milieu de la forêt tropicale au-dessus de Soufrière à Sainte-Lucie",
+          src: "/destination/sainte-lucie/split-1.webp",
+          alt: "La cascade de Toraille dans la forêt tropicale au-dessus de Soufrière, à Sainte-Lucie",
         },
         {
-          src: "/destination/sainte-lucie/split-2.png",
-          alt: "Bassin d'eau chaude fumant au pied du volcan de Soufrière",
+          src: "/destination/sainte-lucie/split-2.webp",
+          alt: "Fumerolles du volcan de Soufrière, au milieu des roches de soufre et de la forêt",
         },
       ],
     },
