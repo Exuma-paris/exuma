@@ -42,3 +42,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
 - `xp-gros-piton.webp` : image générée par IA (Gemini), sans référence.
 - `xp-colombier.webp` : image générée par IA (Gemini), pique-nique à Colombier.
+- `hotel-cheval-blanc.webp` : https://media-cdn.tripadvisor.com/media/photo-s/31/d4/cd/d8/cheval-blanc-st-barth.jpg (Tripadvisor, recadrage carré, agrandissement fidèle Gemini).
