@@ -53,3 +53,4 @@ Deux visuels de la page ne figurent pas dans ce tableau : la carte du déjeuner 
 - `hotel-eden-rock.webp` : https://images.eu.ctfassets.net/og3b0tarlg4b/4hOzUo7hEeAhCJe0tRhf7S/2974563eb012cfaa2ef36578c684550a/ntlguxn5.png (recadrage carré).
 - `xp-regate.webp` : image générée par IA (Gemini), aucune photo libre trouvée sur Commons.
 - `bento-hebergements.webp` : image générée par IA (Gemini), terrasse d'hôtel générique sans adresse nommée.
+| `xp-corossol.webp` | Généré par IA (texte seul) | Interne |

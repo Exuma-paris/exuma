@@ -23,3 +23,4 @@
 | `bento-aerien.webp` | Wikimedia Commons : File:Amazing beach Anse Source d'Argent aerial, La Digue Seychelles (38908870524).jpg (https://commons.wikimedia.org/wiki/File:Amazing_beach_Anse_Source_d%27Argent_aerial,_La_Digue_Seychelles_(38908870524).jpg) | CC BY 2.0 |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-experience.webp` | Wikimedia Commons : File:Curieuse Marine National Park Aldabra giant tortoise.JPG (https://commons.wikimedia.org/wiki/File:Curieuse_Marine_National_Park_Aldabra_giant_tortoise.JPG) | CC BY-SA 4.0 |
+| `xp-aride.webp` | Généré par IA (texte seul) | Interne |

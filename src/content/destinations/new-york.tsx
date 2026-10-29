@@ -615,7 +615,7 @@ export const destination: Destination = {
             alt: "Enseignes lumineuses des théâtres de Broadway un soir d'hiver, Theater District"
           },
           name: "TODO", // TODO: replace with real testimonial
-          role: "Central Park, janvier 2026", // TODO: replace with real testimonial
+          role: "Central Park, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
     },
