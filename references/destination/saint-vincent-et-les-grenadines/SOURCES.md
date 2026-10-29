@@ -56,3 +56,5 @@ Note : la Cotton House réutilise `/destination/caraibes/hotel-cotton-house.png`
 - `hero-3.webp` (remplace la version Commons) : https://afar.brightspotcdn.com/…/original-mustique-613.jpg (Afar, recadrage carré, agrandissement fidèle Gemini).
 - `xp-tobago-cays-2.webp` (remplace la version Commons) : https://rentsailboat.fr/wp-content/uploads/2025/07/DJI_0678-1024x576.jpg (recadrage portrait, agrandissement Gemini, inscriptions de marque retirées du fanion).
 - `split-1.webp` (remplace la version Commons) : https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/9f/64/a3/le-mouillage-de-salt.jpg (Tripadvisor, recadrage portrait, agrandissement fidèle Gemini).
+- `split-2.webp` (remplace la version Commons) : https://www.uncommoncaribbean.com/wp-content/uploads/2014/02/Boats-along-Lower-Bay.jpg (recadrage carré, noms peints des barques retirés par Gemini).
+- `xp-voilier.webp` (remplace la version Commons) : https://www.bestjobersblog.com/wp-content/uploads/2019/01/16-Grenadines-Croisiere.jpg (blog Bestjobers, recadrage carré).

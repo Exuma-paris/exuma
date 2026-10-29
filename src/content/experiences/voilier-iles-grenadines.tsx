@@ -14,7 +14,7 @@ export const experience: Experience = {
   ],
   heroImage: {
     src: "/destination/saint-vincent-et-les-grenadines/xp-voilier.webp",
-    alt: "Voilier sous voiles au coucher du soleil au large de Petit St. Vincent",
+    alt: "Catamaran à l'ancre sur l'eau turquoise des Grenadines, un nageur au premier plan",
   },
   destinationSlugs: ["saint-vincent-et-les-grenadines"],
   sections: [],

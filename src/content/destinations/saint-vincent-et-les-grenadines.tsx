@@ -103,7 +103,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/saint-vincent-et-les-grenadines/split-2.webp",
-          alt: "Bateau de bois traditionnel tiré sur la plage d'Admiralty Bay, à Bequia, devant les goélettes",
+          alt: "Barques de pêche peintes tirées sur le sable de Lower Bay, à Bequia, face à Admiralty Bay",
         },
       ],
     },
