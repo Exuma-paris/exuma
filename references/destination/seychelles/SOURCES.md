@@ -38,3 +38,4 @@ Images générées par IA (Gemini) : `split-1.webp`, `split-2.webp`, `xp-eclosio
 - `xp-vol-helicoptere.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Aaj2j3BEO4U_NXGh6-hJQxhDDS7ZiV9Onl2_SQImDQ_oy4u8RhBKKhM), agrandissement fidèle Gemini.
 - `hotel-north-island.webp` : https://www.travelandleisure.com/thmb/MR-pramXkGYUD0m-4Ti0Zo289H4=/1500x0/…/north-island-seychelles-luxury-collection-resort-05-SEYCHELISLAND0722-….jpg (Travel + Leisure, recadrage carré).
 - `hotel-fregate-island.webp` : https://www.tropicalement-votre.com/produits/881/fiche1.jpg (recadrage carré, agrandissement fidèle Gemini).
+- `hotel-four-seasons-mahe.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVf7d_i7PfBgqx3CT4YQjrTiRi_A9aPrpr3WZ3zkRdSkFbikGnKtsK78Eo), recadrage carré, agrandissement fidèle Gemini.
