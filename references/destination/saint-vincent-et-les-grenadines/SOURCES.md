@@ -39,3 +39,17 @@ Note : la Cotton House réutilise `/destination/caraibes/hotel-cotton-house.png`
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+
+## Images (octobre 2026)
+
+- `hero-1.webp` : Wikimedia Commons, File:Tobagocays2018.jpg, CC BY-SA 4.0.
+- `hero-2.webp` : Wikimedia Commons, File:Admiralty Bay, Port Elizabeth, Bequia, St Vincent and the Grenadines - panoramio.jpg, CC BY 3.0.
+- `full-image.webp` : Wikimedia Commons, File:TobagoCaysAerial.jpg, CC BY 2.5.
+- `split-1.webp` : Wikimedia Commons, File:Saltwhistlebay.jpg, CC BY-SA 4.0.
+- `split-2.webp` : Wikimedia Commons, File:Admiralty Bay in Port Elizabeth, Bequia, part of St. Vincent and the Grenadines - panoramio (1).jpg, CC BY 3.0.
+- `hero-3.webp` : Wikimedia Commons, File:Macaroni Beach, Mustique - panoramio.jpg, CC BY 3.0.
+- `xp-tobago-cays-2.webp` : Wikimedia Commons, File:Tobago Keys - Grenadines - 02-1989 - panoramio.jpg, CC BY 3.0.
+- `xp-voilier.webp` : Wikimedia Commons, File:PSV Sunset Sail at Petit St. Vincent Island Resort - The Grenadines, St. Vincent, Caribbean..TIF, CC BY-SA 3.0.
+- `hotel-petit-saint-vincent.webp` : Wikimedia Commons, File:Petit St. Vincent Island Resort - The Grenadines, St. Vincent, Caribbean..jpg, CC BY-SA 3.0.
+- `bento-hebergements.webp` : Wikimedia Commons, File:PSV Room Service Flags at Petit St. Vincent Island Resort - The Grenadines, St. Vincent, Caribbean..jpg, CC BY-SA 3.0.
+- `xp-tobago-cays-1.webp`, `xp-cheval.webp` : images générées par IA (Gemini).

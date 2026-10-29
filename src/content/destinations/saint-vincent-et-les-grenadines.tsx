@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Trente-deux îles et cays se suivent ici du nord au sud, et l'on passe de l'une à l'autre en une heure de navigation. Mustique se garde derrière une compagnie privée, Bequia construit encore ses bateaux, et les Tobago Cays n'appartiennent à personne. On arrive le plus souvent par la mer, et c'est la meilleure façon de comprendre l'endroit. C'est cet archipel-là que nous vous ouvrons.",
       images: [
         {
-          src: "/destination/saint-vincent-et-les-grenadines/hero-1.png",
-          alt: "Voyage dans les Grenadines : le mouillage des Tobago Cays derrière le récif Horseshoe",
+          src: "/destination/saint-vincent-et-les-grenadines/hero-1.webp",
+          alt: "Voyage dans les Grenadines : les îlots des Tobago Cays et leurs voiliers au mouillage, vus du ciel",
         },
         {
-          src: "/destination/saint-vincent-et-les-grenadines/hero-2.png",
-          alt: "Voiliers au mouillage dans Admiralty Bay devant Port Elizabeth à Bequia",
+          src: "/destination/saint-vincent-et-les-grenadines/hero-2.webp",
+          alt: "Voiliers au mouillage dans Admiralty Bay devant les collines de Port Elizabeth, à Bequia",
         },
         {
-          src: "/destination/saint-vincent-et-les-grenadines/hero-3.png",
-          alt: "La plage de Macaroni à Mustique en fin d'après-midi",
+          src: "/destination/saint-vincent-et-les-grenadines/hero-3.webp",
+          alt: "La plage de Macaroni à Mustique sous les palmes, l'îlot au large",
         },
       ],
     },
@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/saint-vincent-et-les-grenadines/full-image.png",
-        alt: "Voyage dans les Grenadines : les îlots déserts des Tobago Cays vus depuis la mer",
+        src: "/destination/saint-vincent-et-les-grenadines/full-image.webp",
+        alt: "Voyage dans les Grenadines : les îlots des Tobago Cays posés sur le lagon, vus du ciel",
       },
       height: 600,
     },
@@ -98,12 +98,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/saint-vincent-et-les-grenadines/split-1.png",
-          alt: "Goélette au mouillage devant la plage de Salt Whistle Bay à Mayreau",
+          src: "/destination/saint-vincent-et-les-grenadines/split-1.webp",
+          alt: "La baie de Salt Whistle à Mayreau vue du ciel, ses voiliers au mouillage et sa langue de sable",
         },
         {
-          src: "/destination/saint-vincent-et-les-grenadines/split-2.png",
-          alt: "Coque de bateau en chantier sur la plage de Bequia",
+          src: "/destination/saint-vincent-et-les-grenadines/split-2.webp",
+          alt: "Bateau de bois traditionnel tiré sur la plage d'Admiralty Bay, à Bequia, devant les goélettes",
         },
       ],
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/saint-vincent-et-les-grenadines/xp-tobago-cays-1.png",
+          src: "/destination/saint-vincent-et-les-grenadines/xp-tobago-cays-1.webp",
           alt: "Tortue verte broutant l'herbier devant l'îlot de Baradal aux Tobago Cays",
         },
         right: {
-          src: "/destination/saint-vincent-et-les-grenadines/xp-tobago-cays-2.png",
-          alt: "Bateau privé à l'ancre devant les îlots des Tobago Cays",
+          src: "/destination/saint-vincent-et-les-grenadines/xp-tobago-cays-2.webp",
+          alt: "Voiliers à l'ancre devant la plage d'un îlot des Tobago Cays",
         },
       },
       text: {
@@ -149,7 +149,7 @@ export const destination: Destination = {
       type: "entityList",
       kind: "accommodation",
       background: "bg-background-soft",
-      eyebrow: "Hébergements",
+      eyebrow: "Les fanions du service en chambre devant un cottage de Petit St. Vincent",
       heading: "Une maison de plantation, une île entière, ou une villa au vert",
       description:
         "Une ancienne maison de plantation tient lieu de place de village à Mustique, une île du sud se loue tout entière, et les villas de Canouan descendent jusqu'à la plage. Nous les proposons selon la façon dont vous aimez passer vos matins.",
@@ -591,8 +591,8 @@ export const destination: Destination = {
           quote:
             "Nous avons nagé avec les tortues le premier matin et nos filles ont voulu y retourner deux fois. L'équipage arrivait chaque jour avec une île différente à proposer.",
           image: {
-            src: "/destination/saint-vincent-et-les-grenadines/hero-1.png",
-            alt: "Voyage dans les Grenadines : le mouillage des Tobago Cays derrière le récif Horseshoe"
+            src: "/destination/saint-vincent-et-les-grenadines/hero-1.webp",
+            alt: "Voyage dans les Grenadines : les îlots des Tobago Cays et leurs voiliers au mouillage, vus du ciel"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Les Grenadines en famille, mars 2026", // TODO: à vérifier (replace with real testimonial)
@@ -602,8 +602,8 @@ export const destination: Destination = {
           quote:
             "La maison de Mustique était prête, la voiturette devant la porte, et personne ne nous a demandé quoi que ce soit de la semaine. C'est exactement ce que nous cherchions.",
           image: {
-            src: "/destination/saint-vincent-et-les-grenadines/hero-2.png",
-            alt: "Voiliers au mouillage dans Admiralty Bay devant Port Elizabeth à Bequia"
+            src: "/destination/saint-vincent-et-les-grenadines/hero-2.webp",
+            alt: "Voiliers au mouillage dans Admiralty Bay devant les collines de Port Elizabeth, à Bequia"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Mustique, février 2026", // TODO: à vérifier (replace with real testimonial)
@@ -613,8 +613,8 @@ export const destination: Destination = {
           quote:
             "Trois nuits à Petit St. Vincent après une semaine de bateau. On hisse un fanion quand on veut quelque chose, et le reste du temps on ne voit personne.",
           image: {
-            src: "/destination/saint-vincent-et-les-grenadines/hero-3.png",
-            alt: "La plage de Macaroni à Mustique en fin d'après-midi"
+            src: "/destination/saint-vincent-et-les-grenadines/hero-3.webp",
+            alt: "La plage de Macaroni à Mustique sous les palmes, l'îlot au large"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Les Grenadines, avril 2026", // TODO: à vérifier (replace with real testimonial)

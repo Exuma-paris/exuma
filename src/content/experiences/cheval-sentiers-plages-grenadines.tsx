@@ -13,7 +13,7 @@ export const experience: Experience = {
     "montagne",
   ],
   heroImage: {
-    src: "/destination/saint-vincent-et-les-grenadines/xp-cheval.png",
+    src: "/destination/saint-vincent-et-les-grenadines/xp-cheval.webp",
     alt: "Cavaliers longeant une plage déserte des Grenadines au petit matin",
   },
   destinationSlugs: ["saint-vincent-et-les-grenadines"],

@@ -13,8 +13,8 @@ export const experience: Experience = {
     "union",
   ],
   heroImage: {
-    src: "/destination/saint-vincent-et-les-grenadines/xp-voilier.png",
-    alt: "Voilier sous voiles entre deux îles des Grenadines",
+    src: "/destination/saint-vincent-et-les-grenadines/xp-voilier.webp",
+    alt: "Voilier sous voiles au coucher du soleil au large de Petit St. Vincent",
   },
   destinationSlugs: ["saint-vincent-et-les-grenadines"],
   sections: [],
