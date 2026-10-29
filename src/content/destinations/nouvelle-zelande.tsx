@@ -102,7 +102,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/nouvelle-zelande/split-2.webp",
-          alt: "Salon et salle à manger de Huka Lodge sous sa charpente blanche, à Taupo",
+          alt: "Eaux claires et turquoise de la rivière Waikato au pied de la pelouse de Huka Lodge, à Taupo",
         },
       ],
     },

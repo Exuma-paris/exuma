@@ -24,4 +24,4 @@
 - `hero-3.webp` : Wikimedia Commons, File:00 1776 Bay of Islands, New Zealand.jpg (CC BY-SA 4.0).
 - `xp-voilier-bay-of-islands.webp` : Wikimedia Commons, File:00 1840 Bay of Islands - in New Zealand.jpg (CC BY-SA 4.0).
 - `split-1.webp` : https://www.la-poze-travel.com/wp-content/uploads/2023/07/lac-wakatipu-nouvelle-zelande-2-min.jpg (recadrage portrait, agrandissement fidèle Gemini).
-- `split-2.webp` : https://q-xx.bstatic.com/xdata/images/hotel/max500/311021988.jpg (Booking, recadrage carré, agrandissement fidèle Gemini).
+- `split-2.webp` : image générée par IA (Gemini), inspirée de Blue Spring Te Waihou (soundwaveontheroad.com), eau retouchée en turquoise.
