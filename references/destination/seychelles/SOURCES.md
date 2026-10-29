@@ -24,3 +24,13 @@
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-experience.webp` | Wikimedia Commons : File:Curieuse Marine National Park Aldabra giant tortoise.JPG (https://commons.wikimedia.org/wiki/File:Curieuse_Marine_National_Park_Aldabra_giant_tortoise.JPG) | CC BY-SA 4.0 |
 | `xp-aride.webp` | Généré par IA (texte seul) | Interne |
+
+# Sources images, seychelles
+
+Commons :
+- `hero-1.webp` : Wikimedia Commons, File:Anse Source d'Argent - La Digue - Seychelles - 06.jpg (CC BY-SA 4.0).
+- `hero-2.webp` : Wikimedia Commons, File:CocoDeMerWald.JPG (CC BY-SA 4.0).
+- `full-image.webp` : Wikimedia Commons, File:Anse Source d'Argent 3-La Digue.jpg (CC BY-SA 4.0).
+- `coucher-granit-2.webp` : Wikimedia Commons, File:198 Granite rock in La Digue Island at sunset Photo by Giles Laurent.jpg (CC BY-SA 4.0).
+
+Images générées par IA (Gemini) : `split-1.webp`, `split-2.webp`, `xp-eclosion-tortues.webp`, `coucher-granit-1.webp`, `xp-coucher-soleil-granit.webp`.
