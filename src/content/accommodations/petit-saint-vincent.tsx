@@ -14,7 +14,7 @@ export const accommodation: Accommodation = {
   ],
   heroImage: {
     src: "/destination/saint-vincent-et-les-grenadines/hotel-petit-saint-vincent.webp",
-    alt: "L'île de Petit St. Vincent vue du ciel, ses plages et son récif",
+    alt: "Salon ouvert d'un cottage de Petit St. Vincent, sous sa charpente blanche, face à la plage et au lagon",
   },
   destinationSlugs: ["saint-vincent-et-les-grenadines"],
   sections: [],
