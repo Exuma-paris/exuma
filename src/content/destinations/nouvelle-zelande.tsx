@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/nouvelle-zelande/xp-milford-sound-1.png",
-          alt: "Survol en hélicoptère des Alpes du Sud, au-dessus du Fiordland",
+          src: "/destination/nouvelle-zelande/xp-milford-sound-1.webp",
+          alt: "Hélicoptère survolant le lac Wakatipu face aux Remarkables enneigées",
         },
         right: {
-          src: "/destination/nouvelle-zelande/xp-milford-sound-2.png",
-          alt: "Atterrissage sur un glacier des Alpes du Sud, en Nouvelle-Zélande",
+          src: "/destination/nouvelle-zelande/xp-milford-sound-2.webp",
+          alt: "Hélicoptère posé sur un névé entre les sommets des Alpes du Sud",
         },
       },
       text: {
