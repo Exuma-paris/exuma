@@ -32,7 +32,7 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe en Nouvelle-Zélande",
       heading: "La Nouvelle-Zélande, où les Alpes plongent dans le Pacifique",
       description:
-        "Deux îles séparées par un détroit de vingt-deux kilomètres, une faille alpine qui court sur plus de six cents kilomètres, quinze fjords creusés par les glaciers dans le Fiordland. Au nord, les geysers de Rotorua et les baies tièdes du Pacifique ; au sud, les Alpes et leurs glaciers qui descendent presque jusqu'à la mer.", // TODO: verify figures
+        "Deux îles séparées par un détroit de vingt-deux kilomètres, une faille alpine qui court sur plus de six cents kilomètres, quatorze fjords creusés par les glaciers dans le Fiordland. Au nord, les geysers de Rotorua et les baies tièdes du Pacifique ; au sud, les Alpes et leurs glaciers qui descendent presque jusqu'à la mer.",
       images: [
         {
           src: "/destination/nouvelle-zelande/hero-1.webp",
@@ -124,7 +124,7 @@ export const destination: Destination = {
         heading: "Le fjord qui ferme le ciel",
         columns: [
           "L'hélicoptère décolle de Queenstown ou de Milford Sound selon le sens choisi. Il grimpe au-dessus des Remarkables, franchit la ligne de crête des Alpes du Sud, puis se pose sur un névé, entre deux sommets, à plus de deux mille mètres. Le silence qui suit l'arrêt des pales ne ressemble à aucun autre : pas de vent, pas de route, pas d'autre appareil dans le ciel.", // TODO: verify altitude
-          "La descente vers Milford Sound se fait par le fjord lui-même, entre les parois du Mitre Peak qui tombent à pic dans une eau douce en surface et salée en profondeur, un phénomène dû aux pluies constantes du Fiordland, l'une des régions les plus arrosées du monde.",
+          "La descente vers Milford Sound se fait par le fjord lui-même, au pied du Mitre Peak, entre des parois qui tombent à pic dans une eau douce en surface et salée en profondeur, un phénomène dû aux pluies constantes du Fiordland, l'une des régions les plus arrosées du monde.",
         ],
       },
     },
@@ -250,7 +250,7 @@ export const destination: Destination = {
         {
           title: "Milford Sound et le Fiordland",
           description:
-            "Le fjord le plus célèbre du pays, encadré par les parois du Mitre Peak. L'une des régions les plus arrosées du monde, ce qui donne au Fiordland ses cascades permanentes et son eau à double densité.",
+            "Le fjord le plus célèbre du pays, au pied du Mitre Peak. L'une des régions les plus arrosées du monde, ce qui donne au Fiordland ses cascades permanentes et son eau à double densité.",
           image: {
             src: "/destination/nouvelle-zelande/map-milford-sound.webp",
             alt: "Fjord de Milford Sound encadré par les falaises du Fiordland",

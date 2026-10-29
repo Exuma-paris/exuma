@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Des villas indépendantes au-dessus de la Baie des Îles, chacune avec sa piscine à débordement. Depuis la terrasse, Russell et ses cent quarante-quatre îlots tiennent dans un seul plan d'eau.", // TODO: verify villa count
   keywords: ["nouvelle-zelande", "baie des iles", "russell", "villas privees", "ile du nord"],
   heroImage: {
-    src: "/destination/nouvelle-zelande/hotel-eagles-nest.png",
-    alt: "Villa privée d'Eagles Nest surplombant la Baie des Îles, en Nouvelle-Zélande",
+    src: "/destination/nouvelle-zelande/hotel-eagles-nest.webp",
+    alt: "Villa en verre d'Eagles Nest et sa piscine à débordement face à la Baie des Îles, en Nouvelle-Zélande",
   },
   destinationSlugs: ["nouvelle-zelande"],
   metaTitle: "Eagles Nest, Baie des Îles, Nouvelle-Zélande",
