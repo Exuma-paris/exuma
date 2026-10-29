@@ -43,3 +43,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `xp-gros-piton.webp` : image générée par IA (Gemini), sans référence.
 - `xp-colombier.webp` : image générée par IA (Gemini), pique-nique à Colombier.
 - `hotel-cheval-blanc.webp` : https://media-cdn.tripadvisor.com/media/photo-s/31/d4/cd/d8/cheval-blanc-st-barth.jpg (Tripadvisor, recadrage carré, agrandissement fidèle Gemini).
+- `hotel-cotton-house.webp` : https://media.cntraveler.com/photos/5bb52f7dc4c3254b312847b1/16:9/w_2560,c_limit/The-Cotton-House__2018_Mustique-628.jpg (Condé Nast Traveler, recadrage carré).
