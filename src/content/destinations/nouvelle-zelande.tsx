@@ -43,7 +43,7 @@ export const destination: Destination = {
           alt: "Les Remarkables enneigées au-dessus du lac Wakatipu, près de Queenstown, sur l'île du Sud",
         },
         {
-          src: "/destination/nouvelle-zelande/hero-3.png",
+          src: "/destination/nouvelle-zelande/hero-3.webp",
           alt: "Eaux turquoise de la Baie des Îles, sur la côte nord-est de l'île du Nord",
         },
       ],
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/nouvelle-zelande/split-1.png",
-          alt: "Lodge Blanket Bay au bord du lac Wakatipu, face aux Alpes du Sud",
+          src: "/destination/nouvelle-zelande/split-1.webp",
+          alt: "Plage blanche et eaux turquoise du lac Wakatipu près de Glenorchy, où se trouve Blanket Bay, sous les montagnes de l'île du Sud",
         },
         {
-          src: "/destination/nouvelle-zelande/split-2.png",
-          alt: "Huka Lodge au bord de la rivière Waikato, à Taupo",
+          src: "/destination/nouvelle-zelande/split-2.webp",
+          alt: "Salon et salle à manger de Huka Lodge sous sa charpente blanche, à Taupo",
         },
       ],
     },

@@ -21,3 +21,7 @@
 - `xp-milford-sound-2.webp` : https://nouvelle-zelande-a-la-carte.com/…/nouvelle_zelande_aoraki_mt_cook_inflite_mt_cook_ski_planes_helicopters_snow_landing.jpg (recadrage portrait, agrandissement fidèle Gemini).
 - `xp-grottes-waitomo.webp` : https://geologyscience.com/wp-content/uploads/2023/03/Glowworms-illuminating-a-cave-ceiling-in-the-Waitomo-cave-system-New-Zealand.webp (recadrage carré).
 - `xp-powhiri-hangi-rotorua.webp` : image générée par IA (Gemini), sans visage reconnaissable.
+- `hero-3.webp` : Wikimedia Commons, File:00 1776 Bay of Islands, New Zealand.jpg (CC BY-SA 4.0).
+- `xp-voilier-bay-of-islands.webp` : Wikimedia Commons, File:00 1840 Bay of Islands - in New Zealand.jpg (CC BY-SA 4.0).
+- `split-1.webp` : https://www.la-poze-travel.com/wp-content/uploads/2023/07/lac-wakatipu-nouvelle-zelande-2-min.jpg (recadrage portrait, agrandissement fidèle Gemini).
+- `split-2.webp` : https://q-xx.bstatic.com/xdata/images/hotel/max500/311021988.jpg (Booking, recadrage carré, agrandissement fidèle Gemini).
