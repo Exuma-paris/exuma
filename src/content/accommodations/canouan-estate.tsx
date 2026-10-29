@@ -14,8 +14,8 @@ export const accommodation: Accommodation = {
     "famille",
   ],
   heroImage: {
-    src: "/destination/saint-vincent-et-les-grenadines/hotel-canouan-estate.png",
-    alt: "Villa avec piscine au-dessus de la baie de Carenage à Canouan",
+    src: "/destination/saint-vincent-et-les-grenadines/hotel-canouan-estate.webp",
+    alt: "Villa de Canouan Estate vue du ciel, sa piscine à débordement et ses jardins dans la forêt de la colline",
   },
   destinationSlugs: ["saint-vincent-et-les-grenadines"],
   sections: [],
