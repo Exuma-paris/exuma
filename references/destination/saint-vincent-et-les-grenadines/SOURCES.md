@@ -53,3 +53,6 @@ Note : la Cotton House réutilise `/destination/caraibes/hotel-cotton-house.png`
 - `hotel-petit-saint-vincent.webp` : Wikimedia Commons, File:Petit St. Vincent Island Resort - The Grenadines, St. Vincent, Caribbean..jpg, CC BY-SA 3.0.
 - `bento-hebergements.webp` : Wikimedia Commons, File:PSV Room Service Flags at Petit St. Vincent Island Resort - The Grenadines, St. Vincent, Caribbean..jpg, CC BY-SA 3.0.
 - `xp-tobago-cays-1.webp`, `xp-cheval.webp` : images générées par IA (Gemini).
+- `hero-3.webp` (remplace la version Commons) : https://afar.brightspotcdn.com/…/original-mustique-613.jpg (Afar, recadrage carré, agrandissement fidèle Gemini).
+- `xp-tobago-cays-2.webp` (remplace la version Commons) : https://rentsailboat.fr/wp-content/uploads/2025/07/DJI_0678-1024x576.jpg (recadrage portrait, agrandissement Gemini, inscriptions de marque retirées du fanion).
+- `split-1.webp` (remplace la version Commons) : https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/9f/64/a3/le-mouillage-de-salt.jpg (Tripadvisor, recadrage portrait, agrandissement fidèle Gemini).

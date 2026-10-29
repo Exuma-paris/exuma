@@ -44,7 +44,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/saint-vincent-et-les-grenadines/hero-3.webp",
-          alt: "La plage de Macaroni à Mustique sous les palmes, l'îlot au large",
+          alt: "La plage de Macaroni à Mustique, son sable blanc et ses collines boisées",
         },
       ],
     },
@@ -117,7 +117,7 @@ export const destination: Destination = {
         },
         right: {
           src: "/destination/saint-vincent-et-les-grenadines/xp-tobago-cays-2.webp",
-          alt: "Voiliers à l'ancre devant la plage d'un îlot des Tobago Cays",
+          alt: "Catamaran privé à l'ancre sur les eaux turquoises des Tobago Cays",
         },
       },
       text: {
@@ -614,7 +614,7 @@ export const destination: Destination = {
             "Trois nuits à Petit St. Vincent après une semaine de bateau. On hisse un fanion quand on veut quelque chose, et le reste du temps on ne voit personne.",
           image: {
             src: "/destination/saint-vincent-et-les-grenadines/hero-3.webp",
-            alt: "La plage de Macaroni à Mustique sous les palmes, l'îlot au large"
+            alt: "La plage de Macaroni à Mustique, son sable blanc et ses collines boisées"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Les Grenadines, avril 2026", // TODO: à vérifier (replace with real testimonial)
