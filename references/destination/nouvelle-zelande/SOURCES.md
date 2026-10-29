@@ -14,3 +14,4 @@
 | `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |
 - `hero-1.webp` : https://cdn.getyourguide.com/…/tour_img/5e3e4e8b20bd3.jpeg (GetYourGuide, recadrage carré, agrandissement fidèle Gemini).
 - `hero-2.webp` : https://media.istockphoto.com/id/1295232537/ (iStock, recadrage carré, agrandissement fidèle Gemini).
+- `full-image.webp` : https://destination-nouvellezelande.com/wp-content/uploads/2017/07/milfordsound-cascade.jpg (recadrage 16/9, agrandissement fidèle Gemini).

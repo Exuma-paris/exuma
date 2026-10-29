@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/nouvelle-zelande/full-image.png",
-        alt: "Voyage en Nouvelle-Zélande : le fjord de Milford Sound entouré de falaises abruptes, dans le Fiordland",
+        src: "/destination/nouvelle-zelande/full-image.webp",
+        alt: "Voyage en Nouvelle-Zélande : cascade tombant des falaises couvertes de forêt dans le fjord de Milford Sound",
       },
       height: 600,
     },
