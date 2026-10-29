@@ -20,3 +20,4 @@
 - `xp-milford-sound-1.webp` : https://www.vanztravel.com/wp-content/uploads/2025/08/Scenic-Helicopter-Flight-over-The-Remarkables-–-South-Island-Road-Trip.jpg (recadrage 3/2, agrandissement fidèle Gemini).
 - `xp-milford-sound-2.webp` : https://nouvelle-zelande-a-la-carte.com/…/nouvelle_zelande_aoraki_mt_cook_inflite_mt_cook_ski_planes_helicopters_snow_landing.jpg (recadrage portrait, agrandissement fidèle Gemini).
 - `xp-grottes-waitomo.webp` : https://geologyscience.com/wp-content/uploads/2023/03/Glowworms-illuminating-a-cave-ceiling-in-the-Waitomo-cave-system-New-Zealand.webp (recadrage carré).
+- `xp-powhiri-hangi-rotorua.webp` : image générée par IA (Gemini), sans visage reconnaissable.
