@@ -360,22 +360,28 @@ export function renderSection(section: Section, key: string): ReactNode {
         .map((slug) => lookup[slug])
         .filter((entity) => entity !== undefined)
         .map((entity) => {
+          const override = section.cardOverrides?.find(
+            (o) => o.slug === entity.slug,
+          );
           const heroImage =
-            "heroImage" in entity && entity.heroImage
+            override?.image ??
+            ("heroImage" in entity && entity.heroImage
               ? entity.heroImage
               : (entity.sections.find((s) => s.type === "hero")?.images?.[0] ??
-                ENTITY_PLACEHOLDER_IMAGE);
+                ENTITY_PLACEHOLDER_IMAGE));
           return {
             title: entity.name,
             description:
-              section.kind === "destination"
+              override?.description ??
+              (section.kind === "destination"
                 ? getDestinationCardDescription(entity as Destination)
-                : (entity.blurb ?? ""),
+                : (entity.blurb ?? "")),
             image: heroImage,
+            withoutImage: override?.withoutImage,
             link:
               entity.sections.length > 0
                 ? {
-                    label: "Découvrir",
+                    label: "Découvrir davantage",
                     href: entityRoute[section.kind](entity.slug),
                   }
                 : undefined,
@@ -390,7 +396,13 @@ export function renderSection(section: Section, key: string): ReactNode {
       const thumbnails = isSpotlight
         ? cards.slice(SPOTLIGHT_CARDS).flatMap((card) =>
             card.link
-              ? [{ title: card.title, image: card.image, href: card.link.href }]
+              ? [
+                  {
+                    title: card.title,
+                    image: card.withoutImage ? undefined : card.image,
+                    href: card.link.href,
+                  },
+                ]
               : [],
           )
         : undefined;

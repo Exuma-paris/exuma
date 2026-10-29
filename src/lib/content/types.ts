@@ -1,5 +1,9 @@
 import type { ReactNode } from "react";
-import type { ImageRef, Section } from "@/lib/destination/types";
+import type {
+  EntityCardOverride,
+  ImageRef,
+  Section,
+} from "@/lib/destination/types";
 import type { Question } from "@/lib/contact/types";
 
 export type { ImageRef, Section } from "@/lib/destination/types";
@@ -222,6 +226,11 @@ export type Subtheme = EntityBase & {
    * d'ici sortent en liens texte sous les cartes.
    */
   featuredDestinationSlugs?: string[];
+  /**
+   * Texte et image des cartes, écrits pour ce bloc. Une carte absente d'ici
+   * reprend le texte et l'image de sa fiche destination.
+   */
+  cards?: EntityCardOverride[];
 };
 
 export type Experience = EntityBase & {

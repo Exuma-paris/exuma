@@ -19,5 +19,21 @@ export const subtheme: Subtheme = {
     "seychelles",
     "kenya",
   ],
+  cards: [
+    {
+      slug: "maldives",
+      image: {
+        src: "/destination/maldives/hero-2.webp",
+        alt: "Banc de sable découvert à marée basse dans l'atoll de Noonu",
+      },
+    },
+    {
+      slug: "kenya",
+      image: {
+        src: "/destination/kenya/map-watamu.webp",
+        alt: "Barque tirée sur le sable blanc à Watamu, côte nord du Kenya",
+      },
+    },
+  ],
   sections: [],
 };

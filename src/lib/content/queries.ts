@@ -284,6 +284,7 @@ export function getThemeBlocks(themeSlug: string): Section[] {
       description: typeof subtheme.blurb === "string" ? subtheme.blurb : undefined,
       layout: "spotlight",
       thumbnailsIntro: subtheme.thumbnailsIntro,
+      cardOverrides: subtheme.cards,
       slugs: ordered,
       background,
     });
