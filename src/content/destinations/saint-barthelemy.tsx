@@ -36,16 +36,16 @@ export const destination: Destination = {
         "Saint-Barthélemy a cette douceur des îles où rien ne presse. On passe la matinée dans l'eau, on remonte déjeuner à l'ombre, et l'on redescend vers Gustavia quand la chaleur tombe. Les plus belles plages se gagnent à pied ou par la mer, et l'on y reste toujours plus longtemps que prévu. C'est cette île-là que nous vous ouvrons.",
       images: [
         {
-          src: "/destination/saint-barthelemy/hero-1.png",
-          alt: "Voyage à Saint-Barthélemy : l'anse de Colombier vue depuis le sentier de la pointe",
+          src: "/destination/saint-barthelemy/hero-1.webp",
+          alt: "Voyage à Saint-Barthélemy : l'anse de Colombier et ses voiliers au mouillage, vus depuis les rochers du sentier",
         },
         {
-          src: "/destination/saint-barthelemy/hero-2.png",
-          alt: "La baie de Saint-Jean et son rocher en fin d'après-midi",
+          src: "/destination/saint-barthelemy/hero-2.webp",
+          alt: "La plage de Saint-Jean et le rocher de l'Eden Rock avec ses toits rouges, au milieu de la baie",
         },
         {
-          src: "/destination/saint-barthelemy/hero-3.png",
-          alt: "Voiliers au mouillage devant le port de Gustavia",
+          src: "/destination/saint-barthelemy/hero-3.webp",
+          alt: "Le port de Gustavia, ses yachts à quai et ses maisons aux toits rouges",
         },
       ],
     },
@@ -82,8 +82,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/saint-barthelemy/full-image.png",
-        alt: "Voyage à Saint-Barthélemy : la plage de Grande Saline et les collines qui la ferment",
+        src: "/destination/saint-barthelemy/full-image.webp",
+        alt: "Voyage à Saint-Barthélemy : l'anse de Grande Saline et son eau turquoise, entre les mornes secs du sud de l'île",
       },
       height: 600,
     },
@@ -94,17 +94,17 @@ export const destination: Destination = {
       heading: "Bonnes tables et dîners face au couchant",
       theme: "light",
       paragraphs: [
-        "Saint-Barthélemy est réputée pour sa cuisine. À Gustavia, des chefs français installés sur l'île travaillent le poisson pêché le matin et les produits arrivés par bateau. À Saline, on déjeune sous les raisiniers, les pieds dans le sable, sans quitter sa tenue de plage.",
+        "Saint-Barthélemy est réputée pour sa cuisine. À Gustavia, des chefs français installés sur l'île travaillent le poisson pêché le matin et les produits arrivés par bateau. À Saline, on déjeune à l'ombre, à deux pas de la plage, sans quitter sa tenue de plage.",
         "Le soir, à Pointe Milou, les terrasses regardent le soleil se coucher derrière Saint-Martin. On revient volontiers aux mêmes adresses, où les restaurateurs reconnaissent vite leurs habitués.",
       ],
       images: [
         {
-          src: "/destination/saint-barthelemy/split-1.png",
-          alt: "Table dressée sous les raisiniers sur la plage de Grande Saline",
+          src: "/destination/saint-barthelemy/split-1.webp",
+          alt: "Le sentier de sable qui traverse les dunes jusqu'à la plage de Grande Saline",
         },
         {
-          src: "/destination/saint-barthelemy/split-2.png",
-          alt: "Terrasse de restaurant à Pointe Milou au moment du coucher du soleil",
+          src: "/destination/saint-barthelemy/split-2.webp",
+          alt: "Table dressée en terrasse au-dessus de la rade de Gustavia, au coucher du soleil",
         },
       ],
     },
@@ -113,12 +113,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/saint-barthelemy/xp-ile-fourchue-1.png",
-          alt: "Mouillage de l'Île Fourchue au nord de Saint-Barthélemy vu depuis les hauteurs",
+          src: "/destination/saint-barthelemy/xp-ile-fourchue-1.webp",
+          alt: "Voiliers au mouillage dans la baie en fer à cheval de l'Île Fourchue, vue depuis les rochers des hauteurs",
         },
         right: {
-          src: "/destination/saint-barthelemy/xp-ile-fourchue-2.png",
-          alt: "Déjeuner servi à bord d'un bateau à l'ancre dans la baie de l'Île Fourchue",
+          src: "/destination/saint-barthelemy/xp-ile-fourchue-2.webp",
+          alt: "Poisson grillé, salade et mangue servis sur le pont d'un voilier à l'ancre, face aux mornes de l'Île Fourchue",
         },
       },
       text: {
@@ -237,7 +237,7 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure à Saint-Barthélemy entre Gustavia, Flamands et Colombier",
             "Table dressée sur le sable d’une anse sans route, Saint-Barthélemy",
-            "Hébergements à Saint-Barthélemy : Cheval Blanc, Le Guanahani et Eden Rock",
+            "Terrasse créole d'une suite avec piscine privée, face à une baie de Saint-Barthélemy",
             "Conseillère Exuma souriante, casque sur les oreilles",
             "Voilier au mouillage dans la baie de l’Île Fourchue, au large de Saint-Barthélemy",
           ][i],
@@ -596,8 +596,8 @@ export const destination: Destination = {
           quote:
             "Nous sommes partis pour l'Île Fourchue le deuxième jour et nous y sommes retournés avant de rentrer. Le skipper nous attendait chaque matin avec une idée différente.",
           image: {
-            src: "/destination/saint-barthelemy/hero-1.png",
-            alt: "Voyage à Saint-Barthélemy : l'anse de Colombier vue depuis le sentier de la pointe"
+            src: "/destination/saint-barthelemy/hero-1.webp",
+            alt: "Voyage à Saint-Barthélemy : l'anse de Colombier et ses voiliers au mouillage, vus depuis les rochers du sentier"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Saint-Barthélemy, février 2026", // TODO: à vérifier (replace with real testimonial)
@@ -607,8 +607,8 @@ export const destination: Destination = {
           quote:
             "Nos enfants ont passé la semaine dans le lagon et nous avons dîné le soir sans jamais nous occuper des réservations. Nous sommes rentrés reposés, ce qui ne nous arrive jamais.",
           image: {
-            src: "/destination/saint-barthelemy/hero-2.png",
-            alt: "La baie de Saint-Jean et son rocher en fin d'après-midi"
+            src: "/destination/saint-barthelemy/hero-2.webp",
+            alt: "La plage de Saint-Jean et le rocher de l'Eden Rock avec ses toits rouges, au milieu de la baie"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Saint-Barthélemy en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
@@ -616,10 +616,10 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Le déjeuner à Colombier restera notre meilleur souvenir. La table était dressée à l'ombre quand nous sommes arrivés par la mer, et personne n'est venu de tout l'après-midi.",
+            "Le pique-nique à Colombier restera notre meilleur souvenir. Le panier nous attendait à bord quand nous sommes partis, et personne n'est venu de tout l'après-midi.",
           image: {
-            src: "/destination/saint-barthelemy/hero-3.png",
-            alt: "Voiliers au mouillage devant le port de Gustavia"
+            src: "/destination/saint-barthelemy/hero-3.webp",
+            alt: "Le port de Gustavia, ses yachts à quai et ses maisons aux toits rouges"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Saint-Barthélemy, mars 2026", // TODO: à vérifier (replace with real testimonial)

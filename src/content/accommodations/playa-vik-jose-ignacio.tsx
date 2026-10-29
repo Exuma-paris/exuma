@@ -8,8 +8,8 @@ export const accommodation: Accommodation = {
     "Sur la plage Mansa, une maison de bronze dessinée par Carlos Ott et des casas dispersées dans le jardin. Les œuvres n'ont pas été choisies pour décorer : elles ont été commandées pour ces murs-là.",
   keywords: ["uruguay", "jose ignacio", "maldonado", "playa mansa", "carlos ott"],
   heroImage: {
-    src: "/destination/uruguay/hotel-playa-vik.png",
-    alt: "Façade de bronze du Playa Vik ouverte sur la plage Mansa de José Ignacio",
+    src: "/destination/uruguay/hotel-playa-vik.webp",
+    alt: "Salon creusé autour du feu sur la terrasse de Playa Vik, face à l'océan au crépuscule",
   },
   destinationSlugs: ["uruguay"],
   sections: [],

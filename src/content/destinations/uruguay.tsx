@@ -35,16 +35,16 @@ export const destination: Destination = {
         "L'Uruguay s'apprivoise doucement. La côte s'étire de Montevideo jusqu'aux dunes de Cabo Polonio, ponctuée de villages de pêcheurs où les maisons restent basses et où le sable arrive jusqu'aux portes. À l'intérieur, les estancias vivent encore du cheval et du feu, et les collines se couvrent de vignes jusqu'à la sierra de la Ballena. C'est cet Uruguay-là que nous vous montrons.",
       images: [
         {
-          src: "/destination/uruguay/hero-1.png",
-          alt: "Plage de José Ignacio au coucher du soleil sur la côte atlantique de l'Uruguay",
+          src: "/destination/uruguay/hero-1.webp",
+          alt: "Phare de José Ignacio et sa plage vus du ciel, côte atlantique de l'Uruguay",
         },
         {
-          src: "/destination/uruguay/hero-2.png",
-          alt: "Gaucho rassemblant le bétail à cheval dans une estancia du centre de l'Uruguay",
+          src: "/destination/uruguay/hero-2.webp",
+          alt: "Gaucho à cheval face à son troupeau au soleil couchant, estancia de l'Uruguay",
         },
         {
-          src: "/destination/uruguay/hero-3.png",
-          alt: "Dunes du parc national de Cabo Polonio au bord de l'Atlantique",
+          src: "/destination/uruguay/hero-3.webp",
+          alt: "Sentier de sable entre les dunes, au bord de l'Atlantique sur la côte de Rocha",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/uruguay/full-image.png",
-        alt: "Vignobles de tannat sur les collines de Garzón, dans le sud de l'Uruguay",
+        src: "/destination/uruguay/full-image.webp",
+        alt: "Vignes et chai de la Bodega Garzón sur les collines, dans le sud de l'Uruguay",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/uruguay/split-1.png",
-          alt: "Barque de pêcheur tirée sur le sable devant un village de la côte uruguayenne",
+          src: "/destination/uruguay/split-1.webp",
+          alt: "Barques de pêcheurs tirées sur le sable à Punta del Diablo, côte de Rocha",
         },
         {
-          src: "/destination/uruguay/split-2.png",
-          alt: "Chemin de sable longeant les lagunes de la côte de Rocha en Uruguay",
+          src: "/destination/uruguay/split-2.webp",
+          alt: "Plage et herbes de la pampa à La Pedrera, côte de Rocha",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/uruguay/xp-garzon-mallmann-1.png",
-          alt: "Agneau cuit à la croix devant un feu ouvert dans la cour de la table de Garzón",
+          src: "/destination/uruguay/xp-garzon-mallmann-1.webp",
+          alt: "Légumes, fruits et viandes suspendus au-dessus du feu, cuisine au feu à Garzón",
         },
         right: {
-          src: "/destination/uruguay/xp-garzon-mallmann-2.png",
-          alt: "Rangs de tannat sur les collines de granit des vignobles de Garzón",
+          src: "/destination/uruguay/xp-garzon-mallmann-2.webp",
+          alt: "Francis Mallmann dressant un plat dans sa cuisine de Garzón",
         },
       },
       text: {
@@ -225,12 +225,12 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/uruguay/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/uruguay/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure en Uruguay entre Montevideo, Garzón et la côte de Rocha",
             "Adresses confidentielles en Uruguay : estancias en activité et tables de village",
-            "Hébergements en Uruguay : Estancia Vik et Sacromonte Landscape Hotel",
-            "Conciergerie privée pour un voyage en Uruguay",
+            "Entrée de l'Estancia Vik, José Ignacio, au crépuscule",
+            "Conseillère Exuma souriante, casque sur les oreilles",
             "Expériences immersives en Uruguay : feux de Garzón et cavaliers des estancias",
           ][i],
         },
@@ -252,7 +252,7 @@ export const destination: Destination = {
           description:
             "La capitale s'est construite autour de son port et de sa longue promenade au bord de l'eau. Le soir, dans le barrio Sur et à Palermo, les tambours du candombe sortent dans la rue et le quartier suit.",
           image: {
-            src: "/destination/uruguay/map-montevideo.png",
+            src: "/destination/uruguay/map-montevideo.webp",
             alt: "Promenade de Montevideo au bord du Río de la Plata en fin de journée",
           },
           // TODO: verify coords
@@ -263,7 +263,7 @@ export const destination: Destination = {
           description:
             "Un phare veille sur la presqu'île, entre la plage Mansa et la plage Brava. On y dîne les pieds dans le sel, et le village a gardé son allure de port de pêche.",
           image: {
-            src: "/destination/uruguay/map-jose-ignacio.png",
+            src: "/destination/uruguay/map-jose-ignacio.webp",
             alt: "Presqu'île et phare de José Ignacio entre les plages Mansa et Brava",
           },
           // TODO: verify coords
@@ -274,7 +274,7 @@ export const destination: Destination = {
           description:
             "Une place, une église, et l'ancienne épicerie devenue la table de Francis Mallmann. Autour du village, les collines de granit se couvrent de tannat et d'albariño.",
           image: {
-            src: "/destination/uruguay/map-garzon.png",
+            src: "/destination/uruguay/map-garzon.webp",
             alt: "Place de Pueblo Garzón et son ancienne épicerie, département de Maldonado",
           },
           // TODO: verify coords
@@ -285,7 +285,7 @@ export const destination: Destination = {
           description:
             "On rejoint le village en véhicule tout-terrain, à travers les dunes du parc national. Les otaries occupent les rochers sous le phare, et la nuit venue le ciel s'ouvre comme nulle part ailleurs dans le pays.",
           image: {
-            src: "/destination/uruguay/map-cabo-polonio.png",
+            src: "/destination/uruguay/map-cabo-polonio.webp",
             alt: "Phare de Cabo Polonio et rochers occupés par les otaries sur la côte de Rocha",
           },
           // TODO: verify coords
@@ -296,7 +296,7 @@ export const destination: Destination = {
           description:
             "Le ministère du Tourisme uruguayen désigne ainsi ce département du centre-nord. Les estancias y travaillent encore le bétail à cheval, et la Fiesta de la Patria Gaucha y rassemble les cavaliers au mois de mars.",
           image: {
-            src: "/destination/uruguay/map-tacuarembo.png",
+            src: "/destination/uruguay/map-tacuarembo.webp",
             alt: "Cavaliers et troupeau dans une estancia de la campagne de Tacuarembó",
           },
           // TODO: verify coords
@@ -307,7 +307,7 @@ export const destination: Destination = {
           description:
             "Fondée par les Portugais et longtemps disputée aux Espagnols, elle a gardé son quartier historique inscrit au patrimoine mondial. On s'y promène sur le pavé d'origine, jusqu'à la calle de los Suspiros.",
           image: {
-            src: "/destination/uruguay/map-colonia.png",
+            src: "/destination/uruguay/map-colonia.webp",
             alt: "Calle de los Suspiros et pavé portugais du quartier historique de Colonia del Sacramento",
           },
           // TODO: verify coords
@@ -532,8 +532,8 @@ export const destination: Destination = {
           quote:
             "Le déjeuner au feu à Garzón, puis les vignes dans l'après-midi avec l'œnologue, dans la même journée. On ne savait pas ce qu'on allait manger en s'asseyant, et c'était très bien comme ça. C'est le souvenir qui nous reste le plus nettement.",
           image: {
-            src: "/destination/uruguay/hero-1.png",
-            alt: "Plage de José Ignacio au coucher du soleil sur la côte atlantique de l'Uruguay"
+            src: "/destination/uruguay/hero-1.webp",
+            alt: "Phare de José Ignacio et sa plage vus du ciel, côte atlantique de l'Uruguay"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Uruguay, Montevideo, Garzón et la côte, 2025", // TODO: à vérifier (replace with real testimonial)
@@ -543,8 +543,8 @@ export const destination: Destination = {
           quote:
             "Partir à cheval au petit matin avec les gauchos, puis la viande sur les braises du corral à midi. Personne ne jouait un rôle pour nous : ils travaillaient, et on suivait. Je ne pensais pas que cela existait encore ainsi.",
           image: {
-            src: "/destination/uruguay/hero-2.png",
-            alt: "Gaucho rassemblant le bétail à cheval dans une estancia du centre de l'Uruguay"
+            src: "/destination/uruguay/hero-2.webp",
+            alt: "Gaucho à cheval face à son troupeau au soleil couchant, estancia de l'Uruguay"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Uruguay, estancias du centre-nord, 2025", // TODO: à vérifier (replace with real testimonial)
@@ -552,10 +552,10 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Une nuit à Cabo Polonio, sans électricité et sans lune. On entendait les otaries depuis la plage et on voyait la voie lactée à l'œil nu. En mars, la côte était pour nous : c'était exactement ce que nous cherchions.",
+            "Une nuit à Cabo Polonio, presque sans lumière et sans lune. On entendait les otaries depuis la plage et on voyait la voie lactée à l'œil nu. En mars, la côte était pour nous : c'était exactement ce que nous cherchions.",
           image: {
-            src: "/destination/uruguay/hero-3.png",
-            alt: "Dunes du parc national de Cabo Polonio au bord de l'Atlantique"
+            src: "/destination/uruguay/hero-3.webp",
+            alt: "Sentier de sable entre les dunes, au bord de l'Atlantique sur la côte de Rocha"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Uruguay, côte de Rocha, mars 2026", // TODO: à vérifier (replace with real testimonial)

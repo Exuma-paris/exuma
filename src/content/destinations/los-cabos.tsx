@@ -221,7 +221,7 @@ export const destination: Destination = {
         {
           title: "Expériences sur accès",
           description:
-            "Cabo Pulmo avant l'ouverture officielle. Les baleines grises de Bahía Magdalena en panga, avec un pêcheur. Les otaries d'Isla Espiritu Santo en bateau privé.",
+            "Cabo Pulmo avant l'arrivée des groupes. Les baleines grises de Bahía Magdalena en panga, avec un pêcheur. Les otaries d'Isla Espiritu Santo en bateau privé.",
           image: {
             src: "/destination/los-cabos/bento-experience.webp",
             alt: "Nageur entouré d'otaries près des îlots d'Espíritu Santo, La Paz",

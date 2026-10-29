@@ -249,7 +249,7 @@ export const destination: Destination = {
           description:
             "Cent quinze îles, deux archipels. Nous savons lesquelles assembler, dans quel ordre, et pourquoi. Une cohérence vérifiée sur le terrain.",
           image: {
-            src: "/destination/seychelles/bento-map.png",
+            src: "/destination/seychelles/bento-map.webp",
             alt: "Carte d'itinéraire personnalisé entre les îles des Seychelles",
           },
           tone: "dark",
@@ -259,8 +259,8 @@ export const destination: Destination = {
           description:
             "Îles privées, criques sans accès public, tables chez l'habitant. Des adresses qui ne se trouvent pas dans les moteurs de réservation.",
           image: {
-            src: "/destination/seychelles/bento-adresses.png",
-            alt: "Crique de granit isolée bordée de cocotiers aux Seychelles",
+            src: "/destination/seychelles/bento-adresses.webp",
+            alt: "L'anse Georgette à Praslin, crique de sable blanc entre blocs de granit et colline boisée",
           },
         },
         {
@@ -268,8 +268,8 @@ export const destination: Destination = {
           description:
             "Vols domestiques, catamaran privé, hélicoptère, taxi-boat. Ce que nous mettons en place, vous n'avez pas à le vérifier.",
           image: {
-            src: "/destination/seychelles/bento-aerien.png",
-            alt: "Vue aérienne d'un lagon et d'îles de granit des Seychelles",
+            src: "/destination/seychelles/bento-aerien.webp",
+            alt: "Vue aérienne de la côte ouest de La Digue, son lagon, ses blocs de granit et Praslin à l'horizon",
           },
         },
         {
@@ -277,8 +277,8 @@ export const destination: Destination = {
           description:
             "Un seul interlocuteur, du premier échange jusqu'au retour. Réponse sous 24h. Les ajustements de dernière minute, gérés. Les transferts, privés.",
           image: {
-            src: "/destination/seychelles/bento-conciergerie.png",
-            alt: "Table dressée face au lagon au coucher du soleil aux Seychelles",
+            src: "/destination/seychelles/bento-conciergerie.webp",
+            alt: "Conseillère Exuma souriante, casque sur les oreilles",
           },
         },
         {
@@ -286,7 +286,7 @@ export const destination: Destination = {
           description:
             "Tortues géantes de Curieuse, plongée à Saint-Pierre, coucher de soleil sur le granit. Des accès négociés avec ceux qui connaissent les îles.",
           image: {
-            src: "/destination/seychelles/bento-experience.png",
+            src: "/destination/seychelles/bento-experience.webp",
             alt: "Tortue géante d'Aldabra sur l'île de Curieuse aux Seychelles",
           },
         },

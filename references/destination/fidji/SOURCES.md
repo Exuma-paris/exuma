@@ -38,3 +38,19 @@ Each generated image in `public/destination/fidji/` was produced by feeding the 
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+| `hero-2.webp` | Wikimedia Commons : File:BureNavala2.jpg | CC BY-SA 3.0 |
+- `hero-1.webp` : Booking.com (photo d'hôtel) — https://cf.bstatic.com/xdata/images/hotel/max1024x768/647511655.webp — recadrée, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `hero-3.webp` : Tripadvisor — https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/68/9b/2a/caption.jpg — ciel remplacé par un ciel bleu (Gemini) à la demande de Thea. ⚠ droits à vérifier.
+- `hero-2.webp` : Wikimedia Commons (voir ligne pickmaps ci-dessus), remplace la photo Dreamstime filigranée proposée.
+- `split-1.webp` : Seacrush (croisière Naia) — https://assets.prod.seacrush.com/content/trips/naia_fiji/img/19_naia_fiji_Naia_UW_101_3840__.webp — recadré portrait. ⚠ droits à vérifier.
+- `split-2.webp` : Tripadvisor (Novotel Suva Lami Bay) — https://media-cdn.tripadvisor.com/media/photo-s/03/67/a3/a6/novotel-suva-lami-bay.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `full-image.webp` : Travel + Leisure (Sarah Post) — vue aérienne de Turtle Island — recadré 16/9. ⚠ droits à vérifier.
+- `xp-sawa-i-lau-1.webp` : Blue Lagoon Cruises — https://www.bluelagooncruises.com/library/files/YasawaPrincess/sawa-i-lau.jpg — recadré 3/2. ⚠ droits à vérifier.
+- `xp-sawa-i-lau-2.webp` : vignette Google (intérieur de la grotte) — redessinée en HD et deux nageurs ajoutés par IA (Gemini) à la demande de Thea. ⚠ droits à vérifier.
+- `xp-great-astrolabe.webp` : https://www.diveworldwide.com/images/products/south-pacific-fiji-soft-coral-reef-scene-thumbnail.webp (recadrage carré, agrandissement fidèle Gemini).
+- `xp-requins-beqa.webp` : https://diveotion.com/wp-content/uploads/2023/12/beqa-shark-dive-fiji-shutterstock_685058101-2-768x512.jpg (Shutterstock 685058101, recadrage carré, agrandissement fidèle Gemini).
+- `hotel-laucala.webp` : https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1463577.jpg (Tablet Hotels, agrandissement fidèle Gemini).
+- `hotel-kokomo.webp` : https://hiddendoorwaystravel.com/wp-content/uploads/2021/08/Kokomo-Private-Island-3-Bedroom-Sunset-Villa-.jpg (recadrage carré).
+- `hotel-turtle-island.webp` : https://www.turtlefiji.com/wp-content/uploads/2020/05/Private-Beach-Picnics_Turtle-Island-Fiji-scaled-1.jpg (site officiel, recadrage carré).
+- `xp-sevusevu-navala.webp` : image générée par IA (Gemini, sans référence) ; la photo proposée portait le filigrane Got2Globe et montrait des enfants reconnaissables.
+- `bento-hebergements.webp` : image générée par IA (Gemini, sans référence), villa de plage générique, aucun hôtel nommé.

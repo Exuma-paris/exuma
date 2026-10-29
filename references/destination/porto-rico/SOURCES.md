@@ -39,3 +39,19 @@ Each generated image in `public/destination/porto-rico/` was produced by feeding
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
 | `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |
+
+## Images placées le 27/10 (liens fournis par Thea sauf mention)
+- `hero-1.webp` : https://maison-monde.com/wp-content/uploads/2024/11/san-juan-porto-rico-7.jpg — recadré carré. ⚠ droits à vérifier.
+- `hero-2.webp` : https://pub-6288ee11dd4348dcb49db0f1e143a608.r2.dev/projects/promodo-10038/searched/a9aa18d403edd87eb525.webp — semble déjà générée par IA ; recadrée, agrandie (Gemini).
+- `hero-3.webp` : générée par IA (Gemini, gen_text.py), à la demande de Thea.
+- `full-image.webp` : Unsplash https://unsplash.com/photos/A4pFDIOlL3I (licence Unsplash), recadré 16/9.
+- `split-1.webp` : https://mcglobetrotteuse.com/wp-content/uploads/2024/01/Drapeau-PR.jpeg — recadré portrait. ⚠ droits à vérifier.
+- `split-2.webp` : Tripadvisor https://dynamic-media.tacdn.com/media/photo-o/34/30/c4/cc/caption.jpg — recadré carré. ⚠ droits à vérifier.
+- `xp-baie-bioluminescente-vieques-1.webp` : générée par IA (Gemini), à la demande de Thea.
+- `xp-baie-bioluminescente-vieques-2.webp` : vignette Google (encrypted-tbn0.gstatic.com) — agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `xp-el-yunque.webp` : Tripadvisor https://media.tacdn.com/media/attractions-splice-spp-674x446/15/46/2d/11.jpg — agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `xp-ron-del-barrilito.webp` : Tripadvisor https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/47/23/b8.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `xp-catamaran-culebra.webp` : vignette Google (encrypted-tbn0.gstatic.com, 259 px) — redessinée en haute définition par IA (Gemini) sur la même composition. ⚠ droits à vérifier.
+- `hotel-dorado-beach.webp` : Tripadvisor https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e9/15/08/dorado-beach-a-ritz-carlton.jpg — recadré carré. ⚠ droits à vérifier.
+- `hotel-st-regis-bahia-beach.webp` : Kenneth Cobonpue (projet St. Regis Bahia Beach) — https://api.kennethcobonpue.com/storage/uploads/project/2024-05-27/2024-05-27_14-35-24-890835.webp — recadré carré, saturation réduite. ⚠ droits à vérifier.
+- `hotel-villa-vieques.webp` : Airbnb https://a0.muscache.com/im/pictures/3f14081e-d9d4-4bdf-b4ef-1c691515011f.jpg — recadré carré. ⚠ droits à vérifier.

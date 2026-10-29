@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Il faut quelques jours pour comprendre que les Fidji ne se visitent pas comme une île mais comme un pays dont les routes sont des couloirs de mer, et qu'il existe ici des archipels où l'on ne se rend qu'en hydravion, à la voile, ou parce que quelqu'un y attend la visite. C'est ce pays-là que nous vous ouvrons, celui des lagons tout proches comme celui des îles que l'on met deux jours à rejoindre.",
       images: [
         {
-          src: "/destination/fidji/hero-1.png",
-          alt: "Voyage aux Fidji : le lagon des Yasawa et ses îlots vus depuis la hauteur",
+          src: "/destination/fidji/hero-1.webp",
+          alt: "Île des Fidji bordée de sable blanc et de récifs, vue du ciel",
         },
         {
-          src: "/destination/fidji/hero-2.png",
-          alt: "Bure couverte de chaume au bord de l'eau dans les Mamanuca aux Fidji",
+          src: "/destination/fidji/hero-2.webp",
+          alt: "Bures de chaume du village de Navala au pied des hautes terres de Viti Levu",
         },
         {
-          src: "/destination/fidji/hero-3.png",
-          alt: "Pêcheurs poussant leur barque sur le sable au lever du jour à Kadavu",
+          src: "/destination/fidji/hero-3.webp",
+          alt: "Pêcheurs sur leur pirogue à balancier au lever du jour, aux Fidji",
         },
       ],
     },
@@ -73,15 +73,15 @@ export const destination: Destination = {
       columns: [
         "Un voyage aux Fidji commence à Nadi, sur la côte sèche de Viti Levu, mais il se décide vraiment le jour où l'on monte dans le bateau qui s'éloigne de la côte. Les Mamanuca apparaissent presque aussitôt, les Yasawa un peu plus loin, avec leurs falaises de calcaire et le passage de Drawaqa où les raies manta remontent le courant de mai à octobre. Plus au sud, Kadavu vit à l'abri du Great Astrolabe Reef, l'une des plus grandes barrières de corail du monde.",
         "Ce qui frappe en arrivant, c'est l'accueil. On dit bula à chaque croisement, et il faut peu de temps pour comprendre que ce n'est pas une formule. Dans les hautes terres de Ba, le village de Navala a gardé ses bures couvertes de chaume, les seules qui subsistent en nombre dans le pays. On y entre en offrant une racine de yaqona au chef, et la cérémonie se prend au sérieux.",
-        "Les maisons où nous vous installons occupent chacune leur île. L'une couvre douze kilomètres carrés au large de Taveuni et se réserve en entier. Une autre s'atteint en hydravion, à quarante-cinq minutes de Nadi, avec le récif qui commence devant la plage. La troisième fonctionne au solaire dans les Mamanuca, à portée de bateau du continent. Nous les choisissons pour leur distance autant que pour leur table.",
+        "Les maisons où nous vous installons occupent chacune leur île. L'une couvre douze kilomètres carrés au large de Taveuni, et l'on peut la privatiser. Une autre s'atteint en hydravion, à quarante-cinq minutes de Nadi, avec le récif qui commence devant la plage. La troisième, dans les Yasawa, ne compte que quatorze bures face au lagon. Nous les choisissons pour leur distance autant que pour leur table.",
       ],
     },
 
     {
       type: "fullImage",
       image: {
-        src: "/destination/fidji/full-image.png",
-        alt: "Voyage aux Fidji : le lagon de Fulaga et ses îlots de calcaire dans les Lau",
+        src: "/destination/fidji/full-image.webp",
+        alt: "Voyage aux Fidji : le lagon de Turtle Island et ses îlots dans les Yasawa, vus du ciel",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/fidji/split-1.png",
-          alt: "Coraux mous du détroit de Somosomo au large de Taveuni aux Fidji",
+          src: "/destination/fidji/split-1.webp",
+          alt: "Coraux mous et éponges du récif des Fidji, au large de Taveuni",
         },
         {
-          src: "/destination/fidji/split-2.png",
-          alt: "Coupe de kava partagée dans un village des hautes terres de Viti Levu",
+          src: "/destination/fidji/split-2.webp",
+          alt: "Préparation du lovo, le repas cuit dans un four enterré, aux Fidji",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/fidji/xp-sawa-i-lau-1.png",
-          alt: "Ouverture de la grotte de Sawa-i-Lau au pied de la paroi de calcaire dans les Yasawa",
+          src: "/destination/fidji/xp-sawa-i-lau-1.webp",
+          alt: "Falaises de calcaire et lagon de Sawa-i-Lau vus du ciel, îles Yasawa",
         },
         right: {
-          src: "/destination/fidji/xp-sawa-i-lau-2.png",
-          alt: "Nageur dans la chambre de calcaire de Sawa-i-Lau éclairée par la fente du plafond, aux Fidji",
+          src: "/destination/fidji/xp-sawa-i-lau-2.webp",
+          alt: "Deux nageurs dans le bassin turquoise de la grotte de Sawa-i-Lau, aux Fidji",
         },
       },
       text: {
@@ -152,8 +152,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Une île entière, ou un récif au bout de la plage",
       description:
-        "Douze kilomètres carrés que l'on peut réserver en entier au large de Taveuni, vingt et une villas posées devant le Great Astrolabe Reef, et une maison solaire dans les Mamanuca. Nous les proposons selon la distance que vous voulez mettre entre vous et le reste.",
-      slugs: ["laucala-island", "kokomo-private-island", "six-senses-fiji"],
+        "Douze kilomètres carrés que l'on peut privatiser au large de Taveuni, vingt et une villas posées devant le Great Astrolabe Reef, et quatorze bures sur une île privée des Yasawa. Nous les proposons selon la distance que vous voulez mettre entre vous et le reste.",
+      slugs: ["laucala-island", "kokomo-private-island", "turtle-island-fidji"],
     },
 
     {
@@ -230,7 +230,7 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure aux Fidji entre les Mamanuca, les Yasawa et Kadavu",
             "Table de chef dressée sur une plage des Fidji, entre lanternes et torches",
-            "Hébergements aux Fidji : Laucala Island, Kokomo Private Island et Six Senses Fiji",
+            "Bure au toit de chaume et piscine privée face au lagon, sur une île des Fidji",
             "Conseillère Exuma souriante, casque sur les oreilles",
             "Plongeur au-dessus des coraux du Great Astrolabe Reef, une raie manta au loin, Fidji",
           ][i],
@@ -251,7 +251,7 @@ export const destination: Destination = {
         {
           title: "Les Mamanuca",
           description:
-            "L'archipel le plus proche de Nadi, atteint en vingt minutes de bateau rapide. Malolo, Monuriki et leurs voisines alignent des plages abritées et un récif franchissable à la nage. C'est là que se posent les séjours courts et les arrivées de nuit.",
+            "L'archipel le plus proche de Nadi, à trente à cinquante minutes de bateau rapide. Malolo, Monuriki et leurs voisines alignent des plages abritées et un récif franchissable à la nage. C'est là que se posent les séjours courts et les arrivées de nuit.",
           image: {
             src: "/destination/fidji/map-mamanuca.webp",
             alt: "Plage et lagon d’une île des Mamanuca aux Fidji",
@@ -335,8 +335,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                Les Mamanuca sont à vingt minutes de bateau de Nadi, les Yasawa
-                à une heure d&apos;hydravion, Taveuni et Kadavu à un vol
+                Les Mamanuca sont à moins d&apos;une heure de bateau de Nadi, les Yasawa
+                à une demi-heure d&apos;hydravion, Taveuni et Kadavu à un vol
                 régional, les Lau à deux jours de mer. Plus on s&apos;éloigne,
                 moins on croise de monde, et plus il faut consacrer de journées
                 au trajet lui-même.
@@ -560,8 +560,8 @@ export const destination: Destination = {
           quote:
             "Nous étions partis pour le lagon et nous sommes rentrés en parlant du village. La racine de kava, le chef qui nous fait asseoir, les enfants qui chantent : c'est ce dont nous parlons encore.",
           image: {
-            src: "/destination/fidji/hero-1.png",
-            alt: "Voyage aux Fidji : le lagon des Yasawa et ses îlots vus depuis la hauteur"
+            src: "/destination/fidji/hero-1.webp",
+            alt: "Île des Fidji bordée de sable blanc et de récifs, vue du ciel"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Fidji, septembre 2026", // TODO: à vérifier (replace with real testimonial)
@@ -571,8 +571,8 @@ export const destination: Destination = {
           quote:
             "L'hydravion s'est posé devant la plage et l'équipe nous attendait dans l'eau. Nous n'avons pas eu à nous occuper d'un seul transfert en douze jours.",
           image: {
-            src: "/destination/fidji/hero-2.png",
-            alt: "Bure couverte de chaume au bord de l'eau dans les Mamanuca aux Fidji"
+            src: "/destination/fidji/hero-2.webp",
+            alt: "Bures de chaume du village de Navala au pied des hautes terres de Viti Levu"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Fidji, îles privées, juin 2026", // TODO: à vérifier (replace with real testimonial)
@@ -582,8 +582,8 @@ export const destination: Destination = {
           quote:
             "Personne ne nous avait dit ce qu'il y avait derrière la falaise de Sawa-i-Lau. On nage dans le noir quelques secondes, et l'on ressort dans une salle où le jour descend du plafond : nous en parlons encore.",
           image: {
-            src: "/destination/fidji/hero-3.png",
-            alt: "Pêcheurs poussant leur barque sur le sable au lever du jour à Kadavu"
+            src: "/destination/fidji/hero-3.webp",
+            alt: "Pêcheurs sur leur pirogue à balancier au lever du jour, aux Fidji"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Fidji, Yasawa, octobre 2026", // TODO: à vérifier (replace with real testimonial)

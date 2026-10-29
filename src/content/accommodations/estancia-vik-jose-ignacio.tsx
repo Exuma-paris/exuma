@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Une estancia toujours en activité, posée entre la lagune de Garzón et l'océan. Chaque suite a été confiée à un artiste uruguayen, si bien qu'aucune ne ressemble à la suivante, et les chevaux sortent chaque matin.",
   keywords: ["uruguay", "jose ignacio", "laguna garzon", "estancia", "maldonado"],
   heroImage: {
-    src: "/destination/uruguay/hotel-estancia-vik.png",
-    alt: "Patio et galerie de l'Estancia Vik au-dessus de la lagune de Garzón en Uruguay",
+    src: "/destination/uruguay/hotel-estancia-vik.webp",
+    alt: "Porche blanc de l'Estancia Vik ouvrant sur le patio et sa sculpture de bois, José Ignacio",
   },
   destinationSlugs: ["uruguay"],
   sections: [],

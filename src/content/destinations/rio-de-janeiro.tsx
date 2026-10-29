@@ -71,7 +71,7 @@ export const destination: Destination = {
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage à Rio de Janeiro ne commence pas par un programme. Il commence par une lecture des heures. Six heures du matin, une famille pose ses serviettes sur le sable de Copacabana. Sept heures, un coureur prend la mesure du Pain de Sucre depuis la promenade. Dix-sept heures, la lumière passe au-dessus du Corcovado et la ville bascule. Apprendre ces heures, c'est déjà la moitié du voyage.",
-        "L'itinéraire se construit par quartiers, pas par checklists. Une matinée à Santa Teresa entre les tramways jaunes et les ateliers d'artisans, un déjeuner au comptoir d'Ipanema, une visite à l'aube du Corcovado par le sentier de Paineiras, un atelier de samba à la Mangueira. Chaque quartier garde sa langue, son rythme, sa cuisine. Nous écrivons cette logique en collaboration avec les Brésiliens qui la vivent.",
+        "L'itinéraire se construit par quartiers, pas par checklists. Une matinée à Santa Teresa entre les tramways jaunes et les ateliers d'artisans, un déjeuner au comptoir d'Ipanema, une montée à l'aube au Corcovado depuis le Parque Lage, un atelier de samba à la Mangueira. Chaque quartier garde sa langue, son rythme, sa cuisine. Nous écrivons cette logique en collaboration avec les Brésiliens qui la vivent.",
         "« Carioca » n'est pas un adjectif facile. C'est un état d'attention au temps qui change, à la lumière qui tourne, au rythme qui ne se force pas. Rio, c'est la ville où l'océan s'arrête au pied de la forêt, et où la forêt redescend dans la ville.",
       ],
     },
@@ -91,8 +91,8 @@ export const destination: Destination = {
       heading: "Le Corcovado au lever du jour",
       theme: "light",
       paragraphs: [
-        "Tôt le matin, on monte au Corcovado à pied par le sentier de Paineiras, à travers la forêt de Tijuca, l'une des plus grandes forêts urbaines du monde. La marche dure environ quarante minutes avec un guide qui connaît bien le chemin, et l'on croise souvent des singes dans les arbres.",
-        "On arrive au pied du Christ Rédempteur avant l'affluence. La vue embrasse toute la baie de Guanabara : le Pain de Sucre, la baie de Botafogo et, au loin, Niterói, avec la ville qui s'étend entre mer et montagnes.",
+        "Tôt le matin, on monte au Corcovado à pied depuis le Parque Lage, à travers la forêt de Tijuca, l'une des plus grandes forêts urbaines du monde. La marche dure environ deux heures avec un guide qui connaît bien le chemin, et l'on croise souvent des singes dans les arbres.",
+        "On arrive au pied du Christ Rédempteur dès l'ouverture, avant l'affluence. La vue embrasse toute la baie de Guanabara : le Pain de Sucre, la baie de Botafogo et, au loin, Niterói, avec la ville qui s'étend entre mer et montagnes.",
       ],
       images: [
         {
@@ -101,7 +101,7 @@ export const destination: Destination = {
         },
         {
           src: "/destination/rio-de-janeiro/split-2.png",
-          alt: "Singes capucins dans la forêt de Tijuca, sentier de Paineiras",
+          alt: "Singes capucins dans la forêt de Tijuca, sur le sentier du Corcovado",
         },
       ],
     },
@@ -122,8 +122,8 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "Deux heures avec un percussionniste de la Mangueira",
         columns: [
-          "L'école de Mangueira est l'une des plus anciennes de Rio. Fondée en 1928 dans le quartier ouvrier qui a donné son nom à la samba moderne, elle reste un cœur vivant : répétitions hebdomadaires, défilé du carnaval, école de musique pour les enfants du quartier. L'atelier privé se tient le mardi ou le jeudi, dans la quadra (la salle de répétition).",
-          "Notre percussionniste y est résident depuis vingt ans. Il enseigne le surdo, le tamborim, le pandeiro, un par participant. La séance dure deux heures. Le rythme s'apprend par le corps, pas par la partition. À la fin, on joue ensemble une samba simple. C'est ce moment-là qu'on signe, parce qu'on ne le voit pas autrement.",
+          "L'école de Mangueira est l'une des plus anciennes de Rio. Fondée en 1928 sur la colline qui lui a donné son nom, elle reste un cœur vivant : répétitions hebdomadaires, défilé du carnaval, école de musique pour les enfants du quartier. L'atelier privé se tient le mardi ou le jeudi, dans la quadra (la salle de répétition).",
+          "Notre percussionniste y est résident depuis vingt ans. Il enseigne le surdo, le tamborim, le pandeiro, un par participant. La séance dure deux heures. Le rythme s'apprend par le corps, pas par la partition. À la fin, on joue ensemble une samba simple, et c'est le souvenir que les voyageurs gardent le plus longtemps.",
         ],
       },
     },
@@ -132,13 +132,13 @@ export const destination: Destination = {
       type: "entityList",
       kind: "experience",
       background: "bg-white",
-      eyebrow: "Expériences et activités en Rio de Janeiro",
+      eyebrow: "Expériences et activités à Rio de Janeiro",
       heading: "Ce qu'on fait, concrètement",
       description:
-        "Trois moments qui ne s'improvisent pas : les plages sauvages de la côte ouest, l'aube sur le Corcovado, une sortie en mer avec un pêcheur d'Ipanema. Aucune file d'attente, aucun groupe.",
+        "Trois moments qui ne s'improvisent pas : une soirée en loge au Theatro Municipal, l'aube sur le Corcovado, une sortie en mer avec un pêcheur d'Ipanema. Aucune file d'attente, aucun groupe.",
       cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
       slugs: [
-        "sables-secrets-rio",
+        "soiree-theatro-municipal",
         "corcovado-aube-paineiras",
         "iles-cagarras-pecheur",
       ],
@@ -491,16 +491,15 @@ export const destination: Destination = {
           cardEyebrow: "Vue",
           modalEyebrow: "Ce que les guides ne disent pas",
           shortDescription:
-            "Le sentier de Paineiras part à six heures du matin. Quarante minutes de marche pour arriver avant les bus de touristes",
+            "Le sentier part du Parque Lage à six heures du matin. Deux heures de marche pour arriver dès l'ouverture, avant les trains",
           content: (
             <div className="flex flex-col gap-4">
               <p>
                 Le Corcovado se monte habituellement par le train depuis
-                Cosme Velho. Le sentier de Paineiras, par derrière la
-                montagne, est une alternative à pied. Quarante minutes de
-                marche dans la forêt de Tijuca, avec un guide naturaliste.
-                On arrive au sommet vers sept heures, avant l'ouverture aux
-                touristes.
+                Cosme Velho. Le sentier qui part du Parque Lage est l&apos;alternative
+                à pied : deux heures de marche dans la forêt de Tijuca, avec
+                un guide naturaliste. On arrive au sommet à huit heures, dès
+                l&apos;ouverture, avant les premiers trains.
               </p>
               <p>
                 Les singes capucins traversent le sentier. Les bromélies

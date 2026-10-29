@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Les guides sont à la fois cultivateurs de cacao et chocolatiers, et ils ouvrent la cabosse devant vous, sous les grands arbres de la plantation. On suit la fève jusqu'au bout, on fabrique sa propre tablette et on la rapporte.",
   keywords: ["sainte-lucie", "soufriere", "cacao", "chocolat", "plantation"],
   heroImage: {
-    src: "/destination/sainte-lucie/xp-arbre-au-chocolat.png",
-    alt: "Cabosse de cacao ouverte à la main dans une plantation au-dessus de Soufrière à Sainte-Lucie",
+    src: "/destination/sainte-lucie/xp-arbre-au-chocolat.webp",
+    alt: "Un cultivateur montre deux cabosses de cacao, jaune et verte, sous les cacaoyers d'une plantation de Sainte-Lucie",
   },
   destinationSlugs: ["sainte-lucie"],
   sections: [],

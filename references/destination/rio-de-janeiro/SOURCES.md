@@ -29,3 +29,6 @@ Each generated image in `public/destination/rio-de-janeiro/` was produced by fee
 | `map-lapa.png`                       | `map-lapa-ref.jpg`                      | TODO                          | TODO        |
 | `map-jardim-botanico.png`            | `map-jardim-botanico-ref.jpg`           | TODO                          | TODO        |
 | `map-centro.png`                     | `map-centro-ref.jpg`                    | TODO                          | TODO        |
+
+## Theatro Municipal (27/10)
+- `xp-theatro-municipal.webp` : Tripadvisor — https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/cd/e3/63/caption.jpg — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
