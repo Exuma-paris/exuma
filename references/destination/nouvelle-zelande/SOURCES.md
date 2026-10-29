@@ -12,3 +12,5 @@
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
 | `bento-hebergements.webp` | Générée par IA (gen_text) | image générée |
+- `hero-1.webp` : https://cdn.getyourguide.com/…/tour_img/5e3e4e8b20bd3.jpeg (GetYourGuide, recadrage carré, agrandissement fidèle Gemini).
+- `hero-2.webp` : https://media.istockphoto.com/id/1295232537/ (iStock, recadrage carré, agrandissement fidèle Gemini).

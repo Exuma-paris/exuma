@@ -35,12 +35,12 @@ export const destination: Destination = {
         "Deux îles séparées par un détroit de vingt-deux kilomètres, une faille alpine qui court sur plus de six cents kilomètres, quinze fjords creusés par les glaciers dans le Fiordland. Au nord, les geysers de Rotorua et les baies tièdes du Pacifique ; au sud, les Alpes et leurs glaciers qui descendent presque jusqu'à la mer.", // TODO: verify figures
       images: [
         {
-          src: "/destination/nouvelle-zelande/hero-1.png",
-          alt: "Voyage en Nouvelle-Zélande : survol du fjord de Milford Sound, dans le Fiordland",
+          src: "/destination/nouvelle-zelande/hero-1.webp",
+          alt: "Voyage en Nouvelle-Zélande : le Mitre Peak et la brume du matin sur Milford Sound, dans le Fiordland",
         },
         {
-          src: "/destination/nouvelle-zelande/hero-2.png",
-          alt: "Lac Wakatipu et les Remarkables, près de Queenstown, sur l'île du Sud",
+          src: "/destination/nouvelle-zelande/hero-2.webp",
+          alt: "Les Remarkables enneigées au-dessus du lac Wakatipu, près de Queenstown, sur l'île du Sud",
         },
         {
           src: "/destination/nouvelle-zelande/hero-3.png",
