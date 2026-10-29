@@ -43,3 +43,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `xp-corail.webp` : image générée par IA (Gemini), inspirée de https://www.radio1.pf/cms/wp-content/uploads/2017/07/20449237_1558394340857478_2095236752804509577_o-782x520.jpg (eau plus bleue, deux personnes seulement).
 - `hotel-soneva-jani.webp` : https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2026/06/03164624/Soneva-Jani-North-Jetty-Water-Retreat-Aerial-1-Large-scaled-e1780490906866.jpg (site officiel Soneva, recadrage carré).
 - `hotel-landaa-giraavaru.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2qL4aSeY22HnKHR1oiYNUmvdBeUcKcwmvA5dy_UsGe0YnmslqSbbcQA9n), recadrage carré, agrandissement fidèle Gemini.
+- `split-1.webp` (remplace la vue de Laamu) : Wikimedia Commons, File:Landaa Giraavaru vue du ciel.JPG, CC BY-SA 4.0 (recadrage portrait).

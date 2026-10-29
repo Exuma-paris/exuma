@@ -100,7 +100,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/maldives/split-1.webp",
-          alt: "Ponton de bois et villas sur pilotis de l'atoll de Laamu aux Maldives",
+          alt: "L'île de Landaa Giraavaru et ses villas sur pilotis vues du ciel, dans le lagon de l'atoll de Baa",
         },
         {
           src: "/destination/maldives/split-2.webp",
