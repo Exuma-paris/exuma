@@ -36,3 +36,5 @@ Commons :
 Images générées par IA (Gemini) : `split-1.webp`, `split-2.webp`, `xp-eclosion-tortues.webp`, `coucher-granit-1.webp`, `xp-coucher-soleil-granit.webp`.
 - `hero-3.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWVSUxoS24gDHvLG3vPvUhIKyn4LwyiYBimW9w89BTHCxly-w_ogLPePxV), recadrage carré, agrandissement fidèle Gemini.
 - `xp-vol-helicoptere.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Aaj2j3BEO4U_NXGh6-hJQxhDDS7ZiV9Onl2_SQImDQ_oy4u8RhBKKhM), agrandissement fidèle Gemini.
+- `hotel-north-island.webp` : https://www.travelandleisure.com/thmb/MR-pramXkGYUD0m-4Ti0Zo289H4=/1500x0/…/north-island-seychelles-luxury-collection-resort-05-SEYCHELISLAND0722-….jpg (Travel + Leisure, recadrage carré).
+- `hotel-fregate-island.webp` : https://www.tropicalement-votre.com/produits/881/fiche1.jpg (recadrage carré, agrandissement fidèle Gemini).
