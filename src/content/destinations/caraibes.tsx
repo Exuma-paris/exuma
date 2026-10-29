@@ -94,7 +94,7 @@ export const destination: Destination = {
       theme: "light",
       paragraphs: [
         "En bateau privé, on part tôt le matin avec un équipage qui connaît les eaux calmes et les anses abritées. La journée alterne baignades, déjeuner sur le pont et après-midi à l'ombre, pendant que les îles défilent.",
-        "À terre, certaines plages ne sont accessibles qu'à pied ou par la mer, ce qui les garde presque désertes. On y déjeune les pieds dans le sable, autour de poissons achetés au village et grillés sur place, et l'on garde souvent la baie pour soi jusqu'au soir.",
+        "À terre, certaines plages ne sont accessibles qu'à pied ou par la mer, ce qui les garde presque désertes. On y déjeune à l'ombre d'un panier préparé à bord, et l'on garde souvent la baie pour soi jusqu'au soir.",
       ],
       images: [
         {
@@ -124,7 +124,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "La goélette privée, de Bequia aux Tobago Cays",
         columns: [
-          "La goélette attend à Bequia, équipage à bord, et la journée commence par une conversation avec le capitaine plutôt que par un programme. Il propose une baie selon le vent, on accepte ou l'on préfère celle d'à côté, et l'ancre tombe là où l'eau est la plus claire. Les enfants sautent du pont avant même que le moteur ne soit coupé.",
+          "La goélette attend à Bequia, équipage à bord, et la journée commence par une conversation avec le capitaine plutôt que par un programme. Il propose une baie selon le vent, on accepte ou l'on préfère celle d'à côté, et l'ancre tombe là où l'eau est la plus claire. Les enfants sautent du pont dès que l'ancre a tenu.",
           "Aux Tobago Cays, la lumière traverse le lagon jusqu'au fond. Les tortues broutent l'herbier sans s'écarter des nageurs, un pêcheur de Mayreau vient proposer sa langouste pour le soir, et le dîner se prend sur le pont, à l'ancre, avec les feux des autres bateaux au loin. Ceux qui ont dormi une nuit ainsi en réclament presque toujours une deuxième.",
         ],
       },
@@ -150,7 +150,7 @@ export const destination: Destination = {
       kind: "accommodation",
       background: "bg-background-soft",
       eyebrow: "Hébergements",
-      heading: "Dormir face au large, ou sur une île tenue par une seule maison",
+      heading: "Dormir face au large, ou sur une île que gère une compagnie privée",
       description:
         "Une plage de Saint-Barthélemy où le personnel devance les demandes sans jamais se montrer, une baie d'Anguilla que l'on parcourt le matin sans rencontrer personne, et Mustique, où l'on ne débarque pas par hasard. Nous choisissons chaque étape pour ce que l'on ressent en ouvrant les volets.",
       slugs: [
