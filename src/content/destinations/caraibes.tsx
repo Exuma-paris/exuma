@@ -40,11 +40,11 @@ export const destination: Destination = {
         },
         {
           src: "/destination/caraibes/hero-2.webp",
-          alt: "La baie des Flamands à Saint-Barthélemy, sa plage et ses maisons au pied du morne",
+          alt: "Une longue plage blanche d'Anguilla et son récif, vus du ciel",
         },
         {
           src: "/destination/caraibes/hero-3.webp",
-          alt: "Les Pitons de Sainte-Lucie vus depuis la mer",
+          alt: "Le Petit Piton de Sainte-Lucie vu depuis la mer, une barque de pêche au premier plan",
         },
       ],
     },
@@ -569,7 +569,7 @@ export const destination: Destination = {
             "Nos enfants ont passé leurs journées dans l'eau et nous avons dîné le soir sans jamais penser à l'organisation. C'est la première fois que nous rentrons vraiment reposés.",
           image: {
             src: "/destination/caraibes/hero-2.webp",
-            alt: "La baie des Flamands à Saint-Barthélemy, sa plage et ses maisons au pied du morne"
+            alt: "Une longue plage blanche d'Anguilla et son récif, vus du ciel"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Saint-Barthélemy et Anguilla en famille, 2025", // TODO: à vérifier (replace with real testimonial)
@@ -580,7 +580,7 @@ export const destination: Destination = {
             "Le pique-nique sur la plage de Colombier restera notre meilleur souvenir. Nous étions seuls à l'ombre des raisiniers, et personne n'est venu de tout l'après-midi.",
           image: {
             src: "/destination/caraibes/hero-3.webp",
-            alt: "Les Pitons de Sainte-Lucie vus depuis la mer"
+            alt: "Le Petit Piton de Sainte-Lucie vu depuis la mer, une barque de pêche au premier plan"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Saint-Barthélemy, 2025", // TODO: à vérifier (replace with real testimonial)

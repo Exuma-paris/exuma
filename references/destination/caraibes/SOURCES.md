@@ -50,3 +50,5 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `split-1.webp` : Wikimedia Commons, File:Gelliceaux Beach on Mustique Island November 2018.jpg, CC BY-SA 4.0.
 - `bento-hebergements.webp` : Wikimedia Commons, File:PSV Dock at Petit St. Vincent Island Resort - The Grenadines, St. Vincent, Caribbean..jpg, CC BY-SA 3.0.
 - `hero-1.webp`, `split-2.webp`, `xp-cacao-grenade.webp`, `xp-goelette-grenadines-1.webp`, `xp-goelette-grenadines-2.webp` : images générées par IA (Gemini).
+- `hero-2.webp` (remplace la version Commons) : https://milesopedia.com/wp-content/uploads/2023/03/plage-AnguillaOfficial-Facebook.jpg (Anguilla Tourist Board via Milesopedia, agrandissement fidèle Gemini).
+- `hero-3.webp` (remplace la version Commons) : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkUZlQD2MnU_UddzbhkMzHj_fgn-nSY9uciYGHjUsyZ6kh23Lx3-EjlKnW), recadrage carré, agrandissement fidèle Gemini.
