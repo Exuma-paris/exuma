@@ -34,3 +34,4 @@ Commons :
 - `coucher-granit-2.webp` : Wikimedia Commons, File:198 Granite rock in La Digue Island at sunset Photo by Giles Laurent.jpg (CC BY-SA 4.0).
 
 Images générées par IA (Gemini) : `split-1.webp`, `split-2.webp`, `xp-eclosion-tortues.webp`, `coucher-granit-1.webp`, `xp-coucher-soleil-granit.webp`.
+- `hero-3.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWVSUxoS24gDHvLG3vPvUhIKyn4LwyiYBimW9w89BTHCxly-w_ogLPePxV), recadrage carré, agrandissement fidèle Gemini.

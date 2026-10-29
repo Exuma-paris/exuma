@@ -43,8 +43,8 @@ export const destination: Destination = {
           alt: "Sentier sous les palmiers coco de mer de la Vallée de Mai sur l'île de Praslin",
         },
         {
-          src: "/destination/seychelles/hero-3.png",
-          alt: "Lagon turquoise et blocs de granit vus du ciel aux Seychelles",
+          src: "/destination/seychelles/hero-3.webp",
+          alt: "Blocs de granit, palmiers et eau turquoise vus du ciel à La Digue, aux Seychelles",
         },
       ],
     },
