@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Un moment les mains dans l'eau, à fixer des boutures sur les structures de la pépinière, avec le nom de la famille sur l'étiquette. Les enfants y retournent chaque matin pour voir si ça pousse.",
   keywords: ["maldives", "corail", "biologiste", "pepiniere", "famille"],
   heroImage: {
-    src: "/destination/maldives/xp-corail.png",
-    alt: "Enfant fixant une bouture de corail sur une structure de pépinière aux Maldives",
+    src: "/destination/maldives/xp-corail.webp",
+    alt: "Une biologiste aide un enfant à fixer une bouture de corail sur une structure de pépinière, dans le lagon des Maldives",
   },
   destinationSlugs: ["maldives"],
   sections: [],

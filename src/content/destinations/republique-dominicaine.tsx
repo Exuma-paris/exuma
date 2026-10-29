@@ -9,9 +9,9 @@ export const destination: Destination = {
   country: "République dominicaine",
   genitive: "de la République dominicaine",
   projectNote:
-    "La plupart des voyageurs ne voient que la côte est, celle des resorts. Il y a une autre île une heure au nord : la baie de Samaná, les mangroves de Los Haitises, le cacao à l'ancienne.",
+    "La plupart des voyageurs ne voient que la côte est, celle des resorts. Il y a une autre île une heure au nord : la baie de Samaná, les mangroves de Los Haitises, les baleines du Silver Bank.",
   continentSlug: "ameriques",
-  blurb: "Samaná, Punta Cana, Casa de Campo, Los Haitises",
+  blurb: "Samaná, Punta Cana, Cap Cana, Los Haitises",
   keywords: [
     "republique dominicaine",
     "punta cana",
@@ -24,7 +24,7 @@ export const destination: Destination = {
   ],
   metaTitle: "République dominicaine : Voyage sur mesure",
   metaDescription:
-    "Voyage sur mesure en République dominicaine : Samaná, Punta Cana, Casa de Campo. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
+    "Voyage sur mesure en République dominicaine : Samaná, Punta Cana, Cap Cana. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
     {
       type: "hero",
@@ -32,19 +32,19 @@ export const destination: Destination = {
       heading:
         "République dominicaine. Une même île regarde l'Atlantique d'un côté, les Caraïbes de l'autre.",
       description:
-        "De Samaná à Punta Cana, l'île change de mer sans changer de latitude. Baleines à bosse dans la baie de Samaná, villas isolées à Casa de Campo, cacao cultivé depuis plusieurs générations près de Río San Juan : une même République dominicaine raconte plusieurs histoires selon la côte où l'on pose sa valise.",
+        "De Samaná à Punta Cana, l'île change de mer sans changer de latitude. Baleines à bosse au large de la côte nord, suites sur la plage à Cap Cana, cigares roulés à la main à La Romana : une même République dominicaine raconte plusieurs histoires selon la côte où l'on pose sa valise.",
       images: [
         {
-          src: "/destination/republique-dominicaine/hero-1.png",
+          src: "/destination/republique-dominicaine/hero-1.webp",
           alt: "Plage de sable blanc bordée de cocotiers à Punta Cana, République dominicaine",
         },
         {
-          src: "/destination/republique-dominicaine/hero-2.png",
+          src: "/destination/republique-dominicaine/hero-2.webp",
           alt: "Baleine à bosse dans la baie de Samaná, République dominicaine",
         },
         {
-          src: "/destination/republique-dominicaine/hero-3.png",
-          alt: "Villa privée face à l'océan à Casa de Campo, La Romana",
+          src: "/destination/republique-dominicaine/hero-3.webp",
+          alt: "Villa posée sur les rochers au-dessus de la mer des Caraïbes, La Romana",
         },
       ],
     },
@@ -59,7 +59,7 @@ export const destination: Destination = {
         collaborateurSlug: "carole",
         // TODO: verify quote attribution
         quote:
-          "La plupart des voyageurs ne voient que la côte est et ses resorts. Plus au nord, il y a la baie de Samaná, les mangroves de Los Haitises et une plantation de cacao qu'on visite encore à l'ancienne. Je fais tenir les deux côtes dans un même itinéraire.",
+          "La plupart des voyageurs ne voient que la côte est et ses resorts. Plus au nord, il y a la baie de Samaná, les mangroves de Los Haitises et, au large, les baleines du Silver Bank. Je fais tenir les deux côtes dans un même itinéraire.",
         role: "Travel Designer · République dominicaine",
       },
       features: [
@@ -67,7 +67,7 @@ export const destination: Destination = {
           iconName: "badgeCheck",
           title: "Villas et propriétés isolées",
           description:
-            "Casitas sur une falaise à Río San Juan, villa avec personnel dédié à La Romana : des adresses choisies pour leur emplacement et leur caractère.",
+            "Casitas sur une falaise à Río San Juan, suites avec piscine privée à Cap Cana : des adresses choisies pour leur emplacement et leur caractère.",
         },
         {
           iconName: "sparkles",
@@ -79,7 +79,7 @@ export const destination: Destination = {
           iconName: "star",
           title: "Accès négociés localement",
           description:
-            "Capitaine de baleinier à Samaná, planteurs de cacao, guides des Haitises : des rencontres construites avec des personnes qui connaissent l'île pour y vivre.",
+            "Guides du Silver Bank, maîtres torcedores de La Romana, guides des Haitises : des rencontres construites avec des personnes qui connaissent l'île pour y vivre.",
         },
       ],
     },
@@ -100,8 +100,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/republique-dominicaine/full-image.png",
-        alt: "Baie de Samaná vue du ciel au lever du jour, République dominicaine",
+        src: "/destination/republique-dominicaine/full-image.webp",
+        alt: "Plage de Cayo Levantado vue du ciel, baie de Samaná",
       },
       height: 600,
     },
@@ -117,12 +117,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/republique-dominicaine/split-1.png",
+          src: "/destination/republique-dominicaine/split-1.webp",
           alt: "Queue de baleine à bosse émergeant de la baie de Samaná",
         },
         {
-          src: "/destination/republique-dominicaine/split-2.png",
-          alt: "Dômes karstiques couverts de mangrove dans le parc Los Haitises",
+          src: "/destination/republique-dominicaine/split-2.webp",
+          alt: "Cayo de los Pájaros et ses frégates, parc national Los Haitises",
         },
       ],
     },
@@ -131,12 +131,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/republique-dominicaine/xp-survol-helicoptere-samana-1.png",
+          src: "/destination/republique-dominicaine/xp-survol-helicoptere-samana-1.webp",
           alt: "Vue aérienne de la côte de Samaná depuis un hélicoptère",
         },
         right: {
-          src: "/destination/republique-dominicaine/xp-survol-helicoptere-samana-2.png",
-          alt: "Plage isolée vue du ciel entre Samaná et Punta Cana",
+          src: "/destination/republique-dominicaine/xp-survol-helicoptere-samana-2.webp",
+          alt: "Palmiers et plage déserte vus depuis l'hélicoptère, péninsule de Samaná",
         },
       },
       text: {
@@ -156,11 +156,11 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en République dominicaine",
       heading: "Nos coups de cœur en République dominicaine",
       description:
-        "Trois façons de découvrir une République dominicaine plus confidentielle : observer les baleines dans la baie de Samaná, traverser les mangroves de Los Haitises en bateau, découvrir le travail du cacao encore réalisé à la main.",
+        "Trois façons de découvrir une République dominicaine plus confidentielle : nager avec les baleines au Silver Bank, traverser les mangroves de Los Haitises en bateau, apprendre à rouler un cigare avec un torcedor de La Romana.",
       slugs: [
-        "baleines-samana",
+        "baleines-silver-bank",
         "los-haitises-bateau",
-        "cacao-hacienda-elvesia",
+        "cigares-la-romana",
       ],
     },
 
@@ -171,8 +171,8 @@ export const destination: Destination = {
       eyebrow: "Hébergements en République dominicaine",
       heading: "Où séjourner",
       description:
-        "Trois adresses qui racontent trois visages de l'île : une falaise sur l'Atlantique, une plage à l'écart du resort, un domaine privé à La Romana. Des lieux choisis pour leur cadre, leur atmosphère et la qualité de l'expérience qu'ils proposent.",
-      slugs: ["amanera", "tortuga-bay", "casa-de-campo"],
+        "Trois adresses qui racontent trois visages de l'île : une falaise sur l'Atlantique, une plage à l'écart du resort, le seul Relais & Châteaux du pays à Cap Cana. Des lieux choisis pour leur cadre, leur atmosphère et la qualité de l'expérience qu'ils proposent.",
+      slugs: ["amanera", "tortuga-bay", "eden-roc-cap-cana"],
     },
 
     {
@@ -249,7 +249,7 @@ export const destination: Destination = {
           alt: [
             "Carte d'itinéraire personnalisé pour un voyage en République dominicaine",
             "Terrasse fleurie et piscine d’une villa isolée face à la mer, près de La Romana",
-            "Casita d'Amanera surplombant la côte atlantique",
+            "Casa Grande d'Amanera et sa piscine, Río San Juan",
             "Conseillère Exuma souriante, casque sur les oreilles",
             "Barque glissant entre les mangroves du parc Los Haitises",
           ][i],
@@ -512,13 +512,13 @@ export const destination: Destination = {
           cardEyebrow: "Tips",
           modalEyebrow: "Guide pratique",
           shortDescription:
-            "Les places pour l'observation des baleines et certaines villas de La Romana se réservent plusieurs mois à l'avance.",
+            "Les places au Silver Bank et les suites des meilleures adresses se réservent plusieurs mois à l'avance.",
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                Les sorties d&apos;observation des baleines à Samaná se
-                remplissent vite en février, le pic de la saison. Les villas
-                les plus isolées de Casa de Campo et les casitas d&apos;Amanera
+                Les trois bateaux autorisés au Silver Bank sont complets
+                longtemps à l&apos;avance pour février et mars. Les suites
+                d&apos;Eden Roc et les casitas d&apos;Amanera
                 se réservent également plusieurs mois à l&apos;avance en haute
                 saison.
               </p>
@@ -569,9 +569,9 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Nous ne connaissions que Punta Cana par ouïe-dire. Carole nous a fait remonter jusqu'à Samaná pour les baleines, puis redescendre vers Casa de Campo : deux voyages en un, sans une seule journée de trop.",
+            "Nous ne connaissions que Punta Cana par ouïe-dire. Carole nous a fait remonter jusqu'à Samaná pour les baleines, puis redescendre vers Cap Cana : deux voyages en un, sans une seule journée de trop.",
           image: {
-            src: "/destination/republique-dominicaine/hero-1.png",
+            src: "/destination/republique-dominicaine/hero-1.webp",
             alt: "Plage de sable blanc bordée de cocotiers à Punta Cana, République dominicaine",
           },
           name: "Isabelle & Thomas", // TODO: verify
@@ -582,7 +582,7 @@ export const destination: Destination = {
           quote:
             "Le survol en hélicoptère entre Samaná et Punta Cana restera le moment fort du voyage. On a vu l'île entière basculer d'une mer à l'autre en moins d'une heure.",
           image: {
-            src: "/destination/republique-dominicaine/hero-2.png",
+            src: "/destination/republique-dominicaine/hero-2.webp",
             alt: "Baleine à bosse dans la baie de Samaná, République dominicaine",
           },
           name: "Frédéric", // TODO: verify
@@ -591,10 +591,10 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Ce qui m'a marquée, c'est l'Hacienda Elvesia : une plantation de cacao familiale, loin des circuits organisés. Nos enfants n'ont plus regardé une tablette de chocolat de la même façon.",
+            "Ce qui m'a marqué, c'est la manufacture de La Romana : le torcedor nous a appris à rouler notre propre cigare. On a dégusté le résultat le soir même, avec un rhum vieux.",
           image: {
-            src: "/destination/republique-dominicaine/hero-3.png",
-            alt: "Villa privée face à l'océan à Casa de Campo, La Romana",
+            src: "/destination/republique-dominicaine/hero-3.webp",
+            alt: "Villa posée sur les rochers au-dessus de la mer des Caraïbes, La Romana",
           },
           name: "Constance", // TODO: verify
           role: "Voyage en famille, janvier 2026", // TODO: verify
@@ -638,7 +638,7 @@ export const destination: Destination = {
         {
           question: "Le voyage est-il adapté aux familles ?",
           answer:
-            "Oui. Observation des baleines, excursion en bateau dans les mangroves de Los Haitises, plages privées des villas de Punta Cana ou de Casa de Campo : le pays se prête bien à un séjour multi-âges. Nous adaptons le rythme et les hébergements à l'âge des enfants.",
+            "Oui. Observation des baleines, excursion en bateau dans les mangroves de Los Haitises, plages de Punta Cana et de Cap Cana : le pays se prête bien à un séjour multi-âges. Nous adaptons le rythme et les hébergements à l'âge des enfants.",
         },
         {
           question:

@@ -227,13 +227,13 @@ export const destination: Destination = {
       cards: defaultBento.cards.map((card, i) => ({
         ...card,
         image: {
-          src: `/destination/turks-and-caicos/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.png`,
+          src: `/destination/turks-and-caicos/bento-${["map", "adresses", "hebergements", "conciergerie", "experiences"][i]}.webp`,
           alt: [
             "Itinéraire sur mesure aux Turks and Caicos entre Providenciales, les cays et Middle Caicos",
-            "Adresses confidentielles aux Turks and Caicos : plages sans accès et tables de Blue Hills",
+            "Table pour deux dressée sous un raisinier de mer à Blue Hills, langoustes grillées et chef au barbecue près des barques de pêche",
             "Hébergements aux Turks and Caicos : Amanyara, COMO Parrot Cay et Ambergris Cay",
-            "Conciergerie privée pour un séjour aux Turks and Caicos",
-            "Expériences aux Turks and Caicos : apnée, plongée sur le mur et navigation à la voile",
+            "Conseillère Exuma souriante, casque sur les oreilles",
+            "Voilier classique en bois sur les eaux turquoise du banc des Caïques, un couple assis à l'avant face à un cay désert",
           ][i],
         },
       })),
@@ -254,8 +254,8 @@ export const destination: Destination = {
           description:
             "C'est l'île d'arrivée, et celle où se trouvent presque toutes les tables de l'archipel. Grace Bay tient la côte nord derrière son récif, l'eau y reste plate toute la journée, et la plage se marche longtemps sans croiser de construction. La pointe nord-ouest, elle, reste vide.",
           image: {
-            src: "/destination/turks-and-caicos/map-providenciales.png",
-            alt: "La plage de Grace Bay à Providenciales et son eau plate derrière le récif",
+            src: "/destination/turks-and-caicos/map-providenciales.webp",
+            alt: "Une plage de Providenciales en fin de journée, sable doré et mer calme derrière le récif",
           },
           // TODO: verify coords
           coordinates: { lat: 21.7936, lng: -72.1962 },
@@ -265,8 +265,8 @@ export const destination: Destination = {
           description:
             "Le parc marin de Northwest Point ferme la pointe de Providenciales, et West Caicos lui fait face, inhabitée depuis l'abandon de ses salines. Le tombant y démarre par douze mètres de fond et descend à deux mille. Les sites les plus connus, Elephant Ear Canyon et The Anchor, se rejoignent en une heure de bateau.",
           image: {
-            src: "/destination/turks-and-caicos/map-west-caicos.png",
-            alt: "La côte inhabitée de West Caicos et le tombant du récif au large",
+            src: "/destination/turks-and-caicos/map-west-caicos.webp",
+            alt: "West Caicos vue du ciel, le lac Catherine au centre de l'île inhabitée et le tombant bleu nuit au large",
           },
           // TODO: verify coords
           coordinates: { lat: 21.6333, lng: -72.4667 },
@@ -276,7 +276,7 @@ export const destination: Destination = {
           description:
             "Chalk Sound est un lagon fermé, semé de dizaines d'îlots rocheux, d'un turquoise qui ne ressemble à rien d'autre sur l'île. Un peu plus à l'est, Little Water Cay n'a pour habitants que des iguanes endémiques, une espèce que l'on ne trouve que dans cet archipel.",
           image: {
-            src: "/destination/turks-and-caicos/map-chalk-sound.png",
+            src: "/destination/turks-and-caicos/map-chalk-sound.webp",
             alt: "Les îlots rocheux du lagon de Chalk Sound à Providenciales",
           },
           // TODO: verify coords
@@ -287,8 +287,8 @@ export const destination: Destination = {
           description:
             "Une chaussée relie les deux îles, et la route de l'est se fait en une journée. Les falaises de Mudjin Harbour tombent droit dans la mer, les grottes de Conch Bar s'enfoncent sous le calcaire, et la plantation de Wade's Green attend depuis deux siècles au milieu des broussailles.",
           image: {
-            src: "/destination/turks-and-caicos/map-middle-caicos.png",
-            alt: "Les falaises de Mudjin Harbour et la plage en contrebas à Middle Caicos",
+            src: "/destination/turks-and-caicos/map-middle-caicos.webp",
+            alt: "La plage de Mudjin Harbour et le rocher de Dragon Cay à Middle Caicos",
           },
           // TODO: verify coords
           coordinates: { lat: 21.8206, lng: -71.7639 },
@@ -298,8 +298,8 @@ export const destination: Destination = {
           description:
             "Une île entière à une demi-heure de bateau de Providenciales, sans route ni débarcadère public. Sa plage nord fait plus d'un kilomètre et l'on n'y voit personne. On n'accède à Parrot Cay qu'en y séjournant, ce qui règle la question du monde.",
           image: {
-            src: "/destination/turks-and-caicos/map-parrot-cay.png",
-            alt: "La plage nord de l'île privée de Parrot Cay aux Turks and Caicos",
+            src: "/destination/turks-and-caicos/map-parrot-cay.webp",
+            alt: "Coucher de soleil sur une plage de Parrot Cay, rochers calcaires et ciel d'orage",
           },
           // TODO: verify coords
           coordinates: { lat: 21.85, lng: -72.0333 },
@@ -309,8 +309,8 @@ export const destination: Destination = {
           description:
             "De l'autre côté du passage, deux petites îles vivent au ralenti sur les vestiges de l'industrie du sel. Cockburn Town garde ses maisons de bois et ses salines à sec. De la fin janvier au début du mois de mars, les baleines à bosse traversent le passage en longeant la côte, à portée de vue depuis la terre.",
           image: {
-            src: "/destination/turks-and-caicos/map-grand-turk.png",
-            alt: "Les anciennes salines et les maisons de bois de Cockburn Town à Grand Turk",
+            src: "/destination/turks-and-caicos/map-grand-turk.webp",
+            alt: "Le front de mer de Cockburn Town à Grand Turk, sa jetée et ses maisons coloniales",
           },
           // TODO: verify coords
           coordinates: { lat: 21.4664, lng: -71.1389 },

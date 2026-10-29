@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Sainte-Lucie se reconnaît de loin, à ces deux montagnes qui sortent de la mer au-dessus de Soufrière. L'île est verte jusqu'au bord de l'eau, et la forêt descend si près des baies qu'on l'entend depuis le bateau. On passe la journée au mouillage, on remonte dîner au-dessus de la vallée, et l'on s'endort avec le bruit de la pluie sur les feuilles. C'est cette île-là que nous vous ouvrons.",
       images: [
         {
-          src: "/destination/sainte-lucie/hero-1.png",
-          alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton vus depuis la mer",
+          src: "/destination/sainte-lucie/hero-1.webp",
+          alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton au-dessus de la baie, vus depuis les hauteurs de Soufrière",
         },
         {
-          src: "/destination/sainte-lucie/hero-2.png",
-          alt: "La baie de Marigot et sa langue de sable plantée de cocotiers",
+          src: "/destination/sainte-lucie/hero-2.webp",
+          alt: "La baie de Marigot vue du ciel, sa langue de sable plantée de cocotiers et les voiliers au mouillage",
         },
         {
-          src: "/destination/sainte-lucie/hero-3.png",
-          alt: "Barques de pêche tirées sur le sable devant le village de Soufrière",
+          src: "/destination/sainte-lucie/hero-3.webp",
+          alt: "Barques de pêche colorées tirées sur le sable sombre d'une plage de Soufrière",
         },
       ],
     },
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/sainte-lucie/full-image.png",
-        alt: "Voyage à Sainte-Lucie : la baie de Soufrière fermée par les deux Pitons",
+        src: "/destination/sainte-lucie/full-image.webp",
+        alt: "Voyage à Sainte-Lucie : l'Anse Chastanet et son récif turquoise, la forêt et les deux Pitons au fond",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/sainte-lucie/split-1.png",
-          alt: "Cascade au milieu de la forêt tropicale au-dessus de Soufrière à Sainte-Lucie",
+          src: "/destination/sainte-lucie/split-1.webp",
+          alt: "La cascade de Toraille dans la forêt tropicale au-dessus de Soufrière, à Sainte-Lucie",
         },
         {
-          src: "/destination/sainte-lucie/split-2.png",
-          alt: "Bassin d'eau chaude fumant au pied du volcan de Soufrière",
+          src: "/destination/sainte-lucie/split-2.webp",
+          alt: "Fumerolles du volcan de Soufrière, au milieu des roches de soufre et de la forêt",
         },
       ],
     },
@@ -231,9 +231,9 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure à Sainte-Lucie entre Soufrière, Marigot et la baie de Rodney",
             "Table de déjeuner sous les cacaoyers d’un domaine, face aux Pitons",
-            "Hébergements à Sainte-Lucie : Jade Mountain, Sugar Beach et Ladera",
+            "Jardins tropicaux d'un domaine de cacao sous le Petit Piton, à Soufrière",
             "Conseillère Exuma souriante, casque sur les oreilles",
-            "Catamaran privé longeant les Pitons de Sainte-Lucie en fin de journée",
+            "Expériences à Sainte-Lucie : pirogue d'un pêcheur sous les Pitons et montée du Gros Piton",
           ][i],
         },
       })),
@@ -550,8 +550,8 @@ export const destination: Destination = {
           quote:
             "Nous avons fait la sortie en bateau devant les Pitons le premier soir, et nous l'avons refaite la veille du départ. Le skipper nous attendait chaque matin avec une idée différente.",
           image: {
-            src: "/destination/sainte-lucie/hero-1.png",
-            alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton vus depuis la mer"
+            src: "/destination/sainte-lucie/hero-1.webp",
+            alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton au-dessus de la baie, vus depuis les hauteurs de Soufrière"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Sainte-Lucie, mars 2026", // TODO: à vérifier (replace with real testimonial)
@@ -561,8 +561,8 @@ export const destination: Destination = {
           quote:
             "Les enfants ont passé la semaine entre la plage et le récif, et ils sont rentrés avec les tablettes de chocolat qu'ils avaient fabriquées eux-mêmes. Nous n'avons eu à nous occuper de rien.",
           image: {
-            src: "/destination/sainte-lucie/hero-2.png",
-            alt: "La baie de Marigot et sa langue de sable plantée de cocotiers"
+            src: "/destination/sainte-lucie/hero-2.webp",
+            alt: "La baie de Marigot vue du ciel, sa langue de sable plantée de cocotiers et les voiliers au mouillage"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Sainte-Lucie en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
@@ -572,8 +572,8 @@ export const destination: Destination = {
           quote:
             "La montée du Gros Piton au lever du jour restera notre meilleur souvenir. Nous avons pris le petit déjeuner à Soufrière en redescendant, et la journée n'avait pas encore commencé pour les autres.",
           image: {
-            src: "/destination/sainte-lucie/hero-3.png",
-            alt: "Barques de pêche tirées sur le sable devant le village de Soufrière"
+            src: "/destination/sainte-lucie/hero-3.webp",
+            alt: "Barques de pêche colorées tirées sur le sable sombre d'une plage de Soufrière"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Sainte-Lucie, avril 2026", // TODO: à vérifier (replace with real testimonial)

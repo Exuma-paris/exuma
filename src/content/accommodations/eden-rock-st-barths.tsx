@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "plage",
   ],
   heroImage: {
-    src: "/destination/saint-barthelemy/hotel-eden-rock.png",
-    alt: "Le rocher de l'Eden Rock avançant dans la baie de Saint-Jean à Saint-Barthélemy",
+    src: "/destination/saint-barthelemy/hotel-eden-rock.webp",
+    alt: "La maison de l'Eden Rock sur son rocher, au bord de la plage de Saint-Jean",
   },
   destinationSlugs: ["saint-barthelemy"],
   sections: [],

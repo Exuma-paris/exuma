@@ -41,3 +41,15 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`.
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+- `hero-1.webp` : https://www.sainte-lucie.fr/images/pitons-st.jpg (panorama recadré, ciel et premier plan prolongés par Gemini pour le format carré, Pitons inchangés).
+- `hero-2.webp` : https://cdn.prod.rexby.com/image/d596616a4f08444389e0af042a93f0da (recadrage carré).
+- `hero-3.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjmNYHoVki3mtuCWK0j754NF3i25ZRHUZ1JPITU9t87g), redessinée en HD et prolongée au carré par Gemini. Hero 1 à 3 désaturées (couleurs plus naturelles, demande de Thea).
+- `full-image.webp` : https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/240968846.jpg (Booking.com, photo hôtel Anse Chastanet), recadrage 16/9, agrandissement fidèle Gemini, désaturée.
+- `split-1.webp` : https://i0.wp.com/stlucia.org/wp-content/uploads/2026/04/toraille-waterfall.jpg (office de tourisme, cascade de Toraille, recadrage portrait).
+- `split-2.webp` : https://images.partir.com/gAevNcaZcyswI61DuDaS_xGhUB8=/550x366/filters:sharpen(0.3,0.3,true)/lieux-interet/sainte-lucie/sainte-lucie-sources-geothermales.jpg (recadrage carré, agrandissement fidèle Gemini).
+- `xp-arbre-au-chocolat.webp` : https://www.fao.org/media/images/newsroomlibraries/stories-images/st-lucia-cocoa-3.jpg (FAO, recadrage carré).
+- `xp-helicoptere.webp` : image générée par IA (Gemini). La photo proposée (Corail Hélicoptères) montrait Takamaka, à La Réunion, avec le logo de l'opérateur.
+- `hotel-jade-mountain.webp` : https://jademountain.com/wp-content/uploads/2026/06/jade-aerial.webp (site officiel, agrandissement fidèle Gemini).
+- `hotel-sugar-beach.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm9w-jfzR5VgKCRbgl8UV_9AcjGJV16hWRh04jDnMb5A), recadrage carré, agrandissement fidèle Gemini.
+- `hotel-ladera.webp` : https://www.ca.kayak.com/rimg/himg/25/d1/19/ice-71683-e52368-247795.jpg (Kayak, photo hôtel), recadrage carré, agrandissement fidèle Gemini.
+- `bento-hebergements.webp` : https://i0.wp.com/stlucia.org/wp-content/uploads/2026/05/petit-piton-rabot-estate-saint-lucia_.jpg.webp (office de tourisme, Rabot Estate), recadrage 4/3.

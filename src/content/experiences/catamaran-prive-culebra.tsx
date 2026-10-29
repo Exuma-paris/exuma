@@ -7,8 +7,8 @@ export const experience: Experience = {
     "Le catamaran quitte Fajardo au lever du jour, avant les excursions de groupe. Flamenco Beach se referme sur une eau turquoise sans un hôtel à l'horizon.",
   keywords: ["porto rico", "culebra", "catamaran", "flamenco beach", "plage"],
   heroImage: {
-    src: "/destination/porto-rico/xp-catamaran-culebra.png",
-    alt: "Catamaran privé ancré près de Flamenco Beach à Culebra",
+    src: "/destination/porto-rico/xp-catamaran-culebra.webp",
+    alt: "Catamaran privé au mouillage vu du ciel dans les eaux turquoise de Culebra",
   },
   destinationSlugs: ["porto-rico"],
   sections: [],

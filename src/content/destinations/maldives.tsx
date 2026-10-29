@@ -10,7 +10,7 @@ export const destination: Destination = {
   country: "Maldives",
   genitive: "des Maldives",
   projectNote:
-    "L'archipel se choisit atoll par atoll : l'un pour son corail, l'autre pour son silence, l'hydravion relie les deux. À Laamu, un seul hôtel occupe l'atoll entier.",
+    "L'archipel se choisit atoll par atoll : l'un pour son corail, l'autre pour son silence, l'hydravion relie les deux. À Laamu, deux hôtels seulement se partagent l'atoll.",
   continentSlug: "iles-oceanie", // TODO: verify continent (géographiquement Asie, océan Indien) regroupé ici avec les destinations îles/lagon
   blurb: "Baa, Noonu, Laamu, Ari, Vaavu",
   keywords: [
@@ -73,7 +73,7 @@ export const destination: Destination = {
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage aux Maldives commence par le choix d'un atoll. L'archipel s'étire du nord au sud dans l'océan Indien, et chaque atoll y dessine un anneau de corail autour d'un lagon clair. Les îles se traversent en quelques pas, des cocotiers et une plage qui en fait le tour, et l'eau reste agréable toute l'année. C'est un pays qui se vit au ras de la mer, dans une lumière que rien n'arrête.",
-        "Le séjour s'organise ensuite atoll par atoll. On arrive à Malé, puis l'hydravion se pose devant l'île, toujours de jour. Baa abrite la baie de Hanifaru, où les raies manta se rassemblent une partie de l'année sous la protection de la réserve de biosphère. Noonu garde les grands lagons du nord et les adresses les plus discrètes du pays. Plus au sud, Laamu se partage entre un seul hôtel et une équipe de biologistes marins. Chaque étape a sa raison d'être, et c'est elle qui donne au séjour sa couleur.",
+        "Le séjour s'organise ensuite atoll par atoll. On arrive à Malé, puis l'hydravion se pose devant l'île, toujours de jour. Baa abrite la baie de Hanifaru, où les raies manta se rassemblent une partie de l'année sous la protection de la réserve de biosphère. Noonu garde les grands lagons du nord et les adresses les plus discrètes du pays. Plus au sud, Laamu reste l'un des atolls les moins fréquentés du pays. Chaque étape a sa raison d'être, et c'est elle qui donne au séjour sa couleur.",
         "« La plus belle question à se poser avant de choisir son île, c'est de savoir ce que l'on verra en entrant dans l'eau depuis la plage. »",
       ],
     },
@@ -89,12 +89,13 @@ export const destination: Destination = {
 
     {
       type: "textImagesSplit",
-      eyebrow: "Atoll de Laamu",
-      heading: "Laamu, un atoll et un seul hôtel",
+      eyebrow: "Atoll de Baa",
+      heading: "Baa, la réserve où l'on replante le corail",
       theme: "light",
       paragraphs: [
-        "Laamu, l'un des atolls les plus au sud des Maldives, n'accueille qu'un seul hôtel. Le lagon y reste calme et peu fréquenté toute la journée. De juin à septembre, une vague de récif appelée Yin Yang attire les surfeurs sur la pointe est.",
-        "Le matin, on peut visiter le laboratoire marin de l'hôtel. Les biologistes y suivent les herbiers, le corail et les raies manta, soignent les tortues prises dans les filets et répondent aux questions des visiteurs.",
+        "Baa est classé réserve de biosphère par l'Unesco depuis 2011. Ses récifs comptent parmi les plus riches de l'archipel, et c'est là que les raies manta se rassemblent chaque été dans la baie de Hanifaru. On y arrive en une demi-heure d'hydravion depuis Malé.",
+        "Au Four Seasons Landaa Giraavaru, le centre de biologie marine mène depuis près de vingt ans un programme de bouturage. Les fragments de corail sont fixés sur des structures en métal, puis replantés sur le récif, et chaque structure porte le nom de celui qui l'a parrainée.",
+        "Le matin, on rejoint les biologistes au laboratoire. Ils y soignent des tortues et suivent les raies manta avec l'équipe de la Manta Trust, qui reconnaît chacune aux taches de son ventre.",
       ],
       images: [
         {
@@ -102,8 +103,8 @@ export const destination: Destination = {
           alt: "Ponton de bois et villas sur pilotis de l'atoll de Laamu aux Maldives",
         },
         {
-          src: "/destination/maldives/split-2.png",
-          alt: "Biologiste marin examinant une bouture de corail dans une pépinière",
+          src: "/destination/maldives/split-2.webp",
+          alt: "Deux plongeurs biologistes entretiennent une table de corail dans une pépinière sous-marine des Maldives",
         },
       ],
     },
@@ -153,7 +154,7 @@ export const destination: Destination = {
       heading: "Où séjourner",
       description:
         "Trois façons d'habiter un atoll : la villa qui s'ouvre sur le ciel, la maison de maître au large, le camp de base marin. Le niveau se lit dans le texte, pas dans les étoiles.",
-      slugs: ["soneva-jani", "cheval-blanc-randheli", "six-senses-laamu"],
+      slugs: ["soneva-jani", "cheval-blanc-randheli", "four-seasons-landaa-giraavaru"],
     },
 
     {

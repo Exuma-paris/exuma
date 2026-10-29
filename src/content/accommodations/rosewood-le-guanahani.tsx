@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "lagon",
   ],
   heroImage: {
-    src: "/destination/saint-barthelemy/hotel-guanahani.png",
-    alt: "Cases colorées du Rosewood Le Guanahani dans le jardin du Grand Cul-de-Sac",
+    src: "/destination/saint-barthelemy/hotel-guanahani.webp",
+    alt: "Terrasse et piscine privée d'une suite du Rosewood Le Guanahani, face au lagon du Grand Cul-de-Sac",
   },
   destinationSlugs: ["saint-barthelemy"],
   sections: [],

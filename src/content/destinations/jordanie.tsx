@@ -237,7 +237,7 @@ export const destination: Destination = {
             "Adresses confidentielles en Jordanie : maisons de pierre et campements hors piste",
             "Hébergements en Jordanie : rive de la mer Morte et campement privé dans le Wadi Rum",
             "Conseillère Exuma à son bureau, conciergerie privée pour un voyage en Jordanie",
-            "Expériences immersives en Jordanie : Petra by Night et nuits bédouines",
+            "Expériences immersives en Jordanie : Little Petra, le Wadi Rum et les nuits bédouines",
           ][i],
         },
       })),

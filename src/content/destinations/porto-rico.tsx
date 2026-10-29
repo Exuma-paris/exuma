@@ -32,18 +32,18 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe à Porto Rico",
       heading: "Porto Rico se lit en climats, pas en kilomètres",
       description:
-        "El Yunque, huit mille hectares de forêt tropicale et seule forêt du réseau forestier national des États-Unis, à moins d'une heure du Vieux San Juan, fondé en 1521 et toujours cerné par ses remparts espagnols. À quarante minutes d'avion, la baie bioluminescente de Mosquito Bay, à Vieques, reste la plus intense recensée par le Guinness World Records. Trois visages d'une même île, à combiner sans les opposer.",
+        "El Yunque, onze mille hectares de forêt et seule forêt tropicale du réseau forestier national des États-Unis, à moins d'une heure du Vieux San Juan, fondé en 1521 et toujours cerné par ses remparts espagnols. À quarante minutes d'avion, la baie bioluminescente de Mosquito Bay, à Vieques, reste la plus intense recensée par le Guinness World Records. Trois visages d'une même île, à combiner sans les opposer.",
       images: [
         {
-          src: "/destination/porto-rico/hero-1.png",
+          src: "/destination/porto-rico/hero-1.webp",
           alt: "Façades colorées et remparts espagnols du Vieux San Juan à Porto Rico",
         },
         {
-          src: "/destination/porto-rico/hero-2.png",
+          src: "/destination/porto-rico/hero-2.webp",
           alt: "Canopée et cascades de la forêt tropicale d'El Yunque",
         },
         {
-          src: "/destination/porto-rico/hero-3.png",
+          src: "/destination/porto-rico/hero-3.webp",
           alt: "Kayak sur la baie bioluminescente de Mosquito Bay à Vieques",
         },
       ],
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/porto-rico/full-image.png",
-        alt: "Vue aérienne de la forêt tropicale d'El Yunque au-dessus de la côte de Porto Rico",
+        src: "/destination/porto-rico/full-image.webp",
+        alt: "Falaises et côte sauvage du nord de Porto Rico vues du ciel",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/porto-rico/split-1.png",
-          alt: "Ruelle pavée d'adoquín bleu dans le Vieux San Juan au petit matin",
+          src: "/destination/porto-rico/split-1.webp",
+          alt: "Ruelle pavée d'adoquín du Vieux San Juan et porte peinte aux couleurs du drapeau portoricain",
         },
         {
-          src: "/destination/porto-rico/split-2.png",
-          alt: "Fort San Felipe del Morro surplombant l'Atlantique à San Juan",
+          src: "/destination/porto-rico/split-2.webp",
+          alt: "Vue aérienne du fort San Felipe del Morro à la pointe du Vieux San Juan",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/porto-rico/xp-baie-bioluminescente-vieques-1.png",
-          alt: "Traînée de lumière bleue laissée par une pagaie dans la baie bioluminescente de Vieques",
+          src: "/destination/porto-rico/xp-baie-bioluminescente-vieques-1.webp",
+          alt: "Pagaie traçant un sillage de lumière bleue dans la baie bioluminescente de Vieques",
         },
         right: {
-          src: "/destination/porto-rico/xp-baie-bioluminescente-vieques-2.png",
-          alt: "Kayaks transparents de nuit sur Mosquito Bay à Vieques",
+          src: "/destination/porto-rico/xp-baie-bioluminescente-vieques-2.webp",
+          alt: "Kayak glissant sur une eau bioluminescente sous la Voie lactée, Vieques",
         },
       },
       text: {
@@ -136,10 +136,10 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités à Porto Rico",
       heading: "Nos coups de cœur à Porto Rico",
       description:
-        "Trois expériences ancrées dans trois Porto Rico différents : la canopée d'El Yunque, les ruelles coloniales du Vieux San Juan, le large vers Culebra. Aucune n'est démonstrative.",
+        "Trois expériences ancrées dans trois Porto Rico différents : la canopée d'El Yunque, les chais d'une hacienda de rhum de 1880, le large vers Culebra. Aucune n'est démonstrative.",
       slugs: [
         "randonnee-cascades-el-yunque",
-        "immersion-vieux-san-juan",
+        "degustation-ron-del-barrilito",
         "catamaran-prive-culebra",
       ],
     },
@@ -151,10 +151,10 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Où séjourner",
       description:
-        "Trois adresses choisies pour ce qu'elles permettent, pas pour ce qu'elles affichent : une réserve naturelle privée à Dorado, un couvent du XVIIe siècle au cœur du Vieux San Juan, une plage protégée aux portes d'El Yunque.",
+        "Trois adresses choisies pour ce qu'elles permettent, pas pour ce qu'elles affichent : une réserve naturelle privée à Dorado, une villa pour vous seuls sur l'île de Vieques, une plage protégée aux portes d'El Yunque.",
       slugs: [
         "dorado-beach-ritz-carlton-reserve",
-        "fairmont-el-convento",
+        "villa-privee-vieques",
         "st-regis-bahia-beach",
       ],
     },
@@ -264,7 +264,7 @@ export const destination: Destination = {
         {
           title: "El Yunque, l'unique forêt tropicale du réseau américain",
           description:
-            "Huit mille hectares gérés par le service forestier des États-Unis. Les cascades de La Mina et de Juan Diego coulent toute l'année, alimentées par plus de quatre mètres de pluie annuelle.",
+            "Onze mille hectares gérés par le service forestier des États-Unis. Les cascades de La Mina et de Juan Diego coulent toute l'année, alimentées par plus de quatre mètres de pluie annuelle.",
           image: {
             src: "/destination/porto-rico/map-el-yunque.webp",
             alt: "Cascade de La Mina dans la forêt tropicale d'El Yunque",
@@ -294,7 +294,7 @@ export const destination: Destination = {
         {
           title: "Dorado, la côte nord",
           description:
-            "Ancienne plantation d'ananas transformée en réserve naturelle privée dans les années 1950. Deux terrains de golf signés Robert Trent Jones y bordent l'Atlantique.",
+            "Ancienne plantation de cocotiers et de pamplemousses dont Laurance Rockefeller a fait un hôtel en 1958. Deux terrains de golf signés Robert Trent Jones y bordent l'Atlantique.",
           image: {
             src: "/destination/porto-rico/map-dorado.webp",
             alt: "Côte de Dorado bordée de palmiers sur la rive nord de Porto Rico",
@@ -522,7 +522,7 @@ export const destination: Destination = {
           quote:
             "Nous ne nous attendions pas à une forêt tropicale à quarante minutes d'une ville coloniale espagnole. El Yunque après le Vieux San Juan a changé notre lecture de l'île, et Vieques en clôture restait le souvenir le plus fort du séjour.",
           image: {
-            src: "/destination/porto-rico/hero-1.png",
+            src: "/destination/porto-rico/hero-1.webp",
             alt: "Façades colorées et remparts espagnols du Vieux San Juan à Porto Rico",
           },
           name: "Claire & Thomas", // TODO: verify
@@ -533,7 +533,7 @@ export const destination: Destination = {
           quote:
             "La nuit en kayak sur Mosquito Bay reste incomparable : l'eau s'allumait à chaque coup de pagaie. Notre travel designer avait choisi une nuit sans lune, ce qu'on n'aurait jamais su faire seuls.",
           image: {
-            src: "/destination/porto-rico/hero-2.png",
+            src: "/destination/porto-rico/hero-2.webp",
             alt: "Canopée et cascades de la forêt tropicale d'El Yunque",
           },
           name: "Julien", // TODO: verify
@@ -544,7 +544,7 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marquée, c'est le contraste entre le Vieux San Juan et Dorado : une même île, deux rythmes complètement différents. Notre suite donnait sur la réserve naturelle, les enfants n'ont pas voulu repartir.",
           image: {
-            src: "/destination/porto-rico/hero-3.png",
+            src: "/destination/porto-rico/hero-3.webp",
             alt: "Kayak sur la baie bioluminescente de Mosquito Bay à Vieques",
           },
           name: "Sophie", // TODO: verify

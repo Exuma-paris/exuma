@@ -8,8 +8,8 @@ export const accommodation: Accommodation = {
     "Vingt et une villas posées sur l'île de Yaukuve, à quarante-cinq minutes d'hydravion de Nadi. Le Great Astrolabe Reef commence devant la plage, et un biologiste marin accompagne les sorties.",
   keywords: ["fidji", "kadavu", "kokomo", "great astrolabe reef", "ile privee"],
   heroImage: {
-    src: "/destination/fidji/hotel-kokomo.png",
-    alt: "Villa de plage de Kokomo Private Island face au Great Astrolabe Reef aux Fidji",
+    src: "/destination/fidji/hotel-kokomo.webp",
+    alt: "Piscine privée et terrasse d’une villa de plage de Kokomo Private Island, sous les cocotiers de Kadavu",
   },
   destinationSlugs: ["fidji"],
   sections: [],

@@ -577,7 +577,7 @@ export const destination: Destination = {
         {
           // TODO: replace with real testimonial
           quote:
-            "Le déjeuner sur la plage de Colombier restera notre meilleur souvenir. Nous étions seuls, la table était dressée, et personne n'est venu de toute l'après-midi.",
+            "Le pique-nique sur la plage de Colombier restera notre meilleur souvenir. Nous étions seuls à l'ombre des raisiniers, et personne n'est venu de tout l'après-midi.",
           image: {
             src: "/destination/caraibes/hero-3.png",
             alt: "Les Pitons de Sainte-Lucie vus depuis la mer au lever du jour"

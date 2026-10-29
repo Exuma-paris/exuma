@@ -40,3 +40,20 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png`, `hero-3.png` — no sepa
 | `bento-map.webp` | mkmap.py (Natural Earth) | libre |
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp`, `bento-experiences.webp` | Générées par IA (gen_text) | image générée |
+
+## Images placées le 27/10 (liens fournis par Thea)
+- `hero-1.webp` : Palladium Hotel Group — https://www.palladiumhotelgroup.com/content/dam/palladium/images/guias-destino/republica-dominicana/punta-cana/slider/slider-punta-cana-playas.jpg — recadré carré. ⚠ droits à vérifier.
+- `hero-2.webp` : Flora Tours — https://flora-tours.com/wp-content/uploads/baleine-samana.jpg — recadré carré. ⚠ droits à vérifier.
+- `hero-3.webp` : Casa de Campo — https://www.casadecampo.com.do/wp-content/uploads/2025/06/Stay-Villa.jpg — recadré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `full-image.webp` : Expedia — https://images.trvl-media.com/lodging/1000000/690000/687400/687339/c459d469.jpg — recadré 16/9. ⚠ droits à vérifier.
+- `split-1.webp` : vignette Google (359 px) — redessinée en haute définition et prolongée en portrait par IA (Gemini). ⚠ droits à vérifier.
+- `xp-survol-helicoptere-samana-1.webp` : Expedia — https://images.trvl-media.com/place/6046772/e2d4c48c-ec7c-4bf7-9fee-f4a9d694d365.jpg — hélicoptère ajouté par IA (Gemini) à la demande de Thea. ⚠ droits à vérifier.
+- `xp-survol-helicoptere-samana-2.webp` : vignette Google — redessinée en HD par IA (Gemini), texte écrit dans le sable et personnes retirés. ⚠ droits à vérifier.
+- `split-2.webp` : GetYourGuide — https://cdn.getyourguide.com/img/tour/33820293d97de769.png/145.jpg (Cayo de los Pájaros) — recadré carré, agrandissement fidèle (Gemini). ⚠ droits à vérifier.
+- `xp-baleines-silver-bank.webp` : Wildlife Worldwide (Helen Bryon) — https://www.wildlifeworldwide.com/images/journal/latin-america-dominican-republic-silver-bank-helen-bryon-blog-two-humpback-blog.webp — recomposée au carré, nageur ajouté par IA (Gemini) à la demande de Thea. ⚠ droits à vérifier.
+- `xp-los-haitises-bateau.webp` : GoBooking Adventures — https://media.gobookingadventures.com/Tour/5ab1bf72-765e-4812-be7c-3f105231df3c_651673867_18110911288667175_5837006128802931823_n_-_Copy.jpg — bateau ajouté par IA (Gemini) à la demande de Thea, couleurs adoucies. ⚠ droits à vérifier.
+- `xp-cigares-la-romana.webp` : Wikimedia Commons, Mstyslav Chernov, CC BY-SA 3.0 — « Handmade cigar production, process. Tabacalera de Garcia Factory. Casa de Campo, La Romana (9) » — recadré carré.
+- `hotel-amanera.webp` : Aman (site officiel), version grand format de la photo fournie par Thea — https://www.aman.com/sites/default/files/2024-05/amanera_dominican_republic_-resort-casa-grande-exterior-3893-srgb.webp — recadré carré. ⚠ droits à vérifier.
+- `hotel-tortuga-bay.webp` : Luxury Lifestyle Awards — https://luxurylifestyleawards.com/wp-content/uploads/2024/08/14-2.jpg — recadré carré. ⚠ droits à vérifier.
+- `hotel-eden-roc-cap-cana.webp` : Expedia — https://images.trvl-media.com/lodging/5000000/4430000/4423900/4423875/054931cc.jpg — recadré carré. ⚠ droits à vérifier.
+- `bento-hebergements.webp` : autre cadrage de la photo Aman d'Amanera (voir hotel-amanera).

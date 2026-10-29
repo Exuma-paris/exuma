@@ -13,7 +13,7 @@ export const accommodation: Accommodation = {
     "plage-privee",
   ],
   heroImage: {
-    src: "/destination/republique-dominicaine/hotel-tortuga-bay.png",
+    src: "/destination/republique-dominicaine/hotel-tortuga-bay.webp",
     alt: "Villa de Tortuga Bay dessinée par Oscar de la Renta à Punta Cana",
   },
   destinationSlugs: ["republique-dominicaine"],

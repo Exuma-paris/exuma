@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "plage privee",
   ],
   heroImage: {
-    src: "/destination/caraibes/hotel-cheval-blanc.png",
-    alt: "Jardin de cocotiers du Cheval Blanc St-Barth descendant vers la plage des Flamands",
+    src: "/destination/caraibes/hotel-cheval-blanc.webp",
+    alt: "Piscine et transats du Cheval Blanc St-Barth face à la baie des Flamands",
   },
   destinationSlugs: ["caraibes", "saint-barthelemy"],
   sections: [],

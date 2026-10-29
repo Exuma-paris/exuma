@@ -4,7 +4,7 @@ export const accommodation: Accommodation = {
   slug: "hotel-santa-teresa",
   name: "Hotel Santa Teresa MGallery",
   blurb:
-    "Ancienne fazenda à colombages sur les hauteurs de Santa Teresa. Mobilier d'artisans brésiliens, terrasse-piscine ouverte sur la baie de Guanabara, tramway jaune devant la porte.",
+    "Ancienne fazenda de café du XIXe siècle sur les hauteurs de Santa Teresa. Mobilier d'artisans brésiliens, terrasse-piscine ouverte sur la baie de Guanabara, tramway jaune devant la porte.",
   keywords: ["rio", "santa-teresa", "mgallery", "fazenda", "colline"],
   heroImage: {
     src: "/destination/rio-de-janeiro/hotel-santa-teresa.png",
