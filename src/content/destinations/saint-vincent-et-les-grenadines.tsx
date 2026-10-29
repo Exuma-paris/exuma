@@ -32,7 +32,7 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe dans les Grenadines",
       heading: "Saint-Vincent-et-les-Grenadines, de Mustique aux Tobago Cays",
       description:
-        "Trente-deux îles et cays se suivent ici du nord au sud, et l'on passe de l'une à l'autre en une heure de navigation. Mustique se garde derrière une compagnie privée, Bequia construit encore ses bateaux, et les Tobago Cays n'appartiennent à personne. On arrive le plus souvent par la mer, et c'est la meilleure façon de comprendre l'endroit. C'est cet archipel-là que nous vous ouvrons.",
+        "Trente-deux îles et cays se suivent ici du nord au sud, et l'on passe de l'une à l'autre en une heure de navigation. Mustique se garde derrière une compagnie privée, Bequia construit encore ses bateaux, et les Tobago Cays sont un parc marin protégé. On arrive le plus souvent par la mer, et c'est la meilleure façon de comprendre l'endroit. C'est cet archipel-là que nous vous ouvrons.",
       images: [
         {
           src: "/destination/saint-vincent-et-les-grenadines/hero-1.webp",
