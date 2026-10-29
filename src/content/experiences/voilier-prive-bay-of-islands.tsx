@@ -8,7 +8,7 @@ export const experience: Experience = {
   keywords: ["nouvelle-zelande", "baie des iles", "voilier", "paihia", "russell"],
   heroImage: {
     src: "/destination/nouvelle-zelande/xp-voilier-bay-of-islands.webp",
-    alt: "Voilier privé naviguant entre les îlots de la Baie des Îles, en Nouvelle-Zélande",
+    alt: "Grands dauphins à l'étrave d'un voilier privé, entre les îlots boisés de la Baie des Îles, en Nouvelle-Zélande",
   },
   destinationSlugs: ["nouvelle-zelande"],
   sections: [],
