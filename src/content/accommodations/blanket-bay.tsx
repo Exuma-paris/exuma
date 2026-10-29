@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Une presqu'île sur le lac Wakatipu, à l'entrée du Fiordland. L'hélicoptère se pose devant la réception ; les Alpes du Sud commencent à la ligne d'horizon, sans qu'aucune route ne les traverse.",
   keywords: ["nouvelle-zelande", "glenorchy", "queenstown", "lac wakatipu", "fiordland"],
   heroImage: {
-    src: "/destination/nouvelle-zelande/hotel-blanket-bay.png",
-    alt: "Vue du lodge Blanket Bay sur le lac Wakatipu, près de Glenorchy en Nouvelle-Zélande",
+    src: "/destination/nouvelle-zelande/hotel-blanket-bay.webp",
+    alt: "Les pignons de bois et de pierre de Blanket Bay au bord du lac Wakatipu, face aux montagnes de Glenorchy",
   },
   destinationSlugs: ["nouvelle-zelande"],
   metaTitle: "Blanket Bay à Glenorchy, Nouvelle-Zélande",

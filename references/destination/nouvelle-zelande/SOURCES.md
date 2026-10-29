@@ -15,3 +15,5 @@
 - `hero-1.webp` : https://cdn.getyourguide.com/…/tour_img/5e3e4e8b20bd3.jpeg (GetYourGuide, recadrage carré, agrandissement fidèle Gemini).
 - `hero-2.webp` : https://media.istockphoto.com/id/1295232537/ (iStock, recadrage carré, agrandissement fidèle Gemini).
 - `full-image.webp` : https://destination-nouvellezelande.com/wp-content/uploads/2017/07/milfordsound-cascade.jpg (recadrage 16/9, agrandissement fidèle Gemini).
+- `hotel-blanket-bay.webp` : https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1566832.jpg (Tablet Hotels).
+- `hotel-huka-lodge.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM1qXocwYCUBafkYiYt5RijKRRn0BP5utd8aU8Egwj3xbjChcsriHsSLqE), recadrage carré, agrandissement fidèle Gemini.
