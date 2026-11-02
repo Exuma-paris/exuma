@@ -52,3 +52,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`. The Bel
 - `hotel-silversands.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjWrdOc4rUla48sO9NpTj9--QPt89PuoYDE3uI-zj4Uw), recadrage carré, agrandissement fidèle Gemini.
 - `hotel-calabash.webp` : https://images.squarespace-cdn.com/content/v1/5fb6f31f36cb7f442accbc85/1682075496751-P5W1ZO2XD7CJPKIHQ851/image-asset.jpeg (recadrage carré).
 - `hotel-six-senses-la-sagesse.webp` : https://cf.bstatic.com/xdata/images/hotel/max1024x768/564796653.jpg (Booking, recadrage carré, agrandissement fidèle Gemini).
+- `bento-hebergements.webp` : image générée par IA (Gemini).
