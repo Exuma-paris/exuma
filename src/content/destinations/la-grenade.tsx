@@ -97,8 +97,8 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/la-grenade/split-1.png",
-          alt: "Tri des noix de muscade sur les tables de bois de la station de Gouyave",
+          src: "/destination/la-grenade/split-1.webp",
+          alt: "Mains triant les noix de muscade sur une table de bois, à la station de Gouyave",
         },
         {
           src: "/destination/la-grenade/split-2.webp",
@@ -111,7 +111,7 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/la-grenade/xp-voilier-bois-1.png",
+          src: "/destination/la-grenade/xp-voilier-bois-1.webp",
           alt: "Voilier en bois sous voiles le long de la côte ouest de la Grenade",
         },
         right: {
