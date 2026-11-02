@@ -35,8 +35,8 @@ export const destination: Destination = {
         "Une quarantaine d'îles et de cays composent l'archipel, huit seulement sont habitées. Providenciales tient la vie du nord, Grand Turk garde la capitale et ses anciennes salines, et entre les deux le passage des Turks descend à deux mille mètres. Le reste, ce sont des cays privés où l'on n'entre qu'en y dormant. C'est cet archipel-là que nous vous ouvrons.",
       images: [
         {
-          src: "/destination/turks-and-caicos/hero-1.png",
-          alt: "Voyage aux Turks and Caicos : la longue plage de Grace Bay à Providenciales au petit matin",
+          src: "/destination/turks-and-caicos/hero-1.webp",
+          alt: "Voyage aux Turks and Caicos : le sable blanc et l'eau turquoise de Grace Bay, à Providenciales",
         },
         {
           src: "/destination/turks-and-caicos/hero-2.png",
@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/turks-and-caicos/full-image.png",
-        alt: "Voyage aux Turks and Caicos : le récif et les cays inhabités vus depuis la mer",
+        src: "/destination/turks-and-caicos/full-image.webp",
+        alt: "Voyage aux Turks and Caicos : Big Sand Cay, cay désert entouré de hauts-fonds, vu du ciel",
       },
       height: 600,
     },
@@ -137,7 +137,7 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités aux Turks and Caicos",
       heading: "Le mur de West Caicos, le Beluga, les grottes de l'est",
       description:
-        "Nous vous emmenons sur les tombants de Northwest Point et de French Cay, à bord d'un catamaran de douze mètres dont le capitaine navigue ici depuis vingt-cinq ans, et jusqu'aux falaises et aux grottes calcaires de Middle Caicos.",
+        "Nous vous emmenons sur les tombants de Northwest Point et de French Cay, à bord d'un catamaran de onze mètres dont le capitaine navigue ici depuis vingt-cinq ans, et jusqu'aux falaises et aux grottes calcaires de Middle Caicos.",
       slugs: [
         "plongee-northwest-point-west-caicos",
         "catamaran-prive-beluga",
@@ -584,8 +584,8 @@ export const destination: Destination = {
           quote:
             "Nous avons plongé le mur de West Caicos le deuxième matin et je n'ai rien vu de comparable ailleurs. Le reste de la semaine, personne ne nous a demandé quoi que ce soit.",
           image: {
-            src: "/destination/turks-and-caicos/hero-1.png",
-            alt: "Voyage aux Turks and Caicos : la longue plage de Grace Bay à Providenciales au petit matin"
+            src: "/destination/turks-and-caicos/hero-1.webp",
+            alt: "Voyage aux Turks and Caicos : le sable blanc et l'eau turquoise de Grace Bay, à Providenciales"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Providenciales, mars 2026", // TODO: à vérifier (replace with real testimonial)

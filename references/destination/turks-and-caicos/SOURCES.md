@@ -46,3 +46,6 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp` | Générée par IA (gen_text, Gemini) : table sur la plage de Blue Hills | image générée |
 | `bento-experiences.webp` | Générée par IA (gen_text, Gemini) : voilier classique sur le banc des Caïques | image générée |
+- `hero-1.webp` : Wikimedia Commons, File:Grace Bay - panoramio.jpg (CC BY-SA 3.0).
+- `full-image.webp` : Wikimedia Commons, File:Big Sand Cay Turks & Caicos aerial Curacao March 2024.jpg (CC BY-SA 4.0).
+- `xp-mudjin-harbour.webp` : Wikimedia Commons, File:Dragon Cay.jpg (CC BY-SA 2.0).

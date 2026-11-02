@@ -13,8 +13,8 @@ export const experience: Experience = {
     "conch bar",
   ],
   heroImage: {
-    src: "/destination/turks-and-caicos/xp-mudjin-harbour.png",
-    alt: "Les falaises de Mudjin Harbour et la plage en contrebas à Middle Caicos",
+    src: "/destination/turks-and-caicos/xp-mudjin-harbour.webp",
+    alt: "Dragon Cay et la plage de Mudjin Harbour au coucher du soleil, à Middle Caicos",
   },
   destinationSlugs: ["turks-and-caicos"],
   sections: [],
