@@ -102,8 +102,8 @@ export const destination: Destination = {
           alt: "Plongeur longeant une paroi de récif, dans les rayons du soleil",
         },
         {
-          src: "/destination/turks-and-caicos/split-2.png",
-          alt: "Raies aigles au-dessus du plateau de corail de Northwest Point",
+          src: "/destination/turks-and-caicos/split-2.webp",
+          alt: "Banc de raies aigles en pleine eau, dans le bleu du large",
         },
       ],
     },
