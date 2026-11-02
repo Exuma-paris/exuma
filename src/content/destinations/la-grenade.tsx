@@ -73,7 +73,7 @@ export const destination: Destination = {
       columns: [
         "Un voyage à la Grenade commence par le sud-ouest, la pointe de l'île où tout se tient à vingt minutes de route. Saint-Georges y ferme son port sur le Carénage, entre les entrepôts d'épices et les goélettes qui chargent encore à quai. Un peu plus bas s'ouvre la Grand Anse, et derrière elle les baies de Morne Rouge et de L'Anse aux Épines, où l'eau reste calme du matin jusqu'au soir.",
         "Ce qui surprend, c'est la vitesse à laquelle l'île change dès que l'on monte. La forêt du Grand Étang prend le relais des jardins, avec son lac de cratère, ses cascades des Seven Sisters et ses singes qui traversent la route. Plus au nord, les plantations travaillent encore à l'ancienne : la muscade sèche à Gouyave sur de longs plateaux que l'on pousse à la main, le cacao fermente sous des couvercles de bois à Belmont Estate, et la roue à aubes de River Antoine tourne à l'eau de la rivière depuis 1785.",
-        "Les maisons dans lesquelles nous vous installons tiennent toutes en très peu de clefs. L'une regarde la Grand Anse depuis un mur de verre et de pierre, une autre s'organise autour d'un jardin à L'Anse aux Épines, la troisième s'est posée sur une baie de la côte au vent qui n'avait jamais rien accueilli. Nous les choisissons pour la vue du réveil, et pour la façon dont on quitte sa chambre le matin.",
+        "Les maisons dans lesquelles nous vous installons restent à taille humaine. L'une regarde la Grand Anse depuis un mur de verre et de pierre, une autre s'organise autour d'un jardin à L'Anse aux Épines, la troisième s'est installée en 2024 sur une baie de la côte au vent. Nous les choisissons pour la vue du réveil, et pour la façon dont on quitte sa chambre le matin.",
       ],
     },
 
@@ -152,7 +152,7 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Dormir au bord de la Grand Anse, ou sur une baie de la côte au vent",
       description:
-        "Une maison de verre et de pierre posée sur la plus longue plage de l'île, trente suites autour d'un jardin à L'Anse aux Épines, et une baie de la côte au vent qui n'accueillait rien il y a encore trois ans. Chacune donne un rythme différent à la journée, et nous les proposons selon la manière dont vous aimez passer vos matinées.",
+        "Une maison de verre et de pierre posée sur la plus longue plage de l'île, trente suites autour d'un jardin à L'Anse aux Épines, et une baie de la côte au vent où Six Senses s'est installé en 2024. Chacune donne un rythme différent à la journée, et nous les proposons selon la manière dont vous aimez passer vos matinées.",
       slugs: ["silversands-grand-anse", "calabash-hotel", "six-senses-la-sagesse"],
     },
 
