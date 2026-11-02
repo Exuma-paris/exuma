@@ -45,3 +45,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`. The Bel
 - `split-2.webp` : https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/38/23/91/photographs-taken-on.jpg (Tripadvisor, recadrage carré, agrandissement fidèle Gemini, couleurs adoucies).
 - `split-1.webp` : image générée par IA (Gemini), sans visage.
 - `xp-voilier-bois-1.webp` : image générée par IA (Gemini) d'après https://www.atlantidevoyages.com/wp-content/uploads/2024/11/general-750x681.jpeg, nom effacé.
+- `xp-snorkeling-zodiac.webp` : https://la1ere.franceinfo.fr/image/aC83UzxzkzHCHaV71ez0A1fjR1s/0x80:1486x916/900x506/filters:quality(80)/outremer%2F2021%2F11%2F11%2F618d4aadb1fe3_capture-d-ecran-2021-11-11-a-11-45-20.png (La 1ère, recadrage carré, agrandissement fidèle Gemini). Œuvre de Jason deCaires Taylor : droits à vérifier.
