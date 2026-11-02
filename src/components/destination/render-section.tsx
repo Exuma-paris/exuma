@@ -372,8 +372,9 @@ export function renderSection(section: Section, key: string): ReactNode {
                 ? getDestinationCardDescription(entity as Destination)
                 : (entity.blurb ?? ""),
             image: heroImage,
+            // Fiches hôtels et expériences en cours : pas de bouton pour l'instant.
             link:
-              entity.sections.length > 0
+              section.kind === "destination" && entity.sections.length > 0
                 ? {
                     label: "Découvrir",
                     href: entityRoute[section.kind](entity.slug),

@@ -35,16 +35,16 @@ export const destination: Destination = {
         "On appelle la Grenade l'île aux épices, et cela se sent avant de le savoir : l'odeur de la muscade monte des séchoirs dès que la route quitte la côte. Saint-Georges tient son port en fer à cheval sous des toits de tuile rouge, la Grand Anse déroule trois kilomètres de sable clair, et la forêt du Grand Étang commence vingt minutes plus haut. Peu d'îles gardent encore cette proportion entre ce qui se visite et ce qui se vit. C'est cette île-là que nous vous ouvrons.",
       images: [
         {
-          src: "/destination/la-grenade/hero-1.png",
+          src: "/destination/la-grenade/hero-1.webp",
           alt: "Voyage à la Grenade : le port en fer à cheval de Saint-Georges et ses toits rouges",
         },
         {
-          src: "/destination/la-grenade/hero-2.png",
-          alt: "La plage de la Grand Anse et sa courbe de sable clair bordée de cocotiers",
+          src: "/destination/la-grenade/hero-2.webp",
+          alt: "La plage de la Grand Anse vue du ciel, son sable clair bordé de cocotiers",
         },
         {
-          src: "/destination/la-grenade/hero-3.png",
-          alt: "Noix de muscade ouvertes sur un séchoir de bois dans une plantation grenadienne",
+          src: "/destination/la-grenade/hero-3.webp",
+          alt: "Fruit du muscadier ouvert dans une main, la noix entourée de son macis rouge, à la Grenade",
         },
       ],
     },
@@ -73,15 +73,15 @@ export const destination: Destination = {
       columns: [
         "Un voyage à la Grenade commence par le sud-ouest, la pointe de l'île où tout se tient à vingt minutes de route. Saint-Georges y ferme son port sur le Carénage, entre les entrepôts d'épices et les goélettes qui chargent encore à quai. Un peu plus bas s'ouvre la Grand Anse, et derrière elle les baies de Morne Rouge et de L'Anse aux Épines, où l'eau reste calme du matin jusqu'au soir.",
         "Ce qui surprend, c'est la vitesse à laquelle l'île change dès que l'on monte. La forêt du Grand Étang prend le relais des jardins, avec son lac de cratère, ses cascades des Seven Sisters et ses singes qui traversent la route. Plus au nord, les plantations travaillent encore à l'ancienne : la muscade sèche à Gouyave sur de longs plateaux que l'on pousse à la main, le cacao fermente sous des couvercles de bois à Belmont Estate, et la roue à aubes de River Antoine tourne à l'eau de la rivière depuis 1785.",
-        "Les maisons dans lesquelles nous vous installons tiennent toutes en très peu de clefs. L'une regarde la Grand Anse depuis un mur de verre et de pierre, une autre s'organise autour d'un jardin à L'Anse aux Épines, la troisième s'est posée sur une baie de la côte au vent qui n'avait jamais rien accueilli. Nous les choisissons pour la vue du réveil, et pour la façon dont on quitte sa chambre le matin.",
+        "Les maisons dans lesquelles nous vous installons restent à taille humaine. L'une regarde la Grand Anse depuis un mur de verre et de pierre, une autre s'organise autour d'un jardin à L'Anse aux Épines, la troisième s'est installée en 2024 sur une baie de la côte au vent. Nous les choisissons pour la vue du réveil, et pour la façon dont on quitte sa chambre le matin.",
       ],
     },
 
     {
       type: "fullImage",
       image: {
-        src: "/destination/la-grenade/full-image.png",
-        alt: "Voyage à la Grenade : la baie de Saint-Georges vue depuis les hauteurs du fort",
+        src: "/destination/la-grenade/full-image.webp",
+        alt: "Voyage à la Grenade : le port de Saint-Georges vu depuis l'eau, ses maisons colorées sur la colline",
       },
       height: 600,
     },
@@ -97,11 +97,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/la-grenade/split-1.png",
-          alt: "Tri des noix de muscade sur les tables de bois de la station de Gouyave",
+          src: "/destination/la-grenade/split-1.webp",
+          alt: "Mains triant les noix de muscade sur une table de bois, à la station de Gouyave",
         },
         {
-          src: "/destination/la-grenade/split-2.png",
+          src: "/destination/la-grenade/split-2.webp",
           alt: "Cascade des Seven Sisters dans la forêt du parc national du Grand Étang",
         },
       ],
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/la-grenade/xp-voilier-bois-1.png",
+          src: "/destination/la-grenade/xp-voilier-bois-1.webp",
           alt: "Voilier en bois sous voiles le long de la côte ouest de la Grenade",
         },
         right: {
-          src: "/destination/la-grenade/xp-voilier-bois-2.png",
-          alt: "Statue immergée du parc de sculptures sous-marines de Molinière à la Grenade",
+          src: "/destination/la-grenade/xp-voilier-bois-2.webp",
+          alt: "Sienna, statue tressée de femme agenouillée du parc de sculptures sous-marines de Molinière, à la Grenade",
         },
       },
       text: {
@@ -152,7 +152,7 @@ export const destination: Destination = {
       eyebrow: "Hébergements",
       heading: "Dormir au bord de la Grand Anse, ou sur une baie de la côte au vent",
       description:
-        "Une maison de verre et de pierre posée sur la plus longue plage de l'île, trente suites autour d'un jardin à L'Anse aux Épines, et une baie de la côte au vent qui n'accueillait rien il y a encore trois ans. Chacune donne un rythme différent à la journée, et nous les proposons selon la manière dont vous aimez passer vos matinées.",
+        "Une maison de verre et de pierre posée sur la plus longue plage de l'île, trente suites autour d'un jardin à L'Anse aux Épines, et une baie de la côte au vent où Six Senses s'est installé en 2024. Chacune donne un rythme différent à la journée, et nous les proposons selon la manière dont vous aimez passer vos matinées.",
       slugs: ["silversands-grand-anse", "calabash-hotel", "six-senses-la-sagesse"],
     },
 
@@ -568,7 +568,7 @@ export const destination: Destination = {
           quote:
             "Nous cherchions une île des Antilles que nous ne connaissions pas, et nous avons trouvé une île où il ne se passe rien de ce que l'on attend. La journée sur le voilier en bois a été le sommet du séjour.",
           image: {
-            src: "/destination/la-grenade/hero-1.png",
+            src: "/destination/la-grenade/hero-1.webp",
             alt: "Voyage à la Grenade : le port en fer à cheval de Saint-Georges et ses toits rouges"
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -579,8 +579,8 @@ export const destination: Destination = {
           quote:
             "Les enfants ont passé la semaine entre la Grand Anse et les statues de Molinière, qu'ils ont voulu revoir trois fois. Nous n'avons eu à nous occuper de rien.",
           image: {
-            src: "/destination/la-grenade/hero-2.png",
-            alt: "La plage de la Grand Anse et sa courbe de sable clair bordée de cocotiers"
+            src: "/destination/la-grenade/hero-2.webp",
+            alt: "La plage de la Grand Anse vue du ciel, son sable clair bordé de cocotiers"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "La Grenade en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
@@ -590,8 +590,8 @@ export const destination: Destination = {
           quote:
             "Les deux nuits à Carriacou n'étaient pas prévues au départ et ce sont celles dont nous parlons encore. Le charpentier nous a montré la coque qu'il finissait, sur la plage.",
           image: {
-            src: "/destination/la-grenade/hero-3.png",
-            alt: "Noix de muscade ouvertes sur un séchoir de bois dans une plantation grenadienne"
+            src: "/destination/la-grenade/hero-3.webp",
+            alt: "Fruit du muscadier ouvert dans une main, la noix entourée de son macis rouge, à la Grenade"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "La Grenade et Carriacou, avril 2026", // TODO: à vérifier (replace with real testimonial)

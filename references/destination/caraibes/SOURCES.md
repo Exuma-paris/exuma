@@ -43,3 +43,12 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `xp-gros-piton.webp` : image générée par IA (Gemini), sans référence.
 - `xp-colombier.webp` : image générée par IA (Gemini), pique-nique à Colombier.
 - `hotel-cheval-blanc.webp` : https://media-cdn.tripadvisor.com/media/photo-s/31/d4/cd/d8/cheval-blanc-st-barth.jpg (Tripadvisor, recadrage carré, agrandissement fidèle Gemini).
+- `hotel-cotton-house.webp` : https://media.cntraveler.com/photos/5bb52f7dc4c3254b312847b1/16:9/w_2560,c_limit/The-Cotton-House__2018_Mustique-628.jpg (Condé Nast Traveler, recadrage carré).
+- `hero-2.webp` : Wikimedia Commons, File:Beach of Saint-Barthélemy 2007.jpg, CC BY 2.0.
+- `hero-3.webp` : Wikimedia Commons, File:St Lucia Pitons 2008.jpg, CC BY-SA 4.0.
+- `full-image.webp` : Wikimedia Commons, File:Tobago Cays Sunset Panorama - panoramio.jpg, CC BY 3.0.
+- `split-1.webp` : Wikimedia Commons, File:Gelliceaux Beach on Mustique Island November 2018.jpg, CC BY-SA 4.0.
+- `bento-hebergements.webp` : Wikimedia Commons, File:PSV Dock at Petit St. Vincent Island Resort - The Grenadines, St. Vincent, Caribbean..jpg, CC BY-SA 3.0.
+- `hero-1.webp`, `split-2.webp`, `xp-cacao-grenade.webp`, `xp-goelette-grenadines-1.webp`, `xp-goelette-grenadines-2.webp` : images générées par IA (Gemini).
+- `hero-2.webp` (remplace la version Commons) : https://milesopedia.com/wp-content/uploads/2023/03/plage-AnguillaOfficial-Facebook.jpg (Anguilla Tourist Board via Milesopedia, agrandissement fidèle Gemini).
+- `hero-3.webp` (remplace la version Commons) : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkUZlQD2MnU_UddzbhkMzHj_fgn-nSY9uciYGHjUsyZ6kh23Lx3-EjlKnW), recadrage carré, agrandissement fidèle Gemini.

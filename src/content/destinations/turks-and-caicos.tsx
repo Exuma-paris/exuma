@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Une quarantaine d'îles et de cays composent l'archipel, huit seulement sont habitées. Providenciales tient la vie du nord, Grand Turk garde la capitale et ses anciennes salines, et entre les deux le passage des Turks descend à deux mille mètres. Le reste, ce sont des cays privés où l'on n'entre qu'en y dormant. C'est cet archipel-là que nous vous ouvrons.",
       images: [
         {
-          src: "/destination/turks-and-caicos/hero-1.png",
-          alt: "Voyage aux Turks and Caicos : la longue plage de Grace Bay à Providenciales au petit matin",
+          src: "/destination/turks-and-caicos/hero-1.webp",
+          alt: "Voyage aux Turks and Caicos : le sable blanc et l'eau turquoise de Grace Bay, à Providenciales",
         },
         {
-          src: "/destination/turks-and-caicos/hero-2.png",
-          alt: "Le tombant du récif et l'eau claire au large de West Caicos",
+          src: "/destination/turks-and-caicos/hero-2.webp",
+          alt: "West Caicos et son tombant vus d'avion, où l'eau turquoise bascule vers le bleu profond",
         },
         {
-          src: "/destination/turks-and-caicos/hero-3.png",
-          alt: "Les falaises de Mudjin Harbour à Middle Caicos en fin de journée",
+          src: "/destination/turks-and-caicos/hero-3.webp",
+          alt: "La plage de Mudjin Harbour, ses falaises et Dragon Cay vus du ciel, à Middle Caicos",
         },
       ],
     },
@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/turks-and-caicos/full-image.png",
-        alt: "Voyage aux Turks and Caicos : le récif et les cays inhabités vus depuis la mer",
+        src: "/destination/turks-and-caicos/full-image.webp",
+        alt: "Voyage aux Turks and Caicos : Big Sand Cay, cay désert entouré de hauts-fonds, vu du ciel",
       },
       height: 600,
     },
@@ -98,12 +98,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/turks-and-caicos/split-1.png",
-          alt: "Plongeur longeant le tombant du récif au large de West Caicos",
+          src: "/destination/turks-and-caicos/split-1.webp",
+          alt: "Plongeur longeant une paroi de récif, dans les rayons du soleil",
         },
         {
-          src: "/destination/turks-and-caicos/split-2.png",
-          alt: "Raies aigles au-dessus du plateau de corail de Northwest Point",
+          src: "/destination/turks-and-caicos/split-2.webp",
+          alt: "Banc de raies aigles en pleine eau, dans le bleu du large",
         },
       ],
     },
@@ -112,12 +112,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/turks-and-caicos/xp-apnee-1.png",
-          alt: "Apnéiste descendant le long d'un cordage dans l'eau claire des Turks and Caicos",
+          src: "/destination/turks-and-caicos/xp-apnee-1.webp",
+          alt: "Leçon d'apnée en mer vue du ciel, deux personnes en combinaison flottant près de la bouée, un bateau au mouillage",
         },
         right: {
-          src: "/destination/turks-and-caicos/xp-apnee-2.png",
-          alt: "Instructrice d'apnée et son élève en surface avant la descente",
+          src: "/destination/turks-and-caicos/xp-apnee-2.webp",
+          alt: "L'instructrice d'apnée en combinaison et cagoule, sa bouée à la taille et ses longues palmes à la main",
         },
       },
       text: {
@@ -137,7 +137,7 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités aux Turks and Caicos",
       heading: "Le mur de West Caicos, le Beluga, les grottes de l'est",
       description:
-        "Nous vous emmenons sur les tombants de Northwest Point et de French Cay, à bord d'un catamaran de douze mètres dont le capitaine navigue ici depuis vingt-cinq ans, et jusqu'aux falaises et aux grottes calcaires de Middle Caicos.",
+        "Nous vous emmenons sur les tombants de Northwest Point et de French Cay, à bord d'un catamaran de onze mètres d'une maison qui navigue ici depuis près de quarante ans, et jusqu'aux falaises et aux grottes calcaires de Middle Caicos.",
       slugs: [
         "plongee-northwest-point-west-caicos",
         "catamaran-prive-beluga",
@@ -584,8 +584,8 @@ export const destination: Destination = {
           quote:
             "Nous avons plongé le mur de West Caicos le deuxième matin et je n'ai rien vu de comparable ailleurs. Le reste de la semaine, personne ne nous a demandé quoi que ce soit.",
           image: {
-            src: "/destination/turks-and-caicos/hero-1.png",
-            alt: "Voyage aux Turks and Caicos : la longue plage de Grace Bay à Providenciales au petit matin"
+            src: "/destination/turks-and-caicos/hero-1.webp",
+            alt: "Voyage aux Turks and Caicos : le sable blanc et l'eau turquoise de Grace Bay, à Providenciales"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Providenciales, mars 2026", // TODO: à vérifier (replace with real testimonial)
@@ -595,8 +595,8 @@ export const destination: Destination = {
           quote:
             "Une île pour nous, un bateau qui venait nous chercher quand on le demandait, et la même personne au téléphone du premier échange au retour. C'est exactement ce que nous cherchions.",
           image: {
-            src: "/destination/turks-and-caicos/hero-2.png",
-            alt: "Le tombant du récif et l'eau claire au large de West Caicos"
+            src: "/destination/turks-and-caicos/hero-2.webp",
+            alt: "West Caicos et son tombant vus d'avion, où l'eau turquoise bascule vers le bleu profond"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Parrot Cay, février 2026", // TODO: à vérifier (replace with real testimonial)
@@ -606,8 +606,8 @@ export const destination: Destination = {
           quote:
             "La séance d'apnée a changé la semaine. Nos filles ont voulu y retourner deux fois, et elles parlent encore du moment où l'on n'entend plus rien.",
           image: {
-            src: "/destination/turks-and-caicos/hero-3.png",
-            alt: "Les falaises de Mudjin Harbour à Middle Caicos en fin de journée"
+            src: "/destination/turks-and-caicos/hero-3.webp",
+            alt: "La plage de Mudjin Harbour, ses falaises et Dragon Cay vus du ciel, à Middle Caicos"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Les Turks and Caicos en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)

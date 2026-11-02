@@ -46,3 +46,18 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 | `bento-conciergerie.webp` | Copie de vietnam/bento-conciergerie | |
 | `bento-adresses.webp` | Générée par IA (gen_text, Gemini) : table sur la plage de Blue Hills | image générée |
 | `bento-experiences.webp` | Générée par IA (gen_text, Gemini) : voilier classique sur le banc des Caïques | image générée |
+- `hero-1.webp` : Wikimedia Commons, File:Grace Bay - panoramio.jpg (CC BY-SA 3.0).
+- `full-image.webp` : Wikimedia Commons, File:Big Sand Cay Turks & Caicos aerial Curacao March 2024.jpg (CC BY-SA 4.0).
+- `xp-mudjin-harbour.webp` : Wikimedia Commons, File:Dragon Cay.jpg (CC BY-SA 2.0).
+- `hero-2.webp` : https://www.rajibroy.com/wp-content/uploads/2023/01/E4709F14-0F11-435C-B678-BA60EF9C795A.jpeg (recadrage carré, couleurs adoucies).
+- `hero-3.webp` : https://media.vrbo.com/lodging/37000000/36380000/36374800/36374733/148b78ed.jpg (Vrbo, recadrage carré, agrandissement fidèle Gemini, couleurs adoucies).
+- `split-1.webp` : https://d2p1cf6997m1ir.cloudfront.net/media/thumbnails/48/2c/482c3f5a7ac60d06f6282413545d2ce5.webp (lien fourni par Thea, recadrage portrait ; lieu de prise de vue non confirmé).
+- `xp-catamaran-beluga.webp` : https://www.visittci.com/thing/beluga/default_1920x1280.jpg (Visit TCI, recadrage carré, couleurs adoucies).
+- `xp-plongee-mur.webp` : https://world.dan.org/wp-content/uploads/2023/10/Q3_39_Turks_Caicos.jpg (DAN, recadrage carré, agrandissement fidèle Gemini, couleurs adoucies).
+- `xp-apnee-2.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxo24P5ssdd1AU2vcc1steItTokiFMaGDCPNFZU3GAow), recadrage portrait, agrandissement fidèle Gemini. Personne reconnaissable : identité et accord à confirmer avant publication.
+- `hotel-amanyara.webp` : https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2024-05/amanyara_turks_caicos_-_accommodation_villa_33.webp (Aman, agrandissement fidèle Gemini).
+- `hotel-como-parrot-cay.webp` : https://cf.bstatic.com/xdata/images/hotel/max1024x768/899944324.jpg (Booking, recadrage carré, agrandissement fidèle Gemini).
+- `hotel-ambergris-cay.webp` : https://www.visittci.com/thing/ambergris-cay-resort/calico-restaurant-pool-and-loungers_2048x1365.jpg (Visit TCI, recadrage carré, couleurs adoucies).
+- `xp-apnee-1.webp` : image générée par IA (Gemini), sans visage reconnaissable.
+- `split-2.webp` : https://media.istockphoto.com/id/483511752/ (iStock, recadrage carré, agrandissement fidèle Gemini ; licence à vérifier).
+- `bento-hebergements.webp` : image générée par IA (Gemini).

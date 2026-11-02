@@ -13,8 +13,8 @@ export const experience: Experience = {
     "french cay",
   ],
   heroImage: {
-    src: "/destination/turks-and-caicos/xp-plongee-mur.png",
-    alt: "Palanquée descendant sur le tombant de French Cay aux Turks and Caicos",
+    src: "/destination/turks-and-caicos/xp-plongee-mur.webp",
+    alt: "Plongeur devant de grandes éponges sur un tombant des Turks and Caicos",
   },
   destinationSlugs: ["turks-and-caicos"],
   sections: [],

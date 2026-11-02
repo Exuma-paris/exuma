@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "ile privee",
   ],
   heroImage: {
-    src: "/destination/caraibes/hotel-cotton-house.png",
-    alt: "Terrasse de la Cotton House à Mustique sous les arbres, mobilier de rotin",
+    src: "/destination/caraibes/hotel-cotton-house.webp",
+    alt: "La maison de plantation blanche de la Cotton House sur sa pelouse au-dessus de la plage, à Mustique",
   },
   destinationSlugs: ["caraibes", "saint-vincent-et-les-grenadines"],
   sections: [],

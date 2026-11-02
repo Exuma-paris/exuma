@@ -13,8 +13,8 @@ export const accommodation: Accommodation = {
     "pavillon",
   ],
   heroImage: {
-    src: "/destination/turks-and-caicos/hotel-amanyara.png",
-    alt: "Pavillon d'Amanyara ouvert sur l'océan à la pointe nord-ouest de Providenciales",
+    src: "/destination/turks-and-caicos/hotel-amanyara.webp",
+    alt: "Chambre d'une villa d'Amanyara sous sa charpente de bois, ouverte sur l'océan, à la pointe nord-ouest de Providenciales",
   },
   destinationSlugs: ["turks-and-caicos"],
   sections: [],
