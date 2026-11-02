@@ -8,7 +8,7 @@ export const accommodation: Accommodation = {
   keywords: ["la-grenade", "la sagesse", "six senses", "cote au vent"],
   heroImage: {
     src: "/destination/la-grenade/hotel-six-senses-la-sagesse.webp",
-    alt: "Vue d'artiste des villas de Six Senses La Sagesse, sur leur pointe au-dessus de la mer, à la Grenade",
+    alt: "La piscine de Six Senses La Sagesse au crépuscule, au-dessus de la baie, à la Grenade",
   },
   destinationSlugs: ["la-grenade"],
   sections: [],
