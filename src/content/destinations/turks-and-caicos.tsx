@@ -98,8 +98,8 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/turks-and-caicos/split-1.png",
-          alt: "Plongeur longeant le tombant du récif au large de West Caicos",
+          src: "/destination/turks-and-caicos/split-1.webp",
+          alt: "Plongeur longeant une paroi de récif, dans les rayons du soleil",
         },
         {
           src: "/destination/turks-and-caicos/split-2.png",
