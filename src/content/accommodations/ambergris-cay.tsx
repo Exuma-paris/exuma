@@ -14,8 +14,8 @@ export const accommodation: Accommodation = {
     "south caicos",
   ],
   heroImage: {
-    src: "/destination/turks-and-caicos/hotel-ambergris-cay.png",
-    alt: "Villa isolée au bord de l'eau sur l'île privée d'Ambergris Cay",
+    src: "/destination/turks-and-caicos/hotel-ambergris-cay.webp",
+    alt: "Piscine à débordement et transats face à la mer sur l'île privée d'Ambergris Cay",
   },
   destinationSlugs: ["turks-and-caicos"],
   sections: [],

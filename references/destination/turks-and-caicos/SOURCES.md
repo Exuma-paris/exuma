@@ -55,3 +55,6 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `xp-catamaran-beluga.webp` : https://www.visittci.com/thing/beluga/default_1920x1280.jpg (Visit TCI, recadrage carré, couleurs adoucies).
 - `xp-plongee-mur.webp` : https://world.dan.org/wp-content/uploads/2023/10/Q3_39_Turks_Caicos.jpg (DAN, recadrage carré, agrandissement fidèle Gemini, couleurs adoucies).
 - `xp-apnee-2.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxo24P5ssdd1AU2vcc1steItTokiFMaGDCPNFZU3GAow), recadrage portrait, agrandissement fidèle Gemini. Personne reconnaissable : identité et accord à confirmer avant publication.
+- `hotel-amanyara.webp` : https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2024-05/amanyara_turks_caicos_-_accommodation_villa_33.webp (Aman, agrandissement fidèle Gemini).
+- `hotel-como-parrot-cay.webp` : https://cf.bstatic.com/xdata/images/hotel/max1024x768/899944324.jpg (Booking, recadrage carré, agrandissement fidèle Gemini).
+- `hotel-ambergris-cay.webp` : https://www.visittci.com/thing/ambergris-cay-resort/calico-restaurant-pool-and-loungers_2048x1365.jpg (Visit TCI, recadrage carré, couleurs adoucies).
