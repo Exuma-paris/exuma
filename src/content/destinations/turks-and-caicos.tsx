@@ -39,12 +39,12 @@ export const destination: Destination = {
           alt: "Voyage aux Turks and Caicos : le sable blanc et l'eau turquoise de Grace Bay, à Providenciales",
         },
         {
-          src: "/destination/turks-and-caicos/hero-2.png",
-          alt: "Le tombant du récif et l'eau claire au large de West Caicos",
+          src: "/destination/turks-and-caicos/hero-2.webp",
+          alt: "West Caicos et son tombant vus d'avion, où l'eau turquoise bascule vers le bleu profond",
         },
         {
-          src: "/destination/turks-and-caicos/hero-3.png",
-          alt: "Les falaises de Mudjin Harbour à Middle Caicos en fin de journée",
+          src: "/destination/turks-and-caicos/hero-3.webp",
+          alt: "La plage de Mudjin Harbour, ses falaises et Dragon Cay vus du ciel, à Middle Caicos",
         },
       ],
     },
@@ -595,8 +595,8 @@ export const destination: Destination = {
           quote:
             "Une île pour nous, un bateau qui venait nous chercher quand on le demandait, et la même personne au téléphone du premier échange au retour. C'est exactement ce que nous cherchions.",
           image: {
-            src: "/destination/turks-and-caicos/hero-2.png",
-            alt: "Le tombant du récif et l'eau claire au large de West Caicos"
+            src: "/destination/turks-and-caicos/hero-2.webp",
+            alt: "West Caicos et son tombant vus d'avion, où l'eau turquoise bascule vers le bleu profond"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Parrot Cay, février 2026", // TODO: à vérifier (replace with real testimonial)
@@ -606,8 +606,8 @@ export const destination: Destination = {
           quote:
             "La séance d'apnée a changé la semaine. Nos filles ont voulu y retourner deux fois, et elles parlent encore du moment où l'on n'entend plus rien.",
           image: {
-            src: "/destination/turks-and-caicos/hero-3.png",
-            alt: "Les falaises de Mudjin Harbour à Middle Caicos en fin de journée"
+            src: "/destination/turks-and-caicos/hero-3.webp",
+            alt: "La plage de Mudjin Harbour, ses falaises et Dragon Cay vus du ciel, à Middle Caicos"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Les Turks and Caicos en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)

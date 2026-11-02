@@ -49,3 +49,5 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `hero-1.webp` : Wikimedia Commons, File:Grace Bay - panoramio.jpg (CC BY-SA 3.0).
 - `full-image.webp` : Wikimedia Commons, File:Big Sand Cay Turks & Caicos aerial Curacao March 2024.jpg (CC BY-SA 4.0).
 - `xp-mudjin-harbour.webp` : Wikimedia Commons, File:Dragon Cay.jpg (CC BY-SA 2.0).
+- `hero-2.webp` : https://www.rajibroy.com/wp-content/uploads/2023/01/E4709F14-0F11-435C-B678-BA60EF9C795A.jpeg (recadrage carré, couleurs adoucies).
+- `hero-3.webp` : https://media.vrbo.com/lodging/37000000/36380000/36374800/36374733/148b78ed.jpg (Vrbo, recadrage carré, agrandissement fidèle Gemini, couleurs adoucies).
