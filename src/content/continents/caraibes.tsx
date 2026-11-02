@@ -32,6 +32,10 @@ export const continent: Continent = {
           src: "/destination/caraibes/hero-2.webp",
           alt: "Une longue plage blanche d'Anguilla et son récif, vus du ciel",
         },
+        {
+          src: "/destination/caraibes/xp-goelette-grenadines-1.webp",
+          alt: "Goélette privée sous voiles entre les îles vertes des Grenadines",
+        },
       ],
     },
 
