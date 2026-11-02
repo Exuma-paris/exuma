@@ -116,8 +116,8 @@ export const destination: Destination = {
           alt: "Apnéiste descendant le long d'un cordage dans l'eau claire des Turks and Caicos",
         },
         right: {
-          src: "/destination/turks-and-caicos/xp-apnee-2.png",
-          alt: "Instructrice d'apnée et son élève en surface avant la descente",
+          src: "/destination/turks-and-caicos/xp-apnee-2.webp",
+          alt: "L'instructrice d'apnée en combinaison et cagoule, sa bouée à la taille et ses longues palmes à la main",
         },
       },
       text: {

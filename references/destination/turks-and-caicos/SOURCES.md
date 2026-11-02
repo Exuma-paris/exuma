@@ -54,3 +54,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `split-1.webp` : https://d2p1cf6997m1ir.cloudfront.net/media/thumbnails/48/2c/482c3f5a7ac60d06f6282413545d2ce5.webp (lien fourni par Thea, recadrage portrait ; lieu de prise de vue non confirmé).
 - `xp-catamaran-beluga.webp` : https://www.visittci.com/thing/beluga/default_1920x1280.jpg (Visit TCI, recadrage carré, couleurs adoucies).
 - `xp-plongee-mur.webp` : https://world.dan.org/wp-content/uploads/2023/10/Q3_39_Turks_Caicos.jpg (DAN, recadrage carré, agrandissement fidèle Gemini, couleurs adoucies).
+- `xp-apnee-2.webp` : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxo24P5ssdd1AU2vcc1steItTokiFMaGDCPNFZU3GAow), recadrage portrait, agrandissement fidèle Gemini. Personne reconnaissable : identité et accord à confirmer avant publication.
