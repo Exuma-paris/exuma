@@ -514,8 +514,8 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marquée, c'est la qualité de l'accompagnement. Un seul interlocuteur, du premier appel au retour. La journée sur Curieuse, avant les groupes, valait le voyage à elle seule.",
           image: {
-            src: "/destination/seychelles/hero-3.png",
-            alt: "Lagon turquoise et blocs de granit vus du ciel aux Seychelles",
+            src: "/destination/seychelles/hero-3.webp",
+            alt: "Blocs de granit, palmiers et eau turquoise vus du ciel à La Digue, aux Seychelles",
           },
           name: "Nathalie", // TODO: verify
           role: "Escapade nature, avril 2025", // TODO: verify
