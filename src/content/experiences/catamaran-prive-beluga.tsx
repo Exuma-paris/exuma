@@ -13,8 +13,8 @@ export const experience: Experience = {
     "providenciales",
   ],
   heroImage: {
-    src: "/destination/turks-and-caicos/xp-catamaran-beluga.png",
-    alt: "Catamaran privé au mouillage devant un cay désert des Turks and Caicos",
+    src: "/destination/turks-and-caicos/xp-catamaran-beluga.webp",
+    alt: "Le catamaran Beluga au mouillage devant un banc de sable blanc, aux Turks and Caicos",
   },
   destinationSlugs: ["turks-and-caicos"],
   sections: [],
