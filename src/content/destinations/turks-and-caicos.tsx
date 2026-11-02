@@ -112,8 +112,8 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/turks-and-caicos/xp-apnee-1.png",
-          alt: "Apnéiste descendant le long d'un cordage dans l'eau claire des Turks and Caicos",
+          src: "/destination/turks-and-caicos/xp-apnee-1.webp",
+          alt: "Leçon d'apnée en mer vue du ciel, deux personnes en combinaison flottant près de la bouée, un bateau au mouillage",
         },
         right: {
           src: "/destination/turks-and-caicos/xp-apnee-2.webp",
