@@ -60,3 +60,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `hotel-ambergris-cay.webp` : https://www.visittci.com/thing/ambergris-cay-resort/calico-restaurant-pool-and-loungers_2048x1365.jpg (Visit TCI, recadrage carré, couleurs adoucies).
 - `xp-apnee-1.webp` : image générée par IA (Gemini), sans visage reconnaissable.
 - `split-2.webp` : https://media.istockphoto.com/id/483511752/ (iStock, recadrage carré, agrandissement fidèle Gemini ; licence à vérifier).
+- `bento-hebergements.webp` : image générée par IA (Gemini).
