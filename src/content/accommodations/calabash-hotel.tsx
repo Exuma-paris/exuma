@@ -7,8 +7,8 @@ export const accommodation: Accommodation = {
     "Trente suites basses réparties dans un jardin de L'Anse aux Épines, avec la plage au bout de la pelouse. Le petit déjeuner est préparé et servi sur la véranda de chaque suite, par la personne qui s'occupe d'elle toute la semaine.",
   keywords: ["la-grenade", "anse aux epines", "calabash", "prickly bay"],
   heroImage: {
-    src: "/destination/la-grenade/hotel-calabash.png",
-    alt: "Véranda d'une suite du Calabash Hotel ouverte sur le jardin, à la Grenade",
+    src: "/destination/la-grenade/hotel-calabash.webp",
+    alt: "Les suites du Calabash Hotel dans leur jardin vues du ciel, face à la baie, à la Grenade",
   },
   destinationSlugs: ["la-grenade"],
   sections: [],

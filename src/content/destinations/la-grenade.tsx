@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/la-grenade/full-image.png",
-        alt: "Voyage à la Grenade : la baie de Saint-Georges vue depuis les hauteurs du fort",
+        src: "/destination/la-grenade/full-image.webp",
+        alt: "Voyage à la Grenade : le port de Saint-Georges vu depuis l'eau, ses maisons colorées sur la colline",
       },
       height: 600,
     },
@@ -115,8 +115,8 @@ export const destination: Destination = {
           alt: "Voilier en bois sous voiles le long de la côte ouest de la Grenade",
         },
         right: {
-          src: "/destination/la-grenade/xp-voilier-bois-2.png",
-          alt: "Statue immergée du parc de sculptures sous-marines de Molinière à la Grenade",
+          src: "/destination/la-grenade/xp-voilier-bois-2.webp",
+          alt: "Sienna, statue tressée de femme agenouillée du parc de sculptures sous-marines de Molinière, à la Grenade",
         },
       },
       text: {
