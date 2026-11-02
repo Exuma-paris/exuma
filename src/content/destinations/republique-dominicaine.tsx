@@ -10,7 +10,7 @@ export const destination: Destination = {
   genitive: "de la République dominicaine",
   projectNote:
     "La plupart des voyageurs ne voient que la côte est, celle des resorts. Il y a une autre île une heure au nord : la baie de Samaná, les mangroves de Los Haitises, les baleines du Silver Bank.",
-  continentSlug: "ameriques",
+  continentSlug: "caraibes",
   blurb: "Samaná, Punta Cana, Cap Cana, Los Haitises",
   keywords: [
     "republique dominicaine",

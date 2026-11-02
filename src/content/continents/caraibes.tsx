@@ -4,6 +4,7 @@ export const continent: Continent = {
   slug: "caraibes",
   name: "Caraïbes",
   genitive: "des Caraïbes",
+  showAllDestinations: true,
   blurb: "Un chapelet d'îles où la journée se décide au matin.",
   keywords: [
     "caraibes",
@@ -23,16 +24,13 @@ export const continent: Continent = {
       description:
         "De Saint-Barthélemy aux Grenadines, un chapelet d'îles séparées par quelques heures de navigation. On y voyage par la mer, en laissant à chaque escale le temps de se faire aimer.",
       images: [
-        // TODO: images génériques empruntées à l'océan Indien et au Pacifique,
-        // faute de visuels caribéens. À remplacer par des images dédiées
-        // (Saint-Barthélemy, Grenadines, Sainte-Lucie) dès qu'elles existent.
         {
-          src: "/destination/maurice/hero-3.png",
-          alt: "Ligne d'écume d'un récif corallien vue à la verticale, océan et platier",
+          src: "/destination/caraibes/hero-3.webp",
+          alt: "Le Petit Piton de Sainte-Lucie vu depuis la mer, une barque de pêche au premier plan",
         },
         {
-          src: "/destination/polynesie/hero-1.png",
-          alt: "Plage de sable blanc bordée de cocotiers",
+          src: "/destination/caraibes/hero-2.webp",
+          alt: "Une longue plage blanche d'Anguilla et son récif, vus du ciel",
         },
       ],
     },

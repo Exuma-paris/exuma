@@ -6,8 +6,8 @@ export const destination: Destination = {
   slug: "turks-and-caicos",
   subthemeSlugs: ["caraibes-plages", "plongee-bouteille", "voilier"],
   name: "Turks and Caicos",
-  placeKind: "region",
-  country: "Caraïbes",
+  placeKind: "country",
+  country: "Turks and Caicos",
   genitive: "des Turks and Caicos",
   projectNote:
     "On ne suit pas un programme, on suit la mer. Nous laissons trois options par journée et le capitaine tranche le matin selon le vent : le tombant de West Caicos si c'est calme, les hauts-fonds sinon.",
