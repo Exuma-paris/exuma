@@ -137,7 +137,7 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités aux Turks and Caicos",
       heading: "Le mur de West Caicos, le Beluga, les grottes de l'est",
       description:
-        "Nous vous emmenons sur les tombants de Northwest Point et de French Cay, à bord d'un catamaran de onze mètres dont le capitaine navigue ici depuis vingt-cinq ans, et jusqu'aux falaises et aux grottes calcaires de Middle Caicos.",
+        "Nous vous emmenons sur les tombants de Northwest Point et de French Cay, à bord d'un catamaran de onze mètres d'une maison qui navigue ici depuis près de quarante ans, et jusqu'aux falaises et aux grottes calcaires de Middle Caicos.",
       slugs: [
         "plongee-northwest-point-west-caicos",
         "catamaran-prive-beluga",
