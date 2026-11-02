@@ -101,7 +101,7 @@ export const destination: Destination = {
           alt: "Tri des noix de muscade sur les tables de bois de la station de Gouyave",
         },
         {
-          src: "/destination/la-grenade/split-2.png",
+          src: "/destination/la-grenade/split-2.webp",
           alt: "Cascade des Seven Sisters dans la forêt du parc national du Grand Étang",
         },
       ],

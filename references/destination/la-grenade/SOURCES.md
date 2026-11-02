@@ -42,3 +42,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png`. The Bel
 - `hero-1.webp` : https://lesvolsdalexi.s3.ca-central-1.amazonaws.com/blog/20200925120209/grenade-temp%C3%A9rature-cover-1152x605.jpg (recadrage carré, agrandissement fidèle Gemini, couleurs adoucies).
 - `hero-2.webp` : https://worlds50beaches.com/assets/images/beaches/34-1.webp (recadrage carré, couleurs adoucies).
 - `hero-3.webp` : https://www.etal-des-epices.com/wp-content/uploads/2009/05/noix-de-muscade-dans-fruit-muscadier.jpg.webp (recadrage carré, agrandissement fidèle Gemini).
+- `split-2.webp` : https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/38/23/91/photographs-taken-on.jpg (Tripadvisor, recadrage carré, agrandissement fidèle Gemini, couleurs adoucies).
