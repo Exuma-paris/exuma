@@ -120,7 +120,6 @@ export default async function Page({
             </div>
             <DestinationFinder
               entries={entries}
-              suggestions={continent.showAllDestinations ? entries.length : undefined}
               excludeFromSuggestions={featured}
               notFoundCaption={`Aucune destination ${genitive} ne porte ce nom.`}
               emptyMessage="Nous voyageons aussi ailleurs, y compris là où nous n'avons pas encore de page. Dites-nous où."

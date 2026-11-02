@@ -31,8 +31,6 @@ export type Continent = EntityBase & {
    * règle ne couvre « d'Afrique », « des Amériques » et « du Proche-Orient ».
    */
   genitive?: string;
-  /** Montre toutes les destinations dans le moteur, au lieu d'une sélection. */
-  showAllDestinations?: boolean;
 };
 
 export type Destination = EntityBase & {

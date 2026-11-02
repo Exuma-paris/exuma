@@ -189,7 +189,7 @@ export function DestinationFinder({
 
       {shown.length > 0 ? (
         <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
-          {shown.slice(0, Math.max(11, suggestions)).map((entry) => (
+          {shown.slice(0, 11).map((entry) => (
             <li key={entry.slug}>
               <Card entry={entry} />
             </li>

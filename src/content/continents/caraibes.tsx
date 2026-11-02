@@ -4,7 +4,6 @@ export const continent: Continent = {
   slug: "caraibes",
   name: "Caraïbes",
   genitive: "des Caraïbes",
-  showAllDestinations: true,
   blurb: "Un chapelet d'îles où la journée se décide au matin.",
   keywords: [
     "caraibes",
