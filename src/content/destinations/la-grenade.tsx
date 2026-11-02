@@ -35,16 +35,16 @@ export const destination: Destination = {
         "On appelle la Grenade l'île aux épices, et cela se sent avant de le savoir : l'odeur de la muscade monte des séchoirs dès que la route quitte la côte. Saint-Georges tient son port en fer à cheval sous des toits de tuile rouge, la Grand Anse déroule trois kilomètres de sable clair, et la forêt du Grand Étang commence vingt minutes plus haut. Peu d'îles gardent encore cette proportion entre ce qui se visite et ce qui se vit. C'est cette île-là que nous vous ouvrons.",
       images: [
         {
-          src: "/destination/la-grenade/hero-1.png",
+          src: "/destination/la-grenade/hero-1.webp",
           alt: "Voyage à la Grenade : le port en fer à cheval de Saint-Georges et ses toits rouges",
         },
         {
-          src: "/destination/la-grenade/hero-2.png",
-          alt: "La plage de la Grand Anse et sa courbe de sable clair bordée de cocotiers",
+          src: "/destination/la-grenade/hero-2.webp",
+          alt: "La plage de la Grand Anse vue du ciel, son sable clair bordé de cocotiers",
         },
         {
-          src: "/destination/la-grenade/hero-3.png",
-          alt: "Noix de muscade ouvertes sur un séchoir de bois dans une plantation grenadienne",
+          src: "/destination/la-grenade/hero-3.webp",
+          alt: "Fruit du muscadier ouvert dans une main, la noix entourée de son macis rouge, à la Grenade",
         },
       ],
     },
@@ -568,7 +568,7 @@ export const destination: Destination = {
           quote:
             "Nous cherchions une île des Antilles que nous ne connaissions pas, et nous avons trouvé une île où il ne se passe rien de ce que l'on attend. La journée sur le voilier en bois a été le sommet du séjour.",
           image: {
-            src: "/destination/la-grenade/hero-1.png",
+            src: "/destination/la-grenade/hero-1.webp",
             alt: "Voyage à la Grenade : le port en fer à cheval de Saint-Georges et ses toits rouges"
           },
           name: "TODO", // TODO: replace with real testimonial
@@ -579,8 +579,8 @@ export const destination: Destination = {
           quote:
             "Les enfants ont passé la semaine entre la Grand Anse et les statues de Molinière, qu'ils ont voulu revoir trois fois. Nous n'avons eu à nous occuper de rien.",
           image: {
-            src: "/destination/la-grenade/hero-2.png",
-            alt: "La plage de la Grand Anse et sa courbe de sable clair bordée de cocotiers"
+            src: "/destination/la-grenade/hero-2.webp",
+            alt: "La plage de la Grand Anse vue du ciel, son sable clair bordé de cocotiers"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "La Grenade en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
@@ -590,8 +590,8 @@ export const destination: Destination = {
           quote:
             "Les deux nuits à Carriacou n'étaient pas prévues au départ et ce sont celles dont nous parlons encore. Le charpentier nous a montré la coque qu'il finissait, sur la plage.",
           image: {
-            src: "/destination/la-grenade/hero-3.png",
-            alt: "Noix de muscade ouvertes sur un séchoir de bois dans une plantation grenadienne"
+            src: "/destination/la-grenade/hero-3.webp",
+            alt: "Fruit du muscadier ouvert dans une main, la noix entourée de son macis rouge, à la Grenade"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "La Grenade et Carriacou, avril 2026", // TODO: à vérifier (replace with real testimonial)
