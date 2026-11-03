@@ -52,13 +52,58 @@ export const continent: Continent = {
     },
 
     {
-      type: "entityList",
-      kind: "destination",
-      eyebrow: "Destinations phares",
-      heading: "Cinq terrains africains",
+      type: "featureCards",
+      layout: "seasons",
+      eyebrow: "Quand partir",
+      heading: "Quand et où partir en Afrique",
       description:
-        "Deux pays de grande migration, un désert, une pointe de continent et une vallée du Nil. Cinq entrées qui couvrent l'essentiel des façons de voyager en Afrique.",
-      slugs: ["kenya", "tanzanie", "namibie", "afrique-du-sud", "egypte"],
+        "Quatre moments de l'année, et la destination que nous choisirions pour chacun.",
+      cards: [
+        {
+          title: "Juillet à octobre",
+          description:
+            "Les gnous traversent la Mara, surtout en août et septembre. Le passage varie d'une année à l'autre.",
+          image: {
+            src: "/destination/kenya/hero-1.png",
+            alt: "Gnous franchissant la rivière Mara lors de la grande migration",
+          },
+          link: { label: "Kenya", href: "/destinations/kenya" },
+          months: { full: [7, 8, 9, 10] },
+        },
+        {
+          title: "Juin à août",
+          description:
+            "La crue de l'Okavango arrive en pleine saison sèche, et la faune se concentre près de l'eau.",
+          image: {
+            src: "/destination/botswana/hero-1.webp",
+            alt: "Deux mokoros glissant sur un chenal de l'Okavango, des éléphants à l'arrière-plan",
+          },
+          link: { label: "Botswana", href: "/destinations/botswana" },
+          months: { full: [6, 7, 8] },
+        },
+        {
+          title: "Novembre à mars",
+          description:
+            "L'été au Cap : longues journées et 25 à 30 degrés.",
+          image: {
+            src: "/destination/afrique-du-sud/full-image.webp",
+            alt: "La montagne de la Table dominant la ville du Cap",
+          },
+          link: { label: "Afrique du Sud", href: "/destinations/afrique-du-sud" },
+          months: { full: [11, 12, 1, 2, 3] },
+        },
+        {
+          title: "Octobre à avril",
+          description:
+            "Le Nil devient confortable. De mai à septembre, la Haute-Égypte dépasse souvent 42 degrés.",
+          image: {
+            src: "/destination/egypte/hero-1.webp",
+            alt: "Felouques sous voiles sur le Nil, au soleil couchant",
+          },
+          link: { label: "Égypte", href: "/destinations/egypte" },
+          months: { full: [10, 11, 12, 1, 2, 3, 4] },
+        },
+      ],
     },
 
     {

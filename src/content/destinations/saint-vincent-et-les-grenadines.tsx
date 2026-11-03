@@ -6,8 +6,8 @@ export const destination: Destination = {
   slug: "saint-vincent-et-les-grenadines",
   subthemeSlugs: ["voilier", "caraibes-plages", "savoir-faire"],
   name: "Saint-Vincent-et-les-Grenadines",
-  placeKind: "region",
-  country: "Caraïbes",
+  placeKind: "country",
+  country: "Saint-Vincent-et-les-Grenadines",
   genitive: "de Saint-Vincent-et-les-Grenadines",
   projectNote:
     "On vient rarement pour une seule île. Les traversées durent une heure, parfois moins, et l'on finit par vivre au rythme du bateau. Nous construisons le séjour autour de ce mouvement.",

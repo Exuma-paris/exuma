@@ -52,3 +52,4 @@ Testimonial portraits reuse `hero-1.png`, `hero-2.png` and `hero-3.png` — no s
 - `hero-1.webp`, `split-2.webp`, `xp-cacao-grenade.webp`, `xp-goelette-grenadines-1.webp`, `xp-goelette-grenadines-2.webp` : images générées par IA (Gemini).
 - `hero-2.webp` (remplace la version Commons) : https://milesopedia.com/wp-content/uploads/2023/03/plage-AnguillaOfficial-Facebook.jpg (Anguilla Tourist Board via Milesopedia, agrandissement fidèle Gemini).
 - `hero-3.webp` (remplace la version Commons) : vignette Google Images (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkUZlQD2MnU_UddzbhkMzHj_fgn-nSY9uciYGHjUsyZ6kh23Lx3-EjlKnW), recadrage carré, agrandissement fidèle Gemini.
+- `quand-baleine-samana.webp` : recadrage de `republique-dominicaine/hero-2.webp`, Flora Tours — https://flora-tours.com/wp-content/uploads/baleine-samana.jpg. ⚠ droits à vérifier.

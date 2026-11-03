@@ -52,13 +52,58 @@ export const continent: Continent = {
     },
 
     {
-      type: "entityList",
-      kind: "destination",
-      eyebrow: "Destinations phares",
-      heading: "Trois entrées dans l'Asie d'Exuma",
+      type: "featureCards",
+      layout: "seasons",
+      eyebrow: "Quand partir",
+      heading: "Quand et où partir en Asie",
       description:
-        "Un archipel du Nord, un archipel équatorial et un royaume entre deux mers. Trois manières d'aborder le continent, de la ville dense à l'île isolée.",
-      slugs: ["japon", "indonesie", "thailande"],
+        "Quatre moments de l'année, et la destination que nous choisirions pour chacun.",
+      cards: [
+        {
+          title: "Fin mars, début avril",
+          description:
+            "Les cerisiers fleurissent à Tokyo, puis à Kyoto quelques jours plus tard. La date varie chaque année.",
+          image: {
+            src: "/destination/japon/hero-3.png",
+            alt: "Le mont Fuji derrière un lac, encadré de cerisiers en fleurs",
+          },
+          link: { label: "Japon", href: "/destinations/japon" },
+          months: { full: [], partial: [3, 4] },
+        },
+        {
+          title: "Novembre à mars",
+          description:
+            "La côte d'Andaman au sec, de Bangkok à la baie de Phang Nga.",
+          image: {
+            src: "/destination/thailande/hero-1.webp",
+            alt: "Pitons calcaires et mangroves de la baie de Phang Nga",
+          },
+          link: { label: "Thaïlande", href: "/destinations/thailande" },
+          months: { full: [11, 12, 1, 2, 3] },
+        },
+        {
+          title: "Mai à septembre",
+          description:
+            "Saison sèche à Komodo, avec une mer calme en mai, juin et septembre.",
+          image: {
+            src: "/destination/indonesie/hero-2.webp",
+            alt: "Les baies de l'île de Padar, dans le parc national de Komodo",
+          },
+          link: { label: "Indonésie", href: "/destinations/indonesie" },
+          months: { full: [5, 6, 7, 8, 9] },
+        },
+        {
+          title: "Octobre et novembre",
+          description:
+            "Après la mousson, l'air clair dégage l'Himalaya.",
+          image: {
+            src: "/destination/bhoutan/hero-1.webp",
+            alt: "Le monastère de Taktsang accroché à sa falaise",
+          },
+          link: { label: "Bhoutan", href: "/destinations/bhoutan" },
+          months: { full: [10, 11] },
+        },
+      ],
     },
 
     {

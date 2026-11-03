@@ -6,8 +6,8 @@ export const destination: Destination = {
   slug: "la-grenade",
   subthemeSlugs: ["snorkeling", "savoir-faire", "caraibes-plages"],
   name: "La Grenade",
-  placeKind: "region",
-  country: "Caraïbes",
+  placeKind: "country",
+  country: "La Grenade",
   genitive: "de la Grenade",
   projectNote:
     "L'île que nous proposons à ceux qui connaissent déjà les Antilles : pas de front de mer construit, pas de file devant les sites, et l'odeur de la muscade dès que la route quitte la côte.",

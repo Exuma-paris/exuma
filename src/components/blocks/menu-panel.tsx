@@ -98,7 +98,10 @@ export function MenuPanel({
   };
 
   const continentCountryGroups = activeContinent
-    ? getDestinationsByContinentGrouped(activeContinent.slug)
+    ? getDestinationsByContinentGrouped(activeContinent.slug).filter(
+        // La fiche qui porte le nom du continent répéterait « Voir tout ».
+        (g) => g.country !== activeContinent.name,
+      )
     : [];
 
   return (

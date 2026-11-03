@@ -6,8 +6,8 @@ export const destination: Destination = {
   slug: "saint-barthelemy",
   subthemeSlugs: ["caraibes-plages", "voilier", "savoir-faire"],
   name: "Saint-Barthélemy",
-  placeKind: "region",
-  country: "Caraïbes",
+  placeKind: "country",
+  country: "Saint-Barthélemy",
   genitive: "de Saint-Barthélemy",
   projectNote:
     "Une île qu'on finit par appeler la sienne. En quelques jours on a sa plage du matin, sa table du soir, son coin d'ombre. Beaucoup nous redemandent les mêmes dates l'année suivante.",
