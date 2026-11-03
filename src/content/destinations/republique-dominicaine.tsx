@@ -117,8 +117,8 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/republique-dominicaine/split-1.webp",
-          alt: "Queue de baleine à bosse émergeant de la baie de Samaná",
+          src: "/destination/republique-dominicaine/map-samana.webp",
+          alt: "Plage et îlots reliés par une passerelle dans la baie de Samaná, République dominicaine",
         },
         {
           src: "/destination/republique-dominicaine/split-2.webp",

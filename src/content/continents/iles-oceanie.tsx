@@ -60,6 +60,61 @@ export const continent: Continent = {
     },
 
     {
+      type: "featureCards",
+      layout: "seasons",
+      eyebrow: "Quand partir",
+      heading: "Quand et où partir dans les îles et en Océanie",
+      description:
+        "Quatre moments de l'année, et la destination que nous choisirions pour chacun.",
+      cards: [
+        {
+          title: "Mai à octobre",
+          description:
+            "L'hiver austral, le temps le plus sec.",
+          image: {
+            src: "/destination/polynesie/hero-2.png",
+            alt: "Bungalows sur pilotis dans le lagon de Bora Bora, devant le mont Otemanu",
+          },
+          link: { label: "Polynésie", href: "/destinations/polynesie" },
+          months: { full: [5, 6, 7, 8, 9, 10] },
+        },
+        {
+          title: "Décembre à avril",
+          description:
+            "La saison sèche, après la mousson.",
+          image: {
+            src: "/destination/maldives/hero-1.webp",
+            alt: "Ponton de bois menant à des villas sur pilotis, aux Maldives",
+          },
+          link: { label: "Maldives", href: "/destinations/maldives" },
+          months: { full: [12, 1, 2, 3, 4] },
+        },
+        {
+          title: "Avril-mai et octobre-novembre",
+          description:
+            "Entre deux saisons d'alizés : mer calme et vents faibles.",
+          image: {
+            src: "/destination/seychelles/hero-1.webp",
+            alt: "Rochers de granit et eau claire aux Seychelles",
+          },
+          link: { label: "Seychelles", href: "/destinations/seychelles" },
+          months: { full: [4, 5, 10, 11] },
+        },
+        {
+          title: "Décembre à février",
+          description:
+            "L'été austral, pour le plein air.",
+          image: {
+            src: "/destination/nouvelle-zelande/hero-1.webp",
+            alt: "Le Mitre Peak se reflétant dans Milford Sound",
+          },
+          link: { label: "Nouvelle-Zélande", href: "/destinations/nouvelle-zelande" },
+          months: { full: [12, 1, 2] },
+        },
+      ],
+    },
+
+    {
       type: "finalCta",
       eyebrow: "Aller plus loin",
       heading: "Dites-nous ce que vous avez en tête",

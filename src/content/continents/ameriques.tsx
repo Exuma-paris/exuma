@@ -62,40 +62,55 @@ export const continent: Continent = {
 
     {
       type: "featureCards",
-      eyebrow: "Destinations phares",
-      heading: "Trois entrées dans les Amériques",
+      layout: "seasons",
+      eyebrow: "Quand partir",
+      heading: "Quand et où partir dans les Amériques",
       description:
-        "Un pays-continent, la ville la plus photographiée du sous-continent et un pays d'Amérique centrale entièrement tourné vers la nature.",
+        "Quatre moments de l'année, et la destination que nous choisirions pour chacun.",
       cards: [
         {
-          title: "Brésil",
+          title: "Novembre à mars",
           description:
-            "Les dunes et lagunes des Lençóis Maranhenses, les façades du Pelourinho à Salvador, le rideau d'eau d'Iguaçu. Trois régions séparées par trois heures de vol chacune, que l'on assemble rarement en moins de douze nuits.",
+            "L'été en Patagonie et ses très longues journées. Mars est souvent moins fréquenté.",
           image: {
-            src: "/destination/bresil/hero-2.webp",
-            alt: "Façades colorées du Pelourinho à Salvador de Bahia en fin de journée",
+            src: "/destination/argentine/hero-1.webp",
+            alt: "Route de Patagonie menant vers le massif du Fitz Roy",
           },
-          link: { label: "Découvrir", href: "/destinations/bresil" },
+          link: { label: "Argentine", href: "/destinations/argentine" },
+          months: { full: [11, 12, 1, 2, 3] },
         },
         {
-          title: "Rio de Janeiro",
+          title: "Juin à septembre",
           description:
-            "Copacabana, Ipanema, Santa Teresa et le Corcovado tiennent dans un rayon de quinze kilomètres. La ville ouvre ou referme la plupart de nos itinéraires brésiliens, avec trois nuits au minimum.",
+            "Les lagunes des Lençóis Maranhenses sont au plus haut entre les dunes.",
           image: {
-            src: "/destination/rio-de-janeiro/hero-2.png",
-            alt: "Plage d'Ipanema et pic des Dois Irmãos au coucher du soleil",
+            src: "/destination/bresil/xp-lencois-2.webp",
+            alt: "Dunes blanches et lagunes des Lençóis Maranhenses, vues du ciel",
           },
-          link: { label: "Découvrir", href: "/destinations/rio-de-janeiro" },
+          link: { label: "Brésil", href: "/destinations/bresil" },
+          months: { full: [6, 7, 8, 9] },
         },
         {
-          title: "Costa Rica",
+          title: "Décembre à avril",
           description:
-            "De la forêt de Tortuguero au volcan Arenal puis à la péninsule de Nicoya, tout se fait par la route en quelques heures. Un guide naturaliste suit le voyage du premier au dernier jour.",
+            "La saison sèche, de la forêt au volcan Arenal.",
           image: {
             src: "/destination/costa-rica/hero-2.webp",
-            alt: "Cône du volcan Arenal dégagé au-dessus de la forêt de La Fortuna",
+            alt: "Le volcan Arenal au-dessus de la forêt",
           },
-          link: { label: "Découvrir", href: "/destinations/costa-rica" },
+          link: { label: "Costa Rica", href: "/destinations/costa-rica" },
+          months: { full: [12, 1, 2, 3, 4] },
+        },
+        {
+          title: "Janvier à mars",
+          description:
+            "La neige de l'Ouest canadien et l'héliski.",
+          image: {
+            src: "/destination/canada/xp-heliski-bugaboos-1.webp",
+            alt: "Skieurs et hélicoptère posés sur un sommet enneigé des Bugaboos",
+          },
+          link: { label: "Canada", href: "/destinations/canada" },
+          months: { full: [1, 2, 3] },
         },
       ],
     },

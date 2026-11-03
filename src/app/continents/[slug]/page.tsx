@@ -91,9 +91,10 @@ export default async function Page({
   // L'index est construit depuis le registre : une destination nouvellement
   // rattachée au continent y entre sans qu'il y ait à toucher au contenu.
   // Le nom du continent est retiré des entrées, il serait le même sur toutes.
-  const entries = getDestinationFinderIndex({ continentSlug: slug }).map(
-    ({ continent: _continent, ...entry }) => entry,
-  );
+  // La fiche qui porte le nom du continent n'est pas une destination à proposer.
+  const entries = getDestinationFinderIndex({ continentSlug: slug })
+    .filter((entry) => entry.slug !== slug)
+    .map(({ continent: _continent, ...entry }) => entry);
   const featured = featuredDestinationSlugs(continent.sections);
   const genitive = continent.genitive ?? continent.name;
 

@@ -72,9 +72,14 @@ export type Section =
         description: string;
         image: ImageRef;
         link?: Cta;
+        /** Mois de la frise (1 à 12), pour la mise en page "seasons". */
+        months?: { full: number[]; partial?: number[] };
       }[];
-      /** "grid" pose toutes les cartes sur deux colonnes, sans carrousel. */
-      layout?: "carousel" | "grid";
+      /**
+       * "grid" pose toutes les cartes sur deux colonnes, sans carrousel.
+       * "seasons" les pose sur une ligne, avec une frise des mois sous l'image.
+       */
+      layout?: "carousel" | "grid" | "seasons";
       background?: string;
     }
   | {

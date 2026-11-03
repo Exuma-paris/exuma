@@ -52,6 +52,61 @@ export const continent: Continent = {
     },
 
     {
+      type: "featureCards",
+      layout: "seasons",
+      eyebrow: "Quand partir",
+      heading: "Quand et où partir aux Caraïbes",
+      description:
+        "Quatre moments de l'année, et l'île que nous choisirions pour chacun.",
+      cards: [
+        {
+          title: "Décembre à avril",
+          description:
+            "La saison sèche : alizés réguliers, mer calme, peu d'averses. Noël et le Nouvel An se réservent très tôt.",
+          image: {
+            src: "/destination/saint-barthelemy/xp-ile-fourchue-1.webp",
+            alt: "Voiliers au mouillage dans la baie de l'île Fourchue, près de Saint-Barthélemy",
+          },
+          link: { label: "Saint-Barthélemy", href: "/destinations/saint-barthelemy" },
+          months: { full: [12, 1, 2, 3, 4] },
+        },
+        {
+          title: "Mi-janvier à fin mars",
+          description:
+            "Les baleines à bosse se rassemblent dans la baie de Samaná, avec un pic en février.",
+          image: {
+            src: "/destination/caraibes/quand-baleine-samana.webp",
+            alt: "Baleine à bosse jaillissant de l'eau devant les collines de la baie de Samaná",
+          },
+          link: { label: "République dominicaine", href: "/destinations/republique-dominicaine" },
+          months: { full: [2, 3], partial: [1] },
+        },
+        {
+          title: "Mai et début juin",
+          description:
+            "La même douceur, beaucoup moins de monde sur les plages, juste avant la saison des cyclones.",
+          image: {
+            src: "/destination/anguilla/full-image.webp",
+            alt: "Plage de sable blanc d'Anguilla et eau turquoise, vues du ciel",
+          },
+          link: { label: "Anguilla", href: "/destinations/anguilla" },
+          months: { full: [5], partial: [6] },
+        },
+        {
+          title: "Juin à novembre",
+          description:
+            "Saison des cyclones, au plus fort d'août à octobre. La Grenade et la Barbade y sont moins exposées, sans être à l'abri : l'ouragan Beryl a touché la Grenade en 2024.",
+          image: {
+            src: "/destination/la-grenade/split-2.webp",
+            alt: "Cascade dans la forêt tropicale de La Grenade",
+          },
+          link: { label: "La Grenade", href: "/destinations/la-grenade" },
+          months: { full: [6, 7, 8, 9, 10, 11] },
+        },
+      ],
+    },
+
+    {
       type: "finalCta",
       eyebrow: "Aller plus loin",
       heading: "Dites-nous ce que vous avez en tête",
