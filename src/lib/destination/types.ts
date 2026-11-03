@@ -76,6 +76,8 @@ export type Section =
       paragraphs: (string | { label: string; text: string })[];
       images: [ImageRef, ImageRef] | [ImageRef];
       cta?: Cta;
+      /** Logo optionnel posé à droite du surtitre (partenaire, compagnie). */
+      logo?: ImageRef;
       theme?: "light" | "dark";
       background?: string;
     }
@@ -251,7 +253,7 @@ export type Section =
     }
   | {
       type: "entityList";
-      kind: "experience" | "accommodation" | "destination";
+      kind: "experience" | "accommodation" | "destination" | "cruiseLine";
       eyebrow?: string;
       heading: string;
       description?: string;

@@ -63,9 +63,11 @@ export default async function Page({
   const blocks = getThemeBlocks(slug);
   const closing = rest.length > 0 ? rest[rest.length - 1] : undefined;
   const intro = rest.slice(0, Math.max(rest.length - 1, 0));
-  // Le cycle des fonds suit l'ordre d'affichage : intro, blocs, conclusion.
+  // Le cycle des fonds suit l'ordre d'affichage : intro, blocs, encarts de
+  // fin, conclusion.
   const introWithBg = intro.map(rhythm.apply);
   const blocksWithBg = blocks.map(rhythm.apply);
+  const trailingWithBg = (theme.trailingSections ?? []).map(rhythm.apply);
   const closingWithBg = closing ? rhythm.apply(closing) : undefined;
 
   return (
@@ -76,6 +78,9 @@ export default async function Page({
       </div>
       {introWithBg.map((section, i) => renderSection(section, `intro-${i}`))}
       {blocksWithBg.map((section, i) => renderSection(section, `block-${i}`))}
+      {trailingWithBg.map((section, i) =>
+        renderSection(section, `trailing-${i}`),
+      )}
       {closingWithBg ? renderSection(closingWithBg, "closing") : null}
     </main>
   );

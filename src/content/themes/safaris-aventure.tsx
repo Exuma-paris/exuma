@@ -4,7 +4,7 @@ export const theme: Theme = {
   slug: "safaris-aventure",
   name: "Safaris, trek & aventure",
   blurb:
-    "L'intensité sans glamouriser l'inconfort. Le Serengeti avant les autres jeeps, le camp qui n'accueille que six personnes.",
+    "Le pisteur coupe le moteur, la baleine souffle à cent mètres du bateau, la piste s'arrête au bord d'un glacier. Ici, ce qui compte est l'accès au terrain : une concession privée, un mois précis, un guide qui sait où regarder.",
   intent:
     "Raconter l'intensité sans glamouriser l'inconfort. Le confort est sous-entendu, jamais décrit. Ce qui compte c'est l'accès. Ton documentaire, pas lyrique.",
   keywords: ["safari", "trek", "aventure", "brousse", "serengeti", "masai mara"],

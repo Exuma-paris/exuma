@@ -2,7 +2,7 @@ import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
   slug: "corse",
-  subthemeSlugs: ["mediterranee-atlantique", "trek-expedition", "vignobles-spiritueux"],
+  subthemeSlugs: ["mediterranee-atlantique", "trek-expedition", "vignobles-spiritueux", "randonnee-montagne"],
   name: "Corse",
   country: "France",
   genitive: "de la Corse",

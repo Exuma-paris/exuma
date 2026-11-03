@@ -2,7 +2,7 @@ import Image from "next/image";
 import type { SectionMeta } from "@/lib/sections/meta-types";
 
 export type FullImageSectionProps = {
-  image: { src: string; alt: string };
+  image: { src: string; alt: string; position?: string };
   height?: number;
 };
 
@@ -33,6 +33,7 @@ export function FullImageSection({
         fill
         sizes="100vw"
         className="object-cover"
+        style={image.position ? { objectPosition: image.position } : undefined}
       />
     </section>
   );

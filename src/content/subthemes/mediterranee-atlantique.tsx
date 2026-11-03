@@ -34,6 +34,20 @@ export const subtheme: Subtheme = {
         alt: "Arches de grès et criques de la côte de l'Algarve près de Lagos",
       },
     },
+    {
+      slug: "croatie",
+      image: {
+        src: "/destination/croatie/full-image.webp",
+        alt: "Vue aérienne des îles Kornati et de leurs eaux turquoise en Croatie",
+      },
+    },
+    {
+      slug: "grece",
+      image: {
+        src: "/destination/grece/map-milos.webp",
+        alt: "Roches blanches lunaires de Sarakiniko sur l'île de Milos",
+      },
+    },
   ],
   sections: [],
 };

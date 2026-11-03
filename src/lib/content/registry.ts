@@ -3,6 +3,7 @@ import type {
   AnyTagged,
   Collaborateur,
   Continent,
+  CruiseLine,
   Destination,
   EntityByKind,
   EntityKind,
@@ -12,6 +13,13 @@ import type {
   Subtheme,
   Theme,
 } from "./types";
+
+import { cruiseLine as ponant } from "@/content/cruise-lines/ponant";
+import { cruiseLine as orientExpress } from "@/content/cruise-lines/orient-express";
+import { cruiseLine as aman } from "@/content/cruise-lines/aman";
+import { cruiseLine as fourSeasonsYachts } from "@/content/cruise-lines/four-seasons-yachts";
+import { cruiseLine as ritzCarltonYachtCollection } from "@/content/cruise-lines/ritz-carlton-yacht-collection";
+import { cruiseLine as scenic } from "@/content/cruise-lines/scenic";
 
 import { destination as colombie } from "@/content/destinations/colombie";
 import { destination as danemark } from "@/content/destinations/danemark";
@@ -129,6 +137,7 @@ import { subtheme as paquebotSub } from "@/content/subthemes/paquebot";
 import { subtheme as plongeeBouteilleSub } from "@/content/subthemes/plongee-bouteille";
 import { subtheme as randonneeMontagneSub } from "@/content/subthemes/randonnee-montagne";
 import { subtheme as retraiteYogaSub } from "@/content/subthemes/retraite-yoga";
+import { subtheme as retraiteDeconnexionSub } from "@/content/subthemes/retraite-deconnexion";
 import { subtheme as safariMarinSub } from "@/content/subthemes/safari-marin";
 import { subtheme as safariTerrestreSub } from "@/content/subthemes/safari-terrestre";
 import { subtheme as savoirFaireSub } from "@/content/subthemes/savoir-faire";
@@ -421,6 +430,10 @@ import { experience as dinerJagMandirUdaipur } from "@/content/experiences/diner
 import { experience as cureAyurvediqueKerala } from "@/content/experiences/cure-ayurvedique-kerala";
 import { experience as cureAyurvediqueCoteSud } from "@/content/experiences/cure-ayurvedique-cote-sud";
 import { experience as sidemenRizieresSongket } from "@/content/experiences/sidemen-rizieres-songket";
+import { experience as retraiteComoShambhalaUbud } from "@/content/experiences/retraite-como-shambhala-ubud";
+import { experience as massageTraditionnelWatPho } from "@/content/experiences/massage-traditionnel-wat-pho";
+import { experience as vaticanAvantOuverture } from "@/content/experiences/vatican-avant-ouverture";
+import { experience as sainteSophieEglisesGoreme } from "@/content/experiences/sainte-sophie-eglises-goreme";
 import { experience as begumsDeDelhi } from "@/content/experiences/begums-de-delhi";
 import { experience as ngalawaPecheurMatemwe } from "@/content/experiences/ngalawa-pecheur-matemwe";
 import { experience as stoneTownVisitePrivee } from "@/content/experiences/stone-town-visite-privee";
@@ -827,8 +840,9 @@ export const subthemes: Record<string, Subtheme> = toMap([
   voilierSub,
   croisiereFluvialeSub,
   spaThalassoSub,
-  cureThermaleSub,
   retraiteYogaSub,
+  cureThermaleSub,
+  retraiteDeconnexionSub,
   sitesHistoriquesSub,
   lieuxDeCulteSub,
   museesSub,
@@ -848,6 +862,10 @@ export const experiences: Record<string, Experience> = toMap([
   cureAyurvediqueKerala,
   cureAyurvediqueCoteSud,
   sidemenRizieresSongket,
+  retraiteComoShambhalaUbud,
+  massageTraditionnelWatPho,
+  vaticanAvantOuverture,
+  sainteSophieEglisesGoreme,
   hegraArcheologue,
   landRoverVintageDadan,
   montgolfiereHegra,
@@ -1397,6 +1415,15 @@ export const accommodations: Record<string, Accommodation> = toMap([
   hotelSanders,
 ]);
 
+export const cruiseLines: Record<string, CruiseLine> = toMap([
+  ponant,
+  orientExpress,
+  aman,
+  fourSeasonsYachts,
+  ritzCarltonYachtCollection,
+  scenic,
+]);
+
 export const collaborateurs: Record<string, Collaborateur> = toMap([
   aurore,
   blanche,
@@ -1418,6 +1445,7 @@ const buckets: { [K in EntityKind]: Record<string, EntityByKind[K]> } = {
   serviceCategory: serviceCategories,
   service: services,
   accommodation: accommodations,
+  cruiseLine: cruiseLines,
 };
 
 export function getEntity<K extends EntityKind>(

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
+  Anchor,
   ChevronLeft,
   ChevronRight,
   Globe01 as Globe,
@@ -52,6 +53,7 @@ const KIND_LABEL: Record<EntityKind, string> = {
   serviceCategory: "Services",
   service: "Services",
   accommodation: "Hébergements",
+  cruiseLine: "Croisières",
 };
 
 const KIND_ICON: Record<EntityKind, React.ComponentType<{ className?: string }>> = {
@@ -63,6 +65,7 @@ const KIND_ICON: Record<EntityKind, React.ComponentType<{ className?: string }>>
   serviceCategory: Wrench,
   service: Wrench,
   accommodation: Hotel,
+  cruiseLine: Anchor,
 };
 
 /**
@@ -76,6 +79,7 @@ const KIND_ORDER: EntityKind[] = [
   "continent",
   "experience",
   "accommodation",
+  "cruiseLine",
   "serviceCategory",
   "service",
   // Pas de "subtheme" : les sous-familles d'expérience sont un paramétrage

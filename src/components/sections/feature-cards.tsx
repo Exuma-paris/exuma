@@ -40,7 +40,7 @@ export type FeatureCardsSectionProps = {
   thumbnails?: {
     title: string;
     /** Sans image, la vignette garde son cadre vide. */
-    image?: { src: string; alt: string };
+    image?: { src: string; alt: string; position?: string };
     href: string;
   }[];
   /** Ligne d'annonce au-dessus de la rangée de vignettes. */
@@ -251,6 +251,11 @@ export function FeatureCardsSection({
                         fill
                         sizes="224px"
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        style={
+                          thumb.image.position
+                            ? { objectPosition: thumb.image.position }
+                            : undefined
+                        }
                       />
                     ) : null}
                   </div>

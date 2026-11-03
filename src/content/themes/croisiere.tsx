@@ -15,6 +15,24 @@ export const theme: Theme = {
   metaTitle: "Croisière d'exception sur mesure",
   metaDescription:
     "Croisière d'exception sur mesure : voilier et catamaran privatisés, croisière fluviale sur le Nil, le Mékong ou le Zambèze. Organisée par Exuma.",
+  trailingSections: [
+    {
+      type: "entityList",
+      kind: "cruiseLine",
+      eyebrow: "Les grandes maisons",
+      heading: "Croisière d'exception avec les compagnies que nous recommandons",
+      description:
+        "Quelques compagnies font de la croisière un voyage à part entière : un brise-glace vers le pôle, un voilier de cinquante-quatre suites, une goélette privatisée en Indonésie. Nous réservons la cabine et tout ce qui se passe à terre.",
+      slugs: [
+        "ponant",
+        "orient-express",
+        "aman",
+        "four-seasons-yachts",
+        "ritz-carlton-yacht-collection",
+        "scenic",
+      ],
+    },
+  ],
   sections: [
     {
       type: "hero",
@@ -42,7 +60,7 @@ export const theme: Theme = {
       type: "finalCta",
       eyebrow: "Le bateau donne sa forme au voyage",
       heading: "Dites-nous où vous voulez naviguer, nous écrirons le reste du séjour",
-      primaryCta: { label: "Créer votre voyage", href: "/votre-projet" },
+      primaryCta: { label: "Parler de votre projet de croisière", href: "/votre-projet" },
       secondaryCta: { label: "Nous écrire", href: "/nous-ecrire" },
     },
   ],

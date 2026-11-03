@@ -26,6 +26,7 @@ import type { Section } from "@/lib/destination/types";
 import { cn } from "@/lib/utils";
 import {
   accommodations,
+  cruiseLines,
   collaborateurs,
   destinations,
   experiences,
@@ -157,6 +158,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           paragraphs={section.paragraphs}
           images={section.images}
           cta={section.cta}
+          logo={section.logo}
           theme={section.theme}
           background={section.background}
         />
@@ -355,7 +357,9 @@ export function renderSection(section: Section, key: string): ReactNode {
           ? experiences
           : section.kind === "destination"
             ? destinations
-            : accommodations;
+            : section.kind === "cruiseLine"
+              ? cruiseLines
+              : accommodations;
       const cards = section.slugs
         .map((slug) => lookup[slug])
         .filter((entity) => entity !== undefined)

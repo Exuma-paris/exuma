@@ -16,7 +16,8 @@ export type EntityKind =
   | "experience"
   | "serviceCategory"
   | "service"
-  | "accommodation";
+  | "accommodation"
+  | "cruiseLine";
 
 type EntityBase = {
   slug: string;
@@ -173,6 +174,12 @@ export type Theme = EntityBase & {
    * absent.
    */
   cardImage?: ImageRef;
+  /**
+   * Sections posées après les blocs de sous-familles et avant la conclusion.
+   * Les `sections` de la page passent avant les blocs ; ce qui doit venir
+   * après eux (l'encart des compagnies sur la page Croisière) se range ici.
+   */
+  trailingSections?: Section[];
 };
 
 /**
@@ -264,6 +271,19 @@ export type Accommodation = EntityBase & {
   metaDescription?: string;
 };
 
+/**
+ * Compagnie de croisière d'exception (Ponant, Orient Express, Aman...). Une
+ * page par maison, qui présente ses navires et sa façon de naviguer, puis
+ * renvoie vers les destinations du catalogue qu'elle dessert.
+ */
+export type CruiseLine = EntityBase & {
+  heroImage?: ImageRef;
+  /** Destinations du catalogue où la compagnie navigue, dans l'ordre de la page. */
+  destinationSlugs?: string[];
+  metaTitle?: string;
+  metaDescription?: string;
+};
+
 export type Collaborateur = EntityBase & {
   role?: string;
   /**
@@ -288,6 +308,7 @@ export type EntityByKind = {
   serviceCategory: ServiceCategory;
   service: Service;
   accommodation: Accommodation;
+  cruiseLine: CruiseLine;
 };
 
 export type Tagged<K extends EntityKind = EntityKind> = {
@@ -308,6 +329,7 @@ export const entityRoute: Record<EntityKind, (slug: string) => string> = {
   serviceCategory: (s) => `/services/${s}`,
   service: (s) => `/services/${s}`,
   accommodation: (s) => `/hebergements/${s}`,
+  cruiseLine: (s) => `/croisieres/${s}`,
 };
 
 export function taggedHref(t: AnyTagged): string {

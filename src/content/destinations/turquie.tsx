@@ -4,7 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "turquie",
-  subthemeSlugs: ["sites-historiques", "voilier", "spa-thalasso"],
+  subthemeSlugs: ["lieux-de-culte", "sites-historiques", "voilier", "spa-thalasso"],
   name: "Turquie",
   placeKind: "country",
   country: "Turquie",
@@ -137,11 +137,12 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en Turquie",
       heading: "Nos expériences préférées en Turquie",
       description:
-        "Un archéologue qui ouvre Éphèse quand le site s'est vidé, un équipage qui vous emmène le long de la côte lycienne, un hammam ottoman gardé pour vous seuls. Ce sont des portes que l'on n'ouvre pas depuis un site de réservation.",
+        "Un archéologue qui ouvre Éphèse quand le site s'est vidé, un équipage qui vous emmène le long de la côte lycienne, un hammam ottoman gardé pour vous seuls. Ce sont des portes que l'on n'ouvre pas depuis un site de réservation. Sainte-Sophie et les églises de Göreme se visitent, elles, à leur heure.",
       slugs: [
         "ephese-archeologue-hors-heures",
         "goelette-privee-cote-lycienne",
         "hammam-kilic-ali-pasa-prive",
+        "sainte-sophie-eglises-goreme",
       ],
     },
 

@@ -24,6 +24,7 @@ both the input and output paths:
     --root accommodation →  references/accommodation/<slug>/→  public/accommodation/<slug>/
     --root service       →  references/service/<slug>/      →  public/service/<slug>/
     --root theme         →  references/theme/<slug>/        →  public/theme/<slug>/
+    --root cruise-line   →  references/cruise-line/<slug>/  →  public/cruise-line/<slug>/
 
 For each reference at <ref-dir>/<name>-ref.<ext>, sends the reference + the
 shared "preserve + grade" prompt to Gemini 3 Pro Image (Nano Banana Pro), and
@@ -78,6 +79,7 @@ ALLOWED_ROOTS = (
     "service",
     "theme",
     "subtheme",
+    "cruise-line",
 )
 
 EXUMA_STYLE = """Apply this Exuma photographic style:

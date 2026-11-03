@@ -4,7 +4,7 @@ export const theme: Theme = {
   slug: "plongee",
   name: "Plongée & snorkeling",
   blurb:
-    "Faire disparaître le monde du dessus. Des fonds que les autres ne voient pas.",
+    "Faire disparaître le monde du dessus. Un tombant où le bleu passe au noir en quelques mètres, une otarie qui vient tourner autour des palmes, un lagon que le masque suffit à lire. Certains fonds demandent un brevet, d'autres seulement de savoir nager.",
   intent:
     "L'intention est de faire disparaître le monde du dessus. Le texte doit donner la sensation du silence sous-marin avant même de parler du lieu.",
   keywords: ["plongee", "snorkeling", "dauphins", "raies", "recifs", "ocean"],

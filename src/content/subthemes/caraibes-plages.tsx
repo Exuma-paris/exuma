@@ -30,6 +30,12 @@ export const subtheme: Subtheme = {
       slug: "sainte-lucie",
       description:
         "Sainte-Lucie se reconnaît de loin, à ces deux montagnes qui sortent de la mer au-dessus de Soufrière. L'île est verte jusqu'au bord de l'eau, et la forêt descend si près des baies qu'on l'entend depuis le bateau. Au pied des Pitons, à Anse Chastanet, le récif commence à quelques brasses du sable.",
+      // La photo d'ouverture de la fiche montre les Pitons depuis la forêt,
+      // sans la mer : on prend la vue qui a la plage.
+      image: {
+        src: "/destination/sainte-lucie/full-image.webp",
+        alt: "L'Anse Chastanet et son récif turquoise, la forêt et les deux Pitons au fond",
+      },
     },
     {
       slug: "antigua",
@@ -53,15 +59,16 @@ export const subtheme: Subtheme = {
     {
       slug: "porto-rico",
       image: {
-        src: "/destination/porto-rico/map-culebra.webp",
-        alt: "Plage de Flamenco Beach aux eaux turquoise sur l'île de Culebra",
+        src: "/destination/porto-rico/map-dorado.webp",
+        alt: "Côte de Dorado bordée de palmiers sur la rive nord de Porto Rico",
       },
     },
     {
-      slug: "republique-dominicaine",
+      // Même vue que la fiche, sans la dominante rose du ciel.
+      slug: "panama",
       image: {
-        src: "/destination/republique-dominicaine/map-rio-san-juan.webp",
-        alt: "Plage et cocotiers près de Río San Juan, côte nord de la République dominicaine",
+        src: "/subtheme/caraibes-plages/card-panama.png",
+        alt: "Îles de l'archipel de Guna Yala au Panama vues depuis la mer",
       },
     },
   ],

@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 export type FeatureCardProps = {
   title: string;
   description: React.ReactNode;
-  image: { src: string; alt: string };
+  image: { src: string; alt: string; position?: string };
   link?: { label: string; href: string };
   /** Cadrage de l'image. Carré par défaut, comme dans le carrousel. */
   ratio?: string;
@@ -35,6 +35,7 @@ export function FeatureCard({
           fill
           sizes={sizes}
           className="object-cover"
+          style={image.position ? { objectPosition: image.position } : undefined}
         />
       </div>
       <div className="flex flex-col gap-2">
