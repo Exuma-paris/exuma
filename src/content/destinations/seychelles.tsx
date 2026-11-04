@@ -30,21 +30,21 @@ export const destination: Destination = {
       type: "hero",
       eyebrow: "Voyage de luxe aux Seychelles",
       heading:
-        "Seychelles. Le granit a ici quatre milliards d'années, et la mer s'arrête juste pour le contourner.",
+        "Seychelles. Le granit a ici sept cents millions d'années, et la mer s'arrête juste pour le contourner.",
       description:
         "Cent quinze îles, deux roches. Le granit ancien de Mahé, Praslin et La Digue, et les atolls de corail plus loin au sud. Anse Source d'Argent, la Vallée de Mai, les tortues de Curieuse : chaque île tient une promesse distincte. Nous assemblons celles qui ont une raison d'aller ensemble.",
       images: [
         {
-          src: "/destination/seychelles/hero-1.png",
+          src: "/destination/seychelles/hero-1.webp",
           alt: "Plage de granit rose et eau turquoise à Anse Source d'Argent, La Digue, Seychelles",
         },
         {
-          src: "/destination/seychelles/hero-2.png",
-          alt: "Forêt de cocotiers de la Vallée de Mai sur l'île de Praslin",
+          src: "/destination/seychelles/hero-2.webp",
+          alt: "Sentier sous les palmiers coco de mer de la Vallée de Mai sur l'île de Praslin",
         },
         {
-          src: "/destination/seychelles/hero-3.png",
-          alt: "Lagon turquoise et blocs de granit vus du ciel aux Seychelles",
+          src: "/destination/seychelles/hero-3.webp",
+          alt: "Blocs de granit, palmiers et eau turquoise vus du ciel à La Digue, aux Seychelles",
         },
       ],
     },
@@ -91,7 +91,7 @@ export const destination: Destination = {
       heading: "Deux archipels, une même eau",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
-        "Un voyage aux Seychelles commence par une question de roche. Les îles intérieures, autour de Mahé, sont en granit : des blocs arrondis, gris et roses, posés sur le sable comme s'ils avaient toujours été là. Ils ont quatre milliards d'années. C'est le plus vieux socle océanique du monde, le seul fragment de continent resté seul au milieu de l'océan Indien après la séparation de l'Inde et de Madagascar.",
+        "Un voyage aux Seychelles commence par une question de roche. Les îles intérieures, autour de Mahé, sont en granit : des blocs arrondis, gris et roses, posés sur le sable comme s'ils avaient toujours été là. Ils ont environ sept cents millions d'années. Ce sont les seules îles granitiques posées au milieu d'un océan : un fragment de continent, détaché de l'Inde il y a environ soixante-six millions d'années, resté seul au milieu de l'océan Indien.",
         "Le séjour se construit autour d'une logique de déplacement entre les îles. Mahé pour l'arrivée et le Morne Seychellois. Praslin pour la Vallée de Mai et le coco de mer, la plus grosse graine du monde végétal, classée au patrimoine mondial de l'UNESCO. La Digue pour Anse Source d'Argent, que l'on rejoint à vélo parce qu'il n'y a presque pas de voitures. Et, plus loin, Curieuse et ses tortues géantes, Cousin et ses sternes, Aride et sa flore rare. Chaque déplacement a une raison. Cette raison change la qualité de ce qu'on ressent en arrivant.",
         "« Il n'y a pas une Seychelles. Il y a celle des plages que tout le monde photographie, et celle des îles où l'on accoste à six pour la journée. Entre les deux, il y a tout le voyage. »",
       ],
@@ -100,7 +100,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/seychelles/full-image.png",
+        src: "/destination/seychelles/full-image.webp",
         alt: "Plage de sable blanc et chaos de granit d'Anse Source d'Argent aux Seychelles",
       },
       height: 600,
@@ -117,12 +117,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/seychelles/split-1.png",
-          alt: "Cycliste sur un sentier bordé de takamakas vers Anse Source d'Argent à La Digue",
+          src: "/destination/seychelles/split-1.webp",
+          alt: "Vélo à panier garé à l'ombre des takamakas, sur le chemin d'Anse Source d'Argent à La Digue",
         },
         {
-          src: "/destination/seychelles/split-2.png",
-          alt: "Couloirs d'eau peu profonde entre les blocs de granit d'Anse Source d'Argent",
+          src: "/destination/seychelles/split-2.webp",
+          alt: "Couloir d'eau turquoise peu profonde entre les blocs de granit d'Anse Source d'Argent, à marée basse",
         },
       ],
     },
@@ -147,12 +147,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/seychelles/coucher-granit-1.png",
+          src: "/destination/seychelles/coucher-granit-1.webp",
           alt: "Apéritif au champagne installé au sommet d'une colline de granit au coucher du soleil aux Seychelles",
         },
         right: {
-          src: "/destination/seychelles/coucher-granit-2.png",
-          alt: "Ciel orangé se reflétant sur le lagon depuis un chaos de granit seychellois",
+          src: "/destination/seychelles/coucher-granit-2.webp",
+          alt: "Ciel rose du coucher de soleil au-dessus d'un bloc de granit et d'une plage des Seychelles",
         },
       },
       text: {
@@ -492,7 +492,7 @@ export const destination: Destination = {
           quote:
             "Trois îles en douze jours, et l'impression de n'avoir jamais couru. Carole avait calé chaque transfert au bon moment. Le coucher de soleil sur le granit, à deux, restera notre meilleur souvenir.",
           image: {
-            src: "/destination/seychelles/hero-1.png",
+            src: "/destination/seychelles/hero-1.webp",
             alt: "Plage de granit rose et eau turquoise à Anse Source d'Argent, La Digue, Seychelles",
           },
           name: "Hélène & Thomas", // TODO: verify
@@ -503,8 +503,8 @@ export const destination: Destination = {
           quote:
             "Avec deux enfants, on redoutait la logistique. Tout était fluide, et l'éclosion des tortues les a marqués pour de bon. On a vu des choses qu'on n'aurait jamais trouvées seuls.",
           image: {
-            src: "/destination/seychelles/hero-2.png",
-            alt: "Forêt de cocotiers de la Vallée de Mai sur l'île de Praslin",
+            src: "/destination/seychelles/hero-2.webp",
+            alt: "Sentier sous les palmiers coco de mer de la Vallée de Mai sur l'île de Praslin",
           },
           name: "Famille Rivière", // TODO: verify
           role: "Séjour en famille, octobre 2025", // TODO: verify
@@ -514,8 +514,8 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a marquée, c'est la qualité de l'accompagnement. Un seul interlocuteur, du premier appel au retour. La journée sur Curieuse, avant les groupes, valait le voyage à elle seule.",
           image: {
-            src: "/destination/seychelles/hero-3.png",
-            alt: "Lagon turquoise et blocs de granit vus du ciel aux Seychelles",
+            src: "/destination/seychelles/hero-3.webp",
+            alt: "Blocs de granit, palmiers et eau turquoise vus du ciel à La Digue, aux Seychelles",
           },
           name: "Nathalie", // TODO: verify
           role: "Escapade nature, avril 2025", // TODO: verify

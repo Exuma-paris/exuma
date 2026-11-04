@@ -6,7 +6,7 @@ Références fournies par le client, déclarées libres de droit. Colonne « Sou
 
 | Output | Reference file | Source URL | License |
 | --- | --- | --- | --- |
-| `hero-1.webp` | `hero-1-ref.png` | fourni par le client | libre de droit (déclaré) |
+| `hero-1.webp` | aucune (photo utilisée telle quelle) | https://media.routard.com/image/94/2/photo.1567942.jpg | Routard : auteur et licence à confirmer |
 | `hero-2.webp` | `hero-2-ref.png` | fourni par le client | libre de droit (déclaré) |
 | `hero-3.webp` | `hero-3-ref.png` | fourni par le client | libre de droit (déclaré) |
 | `full-image.webp` | `full-image-ref.png` | fourni par le client | libre de droit (déclaré) |
@@ -24,7 +24,7 @@ Références fournies par le client, déclarées libres de droit. Colonne « Sou
 | `bento-hebergements.webp` | `bento-hebergements-ref.png` | fourni par le client | libre de droit (déclaré) |
 | `bento-conciergerie.webp` | MANQUANTE | à fournir | à fournir |
 | `bento-experiences.webp` | `bento-experiences-ref.png` | fourni par le client | libre de droit (déclaré) |
-| `map-reine.webp` | `map-reine-ref.jpg` | fourni par le client | libre de droit (déclaré) |
+| `map-reine.webp` | aucune (photo utilisée telle quelle) | https://media.routard.com/image/94/2/photo.1567942.jpg | Routard : auteur et licence à confirmer |
 | `map-sorvagen.webp` | `map-sorvagen-ref.png` | fourni par le client | libre de droit (déclaré) |
 | `map-moskenstraumen.webp` | `map-moskenstraumen-ref.png` | fourni par le client | libre de droit (déclaré) |
 | `map-geirangerfjord.webp` | `map-geirangerfjord-ref.png` | fourni par le client | libre de droit (déclaré) |

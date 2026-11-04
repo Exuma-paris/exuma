@@ -23,9 +23,10 @@ export type FeatureCardsSectionProps = {
    * "carousel" (défaut) fait défiler trois cartes à la fois : c'est le rendu
    * historique de la section. "grid" les pose toutes sur deux colonnes, sans
    * flèche et sans carte cachée. À préférer dès qu'aucune carte ne doit
-   * échapper au lecteur, typiquement sur une page d'index.
+   * échapper au lecteur, typiquement sur une page d'index. "seasons" les pose
+   * sur une seule ligne avec la frise des mois : l'année se lit d'un coup.
    */
-  layout?: "carousel" | "grid";
+  layout?: "carousel" | "grid" | "seasons";
   /**
    * Contenu libre placé dans la dernière case de la grille, après les cartes.
    * Sert à occuper la cellule laissée vide par un nombre impair de cartes,
@@ -111,7 +112,7 @@ export function FeatureCardsSection({
   const isGrid = layout === "grid";
   const scrollerRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
-  const hasControls = cards.length > 3;
+  const hasControls = layout === "carousel" && cards.length > 3;
 
   useEffect(() => {
     const el = scrollerRef.current;
@@ -195,7 +196,24 @@ export function FeatureCardsSection({
         ) : null}
       </div>
 
-      {isGrid ? (
+      {layout === "seasons" ? (
+        <ul
+          className={cn(
+            "mx-auto mt-10 grid w-full max-w-layout gap-x-6 gap-y-12 section-px md:grid-cols-2",
+            cards.length === 3 ? "lg:grid-cols-3" : "lg:grid-cols-4",
+          )}
+        >
+          {cards.map((card) => (
+            <li key={card.title}>
+              <FeatureCard
+                {...card}
+                ratio="aspect-square lg:aspect-4/5"
+                sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
+              />
+            </li>
+          ))}
+        </ul>
+      ) : isGrid ? (
         <ul className="mx-auto mt-10 grid w-full max-w-layout gap-x-6 gap-y-12 section-px md:grid-cols-2">
           {cards.map((card) => (
             <li key={card.title}>
@@ -273,7 +291,7 @@ export function FeatureCardsSection({
         </div>
       ) : null}
 
-      {hasControls && !isGrid ? (
+      {hasControls ? (
         <div className="mx-auto flex w-full max-w-layout justify-end gap-2 section-px pt-10 section-pb">
           <Button
             variant="outline"

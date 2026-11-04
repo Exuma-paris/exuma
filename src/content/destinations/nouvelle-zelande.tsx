@@ -32,18 +32,18 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe en Nouvelle-Zélande",
       heading: "La Nouvelle-Zélande, où les Alpes plongent dans le Pacifique",
       description:
-        "Deux îles séparées par un détroit de vingt-deux kilomètres, une faille alpine qui court sur plus de six cents kilomètres, quinze fjords creusés par les glaciers dans le Fiordland. Au nord, les geysers de Rotorua et les baies tièdes du Pacifique ; au sud, les Alpes et leurs glaciers qui descendent presque jusqu'à la mer.", // TODO: verify figures
+        "Deux îles séparées par un détroit de vingt-deux kilomètres, une faille alpine qui court sur plus de six cents kilomètres, quatorze fjords creusés par les glaciers dans le Fiordland. Au nord, les geysers de Rotorua et les baies tièdes du Pacifique ; au sud, les Alpes et leurs glaciers qui descendent presque jusqu'à la mer.",
       images: [
         {
-          src: "/destination/nouvelle-zelande/hero-1.png",
-          alt: "Voyage en Nouvelle-Zélande : survol du fjord de Milford Sound, dans le Fiordland",
+          src: "/destination/nouvelle-zelande/hero-1.webp",
+          alt: "Voyage en Nouvelle-Zélande : le Mitre Peak et la brume du matin sur Milford Sound, dans le Fiordland",
         },
         {
-          src: "/destination/nouvelle-zelande/hero-2.png",
-          alt: "Lac Wakatipu et les Remarkables, près de Queenstown, sur l'île du Sud",
+          src: "/destination/nouvelle-zelande/hero-2.webp",
+          alt: "Les Remarkables enneigées au-dessus du lac Wakatipu, près de Queenstown, sur l'île du Sud",
         },
         {
-          src: "/destination/nouvelle-zelande/hero-3.png",
+          src: "/destination/nouvelle-zelande/hero-3.webp",
           alt: "Eaux turquoise de la Baie des Îles, sur la côte nord-est de l'île du Nord",
         },
       ],
@@ -80,8 +80,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/nouvelle-zelande/full-image.png",
-        alt: "Voyage en Nouvelle-Zélande : le fjord de Milford Sound entouré de falaises abruptes, dans le Fiordland",
+        src: "/destination/nouvelle-zelande/full-image.webp",
+        alt: "Voyage en Nouvelle-Zélande : cascade tombant des falaises couvertes de forêt dans le fjord de Milford Sound",
       },
       height: 600,
     },
@@ -97,12 +97,12 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/nouvelle-zelande/split-1.png",
-          alt: "Lodge Blanket Bay au bord du lac Wakatipu, face aux Alpes du Sud",
+          src: "/destination/nouvelle-zelande/split-1.webp",
+          alt: "Plage blanche et eaux turquoise du lac Wakatipu près de Glenorchy, où se trouve Blanket Bay, sous les montagnes de l'île du Sud",
         },
         {
-          src: "/destination/nouvelle-zelande/split-2.png",
-          alt: "Huka Lodge au bord de la rivière Waikato, à Taupo",
+          src: "/destination/nouvelle-zelande/split-2.webp",
+          alt: "Eaux claires et turquoise de la rivière Waikato au pied de la pelouse de Huka Lodge, à Taupo",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/nouvelle-zelande/xp-milford-sound-1.png",
-          alt: "Survol en hélicoptère des Alpes du Sud, au-dessus du Fiordland",
+          src: "/destination/nouvelle-zelande/xp-milford-sound-1.webp",
+          alt: "Hélicoptère survolant le lac Wakatipu face aux Remarkables enneigées",
         },
         right: {
-          src: "/destination/nouvelle-zelande/xp-milford-sound-2.png",
-          alt: "Atterrissage sur un glacier des Alpes du Sud, en Nouvelle-Zélande",
+          src: "/destination/nouvelle-zelande/xp-milford-sound-2.webp",
+          alt: "Hélicoptère posé sur un névé entre les sommets des Alpes du Sud",
         },
       },
       text: {
@@ -124,7 +124,7 @@ export const destination: Destination = {
         heading: "Le fjord qui ferme le ciel",
         columns: [
           "L'hélicoptère décolle de Queenstown ou de Milford Sound selon le sens choisi. Il grimpe au-dessus des Remarkables, franchit la ligne de crête des Alpes du Sud, puis se pose sur un névé, entre deux sommets, à plus de deux mille mètres. Le silence qui suit l'arrêt des pales ne ressemble à aucun autre : pas de vent, pas de route, pas d'autre appareil dans le ciel.", // TODO: verify altitude
-          "La descente vers Milford Sound se fait par le fjord lui-même, entre les parois du Mitre Peak qui tombent à pic dans une eau douce en surface et salée en profondeur, un phénomène dû aux pluies constantes du Fiordland, l'une des régions les plus arrosées du monde.",
+          "La descente vers Milford Sound se fait par le fjord lui-même, au pied du Mitre Peak, entre des parois qui tombent à pic dans une eau douce en surface et salée en profondeur, un phénomène dû aux pluies constantes du Fiordland, l'une des régions les plus arrosées du monde.",
         ],
       },
     },
@@ -250,7 +250,7 @@ export const destination: Destination = {
         {
           title: "Milford Sound et le Fiordland",
           description:
-            "Le fjord le plus célèbre du pays, encadré par les parois du Mitre Peak. L'une des régions les plus arrosées du monde, ce qui donne au Fiordland ses cascades permanentes et son eau à double densité.",
+            "Le fjord le plus célèbre du pays, au pied du Mitre Peak. L'une des régions les plus arrosées du monde, ce qui donne au Fiordland ses cascades permanentes et son eau à double densité.",
           image: {
             src: "/destination/nouvelle-zelande/map-milford-sound.webp",
             alt: "Fjord de Milford Sound encadré par les falaises du Fiordland",

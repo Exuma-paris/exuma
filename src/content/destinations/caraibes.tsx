@@ -35,16 +35,16 @@ export const destination: Destination = {
         "Les Caraïbes changent de visage d'une île à l'autre. À Saint-Barthélemy, on dîne les pieds dans le sable après avoir passé la journée au mouillage. À Anguilla, les longues plages blanches restent vides jusqu'au soir. Plus au sud, dans les Grenadines, l'équipage choisit la baie du matin selon le vent qui se lève. Ce sont ces îles-là que nous vous ouvrons, une à une.",
       images: [
         {
-          src: "/destination/caraibes/hero-1.png",
-          alt: "Voyage dans les Caraïbes : goélette au mouillage devant les Tobago Cays dans les Grenadines",
+          src: "/destination/caraibes/hero-1.webp",
+          alt: "Voyage dans les Caraïbes : goélette en bois au mouillage dans le lagon des Tobago Cays, dans les Grenadines",
         },
         {
-          src: "/destination/caraibes/hero-2.png",
-          alt: "Plage de la baie des Flamands à Saint-Barthélemy en fin de journée",
+          src: "/destination/caraibes/hero-2.webp",
+          alt: "Une longue plage blanche d'Anguilla et son récif, vus du ciel",
         },
         {
-          src: "/destination/caraibes/hero-3.png",
-          alt: "Les Pitons de Sainte-Lucie vus depuis la mer au lever du jour",
+          src: "/destination/caraibes/hero-3.webp",
+          alt: "Le Petit Piton de Sainte-Lucie vu depuis la mer, une barque de pêche au premier plan",
         },
       ],
     },
@@ -81,8 +81,8 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/caraibes/full-image.png",
-        alt: "Voyage dans les Caraïbes : lagon des Tobago Cays et voiliers au mouillage vus depuis les hauteurs",
+        src: "/destination/caraibes/full-image.webp",
+        alt: "Voyage dans les Caraïbes : coucher de soleil sur les îlots des Tobago Cays et les voiliers au mouillage",
       },
       height: 600,
     },
@@ -94,16 +94,16 @@ export const destination: Destination = {
       theme: "light",
       paragraphs: [
         "En bateau privé, on part tôt le matin avec un équipage qui connaît les eaux calmes et les anses abritées. La journée alterne baignades, déjeuner sur le pont et après-midi à l'ombre, pendant que les îles défilent.",
-        "À terre, certaines plages ne sont accessibles qu'à pied ou par la mer, ce qui les garde presque désertes. On y déjeune les pieds dans le sable, autour de poissons achetés au village et grillés sur place, et l'on garde souvent la baie pour soi jusqu'au soir.",
+        "À terre, certaines plages ne sont accessibles qu'à pied ou par la mer, ce qui les garde presque désertes. On y déjeune à l'ombre d'un panier préparé à bord, et l'on garde souvent la baie pour soi jusqu'au soir.",
       ],
       images: [
         {
-          src: "/destination/caraibes/split-1.png",
-          alt: "Table dressée sur une plage déserte de Saint-Barthélemy à l'ombre des arbres",
+          src: "/destination/caraibes/split-1.webp",
+          alt: "Anse sauvage aux eaux transparentes sous les palmiers, à Mustique",
         },
         {
-          src: "/destination/caraibes/split-2.png",
-          alt: "Baignade depuis le pont d'une goélette au mouillage dans les Grenadines",
+          src: "/destination/caraibes/split-2.webp",
+          alt: "Plongeon depuis le pont d'une goélette au mouillage dans les Grenadines",
         },
       ],
     },
@@ -112,19 +112,19 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/caraibes/xp-goelette-grenadines-1.png",
-          alt: "Goélette privée sous voiles entre Bequia et Mayreau dans les Grenadines",
+          src: "/destination/caraibes/xp-goelette-grenadines-1.webp",
+          alt: "Goélette privée sous voiles entre les îles vertes des Grenadines",
         },
         right: {
-          src: "/destination/caraibes/xp-goelette-grenadines-2.png",
-          alt: "Dîner servi sur le pont d'une goélette à l'ancre dans les Tobago Cays",
+          src: "/destination/caraibes/xp-goelette-grenadines-2.webp",
+          alt: "Dîner aux chandelles sur le pont d'une goélette à l'ancre dans les Tobago Cays, à la tombée de la nuit",
         },
       },
       text: {
         eyebrow: "Notre coup de cœur",
         heading: "La goélette privée, de Bequia aux Tobago Cays",
         columns: [
-          "La goélette attend à Bequia, équipage à bord, et la journée commence par une conversation avec le capitaine plutôt que par un programme. Il propose une baie selon le vent, on accepte ou l'on préfère celle d'à côté, et l'ancre tombe là où l'eau est la plus claire. Les enfants sautent du pont avant même que le moteur ne soit coupé.",
+          "La goélette attend à Bequia, équipage à bord, et la journée commence par une conversation avec le capitaine plutôt que par un programme. Il propose une baie selon le vent, on accepte ou l'on préfère celle d'à côté, et l'ancre tombe là où l'eau est la plus claire. Les enfants sautent du pont dès que l'ancre a tenu.",
           "Aux Tobago Cays, la lumière traverse le lagon jusqu'au fond. Les tortues broutent l'herbier sans s'écarter des nageurs, un pêcheur de Mayreau vient proposer sa langouste pour le soir, et le dîner se prend sur le pont, à l'ancre, avec les feux des autres bateaux au loin. Ceux qui ont dormi une nuit ainsi en réclament presque toujours une deuxième.",
         ],
       },
@@ -150,7 +150,7 @@ export const destination: Destination = {
       kind: "accommodation",
       background: "bg-background-soft",
       eyebrow: "Hébergements",
-      heading: "Dormir face au large, ou sur une île tenue par une seule maison",
+      heading: "Dormir face au large, ou sur une île que gère une compagnie privée",
       description:
         "Une plage de Saint-Barthélemy où le personnel devance les demandes sans jamais se montrer, une baie d'Anguilla que l'on parcourt le matin sans rencontrer personne, et Mustique, où l'on ne débarque pas par hasard. Nous choisissons chaque étape pour ce que l'on ressent en ouvrant les volets.",
       slugs: [
@@ -239,7 +239,7 @@ export const destination: Destination = {
           alt: [
             "Itinéraire sur mesure dans les Caraïbes entre Saint-Barthélemy, Anguilla et les Grenadines",
             "Plage privée d'un îlot des Grenadines, transats sous la paillote et barque en bois",
-            "Hébergements dans les Caraïbes : Cheval Blanc St-Barth, Belmond Cap Juluca et Cotton House",
+            "Ponton de bois de Petit St. Vincent au coucher du soleil, dans les Grenadines",
             "Conseillère Exuma souriante, casque sur les oreilles",
             "Goélette en bois sous voiles entre les îles des Grenadines",
           ][i],
@@ -557,8 +557,8 @@ export const destination: Destination = {
           quote:
             "Nous avions prévu une semaine de bateau et nous avons demandé à prolonger dès le troisième jour. Le capitaine trouvait chaque matin une baie que nous n'aurions jamais imaginée.",
           image: {
-            src: "/destination/caraibes/hero-1.png",
-            alt: "Voyage dans les Caraïbes : goélette au mouillage devant les Tobago Cays dans les Grenadines"
+            src: "/destination/caraibes/hero-1.webp",
+            alt: "Voyage dans les Caraïbes : goélette en bois au mouillage dans le lagon des Tobago Cays, dans les Grenadines"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Navigation dans les Grenadines, 2025", // TODO: à vérifier (replace with real testimonial)
@@ -568,8 +568,8 @@ export const destination: Destination = {
           quote:
             "Nos enfants ont passé leurs journées dans l'eau et nous avons dîné le soir sans jamais penser à l'organisation. C'est la première fois que nous rentrons vraiment reposés.",
           image: {
-            src: "/destination/caraibes/hero-2.png",
-            alt: "Plage de la baie des Flamands à Saint-Barthélemy en fin de journée"
+            src: "/destination/caraibes/hero-2.webp",
+            alt: "Une longue plage blanche d'Anguilla et son récif, vus du ciel"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Saint-Barthélemy et Anguilla en famille, 2025", // TODO: à vérifier (replace with real testimonial)
@@ -579,8 +579,8 @@ export const destination: Destination = {
           quote:
             "Le pique-nique sur la plage de Colombier restera notre meilleur souvenir. Nous étions seuls à l'ombre des raisiniers, et personne n'est venu de tout l'après-midi.",
           image: {
-            src: "/destination/caraibes/hero-3.png",
-            alt: "Les Pitons de Sainte-Lucie vus depuis la mer au lever du jour"
+            src: "/destination/caraibes/hero-3.webp",
+            alt: "Le Petit Piton de Sainte-Lucie vu depuis la mer, une barque de pêche au premier plan"
           },
           name: "TODO", // TODO: replace with real testimonial
           role: "Saint-Barthélemy, 2025", // TODO: à vérifier (replace with real testimonial)

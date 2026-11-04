@@ -35,7 +35,7 @@ export const destination: Destination = {
       images: [
         {
           src: "/destination/norvege/hero-1.webp",
-          alt: "Village de Reine et sommets des Lofoten au bord de l'eau, Norvège",
+          alt: "Cabanes de pêcheurs rouges sur les rochers, au pied d'une montagne, près de Reine, Lofoten",
         },
         {
           src: "/destination/norvege/hero-2.webp",
@@ -306,7 +306,7 @@ export const destination: Destination = {
             "Le village est construit sur une étroite bande de terre entre la mer et la montagne. Le fond du fjord n'est accessible que par bateau : aucune route ne dessert les plages de Bunes et de Kjerkfjorden.",
           image: {
             src: "/destination/norvege/map-reine.webp",
-            alt: "Maisons rouges de Reine au pied des sommets du Reinefjord, Lofoten",
+            alt: "Cabanes de pêcheurs rouges sur les rochers, au pied d'une montagne, près de Reine, Lofoten",
           },
           coordinates: { lat: 67.9324, lng: 13.0887 },
         },
@@ -597,7 +597,7 @@ export const destination: Destination = {
             "Nous sommes entrés dans le Geirangerfjord à six heures du matin, seuls. Le skipper a coupé le moteur sous la cascade et personne n'a parlé pendant dix minutes. C'est la seule chose dont je parle encore au bureau.",
           image: {
             src: "/destination/norvege/hero-1.webp",
-            alt: "Village de Reine et sommets des Lofoten au bord de l'eau, Norvège",
+            alt: "Cabanes de pêcheurs rouges sur les rochers, au pied d'une montagne, près de Reine, Lofoten",
           },
           name: "Philippe", // TODO: verify
           role: "Voyage en couple, juin 2025", // TODO: verify

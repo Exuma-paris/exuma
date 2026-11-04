@@ -60,6 +60,50 @@ export const continent: Continent = {
     },
 
     {
+      type: "featureCards",
+      layout: "seasons",
+      eyebrow: "Quand partir",
+      heading: "Quand et où partir au Proche et au Moyen-Orient",
+      description:
+        "Trois moments de l'année, et la destination que nous choisirions pour chacun.",
+      cards: [
+        {
+          title: "Octobre à avril",
+          description:
+            "Mascate, les montagnes et le désert, avant les grosses chaleurs.",
+          image: {
+            src: "/destination/oman/split-2.webp",
+            alt: "Dunes de sable orange dans le désert d'Oman",
+          },
+          link: { label: "Oman", href: "/destinations/oman" },
+          months: { full: [10, 11, 12, 1, 2, 3, 4] },
+        },
+        {
+          title: "Novembre à mars",
+          description:
+            "La saison d'AlUla : journées douces, nuits fraîches, et festivals en décembre et janvier.",
+          image: {
+            src: "/destination/arabie-saoudite/xp-hegra.webp",
+            alt: "Tombeau nabatéen taillé dans le grès à Hégra",
+          },
+          link: { label: "Arabie saoudite", href: "/destinations/arabie-saoudite" },
+          months: { full: [11, 12, 1, 2, 3] },
+        },
+        {
+          title: "Mars à mai et septembre à novembre",
+          description:
+            "Pétra et le Wadi Rum sans les fortes chaleurs.",
+          image: {
+            src: "/destination/jordanie/hero-1.webp",
+            alt: "La façade du Trésor de Pétra vue depuis le Siq",
+          },
+          link: { label: "Jordanie", href: "/destinations/jordanie" },
+          months: { full: [3, 4, 5, 9, 10, 11] },
+        },
+      ],
+    },
+
+    {
       type: "finalCta",
       eyebrow: "Aller plus loin",
       heading: "Dites-nous ce que vous avez en tête",

@@ -382,7 +382,9 @@ export function renderSection(section: Section, key: string): ReactNode {
                 : (entity.blurb ?? "")),
             image: heroImage,
             withoutImage: override?.withoutImage,
+            // Fiches hôtels et expériences en cours : pas de bouton pour l'instant.
             link:
+              (section.kind === "destination" || section.kind === "cruiseLine") &&
               entity.sections.length > 0
                 ? {
                     label: "Découvrir davantage",

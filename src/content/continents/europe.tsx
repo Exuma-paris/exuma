@@ -52,13 +52,58 @@ export const continent: Continent = {
     },
 
     {
-      type: "entityList",
-      kind: "destination",
-      eyebrow: "Destinations phares",
-      heading: "Cinq entrées dans l'Europe d'Exuma",
+      type: "featureCards",
+      layout: "seasons",
+      eyebrow: "Quand partir",
+      heading: "Quand et où partir en Europe",
       description:
-        "Une île méditerranéenne, deux pays du Grand Nord, une île atlantique et un plat pays. Cinq façons d'entrer dans le continent, du maquis corse aux fjords des Lofoten.",
-      slugs: ["corse", "islande", "norvege", "madere", "pays-bas"],
+        "Quatre moments de l'année, et la destination que nous choisirions pour chacun.",
+      cards: [
+        {
+          title: "Mi-avril à fin avril",
+          description:
+            "Les tulipes à leur plus beau, au moment de Keukenhof.",
+          image: {
+            src: "/destination/pays-bas/hero-2.webp",
+            alt: "Moulin à vent au bord de l'eau, aux Pays-Bas",
+          },
+          link: { label: "Pays-Bas", href: "/destinations/pays-bas" },
+          months: { full: [], partial: [4] },
+        },
+        {
+          title: "Mai-juin et septembre",
+          description:
+            "Chaleur douce, mer agréable et sites moins fréquentés.",
+          image: {
+            src: "/destination/grece/hero-3.webp",
+            alt: "Voilier au mouillage dans une crique grecque",
+          },
+          link: { label: "Grèce", href: "/destinations/grece" },
+          months: { full: [5, 6, 9] },
+        },
+        {
+          title: "Juin à août",
+          description:
+            "Les fjords sous une lumière presque continue.",
+          image: {
+            src: "/destination/norvege/xp-geirangerfjord-1.webp",
+            alt: "Falaises et cascades du Geirangerfjord",
+          },
+          link: { label: "Norvège", href: "/destinations/norvege" },
+          months: { full: [6, 7, 8] },
+        },
+        {
+          title: "Mi-novembre à mars",
+          description:
+            "Les grottes de glace naturelles s'ouvrent selon l'état de la glace.",
+          image: {
+            src: "/destination/islande/xp-grotte-glace.webp",
+            alt: "Voyageur à l'entrée d'une grotte de glace naturelle",
+          },
+          link: { label: "Islande", href: "/destinations/islande" },
+          months: { full: [12, 1, 2, 3], partial: [11] },
+        },
+      ],
     },
 
     {

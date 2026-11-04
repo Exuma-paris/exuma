@@ -67,7 +67,7 @@ When asked to build or edit a page, lead with the existing sections — surface 
 | `textColumns` | Heading + multi-column prose, optional CTA |
 | `fullImage` | Single full-width image band |
 | `textImagesSplit` | Prose paragraphs beside a two-image stack (light/dark) |
-| `featureCards` | Grid of image cards (title/description), optional per-card link |
+| `featureCards` | Grid of image cards (title/description), optional per-card link; `layout: "seasons"` adds a month strip for « quand partir » blocks |
 | `imageDuoWithText` | Two side-by-side images paired with a text column |
 | `bento` | Bento grid of image/dark tone cards |
 | `placesMap` | Interactive map with pinned places (image + coordinates) |

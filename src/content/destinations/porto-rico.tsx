@@ -11,7 +11,7 @@ export const destination: Destination = {
   genitive: "de Porto Rico",
   projectNote:
     "L'île se lit en climats, pas en kilomètres. En une demi-journée, on passe du Vieux San Juan à la canopée d'El Yunque, puis on prend un petit avion pour Vieques.",
-  continentSlug: "ameriques",
+  continentSlug: "caraibes",
   blurb: "San Juan colonial, forêt tropicale, îles bioluminescentes",
   keywords: [
     "porto rico",

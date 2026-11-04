@@ -4,11 +4,11 @@ export const accommodation: Accommodation = {
   slug: "six-senses-la-sagesse",
   name: "Six Senses La Sagesse",
   blurb:
-    "La baie de La Sagesse, sur la côte au vent, n'accueillait rien avant 2024 : deux plages, une palmeraie, et des villas qui suivent la pente jusqu'à l'eau. On y vient pour des séjours longs, où les journées se vident d'elles-mêmes.", // TODO: verify l'année d'ouverture
+    "Sur la côte au vent, Six Senses s'est installé en 2024 dans la baie de La Sagesse : deux plages, une palmeraie, et des villas qui suivent la pente jusqu'à l'eau. On y vient pour des séjours longs, où les journées se vident d'elles-mêmes.",
   keywords: ["la-grenade", "la sagesse", "six senses", "cote au vent"],
   heroImage: {
-    src: "/destination/la-grenade/hotel-six-senses-la-sagesse.png",
-    alt: "La baie de La Sagesse et ses villas descendant vers la plage, à la Grenade",
+    src: "/destination/la-grenade/hotel-six-senses-la-sagesse.webp",
+    alt: "La piscine de Six Senses La Sagesse au crépuscule, au-dessus de la baie, à la Grenade",
   },
   destinationSlugs: ["la-grenade"],
   sections: [],
