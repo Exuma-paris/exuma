@@ -4,7 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "indonesie",
-  subthemeSlugs: ["lieux-de-culte", "trek-expedition"],
+  subthemeSlugs: ["lieux-de-culte", "trek-expedition", "retraite-yoga"],
   name: "Indonésie",
   placeKind: "country",
   country: "Indonésie",
@@ -136,14 +136,15 @@ export const destination: Destination = {
       kind: "experience",
       background: "bg-white",
       eyebrow: "Expériences et activités en Indonésie",
-      heading: "Quatre moments inscrits à l'itinéraire",
+      heading: "Cinq moments inscrits à l'itinéraire",
       description:
-        "Un volcan de Java que l'on rejoint de nuit pour arriver avant le jour, la purification sous les fontaines d'une source sacrée, la vallée de Sidemen à pied, un lagon fermé par une barrière de calcaire à l'ouest de Sumba.",
+        "Un volcan de Java que l'on rejoint de nuit pour arriver avant le jour, la purification sous les fontaines d'une source sacrée, la vallée de Sidemen à pied, un lagon fermé par une barrière de calcaire à l'ouest de Sumba, une retraite au-dessus de l'Ayung.",
       slugs: [
         "ascension-mont-bromo",
         "melukat-pura-mengening",
         "lagon-weekuri-sumba",
         "sidemen-rizieres-songket",
+        "retraite-como-shambhala-ubud",
       ],
     },
 

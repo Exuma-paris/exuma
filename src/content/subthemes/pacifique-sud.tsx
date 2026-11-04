@@ -18,5 +18,14 @@ export const subtheme: Subtheme = {
     "hawai",
     "philippines",
   ],
+  cards: [
+    {
+      slug: "hawai",
+      image: {
+        src: "/destination/hawai/full-image.webp",
+        alt: "Falaises de la côte de Na Pali et plage de Kalalau vues du ciel, Kauai",
+      },
+    },
+  ],
   sections: [],
 };

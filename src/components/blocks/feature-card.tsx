@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 export type FeatureCardProps = {
   title: string;
   description: React.ReactNode;
-  image: { src: string; alt: string };
+  image: { src: string; alt: string; position?: string };
   link?: { label: string; href: string };
   /** Frise des douze mois sous l'image : mois entiers et mois en partie. */
   months?: { full: number[]; partial?: number[] };
@@ -63,6 +63,7 @@ export function FeatureCard({
           fill
           sizes={sizes}
           className="object-cover"
+          style={image.position ? { objectPosition: image.position } : undefined}
         />
       </div>
       {months ? <MonthStrip {...months} /> : null}

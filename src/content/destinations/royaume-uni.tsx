@@ -4,7 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "royaume-uni",
-  subthemeSlugs: ["vignobles-spiritueux", "savoir-faire", "trek-expedition"],
+  subthemeSlugs: ["vignobles-spiritueux", "savoir-faire", "trek-expedition", "musees"],
   name: "Royaume-Uni",
   placeKind: "country",
   country: "Royaume-Uni",
@@ -251,7 +251,7 @@ export const destination: Destination = {
         {
           title: "Londres, Mayfair et St James's",
           description:
-            "Les places géorgiennes, les arcades de Piccadilly et les maisons de couture tiennent dans un même carré de rues. Les clubs et les tailleurs n'ont pas d'enseigne : on y entre par une porte peinte et un nom sur une plaque de cuivre.",
+            "Les places géorgiennes, les arcades de Piccadilly et les maisons de couture tiennent dans un même carré de rues. Les clubs et les tailleurs n'ont pas d'enseigne : on y entre par une porte peinte et un nom sur une plaque de cuivre. À quelques rues, la National Gallery et, plus loin, le British Museum et le Natural History Museum gardent l'entrée gratuite pour leurs collections permanentes.",
           image: {
             src: "/destination/royaume-uni/map-londres.webp",
             alt: "Rue incurvée bordée d'immeubles de brique rouge dans le centre de Londres",

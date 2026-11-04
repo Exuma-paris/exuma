@@ -1,5 +1,23 @@
 import type { ReactNode } from "react";
 
+/**
+ * Réglage d'une carte dans une liste, propre au bloc qui la montre. Une même
+ * destination n'a pas à se présenter pareil dans un bloc plages et dans un bloc
+ * randonnée : le texte et l'image s'ajustent au sujet du bloc, la fiche
+ * destination reste la même ailleurs.
+ */
+export type EntityCardOverride = {
+  slug: string;
+  description?: string;
+  image?: ImageRef;
+  /**
+   * Retire l'image de la carte quand celle de la fiche est hors sujet pour ce
+   * bloc et que la bonne n'est pas encore produite. Mieux vaut un cadre vide
+   * qu'une image qui contredit le titre.
+   */
+  withoutImage?: boolean;
+};
+
 export type ImageRef = {
   src: string;
   alt: string;
@@ -58,6 +76,8 @@ export type Section =
       paragraphs: (string | { label: string; text: string })[];
       images: [ImageRef, ImageRef] | [ImageRef];
       cta?: Cta;
+      /** Logo optionnel posé à droite du surtitre (partenaire, compagnie). */
+      logo?: ImageRef;
       theme?: "light" | "dark";
       background?: string;
     }
@@ -238,7 +258,7 @@ export type Section =
     }
   | {
       type: "entityList";
-      kind: "experience" | "accommodation" | "destination";
+      kind: "experience" | "accommodation" | "destination" | "cruiseLine";
       eyebrow?: string;
       heading: string;
       description?: string;
@@ -253,6 +273,7 @@ export type Section =
       layout?: "carousel" | "spotlight";
       /** Ligne d'annonce placée entre les encarts et les vignettes. */
       thumbnailsIntro?: string;
+      cardOverrides?: EntityCardOverride[];
       background?: string;
     }
   | {

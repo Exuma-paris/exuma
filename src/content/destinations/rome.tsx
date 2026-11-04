@@ -4,7 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "rome",
-  subthemeSlugs: ["sites-historiques", "musees", "tables-chefs"],
+  subthemeSlugs: ["lieux-de-culte", "sites-historiques", "musees", "tables-chefs"],
   name: "Rome",
   country: "Italie",
   genitive: "de Rome",
@@ -136,9 +136,10 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités à Rome",
       heading: "Ce qu'on fait, concrètement",
       description:
-        "Trois moments ancrés dans des personnes : un historien d'art, une nonna, un guide en Vespa. Aucune file d'attente, aucun groupe.",
+        "Quatre moments ancrés dans des personnes : un historien de la Renaissance, un historien d'art, une nonna, un guide en Vespa. Aucune file d'attente, aucun groupe.",
       cta: { label: "Voir l'ensemble de nos expériences", href: "/experiences" },
       slugs: [
+        "vatican-avant-ouverture",
         "galerie-borghese-prive",
         "nonna-cuisine-trastevere",
         "via-appia-vespa",

@@ -4,7 +4,7 @@ import { defaultBento } from "@/components/sections/bento";
 
 export const destination: Destination = {
   slug: "thailande",
-  subthemeSlugs: ["lieux-de-culte", "tables-chefs", "safari-terrestre"],
+  subthemeSlugs: ["lieux-de-culte", "tables-chefs", "safari-terrestre", "spa-thalasso"],
   name: "Thaïlande",
   placeKind: "country",
   country: "Thaïlande",
@@ -135,11 +135,12 @@ export const destination: Destination = {
       kind: "experience",
       background: "bg-white",
       eyebrow: "Expériences et activités en Thaïlande",
-      heading: "Trois matinées qui donnent le ton du séjour",
+      heading: "Quatre moments qui donnent le ton du séjour",
       description:
-        "Les chants des moines à Wat Pho avant l'ouverture au public, le marché puis les fourneaux de l'école Blue Elephant, la marche jusqu'à la tour d'observation de Khao Yai. Trois matinées, trois registres.",
+        "Les chants des moines à Wat Pho avant l'ouverture au public, le massage traditionnel dans un pavillon du temple, le marché puis les fourneaux de l'école Blue Elephant, la marche jusqu'à la tour d'observation de Khao Yai. Quatre moments, quatre registres.",
       slugs: [
         "wat-pho-chants-moines",
+        "massage-traditionnel-wat-pho",
         "cours-cuisine-blue-elephant",
         "khao-yai-heow-suwat",
       ],

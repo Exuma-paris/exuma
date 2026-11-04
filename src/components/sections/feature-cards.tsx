@@ -38,7 +38,12 @@ export type FeatureCardsSectionProps = {
    * sous le même titre. Sert la suite d'une liste dont les premières entrées
    * ont droit au grand format : image, nom, et c'est tout.
    */
-  thumbnails?: { title: string; image: { src: string; alt: string }; href: string }[];
+  thumbnails?: {
+    title: string;
+    /** Sans image, la vignette garde son cadre vide. */
+    image?: { src: string; alt: string; position?: string };
+    href: string;
+  }[];
   /** Ligne d'annonce au-dessus de la rangée de vignettes. */
   thumbnailsIntro?: string;
   background?: string;
@@ -257,13 +262,20 @@ export function FeatureCardsSection({
               <li key={thumb.title} className="w-44 shrink-0 md:w-56">
                 <Link href={thumb.href} className="group block">
                   <div className="relative aspect-3/2 w-full overflow-hidden bg-muted">
-                    <Image
-                      src={thumb.image.src}
-                      alt={thumb.image.alt}
-                      fill
-                      sizes="224px"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
+                    {thumb.image ? (
+                      <Image
+                        src={thumb.image.src}
+                        alt={thumb.image.alt}
+                        fill
+                        sizes="224px"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        style={
+                          thumb.image.position
+                            ? { objectPosition: thumb.image.position }
+                            : undefined
+                        }
+                      />
+                    ) : null}
                   </div>
                   <p className="mt-2 text-[13px] text-secondary-foreground transition-colors group-hover:text-foreground">
                     {thumb.title}

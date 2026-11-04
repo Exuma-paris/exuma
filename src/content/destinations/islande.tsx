@@ -2,7 +2,7 @@ import type { Destination } from "@/lib/content/types";
 
 export const destination: Destination = {
   slug: "islande",
-  subthemeSlugs: ["trek-expedition", "safari-marin"],
+  subthemeSlugs: ["trek-expedition", "safari-marin", "cure-thermale"],
   name: "Islande",
   country: "Islande",
   genitive: "de l'Islande",

@@ -45,11 +45,12 @@ export default async function Page({
   }
 
   const [hero, ...rest] = applyBackgroundRhythm(accommodation.sections);
+  const headerTheme = hero?.type === "heroImageBackground" ? "dark" : "light";
 
   return (
     <main className="flex-1">
       <div className="relative">
-        <Header />
+        <Header theme={headerTheme} />
         {hero && renderSection(hero, "hero")}
       </div>
       {rest.map((section, i) => renderSection(section, String(i + 1)))}

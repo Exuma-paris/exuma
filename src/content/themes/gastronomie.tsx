@@ -4,7 +4,7 @@ export const theme: Theme = {
   slug: "gastronomie",
   name: "Gastronomie & art de vivre",
   blurb:
-    "On ne parle pas de restaurant, on parle de portes qui s'ouvrent. Manger quelque part, c'est comprendre cet endroit.",
+    "Un kaiseki dans une maison de thé de Gion, un chai d'Islay qui sent la tourbe mouillée, un verrier du Småland devant son four. Manger ou goûter quelque part, c'est comprendre cet endroit, à condition de savoir à quelle porte frapper.",
   intent:
     "On ne parle pas de restaurant, on parle de portes qui s'ouvrent. La table d'un vigneron qui ne reçoit pas, un chef qui cuisine pour douze le vendredi soir.",
   keywords: ["gastronomie", "vin", "chef", "epicurien", "art de vivre", "vigneron"],

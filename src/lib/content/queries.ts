@@ -201,6 +201,8 @@ export function getSubthemesByTheme(themeSlug: string): Subtheme[] {
 
 /** Un bloc ne sort que s'il porte au moins ce nombre de destinations. */
 const MIN_DESTINATIONS_PER_BLOCK = 3;
+/** Quatre grandes cartes, puis huit vignettes au plus. L'ordre décide qui reste. */
+const MAX_CARDS_PER_BLOCK = 12;
 /**
  * Les sous-familles d'une destination qui comptent pour l'affichage : une seule
  * par famille, la première de la liste ordonnée. Les Maldives portent
@@ -268,7 +270,7 @@ export function getThemeBlocks(themeSlug: string): Section[] {
         return byDominance !== 0 ? byDominance : a.name.localeCompare(b.name);
       })
       .map((d) => d.slug);
-    const ordered = [...featured, ...rest];
+    const ordered = [...featured, ...rest].slice(0, MAX_CARDS_PER_BLOCK);
     const background = blockIndex % 2 === 0 ? "bg-white" : "bg-background-soft";
 
     // Le chapô de la page sépare le hero du premier bloc, donc le bandeau vaut
@@ -284,6 +286,7 @@ export function getThemeBlocks(themeSlug: string): Section[] {
       description: typeof subtheme.blurb === "string" ? subtheme.blurb : undefined,
       layout: "spotlight",
       thumbnailsIntro: subtheme.thumbnailsIntro,
+      cardOverrides: subtheme.cards,
       slugs: ordered,
       background,
     });

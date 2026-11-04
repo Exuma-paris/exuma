@@ -4,7 +4,7 @@ export const theme: Theme = {
   slug: "culture-visites",
   name: "Culture, visites & patrimoine",
   blurb:
-    "On ne visite pas, on comprend. L'accès humain : le conservateur qui ouvre sa réserve, le village que les guides ne mentionnent pas.",
+    "Un archéologue qui ouvre une maison fermée à Pompéi, un conservateur seul devant la Ronde de nuit, un lama dans une chapelle de Punakha. Le même lieu ne dit pas la même chose à sept heures et à onze : ici, on choisit l'heure et la personne qui vous reçoit.",
   intent:
     "On ne visite pas, on comprend. L'intention est de mettre en avant l'accès humain. Ce n'est jamais un cours d'histoire, c'est toujours une rencontre.",
   keywords: ["culture", "patrimoine", "musee", "histoire", "rencontre", "conservateur"],

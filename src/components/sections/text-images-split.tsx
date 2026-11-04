@@ -16,6 +16,8 @@ export type TextImagesSplitSectionProps = {
     | [{ src: string; alt: string }];
   /** Optional link under the paragraphs. */
   cta?: { label: string; href: string };
+  /** Logo posé à droite du surtitre (partenaire, compagnie). */
+  logo?: { src: string; alt: string };
   theme?: "light" | "dark";
   background?: string;
 };
@@ -64,6 +66,7 @@ export function TextImagesSplitSection({
   paragraphs,
   images,
   cta,
+  logo,
   theme = "light",
   background,
 }: TextImagesSplitSectionProps) {
@@ -117,13 +120,26 @@ export function TextImagesSplitSection({
         )}
 
         <div className="flex flex-col gap-6">
-          <TextBlock
-            align="left"
-            eyebrow={eyebrow}
-            eyebrowTone={isDark ? "background" : "primary"}
-            heading={heading}
-            headingLevel="h2"
-          />
+          {/* Le logo tient sur la ligne du surtitre : posé à côté du titre, un logo
+              large réduirait le titre à une colonne étroite. */}
+          <div className="relative flex flex-col items-start gap-6">
+            <TextBlock
+              align="left"
+              eyebrow={eyebrow}
+              eyebrowTone={isDark ? "background" : "primary"}
+              heading={heading}
+              headingLevel="h2"
+            />
+            {logo ? (
+              <Image
+                src={logo.src}
+                alt={logo.alt}
+                width={300}
+                height={64}
+                className="h-7 w-auto md:absolute md:top-0 md:right-0"
+              />
+            ) : null}
+          </div>
           <div
             className={cn(
               "flex flex-col items-start gap-6",
