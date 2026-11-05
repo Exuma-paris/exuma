@@ -28,39 +28,28 @@ function useProjectCta(): { label: string; href: string } {
   const href = useProjectHref();
   if (/^\/professionnels(\/|$)/.test(pathname)) {
     return {
-      label: "Nous confier vos déplacements",
+      label: "Confiez-nous vos déplacements",
       href: "/professionnels/contact",
     };
   }
   if (pathname === "/" || HOUSE_PAGES.test(pathname)) {
-    return { label: "Nous confier votre voyage", href };
+    return { label: "Confiez-nous votre projet", href };
   }
   return { label: "Créer votre voyage", href };
 }
 
 /** Le bouton complet, libellé compris, pour les blocs présents sur tout le site. */
-export function ContextualProjectCta({ className }: { className?: string }) {
-  const { label, href } = useProjectCta();
-  return (
-    <Link href={href} className={className}>
-      {label}
-    </Link>
-  );
-}
-
-export function ProjectCtaLink({
+export function ContextualProjectCta({
   className,
   onClick,
-  children,
 }: {
   className?: string;
   onClick?: () => void;
-  children: React.ReactNode;
 }) {
-  const href = useProjectHref();
+  const { label, href } = useProjectCta();
   return (
     <Link href={href} onClick={onClick} className={className}>
-      {children}
+      {label}
     </Link>
   );
 }

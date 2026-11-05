@@ -5,6 +5,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Recommended } from "@/components/blocks/recommended";
 import { DestinationFinder } from "@/components/blocks/destination-finder";
+import { Fingerprint } from "@/components/blocks/fingerprint";
 import { TextBlock } from "@/components/blocks/text-block";
 import { getDestinationFinderIndex } from "@/lib/content/destination-finder";
 import { BentoSection } from "@/components/sections/bento";
@@ -48,7 +49,7 @@ export default function Home() {
               sur les pages Professionnels et Expérience. */}
           <Header theme="dark" />
           <HeroImageBackground
-            eyebrow="Maison de conseils privée · depuis 1991"
+            eyebrow="Maison de conseils privée dédiée aux déplacements · depuis 1991"
             // Copie volontaire de l'image de Madère plutôt qu'un lien vers
             // /destination/madere/ : ré-illustrer la page destination ne doit
             // pas changer la première image du site.
@@ -58,8 +59,8 @@ export default function Home() {
                 alt: "Une famille sur un promontoire de Madère, au-dessus d'une mer de nuages",
               },
             ]}
-            heading="Votre voyage sur mesure. Nous nous occupons de tout."
-            description="Voyages privés et déplacements professionnels : un interlocuteur de référence, toujours le même."
+            heading={"Exprimez votre besoin, votre envie.\nNous gérons le reste."}
+            description="Déplacements privés ou professionnels : un interlocuteur de référence, toujours le même."
             cta={
               <div className="flex flex-col items-center gap-5">
                 <div className="flex flex-wrap items-center justify-center gap-3">
@@ -67,7 +68,7 @@ export default function Home() {
                     href="/votre-projet"
                     className={cn(buttonVariants({ variant: "secondary" }))}
                   >
-                    Nous confier votre voyage
+                    Confiez-nous votre projet
                   </Link>
                   <Link
                     href="/contact"
@@ -110,18 +111,22 @@ export default function Home() {
           </section>
         </div>
         {/* Le visiteur vient de voir qu'on peut l'emmener où il veut : ce bloc
-            lui dit pourquoi nous confier ce voyage plutôt qu'à une agence. */}
-        <TextColumnsSection
-          background={bg.metier}
-          eyebrow="Notre métier"
-          heading="Prendre en charge. Entièrement."
-          cta={{ label: "Pourquoi Exuma", href: "/approche" }}
-          columns={[
-            "Nous sommes une maison de conseils privée : nous pensons vos déplacements au quotidien, quelles que soient leur taille et leur destination. **Un aller-retour en train compte autant qu'un tour du monde.**",
-            "Vous gardez un interlocuteur de référence, toujours le même, qui connaît vos habitudes et vos contraintes. Quand un besoin appelle une autre expertise, nos équipes s'organisent sans que vous ayez à tout réexpliquer.",
-            "**Nous disons non quand c'est la bonne réponse.** Nous vous proposons ce qui vous correspond, pas ce qui est attendu, et nous vous disons franchement quand d'autres sont mieux placés que nous.",
-          ]}
-        />
+            lui dit pourquoi nous confier cela plutôt qu'à une agence. Deux
+            colonnes seulement : l'empreinte de la marque occupe la troisième,
+            comme sur Pourquoi Exuma. */}
+        <div className="relative overflow-hidden [&_h2]:text-balance">
+          <TextColumnsSection
+            background={bg.metier}
+            eyebrow="Notre conviction"
+            heading="Quand tout se passe bien, vous ne pensez pas à nous."
+            cta={{ label: "Pourquoi Exuma", href: "/approche" }}
+            columns={[
+              "**Un aller-retour en train compte autant qu'un tour du monde.** Nous sommes une maison de conseils privée : nous prenons en charge vos déplacements, entièrement et durablement. Votre interlocuteur de référence, toujours le même, connaît vos habitudes, vos contraintes, vos silences, et ce que vous nous confiez reste entre nous.",
+              "**Nous disons non quand c'est la bonne réponse.** Nous proposons ce qui vous correspond, pas ce qui est attendu, et nous vous disons franchement quand d'autres sont mieux placés que nous. Un partenaire qui dit oui à tout n'est pas un partenaire, c'est un fournisseur.",
+            ]}
+          />
+          <Fingerprint />
+        </div>
         <BentoSection
           background={bg.services}
           eyebrow="Conciergerie"
@@ -169,7 +174,7 @@ export default function Home() {
           background={bg.themes}
           eyebrow="Expériences"
           heading="Par envie plutôt que par destination"
-          cta={{ label: "Nous confier votre voyage", href: "/votre-projet" }}
+          cta={{ label: "Confiez-nous votre projet", href: "/votre-projet" }}
           cards={getThemeCards()}
         />
         <VideoSection
@@ -193,7 +198,7 @@ export default function Home() {
           background={bg.designers}
           eyebrow="Travel designers"
           heading="Celles et ceux qui s'en occupent"
-          cta={{ label: "Nous confier votre voyage", href: "/votre-projet" }}
+          cta={{ label: "Confiez-nous votre projet", href: "/votre-projet" }}
           // Noms, rôles, portraits et verbatims viennent des fiches
           // collaborateurs : la page ne fait que choisir qui apparaît.
           testimonials={getTravelDesignerTestimonials([

@@ -96,8 +96,10 @@ export function HeroImageBackground({
           paragraph={description}
           cta={cta}
           // Répartit le titre sur ses lignes : un titre court laissait sinon
-          // un dernier mot seul sur la seconde.
-          className="[&_h1]:text-balance"
+          // un dernier mot seul sur la seconde. Un saut de ligne écrit dans le
+          // titre ne compte qu'à partir de la tablette : sur mobile, la ligne
+          // est trop étroite pour le respecter.
+          className="[&_h1]:text-balance md:[&_h1]:whitespace-pre-line"
         />
       </div>
 
