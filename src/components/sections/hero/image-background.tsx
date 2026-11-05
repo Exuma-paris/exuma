@@ -95,6 +95,9 @@ export function HeroImageBackground({
           headingLevel="h1"
           paragraph={description}
           cta={cta}
+          // Répartit le titre sur ses lignes : un titre court laissait sinon
+          // un dernier mot seul sur la seconde.
+          className="[&_h1]:text-balance"
         />
       </div>
 

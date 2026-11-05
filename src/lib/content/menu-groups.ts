@@ -63,7 +63,7 @@ export function getMenuGroups(): MenuGroup[] {
     },
     {
       key: "conciergerie",
-      label: "Conciergerie",
+      label: "Services & conciergerie",
       intro: {
         text: "Ce qui réussit un voyage tient rarement à l'itinéraire, mais à tout ce qui l'entoure. Nos pôles de services couvrent ce périmètre, de la préparation au retour.",
         cta: { label: "Voir tous nos services", href: "/services" },
@@ -77,7 +77,7 @@ export function getMenuGroups(): MenuGroup[] {
     },
     {
       key: "agence",
-      label: "Exuma",
+      label: "La maison",
       items: companyLinks,
     },
   ];

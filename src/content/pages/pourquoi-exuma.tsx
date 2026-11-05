@@ -199,7 +199,7 @@ export const sections: Section[] = [
           src: "/service/pourquoi-exuma/couple-diner.png",
           alt: "Un couple âgé déjeune face à la baie vitrée, avec vue sur Notre-Dame et la Seine",
         },
-        link: { label: "Créer votre voyage", href: "/votre-projet" },
+        link: { label: "Nous confier votre voyage", href: "/votre-projet" },
       },
       {
         title: "Les familles",
@@ -209,7 +209,7 @@ export const sections: Section[] = [
           src: "/home-hero.png",
           alt: "Une famille au-dessus d'une mer de nuages, sur un belvédère",
         },
-        link: { label: "Créer votre voyage", href: "/votre-projet" },
+        link: { label: "Nous confier votre voyage", href: "/votre-projet" },
       },
       {
         title: "Les family offices et les assistantes",

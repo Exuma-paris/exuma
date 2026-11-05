@@ -324,7 +324,7 @@ export const sections: Section[] = [
           src: "/theme/culture-visites/hero-1.png",
           alt: "Un couple et leur guide, de dos, seuls sur le chemin de ronde d'une muraille",
         },
-        link: { label: "Créer votre voyage", href: "/votre-projet" },
+        link: { label: "Nous confier votre voyage", href: "/votre-projet" },
       },
       {
         title: "La conciergerie",
