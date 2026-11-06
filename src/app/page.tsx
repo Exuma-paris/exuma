@@ -5,6 +5,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Recommended } from "@/components/blocks/recommended";
 import { DestinationFinder } from "@/components/blocks/destination-finder";
+import { Fingerprint } from "@/components/blocks/fingerprint";
 import { TextBlock } from "@/components/blocks/text-block";
 import { getDestinationFinderIndex } from "@/lib/content/destination-finder";
 import { BentoSection } from "@/components/sections/bento";
@@ -17,6 +18,7 @@ import {
 import { VideoSection } from "@/components/sections/video";
 import { FaqSection } from "@/components/sections/faq";
 import { TestimonialsSection } from "@/components/sections/testimonials";
+import { TextColumnsSection } from "@/components/sections/text-columns";
 import { TextImagesSplitSection } from "@/components/sections/text-images-split";
 import { createBackgroundRhythm } from "@/lib/content/background-rhythm";
 
@@ -31,6 +33,7 @@ export default function Home() {
   const bg = {
     recommended: rhythm.next(),
     finder: rhythm.next(),
+    metier: rhythm.next(),
     services: rhythm.next(),
     themes: rhythm.next(),
     video: rhythm.next(),
@@ -46,7 +49,7 @@ export default function Home() {
               sur les pages Professionnels et Expérience. */}
           <Header theme="dark" />
           <HeroImageBackground
-            eyebrow="Maison de conseils privée · depuis 1991"
+            eyebrow="Maison de conseils privée dédiée aux déplacements · depuis 1991"
             // Copie volontaire de l'image de Madère plutôt qu'un lien vers
             // /destination/madere/ : ré-illustrer la page destination ne doit
             // pas changer la première image du site.
@@ -56,21 +59,32 @@ export default function Home() {
                 alt: "Une famille sur un promontoire de Madère, au-dessus d'une mer de nuages",
               },
             ]}
-            heading="Vous choisissez la destination. Nous nous occupons du reste."
-            description="Un interlocuteur unique vous accompagne à chaque étape de votre voyage."
+            heading={"Exprimez votre besoin, votre envie.\nNous gérons le reste."}
+            description="Déplacements privés ou professionnels : un interlocuteur de référence, toujours le même."
             cta={
-              <div className="flex flex-wrap items-center justify-center gap-3">
+              <div className="flex flex-col items-center gap-5">
+                <div className="flex flex-wrap items-center justify-center gap-3">
+                  <Link
+                    href="/votre-projet"
+                    className={cn(buttonVariants({ variant: "secondary" }))}
+                  >
+                    Confiez-nous votre projet
+                  </Link>
+                  <Link
+                    href="/contact"
+                    className={cn(buttonVariants({ variant: "outline" }))}
+                  >
+                    Parler à un conseiller
+                  </Link>
+                </div>
+                {/* La porte des professionnels, dès le premier écran : ils
+                    n'ont pas à traverser le contenu grand public pour la
+                    trouver. */}
                 <Link
-                  href="/votre-projet"
-                  className={cn(buttonVariants({ variant: "secondary" }))}
+                  href="/professionnels"
+                  className="text-[13px] tracking-wide underline underline-offset-4 transition-opacity hover:opacity-70"
                 >
-                  Créer votre voyage
-                </Link>
-                <Link
-                  href="/contact"
-                  className={cn(buttonVariants({ variant: "outline" }))}
-                >
-                  Parler à un travel designer
+                  Entreprises et family offices : votre espace dédié
                 </Link>
               </div>
             }
@@ -95,6 +109,23 @@ export default function Home() {
             </div>
             <DestinationFinder entries={finderEntries} />
           </section>
+        </div>
+        {/* Le visiteur vient de voir qu'on peut l'emmener où il veut : ce bloc
+            lui dit pourquoi nous confier cela plutôt qu'à une agence. Deux
+            colonnes seulement : l'empreinte de la marque occupe la troisième,
+            comme sur Pourquoi Exuma. */}
+        <div className="relative overflow-hidden [&_h2]:text-balance">
+          <TextColumnsSection
+            background={bg.metier}
+            eyebrow="Notre conviction"
+            heading="Quand tout se passe bien, vous ne pensez pas à nous."
+            cta={{ label: "Pourquoi Exuma", href: "/approche" }}
+            columns={[
+              "**Un aller-retour en train compte autant qu'un tour du monde.** Nous sommes une maison de conseils privée : nous prenons en charge vos déplacements, entièrement et durablement. Votre interlocuteur de référence, toujours le même, connaît vos habitudes, vos contraintes, vos silences, et ce que vous nous confiez reste entre nous.",
+              "**Nous disons non quand c'est la bonne réponse.** Nous proposons ce qui vous correspond, pas ce qui est attendu, et nous vous disons franchement quand d'autres sont mieux placés que nous. Un partenaire qui dit oui à tout n'est pas un partenaire, c'est un fournisseur.",
+            ]}
+          />
+          <Fingerprint />
         </div>
         <BentoSection
           background={bg.services}
@@ -127,7 +158,7 @@ export default function Home() {
           images={[
             {
               src: "/professionnels/family-offices/poste-travail.jpg",
-              alt: "Un conseiller Exuma à son poste de travail, dans les bureaux de l'agence",
+              alt: "Un conseiller Exuma à son poste de travail, dans les bureaux d'Exuma",
             },
             {
               src: "/professionnels/family-offices/temoignage-conseillers.jpg",
@@ -143,7 +174,7 @@ export default function Home() {
           background={bg.themes}
           eyebrow="Expériences"
           heading="Par envie plutôt que par destination"
-          cta={{ label: "Créer votre voyage", href: "/votre-projet" }}
+          cta={{ label: "Confiez-nous votre projet", href: "/votre-projet" }}
           cards={getThemeCards()}
         />
         <VideoSection
@@ -167,7 +198,7 @@ export default function Home() {
           background={bg.designers}
           eyebrow="Travel designers"
           heading="Celles et ceux qui s'en occupent"
-          cta={{ label: "Créer votre voyage", href: "/votre-projet" }}
+          cta={{ label: "Confiez-nous votre projet", href: "/votre-projet" }}
           // Noms, rôles, portraits et verbatims viennent des fiches
           // collaborateurs : la page ne fait que choisir qui apparaît.
           testimonials={getTravelDesignerTestimonials([
@@ -186,6 +217,11 @@ export default function Home() {
             suffix: ", nous répondons nous-mêmes.",
           }}
           items={[
+            {
+              question: "Êtes-vous une agence de voyage ?",
+              answer:
+                "Oui sur le plan légal : Exuma est membre des Entreprises du Voyage et accréditée IATA, avec les garanties qui vont avec. Mais notre métier va plus loin. Nous sommes une maison de conseils privée : un interlocuteur de référence prend en charge vos voyages et vos déplacements, de la première idée au retour.",
+            },
             {
               question: "Comment se passe un premier échange ?",
               answer:

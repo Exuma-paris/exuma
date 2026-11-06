@@ -11,9 +11,9 @@ export function HeroImageBottom({
   // Fallbacks only : ce gabarit ne sert plus qu'à l'aperçu du design system,
   // la home étant passée au hero plein cadre. La copie reste alignée sur le
   // positionnement pour que l'aperçu ne montre pas un discours périmé.
-  eyebrow = "Conciergerie de voyage · depuis 1991",
-  heading = "Vous choisissez la destination. Nous nous occupons du reste.",
-  paragraph = "Un interlocuteur unique vous accompagne à chaque étape de votre voyage.",
+  eyebrow = "Maison de conseils privée dédiée aux déplacements · depuis 1991",
+  heading = "Exprimez votre besoin, votre envie. Nous gérons le reste.",
+  paragraph = "Déplacements privés ou professionnels : un interlocuteur de référence, toujours le même.",
   image = {
     src: "/hero.jpg",
     alt: "Paysage de Bora Bora avec lagon turquoise et bungalows sur pilotis",

@@ -76,7 +76,7 @@ export const serviceCategory: ServiceCategory = {
         "Nous les tenons ensemble. Si un vol bouge, nous savons immédiatement ce qui tombe derrière : le transfert, la première nuit, la visite du lendemain matin. Vous n'avez pas à faire ce raisonnement, et surtout pas à le faire dans l'urgence.",
         "Et vous n'avez qu'un interlocuteur, qu'un dossier et qu'une facture. Ce que vous auriez passé plusieurs soirées à assembler tient dans un échange, puis dans un document que vous recevez avant de partir.",
       ],
-      cta: { label: "Nous confier votre prochain voyage", href: "/contact" },
+      cta: { label: "Confiez-nous votre projet", href: "/contact" },
     },
 
     {

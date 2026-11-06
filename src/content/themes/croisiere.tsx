@@ -4,7 +4,7 @@ export const theme: Theme = {
   slug: "croisiere",
   name: "Croisière d'exception",
   blurb:
-    "La mer prise au sérieux. Un petit navire, peu de monde, des escales que personne ne fait.",
+    "Un brise-glace vers le pôle, un voilier de cinquante-quatre suites, une goélette privatisée en Indonésie. Peu de monde à bord, des escales que personne ne fait : ici, la mer se prend au sérieux, et nous réservons la cabine comme tout ce qui se passe à terre.",
   intent:
     "Rien à voir avec la croisière de masse. La mer prise au sérieux, un petit navire, peu de monde. Le ton est lent et souverain.",
   keywords: ["croisiere", "yacht", "voilier", "mer", "navigation", "escales"],
