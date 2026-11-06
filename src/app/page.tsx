@@ -56,14 +56,16 @@ export default function Home() {
                 alt: "Une famille sur un promontoire de Madère, au-dessus d'une mer de nuages",
               },
             ]}
-            heading="Vous choisissez la destination. Nous nous occupons du reste."
+            heading={"Vous choisissez la destination.\nNous nous occupons du reste."}
             description="Un interlocuteur unique vous accompagne à chaque étape de votre voyage."
             cta={
               <div className="flex flex-wrap items-center justify-center gap-3">
+                {/* Le hero est en thème sombre : `bg-foreground text-background`
+                    y donne le bouton blanc à texte sombre de la landing. */}
                 <Link
                   href="/votre-projet"
                   data-event-id="home-hero-create"
-                  className={cn(buttonVariants({ variant: "secondary" }))}
+                  className={cn(buttonVariants(), "bg-foreground text-background")}
                 >
                   Créer votre voyage
                 </Link>

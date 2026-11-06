@@ -72,7 +72,10 @@ export function TextBlock({
             {eyebrow}
           </p>
         ) : null}
-        <Heading className={`text-${sizeToken} max-w-180`}>
+        {/* `whitespace-pre-line` : un « \n » dans le titre force un retour à
+            la ligne voulu (« …la destination. / Nous nous occupons… »), sans
+            rien changer aux titres qui n'en ont pas. */}
+        <Heading className={`text-${sizeToken} max-w-180 whitespace-pre-line`}>
           {heading}
         </Heading>
         {paragraph ? (
