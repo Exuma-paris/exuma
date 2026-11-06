@@ -553,7 +553,7 @@ export const destination: Destination = {
             src: "/destination/kenya/hero-1.png",
             alt: "Troupeau de gnous traversant la rivière Mara au Kenya au moment de la Grande Migration"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Safari Kenya, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -564,7 +564,7 @@ export const destination: Destination = {
             src: "/destination/kenya/hero-2.png",
             alt: "Femmes Masaï en tenue traditionnelle dans les plaines de la savane kenyane"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Kenya Masaï Mara et côte, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -575,7 +575,7 @@ export const destination: Destination = {
             src: "/destination/kenya/hero-3.png",
             alt: "Plage de sable blanc de Galu Beach sur la côte sud du Kenya"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Kenya Culture et Safari, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

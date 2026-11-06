@@ -556,7 +556,7 @@ export const destination: Destination = {
             src: "/destination/philippines/hero-1.webp",
             alt: "Lagon fermé de la baie de Bacuit à El Nido, au nord de Palawan, aux Philippines"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Philippines, Palawan et Coron, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -567,7 +567,7 @@ export const destination: Destination = {
             src: "/destination/philippines/hero-2.webp",
             alt: "Îlot de sable blanc cerné d'eau turquoise, un bateau à balancier au mouillage"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Philippines en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -578,7 +578,7 @@ export const destination: Destination = {
             src: "/destination/philippines/hero-3.webp",
             alt: "Rizières en terrasses des Ifugao au premier soleil, une hutte de chaume posée entre les paliers"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Philippines, Palawan et Cordillère, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

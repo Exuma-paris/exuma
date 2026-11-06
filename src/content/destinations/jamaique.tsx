@@ -580,7 +580,7 @@ export const destination: Destination = {
             src: "/destination/jamaique/hero-1.webp",
             alt: "Voyage en Jamaïque : cocotiers en bord de plage devant les collines boisées"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Portland et Blue Mountains, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -591,7 +591,7 @@ export const destination: Destination = {
             src: "/destination/jamaique/hero-2.webp",
             alt: "Eaux turquoise d'une rivière bordée de végétation dense, côte est de la Jamaïque"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Jamaïque en famille, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -602,7 +602,7 @@ export const destination: Destination = {
             src: "/destination/jamaique/hero-3.webp",
             alt: "Façade de pierre à arcades d'une ancienne demeure coloniale jamaïcaine"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Blue Mountains et côte sud, mars 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

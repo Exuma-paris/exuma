@@ -340,7 +340,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Carte d&apos;identité ou passeport en cours de validité.
+                {/* TODO: à vérifier */}
+                Carte d&apos;identité ou passeport en cours de validité.
                 Permis de conduire si vous louez un véhicule (recommandé pour
                 rejoindre le Durmitor).
               </p>
@@ -350,7 +351,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">L&apos;essentiel :</h4>
               <p>
-                TODO: Tenue légère pour la côte, chaussures de marche et
+                {/* TODO: à vérifier */}
+                Tenue légère pour la côte, chaussures de marche et
                 lainage pour les soirées en altitude. Crème solaire haute
                 protection, maillot de bain pour la baie.
               </p>
@@ -372,7 +374,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Aucun vaccin obligatoire. Vaccinations universelles à
+                {/* TODO: à vérifier */}
+                Aucun vaccin obligatoire. Vaccinations universelles à
                 jour. Numéro d&apos;urgence européen (112) actif dans tout le
                 pays.
               </p>
@@ -398,7 +401,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: La période recommandée par notre équipe : mai-juin et
+                {/* TODO: à vérifier */}
+                La période recommandée par notre équipe : mai-juin et
                 septembre-mi-octobre. Mer entre 22 °C et 25 °C, cols du
                 Durmitor dégagés, fréquentation modérée.
               </p>
@@ -409,7 +413,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
-                TODO: Le Durmitor reste enneigé jusqu&apos;en mai sur les
+                {/* TODO: à vérifier */}
+                Le Durmitor reste enneigé jusqu&apos;en mai sur les
                 sommets ; certains cols ne sont praticables qu&apos;à partir
                 de juin.
               </p>
@@ -425,7 +430,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Euro. Paiement par carte largement accepté sur la côte,
+                {/* TODO: à vérifier */}
+                Euro. Paiement par carte largement accepté sur la côte,
                 espèces plus utiles dans l&apos;arrière-pays. Pourboire non
                 obligatoire mais apprécié (5–10 % en restaurant).
               </p>
@@ -451,7 +457,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Deux heures suffisent pour traverser le pays d&apos;est
+                {/* TODO: à vérifier */}
+                Deux heures suffisent pour traverser le pays d&apos;est
                 en ouest. La route du canyon de la Tara compte de nombreux
                 virages en épingle, un chauffeur local change l&apos;expérience.
               </p>
@@ -476,7 +483,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Départ conseillé tôt le matin, avant les bateaux-taxis
+                {/* TODO: à vérifier */}
+                Départ conseillé tôt le matin, avant les bateaux-taxis
                 et les ferries touristiques. Comptez une demi-journée pour
                 Perast et l&apos;îlot de Notre-Dame-du-Rocher.
               </p>
@@ -499,7 +507,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Base à Žabljak, porte d&apos;entrée du parc national.
+                {/* TODO: à vérifier */}
+                Base à Žabljak, porte d&apos;entrée du parc national.
                 Le tour du lac Noir (Crno jezero) se fait en moins de deux
                 heures, accessible à tous les niveaux.
               </p>
@@ -526,7 +535,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Le monténégrin est la langue officielle. L&apos;anglais
+                {/* TODO: à vérifier */}
+                Le monténégrin est la langue officielle. L&apos;anglais
                 est courant dans l&apos;hôtellerie, l&apos;italien reste
                 compris sur la côte, héritage de la présence vénitienne.
               </p>

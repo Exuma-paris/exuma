@@ -587,7 +587,7 @@ export const destination: Destination = {
             src: "/destination/turks-and-caicos/hero-1.webp",
             alt: "Voyage aux Turks and Caicos : le sable blanc et l'eau turquoise de Grace Bay, à Providenciales"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Providenciales, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -598,7 +598,7 @@ export const destination: Destination = {
             src: "/destination/turks-and-caicos/hero-2.webp",
             alt: "West Caicos et son tombant vus d'avion, où l'eau turquoise bascule vers le bleu profond"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Parrot Cay, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -609,7 +609,7 @@ export const destination: Destination = {
             src: "/destination/turks-and-caicos/hero-3.webp",
             alt: "La plage de Mudjin Harbour, ses falaises et Dragon Cay vus du ciel, à Middle Caicos"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Les Turks and Caicos en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

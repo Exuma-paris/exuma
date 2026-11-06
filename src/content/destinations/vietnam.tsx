@@ -349,7 +349,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Passeport valide au moins 6 mois après la date de
+                {/* TODO: à vérifier */}
+                Passeport valide au moins 6 mois après la date de
                 retour. Exemption de visa pour un séjour touristique de 45
                 jours pour les ressortissants français.
               </p>
@@ -377,7 +378,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Aucun vaccin obligatoire. Vaccinations universelles à
+                {/* TODO: à vérifier */}
+                Aucun vaccin obligatoire. Vaccinations universelles à
                 jour recommandées. Une protection antipaludique peut être
                 conseillée pour certaines zones rurales, selon la saison.
               </p>
@@ -403,7 +405,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Février à avril offre le meilleur compromis pour le
+                {/* TODO: à vérifier */}
+                Février à avril offre le meilleur compromis pour le
                 Nord et le Centre : lumière douce, peu de pluie. Septembre à
                 décembre reste également favorable.
               </p>
@@ -415,7 +418,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
-                TODO: Nous ajustons l&apos;ordre des étapes nord-sud selon
+                {/* TODO: à vérifier */}
+                Nous ajustons l&apos;ordre des étapes nord-sud selon
                 la saison de départ, pour ne jamais faire coïncider une
                 étape avec sa période la moins favorable.
               </p>
@@ -431,7 +435,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Dong vietnamien (VND). Les grands hôtels et
+                {/* TODO: à vérifier */}
+                Dong vietnamien (VND). Les grands hôtels et
                 restaurants acceptent la carte ; les marchés et petites
                 adresses restent en espèces. Pourboire non obligatoire mais
                 apprécié dans les services privés.
@@ -538,7 +543,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Les ressortissants français bénéficient d&apos;une
+                {/* TODO: à vérifier */}
+                Les ressortissants français bénéficient d&apos;une
                 exemption de visa pour un séjour touristique de 45 jours.
                 Au-delà, une demande d&apos;e-visa est nécessaire avant le
                 départ.

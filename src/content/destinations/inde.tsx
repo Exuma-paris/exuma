@@ -566,7 +566,7 @@ export const destination: Destination = {
             src: "/destination/inde/hero-1.webp",
             alt: "Pirogue et house-boat sur les backwaters du Kerala au soleil couchant, voyage en Inde",
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Inde, Delhi, Varanasi et Agra, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -577,7 +577,7 @@ export const destination: Destination = {
             src: "/destination/inde/hero-2.webp",
             alt: "Cour intérieure d'un fort du Rajasthan dans la lumière de fin d'après-midi",
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Inde du Sud en famille, trois générations, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -588,7 +588,7 @@ export const destination: Destination = {
             src: "/destination/inde/hero-3.webp",
             alt: "Femmes en sari portant des cruches de laiton sur les marches d'un puits à degrés près de Jaipur",
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Inde, Rajasthan et vallée de la Narmada, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

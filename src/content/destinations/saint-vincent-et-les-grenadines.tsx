@@ -594,7 +594,7 @@ export const destination: Destination = {
             src: "/destination/saint-vincent-et-les-grenadines/hero-1.webp",
             alt: "Voyage dans les Grenadines : les îlots des Tobago Cays et leurs voiliers au mouillage, vus du ciel"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Les Grenadines en famille, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -605,7 +605,7 @@ export const destination: Destination = {
             src: "/destination/saint-vincent-et-les-grenadines/hero-2.webp",
             alt: "Voiliers au mouillage dans Admiralty Bay devant les collines de Port Elizabeth, à Bequia"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Mustique, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -616,7 +616,7 @@ export const destination: Destination = {
             src: "/destination/saint-vincent-et-les-grenadines/hero-3.webp",
             alt: "La plage de Macaroni à Mustique, son sable blanc et ses collines boisées"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Les Grenadines, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

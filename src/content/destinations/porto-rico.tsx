@@ -332,13 +332,15 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: passeport valide six mois après le retour. Autorisation
+                {/* TODO: à vérifier */}
+                Passeport valide six mois après le retour. Autorisation
                 ESTA à demander avant le départ pour les ressortissants
                 français, comme pour tout séjour aux États-Unis.
               </p>
               <h4 className="font-medium">L&apos;essentiel :</h4>
               <p>
-                TODO: vêtements légers et respirants, une couche
+                {/* TODO: à vérifier */}
+                Vêtements légers et respirants, une couche
                 imperméable pour El Yunque où il pleut presque chaque jour,
                 anti-moustiques, chaussures de marche fermées.
               </p>
@@ -359,7 +361,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Porto Rico étant un territoire américain, les
+                {/* TODO: à vérifier */}
+                Porto Rico étant un territoire américain, les
                 ressortissants français y entrent selon les règles de
                 l&apos;ESTA (Electronic System for Travel Authorization), à
                 demander en ligne au moins 72 heures avant le départ.
@@ -404,7 +407,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: la saison officielle des ouragans dans l&apos;Atlantique
+                {/* TODO: à vérifier */}
+                La saison officielle des ouragans dans l&apos;Atlantique
                 s&apos;étend de juin à novembre. Porto Rico n&apos;est pas
                 touché chaque année, mais septembre concentre statistiquement
                 le plus de systèmes actifs.
@@ -449,7 +453,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: aucun vaccin obligatoire pour entrer à Porto Rico depuis
+                {/* TODO: à vérifier */}
+                Aucun vaccin obligatoire pour entrer à Porto Rico depuis
                 la France. Vaccinations universelles à jour recommandées.
                 L&apos;eau du robinet est potable dans les zones urbaines.
               </p>
@@ -470,7 +475,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: de décembre à avril, saison sèche et fréquentation plus
+                {/* TODO: à vérifier */}
+                De décembre à avril, saison sèche et fréquentation plus
                 douce que les vacances de Noël américaines. De mai à
                 novembre, chaleur plus humide et risque de perturbations
                 météo croissant.
@@ -492,7 +498,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: dollar américain (USD). Cartes bancaires acceptées
+                {/* TODO: à vérifier */}
+                Dollar américain (USD). Cartes bancaires acceptées
                 partout, y compris dans les petites échoppes. Le pourboire au
                 restaurant suit l&apos;usage américain, entre 15 et 20 %.
               </p>
