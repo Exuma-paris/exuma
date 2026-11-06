@@ -7,70 +7,15 @@ import { PhoneCountrySelect } from "@/components/ui/phone-country-select";
 import {
   isValidEmail,
   isValidPhone,
-  type CallSlot,
   type ContactAnswer,
-  type ContactPreference,
   type ContactQuestion,
 } from "@/lib/contact/types";
-import { cn } from "@/lib/utils";
 
 export type ContactQuestionProps = {
   question: ContactQuestion;
   value: ContactAnswer;
   onChange: (next: ContactAnswer) => void;
 };
-
-const PREFERENCES: { id: ContactPreference; label: string }[] = [
-  { id: "phone", label: "Téléphone" },
-  { id: "whatsapp", label: "WhatsApp" },
-  { id: "email", label: "E-mail" },
-];
-
-const SLOTS: { id: CallSlot; label: string }[] = [
-  { id: "morning", label: "Matin" },
-  { id: "afternoon", label: "Après-midi" },
-  { id: "evening", label: "Soir" },
-];
-
-/** Une rangée de pastilles à choix unique, plus légère que les tuiles. */
-function Pills<T extends string>({
-  label,
-  options,
-  value,
-  onChange,
-}: {
-  label: string;
-  options: { id: T; label: string }[];
-  value: T | null;
-  onChange: (next: T) => void;
-}) {
-  return (
-    <div className="flex flex-col gap-2 px-1">
-      <p className="text-[13px] text-secondary-foreground">{label}</p>
-      <div role="group" aria-label={label} className="flex flex-wrap gap-2">
-        {options.map((option) => {
-          const selected = value === option.id;
-          return (
-            <button
-              key={option.id}
-              type="button"
-              aria-pressed={selected}
-              onClick={() => onChange(option.id)}
-              className={cn(
-                "cursor-pointer rounded-full border px-4 py-2 text-[13px] transition-colors",
-                selected
-                  ? "border-foreground bg-foreground text-background"
-                  : "border-border text-foreground hover:border-foreground/40",
-              )}
-            >
-              {option.label}
-            </button>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
 
 export function ContactQuestionView({
   question,
@@ -156,26 +101,6 @@ export function ContactQuestionView({
         }
         required
       />
-
-      {/* Par où revenir, et quand : la promesse est un rappel sous 24 heures,
-          autant qu'il tombe au bon moment. Le créneau reste facultatif. */}
-      <Pills
-        label="Comment préférez-vous être contacté ?"
-        options={PREFERENCES}
-        value={value.contactPreference}
-        onChange={(next) => set("contactPreference", next)}
-      />
-      {value.contactPreference !== "email" ? (
-        <Pills
-          label="À quel moment, de préférence ?"
-          options={SLOTS}
-          value={value.callSlot}
-          onChange={(next) =>
-            set("callSlot", value.callSlot === next ? null : next)
-          }
-        />
-      ) : null}
-
       <Checkbox
         checked={value.marketingConsent}
         onChange={(next) => set("marketingConsent", next)}

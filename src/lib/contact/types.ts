@@ -182,9 +182,6 @@ export type Question =
   | TextQuestion
   | CountQuestion;
 
-export type ContactPreference = "phone" | "whatsapp" | "email";
-export type CallSlot = "morning" | "afternoon" | "evening";
-
 export type ContactAnswer = {
   firstName: string;
   lastName: string;
@@ -193,10 +190,6 @@ export type ContactAnswer = {
   phoneCountry: string;
   phone: string;
   marketingConsent: boolean;
-  /** Par quel canal le travel designer doit revenir. Téléphone par défaut. */
-  contactPreference: ContactPreference;
-  /** Moment préféré pour un appel. Facultatif. */
-  callSlot: CallSlot | null;
 };
 
 export type DestinationAnswer = {
@@ -269,8 +262,6 @@ export function emptyAnswer(question: Question): Answer {
           phoneCountry: "FR",
           phone: "",
           marketingConsent: false,
-          contactPreference: "phone",
-          callSlot: null,
         },
       };
     case "destination":

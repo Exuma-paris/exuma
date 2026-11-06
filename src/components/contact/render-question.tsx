@@ -81,8 +81,6 @@ export function RenderQuestion({
                   phoneCountry: "FR",
                   phone: "",
                   marketingConsent: false,
-                  contactPreference: "phone",
-                  callSlot: null,
                 }
           }
           onChange={(value) => onChange({ type: "contact", value })}

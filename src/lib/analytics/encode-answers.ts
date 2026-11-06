@@ -76,8 +76,6 @@ export function encodeAnswers(
       case "contact":
         out.marketing_consent = answer.value.marketingConsent;
         out.phone_country = answer.value.phoneCountry;
-        out.contact_preference = answer.value.contactPreference;
-        if (answer.value.callSlot) out.call_slot = answer.value.callSlot;
         if (question.type === "contact" && question.withCompany) {
           out.has_company = answer.value.company.trim().length > 0;
         }
