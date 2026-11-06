@@ -249,6 +249,22 @@ export function ContactFlow({
     return () => clearTimeout(timer);
   }, [autoAdvance, canContinue, step]);
 
+  // À chaque changement d'écran, le focus va sur le titre de la question :
+  // un lecteur d'écran l'annonce, et le clavier repart du haut au lieu de
+  // rester sur le bouton, désormais sous une autre question. Un champ qui a
+  // déjà pris le focus (`autoFocus`) le garde, pour taper sans détour.
+  const headingRef = useRef<HTMLHeadingElement>(null);
+  const previousStep = useRef(step);
+  useEffect(() => {
+    if (previousStep.current === step) return;
+    previousStep.current = step;
+    const active = document.activeElement;
+    if (active instanceof HTMLInputElement || active instanceof HTMLTextAreaElement) {
+      return;
+    }
+    headingRef.current?.focus();
+  }, [step]);
+
   // Entrée vaut « Continuer » dans un champ. Dans une zone de texte, où la
   // touche fait un retour à la ligne, c'est Cmd ou Ctrl + Entrée. Une liste
   // de suggestions ouverte garde la touche pour elle (voir `destination`).
@@ -275,7 +291,13 @@ export function ContactFlow({
                 {question.eyebrow ? (
                   <p className="text-eyebrow text-primary">{question.eyebrow}</p>
                 ) : null}
-                <h2 className="text-h2 text-foreground">{question.heading}</h2>
+                <h2
+                  ref={headingRef}
+                  tabIndex={-1}
+                  className="text-h2 text-foreground outline-none"
+                >
+                  {question.heading}
+                </h2>
                 {question.description ? (
                   <p className="mt-2 text-[14px] leading-[1.6] text-secondary-foreground">
                     {question.description}
