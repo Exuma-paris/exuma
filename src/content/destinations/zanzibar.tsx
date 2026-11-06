@@ -546,7 +546,7 @@ export const destination: Destination = {
             src: "/destination/zanzibar/hero-1.webp",
             alt: "Banc de sable blanc et boutres au mouillage sur la côte de Zanzibar, vue du ciel"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Tanzanie et Zanzibar, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -557,7 +557,7 @@ export const destination: Destination = {
             src: "/destination/zanzibar/hero-2.webp",
             alt: "Le restaurant The Rock posé sur son rocher dans l'océan Indien, Zanzibar"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Zanzibar en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -568,7 +568,7 @@ export const destination: Destination = {
             src: "/destination/zanzibar/hero-3.webp",
             alt: "Boutres à voile échoués sur une plage de sable blanc à marée basse, Zanzibar"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Zanzibar, avril 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

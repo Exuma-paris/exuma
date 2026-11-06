@@ -577,7 +577,7 @@ export const destination: Destination = {
             src: "/destination/namibie/hero-1.webp",
             alt: "Marcheurs entre les acacias morts de Deadvlei au pied d'une grande dune ocre, voyage en Namibie"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Namib et Kalahari, juin 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -588,7 +588,7 @@ export const destination: Destination = {
             src: "/destination/namibie/hero-2.webp",
             alt: "Deux montgolfières au-dessus des plaines du Namib au lever du jour"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Hoanib et Skeleton Coast, septembre 2024", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -599,7 +599,7 @@ export const destination: Destination = {
             src: "/destination/namibie/hero-3.webp",
             alt: "Rhinocéros blanc dans les herbes sèches, derrière les branches d'un buisson épineux, Namibie"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "NamibRand et Damaraland, mai 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

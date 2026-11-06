@@ -564,7 +564,7 @@ export const destination: Destination = {
             src: "/destination/irlande/hero-1.webp",
             alt: "Falaises de Moher battues par l'Atlantique au petit matin, voyage en Irlande"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Clare et Connemara, juin 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -575,7 +575,7 @@ export const destination: Destination = {
             src: "/destination/irlande/hero-2.webp",
             alt: "Moutons au coucher du soleil sur les lacs du Connemara"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Ashford Castle et le Connemara, août 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -586,7 +586,7 @@ export const destination: Destination = {
             src: "/destination/irlande/hero-3.webp",
             alt: "Murets de pierre sèche et tourbières du Connemara sous un ciel changeant"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Cork et Ardmore, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

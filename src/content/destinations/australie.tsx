@@ -566,7 +566,7 @@ export const destination: Destination = {
             src: "/destination/australie/hero-1.png",
             alt: "Voyage en Australie : le monolithe d'Uluru au lever du jour, dans le Territoire du Nord"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Australie à deux, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -577,7 +577,7 @@ export const destination: Destination = {
             src: "/destination/australie/hero-2.png",
             alt: "Falaises et eucalyptus de la côte sauvage de Kangaroo Island"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Australie, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -588,7 +588,7 @@ export const destination: Destination = {
             src: "/destination/australie/hero-3.png",
             alt: "Récif corallien et eau claire de la Grande Barrière, au large de Port Douglas"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Australie, mai 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

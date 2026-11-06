@@ -570,7 +570,7 @@ export const destination: Destination = {
             src: "/destination/coree-du-sud/hero-1.png",
             alt: "Voyage en Corée du Sud : les toits de tuiles du village de hanoks de Bukchon, à Séoul"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Corée du Sud à deux, octobre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -581,7 +581,7 @@ export const destination: Destination = {
             src: "/destination/coree-du-sud/hero-2.png",
             alt: "Pavillon de bois et étang de lotus du Jardin secret de Changdeokgung"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Corée du Sud en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -592,7 +592,7 @@ export const destination: Destination = {
             src: "/destination/coree-du-sud/hero-3.png",
             alt: "Plongeuses haenyeo remontant sur les rochers noirs de l'île de Jeju"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Corée du Sud, novembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

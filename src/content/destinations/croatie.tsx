@@ -332,7 +332,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: carte d&apos;identité ou passeport en cours de validité.
+                {/* TODO: à vérifier */}
+                Carte d&apos;identité ou passeport en cours de validité.
                 Permis de conduire si vous louez un véhicule.
               </p>
               <p>
@@ -341,7 +342,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">L&apos;essentiel :</h4>
               <p>
-                TODO: tenue légère pour le littoral, chaussures d&apos;eau pour
+                {/* TODO: à vérifier */}
+                Tenue légère pour le littoral, chaussures d&apos;eau pour
                 les mouillages, lainage pour les soirées en mer. Crème solaire
                 haute protection.
               </p>
@@ -363,7 +365,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: aucun vaccin obligatoire. Vaccinations universelles à
+                {/* TODO: à vérifier */}
+                Aucun vaccin obligatoire. Vaccinations universelles à
                 jour. Numéro d&apos;urgence européen (112) actif partout dans
                 le pays.
               </p>
@@ -388,7 +391,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: la période recommandée par notre équipe : mai-juin et
+                {/* TODO: à vérifier */}
+                La période recommandée par notre équipe : mai-juin et
                 septembre-mi-octobre. Mer entre 22 °C et 25 °C, lumière douce,
                 fréquentation modérée sur la côte.
               </p>
@@ -399,7 +403,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
-                TODO: les Kornati se naviguent idéalement tôt le matin, avant
+                {/* TODO: à vérifier */}
+                Les Kornati se naviguent idéalement tôt le matin, avant
                 l&apos;arrivée des excursions à la journée depuis Murter et
                 Zadar.
               </p>
@@ -415,7 +420,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: euro. Paiement par carte largement accepté. Pourboire
+                {/* TODO: à vérifier */}
+                Euro. Paiement par carte largement accepté. Pourboire
                 non obligatoire mais apprécié (5–10 % en restaurant).
               </p>
               <p>
@@ -440,7 +446,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: les ferries publics relient les grandes îles plusieurs
+                {/* TODO: à vérifier */}
+                Les ferries publics relient les grandes îles plusieurs
                 fois par jour en saison, mais imposent des horaires fixes.
                 Un bateau privé avec skipper permet d&apos;ajuster
                 l&apos;itinéraire au jour le jour.
@@ -466,7 +473,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: départ conseillé tôt le matin depuis Murter ou Zadar,
+                {/* TODO: à vérifier */}
+                Départ conseillé tôt le matin depuis Murter ou Zadar,
                 avant les excursions à la journée. Comptez trois à quatre
                 jours pour une itinérance complète du parc.
               </p>
@@ -488,7 +496,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: comptez une demi-journée pour parcourir les passerelles
+                {/* TODO: à vérifier */}
+                Comptez une demi-journée pour parcourir les passerelles
                 en bois entre les seize lacs. Arrivée en début de matinée
                 recommandée, avant les groupes.
               </p>
@@ -515,7 +524,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: le croate est la langue officielle. L&apos;anglais est
+                {/* TODO: à vérifier */}
+                Le croate est la langue officielle. L&apos;anglais est
                 courant dans l&apos;hôtellerie, l&apos;italien reste compris
                 en Istrie, héritage de la présence vénitienne.
               </p>

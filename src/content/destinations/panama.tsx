@@ -594,7 +594,7 @@ export const destination: Destination = {
             src: "/destination/panama/hero-1.webp",
             alt: "Îles de l'archipel de Guna Yala au Panama vues depuis la mer"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Panama en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -605,7 +605,7 @@ export const destination: Destination = {
             src: "/destination/panama/hero-2.webp",
             alt: "Façades colorées et clochers du Casco Viejo devant les tours de Panama City"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Islas Secas et Coiba, mars 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -616,7 +616,7 @@ export const destination: Destination = {
             src: "/destination/panama/hero-3.webp",
             alt: "Caféiers en terrasses sur les pentes du volcan Barú à Boquete"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Guna Yala et Chiriquí, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

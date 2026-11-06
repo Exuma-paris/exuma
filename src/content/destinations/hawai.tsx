@@ -554,7 +554,7 @@ export const destination: Destination = {
             src: "/destination/hawai/hero-1.webp",
             alt: "Route bordée de palmiers au pied d'une muraille de falaises vertes à Hawaï"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Hawaï, Big Island et Maui, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -565,7 +565,7 @@ export const destination: Destination = {
             src: "/destination/hawai/hero-2.webp",
             alt: "Surfeuse vue du ciel sur une vague turquoise à Hawaï"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Hawaï, Molokai et Kauai, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -576,7 +576,7 @@ export const destination: Destination = {
             src: "/destination/hawai/hero-3.webp",
             alt: "Crêtes vertes d'une côte hawaïenne sous les nuages, vues depuis la mer"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Hawaï, Lanai et Big Island, 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
