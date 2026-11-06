@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -9,6 +9,7 @@ import {
   SearchLg as Search,
 } from "@untitledui/icons";
 import { buttonVariants } from "@/components/ui/button";
+import { pushDataLayer } from "@/lib/analytics/datalayer";
 import type { FinderEntry } from "@/lib/content/destination-finder";
 import { cn } from "@/lib/utils";
 
@@ -138,6 +139,23 @@ export function DestinationFinder({
       )
       .sort((a, b) => Number(Boolean(b.image)) - Number(Boolean(a.image)));
   }, [entries, query]);
+
+  // `search` : le terme tapé et le nombre de résultats, 800 ms après la
+  // dernière frappe. Un résultat à zéro est une destination à ouvrir.
+  useEffect(() => {
+    const term = strip(query).slice(0, 50);
+    if (!term || results === null) return;
+    const count = results.length;
+    const timer = setTimeout(() => {
+      pushDataLayer({
+        event: "search",
+        search_term: term,
+        search_type: "destinations",
+        results_count: count,
+      });
+    }, 800);
+    return () => clearTimeout(timer);
+  }, [query, results]);
 
   const shown = results ?? featured;
 

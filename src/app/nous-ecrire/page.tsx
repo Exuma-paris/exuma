@@ -14,6 +14,7 @@ export default function NousEcrirePage() {
   return (
     <ContactFlow
       questions={getGeneralEnquiryQuestions()}
+      product="nous-ecrire"
       contactCta={{
         label: "Contactez-nous",
         phone: EXUMA_PHONE,

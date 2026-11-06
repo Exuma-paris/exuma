@@ -142,6 +142,7 @@ export function Header({
           </Button>
           <Link
             href="/contact"
+            data-event-id="header-contact"
             className={cn(
               buttonVariants({ variant: "ghost" }),
               "hidden md:inline-flex",
@@ -151,6 +152,7 @@ export function Header({
           </Link>
           <Link
             href={createHref}
+            data-event-id="header-create"
             className={cn(
               buttonVariants({ variant: "secondary" }),
               "hidden md:inline-flex",

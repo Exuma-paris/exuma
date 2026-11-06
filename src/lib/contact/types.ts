@@ -170,7 +170,8 @@ export type Question =
   | CountQuestion;
 
 export type ContactAnswer = {
-  name: string;
+  firstName: string;
+  lastName: string;
   company: string;
   email: string;
   phoneCountry: string;
@@ -241,7 +242,8 @@ export function emptyAnswer(question: Question): Answer {
       return {
         type: "contact",
         value: {
-          name: "",
+          firstName: "",
+          lastName: "",
           company: "",
           email: "",
           phoneCountry: "FR",
@@ -308,7 +310,8 @@ export function isAnswered(question: Question, answer: Answer | undefined): bool
       if (answer.type !== "contact") return false;
       const v = answer.value;
       return (
-        v.name.trim().length > 0 &&
+        v.firstName.trim().length > 0 &&
+        v.lastName.trim().length > 0 &&
         EMAIL_REGEX.test(v.email) &&
         v.phone.trim().length > 0
       );

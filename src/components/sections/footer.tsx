@@ -144,11 +144,15 @@ export function Footer({ className }: { className?: string }) {
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
-          <ProjectCtaLink className="inline-flex items-center rounded-full bg-background px-6 py-3 text-[13px] tracking-wide text-foreground transition-opacity hover:opacity-80">
+          <ProjectCtaLink
+            eventId="footer-create"
+            className="inline-flex items-center rounded-full bg-background px-6 py-3 text-[13px] tracking-wide text-foreground transition-opacity hover:opacity-80"
+          >
             {menuCtas.primary.label}
           </ProjectCtaLink>
           <Link
             href={menuCtas.contact.href}
+            data-event-id="footer-contact"
             className="inline-flex items-center rounded-full border border-background/25 px-6 py-3 text-[13px] tracking-wide text-background transition-colors hover:border-background/60"
           >
             {menuCtas.contact.label}
@@ -209,6 +213,7 @@ export function Footer({ className }: { className?: string }) {
               <Mail className="size-4 shrink-0" aria-hidden />
               <a
                 href={`mailto:${contact.email}`}
+                data-event-id="footer-email"
                 className="transition-colors hover:text-background"
               >
                 {contact.email}
@@ -218,6 +223,7 @@ export function Footer({ className }: { className?: string }) {
               <Phone className="size-4 shrink-0" aria-hidden />
               <a
                 href={`tel:${contact.phone.replace(/\s/g, "")}`}
+                data-event-id="footer-phone"
                 className="transition-colors hover:text-background"
               >
                 {contact.phone}

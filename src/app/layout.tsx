@@ -2,6 +2,12 @@ import type { Metadata, Viewport } from "next";
 import { Geist_Mono, Hedvig_Letters_Serif, Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import { AgentationToolbar } from "@/components/dev/agentation-toolbar";
+import { AttributionCapture } from "@/components/analytics/attribution-capture";
+import { ClickEvents } from "@/components/analytics/click-events";
+import {
+  GoogleTagManager,
+  GoogleTagManagerNoScript,
+} from "@/components/analytics/gtm";
 import { Footer } from "@/components/sections/footer";
 import { ConditionalFooter } from "@/components/sections/conditional-footer";
 
@@ -88,8 +94,15 @@ export default function RootLayout({
             __html: `(function(){try{if(localStorage.getItem('exuma-theme')==='dark')document.documentElement.classList.add('dark');}catch(e){}})();`,
           }}
         />
+        {/* Google Tag Manager : injecté seulement si NEXT_PUBLIC_GTM_ID est
+            renseigné (production). Les événements du site partent dans
+            window.dataLayer dans tous les cas, voir src/lib/analytics. */}
+        <GoogleTagManager />
       </head>
       <body className="min-h-full flex flex-col">
+        <GoogleTagManagerNoScript />
+        <AttributionCapture />
+        <ClickEvents />
         {children}
         <ConditionalFooter>
           <Footer />

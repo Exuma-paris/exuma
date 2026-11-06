@@ -24,14 +24,27 @@ export function ContactQuestionView({
 
   return (
     <div className="flex flex-col gap-3">
-      <Input
-        label="Nom complet"
-        type="text"
-        autoComplete="name"
-        value={value.name}
-        onChange={(e) => set("name", e.target.value)}
-        required
-      />
+      {/* Prénom et nom séparés : les conversions avancées (Ads, GA4) et le
+          CRM les attendent dans deux champs, et un découpage automatique se
+          trompe sur les prénoms et noms composés. */}
+      <div className="grid grid-cols-2 gap-3">
+        <Input
+          label="Prénom"
+          type="text"
+          autoComplete="given-name"
+          value={value.firstName}
+          onChange={(e) => set("firstName", e.target.value)}
+          required
+        />
+        <Input
+          label="Nom"
+          type="text"
+          autoComplete="family-name"
+          value={value.lastName}
+          onChange={(e) => set("lastName", e.target.value)}
+          required
+        />
+      </div>
       {question.withCompany ? (
         // Facultatif, mais présenté comme les autres champs : le signaler
         // reviendrait à inviter à le sauter.

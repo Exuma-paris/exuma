@@ -62,12 +62,14 @@ export default function Home() {
               <div className="flex flex-wrap items-center justify-center gap-3">
                 <Link
                   href="/votre-projet"
+                  data-event-id="home-hero-create"
                   className={cn(buttonVariants({ variant: "secondary" }))}
                 >
                   Créer votre voyage
                 </Link>
                 <Link
                   href="/contact"
+                  data-event-id="home-hero-contact"
                   className={cn(buttonVariants({ variant: "outline" }))}
                 >
                   Parler à un travel designer

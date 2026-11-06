@@ -24,6 +24,7 @@ export default async function VotreProjetPage({
   return (
     <ContactFlow
       questions={getGeneralContactQuestions()}
+      product="votre-projet"
       contactCta={{
         label: "Contactez-nous",
         phone: EXUMA_PHONE,

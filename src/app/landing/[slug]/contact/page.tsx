@@ -34,6 +34,7 @@ export default function ContactFlowPage() {
   return (
     <ContactFlow
       questions={destination.contactQuestions}
+      product={slug}
       contactCta={{
         label: "Contactez-nous",
         phone: EXUMA_PHONE,

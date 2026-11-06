@@ -14,6 +14,7 @@ export default function GroupesPage() {
   return (
     <ContactFlow
       questions={getGroupeQuestions()}
+      product="pro-groupes"
       contactCta={{
         label: "Contactez-nous",
         phone: EXUMA_PHONE,

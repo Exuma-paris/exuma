@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { FormViewFirst } from "@/components/analytics/form-view-first";
 import { renderSection } from "@/components/destination/render-section";
 import { defaultSpotlightFeatures } from "@/components/sections/specialist-spotlight";
 import { deriveDiscoverItems } from "@/lib/landing/inspiration";
@@ -63,6 +64,8 @@ export default async function LandingPage({ params }: Props) {
 
   return (
     <main className="flex-1">
+      {/* `form.view_first` : la landing est le premier écran du tunnel. */}
+      <FormViewFirst product={slug} />
       {sections.map((section, i) => renderSection(section, String(i)))}
     </main>
   );

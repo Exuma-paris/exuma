@@ -64,6 +64,8 @@ export function SimpleHeader({
           <a
             href={`tel:${stripWhitespace(contactCta.phone)}`}
             aria-label={`${contactCta.label} — ${contactCta.phone}`}
+            data-event-button="click_tertiary, click_contact"
+            data-event-id="funnel-header-phone"
             className="group relative inline-flex h-10 shrink-0 items-center gap-2 rounded-full border border-border bg-background-subtle pl-1 pr-3 text-[13px] font-medium text-foreground transition-opacity hover:opacity-85"
           >
             {contactCta.avatar ? (

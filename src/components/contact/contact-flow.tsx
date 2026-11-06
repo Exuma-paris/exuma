@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Star01 as Star } from "@untitledui/icons";
@@ -17,6 +17,13 @@ import {
   type AnswersMap,
   type Question,
 } from "@/lib/contact/types";
+import { pushDataLayer } from "@/lib/analytics/datalayer";
+import { getAttribution } from "@/lib/analytics/attribution";
+import { formStepOrdinal } from "@/lib/analytics/cta-events";
+import {
+  contactUserData,
+  encodeAnswers,
+} from "@/lib/analytics/encode-answers";
 import { cn } from "@/lib/utils";
 
 export type ContactFlowAside = {
@@ -34,6 +41,7 @@ export type ContactFlowAside = {
  */
 export function ContactFlow({
   questions,
+  product,
   contactCta,
   aside,
   submitRedirect,
@@ -41,6 +49,12 @@ export function ContactFlow({
   exitHref = "/",
 }: {
   questions: Question[];
+  /**
+   * Nom du formulaire dans le dataLayer (`product` sur chaque événement) :
+   * `polynesie`, `votre-projet`, `nous-ecrire`, `pro-contact`,
+   * `pro-engagement`, `pro-groupes`.
+   */
+  product: string;
   contactCta?: SimpleHeaderProps["contactCta"];
   aside?: ContactFlowAside | null;
   submitRedirect: string;
@@ -77,6 +91,27 @@ export function ContactFlow({
   const isLastStep = step === total;
   const continueLabel = isLastStep ? "Envoyer ma demande" : "Continuer";
 
+  // Suivi des écrans : `form.view_second` … `form.view_last`, une seule fois
+  // par écran et par visite (un retour arrière ne recompte pas), avec les
+  // réponses déjà données, y compris une réponse pré-remplie de l'écran
+  // affiché (`?destination=`). Même convention que l'ancien tunnel Webflow.
+  const viewedSteps = useRef(new Set<number>());
+  useEffect(() => {
+    if (viewedSteps.current.has(step)) return;
+    viewedSteps.current.add(step);
+    pushDataLayer({
+      event: `form.view_${formStepOrdinal(step, total)}`,
+      product,
+      ...encodeAnswers(questions, answers, step),
+    });
+  }, [step, total, product, questions, answers]);
+
+  // Le bouton d'envoi pousse aussi `click_primary` + `click_submit`, via
+  // l'écouteur global (voir components/analytics/click-events).
+  const submitEventAttrs = isLastStep
+    ? { "data-event-button": "click_primary, click_submit", "data-event-id": "form-submit" }
+    : {};
+
   // La croix rend la main d'où l'on vient. Sans historique — un lien ouvert
   // dans un nouvel onglet, par exemple — elle ramène à l'accueil plutôt que
   // de ne rien faire.
@@ -104,7 +139,24 @@ export function ContactFlow({
       setAnswers((prev) => ({ ...prev, [question.id]: emptyAnswer(question) }));
     }
     if (isLastStep) {
-      // TODO: POST `answers` to a real submission endpoint when one exists.
+      // `form.submit` : la conversion. Les réponses partent en identifiants,
+      // les coordonnées dans `user_data` (conversions avancées), l'origine de
+      // la visite (utm, gclid, page d'arrivée) comme les champs cachés de
+      // l'ancien formulaire, jamais de texte libre. Poussé avant la
+      // redirection, sinon la page merci l'emporte et l'événement est perdu.
+      const finalAnswers = answer
+        ? answers
+        : { ...answers, [question.id]: emptyAnswer(question) };
+      const tracking = getAttribution();
+      pushDataLayer({
+        event: "form.submit",
+        product,
+        user_data: contactUserData(finalAnswers),
+        ...encodeAnswers(questions, finalAnswers),
+        ...tracking,
+      });
+      // TODO: POST { product, answers: finalAnswers, user_data, tracking }
+      // to a real submission endpoint when one exists.
       setSubmitting(true);
       router.push(submitRedirect);
       return;
@@ -166,6 +218,7 @@ export function ContactFlow({
                 onClick={goNext}
                 disabled={!canContinue || submitting}
                 className="h-10 flex-1 bg-foreground text-background"
+                {...submitEventAttrs}
               >
                 {continueLabel}
               </Button>

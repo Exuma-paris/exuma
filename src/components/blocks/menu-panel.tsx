@@ -222,6 +222,7 @@ function MenuFooter({ onNavigate }: { onNavigate: () => void }) {
     <div className="flex flex-col gap-3 border-t border-border px-6 py-5">
       <ProjectCtaLink
         onClick={onNavigate}
+        eventId="menu-create"
         className={buttonVariants({ variant: "secondary" })}
       >
         {menuCtas.primary.label}
@@ -229,6 +230,7 @@ function MenuFooter({ onNavigate }: { onNavigate: () => void }) {
       <Link
         href={menuCtas.contact.href}
         onClick={onNavigate}
+        data-event-id="menu-contact"
         className={buttonVariants({ variant: "ghost" })}
       >
         {menuCtas.contact.label}

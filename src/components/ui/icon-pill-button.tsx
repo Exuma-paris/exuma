@@ -10,6 +10,10 @@ export type IconPillButtonProps = {
   icon?: React.ReactNode;
   ariaLabel?: string;
   className?: string;
+  /** Événements dataLayer poussés au clic (`data-event-button`). */
+  eventButton?: string;
+  /** Emplacement rapporté comme `buttonId` (`data-event-id`). */
+  eventId?: string;
 };
 
 const baseClasses =
@@ -26,7 +30,13 @@ export function IconPillButton({
   icon,
   ariaLabel,
   className,
+  eventButton,
+  eventId,
 }: IconPillButtonProps) {
+  const eventAttrs = {
+    "data-event-button": eventButton,
+    "data-event-id": eventId,
+  };
   const inner = (
     <>
       <span>{children}</span>
@@ -42,6 +52,7 @@ export function IconPillButton({
         href={href}
         aria-label={ariaLabel}
         className={cn(baseClasses, className)}
+        {...eventAttrs}
       >
         {inner}
       </Link>
@@ -54,6 +65,7 @@ export function IconPillButton({
       onClick={onClick}
       aria-label={ariaLabel}
       className={cn(baseClasses, className)}
+      {...eventAttrs}
     >
       {inner}
     </button>

@@ -19,15 +19,23 @@ export function useProjectHref(): string {
 export function ProjectCtaLink({
   className,
   onClick,
+  eventId,
   children,
 }: {
   className?: string;
   onClick?: () => void;
+  /** Emplacement rapporté comme `buttonId` dans le dataLayer (`data-event-id`). */
+  eventId?: string;
   children: React.ReactNode;
 }) {
   const href = useProjectHref();
   return (
-    <Link href={href} onClick={onClick} className={className}>
+    <Link
+      href={href}
+      onClick={onClick}
+      className={className}
+      data-event-id={eventId}
+    >
       {children}
     </Link>
   );
