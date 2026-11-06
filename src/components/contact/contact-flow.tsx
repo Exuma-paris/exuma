@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Star01 as Star } from "@untitledui/icons";
@@ -32,6 +32,46 @@ export type ContactFlowAside = {
   quote: string;
   attribution: string;
 };
+
+/**
+ * Réponses et écran en cours, gardés le temps de la session : un rechargement
+ * ou un aller-retour sur le site ne font rien perdre. Effacé à l'envoi.
+ */
+type StoredProgress = { step: number; answers: AnswersMap };
+const storageKey = (product: string) => `exuma-form:${product}`;
+
+function readProgress(product: string): StoredProgress | null {
+  try {
+    const raw = sessionStorage.getItem(storageKey(product));
+    if (!raw) return null;
+    const parsed = JSON.parse(raw) as StoredProgress;
+    return typeof parsed.step === "number" && parsed.answers ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
+function writeProgress(product: string, progress: StoredProgress): void {
+  try {
+    sessionStorage.setItem(storageKey(product), JSON.stringify(progress));
+  } catch {
+    // Stockage indisponible : le formulaire marche, il n'est juste pas repris.
+  }
+}
+
+function clearProgress(product: string): void {
+  try {
+    sessionStorage.removeItem(storageKey(product));
+  } catch {
+    // Rien à effacer.
+  }
+}
+
+/**
+ * Délai entre un choix unique et l'écran suivant : assez pour voir la
+ * sélection se poser, pas assez pour avoir l'impression d'attendre.
+ */
+const AUTO_ADVANCE_MS = 350;
 
 /**
  * The step-by-step brief funnel, shared by the per-destination landing flow
@@ -72,6 +112,10 @@ export function ContactFlow({
   const [answers, setAnswers] = useState<AnswersMap>(initialAnswers ?? {});
   const [submitting, setSubmitting] = useState(false);
   const [direction, setDirection] = useState<"next" | "prev">("next");
+  // Vrai une fois la session relue : le suivi et la sauvegarde attendent,
+  // sinon le premier rendu écraserait ce qui était enregistré.
+  const [ready, setReady] = useState(false);
+  const [autoAdvance, setAutoAdvance] = useState(false);
 
   const total = questions.length;
   // A question can depend on what came before it — the budget scale narrows
@@ -91,20 +135,39 @@ export function ContactFlow({
   const isLastStep = step === total;
   const continueLabel = isLastStep ? "Envoyer ma demande" : "Continuer";
 
+  // Reprise : ce que la session a gardé repasse par-dessus le pré-remplissage,
+  // puisque c'est plus récent. Lu une fois, au montage.
+  useEffect(() => {
+    const saved = readProgress(product);
+    /* eslint-disable react-hooks/set-state-in-effect -- synchronisation
+       unique avec le stockage de session, impossible avant le montage. */
+    if (saved) {
+      setAnswers((prev) => ({ ...prev, ...saved.answers }));
+      setStep(Math.min(Math.max(saved.step, 1), total));
+    }
+    setReady(true);
+    /* eslint-enable react-hooks/set-state-in-effect */
+  }, [product, total]);
+
+  useEffect(() => {
+    if (!ready) return;
+    writeProgress(product, { step, answers });
+  }, [ready, product, step, answers]);
+
   // Suivi des écrans : `form.view_second` … `form.view_last`, une seule fois
   // par écran et par visite (un retour arrière ne recompte pas), avec les
   // réponses déjà données, y compris une réponse pré-remplie de l'écran
   // affiché (`?destination=`). Même convention que l'ancien tunnel Webflow.
   const viewedSteps = useRef(new Set<number>());
   useEffect(() => {
-    if (viewedSteps.current.has(step)) return;
+    if (!ready || viewedSteps.current.has(step)) return;
     viewedSteps.current.add(step);
     pushDataLayer({
       event: `form.view_${formStepOrdinal(step, total)}`,
       product,
       ...encodeAnswers(questions, answers, step),
     });
-  }, [step, total, product, questions, answers]);
+  }, [ready, step, total, product, questions, answers]);
 
   // Le bouton d'envoi pousse aussi `click_primary` + `click_submit`, via
   // l'écouteur global (voir components/analytics/click-events).
@@ -125,14 +188,22 @@ export function ContactFlow({
 
   const setAnswer = (next: Answer) => {
     setAnswers((prev) => ({ ...prev, [question.id]: next }));
+    // Un choix unique ou un oui / non suffit à répondre : on enchaîne sans
+    // attendre le bouton, qui reste affiché pour qui revient en arrière et
+    // veut repartir sans toucher à son choix.
+    if ((question.type === "single" || question.type === "boolean") && !isLastStep) {
+      setAutoAdvance(true);
+    }
   };
 
   const goPrev = () => {
+    setAutoAdvance(false);
     setDirection("prev");
     setStep((s) => Math.max(s - 1, 1));
   };
 
   const goNext = () => {
+    setAutoAdvance(false);
     // Persist an untouched default (see `canContinue`) so it is part of the
     // payload once submission is wired, not silently dropped.
     if (!answer) {
@@ -157,6 +228,7 @@ export function ContactFlow({
       });
       // TODO: POST { product, answers: finalAnswers, user_data, tracking }
       // to a real submission endpoint when one exists.
+      clearProgress(product);
       setSubmitting(true);
       router.push(submitRedirect);
       return;
@@ -165,8 +237,33 @@ export function ContactFlow({
     setStep((s) => Math.min(s + 1, total));
   };
 
+  // Toujours la dernière version de `goNext`, pour le minuteur ci-dessous.
+  const goNextRef = useRef(goNext);
+  useEffect(() => {
+    goNextRef.current = goNext;
+  });
+
+  useEffect(() => {
+    if (!autoAdvance || !canContinue) return;
+    const timer = setTimeout(() => goNextRef.current(), AUTO_ADVANCE_MS);
+    return () => clearTimeout(timer);
+  }, [autoAdvance, canContinue, step]);
+
+  // Entrée vaut « Continuer » dans un champ. Dans une zone de texte, où la
+  // touche fait un retour à la ligne, c'est Cmd ou Ctrl + Entrée. Une liste
+  // de suggestions ouverte garde la touche pour elle (voir `destination`).
+  const onKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
+    if (event.key !== "Enter" || event.defaultPrevented) return;
+    const target = event.target as HTMLElement;
+    if (target.tagName === "BUTTON" || target.tagName === "A") return;
+    if (target.tagName === "TEXTAREA" && !(event.metaKey || event.ctrlKey)) return;
+    if (!canContinue || submitting) return;
+    event.preventDefault();
+    goNext();
+  };
+
   return (
-    <div className="flex min-h-screen bg-background-subtle">
+    <div className="flex min-h-screen bg-background-subtle" onKeyDown={onKeyDown}>
       <div className="flex flex-1 flex-col">
         <SimpleHeader contactCta={contactCta} logoHref={null} onClose={exit} />
 

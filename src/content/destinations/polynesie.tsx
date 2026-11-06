@@ -76,41 +76,48 @@ export const destination: Destination = {
       min: 1,
     },
     {
+      // Même grille que « Créer votre voyage » : un budget pour l'ensemble du
+      // séjour, lisible d'un formulaire à l'autre.
       id: "budget",
       type: "single",
       eyebrow: "Créer votre voyage",
-      heading: "Quel est votre budget par personne ?",
+      heading: "Quel budget avez-vous en tête ?",
+      description:
+        "Pour l'ensemble du séjour. Le savoir tôt nous évite de vous proposer ce qui ne vous conviendrait pas.",
       options: [
-        { id: "tier-1", label: "Moins de 5 000 €" },
-        { id: "tier-2", label: "5 000 € – 10 000 €" },
-        { id: "tier-3", label: "10 000 € – 20 000 €" },
-        { id: "tier-4", label: "Plus de 20 000 €" },
+        { id: "0-20", label: "Jusqu'à 20 000 €" },
+        { id: "20-35", label: "20 000 € – 35 000 €" },
+        { id: "35-50", label: "35 000 € – 50 000 €" },
+        { id: "50-80", label: "50 000 € – 80 000 €" },
+        { id: "80-plus", label: "Plus de 80 000 €" },
+        { id: "open", label: "Je préfère en parler de vive voix" },
       ],
     },
     {
-      id: "with-kids",
-      type: "boolean",
+      id: "travelers",
+      type: "travelers",
       eyebrow: "Créer votre voyage",
-      heading: "Voyagez-vous avec des enfants ?",
+      heading: "Qui part avec vous ?",
+      description:
+        "Le nombre de voyageurs change beaucoup de choses : les hébergements, le rythme, ce qu'on vous proposera sur place.",
+      adultsLabel: "Adultes",
+      childrenLabel: "Enfants (3 à 17 ans)",
+      babiesLabel: "Bébés (0 à 2 ans)",
     },
     {
       id: "dates",
       type: "calendar",
       eyebrow: "Créer votre voyage",
       heading: "Quelle période envisagez-vous pour votre voyage ?",
+      // Palette météo par mois de l'année : les douze prochains mois sont
+      // générés à l'affichage, seule la météo attachée au mois est lue ici.
       months: [
-        { id: "2026-01", title: "Janvier", subtitle: "2026" },
-        { id: "2026-02", title: "Février", subtitle: "2026" },
-        { id: "2026-03", title: "Mars", subtitle: "2026" },
-        { id: "2026-04", title: "Avril", subtitle: "2026" },
-        { id: "2026-05", title: "Mai", subtitle: "2026", weather: "good" },
-        { id: "2026-06", title: "Juin", subtitle: "2026", weather: "good" },
-        { id: "2026-07", title: "Juillet", subtitle: "2026", weather: "happy-max" },
-        { id: "2026-08", title: "Août", subtitle: "2026", weather: "happy-max" },
-        { id: "2026-09", title: "Septembre", subtitle: "2026", weather: "happy-max" },
-        { id: "2026-10", title: "Octobre", subtitle: "2026", weather: "good" },
-        { id: "2026-11", title: "Novembre", subtitle: "2026" },
-        { id: "2026-12", title: "Décembre", subtitle: "2026" },
+        { id: "05", title: "Mai", subtitle: "Saison sèche", weather: "good" },
+        { id: "06", title: "Juin", subtitle: "Saison sèche", weather: "good" },
+        { id: "07", title: "Juillet", subtitle: "Saison sèche", weather: "happy-max" },
+        { id: "08", title: "Août", subtitle: "Saison sèche", weather: "happy-max" },
+        { id: "09", title: "Septembre", subtitle: "Saison sèche", weather: "happy-max" },
+        { id: "10", title: "Octobre", subtitle: "Saison sèche", weather: "good" },
       ],
     },
     {

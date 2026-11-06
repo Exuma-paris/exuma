@@ -1,8 +1,10 @@
 "use client";
 
+import { useMemo } from "react";
 import { cn } from "@/lib/utils";
 import { BlockSelect } from "@/components/ui/block-select";
 import { Indicator } from "@/components/ui/indicator";
+import { upcomingMonths } from "@/lib/contact/calendar-months";
 import type {
   CalendarAnswer,
   CalendarQuestion,
@@ -19,6 +21,13 @@ export function CalendarQuestionView({
   value,
   onChange,
 }: CalendarQuestionProps) {
+  // Toujours les prochains mois à partir d'aujourd'hui : la question ne
+  // porte qu'une palette météo, pas des dates.
+  const months = useMemo(
+    () => upcomingMonths(question.months, question.horizonMonths),
+    [question.months, question.horizonMonths],
+  );
+
   const toggleMonth = (monthId: string) => {
     const isSelected = value.months.includes(monthId);
     const nextMonths = isSelected
@@ -34,7 +43,7 @@ export function CalendarQuestionView({
   return (
     <div className="flex flex-col gap-2">
       <div className="grid grid-cols-3 gap-2">
-        {question.months.map((m) => (
+        {months.map((m) => (
           <BlockSelect
             key={m.id}
             title={m.title}
