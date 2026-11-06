@@ -67,9 +67,13 @@ export default function Home() {
                 >
                   Créer votre voyage
                 </Link>
+                {/* Vers le formulaire court plutôt que la page de coordonnées :
+                    « parler » à quelqu'un, c'est lui écrire trois réponses, et
+                    la demande est mesurée. Le téléphone reste dans l'en-tête
+                    du formulaire. */}
                 <Link
-                  href="/contact"
-                  data-event-id="home-hero-contact"
+                  href="/nous-ecrire"
+                  data-event-id="home-hero-write"
                   className={cn(buttonVariants({ variant: "outline" }))}
                 >
                   Parler à un travel designer
@@ -184,7 +188,7 @@ export default function Home() {
           contact={{
             prefix: "Une question qui n'est pas ici ? ",
             label: "Écrivez-nous",
-            href: "/contact",
+            href: "/nous-ecrire",
             suffix: ", nous répondons nous-mêmes.",
           }}
           items={[

@@ -230,7 +230,7 @@ function MenuFooter({ onNavigate }: { onNavigate: () => void }) {
       <Link
         href={menuCtas.contact.href}
         onClick={onNavigate}
-        data-event-id="menu-contact"
+        data-event-id="menu-write"
         className={buttonVariants({ variant: "ghost" })}
       >
         {menuCtas.contact.label}

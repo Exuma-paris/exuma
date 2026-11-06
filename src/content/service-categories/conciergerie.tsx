@@ -72,7 +72,7 @@ export const serviceCategory: ServiceCategory = {
         "Nous passons ces appels à votre place, et nous les passons jusqu'au bout. Quand une maison ne peut pas, nous en appelons une deuxième, puis une troisième, plutôt que de vous renvoyer une liste d'adresses à essayer vous-même.",
         "Une demande de dernière minute ne se traite pas comme les autres. Vous êtes rappelé dans la journée avec une réponse franche : ce que nous avons obtenu, ce que nous cherchons encore, et ce qui ne sera pas possible.",
       ],
-      cta: { label: "Nous soumettre une demande", href: "/contact" },
+      cta: { label: "Nous soumettre une demande", href: "/nous-ecrire" },
     },
 
     {

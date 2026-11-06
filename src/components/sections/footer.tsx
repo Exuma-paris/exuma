@@ -152,7 +152,7 @@ export function Footer({ className }: { className?: string }) {
           </ProjectCtaLink>
           <Link
             href={menuCtas.contact.href}
-            data-event-id="footer-contact"
+            data-event-id="footer-write"
             className="inline-flex items-center rounded-full border border-background/25 px-6 py-3 text-[13px] tracking-wide text-background transition-colors hover:border-background/60"
           >
             {menuCtas.contact.label}

@@ -6,6 +6,8 @@
  *
  * Même vocabulaire que l'ancien tunnel Webflow : un événement de rang
  * (primary / secondary / tertiary) doublé d'un événement métier.
+ * `click_create` = entrée dans un formulaire de capture, quel qu'il soit ;
+ * `click_contact` = coordonnées (téléphone, e-mail, page de coordonnées).
  */
 export function ctaEventsFromHref(href: string | null | undefined): string | null {
   if (!href) return null;
@@ -20,9 +22,10 @@ export function ctaEventsFromHref(href: string | null | undefined): string | nul
   if (/^\/professionnels\/(contact|engagement|groupes)(\?|#|$)/.test(path)) {
     return "click_primary, click_create";
   }
-  if (/^\/(contact|nous-ecrire)(\?|#|$)/.test(path)) {
-    return "click_tertiary, click_contact";
-  }
+  // Le formulaire court (« Nous écrire », « Contactez-nous ») : une entrée de
+  // formulaire aussi, de rang secondaire.
+  if (/^\/nous-ecrire(\?|#|$)/.test(path)) return "click_secondary, click_create";
+  if (/^\/contact(\?|#|$)/.test(path)) return "click_tertiary, click_contact";
   return null;
 }
 

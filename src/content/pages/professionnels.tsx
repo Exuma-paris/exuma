@@ -100,7 +100,7 @@ export const sections: Section[] = [
         },
         link: {
           label: "Nous en parler",
-          href: "/professionnels/family-offices",
+          href: "/professionnels/contact?profil=family-office",
         },
       },
       {
@@ -111,7 +111,7 @@ export const sections: Section[] = [
           src: "/professionnels/porte-b.png",
           alt: "Collaborateur en déplacement, au travail pendant le trajet",
         },
-        link: { label: "Nous en parler", href: "/professionnels/entreprises" },
+        link: { label: "Nous en parler", href: "/professionnels/contact?profil=entreprise" },
       },
       {
         title: "Dirigeant",
@@ -121,7 +121,7 @@ export const sections: Section[] = [
           src: "/professionnels/porte-c.png",
           alt: "Attablé seul en terrasse en fin de journée",
         },
-        link: { label: "Nous en parler", href: "/professionnels/dirigeants" },
+        link: { label: "Nous en parler", href: "/professionnels/contact?profil=dirigeant" },
       },
     ],
   },
