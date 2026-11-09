@@ -24,6 +24,11 @@ import {
   contactUserData,
   encodeAnswers,
 } from "@/lib/analytics/encode-answers";
+import {
+  buildSubmission,
+  submitContact,
+  SubmissionError,
+} from "@/lib/contact/submit";
 import { cn } from "@/lib/utils";
 
 export type ContactFlowAside = {
@@ -111,6 +116,8 @@ export function ContactFlow({
   const [step, setStep] = useState(1);
   const [answers, setAnswers] = useState<AnswersMap>(initialAnswers ?? {});
   const [submitting, setSubmitting] = useState(false);
+  // Message affiché sous les boutons quand l'envoi a échoué.
+  const [error, setError] = useState<string | null>(null);
   const [direction, setDirection] = useState<"next" | "prev">("next");
   // Vrai une fois la session relue : le suivi et la sauvegarde attendent,
   // sinon le premier rendu écraserait ce qui était enregistré.
@@ -133,7 +140,11 @@ export function ContactFlow({
   // is genuinely empty still block, exactly as before.
   const canContinue = isAnswered(question, answer ?? emptyAnswer(question));
   const isLastStep = step === total;
-  const continueLabel = isLastStep ? "Envoyer ma demande" : "Continuer";
+  const continueLabel = !isLastStep
+    ? "Continuer"
+    : submitting
+      ? "Envoi en cours…"
+      : "Envoyer ma demande";
 
   // Reprise : ce que la session a gardé repasse par-dessus le pré-remplissage,
   // puisque c'est plus récent. Lu une fois, au montage.
@@ -187,6 +198,7 @@ export function ContactFlow({
   };
 
   const setAnswer = (next: Answer) => {
+    setError(null);
     setAnswers((prev) => ({ ...prev, [question.id]: next }));
     // Un choix unique ou un oui / non suffit à répondre : on enchaîne sans
     // attendre le bouton, qui reste affiché pour qui revient en arrière et
@@ -198,39 +210,59 @@ export function ContactFlow({
 
   const goPrev = () => {
     setAutoAdvance(false);
+    setError(null);
     setDirection("prev");
     setStep((s) => Math.max(s - 1, 1));
+  };
+
+  // L'envoi : la demande part vers `/api/contact`, qui la relaie vers Make.
+  // `form.submit`, la conversion, n'est poussé qu'une fois l'envoi accepté :
+  // les réponses en identifiants, les coordonnées dans `user_data`
+  // (conversions avancées), l'origine de la visite (utm, gclid, page
+  // d'arrivée) comme les champs cachés de l'ancien formulaire, jamais de
+  // texte libre. Et avant la redirection, sinon la page merci l'emporte et
+  // l'événement est perdu. En cas d'échec, les réponses restent à l'écran,
+  // le bouton se réarme et `form.error` part à la place.
+  const submit = async () => {
+    const finalAnswers = answer
+      ? answers
+      : { ...answers, [question.id]: emptyAnswer(question) };
+    setSubmitting(true);
+    setError(null);
+    try {
+      await submitContact(buildSubmission(product, questions, finalAnswers));
+    } catch (err) {
+      setSubmitting(false);
+      setError(
+        "L'envoi n'a pas abouti. Vérifiez votre connexion et réessayez : vos réponses sont conservées.",
+      );
+      pushDataLayer({
+        event: "form.error",
+        product,
+        error_status: err instanceof SubmissionError ? err.status : 0,
+      });
+      return;
+    }
+    pushDataLayer({
+      event: "form.submit",
+      product,
+      user_data: contactUserData(finalAnswers),
+      ...encodeAnswers(questions, finalAnswers),
+      ...getAttribution(),
+    });
+    clearProgress(product);
+    router.push(submitRedirect);
   };
 
   const goNext = () => {
     setAutoAdvance(false);
     // Persist an untouched default (see `canContinue`) so it is part of the
-    // payload once submission is wired, not silently dropped.
+    // payload, not silently dropped.
     if (!answer) {
       setAnswers((prev) => ({ ...prev, [question.id]: emptyAnswer(question) }));
     }
     if (isLastStep) {
-      // `form.submit` : la conversion. Les réponses partent en identifiants,
-      // les coordonnées dans `user_data` (conversions avancées), l'origine de
-      // la visite (utm, gclid, page d'arrivée) comme les champs cachés de
-      // l'ancien formulaire, jamais de texte libre. Poussé avant la
-      // redirection, sinon la page merci l'emporte et l'événement est perdu.
-      const finalAnswers = answer
-        ? answers
-        : { ...answers, [question.id]: emptyAnswer(question) };
-      const tracking = getAttribution();
-      pushDataLayer({
-        event: "form.submit",
-        product,
-        user_data: contactUserData(finalAnswers),
-        ...encodeAnswers(questions, finalAnswers),
-        ...tracking,
-      });
-      // TODO: POST { product, answers: finalAnswers, user_data, tracking }
-      // to a real submission endpoint when one exists.
-      clearProgress(product);
-      setSubmitting(true);
-      router.push(submitRedirect);
+      if (!submitting) void submit();
       return;
     }
     setDirection("next");
@@ -342,6 +374,11 @@ export function ContactFlow({
                 {continueLabel}
               </Button>
             </div>
+            {error ? (
+              <p role="alert" className="text-[14px] leading-[1.6] text-destructive">
+                {error}
+              </p>
+            ) : null}
           </div>
         </div>
       </div>
