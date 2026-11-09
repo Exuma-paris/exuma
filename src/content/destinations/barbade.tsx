@@ -378,7 +378,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: le Cliff Restaurant, à St. James, sert depuis 1995 des
+                {/* TODO: à vérifier */}
+                Le Cliff Restaurant, à St. James, sert depuis 1995 des
                 tables construites à même la falaise, éclairées à la bougie
                 au-dessus de la mer. La carte change chaque soir selon la
                 pêche du jour.
@@ -477,7 +478,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil :</h4>
               <p>
-                TODO: un match international en cours pendant le voyage
+                {/* TODO: à vérifier */}
+                Un match international en cours pendant le voyage
                 mérite qu&apos;on ajuste l&apos;itinéraire d&apos;une
                 journée. Nous suivons le calendrier de la sélection
                 antillaise avant de fixer les dates.

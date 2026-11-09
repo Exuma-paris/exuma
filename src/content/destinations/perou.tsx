@@ -333,13 +333,15 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: passeport valide six mois après le retour. Pas de visa
+                {/* TODO: à vérifier */}
+                Passeport valide six mois après le retour. Pas de visa
                 pour les ressortissants français pour un séjour de moins de 90
                 jours.
               </p>
               <h4 className="font-medium">L&apos;essentiel :</h4>
               <p>
-                TODO: vêtements en couches pour l&apos;amplitude thermique de
+                {/* TODO: à vérifier */}
+                Vêtements en couches pour l&apos;amplitude thermique de
                 Cusco (froid le matin, soleil fort en journée), vêtements
                 légers et anti-moustiques pour l&apos;Amazonie, crème solaire
                 haute protection pour l&apos;altitude.
@@ -385,7 +387,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: le site limite le nombre d&apos;entrées quotidiennes et
+                {/* TODO: à vérifier */}
+                Le site limite le nombre d&apos;entrées quotidiennes et
                 répartit les visiteurs en créneaux horaires et en circuits
                 fixes. Les billets pour la haute saison (mai à septembre) se
                 réservent souvent plusieurs mois à l&apos;avance.
@@ -414,7 +417,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil :</h4>
               <p>
-                TODO: le Vistadome offre de larges baies vitrées ; le Hiram
+                {/* TODO: à vérifier */}
+                Le Vistadome offre de larges baies vitrées ; le Hiram
                 Bingham, plus rare, inclut un wagon-bar et un dîner à bord.
                 Nous choisissons selon l&apos;heure d&apos;arrivée souhaitée à
                 la citadelle.
@@ -431,7 +435,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: vaccin fièvre jaune recommandé pour l&apos;Amazonie
+                {/* TODO: à vérifier */}
+                Vaccin fièvre jaune recommandé pour l&apos;Amazonie
                 (Tambopata, Puerto Maldonado), pas nécessaire pour Cusco, la
                 Vallée Sacrée ou le Machu Picchu. Vaccinations universelles à
                 jour.
@@ -455,7 +460,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: de mai à septembre, saison sèche dans les Andes : ciel
+                {/* TODO: à vérifier */}
+                De mai à septembre, saison sèche dans les Andes : ciel
                 dégagé sur le Machu Picchu et la Vallée Sacrée, nuits froides
                 à Cusco. De décembre à mars, saison humide, sentiers parfois
                 fermés (dont le Chemin de l&apos;Inca en février).
@@ -478,7 +484,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: sol péruvien (PEN). Cartes largement acceptées à Lima et
+                {/* TODO: à vérifier */}
+                Sol péruvien (PEN). Cartes largement acceptées à Lima et
                 Cusco, espèces recommandées en Vallée Sacrée et en Amazonie.
                 Pourboire non obligatoire mais apprécié (5 à 10 % au
                 restaurant).
@@ -504,7 +511,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: la réserve de Tambopata se parcourt en bateau depuis
+                {/* TODO: à vérifier */}
+                La réserve de Tambopata se parcourt en bateau depuis
                 Puerto Maldonado. La saison sèche (juin à octobre) facilite la
                 marche en forêt ; la saison humide (décembre à mars) fait
                 monter le niveau des rivières et révèle davantage de faune

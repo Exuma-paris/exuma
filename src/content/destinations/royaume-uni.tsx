@@ -539,7 +539,7 @@ export const destination: Destination = {
             src: "/destination/royaume-uni/hero-1.webp",
             alt: "Façade de brique rouge et de terre cuite ouvragée d'un immeuble de Mayfair, à Londres"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Royaume-Uni, Speyside et Deeside, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -550,7 +550,7 @@ export const destination: Destination = {
             src: "/destination/royaume-uni/hero-2.webp",
             alt: "Torrent descendant entre les collines d'une vallée des Highlands écossaises"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Royaume-Uni, Londres et les Highlands, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -561,7 +561,7 @@ export const destination: Destination = {
             src: "/destination/royaume-uni/hero-3.webp",
             alt: "Cottages de pierre blonde alignés dans un village des Cotswolds, en Angleterre"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Royaume-Uni, Londres, Hampshire et Cotswolds, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

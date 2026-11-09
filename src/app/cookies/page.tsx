@@ -18,7 +18,7 @@ export default function CookiesPage() {
     <LegalPage
       eyebrow="Données personnelles"
       heading="Gestion des cookies"
-      updatedLabel="Mise à jour le 14 mai 2026"
+      updatedLabel="Mise à jour le 4 novembre 2026"
     >
       <LegalSection heading="Qu'est-ce qu'un cookie ?">
         <p>
@@ -37,47 +37,41 @@ export default function CookiesPage() {
 
       <LegalSection heading="Cookies utilisés sur exuma.paris">
         <p>
-          Le site exuma.paris utilise les catégories de cookies suivantes :
+          À la date de cette mise à jour, le site exuma.paris ne dépose aucun
+          cookie de mesure d'audience ni aucun cookie publicitaire.
         </p>
         <LegalList
           items={[
             <>
-              <strong>Cookies strictement nécessaires</strong> — indispensables
-              au fonctionnement du site (gestion de la session, sécurité,
-              équilibrage de charge). Ils ne nécessitent pas votre consentement.
+              <strong>Réglages d'affichage</strong> : une préférence d'affichage
+              peut être enregistrée dans votre navigateur. Elle ne vous identifie
+              pas et ne nécessite pas votre consentement.
             </>,
             <>
-              <strong>Cookies de mesure d'audience</strong> — nous permettent
-              de comprendre l'utilisation du site et d'en améliorer le
-              fonctionnement. <em>[à compléter — préciser les outils utilisés
-              : Google Analytics, Plausible, Matomo, etc., et leur configuration
-              en mode anonymisé]</em>
+              <strong>Cartes</strong> : les cartes des pages destinations
+              chargent leurs fonds depuis OpenFreeMap, qui reçoit à cette
+              occasion votre adresse IP.
             </>,
             <>
-              <strong>Cookies tiers</strong> — déposés par des services
-              externes intégrés au site (cartes, vidéos, réseaux sociaux).{" "}
-              <em>[à compléter — lister les services tiers réellement utilisés
-              : Mapbox, YouTube, Vimeo, etc.]</em>
+              <strong>Vidéos</strong> : les vidéos YouTube ne sont chargées que
+              si vous les lancez, en mode de confidentialité renforcée. YouTube
+              applique alors sa propre politique.
             </>,
           ]}
         />
         <p>
-          <em>
-            [à compléter — tableau détaillé des cookies (nom, finalité, durée
-            de conservation, émetteur) lorsque la liste sera arrêtée. La CNIL
-            recommande de tenir cette liste à jour à la disposition des
-            utilisateurs.]
-          </em>
+          Si nous activons des outils de mesure d'audience ou de publicité en
+          ligne, votre accord vous sera demandé au préalable par un bandeau, et
+          la liste détaillée des cookies (nom, finalité, durée, émetteur) sera
+          publiée sur cette page.
         </p>
       </LegalSection>
 
       <LegalSection heading="Vos choix">
         <p>
-          Lors de votre première visite, un bandeau d'information vous permet
-          d'accepter ou de refuser le dépôt des cookies non strictement
-          nécessaires. Vous pouvez à tout moment modifier vos préférences via{" "}
-          <em>[à compléter — lien ou bouton vers le module de gestion des
-          consentements]</em>.
+          Dès que des cookies non strictement nécessaires seront utilisés, un
+          bandeau vous permettra de les accepter ou de les refuser lors de votre
+          première visite, et de modifier ce choix à tout moment.
         </p>
         <p>
           Vous pouvez également configurer votre navigateur pour qu'il vous
@@ -94,10 +88,9 @@ export default function CookiesPage() {
           ]}
         />
         <p>
-          Le refus des cookies de mesure d'audience et des cookies tiers
-          n'empêche pas la navigation sur le site. Le refus des cookies
-          strictement nécessaires peut, en revanche, dégrader certaines
-          fonctionnalités.
+          Refuser les cookies n'empêche pas la navigation sur le site, mais
+          peut dégrader certaines fonctionnalités, comme l'affichage des
+          vidéos.
         </p>
       </LegalSection>
 

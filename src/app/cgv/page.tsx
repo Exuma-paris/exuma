@@ -7,6 +7,7 @@ import {
 import {
   EXUMA_ADDRESS,
   EXUMA_EMAIL,
+  EXUMA_LEGAL,
   EXUMA_PHONE,
 } from "@/lib/exuma";
 
@@ -22,23 +23,30 @@ export default function CgvPage() {
     <LegalPage
       eyebrow="Informations légales"
       heading="Conditions générales de vente"
-      updatedLabel="Mise à jour le 14 mai 2026"
+      updatedLabel="Mise à jour le 4 novembre 2026"
     >
       <LegalSection heading="Préambule">
         <p>
           Les présentes conditions générales de vente (ci-après « CGV »)
           régissent les relations contractuelles entre la société{" "}
-          <strong>Exuma</strong>, immatriculée au RCS de Paris sous le numéro{" "}
-          <em>[à compléter]</em>, dont le siège social est situé{" "}
-          {EXUMA_ADDRESS}, immatriculée Atout France sous le numéro{" "}
-          <em>[à compléter — IM075…]</em>, et toute personne physique ou
-          morale (ci-après le « Client ») souhaitant réserver un voyage,
-          séjour ou prestation auprès d'Exuma.
+          <strong>{EXUMA_LEGAL.name}</strong>, exerçant sous le nom commercial{" "}
+          <strong>Exuma</strong> (ci-après « Exuma »), société par actions
+          simplifiée au capital de {EXUMA_LEGAL.capital}, immatriculée au{" "}
+          {EXUMA_LEGAL.rcs}, dont le siège social est situé {EXUMA_ADDRESS},
+          immatriculée Atout France sous le numéro {EXUMA_LEGAL.atoutFrance}, et
+          toute personne physique ou morale (ci-après le « Client ») souhaitant
+          réserver un voyage, séjour ou prestation auprès d'Exuma.
         </p>
         <p>
-          Les présentes CGV sont conformes aux dispositions du Code du
-          tourisme, notamment ses articles L.211-1 et suivants et R.211-3 à
-          R.211-13 qui sont reproduits en fin de document.
+          Les présentes CGV s'inscrivent dans le cadre du Code du tourisme,
+          notamment ses articles L.211-1 et suivants et R.211-3 et suivants.
+          Avant la signature du contrat, le Client reçoit le formulaire
+          d'information et les informations précontractuelles prévus par ces
+          textes.
+        </p>
+        <p>
+          Les clients professionnels bénéficient de conditions propres,
+          communiquées sur demande.
         </p>
       </LegalSection>
 
@@ -54,6 +62,12 @@ export default function CgvPage() {
           (site internet, devis, brochures) ont une valeur indicative. Seules
           les informations figurant au contrat de voyage individuel ont une
           valeur contractuelle.
+        </p>
+        <p>
+          Conformément aux articles L.221-2 et L.221-28 du Code de la
+          consommation, le droit de rétractation ne s'applique pas aux
+          prestations de voyage fournies à une date ou à une période
+          déterminée.
         </p>
       </LegalSection>
 
@@ -72,11 +86,14 @@ export default function CgvPage() {
       <LegalSection heading="3. Modalités de paiement">
         <p>
           Sauf conditions particulières, le Client verse un acompte de 30 % du
-          prix total à la signature du contrat. Le solde est dû au plus tard{" "}
-          <em>[à compléter — délai en jours]</em> jours avant la date de
-          départ. Toute réservation à moins de{" "}
-          <em>[à compléter]</em> jours du départ donne lieu au règlement
-          intégral du prix.
+          prix total à la signature du contrat. Le solde est dû au plus tard 30
+          jours avant la date de départ, sauf cas exceptionnel indiqué au devis
+          ou au bulletin d'inscription. Toute réservation à moins de 30 jours du
+          départ donne lieu au règlement intégral du prix.
+        </p>
+        <p>
+          Le règlement s'effectue par virement, par paiement en ligne sécurisé
+          ou en espèces, dans les limites fixées par la loi.
         </p>
         <p>
           Le défaut de paiement aux dates convenues entraîne, après mise en
@@ -91,8 +108,9 @@ export default function CgvPage() {
           Toute demande de modification d'une réservation confirmée (dates,
           itinéraire, nombre de participants, prestations) doit être adressée
           par écrit à Exuma. Les modifications sont soumises à la disponibilité
-          des prestataires et peuvent entraîner des frais variables, qui
-          seront communiqués au Client avant validation.
+          des prestataires. Elles ne donnent pas lieu à des frais fixes : le
+          prix est ajusté selon l'évolution des tarifs à la date de la
+          modification, et communiqué au Client avant validation.
         </p>
       </LegalSection>
 
@@ -105,19 +123,27 @@ export default function CgvPage() {
         <LegalList
           items={[
             <>
-              Plus de 60 jours avant le départ :{" "}
-              <em>[à compléter — % du prix total]</em>
+              Plus de 60 jours avant le départ : aucun frais et remboursement
+              de l'acompte, sauf cas exceptionnel communiqué à l'émission du
+              devis ou du bulletin d'inscription
             </>,
-            <>De 60 à 31 jours avant le départ : <em>[à compléter]</em></>,
-            <>De 30 à 21 jours avant le départ : <em>[à compléter]</em></>,
-            <>De 20 à 8 jours avant le départ : <em>[à compléter]</em></>,
-            <>Moins de 8 jours avant le départ : 100 % du prix total</>,
+            <>
+              De 60 à 31 jours avant le départ : 30 % du prix total, sauf
+              indication contraire au devis ou au bulletin d'inscription
+            </>,
+            <>30 jours ou moins avant le départ : 100 % du prix total</>,
           ]}
         />
         <p>
           Certaines prestations (vols secs, hébergements à conditions
           particulières) peuvent faire l'objet de barèmes spécifiques
           communiqués au moment du devis.
+        </p>
+        <p>
+          Conformément à l'article L.211-14 du Code du tourisme, aucun frais
+          n'est dû lorsque des circonstances exceptionnelles et inévitables,
+          survenant au lieu de destination ou à proximité immédiate, ont des
+          conséquences importantes sur l'exécution du voyage.
         </p>
       </LegalSection>
 
@@ -165,7 +191,7 @@ export default function CgvPage() {
         </p>
       </LegalSection>
 
-      <LegalSection heading="10. Responsabilité">
+      <LegalSection heading="10. Responsabilité, assurance et garantie">
         <p>
           Exuma est responsable de plein droit à l'égard du Client de la bonne
           exécution des obligations résultant du contrat, conformément à
@@ -175,20 +201,24 @@ export default function CgvPage() {
           d'un tiers étranger à la fourniture des prestations, soit à un cas
           de force majeure.
         </p>
+        <p>
+          Exuma a souscrit une assurance de responsabilité civile
+          professionnelle auprès de Generali, 89 rue Taitbout, 75009 Paris, sous
+          le contrat n° AA 397 949. Les
+          fonds versés par le Client sont protégés en cas d'insolvabilité par
+          la garantie financière accordée par{" "}
+          <em>[à confirmer : nom et adresse de l'organisme garant]</em>.
+        </p>
       </LegalSection>
 
       <LegalSection heading="11. Réclamations et médiation">
         <p>
           Toute réclamation relative à un voyage doit être adressée par
-          courrier recommandé avec accusé de réception à Exuma —{" "}
-          {EXUMA_ADDRESS} — dans un délai de 30 jours suivant la fin du
-          voyage. À défaut d'une réponse satisfaisante dans un délai de 60
-          jours, le Client peut saisir le Médiateur du Tourisme et du Voyage
-          (MTV) :{" "}
-          <a href="https://www.mtv.travel" target="_blank" rel="noreferrer">
-            www.mtv.travel
-          </a>
-          .
+          courrier recommandé avec accusé de réception à Exuma, {EXUMA_ADDRESS},
+          dans un délai de 30 jours suivant la fin du voyage. À défaut d'une
+          réponse satisfaisante dans un délai de 60 jours, le Client peut saisir
+          gratuitement le médiateur de la consommation :{" "}
+          <em>[à compléter : médiateur auquel Exuma adhère]</em>.
         </p>
       </LegalSection>
 

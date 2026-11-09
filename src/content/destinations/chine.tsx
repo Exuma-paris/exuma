@@ -570,7 +570,7 @@ export const destination: Destination = {
             src: "/destination/chine/hero-1.webp",
             alt: "Voyage en Chine : la Grande Muraille suivant une crête boisée, au lever du jour"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Chine à deux, octobre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -581,7 +581,7 @@ export const destination: Destination = {
             src: "/destination/chine/hero-2.webp",
             alt: "Avant-toits sculptés et laqués d'un pavillon chinois traditionnel"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Chine en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -592,7 +592,7 @@ export const destination: Destination = {
             src: "/destination/chine/hero-3.webp",
             alt: "Rangées de guerriers de l'armée de terre cuite dans leur fosse, près de Xi'an"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Chine, novembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

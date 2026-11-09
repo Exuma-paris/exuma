@@ -614,7 +614,7 @@ export const destination: Destination = {
             src: "/destination/jordanie/hero-1.webp",
             alt: "Façade du Khazneh à Pétra au sortir du Siq lors d'un voyage en Jordanie"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Jordanie, Pétra et Wadi Rum, 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -625,7 +625,7 @@ export const destination: Destination = {
             src: "/destination/jordanie/hero-2.webp",
             alt: "Massifs de grès et sable rouge du désert du Wadi Rum en fin de journée"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Jordanie, mer Morte et route des Rois, 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -636,7 +636,7 @@ export const destination: Destination = {
             src: "/destination/jordanie/hero-3.webp",
             alt: "Dépôts de sel et eau immobile sur la rive jordanienne de la mer Morte"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Jordanie, désert et Aqaba, 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

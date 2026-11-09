@@ -52,7 +52,7 @@ export function TestimonialCard({
           {quote}
         </p>
         <div className="flex flex-col gap-0.5">
-          <p className="text-foreground">{name}</p>
+          {name ? <p className="text-foreground">{name}</p> : null}
           {role ? (
             <p className="text-[13px] text-secondary-foreground">{role}</p>
           ) : null}
