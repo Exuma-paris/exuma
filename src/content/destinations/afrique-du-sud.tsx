@@ -552,7 +552,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">À noter :</h4>
               <p>
-                TODO: les modalités exactes ont évolué à plusieurs reprises. Nous
+                {/* TODO: à vérifier */}
+                Les modalités exactes ont évolué à plusieurs reprises. Nous
                 vérifions la règle en vigueur au moment du départ et préparons
                 les documents avec vous.
               </p>
@@ -604,7 +605,7 @@ export const destination: Destination = {
             src: "/destination/afrique-du-sud/hero-1.webp",
             alt: "Table Mountain au-dessus de la baie du Cap au lever du jour, voyage en Afrique du Sud"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Le Cap, Cederberg et Thornybush, avril 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -615,7 +616,7 @@ export const destination: Destination = {
             src: "/destination/afrique-du-sud/hero-2.webp",
             alt: "Léopard sur une branche dans la réserve privée de Thornybush, Afrique du Sud"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Le Cap et Lowveld, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -626,7 +627,7 @@ export const destination: Destination = {
             src: "/destination/afrique-du-sud/hero-3.webp",
             alt: "Vue aérienne du Cap entre Table Mountain et l'océan à la tombée du jour"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Le Cap et Winelands, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

@@ -16,19 +16,40 @@ export function useProjectHref(): string {
   return projectHref(pathname?.match(/^\/destinations\/([^/]+)/)?.[1]);
 }
 
-export function ProjectCtaLink({
+/**
+ * Le libellé suit la page : une page qui parle d'un lieu ou d'une envie vend
+ * un voyage à créer, une page qui parle de la maison invite à le lui confier,
+ * et l'espace professionnels mène à son propre formulaire.
+ */
+const HOUSE_PAGES = /^\/(approche|a-propos|services)(\/|$)/;
+
+function useProjectCta(): { label: string; href: string } {
+  const pathname = usePathname() ?? "";
+  const href = useProjectHref();
+  if (/^\/professionnels(\/|$)/.test(pathname)) {
+    return {
+      label: "Confiez-nous vos déplacements",
+      href: "/professionnels/contact",
+    };
+  }
+  if (pathname === "/" || HOUSE_PAGES.test(pathname)) {
+    return { label: "Confiez-nous votre projet", href };
+  }
+  return { label: "Créer votre voyage", href };
+}
+
+/** Le bouton complet, libellé compris, pour les blocs présents sur tout le site. */
+export function ContextualProjectCta({
   className,
   onClick,
   eventId,
-  children,
 }: {
   className?: string;
   onClick?: () => void;
   /** Emplacement rapporté comme `buttonId` dans le dataLayer (`data-event-id`). */
   eventId?: string;
-  children: React.ReactNode;
 }) {
-  const href = useProjectHref();
+  const { label, href } = useProjectCta();
   return (
     <Link
       href={href}
@@ -36,7 +57,7 @@ export function ProjectCtaLink({
       className={className}
       data-event-id={eventId}
     >
-      {children}
+      {label}
     </Link>
   );
 }

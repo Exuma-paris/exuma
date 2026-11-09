@@ -576,7 +576,7 @@ export const destination: Destination = {
             src: "/destination/pays-bas/hero-1.webp",
             alt: "Anneau de canaux d'Amsterdam au petit matin, voyage aux Pays-Bas"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Amsterdam, La Haye et Delft, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -587,7 +587,7 @@ export const destination: Destination = {
             src: "/destination/pays-bas/hero-2.webp",
             alt: "Galerie d'honneur du Rijksmuseum avant l'ouverture au public, Amsterdam"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Amsterdam et la Veluwe, juin 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -598,7 +598,7 @@ export const destination: Destination = {
             src: "/destination/pays-bas/hero-3.webp",
             alt: "Allée de sable dans la forêt de la Veluwe traversée à vélo, Gueldre"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Amsterdam et le Limbourg, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

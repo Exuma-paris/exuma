@@ -332,7 +332,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Carte d&apos;identité ou passeport valide 6 mois. Aucun
+                {/* TODO: à vérifier */}
+                Carte d&apos;identité ou passeport valide 6 mois. Aucun
                 visa requis pour un séjour touristique de moins de 90 jours.
               </p>
               <h4 className="font-medium">L&apos;essentiel :</h4>
@@ -358,7 +359,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Aucun vaccin obligatoire. Vaccinations universelles à
+                {/* TODO: à vérifier */}
+                Aucun vaccin obligatoire. Vaccinations universelles à
                 jour recommandées. Eau du robinet potable.
               </p>
               <p>
@@ -382,7 +384,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Climat équatorial stable toute l&apos;année, chaleur et
+                {/* TODO: à vérifier */}
+                Climat équatorial stable toute l&apos;année, chaleur et
                 humidité constantes. Février à avril : mois les plus secs.
               </p>
               <p>
@@ -394,7 +397,8 @@ export const destination: Destination = {
               <p>
                 Le Grand Prix de Singapour se tient chaque année en septembre.
                 À réserver plusieurs mois à l&apos;avance pour l&apos;accès
-                paddock. // TODO: verify exact dates
+                paddock.
+                {/* TODO: verify exact dates */}
               </p>
             </div>
           ),
@@ -408,7 +412,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Dollar de Singapour (SGD). Carte bancaire largement
+                {/* TODO: à vérifier */}
+                Dollar de Singapour (SGD). Carte bancaire largement
                 acceptée. Pourboire non obligatoire, souvent inclus (service
                 charge de 10 %).
               </p>
@@ -434,7 +439,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Les citoyens français n&apos;ont pas besoin de visa pour
+                {/* TODO: à vérifier */}
+                Les citoyens français n&apos;ont pas besoin de visa pour
                 un séjour touristique de moins de 90 jours. Une carte
                 d&apos;arrivée électronique (SG Arrival Card) est à remplir
                 en ligne avant le vol.
@@ -476,7 +482,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Chewing-gum interdit à la vente, amendes pour détritus ou
+                {/* TODO: à vérifier */}
+                Chewing-gum interdit à la vente, amendes pour détritus ou
                 consommation dans le métro. Singapour reste l&apos;une des
                 villes les plus sûres du monde, de jour comme de nuit.
               </p>
@@ -498,7 +505,8 @@ export const destination: Destination = {
               <p>
                 Première course de nuit de l&apos;histoire de la Formule 1
                 depuis 2008. Le Marina Bay Street Circuit ferme une partie du
-                centre-ville pendant plusieurs jours. // TODO: verify dates
+                centre-ville pendant plusieurs jours.
+                {/* TODO: verify dates */}
               </p>
               <h4 className="font-medium">Avec Exuma :</h4>
               <p>

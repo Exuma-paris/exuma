@@ -74,7 +74,7 @@ export const sections: Section[] = [
           "Un appel ou un message suffit. Votre référent réserve, ajuste et suit chaque déplacement, sans que vous ayez à vous en occuper.",
         image: {
           src: "/professionnels/family-offices/poste-travail.jpg",
-          alt: "Un conseiller Exuma à son poste, dans les bureaux de l'agence",
+          alt: "Un conseiller Exuma à son poste, dans les bureaux d'Exuma",
         },
       },
       {

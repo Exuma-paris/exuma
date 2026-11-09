@@ -566,7 +566,7 @@ export const destination: Destination = {
             src: "/destination/anguilla/hero-1.webp",
             alt: "Voyage à Anguilla : sable blanc et eau turquoise de Shoal Bay East"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Anguilla en famille, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -577,7 +577,7 @@ export const destination: Destination = {
             src: "/destination/anguilla/hero-2.webp",
             alt: "Bateaux de pêche colorés amarrés dans la baie de Sandy Ground"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Anguilla à deux, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -588,7 +588,7 @@ export const destination: Destination = {
             src: "/destination/anguilla/hero-3.webp",
             alt: "Banc de sable désert de Sandy Island au large d'Anguilla"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Anguilla, février 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

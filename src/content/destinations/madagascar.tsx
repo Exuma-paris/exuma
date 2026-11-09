@@ -571,7 +571,7 @@ export const destination: Destination = {
             src: "/destination/madagascar/hero-1.webp",
             alt: "Lémurien sifaka dans la forêt sèche d'Anjajavy, voyage à Madagascar"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Anjajavy, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -582,7 +582,7 @@ export const destination: Destination = {
             src: "/destination/madagascar/hero-2.webp",
             alt: "Les cirques de latérite des Tsingy Rouges dans la vallée de l'Irodo, au nord d'Antsiranana"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Andasibe, octobre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -593,7 +593,7 @@ export const destination: Destination = {
             src: "/destination/madagascar/hero-3.webp",
             alt: "Plage et barrière de corail de Nosy Ankao, au large du nord-est malgache"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Nosy Ankao, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

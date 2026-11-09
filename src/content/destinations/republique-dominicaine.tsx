@@ -352,7 +352,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Passeport valide au moins six mois après la date de
+                {/* TODO: à vérifier */}
+                Passeport valide au moins six mois après la date de
                 retour. Carte de tourisme généralement incluse dans le billet
                 d&apos;avion pour un séjour touristique.
               </p>
@@ -379,7 +380,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Aucun vaccin obligatoire. Vaccinations universelles à
+                {/* TODO: à vérifier */}
+                Aucun vaccin obligatoire. Vaccinations universelles à
                 jour recommandées. Une protection antipaludique peut être
                 conseillée pour certaines zones rurales.
               </p>
@@ -405,7 +407,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Décembre à avril offre le meilleur compromis : saison
+                {/* TODO: à vérifier */}
+                Décembre à avril offre le meilleur compromis : saison
                 sèche, chaleur stable, peu de pluie. Janvier à mars ajoute
                 l&apos;observation des baleines à bosse dans la baie de
                 Samaná.
@@ -433,7 +436,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Peso dominicain (DOP). Les hôtels et resorts acceptent
+                {/* TODO: à vérifier */}
+                Peso dominicain (DOP). Les hôtels et resorts acceptent
                 largement le dollar américain et la carte bancaire ; prévoir
                 des espèces pour les petites adresses hors des zones
                 touristiques.
@@ -488,7 +492,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: La saison des ouragans s&apos;étend officiellement de
+                {/* TODO: à vérifier */}
+                La saison des ouragans s&apos;étend officiellement de
                 juin à novembre, avec un pic entre août et octobre. La
                 République dominicaine n&apos;est pas touchée chaque année,
                 mais le risque existe.
@@ -539,7 +544,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Les ressortissants français n&apos;ont pas besoin de
+                {/* TODO: à vérifier */}
+                Les ressortissants français n&apos;ont pas besoin de
                 visa pour un séjour touristique de moins de 30 jours. La
                 carte de tourisme est le plus souvent incluse dans le prix du
                 billet d&apos;avion.

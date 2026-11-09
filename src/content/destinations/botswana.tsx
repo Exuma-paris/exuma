@@ -573,7 +573,7 @@ export const destination: Destination = {
             src: "/destination/botswana/hero-1.webp",
             alt: "Mokoro glissant entre les papyrus du delta de l'Okavango, voyage au Botswana"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Okavango et Makgadikgadi, juillet 2024", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -584,7 +584,7 @@ export const destination: Destination = {
             src: "/destination/botswana/hero-2.webp",
             alt: "Éléphant et son petit dans un bras d'eau du delta de l'Okavango"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Botswana et chutes Victoria, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -595,7 +595,7 @@ export const destination: Destination = {
             src: "/destination/botswana/hero-3.webp",
             alt: "Baobabs de Baines au bord du pan blanc de Nxai, en saison sèche"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Moremi et Makgadikgadi, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

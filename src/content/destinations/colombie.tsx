@@ -330,7 +330,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Passeport valide au moins 6 mois après la date de
+                {/* TODO: à vérifier */}
+                Passeport valide au moins 6 mois après la date de
                 retour. Aucun visa requis pour un séjour touristique de
                 moins de 90 jours pour les ressortissants français.
               </p>
@@ -358,7 +359,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Aucun vaccin obligatoire pour Carthagène, Bogotá ou la
+                {/* TODO: à vérifier */}
+                Aucun vaccin obligatoire pour Carthagène, Bogotá ou la
                 Zone Café. Le vaccin contre la fièvre jaune est recommandé
                 pour certaines zones rurales et forestières, à prévoir
                 au moins dix jours avant le départ.
@@ -385,7 +387,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Décembre à mars offre le meilleur compromis pour
+                {/* TODO: à vérifier */}
+                Décembre à mars offre le meilleur compromis pour
                 Carthagène et la Zone Café : lumière franche, peu de pluie.
                 Juillet-août reste également favorable, et correspond à la
                 saison des baleines sur le Pacifique.
@@ -396,7 +399,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
-                TODO: Nous ajustons l&apos;ordre des étapes selon la saison
+                {/* TODO: à vérifier */}
+                Nous ajustons l&apos;ordre des étapes selon la saison
                 de départ, pour ne jamais faire coïncider une étape avec sa
                 période la moins favorable.
               </p>
@@ -412,7 +416,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Peso colombien (COP). Les grands hôtels et
+                {/* TODO: à vérifier */}
+                Peso colombien (COP). Les grands hôtels et
                 restaurants acceptent la carte ; les marchés et petites
                 adresses restent en espèces. Pourboire non obligatoire mais
                 apprécié dans les services privés.
@@ -513,7 +518,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Les ressortissants français bénéficient d&apos;une
+                {/* TODO: à vérifier */}
+                Les ressortissants français bénéficient d&apos;une
                 exemption de visa pour un séjour touristique de moins de
                 90 jours. Le passeport doit rester valide au moins 6 mois
                 après la date de retour prévue.

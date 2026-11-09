@@ -353,7 +353,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Passeport valide jusqu&apos;à la fin du séjour. Pas de
+                {/* TODO: à vérifier */}
+                Passeport valide jusqu&apos;à la fin du séjour. Pas de
                 visa nécessaire pour un séjour touristique de moins de 90
                 jours pour les ressortissants français.
               </p>
@@ -380,7 +381,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Aucun vaccin obligatoire. Vaccinations universelles à
+                {/* TODO: à vérifier */}
+                Aucun vaccin obligatoire. Vaccinations universelles à
                 jour. Le système hospitalier japonais figure parmi les plus
                 fiables au monde, y compris hors des grandes villes.
               </p>
@@ -406,7 +408,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: La période recommandée par notre équipe : fin mars à
+                {/* TODO: à vérifier */}
+                La période recommandée par notre équipe : fin mars à
                 début avril pour les cerisiers en fleur (hanami), ou
                 octobre-novembre pour les érables rouges (koyo).
               </p>
@@ -417,7 +420,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
-                TODO: Les dates de floraison des cerisiers varient chaque
+                {/* TODO: à vérifier */}
+                Les dates de floraison des cerisiers varient chaque
                 année de dix à quinze jours. Nous les suivons semaine par
                 semaine pour ajuster l&apos;itinéraire au dernier moment.
               </p>
@@ -433,7 +437,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Yen japonais (JPY). Le pays reste plus attaché au
+                {/* TODO: à vérifier */}
+                Yen japonais (JPY). Le pays reste plus attaché au
                 liquide que sa réputation technologique ne le laisse
                 supposer, en particulier hors de Tokyo. Pourboire absent et
                 mal perçu, y compris au restaurant.
@@ -543,7 +548,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: 1 € ≈ 160 yens. La carte bancaire est acceptée dans
+                {/* TODO: à vérifier */}
+                1 € ≈ 160 yens. La carte bancaire est acceptée dans
                 les grands hôtels et la plupart des restaurants de Tokyo et
                 Kyoto, mais reste moins systématique dans les petites
                 adresses et les zones rurales.

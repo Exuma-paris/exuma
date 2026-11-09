@@ -563,7 +563,7 @@ export const destination: Destination = {
             src: "/destination/fidji/hero-1.webp",
             alt: "Île des Fidji bordée de sable blanc et de récifs, vue du ciel"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Fidji, septembre 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -574,7 +574,7 @@ export const destination: Destination = {
             src: "/destination/fidji/hero-2.webp",
             alt: "Bures de chaume du village de Navala au pied des hautes terres de Viti Levu"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Fidji, îles privées, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -585,7 +585,7 @@ export const destination: Destination = {
             src: "/destination/fidji/hero-3.webp",
             alt: "Pêcheurs sur leur pirogue à balancier au lever du jour, aux Fidji"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Fidji, Yasawa, octobre 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

@@ -617,7 +617,7 @@ export const destination: Destination = {
             src: "/destination/maroc/hero-1.webp",
             alt: "Remparts et porte monumentale de la médina de Fès dans la lumière du matin"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Fès et Haut Atlas, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -628,7 +628,7 @@ export const destination: Destination = {
             src: "/destination/maroc/hero-2.webp",
             alt: "Sommets enneigés du Haut Atlas derrière une palmeraie et un mur de pisé"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Fès, Dadès et désert, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -639,7 +639,7 @@ export const destination: Destination = {
             src: "/destination/maroc/hero-3.webp",
             alt: "Palmeraie et ksar de terre au pied des falaises ocre du sud marocain"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Vallée du Dadès, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

@@ -9,6 +9,22 @@ export const EXUMA_EMAIL = "contact@exuma.paris";
 export const EXUMA_ADDRESS = "73 rue de Courcelles, 75008 Paris";
 export const EXUMA_HOURS = "Lundi au vendredi, 9h–19h. Visites sur rendez-vous.";
 
+/**
+ * Identité légale, reprise par les mentions légales et les CGV. « Exuma » est
+ * le nom commercial : la société qui contracte s'appelle GR Tourisme.
+ */
+export const EXUMA_LEGAL = {
+  name: "GR Tourisme",
+  form: "Société par actions simplifiée (SAS)",
+  capital: "20 000 €",
+  rcs: "383 919 669 R.C.S. Paris",
+  siren: "383 919 669",
+  siret: "383 919 669 00036",
+  vat: "FR31383919669",
+  atoutFrance: "IM075110295",
+  publicationDirector: "Loïc Gaudissard",
+} as const;
+
 /** Pre-built `tel:` href with whitespace stripped. */
 export const EXUMA_TEL_HREF = `tel:${EXUMA_PHONE.replace(/\s/g, "")}`;
 

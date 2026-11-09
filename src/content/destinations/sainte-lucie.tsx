@@ -553,7 +553,7 @@ export const destination: Destination = {
             src: "/destination/sainte-lucie/hero-1.webp",
             alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton au-dessus de la baie, vus depuis les hauteurs de Soufrière"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Sainte-Lucie, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -564,7 +564,7 @@ export const destination: Destination = {
             src: "/destination/sainte-lucie/hero-2.webp",
             alt: "La baie de Marigot vue du ciel, sa langue de sable plantée de cocotiers et les voiliers au mouillage"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Sainte-Lucie en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -575,7 +575,7 @@ export const destination: Destination = {
             src: "/destination/sainte-lucie/hero-3.webp",
             alt: "Barques de pêche colorées tirées sur le sable sombre d'une plage de Soufrière"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Sainte-Lucie, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

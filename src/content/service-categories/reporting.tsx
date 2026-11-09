@@ -112,7 +112,7 @@ export const serviceCategory: ServiceCategory = {
           ],
           image: {
             src: "/professionnels/family-offices/temoignage-bureau.jpg",
-            alt: "Un conseiller Exuma à son bureau, dans les locaux de l'agence",
+            alt: "Un conseiller Exuma à son bureau, dans les locaux d'Exuma",
           },
         },
         {

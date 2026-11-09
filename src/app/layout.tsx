@@ -33,12 +33,12 @@ const hedvigLettersSerif = Hedvig_Letters_Serif({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://exuma.example.com";
 
 const siteDescription =
-  "Exuma est une conciergerie de voyage. Un travel designer dédié conçoit, organise et veille sur chaque séjour, partout dans le monde.";
+  "Plus qu'une agence de voyage : une maison de conseils privée. Un interlocuteur de référence prend en charge vos voyages sur mesure et vos déplacements, depuis 1991.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Exuma | Conciergerie de Voyage Sur-Mesure",
+    default: "Exuma | Voyages sur mesure, maison de conseils privée",
     template: "%s | Exuma",
   },
   description: siteDescription,
@@ -48,12 +48,12 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Exuma",
     url: "/",
-    title: "Exuma | Conciergerie de Voyage Sur-Mesure",
+    title: "Exuma | Voyages sur mesure, maison de conseils privée",
     description: siteDescription,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Exuma | Conciergerie de Voyage Sur-Mesure",
+    title: "Exuma | Voyages sur mesure, maison de conseils privée",
     description: siteDescription,
   },
   robots: { index: true, follow: true },

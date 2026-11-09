@@ -592,7 +592,7 @@ export const destination: Destination = {
             src: "/destination/new-york/hero-1.webp",
             alt: "Le pont de Brooklyn et les tours du sud de Manhattan au soleil couchant, voyage à New York"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "New York, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -603,7 +603,7 @@ export const destination: Destination = {
             src: "/destination/new-york/hero-2.webp",
             alt: "Le pont de Manhattan encadré par les entrepôts de brique de Dumbo, à Brooklyn"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Broadway, décembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -614,7 +614,7 @@ export const destination: Destination = {
             src: "/destination/new-york/hero-3.webp",
             alt: "Enseignes lumineuses des théâtres de Broadway un soir d'hiver, Theater District"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Central Park, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

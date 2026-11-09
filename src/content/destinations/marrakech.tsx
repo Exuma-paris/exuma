@@ -434,7 +434,7 @@ export const destination: Destination = {
             src: "/destination/marrakech/hero-1.webp",
             alt: "Porte festonnée et étals de tapis et d'étoffes dans les souks de la médina de Marrakech",
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Séjour en couple, mars 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -445,7 +445,7 @@ export const destination: Destination = {
             src: "/destination/marrakech/hero-2.webp",
             alt: "Minaret de la Koutoubia devant les sommets enneigés du Haut Atlas, Marrakech",
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Voyage en famille, avril 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -456,7 +456,7 @@ export const destination: Destination = {
             src: "/destination/marrakech/hero-3.webp",
             alt: "Villa bleu Majorelle, bassin et cactus du jardin Majorelle, Marrakech",
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Escapade solo, novembre 2024", // TODO: à vérifier (replace with real testimonial)
         },
       ],

@@ -594,7 +594,7 @@ export const destination: Destination = {
             src: "/destination/indonesie/hero-1.webp",
             alt: "Rizières en terrasses au-dessus de la gorge de l'Ayung près d'Ubud, Bali, Indonésie"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Bali et Komodo en famille, juillet 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -605,7 +605,7 @@ export const destination: Destination = {
             src: "/destination/indonesie/hero-2.webp",
             alt: "Phinisi à voiles carguées mouillé devant les collines sèches du parc national de Komodo"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Indonésie, mai 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -616,7 +616,7 @@ export const destination: Destination = {
             src: "/destination/indonesie/hero-3.webp",
             alt: "Cavalier sumbanais sur la plage de Nihiwatu, côte ouest de Sumba au petit matin"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Bali et Sumba, septembre 2024", // TODO: à vérifier (replace with real testimonial)
         },
       ],

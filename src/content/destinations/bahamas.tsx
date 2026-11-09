@@ -557,7 +557,7 @@ export const destination: Destination = {
             src: "/destination/bahamas/hero-1.webp",
             alt: "Bancs de sable et eaux turquoise des Exuma Cays lors d'un voyage aux Bahamas"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Bahamas, Eleuthera et Harbour Island, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -568,7 +568,7 @@ export const destination: Destination = {
             src: "/destination/bahamas/hero-2.webp",
             alt: "Cochons nageurs dans les eaux peu profondes de Big Major Cay, aux Exumas"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Bahamas en famille, Exumas, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -579,7 +579,7 @@ export const destination: Destination = {
             src: "/destination/bahamas/hero-3.webp",
             alt: "Maisons de bois blanches et cocotiers d'un village des Bahamas"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Bahamas, Andros, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

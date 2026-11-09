@@ -109,6 +109,19 @@ export function ContactQuestionView({
           "J'accepte d'être recontacté par Exuma pour discuter de mon projet de voyage."
         }
       />
+      <p className="text-[13px] leading-5 text-secondary-foreground">
+        Vos réponses servent à traiter votre demande et sont réservées aux
+        équipes d&apos;Exuma. Pour connaître vos droits, consultez notre{" "}
+        <a
+          href="/confidentialite"
+          target="_blank"
+          rel="noreferrer"
+          className="underline"
+        >
+          politique de confidentialité
+        </a>
+        .
+      </p>
     </div>
   );
 }

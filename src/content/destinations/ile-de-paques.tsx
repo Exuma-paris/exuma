@@ -576,7 +576,7 @@ export const destination: Destination = {
             src: "/destination/ile-de-paques/hero-1.webp",
             alt: "Moai d'Ahu Tongariki au lever du jour sur l'île de Pâques"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Île de Pâques, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -587,7 +587,7 @@ export const destination: Destination = {
             src: "/destination/ile-de-paques/hero-2.webp",
             alt: "Cratère du Rano Kau et village de pierre d'Orongo au-dessus de l'océan"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Chili et Rapa Nui en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -598,7 +598,7 @@ export const destination: Destination = {
             src: "/destination/ile-de-paques/hero-3.webp",
             alt: "Baie d'Anakena et sa cocoteraie sur la côte nord de Rapa Nui"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Île de Pâques après la Patagonie, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

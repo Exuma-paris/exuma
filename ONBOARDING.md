@@ -9,7 +9,7 @@ Objectif : vous recevez deux fichiers d'installation, vous double-cliquez, vous 
 Il vous faut :
 
 1. Un ordinateur Windows 10 ou Windows 11.
-2. Un compte GitHub qui a accepte l'invitation au depot `RemiBootnow/exuma`.
+2. Un compte GitHub qui a accepte l'invitation au depot `Exuma-paris/exuma`.
 3. Un compte Claude compatible avec Claude Code.
 4. Le token `UNTITLED_UI_TOKEN` fourni par Remi pour installer les dependances privees.
 5. Une connexion internet stable.
@@ -175,3 +175,4 @@ Problemes frequents :
 - GitHub refuse l'acces : verifier que l'invitation au depot a bien ete acceptee.
 - `npm install` echoue sur `@untitledui-pro` : verifier le token `UNTITLED_UI_TOKEN` avec Remi.
 - Claude Code n'est pas reconnu juste apres installation : fermer et rouvrir Claude Code, ou redemarrer Windows.
+

@@ -373,7 +373,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Carte d&apos;identité ou passeport. Permis de conduire si
+                {/* TODO: à vérifier */}
+                Carte d&apos;identité ou passeport. Permis de conduire si
                 vous louez un véhicule (vivement recommandé).
               </p>
               <p>
@@ -382,7 +383,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">L&apos;essentiel :</h4>
               <p>
-                TODO: Tenue légère pour le littoral, chaussures de marche pour
+                {/* TODO: à vérifier */}
+                Tenue légère pour le littoral, chaussures de marche pour
                 les sentiers du maquis, lainage pour les soirées en altitude.
                 Crème solaire haute protection, anti-moustiques pour le maquis.
               </p>
@@ -404,7 +406,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Aucun vaccin obligatoire. Vaccinations universelles à
+                {/* TODO: à vérifier */}
+                Aucun vaccin obligatoire. Vaccinations universelles à
                 jour. Numéros d&apos;urgence européens (112) actifs partout sur
                 l&apos;île.
               </p>
@@ -429,7 +432,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: La période recommandée par notre équipe : mai-juin et
+                {/* TODO: à vérifier */}
+                La période recommandée par notre équipe : mai-juin et
                 septembre-mi-octobre. Mer entre 22 °C et 25 °C, lumière douce,
                 fréquentation modérée.
               </p>
@@ -440,7 +444,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
-                TODO: Festivals d&apos;été (Calvi on the Rocks, Festivoce de
+                {/* TODO: à vérifier */}
+                Festivals d&apos;été (Calvi on the Rocks, Festivoce de
                 Pigna), fêtes de village d&apos;août, à intégrer à
                 l&apos;itinéraire pour ceux qui aiment la culture vivante.
               </p>
@@ -456,7 +461,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                TODO: Euro. Paiement par carte largement accepté. Pourboire non
+                {/* TODO: à vérifier */}
+                Euro. Paiement par carte largement accepté. Pourboire non
                 obligatoire mais apprécié (5–10 % en restaurant).
               </p>
               <p>
@@ -465,7 +471,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Moyens de transport sur place :</h4>
               <p>
-                TODO: Voiture de location indispensable pour rayonner.
+                {/* TODO: à vérifier */}
+                Voiture de location indispensable pour rayonner.
                 Possibilité de bateau privé pour rejoindre les criques
                 inaccessibles par la route.
               </p>

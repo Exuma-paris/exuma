@@ -22,7 +22,7 @@ import {
   type MenuGroupKey,
   type MenuItem,
 } from "@/lib/content/menu-groups";
-import { ProjectCtaLink } from "@/components/blocks/project-cta-link";
+import { ContextualProjectCta } from "@/components/blocks/project-cta-link";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -220,13 +220,11 @@ function RootView({
 function MenuFooter({ onNavigate }: { onNavigate: () => void }) {
   return (
     <div className="flex flex-col gap-3 border-t border-border px-6 py-5">
-      <ProjectCtaLink
+      <ContextualProjectCta
         onClick={onNavigate}
         eventId="menu-create"
         className={buttonVariants({ variant: "secondary" })}
-      >
-        {menuCtas.primary.label}
-      </ProjectCtaLink>
+      />
       <Link
         href={menuCtas.contact.href}
         onClick={onNavigate}

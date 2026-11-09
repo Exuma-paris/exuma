@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-REPO_URL="https://github.com/RemiBootnow/exuma.git"
+REPO_URL="https://github.com/Exuma-paris/exuma.git"
 PROJECT_DIR="$HOME/Exuma"
 NODE_MAJOR="22"
 
@@ -115,3 +115,4 @@ echo "Pour travailler : ouvrez Claude Code puis ouvrez ce dossier."
 echo "Pour lancer le site : double-cliquez start-mac.command dans le dossier Exuma."
 echo ""
 read -r -p "Appuyez sur Entree pour fermer."
+

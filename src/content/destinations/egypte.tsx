@@ -576,7 +576,7 @@ export const destination: Destination = {
             src: "/destination/egypte/hero-1.webp",
             alt: "Felouques sur le Nil à Assouan en fin de journée, voyage en Égypte"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Le Caire, Louxor et Assouan, novembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -587,7 +587,7 @@ export const destination: Destination = {
             src: "/destination/egypte/hero-2.webp",
             alt: "Colonnes de la salle hypostyle de Karnak à contre-jour, Louxor"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Voyage de transmission, mars 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -598,7 +598,7 @@ export const destination: Destination = {
             src: "/destination/egypte/hero-3.webp",
             alt: "Baigneuse flottant sur le dos dans un lac salé turquoise de l'oasis de Siwa, Égypte"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Louxor rive ouest et dahabieh, février 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

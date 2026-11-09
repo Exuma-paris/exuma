@@ -4,7 +4,7 @@ export const theme: Theme = {
   slug: "iles-lagons",
   name: "Îles & lagons",
   blurb:
-    "Le séjour balnéaire, île par île. Ce qui sépare une côte d'une autre, et comment choisir.",
+    "Le sable noir de Seixal, les trente-trois plages d'Anguilla, le ciel de l'atoll de Noonu qui se lit au télescope. De loin, les îles se ressemblent. Le séjour balnéaire se choisit île par île, sur ce qui sépare vraiment une côte d'une autre.",
   intent:
     "L'intention est de trancher entre des îles qui se ressemblent de loin. Le texte doit donner un critère de choix concret, pas une atmosphère.",
   keywords: [

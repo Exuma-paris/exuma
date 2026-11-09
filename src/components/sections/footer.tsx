@@ -9,7 +9,7 @@ import {
 import { Logo } from "@/components/ui/logo";
 import { socialIcons } from "@/components/ui/social-icons";
 import { FooterNavGroup } from "@/components/sections/footer-nav-group";
-import { ProjectCtaLink } from "@/components/blocks/project-cta-link";
+import { ContextualProjectCta } from "@/components/blocks/project-cta-link";
 import { getMenuGroups, menuCtas, proLink } from "@/lib/content/menu-groups";
 import {
   EXUMA_ADDRESS,
@@ -21,7 +21,7 @@ import {
 import { cn } from "@/lib/utils";
 
 const tagline =
-  "Agence de voyage de luxe sur-mesure. Itinéraires confidentiels, conciergerie privée et accès privilégiés à travers le monde.";
+  "Maison de conseils privée dédiée aux déplacements. Un interlocuteur de référence, une discrétion sans exception, une seule mesure du succès : votre tranquillité.";
 
 const contact = {
   email: EXUMA_EMAIL,
@@ -144,12 +144,10 @@ export function Footer({ className }: { className?: string }) {
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
-          <ProjectCtaLink
+          <ContextualProjectCta
             eventId="footer-create"
             className="inline-flex items-center rounded-full bg-background px-6 py-3 text-[13px] tracking-wide text-foreground transition-opacity hover:opacity-80"
-          >
-            {menuCtas.primary.label}
-          </ProjectCtaLink>
+          />
           <Link
             href={menuCtas.contact.href}
             data-event-id="footer-write"
@@ -275,7 +273,7 @@ export function Footer({ className }: { className?: string }) {
 
       <Band className="flex flex-col gap-4 py-6 text-xs text-background/60 md:flex-row md:items-center md:justify-between">
         <p>
-          © {new Date().getFullYear()} Exuma, Agence de voyage de luxe. Tous
+          © {new Date().getFullYear()} Exuma, maison de conseils privée. Tous
           droits réservés.
         </p>
         <ul className="flex flex-wrap gap-x-6 gap-y-2">

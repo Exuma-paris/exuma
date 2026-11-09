@@ -599,7 +599,7 @@ export const destination: Destination = {
             src: "/destination/saint-barthelemy/hero-1.webp",
             alt: "Voyage à Saint-Barthélemy : l'anse de Colombier et ses voiliers au mouillage, vus depuis les rochers du sentier"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Saint-Barthélemy, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -610,7 +610,7 @@ export const destination: Destination = {
             src: "/destination/saint-barthelemy/hero-2.webp",
             alt: "La plage de Saint-Jean et le rocher de l'Eden Rock avec ses toits rouges, au milieu de la baie"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Saint-Barthélemy en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -621,7 +621,7 @@ export const destination: Destination = {
             src: "/destination/saint-barthelemy/hero-3.webp",
             alt: "Le port de Gustavia, ses yachts à quai et ses maisons aux toits rouges"
           },
-          name: "TODO", // TODO: replace with real testimonial
+          name: "", // TODO: replace with real testimonial
           role: "Saint-Barthélemy, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

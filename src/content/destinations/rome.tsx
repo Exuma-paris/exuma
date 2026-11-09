@@ -591,7 +591,7 @@ export const destination: Destination = {
             src: "/destination/rome/hero-1.webp",
             alt: "Toits et dômes de Rome au coucher du soleil, le Vittoriano à l'horizon",
           },
-          name: "TODO", // TODO: verify
+          name: "", // TODO: verify
           role: "Voyage en couple, mai 2025", // TODO: verify
         },
         {
@@ -602,7 +602,7 @@ export const destination: Destination = {
             src: "/destination/rome/hero-2.webp",
             alt: "Piazza di Santa Maria in Trastevere et sa fontaine, Rome",
           },
-          name: "TODO", // TODO: verify
+          name: "", // TODO: verify
           role: "Premier voyage en Italie, septembre 2025", // TODO: verify
         },
         {
@@ -613,7 +613,7 @@ export const destination: Destination = {
             src: "/destination/rome/hero-3.webp",
             alt: "Fontaine de Trevi au petit matin, avant l'arrivée des visiteurs",
           },
-          name: "TODO", // TODO: verify
+          name: "", // TODO: verify
           role: "Anniversaire de mariage, juin 2025", // TODO: verify
         },
       ],

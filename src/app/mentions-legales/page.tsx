@@ -7,6 +7,7 @@ import {
 import {
   EXUMA_ADDRESS,
   EXUMA_EMAIL,
+  EXUMA_LEGAL,
   EXUMA_PHONE,
 } from "@/lib/exuma";
 
@@ -22,32 +23,31 @@ export default function MentionsLegalesPage() {
     <LegalPage
       eyebrow="Informations légales"
       heading="Mentions légales"
-      updatedLabel="Mise à jour le 14 mai 2026"
+      updatedLabel="Mise à jour le 4 novembre 2026"
     >
       <LegalSection heading="Éditeur du site">
         <p>
           Le présent site <strong>exuma.paris</strong> est édité par la société{" "}
+          <strong>{EXUMA_LEGAL.name}</strong>, exerçant sous le nom commercial{" "}
           <strong>Exuma</strong>, dont les coordonnées sont les suivantes :
         </p>
         <LegalList
           items={[
-            <>Forme juridique : <em>[à compléter — SAS, SARL, etc.]</em></>,
-            <>Capital social : <em>[à compléter]</em> €</>,
+            <>Forme juridique : {EXUMA_LEGAL.form}</>,
+            <>Capital social : {EXUMA_LEGAL.capital}</>,
             <>Siège social : {EXUMA_ADDRESS}</>,
-            <>RCS : <em>[à compléter — RCS Paris n°]</em></>,
-            <>SIREN : <em>[à compléter]</em></>,
-            <>SIRET : <em>[à compléter]</em></>,
-            <>N° TVA intracommunautaire : <em>[à compléter — FR…]</em></>,
+            <>RCS : {EXUMA_LEGAL.rcs}</>,
+            <>SIREN : {EXUMA_LEGAL.siren}</>,
+            <>SIRET : {EXUMA_LEGAL.siret}</>,
+            <>N° TVA intracommunautaire : {EXUMA_LEGAL.vat}</>,
+            <>Immatriculation Atout France : {EXUMA_LEGAL.atoutFrance}</>,
             <>
-              Immatriculation Atout France :{" "}
-              <em>[à compléter — IM075…]</em>
+              Garant financier :{" "}
+              <em>[à confirmer : nom et adresse de l'organisme garant, montant de la garantie]</em>
             </>,
             <>
-              Garant financier : <em>[à compléter — APST / Groupama Assurance-Crédit]</em>
-            </>,
-            <>
-              Assurance responsabilité civile professionnelle :{" "}
-              <em>[à compléter — assureur, n° de police]</em>
+              Assurance responsabilité civile professionnelle : Generali, 89 rue
+              Taitbout, 75009 Paris, contrat n° AA 397 949
             </>,
             <>
               Téléphone :{" "}
@@ -58,18 +58,18 @@ export default function MentionsLegalesPage() {
             </>,
           ]}
         />
+        <p>Exuma fait partie du réseau Selectour.</p>
       </LegalSection>
 
       <LegalSection heading="Directeur de la publication">
-        <p>
-          <em>[à compléter — nom et qualité du directeur de la publication]</em>
-        </p>
+        <p>{EXUMA_LEGAL.publicationDirector}, dirigeant.</p>
       </LegalSection>
 
       <LegalSection heading="Hébergement">
         <p>
-          Le site est hébergé par <em>[à compléter — nom de l'hébergeur]</em>,{" "}
-          <em>[adresse]</em>, <em>[téléphone]</em>.
+          Le site est hébergé par <strong>Vercel Inc.</strong>, 440 N Barranca
+          Ave #4133, Covina, CA 91723, États-Unis{" "}
+          <em>[à compléter : téléphone de l'hébergeur]</em>.
         </p>
       </LegalSection>
 
