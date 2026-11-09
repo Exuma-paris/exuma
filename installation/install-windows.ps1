@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-$RepoUrl = "https://github.com/RemiBootnow/exuma.git"
+$RepoUrl = "https://github.com/Exuma-paris/exuma.git"
 $ProjectDir = Join-Path $HOME "Exuma"
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $SecretsFile = Join-Path $ScriptDir "exuma-secrets.env"
@@ -122,3 +122,4 @@ Write-Host "Pour lancer le site : double-cliquez start-windows.bat dans le dossi
 Write-Host ""
 Write-Host "Ouverture du dossier Exuma..."
 Start-Process explorer.exe $ProjectDir
+

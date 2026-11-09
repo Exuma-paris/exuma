@@ -19,7 +19,7 @@ Ne pas envoyer les fichiers Mac sauf besoin exceptionnel.
 
 ## Avant d'envoyer les fichiers
 
-1. Inviter l'utilisatrice au repo GitHub `RemiBootnow/exuma`.
+1. Inviter l'utilisatrice au repo GitHub `Exuma-paris/exuma`.
 2. Verifier qu'elle a accepte l'invitation.
 3. Verifier qu'elle a un compte Claude compatible avec Claude Code.
 4. Lui fournir `UNTITLED_UI_TOKEN`, soit oralement, soit via un fichier `exuma-secrets.env` non commite. Sans ce token, `npm install` ne peut pas installer `@untitledui-pro/icons`.
@@ -57,3 +57,4 @@ Tester avec un compte GitHub non-admin, proche du profil reel d'une redactrice :
 7. Ouvrir http://localhost:3000
 8. Lancer /publish sur une petite modification de test
 ```
+

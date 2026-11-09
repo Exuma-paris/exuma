@@ -102,9 +102,9 @@ Poll the GitHub deployments API for a deployment whose `sha` matches and whose l
 
 ```bash
 # Try this every 5s for the first 90s, then every 15s for 4 more min
-gh api "repos/RemiBootnow/exuma/deployments?sha=<HEAD_SHA>&per_page=10"
+gh api "repos/Exuma-paris/exuma/deployments?sha=<HEAD_SHA>&per_page=10"
 # For each deployment ID returned, check its latest status:
-gh api "repos/RemiBootnow/exuma/deployments/<DEPLOYMENT_ID>/statuses" \
+gh api "repos/Exuma-paris/exuma/deployments/<DEPLOYMENT_ID>/statuses" \
   --jq '.[0] | {state, environment_url, log_url}'
 ```
 
@@ -114,8 +114,8 @@ Look for a deployment status with `state == "success"` and a non-empty `environm
 
 ```bash
 for i in {1..18}; do  # 18 × 5s = 90s
-  URL=$(gh api "repos/RemiBootnow/exuma/deployments?sha=$SHA&per_page=5" \
-        --jq '.[].id' | head -1 | xargs -I{} gh api "repos/RemiBootnow/exuma/deployments/{}/statuses" \
+  URL=$(gh api "repos/Exuma-paris/exuma/deployments?sha=$SHA&per_page=5" \
+        --jq '.[].id' | head -1 | xargs -I{} gh api "repos/Exuma-paris/exuma/deployments/{}/statuses" \
         --jq 'map(select(.environment_url != null)) | .[0].environment_url')
   [ -n "$URL" ] && break
   sleep 5
@@ -163,8 +163,8 @@ Run `git rev-parse --abbrev-ref HEAD`.
 Get the PR's head SHA. Poll the deployments API (same as preview step 6) for the latest deployment status:
 
 ```bash
-gh api "repos/RemiBootnow/exuma/deployments?sha=<PR_HEAD_SHA>&per_page=5" \
-  --jq '.[].id' | head -1 | xargs -I{} gh api "repos/RemiBootnow/exuma/deployments/{}/statuses" \
+gh api "repos/Exuma-paris/exuma/deployments?sha=<PR_HEAD_SHA>&per_page=5" \
+  --jq '.[].id' | head -1 | xargs -I{} gh api "repos/Exuma-paris/exuma/deployments/{}/statuses" \
   --jq '.[0] | {state, environment_url}'
 ```
 
@@ -199,7 +199,7 @@ Two steps, in order:
 
 ```bash
 gh pr merge <PR_NUMBER> --squash
-gh api -X DELETE "repos/RemiBootnow/exuma/git/refs/heads/<BRANCH_NAME>"
+gh api -X DELETE "repos/Exuma-paris/exuma/git/refs/heads/<BRANCH_NAME>"
 ```
 
 **Do NOT pass `--delete-branch` to `gh pr merge`.** That flag triggers a local-checkout phase (gh tries to `git checkout main` to delete the local branch) which fails in worktrees where `main` is checked out elsewhere — and the failure aborts the remote-branch delete too, leaving the merged branch lingering on origin. Calling the API delete ourselves bypasses gh's local cleanup entirely.
@@ -264,8 +264,9 @@ Re-fetch and display the preview URL for the current branch's PR. Used when the 
 
 - Do NOT run `git push --force` under any circumstances.
 - Do NOT push directly to `main`.
-- Do NOT delete branches other than via `gh pr merge --delete-branch` (which only deletes the merged feature branch).
+- Delete only the merged PR's remote feature branch, via the API after a successful merge as described in Step 4. Never delete `main` or unrelated branches, and do not pass `--delete-branch` to `gh pr merge`.
 - Do NOT modify branch protection or repo settings.
 - Do NOT run the dev server (`npm run dev`) as part of publish — Vercel's preview build is the only verification needed.
 - Do NOT run TypeScript checks locally (`tsc --noEmit`) — Vercel's build will catch type errors and surface them as a failed preview. Catching them locally adds latency for no gain.
 - Do NOT touch `.github/`, `.claude/settings.json`, `package.json`, or any infrastructure config from inside this skill. If the writer asks to change those, redirect to Rémi.
+
