@@ -628,7 +628,7 @@ export const destination: Destination = {
       contact: {
         prefix: "Besoin d'un renseignement ? ",
         label: "Contactez votre travel designer",
-        href: "/contact",
+        href: "/nous-ecrire",
         suffix: " pour une réponse personnalisée.",
       },
       items: [

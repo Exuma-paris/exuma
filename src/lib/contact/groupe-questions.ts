@@ -33,6 +33,14 @@ export function getGroupeQuestions(): Question[] {
         "Un pays, une ville, ou juste une intention. Écrivez-le comme vous nous le diriez.",
       label: "Votre destination",
       index: buildDestinationIndex(),
+      suggestions: [
+        "maroc",
+        "portugal",
+        "italie",
+        "espagne",
+        "emirats-arabes-unis",
+        "islande",
+      ],
     },
     {
       // Après la destination et avant la période, exactement comme sur le

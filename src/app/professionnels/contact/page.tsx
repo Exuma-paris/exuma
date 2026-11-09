@@ -23,6 +23,7 @@ export default async function ContactProPage({
   return (
     <ContactFlow
       questions={getLudivineQuestions()}
+      product="pro-contact"
       initialAnswers={proInitialAnswers(profil)}
       contactCta={{
         label: "Contactez-nous",

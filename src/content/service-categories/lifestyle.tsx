@@ -67,7 +67,7 @@ export const serviceCategory: ServiceCategory = {
         "Ces prestations existent et se réservent. Le travail n'est pas d'en connaître le secret, c'est de savoir laquelle vaut le détour, de la placer au bon endroit dans votre séjour, et de vérifier qui va vous accompagner.",
         "Nous nous en occupons avant le départ, pas sur place. Vous arrivez, on vous attend, et vous n'avez ni réservation à confirmer, ni matériel à louer, ni horaire à surveiller.",
       ],
-      cta: { label: "Nous dire ce qui vous fait envie", href: "/contact" },
+      cta: { label: "Nous dire ce qui vous fait envie", href: "/votre-projet" },
     },
 
     {

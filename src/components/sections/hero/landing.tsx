@@ -135,6 +135,7 @@ function BrandContent({
       <Link
         href={cta.href}
         className={cn(buttonVariants(), "bg-foreground text-background")}
+        data-event-id="landing-hero-create"
       >
         {cta.label}
       </Link>
@@ -407,6 +408,8 @@ export function HeroLanding({
             discover ? (
               <IconPillButton
                 onClick={() => setDiscoverOpen(true)}
+                eventButton="click_secondary, click_discover"
+                eventId="landing-discover"
                 className="absolute bottom-6 left-1/2 z-20 -translate-x-1/2 md:hidden"
               >
                 {floatingCta.label}
@@ -438,7 +441,11 @@ export function HeroLanding({
               {floatingCta ? (
                 <div className="pointer-events-auto mb-16 ml-auto self-end">
                   {discover ? (
-                    <IconPillButton onClick={() => setDiscoverOpen(true)}>
+                    <IconPillButton
+                      onClick={() => setDiscoverOpen(true)}
+                      eventButton="click_secondary, click_discover"
+                      eventId="landing-discover"
+                    >
                       {floatingCta.label}
                     </IconPillButton>
                   ) : (

@@ -5,7 +5,7 @@ import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { FeatureCardsSection } from "@/components/sections/feature-cards";
 import { getServiceLineup } from "@/lib/content/service-lineup";
-import { EXUMA_TEL_HREF } from "@/lib/exuma";
+import { EXUMA_PHONE, EXUMA_TEL_HREF } from "@/lib/exuma";
 import type { Section } from "@/lib/content/types";
 
 export const metadata: Metadata = {
@@ -63,13 +63,23 @@ function ContactSlot() {
         Nos services vous intéressent ? Prenons contact.
       </p>
       <div className="flex flex-col items-start gap-3">
+        {/* Le formulaire court en premier : la demande arrive écrite et se
+            mesure. Le numéro reste juste dessous pour qui préfère appeler. */}
         <Link
-          href={EXUMA_TEL_HREF}
+          href="/nous-ecrire"
+          data-event-id="services-write"
           className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-[13px] tracking-wide text-background transition-opacity hover:opacity-75"
         >
-          <Phone aria-hidden className="size-4" />
-          Contacter Exuma
+          Nous écrire
         </Link>
+        <a
+          href={EXUMA_TEL_HREF}
+          data-event-id="services-phone"
+          className="inline-flex items-center gap-2 text-[13px] tracking-wide text-secondary-foreground transition-colors hover:text-foreground"
+        >
+          <Phone aria-hidden className="size-4" />
+          {EXUMA_PHONE}
+        </a>
         {/* Porte B2B, au même endroit que sur les cinq pages catégorie. */}
         <Link
           href="/professionnels"

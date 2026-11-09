@@ -21,6 +21,16 @@ export function getGeneralContactQuestions(): Question[] {
         "Un pays, une région, ou juste une envie encore floue. Écrivez-le comme vous nous le diriez.",
       label: "Votre destination",
       index: buildDestinationIndex(),
+      // Proposées tant que rien n'est tapé : un geste suffit pour les
+      // destinations les plus demandées.
+      suggestions: [
+        "polynesie",
+        "japon",
+        "maldives",
+        "italie",
+        "seychelles",
+        "afrique-du-sud",
+      ],
     },
     {
       id: "travelers",

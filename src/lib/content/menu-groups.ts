@@ -37,9 +37,11 @@ export const proLink: MenuItem & { eyebrow: string } = {
 };
 
 /** Pinned in the menu footer: the header CTAs are `hidden md:inline-flex`,
- * so on mobile these are the only conversion paths on the whole site. */
+ * so on mobile these are the only conversion paths on the whole site.
+ * « Contactez-nous » ouvre le formulaire court (trois écrans) plutôt que la
+ * page de coordonnées : la demande arrive écrite et se mesure. */
 export const menuCtas: { contact: MenuItem; primary: MenuItem } = {
-  contact: { label: "Contactez-nous", href: "/contact" },
+  contact: { label: "Contactez-nous", href: "/nous-ecrire" },
   primary: { label: "Créer votre voyage", href: "/votre-projet" },
 };
 

@@ -49,7 +49,14 @@ export type CalendarMonth = {
 
 export type CalendarQuestion = QuestionBase & {
   type: "calendar";
+  /**
+   * Palette météo par mois de l'année : seul le mois de l'identifiant compte
+   * (`05`, ou `2026-05`). Les mois affichés sont générés à l'affichage, à
+   * partir du mois courant, pour ne jamais proposer une période passée.
+   */
   months: CalendarMonth[];
+  /** Nombre de mois proposés à partir du mois courant. Douze par défaut. */
+  horizonMonths?: number;
   noPreferenceLabel?: string;
 };
 
@@ -104,6 +111,12 @@ export type DestinationQuestion = QuestionBase & {
    * and hotel body to the browser to match a few names would be absurd.
    */
   index: DestinationIndexEntry[];
+  /**
+   * Slugs mis en avant tant que le champ est vide : quelques destinations
+   * qu'on choisit d'un geste plutôt que de les taper. Résolus contre `index`,
+   * un slug inconnu est ignoré.
+   */
+  suggestions?: string[];
 };
 
 /**
@@ -170,7 +183,8 @@ export type Question =
   | CountQuestion;
 
 export type ContactAnswer = {
-  name: string;
+  firstName: string;
+  lastName: string;
   company: string;
   email: string;
   phoneCountry: string;
@@ -241,7 +255,8 @@ export function emptyAnswer(question: Question): Answer {
       return {
         type: "contact",
         value: {
-          name: "",
+          firstName: "",
+          lastName: "",
           company: "",
           email: "",
           phoneCountry: "FR",
@@ -263,6 +278,20 @@ export function emptyAnswer(question: Question): Answer {
 }
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+export function isValidEmail(email: string): boolean {
+  return EMAIL_REGEX.test(email.trim());
+}
+
+/**
+ * Six à quinze chiffres une fois les espaces, points et tirets retirés : assez
+ * large pour un numéro étranger, assez strict pour écarter une frappe
+ * incomplète.
+ */
+export function isValidPhone(phone: string): boolean {
+  const digits = phone.replace(/\D/g, "");
+  return digits.length >= 6 && digits.length <= 15;
+}
 
 export function isAnswered(question: Question, answer: Answer | undefined): boolean {
   if (!answer) return false;
@@ -308,9 +337,10 @@ export function isAnswered(question: Question, answer: Answer | undefined): bool
       if (answer.type !== "contact") return false;
       const v = answer.value;
       return (
-        v.name.trim().length > 0 &&
-        EMAIL_REGEX.test(v.email) &&
-        v.phone.trim().length > 0
+        v.firstName.trim().length > 0 &&
+        v.lastName.trim().length > 0 &&
+        isValidEmail(v.email) &&
+        isValidPhone(v.phone)
       );
     }
   }

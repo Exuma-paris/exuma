@@ -141,7 +141,8 @@ export function Header({
             <Search className="size-5" />
           </Button>
           <Link
-            href="/contact"
+            href="/nous-ecrire"
+            data-event-id="header-write"
             className={cn(
               buttonVariants({ variant: "ghost" }),
               "hidden md:inline-flex",
@@ -151,6 +152,7 @@ export function Header({
           </Link>
           <Link
             href={createHref}
+            data-event-id="header-create"
             className={cn(
               buttonVariants({ variant: "secondary" }),
               "hidden md:inline-flex",

@@ -81,7 +81,7 @@ export const serviceCategory: ServiceCategory = {
         "Nous choisissons vos vols pour ce qu'ils vous coûtent en fatigue, pas seulement en durée. Un départ en fin de matinée plutôt qu'à l'aube, une escale qui laisse le temps de respirer, une cabine où vous dormirez vraiment. Quand aucune ligne régulière ne répond, nous affrétons.",
         "À l'arrivée, quelqu'un vous attend, connaît votre nom et votre adresse. Vous n'avez rien à chercher, rien à négocier, rien à porter. Le voyage commence là où d'ordinaire commence l'attente.",
       ],
-      cta: { label: "Parler de votre prochain départ", href: "/contact" },
+      cta: { label: "Parler de votre prochain départ", href: "/votre-projet" },
     },
 
     {

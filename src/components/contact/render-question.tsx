@@ -74,7 +74,8 @@ export function RenderQuestion({
             a.type === "contact"
               ? a.value
               : {
-                  name: "",
+                  firstName: "",
+                  lastName: "",
                   company: "",
                   email: "",
                   phoneCountry: "FR",

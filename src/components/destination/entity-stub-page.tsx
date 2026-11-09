@@ -37,7 +37,7 @@ export function EntityStubPage({
             Créer votre voyage
           </Link>
           <Link
-            href="/contact"
+            href="/nous-ecrire"
             className={cn(buttonVariants({ variant: "secondary" }))}
           >
             Contactez-nous

@@ -222,11 +222,13 @@ function MenuFooter({ onNavigate }: { onNavigate: () => void }) {
     <div className="flex flex-col gap-3 border-t border-border px-6 py-5">
       <ContextualProjectCta
         onClick={onNavigate}
+        eventId="menu-create"
         className={buttonVariants({ variant: "secondary" })}
       />
       <Link
         href={menuCtas.contact.href}
         onClick={onNavigate}
+        data-event-id="menu-write"
         className={buttonVariants({ variant: "ghost" })}
       >
         {menuCtas.contact.label}

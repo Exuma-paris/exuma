@@ -64,14 +64,22 @@ export default function Home() {
             cta={
               <div className="flex flex-col items-center gap-5">
                 <div className="flex flex-wrap items-center justify-center gap-3">
+                  {/* Le hero est en thème sombre : `bg-foreground text-background`
+                      y donne le bouton blanc à texte sombre de la landing. */}
                   <Link
                     href="/votre-projet"
-                    className={cn(buttonVariants({ variant: "secondary" }))}
+                    data-event-id="home-hero-create"
+                    className={cn(buttonVariants(), "bg-foreground text-background")}
                   >
                     Confiez-nous votre projet
                   </Link>
+                  {/* Vers le formulaire court plutôt que la page de coordonnées :
+                      « parler » à quelqu'un, c'est lui écrire trois réponses, et
+                      la demande est mesurée. Le téléphone reste dans l'en-tête
+                      du formulaire. */}
                   <Link
-                    href="/contact"
+                    href="/nous-ecrire"
+                    data-event-id="home-hero-write"
                     className={cn(buttonVariants({ variant: "outline" }))}
                   >
                     Parler à un conseiller
@@ -213,7 +221,7 @@ export default function Home() {
           contact={{
             prefix: "Une question qui n'est pas ici ? ",
             label: "Écrivez-nous",
-            href: "/contact",
+            href: "/nous-ecrire",
             suffix: ", nous répondons nous-mêmes.",
           }}
           items={[

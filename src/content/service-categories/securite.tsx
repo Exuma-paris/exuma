@@ -75,7 +75,7 @@ export const serviceCategory: ServiceCategory = {
         "Nous préparons donc ce qui n'arrivera probablement pas. Les contacts utiles sur place, les cliniques habituées aux patients étrangers, ce que couvre vraiment votre carte bancaire, et le numéro qui décroche quand le vôtre ne suffit plus.",
         "Et si quelque chose arrive, vous n'avez qu'un appel à passer. C'est nous qui parlons à l'assurance, à la clinique, à la compagnie et au consulat, pas vous depuis une chambre d'hôtel à trois heures du matin.",
       ],
-      cta: { label: "Préparer votre prochain départ", href: "/contact" },
+      cta: { label: "Préparer votre prochain départ", href: "/votre-projet" },
     },
 
     {

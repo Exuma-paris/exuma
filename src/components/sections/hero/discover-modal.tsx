@@ -144,6 +144,7 @@ export function DiscoverModal({
           {!lightboxItem && bottomCta ? (
             <Link
               href={bottomCta.href}
+              data-event-id="discover-modal-create"
               className={cn(
                 buttonVariants(),
                 "absolute bottom-6 left-1/2 z-30 -translate-x-1/2 bg-foreground text-background shadow-deep",
@@ -187,6 +188,8 @@ export function DiscoverModal({
                     key={item.id}
                     type="button"
                     onClick={() => setLightboxIndex(i)}
+                    data-event-button="click_item"
+                    data-event-id={item.id}
                     className="group/discover-card mb-8 flex w-full cursor-pointer flex-col gap-3 break-inside-avoid text-left outline-none focus-visible:ring-3 focus-visible:ring-ring/50 md:mb-6"
                   >
                     <div
@@ -277,6 +280,7 @@ function LightboxView({
           {cta ? (
             <Link
               href={cta.href}
+              data-event-id="discover-lightbox-create"
               className={cn(buttonVariants({ variant: "outline" }), "mt-4")}
             >
               {cta.label}

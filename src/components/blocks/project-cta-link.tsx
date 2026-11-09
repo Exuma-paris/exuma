@@ -42,13 +42,21 @@ function useProjectCta(): { label: string; href: string } {
 export function ContextualProjectCta({
   className,
   onClick,
+  eventId,
 }: {
   className?: string;
   onClick?: () => void;
+  /** Emplacement rapporté comme `buttonId` dans le dataLayer (`data-event-id`). */
+  eventId?: string;
 }) {
   const { label, href } = useProjectCta();
   return (
-    <Link href={href} onClick={onClick} className={className}>
+    <Link
+      href={href}
+      onClick={onClick}
+      className={className}
+      data-event-id={eventId}
+    >
       {label}
     </Link>
   );

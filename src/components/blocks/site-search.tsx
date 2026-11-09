@@ -38,6 +38,7 @@ import {
   entityRoute,
   type EntityKind,
 } from "@/lib/content/types";
+import { pushDataLayer } from "@/lib/analytics/datalayer";
 import { cn } from "@/lib/utils";
 
 const KIND_LABEL: Record<EntityKind, string> = {
@@ -123,6 +124,17 @@ export function SiteSearch({
       return () => clearTimeout(timer);
     }
   }, [open]);
+
+  // `search` : le terme tapé, 800 ms après la dernière frappe, pour savoir ce
+  // que les visiteurs cherchent (et ne trouvent pas) sur le site.
+  useEffect(() => {
+    const term = query.trim().toLowerCase().slice(0, 50);
+    if (!term) return;
+    const timer = setTimeout(() => {
+      pushDataLayer({ event: "search", search_term: term, search_type: "site" });
+    }, 800);
+    return () => clearTimeout(timer);
+  }, [query]);
 
   const go = (href: string) => {
     onOpenChange(false);
