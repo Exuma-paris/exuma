@@ -1,3 +1,4 @@
+import { HONEYPOT_FIELD } from "@/lib/contact/submit";
 import { isValidEmail, isValidPhone } from "@/lib/contact/types";
 
 /**
@@ -9,6 +10,11 @@ import { isValidEmail, isValidPhone } from "@/lib/contact/types";
  * Le corps attendu est un `ContactSubmission` (voir `lib/contact/submit.ts`).
  * On vérifie ici le minimum qui rend une demande exploitable : un formulaire
  * identifié et des coordonnées complètes. Le reste part tel quel.
+ *
+ * Une demande dont le champ piège est rempli vient d'un robot : on répond
+ * comme si tout allait bien, sans rien relayer, pour ne pas lui apprendre
+ * quoi corriger. La limite de débit, elle, se règle dans le pare-feu Vercel
+ * (règle sur `/api/contact`), pas ici.
  */
 
 const PRODUCT_PATTERN = /^[a-z0-9-]{2,40}$/;
@@ -18,6 +24,7 @@ const WEBHOOK_TIMEOUT_MS = 8_000;
 
 type Submission = {
   product?: unknown;
+  [HONEYPOT_FIELD]?: unknown;
   contact?: {
     first_name?: unknown;
     last_name?: unknown;
@@ -44,6 +51,12 @@ export async function POST(request: Request) {
   } catch {
     return Response.json({ error: "invalid_json" }, { status: 400 });
   }
+
+  if (isNonEmptyString(body[HONEYPOT_FIELD])) {
+    console.warn("[contact] champ piège rempli, demande ignorée");
+    return Response.json({ ok: true });
+  }
+  delete body[HONEYPOT_FIELD];
 
   const problem = validate(body);
   if (problem) {

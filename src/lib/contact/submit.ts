@@ -80,11 +80,22 @@ export class SubmissionError extends Error {
  * Lève en cas d'échec : c'est au formulaire de garder les réponses et de
  * proposer de réessayer, jamais de rediriger vers la page merci.
  */
-export async function submitContact(submission: ContactSubmission): Promise<void> {
+/**
+ * Nom du champ piège du formulaire : un champ invisible qu'un visiteur ne
+ * remplit jamais et qu'un robot remplit toujours. La route serveur ignore en
+ * silence toute demande où il est rempli. Le nom évite les mots que les
+ * navigateurs complètent d'eux-mêmes (e-mail, téléphone, adresse).
+ */
+export const HONEYPOT_FIELD = "company_fax";
+
+export async function submitContact(
+  submission: ContactSubmission,
+  honeypot = "",
+): Promise<void> {
   const response = await fetch("/api/contact", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(submission),
+    body: JSON.stringify({ ...submission, [HONEYPOT_FIELD]: honeypot }),
     // L'envoi survit à la navigation qui suit, au cas où elle partirait tôt.
     keepalive: true,
   });
