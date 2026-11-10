@@ -9,6 +9,8 @@
  * cible que des pages techniques de WordPress. Le détail (valeur SEO, notes) est dans
  * le plan de redirection remis avec l'audit SEO.
  *
+ * `/contact` n'est pas redirigée : la page existe sur le nouveau site (coordonnées).
+ *
  * Next.js applique la première entrée qui correspond : les entrées explicites passent
  * avant les règles génériques. Les anciennes URL se terminent par un slash, que
  * Next.js retire d'abord (308) avant d'appliquer la 301.
@@ -72,7 +74,6 @@ const explicit = [
   ["/category/non-classe", "/"],
   ["/cerisiers-japonais-en-fleur-pays-sakura", "/destinations/japon"],
   ["/chine-sauvage-rencontre-avec-les-pandas-geants-de-sichuan", "/destinations/chine"],
-  ["/contact", "/nous-ecrire"],
   ["/continents/iles-et-oceanie", "/continents/iles-oceanie"],
   ["/continents/proche-et-moyen-orient", "/continents/proche-orient"],
   ["/copenhague-insolite-secret-nos-adresses-confidentielles", "/destinations/danemark"],
