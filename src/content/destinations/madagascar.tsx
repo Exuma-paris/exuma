@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à Madagascar ?",
-      heading: "Carole, spécialiste de Madagascar, vous partage son expérience",
+      heading: "Carole, spécialiste de Madagascar, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

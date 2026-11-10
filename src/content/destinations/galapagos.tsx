@@ -53,7 +53,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir aux Galápagos ?",
       heading:
-        "Tainà, spécialiste des Galápagos, vous partage son expérience",
+        "Tainà, spécialiste des Galápagos, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina",

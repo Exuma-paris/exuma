@@ -141,7 +141,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur si vous partez en hiver",
         heading: "Une matinée sur le glacier, une heure sous la glace",
         columns: [
-          "Le départ se fait en fin de matinée, depuis le bord du Mýrdalsjökull. Un véhicule tout-terrain monte jusqu'au plateau, puis chacun prend une motoneige. En haut, il n'y a plus de repère : ni arbre, ni rocher, ni bâtiment. On roule une heure sur une étendue blanche, avec un guide devant et un guide derrière. Par temps clair, on aperçoit la côte et la mer en contrebas. Le groupe reste privé et l'heure de départ se choisit avec le guide, la veille au soir.", // TODO: verify glacier et opérateur retenus
+          "Le départ se fait en fin de matinée, depuis le bord du Mýrdalsjökull. Un véhicule tout-terrain monte jusqu'au plateau, puis chacun prend une motoneige. En haut, il n'y a plus de repère : ni arbre, ni rocher, ni bâtiment. On roule une heure sur une étendue blanche, avec un guide devant et un guide derrière. Par temps clair, on aperçoit la côte et la mer en contrebas. Le groupe reste privé, avec un guide qui ajuste la sortie à la météo du jour.",
           "L'après-midi se passe sous la glace. On descend dans une grotte creusée par l'eau de fonte, équipé de crampons et d'un casque. La lumière y est bleue, parce que la glace comprimée ne laisse plus passer que cette couleur. Des bandes noires traversent les parois. Ce sont des couches de cendre, déposées par les éruptions passées, puis recouvertes par la neige des hivers suivants. Chaque bande correspond à une éruption. Le guide sait les dater.",
         ],
       },
@@ -178,7 +178,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur si vous partez en été",
         heading: "Une journée à Landmannalaugar, dans les montagnes de couleur",
         columns: [
-          "La piste des Hautes Terres n'ouvre qu'entre la mi-juin et le début juillet, selon la fonte, et ne se pratique qu'en super jeep. Le départ se fait tôt depuis Hvolsvöllur. On traverse des rivières à gué et des déserts de cendre noire, puis la vallée s'ouvre sur des montagnes de rhyolite striées d'ocre, de rouge, de vert et de bleu. Aucun village, aucune route goudronnée : seulement un refuge et quelques tentes.", // TODO: verify opérateur retenu
+          "La piste des Hautes Terres n'ouvre qu'entre la mi-juin et le début juillet, selon la fonte, et nous la faisons en super jeep. Le départ se fait tôt, depuis la côte sud. On traverse des rivières à gué et des déserts de cendre noire, puis la vallée s'ouvre sur des montagnes de rhyolite striées d'ocre, de rouge, de vert et de bleu. Aucun village, aucune route goudronnée : seulement un refuge et quelques tentes.",
           "On marche ensuite deux ou trois heures avec le guide, entre la coulée d'obsidienne de Laugahraun et les crêtes de Brennisteinsalda, où la terre fume encore. Le retour se fait par la source chaude, au pied du camp : une rivière tiède où un courant chaud rejoint un courant froid, et où l'on se baigne en plein air face aux montagnes. La piste referme à la mi-septembre.",
         ],
       },

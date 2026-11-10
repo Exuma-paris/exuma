@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir aux Bahamas ?",
-      heading: "Carole, spécialiste des Bahamas, vous partage son expérience",
+      heading: "Carole, spécialiste des Bahamas, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

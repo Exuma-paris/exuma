@@ -54,7 +54,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Monténégro ?",
       heading:
-        "Stéphane, spécialiste du Monténégro, vous partage son expérience",
+        "Stéphane, spécialiste du Monténégro, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

@@ -31,7 +31,7 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe en Tanzanie",
       heading: "En Tanzanie, le Serengeti occidental à l'écart des circuits habituels",
       description:
-        "Le Serengeti couvre 14 763 km². Sa partie occidentale, la concession de Grumeti, est opérée par un acteur unique et reste peu fréquentée. La migration y franchit la rivière avant de rejoindre le Kenya. Nous travaillons ce secteur depuis dix ans.", // TODO: verify surface de la concession de Grumeti
+        "Le Serengeti couvre 14 763 km². À l'ouest, le long du corridor occidental, la concession de Grumeti est opérée par un acteur unique et reste peu fréquentée. La migration y franchit la rivière avant de rejoindre le Kenya. Nous travaillons ce secteur depuis dix ans.",
       images: [
         {
           src: "/destination/tanzanie/hero-1.webp",
@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Tanzanie ?",
-      heading: "Carole, spécialiste de la Tanzanie, vous partage son expérience",
+      heading: "Carole, spécialiste de la Tanzanie, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",
@@ -177,13 +177,13 @@ export const destination: Destination = {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Deux heures d'avance sur Paris en hiver, une heure en été (fuseau EAT, UTC+3). Ce décalage facilite les sorties d'avant l'aube.", // TODO: à vérifier
+            "Deux heures d'avance sur Paris en hiver, une heure en été (fuseau EAT, UTC+3). Ce décalage facilite les sorties d'avant l'aube.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Shilling tanzanien (TZS), environ 2 900 pour un euro. Les camps facturent en dollars ; petites coupures pour les pourboires.", // TODO: à vérifier
+            "Shilling tanzanien (TZS), dont le cours varie. Les camps facturent en dollars ; petites coupures pour les pourboires.",
         },
         {
           iconName: "fileText",
@@ -195,25 +195,25 @@ export const destination: Destination = {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Fièvre jaune exigée en provenance d'un pays endémique, dont le Kenya. Antipaludique recommandé pour le Serengeti et la côte.", // TODO: à vérifier
+            "Fièvre jaune exigée en provenance d'un pays endémique, dont le Kenya. Antipaludique recommandé pour le Serengeti et la côte.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Fin mai à juillet pour Grumeti, juillet à octobre pour le Serengeti nord, janvier et février pour la mise à bas au Ndutu.", // TODO: à vérifier
+            "Fin mai à juillet pour Grumeti, juillet à octobre pour le Serengeti nord, janvier et février pour la mise à bas au Ndutu.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Swahili, langue nationale, et anglais, langue officielle. L'anglais suffit dans les camps et les concessions privées.", // TODO: à vérifier
+            "Swahili, langue nationale et officielle, et anglais, également langue officielle. L'anglais suffit dans les camps et les concessions privées.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Grandes pluies de mars à mai, petites en novembre. 15 à 28 °C au Serengeti, sous 10 °C à l'aube au bord du Ngorongoro.", // TODO: à vérifier
+            "Grandes pluies de mars à mai, petites en novembre et décembre. 15 à 28 °C au Serengeti, sous 10 °C à l'aube au bord du Ngorongoro.",
         },
       ],
     },
@@ -258,7 +258,6 @@ export const destination: Destination = {
             src: "/destination/tanzanie/map-grumeti.webp",
             alt: "Plaines et figuiers du corridor de Grumeti au bord de la rivière, Serengeti Ouest",
           },
-          // TODO: verify coords
           coordinates: { lat: -2.05, lng: 34.2 },
         },
         {
@@ -269,8 +268,7 @@ export const destination: Destination = {
             src: "/destination/tanzanie/map-serengeti.webp",
             alt: "Kopjes de granit émergeant des herbes du Serengeti central près de Seronera",
           },
-          // TODO: verify coords
-          coordinates: { lat: -2.4, lng: 34.8333 },
+          coordinates: { lat: -2.4361, lng: 34.8211 },
         },
         {
           title: "Le cratère du Ngorongoro",
@@ -280,7 +278,6 @@ export const destination: Destination = {
             src: "/destination/tanzanie/map-ngorongoro.webp",
             alt: "Fond du cratère du Ngorongoro vu du bord de la caldeira au lever du soleil",
           },
-          // TODO: verify coords
           coordinates: { lat: -3.1667, lng: 35.5833 },
         },
         {
@@ -291,7 +288,6 @@ export const destination: Destination = {
             src: "/destination/tanzanie/map-olduvai.webp",
             alt: "Strates des gorges d'Olduvai dans les hautes terres du nord de la Tanzanie",
           },
-          // TODO: verify coords
           coordinates: { lat: -2.9833, lng: 35.35 },
         },
         {
@@ -302,7 +298,6 @@ export const destination: Destination = {
             src: "/destination/tanzanie/map-arusha.webp",
             alt: "Plantation de café aux abords d'Arusha avec le mont Meru en arrière-plan",
           },
-          // TODO: verify coords
           coordinates: { lat: -3.3869, lng: 36.683 },
         },
         {
@@ -313,7 +308,6 @@ export const destination: Destination = {
             src: "/destination/tanzanie/map-zanzibar.webp",
             alt: "Eaux claires et banc de sable de l'îlot de Mnemba au large de Zanzibar",
           },
-          // TODO: verify coords
           coordinates: { lat: -5.8167, lng: 39.3833 },
         },
       ],

@@ -22,7 +22,8 @@ export type SpecialistSpotlightProps = {
       height: number;
     }[];
   };
-  specialist: TestimonialCardProps;
+  /** Absent tant que la citation n'est pas validée : la carte ne s'affiche pas. */
+  specialist?: TestimonialCardProps;
   features?: FeatureTrioItem[];
   theme?: "light" | "dark";
   background?: string;
@@ -156,12 +157,14 @@ export function SpecialistSpotlight({
           ) : null}
         </div>
 
-        <TestimonialCard
-          {...specialist}
-          className={cn(
-            !isDark && "border border-border bg-background",
-          )}
-        />
+        {specialist ? (
+          <TestimonialCard
+            {...specialist}
+            className={cn(
+              !isDark && "border border-border bg-background",
+            )}
+          />
+        ) : null}
 
         {features && features.length > 0 ? (
           <FeatureTrio

@@ -76,11 +76,6 @@ export class SubmissionError extends Error {
 }
 
 /**
- * Envoie la demande à la route serveur du site, qui la relaie vers Make.
- * Lève en cas d'échec : c'est au formulaire de garder les réponses et de
- * proposer de réessayer, jamais de rediriger vers la page merci.
- */
-/**
  * Nom du champ piège du formulaire : un champ invisible qu'un visiteur ne
  * remplit jamais et qu'un robot remplit toujours. La route serveur ignore en
  * silence toute demande où il est rempli. Le nom évite les mots que les
@@ -88,6 +83,11 @@ export class SubmissionError extends Error {
  */
 export const HONEYPOT_FIELD = "company_fax";
 
+/**
+ * Envoie la demande à la route serveur du site, qui la relaie vers Make.
+ * Lève en cas d'échec : c'est au formulaire de garder les réponses et de
+ * proposer de réessayer, jamais de rediriger vers la page merci.
+ */
 export async function submitContact(
   submission: ContactSubmission,
   honeypot = "",

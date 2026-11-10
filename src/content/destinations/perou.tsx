@@ -52,7 +52,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Pérou ?",
-      heading: "Tainà, spécialiste du Pérou, vous partage son expérience",
+      heading: "Tainà, spécialiste du Pérou, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina",
@@ -279,7 +279,7 @@ export const destination: Destination = {
             src: "/destination/perou/map-vallee-sacree.webp",
             alt: "Terrasses agricoles circulaires de Moray dans la Vallée Sacrée",
           },
-          coordinates: { lat: -13.33, lng: -72.19 }, // TODO: verify coords
+          coordinates: { lat: -13.33, lng: -72.19 },
         },
         {
           title: "Lac Titicaca, le plus haut lac navigable",
@@ -289,7 +289,7 @@ export const destination: Destination = {
             src: "/destination/perou/map-titicaca.webp",
             alt: "Île flottante des Uros sur le lac Titicaca",
           },
-          coordinates: { lat: -15.8402, lng: -69.335 }, // TODO: verify coords
+          coordinates: { lat: -15.8402, lng: -69.335 },
         },
         {
           title: "Amazonie, réserve de Tambopata",
@@ -299,7 +299,7 @@ export const destination: Destination = {
             src: "/destination/perou/map-amazonie.webp",
             alt: "Canopée de la réserve de Tambopata en Amazonie péruvienne",
           },
-          coordinates: { lat: -12.8333, lng: -69.2833 }, // TODO: verify coords
+          coordinates: { lat: -12.9206, lng: -69.2819 },
         },
         {
           title: "Lima, entre Pacifique et gastronomie",
@@ -332,14 +332,13 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
-                Passeport valide six mois après le retour. Pas de visa
+                Passeport valide au moins six mois à compter de
+                l&apos;arrivée au Pérou. Pas de visa
                 pour les ressortissants français pour un séjour de moins de 90
                 jours.
               </p>
               <h4 className="font-medium">L&apos;essentiel :</h4>
               <p>
-                {/* TODO: à vérifier */}
                 Vêtements en couches pour l&apos;amplitude thermique de
                 Cusco (froid le matin, soleil fort en journée), vêtements
                 légers et anti-moustiques pour l&apos;Amazonie, crème solaire
@@ -386,7 +385,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Le site limite le nombre d&apos;entrées quotidiennes et
                 répartit les visiteurs en créneaux horaires et en circuits
                 fixes. Les billets pour la haute saison (mai à septembre) se
@@ -416,9 +414,9 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil :</h4>
               <p>
-                {/* TODO: à vérifier */}
                 Le Vistadome offre de larges baies vitrées ; le Hiram
-                Bingham, plus rare, inclut un wagon-bar et un dîner à bord.
+                Bingham, plus rare, inclut un wagon-bar et un repas servi à
+                bord.
                 Nous choisissons selon l&apos;heure d&apos;arrivée souhaitée à
                 la citadelle.
               </p>
@@ -434,7 +432,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Vaccin fièvre jaune recommandé pour l&apos;Amazonie
                 (Tambopata, Puerto Maldonado), pas nécessaire pour Cusco, la
                 Vallée Sacrée ou le Machu Picchu. Vaccinations universelles à
@@ -459,7 +456,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 De mai à septembre, saison sèche dans les Andes : ciel
                 dégagé sur le Machu Picchu et la Vallée Sacrée, nuits froides
                 à Cusco. De décembre à mars, saison humide, sentiers parfois
@@ -483,7 +479,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Sol péruvien (PEN). Cartes largement acceptées à Lima et
                 Cusco, espèces recommandées en Vallée Sacrée et en Amazonie.
                 Pourboire non obligatoire mais apprécié (5 à 10 % au
@@ -510,7 +505,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 La réserve de Tambopata se parcourt en bateau depuis
                 Puerto Maldonado. La saison sèche (juin à octobre) facilite la
                 marche en forêt ; la saison humide (décembre à mars) fait

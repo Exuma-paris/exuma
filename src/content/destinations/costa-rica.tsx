@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Costa Rica ?",
       heading:
-        "Tainà, spécialiste du Costa Rica, vous partage son expérience",
+        "Tainà, spécialiste du Costa Rica, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina",
@@ -123,7 +123,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "La finca d'Aquiares, à deux heures à l'est de San José",
         columns: [
-          "Aquiares compte parmi les plantations de café les plus réputées du pays. Elle s'étend sur les pentes du volcan Turrialba, et le village s'est construit autour d'elle plutôt que l'inverse. La visite suit la chaîne complète : la cueillette à la main, le dépulpage, le séchage sur patios, puis la torréfaction et la dégustation.", // TODO: verify implantation sur les pentes du Turrialba et organisation du village
+          "Aquiares compte parmi les plantations de café les plus réputées du pays. Elle s'étend sur les pentes du volcan Turrialba, et le village s'est construit autour d'elle plutôt que l'inverse. La visite suit la chaîne complète : la cueillette à la main, le dépulpage, le séchage sur patios, puis la torréfaction et la dégustation.",
           "L'étape se combine avec un séjour au Pacuare, dans la même région. C'est le moment culturel du voyage, celui où l'on parle de rendement, de prix payé au producteur et de ce que la certification change concrètement. Rien d'une visite d'usine : on marche dans les rangs avec ceux qui les exploitent.",
         ],
       },
@@ -182,7 +182,7 @@ export const destination: Destination = {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa pour les Français : le passeport, valide tout le séjour, suffit. Un billet de sortie peut être demandé à l'arrivée.", // TODO: verify durée de validité exigée du passeport
+            "Pas de visa pour les Français : le passeport, valide au moins un jour après la date de sortie du pays, suffit. Un billet retour ou vers une autre destination est exigé à l'arrivée.",
         },
         {
           iconName: "syringe",
@@ -251,7 +251,6 @@ export const destination: Destination = {
             src: "/destination/costa-rica/map-tortuguero.webp",
             alt: "Canal de Tortuguero au petit matin, forêt dense sur les deux rives",
           },
-          // TODO: verify coords
           coordinates: { lat: 10.5432, lng: -83.5041 },
         },
         {
@@ -262,7 +261,6 @@ export const destination: Destination = {
             src: "/destination/costa-rica/map-arenal.webp",
             alt: "Volcan Arenal au-dessus des pâturages de La Fortuna, chevaux au premier plan",
           },
-          // TODO: verify coords
           coordinates: { lat: 10.4632, lng: -84.7033 },
         },
         {
@@ -273,7 +271,6 @@ export const destination: Destination = {
             src: "/destination/costa-rica/map-monteverde.webp",
             alt: "Pont suspendu dans la canopée de la forêt de nuages de Monteverde",
           },
-          // TODO: verify coords et altitude
           coordinates: { lat: 10.3, lng: -84.8 },
         },
         {
@@ -284,7 +281,6 @@ export const destination: Destination = {
             src: "/destination/costa-rica/map-curu.webp",
             alt: "Plage et forêt sèche du refuge de Curú dans le golfe de Nicoya",
           },
-          // TODO: verify coords
           coordinates: { lat: 9.7833, lng: -84.9333 },
         },
         {
@@ -295,7 +291,6 @@ export const destination: Destination = {
             src: "/destination/costa-rica/map-santa-teresa.webp",
             alt: "Surfeurs à contre-jour sur la plage de Santa Teresa au coucher du soleil",
           },
-          // TODO: verify coords
           coordinates: { lat: 9.6433, lng: -85.1669 },
         },
         {
@@ -306,7 +301,6 @@ export const destination: Destination = {
             src: "/destination/costa-rica/map-papagayo.webp",
             alt: "Baie protégée de la péninsule de Papagayo dans le Guanacaste, Costa Rica",
           },
-          // TODO: verify coords
           coordinates: { lat: 10.6333, lng: -85.6667 },
         },
       ],

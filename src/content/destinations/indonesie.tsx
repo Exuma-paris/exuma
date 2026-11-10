@@ -32,7 +32,7 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe en Indonésie",
       heading: "L'Indonésie ne se fait pas en un voyage",
       description:
-        "Plus de dix-sept mille îles, dont environ six mille habitées : aucun itinéraire ne prétend en faire le tour. Celui-ci en retient quatre, choisies pour ce qu'elles ne partagent pas. Java pour les volcans, Bali pour les temples et les rizières, Komodo pour la navigation, Sumba pour ce qui n'a pas encore été aménagé.", // TODO: verify nombre d'îles et d'îles habitées
+        "Plus de dix-sept mille îles, dont environ six mille habitées : aucun itinéraire ne prétend en faire le tour. Celui-ci en retient quatre, choisies pour ce qu'elles ne partagent pas. Java pour les volcans, Bali pour les temples et les rizières, Komodo pour la navigation, Sumba pour ce qui n'a pas encore été aménagé.",
       images: [
         {
           src: "/destination/indonesie/hero-1.webp",
@@ -53,7 +53,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Indonésie ?",
       heading:
-        "Stéphane, spécialiste de l'Indonésie, vous partage son expérience",
+        "Stéphane, spécialiste de l'Indonésie, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",
@@ -73,8 +73,8 @@ export const destination: Destination = {
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       columns: [
         "Un voyage en Indonésie pose d'abord une question de distance. Entre Sumatra et la Papouasie, l'archipel s'étend sur plus de cinq mille kilomètres. Vouloir tout relier revient à passer son séjour dans les aéroports intérieurs. Nous préférons retenir quatre étapes, reliées entre elles par des vols d'une à deux heures. Ce format demande une vingtaine de jours.",
-        "Java ouvre le voyage. Jakarta sert de porte d'entrée, avec ses musées et la vieille ville de Batavia. L'est de l'île concentre les volcans : le mont Bromo, qui culmine à 2 329 mètres, se rejoint depuis Surabaya et se découvre avant le lever du soleil. Bali vient ensuite, mais pas par Kuta ni par Seminyak. Ubud a gardé ses temples et ses ateliers de peinture. Plus à l'est, autour de Manggis et de Karangasem, se trouvent les anciens palais d'eau des rois de Bali : Tirtagangga et Ujung. Il faut s'y rendre tôt le matin, avant l'arrivée des groupes.", // TODO: verify altitude du Bromo et meilleur horaire de visite des palais d'eau
-        "Trois maisons structurent l'itinéraire. Le Four Seasons de Jakarta ouvre le séjour et sert de base pour Java. Amankila occupe ensuite une falaise de la côte est de Bali, avec trois bassins qui descendent vers le détroit de Lombok. NIHI Sumba ferme le voyage à l'ouest de Sumba, le long d'une plage privée de deux kilomètres et demi.", // TODO: verify longueur de la plage
+        "Java ouvre le voyage. Jakarta sert de porte d'entrée, avec ses musées et la vieille ville de Batavia. L'est de l'île concentre les volcans : le mont Bromo, qui culmine à 2 329 mètres, se rejoint depuis Surabaya et se découvre avant le lever du soleil. Bali vient ensuite, mais pas par Kuta ni par Seminyak. Ubud a gardé ses temples et ses ateliers de peinture. Plus à l'est, autour de Manggis et de Karangasem, se trouvent les anciens palais d'eau des rois de Bali : Tirtagangga et Ujung. Il faut s'y rendre tôt le matin, avant l'arrivée des groupes.",
+        "Trois maisons structurent l'itinéraire. Le Four Seasons de Jakarta ouvre le séjour et sert de base pour Java. Amankila occupe ensuite une falaise de la côte est de Bali, avec trois bassins qui descendent vers le détroit de Lombok. NIHI Sumba ferme le voyage à l'ouest de Sumba, le long d'une plage privée de deux kilomètres et demi.",
       ],
     },
 
@@ -124,7 +124,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "Trois jours et deux nuits à bord de l'Amandira",
         columns: [
-          "L'Amandira est un phinisi, le voilier traditionnel des charpentiers bugis et konjo du sud de Sulawesi. Il a été construit sur la plage d'Ara, en bois de fer et en teck, sans plan dessiné : les proportions se transmettent de mémoire. Le bateau mesure cinquante-deux mètres. Il accueille dix passagers dans cinq cabines, avec un équipage de dix-huit personnes.", // TODO: verify longueur, nombre de cabines et taille de l'équipage
+          "L'Amandira est un phinisi, le voilier traditionnel des charpentiers bugis et konjo du sud de Sulawesi. Il a été façonné à la main par des artisans konjo, dans des bois durs de l'archipel, selon un savoir-faire qui se transmet d'une génération à l'autre. Le bateau mesure cinquante-deux mètres. Il accueille dix passagers dans cinq cabines, avec un équipage d'une quinzaine de personnes.",
           "La croisière dure trois jours et deux nuits, au départ de Labuan Bajo. Le premier jour mène à l'île de Rinca, où l'on suit les varans à pied avec un ranger, puis à Kalong au coucher du soleil, quand des milliers de roussettes quittent la mangrove. Le lendemain matin, quarante minutes de montée suffisent pour atteindre le sommet de Padar, qui domine trois baies aux sables de couleurs différentes. L'après-midi est consacré à Manta Point, où le courant amène les raies manta sur un haut-fond. Le bateau change de mouillage chaque soir.",
         ],
       },
@@ -171,19 +171,19 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Pas de vol direct depuis Paris : 16 à 19 heures jusqu'à Jakarta ou Denpasar, avec escale à Doha, Dubaï, Singapour ou Istanbul.", // TODO: à vérifier
+            "Pas de vol direct depuis Paris : comptez environ 17 heures jusqu'à Jakarta ou Denpasar, avec une escale à Doha, Dubaï, Singapour ou Istanbul.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Bali, Komodo et Sumba ont sept heures d'avance sur Paris en hiver, six en été. Java et Jakarta comptent une heure de moins.", // TODO: à vérifier
+            "Bali, Komodo et Sumba ont sept heures d'avance sur Paris en hiver, six en été. Java et Jakarta comptent une heure de moins.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La roupie indonésienne, environ 17 000 pour un euro. Cartes acceptées dans les hôtels, moins à Sumba et Flores : prévoyez des espèces.", // TODO: à vérifier
+            "La roupie indonésienne. Cartes acceptées dans les hôtels, moins à Sumba et Flores : prévoyez des espèces.",
         },
         {
           iconName: "fileText",
@@ -195,25 +195,25 @@ export const destination: Destination = {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin obligatoire ; hépatite A et typhoïde recommandées. Paludisme négligeable à Bali, mais réel dans l'est de l'archipel.", // TODO: à vérifier
+            "Aucun vaccin obligatoire ; hépatite A et typhoïde recommandées. Paludisme négligeable à Bali, mais réel dans l'est de l'archipel.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Saison sèche d'avril à octobre. Mai, juin et septembre allient mer calme à Komodo et fréquentation mesurée.", // TODO: à vérifier
+            "Saison sèche d'avril à octobre. Mai, juin et septembre allient mer calme à Komodo et fréquentation mesurée.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'indonésien, avec le balinais à Bali et plusieurs langues locales à Sumba. L'anglais suffit dans les hôtels et à bord.", // TODO: à vérifier
+            "L'indonésien, avec le balinais à Bali et plusieurs langues locales à Sumba. L'anglais suffit dans les hôtels et à bord.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Équatorial, de 26 à 32 °C toute l'année sur la côte. Pluies de novembre à mars, en averses courtes ; 5 à 10 °C à l'aube au Bromo.", // TODO: à vérifier
+            "Équatorial, de 26 à 32 °C toute l'année sur la côte. Pluies de novembre à mars, en averses courtes ; 5 à 10 °C à l'aube au Bromo.",
         },
       ],
     },
@@ -258,30 +258,27 @@ export const destination: Destination = {
             src: "/destination/indonesie/map-ubud.webp",
             alt: "Gorge de l'Ayung et rizières en terrasses vues depuis Kedewatan, Ubud, Bali",
           },
-          // TODO: verify coords
           coordinates: { lat: -8.5069, lng: 115.2625 },
         },
         {
           title: "Le mont Bromo et la caldeira du Tengger",
           description:
-            "Le Bromo est un volcan actif de l'est de Java, haut de 2 329 mètres. Il se dresse au milieu d'une caldeira couverte de sable noir, la mer de sable. On y arrive de nuit, en 4x4, pour voir le soleil se lever derrière le Semeru.", // TODO: verify altitude et largeur de la caldeira
+            "Le Bromo est un volcan actif de l'est de Java, haut de 2 329 mètres. Il se dresse au milieu d'une caldeira couverte de sable noir, la mer de sable. On y arrive de nuit, en 4x4, pour voir le soleil se lever derrière le Semeru.",
           image: {
             src: "/destination/indonesie/map-bromo.webp",
             alt: "Cratères du mont Bromo et mer de sable de la caldeira du Tengger, est de Java",
           },
-          // TODO: verify coords
           coordinates: { lat: -7.9425, lng: 112.953 },
         },
         {
           title: "Manggis et les palais d'eau de Karangasem",
           description:
-            "La côte est de Bali fait face au détroit de Lombok. On y visite deux anciens palais d'eau, Tirtagangga et Ujung, construits par les rois de Karangasem. Ils se découvrent tôt le matin, avant l'arrivée des groupes.", // TODO: verify attribution des palais
+            "La côte est de Bali fait face au détroit de Lombok. On y visite deux anciens palais d'eau, Tirtagangga et Ujung, construits par les rois de Karangasem. Ils se découvrent tôt le matin, avant l'arrivée des groupes.",
           image: {
             src: "/destination/indonesie/map-manggis.webp",
             alt: "Bassins et statues du palais d'eau de Tirtagangga à Karangasem, est de Bali",
           },
-          // TODO: verify coords
-          coordinates: { lat: -8.49, lng: 115.55 },
+          coordinates: { lat: -8.4976, lng: 115.5188 },
         },
         {
           title: "Labuan Bajo, sur la côte ouest de Flores",
@@ -291,18 +288,16 @@ export const destination: Destination = {
             src: "/destination/indonesie/map-labuan-bajo.webp",
             alt: "Phinisi amarrés dans la rade de Labuan Bajo au crépuscule, ouest de Flores",
           },
-          // TODO: verify coords
           coordinates: { lat: -8.4964, lng: 119.8877 },
         },
         {
           title: "Le parc national de Komodo",
           description:
-            "Le parc protège trois grandes îles et une trentaine d'îlots. Les varans de Komodo y vivent en liberté et atteignent trois mètres de long. Depuis le sommet de l'île de Padar, on domine trois baies dont les sables n'ont pas la même couleur.", // TODO: verify nombre d'îlots
+            "Le parc protège trois grandes îles et vingt-six îlots. Les varans de Komodo y vivent en liberté et atteignent trois mètres de long. Depuis le sommet de l'île de Padar, on domine trois baies dont les sables n'ont pas la même couleur.",
           image: {
             src: "/destination/indonesie/map-komodo.webp",
             alt: "Les trois baies de l'île de Padar vues du sommet, parc national de Komodo",
           },
-          // TODO: verify coords
           coordinates: { lat: -8.55, lng: 119.45 },
         },
         {
@@ -313,8 +308,7 @@ export const destination: Destination = {
             src: "/destination/indonesie/map-sumba.webp",
             alt: "Lagon de Weekuri et sa barrière de calcaire face à l'océan Indien, ouest de Sumba",
           },
-          // TODO: verify coords
-          coordinates: { lat: -9.35, lng: 118.95 },
+          coordinates: { lat: -9.4911, lng: 118.9598 },
         },
       ],
     },

@@ -51,7 +51,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à Los Cabos ?",
       heading:
-        "Stéphane, spécialiste du Mexique, vous partage son expérience",
+        "Stéphane, spécialiste du Mexique, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

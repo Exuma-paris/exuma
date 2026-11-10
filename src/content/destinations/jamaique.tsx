@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Jamaïque ?",
-      heading: "Tainà, spécialiste de la Jamaïque, vous partage son expérience",
+      heading: "Tainà, spécialiste de la Jamaïque, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Tainà porte déjà le Panama, le Costa Rica et la Colombie)

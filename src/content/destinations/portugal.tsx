@@ -123,7 +123,7 @@ export const destination: Destination = {
         heading: "Une croisière privée sur le Douro, au coucher du soleil",
         columns: [
           "Le bateau quitte le quai de Pinhão en fin d'après-midi, quand la lumière commence à dorer les coteaux. Personne d'autre à bord que vous et l'équipage. À cette heure, l'eau est si lisse que les collines s'y reflètent d'une rive à l'autre.",
-          "La table est dressée sur le pont et le dîner se prend sans se presser. Les lumières des villages s'allument une à une sur les hauteurs, puis il ne reste que le bruit du sillage. Nous réservons le bateau pour votre soirée seule, avec les bouteilles de la maison que vous aurez visitée dans la journée.", // TODO: verify
+          "La table est dressée sur le pont et le dîner se prend sans se presser. Les lumières des villages s'allument une à une sur les hauteurs, puis il ne reste que le bruit du sillage. Nous réservons le bateau pour votre soirée seule, avec les bouteilles de la maison que vous aurez visitée dans la journée.",
         ],
       },
     },
@@ -171,7 +171,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 2h30 en vol direct depuis Paris jusqu'à Lisbonne, 2h15 jusqu'à Porto, 2h45 jusqu'à Faro. Plusieurs départs par jour.", // TODO: verify
+            "Environ 2h30 en vol direct depuis Paris jusqu'à Lisbonne, 2h15 jusqu'à Porto, 2h45 jusqu'à Faro. Plusieurs départs par jour.",
         },
         {
           iconName: "clock",
@@ -213,7 +213,7 @@ export const destination: Destination = {
           iconName: "sun",
           title: "Climat",
           description:
-            "Été sec et lumineux, autour de vingt-huit degrés à Lisbonne au mois d'août et un peu plus dans l'Alentejo. L'hiver reste doux sur la côte, plus humide au nord.", // TODO: verify
+            "Été sec et lumineux, autour de vingt-huit degrés à Lisbonne au mois d'août et un peu plus dans l'Alentejo. L'hiver reste doux sur la côte, plus humide au nord.",
         },
       ],
     },
@@ -260,7 +260,7 @@ export const destination: Destination = {
             src: "/destination/portugal/map-lisbonne.webp",
             alt: "Ruelles de l'Alfama et le Tage vus depuis un mirador de Lisbonne",
           },
-          coordinates: { lat: 38.7139, lng: -9.1292 }, // TODO: verify coords
+          coordinates: { lat: 38.7139, lng: -9.1292 },
         },
         {
           title: "Sintra et ses palais dans les arbres",
@@ -270,7 +270,7 @@ export const destination: Destination = {
             src: "/destination/portugal/map-sintra.webp",
             alt: "Palais de Pena émergeant de la brume sur les hauteurs de Sintra",
           },
-          coordinates: { lat: 38.7876, lng: -9.3904 }, // TODO: verify coords
+          coordinates: { lat: 38.7876, lng: -9.3904 },
         },
         {
           title: "Le Douro, de Pinhão à Peso da Régua",
@@ -280,7 +280,7 @@ export const destination: Destination = {
             src: "/destination/portugal/map-douro.webp",
             alt: "Méandre du Douro entre les vignes en terrasses près de Pinhão",
           },
-          coordinates: { lat: 41.1897, lng: -7.5433 }, // TODO: verify coords
+          coordinates: { lat: 41.1897, lng: -7.5433 },
         },
         {
           title: "Porto et les caves de Vila Nova de Gaia",
@@ -290,7 +290,7 @@ export const destination: Destination = {
             src: "/destination/portugal/map-porto.webp",
             alt: "Quais de la Ribeira à Porto et les caves de Vila Nova de Gaia",
           },
-          coordinates: { lat: 41.1405, lng: -8.6132 }, // TODO: verify coords
+          coordinates: { lat: 41.1405, lng: -8.6132 },
         },
         {
           title: "Comporta, la pinède et le sable",
@@ -300,7 +300,7 @@ export const destination: Destination = {
             src: "/destination/portugal/map-comporta.webp",
             alt: "Cabanes de pêcheurs et rizières près de la plage de Comporta",
           },
-          coordinates: { lat: 38.3833, lng: -8.7833 }, // TODO: verify coords
+          coordinates: { lat: 38.3833, lng: -8.7833 },
         },
         {
           title: "L'Algarve, de Lagos à Sagres",
@@ -310,7 +310,7 @@ export const destination: Destination = {
             src: "/destination/portugal/map-algarve.webp",
             alt: "Arches de grès et criques de la côte de l'Algarve près de Lagos",
           },
-          coordinates: { lat: 37.1028, lng: -8.6742 }, // TODO: verify coords
+          coordinates: { lat: 37.1028, lng: -8.6742 },
         },
       ],
     },

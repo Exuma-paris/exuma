@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Écosse ?",
-      heading: "Carole, spécialiste de l'Écosse, vous partage son expérience",
+      heading: "Carole, spécialiste de l'Écosse, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

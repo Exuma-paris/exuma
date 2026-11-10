@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir aux Philippines ?",
       heading:
-        "Stéphane, spécialiste des Philippines, vous partage son expérience",
+        "Stéphane, spécialiste des Philippines, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

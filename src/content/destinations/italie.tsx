@@ -172,7 +172,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ deux heures depuis Paris pour Rome, Venise ou Florence, en vol direct. Naples et Turin se rejoignent aussi sans escale.", // TODO: verify
+            "Environ deux heures depuis Paris pour Rome, Venise ou Florence, en vol direct. Naples et Turin se rejoignent aussi sans escale.",
         },
         {
           iconName: "clock",
@@ -261,7 +261,7 @@ export const destination: Destination = {
             src: "/destination/italie/map-florence.webp",
             alt: "Toits de Florence et coupole du Duomo vus depuis San Miniato al Monte",
           },
-          coordinates: { lat: 43.7696, lng: 11.2558 }, // TODO: verify coords
+          coordinates: { lat: 43.7696, lng: 11.2558 },
         },
         {
           title: "Venise et la lagune",
@@ -271,7 +271,7 @@ export const destination: Destination = {
             src: "/destination/italie/map-venise.webp",
             alt: "Grand Canal de Venise et ses palais vus depuis l'eau",
           },
-          coordinates: { lat: 45.4408, lng: 12.3155 }, // TODO: verify coords
+          coordinates: { lat: 45.4408, lng: 12.3155 },
         },
         {
           title: "Le Val d'Orcia et Montalcino",
@@ -281,7 +281,7 @@ export const destination: Destination = {
             src: "/destination/italie/map-val-orcia.webp",
             alt: "Ferme et rangée de cyprès sur les collines du Val d'Orcia",
           },
-          coordinates: { lat: 43.0464, lng: 11.4899 }, // TODO: verify coords
+          coordinates: { lat: 43.0464, lng: 11.4899 },
         },
         {
           title: "Les Dolomites, autour de Cortina",
@@ -291,7 +291,7 @@ export const destination: Destination = {
             src: "/destination/italie/map-dolomites.webp",
             alt: "Massif de la Tofana au-dessus de la vallée de Cortina d'Ampezzo",
           },
-          coordinates: { lat: 46.5405, lng: 12.1357 }, // TODO: verify coords
+          coordinates: { lat: 46.5405, lng: 12.1357 },
         },
         {
           title: "Pompéi et le Vésuve",
@@ -301,7 +301,7 @@ export const destination: Destination = {
             src: "/destination/italie/map-pompei.webp",
             alt: "Murs antiques de Pompéi et le Vésuve à l'horizon",
           },
-          coordinates: { lat: 40.7497, lng: 14.4869 }, // TODO: verify coords
+          coordinates: { lat: 40.7497, lng: 14.4869 },
         },
         {
           title: "Les Langhe et Alba",
@@ -311,7 +311,7 @@ export const destination: Destination = {
             src: "/destination/italie/map-langhe.webp",
             alt: "Vignobles en collines des Langhe autour d'Alba dans le Piémont",
           },
-          coordinates: { lat: 44.7009, lng: 8.0357 }, // TODO: verify coords
+          coordinates: { lat: 44.7009, lng: 8.0357 },
         },
       ],
     },

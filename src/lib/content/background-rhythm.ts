@@ -1,4 +1,5 @@
 import type { Section } from "@/lib/destination/types";
+import { withVerifiedTestimonials } from "@/lib/content/verified-quotes";
 
 /**
  * Rythme des fonds de section.
@@ -75,5 +76,9 @@ export function applyBackgroundRhythm<T extends Section>(
   options: BackgroundRhythmOptions = {},
 ): T[] {
   const rhythm = createBackgroundRhythm(options);
-  return sections.map((section) => rhythm.apply(section));
+  // Les témoignages non validés sont retirés avant d'attribuer les fonds, pour
+  // que le bloc qui disparaît ne laisse pas deux fonds identiques côte à côte.
+  return withVerifiedTestimonials(sections).map((section) =>
+    rhythm.apply(section),
+  );
 }

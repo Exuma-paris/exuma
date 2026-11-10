@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Australie ?",
-      heading: "Tainà, spécialiste de l'Australie, vous partage son expérience",
+      heading: "Tainà, spécialiste de l'Australie, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina",

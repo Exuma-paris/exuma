@@ -49,7 +49,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à Paris ?",
       heading:
-        "Ludivine, spécialiste de Paris, vous partage son expérience",
+        "Ludivine, spécialiste de Paris, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "ludivine",

@@ -70,6 +70,7 @@ export const sections: Section[] = [
       quote:
         "Ce que nous prenons en charge, ce n'est pas le grand départ annuel, c'est l'ensemble des mouvements d'une vie et d'une organisation. Dans mon métier, le luxe se définit par ce qu'on n'a plus à faire, et surtout par ce qu'on n'a plus besoin de demander.",
       role: "Directrice d'Exuma",
+      verified: true,
     },
   },
 

@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Maroc ?",
-      heading: "Stéphane, spécialiste du Maroc, vous partage son expérience",
+      heading: "Stéphane, spécialiste du Maroc, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",
@@ -254,7 +254,6 @@ export const destination: Destination = {
             src: "/destination/maroc/map-fes.webp",
             alt: "Toits et minarets de la médina de Fès au Maroc vus depuis une terrasse",
           },
-          // TODO: verify coords
           coordinates: { lat: 34.0331, lng: -5.0003 },
         },
         {
@@ -265,7 +264,6 @@ export const destination: Destination = {
             src: "/destination/maroc/map-haut-atlas.webp",
             alt: "Village berbère et sommets du Haut Atlas au-dessus de la vallée d'Imlil",
           },
-          // TODO: verify coords
           coordinates: { lat: 31.1358, lng: -7.9192 },
         },
         {
@@ -276,7 +274,6 @@ export const destination: Destination = {
             src: "/destination/maroc/map-marrakech.webp",
             alt: "Jardin d'un riad de la médina de Marrakech avec bassin et orangers",
           },
-          // TODO: verify coords
           coordinates: { lat: 31.6295, lng: -7.9811 },
         },
         {
@@ -287,7 +284,6 @@ export const destination: Destination = {
             src: "/destination/maroc/map-dades.webp",
             alt: "Kasbahs de terre et palmeraie le long de la rivière dans la vallée du Dadès",
           },
-          // TODO: verify coords
           coordinates: { lat: 31.36, lng: -5.98 },
         },
         {
@@ -298,7 +294,6 @@ export const destination: Destination = {
             src: "/destination/maroc/map-erg-chebbi.webp",
             alt: "Dunes de l'erg Chebbi près de Merzouga au lever du jour dans le Sahara marocain",
           },
-          // TODO: verify coords
           coordinates: { lat: 31.15, lng: -3.98 },
         },
         {
@@ -309,7 +304,6 @@ export const destination: Destination = {
             src: "/destination/maroc/map-tanger.webp",
             alt: "Baie de Tanger et détroit de Gibraltar vus depuis les hauteurs de la ville",
           },
-          // TODO: verify coords
           coordinates: { lat: 35.7595, lng: -5.834 },
         },
       ],

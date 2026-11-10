@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Japon ?",
-      heading: "Carole, spécialiste du Japon, vous partage son expérience",
+      heading: "Carole, spécialiste du Japon, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",
@@ -296,7 +296,6 @@ export const destination: Destination = {
             src: "/destination/japon/map-kanazawa.webp",
             alt: "Maison de thé en bois au-dessus de l'étang d'un jardin de Kanazawa, Japon",
           },
-          // TODO: verify coords
           coordinates: { lat: 36.5613, lng: 136.6562 },
         },
         {
@@ -317,7 +316,6 @@ export const destination: Destination = {
             src: "/destination/japon/map-nara.webp",
             alt: "Daim en liberté sous les érables rouges du parc de Nara, Japon",
           },
-          // TODO: verify coords
           coordinates: { lat: 34.6851, lng: 135.8048 },
         },
         {
@@ -328,7 +326,6 @@ export const destination: Destination = {
             src: "/destination/japon/map-miyajima.webp",
             alt: "Torii rouge d'Itsukushima vu depuis les toits du sanctuaire, Miyajima, Japon",
           },
-          // TODO: verify coords
           coordinates: { lat: 34.296, lng: 132.3197 },
         },
       ],
@@ -352,7 +349,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Passeport valide jusqu&apos;à la fin du séjour. Pas de
                 visa nécessaire pour un séjour touristique de moins de 90
                 jours pour les ressortissants français.
@@ -380,7 +376,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Aucun vaccin obligatoire. Vaccinations universelles à
                 jour. Le système hospitalier japonais figure parmi les plus
                 fiables au monde, y compris hors des grandes villes.
@@ -407,7 +402,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 La période recommandée par notre équipe : fin mars à
                 début avril pour les cerisiers en fleur (hanami), ou
                 octobre-novembre pour les érables rouges (koyo).
@@ -419,9 +413,8 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
-                {/* TODO: à vérifier */}
-                Les dates de floraison des cerisiers varient chaque
-                année de dix à quinze jours. Nous les suivons semaine par
+                Les dates de floraison des cerisiers varient sensiblement
+                d&apos;une année à l&apos;autre. Nous les suivons semaine par
                 semaine pour ajuster l&apos;itinéraire au dernier moment.
               </p>
             </div>
@@ -436,7 +429,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Yen japonais (JPY). Le pays reste plus attaché au
                 liquide que sa réputation technologique ne le laisse
                 supposer, en particulier hors de Tokyo. Pourboire absent et
@@ -547,8 +539,7 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
-                1 € ≈ 160 yens. La carte bancaire est acceptée dans
+                La carte bancaire est acceptée dans
                 les grands hôtels et la plupart des restaurants de Tokyo et
                 Kyoto, mais reste moins systématique dans les petites
                 adresses et les zones rurales.

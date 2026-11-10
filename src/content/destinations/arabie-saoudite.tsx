@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Arabie Saoudite ?",
       heading:
-        "Stéphane, spécialiste de l'Arabie Saoudite, vous partage son expérience",
+        "Stéphane, spécialiste de l'Arabie Saoudite, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

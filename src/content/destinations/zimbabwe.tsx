@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Zimbabwe ?",
-      heading: "Carole, spécialiste du Zimbabwe, vous partage son expérience",
+      heading: "Carole, spécialiste du Zimbabwe, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

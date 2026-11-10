@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Jordanie ?",
       heading:
-        "Stéphane, spécialiste de la Jordanie, vous partage son expérience",
+        "Stéphane, spécialiste de la Jordanie, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

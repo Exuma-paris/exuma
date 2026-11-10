@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Royaume-Uni ?",
-      heading: "Tainà, spécialiste du Royaume-Uni, vous partage son expérience",
+      heading: "Tainà, spécialiste du Royaume-Uni, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina",

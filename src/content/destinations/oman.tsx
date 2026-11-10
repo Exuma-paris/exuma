@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à Oman ?",
-      heading: "Stéphane, spécialiste d'Oman, vous partage son expérience",
+      heading: "Stéphane, spécialiste d'Oman, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

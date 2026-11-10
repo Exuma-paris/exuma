@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en République dominicaine ?",
       heading:
-        "Carole, spécialiste de la République dominicaine, vous partage son expérience",
+        "Carole, spécialiste de la République dominicaine, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",
