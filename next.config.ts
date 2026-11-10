@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { legacyRedirects } from "./redirects.mjs";
 
 const nextConfig: NextConfig = {
   // En développement, le cache de compilation est écrit dans `.next-dev`.
@@ -25,6 +26,12 @@ const nextConfig: NextConfig = {
   ...(process.env.NODE_ENV === "development"
     ? { images: { unoptimized: true } }
     : {}),
+
+  // Les URL de l'ancien site WordPress (exuma.paris) redirigent en 301 vers la
+  // page la plus proche du nouveau site. La liste vit dans `redirects.mjs`.
+  async redirects() {
+    return legacyRedirects;
+  },
 };
 
 export default nextConfig;

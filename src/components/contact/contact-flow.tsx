@@ -26,6 +26,7 @@ import {
 } from "@/lib/analytics/encode-answers";
 import {
   buildSubmission,
+  HONEYPOT_FIELD,
   submitContact,
   SubmissionError,
 } from "@/lib/contact/submit";
@@ -118,6 +119,8 @@ export function ContactFlow({
   const [submitting, setSubmitting] = useState(false);
   // Message affiché sous les boutons quand l'envoi a échoué.
   const [error, setError] = useState<string | null>(null);
+  // Champ piège anti-robots, jamais affiché : voir `submitContact`.
+  const [honeypot, setHoneypot] = useState("");
   const [direction, setDirection] = useState<"next" | "prev">("next");
   // Vrai une fois la session relue : le suivi et la sauvegarde attendent,
   // sinon le premier rendu écraserait ce qui était enregistré.
@@ -230,7 +233,10 @@ export function ContactFlow({
     setSubmitting(true);
     setError(null);
     try {
-      await submitContact(buildSubmission(product, questions, finalAnswers));
+      await submitContact(
+        buildSubmission(product, questions, finalAnswers),
+        honeypot,
+      );
     } catch (err) {
       setSubmitting(false);
       setError(
@@ -351,6 +357,21 @@ export function ContactFlow({
                 question={question}
                 answer={answer}
                 onChange={setAnswer}
+              />
+            </div>
+
+            <div aria-hidden="true" className="sr-only">
+              <label htmlFor={`${product}-${HONEYPOT_FIELD}`}>
+                Ne pas remplir ce champ
+              </label>
+              <input
+                id={`${product}-${HONEYPOT_FIELD}`}
+                name={HONEYPOT_FIELD}
+                type="text"
+                tabIndex={-1}
+                autoComplete="off"
+                value={honeypot}
+                onChange={(event) => setHoneypot(event.target.value)}
               />
             </div>
 
