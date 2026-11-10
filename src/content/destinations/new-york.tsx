@@ -23,7 +23,6 @@ export const destination: Destination = {
     "upper-east-side",
     "brooklyn",
   ],
-  metaTitle: "New York : Voyage sur mesure",
   metaDescription:
     "Voyage à New York sur mesure : coulisses de Broadway, West Village, Rockefeller Center. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -592,7 +591,7 @@ export const destination: Destination = {
             src: "/destination/new-york/hero-1.webp",
             alt: "Le pont de Brooklyn et les tours du sud de Manhattan au soleil couchant, voyage à New York"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Hortense & Médéric", // TODO: replace with real testimonial
           role: "New York, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -603,7 +602,7 @@ export const destination: Destination = {
             src: "/destination/new-york/hero-2.webp",
             alt: "Le pont de Manhattan encadré par les entrepôts de brique de Dumbo, à Brooklyn"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Marie-Noëlle & Pierre-Marie", // TODO: replace with real testimonial
           role: "Broadway, décembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -614,7 +613,7 @@ export const destination: Destination = {
             src: "/destination/new-york/hero-3.webp",
             alt: "Enseignes lumineuses des théâtres de Broadway un soir d'hiver, Theater District"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Audrey & Hervé", // TODO: replace with real testimonial
           role: "Central Park, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

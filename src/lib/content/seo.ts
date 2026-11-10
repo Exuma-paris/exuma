@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { ImageRef, Section } from "@/lib/content/types";
+import { DEFAULT_SHARE_IMAGE } from "@/lib/site-url";
 
 /**
  * Métadonnées d'une page entité (continent, catégorie de service,
@@ -64,13 +65,29 @@ export function entityMetadata(
       url: path,
       title: `${title} | Exuma`,
       description,
-      ...(image ? { images: [{ url: image.src, alt: image.alt }] } : {}),
+      images: [{ url: (image ?? DEFAULT_SHARE_IMAGE).src, alt: (image ?? DEFAULT_SHARE_IMAGE).alt }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${title} | Exuma`,
       description,
-      ...(image ? { images: [image.src] } : {}),
+      images: [(image ?? DEFAULT_SHARE_IMAGE).src],
     },
   };
 }
+
+/**
+ * Fiches encore vides (expériences, hébergements, croisières) : elles rendent
+ * la page d'attente « en préparation », 50 à 130 mots sans matière. On les
+ * garde en ligne pour les liens qui y mènent, mais hors de l'index et du plan
+ * du site, jusqu'à ce qu'elles soient rédigées. Dès qu'une fiche reçoit des
+ * sections, elle redevient indexable et réapparaît dans le sitemap sans autre
+ * intervention.
+ */
+export const STUB_KINDS = ["experience", "accommodation", "cruiseLine"] as const;
+
+export function isStubEntity(entity: { sections: Section[] }): boolean {
+  return entity.sections.length === 0;
+}
+
+export const stubRobots: Metadata["robots"] = { index: false, follow: true };

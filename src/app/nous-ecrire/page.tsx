@@ -4,7 +4,7 @@ import { getGeneralEnquiryQuestions } from "@/lib/contact/general-enquiry-questi
 import { EXUMA_PHONE } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Nous écrire — Exuma",
+  title: "Nous écrire",
   description:
     "Une envie, une question, un besoin précis : écrivez-nous. Un interlocuteur Exuma vous répond sous 24 heures ouvrées.",
   alternates: { canonical: "/nous-ecrire" },

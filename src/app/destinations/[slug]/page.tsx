@@ -8,6 +8,7 @@ import {
   destinationPath,
   pickHeroImage,
 } from "@/lib/destination/seo";
+import { DEFAULT_SHARE_IMAGE } from "@/lib/site-url";
 
 export function generateStaticParams() {
   return Object.keys(destinations).map((slug) => ({ slug }));
@@ -36,13 +37,13 @@ export async function generateMetadata({
       url,
       title,
       description,
-      ...(hero ? { images: [{ url: hero.src, alt: hero.alt }] } : {}),
+      images: [{ url: (hero ?? DEFAULT_SHARE_IMAGE).src, alt: (hero ?? DEFAULT_SHARE_IMAGE).alt }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      ...(hero ? { images: [hero.src] } : {}),
+      images: [(hero ?? DEFAULT_SHARE_IMAGE).src],
     },
   };
 }

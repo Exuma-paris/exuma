@@ -22,7 +22,6 @@ export const destination: Destination = {
     "delta du mekong",
     "hoi an",
   ],
-  metaTitle: "Vietnam : Voyage sur mesure",
   metaDescription:
     "Voyage sur mesure au Vietnam : Hanoï, Hué, baie de Lan Ha, rizières de Sa Pa. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -579,7 +578,7 @@ export const destination: Destination = {
             src: "/destination/vietnam/hero-1.webp",
             alt: "Femme au chapeau conique disposant des bottes d'encens rouges à sécher, Vietnam",
           },
-          name: "Nathalie & Bertrand", // TODO: verify
+          name: "Maud & Bertrand", // TODO: verify
           role: "Voyage de noces, novembre 2025", // TODO: verify
         },
         {
@@ -601,7 +600,7 @@ export const destination: Destination = {
             src: "/destination/vietnam/hero-3.webp",
             alt: "Jonque aux voiles ocre devant les pitons karstiques au coucher du soleil, Vietnam",
           },
-          name: "Sophie", // TODO: verify
+          name: "Stéphanie", // TODO: verify
           role: "Voyage solo, mars 2025", // TODO: verify
         },
       ],

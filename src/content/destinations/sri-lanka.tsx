@@ -23,7 +23,6 @@ export const destination: Destination = {
     "the de ceylan",
     "triangle culturel",
   ],
-  metaTitle: "Sri Lanka : Voyage sur mesure",
   metaDescription:
     "Voyage au Sri Lanka sur mesure : Sigiriya, pays du thé, léopards de Yala, remparts de Galle. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -553,7 +552,7 @@ export const destination: Destination = {
             src: "/destination/sri-lanka/hero-1.webp",
             alt: "Le rocher de Sigiriya émergeant d'une mer de nuages au lever du jour au Sri Lanka", // TODO: verify
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Isabeau & Clément", // TODO: replace with real testimonial
           role: "Sri Lanka, triangle culturel et pays du thé, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -564,7 +563,7 @@ export const destination: Destination = {
             src: "/destination/sri-lanka/hero-2.webp",
             alt: "Troupeau d'éléphants traversant une rivière bordée de jungle au Sri Lanka", // TODO: verify
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Nicole & Léonard", // TODO: replace with real testimonial
           role: "Sri Lanka en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -575,7 +574,7 @@ export const destination: Destination = {
             src: "/destination/sri-lanka/hero-3.webp",
             alt: "Mains d'un cultivateur srilankais tenant des feuilles et des noix fraîchement cueillies", // TODO: verify
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Gaëlle-Marie & Jean-Hugues", // TODO: replace with real testimonial
           role: "Sri Lanka, Yala et côte sud, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

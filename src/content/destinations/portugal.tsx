@@ -23,7 +23,6 @@ export const destination: Destination = {
     "algarve",
     "sintra",
   ],
-  metaTitle: "Portugal : Voyage sur mesure",
   metaDescription:
     "Voyage au Portugal sur mesure : Lisbonne, vignobles du Douro, plages de Comporta et Algarve. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -533,7 +532,7 @@ export const destination: Destination = {
             src: "/destination/portugal/hero-1.webp",
             alt: "Toits de l'Alfama, monastère de São Vicente de Fora et coupole du Panthéon, à Lisbonne",
           },
-          name: "Bernard", // TODO: verify
+          name: "Colin", // TODO: verify
           role: "Voyage en couple, septembre 2025", // TODO: verify
         },
         {
@@ -544,7 +543,7 @@ export const destination: Destination = {
             src: "/destination/portugal/hero-2.webp",
             alt: "Quinta et sa chapelle au milieu des vignes en terrasses, au-dessus du Douro",
           },
-          name: "Constance", // TODO: verify
+          name: "Salomé", // TODO: verify
           role: "Voyage en famille, juin 2026", // TODO: verify
         },
         {
@@ -555,7 +554,7 @@ export const destination: Destination = {
             src: "/destination/portugal/hero-3.webp",
             alt: "Longue plage de sable bordée de pins à Comporta, au sud de Lisbonne",
           },
-          name: "Frédéric", // TODO: verify
+          name: "Lucien", // TODO: verify
           role: "Séjour en famille, juillet 2025", // TODO: verify
         },
       ],

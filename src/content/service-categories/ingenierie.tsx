@@ -33,6 +33,7 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
 export const serviceCategory: ServiceCategory = {
   slug: "ingenierie",
   name: "Ingénierie du voyage & support global",
+  metaTitle: "Service visa, formalités et assistance voyage",
   blurb:
     "Formalités d'entrée réunies et vérifiées, assurances souscrites avec votre accord, un seul interlocuteur et une seule facture.",
   keywords: [

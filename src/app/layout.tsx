@@ -10,6 +10,7 @@ import {
 } from "@/components/analytics/gtm";
 import { Footer } from "@/components/sections/footer";
 import { ConditionalFooter } from "@/components/sections/conditional-footer";
+import { DEFAULT_SHARE_IMAGE, SITE_URL } from "@/lib/site-url";
 
 const instrumentSans = Instrument_Sans({
   variable: "--font-instrument-sans",
@@ -30,7 +31,7 @@ const hedvigLettersSerif = Hedvig_Letters_Serif({
   display: "swap",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://exuma.example.com";
+const siteUrl = SITE_URL;
 
 const siteDescription =
   "Plus qu'une agence de voyage : une maison de conseils privée. Un interlocuteur de référence prend en charge vos voyages sur mesure et vos déplacements, depuis 1991.";
@@ -38,7 +39,7 @@ const siteDescription =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Exuma | Voyages sur mesure, maison de conseils privée",
+    default: "Agence de voyage de luxe sur mesure à Paris | Exuma",
     template: "%s | Exuma",
   },
   description: siteDescription,
@@ -48,13 +49,15 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Exuma",
     url: "/",
-    title: "Exuma | Voyages sur mesure, maison de conseils privée",
+    title: "Agence de voyage de luxe sur mesure à Paris | Exuma",
     description: siteDescription,
+    images: [{ url: DEFAULT_SHARE_IMAGE.src, alt: DEFAULT_SHARE_IMAGE.alt, width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Exuma | Voyages sur mesure, maison de conseils privée",
+    title: "Agence de voyage de luxe sur mesure à Paris | Exuma",
     description: siteDescription,
+    images: [DEFAULT_SHARE_IMAGE.src],
   },
   robots: { index: true, follow: true },
   formatDetection: { telephone: false },

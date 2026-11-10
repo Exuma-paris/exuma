@@ -9,7 +9,7 @@ import { EXUMA_PHONE, EXUMA_TEL_HREF } from "@/lib/exuma";
 import type { Section } from "@/lib/content/types";
 
 export const metadata: Metadata = {
-  title: "Nos services",
+  title: "Services de conciergerie de luxe",
   description:
     "Reporting et pilotage, mobilité, conciergerie, sécurité, ingénierie du voyage et expériences : les métiers qu'Exuma prend en charge pour vous.",
   alternates: { canonical: "/services" },

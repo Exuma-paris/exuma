@@ -12,7 +12,7 @@ import {
 } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Conditions générales de vente — Exuma",
+  title: "Conditions générales de vente",
   description:
     "Conditions générales de vente d'Exuma, maison de conseils privée dédiée aux déplacements : réservation, paiement, modification, annulation, responsabilité.",
   alternates: { canonical: "/cgv" },

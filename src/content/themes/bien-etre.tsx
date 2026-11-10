@@ -12,7 +12,7 @@ export const theme: Theme = {
     src: "/theme/bien-etre/hero-1-1x1.png",
     alt: "Une personne seule attablée devant un café, de dos, face au lac au petit matin",
   },
-  metaTitle: "Voyage bien-être et retraite sur mesure",
+  metaTitle: "Séjour bien-être et retraite sur mesure",
   metaDescription:
     "Voyage bien-être sur mesure : hammam ottoman, sources chaudes, retraite de yoga, cure ayurvédique en Inde et au Sri Lanka, lieux sans réseau. Conçu par Exuma.",
   sections: [

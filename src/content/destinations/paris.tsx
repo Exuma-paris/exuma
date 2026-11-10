@@ -486,7 +486,7 @@ export const destination: Destination = {
             src: "/destination/paris/hero-1.webp",
             alt: "La tour Eiffel au-dessus de la Seine et de ses péniches, en fin de journée",
           },
-          name: "Sophie & Marc", // TODO: verify
+          name: "Lucienne & Honoré", // TODO: verify
           role: "Anniversaire de mariage, juin 2026", // TODO: verify
         },
         {
@@ -508,7 +508,7 @@ export const destination: Destination = {
             src: "/destination/paris/hero-3.webp",
             alt: "Les fontaines de la cour Napoléon et le palais du Louvre",
           },
-          name: "Claire", // TODO: verify
+          name: "Carine", // TODO: verify
           role: "Escapade culturelle, mars 2026", // TODO: verify
         },
       ],

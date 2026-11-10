@@ -22,7 +22,6 @@ export const destination: Destination = {
     "plongee",
     "baleine",
   ],
-  metaTitle: "Los Cabos, voyage sur mesure",
   metaDescription:
     "Voyage à Los Cabos sur mesure : Cabo Pulmo, Todos Santos, baleines grises de Bahía Magdalena, One&Only Palmilla. Itinéraire signé par votre travel designer Exuma.",
   sections: [

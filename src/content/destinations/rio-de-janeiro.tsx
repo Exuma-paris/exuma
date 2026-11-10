@@ -592,7 +592,7 @@ export const destination: Destination = {
             src: "/destination/rio-de-janeiro/hero-1c.png",
             alt: "Pain de Sucre et baie de Guanabara au lever du jour, Rio de Janeiro",
           },
-          name: "", // TODO: verify
+          name: "Bernadette & Hilaire", // TODO: verify
           role: "Voyage en couple, août 2025", // TODO: verify
         },
         {
@@ -603,7 +603,7 @@ export const destination: Destination = {
             src: "/destination/rio-de-janeiro/hero-2.png",
             alt: "Plage d'Ipanema et pic des Dois Irmãos au coucher du soleil",
           },
-          name: "", // TODO: verify
+          name: "Lise & Jules", // TODO: verify
           role: "Voyage en famille, juillet 2025", // TODO: verify
         },
         {
@@ -614,7 +614,7 @@ export const destination: Destination = {
             src: "/destination/rio-de-janeiro/hero-3.png",
             alt: "Tramway jaune dans les rues pavées de Santa Teresa, Rio",
           },
-          name: "", // TODO: verify
+          name: "Marianne & Roland", // TODO: verify
           role: "Anniversaire de mariage, octobre 2025", // TODO: verify
         },
       ],

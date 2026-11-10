@@ -23,7 +23,6 @@ export const destination: Destination = {
     "amazonie",
     "maranhao",
   ],
-  metaTitle: "Brésil : Voyage sur mesure",
   metaDescription:
     "Voyage au Brésil sur mesure : Lençóis Maranhenses, Salvador de Bahia, chutes d'Iguaçu, Pantanal. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -532,7 +531,7 @@ export const destination: Destination = {
             src: "/destination/bresil/hero-1.webp",
             alt: "Dunes blanches et lagunes turquoise des Lençóis Maranhenses au Brésil",
           },
-          name: "Édouard", // TODO: verify
+          name: "Grégory", // TODO: verify
           role: "Voyage en couple, juillet 2025", // TODO: verify
         },
         {
@@ -543,7 +542,7 @@ export const destination: Destination = {
             src: "/destination/bresil/hero-2.webp",
             alt: "Façades colorées du Pelourinho à Salvador de Bahia en fin de journée",
           },
-          name: "Bernard & Michèle", // TODO: verify
+          name: "Célestin & Ariane", // TODO: verify
           role: "Voyage anniversaire, août 2025", // TODO: verify
         },
         {

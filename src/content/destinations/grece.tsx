@@ -24,7 +24,6 @@ export const destination: Destination = {
     "mer egee",
     "mykonos",
   ],
-  metaTitle: "Grèce : Voyage sur mesure",
   metaDescription:
     "Voyage en Grèce sur mesure : Athènes, Delphes, Cyclades et Péloponnèse. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -527,7 +526,7 @@ export const destination: Destination = {
             src: "/destination/grece/hero-1.webp",
             alt: "Village blanc aux dômes bleus surplombant la mer Égée en Grèce",
           },
-          name: "Bernard & Michèle", // TODO: verify
+          name: "Jean-Michel & Lisa", // TODO: verify
           role: "Voyage anniversaire, septembre 2025", // TODO: verify
         },
         {
@@ -538,7 +537,7 @@ export const destination: Destination = {
             src: "/destination/grece/hero-2.webp",
             alt: "Colonnes du Parthénon au-dessus des fleurs jaunes, lumière dorée du soir",
           },
-          name: "Édouard", // TODO: verify
+          name: "Jean-Baptiste", // TODO: verify
           role: "Voyage en famille, juin 2025", // TODO: verify
         },
         {
@@ -549,7 +548,7 @@ export const destination: Destination = {
             src: "/destination/grece/hero-3.webp",
             alt: "Goélette au mouillage dans une crique turquoise sous des falaises dorées",
           },
-          name: "Claire", // TODO: verify
+          name: "Éliane", // TODO: verify
           role: "Séjour en couple, mai 2025", // TODO: verify
         },
       ],

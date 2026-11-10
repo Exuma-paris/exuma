@@ -23,7 +23,6 @@ export const destination: Destination = {
     "piemont",
     "montalcino",
   ],
-  metaTitle: "Italie : Voyage sur mesure",
   metaDescription:
     "Voyage en Italie sur mesure : Florence, Venise, la Toscane, les Dolomites et Pompéi. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -532,7 +531,7 @@ export const destination: Destination = {
             src: "/destination/italie/hero-1.webp",
             alt: "Collines de Toscane plantées de cyprès au lever du jour, en Italie",
           },
-          name: "Bernard", // TODO: verify
+          name: "Marius", // TODO: verify
           role: "Voyage en couple, mai 2026", // TODO: verify
         },
         {
@@ -543,7 +542,7 @@ export const destination: Destination = {
             src: "/destination/italie/hero-2.webp",
             alt: "Palais du Grand Canal et gondole amarrée au petit matin à Venise",
           },
-          name: "Constance", // TODO: verify
+          name: "Florence", // TODO: verify
           role: "Voyage en famille, avril 2026", // TODO: verify
         },
         {
@@ -554,7 +553,7 @@ export const destination: Destination = {
             src: "/destination/italie/hero-3.webp",
             alt: "Sommets des Dolomites au-dessus des prés du Trentin en fin de journée",
           },
-          name: "Édouard", // TODO: verify
+          name: "Vivien", // TODO: verify
           role: "Voyage anniversaire, octobre 2025", // TODO: verify
         },
       ],

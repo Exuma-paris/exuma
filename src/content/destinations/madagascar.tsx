@@ -23,7 +23,6 @@ export const destination: Destination = {
     "andasibe",
     "lemuriens",
   ],
-  metaTitle: "Madagascar : Voyage sur mesure",
   metaDescription:
     "Voyage à Madagascar sur mesure : îles du Nord, forêt de baobabs d'Anjajavy, lémuriens d'Andasibe. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -571,7 +570,7 @@ export const destination: Destination = {
             src: "/destination/madagascar/hero-1.webp",
             alt: "Lémurien sifaka dans la forêt sèche d'Anjajavy, voyage à Madagascar"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Lorraine", // TODO: replace with real testimonial
           role: "Anjajavy, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -582,7 +581,7 @@ export const destination: Destination = {
             src: "/destination/madagascar/hero-2.webp",
             alt: "Les cirques de latérite des Tsingy Rouges dans la vallée de l'Irodo, au nord d'Antsiranana"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Elsa & Albert", // TODO: replace with real testimonial
           role: "Andasibe, octobre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -593,7 +592,7 @@ export const destination: Destination = {
             src: "/destination/madagascar/hero-3.webp",
             alt: "Plage et barrière de corail de Nosy Ankao, au large du nord-est malgache"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Vanessa & Jérôme", // TODO: replace with real testimonial
           role: "Nosy Ankao, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

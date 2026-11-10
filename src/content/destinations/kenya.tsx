@@ -29,7 +29,6 @@ export const destination: Destination = {
     "safari",
     "afrique de l'est",
   ],
-  metaTitle: "Kenya : Voyage sur mesure",
   metaDescription:
     "Voyage au Kenya sur mesure : safari au Masaï Mara, côte de Galu Beach, Laikipia. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -553,7 +552,7 @@ export const destination: Destination = {
             src: "/destination/kenya/hero-1.png",
             alt: "Troupeau de gnous traversant la rivière Mara au Kenya au moment de la Grande Migration"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Alexandra & Cédric", // TODO: replace with real testimonial
           role: "Safari Kenya, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -564,7 +563,7 @@ export const destination: Destination = {
             src: "/destination/kenya/hero-2.png",
             alt: "Femmes Masaï en tenue traditionnelle dans les plaines de la savane kenyane"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Anselme", // TODO: replace with real testimonial
           role: "Kenya Masaï Mara et côte, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -575,7 +574,7 @@ export const destination: Destination = {
             src: "/destination/kenya/hero-3.png",
             alt: "Plage de sable blanc de Galu Beach sur la côte sud du Kenya"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Pauline & Odilon", // TODO: replace with real testimonial
           role: "Kenya Culture et Safari, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

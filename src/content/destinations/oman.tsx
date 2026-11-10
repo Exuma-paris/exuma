@@ -23,7 +23,6 @@ export const destination: Destination = {
     "desert",
     "peninsule arabique",
   ],
-  metaTitle: "Oman : Voyage sur mesure",
   metaDescription:
     "Voyage à Oman sur mesure : Jebel Akhdar, désert des Wahiba, forts de Nizwa. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -566,7 +565,7 @@ export const destination: Destination = {
             src: "/destination/oman/hero-1.webp",
             alt: "Dunes des Wahiba Sands au lever du jour lors d'un voyage à Oman"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Marie-France & Victor", // TODO: replace with real testimonial
           role: "Oman, désert et montagne, 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -577,7 +576,7 @@ export const destination: Destination = {
             src: "/destination/oman/hero-2.webp",
             alt: "Terrasses de pierre sèche du plateau de Saiq sur le Jebel Akhdar"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Marthe & Louis", // TODO: replace with real testimonial
           role: "Oman, Jebel Akhdar et Nizwa, 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -588,7 +587,7 @@ export const destination: Destination = {
             src: "/destination/oman/hero-3.webp",
             alt: "Tours de terre du fort de Nizwa dominant la palmeraie omanaise"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Gabriel", // TODO: replace with real testimonial
           role: "Oman, côte et intérieur, 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

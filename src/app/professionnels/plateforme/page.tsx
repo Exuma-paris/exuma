@@ -3,10 +3,11 @@ import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
 import { meta, sections } from "@/content/pages/plateforme";
 import { applyBackgroundRhythm } from "@/lib/content/background-rhythm";
+import { SITE_URL } from "@/lib/site-url";
 
 const PATH = "/professionnels/plateforme";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://exuma.example.com";
+const siteUrl = SITE_URL;
 
 /** Image de partage : le hero de la page. Sans cette déclaration, la page
  * hériterait des balises Open Graph de l'accueil, et un lien envoyé par mail ou

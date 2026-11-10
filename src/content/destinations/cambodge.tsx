@@ -23,7 +23,6 @@ export const destination: Destination = {
     "cardamomes",
     "koh rong",
   ],
-  metaTitle: "Cambodge : Voyage sur mesure",
   metaDescription:
     "Voyage au Cambodge sur mesure : Angkor avant l'ouverture, le Mekong en sampan, les Cardamomes, les îles du golfe. Itinéraire écrit par votre travel designer.",
   sections: [
@@ -558,7 +557,7 @@ export const destination: Destination = {
             src: "/destination/cambodge/hero-1.webp",
             alt: "Deux jeunes moines en robe safran assis dans l'embrasure d'un temple d'Angkor"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Élisabeth & Christophe", // TODO: replace with real testimonial
           role: "Cambodge, Angkor et Phnom Penh, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -569,7 +568,7 @@ export const destination: Destination = {
             src: "/destination/cambodge/hero-2.webp",
             alt: "Silhouette d'un éléphant et de son cornac dans la lumière du couchant, au Cambodge"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Laure & Cyrille", // TODO: replace with real testimonial
           role: "Cambodge en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -580,7 +579,7 @@ export const destination: Destination = {
             src: "/destination/cambodge/hero-3.webp",
             alt: "Les tours d'Angkor Vat reflétées dans le bassin aux nénuphars, près de Siem Reap"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Edwige & Jean-Édouard", // TODO: replace with real testimonial
           role: "Cambodge, Angkor et Cardamomes, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

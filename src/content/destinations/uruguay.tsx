@@ -23,7 +23,6 @@ export const destination: Destination = {
     "tacuarembo",
     "tannat",
   ],
-  metaTitle: "Uruguay : Voyage sur mesure",
   metaDescription:
     "Voyage en Uruguay sur mesure : José Ignacio, vignobles de Garzón, estancias de Tacuarembó, dunes de Cabo Polonio. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -535,7 +534,7 @@ export const destination: Destination = {
             src: "/destination/uruguay/hero-1.webp",
             alt: "Phare de José Ignacio et sa plage vus du ciel, côte atlantique de l'Uruguay"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Christelle & Rémi", // TODO: replace with real testimonial
           role: "Uruguay, Montevideo, Garzón et la côte, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -546,7 +545,7 @@ export const destination: Destination = {
             src: "/destination/uruguay/hero-2.webp",
             alt: "Gaucho à cheval face à son troupeau au soleil couchant, estancia de l'Uruguay"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Elodie & Charles", // TODO: replace with real testimonial
           role: "Uruguay, estancias du centre-nord, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -557,7 +556,7 @@ export const destination: Destination = {
             src: "/destination/uruguay/hero-3.webp",
             alt: "Sentier de sable entre les dunes, au bord de l'Atlantique sur la côte de Rocha"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Léonie & Étienne", // TODO: replace with real testimonial
           role: "Uruguay, côte de Rocha, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

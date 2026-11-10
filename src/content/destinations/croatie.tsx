@@ -21,7 +21,6 @@ export const destination: Destination = {
     "dalmatie",
     "adriatique",
   ],
-  metaTitle: "Croatie : Voyage sur mesure",
   metaDescription:
     "Voyage en Croatie sur mesure : Dubrovnik, Split, îles Kornati, Hvar. Itinéraire conçu par votre travel designer Exuma, conciergerie privée.",
   sections: [

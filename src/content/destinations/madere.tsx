@@ -23,7 +23,6 @@ export const destination: Destination = {
     "seixal",
     "laurisylve",
   ],
-  metaTitle: "Madère : Voyage sur mesure",
   metaDescription:
     "Voyage à Madère sur mesure : levadas, forêt de Fanal, Funchal et vins de Malvasia. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -533,7 +532,7 @@ export const destination: Destination = {
             src: "/destination/madere/hero-1.png",
             alt: "Sommets volcaniques de Madère au-dessus d'une mer de nuages au lever du jour",
           },
-          name: "Frédéric", // TODO: verify
+          name: "Hector", // TODO: verify
           role: "Séjour en couple, mai 2026", // TODO: verify
         },
         {
@@ -544,7 +543,7 @@ export const destination: Destination = {
             src: "/destination/madere/hero-2.webp",
             alt: "Cascade tombant d'une paroi couverte de mousse et de fougères, à Madère",
           },
-          name: "Constance", // TODO: verify
+          name: "Vinciane", // TODO: verify
           role: "Voyage en famille, avril 2026", // TODO: verify
         },
         {
@@ -555,7 +554,7 @@ export const destination: Destination = {
             src: "/destination/madere/hero-3.webp",
             alt: "Maison triangulaire au toit de chaume et aux volets bleus, typique de Santana",
           },
-          name: "Édouard", // TODO: verify
+          name: "Léon", // TODO: verify
           role: "Voyage anniversaire, octobre 2025", // TODO: verify
         },
       ],

@@ -24,7 +24,6 @@ export const destination: Destination = {
     "raie manta",
     "ocean indien",
   ],
-  metaTitle: "Maldives, voyage sur mesure",
   metaDescription:
     "Voyage aux Maldives sur mesure : atolls de Baa, Noonu et Laamu, îles privées, raies manta. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [

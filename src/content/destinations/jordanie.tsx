@@ -23,7 +23,6 @@ export const destination: Destination = {
     "aqaba",
     "nabateens",
   ],
-  metaTitle: "Jordanie : Voyage sur mesure",
   metaDescription:
     "Voyage en Jordanie sur mesure : Pétra, désert du Wadi Rum, mer Morte. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -614,7 +613,7 @@ export const destination: Destination = {
             src: "/destination/jordanie/hero-1.webp",
             alt: "Façade du Khazneh à Pétra au sortir du Siq lors d'un voyage en Jordanie"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Ambre & Pierre-Yves", // TODO: replace with real testimonial
           role: "Jordanie, Pétra et Wadi Rum, 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -625,7 +624,7 @@ export const destination: Destination = {
             src: "/destination/jordanie/hero-2.webp",
             alt: "Massifs de grès et sable rouge du désert du Wadi Rum en fin de journée"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Mathilde & Benjamin", // TODO: replace with real testimonial
           role: "Jordanie, mer Morte et route des Rois, 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -636,7 +635,7 @@ export const destination: Destination = {
             src: "/destination/jordanie/hero-3.webp",
             alt: "Dépôts de sel et eau immobile sur la rive jordanienne de la mer Morte"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Corine & Charles-Édouard", // TODO: replace with real testimonial
           role: "Jordanie, désert et Aqaba, 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

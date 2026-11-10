@@ -4,7 +4,7 @@ import { getGroupeQuestions } from "@/lib/contact/groupe-questions";
 import { EXUMA_PHONE } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Parler d'un projet de groupe — Exuma",
+  title: "Parler d'un projet de groupe",
   description:
     "Séminaires, incentives, conventions : confiez-nous le déplacement de vos équipes. Réponse sous 24 heures ouvrées.",
   alternates: { canonical: "/professionnels/groupes" },

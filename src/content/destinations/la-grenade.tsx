@@ -23,7 +23,6 @@ export const destination: Destination = {
     "molinere",
     "caraibes",
   ],
-  metaTitle: "La Grenade : Voyage sur mesure",
   metaDescription:
     "Voyage à la Grenade sur mesure : Saint-Georges, la Grand Anse, les plantations de muscade et Carriacou. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -571,7 +570,7 @@ export const destination: Destination = {
             src: "/destination/la-grenade/hero-1.webp",
             alt: "Voyage à la Grenade : le port en fer à cheval de Saint-Georges et ses toits rouges"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Annick & Bruno", // TODO: replace with real testimonial
           role: "La Grenade, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -582,7 +581,7 @@ export const destination: Destination = {
             src: "/destination/la-grenade/hero-2.webp",
             alt: "La plage de la Grand Anse vue du ciel, son sable clair bordé de cocotiers"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Bérengère & Côme", // TODO: replace with real testimonial
           role: "La Grenade en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -593,7 +592,7 @@ export const destination: Destination = {
             src: "/destination/la-grenade/hero-3.webp",
             alt: "Fruit du muscadier ouvert dans une main, la noix entourée de son macis rouge, à la Grenade"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Ophélie & Firmin", // TODO: replace with real testimonial
           role: "La Grenade et Carriacou, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

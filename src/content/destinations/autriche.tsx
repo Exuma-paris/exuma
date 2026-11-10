@@ -24,7 +24,6 @@ export const destination: Destination = {
     "danube",
     "alpes",
   ],
-  metaTitle: "Autriche : Voyage sur mesure",
   metaDescription:
     "Voyage en Autriche sur mesure : Vienne, Salzbourg, la Wachau et l’Arlberg. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [

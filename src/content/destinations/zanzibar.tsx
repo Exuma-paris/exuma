@@ -23,7 +23,6 @@ export const destination: Destination = {
     "ocean indien",
     "epices",
   ],
-  metaTitle: "Zanzibar : Voyage sur mesure",
   metaDescription:
     "Voyage à Zanzibar sur mesure : Stone Town, l'île de Mnemba, la route des épices, la côte de Matemwe. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -546,7 +545,7 @@ export const destination: Destination = {
             src: "/destination/zanzibar/hero-1.webp",
             alt: "Banc de sable blanc et boutres au mouillage sur la côte de Zanzibar, vue du ciel"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Héloïse & Didier", // TODO: replace with real testimonial
           role: "Tanzanie et Zanzibar, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -557,7 +556,7 @@ export const destination: Destination = {
             src: "/destination/zanzibar/hero-2.webp",
             alt: "Le restaurant The Rock posé sur son rocher dans l'océan Indien, Zanzibar"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Mado & Jocelyn", // TODO: replace with real testimonial
           role: "Zanzibar en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -568,7 +567,7 @@ export const destination: Destination = {
             src: "/destination/zanzibar/hero-3.webp",
             alt: "Boutres à voile échoués sur une plage de sable blanc à marée basse, Zanzibar"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Joëlle & Fernand", // TODO: replace with real testimonial
           role: "Zanzibar, avril 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

@@ -15,7 +15,7 @@ import {
 } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Contact — Exuma",
+  title: "Contact",
   description:
     "Joindre l'équipe Exuma : téléphone, courriel, adresse. Lundi au vendredi, 9h–19h.",
   alternates: { canonical: "/contact" },

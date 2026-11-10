@@ -23,7 +23,6 @@ export const destination: Destination = {
     "papagayo",
     "guanacaste",
   ],
-  metaTitle: "Costa Rica : Voyage sur mesure",
   metaDescription:
     "Voyage au Costa Rica sur mesure : canaux de Tortuguero, volcan Arenal, forêt de nuages de Monteverde, péninsule de Nicoya. Itinéraire écrit par Exuma.",
   sections: [
@@ -577,7 +576,7 @@ export const destination: Destination = {
             src: "/destination/costa-rica/hero-1.webp",
             alt: "Canaux de Tortuguero bordés de forêt tropicale au Costa Rica"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Odile & Rodolphe", // TODO: replace with real testimonial
           role: "Costa Rica en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -588,7 +587,7 @@ export const destination: Destination = {
             src: "/destination/costa-rica/hero-2.webp",
             alt: "Cône du volcan Arenal dégagé au-dessus de la forêt de La Fortuna"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Coralie & Charles-Henri", // TODO: replace with real testimonial
           role: "Costa Rica, avril 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -599,7 +598,7 @@ export const destination: Destination = {
             src: "/destination/costa-rica/hero-3.webp",
             alt: "Plage de Santa Teresa à marée basse sur la péninsule de Nicoya"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Andrée & Joseph", // TODO: replace with real testimonial
           role: "Nicoya et Papagayo, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

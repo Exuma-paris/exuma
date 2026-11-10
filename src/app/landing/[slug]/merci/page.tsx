@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const destination = destinations[slug];
   return {
     title: destination
-      ? `Demande envoyée — ${destination.name} — Exuma`
-      : "Demande envoyée — Exuma",
+      ? `Demande envoyée, ${destination.name}`
+      : "Demande envoyée",
     description:
       "Votre demande de devis a bien été reçue. Un travel designer Exuma vous contactera sous 24 heures.",
     alternates: { canonical: `/landing/${slug}/merci` },

@@ -35,6 +35,7 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
 export const serviceCategory: ServiceCategory = {
   slug: "conciergerie",
   name: "Conciergerie privée & VIP",
+  metaTitle: "Conciergerie privée à Paris",
   blurb:
     "Célébrations mises en scène, personnel choisi et vérifié, demandes de dernière minute prises en charge de bout en bout.",
   keywords: [
