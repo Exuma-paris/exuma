@@ -19,7 +19,6 @@ export const destination: Destination = {
     "aeroe",
     "skagen",
   ],
-  metaTitle: "Danemark : Voyage sur mesure",
   metaDescription:
     "Voyage au Danemark sur mesure : Copenhague, châteaux royaux et gastronomie New Nordic. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [

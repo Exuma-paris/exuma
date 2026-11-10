@@ -23,7 +23,6 @@ export const destination: Destination = {
     "malilangwe",
     "zambeze",
   ],
-  metaTitle: "Zimbabwe : Voyage sur mesure",
   metaDescription:
     "Voyage au Zimbabwe sur mesure : chutes Victoria, éléphants de Hwange, marche à Mana Pools, collines de Matobo. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -567,7 +566,7 @@ export const destination: Destination = {
             src: "/destination/zimbabwe/hero-1.webp",
             alt: "Voyage au Zimbabwe : les chutes Victoria et leur brume d'eau vues depuis la rive zimbabwéenne"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Noémie & Sacha", // TODO: replace with real testimonial
           role: "Zambèze et Mana Pools, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -578,7 +577,7 @@ export const destination: Destination = {
             src: "/destination/zimbabwe/hero-2.webp",
             alt: "Troupeau d'éléphants autour d'un point d'eau du parc de Hwange en fin de journée"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Émilie & Urbain", // TODO: replace with real testimonial
           role: "Matobo et Great Zimbabwe, août 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -589,7 +588,7 @@ export const destination: Destination = {
             src: "/destination/zimbabwe/hero-3.webp",
             alt: "Rhinocéros dans les hautes herbes au lever du jour, au Zimbabwe"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Quitterie & Edmond", // TODO: replace with real testimonial
           role: "Victoria Falls et Hwange, octobre 2024", // TODO: à vérifier (replace with real testimonial)
         },
       ],

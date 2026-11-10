@@ -23,7 +23,6 @@ export const destination: Destination = {
     "grand turk",
     "caraibes",
   ],
-  metaTitle: "Turks and Caicos : Voyage sur mesure",
   metaDescription:
     "Voyage aux Turks and Caicos sur mesure : Grace Bay, Parrot Cay, le mur de West Caicos. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -587,7 +586,7 @@ export const destination: Destination = {
             src: "/destination/turks-and-caicos/hero-1.webp",
             alt: "Voyage aux Turks and Caicos : le sable blanc et l'eau turquoise de Grace Bay, à Providenciales"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Gisèle & Guilhem", // TODO: replace with real testimonial
           role: "Providenciales, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -598,7 +597,7 @@ export const destination: Destination = {
             src: "/destination/turks-and-caicos/hero-2.webp",
             alt: "West Caicos et son tombant vus d'avion, où l'eau turquoise bascule vers le bleu profond"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Marcelle & Damien", // TODO: replace with real testimonial
           role: "Parrot Cay, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -609,7 +608,7 @@ export const destination: Destination = {
             src: "/destination/turks-and-caicos/hero-3.webp",
             alt: "La plage de Mudjin Harbour, ses falaises et Dragon Cay vus du ciel, à Middle Caicos"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Aude & Gérald", // TODO: replace with real testimonial
           role: "Les Turks and Caicos en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

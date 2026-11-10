@@ -25,6 +25,28 @@ const nextConfig: NextConfig = {
   ...(process.env.NODE_ENV === "development"
     ? { images: { unoptimized: true } }
     : {}),
+
+  // En-têtes de sécurité de base, sur toutes les réponses. Vercel ne pose que
+  // HSTS. La politique de contenu (CSP) n'est pas encore posée : elle doit
+  // d'abord lister tout ce que charge GTM, sans quoi elle bloquerait la mesure.
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          // SAMEORIGIN plutôt que DENY : l'atelier des sections du
+          // design-system affiche les pages du site dans une iframe.
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+          {
+            key: "Permissions-Policy",
+            value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()",
+          },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;

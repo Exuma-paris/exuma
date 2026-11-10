@@ -23,7 +23,6 @@ export const destination: Destination = {
     "voile",
     "antigua sailing week",
   ],
-  metaTitle: "Antigua : Voyage sur mesure",
   metaDescription:
     "Voyage à Antigua sur mesure : English Harbour, plages de Barbuda, villas privées entre Jumby Bay et Hermitage Bay. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -525,7 +524,7 @@ export const destination: Destination = {
             src: "/destination/antigua/hero-1.webp",
             alt: "Plage de sable blanc et eaux turquoise lors d'un voyage à Antigua",
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Yvonne & Tristan", // TODO: replace with real testimonial
         },
         {
           // TODO: replace with real testimonial
@@ -535,7 +534,7 @@ export const destination: Destination = {
             src: "/destination/antigua/hero-2.webp",
             alt: "Voilier au mouillage dans une baie abritée de la côte ouest d'Antigua",
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Brigitte & Jean-Bernard", // TODO: replace with real testimonial
           role: "Antigua en famille, Jumby Bay, 2025", // TODO: replace with real testimonial
         },
         {
@@ -546,7 +545,7 @@ export const destination: Destination = {
             src: "/destination/antigua/hero-3.webp",
             alt: "Plage de sable rose de Barbuda et mer turquoise",
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Mahaut & Corentin", // TODO: replace with real testimonial
           role: "Antigua, English Harbour, 2025", // TODO: replace with real testimonial
         },
       ],

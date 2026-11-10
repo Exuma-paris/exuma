@@ -23,7 +23,6 @@ export const destination: Destination = {
     "kiruna",
     "aurores boreales",
   ],
-  metaTitle: "Suède : Voyage sur mesure",
   metaDescription:
     "Voyage en Suède sur mesure : archipel de Stockholm, Laponie polaire, Gotland. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -553,7 +552,7 @@ export const destination: Destination = {
             src: "/destination/suede/hero-1.webp",
             alt: "Voilier au mouillage devant le village de Fjällbacka, sur la côte ouest de la Suède",
           },
-          name: "Camille & Thomas", // TODO: verify
+          name: "Sylvaine & Enguerrand", // TODO: verify
           role: "Voyage en couple, juillet 2025", // TODO: verify
         },
         {

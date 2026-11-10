@@ -22,7 +22,6 @@ export const destination: Destination = {
     "sunnmore",
     "aurores boreales",
   ],
-  metaTitle: "Norvège, voyage sur mesure",
   metaDescription:
     "Voyage en Norvège sur mesure : fjords de Sunnmøre, Lofoten, Geiranger au lever du jour. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -599,7 +598,7 @@ export const destination: Destination = {
             src: "/destination/norvege/hero-1.webp",
             alt: "Cabanes de pêcheurs rouges sur les rochers, au pied d'une montagne, près de Reine, Lofoten",
           },
-          name: "Philippe", // TODO: verify
+          name: "Balthazar", // TODO: verify
           role: "Voyage en couple, juin 2025", // TODO: verify
         },
         {

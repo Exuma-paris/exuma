@@ -24,7 +24,6 @@ export const destination: Destination = {
     "java",
     "bromo",
   ],
-  metaTitle: "Indonésie : Voyage sur mesure",
   metaDescription:
     "Voyage en Indonésie sur mesure : le mont Bromo à Java, Bali et Ubud, croisière en phinisi à Komodo, Sumba. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -594,7 +593,7 @@ export const destination: Destination = {
             src: "/destination/indonesie/hero-1.webp",
             alt: "Rizières en terrasses au-dessus de la gorge de l'Ayung près d'Ubud, Bali, Indonésie"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Justine & Alain", // TODO: replace with real testimonial
           role: "Bali et Komodo en famille, juillet 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -605,7 +604,7 @@ export const destination: Destination = {
             src: "/destination/indonesie/hero-2.webp",
             alt: "Phinisi à voiles carguées mouillé devant les collines sèches du parc national de Komodo"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Sonia & Stanislas", // TODO: replace with real testimonial
           role: "Indonésie, mai 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -616,7 +615,7 @@ export const destination: Destination = {
             src: "/destination/indonesie/hero-3.webp",
             alt: "Cavalier sumbanais sur la plage de Nihiwatu, côte ouest de Sumba au petit matin"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Louise & Nathan", // TODO: replace with real testimonial
           role: "Bali et Sumba, septembre 2024", // TODO: à vérifier (replace with real testimonial)
         },
       ],

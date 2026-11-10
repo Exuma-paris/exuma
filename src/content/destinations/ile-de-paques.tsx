@@ -23,7 +23,6 @@ export const destination: Destination = {
     "hanga roa",
     "anakena",
   ],
-  metaTitle: "Île de Pâques : Voyage sur mesure",
   metaDescription:
     "Voyage à l'île de Pâques sur mesure : Rano Raraku, Ahu Tongariki, Orongo, guides rapanui. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -576,7 +575,7 @@ export const destination: Destination = {
             src: "/destination/ile-de-paques/hero-1.webp",
             alt: "Moai d'Ahu Tongariki au lever du jour sur l'île de Pâques"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Alix & Hugues", // TODO: replace with real testimonial
           role: "Île de Pâques, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -587,7 +586,7 @@ export const destination: Destination = {
             src: "/destination/ile-de-paques/hero-2.webp",
             alt: "Cratère du Rano Kau et village de pierre d'Orongo au-dessus de l'océan"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Valérie & Thibault", // TODO: replace with real testimonial
           role: "Chili et Rapa Nui en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -598,7 +597,7 @@ export const destination: Destination = {
             src: "/destination/ile-de-paques/hero-3.webp",
             alt: "Baie d'Anakena et sa cocoteraie sur la côte nord de Rapa Nui"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Mireille", // TODO: replace with real testimonial
           role: "Île de Pâques après la Patagonie, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

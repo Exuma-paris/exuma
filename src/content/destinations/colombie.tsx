@@ -23,7 +23,6 @@ export const destination: Destination = {
     "tayrona",
     "pacifique choco",
   ],
-  metaTitle: "Colombie : Voyage sur mesure",
   metaDescription:
     "Voyage sur mesure en Colombie : Carthagène, Sierra Nevada, Zone Café, Pacifique. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -566,7 +565,7 @@ export const destination: Destination = {
             src: "/destination/colombie/hero-2.webp",
             alt: "Balcons de bois peints et façades colorées de la vieille ville de Carthagène des Indes, Colombie",
           },
-          name: "Frédéric", // TODO: verify
+          name: "Eugène", // TODO: verify
           role: "Voyage en famille, décembre 2025", // TODO: verify
         },
         {

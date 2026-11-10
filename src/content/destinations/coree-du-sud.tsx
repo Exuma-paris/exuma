@@ -23,7 +23,6 @@ export const destination: Destination = {
     "hanok",
     "changdeokgung",
   ],
-  metaTitle: "Corée du Sud : Voyage sur mesure",
   metaDescription:
     "Voyage en Corée du Sud sur mesure : Séoul et ses hanoks, Gyeongju, Busan et l'île de Jeju. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -570,7 +569,7 @@ export const destination: Destination = {
             src: "/destination/coree-du-sud/hero-1.png",
             alt: "Voyage en Corée du Sud : les toits de tuiles du village de hanoks de Bukchon, à Séoul"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Sixtine & Georges", // TODO: replace with real testimonial
           role: "Corée du Sud à deux, octobre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -581,7 +580,7 @@ export const destination: Destination = {
             src: "/destination/coree-du-sud/hero-2.png",
             alt: "Pavillon de bois et étang de lotus du Jardin secret de Changdeokgung"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Yvette & Jean-Philippe", // TODO: replace with real testimonial
           role: "Corée du Sud en famille, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -592,7 +591,7 @@ export const destination: Destination = {
             src: "/destination/coree-du-sud/hero-3.png",
             alt: "Plongeuses haenyeo remontant sur les rochers noirs de l'île de Jeju"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Annabelle & Arthur", // TODO: replace with real testimonial
           role: "Corée du Sud, novembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

@@ -11,7 +11,7 @@ import {
 } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité — Exuma",
+  title: "Politique de confidentialité",
   description:
     "Comment Exuma collecte, utilise et protège vos données personnelles, et comment exercer vos droits au titre du RGPD.",
   alternates: { canonical: "/confidentialite" },

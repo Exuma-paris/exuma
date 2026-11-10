@@ -53,7 +53,7 @@ export const sections: Section[] = [
     eyebrow: "Notre métier",
     heading: "Une maison de conseils privée dédiée aux déplacements",
     columns: [
-      "Exuma n'est pas une agence de voyage de luxe. **Nous sommes une maison de conseils privée** : un partenaire qui pense et qui se soucie, au quotidien, des déplacements de ses clients, quelles que soient leur taille et leur destination. **Un aller-retour en train compte autant qu'un tour du monde.**",
+      "Exuma n'est pas seulement une agence de voyage de luxe. **Nous sommes une maison de conseils privée** : un partenaire qui pense et qui se soucie, au quotidien, des déplacements de ses clients, quelles que soient leur taille et leur destination. **Un aller-retour en train compte autant qu'un tour du monde.**",
       "Notre métier, c'est de prendre en charge. Entièrement. Durablement. Avec la certitude que ce qui a été dit sera fait, exactement comme convenu. Notre rôle est toujours le même : être ceux qui gèrent, pour que vous soyez celui qui décide, ou celui qui profite.",
     ],
   },

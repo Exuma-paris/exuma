@@ -34,6 +34,7 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
 export const serviceCategory: ServiceCategory = {
   slug: "securite",
   name: "Sécurité & sérénité",
+  metaTitle: "Assistance voyage et sécurité des voyageurs",
   blurb:
     "Prestataires de protection vérifiés, prise en charge des imprévus, assistance convenue à l'avance et exigences sanitaires à jour.",
   keywords: [

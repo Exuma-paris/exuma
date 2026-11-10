@@ -1,8 +1,9 @@
 import type { Destination, ImageRef } from "@/lib/content/types";
 import { continents } from "@/lib/content/registry";
+import { SITE_URL } from "@/lib/site-url";
 
 export function getSiteUrl(): string {
-  return process.env.NEXT_PUBLIC_SITE_URL ?? "https://exuma.example.com";
+  return SITE_URL;
 }
 
 export function destinationPath(slug: string): string {
@@ -22,8 +23,23 @@ export function buildMetaDescription(destination: Destination): string {
   return `${where} sur mesure avec Exuma : adresses confidentielles, conciergerie privée, itinéraire conçu par un travel designer dédié.`;
 }
 
+// Le layout ajoute « | Exuma » : au-delà de 60 caractères au total, Google
+// tronque le titre.
+const MAX_TITLE = 60 - " | Exuma".length;
+
+/**
+ * Titre Google d'une destination : « {Nom} : voyage de luxe sur mesure ».
+ * Le nom vient en tête parce que la demande porte d'abord sur « voyage
+ * {pays} » ; « luxe » et « sur mesure » portent le positionnement (audit SEO
+ * de novembre 2026 : aucun titre du site ne contenait « luxe »). Les deux-points
+ * évitent d'accorder une préposition (« au », « en », « à »). Seul le <title>
+ * change : le H1 et les intitulés visibles restent ceux de la rédaction.
+ * `metaTitle` reste disponible pour une formulation propre à une page.
+ */
 export function buildMetaTitle(destination: Destination): string {
-  return destination.metaTitle ?? `${destination.name} — Voyage sur mesure`;
+  if (destination.metaTitle) return destination.metaTitle;
+  const full = `${destination.name} : voyage de luxe sur mesure`;
+  return full.length <= MAX_TITLE ? full : `${destination.name} : voyage de luxe`;
 }
 
 type JsonLd = Record<string, unknown>;

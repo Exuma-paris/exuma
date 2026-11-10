@@ -7,7 +7,7 @@ import {
 import { EXUMA_EMAIL } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Gestion des cookies — Exuma",
+  title: "Gestion des cookies",
   description:
     "Quels cookies sont déposés sur exuma.paris, à quoi ils servent, et comment les paramétrer.",
   alternates: { canonical: "/cookies" },

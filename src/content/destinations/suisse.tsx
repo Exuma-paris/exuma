@@ -24,7 +24,6 @@ export const destination: Destination = {
     "tessin",
     "valais",
   ],
-  metaTitle: "Suisse : Voyage sur mesure",
   metaDescription:
     "Voyage en Suisse sur mesure : Gstaad, Zermatt, l’Engadine et le Tessin. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -522,7 +521,7 @@ export const destination: Destination = {
             src: "/destination/suisse/hero-1.webp",
             alt: "Chutes du Rhin et château de Laufen vus du ciel, à Schaffhouse",
           },
-          name: "Frédéric", // TODO: verify
+          name: "Christian", // TODO: verify
           role: "Séjour en couple, février 2026", // TODO: verify
         },
         {
@@ -533,7 +532,7 @@ export const destination: Destination = {
             src: "/destination/suisse/hero-2.webp",
             alt: "Le Cervin se dévoile au-dessus de Zermatt au premier soleil",
           },
-          name: "Constance", // TODO: verify
+          name: "Carla", // TODO: verify
           role: "Voyage en famille, janvier 2026", // TODO: verify
         },
         {
@@ -544,7 +543,7 @@ export const destination: Destination = {
             src: "/destination/suisse/hero-3.webp",
             alt: "Château de Chillon et bateau à vapeur sur le lac Léman au coucher du soleil",
           },
-          name: "Laurent", // TODO: verify
+          name: "Nils", // TODO: verify
           role: "Voyage anniversaire, septembre 2025", // TODO: verify
         },
       ],

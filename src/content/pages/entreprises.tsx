@@ -30,7 +30,7 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
 
 export const meta = {
   // Porte les termes réellement tapés, que le H1 ne contient pas.
-  title: "Voyages d'affaires et séminaires d'entreprise",
+  title: "Gestion des voyages d'affaires en entreprise",
   // Repris dans le fil d'Ariane, où le titre complet serait trop long.
   shortTitle: "Entreprises & cabinets",
   description:

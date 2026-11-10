@@ -23,7 +23,6 @@ export const destination: Destination = {
     "lima",
     "andes",
   ],
-  metaTitle: "Pérou : Voyage sur mesure",
   metaDescription:
     "Voyage au Pérou sur mesure : Machu Picchu, Vallée Sacrée, Amazonie et lac Titicaca. Itinéraire conçu par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -544,7 +543,7 @@ export const destination: Destination = {
             src: "/destination/perou/hero-1.webp",
             alt: "Citadelle du Machu Picchu et le Huayna Picchu dans les nuages, Pérou",
           },
-          name: "Sophie & Marc", // TODO: verify
+          name: "Babette & Émile", // TODO: verify
           role: "Voyage de noces, mai 2025", // TODO: verify
         },
         {
@@ -555,7 +554,7 @@ export const destination: Destination = {
             src: "/destination/perou/hero-2.webp",
             alt: "Barque de roseaux et maisons des îles flottantes des Uros sur le lac Titicaca",
           },
-          name: "Laurent", // TODO: verify
+          name: "Alphonse", // TODO: verify
           role: "Voyage en famille, juillet 2025", // TODO: verify
         },
         {
@@ -566,7 +565,7 @@ export const destination: Destination = {
             src: "/destination/perou/hero-3.webp",
             alt: "Terrasses circulaires incas de Moray vues du ciel, Vallée Sacrée du Pérou",
           },
-          name: "Claire", // TODO: verify
+          name: "Agnès-Marie", // TODO: verify
           role: "Escapade solo, septembre 2025", // TODO: verify
         },
       ],

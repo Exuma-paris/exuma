@@ -21,7 +21,7 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
  */
 
 export const meta = {
-  title: "Séminaires, conventions et team building sur mesure",
+  title: "Organisation de séminaires d'entreprise et incentive",
   shortTitle: "Séminaires & events",
   description:
     "Exuma conçoit et organise vos séminaires, conventions, team buildings et événements d'entreprise, de A à Z : lieu, transport, hébergement, programme, présence le jour J, une seule facture.",

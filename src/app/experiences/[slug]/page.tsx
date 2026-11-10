@@ -12,6 +12,8 @@ import {
   pickHeroImage,
 } from "@/lib/experience/seo";
 import { applyBackgroundRhythm } from "@/lib/content/background-rhythm";
+import { isStubEntity, stubRobots } from "@/lib/content/seo";
+import { DEFAULT_SHARE_IMAGE } from "@/lib/site-url";
 
 export function generateStaticParams() {
   return Object.keys(experiences).map((slug) => ({ slug }));
@@ -35,18 +37,19 @@ export async function generateMetadata({
     title,
     description,
     alternates: { canonical: url },
+    ...(isStubEntity(experience) ? { robots: stubRobots } : {}),
     openGraph: {
       type: "article",
       url,
       title,
       description,
-      ...(hero ? { images: [{ url: hero.src, alt: hero.alt }] } : {}),
+      images: [{ url: (hero ?? DEFAULT_SHARE_IMAGE).src, alt: (hero ?? DEFAULT_SHARE_IMAGE).alt }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      ...(hero ? { images: [hero.src] } : {}),
+      images: [(hero ?? DEFAULT_SHARE_IMAGE).src],
     },
   };
 }

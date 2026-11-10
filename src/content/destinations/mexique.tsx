@@ -24,7 +24,6 @@ export const destination: Destination = {
     "cenote",
     "maya",
   ],
-  metaTitle: "Mexique : Voyage sur mesure",
   metaDescription:
     "Voyage au Mexique sur mesure : Mexico, Oaxaca, les cités mayas du Yucatán et la côte du Pacifique. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -529,7 +528,7 @@ export const destination: Destination = {
             src: "/destination/mexique/hero-1.webp",
             alt: "Pyramide de Kukulcán à Chichén Itzá sous les nuages du Yucatán, Mexique",
           },
-          name: "Bernard & Michèle", // TODO: verify
+          name: "Pascal & Évelyne", // TODO: verify
           role: "Voyage anniversaire, février 2026", // TODO: verify
         },
         {
@@ -540,7 +539,7 @@ export const destination: Destination = {
             src: "/destination/mexique/hero-2.webp",
             alt: "Habitants d'Oaxaca en tenue traditionnelle devant une porte peinte en rouge",
           },
-          name: "Édouard", // TODO: verify
+          name: "Emmanuel", // TODO: verify
           role: "Séjour en famille, janvier 2026", // TODO: verify
         },
         {
@@ -551,7 +550,7 @@ export const destination: Destination = {
             src: "/destination/mexique/hero-3.webp",
             alt: "Cascade tombant dans un cénote du Yucatán entouré de lianes",
           },
-          name: "Claire", // TODO: verify
+          name: "Maëlle", // TODO: verify
           role: "Voyage en couple, novembre 2025", // TODO: verify
         },
       ],

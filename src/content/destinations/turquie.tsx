@@ -24,7 +24,6 @@ export const destination: Destination = {
     "anatolie",
     "mer egee",
   ],
-  metaTitle: "Turquie : Voyage sur mesure",
   metaDescription:
     "Voyage en Turquie sur mesure : Istanbul, Cappadoce, Éphèse et côte lycienne. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -539,7 +538,7 @@ export const destination: Destination = {
             src: "/destination/turquie/hero-1.webp",
             alt: "Montgolfières au-dessus des reliefs de tuf de la Cappadoce au lever du jour",
           },
-          name: "Bernard & Michèle", // TODO: verify
+          name: "Élie & Léa", // TODO: verify
           role: "Voyage de transmission, mai 2026", // TODO: verify
         },
         {
@@ -550,7 +549,7 @@ export const destination: Destination = {
             src: "/destination/turquie/hero-2.webp",
             alt: "Coupole et médaillons calligraphiés de Sainte-Sophie à Istanbul",
           },
-          name: "Édouard", // TODO: verify
+          name: "Sixte", // TODO: verify
           role: "Séjour en couple, avril 2026", // TODO: verify
         },
         {
@@ -561,7 +560,7 @@ export const destination: Destination = {
             src: "/destination/turquie/hero-3.webp",
             alt: "Sommet de la tour de Galata et sa galerie panoramique, à Istanbul",
           },
-          name: "Frédéric", // TODO: verify
+          name: "Daniel", // TODO: verify
           role: "Croisière privée, septembre 2025", // TODO: verify
         },
       ],

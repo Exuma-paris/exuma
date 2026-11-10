@@ -24,7 +24,6 @@ export const destination: Destination = {
     "fauconnerie",
     "desert",
   ],
-  metaTitle: "Émirats arabes unis : Voyage sur mesure",
   metaDescription:
     "Voyage aux Émirats arabes unis sur mesure : Rub al-Khali, Abu Dhabi, Sharjah. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -539,7 +538,7 @@ export const destination: Destination = {
             src: "/destination/emirats-arabes-unis/hero-1.webp",
             alt: "Coupole et minaret de la grande mosquée Cheikh Zayed d'Abu Dhabi au-dessus des bassins",
           },
-          name: "Frédéric", // TODO: verify
+          name: "Lancelot", // TODO: verify
           role: "Séjour en couple, février 2026", // TODO: verify
         },
         {
@@ -550,7 +549,7 @@ export const destination: Destination = {
             src: "/destination/emirats-arabes-unis/hero-2.webp",
             alt: "Tours de Dubaï et Burj Khalifa dans la lumière du matin",
           },
-          name: "Édouard", // TODO: verify
+          name: "Anatole", // TODO: verify
           role: "Voyage anniversaire, janvier 2026", // TODO: verify
         },
         {
@@ -561,7 +560,7 @@ export const destination: Destination = {
             src: "/destination/emirats-arabes-unis/hero-3.webp",
             alt: "Montagnes du Hajar plongeant dans la mer au nord des Émirats",
           },
-          name: "Constance", // TODO: verify
+          name: "Patricia", // TODO: verify
           role: "Voyage en famille, décembre 2025", // TODO: verify
         },
       ],

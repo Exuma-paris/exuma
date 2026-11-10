@@ -23,7 +23,6 @@ export const destination: Destination = {
     "harrisons cave",
     "rhum",
   ],
-  metaTitle: "Barbade : Voyage sur mesure",
   metaDescription:
     "Voyage à la Barbade sur mesure : Platinum Coast, villas privées, rhum de Mount Gay. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -528,7 +527,7 @@ export const destination: Destination = {
             src: "/destination/barbade/hero-1.webp",
             alt: "Plage de sable clair bordée d’arbres sur la Platinum Coast, Barbade",
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Raphaëlle & Guy", // TODO: replace with real testimonial
           role: "Barbade en famille, Platinum Coast, 2025", // TODO: replace with real testimonial
         },
         {
@@ -539,7 +538,7 @@ export const destination: Destination = {
             src: "/destination/barbade/hero-2.webp",
             alt: "Catamaran privé au mouillage devant une plage de la côte ouest, nageurs autour, Barbade",
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Paulette & Jean-Guy", // TODO: replace with real testimonial
           role: "Voyage de noces, 2025", // TODO: replace with real testimonial
         },
         {
@@ -550,7 +549,7 @@ export const destination: Destination = {
             src: "/destination/barbade/hero-3.webp",
             alt: "Rocher en champignon de Bathsheba face aux vagues de l’Atlantique, Barbade",
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Philippine & Luc", // TODO: replace with real testimonial
           role: "Escapade en couple, 2025", // TODO: replace with real testimonial
         },
       ],

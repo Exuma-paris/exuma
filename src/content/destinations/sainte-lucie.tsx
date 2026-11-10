@@ -23,7 +23,6 @@ export const destination: Destination = {
     "caraibes",
     "antilles",
   ],
-  metaTitle: "Sainte-Lucie : Voyage sur mesure",
   metaDescription:
     "Voyage à Sainte-Lucie sur mesure : les Pitons de Soufrière, la baie de Marigot et l'Anse Chastanet. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -553,7 +552,7 @@ export const destination: Destination = {
             src: "/destination/sainte-lucie/hero-1.webp",
             alt: "Voyage à Sainte-Lucie : le Gros Piton et le Petit Piton au-dessus de la baie, vus depuis les hauteurs de Soufrière"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Lou & Gildas", // TODO: replace with real testimonial
           role: "Sainte-Lucie, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -564,7 +563,7 @@ export const destination: Destination = {
             src: "/destination/sainte-lucie/hero-2.webp",
             alt: "La baie de Marigot vue du ciel, sa langue de sable plantée de cocotiers et les voiliers au mouillage"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Manon & Jean-François", // TODO: replace with real testimonial
           role: "Sainte-Lucie en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -575,7 +574,7 @@ export const destination: Destination = {
             src: "/destination/sainte-lucie/hero-3.webp",
             alt: "Barques de pêche colorées tirées sur le sable sombre d'une plage de Soufrière"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Diane & Vianney", // TODO: replace with real testimonial
           role: "Sainte-Lucie, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

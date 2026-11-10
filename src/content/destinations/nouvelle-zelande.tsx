@@ -23,7 +23,6 @@ export const destination: Destination = {
     "rotorua",
     "aoraki mont cook",
   ],
-  metaTitle: "Nouvelle-Zélande : Voyage sur mesure",
   metaDescription:
     "Voyage en Nouvelle-Zélande sur mesure : fjords du Fiordland, Alpes du Sud, Baie des Îles. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [

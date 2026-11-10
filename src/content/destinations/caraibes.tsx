@@ -23,7 +23,6 @@ export const destination: Destination = {
     "sainte-lucie",
     "grenade",
   ],
-  metaTitle: "Caraïbes : Voyage sur mesure",
   metaDescription:
     "Voyage dans les Caraïbes sur mesure : Saint-Barthélemy, Anguilla, Mustique, les Grenadines et Sainte-Lucie. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -560,7 +559,7 @@ export const destination: Destination = {
             src: "/destination/caraibes/hero-1.webp",
             alt: "Voyage dans les Caraïbes : goélette en bois au mouillage dans le lagon des Tobago Cays, dans les Grenadines"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Alice & Timothée", // TODO: replace with real testimonial
           role: "Navigation dans les Grenadines, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -571,7 +570,7 @@ export const destination: Destination = {
             src: "/destination/caraibes/hero-2.webp",
             alt: "Une longue plage blanche d'Anguilla et son récif, vus du ciel"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Flavie & Roger", // TODO: replace with real testimonial
           role: "Saint-Barthélemy et Anguilla en famille, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -582,7 +581,7 @@ export const destination: Destination = {
             src: "/destination/caraibes/hero-3.webp",
             alt: "Le Petit Piton de Sainte-Lucie vu depuis la mer, une barque de pêche au premier plan"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Marie-José & Maxime", // TODO: replace with real testimonial
           role: "Saint-Barthélemy, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

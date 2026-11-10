@@ -23,7 +23,6 @@ export const destination: Destination = {
     "chiang mai",
     "temples",
   ],
-  metaTitle: "Thaïlande : Voyage sur mesure",
   metaDescription:
     "Voyage en Thaïlande sur mesure : Bangkok, baie de Phang Nga, Phuket, Koh Samui. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -595,7 +594,7 @@ export const destination: Destination = {
             src: "/destination/thailande/hero-1.webp",
             alt: "Pitons calcaires émergeant de la baie de Phang Nga en Thaïlande au lever du jour"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Marie-Anne & Florian", // TODO: replace with real testimonial
           role: "Bangkok et mer d'Andaman, février 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -606,7 +605,7 @@ export const destination: Destination = {
             src: "/destination/thailande/hero-2.webp",
             alt: "Toits de tuiles vernissées et chedis dorés du temple de Wat Pho à Bangkok"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Perrine & Eudes", // TODO: replace with real testimonial
           role: "Thaïlande en famille, décembre 2024", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -617,7 +616,7 @@ export const destination: Destination = {
             src: "/destination/thailande/hero-3.webp",
             alt: "Troupeau d'éléphants sauvages remontant la route forestière du parc national de Khao Yai en Thaïlande"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Tanguy", // TODO: replace with real testimonial
           role: "Bangkok et Koh Samui, juillet 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

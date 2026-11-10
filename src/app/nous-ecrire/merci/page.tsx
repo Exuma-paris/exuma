@@ -12,7 +12,7 @@ import {
 } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Message envoyé — Exuma",
+  title: "Message envoyé",
   description:
     "Votre message a bien été reçu. Un interlocuteur Exuma vous répond sous 24 heures ouvrées.",
   alternates: { canonical: "/nous-ecrire/merci" },

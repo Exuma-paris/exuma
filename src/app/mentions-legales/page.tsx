@@ -12,7 +12,7 @@ import {
 } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Mentions légales — Exuma",
+  title: "Mentions légales",
   description:
     "Mentions légales d'Exuma, maison de conseils privée dédiée aux déplacements : éditeur, hébergeur, propriété intellectuelle.",
   alternates: { canonical: "/mentions-legales" },

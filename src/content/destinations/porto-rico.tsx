@@ -23,7 +23,6 @@ export const destination: Destination = {
     "dorado",
     "caraibes",
   ],
-  metaTitle: "Porto Rico : Voyage sur mesure",
   metaDescription:
     "Voyage à Porto Rico : Vieux San Juan, El Yunque, baie bioluminescente de Vieques. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -532,7 +531,7 @@ export const destination: Destination = {
             src: "/destination/porto-rico/hero-1.webp",
             alt: "Façades colorées et remparts espagnols du Vieux San Juan à Porto Rico",
           },
-          name: "Claire & Thomas", // TODO: verify
+          name: "Adélaïde & Hippolyte", // TODO: verify
           role: "Voyage en famille, avril 2025", // TODO: verify
         },
         {
@@ -543,7 +542,7 @@ export const destination: Destination = {
             src: "/destination/porto-rico/hero-2.webp",
             alt: "Canopée et cascades de la forêt tropicale d'El Yunque",
           },
-          name: "Julien", // TODO: verify
+          name: "Jean-Pierre", // TODO: verify
           role: "Voyage de noces, février 2025", // TODO: verify
         },
         {
@@ -554,7 +553,7 @@ export const destination: Destination = {
             src: "/destination/porto-rico/hero-3.webp",
             alt: "Kayak sur la baie bioluminescente de Mosquito Bay à Vieques",
           },
-          name: "Sophie", // TODO: verify
+          name: "Marie-Laure", // TODO: verify
           role: "Voyage en famille, mars 2025", // TODO: verify
         },
       ],

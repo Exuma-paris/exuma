@@ -22,7 +22,6 @@ export const destination: Destination = {
     "caraibes",
     "hispaniola",
   ],
-  metaTitle: "République dominicaine : Voyage sur mesure",
   metaDescription:
     "Voyage sur mesure en République dominicaine : Samaná, Punta Cana, Cap Cana. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -580,7 +579,7 @@ export const destination: Destination = {
             src: "/destination/republique-dominicaine/hero-1.webp",
             alt: "Plage de sable blanc bordée de cocotiers à Punta Cana, République dominicaine",
           },
-          name: "Isabelle & Thomas", // TODO: verify
+          name: "Nadine & Wilfried", // TODO: verify
           role: "Séjour en famille, février 2026", // TODO: verify
         },
         {
@@ -591,7 +590,7 @@ export const destination: Destination = {
             src: "/destination/republique-dominicaine/hero-2.webp",
             alt: "Baleine à bosse dans la baie de Samaná, République dominicaine",
           },
-          name: "Frédéric", // TODO: verify
+          name: "Dorian", // TODO: verify
           role: "Voyage entre amis, mars 2026", // TODO: verify
         },
         {
@@ -602,7 +601,7 @@ export const destination: Destination = {
             src: "/destination/republique-dominicaine/hero-3.webp",
             alt: "Villa posée sur les rochers au-dessus de la mer des Caraïbes, La Romana",
           },
-          name: "Constance", // TODO: verify
+          name: "Arlette", // TODO: verify
           role: "Voyage en famille, janvier 2026", // TODO: verify
         },
       ],

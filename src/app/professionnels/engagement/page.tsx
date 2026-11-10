@@ -5,7 +5,7 @@ import { proInitialAnswers } from "@/lib/contact/pro-profile";
 import { EXUMA_PHONE } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Recevoir notre engagement écrit — Exuma",
+  title: "Recevoir notre engagement écrit",
   description:
     "Recevez par écrit les engagements de confidentialité d'Exuma : périmètre, circulation de l'information, accord à signer.",
   alternates: { canonical: "/professionnels/engagement" },

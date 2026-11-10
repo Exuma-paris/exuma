@@ -584,7 +584,7 @@ export const destination: Destination = {
             src: "/destination/polynesie/hero-1.png",
             alt: "Plage de sable blanc bordée de cocotiers",
           },
-          name: "Sophie & Marc", // TODO: verify
+          name: "Isaure & Florent", // TODO: verify
           role: "Voyage de noces, octobre 2025", // TODO: verify
         },
         {
@@ -595,7 +595,7 @@ export const destination: Destination = {
             src: "/destination/polynesie/hero-2.png",
             alt: "Bungalows sur pilotis face au mont Otemanu à Bora Bora",
           },
-          name: "Laurent", // TODO: verify
+          name: "Brice", // TODO: verify
           role: "Séjour en famille, août 2025", // TODO: verify
         },
         {
@@ -606,7 +606,7 @@ export const destination: Destination = {
             src: "/destination/polynesie/hero-3.png",
             alt: "Lagon de Fakarava vu du ciel, archipel des Tuamotu",
           },
-          name: "Claire", // TODO: verify
+          name: "Sabine", // TODO: verify
           role: "Escapade solo, mai 2025", // TODO: verify
         },
       ],

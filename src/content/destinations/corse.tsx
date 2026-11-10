@@ -502,7 +502,7 @@ export const destination: Destination = {
             src: "/destination/corse/hero-1.png",
             alt: "Falaises blanches de Bonifacio surplombant la Méditerranée",
           },
-          name: "Hélène & Pierre", // TODO: verify
+          name: "Olivia & Pierre", // TODO: verify
           role: "Anniversaire de mariage, septembre 2025", // TODO: verify
         },
         {
@@ -524,7 +524,7 @@ export const destination: Destination = {
             src: "/destination/corse/hero-3.webp",
             alt: "Aiguilles de granit de Bavella et pins laricio, dans les montagnes du sud de la Corse",
           },
-          name: "Camille", // TODO: verify
+          name: "Pascale", // TODO: verify
           role: "Escapade solo, juin 2025", // TODO: verify
         },
       ],

@@ -24,7 +24,6 @@ export const destination: Destination = {
     "terre neuve",
     "vancouver",
   ],
-  metaTitle: "Canada : Voyage sur mesure",
   metaDescription:
     "Voyage au Canada sur mesure : Rocheuses, lac Louise, forêt du Pacifique et Terre-Neuve. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -530,7 +529,7 @@ export const destination: Destination = {
             src: "/destination/canada/hero-1.webp",
             alt: "Canoës rouges sur l'eau turquoise du lac Louise face au glacier, au Canada",
           },
-          name: "Frédéric", // TODO: verify
+          name: "Raphaël", // TODO: verify
           role: "Séjour en couple, juillet 2025", // TODO: verify
         },
         {
@@ -541,7 +540,7 @@ export const destination: Destination = {
             src: "/destination/canada/hero-2.webp",
             alt: "Chalets sur pilotis au fond d'une baie de Colombie-Britannique",
           },
-          name: "Constance", // TODO: verify
+          name: "Gwenaëlle", // TODO: verify
           role: "Voyage en famille, août 2025", // TODO: verify
         },
         {
@@ -552,7 +551,7 @@ export const destination: Destination = {
             src: "/destination/canada/hero-3.webp",
             alt: "Iceberg dérivant au large des maisons de bois de Terre-Neuve",
           },
-          name: "Édouard", // TODO: verify
+          name: "Lionel", // TODO: verify
           role: "Voyage sur mesure, février 2026", // TODO: verify
         },
       ],

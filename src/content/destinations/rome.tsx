@@ -23,7 +23,6 @@ export const destination: Destination = {
     "centro-storico",
     "aventino",
   ],
-  metaTitle: "Rome : Voyage sur mesure",
   metaDescription:
     "Voyage à Rome sur mesure : Galerie Borghèse hors horaires, Trastevere, Via Appia. Adresses confidentielles, accès privés au Vatican, conciergerie privée.",
   sections: [
@@ -591,7 +590,7 @@ export const destination: Destination = {
             src: "/destination/rome/hero-1.webp",
             alt: "Toits et dômes de Rome au coucher du soleil, le Vittoriano à l'horizon",
           },
-          name: "", // TODO: verify
+          name: "Michelle & Dimitri", // TODO: verify
           role: "Voyage en couple, mai 2025", // TODO: verify
         },
         {
@@ -602,7 +601,7 @@ export const destination: Destination = {
             src: "/destination/rome/hero-2.webp",
             alt: "Piazza di Santa Maria in Trastevere et sa fontaine, Rome",
           },
-          name: "", // TODO: verify
+          name: "Nina & Serge", // TODO: verify
           role: "Premier voyage en Italie, septembre 2025", // TODO: verify
         },
         {
@@ -613,7 +612,7 @@ export const destination: Destination = {
             src: "/destination/rome/hero-3.webp",
             alt: "Fontaine de Trevi au petit matin, avant l'arrivée des visiteurs",
           },
-          name: "", // TODO: verify
+          name: "Josiane", // TODO: verify
           role: "Anniversaire de mariage, juin 2025", // TODO: verify
         },
       ],

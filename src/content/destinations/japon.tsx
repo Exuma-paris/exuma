@@ -23,7 +23,6 @@ export const destination: Destination = {
     "shinkansen",
     "asie",
   ],
-  metaTitle: "Japon : Voyage sur mesure",
   metaDescription:
     "Voyage sur mesure au Japon : Tokyo, Kyoto, Mont Fuji, ryokans et artisans. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -585,7 +584,7 @@ export const destination: Destination = {
             src: "/destination/japon/hero-1.png",
             alt: "Tokyo illuminé la nuit, vue depuis un gratte-ciel du quartier d'Otemachi, Japon",
           },
-          name: "Isabelle & Marc", // TODO: verify
+          name: "Hélène-Marie & Marc-Olivier", // TODO: verify
           role: "Voyage de noces, avril 2025", // TODO: verify
         },
         {
@@ -596,7 +595,7 @@ export const destination: Destination = {
             src: "/destination/japon/hero-2.png",
             alt: "Temple en bois du Kyoto historique entouré d'érables à l'automne, Japon",
           },
-          name: "Frédéric", // TODO: verify
+          name: "Gérard", // TODO: verify
           role: "Séjour en famille, novembre 2025", // TODO: verify
         },
         {
@@ -607,7 +606,7 @@ export const destination: Destination = {
             src: "/destination/japon/hero-3.png",
             alt: "Mont Fuji enneigé vu depuis les rives du lac Kawaguchiko, Japon",
           },
-          name: "Claire", // TODO: verify
+          name: "Prune", // TODO: verify
           role: "Voyage solo, octobre 2025", // TODO: verify
         },
       ],

@@ -32,6 +32,7 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
 export const serviceCategory: ServiceCategory = {
   slug: "mobilite",
   name: "Mobilité & accès privilégié",
+  metaTitle: "Location de jet privé et chauffeur privé",
   blurb:
     "Vol choisi pour vous, chauffeur à l'arrivée, passage rapide en aéroport et bagages suivis de bout en bout.",
   keywords: [

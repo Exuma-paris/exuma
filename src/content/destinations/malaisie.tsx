@@ -20,7 +20,6 @@ export const destination: Destination = {
     "sipadan",
     "danum valley",
   ],
-  metaTitle: "Malaisie : Voyage sur mesure",
   metaDescription:
     "Voyage en Malaisie sur mesure : Langkawi, jungle de Bornéo, Penang et plongée à Sipadan. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [

@@ -18,7 +18,7 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
  */
 
 export const meta = {
-  title: "Professionnels",
+  title: "Conciergerie d'entreprise et voyages d'affaires",
   description:
     "Family offices, assistantes, entreprises et dirigeants : Exuma prend en charge l'organisation continue de vos déplacements professionnels et privés, avec un interlocuteur unique.",
 };

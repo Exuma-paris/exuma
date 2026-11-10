@@ -24,7 +24,6 @@ export const destination: Destination = {
     "tango",
     "humahuaca",
   ],
-  metaTitle: "Argentine : Voyage sur mesure",
   metaDescription:
     "Voyage en Argentine sur mesure : Buenos Aires, Mendoza, Patagonie et Esteros del Iberá. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [

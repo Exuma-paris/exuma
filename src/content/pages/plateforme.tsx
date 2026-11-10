@@ -23,7 +23,7 @@ import type { Section } from "@/lib/content/types";
  */
 
 export const meta = {
-  title: "Plateforme de réservation pour les entreprises",
+  title: "Plateforme de travel management pour entreprises",
   shortTitle: "Plateforme de réservation",
   description:
     "La plateforme de réservation en ligne d'Exuma : vos collaborateurs réservent en un clic, dans le respect de votre politique voyages, avec plus de 50 sources de contenu, une facturation centralisée et un référent qui reste joignable.",

@@ -23,7 +23,6 @@ export const destination: Destination = {
     "whisky",
     "golf",
   ],
-  metaTitle: "Écosse : Voyage sur mesure",
   metaDescription:
     "Voyage en Écosse sur mesure : Édimbourg, les Borders, les Highlands et l'île de Skye. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -572,7 +571,7 @@ export const destination: Destination = {
             src: "/destination/ecosse/hero-1.webp",
             alt: "Les flèches de la vieille ville d'Édimbourg au-dessus des arbres d'automne, voyage en Écosse"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Cathy & Benoît", // TODO: replace with real testimonial
           role: "Highlands, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -583,7 +582,7 @@ export const destination: Destination = {
             src: "/destination/ecosse/hero-2.webp",
             alt: "Joueur de cornemuse en tenue de cérémonie devant un mur de pierre, Édimbourg"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Victoire & Barthélemy", // TODO: replace with real testimonial
           role: "Kelso et les Borders, mai 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -594,7 +593,7 @@ export const destination: Destination = {
             src: "/destination/ecosse/hero-3.webp",
             alt: "Le château d'Édimbourg au-dessus des arbres d'automne des jardins de Princes Street"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Dominique & Amédée", // TODO: replace with real testimonial
           role: "Édimbourg, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

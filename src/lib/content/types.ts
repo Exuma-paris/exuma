@@ -251,6 +251,11 @@ export type Experience = EntityBase & {
 };
 
 export type ServiceCategory = EntityBase & {
+  /** Balise <title> et meta description. Le titre porte la formulation
+   * recherchée (« jet privé », « conciergerie paris ») ; le nom affiché sur la
+   * page reste l'intitulé éditorial. */
+  metaTitle?: string;
+  metaDescription?: string;
   serviceSlugs?: string[];
   /** Réservée aux professionnels : absente de la mosaïque Conciergerie de
    * l'accueil et du menu Conciergerie, qui s'adressent aux particuliers. */
