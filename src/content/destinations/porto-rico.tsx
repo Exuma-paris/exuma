@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à Porto Rico ?",
-      heading: "Tainà, spécialiste de Porto Rico, vous partage son expérience",
+      heading: "Tainà, spécialiste de Porto Rico, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina",

@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Sri Lanka ?",
-      heading: "Stéphane, spécialiste du Sri Lanka, vous partage son expérience",
+      heading: "Stéphane, spécialiste du Sri Lanka, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

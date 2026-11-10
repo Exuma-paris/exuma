@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir dans les Caraïbes ?",
       heading:
-        "Carole, spécialiste des Caraïbes, vous partage son expérience",
+        "Carole, spécialiste des Caraïbes, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

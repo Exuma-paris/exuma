@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Chili ?",
-      heading: "Carole, spécialiste du Chili, vous partage son expérience",
+      heading: "Carole, spécialiste du Chili, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Irlande ?",
-      heading: "Stéphane, spécialiste de l'Irlande, vous partage son expérience",
+      heading: "Stéphane, spécialiste de l'Irlande, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

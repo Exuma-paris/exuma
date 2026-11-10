@@ -257,7 +257,7 @@ export const destination: Destination = {
             src: "/destination/mexique/map-mexico.webp",
             alt: "Pierre du Soleil aztèque dans la salle mexica du musée national d'anthropologie de Mexico",
           },
-          coordinates: { lat: 19.426, lng: -99.1863 }, // TODO: verify coords
+          coordinates: { lat: 19.426, lng: -99.1863 },
         },
         {
           title: "Oaxaca, la ville où l'on mange le mieux",
@@ -267,7 +267,7 @@ export const destination: Destination = {
             src: "/destination/mexique/map-oaxaca.webp",
             alt: "Marchande de pains sur un marché couvert d'Oaxaca",
           },
-          coordinates: { lat: 17.0732, lng: -96.7266 }, // TODO: verify coords
+          coordinates: { lat: 17.0732, lng: -96.7266 },
         },
         {
           title: "Chichén Itzá, la grande cité maya",
@@ -277,7 +277,7 @@ export const destination: Destination = {
             src: "/destination/mexique/map-chichen-itza.webp",
             alt: "Pyramide de Kukulcán à Chichén Itzá au crépuscule, Yucatán",
           },
-          coordinates: { lat: 20.6843, lng: -88.5678 }, // TODO: verify coords
+          coordinates: { lat: 20.6843, lng: -88.5678 },
         },
         {
           title: "Palenque, la cité sous les arbres",
@@ -287,7 +287,7 @@ export const destination: Destination = {
             src: "/destination/mexique/map-palenque.webp",
             alt: "Palais et sa tour d'observation dans la cité maya de Palenque, Chiapas",
           },
-          coordinates: { lat: 17.484, lng: -92.046 }, // TODO: verify coords
+          coordinates: { lat: 17.484, lng: -92.046 },
         },
         {
           title: "Tulum, les ruines face à la mer",
@@ -297,7 +297,7 @@ export const destination: Destination = {
             src: "/destination/mexique/map-tulum.webp",
             alt: "Ruines mayas de Tulum au-dessus de l'eau turquoise de la côte caraïbe",
           },
-          coordinates: { lat: 20.2114, lng: -87.4654 }, // TODO: verify coords
+          coordinates: { lat: 20.2114, lng: -87.4654 },
         },
         {
           title: "La côte du Nayarit, face au Pacifique",
@@ -307,7 +307,7 @@ export const destination: Destination = {
             src: "/destination/mexique/map-nayarit.webp",
             alt: "Baie et village de la côte du Nayarit vus du ciel",
           },
-          coordinates: { lat: 20.7745, lng: -105.509 }, // TODO: verify coords
+          coordinates: { lat: 20.7745, lng: -105.509 },
         },
       ],
     },

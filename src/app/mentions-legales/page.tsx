@@ -68,8 +68,8 @@ export default function MentionsLegalesPage() {
       <LegalSection heading="Hébergement">
         <p>
           Le site est hébergé par <strong>Vercel Inc.</strong>, 440 N Barranca
-          Ave #4133, Covina, CA 91723, États-Unis{" "}
-          <em>[à compléter : téléphone de l'hébergeur]</em>.
+          Ave #4133, Covina, CA 91723, États-Unis (
+          <a href="https://vercel.com">vercel.com</a>).
         </p>
       </LegalSection>
 

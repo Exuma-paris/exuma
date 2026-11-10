@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à New York ?",
-      heading: "Carole, spécialiste de New York, vous partage son expérience",
+      heading: "Carole, spécialiste de New York, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

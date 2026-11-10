@@ -169,7 +169,7 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "environ 3h15 en vol direct depuis Paris vers Athènes. Comptez une correspondance ou un vol intérieur pour rejoindre les îles.", // TODO: à vérifier
+            "Environ 3h30 en vol direct depuis Paris vers Athènes. Comptez une correspondance ou un vol intérieur pour rejoindre les îles.",
         },
         {
           iconName: "clock",
@@ -258,7 +258,7 @@ export const destination: Destination = {
             src: "/destination/grece/map-athenes.webp",
             alt: "Le Parthénon de l'Acropole d'Athènes dominant la ville",
           },
-          coordinates: { lat: 37.9715, lng: 23.7267 }, // TODO: verify coords
+          coordinates: { lat: 37.9715, lng: 23.7267 },
         },
         {
           title: "Delphes, le nombril du monde",
@@ -268,7 +268,7 @@ export const destination: Destination = {
             src: "/destination/grece/map-delphes.webp",
             alt: "Tholos du sanctuaire d'Athéna Pronaia à Delphes, au pied du Parnasse",
           },
-          coordinates: { lat: 38.4824, lng: 22.501 }, // TODO: verify coords
+          coordinates: { lat: 38.4824, lng: 22.501 },
         },
         {
           title: "Nauplie, la première capitale",
@@ -278,7 +278,7 @@ export const destination: Destination = {
             src: "/destination/grece/map-nauplie.webp",
             alt: "Vieille ville de Nauplie et forteresse de Palamède au bord du golfe",
           },
-          coordinates: { lat: 37.5679, lng: 22.8081 }, // TODO: verify coords
+          coordinates: { lat: 37.5679, lng: 22.8081 },
         },
         {
           title: "Santorin, la caldeira",
@@ -288,7 +288,7 @@ export const destination: Destination = {
             src: "/destination/grece/map-santorin.webp",
             alt: "Village d'Oia accroché à la caldeira de Santorin",
           },
-          coordinates: { lat: 36.4618, lng: 25.3753 }, // TODO: verify coords
+          coordinates: { lat: 36.4618, lng: 25.3753 },
         },
         {
           title: "Hydra, l'île sans voitures",
@@ -298,7 +298,7 @@ export const destination: Destination = {
             src: "/destination/grece/map-hydra.webp",
             alt: "Port d'Hydra bordé de maisons de pierre grises",
           },
-          coordinates: { lat: 37.3492, lng: 23.4667 }, // TODO: verify coords
+          coordinates: { lat: 37.3492, lng: 23.4667 },
         },
         {
           title: "Milos, les criques volcaniques",
@@ -308,7 +308,7 @@ export const destination: Destination = {
             src: "/destination/grece/map-milos.webp",
             alt: "Roches blanches lunaires de Sarakiniko sur l'île de Milos",
           },
-          coordinates: { lat: 36.742, lng: 24.436 }, // TODO: verify coords
+          coordinates: { lat: 36.742, lng: 24.436 },
         },
       ],
     },

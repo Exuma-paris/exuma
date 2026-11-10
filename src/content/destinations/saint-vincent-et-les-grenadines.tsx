@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir dans les Grenadines ?",
       heading:
-        "Carole, spécialiste des Grenadines, vous partage son expérience",
+        "Carole, spécialiste des Grenadines, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

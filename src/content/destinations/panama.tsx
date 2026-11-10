@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Panama ?",
-      heading: "Tainà, spécialiste du Panama, vous partage son expérience",
+      heading: "Tainà, spécialiste du Panama, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Tainà porte déjà le Costa Rica et la Colombie)

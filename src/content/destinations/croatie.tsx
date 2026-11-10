@@ -28,9 +28,8 @@ export const destination: Destination = {
       type: "hero",
       eyebrow: "Voyage de luxe en Croatie",
       heading: "La Croatie, mille îles dont une poignée se laissent approcher",
-      // TODO: verify island count
       description:
-        "Mille deux cent quarante-quatre îles bordent la côte dalmate ; une cinquantaine sont habitées. Entre elles, Dubrovnik referme ses remparts sur l'Adriatique, Split vit encore à l'intérieur du palais que l'empereur Dioclétien s'était fait construire pour sa retraite, et les Kornati n'existent que pour les voiliers qui savent où mouiller. La Croatie ne se traverse pas. Elle se navigue.",
+        "Mille deux cent quarante-quatre îles et îlots bordent la côte croate ; une cinquantaine sont habitées. Entre elles, Dubrovnik referme ses remparts sur l'Adriatique, Split vit encore à l'intérieur du palais que l'empereur Dioclétien s'était fait construire pour sa retraite, et les Kornati n'existent que pour les voiliers qui savent où mouiller. La Croatie ne se traverse pas. Elle se navigue.",
       images: [
         {
           src: "/destination/croatie/hero-1.webp",
@@ -50,7 +49,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Croatie ?",
-      heading: "Stéphane, spécialiste de la Croatie, vous partage son expérience",
+      heading: "Stéphane, spécialiste de la Croatie, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",
@@ -252,7 +251,6 @@ export const destination: Destination = {
             src: "/destination/croatie/map-dubrovnik.webp",
             alt: "Remparts et toits de tuiles de la vieille ville de Dubrovnik",
           },
-          // TODO: verify coords
           coordinates: { lat: 42.6507, lng: 18.0944 },
         },
         {
@@ -263,7 +261,6 @@ export const destination: Destination = {
             src: "/destination/croatie/map-split.webp",
             alt: "Colonnades du palais de Dioclétien à Split",
           },
-          // TODO: verify coords
           coordinates: { lat: 43.5081, lng: 16.4402 },
         },
         {
@@ -274,7 +271,6 @@ export const destination: Destination = {
             src: "/destination/croatie/map-hvar.webp",
             alt: "Port et forteresse de la ville de Hvar",
           },
-          // TODO: verify coords
           coordinates: { lat: 43.1729, lng: 16.4411 },
         },
         {
@@ -285,7 +281,6 @@ export const destination: Destination = {
             src: "/destination/croatie/map-kornati.webp",
             alt: "Îlots calcaires du parc national des Kornati",
           },
-          // TODO: verify coords
           coordinates: { lat: 43.7833, lng: 15.3167 },
         },
         {
@@ -296,8 +291,7 @@ export const destination: Destination = {
             src: "/destination/croatie/map-plitvice.webp",
             alt: "Cascades et lacs turquoise du parc national de Plitvice",
           },
-          // TODO: verify coords
-          coordinates: { lat: 44.8654, lng: 15.582 },
+          coordinates: { lat: 44.8806, lng: 15.6161 },
         },
         {
           title: "Rovinj",
@@ -307,7 +301,6 @@ export const destination: Destination = {
             src: "/destination/croatie/map-rovinj.webp",
             alt: "Vieille ville vénitienne de Rovinj en Istrie",
           },
-          // TODO: verify coords
           coordinates: { lat: 45.0811, lng: 13.6387 },
         },
       ],
@@ -331,7 +324,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Carte d&apos;identité ou passeport en cours de validité.
                 Permis de conduire si vous louez un véhicule.
               </p>
@@ -341,7 +333,6 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">L&apos;essentiel :</h4>
               <p>
-                {/* TODO: à vérifier */}
                 Tenue légère pour le littoral, chaussures d&apos;eau pour
                 les mouillages, lainage pour les soirées en mer. Crème solaire
                 haute protection.
@@ -364,7 +355,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Aucun vaccin obligatoire. Vaccinations universelles à
                 jour. Numéro d&apos;urgence européen (112) actif partout dans
                 le pays.
@@ -390,9 +380,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 La période recommandée par notre équipe : mai-juin et
-                septembre-mi-octobre. Mer entre 22 °C et 25 °C, lumière douce,
+                septembre-mi-octobre. Mer baignable, lumière douce,
                 fréquentation modérée sur la côte.
               </p>
               <p>
@@ -402,7 +391,6 @@ export const destination: Destination = {
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
-                {/* TODO: à vérifier */}
                 Les Kornati se naviguent idéalement tôt le matin, avant
                 l&apos;arrivée des excursions à la journée depuis Murter et
                 Zadar.
@@ -419,9 +407,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Euro. Paiement par carte largement accepté. Pourboire
-                non obligatoire mais apprécié (5–10 % en restaurant).
+                non obligatoire mais apprécié (5 à 10 % en restaurant).
               </p>
               <p>
                 Marchés le matin à Split et Dubrovnik : huile d&apos;olive,
@@ -445,7 +432,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Les ferries publics relient les grandes îles plusieurs
                 fois par jour en saison, mais imposent des horaires fixes.
                 Un bateau privé avec skipper permet d&apos;ajuster
@@ -472,9 +458,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Départ conseillé tôt le matin depuis Murter ou Zadar,
-                avant les excursions à la journée. Comptez trois à quatre
+                avant les excursions à la journée. Comptez plusieurs
                 jours pour une itinérance complète du parc.
               </p>
               <p>
@@ -495,7 +480,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Comptez une demi-journée pour parcourir les passerelles
                 en bois entre les seize lacs. Arrivée en début de matinée
                 recommandée, avant les groupes.
@@ -523,7 +507,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Le croate est la langue officielle. L&apos;anglais est
                 courant dans l&apos;hôtellerie, l&apos;italien reste compris
                 en Istrie, héritage de la présence vénitienne.

@@ -181,6 +181,12 @@ export type Section =
         image: ImageRef;
         name: string;
         role?: string;
+        /**
+         * Témoignage réel, recueilli et autorisé par son auteur. Seuls les
+         * témoignages marqués `verified: true` s'affichent : un avis inventé
+         * publié est une pratique commerciale trompeuse.
+         */
+        verified?: boolean;
       }[];
       background?: string;
     }
@@ -235,6 +241,11 @@ export type Section =
         collaborateurSlug: string;
         quote: string;
         role?: string;
+        /**
+         * Citation relue et validée par le collaborateur. Sans `verified: true`,
+         * la section s'affiche sans la carte citation.
+         */
+        verified?: boolean;
       };
       features?: {
         iconName: IconName;

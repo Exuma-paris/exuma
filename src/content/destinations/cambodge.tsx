@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Cambodge ?",
-      heading: "Stéphane, spécialiste du Cambodge, vous partage son expérience",
+      heading: "Stéphane, spécialiste du Cambodge, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

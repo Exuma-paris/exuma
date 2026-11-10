@@ -11,7 +11,7 @@ export const destination: Destination = {
   genitive: "des Maldives",
   projectNote:
     "L'archipel se choisit atoll par atoll : l'un pour son corail, l'autre pour son silence, l'hydravion relie les deux. À Laamu, deux hôtels seulement se partagent l'atoll.",
-  continentSlug: "iles-oceanie", // TODO: verify continent (géographiquement Asie, océan Indien) regroupé ici avec les destinations îles/lagon
+  continentSlug: "iles-oceanie", // géographiquement Asie (océan Indien), regroupé ici avec les destinations îles et lagons
   blurb: "Baa, Noonu, Laamu, Ari, Vaavu",
   keywords: [
     "maldives",
@@ -52,7 +52,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir aux Maldives ?",
-      heading: "Stéphane, spécialiste des Maldives, vous partage son expérience",
+      heading: "Stéphane, spécialiste des Maldives, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",
@@ -258,7 +258,7 @@ export const destination: Destination = {
             src: "/destination/maldives/map-male.webp",
             alt: "Malé et ses immeubles colorés vus du ciel, capitale des Maldives",
           },
-          coordinates: { lat: 4.1755, lng: 73.5093 }, // TODO: verify coords
+          coordinates: { lat: 4.1755, lng: 73.5093 },
         },
         {
           title: "Atoll de Baa, Hanifaru",
@@ -268,7 +268,7 @@ export const destination: Destination = {
             src: "/destination/maldives/map-baa.webp",
             alt: "Raies manta tournant au-dessus du récif, atoll de Baa",
           },
-          coordinates: { lat: 5.2917, lng: 73.15 }, // TODO: verify coords
+          coordinates: { lat: 5.1827, lng: 73.1331 },
         },
         {
           title: "Atoll de Noonu",
@@ -278,7 +278,7 @@ export const destination: Destination = {
             src: "/destination/maldives/map-noonu.webp",
             alt: "Île bordée de son lagon turquoise vue du ciel, atoll de Noonu",
           },
-          coordinates: { lat: 5.85, lng: 73.35 }, // TODO: verify coords
+          coordinates: { lat: 5.85, lng: 73.35 },
         },
         {
           title: "Atoll de Laamu",
@@ -288,7 +288,7 @@ export const destination: Destination = {
             src: "/destination/maldives/map-laamu.webp",
             alt: "Côte de cocotiers et récif de l'atoll de Laamu vus du ciel",
           },
-          coordinates: { lat: 1.9333, lng: 73.45 }, // TODO: verify coords
+          coordinates: { lat: 1.9333, lng: 73.45 },
         },
         {
           title: "Ari Sud, Maamigili",
@@ -298,7 +298,7 @@ export const destination: Destination = {
             src: "/destination/maldives/map-ari.webp",
             alt: "Requin-baleine longeant le récif extérieur de l'atoll d'Ari Sud",
           },
-          coordinates: { lat: 3.47, lng: 72.84 }, // TODO: verify coords
+          coordinates: { lat: 3.47, lng: 72.84 },
         },
         {
           title: "Atoll de Vaavu",
@@ -308,7 +308,7 @@ export const destination: Destination = {
             src: "/destination/maldives/map-vaavu.webp",
             alt: "Coraux et poissons du tombant de l'atoll de Vaavu",
           },
-          coordinates: { lat: 3.45, lng: 73.5 }, // TODO: verify coords
+          coordinates: { lat: 3.45, lng: 73.5 },
         },
       ],
     },

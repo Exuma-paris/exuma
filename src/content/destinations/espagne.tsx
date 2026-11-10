@@ -257,7 +257,7 @@ export const destination: Destination = {
             src: "/destination/espagne/map-grenade.webp",
             alt: "Arcades et stucs nasrides de l'Alhambra de Grenade",
           },
-          coordinates: { lat: 37.1761, lng: -3.5881 }, // TODO: verify coords
+          coordinates: { lat: 37.1761, lng: -3.5881 },
         },
         {
           title: "Séville, l'Alcázar et Triana",
@@ -267,7 +267,7 @@ export const destination: Destination = {
             src: "/destination/espagne/map-seville.webp",
             alt: "Balustrade d'azulejos de la Plaza de España à Séville",
           },
-          coordinates: { lat: 37.3826, lng: -5.9963 }, // TODO: verify coords
+          coordinates: { lat: 37.3826, lng: -5.9963 },
         },
         {
           title: "Madrid et ses musées",
@@ -277,7 +277,7 @@ export const destination: Destination = {
             src: "/destination/espagne/map-madrid.webp",
             alt: "L'édifice Metropolis et ses coupoles à Madrid",
           },
-          coordinates: { lat: 40.4138, lng: -3.6921 }, // TODO: verify coords
+          coordinates: { lat: 40.4138, lng: -3.6921 },
         },
         {
           title: "Saint-Sébastien et la côte basque",
@@ -287,7 +287,7 @@ export const destination: Destination = {
             src: "/destination/espagne/map-saint-sebastien.webp",
             alt: "Baie de la Concha à Saint-Sébastien vue du Monte Igueldo",
           },
-          coordinates: { lat: 43.3183, lng: -1.9812 }, // TODO: verify coords
+          coordinates: { lat: 43.3183, lng: -1.9812 },
         },
         {
           title: "La Serra de Tramuntana",
@@ -297,7 +297,7 @@ export const destination: Destination = {
             src: "/destination/espagne/map-tramuntana.webp",
             alt: "La route en lacets de Sa Calobra dans la Serra de Tramuntana, à Majorque",
           },
-          coordinates: { lat: 39.6869, lng: 2.5147 }, // TODO: verify coords
+          coordinates: { lat: 39.6869, lng: 2.5147 },
         },
         {
           title: "La Ribera del Duero",
@@ -307,7 +307,7 @@ export const destination: Destination = {
             src: "/destination/espagne/map-ribera-del-duero.webp",
             alt: "Le château de Peñafiel dominant les vignes de la Ribera del Duero",
           },
-          coordinates: { lat: 41.5983, lng: -4.1156 }, // TODO: verify coords
+          coordinates: { lat: 41.5983, lng: -4.1156 },
         },
       ],
     },

@@ -90,6 +90,7 @@ export const sections: Section[] = [
       quote:
         "Une destination, on l'apprend vite. Un client, il faut des années pour le connaître vraiment. Chaque dossier est donc tenu à deux : personne n'est jamais seul à savoir. Et quand nous recrutons, nous ne cherchons pas des passionnés de voyage, mais des gens que le détail empêche de dormir.",
       role: "Directrice d'Exuma",
+      verified: true,
     },
     features: [
       {

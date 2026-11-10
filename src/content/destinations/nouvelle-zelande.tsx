@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Nouvelle-Zélande ?",
       heading:
-        "Tainà, spécialiste de la Nouvelle-Zélande, vous partage son expérience",
+        "Tainà, spécialiste de la Nouvelle-Zélande, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina",

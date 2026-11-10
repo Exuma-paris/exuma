@@ -30,8 +30,6 @@ export const destination: Destination = {
     heroHeading: "Vivez l'inaccessible",
     heroDescription:
       "Créateur de voyages d'exception façonnés selon vos aspirations, entre atolls préservés et adresses confidentielles de Polynésie.",
-    // TODO: verify rating numbers
-    rating: { score: 4.9, label: "247 voyages créés en 2025" },
     floatingCtaLabel: "Découvrir la Polynésie",
     slides: [
       {
@@ -438,7 +436,7 @@ export const destination: Destination = {
             src: "/destination/polynesie/map-tahaa.png",
             alt: "Lagon de Maupiti vu du ciel",
           },
-          coordinates: { lat: -16.4333, lng: -152.2667 }, // TODO: verify coords
+          coordinates: { lat: -16.4333, lng: -152.2667 },
         },
         {
           title: "Fakarava, la passe de Garuae",
@@ -448,7 +446,7 @@ export const destination: Destination = {
             src: "/destination/polynesie/map-tuamotu.png",
             alt: "Passe de Garuae à Fakarava, archipel des Tuamotu",
           },
-          coordinates: { lat: -16.0833, lng: -145.6167 }, // TODO: verify coords
+          coordinates: { lat: -16.0821, lng: -145.7165 },
         },
       ],
     },

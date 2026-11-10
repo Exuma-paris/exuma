@@ -253,17 +253,22 @@ export function renderSection(section: Section, key: string): ReactNode {
         />
       );
 
-    case "testimonials":
+    case "testimonials": {
+      // Filet de sécurité pour les gabarits qui ne passent pas par
+      // applyBackgroundRhythm : rien de non validé ne s'affiche.
+      const testimonials = section.testimonials.filter((t) => t.verified);
+      if (testimonials.length === 0) return null;
       return (
         <TestimonialsSection
           key={key}
           eyebrow={section.eyebrow}
           heading={section.heading}
           cta={section.cta}
-          testimonials={section.testimonials}
+          testimonials={testimonials}
           background={section.background}
         />
       );
+    }
 
     case "spotsList":
       return (
@@ -323,12 +328,16 @@ export function renderSection(section: Section, key: string): ReactNode {
           eyebrow={section.eyebrow}
           heading={section.heading}
           partners={section.partners}
-          specialist={{
-            quote: section.specialist.quote,
-            image: c.image,
-            name: c.name,
-            role: section.specialist.role ?? c.role,
-          }}
+          specialist={
+            section.specialist.verified
+              ? {
+                  quote: section.specialist.quote,
+                  image: c.image,
+                  name: c.name,
+                  role: section.specialist.role ?? c.role,
+                }
+              : undefined
+          }
           features={section.features?.map((f) => ({
             icon: renderIcon(f.iconName),
             title: f.title,

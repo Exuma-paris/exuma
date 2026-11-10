@@ -53,7 +53,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à Saint-Barthélemy ?",
       heading:
-        "Carole, spécialiste de Saint-Barthélemy, vous partage son expérience",
+        "Carole, spécialiste de Saint-Barthélemy, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

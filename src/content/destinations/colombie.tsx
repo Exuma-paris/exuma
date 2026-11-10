@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Colombie ?",
-      heading: "Tainà, spécialiste de la Colombie, vous partage son expérience",
+      heading: "Tainà, spécialiste de la Colombie, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina",

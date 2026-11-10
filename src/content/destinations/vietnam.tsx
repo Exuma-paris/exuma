@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Vietnam ?",
-      heading: "Stéphane, spécialiste du Vietnam, vous partage son expérience",
+      heading: "Stéphane, spécialiste du Vietnam, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",
@@ -293,7 +293,6 @@ export const destination: Destination = {
             src: "/destination/vietnam/map-lan-ha.webp",
             alt: "Vue aérienne des eaux turquoise entre les îlots karstiques de la baie de Lan Ha",
           },
-          // TODO: verify coords
           coordinates: { lat: 20.73, lng: 107.09 },
         },
         {
@@ -324,7 +323,6 @@ export const destination: Destination = {
             src: "/destination/vietnam/map-mekong.webp",
             alt: "Barques en bois amarrées sur un bras du delta du Mékong bordé de palmiers",
           },
-          // TODO: verify coords
           coordinates: { lat: 10.0333, lng: 105.7833 },
         },
       ],
@@ -348,9 +346,8 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
-                Passeport valide au moins 6 mois après la date de
-                retour. Exemption de visa pour un séjour touristique de 45
+                Passeport valide au moins 6 mois à la date
+                d&apos;entrée. Exemption de visa pour un séjour touristique de 45
                 jours pour les ressortissants français.
               </p>
               <h4 className="font-medium">L&apos;essentiel :</h4>
@@ -377,7 +374,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Aucun vaccin obligatoire. Vaccinations universelles à
                 jour recommandées. Une protection antipaludique peut être
                 conseillée pour certaines zones rurales, selon la saison.
@@ -404,23 +400,23 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
-                Février à avril offre le meilleur compromis pour le
-                Nord et le Centre : lumière douce, peu de pluie. Septembre à
-                décembre reste également favorable.
+                Le Nord se visite surtout d&apos;octobre à avril, avec des
+                journées fraîches et souvent grises à Hanoï et Sa Pa de
+                décembre à février. Le Centre est à privilégier de février
+                à août : de septembre à décembre, pluies et typhons touchent
+                Hué et Hoi An.
               </p>
               <p>
                 Le Sud, moins marqué par les saisons, se visite bien de
-                décembre à avril. Juillet-août correspond à la saison des
-                pluies dans le Centre et le Sud, avec des averses courtes
-                mais fréquentes.
+                décembre à avril. De mai à octobre, le Sud connaît sa saison
+                des pluies, avec des averses courtes mais fréquentes.
               </p>
               <h4 className="font-medium">Conseil expert :</h4>
               <p>
-                {/* TODO: à vérifier */}
                 Nous ajustons l&apos;ordre des étapes nord-sud selon
-                la saison de départ, pour ne jamais faire coïncider une
-                étape avec sa période la moins favorable.
+                la saison de départ, pour éviter autant que possible de
+                faire coïncider une étape avec sa période la moins
+                favorable.
               </p>
             </div>
           ),
@@ -434,7 +430,6 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Dong vietnamien (VND). Les grands hôtels et
                 restaurants acceptent la carte ; les marchés et petites
                 adresses restent en espèces. Pourboire non obligatoire mais
@@ -542,15 +537,14 @@ export const destination: Destination = {
           content: (
             <div className="flex flex-col gap-4">
               <p>
-                {/* TODO: à vérifier */}
                 Les ressortissants français bénéficient d&apos;une
                 exemption de visa pour un séjour touristique de 45 jours.
                 Au-delà, une demande d&apos;e-visa est nécessaire avant le
                 départ.
               </p>
               <p>
-                Le passeport doit rester valide au moins 6 mois après la
-                date de retour prévue.
+                Le passeport doit être valide au moins 6 mois à la
+                date d&apos;entrée sur le territoire.
               </p>
               <h4 className="font-medium">Avec Exuma :</h4>
               <p>

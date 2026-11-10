@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Afrique du Sud ?",
       heading:
-        "Carole, spécialiste de l'Afrique du Sud, vous partage son expérience",
+        "Carole, spécialiste de l'Afrique du Sud, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",
@@ -73,8 +73,8 @@ export const destination: Destination = {
       columns: [
         "Un voyage en Afrique du Sud commence presque toujours au Cap. La ville est posée entre Table Mountain et l'Atlantique, sur une presqu'île étroite. On y arrive après un vol de nuit et on y reste trois ou quatre jours, le temps de descendre la péninsule jusqu'au cap de Bonne-Espérance et de passer une journée dans les vignobles de Constantia, de Stellenbosch et de Franschhoek.",
         "Au nord du Cap, la route monte vers le Cederberg. Ce massif de grès rouge marque la limite de la région du fynbos. Les Bushmen, aussi appelés San, y ont peint les parois pendant des milliers d'années. La réserve de Bushmans Kloof en protège à elle seule plus de 130 sites. On y marche le matin, et on ne croise personne d'autre que son guide.",
-        "Le bush se trouve à l'autre bout du pays, dans le Lowveld, à environ deux heures de vol vers le nord-est. Les réserves privées de Thornybush et du Sabi Sand n'ont plus de clôture avec le parc Kruger depuis les années 1990. Les animaux circulent librement entre les deux, mais le nombre de véhicules y reste limité et les guides sortent des pistes, ce qui est interdit dans le parc national.", // TODO: verify date de la suppression des clôtures côté Thornybush
-        "Trois maisons portent cet itinéraire. Ellerman House domine la baie de Bantry Bay, au Cap, avec une collection d'art sud-africain accrochée dans les salons. Bushmans Kloof occupe une réserve privée du Cederberg, à quatre heures de route au nord. Saseka Tented Camp ferme le voyage à Thornybush, sous tente, en lisière du Kruger.", // TODO: verify durée de route Le Cap - Bushmans Kloof
+        "Le bush se trouve à l'autre bout du pays, dans le Lowveld, à environ deux heures et demie de vol vers le nord-est. Les réserves privées de Thornybush et du Sabi Sand n'ont plus de clôture avec le parc Kruger : depuis 1993 pour le Sabi Sand, depuis 2017 pour Thornybush. Les animaux circulent librement entre les deux, mais le nombre de véhicules y reste limité et les guides sortent des pistes, ce qui est interdit dans le parc national.",
+        "Trois maisons portent cet itinéraire. Ellerman House domine la baie de Bantry Bay, au Cap, avec une collection d'art sud-africain accrochée dans les salons. Bushmans Kloof occupe une réserve privée du Cederberg, à environ trois heures de route au nord. Saseka Tented Camp ferme le voyage à Thornybush, sous tente, en lisière du Kruger.",
       ],
     },
 
@@ -124,9 +124,9 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "Les parois peintes du Cederberg",
         columns: [
-          "Les Bushmen, aussi appelés San, ont vécu dans les montagnes du Cederberg pendant des dizaines de milliers d'années. Ils y ont peint les abris sous roche avec des pigments naturels : de l'ocre, du sang animal et des jus de plantes. La réserve de Bushmans Kloof protège aujourd'hui plus de 130 sites peints. Certains ont environ 10 000 ans. Le domaine est classé site du patrimoine naturel sud-africain pour cette raison.", // TODO: verify le nombre de 130 sites et l'âge de 10 000 ans
+          "Les Bushmen, aussi appelés San, ont vécu dans les montagnes du Cederberg pendant des dizaines de milliers d'années. Ils y ont peint les abris sous roche avec des pigments naturels : de l'ocre, du sang animal et des jus de plantes. La réserve de Bushmans Kloof protège aujourd'hui plus de 130 sites peints. Certains ont environ 10 000 ans. Le domaine est classé site du patrimoine national sud-africain pour cette raison.",
           "L'excursion se fait le matin. On roule d'abord une vingtaine de minutes dans la réserve, puis on marche jusqu'aux parois. Un guide explique ce que les figures représentent : des danses, des chasses à l'arc, des transes de guérisseurs. Le site de Bleeding Nose Shelter en donne l'exemple le plus net. Un homme y est peint le sang coulant du nez, relié à ses compagnons par des lignes. C'est la représentation d'une transe.",
-          "Le lodge a ouvert en 2004 un centre du patrimoine qui prolonge la visite. Il abrite la collection réunie par l'anthropologue Jalmar Rudner : des bijoux, des kits de chasse, des bâtons de danse et des instruments de musique. Un jardin de plantes médicinales, planté juste à côté, montre les remèdes utilisés par les San et les Khoi de la région.", // TODO: verify la date de 2004 et l'attribution de la collection Rudner
+          "Le lodge a ouvert en 2004 un centre du patrimoine qui prolonge la visite. Il abrite la collection réunie par l'anthropologue Jalmar Rudner : des bijoux, des kits de chasse, des bâtons de danse et des instruments de musique. Un jardin de plantes médicinales, planté juste à côté, montre les remèdes utilisés par les San et les Khoi de la région.",
         ],
       },
     },
@@ -170,49 +170,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Vols directs de nuit de Paris vers Le Cap et Johannesburg, en onze à douze heures. Le Cap rejoint Hoedspruit, porte du Lowveld, en 2 h.", // TODO: à vérifier
+            "Vols directs de nuit de Paris vers Le Cap et Johannesburg, en onze à douze heures. Le Cap rejoint Hoedspruit, porte du Lowveld, en deux heures et demie environ.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "UTC+2 toute l'année, sans changement d'heure. Même heure qu'à Paris de fin mars à fin octobre, une heure de plus le reste de l'année.", // TODO: à vérifier
+            "UTC+2 toute l'année, sans changement d'heure. Même heure qu'à Paris de fin mars à fin octobre, une heure de plus le reste de l'année.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Le rand sud-africain (ZAR). La carte passe partout, lodges compris, mais les pourboires aux guides et pisteurs se règlent en espèces.", // TODO: à vérifier
+            "Le rand sud-africain (ZAR). La carte passe partout, lodges compris, mais les pourboires aux guides et pisteurs se règlent en espèces.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "Pas de visa sous 90 jours. Passeport valide 30 jours après le retour, deux pages vierges face à face, déclaration douanière en ligne exigée.", // TODO: à vérifier
+            "Pas de visa sous 90 jours. Passeport valide 30 jours après le retour, deux pages vierges, déclaration douanière en ligne exigée.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin obligatoire, sauf fièvre jaune selon la provenance. Pas de paludisme au Cap, risque faible dans le Lowveld de novembre à avril.", // TODO: à vérifier
+            "Aucun vaccin obligatoire, sauf fièvre jaune selon la provenance. Pas de paludisme au Cap, risque faible dans le Lowveld de novembre à avril.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Le Cap de novembre à mars, le bush de mai à septembre, quand la faune se masse aux points d'eau. Mars, avril et octobre valent pour tout.", // TODO: à vérifier
+            "Le Cap de novembre à mars, le bush de mai à septembre, quand la faune se masse aux points d'eau. Mars, avril et octobre valent pour tout.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Douze langues officielles, dont l'anglais, l'afrikaans, l'isiZulu et l'isiXhosa. L'anglais suffit partout, le français est presque absent.", // TODO: à vérifier
+            "Douze langues officielles, dont l'anglais, l'afrikaans, l'isiZulu et l'isiXhosa. L'anglais suffit partout, le français est presque absent.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Au Cap, été sec et venté entre 25 et 30 °C, pluie de juin à août. Dans le Lowveld, orages de novembre à mars et hiver sec, matins vers 8 °C.", // TODO: à vérifier
+            "Au Cap, été sec et venté entre 25 et 30 °C, pluie de juin à août. Dans le Lowveld, orages de novembre à mars et hiver sec, matins vers 8 °C.",
         },
       ],
     },
@@ -252,12 +252,11 @@ export const destination: Destination = {
         {
           title: "Le Cap et Table Mountain",
           description:
-            "La ville est coincée entre une montagne plate de plus de mille mètres et l'Atlantique. Un téléphérique monte au sommet en cinq minutes. Le quartier de Bo-Kaap, aux maisons peintes, et le musée Zeitz d'art contemporain africain se visitent à pied depuis le port.", // TODO: verify altitude de Table Mountain
+            "La ville est coincée entre une montagne plate de plus de mille mètres et l'Atlantique. Un téléphérique monte au sommet en cinq minutes. Le quartier de Bo-Kaap, aux maisons peintes, et le musée Zeitz d'art contemporain africain se visitent à pied depuis le port.",
           image: {
             src: "/destination/afrique-du-sud/map-le-cap.webp",
             alt: "La ville du Cap éclairée au pied de Table Mountain",
           },
-          // TODO: verify coords
           coordinates: { lat: -33.9249, lng: 18.4241 },
         },
         {
@@ -268,30 +267,27 @@ export const destination: Destination = {
             src: "/destination/afrique-du-sud/map-simons-town.webp",
             alt: "Rochers de granit et cabanes de plage à Simon's Town, péninsule du Cap",
           },
-          // TODO: verify coords
           coordinates: { lat: -34.1975, lng: 18.4519 },
         },
         {
           title: "Stellenbosch et Franschhoek",
           description:
-            "Les deux vallées viticoles se trouvent à moins d'une heure du Cap. Stellenbosch a été fondée en 1679 et abrite une université. Franschhoek a été peuplée par des huguenots français à partir de 1688 et concentre aujourd'hui les meilleures tables du pays.", // TODO: verify dates de fondation
+            "Les deux vallées viticoles se trouvent à moins d'une heure du Cap. Stellenbosch a été fondée en 1679 et abrite une université. Franschhoek a été peuplée par des huguenots français à partir de 1688 et concentre aujourd'hui les meilleures tables du pays.",
           image: {
             src: "/destination/afrique-du-sud/map-winelands.webp",
             alt: "Domaine viticole de Franschhoek entre les rangs de vigne et la montagne",
           },
-          // TODO: verify coords
           coordinates: { lat: -33.9111, lng: 19.1226 },
         },
         {
           title: "Le Cederberg et Clanwilliam",
           description:
-            "Le massif de grès rouge se trouve à environ 250 kilomètres au nord du Cap. Il concentre le plus grand ensemble d'art rupestre bushman de la région. La réserve de Bushmans Kloof en protège plus de 130 sites et se visite à pied avec un guide.", // TODO: verify distance depuis Le Cap
+            "Le massif de grès rouge se trouve à environ 270 kilomètres au nord du Cap. Il concentre le plus grand ensemble d'art rupestre bushman de la région. La réserve de Bushmans Kloof en protège plus de 130 sites et se visite à pied avec un guide.",
           image: {
             src: "/destination/afrique-du-sud/map-cederberg.webp",
             alt: "Formations de grès rouge du Cederberg au-dessus du fynbos, Afrique du Sud",
           },
-          // TODO: verify coords
-          coordinates: { lat: -32.1833, lng: 19.0167 },
+          coordinates: { lat: -32.1786, lng: 18.8911 },
         },
         {
           title: "Thornybush et le parc Kruger",
@@ -301,18 +297,16 @@ export const destination: Destination = {
             src: "/destination/afrique-du-sud/map-thornybush.webp",
             alt: "Véhicule de safari devant un troupeau d'éléphants dans la réserve de Thornybush",
           },
-          // TODO: verify coords
           coordinates: { lat: -24.45, lng: 31.1667 },
         },
         {
           title: "La route des Jardins et Plettenberg Bay",
           description:
-            "La route longe la côte sud sur environ 300 kilomètres, entre Mossel Bay et Storms River. Elle traverse des forêts, des lagunes et des plages. C'est le prolongement le plus simple d'un séjour au Cap, en voiture, sur trois à quatre jours.", // TODO: verify longueur de la route des Jardins
+            "La route longe la côte sud sur environ 300 kilomètres, entre Mossel Bay et Storms River. Elle traverse des forêts, des lagunes et des plages. C'est le prolongement le plus simple d'un séjour au Cap, en voiture, sur trois à quatre jours.",
           image: {
             src: "/destination/afrique-du-sud/map-route-des-jardins.webp",
             alt: "Plage et pointe rocheuse de la baie de Plettenberg, route des Jardins",
           },
-          // TODO: verify coords
           coordinates: { lat: -34.0527, lng: 23.3716 },
         },
       ],
@@ -544,14 +538,16 @@ export const destination: Destination = {
                 la traite d&apos;enfants.
               </p>
               <p>
-                Un acte de naissance faisant apparaître les deux parents est
-                demandé, en anglais ou traduit. Lorsqu&apos;un seul parent
-                accompagne l&apos;enfant, une autorisation écrite de l&apos;autre
-                parent est exigée en plus.
+                Un enfant accompagné voyage avec son propre passeport, aux
+                mêmes conditions que les adultes. Nous conseillons d&apos;emporter
+                aussi son acte de naissance intégral faisant apparaître les deux
+                parents, en anglais ou traduit, et, lorsqu&apos;un seul parent
+                l&apos;accompagne, une autorisation écrite de l&apos;autre parent.
+                Pour un mineur qui voyage sans ses parents, ces documents sont
+                exigés.
               </p>
               <h4 className="font-medium">À noter :</h4>
               <p>
-                {/* TODO: à vérifier */}
                 Les modalités exactes ont évolué à plusieurs reprises. Nous
                 vérifions la règle en vigueur au moment du départ et préparons
                 les documents avec vous.
@@ -673,7 +669,7 @@ export const destination: Destination = {
         {
           question: "Peut-on faire un safari en Afrique du Sud sans paludisme ?",
           answer:
-            "Oui. Le Cederberg et le Cap sont totalement indemnes, et plusieurs réserves du Cap-Oriental, comme Shamwari ou Kwandwe, sont également hors zone de paludisme. Dans le Lowveld, autour du parc Kruger, le risque existe mais reste classé faible, et il devient très bas pendant l'hiver austral, de mai à septembre.", // TODO: verify le statut hors paludisme des réserves du Cap-Oriental
+            "Oui. Le Cederberg et le Cap sont totalement indemnes, et plusieurs réserves du Cap-Oriental, comme Shamwari ou Kwandwe, sont également hors zone de paludisme. Dans le Lowveld, autour du parc Kruger, le risque existe mais reste classé faible, et il devient très bas pendant l'hiver austral, de mai à septembre.",
         },
       ],
     },

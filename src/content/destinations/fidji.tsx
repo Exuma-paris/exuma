@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir aux Fidji ?",
-      heading: "Stéphane, spécialiste des Fidji, vous partage son expérience",
+      heading: "Stéphane, spécialiste des Fidji, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

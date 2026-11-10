@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à Sainte-Lucie ?",
-      heading: "Carole, spécialiste de Sainte-Lucie, vous partage son expérience",
+      heading: "Carole, spécialiste de Sainte-Lucie, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

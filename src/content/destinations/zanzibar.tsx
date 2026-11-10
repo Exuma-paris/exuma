@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à Zanzibar ?",
-      heading: "Stéphane, spécialiste de Zanzibar, vous partage son expérience",
+      heading: "Stéphane, spécialiste de Zanzibar, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

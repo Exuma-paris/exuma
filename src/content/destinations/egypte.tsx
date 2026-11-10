@@ -31,7 +31,7 @@ export const destination: Destination = {
       eyebrow: "Voyage de luxe en Égypte",
       heading: "Toute l'Égypte tient dans la largeur du Nil",
       description:
-        "Quatre-vingt-quinze pour cent des Égyptiens vivent sur quatre pour cent du territoire, le long d'un fleuve qui n'excède parfois pas un kilomètre de large. Le reste est désert. De Gizeh à Abou Simbel, les sites ne sont pas des monuments isolés : ils sont alignés sur cette bande d'eau, dans l'ordre où on les a bâtis.", // TODO: verify répartition population / surface habitée
+        "La quasi-totalité des Égyptiens vit sur une infime partie du territoire, le long d'un fleuve qui n'excède parfois pas un kilomètre de large. Le reste est désert. De Gizeh à Abou Simbel, les sites ne sont pas des monuments isolés : ils sont alignés sur cette bande d'eau, dans l'ordre où on les a bâtis.",
       images: [
         {
           src: "/destination/egypte/hero-1.webp",
@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Égypte ?",
-      heading: "Stéphane, spécialiste de l'Égypte, vous partage son expérience",
+      heading: "Stéphane, spécialiste de l'Égypte, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",
@@ -122,7 +122,7 @@ export const destination: Destination = {
         eyebrow: "Notre coup de cœur",
         heading: "Le musée après la fermeture, et un conservateur pour seul guide",
         columns: [
-          "Le Grand Egyptian Museum occupe cinquante hectares au pied du plateau de Gizeh. La façade d'albâtre translucide est alignée sur les trois pyramides, et le grand escalier monte vers une baie qui les cadre en fin de parcours. Aux heures d'ouverture, cette baie compte deux cents personnes.", // TODO: verify superficie du GEM
+          "Le Grand Egyptian Museum occupe près de cinquante hectares au pied du plateau de Gizeh. La façade d'albâtre translucide est alignée sur les trois pyramides, et le grand escalier monte vers une baie qui les cadre en fin de parcours. Aux heures d'ouverture, la foule s'y presse.",
           "Après dix-huit heures, le bâtiment se vide. L'accès se négocie plusieurs mois à l'avance et se limite à un groupe par soirée. Un conservateur du musée ouvre les galeries Toutânkhamon, s'arrête devant les objets qu'il a lui-même remontés de l'ancien musée de la place Tahrir, et raconte ce qui ne figure sur aucun cartel : ce qui était cassé, ce qui a été recollé, ce qui reste en réserve.",
           "La visite dure deux heures et se termine devant le masque. Dans un musée encore fermé au public, le silence change de nature. On distingue la ventilation, puis les pas d'un gardien dans une galerie voisine.",
         ],
@@ -136,7 +136,7 @@ export const destination: Destination = {
       eyebrow: "Expériences et activités en Égypte",
       heading: "Trois terrains inscrits à l'itinéraire",
       description:
-        "Trois sorties structurent le voyage. On descend dans les deux tombes que le billet ordinaire ne comprend pas, avec un égyptologue. On décolle avant le jour au-dessus de la nécropole thébaine. On rejoint enfin Siwa, à cinq cent soixante kilomètres du Caire, pour une nuit sous tente dans la Grande Mer de Sable.", // TODO: verify distance Le Caire - Siwa
+        "Trois sorties structurent le voyage. On descend dans les deux tombes que le billet ordinaire ne comprend pas, avec un égyptologue. On décolle avant le jour au-dessus de la nécropole thébaine. On rejoint enfin Siwa, à cinq cent soixante kilomètres du Caire, pour une nuit sous tente dans la Grande Mer de Sable.",
       slugs: [
         "seti-nefertari-egyptologue",
         "montgolfiere-necropole-thebaine",
@@ -172,19 +172,19 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Quatre heures trente en vol direct Paris-Le Caire, plusieurs départs par jour. Louxor et Assouan sont ensuite à une heure de vol intérieur.", // TODO: verify les liaisons directes Marsa Alam et Hurghada
+            "Quatre heures trente en vol direct Paris-Le Caire, plusieurs départs par jour. Louxor et Assouan sont ensuite à une heure environ de vol intérieur.",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "Une heure d'avance sur Paris toute l'année, hiver comme été : l'Égypte a rétabli l'heure d'été en 2023.", // TODO: verify le rétablissement de l'heure d'été en 2023
+            "Une heure d'avance sur Paris la plus grande partie de l'année. L'Égypte a rétabli l'heure d'été en 2023, mais ne la prend que fin avril : pendant quelques semaines au printemps, l'heure est la même qu'à Paris.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "La livre égyptienne (EGP), autour de 55 pour un euro depuis la dévaluation de mars 2024. Pourboires systématiques, en espèces locales.", // TODO: verify la date de la dévaluation
+            "La livre égyptienne (EGP), flottante depuis la dévaluation de mars 2024. Pourboires systématiques, en espèces locales.",
         },
         {
           iconName: "fileText",
@@ -196,25 +196,25 @@ export const destination: Destination = {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Aucun vaccin obligatoire, sauf fièvre jaune depuis un pays endémique ; hépatite A et typhoïde recommandées. L'eau du robinet ne se boit pas.", // TODO: à vérifier
+            "Aucun vaccin obligatoire, sauf fièvre jaune depuis un pays endémique ; hépatite A et typhoïde recommandées. L'eau du robinet ne se boit pas.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "D'octobre à avril, avec un pic de confort en novembre et en mars. De mai à septembre, la Haute-Égypte dépasse souvent 42 °C.", // TODO: à vérifier
+            "D'octobre à avril, avec un pic de confort en novembre et en mars. De mai à septembre, la Haute-Égypte dépasse souvent 40 °C.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "L'arabe égyptien au quotidien, l'anglais dans les hôtels et sur les sites. Les guides francophones, diplômés d'égyptologie, sont nombreux.", // TODO: à vérifier
+            "L'arabe égyptien au quotidien, l'anglais dans les hôtels et sur les sites. Les guides francophones sont nombreux.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Désertique et sec. Le Caire oscille entre 20 °C en janvier et 35 °C en juillet, et il ne pleut quasiment jamais au sud du Caire.", // TODO: à vérifier
+            "Désertique et sec. Le Caire oscille entre 20 °C en janvier et 35 °C en juillet, et il ne pleut quasiment jamais au sud du Caire.",
         },
       ],
     },
@@ -247,74 +247,68 @@ export const destination: Destination = {
       eyebrow: "Les incontournables en Égypte",
       heading: "Six étapes, du plateau de Gizeh aux sables de Siwa",
       description:
-        "Six secteurs composent la carte du pays. Cinq sont alignés sur le fleuve, dans l'ordre chronologique de leur construction. Le sixième se trouve à sept cents kilomètres à l'ouest, et n'a jamais parlé la même langue.", // TODO: verify distance Siwa / vallée du Nil
+        "Six secteurs composent la carte du pays. Cinq sont alignés sur le fleuve, dans l'ordre chronologique de leur construction. Le sixième se trouve à plus de cinq cents kilomètres à l'ouest, et n'a jamais parlé la même langue.",
       cta: { label: "Créer votre voyage", href: "/votre-projet" },
       initialZoom: 5,
       places: [
         {
           title: "Gizeh et le Grand Egyptian Museum",
           description:
-            "Khéops a gardé le titre de plus haute construction humaine pendant près de quatre mille ans. En face, le Grand Egyptian Museum réunit depuis 2025 l'intégralité du mobilier de Toutânkhamon, jamais montré au complet auparavant.", // TODO: verify durée du record de Khéops
+            "Khéops a gardé le titre de plus haute construction humaine pendant plus de trois mille huit cents ans. En face, le Grand Egyptian Museum réunit depuis 2025 l'intégralité du mobilier de Toutânkhamon, jamais montré au complet auparavant.",
           image: {
             src: "/destination/egypte/map-gizeh.webp",
             alt: "Pyramides de Gizeh vues depuis la façade du Grand Egyptian Museum, Égypte",
           },
-          // TODO: verify coords
           coordinates: { lat: 29.9773, lng: 31.1325 },
         },
         {
           title: "Louxor, rive est : Karnak",
           description:
-            "La salle hypostyle aligne cent trente-quatre colonnes sur cinq mille mètres carrés. Le site s'est construit sur deux mille ans, chaque pharaon ajoutant au précédent sans jamais démolir. C'est un chantier, pas un monument.", // TODO: verify nombre de colonnes et surface
+            "La salle hypostyle aligne cent trente-quatre colonnes sur cinq mille mètres carrés. Le site s'est construit sur deux mille ans, chaque pharaon ajoutant sa part à celle du précédent. C'est un chantier, pas un monument.",
           image: {
             src: "/destination/egypte/map-karnak.webp",
             alt: "Salle hypostyle du temple de Karnak au petit matin, Louxor",
           },
-          // TODO: verify coords
           coordinates: { lat: 25.7188, lng: 32.6573 },
         },
         {
           title: "Louxor, rive ouest : la Vallée des Rois",
           description:
-            "Soixante-cinq tombes creusées dans le calcaire d'un vallon sec, choisi parce qu'un sommet naturel y dessine une pyramide. Les couleurs des chambres de Séti Ier ont trois mille trois cents ans et n'ont jamais été repeintes.", // TODO: verify nombre de tombes
+            "Plus de soixante tombes creusées dans le calcaire d'un vallon sec, choisi parce qu'un sommet naturel y dessine une pyramide. Les couleurs des chambres de Séti Ier ont trois mille trois cents ans et n'ont jamais été repeintes.",
           image: {
             src: "/destination/egypte/map-vallee-des-rois.webp",
             alt: "Entrées des hypogées de la Vallée des Rois dans le vallon calcaire, Louxor",
           },
-          // TODO: verify coords
           coordinates: { lat: 25.7402, lng: 32.6014 },
         },
         {
           title: "Assouan et l'île de Philae",
           description:
-            "Le temple d'Isis a été démonté bloc par bloc et remonté sur l'île d'Aguilkia avant la mise en eau du barrage. Les derniers hiéroglyphes connus y ont été gravés en 394, quatre siècles après que plus personne ne les lisait couramment.", // TODO: verify date des derniers hiéroglyphes
+            "Le temple d'Isis a été démonté bloc par bloc et remonté sur l'île d'Aguilkia avant la mise en eau du barrage. Les derniers hiéroglyphes connus y ont été gravés en 394, quand presque plus personne ne savait les lire.",
           image: {
             src: "/destination/egypte/map-philae.webp",
             alt: "Temple d'Isis de Philae émergeant du Nil près d'Assouan, Égypte",
           },
-          // TODO: verify coords
           coordinates: { lat: 24.0254, lng: 32.8845 },
         },
         {
           title: "Abou Simbel",
           description:
-            "Les deux temples ont été sciés en mille trente-six blocs et remontés soixante-cinq mètres plus haut entre 1964 et 1968. Deux fois par an, le 22 février et le 22 octobre, le soleil traverse soixante mètres de roche et atteint le fond du sanctuaire.", // TODO: verify nombre de blocs et profondeur du sanctuaire
+            "Les deux temples ont été sciés en mille trente-six blocs et remontés soixante-cinq mètres plus haut entre 1964 et 1968. Deux fois par an, autour du 22 février et du 22 octobre, le soleil traverse une soixantaine de mètres de roche et atteint le fond du sanctuaire.",
           image: {
             src: "/destination/egypte/map-abou-simbel.webp",
             alt: "Colosses de Ramsès II à la façade du grand temple d'Abou Simbel, Égypte",
           },
-          // TODO: verify coords
           coordinates: { lat: 22.3372, lng: 31.6258 },
         },
         {
           title: "L'oasis de Siwa",
           description:
-            "À vingt-cinq kilomètres de la frontière libyenne, Siwa parle le siwi, une langue berbère, et non l'arabe. Alexandre y a consulté l'oracle d'Amon en 331 avant notre ère. Les maisons de kershef, mélange de sel et d'argile, fondent sous la pluie, ce qui n'arrive que tous les dix ans.", // TODO: verify distance frontière et date de la visite d'Alexandre
+            "À une cinquantaine de kilomètres de la frontière libyenne, Siwa parle le siwi, une langue berbère, et non l'arabe. Alexandre y a consulté l'oracle d'Amon en 331 avant notre ère. Les maisons de kershef, mélange de sel et d'argile, fondent sous la pluie, qui reste ici très rare.",
           image: {
             src: "/destination/egypte/map-siwa.webp",
             alt: "Forteresse de Shali en briques de sel dominant l'oasis de Siwa, Égypte",
           },
-          // TODO: verify coords
           coordinates: { lat: 29.2041, lng: 25.5195 },
         },
       ],
@@ -643,7 +637,7 @@ export const destination: Destination = {
         {
           question: "Quel budget prévoir pour un voyage en Égypte ?",
           answer:
-            "Un voyage en Égypte sur mesure avec Exuma se situe généralement entre 5 000 et 12 000 € par personne pour dix à douze jours, vols intérieurs, guide égyptologue privé et dahabieh privatisée compris, hors vols internationaux. Les accès négociés hors horaires et les tombes sur autorisation constituent le principal poste variable.", // TODO: verify la fourchette de budget
+            "Le budget d'un voyage en Égypte sur mesure avec Exuma dépend de la durée et des prestations retenues : vols intérieurs, guide égyptologue privé, dahabieh privatisée. Les vols internationaux s'ajoutent à part. Les accès négociés hors horaires et les tombes sur autorisation constituent le principal poste variable.",
         },
       ],
     },

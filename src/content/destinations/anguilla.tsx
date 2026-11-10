@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à Anguilla ?",
-      heading: "Tainà, spécialiste d'Anguilla, vous partage son expérience",
+      heading: "Tainà, spécialiste d'Anguilla, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina", // TODO: verify collaborateurSlug (Tainà porte déjà la Jamaïque, la Colombie et le Costa Rica)

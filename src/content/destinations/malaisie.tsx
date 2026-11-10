@@ -48,7 +48,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Malaisie ?",
-      heading: "Stéphane, spécialiste de la Malaisie, vous partage son expérience",
+      heading: "Stéphane, spécialiste de la Malaisie, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

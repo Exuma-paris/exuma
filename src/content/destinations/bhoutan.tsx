@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Bhoutan ?",
-      heading: "Stéphane, spécialiste du Bhoutan, vous partage son expérience",
+      heading: "Stéphane, spécialiste du Bhoutan, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

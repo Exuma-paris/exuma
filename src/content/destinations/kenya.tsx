@@ -57,7 +57,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Kenya ?",
-      heading: "Stéphane, spécialiste du Kenya, vous partage son expérience",
+      heading: "Stéphane, spécialiste du Kenya, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",
@@ -173,49 +173,49 @@ export const destination: Destination = {
           iconName: "plane",
           title: "Temps de vol",
           description:
-            "Environ 9h depuis Paris en vol direct. Kenya Airways et Air France desservent Nairobi-Jomo Kenyatta (NBO).", // TODO: à vérifier
+            "Environ 8h30 depuis Paris en vol direct. Kenya Airways et Air France desservent Nairobi-Jomo Kenyatta (NBO).",
         },
         {
           iconName: "clock",
           title: "Décalage horaire",
           description:
-            "+2h en hiver, +1h en été par rapport à Paris (fuseau EAT, UTC+3). Favorable pour les sorties safari à l'aube.", // TODO: à vérifier
+            "+2h en hiver, +1h en été par rapport à Paris (fuseau EAT, UTC+3). Favorable pour les sorties safari à l'aube.",
         },
         {
           iconName: "euro",
           title: "Monnaie et conversion",
           description:
-            "Shilling kenyan (KES). 1 € ≈ 140 KES. Les lodges acceptent les cartes bancaires. Prévoir du cash pour les pourboires.", // TODO: à vérifier
+            "Shilling kenyan (KES). Les lodges acceptent les cartes bancaires. Prévoir du cash pour les pourboires.",
         },
         {
           iconName: "fileText",
           title: "Visa et passeport",
           description:
-            "eTA obligatoire pour les ressortissants français depuis 2024, à demander en ligne sur le portail officiel kenyan, délai 72h.", // TODO: à vérifier
+            "eTA obligatoire pour les ressortissants français depuis 2024, à demander en ligne sur le portail officiel kenyan, quelques jours avant le départ.",
         },
         {
           iconName: "syringe",
           title: "Vaccin",
           description:
-            "Fièvre jaune recommandée selon le parcours. Prophylaxie antipaludique fortement conseillée pour toutes les régions, y compris Nairobi.", // TODO: à vérifier
+            "Fièvre jaune recommandée selon le parcours. Prophylaxie antipaludique fortement conseillée pour les safaris et la côte. Le risque reste faible à Nairobi et en altitude.",
         },
         {
           iconName: "calendarDays",
           title: "Meilleure période",
           description:
-            "Juillet à octobre pour la Grande Migration au Masaï Mara. Janvier-février, saison sèche courte, pour la côte et le Laikipia.", // TODO: à vérifier
+            "Juillet à octobre pour la Grande Migration au Masaï Mara. Janvier-février, saison sèche courte, pour la côte et le Laikipia.",
         },
         {
           iconName: "languages",
           title: "Langues parlées",
           description:
-            "Swahili (langue nationale) et anglais (officielle). L'anglais suffit dans les lodges, le swahili de politesse est apprécié.", // TODO: à vérifier
+            "Swahili (langue nationale) et anglais (officielle). L'anglais suffit dans les lodges, le swahili de politesse est apprécié.",
         },
         {
           iconName: "sun",
           title: "Climat",
           description:
-            "Deux saisons des pluies (mars-mai et octobre-novembre). Températures entre 20 et 28°C en savane. Côte plus chaude (25 à 32°C).", // TODO: à vérifier
+            "Deux saisons des pluies (mars-mai et octobre-décembre). Températures entre 20 et 28°C en savane. Côte plus chaude (25 à 32°C).",
         },
       ],
     },
@@ -260,7 +260,6 @@ export const destination: Destination = {
             src: "/destination/kenya/map-masai-mara.webp",
             alt: "Plaines dorées du Masaï Mara avec troupeaux de gnous et ciel africain",
           },
-          // TODO: verify coords
           coordinates: { lat: -1.5, lng: 35.1333 },
         },
         {
@@ -271,7 +270,6 @@ export const destination: Destination = {
             src: "/destination/kenya/map-nairobi.webp",
             alt: "Skyline de Nairobi au coucher du soleil depuis les hauteurs de Karen",
           },
-          // TODO: verify coords
           coordinates: { lat: -1.2921, lng: 36.8219 },
         },
         {
@@ -282,7 +280,6 @@ export const destination: Destination = {
             src: "/destination/kenya/map-laikipia.webp",
             alt: "Éléphants dans les plaines arides du Laikipia sous un ciel nuageux au Kenya",
           },
-          // TODO: verify coords
           coordinates: { lat: 0.2, lng: 36.7 },
         },
         {
@@ -293,8 +290,7 @@ export const destination: Destination = {
             src: "/destination/kenya/map-diani-beach.webp",
             alt: "Plage de Diani Beach sur la côte sud du Kenya avec cocotiers et sable blanc",
           },
-          // TODO: verify coords
-          coordinates: { lat: -4.2833, lng: 39.5833 },
+          coordinates: { lat: -4.3222, lng: 39.575 },
         },
         {
           title: "Watamu, la crique de Mida",
@@ -304,7 +300,6 @@ export const destination: Destination = {
             src: "/destination/kenya/map-watamu.webp",
             alt: "Boutre traditionnel voguant sur la crique de Mida à Watamu, côte nord du Kenya",
           },
-          // TODO: verify coords
           coordinates: { lat: -3.3667, lng: 40.0167 },
         },
         {
@@ -315,8 +310,7 @@ export const destination: Destination = {
             src: "/destination/kenya/map-mont-kenya.webp",
             alt: "Sommet du mont Kenya embrasé par le soleil couchant",
           },
-          // TODO: verify coords
-          coordinates: { lat: -0.1521, lng: 37.3084 },
+          coordinates: { lat: 0.1741, lng: 37.3342 },
         },
       ],
     },

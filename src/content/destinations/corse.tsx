@@ -50,7 +50,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Corse ?",
       heading:
-        "Stéphane, spécialiste de la Corse, vous partage son expérience",
+        "Stéphane, spécialiste de la Corse, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

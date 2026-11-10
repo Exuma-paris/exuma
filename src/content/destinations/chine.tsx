@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Chine ?",
-      heading: "Stéphane, spécialiste de la Chine, vous partage son expérience",
+      heading: "Stéphane, spécialiste de la Chine, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

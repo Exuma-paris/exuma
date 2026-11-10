@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Namibie ?",
-      heading: "Carole, spécialiste de la Namibie, vous partage son expérience",
+      heading: "Carole, spécialiste de la Namibie, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir aux Turks and Caicos ?",
       heading:
-        "Carole, spécialiste des Turks and Caicos, vous partage son expérience",
+        "Carole, spécialiste des Turks and Caicos, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

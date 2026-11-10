@@ -47,7 +47,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Danemark ?",
-      heading: "Taïna, spécialiste du Danemark, vous partage son expérience",
+      heading: "Taïna, spécialiste du Danemark, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "taina",

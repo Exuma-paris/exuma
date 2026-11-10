@@ -51,7 +51,7 @@ export const destination: Destination = {
     {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Uruguay ?",
-      heading: "Carole, spécialiste de l'Uruguay, vous partage son expérience",
+      heading: "Carole, spécialiste de l'Uruguay, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

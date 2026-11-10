@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Thaïlande ?",
       heading:
-        "Stéphane, spécialiste de la Thaïlande, vous partage son expérience",
+        "Stéphane, spécialiste de la Thaïlande, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",
@@ -256,7 +256,6 @@ export const destination: Destination = {
             src: "/destination/thailande/map-bangkok.webp",
             alt: "Bateaux longue-queue sur le Chao Phraya devant les temples de Bangkok",
           },
-          // TODO: verify coords
           coordinates: { lat: 13.7563, lng: 100.5018 },
         },
         {
@@ -267,7 +266,6 @@ export const destination: Destination = {
             src: "/destination/thailande/map-khao-yai.webp",
             alt: "Forêt tropicale et chutes de Heow Suwat dans le parc national de Khao Yai",
           },
-          // TODO: verify coords
           coordinates: { lat: 14.4396, lng: 101.372 },
         },
         {
@@ -278,7 +276,6 @@ export const destination: Destination = {
             src: "/destination/thailande/map-phang-nga.webp",
             alt: "Le piton de Ko Tapu dressé dans les eaux calmes de la baie de Phang Nga",
           },
-          // TODO: verify coords
           coordinates: { lat: 8.2667, lng: 98.5 },
         },
         {
@@ -289,7 +286,6 @@ export const destination: Destination = {
             src: "/destination/thailande/map-phuket.webp",
             alt: "Deux bateaux à longue queue mouillés dans une eau turquoise au pied d'une falaise calcaire, au large de Phuket",
           },
-          // TODO: verify coords
           coordinates: { lat: 7.9519, lng: 98.3381 },
         },
         {
@@ -300,7 +296,6 @@ export const destination: Destination = {
             src: "/destination/thailande/map-samui.webp",
             alt: "Plage bordée de cocotiers et îlots boisés dans le golfe de Thaïlande, au large de Koh Samui",
           },
-          // TODO: verify coords
           coordinates: { lat: 9.512, lng: 100.0136 },
         },
         {
@@ -311,7 +306,6 @@ export const destination: Destination = {
             src: "/destination/thailande/map-chiang-mai.webp",
             alt: "Temple lanna et collines boisées aux abords de Chiang Mai",
           },
-          // TODO: verify coords
           coordinates: { lat: 18.7883, lng: 98.9853 },
         },
       ],

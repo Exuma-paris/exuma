@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir au Botswana ?",
       heading:
-        "Stéphane, spécialiste du Botswana, vous partage son expérience",
+        "Stéphane, spécialiste du Botswana, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",

@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir à l'île de Pâques ?",
       heading:
-        "Carole, spécialiste de l'île de Pâques, vous partage son expérience",
+        "Carole, spécialiste de l'île de Pâques, reste votre interlocutrice",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "carole",

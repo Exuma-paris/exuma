@@ -52,7 +52,7 @@ export const destination: Destination = {
       type: "specialistSpotlight",
       eyebrow: "Pourquoi partir en Corée du Sud ?",
       heading:
-        "Stéphane, spécialiste de la Corée du Sud, vous partage son expérience",
+        "Stéphane, spécialiste de la Corée du Sud, reste votre interlocuteur",
       partners: { title: "" },
       specialist: {
         collaborateurSlug: "stephane",
