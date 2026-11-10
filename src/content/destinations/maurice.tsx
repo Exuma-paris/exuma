@@ -22,7 +22,6 @@ export const destination: Destination = {
     "ocean indien",
     "lagon",
   ],
-  metaTitle: "Île Maurice, voyage sur mesure",
   metaDescription:
     "Voyage à l'île Maurice sur mesure : Le Morne, Grand Baie, Chamarel et le lagon. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -617,7 +616,7 @@ export const destination: Destination = {
             src: "/destination/maurice/hero-3.png",
             alt: "Ligne d'écume d'un récif corallien vue à la verticale, océan et platier",
           },
-          name: "Claire", // TODO: verify
+          name: "Servane", // TODO: verify
           role: "Escapade nature, juin 2025", // TODO: verify
         },
       ],

@@ -12,7 +12,7 @@ import {
 } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Demande envoyée — Exuma",
+  title: "Demande envoyée",
   description:
     "Votre demande a bien été reçue. Nos engagements écrits vous parviennent par courriel.",
   alternates: { canonical: "/professionnels/engagement/merci" },

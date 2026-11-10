@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import { EXUMA_MAILTO_HREF, EXUMA_EMAIL, EXUMA_PHONE, EXUMA_TEL_HREF } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Demande envoyée — Exuma",
+  title: "Demande envoyée",
   description:
     "Votre demande a bien été reçue. Un travel designer Exuma vous recontacte pour en parler.",
   alternates: { canonical: "/votre-projet/merci" },

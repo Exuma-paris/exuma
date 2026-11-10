@@ -90,7 +90,10 @@ export function FaqSection({
           ) : null}
         </div>
 
-        <Accordion>
+        {/* Les réponses restent dans le HTML même fermées (hidden="until-found") :
+            sans cela, Google et les moteurs IA ne lisaient que les questions,
+            et la recherche du navigateur ne trouvait rien dans les réponses. */}
+        <Accordion hiddenUntilFound>
           {items.map((item, idx) => (
             <AccordionItem key={idx} value={`item-${idx}`}>
               <AccordionTrigger>{item.question}</AccordionTrigger>

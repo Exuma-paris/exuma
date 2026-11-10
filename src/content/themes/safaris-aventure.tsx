@@ -12,7 +12,7 @@ export const theme: Theme = {
     src: "/theme/safaris-aventure/hero-1-1x1.png",
     alt: "Un véhicule seul arrêté dans la plaine à la première lumière, une girafe traversant la piste",
   },
-  metaTitle: "Voyage safari sur mesure",
+  metaTitle: "Voyage safari de luxe sur mesure",
   metaDescription:
     "Voyage safari sur mesure : safari terrestre en concession privée, safari marin, trek et expédition. Itinéraire écrit par votre travel designer Exuma.",
   sections: [

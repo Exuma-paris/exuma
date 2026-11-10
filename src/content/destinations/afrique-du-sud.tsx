@@ -23,7 +23,6 @@ export const destination: Destination = {
     "art rupestre",
     "safari",
   ],
-  metaTitle: "Afrique du Sud : Voyage sur mesure",
   metaDescription:
     "Voyage en Afrique du Sud sur mesure : Le Cap, le Cederberg et les réserves privées du Kruger. Itinéraire sur mesure écrit par votre travel designer Exuma.",
   sections: [
@@ -605,7 +604,7 @@ export const destination: Destination = {
             src: "/destination/afrique-du-sud/hero-1.webp",
             alt: "Table Mountain au-dessus de la baie du Cap au lever du jour, voyage en Afrique du Sud"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Bénédicte & Robert", // TODO: replace with real testimonial
           role: "Le Cap, Cederberg et Thornybush, avril 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -616,7 +615,7 @@ export const destination: Destination = {
             src: "/destination/afrique-du-sud/hero-2.webp",
             alt: "Léopard sur une branche dans la réserve privée de Thornybush, Afrique du Sud"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Huguette & Yann", // TODO: replace with real testimonial
           role: "Le Cap et Lowveld, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -627,7 +626,7 @@ export const destination: Destination = {
             src: "/destination/afrique-du-sud/hero-3.webp",
             alt: "Vue aérienne du Cap entre Table Mountain et l'océan à la tombée du jour"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Aliénor & Éric", // TODO: replace with real testimonial
           role: "Le Cap et Winelands, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

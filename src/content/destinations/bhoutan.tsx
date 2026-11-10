@@ -23,7 +23,6 @@ export const destination: Destination = {
     "bumthang",
     "thimphu",
   ],
-  metaTitle: "Bhoutan : Voyage sur mesure",
   metaDescription:
     "Voyage au Bhoutan sur mesure : Nid du Tigre, dzong de Punakha, vallée de Phobjikha, temples du Bumthang. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -560,7 +559,7 @@ export const destination: Destination = {
             src: "/destination/bhoutan/hero-1.webp",
             alt: "Le monastère du Nid du Tigre accroché à la falaise au-dessus de la vallée de Paro"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Emmanuelle & François", // TODO: replace with real testimonial
           role: "Bhoutan, Paro et Punakha, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -571,7 +570,7 @@ export const destination: Destination = {
             src: "/destination/bhoutan/hero-2.webp",
             alt: "Moine en robe grenat devant la façade peinte d'un temple bhoutanais"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Charlotte & Alexis", // TODO: replace with real testimonial
           role: "Bhoutan en famille, trois générations, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -582,7 +581,7 @@ export const destination: Destination = {
             src: "/destination/bhoutan/hero-3.webp",
             alt: "Toiture dorée et bois sculpté d'un temple bhoutanais devant la montagne"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Priscille & Gonzague", // TODO: replace with real testimonial
           role: "Bhoutan, Phobjikha et Bumthang, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

@@ -23,7 +23,6 @@ export const destination: Destination = {
     "prickly pear",
     "the valley",
   ],
-  metaTitle: "Anguilla : Voyage sur mesure",
   metaDescription:
     "Voyage à Anguilla sur mesure : Shoal Bay, Meads Bay, Sandy Ground et les cayes de Sandy Island. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -566,7 +565,7 @@ export const destination: Destination = {
             src: "/destination/anguilla/hero-1.webp",
             alt: "Voyage à Anguilla : sable blanc et eau turquoise de Shoal Bay East"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Lucie", // TODO: replace with real testimonial
           role: "Anguilla en famille, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -577,7 +576,7 @@ export const destination: Destination = {
             src: "/destination/anguilla/hero-2.webp",
             alt: "Bateaux de pêche colorés amarrés dans la baie de Sandy Ground"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Lucile & Patrick", // TODO: replace with real testimonial
           role: "Anguilla à deux, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -588,7 +587,7 @@ export const destination: Destination = {
             src: "/destination/anguilla/hero-3.webp",
             alt: "Banc de sable désert de Sandy Island au large d'Anguilla"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Louisa & Marc-Henri", // TODO: replace with real testimonial
           role: "Anguilla, février 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

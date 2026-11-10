@@ -23,7 +23,6 @@ export const destination: Destination = {
     "isabela",
     "espanola",
   ],
-  metaTitle: "Galápagos : Voyage sur mesure",
   metaDescription:
     "Voyage aux Galápagos sur mesure : yacht d'expédition, faune endémique, accès régulé par le parc national. Itinéraire et conciergerie privée Exuma.",
   sections: [

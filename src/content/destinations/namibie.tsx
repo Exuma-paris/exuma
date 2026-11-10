@@ -23,7 +23,6 @@ export const destination: Destination = {
     "damaraland",
     "etosha",
   ],
-  metaTitle: "Namibie : Voyage sur mesure",
   metaDescription:
     "Voyage en Namibie sur mesure : Sossusvlei, Deadvlei, Skeleton Coast et Kalahari. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -577,7 +576,7 @@ export const destination: Destination = {
             src: "/destination/namibie/hero-1.webp",
             alt: "Marcheurs entre les acacias morts de Deadvlei au pied d'une grande dune ocre, voyage en Namibie"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Gabrielle & Valère", // TODO: replace with real testimonial
           role: "Namib et Kalahari, juin 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -588,7 +587,7 @@ export const destination: Destination = {
             src: "/destination/namibie/hero-2.webp",
             alt: "Deux montgolfières au-dessus des plaines du Namib au lever du jour"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Clotilde & Léopold", // TODO: replace with real testimonial
           role: "Hoanib et Skeleton Coast, septembre 2024", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -599,7 +598,7 @@ export const destination: Destination = {
             src: "/destination/namibie/hero-3.webp",
             alt: "Rhinocéros blanc dans les herbes sèches, derrière les branches d'un buisson épineux, Namibie"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Marie & Valentin", // TODO: replace with real testimonial
           role: "NamibRand et Damaraland, mai 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

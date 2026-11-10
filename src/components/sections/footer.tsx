@@ -19,6 +19,7 @@ import {
   EXUMA_SOCIALS,
 } from "@/lib/exuma";
 import { cn } from "@/lib/utils";
+import { SITE_URL } from "@/lib/site-url";
 
 const tagline =
   "Maison de conseils privée dédiée aux déplacements. Un interlocuteur de référence, une discrétion sans exception, une seule mesure du succès : votre tranquillité.";
@@ -107,8 +108,7 @@ function Band({
 }
 
 export function Footer({ className }: { className?: string }) {
-  const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://exuma.example.com";
+  const siteUrl = SITE_URL;
 
   // Same source as the burger menu, so a label or link renamed there can
   // never leave the footer showing the old wording.

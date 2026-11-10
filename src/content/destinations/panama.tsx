@@ -23,7 +23,6 @@ export const destination: Destination = {
     "islas secas",
     "chiriqui",
   ],
-  metaTitle: "Panama : Voyage sur mesure",
   metaDescription:
     "Voyage au Panama sur mesure : Guna Yala, Bocas del Toro, café de Boquete, archipel de Coiba, Casco Viejo. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -594,7 +593,7 @@ export const destination: Destination = {
             src: "/destination/panama/hero-1.webp",
             alt: "Îles de l'archipel de Guna Yala au Panama vues depuis la mer"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Noëlle & Jean-Charles", // TODO: replace with real testimonial
           role: "Panama en famille, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -605,7 +604,7 @@ export const destination: Destination = {
             src: "/destination/panama/hero-2.webp",
             alt: "Façades colorées et clochers du Casco Viejo devant les tours de Panama City"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Ingrid & Romuald", // TODO: replace with real testimonial
           role: "Islas Secas et Coiba, mars 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -616,7 +615,7 @@ export const destination: Destination = {
             src: "/destination/panama/hero-3.webp",
             alt: "Caféiers en terrasses sur les pentes du volcan Barú à Boquete"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Geneviève & Baptiste", // TODO: replace with real testimonial
           role: "Guna Yala et Chiriquí, janvier 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

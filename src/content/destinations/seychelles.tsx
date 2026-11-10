@@ -22,7 +22,6 @@ export const destination: Destination = {
     "ocean indien",
     "granit",
   ],
-  metaTitle: "Seychelles, voyage sur mesure",
   metaDescription:
     "Voyage aux Seychelles sur mesure : Mahé, Praslin, La Digue, îles privées et lagons de granit. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -495,7 +494,7 @@ export const destination: Destination = {
             src: "/destination/seychelles/hero-1.webp",
             alt: "Plage de granit rose et eau turquoise à Anse Source d'Argent, La Digue, Seychelles",
           },
-          name: "Hélène & Thomas", // TODO: verify
+          name: "Séverine & Gilles", // TODO: verify
           role: "Voyage en couple, mai 2025", // TODO: verify
         },
         {

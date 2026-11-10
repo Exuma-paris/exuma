@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { entityMetadata } from "@/lib/content/seo";
+import { entityMetadata, isStubEntity, stubRobots } from "@/lib/content/seo";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
@@ -15,11 +15,12 @@ export async function generateMetadata({
   const { slug } = await params;
   const accommodation = accommodations[slug];
   if (!accommodation) return {};
-  return entityMetadata(
+  const metadata = entityMetadata(
     accommodation,
     `/hebergements/${slug}`,
-    `${accommodation.name}, sélectionné par Exuma : séjour réservé et suivi par votre travel designer, avec les attentions qui font la différence.`,
+    `${accommodation.name}, sélectionné par Exuma : séjour réservé et suivi par votre conseiller, avec les attentions qui font la différence.`,
   );
+  return isStubEntity(accommodation) ? { ...metadata, robots: stubRobots } : metadata;
 }
 
 export function generateStaticParams() {

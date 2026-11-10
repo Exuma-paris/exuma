@@ -28,7 +28,7 @@ export const meta = {
   // `title` alimente la balise <title> via le gabarit `%s | Exuma` du layout,
   // et la carte de partage. Il porte les termes réellement tapés par la cible,
   // que le H1 ne contient pas volontairement.
-  title: "Voyages des family offices et assistantes personnelles",
+  title: "Conciergerie family office et voyages privés",
   // Repris tel quel dans le fil d'Ariane, où le titre complet serait trop long.
   shortTitle: "Family offices & assistantes",
   description:

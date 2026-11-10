@@ -23,7 +23,6 @@ export const destination: Destination = {
     "petit saint vincent",
     "caraibes",
   ],
-  metaTitle: "Saint-Vincent-et-les-Grenadines : Voyage sur mesure",
   metaDescription:
     "Voyage dans les Grenadines sur mesure : Mustique, Bequia, Canouan et les Tobago Cays. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -594,7 +593,7 @@ export const destination: Destination = {
             src: "/destination/saint-vincent-et-les-grenadines/hero-1.webp",
             alt: "Voyage dans les Grenadines : les îlots des Tobago Cays et leurs voiliers au mouillage, vus du ciel"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Cyrielle & Jean", // TODO: replace with real testimonial
           role: "Les Grenadines en famille, mars 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -605,7 +604,7 @@ export const destination: Destination = {
             src: "/destination/saint-vincent-et-les-grenadines/hero-2.webp",
             alt: "Voiliers au mouillage dans Admiralty Bay devant les collines de Port Elizabeth, à Bequia"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Léna & Gustave", // TODO: replace with real testimonial
           role: "Mustique, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -616,7 +615,7 @@ export const destination: Destination = {
             src: "/destination/saint-vincent-et-les-grenadines/hero-3.webp",
             alt: "La plage de Macaroni à Mustique, son sable blanc et ses collines boisées"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Armelle & Martin", // TODO: replace with real testimonial
           role: "Les Grenadines, avril 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],

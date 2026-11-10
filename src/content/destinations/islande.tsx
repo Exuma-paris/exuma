@@ -23,7 +23,6 @@ export const destination: Destination = {
     "landmannalaugar",
     "grotte de glace",
   ],
-  metaTitle: "Islande, voyage sur mesure",
   metaDescription:
     "Voyage en Islande sur mesure : aurores boréales et grottes de glace en hiver, Landmannalaugar et Jökulsárlón en été. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -676,7 +675,7 @@ export const destination: Destination = {
             src: "/destination/islande/hero-2.webp",
             alt: "Iceberg bleu dérivant sur le lagon glaciaire de Jökulsárlón",
           },
-          name: "Claire", // TODO: verify
+          name: "Marlène", // TODO: verify
           role: "Séjour sur la côte sud, février 2026", // TODO: verify
         },
         {

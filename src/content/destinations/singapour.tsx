@@ -23,7 +23,6 @@ export const destination: Destination = {
     "tanjong pagar",
     "orchard road",
   ],
-  metaTitle: "Singapour, voyage sur mesure",
   metaDescription:
     "Voyage à Singapour sur mesure : Marina Bay, hawkers étoilés, îles du Sud. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -533,7 +532,7 @@ export const destination: Destination = {
             src: "/destination/singapour/hero-1.webp",
             alt: "Marina Bay Sands, la grande roue et la skyline de Singapour au coucher du soleil",
           },
-          name: "Nicolas", // TODO: verify
+          name: "Melchior", // TODO: verify
           role: "Escale d'affaires prolongée, septembre 2025", // TODO: verify
         },
         {
@@ -544,7 +543,7 @@ export const destination: Destination = {
             src: "/destination/singapour/hero-2.webp",
             alt: "Shophouses colorées et lanternes rouges d'une rue de Chinatown, Singapour",
           },
-          name: "Claire", // TODO: verify
+          name: "Élise", // TODO: verify
           role: "Voyage en couple, mars 2025", // TODO: verify
         },
         {
@@ -555,7 +554,7 @@ export const destination: Destination = {
             src: "/destination/singapour/hero-3.webp",
             alt: "Plage de sable blanc et lagon de l'île de Sentosa vus du ciel, Singapour",
           },
-          name: "Marc", // TODO: verify
+          name: "César", // TODO: verify
           role: "Voyage solo, novembre 2025", // TODO: verify
         },
       ],

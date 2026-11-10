@@ -23,7 +23,6 @@ export const destination: Destination = {
     "colchagua",
     "chiloe",
   ],
-  metaTitle: "Chili : Voyage sur mesure",
   metaDescription:
     "Voyage au Chili sur mesure : désert d'Atacama, vignobles de Colchagua, fjords de Patagonie, Rapa Nui. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -555,7 +554,7 @@ export const destination: Destination = {
             src: "/destination/chili/hero-1.webp",
             alt: "Massif des Torres del Paine en Patagonie chilienne au lever du jour"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Matthieu", // TODO: replace with real testimonial
           role: "Chili, Patagonie et fjords, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -566,7 +565,7 @@ export const destination: Destination = {
             src: "/destination/chili/hero-2.webp",
             alt: "Vallée de la Lune et cordillère de sel dans le désert d'Atacama"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Virginie & Ignace", // TODO: replace with real testimonial
           role: "Chili en famille, trois générations, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -577,7 +576,7 @@ export const destination: Destination = {
             src: "/destination/chili/hero-3.webp",
             alt: "Maisons sur pilotis de Castro sur l'île de Chiloé au Chili"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Rachel & Ernest", // TODO: replace with real testimonial
           role: "Chili, Atacama et Colchagua, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

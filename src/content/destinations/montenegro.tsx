@@ -24,7 +24,6 @@ export const destination: Destination = {
     "tara",
     "cetinje",
   ],
-  metaTitle: "Monténégro : Voyage sur mesure",
   metaDescription:
     "Voyage au Monténégro sur mesure : baie de Kotor, Sveti Stefan, canyon de la Tara. Itinéraire conçu par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -567,7 +566,7 @@ export const destination: Destination = {
             src: "/destination/montenegro/hero-1.webp",
             alt: "Îlot de Saint-Georges et Notre-Dame-du-Rocher vus du ciel, baie de Kotor",
           },
-          name: "Camille & Antoine", // TODO: verify
+          name: "Cécilia & Antoine", // TODO: verify
           role: "Voyage de noces, juin 2025", // TODO: verify
         },
         {
@@ -578,7 +577,7 @@ export const destination: Destination = {
             src: "/destination/montenegro/hero-2.webp",
             alt: "Village-hôtel de Sveti Stefan relié à la côte par une jetée",
           },
-          name: "Marc", // TODO: verify
+          name: "Jean-Luc", // TODO: verify
           role: "Séjour en famille, août 2025", // TODO: verify
         },
         {
@@ -589,7 +588,7 @@ export const destination: Destination = {
             src: "/destination/montenegro/hero-3.webp",
             alt: "Voilier privé mouillé face aux remparts de Kotor au lever du jour",
           },
-          name: "Sophie", // TODO: verify
+          name: "Lydie", // TODO: verify
           role: "Escapade en couple, septembre 2025", // TODO: verify
         },
       ],

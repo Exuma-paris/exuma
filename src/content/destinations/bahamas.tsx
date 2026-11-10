@@ -23,7 +23,6 @@ export const destination: Destination = {
     "nassau",
     "long island",
   ],
-  metaTitle: "Bahamas : Voyage sur mesure",
   metaDescription:
     "Voyage aux Bahamas sur mesure : sable rose de Harbour Island, cayes privées des Exumas, flats d'Andros. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -557,7 +556,7 @@ export const destination: Destination = {
             src: "/destination/bahamas/hero-1.webp",
             alt: "Bancs de sable et eaux turquoise des Exuma Cays lors d'un voyage aux Bahamas"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Claudine & Thierry", // TODO: replace with real testimonial
           role: "Bahamas, Eleuthera et Harbour Island, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -568,7 +567,7 @@ export const destination: Destination = {
             src: "/destination/bahamas/hero-2.webp",
             alt: "Cochons nageurs dans les eaux peu profondes de Big Major Cay, aux Exumas"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Muriel & Godefroy", // TODO: replace with real testimonial
           role: "Bahamas en famille, Exumas, 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -579,7 +578,7 @@ export const destination: Destination = {
             src: "/destination/bahamas/hero-3.webp",
             alt: "Maisons de bois blanches et cocotiers d'un village des Bahamas"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Liliane & Hadrien", // TODO: replace with real testimonial
           role: "Bahamas, Andros, 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

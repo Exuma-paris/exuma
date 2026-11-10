@@ -24,7 +24,6 @@ export const destination: Destination = {
     "napa",
     "ouest americain",
   ],
-  metaTitle: "États-Unis : Voyage sur mesure",
   metaDescription:
     "Voyage aux États-Unis sur mesure : plateau du Colorado, Big Sur, New York. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -547,7 +546,7 @@ export const destination: Destination = {
             src: "/destination/etats-unis/hero-1.webp",
             alt: "Falaises de grès du plateau du Colorado au lever du jour, dans l'Utah, aux États-Unis",
           },
-          name: "Bernard & Michèle", // TODO: verify
+          name: "Jean-Noël & Régine", // TODO: verify
           role: "Voyage en famille, mai 2025", // TODO: verify
         },
         {
@@ -558,7 +557,7 @@ export const destination: Destination = {
             src: "/destination/etats-unis/hero-2.webp",
             alt: "Route côtière de Big Sur surplombant le Pacifique en Californie",
           },
-          name: "Édouard", // TODO: verify
+          name: "Abel", // TODO: verify
           role: "Séjour dans l'Ouest, octobre 2025", // TODO: verify
         },
         {
@@ -569,7 +568,7 @@ export const destination: Destination = {
             src: "/destination/etats-unis/hero-3.webp",
             alt: "Façades de l'Upper East Side bordant Central Park à New York",
           },
-          name: "Claire", // TODO: verify
+          name: "Cassandre", // TODO: verify
           role: "Voyage en couple, septembre 2025", // TODO: verify
         },
       ],

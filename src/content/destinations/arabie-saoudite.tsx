@@ -23,7 +23,6 @@ export const destination: Destination = {
     "diriyah",
     "mer-rouge",
   ],
-  metaTitle: "Arabie Saoudite : Voyage sur mesure",
   metaDescription:
     "Voyage en Arabie Saoudite sur mesure : AlUla, Hegra, la réserve de Sharaan et la mer Rouge. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -574,7 +573,7 @@ export const destination: Destination = {
             src: "/destination/arabie-saoudite/hero-1.webp",
             alt: "Le tombeau de Qasr al-Farid taillé dans un bloc isolé à Hegra, voyage en Arabie Saoudite"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Hermine & Mathias", // TODO: replace with real testimonial
           role: "AlUla, février 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -585,7 +584,7 @@ export const destination: Destination = {
             src: "/destination/arabie-saoudite/hero-2.webp",
             alt: "Formations de grès de la vallée d'AlUla à contre-jour, en fin de journée"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Bertille & Rémy", // TODO: replace with real testimonial
           role: "Réserve de Sharaan, décembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -596,7 +595,7 @@ export const destination: Destination = {
             src: "/destination/arabie-saoudite/hero-3.webp",
             alt: "Troupeau de dromadaires au pied des falaises de grès, dans le désert d'AlUla"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Madeleine & Joachim", // TODO: replace with real testimonial
           role: "Vieille ville d'AlUla, novembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

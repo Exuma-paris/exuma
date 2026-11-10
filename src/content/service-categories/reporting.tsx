@@ -27,6 +27,7 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
 export const serviceCategory: ServiceCategory = {
   slug: "reporting",
   name: "Reporting & pilotage",
+  metaTitle: "Politique voyages et reporting des déplacements",
   proOnly: true,
   blurb:
     "Facture unique, reporting mensuel, pilotage des budgets et vision consolidée de vos déplacements professionnels.",

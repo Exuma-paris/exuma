@@ -5,7 +5,7 @@ import { prefilledDestinationAnswers } from "@/lib/contact/project-link";
 import { EXUMA_PHONE } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Créer votre voyage — Exuma",
+  title: "Créer votre voyage",
   description:
     "Confiez-nous votre projet de voyage. Quelques questions, puis un travel designer Exuma vous rappelle pour en parler.",
   alternates: { canonical: "/votre-projet" },

@@ -12,7 +12,7 @@ export const theme: Theme = {
     src: "/theme/croisiere/hero-1-1x1.png",
     alt: "Un navire à voiles seul devant une côte montagneuse déserte",
   },
-  metaTitle: "Croisière d'exception sur mesure",
+  metaTitle: "Croisière de luxe et d'exception sur mesure",
   metaDescription:
     "Croisière d'exception sur mesure : voilier et catamaran privatisés, croisière fluviale sur le Nil, le Mékong ou le Zambèze. Organisée par Exuma.",
   trailingSections: [

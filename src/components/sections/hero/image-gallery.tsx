@@ -69,9 +69,15 @@ function ImageTile({
   image,
   sizes,
   ratio = "aspect-square",
+  preload = false,
 }: {
   image: ImageRef;
   sizes: string;
+  /**
+   * Première image du hero : c'est l'élément LCP des pages destination. Sans
+   * préchargement, elle partait en lazy et le LCP mobile montait à 6,5 s.
+   */
+  preload?: boolean;
   /**
    * Le carré convient aux vignettes du carrousel, qui n'occupent qu'un tiers de
    * la largeur. Sur une image unique, qui prend toute la largeur, il produit une
@@ -86,6 +92,7 @@ function ImageTile({
         alt={image.alt}
         fill
         sizes={sizes}
+        preload={preload}
         className="object-cover"
         style={image.position ? { objectPosition: image.position } : undefined}
       />
@@ -191,7 +198,7 @@ export function HeroImageGallery({
                 data-slide
                 className="w-[calc(100vw-5rem)] shrink-0 snap-center snap-always md:w-[calc(100vw-20rem)] lg:w-[calc((100vw-3rem)/3)] lg:snap-start"
               >
-                <ImageTile image={img} sizes={CAROUSEL_SIZES} />
+                <ImageTile image={img} sizes={CAROUSEL_SIZES} preload={i === 0} />
               </div>
             ))}
             <div aria-hidden className="w-10 shrink-0 md:w-40 lg:w-3" />
@@ -202,6 +209,7 @@ export function HeroImageGallery({
           <ImageTile
             image={images[0]}
             sizes={SINGLE_SIZES}
+            preload
             ratio="aspect-3/2 md:aspect-21/9"
           />
         </div>

@@ -23,7 +23,6 @@ export const destination: Destination = {
     "zanzibar",
     "safari",
   ],
-  metaTitle: "Tanzanie : Voyage sur mesure",
   metaDescription:
     "Voyage en Tanzanie sur mesure : concession privée de Grumeti, Serengeti Ouest, cratère du Ngorongoro. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -573,7 +572,7 @@ export const destination: Destination = {
             src: "/destination/tanzanie/hero-1.webp",
             alt: "Troupeau de gnous massé sur la berge de la rivière Grumeti en Tanzanie"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Marine & Max", // TODO: replace with real testimonial
           role: "Safari Serengeti Ouest, juin 2024", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -584,7 +583,7 @@ export const destination: Destination = {
             src: "/destination/tanzanie/hero-2.webp",
             alt: "Éléphant traversant les hautes herbes au pied de la colline de Sasakwa, Grumeti"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Ghislaine & Denis", // TODO: replace with real testimonial
           role: "Tanzanie et Zanzibar, septembre 2025", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -595,7 +594,7 @@ export const destination: Destination = {
             src: "/destination/tanzanie/hero-3.webp",
             alt: "Zèbres et gnous en pâture au fond du cratère du Ngorongoro, paroi de la caldeira derrière"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Roselyne & Lazare", // TODO: replace with real testimonial
           role: "Tanzanie en famille, février 2025", // TODO: à vérifier (replace with real testimonial)
         },
       ],

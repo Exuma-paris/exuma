@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { entityMetadata } from "@/lib/content/seo";
+import { entityMetadata, isStubEntity, stubRobots } from "@/lib/content/seo";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/sections/header";
 import { renderSection } from "@/components/destination/render-section";
@@ -15,11 +15,12 @@ export async function generateMetadata({
   const { slug } = await params;
   const cruiseLine = cruiseLines[slug];
   if (!cruiseLine) return {};
-  return entityMetadata(
+  const metadata = entityMetadata(
     cruiseLine,
     `/croisieres/${slug}`,
-    `${cruiseLine.name}, à bord avec Exuma : cabine, itinéraire et séjour à terre réservés et suivis par votre travel designer.`,
+    `${cruiseLine.name}, à bord avec Exuma : cabine, itinéraire et séjour à terre réservés et suivis par votre conseiller.`,
   );
+  return isStubEntity(cruiseLine) ? { ...metadata, robots: stubRobots } : metadata;
 }
 
 export function generateStaticParams() {

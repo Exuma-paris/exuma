@@ -24,7 +24,6 @@ export const destination: Destination = {
     "majorque",
     "ribera del duero",
   ],
-  metaTitle: "Espagne : Voyage sur mesure",
   metaDescription:
     "Voyage en Espagne sur mesure : Alhambra de Grenade, tables basques, Ribera del Duero, Serra de Tramuntana. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -531,7 +530,7 @@ export const destination: Destination = {
             src: "/destination/espagne/hero-1.webp",
             alt: "L'Alhambra de Grenade devant les sommets enneigés de la Sierra Nevada, voyage en Espagne",
           },
-          name: "Bernard & Michèle", // TODO: verify
+          name: "Francis & Solène", // TODO: verify
           role: "Voyage anniversaire, mai 2026", // TODO: verify
         },
         {
@@ -542,7 +541,7 @@ export const destination: Destination = {
             src: "/destination/espagne/hero-2.webp",
             alt: "Crique aux eaux turquoise et fort côtier sur la côte méditerranéenne espagnole",
           },
-          name: "Édouard", // TODO: verify
+          name: "Marcel", // TODO: verify
           role: "Voyage en famille, avril 2026", // TODO: verify
         },
         {

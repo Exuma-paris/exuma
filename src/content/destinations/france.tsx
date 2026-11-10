@@ -23,7 +23,6 @@ export const destination: Destination = {
     "mont saint michel",
     "chamonix",
   ],
-  metaTitle: "France : Voyage sur mesure",
   metaDescription:
     "Voyage en France sur mesure : châteaux de la Loire, Champagne, Luberon et Mont-Blanc. Itinéraire écrit par votre travel designer Exuma, conciergerie privée.",
   sections: [
@@ -529,7 +528,7 @@ export const destination: Destination = {
             src: "/destination/france/hero-1.png",
             alt: "Village de pierre dorée du Luberon dans la lumière du matin, en France",
           },
-          name: "Édouard", // TODO: verify
+          name: "Thibaud", // TODO: verify
           role: "Voyage anniversaire, mai 2026", // TODO: verify
         },
         {
@@ -540,7 +539,7 @@ export const destination: Destination = {
             src: "/destination/france/hero-2.png",
             alt: "Château de Chambord émergeant de la brume de Sologne au lever du jour",
           },
-          name: "Constance", // TODO: verify
+          name: "Danielle", // TODO: verify
           role: "Voyage en famille, juin 2026", // TODO: verify
         },
         {
@@ -551,7 +550,7 @@ export const destination: Destination = {
             src: "/destination/france/hero-3.webp",
             alt: "Calanque d’En-Vau, ses falaises calcaires et son eau turquoise, près de Cassis",
           },
-          name: "Bernard", // TODO: verify
+          name: "Josselin", // TODO: verify
           role: "Séjour en couple, septembre 2025", // TODO: verify
         },
       ],

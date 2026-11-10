@@ -5,7 +5,7 @@ import { proInitialAnswers } from "@/lib/contact/pro-profile";
 import { EXUMA_PHONE } from "@/lib/exuma";
 
 export const metadata: Metadata = {
-  title: "Écrire à Ludivine — Exuma",
+  title: "Écrire à Ludivine",
   description:
     "Écrivez à Ludivine, votre interlocutrice pour les family offices, les entreprises et les dirigeants. Réponse sous 24 heures ouvrées.",
   alternates: { canonical: "/professionnels/contact" },

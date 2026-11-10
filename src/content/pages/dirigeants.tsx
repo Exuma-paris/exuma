@@ -23,7 +23,7 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
 
 export const meta = {
   // Porte les termes réellement tapés, que le H1 ne contient pas.
-  title: "Voyages des dirigeants et conciergerie privée",
+  title: "Conciergerie VIP et voyages des dirigeants",
   // Repris dans le fil d'Ariane.
   shortTitle: "Dirigeants",
   description:

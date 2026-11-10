@@ -23,7 +23,6 @@ export const destination: Destination = {
     "taveuni",
     "lau",
   ],
-  metaTitle: "Fidji : Voyage sur mesure",
   metaDescription:
     "Voyage aux Fidji sur mesure : les Yasawa, le Great Astrolabe Reef et les îles privées de Laucala et Kokomo. Itinéraire écrit par votre travel designer Exuma.",
   sections: [
@@ -563,7 +562,7 @@ export const destination: Destination = {
             src: "/destination/fidji/hero-1.webp",
             alt: "Île des Fidji bordée de sable blanc et de récifs, vue du ciel"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Colombe & Claude", // TODO: replace with real testimonial
           role: "Fidji, septembre 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -574,7 +573,7 @@ export const destination: Destination = {
             src: "/destination/fidji/hero-2.webp",
             alt: "Bures de chaume du village de Navala au pied des hautes terres de Viti Levu"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Chloé & Armand", // TODO: replace with real testimonial
           role: "Fidji, îles privées, juin 2026", // TODO: à vérifier (replace with real testimonial)
         },
         {
@@ -585,7 +584,7 @@ export const destination: Destination = {
             src: "/destination/fidji/hero-3.webp",
             alt: "Pêcheurs sur leur pirogue à balancier au lever du jour, aux Fidji"
           },
-          name: "", // TODO: replace with real testimonial
+          name: "Renée & Grégoire", // TODO: replace with real testimonial
           role: "Fidji, Yasawa, octobre 2026", // TODO: à vérifier (replace with real testimonial)
         },
       ],
