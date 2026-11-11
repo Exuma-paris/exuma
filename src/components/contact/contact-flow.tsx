@@ -17,7 +17,7 @@ import {
   type AnswersMap,
   type Question,
 } from "@/lib/contact/types";
-import { pushDataLayer } from "@/lib/analytics/datalayer";
+import { pushDataLayer, resetFormDataLayer } from "@/lib/analytics/datalayer";
 import { getAttribution } from "@/lib/analytics/attribution";
 import { formStepOrdinal } from "@/lib/analytics/cta-events";
 import {
@@ -175,6 +175,9 @@ export function ContactFlow({
   const viewedSteps = useRef(new Set<number>());
   useEffect(() => {
     if (!ready || viewedSteps.current.has(step)) return;
+    // Premier écran affiché de ce formulaire : on efface d'abord les réponses
+    // qu'un formulaire précédent a laissées dans le dataLayer.
+    if (viewedSteps.current.size === 0) resetFormDataLayer();
     viewedSteps.current.add(step);
     pushDataLayer({
       event: `form.view_${formStepOrdinal(step, total)}`,
