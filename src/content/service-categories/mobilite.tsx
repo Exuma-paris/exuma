@@ -25,8 +25,11 @@ import { EXUMA_TEL_HREF } from "@/lib/exuma";
  * autres sont provisoires, empruntés à `/professionnels/` : le chemin cible et
  * la photo attendue sont indiqués en commentaire au-dessus de chacun.
  *
- * TODO citation : la prise de parole de Calvin doit être validée avec lui avant
- * mise en ligne.
+ * Interlocuteur : la page ne nomme personne (arbitrage Rémi, 2026-11-12).
+ * Plusieurs conseillers tiennent ces dossiers ; on promet un interlocuteur
+ * dédié sans le désigner. Le bloc `specialistSpotlight` garde un
+ * `collaborateurSlug` parce que le type l'exige, mais la citation reste vide
+ * et non vérifiée : aucune carte nominative ne s'affiche.
  */
 
 export const serviceCategory: ServiceCategory = {
@@ -298,30 +301,30 @@ export const serviceCategory: ServiceCategory = {
     {
       type: "specialistSpotlight",
       eyebrow: "Votre interlocuteur",
-      heading: "Calvin Nguyen construit vos trajets et tient vos accès",
+      heading: "Un interlocuteur dédié construit vos trajets et tient vos accès",
       partners: { title: "" },
       specialist: {
+        // Exigé par le type, jamais affiché : pas de citation, pas de
+        // `verified`. La page ne nomme aucun conseiller.
         collaborateurSlug: "calvin",
-        // TODO : citation à valider avec Calvin avant mise en ligne.
-        quote:
-          "Ce qui fait qu'un déplacement se passe bien tient rarement au vol lui-même. C'est le siège pris côté couloir parce que vous vous levez la nuit, la voiture avancée parce qu'il pleut à l'arrivée, le salon prévenu que vous voyagez avec un instrument. Je passe mes journées à faire attention à ces détails-là. Vous n'en verrez aucun, et c'est exactement le but.",
+        quote: "",
       },
       features: [
         {
           iconName: "plane",
-          title: "Il choisit l'opérateur, pas seulement l'appareil",
+          title: "L'opérateur est choisi, pas seulement l'appareil",
           description:
             "Certification, historique, équipage : ce que vous ne verrez jamais est vérifié avant que le devis ne vous parvienne.",
         },
         {
           iconName: "clock",
-          title: "Il reste joignable pendant le trajet",
+          title: "Votre interlocuteur reste joignable pendant le trajet",
           description:
             "Vous convenez ensemble du mode de contact qui vous convient. Il vaut pour toute la durée du déplacement, week-end compris.",
         },
         {
           iconName: "badgeCheck",
-          title: "Il retient ce que vous ne redirez pas deux fois",
+          title: "Vos habitudes sont retenues d'un voyage à l'autre",
           description:
             "Votre place habituelle, l'heure qui vous convient, ce qui vous agace. Ce qui a été dit une fois vaut pour les voyages suivants.",
         },
