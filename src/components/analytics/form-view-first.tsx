@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { pushDataLayer } from "@/lib/analytics/datalayer";
+import { pushDataLayer, resetFormDataLayer } from "@/lib/analytics/datalayer";
 
 /**
  * `form.view_first` : l'affichage de la page qui ouvre un tunnel (la landing
@@ -13,6 +13,8 @@ export function FormViewFirst({ product }: { product: string }) {
   useEffect(() => {
     if (sent.current) return;
     sent.current = true;
+    // Un tunnel s'ouvre : on efface les réponses d'un formulaire précédent.
+    resetFormDataLayer();
     pushDataLayer({ event: "form.view_first", product });
   }, [product]);
   return null;
