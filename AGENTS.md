@@ -114,3 +114,13 @@ These are all driven by the registry — never hardcode entity lists in them.
 ## Sanity migration
 
 The structure is designed to map cleanly to Sanity later: each entity file → one document, each `Section` variant → one block schema, slug-string refs → Sanity references. Keep that mapping intact — don't introduce object-pointer references between entities, and keep section data serializable (no React components in section field values, except `ReactNode` content already supported by `tips`/`faq`).
+
+## Suivi des formulaires (dataLayer / GTM)
+
+GTM garde en mémoire tout ce qui est poussé dans le dataLayer tant que la page n'est pas rechargée. Le site navigue sans rechargement : sans précaution, les réponses d'un formulaire se retrouvent sur les événements du formulaire suivant. Le site retient donc les clés poussées par les événements `form.*` et les remet à `undefined` à l'ouverture du formulaire suivant, avant son premier `form.view_*` (`resetFormDataLayer()` dans `src/lib/analytics/datalayer.ts`).
+
+- **Ajouter, retirer ou renommer une question** (fichiers `src/lib/contact/*-questions.ts`) ne demande aucun changement pour cette remise à zéro : le registre des clés se remplit tout seul.
+- **Tout événement de formulaire passe par `pushDataLayer`**, avec un nom qui commence par `form.`. Ne jamais écrire directement dans `window.dataLayer`.
+- **Ne pas retirer l'appel à `resetFormDataLayer()`** placé avant le premier `form.view_*` d'un formulaire (`src/components/contact/contact-flow.tsx`, `src/components/analytics/form-view-first.tsx`).
+- **Un nouveau type de réponse s'ajoute dans `encodeAnswers`** (`src/lib/analytics/encode-answers.ts`), sans jamais y faire passer de texte libre ni de coordonnées.
+- **Prévenir Mathieu à chaque question ajoutée, retirée ou renommée** : chaque question envoie une clé dérivée de son identifiant, et l'expert tracking doit la déclarer dans GTM.
