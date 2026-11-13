@@ -21,6 +21,16 @@ import { TestimonialsSection } from "@/components/sections/testimonials";
 import { TextColumnsSection } from "@/components/sections/text-columns";
 import { TextImagesSplitSection } from "@/components/sections/text-images-split";
 import { createBackgroundRhythm } from "@/lib/content/background-rhythm";
+import { SITE_URL } from "@/lib/site-url";
+
+// Nom du site pour Google : sans ce bloc sur l'accueil, les résultats
+// affichent « exuma.paris » au-dessus du titre au lieu de « Exuma ».
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Exuma",
+  url: `${SITE_URL}/`,
+};
 
 export default function Home() {
   // Index construit côté serveur : le composant de recherche est client, lui
@@ -43,6 +53,10 @@ export default function Home() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
       <main className="flex-1">
         <div className="relative">
           {/* Thème sombre : le titre est posé sur l'image plein cadre, comme

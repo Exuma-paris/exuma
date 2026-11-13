@@ -34,7 +34,7 @@ const hedvigLettersSerif = Hedvig_Letters_Serif({
 const siteUrl = SITE_URL;
 
 const siteDescription =
-  "Plus qu'une agence de voyage : une maison de conseils privée. Un interlocuteur de référence prend en charge vos voyages sur mesure et vos déplacements, depuis 1991.";
+  "Depuis 1991, plus qu'une agence de voyage : une équipe qui retient vos habitudes et prend en charge tout ce qui entoure vos voyages et déplacements.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
