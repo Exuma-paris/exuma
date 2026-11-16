@@ -1,14 +1,24 @@
 import Script from "next/script";
 
 /**
- * Identifiant du conteneur, lu dans `NEXT_PUBLIC_GTM_ID`. Vide en local et sur
- * les previews Vercel : rien n'est injecté, et les événements poussés dans
- * `window.dataLayer` restent lisibles dans la console pour vérification.
+ * Google Tag Manager, chargé depuis le serveur de mesure d'Exuma (Taggrs,
+ * `sst.exuma.paris`) et non depuis `googletagmanager.com` : même conteneur,
+ * servi en première partie. Ces deux valeurs sont publiques, elles figurent
+ * dans le HTML de chaque page ; c'est l'expert tracking qui les fournit.
+ */
+const TAGGRS_HOST = "https://sst.exuma.paris";
+const TAGGRS_LOADER_ID = "fdd5ywsibl";
+
+/**
+ * L'injection reste commandée par `NEXT_PUBLIC_GTM_ID` (identifiant du
+ * conteneur). Vide en local et sur les previews Vercel : rien n'est injecté,
+ * et les événements poussés dans `window.dataLayer` restent lisibles dans la
+ * console pour vérification.
  */
 const RAW_ID = process.env.NEXT_PUBLIC_GTM_ID ?? "";
 export const GTM_ID = /^GTM-[A-Z0-9]+$/.test(RAW_ID) ? RAW_ID : null;
 
-/** Snippet GTM standard, à placer dans le `<head>`. */
+/** Snippet Taggrs, à placer dans le `<head>`. */
 export function GoogleTagManager() {
   if (!GTM_ID) return null;
   return (
@@ -16,7 +26,7 @@ export function GoogleTagManager() {
       id="gtm"
       strategy="afterInteractive"
       dangerouslySetInnerHTML={{
-        __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');`,
+        __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='${TAGGRS_HOST}/'+i+'.js';f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${TAGGRS_LOADER_ID}');`,
       }}
     />
   );
@@ -28,7 +38,7 @@ export function GoogleTagManagerNoScript() {
   return (
     <noscript>
       <iframe
-        src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+        src={`${TAGGRS_HOST}/${TAGGRS_LOADER_ID}.html`}
         height="0"
         width="0"
         style={{ display: "none", visibility: "hidden" }}
