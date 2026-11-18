@@ -121,7 +121,7 @@ export default async function MerciPage({ params }: Props) {
 
   return (
     <main className="min-h-screen bg-background-subtle">
-      <SimpleHeader contactCta={headerContactCta} logoHref={null} />
+      <SimpleHeader contactCta={headerContactCta} />
 
       {/* Confirmation hero */}
       <section className="section-px mx-auto w-full max-w-layout pt-12 pb-20 md:pt-20 md:pb-30">
