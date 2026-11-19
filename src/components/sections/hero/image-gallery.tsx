@@ -5,6 +5,7 @@ import Image from "next/image";
 import { TextBlock } from "@/components/blocks/text-block";
 import { ProgressBar } from "@/components/ui/progress-bar";
 import { cn } from "@/lib/utils";
+import { coverSizes } from "@/lib/image-sizes";
 import type { SectionMeta } from "@/lib/sections/meta-types";
 import type { ImageRef } from "@/lib/destination/types";
 
@@ -91,7 +92,7 @@ function ImageTile({
         src={image.src}
         alt={image.alt}
         fill
-        sizes={sizes}
+        sizes={coverSizes(sizes, ratio)}
         preload={preload}
         className="object-cover"
         style={image.position ? { objectPosition: image.position } : undefined}

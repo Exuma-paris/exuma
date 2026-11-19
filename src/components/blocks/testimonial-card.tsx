@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
+import { coverSizes } from "@/lib/image-sizes";
 
 export type TestimonialCardProps = {
   quote: string;
@@ -43,7 +44,7 @@ export function TestimonialCard({
           fill
           // The portrait is md:w-[36%] of a card that spans the layout width, so
           // 25vw under-requested it by ~1.2x and the portraits upscaled.
-          sizes="(min-width: 768px) 36vw, 100vw"
+          sizes={coverSizes("(min-width: 768px) 36vw, 100vw", "aspect-3/4")}
           className="object-cover"
         />
       </div>

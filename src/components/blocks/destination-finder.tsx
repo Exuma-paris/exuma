@@ -12,6 +12,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { pushDataLayer } from "@/lib/analytics/datalayer";
 import type { FinderEntry } from "@/lib/content/destination-finder";
 import { cn } from "@/lib/utils";
+import { coverSizes } from "@/lib/image-sizes";
 
 const strip = (s: string) =>
   s
@@ -34,7 +35,7 @@ function Card({ entry }: { entry: FinderEntry }) {
             src={entry.image.src}
             alt={entry.image.alt}
             fill
-            sizes="(min-width: 1024px) 20vw, 45vw"
+            sizes={coverSizes("(min-width: 1024px) 20vw, 45vw", "aspect-4/5")}
             className="object-cover transition-transform duration-500 ease-out group-hover/dest:scale-[1.04]"
           />
           <div

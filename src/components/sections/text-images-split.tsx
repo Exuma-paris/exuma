@@ -4,6 +4,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { TextBlock } from "@/components/blocks/text-block";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
+import { coverSizes } from "@/lib/image-sizes";
 
 export type TextImagesSplitSectionProps = {
   eyebrow?: string;
@@ -86,7 +87,7 @@ export function TextImagesSplitSection({
               src={images[0].src}
               alt={images[0].alt}
               fill
-              sizes="(min-width: 768px) 50vw, 100vw"
+              sizes={coverSizes("(min-width: 768px) 50vw, 100vw", "aspect-4/5")}
               className="object-cover"
             />
           </div>
@@ -98,7 +99,7 @@ export function TextImagesSplitSection({
                   src={images[0].src}
                   alt={images[0].alt}
                   fill
-                  sizes="(min-width: 768px) 25vw, 55vw"
+                  sizes={coverSizes("(min-width: 768px) 25vw, 55vw", "aspect-3/4")}
                   className="object-cover"
                 />
               </div>
@@ -111,7 +112,7 @@ export function TextImagesSplitSection({
                   fill
                   // 60% of a half-width grid column ≈ 27vw, so 25vw fell just short
                   // and this tile upscaled slightly. Sibling above is 55% ≈ 25vw.
-                  sizes="(min-width: 768px) 28vw, 60vw"
+                  sizes={coverSizes("(min-width: 768px) 28vw, 60vw", "aspect-square")}
                   className="object-cover"
                 />
               </div>

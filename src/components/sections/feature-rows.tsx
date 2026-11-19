@@ -4,6 +4,7 @@ import { TextBlock } from "@/components/blocks/text-block";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
+import { coverSizes } from "@/lib/image-sizes";
 
 /**
  * Rangées de prestations autonomes : une image et un bloc de texte par rangée,
@@ -139,7 +140,7 @@ export function FeatureRowsSection({
                     fill
                     // One column of a two-column layout inside max-w-layout,
                     // so half the viewport on desktop and the full width below.
-                    sizes="(min-width: 768px) 50vw, 100vw"
+                    sizes={coverSizes("(min-width: 768px) 50vw, 100vw", "aspect-square")}
                     className="object-cover"
                     style={
                       item.image.position

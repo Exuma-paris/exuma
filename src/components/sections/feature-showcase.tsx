@@ -6,6 +6,7 @@ import { Minus, Plus } from "@untitledui/icons";
 import { TextBlock } from "@/components/blocks/text-block";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
+import { coverSizes } from "@/lib/image-sizes";
 
 export type FeatureShowcaseItem = {
   title: string;
@@ -133,7 +134,7 @@ export function FeatureShowcase({
               src={item.image.src}
               alt={item.image.alt}
               fill
-              sizes="(min-width: 768px) 50vw, 100vw"
+              sizes={coverSizes("(min-width: 768px) 50vw, 100vw", "aspect-square")}
               className={cn(
                 "object-cover transition-opacity duration-500",
                 i === active ? "opacity-100" : "opacity-0",

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { coverSizes } from "@/lib/image-sizes";
 
 export type FeatureCardProps = {
   title: string;
@@ -61,7 +62,7 @@ export function FeatureCard({
           src={image.src}
           alt={image.alt}
           fill
-          sizes={sizes}
+          sizes={coverSizes(sizes, ratio)}
           className="object-cover"
           style={image.position ? { objectPosition: image.position } : undefined}
         />
