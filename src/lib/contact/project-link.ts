@@ -1,19 +1,9 @@
 import { buildDestinationIndex } from "@/lib/contact/destination-index";
 import type { AnswersMap } from "@/lib/contact/types";
 
-/** Le tunnel « Créer votre voyage », partout sur le site. */
-export const PROJECT_PATH = "/votre-projet";
+import { PROJECT_PATH, projectHref } from "@/lib/contact/project-path";
 
-/**
- * Le même lien, mais qui dit d'où l'on vient. Le formulaire pré-remplit alors
- * sa première question : quelqu'un qui clique depuis la page Japon n'a pas à
- * réécrire « Japon ». Rien n'est verrouillé, le champ reste modifiable.
- */
-export function projectHref(slug?: string | null): string {
-  return slug
-    ? `${PROJECT_PATH}?destination=${encodeURIComponent(slug)}`
-    : PROJECT_PATH;
-}
+export { PROJECT_PATH, projectHref } from "@/lib/contact/project-path";
 
 /** Un élément React, qu'il ne faut surtout pas parcourir comme une donnée. */
 function isReactNode(value: object): boolean {

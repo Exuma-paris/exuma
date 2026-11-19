@@ -10,18 +10,18 @@ import {
   XClose as X,
 } from "@untitledui/icons";
 import { Dialog as DialogPrimitive } from "@base-ui/react/dialog";
-import { continents } from "@/lib/content/registry";
 import {
-  getDestinationsByContinentGrouped,
-  type DestinationCountryGroup,
-} from "@/lib/content/queries";
-import {
-  getMenuGroups,
   menuCtas,
   proLink,
+  type MenuGroup,
   type MenuGroupKey,
   type MenuItem,
-} from "@/lib/content/menu-groups";
+} from "@/lib/content/menu-links";
+import type {
+  NavContinent,
+  NavCountryGroup,
+  NavIndex,
+} from "@/lib/content/nav-index";
 import { ContextualProjectCta } from "@/components/blocks/project-cta-link";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -59,16 +59,18 @@ function MenuRowList({ children }: { children: React.ReactNode }) {
   return <ul className="mt-6 flex flex-col">{children}</ul>;
 }
 
-type Group = ReturnType<typeof getMenuGroups>[number];
+type Group = MenuGroup;
 
 export function MenuPanel({
+  nav,
   open,
   onOpenChange,
 }: {
+  nav: NavIndex;
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }) {
-  const groups = getMenuGroups();
+  const groups = nav.groups;
   const [activeKey, setActiveKey] = useState<SubKey | null>(null);
   const [activeContinentSlug, setActiveContinentSlug] = useState<string | null>(
     null,
@@ -86,7 +88,7 @@ export function MenuPanel({
 
   const activeGroup = groups.find((g) => g.key === activeKey) ?? null;
   const activeContinent = activeContinentSlug
-    ? continents[activeContinentSlug]
+    ? (nav.continents.find((c) => c.slug === activeContinentSlug) ?? null)
     : null;
 
   const depth = activeContinent ? 2 : activeKey ? 1 : 0;
@@ -98,7 +100,7 @@ export function MenuPanel({
   };
 
   const continentCountryGroups = activeContinent
-    ? getDestinationsByContinentGrouped(activeContinent.slug).filter(
+    ? activeContinent.countryGroups.filter(
         // La fiche qui porte le nom du continent répéterait « Voir tout ».
         (g) => g.country !== activeContinent.name,
       )
@@ -159,6 +161,7 @@ export function MenuPanel({
               />
               <SubView
                 group={activeGroup}
+                continents={nav.continents}
                 onContinentSelect={(slug) => setActiveContinentSlug(slug)}
                 onNavigate={close}
               />
@@ -292,10 +295,12 @@ function MenuIntro({
 
 function SubView({
   group,
+  continents,
   onContinentSelect,
   onNavigate,
 }: {
   group: Group | null;
+  continents: NavContinent[];
   onContinentSelect: (slug: string) => void;
   onNavigate: () => void;
 }) {
@@ -311,7 +316,7 @@ function SubView({
 
           {group.key === "continents" ? (
             <MenuRowList>
-              {Object.values(continents).map((c) => (
+              {continents.map((c) => (
                 <li key={c.slug}>
                   <MenuRow
                     as="button"
@@ -349,7 +354,7 @@ function ContinentView({
   onNavigate,
 }: {
   continent: { slug: string; name: string } | null;
-  countryGroups: DestinationCountryGroup[];
+  countryGroups: NavCountryGroup[];
   onNavigate: () => void;
 }) {
   const isEmpty = countryGroups.length === 0;
@@ -398,7 +403,7 @@ function CountryDisclosure({
   group,
   onNavigate,
 }: {
-  group: DestinationCountryGroup;
+  group: NavCountryGroup;
   onNavigate: () => void;
 }) {
   const [open, setOpen] = useState(false);

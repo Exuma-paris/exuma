@@ -23,21 +23,14 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
-import { allTagged, continents } from "@/lib/content/registry";
-import {
-  getDestinationsByContinentGrouped,
-  flattenCountryGroup,
-  type DestinationCountryGroup,
-} from "@/lib/content/queries";
-import {
-  getMenuGroups,
-  type MenuGroup,
-  type MenuGroupKey,
-} from "@/lib/content/menu-groups";
-import {
-  entityRoute,
-  type EntityKind,
-} from "@/lib/content/types";
+import type { MenuGroup, MenuGroupKey } from "@/lib/content/menu-links";
+import type {
+  NavContinent,
+  NavCountryGroup,
+  NavIndex,
+  SearchEntry,
+} from "@/lib/content/nav-index";
+import type { EntityKind } from "@/lib/content/types";
 import { pushDataLayer } from "@/lib/analytics/datalayer";
 import { cn } from "@/lib/utils";
 
@@ -87,10 +80,15 @@ const KIND_ORDER: EntityKind[] = [
   // interne, sans page propre. Les proposer en résultat mènerait sur un 404.
 ];
 
+const flattenCountryGroup = (g: NavCountryGroup) =>
+  g.countryDestination ? [g.countryDestination, ...g.children] : g.children;
+
 export function SiteSearch({
+  nav,
   open,
   onOpenChange,
 }: {
+  nav: NavIndex;
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }) {
@@ -100,7 +98,7 @@ export function SiteSearch({
   const [selectedContinent, setSelectedContinent] = useState<string | null>(
     null,
   );
-  const groups = getMenuGroups();
+  const groups = nav.groups;
   const isSearching = query.trim().length > 0;
 
   useEffect(() => {
@@ -160,10 +158,11 @@ export function SiteSearch({
           />
 
           {isSearching ? (
-            <SearchResults onSelect={go} />
+            <SearchResults entries={nav.search} onSelect={go} />
           ) : (
             <BrowseView
               groups={groups}
+              continents={nav.continents}
               activeGroup={activeGroup}
               onActiveGroupChange={(key) => {
                 setActiveGroup(key);
@@ -182,6 +181,7 @@ export function SiteSearch({
 
 function BrowseView({
   groups,
+  continents,
   activeGroup,
   onActiveGroupChange,
   selectedContinent,
@@ -189,6 +189,7 @@ function BrowseView({
   onSelect,
 }: {
   groups: MenuGroup[];
+  continents: NavContinent[];
   activeGroup: MenuGroupKey;
   onActiveGroupChange: (key: MenuGroupKey) => void;
   selectedContinent: string | null;
@@ -198,11 +199,9 @@ function BrowseView({
   const active = groups.find((g) => g.key === activeGroup) ?? groups[0];
   const continent =
     activeGroup === "continents" && selectedContinent
-      ? continents[selectedContinent]
+      ? (continents.find((c) => c.slug === selectedContinent) ?? null)
       : null;
-  const countryGroups = continent
-    ? getDestinationsByContinentGrouped(continent.slug)
-    : [];
+  const countryGroups = continent?.countryGroups ?? [];
 
   return (
     <div className="grid h-[420px] grid-cols-[180px_1fr]">
@@ -238,7 +237,7 @@ function BrowseView({
           />
         ) : activeGroup === "continents" ? (
           <CommandGroup heading="Continents">
-            {Object.values(continents).map((c) => (
+            {continents.map((c) => (
               <CommandItem
                 key={c.slug}
                 value={`continent-${c.slug}`}
@@ -275,7 +274,7 @@ function ContinentDestinationsList({
   onSelect,
 }: {
   continent: { slug: string; name: string };
-  countryGroups: DestinationCountryGroup[];
+  countryGroups: NavCountryGroup[];
   onBack: () => void;
   onSelect: (href: string) => void;
 }) {
@@ -321,12 +320,18 @@ function ContinentDestinationsList({
   );
 }
 
-function SearchResults({ onSelect }: { onSelect: (href: string) => void }) {
-  const grouped = new Map<EntityKind, typeof allTagged>();
-  for (const tagged of allTagged) {
-    const list = grouped.get(tagged.kind) ?? [];
-    list.push(tagged);
-    grouped.set(tagged.kind, list);
+function SearchResults({
+  entries,
+  onSelect,
+}: {
+  entries: SearchEntry[];
+  onSelect: (href: string) => void;
+}) {
+  const grouped = new Map<EntityKind, SearchEntry[]>();
+  for (const entry of entries) {
+    const list = grouped.get(entry.kind) ?? [];
+    list.push(entry);
+    grouped.set(entry.kind, list);
   }
 
   return (
@@ -339,12 +344,12 @@ function SearchResults({ onSelect }: { onSelect: (href: string) => void }) {
         const Icon = KIND_ICON[kind];
         return (
           <CommandGroup key={kind} heading={KIND_LABEL[kind]}>
-            {items.map(({ entity }) => (
+            {items.map((entity) => (
               <CommandItem
                 key={`${kind}-${entity.slug}`}
                 value={`${entity.name} ${entity.slug}`}
                 keywords={entity.keywords}
-                onSelect={() => onSelect(entityRoute[kind](entity.slug))}
+                onSelect={() => onSelect(entity.href)}
               >
                 <Icon />
                 <span className="flex flex-col">
