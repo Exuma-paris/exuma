@@ -1,0 +1,173 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
+import { Menu01 as Menu, SearchLg as Search } from "@untitledui/icons";
+import { Logo } from "@/components/ui/logo";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { SiteSearch } from "@/components/blocks/site-search";
+import { MenuPanel } from "@/components/blocks/menu-panel";
+import { useProjectHref } from "@/components/blocks/project-cta-link";
+import type { NavIndex } from "@/lib/content/nav-index";
+import { cn } from "@/lib/utils";
+
+export type HeaderProps = {
+  hideOnScroll?: boolean;
+  theme?: "light" | "dark";
+};
+
+export function HeaderClient({
+  // L'en-tête reste visible en permanence : le menu et la recherche sont les
+  // deux seules portes de navigation du site, les masquer au défilement
+  // oblige à remonter pour y revenir.
+  hideOnScroll = false,
+  theme = "light",
+  nav,
+}: HeaderProps & { nav: NavIndex }) {
+  const [hidden, setHidden] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  // Le thème sombre n'est justifié que tant que le hero plein écran passe
+  // derrière l'en-tête. Une fois la page atteinte, une barre sombre flotterait
+  // sur un fond crème : on repasse en clair.
+  const [pastHero, setPastHero] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const lastY = useRef(0);
+  // Sur une page destination, le bouton emmène la destination au formulaire :
+  // personne ne devrait avoir à retaper le nom de la page qu'il est en train
+  // de lire.
+  const createHref = useProjectHref();
+
+  useEffect(() => {
+    if (theme !== "dark") return;
+    // Le hero sombre fait exactement une hauteur d'écran (`h-screen`) ; la
+    // bascule se fait un peu avant, pour que la barre ait fini sa transition
+    // quand le contenu clair arrive dessous.
+    const onScroll = () =>
+      setPastHero(window.scrollY > window.innerHeight - 96);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, [theme]);
+
+  useEffect(() => {
+    if (!hideOnScroll) {
+      setScrolled(window.scrollY > 4);
+      const onScroll = () => setScrolled(window.scrollY > 4);
+      window.addEventListener("scroll", onScroll, { passive: true });
+      return () => window.removeEventListener("scroll", onScroll);
+    }
+
+    const threshold = 8;
+    const onScroll = () => {
+      const y = window.scrollY;
+      const delta = y - lastY.current;
+
+      setScrolled(y > 4);
+
+      if (y <= 4) {
+        setHidden(false);
+      } else if (delta > threshold) {
+        setHidden(true);
+      } else if (delta < -threshold) {
+        setHidden(false);
+      }
+
+      lastY.current = y;
+    };
+
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [hideOnScroll]);
+
+  return (
+    <header
+      className={cn(
+        "fixed inset-x-0 top-0 z-50 w-full border-b border-border transition-[translate,background-color] duration-500 ease-in-out",
+        theme === "dark" && !pastHero && "dark text-foreground",
+        hidden ? "-translate-y-full" : "translate-y-0",
+        scrolled && !hidden
+          ? "bg-background-subtle/90 backdrop-blur"
+          : "bg-transparent",
+      )}
+    >
+      <div className="grid w-full grid-cols-3 items-center px-6 py-5">
+        <div className="flex items-center gap-6">
+          <Button
+            variant="ghost"
+            aria-label="Ouvrir le menu"
+            className="-ml-3 size-11 before:inset-0 md:hidden"
+            onClick={() => setMenuOpen(true)}
+          >
+            <Menu className="size-5" />
+          </Button>
+          <nav
+            aria-label="Primary"
+            className="hidden items-center gap-6 md:flex"
+          >
+            <Button
+              variant="ghost"
+              className="gap-2"
+              onClick={() => setMenuOpen(true)}
+            >
+              <Menu className="size-4" />
+              Menu
+            </Button>
+            <Button
+              variant="ghost"
+              className="gap-2"
+              onClick={() => setSearchOpen(true)}
+            >
+              <Search className="size-4" />
+              Rechercher
+            </Button>
+          </nav>
+        </div>
+
+        <div className="flex justify-center">
+          <Link href="/" aria-label="Exuma, accueil" className="flex">
+            <Logo className="h-6 w-auto md:h-7 lg:h-8" />
+          </Link>
+        </div>
+
+        <div className="flex items-center justify-end gap-6">
+          <Button
+            variant="ghost"
+            aria-label="Rechercher"
+            className="-mr-3 size-11 before:inset-0 md:hidden"
+            onClick={() => setSearchOpen(true)}
+          >
+            <Search className="size-5" />
+          </Button>
+          <Link
+            href="/nous-ecrire"
+            data-event-id="header-write"
+            className={cn(
+              buttonVariants({ variant: "ghost" }),
+              "hidden md:inline-flex",
+            )}
+          >
+            Contactez-nous
+          </Link>
+          <Link
+            href={createHref}
+            data-event-id="header-create"
+            className={cn(
+              buttonVariants({ variant: "secondary" }),
+              "hidden md:inline-flex",
+            )}
+          >
+            Créer votre voyage
+          </Link>
+        </div>
+      </div>
+      <SiteSearch nav={nav} open={searchOpen} onOpenChange={setSearchOpen} />
+      <MenuPanel nav={nav} open={menuOpen} onOpenChange={setMenuOpen} />
+    </header>
+  );
+}

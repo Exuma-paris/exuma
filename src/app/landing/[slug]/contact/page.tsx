@@ -1,6 +1,4 @@
-"use client";
-
-import { notFound, useParams } from "next/navigation";
+import { notFound } from "next/navigation";
 import { ContactFlow } from "@/components/contact/contact-flow";
 import { EXUMA_PHONE } from "@/lib/exuma";
 import { getDestinationSpecialist } from "@/lib/content/queries";
@@ -21,8 +19,14 @@ function buildTestimonial(slug: string, destinationName: string) {
   };
 }
 
-export default function ContactFlowPage() {
-  const { slug } = useParams<{ slug: string }>();
+// Page serveur : en composant client, elle envoyait tout le contenu du site au
+// navigateur pour n'en lire qu'une destination.
+export default async function ContactFlowPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
   const destination = destinations[slug];
 
   // 404 if the destination doesn't exist or doesn't have a contact funnel.

@@ -10,6 +10,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 import type { SectionMeta } from "@/lib/sections/meta-types";
+import { coverSizes } from "@/lib/image-sizes";
 
 export type Place = {
   title: string;
@@ -258,7 +259,7 @@ export function PlacesMapSection({
                         src={place.image.src}
                         alt={place.image.alt}
                         fill
-                        sizes="80px"
+                        sizes={coverSizes("80px", "aspect-square")}
                         className="object-cover"
                       />
                     </div>

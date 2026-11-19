@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
+import { coverSizes } from "@/lib/image-sizes";
 
 export type ImageTrioProps = {
   eyebrow?: string;
@@ -75,7 +76,7 @@ export function ImageTrioSection({
               src={img.src}
               alt={img.alt}
               fill
-              sizes="33vw"
+              sizes={coverSizes("33vw", "aspect-3/4")}
               className="object-cover"
             />
           </div>

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { projectHref } from "@/lib/contact/project-link";
+import { projectHref } from "@/lib/contact/project-path";
 
 /**
  * Lien vers « Créer votre voyage » qui emmène la destination lue. Sur

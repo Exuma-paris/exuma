@@ -6,6 +6,7 @@ import { TextBlock } from "@/components/blocks/text-block";
 import { ProgressBar } from "@/components/ui/progress-bar";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
+import { coverSizes } from "@/lib/image-sizes";
 
 export type GallerySectionProps = {
   heading: string;
@@ -50,7 +51,7 @@ function ImageTile({ image }: { image: { src: string; alt: string } }) {
         src={image.src}
         alt={image.alt}
         fill
-        sizes="(min-width: 768px) 33vw, 100vw"
+        sizes={coverSizes("(min-width: 768px) 33vw, 100vw", "aspect-square")}
         className="object-cover"
       />
     </div>

@@ -12,6 +12,7 @@ import {
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
+import { coverSizes } from "@/lib/image-sizes";
 
 export type FeatureCardsSectionProps = {
   eyebrow?: string;
@@ -267,7 +268,7 @@ export function FeatureCardsSection({
                         src={thumb.image.src}
                         alt={thumb.image.alt}
                         fill
-                        sizes="224px"
+                        sizes={coverSizes("224px", "aspect-3/2")}
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                         style={
                           thumb.image.position

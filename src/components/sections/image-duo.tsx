@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
+import { coverSizes } from "@/lib/image-sizes";
 
 export type ImageDuoSectionProps = {
   left: { src: string; alt: string };
@@ -22,7 +23,7 @@ export function ImageDuoSection({
             fill
             // flex-[2] of a full-width container: ≈60vw, not 50vw. Under-declaring
             // makes the browser upscale a too-small variant.
-            sizes="(min-width: 768px) 60vw, 66vw"
+            sizes={coverSizes("(min-width: 768px) 60vw, 66vw", "aspect-3/2")}
             className="object-cover"
           />
         </div>
@@ -32,7 +33,7 @@ export function ImageDuoSection({
             alt={right.alt}
             fill
             // flex-1 of the same container: ≈30vw, not 25vw.
-            sizes="(min-width: 768px) 30vw, 33vw"
+            sizes={coverSizes("(min-width: 768px) 30vw, 33vw", "aspect-3/4")}
             className="object-cover"
           />
         </div>
