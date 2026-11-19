@@ -7,6 +7,7 @@ import { PhoneCountrySelect } from "@/components/ui/phone-country-select";
 import {
   isValidEmail,
   isValidPhone,
+  PHONE_MIN_DIGITS,
   type ContactAnswer,
   type ContactQuestion,
 } from "@/lib/contact/types";
@@ -34,11 +35,11 @@ export function ContactQuestionView({
 
   const emailError =
     touched.email && value.email.trim() && !isValidEmail(value.email)
-      ? "Vérifiez l'adresse e-mail, elle semble incomplète."
+      ? "Vérifiez l'adresse e-mail : il faut un @ et une extension (.com, .fr…)."
       : undefined;
   const phoneError =
     touched.phone && value.phone.trim() && !isValidPhone(value.phone)
-      ? "Ce numéro semble trop court."
+      ? `Le numéro doit comporter au moins ${PHONE_MIN_DIGITS} chiffres.`
       : undefined;
 
   return (

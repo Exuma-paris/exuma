@@ -277,20 +277,23 @@ export function emptyAnswer(question: Question): Answer {
   }
 }
 
-const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+/**
+ * Un @, un nom de domaine, puis une extension d'au moins deux lettres (.com,
+ * .fr, .org, .paris…). Pas de liste fermée d'extensions : elle écarterait des
+ * adresses réelles en .ch, .io ou .travel.
+ */
+const EMAIL_REGEX = /^[^\s@]+@[^\s@.]+(\.[^\s@.]+)*\.[A-Za-z]{2,}$/;
 
 export function isValidEmail(email: string): boolean {
   return EMAIL_REGEX.test(email.trim());
 }
 
-/**
- * Six à quinze chiffres une fois les espaces, points et tirets retirés : assez
- * large pour un numéro étranger, assez strict pour écarter une frappe
- * incomplète.
- */
+/** Au moins dix chiffres (quinze au plus) une fois les espaces, points et tirets retirés. */
+export const PHONE_MIN_DIGITS = 10;
+
 export function isValidPhone(phone: string): boolean {
   const digits = phone.replace(/\D/g, "");
-  return digits.length >= 6 && digits.length <= 15;
+  return digits.length >= PHONE_MIN_DIGITS && digits.length <= 15;
 }
 
 export function isAnswered(question: Question, answer: Answer | undefined): boolean {

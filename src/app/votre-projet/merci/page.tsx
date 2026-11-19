@@ -23,7 +23,6 @@ export default function MerciPage() {
           phone: EXUMA_PHONE,
           statusOnline: true,
         }}
-        logoHref={null}
       />
 
       <section className="section-px mx-auto flex w-full max-w-layout flex-1 flex-col items-center justify-center py-20">
