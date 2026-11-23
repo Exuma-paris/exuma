@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/design-system"],
+        disallow: ["/design-system", "/eductour"],
       },
     ],
     sitemap: `${siteUrl}/sitemap.xml`,

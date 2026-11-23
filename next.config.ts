@@ -33,6 +33,18 @@ const nextConfig: NextConfig = {
     return legacyRedirects;
   },
 
+  // Les carnets d'éductour (exuma.paris/eductour/<destination>/<moisannée>)
+  // sont servis par une appli à part, le projet Vercel « todo-eductour ».
+  // Le site se contente de lui transmettre tout ce qui commence par /eductour :
+  // l'adresse reste sur exuma.paris, et chaque projet se met à jour seul.
+  async rewrites() {
+    const eductour = "https://todo-eductour.vercel.app";
+    return [
+      { source: "/eductour", destination: `${eductour}/eductour` },
+      { source: "/eductour/:path*", destination: `${eductour}/eductour/:path*` },
+    ];
+  },
+
   // En-têtes de sécurité de base, sur toutes les réponses. Vercel ne pose que
   // HSTS. La politique de contenu (CSP) n'est pas encore posée : elle doit
   // d'abord lister tout ce que charge GTM, sans quoi elle bloquerait la mesure.
