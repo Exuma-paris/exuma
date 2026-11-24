@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
 import { legacyRedirects } from "./redirects.mjs";
+import optimizedImagePaths from "./optimized-image-paths.json";
 
 const nextConfig: NextConfig = {
+  turbopack: { root: __dirname },
+  experimental: {
+    // Next 16.2 requires an opt-in to reuse compilation across production builds.
+    // Vercel restores .next/cache from the previous deployment.
+    turbopackFileSystemCacheForBuild: true,
+  },
   // En développement, le cache de compilation est écrit dans `.next-dev`.
   // Le projet vit dans un dossier Dropbox : Dropbox verrouille et resynchronise
   // `.next`, ce qui corrompt le cache et casse la génération du CSS.
@@ -30,7 +37,15 @@ const nextConfig: NextConfig = {
   // Les URL de l'ancien site WordPress (exuma.paris) redirigent en 301 vers la
   // page la plus proche du nouveau site. La liste vit dans `redirects.mjs`.
   async redirects() {
-    return legacyRedirects;
+    return [
+      ...legacyRedirects,
+      // Preserve existing image URLs, including those in cached pages and links.
+      ...Object.entries(optimizedImagePaths).map(([source, destination]) => ({
+        source,
+        destination,
+        permanent: true,
+      })),
+    ];
   },
 
   // Les carnets d'éductour (exuma.paris/eductour/<destination>/<moisannée>)

@@ -34,3 +34,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Deployment performance
+
+- Next.js 16.2's experimental `turbopackFileSystemCacheForBuild` reuses compilation
+  work between builds. Keep Vercel's build cache enabled. The first build populates
+  the cache; compare a subsequent content-only build to measure the benefit.
+- The largest PNG photographs (over 8 MB) have been converted to WebP at quality
+  96, matching the existing image generator. Their pixel dimensions are preserved.
+  `optimized-image-paths.json` maps their old URLs to the new files; Next.js serves
+  permanent redirects for existing links and cached pages. New source references
+  should use the WebP URL directly. Do not regenerate these photos as large PNGs.
+- Measure cloning, compilation, page generation and output deployment separately.
+  A build cache does not avoid cloning or transferring public assets. Vercel's Git
+  integration fetches recent history, so replaced binaries can still affect clone
+  time for several commits. Do not rewrite shared Git history to remove them.
+- All existing pages remain prerendered. Content lives in the repository, so text
+  edits still require a deployment; this patch does not introduce CMS revalidation.
+
+To check compilation caching locally, run `npm run build` twice without deleting
+`.next`. For an editorial-change check, edit a content file and build again. Verify
+the rendered text as well as the timings. On Vercel, compare successive deployments
+of the same branch with the build cache enabled, rather than a cold build alone.

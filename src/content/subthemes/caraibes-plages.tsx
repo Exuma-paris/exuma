@@ -67,7 +67,7 @@ export const subtheme: Subtheme = {
       // Même vue que la fiche, sans la dominante rose du ciel.
       slug: "panama",
       image: {
-        src: "/subtheme/caraibes-plages/card-panama.png",
+        src: "/subtheme/caraibes-plages/card-panama.webp",
         alt: "Îles de l'archipel de Guna Yala au Panama vues depuis la mer",
       },
     },

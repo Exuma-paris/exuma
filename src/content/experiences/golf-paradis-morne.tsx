@@ -7,7 +7,7 @@ export const experience: Experience = {
     "Le parcours s'étend entre la montagne et le lagon, sur la presqu'île du Morne. Un départ avant huit heures permet de jouer avant que l'alizé ne se lève. Le basalte tient encore l'ombre sur les premiers greens.",
   keywords: ["maurice", "golf", "le morne", "paradis", "presqu ile"],
   heroImage: {
-    src: "/destination/maurice/xp-golf-morne.png",
+    src: "/destination/maurice/xp-golf-morne.webp",
     alt: "Parcours de golf de la presqu'île du Morne au lever du jour, lagon et pitons au fond",
   },
   destinationSlugs: ["maurice"],

@@ -34,15 +34,15 @@ export const destination: Destination = {
         "Le matin, les toits de tuiles de Bukchon dépassent à peine des murs de pierre. Le soir, les néons de Jongno éclairent les mêmes ruelles. Séoul passe d'un monde à l'autre en quelques rues, et le reste du pays fait pareil.",
       images: [
         {
-          src: "/destination/coree-du-sud/hero-1.png",
+          src: "/destination/coree-du-sud/hero-1.webp",
           alt: "Voyage en Corée du Sud : les toits de tuiles du village de hanoks de Bukchon, à Séoul",
         },
         {
-          src: "/destination/coree-du-sud/hero-2.png",
+          src: "/destination/coree-du-sud/hero-2.webp",
           alt: "Pavillon de bois et étang de lotus du Jardin secret de Changdeokgung",
         },
         {
-          src: "/destination/coree-du-sud/hero-3.png",
+          src: "/destination/coree-du-sud/hero-3.webp",
           alt: "Plongeuses haenyeo remontant sur les rochers noirs de l'île de Jeju",
         },
       ],
@@ -97,7 +97,7 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/coree-du-sud/split-1.png",
+          src: "/destination/coree-du-sud/split-1.webp",
           alt: "Table coréenne couverte de banchan, avec la viande qui grille au centre",
         },
         {
@@ -111,11 +111,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/coree-du-sud/xp-coree-traditionnelle-1.png",
+          src: "/destination/coree-du-sud/xp-coree-traditionnelle-1.webp",
           alt: "Pavillon et étang du Jardin secret de Changdeokgung, à Séoul",
         },
         right: {
-          src: "/destination/coree-du-sud/xp-coree-traditionnelle-2.png",
+          src: "/destination/coree-du-sud/xp-coree-traditionnelle-2.webp",
           alt: "Femme en hanbok de soie dans la cour d'une maison traditionnelle coréenne",
         },
       },
@@ -263,7 +263,7 @@ export const destination: Destination = {
           description:
             "Un village de maisons de bois et de terre, toujours habité, installé dans une boucle de rivière. On y fabrique encore les masques peints utilisés pour les danses du village.",
           image: {
-            src: "/destination/coree-du-sud/map-andong.png",
+            src: "/destination/coree-du-sud/map-andong.webp",
             alt: "Maisons de terre et toits de chaume du village de Hahoe, près d'Andong",
           },
           // TODO: verify coords
@@ -296,7 +296,7 @@ export const destination: Destination = {
           description:
             "La deuxième ville du pays, construite entre la mer et les collines. Le marché aux poissons de Jagalchi ouvre à l'aube, et les maisons du quartier de Gamcheon sont peintes de toutes les couleurs.",
           image: {
-            src: "/destination/coree-du-sud/map-busan.png",
+            src: "/destination/coree-du-sud/map-busan.webp",
             alt: "Maisons colorées du quartier de Gamcheon dominant la mer, à Busan",
           },
           // TODO: verify coords
@@ -307,7 +307,7 @@ export const destination: Destination = {
           description:
             "Une île volcanique au sud du pays, dominée par le cratère du Hallasan. Les haenyeo, les plongeuses de l'île, y travaillent encore sans bouteille, et le poisson se mange à la sortie de l'eau.",
           image: {
-            src: "/destination/coree-du-sud/map-jeju.png",
+            src: "/destination/coree-du-sud/map-jeju.webp",
             alt: "Côte de roche volcanique noire et champs bordés de murets sur l'île de Jeju",
           },
           // TODO: verify coords
@@ -566,7 +566,7 @@ export const destination: Destination = {
           quote:
             "Nous sommes rentrés en parlant des repas. Le guide nous emmenait dans des salles où personne ne parlait anglais, il commandait pour nous, et il nous expliquait chaque bol avant qu'on y touche.",
           image: {
-            src: "/destination/coree-du-sud/hero-1.png",
+            src: "/destination/coree-du-sud/hero-1.webp",
             alt: "Voyage en Corée du Sud : les toits de tuiles du village de hanoks de Bukchon, à Séoul"
           },
           name: "Sixtine & Georges", // TODO: replace with real testimonial
@@ -577,7 +577,7 @@ export const destination: Destination = {
           quote:
             "Le Jardin secret avant l'ouverture, et ensuite la journée en hanbok. Notre fille a photographié la cour pendant des heures, et c'est elle qui a demandé qu'on prolonge l'après-midi.",
           image: {
-            src: "/destination/coree-du-sud/hero-2.png",
+            src: "/destination/coree-du-sud/hero-2.webp",
             alt: "Pavillon de bois et étang de lotus du Jardin secret de Changdeokgung"
           },
           name: "Yvette & Jean-Philippe", // TODO: replace with real testimonial
@@ -588,7 +588,7 @@ export const destination: Destination = {
           quote:
             "Séoul nous a tenus en haleine du matin au soir. Terminer par Jeju était le bon choix : on a marché, on a mangé du poisson à la sortie de l'eau, et on n'a rien eu à organiser pendant quatre jours.",
           image: {
-            src: "/destination/coree-du-sud/hero-3.png",
+            src: "/destination/coree-du-sud/hero-3.webp",
             alt: "Plongeuses haenyeo remontant sur les rochers noirs de l'île de Jeju"
           },
           name: "Annabelle & Arthur", // TODO: replace with real testimonial

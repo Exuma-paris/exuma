@@ -28,7 +28,7 @@ export const subtheme: Subtheme = {
       description:
         "Bamurru Plains se tient au bord des plaines du Kakadu, sans réseau mobile ni télévision. On y arrive par un petit vol depuis Darwin, et le camp ferme à la saison des pluies.",
       image: {
-        src: "/destination/australie/hotel-bamurru-plains.png",
+        src: "/destination/australie/hotel-bamurru-plains.webp",
         alt: "Terrasse de bois et petit bassin face aux plaines inondables, à Bamurru Plains",
       },
     },

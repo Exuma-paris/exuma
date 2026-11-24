@@ -98,7 +98,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/maurice/full-image.png",
+        src: "/destination/maurice/full-image.webp",
         alt: "Le Morne Brabant vu depuis le lagon, plage de sable blanc et eau transparente, île Maurice",
       },
       height: 600,
@@ -315,7 +315,7 @@ export const destination: Destination = {
           description:
             "Ces dunes de cendre volcanique décomposée présentent des teintes qui ne se mélangent jamais, même après la pluie. À proximité se trouvent une cascade et la plus ancienne rhumerie agricole de l'île.",
           image: {
-            src: "/destination/maurice/map-chamarel.png",
+            src: "/destination/maurice/map-chamarel.webp",
             alt: "Dunes rouges et violettes de la terre des sept couleurs à Chamarel",
           },
           coordinates: { lat: -20.4264, lng: 57.3736 }, // TODO: verify coords

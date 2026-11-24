@@ -106,7 +106,7 @@ export const destination: Destination = {
           alt: "Guide kenyan en tenue Masaï observant la faune à l'aube dans le Masaï Mara",
         },
         {
-          src: "/destination/kenya/split-2.png",
+          src: "/destination/kenya/split-2.webp",
           alt: "Lion au repos dans les herbes dorées du Masaï Mara au lever du soleil",
         },
       ],

@@ -34,15 +34,15 @@ export const destination: Destination = {
         "Des ruelles de Kyoto aux paysages d'Hokkaido, le Japon dévoile ses plus beaux secrets à ceux qui prennent le temps de le découvrir. Un maître sushi, un temple confidentiel, un ryokan d'exception : autant d'expériences exclusives que nous sélectionnons depuis plus de dix ans.",
       images: [
         {
-          src: "/destination/japon/hero-1.png",
+          src: "/destination/japon/hero-1.webp",
           alt: "Tokyo illuminé la nuit, vue depuis un gratte-ciel du quartier d'Otemachi, Japon",
         },
         {
-          src: "/destination/japon/hero-2.png",
+          src: "/destination/japon/hero-2.webp",
           alt: "Temple en bois du Kyoto historique entouré d'érables à l'automne, Japon",
         },
         {
-          src: "/destination/japon/hero-3.png",
+          src: "/destination/japon/hero-3.webp",
           alt: "Mont Fuji enneigé vu depuis les rives du lac Kawaguchiko, Japon",
         },
       ],
@@ -98,7 +98,7 @@ export const destination: Destination = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/japon/full-image.png",
+        src: "/destination/japon/full-image.webp",
         alt: "Tunnel de torii rouges du sanctuaire Fushimi Inari à Kyoto, Japon",
       },
       height: 600,
@@ -119,7 +119,7 @@ export const destination: Destination = {
           alt: "Deux lutteurs de sumo face à face sur la terre battue d'une écurie de Tokyo, Japon",
         },
         {
-          src: "/destination/japon/split-2.png",
+          src: "/destination/japon/split-2.webp",
           alt: "Maître de thé versant l'eau lors d'une cérémonie traditionnelle à Kyoto, Japon",
         },
       ],
@@ -129,11 +129,11 @@ export const destination: Destination = {
       type: "imageDuoWithText",
       duo: {
         left: {
-          src: "/destination/japon/xp-survol-fuji-1.png",
+          src: "/destination/japon/xp-survol-fuji-1.webp",
           alt: "Hélicoptère survolant le Mont Fuji au lever du soleil, Japon",
         },
         right: {
-          src: "/destination/japon/xp-survol-fuji-2.png",
+          src: "/destination/japon/xp-survol-fuji-2.webp",
           alt: "Vue aérienne du sommet enneigé du Mont Fuji depuis un hélicoptère privé",
         },
       },
@@ -572,7 +572,7 @@ export const destination: Destination = {
           quote:
             "Le Japon avec Exuma n'a rien eu d'un circuit organisé. La cérémonie du thé dans ce sous-temple de Kyoto, personne ne nous l'aurait ouverte seuls.",
           image: {
-            src: "/destination/japon/hero-1.png",
+            src: "/destination/japon/hero-1.webp",
             alt: "Tokyo illuminé la nuit, vue depuis un gratte-ciel du quartier d'Otemachi, Japon",
           },
           name: "Hélène-Marie & Marc-Olivier", // TODO: verify
@@ -583,7 +583,7 @@ export const destination: Destination = {
           quote:
             "Notre fils de seize ans qui ne voulait entendre parler que de jeux vidéo est reparti fasciné par un maître céramiste rencontré à Kanazawa. C'est rare, un voyage qui marque toute une famille comme ça.",
           image: {
-            src: "/destination/japon/hero-2.png",
+            src: "/destination/japon/hero-2.webp",
             alt: "Temple en bois du Kyoto historique entouré d'érables à l'automne, Japon",
           },
           name: "Gérard", // TODO: verify
@@ -594,7 +594,7 @@ export const destination: Destination = {
           quote:
             "Ce qui m'a frappée, c'est la précision. Chaque transfert, chaque réservation de table, chaque horaire de train : rien n'a jamais glissé d'une minute.",
           image: {
-            src: "/destination/japon/hero-3.png",
+            src: "/destination/japon/hero-3.webp",
             alt: "Mont Fuji enneigé vu depuis les rives du lac Kawaguchiko, Japon",
           },
           name: "Prune", // TODO: verify

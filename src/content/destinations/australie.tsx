@@ -95,11 +95,11 @@ export const destination: Destination = {
       ],
       images: [
         {
-          src: "/destination/australie/split-1.png",
+          src: "/destination/australie/split-1.webp",
           alt: "Rangées de vignes sur les collines d'un vignoble du sud de l'Australie, en fin de journée",
         },
         {
-          src: "/destination/australie/split-2.png",
+          src: "/destination/australie/split-2.webp",
           alt: "Huîtres fraîchement ouvertes servies sur un ponton de bois, côte sud australienne",
         },
       ],
@@ -261,7 +261,7 @@ export const destination: Destination = {
           description:
             "Une île de la taille de la Corse, au large d'Adélaïde, où un tiers du territoire est protégé. Lions de mer sur les plages, koalas dans les eucalyptus, kangourous au crépuscule : la faune se voit sans jumelles et sans attendre.",
           image: {
-            src: "/destination/australie/map-kangaroo-island.png",
+            src: "/destination/australie/map-kangaroo-island.webp",
             alt: "Colonie de lions de mer sur une plage de Kangaroo Island, en Australie-Méridionale",
           },
           // TODO: verify coords
@@ -294,7 +294,7 @@ export const destination: Destination = {
           description:
             "Vingt mille kilomètres carrés de parc national, et des plaines qui s'inondent chaque saison humide avant de sécher. Les oiseaux s'y comptent par milliers, les crocodiles marins se croisent en airboat, et l'art rupestre couvre les abris de grès.",
           image: {
-            src: "/destination/australie/map-kakadu.png",
+            src: "/destination/australie/map-kakadu.webp",
             alt: "Plaines inondables de la Mary River aux portes du parc national de Kakadu",
           },
           // TODO: verify coords
