@@ -43,7 +43,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - The largest PNG photographs (over 8 MB) have been converted to WebP at quality
   96, matching the existing image generator. Their pixel dimensions are preserved.
   `optimized-image-paths.json` maps their old URLs to the new files; Next.js serves
-  permanent redirects for existing links and cached pages. New source references
+  internal rewrites for existing links, cached pages and image optimizer URLs. New source references
   should use the WebP URL directly. Do not regenerate these photos as large PNGs.
 - Measure cloning, compilation, page generation and output deployment separately.
   A build cache does not avoid cloning or transferring public assets. Vercel's Git
@@ -56,3 +56,6 @@ To check compilation caching locally, run `npm run build` twice without deleting
 `.next`. For an editorial-change check, edit a content file and build again. Verify
 the rendered text as well as the timings. On Vercel, compare successive deployments
 of the same branch with the build cache enabled, rather than a cold build alone.
+
+With the production server running, check compatibility of the replaced images:
+`node scripts/check-optimized-images.mjs http://localhost:3000`.

@@ -37,15 +37,7 @@ const nextConfig: NextConfig = {
   // Les URL de l'ancien site WordPress (exuma.paris) redirigent en 301 vers la
   // page la plus proche du nouveau site. La liste vit dans `redirects.mjs`.
   async redirects() {
-    return [
-      ...legacyRedirects,
-      // Preserve existing image URLs, including those in cached pages and links.
-      ...Object.entries(optimizedImagePaths).map(([source, destination]) => ({
-        source,
-        destination,
-        permanent: true,
-      })),
-    ];
+    return legacyRedirects;
   },
 
   // Les carnets d'éductour (exuma.paris/eductour/<destination>/<moisannée>)
@@ -55,6 +47,12 @@ const nextConfig: NextConfig = {
   async rewrites() {
     const eductour = "https://todo-eductour.vercel.app";
     return [
+      // Internal aliases also work for old next/image URLs in cached pages.
+      // Redirects are not followed by Next's internal image optimizer.
+      ...Object.entries(optimizedImagePaths).map(([source, destination]) => ({
+        source,
+        destination,
+      })),
       { source: "/eductour", destination: `${eductour}/eductour` },
       { source: "/eductour/:path*", destination: `${eductour}/eductour/:path*` },
     ];
