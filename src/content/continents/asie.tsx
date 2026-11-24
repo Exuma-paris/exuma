@@ -15,7 +15,7 @@ export const continent: Continent = {
         "Temples ouverts avant l'arrivée du public, ryokans de huit chambres, traversées en voilier traditionnel. En Asie, l'accès compte autant que le lieu, et il se prépare longtemps à l'avance.",
       images: [
         {
-          src: "/destination/japon/hero-3.png",
+          src: "/destination/japon/hero-3.webp",
           alt: "Mont Fuji enneigé vu depuis les rives du lac Kawaguchiko, Japon",
         },
         {
@@ -45,7 +45,7 @@ export const continent: Continent = {
     {
       type: "fullImage",
       image: {
-        src: "/destination/japon/full-image.png",
+        src: "/destination/japon/full-image.webp",
         alt: "Tunnel de torii rouges du sanctuaire Fushimi Inari à Kyoto, Japon",
       },
       height: 560,
@@ -64,7 +64,7 @@ export const continent: Continent = {
           description:
             "Les cerisiers fleurissent à Tokyo, puis à Kyoto quelques jours plus tard. La date varie chaque année.",
           image: {
-            src: "/destination/japon/hero-3.png",
+            src: "/destination/japon/hero-3.webp",
             alt: "Le mont Fuji derrière un lac, encadré de cerisiers en fleurs",
           },
           link: { label: "Japon", href: "/destinations/japon" },

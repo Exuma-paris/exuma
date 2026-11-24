@@ -7,7 +7,7 @@ export const accommodation: Accommodation = {
     "La plus ancienne grande maison de l'île se trouve à Grand Baie, face à une plage privée que le récif garde calme. L'établissement ne propose que des suites. Son service se transmet ici depuis deux générations.",
   keywords: ["maurice", "royal palm", "grand baie", "suites", "plage privee"],
   heroImage: {
-    src: "/destination/maurice/hotel-royal-palm.png",
+    src: "/destination/maurice/hotel-royal-palm.webp",
     alt: "Plage privée et parasols de vacoas du Royal Palm sur le lagon de Grand Baie",
   },
   destinationSlugs: ["maurice"],

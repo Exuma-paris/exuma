@@ -207,7 +207,7 @@ export const sections: Section[] = [
         description:
           "Les plus beaux souvenirs de famille se construisent, avec soin, en pensant à chaque personne du groupe. Ce travail, vous le portez depuis des années pour tout le monde. Exuma le prend à sa charge, et vous voilà enfin en vacances au même titre que les autres.",
         image: {
-          src: "/home-hero.png",
+          src: "/home-hero.webp",
           alt: "Une famille au-dessus d'une mer de nuages, sur un belvédère",
         },
         link: { label: "Confiez-nous votre projet", href: "/votre-projet" },

@@ -34,7 +34,7 @@ export const destination: Destination = {
         "Traversez l'île du sud au nord. Funchal d'abord, ses jardins et ses caves à vin. Puis le sable noir et les piscines de lave que l'Atlantique remplit à chaque marée. Entre les deux, des sommets que la brume ne quitte qu'en milieu de matinée.",
       images: [
         {
-          src: "/destination/madere/hero-1.png",
+          src: "/destination/madere/hero-1.webp",
           alt: "Sommets volcaniques de Madère au-dessus d'une mer de nuages au lever du jour",
         },
         {
@@ -529,7 +529,7 @@ export const destination: Destination = {
           quote:
             "Nous sommes partis pour marcher. Nous avons eu Fanal à sept heures du matin, seuls dans la brume. Ma femme n'a rien dit pendant vingt minutes. C'est le moment dont nous reparlons encore.",
           image: {
-            src: "/destination/madere/hero-1.png",
+            src: "/destination/madere/hero-1.webp",
             alt: "Sommets volcaniques de Madère au-dessus d'une mer de nuages au lever du jour",
           },
           name: "Hector", // TODO: verify

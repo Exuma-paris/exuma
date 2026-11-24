@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
 import { legacyRedirects } from "./redirects.mjs";
+import optimizedImagePaths from "./optimized-image-paths.json";
 
 const nextConfig: NextConfig = {
+  turbopack: { root: __dirname },
+  experimental: {
+    // Next 16.2 requires an opt-in to reuse compilation across production builds.
+    // Vercel restores .next/cache from the previous deployment.
+    turbopackFileSystemCacheForBuild: true,
+  },
   // En développement, le cache de compilation est écrit dans `.next-dev`.
   // Le projet vit dans un dossier Dropbox : Dropbox verrouille et resynchronise
   // `.next`, ce qui corrompt le cache et casse la génération du CSS.
@@ -40,6 +47,12 @@ const nextConfig: NextConfig = {
   async rewrites() {
     const eductour = "https://todo-eductour.vercel.app";
     return [
+      // Internal aliases also work for old next/image URLs in cached pages.
+      // Redirects are not followed by Next's internal image optimizer.
+      ...Object.entries(optimizedImagePaths).map(([source, destination]) => ({
+        source,
+        destination,
+      })),
       { source: "/eductour", destination: `${eductour}/eductour` },
       { source: "/eductour/:path*", destination: `${eductour}/eductour/:path*` },
     ];

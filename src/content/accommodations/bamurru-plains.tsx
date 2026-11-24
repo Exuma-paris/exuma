@@ -14,7 +14,7 @@ export const accommodation: Accommodation = {
     "safari australien",
   ],
   heroImage: {
-    src: "/destination/australie/hotel-bamurru-plains.png",
+    src: "/destination/australie/hotel-bamurru-plains.webp",
     alt: "Bungalow sur pilotis de Bamurru Plains ouvert sur les plaines inondables du Kakadu",
   },
   destinationSlugs: ["australie"],

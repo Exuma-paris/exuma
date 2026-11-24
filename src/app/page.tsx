@@ -69,7 +69,7 @@ export default function Home() {
             // pas changer la première image du site.
             images={[
               {
-                src: "/home-hero.png",
+                src: "/home-hero.webp",
                 alt: "Une famille sur un promontoire de Madère, au-dessus d'une mer de nuages",
               },
             ]}
