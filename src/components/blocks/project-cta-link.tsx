@@ -26,6 +26,13 @@ const HOUSE_PAGES = /^\/(approche|a-propos|services)(\/|$)/;
 function useProjectCta(): { label: string; href: string } {
   const pathname = usePathname() ?? "";
   const href = useProjectHref();
+  // Le Private Office a son propre formulaire, qui sert de premier brief.
+  if (/^\/private-office(\/|$)/.test(pathname)) {
+    return {
+      label: "Parler de votre Private Office",
+      href: "/private-office/contact",
+    };
+  }
   if (/^\/professionnels(\/|$)/.test(pathname)) {
     return {
       label: "Confiez-nous vos déplacements",

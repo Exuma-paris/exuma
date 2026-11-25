@@ -47,8 +47,9 @@ export default function ApprochePage() {
       </div>
       {rest.map((section, i) =>
         // L'empreinte de la marque occupe la colonne laissée libre par les
-        // deux paragraphes de « Notre métier ».
-        section.type === "textColumns" ? (
+        // deux paragraphes de « Notre métier ». Le triptyque qui suit remplit
+        // ses trois colonnes : il s'en passe.
+        section.type === "textColumns" && section.columns.length === 2 ? (
           <div key={i + 1} className="relative overflow-hidden">
             {renderSection(section, String(i + 1))}
             <Fingerprint />

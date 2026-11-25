@@ -4,6 +4,10 @@ import type { SectionMeta } from "@/lib/sections/meta-types";
 export type FullImageSectionProps = {
   image: { src: string; alt: string; position?: string };
   height?: number;
+  /** Proportions de la bande (« 1024 / 375 »). Remplace `height` : la bande
+   * suit la largeur de l'écran et l'image n'est jamais recadrée. Pour une
+   * photo déjà recadrée au plus juste, quand rien ne doit sortir du cadre. */
+  aspectRatio?: string;
 };
 
 export const fullImageMeta = {
@@ -21,11 +25,12 @@ export const fullImageMeta = {
 export function FullImageSection({
   image,
   height = 600,
+  aspectRatio,
 }: FullImageSectionProps) {
   return (
     <section
       className="relative w-full overflow-hidden bg-muted"
-      style={{ height: `${height}px` }}
+      style={aspectRatio ? { aspectRatio } : { height: `${height}px` }}
     >
       <Image
         src={image.src}

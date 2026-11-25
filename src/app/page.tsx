@@ -43,9 +43,9 @@ export default function Home() {
   const bg = {
     recommended: rhythm.next(),
     finder: rhythm.next(),
+    themes: rhythm.next(),
     metier: rhythm.next(),
     services: rhythm.next(),
-    themes: rhythm.next(),
     video: rhythm.next(),
     designers: rhythm.next(),
     faq: rhythm.next(),
@@ -132,19 +132,31 @@ export default function Home() {
             <DestinationFinder entries={finderEntries} />
           </section>
         </div>
+        {/* Juste sous les destinations : le chemin « voyage » se lit d'un
+            trait (où partir, puis par envie) avant de passer à la maison. */}
+        <FeatureCardsSection
+          background={bg.themes}
+          eyebrow="Expériences"
+          heading="Par envie plutôt que par destination"
+          cta={{ label: "Confiez-nous votre projet", href: "/votre-projet" }}
+          cards={getThemeCards()}
+        />
         {/* Le visiteur vient de voir qu'on peut l'emmener où il veut : ce bloc
-            lui dit pourquoi nous confier cela plutôt qu'à une agence. Deux
-            colonnes seulement : l'empreinte de la marque occupe la troisième,
-            comme sur Pourquoi Exuma. */}
+            lui dit pourquoi nous confier cela plutôt qu'à une agence. Trois
+            colonnes, une par terme du triptyque Exception, Excellence,
+            Expérience ; chacune tient ensemble le déplacement professionnel
+            et le voyage de loisir. L'empreinte reste en fond, en bas à droite. */}
         <div className="relative overflow-hidden [&_h2]:text-balance">
           <TextColumnsSection
             background={bg.metier}
             eyebrow="Notre conviction"
-            heading="Quand tout se passe bien, vous ne pensez pas à nous."
+            heading="L'empreinte de l'excellence."
+            brandEx
             cta={{ label: "Pourquoi Exuma", href: "/approche" }}
             columns={[
-              "**Un aller-retour en train compte autant qu'un tour du monde.** Nous sommes une maison de conseils privée : nous prenons en charge vos déplacements, entièrement et durablement. Votre interlocuteur de référence, toujours le même, connaît vos habitudes, vos contraintes, vos silences, et ce que vous nous confiez reste entre nous.",
-              "**Nous disons non quand c'est la bonne réponse.** Nous proposons ce qui vous correspond, pas ce qui est attendu, et nous vous disons franchement quand d'autres sont mieux placés que nous. Un partenaire qui dit oui à tout n'est pas un partenaire, c'est un fournisseur.",
+              "**Exception.** Maison de conseils privée, nous traitons chaque demande comme si elle était la seule : un rendez-vous à Genève à organiser pour demain matin, une table que l'on dit complète, un voyage composé à partir de vos envies plutôt que d'un catalogue. Ce que vous nous confiez reste entre nous.",
+              "**Excellence.** Depuis 1991, tout commence par l'attention : écouter, retenir, anticiper. Votre conseiller, toujours le même, prend en charge vos déplacements entièrement, d'un aller-retour en train à un tour du monde, et les suit jusqu'à votre retour.",
+              "**Expérience.** Un chauffeur au pied de l'avion, le fast track, un salon qui vous attend : rien ne vient troubler votre agenda. Puis vient le temps du voyage : une felouque sur le Nil au coucher du soleil, Pétra avant les premiers visiteurs. Un déplacement réussi passe inaperçu ; un voyage Exuma se raconte longtemps après.",
             ]}
           />
           <Fingerprint />
@@ -160,21 +172,23 @@ export default function Home() {
           // a bright image is unreadable.
           cards={getServiceCategoryCards()}
         />
-        {/* Seul bloc foncé de l'accueil, comme l'encart du menu : l'offre
-            professionnelle est un autre public, présenté à égalité avec la
-            conciergerie, juste après elle. Hors rythme des fonds clairs. */}
+        {/* Seul bloc foncé de l'accueil : la porte de ceux qui délèguent.
+            Deux paragraphes, deux boutons de même poids, un par public :
+            les entreprises vers l'espace professionnels, les dirigeants,
+            familles et family offices vers le Private Office. Hors rythme
+            des fonds clairs. */}
         <TextImagesSplitSection
           theme="dark"
-          eyebrow="Entreprises · Family offices"
-          heading="Vos collaborateurs, vos clients : un seul interlocuteur pour leurs déplacements"
+          eyebrow="Entreprises · Private Office"
+          heading="Vous déléguez, nous portons la charge"
           paragraphs={[
             {
               label: "Entreprises et cabinets",
               text: "Un référent désigné organise les déplacements de vos collaborateurs dans le respect de votre politique voyages, et vos voyageurs le joignent directement. Une facture unique et un reporting mensuel vous donnent une lecture claire de la dépense.",
             },
             {
-              label: "Family offices",
-              text: "Nous prenons en charge les déplacements de vos clients, du transfert à l'hôtel, avec un niveau d'exigence constant. Leurs habitudes sont connues de l'équipe qui les suit, leurs informations ne sortent pas de nos bureaux.",
+              label: "Private Office",
+              text: "Pour vous, votre famille, votre family office ou vos associés : un personal assistant dédié et son binôme connaissent votre vie dans ses moindres détails. Ils anticipent, coordonnent, et toute la charge mentale passe chez nous.",
             },
           ]}
           images={[
@@ -183,21 +197,12 @@ export default function Home() {
               alt: "Un conseiller Exuma à son poste de travail, dans les bureaux d'Exuma",
             },
             {
-              src: "/professionnels/family-offices/temoignage-conseillers.jpg",
-              alt: "Deux conseillères Exuma en ligne avec des voyageurs",
+              src: "/service/pourquoi-exuma/couple-diner.png",
+              alt: "Un couple dîne dans un restaurant lumineux face à Notre-Dame de Paris",
             },
           ]}
-          cta={{
-            label: "Découvrir l'offre professionnelle",
-            href: "/professionnels",
-          }}
-        />
-        <FeatureCardsSection
-          background={bg.themes}
-          eyebrow="Expériences"
-          heading="Par envie plutôt que par destination"
-          cta={{ label: "Confiez-nous votre projet", href: "/votre-projet" }}
-          cards={getThemeCards()}
+          cta={{ label: "L'offre entreprises", href: "/professionnels" }}
+          secondaryCta={{ label: "Le Private Office", href: "/private-office" }}
         />
         <VideoSection
           // Le surtitre légende la vidéo du moment, le titre parle de la

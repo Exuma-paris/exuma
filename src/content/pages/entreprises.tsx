@@ -432,6 +432,37 @@ export const sections: Section[] = [
   },
 
   {
+    // Pont vers le Private Office : pour le client corporate qui veut aller
+    // plus loin, pour un dirigeant, ses associés ou sa vie privée. Placé après
+    // les témoignages, quand le socle est acquis.
+    type: "textImagesSplit",
+    eyebrow: "Aller plus loin",
+    heading: "Et si vos dirigeants n'avaient plus rien à demander ?",
+    paragraphs: [
+      {
+        label: "Le Private Office",
+        text: "Pour un dirigeant, ses associés ou sa famille, un personal assistant dédié et son binôme prennent en charge les déplacements, la conciergerie et la vie privée. Ils anticipent ce qui n'a pas encore été demandé.",
+      },
+      {
+        label: "Sans changer d'interlocuteur",
+        text: "Votre référent actuel peut devenir le personal assistant de vos dirigeants. La partie professionnelle et la partie privée sont facturées séparément.",
+      },
+    ],
+    images: [
+      {
+        // La relation de confiance : une conseillère en ligne, qui sourit.
+        // Déjà utilisée plus haut sur la page (« La dépense sort de la
+        // politique voyages ») : à remplacer par une autre prise de vue.
+        src: "/professionnels/entreprises/conseillere-en-ligne.jpg",
+        alt: "Une conseillère Exuma en ligne, casque sur les oreilles, qui sourit",
+      },
+    ],
+    cta: { label: "Découvrir le Private Office", href: "/private-office" },
+    ctaAlign: "end",
+    imageFitsText: true,
+  },
+
+  {
     type: "faq",
     background: "bg-background-soft",
     eyebrow: "Questions pratiques",

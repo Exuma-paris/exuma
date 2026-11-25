@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { TextBlock } from "@/components/blocks/text-block";
+import { BrandEx } from "@/components/ui/brand-ex";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import type { SectionMeta } from "@/lib/sections/meta-types";
@@ -9,6 +10,9 @@ export type TextColumnsSectionProps = {
   heading: string;
   cta?: { label: string; href: string };
   columns: string[];
+  /** Les passages en gras qui commencent par « Ex » prennent le « ex » du
+   * logo (triptyque Exception, Excellence, Expérience de l'accueil). */
+  brandEx?: boolean;
   background?: string;
 };
 
@@ -42,11 +46,18 @@ export const textColumnsMeta = {
 
 /** Met en gras les passages entourés de `**`. La colonne reste une chaîne
  * simple dans le contenu, donc sérialisable telle quelle vers Sanity. */
-function renderEmphasis(text: string) {
+function renderEmphasis(text: string, brandEx = false) {
   return text.split(/\*\*(.+?)\*\*/g).map((part, i) =>
     i % 2 === 1 ? (
       <strong key={i} className="font-medium text-foreground">
-        {part}
+        {brandEx && part.startsWith("Ex") ? (
+          <>
+            <BrandEx />
+            {part.slice(2)}
+          </>
+        ) : (
+          part
+        )}
       </strong>
     ) : (
       part
@@ -59,6 +70,7 @@ export function TextColumnsSection({
   heading,
   cta,
   columns,
+  brandEx,
   background,
 }: TextColumnsSectionProps) {
   return (
@@ -84,7 +96,7 @@ export function TextColumnsSection({
         <div className="grid gap-6 md:grid-cols-3">
           {columns.map((text, i) => (
             <p key={i} className="text-secondary-foreground">
-              {renderEmphasis(text)}
+              {renderEmphasis(text, brandEx)}
             </p>
           ))}
         </div>

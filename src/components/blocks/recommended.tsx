@@ -22,6 +22,12 @@ const defaultLogos: Logo[] = [
     height: 48,
   },
   {
+    src: "/logos/logo-serendipians.png",
+    alt: "Serendipians by Traveller Made",
+    width: 160,
+    height: 48,
+  },
+  {
     src: "/logos/logo-iata.png",
     alt: "IATA",
     width: 96,
@@ -32,7 +38,7 @@ const defaultLogos: Logo[] = [
 export function Recommended({
   // Not "recommandée par" : none of these bodies recommends anyone. Les
   // Entreprises du Voyage is a federation we belong to, Takumians a network,
-  // IATA an accreditation. Naming the relationship correctly is also the
+  // Serendipians another network, IATA an accreditation. Naming the relationship correctly is also the
   // stronger claim, since it is a verifiable one.
   title = "Membre et accrédité",
   logos = defaultLogos,

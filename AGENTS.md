@@ -74,7 +74,7 @@ When asked to build or edit a page, lead with the existing sections — surface 
 | `infoGrid` | Icon + title + description grid (practical info) |
 | `tips` | Clickable tip cards that open a modal with rich content |
 | `testimonials` | Quote cards with author photo/role |
-| `spotsList` | Simple titled list of spots/highlights |
+| `spotsList` | Simple titled list of spots/highlights; `layout: "timeline"` turns 4 to 6 short moments into a horizontal timeline |
 | `islandLinks` | Labelled link list for cross-navigation |
 | `imageTrio` | Three-image band with optional heading/description |
 | `finalCta` | Closing CTA band (primary + optional secondary) |
@@ -84,6 +84,7 @@ When asked to build or edit a page, lead with the existing sections — surface 
 | `gallery` | Auto-scrolling image gallery |
 | `featureShowcase` | Alternating feature items (image + rich detail) |
 | `featureRows` | 3 to 6 standalone rows (image + title + paragraphs), all readable without interaction; image side and crop alternate |
+| `comparison` | Two offers side by side, one row per criterion, the featured offer highlighted (what a higher tier adds) |
 
 Keep this table in sync with the `Section` union — they must always match.
 

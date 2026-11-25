@@ -321,14 +321,14 @@ export const sections: Section[] = [
         link: { label: "Confiez-nous votre projet", href: "/votre-projet" },
       },
       {
-        title: "La conciergerie",
+        title: "La conciergerie et le Private Office",
         description:
-          "Tout ce qui entoure un déplacement : les demandes de dernière minute, les accès, les imprévus réglés avant qu'ils ne deviennent les vôtres.",
+          "Tout ce qui entoure un déplacement, les demandes de dernière minute et les imprévus. Et pour ceux qui veulent tout déléguer, un personal assistant dédié.",
         image: {
           src: "/service/conciergerie/hero-1.png",
           alt: "Une clé de chambre remise à la réception d'un hôtel",
         },
-        link: { label: "La conciergerie", href: "/services/conciergerie" },
+        link: { label: "Le Private Office", href: "/private-office" },
       },
       {
         title: "Les déplacements professionnels",
