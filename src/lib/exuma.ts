@@ -21,7 +21,7 @@ export const EXUMA_LEGAL = {
   siren: "383 919 669",
   siret: "383 919 669 00036",
   vat: "FR31383919669",
-  atoutFrance: "IM75110295",
+  atoutFrance: "IM075110295",
   publicationDirector: "Loïc Gaudissard",
 } as const;
 
