@@ -117,8 +117,8 @@ export const sections: Section[] = [
   {
     // Organisation par pôles transmise par la direction (octobre 2026), cartes
     // rangées dans cet ordre. Les personnes sans portrait ont le fauteuil vide
-    // (`portrait-attente.png`) en attendant la séance photo. Sous le nom,
-    // seulement le poste.
+    // (`portrait-attente.png`) en attendant la séance photo. Prénom seul, sans
+    // nom de famille (décision novembre 2026), puis seulement le poste.
     type: "featureCards",
     eyebrow: "Qui fait le travail",
     heading: "Une équipe organisée en pôles, un interlocuteur pour chaque client",
@@ -126,165 +126,159 @@ export const sections: Section[] = [
       "Chaque client a son référent. Derrière lui, une équipe où chacun a son métier, et où un dossier passe d'un pôle à l'autre sans rien perdre en chemin.",
     cards: [
       {
-        title: "Ludivine Gaudissard",
+        title: "Ludivine",
         description:
           "Directrice",
         image: {
           src: "/collaborateurs/ludivine-chair-hd.jpg",
-          alt: "Portrait de Ludivine Gaudissard, Exuma",
+          alt: "Portrait de Ludivine, Exuma",
         },
       },
       {
-        // TODO : portrait et nom complet à venir.
+        // TODO : portrait à venir.
         title: "Isabelle",
         description:
           "Responsable du pôle loisir et conciergerie",
         image: {
           src: "/collaborateurs/portrait-attente.png",
-          alt: "Portrait à venir de Isabelle",
+          alt: "Portrait à venir d'Isabelle",
         },
       },
       {
-        title: "Carole Galvier",
+        // Remplace Stéphane Lasnier sur demande (novembre 2026).
+        title: "Séverine",
         description:
-          "Luxury Travel Designer",
+          "Conciergerie et Luxury Travel Designer",
         image: {
-          src: "/collaborateurs/carole-chair-hd.jpg",
-          alt: "Portrait de Carole Galvier, Exuma",
+          src: "/collaborateurs/severine-chair-hd.jpg",
+          alt: "Portrait de Séverine, Exuma",
         },
       },
       {
-        title: "Stéphane Lasnier",
-        description:
-          "Luxury Travel Designer",
-        image: {
-          src: "/collaborateurs/stephane-chair-hd.jpg",
-          alt: "Portrait de Stéphane Lasnier, Exuma",
-        },
-      },
-      {
-        title: "Tainà Dos Santos Papaleo",
-        description:
-          "Luxury Travel Designer",
-        image: {
-          src: "/collaborateurs/taina-chair-hd.jpg",
-          alt: "Portrait de Tainà Dos Santos Papaleo, Exuma",
-        },
-      },
-      {
-        // TODO : portrait et nom complet à venir.
-        title: "Clara Cochet",
-        description:
-          "Travel Designer",
-        image: {
-          src: "/collaborateurs/portrait-attente.png",
-          alt: "Portrait à venir de Clara Cochet",
-        },
-      },
-      {
-        // TODO : nom complet à venir.
-        title: "Hélène",
-        description:
-          "Travel Designer",
-        image: {
-          src: "/collaborateurs/helene-chair-hd.jpg",
-          alt: "Portrait de Hélène, Exuma",
-        },
-      },
-      {
-        // TODO : portrait et nom complet à venir.
-        title: "Caroline",
-        description:
-          "Expertise produit",
-        image: {
-          src: "/collaborateurs/portrait-attente.png",
-          alt: "Portrait à venir de Caroline",
-        },
-      },
-      {
-        // TODO : portrait et nom complet à venir.
-        title: "Gaëlle",
-        description:
-          "Responsable du pôle conciergerie et corporate",
-        image: {
-          src: "/collaborateurs/portrait-attente.png",
-          alt: "Portrait à venir de Gaëlle",
-        },
-      },
-      {
-        title: "Cécile Borruto",
+        title: "Cécile",
         description:
           "Conciergerie et grands comptes",
         image: {
           src: "/collaborateurs/cecile-chair-hd.jpg",
-          alt: "Portrait de Cécile Borruto, Exuma",
+          alt: "Portrait de Cécile, Exuma",
         },
       },
       {
-        title: "Calvin Nguyen",
+        title: "Carole",
+        description:
+          "Luxury Travel Designer",
+        image: {
+          src: "/collaborateurs/carole-chair-hd.jpg",
+          alt: "Portrait de Carole, Exuma",
+        },
+      },
+      {
+        title: "Tainà",
+        description:
+          "Luxury Travel Designer",
+        image: {
+          src: "/collaborateurs/taina-chair-hd.jpg",
+          alt: "Portrait de Tainà, Exuma",
+        },
+      },
+      {
+        title: "Hélène",
+        description:
+          "Responsable Back Office",
+        image: {
+          src: "/collaborateurs/helene-chair-hd.jpg",
+          alt: "Portrait d'Hélène, Exuma",
+        },
+      },
+      {
+        // Initiale gardée pour distinguer les deux Clara.
+        title: "Clara C.",
+        description:
+          "Assistante Travel Designer",
+        image: {
+          src: "/collaborateurs/clara-cochet-chair-hd.jpg",
+          alt: "Portrait de Clara C., Exuma",
+        },
+      },
+      {
+        title: "Clara S.",
+        description:
+          "Assistante Travel Designer",
+        image: {
+          src: "/collaborateurs/clara-scalisi-chair-hd.jpg",
+          alt: "Portrait de Clara S., Exuma",
+        },
+      },
+      {
+        title: "Caroline",
+        description:
+          "Expertise produit",
+        image: {
+          src: "/collaborateurs/caroline-chair-hd.jpg",
+          alt: "Portrait de Caroline, Exuma",
+        },
+      },
+      {
+        title: "Gaëlle",
+        description:
+          "Responsable du pôle corporate et VIP",
+        image: {
+          src: "/collaborateurs/gaelle-chair-hd.jpg",
+          alt: "Portrait de Gaëlle, Exuma",
+        },
+      },
+      {
+        title: "Calvin",
         description:
           "Conciergerie et grands comptes",
         image: {
           src: "/collaborateurs/calvin-chair-hd.jpg",
-          alt: "Portrait de Calvin Nguyen, Exuma",
+          alt: "Portrait de Calvin, Exuma",
         },
       },
       {
-        // TODO : portrait et nom complet à venir.
-        title: "Clara S.",
+        title: "Valéry",
         description:
           "Conciergerie et grands comptes",
         image: {
-          src: "/collaborateurs/portrait-attente.png",
-          alt: "Portrait à venir de Clara S.",
+          src: "/collaborateurs/valery-chair-hd.jpg",
+          alt: "Portrait de Valéry, Exuma",
         },
       },
       {
-        title: "Rania Kahla",
+        title: "Rania",
         description:
           "Clientèle corporate",
         image: {
           src: "/collaborateurs/rania-chair-hd.jpg",
-          alt: "Portrait de Rania Kahla, Exuma",
+          alt: "Portrait de Rania, Exuma",
         },
       },
       {
-        // TODO : portrait et nom complet à venir.
         title: "Marjorie",
         description:
           "Clientèle corporate",
         image: {
-          src: "/collaborateurs/portrait-attente.png",
-          alt: "Portrait à venir de Marjorie",
+          src: "/collaborateurs/marjorie-chair-hd.jpg",
+          alt: "Portrait de Marjorie, Exuma",
         },
       },
       {
-        title: "Blanche Dupenloux",
+        title: "Blanche",
         description:
           "Séminaires et groupes",
         image: {
           src: "/collaborateurs/blanche-chair-hd.jpg",
-          alt: "Portrait de Blanche Dupenloux, Exuma",
+          alt: "Portrait de Blanche, Exuma",
         },
       },
       {
-        // TODO : portrait et nom complet à venir.
         title: "Amélie",
         description:
           "Communication et marketing",
         image: {
-          src: "/collaborateurs/portrait-attente.png",
-          alt: "Portrait à venir de Amélie",
-        },
-      },
-      {
-        // TODO : portrait et nom complet à venir.
-        title: "Sasha",
-        description:
-          "Office manager",
-        image: {
-          src: "/collaborateurs/portrait-attente.png",
-          alt: "Portrait à venir de Sasha",
+          src: "/collaborateurs/amelie-chair-hd.jpg",
+          alt: "Portrait d'Amélie, Exuma",
         },
       },
     ],
