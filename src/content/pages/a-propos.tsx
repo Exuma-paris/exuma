@@ -135,13 +135,12 @@ export const sections: Section[] = [
         },
       },
       {
-        // TODO : portrait à venir.
         title: "Isabelle",
         description:
           "Responsable du pôle loisir et conciergerie",
         image: {
-          src: "/collaborateurs/portrait-attente.png",
-          alt: "Portrait à venir d'Isabelle",
+          src: "/collaborateurs/isabelle-chair-hd.jpg",
+          alt: "Portrait d'Isabelle, Exuma",
         },
       },
       {
