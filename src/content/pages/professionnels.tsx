@@ -236,12 +236,11 @@ export const sections: Section[] = [
       },
       {
         iconName: "fileText",
-        // Rédaction finale : seules les valeurs en 000 restent à remplacer par
-        // les vraies (attestation de garantie financière, attestation RCP du
-        // courtier, immatriculation Atout France). Rien d'autre à réécrire.
+        // Pas de montant de garantie financière affiché, à la demande d'Exuma.
+        // Assureur RCP repris des CGV.
         title: "Assurés, garantis, immatriculés",
         description:
-          `Immatriculation Atout France n° ${EXUMA_LEGAL.atoutFrance}, garantie financière de 000 000 €, responsabilité civile professionnelle souscrite auprès de 000. Les attestations vous sont transmises avant le premier dossier, sans que vous ayez à les réclamer.`,
+          `Immatriculation Atout France n° ${EXUMA_LEGAL.atoutFrance}, garantie financière souscrite, responsabilité civile professionnelle auprès de Generali. Les attestations vous sont transmises avant le premier dossier, sans que vous ayez à les réclamer.`,
       },
     ],
   },
