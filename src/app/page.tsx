@@ -197,8 +197,8 @@ export default function Home() {
               alt: "Un conseiller Exuma à son poste de travail, dans les bureaux d'Exuma",
             },
             {
-              src: "/service/pourquoi-exuma/couple-diner.png",
-              alt: "Un couple dîne dans un restaurant lumineux face à Notre-Dame de Paris",
+              src: "/professionnels/family-offices/temoignage-conseillers.jpg",
+              alt: "Deux conseillères Exuma en ligne avec des voyageurs",
             },
           ]}
           cta={{ label: "L'offre entreprises", href: "/professionnels" }}
