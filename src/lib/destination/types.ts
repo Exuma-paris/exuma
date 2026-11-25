@@ -61,6 +61,8 @@ export type Section =
       eyebrow?: string;
       heading: string;
       columns: string[];
+      /** Le « Ex » en tête des passages en gras prend le « ex » du logo. */
+      brandEx?: boolean;
       cta?: Cta;
       background?: string;
     }
@@ -68,6 +70,8 @@ export type Section =
       type: "fullImage";
       image: ImageRef;
       height?: number;
+      /** Proportions de la bande (« 1024 / 375 ») : remplace `height`. */
+      aspectRatio?: string;
     }
   | {
       type: "textImagesSplit";
@@ -76,6 +80,12 @@ export type Section =
       paragraphs: (string | { label: string; text: string })[];
       images: [ImageRef, ImageRef] | [ImageRef];
       cta?: Cta;
+      /** Second bouton, de même poids que le premier. */
+      secondaryCta?: Cta;
+      /** Boutons calés à droite de la colonne de texte plutôt qu'à gauche. */
+      ctaAlign?: "start" | "end";
+      /** Image seule calée sur la hauteur du texte, grand écran. */
+      imageFitsText?: boolean;
       /** Logo optionnel posé à droite du surtitre (partenaire, compagnie). */
       logo?: ImageRef;
       theme?: "light" | "dark";
@@ -199,6 +209,8 @@ export type Section =
       spots: { title: string; description: string }[];
       /** Logo optionnel posé à droite de l'en-tête (partenaire, éditeur). */
       logo?: ImageRef;
+      /** "timeline" : frise horizontale (4 à 6 moments courts). */
+      layout?: "list" | "timeline";
       background?: string;
     }
   | {
@@ -314,6 +326,20 @@ export type Section =
         detail: ReactNode;
         image: ImageRef;
       }[];
+      background?: string;
+    }
+  | {
+      type: "comparison";
+      eyebrow?: string;
+      heading: string;
+      description?: string;
+      /** Intitulés des deux offres comparées, dans l'ordre des colonnes. */
+      columns: [string, string];
+      /** Colonne mise en valeur (0 ou 1). Par défaut, la seconde. */
+      highlight?: 0 | 1;
+      rows: { label: string; detail?: string; values: [string, string] }[];
+      note?: string;
+      cta?: Cta;
       background?: string;
     }
   | {

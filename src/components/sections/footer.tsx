@@ -56,6 +56,12 @@ const certifications = [
     width: 320,
     height: 160,
   },
+  {
+    src: "/logos/logo-serendipians.png",
+    alt: "Serendipians by Traveller Made",
+    width: 320,
+    height: 160,
+  },
 ];
 
 function organizationJsonLd(siteUrl: string) {

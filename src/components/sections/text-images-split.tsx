@@ -17,6 +17,14 @@ export type TextImagesSplitSectionProps = {
     | [{ src: string; alt: string }];
   /** Optional link under the paragraphs. */
   cta?: { label: string; href: string };
+  /** Second bouton, de même poids que le premier : pour un encart qui ouvre
+   * deux portes à égalité (un bouton par paragraphe). */
+  secondaryCta?: { label: string; href: string };
+  /** Boutons calés à droite de la colonne de texte plutôt qu'à gauche. */
+  ctaAlign?: "start" | "end";
+  /** Image seule : sur grand écran, elle prend la hauteur du texte et du
+   * bouton au lieu de son format 4/5. */
+  imageFitsText?: boolean;
   /** Logo posé à droite du surtitre (partenaire, compagnie). */
   logo?: { src: string; alt: string };
   theme?: "light" | "dark";
@@ -67,6 +75,9 @@ export function TextImagesSplitSection({
   paragraphs,
   images,
   cta,
+  secondaryCta,
+  ctaAlign = "start",
+  imageFitsText = false,
   logo,
   theme = "light",
   background,
@@ -82,7 +93,12 @@ export function TextImagesSplitSection({
     >
       <section className="section-px mx-auto grid w-full max-w-layout gap-5 section-py md:grid-cols-2">
         {images.length === 1 ? (
-          <div className="relative aspect-4/5 w-full overflow-hidden md:self-center">
+          <div
+            className={cn(
+              "relative aspect-4/5 w-full overflow-hidden",
+              imageFitsText ? "md:aspect-auto md:h-full" : "md:self-center",
+            )}
+          >
             <Image
               src={images[0].src}
               alt={images[0].alt}
@@ -168,15 +184,26 @@ export function TextImagesSplitSection({
               ),
             )}
             {cta ? (
-              <Link
-                href={cta.href}
+              <div
                 className={cn(
-                  buttonVariants({ variant: isDark ? "secondary" : "default" }),
-                  "mt-2",
+                  "mt-2 flex flex-wrap gap-3",
+                  ctaAlign === "end" && "self-stretch justify-end",
                 )}
               >
-                {cta.label}
-              </Link>
+                {[cta, secondaryCta].map((link) =>
+                  link ? (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className={buttonVariants({
+                        variant: isDark ? "secondary" : "default",
+                      })}
+                    >
+                      {link.label}
+                    </Link>
+                  ) : null,
+                )}
+              </div>
             ) : null}
           </div>
         </div>

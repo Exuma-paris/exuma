@@ -35,6 +35,7 @@ import { getDestinationCardDescription } from "@/lib/content/queries";
 import { entityRoute } from "@/lib/content/types";
 import type { Destination } from "@/lib/content/types";
 import { renderIcon } from "./icons";
+import { ComparisonSection } from "@/components/sections/comparison";
 
 const ENTITY_PLACEHOLDER_IMAGE = {
   src: "/destination/polynesie/hero-1.png", // TODO: replace with proper neutral placeholder
@@ -114,6 +115,22 @@ export function renderSection(section: Section, key: string): ReactNode {
         />
       );
 
+    case "comparison":
+      return (
+        <ComparisonSection
+          key={key}
+          eyebrow={section.eyebrow}
+          heading={section.heading}
+          description={section.description}
+          columns={section.columns}
+          highlight={section.highlight}
+          rows={section.rows}
+          note={section.note}
+          cta={section.cta}
+          background={section.background}
+        />
+      );
+
     case "featureRows":
       return (
         <FeatureRowsSection
@@ -135,6 +152,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           eyebrow={section.eyebrow}
           heading={section.heading}
           columns={section.columns}
+          brandEx={section.brandEx}
           cta={section.cta}
           background={section.background}
         />
@@ -146,6 +164,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           key={key}
           image={section.image}
           height={section.height}
+          aspectRatio={section.aspectRatio}
         />
       );
 
@@ -158,6 +177,9 @@ export function renderSection(section: Section, key: string): ReactNode {
           paragraphs={section.paragraphs}
           images={section.images}
           cta={section.cta}
+          secondaryCta={section.secondaryCta}
+          ctaAlign={section.ctaAlign}
+          imageFitsText={section.imageFitsText}
           logo={section.logo}
           theme={section.theme}
           background={section.background}
@@ -280,6 +302,7 @@ export function renderSection(section: Section, key: string): ReactNode {
           cta={section.cta}
           spots={section.spots}
           logo={section.logo}
+          layout={section.layout}
           background={section.background}
         />
       );

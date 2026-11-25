@@ -11,6 +11,9 @@ export const PROFILE_OPTIONS = [
   { id: "family-office", label: "Family office ou assistante" },
   { id: "entreprise", label: "Entreprise ou cabinet" },
   { id: "dirigeant", label: "Dirigeant" },
+  // Ajouté avec la page /private-office. Clé envoyée à GTM : profil =
+  // "private-office" (prévenir Mathieu à chaque changement de liste).
+  { id: "private-office", label: "Pour le Private Office" },
   { id: "autre", label: "Autre" },
 ] as const;
 

@@ -59,6 +59,38 @@ export const sections: Section[] = [
   },
 
   {
+    // Bande basse en respiration entre « Notre métier » et le triptyque :
+    // la grande salle des bureaux de la maison (parquet, cheminée, fauteuils).
+    // Le fichier est recadré sous la suspension et sous les pieds des
+    // fauteuils ; la bande garde ses proportions pour ne rien recouper.
+    // TODO image : fichier en 1024 px de large, un peu juste sur les grands
+    // écrans ; l'original du photographe (2000 px et plus) serait plus net.
+    type: "fullImage",
+    aspectRatio: "1024 / 375",
+    image: {
+      src: "/professionnels/bureaux-salle.jpg",
+      alt: "La grande salle des bureaux d'Exuma, parquet en point de Hongrie et fauteuils en velours",
+    },
+  },
+
+  {
+    // Le triptyque de la marque, repris de l'accueil. Les colonnes sont
+    // adaptées pour ne pas redire « Notre métier » juste au-dessus (maison de
+    // conseils, prise en charge, train et tour du monde) ni le manifeste
+    // plus bas (discrétion, interlocuteur de référence). Pas de 1991 ici :
+    // l'histoire appartient à À propos.
+    type: "textColumns",
+    eyebrow: "Notre signature",
+    heading: "L'empreinte de l'excellence.",
+    brandEx: true,
+    columns: [
+      "**Exception.** Nous traitons chaque demande comme si elle était la seule : un rendez-vous à Genève à organiser pour demain matin, une table que l'on dit complète, un voyage composé à partir de vos envies plutôt que d'un catalogue.",
+      "**Excellence.** Tout commence par l'attention : écouter, retenir, anticiper. Chaque dossier est préparé avec rigueur, vérifié avant le départ et suivi jusqu'à votre retour, qu'il s'agisse d'un rendez-vous d'affaires ou de trois semaines d'évasion.",
+      "**Expérience.** Un chauffeur au pied de l'avion, le fast track, un salon qui vous attend : rien ne vient troubler votre agenda. Puis vient le temps du voyage : une felouque sur le Nil au coucher du soleil, Pétra avant les premiers visiteurs. Un déplacement réussi passe inaperçu ; un voyage Exuma se raconte longtemps après.",
+    ],
+  },
+
+  {
     // TODO : verbatim à valider avec Ludivine. Repris de la trame de table
     // ronde (ouverture et réponse sur la définition du luxe), tirets retirés.
     type: "specialistSpotlight",
@@ -72,6 +104,50 @@ export const sections: Section[] = [
       role: "Directrice d'Exuma",
       verified: true,
     },
+  },
+
+  {
+    // Les trois accompagnements de la maison, juste avant le manifeste qui
+    // dit ce qu'ils ont en commun. Textes repris de la présentation LinkedIn,
+    // raccourcis ; la felouque du Nil est déjà dans le triptyque plus haut,
+    // elle n'est montrée qu'en image ici.
+    type: "featureCards",
+    eyebrow: "Nos accompagnements",
+    heading: "Trois façons de nous confier ce qui compte",
+    description:
+      "Un même socle d'attention, trois accompagnements : selon votre profil et vos besoins, vers l'un ou l'autre, ou les deux.",
+    cards: [
+      {
+        title: "Corporate, VIP et MICE",
+        description:
+          "Cabinets d'avocats, maisons de mode, directions générales : un référent suit chaque déplacement, applique votre politique voyages et vous adresse une seule facture. Visas, chauffeurs, aviation privée, fast track, jusqu'à vos séminaires et incentives.",
+        image: {
+          src: "/professionnels/family-offices/arrivee-hotel.jpg",
+          alt: "Un voyageur d'affaires arrive en voiture avec chauffeur devant l'entrée d'un hôtel",
+        },
+        link: { label: "Professionnels", href: "/professionnels" },
+      },
+      {
+        title: "Conciergerie et Private Office",
+        description:
+          "Un personal assistant dédié et son binôme connaissent vos habitudes, vos proches, vos exigences. Ils réservent, coordonnent et anticipent, 24 h sur 24 pour le Private Office. Vous déléguez, nous portons la charge.",
+        image: {
+          src: "/service/conciergerie/personnel.png",
+          alt: "Une membre du personnel apporte un bouquet de fleurs dans une suite",
+        },
+        link: { label: "Le Private Office", href: "/private-office" },
+      },
+      {
+        title: "Travel design",
+        description:
+          "Nos conseillers partent de vos envies pour composer un voyage qui ne ressemble qu'à vous : un itinéraire pensé de bout en bout, des adresses choisies une à une, et quelqu'un qui veille sur vous jusqu'à votre retour.",
+        image: {
+          src: "/destination/egypte/full-image.webp",
+          alt: "Une felouque glisse sur le Nil, voile blanche, au soleil couchant",
+        },
+        link: { label: "Créer votre voyage", href: "/votre-projet" },
+      },
+    ],
   },
 
   {
