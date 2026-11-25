@@ -1,5 +1,5 @@
 import type { Section } from "@/lib/content/types";
-import { EXUMA_TEL_HREF } from "@/lib/exuma";
+import { EXUMA_LEGAL, EXUMA_TEL_HREF } from "@/lib/exuma";
 
 /**
  * Hub B2B `/professionnels`. Point d'entrée unique des trois cibles
@@ -241,7 +241,7 @@ export const sections: Section[] = [
         // courtier, immatriculation Atout France). Rien d'autre à réécrire.
         title: "Assurés, garantis, immatriculés",
         description:
-          "Immatriculation Atout France n° IM000000000, garantie financière de 000 000 €, responsabilité civile professionnelle souscrite auprès de 000. Les attestations vous sont transmises avant le premier dossier, sans que vous ayez à les réclamer.",
+          `Immatriculation Atout France n° ${EXUMA_LEGAL.atoutFrance}, garantie financière de 000 000 €, responsabilité civile professionnelle souscrite auprès de 000. Les attestations vous sont transmises avant le premier dossier, sans que vous ayez à les réclamer.`,
       },
     ],
   },
