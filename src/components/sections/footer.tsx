@@ -14,6 +14,7 @@ import { getMenuGroups, menuCtas, proLink } from "@/lib/content/menu-groups";
 import {
   EXUMA_ADDRESS,
   EXUMA_EMAIL,
+  EXUMA_LEGAL,
   EXUMA_PHONE,
   EXUMA_POSTAL_ADDRESS,
   EXUMA_SOCIALS,
@@ -280,7 +281,8 @@ export function Footer({ className }: { className?: string }) {
       <Band className="flex flex-col gap-4 py-6 text-xs text-background/60 md:flex-row md:items-center md:justify-between">
         <p>
           © {new Date().getFullYear()} Exuma, maison de conseils privée. Tous
-          droits réservés.
+          droits réservés. Immatriculation Atout France{"\u00a0"}:{" "}
+          {EXUMA_LEGAL.atoutFrance}.
         </p>
         <ul className="flex flex-wrap gap-x-6 gap-y-2">
           {legalLinks.map((l) => (

@@ -1,5 +1,5 @@
 import type { Section } from "@/lib/content/types";
-import { EXUMA_TEL_HREF } from "@/lib/exuma";
+import { EXUMA_LEGAL, EXUMA_TEL_HREF } from "@/lib/exuma";
 
 /**
  * Porte B du hub B2B : `/professionnels/entreprises`. Cible les directions dont
@@ -335,11 +335,11 @@ export const sections: Section[] = [
     items: [
       {
         iconName: "fileText",
-        // TODO : seules les valeurs en 000 restent à remplacer par les vraies
-        // (garantie financière, RCP du courtier, immatriculation Atout France).
+        // Pas de montant de garantie financière affiché, à la demande d'Exuma.
+        // Assureur RCP repris des CGV.
         title: "Assurés, garantis, immatriculés",
         description:
-          "Immatriculation Atout France n° IM000000000, garantie financière de 000 000 €, responsabilité civile professionnelle souscrite auprès de 000. Les attestations vous sont transmises avant le premier dossier, sans que vous ayez à les réclamer.",
+          `Immatriculation Atout France n° ${EXUMA_LEGAL.atoutFrance}, garantie financière souscrite, responsabilité civile professionnelle auprès de Generali. Les attestations vous sont transmises avant le premier dossier, sans que vous ayez à les réclamer.`,
       },
       {
         iconName: "badgeCheck",
